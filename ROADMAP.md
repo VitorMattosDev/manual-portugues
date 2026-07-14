@@ -21,13 +21,13 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 11 | Processos fonológicos do português brasileiro | `capitulos/cap-11-processos-fonologicos.qmd` | 2 | ✅ 2026-07-14 |
 | 12 | Ortoépia e prosódia | `capitulos/cap-12-ortoepia-prosodia.qmd` | 2 | ✅ 2026-07-14 |
 | 13 | Noções de fonética articulatória: o trapézio vocálico | `capitulos/cap-13-fonetica-articulatoria-trapezio.qmd` | 2 | ✅ 2026-07-14 |
-| 14 | O alfabeto e o sistema ortográfico | `capitulos/cap-14-alfabeto-sistema-ortografico.qmd` | 3 | ⬜ |
-| 15 | Emprego de letras: os casos problemáticos | `capitulos/cap-15-emprego-de-letras.qmd` | 3 | ⬜ |
-| 16 | O Acordo Ortográfico de 1990 | `capitulos/cap-16-acordo-ortografico-1990.qmd` | 3 | ⬜ |
-| 17 | Acentuação gráfica: regras fundamentais | `capitulos/cap-17-acentuacao-regras-fundamentais.qmd` | 3 | ⬜ |
-| 18 | Acentuação gráfica: casos especiais | `capitulos/cap-18-acentuacao-casos-especiais.qmd` | 3 | ⬜ |
-| 19 | Emprego do hífen | `capitulos/cap-19-emprego-do-hifen.qmd` | 3 | ⬜ |
-| 20 | Maiúsculas, abreviaturas, siglas e símbolos | `capitulos/cap-20-maiusculas-abreviaturas-siglas.qmd` | 3 | ⬜ |
+| 14 | O alfabeto e o sistema ortográfico | `capitulos/cap-14-alfabeto-sistema-ortografico.qmd` | 3 | ✅ 2026-07-14 |
+| 15 | Emprego de letras: os casos problemáticos | `capitulos/cap-15-emprego-de-letras.qmd` | 3 | ✅ 2026-07-14 |
+| 16 | O Acordo Ortográfico de 1990 | `capitulos/cap-16-acordo-ortografico-1990.qmd` | 3 | ✅ 2026-07-14 |
+| 17 | Acentuação gráfica: regras fundamentais | `capitulos/cap-17-acentuacao-regras-fundamentais.qmd` | 3 | ✅ 2026-07-14 |
+| 18 | Acentuação gráfica: casos especiais | `capitulos/cap-18-acentuacao-casos-especiais.qmd` | 3 | ✅ 2026-07-14 |
+| 19 | Emprego do hífen | `capitulos/cap-19-emprego-do-hifen.qmd` | 3 | ✅ 2026-07-14 |
+| 20 | Maiúsculas, abreviaturas, siglas e símbolos | `capitulos/cap-20-maiusculas-abreviaturas-siglas.qmd` | 3 | ✅ 2026-07-14 |
 | 21 | Morfema: as unidades mínimas de significado | `capitulos/cap-21-morfema-unidades-minimas.qmd` | 4 | ⬜ |
 | 22 | Estrutura das palavras: radical, afixos e desinências | `capitulos/cap-22-estrutura-das-palavras.qmd` | 4 | ⬜ |
 | 23 | Formação de palavras I: derivação | `capitulos/cap-23-formacao-derivacao.qmd` | 4 | ⬜ |

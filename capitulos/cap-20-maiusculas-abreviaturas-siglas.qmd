@@ -4,22 +4,280 @@ title: "Maiúsculas, abreviaturas, siglas e símbolos"
 
 # Maiúsculas, abreviaturas, siglas e símbolos {#sec-cap-20}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 3 — Ortografia e Acentuação.
+> "Escrever bem é também respeitar as pequenas convenções: a maiúscula certa, o ponto
+> na abreviatura, o símbolo sem plural."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o Volume 3 com um conjunto de convenções que, embora pareçam menores,
+distinguem o texto cuidado do texto descuidado — e são cobradas em provas de redação
+oficial e concursos: o uso das **letras maiúsculas e minúsculas**, a formação de
+**abreviaturas**, a grafia de **siglas** e o emprego de **símbolos**. São regras que a
+pressa faz esquecer, mas que revelam domínio da norma.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Ao contrário dos capítulos anteriores, muito baseados em regras fonéticas ou
+etimológicas, aqui estamos no terreno das **convenções de escrita** — decisões
+padronizadas pela tradição e por manuais oficiais. Vamos organizá-las de forma
+prática, com atenção aos pontos que mais geram dúvida (nomes de disciplinas, cargos,
+símbolos de unidades).
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** as regras de uso das iniciais maiúsculas e minúsculas;
+- **Distinguir** os casos em que a maiúscula é obrigatória, facultativa ou vedada;
+- **Formar** abreviaturas corretamente (com ponto, mantendo a acentuação);
+- **Grafar** siglas conforme o número de letras e a pronúncia;
+- **Empregar** símbolos de unidades (sem ponto, sem plural);
+- **Corrigir** erros frequentes de maiúsculas e abreviações.
+
+## Iniciais maiúsculas: quando usar
+
+A @fig-maiusculas separa os casos obrigatórios dos vedados. A regra de fundo é: a
+**maiúscula individualiza** (nomes próprios, entidades específicas); a **minúscula
+generaliza** (nomes comuns, categorias).
+
+::: {#fig-maiusculas}
+
+```{.tikz}
+%%| filename: maiusculas
+%%| alt: Duas colunas contrastando o uso de maiúscula e minúscula. Coluna maiúscula obrigatória: início de frase, nomes próprios de pessoas e lugares, instituições, obras. Coluna minúscula: nomes de meses, dias da semana, pontos cardeais em sentido genérico, gentílicos, disciplinas em contexto comum.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=54mm, minimum height=38mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{MAIÚSCULA (individualiza)}\\[3pt] • início de frase e de verso\\ • nomes de pessoas: \emph{Ana}, \emph{Machado}\\ • lugares: \emph{Brasil}, \emph{Recife}\\ • instituições: \emph{Ministério da Saúde}\\ • obras/eventos: \emph{Dom Casmurro}\\ • siglas: \emph{ONU}, \emph{IBGE}};
+  \node[cx, draw=manualred, fill=manualred!8, right=6mm of a] (b) {\textbf{minúscula (generaliza)}\\[3pt] • meses e dias: \emph{janeiro}, \emph{segunda}\\ • estações: \emph{verão}, \emph{outono}\\ • gentílicos: \emph{brasileiro}, \emph{mineiro}\\ • pontos cardeais (genéricos): \emph{ao sul}\\ • disciplinas (comum): \emph{estudo matemática}\\ • cargos (genéricos): \emph{o presidente}};
+\end{tikzpicture}
+```
+
+A lógica das iniciais: **maiúscula** para o que individualiza (nomes próprios,
+entidades específicas); **minúscula** para o que generaliza (categorias, nomes
+comuns).
+:::
+
+### Maiúscula obrigatória
+
+- **Início de frase** e após ponto final, de interrogação, de exclamação.
+- **Nomes próprios** de pessoas (*Carlos*, *Clarice Lispector*), lugares (*Brasil*,
+  *Rio de Janeiro*, *Amazonas*), astros (*Terra*, *Marte* — como astros).
+- **Instituições e entidades** específicas: *Ministério da Educação*, *Universidade de
+  São Paulo*, *Igreja Católica*.
+- **Títulos de obras e nomes de eventos**: *Grande Sertão: Veredas*, *Semana de Arte
+  Moderna*.
+- **Siglas**: *ONU*, *IBGE*, *STF*.
+
+### Minúscula (não se usa maiúscula)
+
+- **Meses, dias da semana, estações**: *janeiro*, *segunda-feira*, *primavera*.
+- **Gentílicos**: *brasileiro*, *paulista*, *carioca* (mas o nome do lugar, maiúsculo:
+  *São Paulo*).
+- **Pontos cardeais** em sentido genérico: *viajou para o sul*; mas **maiúsculo** quando
+  designam **região**: *o Nordeste brasileiro*, *o Sul do país*.
+- **Nomes de disciplinas** em contexto comum (facultativo): *gosto de matemática*
+  (mas pode-se usar maiúscula em contexto acadêmico formal).
+
+### Casos facultativos
+
+O Acordo tornou **facultativas** as maiúsculas em vários casos:
+
+- **títulos** e **formas de tratamento**: *o Presidente* / *o presidente*; *Doutor* /
+  *doutor*.
+- **nomes de disciplinas e áreas**: *História* / *história*.
+- **santos** e categorias religiosas: *São Pedro* (nome próprio, maiúsculo), mas *o
+  santo* (comum).
+
+## Abreviaturas
+
+**Abreviatura** é a redução da palavra a algumas de suas letras, com **ponto**
+abreviativo. Regras:
+
+- Termina com **ponto** e, em geral, na consoante anterior à primeira vogal ou na
+  sílaba: *pág.* (página), *séc.* (século), *cap.* (capítulo), *Dr.* (doutor), *V.
+  Ex.ª* (Vossa Excelência).
+- **Mantém-se a acentuação** da palavra original: *pág.* (não *"pag."*), *séc.*.
+- No **plural**, muitas dobram a letra ou acrescentam *s*: *pp.* (páginas), *ss.*
+  (seguintes), *séc.* → *sécs.*.
+
+## Siglas
+
+**Sigla** é a redução de um nome composto às iniciais de suas palavras. A grafia
+depende do número de letras e da pronúncia:
+
+- Siglas com **até 3 letras**: tudo maiúsculo — *ONU*, *STF*, *PIB*, *CEP*.
+- Siglas com **4 ou mais letras**, lidas como **palavra** (soletração fluida): só a
+  inicial maiúscula ou tudo maiúsculo, conforme o uso consagrado — *Unesco*/*UNESCO*,
+  *Bradesco*, *Petrobras*, *Detran*.
+- Siglas lidas **letra a letra**: costumam ficar todas maiúsculas — *BNDES*, *IPTU*
+  (embora *IPTU* se soletre), *INSS*.
+- **Não** se usa ponto entre as letras (não *"O.N.U."*) nem apóstrofo no plural: o
+  plural, quando marcado, faz-se com *-s* minúsculo sem apóstrofo — *os CDs*, *as
+  ONGs*, *os DVDs* (nunca *"CD's"*).
+
+::: {.callout-important}
+## O apóstrofo no plural de siglas é erro
+Escreve-se *os CDs*, *as ONGs*, *os IPs* — com *s* minúsculo, **sem** apóstrofo. A
+forma *"CD's"*, *"ONG's"* é decalque do inglês e considerada **incorreta** na norma do
+português. Pegadinha recorrente em concursos.
+:::
+
+## Símbolos
+
+**Símbolos** de unidades de medida, elementos químicos e pontos cardeais **não são
+abreviaturas** — seguem convenções internacionais e comportam-se diferente:
+
+- **Não** levam ponto: *km* (não *"km."*), *kg*, *m*, *h*, *N*, *S*, *L*, *O*.
+- **Não** variam no plural: *5 km* (não *"5 kms"*), *3 kg*, *10 m*.
+- Respeitam maiúsculas/minúsculas fixadas: *kg* (minúsculo), *W* (watt, maiúsculo),
+  *km* (minúsculo), *Hz* (hertz).
+- Separam-se do número por espaço: *50 kg*, *100 km/h*.
+
+## 📋 Quadro-resumo
+
+| Categoria | Regra-chave | Exemplo correto | Erro comum |
+|---|---|---|---|
+| **Maiúscula** | Individualiza (nome próprio, entidade) | *Ministério da Saúde* | *janeiro* (não *Janeiro*) |
+| **Minúscula** | Generaliza (meses, gentílicos) | *brasileiro*, *março* | — |
+| **Abreviatura** | Ponto + acento mantido | *pág.*, *séc.*, *Dr.* | *"pag"* sem ponto |
+| **Sigla** | Sem pontos; plural sem apóstrofo | *ONU*, *os CDs* | *"O.N.U."*, *"CD's"* |
+| **Símbolo** | Sem ponto, sem plural | *5 km*, *3 kg* | *"5 kms"*, *"km."* |
+
+Em uma linha: **maiúscula** individualiza (nomes próprios/entidades) e **minúscula**
+generaliza; **abreviaturas** levam ponto e conservam o acento; **siglas** não têm ponto
+e fazem plural sem apóstrofo (*os CDs*); **símbolos** não têm ponto nem plural (*5 km*).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Maiúscula em meses, dias e gentílicos.** Escreve-se *janeiro*, *segunda-feira*,
+  *brasileiro* — tudo **minúsculo**. Só o nome do lugar é maiúsculo (*Brasil*).
+- **Apóstrofo no plural de siglas.** O correto é *os CDs*, *as ONGs*, **sem**
+  apóstrofo. *"CD's"* é erro.
+- **Ponto ou plural em símbolos.** *km*, *kg*, *m* não levam ponto (*"km."* está errado)
+  nem *s* de plural (*"5 kms"* está errado): escreve-se *5 km*.
+- **Confundir símbolo com abreviatura.** *Pág.* (abreviatura) leva ponto; *km*
+  (símbolo) não. Abreviatura tem ponto; símbolo não.
+- **Maiúscula em pontos cardeais genéricos.** *Viajou para o sul* (direção,
+  minúsculo); mas *o Sul do país* (região, maiúsculo). Depende do sentido.
+
+## ✍️ Exercícios
+
+**1.** Explique a lógica geral que rege o uso de iniciais maiúsculas e minúsculas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **maiúscula individualiza**: usa-se em nomes próprios e entidades específicas
+(*Brasil*, *Ministério da Saúde*, *Machado de Assis*), além do início de frase. A
+**minúscula generaliza**: usa-se em nomes comuns e categorias (*janeiro*, *verão*,
+*brasileiro*, *o presidente* em sentido genérico). Individualizar → maiúscula;
+generalizar → minúscula.
+:::
+
+**2.** (Estilo ENEM) Assinale a alternativa em que **todas** as palavras estão
+corretamente grafadas quanto à inicial:
+
+a) Brasileiro, Janeiro, Nordeste;
+b) brasileiro, janeiro, Nordeste (região);
+c) Brasileiro, janeiro, nordeste;
+d) brasileiro, Janeiro, nordeste;
+e) Brasileiro, Janeiro, nordeste.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Brasileiro* (gentílico) → minúscula; *janeiro* (mês) → minúscula;
+*Nordeste* (região específica) → maiúscula. As demais erram ao usar maiúscula em
+gentílico ou mês, ou minúscula na região.
+:::
+
+**3.** Grafe as abreviaturas de: (a) página; (b) século; (c) doutor.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *pág.* (com acento e ponto). (b) *séc.* (com acento e ponto). (c) *Dr.* (maiúsculo,
+com ponto). As abreviaturas conservam a acentuação da palavra original e terminam com
+ponto abreviativo.
+:::
+
+**4.** Corrija o plural das siglas: "Comprei três CD's e doei a duas ONG's."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Comprei três **CDs** e doei a duas **ONGs**." O plural de siglas faz-se com *s*
+**minúsculo** e **sem apóstrofo**. As formas *"CD's"* e *"ONG's"* (com apóstrofo) são
+decalque do inglês e consideradas incorretas na norma do português.
+:::
+
+**5.** Explique a diferença entre abreviatura e símbolo, quanto ao ponto e ao plural.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **abreviatura** (*pág.*, *séc.*, *Dr.*) leva **ponto** abreviativo e pode variar no
+plural (*pp.* para páginas). O **símbolo** (*km*, *kg*, *m*, *h*) **não** leva ponto e
+**não** varia no plural (*5 km*, não *"5 kms"* nem *"5 km."*). Símbolos seguem
+convenções internacionais fixas; abreviaturas, a convenção ortográfica do português.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa **correta**:
+
+a) Percorri 50 kms em 2 hs.;
+b) Percorri 50 km em 2 h;
+c) Percorri 50 km. em 2 h.;
+d) Percorri 50 Km em 2 H;
+e) Percorri 50 kms. em 2 hs.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *50 km* e *2 h*: símbolos sem ponto, sem plural, com espaço após o
+número e nas grafias corretas (*km* minúsculo, *h* minúsculo). As demais erram ao
+pluralizar (*kms*), pôr ponto (*km.*) ou usar maiúscula indevida (*Km*, *H*).
+:::
+
+**7.** Quando os pontos cardeais são escritos com maiúscula e quando com minúscula?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Com **minúscula** quando indicam **direção** ou sentido genérico: *viajou para o sul*,
+*o vento vem do norte*. Com **maiúscula** quando designam uma **região** específica: *o
+Nordeste brasileiro*, *o Sul do país*, *o Oriente Médio*. O critério é o sentido:
+direção (minúscula) × região/entidade geográfica (maiúscula).
+:::
+
+**8.** Classifique quanto à grafia da sigla e justifique: (a) ONU; (b) Unesco.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *ONU* — sigla de **três letras**: escreve-se toda em maiúscula. (b) *Unesco* —
+sigla de **mais de três letras** lida como **palavra** (não soletrada): grafa-se com
+apenas a inicial maiúscula (embora a forma toda em maiúsculas, *UNESCO*, também apareça
+consagrada). O número de letras e a forma de leitura orientam a grafia.
+:::
+
+**9.** Reescreva corrigindo os erros: "Nasci em Março, numa Segunda-feira, no Sul de
+minas gerais."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Nasci em **março**, numa **segunda-feira**, no **sul** de **Minas Gerais**."
+Correções: *Março* → *março* (mês, minúsculo); *Segunda-feira* → *segunda-feira* (dia,
+minúsculo); *Sul* → *sul* (aqui como direção/localização genérica dentro do estado,
+minúsculo); *minas gerais* → *Minas Gerais* (nome próprio de estado, maiúsculo).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "As formas *km.*, *kgs* e *CD's* estão
+todas de acordo com a norma."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** As três estão **incorretas**: *km.* (símbolo não leva ponto → *km*); *kgs*
+(símbolo não varia no plural → *kg*); *CD's* (plural de sigla não leva apóstrofo → *CDs*).
+As formas corretas seriam *km*, *kg* e *CDs*.
+:::
+
+## 📚 Referências
+
+As convenções de maiúsculas, abreviaturas, siglas e símbolos seguem o Acordo de 1990 e
+os manuais de redação oficial, consolidados por Bechara [@bechara2009] e Cunha & Cintra
+[@cunhacintra2017]; a fonte de grafias é o VOLP. Com este capítulo encerra-se o Volume
+3; o Volume 4 abre o estudo da morfologia, começando pelo morfema.
+
+::: {#refs}
 :::
