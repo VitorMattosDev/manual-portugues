@@ -4,22 +4,317 @@ title: "Panorama das dez classes de palavras"
 
 # Panorama das dez classes de palavras {#sec-cap-26}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "Classificar as palavras é o primeiro gesto de quem quer entender como a frase se
+> arma."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 5 com um mapa. Antes de estudar cada classe de palavras em detalhe —
+substantivo, adjetivo, verbo, pronome... —, convém ter uma visão panorâmica de
+**todas** elas e dos critérios que as separam. A tradição gramatical brasileira (a
+NGB, Nomenclatura Gramatical Brasileira) reconhece **dez classes de palavras** (ou
+"classes gramaticais", ou "categorias"), e saber reconhecê-las é a base de toda a
+morfologia e de boa parte da sintaxe.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo apresenta as dez classes, os critérios de classificação (mórfico,
+sintático, semântico), a distinção entre classes **variáveis** e **invariáveis**, e o
+fenômeno crucial de que **uma mesma palavra pode mudar de classe** conforme o contexto.
+É o índice do volume: cada classe aqui esboçada ganhará um capítulo próprio adiante.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Enumerar** as dez classes de palavras da NGB;
+- **Distinguir** classes variáveis de invariáveis;
+- **Aplicar** os critérios mórfico, sintático e semântico de classificação;
+- **Reconhecer** que a classe depende do **uso** na frase, não da palavra isolada;
+- **Diferenciar** palavras de conteúdo de palavras gramaticais;
+- **Classificar** palavras em contextos concretos.
+
+## As dez classes
+
+A NGB reconhece dez classes de palavras, que a @fig-dez-classes distribui entre
+variáveis e invariáveis.
+
+::: {#fig-dez-classes}
+
+```{.tikz}
+%%| filename: dez-classes
+%%| alt: Diagrama dividindo as dez classes de palavras em dois grupos. Variáveis (flexionam): substantivo, artigo, adjetivo, numeral, pronome, verbo. Invariáveis (não flexionam): advérbio, preposição, conjunção, interjeição. Cada classe aparece numa caixa dentro do seu grupo.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  grp/.style={rounded corners=4pt, draw, thick, inner sep=6pt},
+  cl/.style={rounded corners=2pt, draw=manualgray, fill=white, minimum width=24mm, minimum height=7mm, align=center, font=\small},
+]
+  % Variáveis
+  \node[cl] (subst) at (0,3) {substantivo};
+  \node[cl] (art) at (2.6,3) {artigo};
+  \node[cl] (adj) at (5.2,3) {adjetivo};
+  \node[cl] (num) at (0,2.1) {numeral};
+  \node[cl] (pron) at (2.6,2.1) {pronome};
+  \node[cl] (verb) at (5.2,2.1) {verbo};
+  \begin{pgfonlayer}{background}
+    \node[grp, draw=manualblue, fill=manualblue!8, fit=(subst)(art)(adj)(num)(pron)(verb), label={[text=manualblue,font=\bfseries]above:VARIÁVEIS (flexionam)}] {};
+  \end{pgfonlayer}
+
+  % Invariáveis
+  \node[cl] (adv) at (0,-0.3) {advérbio};
+  \node[cl] (prep) at (2.6,-0.3) {preposição};
+  \node[cl] (conj) at (0,-1.2) {conjunção};
+  \node[cl] (interj) at (2.6,-1.2) {interjeição};
+  \begin{pgfonlayer}{background}
+    \node[grp, draw=manualred, fill=manualred!8, fit=(adv)(prep)(conj)(interj), label={[text=manualred,font=\bfseries]above:INVARIÁVEIS (não flexionam)}] {};
+  \end{pgfonlayer}
+\end{tikzpicture}
+```
+
+As dez classes de palavras da NGB, divididas em **variáveis** (que flexionam:
+substantivo, artigo, adjetivo, numeral, pronome, verbo) e **invariáveis** (advérbio,
+preposição, conjunção, interjeição).
+:::
+
+Em resumo, cada classe e seu papel básico:
+
+1. **Substantivo**: nomeia seres, coisas, ideias, sentimentos — *casa*, *amor*,
+   *Brasil*. (@sec-cap-27)
+2. **Artigo**: determina o substantivo, definindo-o ou não — *o*, *a*, *um*, *uma*.
+   (@sec-cap-28)
+3. **Adjetivo**: caracteriza o substantivo, atribuindo-lhe qualidade/estado — *bonito*,
+   *azul*, *brasileiro*. (@sec-cap-29)
+4. **Numeral**: indica quantidade, ordem, fração, múltiplo — *dois*, *segundo*,
+   *dobro*. (@sec-cap-28)
+5. **Pronome**: substitui ou acompanha o substantivo, situando-o — *ele*, *meu*,
+   *este*, *que*. (@sec-cap-30 e @sec-cap-31)
+6. **Verbo**: exprime ação, estado, fenômeno, situando-os no tempo — *correr*, *ser*,
+   *chover*. (@sec-cap-32 a @sec-cap-34)
+7. **Advérbio**: modifica verbo, adjetivo ou outro advérbio — *rapidamente*, *muito*,
+   *ontem*. (@sec-cap-35)
+8. **Preposição**: liga palavras, estabelecendo relação — *de*, *para*, *com*, *em*.
+   (@sec-cap-35)
+9. **Conjunção**: liga orações ou termos de mesma função — *e*, *mas*, *porque*,
+   *que*. (@sec-cap-35)
+10. **Interjeição**: exprime emoção ou reação de modo súbito — *ah!*, *ui!*, *oba!*.
+    (@sec-cap-35)
+
+## Variáveis × invariáveis
+
+O primeiro grande corte é **mórfico** (pela flexão):
+
+- **Variáveis** (flexionam-se em gênero, número, grau, pessoa, tempo...): substantivo,
+  artigo, adjetivo, numeral, pronome, verbo.
+- **Invariáveis** (não flexionam — têm forma fixa): advérbio, preposição, conjunção,
+  interjeição.
+
+Cuidado com detalhes: o advérbio, invariável, admite grau (*muito*/*muitíssimo*), mas
+não flexão de gênero/número; alguns numerais são invariáveis (*três*, *quatro*).
+
+## Os três critérios de classificação
+
+Classificar uma palavra corretamente exige combinar **três critérios**, pois nenhum
+basta sozinho:
+
+- **Critério mórfico** (forma): a palavra flexiona? Como? (gênero/número → nome; tempo/
+  pessoa → verbo).
+- **Critério sintático** (função): que papel exerce na frase? (núcleo do sujeito →
+  substantivo; adjunto adnominal → adjetivo; liga orações → conjunção).
+- **Critério semântico** (sentido): que tipo de significado carrega? (nomeia ser;
+  indica qualidade; exprime ação).
+
+O critério **sintático** costuma ser o mais decisivo, porque a mesma palavra pode mudar
+de classe conforme sua função — como veremos a seguir.
+
+::: {.callout-important}
+## A classe depende do uso, não da palavra isolada
+Uma palavra não "é" de uma classe fixa fora da frase: ela **funciona** como tal em um
+contexto. A palavra *jantar* é verbo em "Vou *jantar*" e substantivo em "O *jantar*
+está pronto". *Cedo* é advérbio em "Cheguei *cedo*" e verbo em "Eu *cedo* meus
+direitos". Por isso, para classificar com segurança, é preciso **ver a palavra na
+frase** — nunca classificar "no vácuo".
+:::
+
+## Palavras de conteúdo × palavras gramaticais
+
+Um corte complementar, útil para a leitura:
+
+- **Palavras de conteúdo** (ou lexicais): têm significado "de dicionário" e formam
+  classe **aberta** (recebem palavras novas): substantivos, adjetivos, verbos,
+  advérbios de modo. São o "conteúdo" do texto.
+- **Palavras gramaticais** (ou funcionais): têm sobretudo função de ligação/estruturação
+  e formam classe **fechada** (não recebem palavras novas): artigos, preposições,
+  conjunções, pronomes. São o "cimento" que estrutura a frase.
+
+Essa distinção explica por que surgem substantivos e verbos novos a todo momento
+(*selfie*, *tuitar*), mas quase nunca uma preposição nova: as classes fechadas são
+estáveis.
+
+## 📋 Quadro-resumo
+
+| Classe | Papel | Variável? |
+|---|---|---|
+| **Substantivo** | Nomeia | Sim |
+| **Artigo** | Determina o substantivo | Sim |
+| **Adjetivo** | Caracteriza o substantivo | Sim |
+| **Numeral** | Indica quantidade/ordem | Sim (em parte) |
+| **Pronome** | Substitui/acompanha o nome | Sim |
+| **Verbo** | Exprime ação/estado no tempo | Sim |
+| **Advérbio** | Modifica verbo/adjetivo/advérbio | Não (só grau) |
+| **Preposição** | Liga com relação de dependência | Não |
+| **Conjunção** | Liga orações/termos | Não |
+| **Interjeição** | Exprime emoção | Não |
+
+Em uma linha: são **dez** as classes — seis **variáveis** (substantivo, artigo,
+adjetivo, numeral, pronome, verbo) e quatro **invariáveis** (advérbio, preposição,
+conjunção, interjeição) —, classificadas por critérios **mórfico, sintático e
+semântico**, sendo a classe dependente do **uso** na frase.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Classificar a palavra fora da frase.** A mesma palavra muda de classe conforme a
+  função: *jantar* (verbo/substantivo), *cedo* (advérbio/verbo). Sempre veja o contexto.
+- **Achar que advérbio é sempre invariável em tudo.** Ele não flexiona em gênero/número,
+  mas admite **grau** (*perto*/*pertíssimo*). Invariável não significa "sem nenhuma
+  variação".
+- **Confundir numeral com pronome ou artigo.** *Um* pode ser numeral ("comprei *um*
+  livro, não dois"), artigo indefinido ("*um* livro qualquer") ou pronome — depende do
+  sentido e da função.
+- **Misturar os critérios.** Nenhum critério isolado basta: combine forma (mórfico),
+  função (sintático) e sentido (semântico) — com destaque para a função.
+- **Supor que preposições e conjunções recebem palavras novas.** São classes
+  **fechadas**: praticamente não surgem preposições ou conjunções novas, ao contrário
+  de substantivos e verbos.
+
+## ✍️ Exercícios
+
+**1.** Enumere as dez classes de palavras e separe-as em variáveis e invariáveis.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Variáveis** (6): substantivo, artigo, adjetivo, numeral, pronome, verbo.
+**Invariáveis** (4): advérbio, preposição, conjunção, interjeição. As variáveis
+flexionam (gênero, número, grau, pessoa, tempo); as invariáveis têm forma fixa (o
+advérbio admite apenas grau).
+:::
+
+**2.** (Estilo ENEM) Na frase "O *jantar* estava delicioso", a palavra *jantar* é:
+
+a) verbo, pois indica ação;
+b) substantivo, pois é núcleo do sujeito, determinado pelo artigo *o*;
+c) advérbio;
+d) adjetivo;
+e) conjunção.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Embora *jantar* seja verbo em outros contextos ("Vou jantar"),
+aqui funciona como **substantivo**: é núcleo do sujeito, vem determinado pelo artigo
+*o* e é caracterizado pelo adjetivo *delicioso*. A classe depende do **uso** na frase
+(derivação imprópria).
+:::
+
+**3.** Classifique cada palavra sublinhada em "*Ontem*, *ele* comprou *dois* livros
+*e* saiu": ontem, ele, dois, e.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Ontem* = advérbio (de tempo, modifica o verbo, invariável). *Ele* = pronome (pessoal,
+substitui o nome). *Dois* = numeral (indica quantidade). *E* = conjunção (liga as
+orações "comprou..." e "saiu"). Cada uma exerce função e sentido próprios de sua
+classe.
+:::
+
+**4.** Explique os três critérios de classificação e por que nenhum basta sozinho.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(1) **Mórfico**: pela flexão (nome flexiona em gênero/número; verbo, em tempo/pessoa).
+(2) **Sintático**: pela função na frase (núcleo do sujeito → substantivo; liga orações
+→ conjunção). (3) **Semântico**: pelo tipo de sentido (nomeia ser; exprime ação).
+Nenhum basta sozinho porque há ambiguidades: o critério semântico, por exemplo, falha
+com palavras de sentido abstrato; o mórfico não distingue palavras invariáveis. Por
+isso se combinam os três, com destaque para o sintático (a função).
+:::
+
+**5.** Por que se diz que a classe de uma palavra depende do uso? Ilustre com *cedo*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a mesma palavra pode pertencer a classes diferentes conforme sua **função** na
+frase. *Cedo* é **advérbio** de tempo em "Cheguei *cedo*" (modifica o verbo), mas é
+**verbo** (1ª pessoa do presente de *ceder*) em "Eu *cedo* meus direitos". Fora da
+frase, não se pode decidir a classe: é o contexto sintático que a determina.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa que contém apenas palavras de classes
+**invariáveis**:
+
+a) casa, correr, azul;
+b) rapidamente, de, mas, ah;
+c) o, um, este, dois;
+d) ele, meu, que;
+e) bonito, amor, três.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Rapidamente* (advérbio), *de* (preposição), *mas* (conjunção) e
+*ah* (interjeição) são todas de classes **invariáveis**. As demais alternativas contêm
+palavras variáveis (substantivos, verbos, adjetivos, artigos, pronomes, numerais).
+:::
+
+**7.** Distinga palavras de **conteúdo** de palavras **gramaticais**, dando exemplos e
+explicando a noção de classe aberta/fechada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Palavras de conteúdo** (lexicais) têm significado de dicionário e formam classe
+**aberta** (recebem palavras novas): substantivos (*selfie*), adjetivos, verbos
+(*tuitar*), advérbios de modo. **Palavras gramaticais** (funcionais) têm função de
+ligação/estruturação e formam classe **fechada** (não recebem palavras novas):
+artigos, preposições, conjunções, pronomes. Por isso surgem substantivos e verbos
+novos com frequência, mas praticamente nunca uma preposição nova.
+:::
+
+**8.** A palavra *um* pode pertencer a mais de uma classe. Dê duas frases que ilustrem
+classes diferentes.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(1) **Numeral**: "Comprei *um* livro, não dois." (indica quantidade exata, em oposição
+a outra). (2) **Artigo indefinido**: "Vi *um* livro na estante." (apenas introduz o
+substantivo de modo indefinido, sem ênfase na quantidade). O sentido e a função na
+frase decidem: quantidade contável → numeral; mera indefinição → artigo.
+:::
+
+**9.** Um estudante afirma: "Advérbio é classe invariável, então *muito* nunca varia."
+Comente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação precisa ser matizada. O advérbio não flexiona em **gênero** nem **número**
+(por isso é invariável nesse sentido: "eles chegaram *cedo*", não *"cedos"*). Porém,
+admite **grau**: *muito* → *muitíssimo*; *perto* → *pertíssimo*; *cedo* → *mais cedo*.
+Portanto, "invariável" refere-se à ausência de flexão de gênero/número, não à
+impossibilidade absoluta de qualquer variação.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Como as classes gramaticais são dez e
+fixas, cada palavra da língua pertence a uma única classe, independentemente da frase."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Embora as classes sejam dez, uma **mesma palavra** pode pertencer a classes
+diferentes conforme seu **uso** na frase: *jantar* (verbo/substantivo), *cedo*
+(advérbio/verbo), *um* (numeral/artigo). A classe não é propriedade fixa da palavra
+isolada, mas depende da função que ela exerce no contexto — daí a importância do
+critério sintático.
+:::
+
+## 📚 Referências
+
+O quadro das dez classes segue a Nomenclatura Gramatical Brasileira (NGB), adotada por
+Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]. Abordagens que revisam
+criticamente essa classificação — propondo reagrupamentos com base no funcionamento
+real — estão em Perini [@perini2010] e Castilho [@castilho2010]. Cada classe é detalhada
+nos capítulos seguintes deste volume.
+
+::: {#refs}
 :::
