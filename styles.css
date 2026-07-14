@@ -1,0 +1,69 @@
+/*-- scss:rules --*/
+
+/* =========================================================================
+   Manual de Língua Portuguesa — Série Manuais de Ciências
+   Folha de estilo padrão da série.
+   OBS.: a primeira linha (marcador scss:rules) é OBRIGATÓRIA — Quarto >= 1.9
+   trata este arquivo como camada SCSS; sem o marcador o render quebra.
+   ========================================================================= */
+
+:root {
+  --manual-blue:   #1f4e79;
+  --manual-red:    #c0392b;
+  --manual-green:  #2e7d32;
+  --manual-yellow: #f4b400;
+  --manual-gray:   #6b7280;
+}
+
+/* Cabeçalhos com a cor institucional da série */
+h1, h2, h3 {
+  color: var(--manual-blue);
+  font-weight: 600;
+}
+
+h1 {
+  border-bottom: 3px solid var(--manual-yellow);
+  padding-bottom: .3rem;
+}
+
+/* Legendas de figura */
+figure figcaption,
+.figure-caption {
+  font-size: .9rem;
+  color: var(--manual-gray);
+  text-align: center;
+}
+
+/* Figuras TikZ centralizadas e responsivas */
+.quarto-figure svg,
+figure svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-inline: auto;
+}
+
+/* Exemplos linguísticos em destaque (uso opcional: ::: {.exemplo}) */
+.exemplo {
+  border-left: 4px solid var(--manual-blue);
+  background: rgba(31, 78, 121, .05);
+  padding: .6rem 1rem;
+  margin: 1rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Transcrição fonética Unicode IPA (uso: [ˈkazɐ]{.ipa}) */
+.ipa {
+  font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", serif;
+  white-space: nowrap;
+}
+
+/* Tabelas de quadro-resumo mais legíveis */
+table {
+  font-size: .95rem;
+}
+
+/* Callouts de solução de exercício mais discretos */
+.callout-tip {
+  border-left-color: var(--manual-green);
+}

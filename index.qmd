@@ -1,0 +1,103 @@
+---
+title: "Manual de Língua Portuguesa"
+---
+
+# Apresentação {.unnumbered}
+
+Bem-vindo ao **Manual de Língua Portuguesa**, volume da série *Manuais de
+Ciências*. Este é um curso completo de português brasileiro que percorre, com
+rigor e clareza, todo o percurso da língua — do fonema ao texto, da ortografia à
+estilística, da norma-padrão à variação real dos falantes.
+
+Nossa aposta pedagógica é simples de enunciar e exigente de cumprir: **ensinar a
+norma culta com precisão, sem transformá-la em dogma.** A gramática normativa é
+apresentada como aquilo que de fato é — um registro socialmente prestigiado, cujo
+domínio abre portas —, mas sempre em diálogo com a linguística descritiva e com a
+maneira como os brasileiros efetivamente falam e escrevem. Não há aqui nem
+prescritivismo ingênuo ("só existe um jeito certo") nem relativismo vazio ("tanto
+faz"): há descrição honesta e orientação útil.
+
+## Para quem é este manual
+
+- **Estudantes do ensino médio e vestibulandos** que precisam dominar o conteúdo
+  cobrado em ENEM, FUVEST e demais exames.
+- **Concurseiros**, para quem gramática e interpretação de texto são, com
+  frequência, a diferença entre passar e não passar.
+- **Redatores, revisores e profissionais da escrita** que querem uma referência
+  confiável e atualizada pelo Acordo Ortográfico de 1990.
+- Qualquer leitor curioso sobre como a língua portuguesa funciona.
+
+Não há pré-requisitos além da alfabetização plena.
+
+## Como o manual está organizado
+
+São **98 capítulos** distribuídos em **15 volumes**, agrupados em **3 fases**:
+
+1. **Fase 1 — Fundamentos da Língua** (Volumes 1–5): introdução aos estudos da
+   linguagem, fonética e fonologia, ortografia e acentuação, morfologia.
+2. **Fase 2 — Sintaxe e Sentido** (Volumes 6–10): sintaxe da oração e do período,
+   concordância, regência, crase, colocação, pontuação, semântica e léxico.
+3. **Fase 3 — Texto, Variação e Usos** (Volumes 11–15): linguística textual,
+   redação, interpretação, variação linguística e história da língua.
+
+## Como usar
+
+Cada capítulo segue a mesma anatomia, pensada para o estudo autônomo: objetivos de
+aprendizagem, desenvolvimento com exemplos autênticos do português brasileiro,
+esquemas visuais, quadro-resumo, seção de **pegadinhas e erros comuns** com foco em
+prova, e uma bateria de **exercícios com solução comentada** (clique para expandir).
+
+Você pode ler linearmente — a ordem dos volumes é cumulativa — ou saltar para o
+tópico de que precisa. O grafo abaixo mostra as dependências recomendadas entre os
+volumes: uma seta A → B significa "convém dominar A antes de B".
+
+## Mapa de pré-requisitos dos volumes
+
+```{mermaid}
+%%| label: fig-prerequisitos
+%%| fig-cap: "Dependências recomendadas entre os 15 volumes do manual."
+flowchart TD
+    V1["V1 · Introdução aos<br/>Estudos da Linguagem"]
+    V2["V2 · Fonética e<br/>Fonologia"]
+    V3["V3 · Ortografia e<br/>Acentuação"]
+    V4["V4 · Morfologia I<br/>Formação de Palavras"]
+    V5["V5 · Morfologia II<br/>Classes de Palavras"]
+    V6["V6 · Sintaxe I<br/>Termos da Oração"]
+    V7["V7 · Sintaxe II<br/>Período Composto"]
+    V8["V8 · Sintaxe III<br/>Concordância e Regência"]
+    V9["V9 · Pontuação e<br/>Convenções"]
+    V10["V10 · Semântica e<br/>Léxico"]
+    V11["V11 · Linguística<br/>Textual"]
+    V12["V12 · Redação e<br/>Escrita"]
+    V13["V13 · Interpretação<br/>de Textos"]
+    V14["V14 · Variação e<br/>Sociolinguística"]
+    V15["V15 · História da<br/>Língua e Estilística"]
+
+    V1 --> V2
+    V1 --> V3
+    V1 --> V4
+    V2 --> V3
+    V4 --> V5
+    V5 --> V6
+    V6 --> V7
+    V7 --> V8
+    V7 --> V9
+    V5 --> V10
+    V8 --> V11
+    V9 --> V11
+    V10 --> V11
+    V11 --> V12
+    V11 --> V13
+    V1 --> V14
+    V14 --> V15
+    V1 --> V15
+
+    classDef fase1 fill:#1f4e79,stroke:#123,color:#fff;
+    classDef fase2 fill:#2e7d32,stroke:#123,color:#fff;
+    classDef fase3 fill:#c0392b,stroke:#123,color:#fff;
+    class V1,V2,V3,V4,V5 fase1;
+    class V6,V7,V8,V9,V10 fase2;
+    class V11,V12,V13,V14,V15 fase3;
+```
+
+Bom estudo!

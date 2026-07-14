@@ -1,0 +1,43 @@
+name: Publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: release
+
+      - name: Install TinyTeX
+        run: quarto install tinytex
+
+      - name: Install required LaTeX packages
+        run: |
+          TLMGR="$(command -v tlmgr || true)"
+          if [ -z "$TLMGR" ]; then
+            TLMGR="$(find "$HOME" /root -name tlmgr -type f 2>/dev/null | head -n1)"
+          fi
+          echo "Using tlmgr at: $TLMGR"
+          "$TLMGR" install standalone pgf pgfplots dvisvgm xcolor amsmath amsfonts
+
+      - name: Install Chrome (headless shell for Mermaid)
+        run: quarto install chrome-headless-shell
+
+      - name: Render and publish to gh-pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

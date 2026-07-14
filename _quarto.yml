@@ -1,0 +1,196 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: pt
+
+book:
+  title: "Manual de Língua Portuguesa"
+  subtitle: "Série Manuais de Ciências"
+  author: "Série Manuais de Ciências"
+  date: today
+  date-format: "YYYY"
+  search: true
+  repo-url: https://github.com/vitormattosdev/manual-portugues
+  repo-actions: [edit, issue]
+  page-navigation: true
+  sidebar:
+    style: docked
+    collapse-level: 1
+  chapters:
+      - index.qmd
+      - part: "Volume 1 — Introdução aos Estudos da Linguagem"
+        chapters:
+          - capitulos/cap-01-linguagem-lingua-fala.qmd
+          - capitulos/cap-02-linguistica-gramatica.qmd
+          - capitulos/cap-03-norma-culta-padrao-variedades.qmd
+          - capitulos/cap-04-historia-portugues-panorama.qmd
+          - capitulos/cap-05-comunicacao-funcoes-linguagem.qmd
+          - capitulos/cap-06-como-estudar-portugues.qmd
+
+      - part: "Volume 2 — Fonética e Fonologia"
+        chapters:
+          - capitulos/cap-07-fonema-e-letra.qmd
+          - capitulos/cap-08-classificacao-fonemas.qmd
+          - capitulos/cap-09-encontros-digrafos.qmd
+          - capitulos/cap-10-silaba-divisao-tonicidade.qmd
+          - capitulos/cap-11-processos-fonologicos.qmd
+          - capitulos/cap-12-ortoepia-prosodia.qmd
+          - capitulos/cap-13-fonetica-articulatoria-trapezio.qmd
+
+      - part: "Volume 3 — Ortografia e Acentuação"
+        chapters:
+          - capitulos/cap-14-alfabeto-sistema-ortografico.qmd
+          - capitulos/cap-15-emprego-de-letras.qmd
+          - capitulos/cap-16-acordo-ortografico-1990.qmd
+          - capitulos/cap-17-acentuacao-regras-fundamentais.qmd
+          - capitulos/cap-18-acentuacao-casos-especiais.qmd
+          - capitulos/cap-19-emprego-do-hifen.qmd
+          - capitulos/cap-20-maiusculas-abreviaturas-siglas.qmd
+
+      - part: "Volume 4 — Morfologia I: Estrutura e Formação de Palavras"
+        chapters:
+          - capitulos/cap-21-morfema-unidades-minimas.qmd
+          - capitulos/cap-22-estrutura-das-palavras.qmd
+          - capitulos/cap-23-formacao-derivacao.qmd
+          - capitulos/cap-24-formacao-composicao.qmd
+          - capitulos/cap-25-familias-cognatos-produtividade.qmd
+
+      - part: "Volume 5 — Morfologia II: Classes de Palavras"
+        chapters:
+          - capitulos/cap-26-panorama-classes-palavras.qmd
+          - capitulos/cap-27-substantivo.qmd
+          - capitulos/cap-28-artigo-numeral.qmd
+          - capitulos/cap-29-adjetivo.qmd
+          - capitulos/cap-30-pronome-i-pessoais-possessivos-demonstrativos.qmd
+          - capitulos/cap-31-pronome-ii-relativos-indefinidos-interrogativos.qmd
+          - capitulos/cap-32-verbo-i-estrutura-conjugacoes.qmd
+          - capitulos/cap-33-verbo-ii-tempos-modos-aspecto.qmd
+          - capitulos/cap-34-verbo-iii-vozes-irregulares-defectivos.qmd
+          - capitulos/cap-35-adverbio-preposicao-conjuncao-interjeicao.qmd
+
+      - part: "Volume 6 — Sintaxe I: Termos da Oração"
+        chapters:
+          - capitulos/cap-36-frase-oracao-periodo.qmd
+          - capitulos/cap-37-sujeito-e-tipos.qmd
+          - capitulos/cap-38-predicado.qmd
+          - capitulos/cap-39-complementos-verbais.qmd
+          - capitulos/cap-40-complemento-nominal-agente-passiva.qmd
+          - capitulos/cap-41-adjunto-adnominal-adverbial.qmd
+          - capitulos/cap-42-aposto-vocativo.qmd
+
+      - part: "Volume 7 — Sintaxe II: Período Composto"
+        chapters:
+          - capitulos/cap-43-periodo-composto-coordenacao.qmd
+          - capitulos/cap-44-subordinadas-substantivas.qmd
+          - capitulos/cap-45-subordinadas-adjetivas.qmd
+          - capitulos/cap-46-subordinadas-adverbiais.qmd
+          - capitulos/cap-47-oracoes-reduzidas.qmd
+          - capitulos/cap-48-analise-sintatica-integral.qmd
+
+      - part: "Volume 8 — Sintaxe III: Concordância, Regência e Colocação"
+        chapters:
+          - capitulos/cap-49-concordancia-verbal-i.qmd
+          - capitulos/cap-50-concordancia-verbal-ii.qmd
+          - capitulos/cap-51-concordancia-nominal.qmd
+          - capitulos/cap-52-regencia-verbal.qmd
+          - capitulos/cap-53-regencia-nominal.qmd
+          - capitulos/cap-54-crase.qmd
+          - capitulos/cap-55-colocacao-pronominal.qmd
+
+      - part: "Volume 9 — Pontuação e Convenções"
+        chapters:
+          - capitulos/cap-56-fundamentos-pontuacao.qmd
+          - capitulos/cap-57-a-virgula.qmd
+          - capitulos/cap-58-ponto-virgula-dois-pontos.qmd
+          - capitulos/cap-59-aspas-travessao-parenteses.qmd
+          - capitulos/cap-60-pontuacao-periodo-composto.qmd
+
+      - part: "Volume 10 — Semântica e Léxico"
+        chapters:
+          - capitulos/cap-61-denotacao-conotacao.qmd
+          - capitulos/cap-62-relacoes-lexicais.qmd
+          - capitulos/cap-63-polissemia-homonimia-paronimia.qmd
+          - capitulos/cap-64-ambiguidade-pressuposicao.qmd
+          - capitulos/cap-65-figuras-linguagem-i.qmd
+          - capitulos/cap-66-figuras-linguagem-ii.qmd
+          - capitulos/cap-67-lexico-emprestimos-neologismos.qmd
+
+      - part: "Volume 11 — Linguística Textual"
+        chapters:
+          - capitulos/cap-68-texto-e-textualidade.qmd
+          - capitulos/cap-69-coesao.qmd
+          - capitulos/cap-70-coerencia-textual.qmd
+          - capitulos/cap-71-tipologia-textual.qmd
+          - capitulos/cap-72-generos-textuais.qmd
+          - capitulos/cap-73-intertextualidade-parafrase.qmd
+
+      - part: "Volume 12 — Redação e Escrita"
+        chapters:
+          - capitulos/cap-74-o-paragrafo.qmd
+          - capitulos/cap-75-dissertacao-argumentativa.qmd
+          - capitulos/cap-76-argumentacao-falacias.qmd
+          - capitulos/cap-77-redacao-enem-concursos.qmd
+          - capitulos/cap-78-redacao-tecnica-oficial.qmd
+          - capitulos/cap-79-escrita-academica.qmd
+          - capitulos/cap-80-revisao-reescrita.qmd
+
+      - part: "Volume 13 — Interpretação de Textos"
+        chapters:
+          - capitulos/cap-81-estrategias-de-leitura.qmd
+          - capitulos/cap-82-inferencia-pressuposto-subentendido.qmd
+          - capitulos/cap-83-ironia-humor-implicitos.qmd
+          - capitulos/cap-84-textos-multimodais.qmd
+          - capitulos/cap-85-questoes-interpretacao-metodo.qmd
+
+      - part: "Volume 14 — Variação Linguística e Sociolinguística"
+        chapters:
+          - capitulos/cap-86-sociolinguistica-fundamentos.qmd
+          - capitulos/cap-87-variacao-diatopica.qmd
+          - capitulos/cap-88-variacao-diastratica-diafasica.qmd
+          - capitulos/cap-89-pb-e-pe.qmd
+          - capitulos/cap-90-oralidade-e-escrita.qmd
+          - capitulos/cap-91-preconceito-linguistico.qmd
+
+      - part: "Volume 15 — História da Língua e Estilística"
+        chapters:
+          - capitulos/cap-92-do-latim-ao-galego-portugues.qmd
+          - capitulos/cap-93-portugues-arcaico-classico.qmd
+          - capitulos/cap-94-formacao-portugues-brasileiro.qmd
+          - capitulos/cap-95-lusofonia.qmd
+          - capitulos/cap-96-estilistica-fundamentos.qmd
+          - capitulos/cap-97-versificacao.qmd
+          - capitulos/cap-98-analise-literaria-estilo.qmd
+
+bibliography: referencias.bib
+csl: abnt.csl
+
+filters:
+  - danmackinlay/tikz
+  - quarto
+
+tikz:
+  svg-engine: dvisvgm
+  cache: true
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.css
+    toc: true
+    toc-title: "Nesta página"
+    number-sections: true
+    fig-cap-location: bottom
+    code-copy: true
+    smooth-scroll: true
+  pdf:
+    documentclass: scrbook
+    papersize: a4
+    number-sections: true
+    toc: true
+    lang: pt-BR
+    include-in-header:
+      text: |
+        \usepackage{amsmath}
+        \usepackage{amsfonts}

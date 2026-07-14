@@ -1,0 +1,25 @@
+---
+title: "Noções de fonética articulatória: o trapézio vocálico"
+---
+
+# Noções de fonética articulatória: o trapézio vocálico {#sec-cap-13}
+
+<!--
+ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
+Volume 2 — Fonética e Fonologia.
+
+1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
+2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
+3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
+4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
+5. 📋 Quadro-resumo.
+6. ⚠️ Pegadinhas e erros comuns.
+7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
+8. 📚 Referências via @chave (referencias.bib, ABNT).
+
+Extensão-alvo: 2.500–4.500 palavras + exercícios.
+-->
+
+::: {.callout-note}
+Capítulo em preparação.
+:::

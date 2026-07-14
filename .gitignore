@@ -1,0 +1,27 @@
+# Quarto
+/_book/
+/.quarto/
+/_freeze/
+*.rmarkdown
+
+# TeX / render intermediários
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# TikZ SVG cache (regenerado no render)
+# (mantido fora do versionamento; o render recria)
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporários de sessão
+_parts.tmp
+_road.tmp
+
+**/*.quarto_ipynb
