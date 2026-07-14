@@ -4,22 +4,335 @@ title: "Como estudar português: método e recursos"
 
 # Como estudar português: método e recursos {#sec-cap-06}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 1 — Introdução aos Estudos da Linguagem.
+> "Não basta saber, é preciso também aplicar; não basta querer, é preciso também
+> fazer."
+> — atribuído a Goethe
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Chegamos ao capítulo que fecha o Volume 1 e, de certo modo, prepara todos os demais.
+Depois de entender o que é a língua, o que é a gramática e o que é a norma, resta uma
+pergunta prática: **como estudar português de maneira eficiente?** Muita gente estuda
+muito e rende pouco — decora regras que esquece na semana seguinte, faz listas de
+exercícios sem entender os erros, lê a teoria sem nunca aplicá-la. O problema quase
+nunca é falta de esforço; é falta de **método**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo não traz conteúdo gramatical novo: traz uma estratégia de estudo. Ele
+explica como usar este manual, como distribuir o tempo, que recursos consultar e,
+sobretudo, como transformar leitura passiva em aprendizado duradouro. Trate-o como o
+"manual de instruções" dos catorze volumes seguintes.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Organizar** um plano de estudos progressivo e realista;
+- **Aplicar** técnicas de aprendizagem ativa (recuperação, intercalação, revisão
+  espaçada);
+- **Distinguir** os tipos de recurso (gramáticas, dicionários, corpora, bancas) e
+  quando usar cada um;
+- **Interpretar** enunciados de prova, identificando o que a banca realmente pede;
+- **Diagnosticar** os próprios erros para transformá-los em aprendizado;
+- **Usar** a estrutura deste manual (anatomia dos capítulos) a seu favor.
+
+## Estudar a língua não é decorar regras
+
+O primeiro reajuste de expectativa: português **não** se aprende por memorização
+bruta de regras isoladas. As regras que você decora sem entender evaporam sob
+pressão. O que fica é a **compreensão** — saber *por que* a regra é assim, ligá-la a
+outras, aplicá-la a casos novos. Uma regra de crase entendida (a lógica da fusão de
+*a* + *a*) vale por vinte regras decoradas.
+
+Isso não significa que a memória seja dispensável: há listas que precisam ser
+sabidas (verbos irregulares, palavras que fogem à regra). Mas mesmo essas se fixam
+melhor quando ancoradas em compreensão e praticadas ativamente, não relidas
+passivamente.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Aprendizagem passiva × ativa
+Reler a teoria e sublinhar dá a **sensação** de aprender, mas produz pouca retenção:
+é aprendizagem passiva. Fechar o livro e tentar **recuperar** o conteúdo de memória,
+resolver exercícios antes de ver a solução, explicar a matéria a outra pessoa — isso
+é aprendizagem **ativa**, e é ela que consolida o conhecimento. A dificuldade de
+recuperar é justamente o que fortalece a memória.
+:::
+
+## Três técnicas que funcionam
+
+A pesquisa sobre aprendizagem converge para algumas técnicas de alto rendimento.
+Três merecem destaque, resumidas na @fig-ciclo-estudo.
+
+### Recuperação ativa (*retrieval*)
+
+Depois de ler uma seção, feche o material e tente reconstruir o que aprendeu — de
+cabeça ou por escrito. Faça os exercícios **antes** de olhar a solução colapsável.
+O esforço de lembrar, mesmo com erro, fixa muito mais do que a releitura.
+
+### Revisão espaçada
+
+Não estude um assunto uma vez só e nunca mais. Reveja-o em intervalos crescentes: no
+dia seguinte, depois de uma semana, depois de um mês. A cada revisão bem-sucedida, o
+intervalo pode aumentar. É assim que o conhecimento migra da memória de curto para a
+de longo prazo.
+
+### Intercalação (*interleaving*)
+
+Em vez de resolver vinte questões seguidas do mesmo tema, misture temas. Intercalar
+crase, concordância e regência numa mesma sessão parece mais difícil — e é
+justamente por isso que treina o que a prova exige: **reconhecer** qual regra se
+aplica a cada caso, não apenas aplicá-la quando já se sabe qual é.
+
+::: {#fig-ciclo-estudo}
+
+```{.tikz}
+%%| filename: ciclo-estudo
+%%| alt: Ciclo de estudo em quatro etapas dispostas em círculo, ligadas por setas — ler e compreender, recuperar de memória, praticar com exercícios, revisar de forma espaçada — indicando um processo contínuo que se repete.
+
+\begin{tikzpicture}[
+  font=\small,
+  et/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=center, minimum height=11mm, text width=26mm, inner sep=3pt},
+  fl/.style={-{Stealth[length=2.6mm]}, manualgreen, very thick},
+]
+  \node[et] (a) at (0,2.3) {\textbf{1.} Ler e\\compreender};
+  \node[et] (b) at (2.6,0) {\textbf{2.} Recuperar\\de memória};
+  \node[et] (c) at (0,-2.3) {\textbf{3.} Praticar com\\exercícios};
+  \node[et] (d) at (-2.6,0) {\textbf{4.} Revisar\\(espaçado)};
+
+  \draw[fl] (a) to[bend left=20] (b);
+  \draw[fl] (b) to[bend left=20] (c);
+  \draw[fl] (c) to[bend left=20] (d);
+  \draw[fl] (d) to[bend left=20] (a);
+\end{tikzpicture}
+```
+
+O ciclo do estudo eficiente: compreender, recuperar de memória, praticar e revisar de
+forma espaçada — um processo que se repete a cada tema.
+:::
+
+## Como usar este manual
+
+Cada capítulo deste manual tem uma **anatomia fixa**, pensada para o estudo ativo.
+Conhecê-la ajuda a extrair o máximo de cada um:
+
+1. **Abertura e objetivos**: leia-os primeiro para saber *aonde* vai chegar; os
+   objetivos são a lista do que você deve dominar ao fim.
+2. **Desenvolvimento**: leia com lápis na mão, testando cada conceito nos exemplos.
+   Ao fim de cada seção, feche o livro e resuma-a mentalmente (recuperação ativa).
+3. **Figuras**: não pule os esquemas — eles condensam relações que o texto explica
+   linearmente. Tente reproduzi-los de memória.
+4. **Quadro-resumo**: use-o para revisão rápida, não como substituto da leitura.
+5. **Pegadinhas**: são o mapa dos erros que as bancas exploram; releia-as antes de
+   qualquer prova.
+6. **Exercícios**: resolva **antes** de abrir a solução. Errar aqui, entendendo
+   depois, é o objetivo — não o fracasso.
+7. **Referências**: para aprofundar, saiba a quem recorrer.
+
+A ordem dos volumes é progressiva: cada um pressupõe os anteriores. Fonologia (Vol. 2)
+antes de ortografia (Vol. 3); morfologia (Vol. 4–5) antes de sintaxe (Vol. 6–8). Siga
+a sequência sempre que puder.
+
+## Os recursos e quando usá-los
+
+Estudar bem é também saber **consultar**. Cada tipo de dúvida pede um recurso
+diferente:
+
+| Tipo de dúvida | Recurso adequado |
+|---|---|
+| Sentido, grafia ou regência de uma palavra | Dicionário (Houaiss [@houaiss2009], Aulete, Michaelis) |
+| Regra da norma-padrão para a prova | Gramática normativa (Bechara [@bechara2009], Cunha & Cintra [@cunhacintra2017]) |
+| Como a língua realmente funciona | Gramática descritiva (Castilho [@castilho2010], Perini [@perini2010]) |
+| Se uma construção é usada e como | Observação de uso, corpora, textos reais |
+| Grafia oficial e hifenização | *Vocabulário Ortográfico da Língua Portuguesa* (VOLP), da ABL |
+| Estilo de uma banca específica | Provas anteriores da própria banca |
+
+Duas recomendações práticas. Primeira: para concursos e vestibulares, **conheça a
+banca**. FCC, Cebraspe (antigo Cespe), FGV, VUNESP e o ENEM têm estilos próprios de
+enunciado e de "pegadinha"; resolver provas antigas da banca-alvo vale por muitas
+listas genéricas. Segunda: mantenha um **caderno de erros** — anote cada questão que
+errou, o motivo do erro e a regra correta, e revise-o periodicamente. É o recurso de
+estudo mais subestimado que existe.
+
+## Interpretar o enunciado: metade da prova
+
+Muitas questões são perdidas não por desconhecimento do conteúdo, mas por leitura
+apressada do comando. Antes de responder, identifique com precisão o que se pede:
+
+- **Palavras-chave de comando**: "assinale a **incorreta**", "**exceto**", "**NÃO**"
+  invertem a lógica — a distração aqui custa a questão.
+- **Recortes**: "quanto à **regência**", "do ponto de vista **sintático**" delimitam
+  o nível de análise; responder por outro critério erra o alvo.
+- **Certo/Errado (Cebraspe)**: um único detalhe falso torna todo o item errado;
+  leia cada palavra, inclusive advérbios como "sempre", "nunca", "apenas".
+
+Em prova de interpretação, volte **sempre** ao texto: a resposta certa se sustenta no
+que está escrito, não no que você supõe ou concorda. Voltaremos a esse método no
+Volume 13.
+
+## 📋 Quadro-resumo
+
+| Princípio | Prática concreta |
+|---|---|
+| Compreender > decorar | Entender o *porquê* de cada regra antes de memorizá-la |
+| Aprendizagem ativa | Recuperar de memória; resolver antes de ver a solução |
+| Revisão espaçada | Rever em intervalos crescentes (1 dia, 1 semana, 1 mês) |
+| Intercalação | Misturar temas nas sessões de exercício |
+| Recurso certo | Dicionário, gramática normativa, descritiva ou VOLP, conforme a dúvida |
+| Conhecer a banca | Resolver provas anteriores do estilo-alvo |
+| Caderno de erros | Registrar e revisar cada erro cometido |
+| Ler o comando | Identificar palavras-chave e recortes do enunciado |
+
+Em uma linha: estude **ativamente** (recuperar, praticar, revisar espaçado),
+**compreenda** em vez de decorar, use o **recurso certo** para cada dúvida e **leia o
+enunciado** com atenção cirúrgica.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir sensação de aprender com aprendizado.** Reler e sublinhar dão conforto,
+  mas retêm pouco. O que consolida é recuperar de memória e praticar.
+- **Estudar tudo de uma vez e nunca revisar.** Sem revisão espaçada, o conteúdo se
+  perde. Um pouco todo dia, com revisões programadas, rende mais que maratonas
+  isoladas.
+- **Ver a solução antes de tentar.** Isso elimina o esforço de recuperação, que é o
+  que fixa. Tente, erre, depois confira.
+- **Usar a gramática normativa como se descrevesse toda a língua.** Para a prova, ela
+  é o recurso certo; para entender o uso real, recorra à descritiva. Saiba qual
+  consultar.
+- **Ignorar o comando da questão.** "Exceto", "incorreta", "NÃO" e recortes de nível
+  ("quanto à sintaxe") mudam tudo. Metade dos erros de prova nasce aqui.
+
+## ✍️ Exercícios
+
+**1.** Explique a diferença entre aprendizagem **passiva** e **ativa** e dê um exemplo
+de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Aprendizagem passiva consiste em receber o conteúdo sem esforço de reconstrução:
+reler, sublinhar, assistir a uma explicação. Aprendizagem ativa exige recuperar,
+aplicar ou explicar o conteúdo: fazer exercícios antes de ver a solução, fechar o
+livro e resumir de memória, ensinar a matéria a alguém. A ativa retém muito mais,
+pois o esforço de recuperação fortalece a memória.
+:::
+
+**2.** (Estilo ENEM) Um estudante resolve 30 questões seguidas só de crase, acerta
+quase todas e conclui que domina o tema. Na prova, porém, erra crase quando ela
+aparece "misturada" a outros assuntos. O que explica melhor essa falha?
+
+a) Ele não estudou o suficiente.
+b) A prova é injusta.
+c) Faltou intercalação: treinar temas misturados, como na prova real.
+d) Crase é impossível de aprender.
+e) Ele deveria ter decorado mais regras.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** Resolver muitas questões seguidas do mesmo tema treina a
+*aplicação* da regra quando já se sabe qual é, mas não o *reconhecimento* — que é o
+que a prova cobra, com os temas misturados. A **intercalação** (misturar assuntos nas
+sessões) desenvolve essa capacidade de identificar qual regra se aplica a cada caso.
+:::
+
+**3.** Associe a dúvida ao recurso adequado: (a) "Qual a grafia oficial de *autoescola*?";
+(b) "O verbo *visar* rege qual preposição no sentido de 'almejar'?"; (c) "Essa
+construção é realmente usada pelos falantes cultos?".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) VOLP (Vocabulário Ortográfico da Língua Portuguesa) ou dicionário atualizado; (b)
+gramática normativa e/ou dicionário de regência; (c) gramática descritiva, corpora ou
+observação de textos reais. Cada dúvida pede um tipo de recurso diferente.
+:::
+
+**4.** O que é **revisão espaçada** e por que ela é mais eficaz que estudar um tema
+uma única vez?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Revisão espaçada é revisar o mesmo conteúdo em intervalos crescentes (por exemplo, no
+dia seguinte, após uma semana, após um mês). É mais eficaz porque cada recuperação
+bem-sucedida, feita quando o conteúdo já está começando a ser esquecido, reforça a
+memória e a transfere para o longo prazo. Estudar uma vez só leva ao esquecimento
+rápido, pois falta o reforço distribuído no tempo.
+:::
+
+**5.** Por que se recomenda resolver os exercícios **antes** de abrir a solução
+colapsável?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o esforço de recuperar e aplicar o conteúdo de memória — mesmo que resulte em
+erro — é o que consolida a aprendizagem (recuperação ativa). Se você lê a solução
+antes de tentar, elimina esse esforço e troca aprendizado real por mera sensação de
+compreensão. O erro seguido de conferência é parte produtiva do processo.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Para dominar a norma-padrão exigida
+em concursos, a gramática descritiva de Perini é o recurso mais adequado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Para a norma-padrão de concursos, o recurso adequado é a gramática
+**normativa** (Bechara, Cunha & Cintra). A gramática **descritiva** de Perini é
+excelente para entender como a língua realmente funciona, mas não é o instrumento
+para saber a forma prescrita que a banca cobrará.
+:::
+
+**7.** Explique o valor de manter um **caderno de erros**.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O caderno de erros registra cada questão errada, o motivo do erro e a regra correta.
+Seu valor é triplo: (1) concentra a revisão exatamente nos pontos fracos, otimizando o
+tempo; (2) transforma o erro em oportunidade de aprendizado, em vez de repeti-lo; (3)
+revela padrões (temas ou tipos de pegadinha em que se erra mais), permitindo estudo
+direcionado. É um recurso de aprendizagem ativa e personalizada.
+:::
+
+**8.** Num enunciado que diz "Assinale a alternativa em que **NÃO** há erro de
+concordância", o que a distração com o comando pode causar?
+
+::: {.callout-tip collapse="true"}
+## Solução
+O comando pede a alternativa **correta** (sem erro). Quem lê apressadamente pode
+procurar a alternativa *com* erro — invertendo a resposta — ou aplicar o critério
+errado (procurar erro de regência, por exemplo, quando se pede concordância).
+Palavras como "NÃO", "exceto" e "incorreta", e o recorte do nível ("concordância"),
+precisam ser lidas com atenção, pois definem o que realmente se pede.
+:::
+
+**9.** Descreva, em passos, como você estudaria um novo capítulo deste manual
+aplicando as técnicas discutidas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta pessoal. Um roteiro satisfatório: (1) ler abertura e objetivos para saber a
+meta; (2) ler o desenvolvimento com lápis, testando os conceitos nos exemplos; (3) ao
+fim de cada seção, fechar o livro e resumir de memória (recuperação); (4) estudar as
+figuras e o quadro-resumo; (5) resolver todos os exercícios antes de ver as soluções;
+(6) anotar os erros no caderno de erros; (7) reagendar uma revisão do capítulo para o
+dia seguinte e outra para a semana seguinte (revisão espaçada), intercalando com
+outros temas.
+:::
+
+**10.** (Estilo FGV) "Estudar português é, sobretudo, decorar o maior número possível
+de regras." Comente criticamente a afirmação à luz deste capítulo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação é equivocada. Embora certas listas precisem ser memorizadas (verbos
+irregulares, exceções), o núcleo do aprendizado é a **compreensão**: entender o
+porquê das regras, ligá-las entre si e aplicá-las a casos novos. Regras decoradas sem
+compreensão evaporam sob a pressão da prova; regras compreendidas se sustentam e se
+transferem. Além disso, estudar bem envolve técnicas de aprendizagem ativa
+(recuperação, revisão espaçada, intercalação) e a interpretação cuidadosa dos
+enunciados — nada disso se reduz a "decorar regras".
+:::
+
+## 📚 Referências
+
+As recomendações de consulta remetem às gramáticas normativas de Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017], às descritivas de Castilho
+[@castilho2010] e Perini [@perini2010], e ao dicionário Houaiss [@houaiss2009]. Para a
+dimensão de produção e compreensão de textos, que orientará o método de leitura dos
+volumes finais, ver Koch & Elias [@koch2015texto] e Marcuschi [@marcuschi2008].
+
+::: {#refs}
 :::

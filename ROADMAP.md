@@ -9,11 +9,11 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | Nº | Título | Arquivo | Vol. | Status |
 |---:|--------|---------|:---:|:---:|
 | 01 | Linguagem, língua e fala | `capitulos/cap-01-linguagem-lingua-fala.qmd` | 1 | ✅ 2026-07-14 |
-| 02 | A linguística e a gramática: descrição e norma | `capitulos/cap-02-linguistica-gramatica.qmd` | 1 | ⬜ |
-| 03 | Norma culta, norma-padrão e variedades | `capitulos/cap-03-norma-culta-padrao-variedades.qmd` | 1 | ⬜ |
-| 04 | Breve história do português: panorama | `capitulos/cap-04-historia-portugues-panorama.qmd` | 1 | ⬜ |
-| 05 | Comunicação e funções da linguagem | `capitulos/cap-05-comunicacao-funcoes-linguagem.qmd` | 1 | ⬜ |
-| 06 | Como estudar português: método e recursos | `capitulos/cap-06-como-estudar-portugues.qmd` | 1 | ⬜ |
+| 02 | A linguística e a gramática: descrição e norma | `capitulos/cap-02-linguistica-gramatica.qmd` | 1 | ✅ 2026-07-14 |
+| 03 | Norma culta, norma-padrão e variedades | `capitulos/cap-03-norma-culta-padrao-variedades.qmd` | 1 | ✅ 2026-07-14 |
+| 04 | Breve história do português: panorama | `capitulos/cap-04-historia-portugues-panorama.qmd` | 1 | ✅ 2026-07-14 |
+| 05 | Comunicação e funções da linguagem | `capitulos/cap-05-comunicacao-funcoes-linguagem.qmd` | 1 | ✅ 2026-07-14 |
+| 06 | Como estudar português: método e recursos | `capitulos/cap-06-como-estudar-portugues.qmd` | 1 | ✅ 2026-07-14 |
 | 07 | Fonema e letra | `capitulos/cap-07-fonema-e-letra.qmd` | 2 | ⬜ |
 | 08 | Classificação dos fonemas: vogais, semivogais e consoantes | `capitulos/cap-08-classificacao-fonemas.qmd` | 2 | ⬜ |
 | 09 | Encontros vocálicos, encontros consonantais e dígrafos | `capitulos/cap-09-encontros-digrafos.qmd` | 2 | ⬜ |
