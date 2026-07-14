@@ -1517,7 +1517,106 @@
     "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html",
     "title": "15  O alfabeto e o sistema ortográfico",
     "section": "",
-    "text": "16 O alfabeto e o sistema ortográfico\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "16 O alfabeto e o sistema ortográfico\nAbrimos o Volume 3, dedicado à escrita da língua — a ortografia e a acentuação. Depois de estudar os sons (Volume 2), passamos agora ao modo como esses sons são representados por letras. E a primeira lição é entender a natureza do sistema ortográfico português: ele é, ao mesmo tempo, fonográfico (as letras representam sons) e cheio de convenções que não decorrem diretamente da pronúncia (por que caça com ç e massa com ss, se ambos soam /s/?).\nEste capítulo estabelece os fundamentos: o alfabeto oficial, os princípios que regem a ortografia, o papel das letras importadas (k, w, y) e a diferença entre o que é regra (previsível) e o que é convenção (deve ser memorizado ou consultado). É a base sobre a qual se assentam os capítulos seguintes, sobre emprego de letras (Capítulo 17), o Acordo de 1990 (Capítulo 18) e a acentuação.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html#objetivos-de-aprendizagem",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "16.1 🎯 Objetivos de aprendizagem",
+    "text": "16.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nReconhecer o alfabeto português oficial e suas 26 letras;\nExplicar o caráter fonográfico do sistema e seus limites;\nDistinguir o que na ortografia é regra (previsível) e o que é convenção (arbitrária);\nIdentificar o papel das letras k, w e y e do uso etimológico;\nCompreender por que a escrita não reflete perfeitamente a fala;\nConsultar corretamente as fontes ortográficas oficiais (VOLP).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html#o-alfabeto-português",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html#o-alfabeto-português",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "16.2 O alfabeto português",
+    "text": "16.2 O alfabeto português\nO alfabeto oficial do português tem, desde o Acordo Ortográfico de 1990, 26 letras — as 23 tradicionais mais k, w e y, que foram formalmente reincorporadas:\n\na b c d e f g h i j k l m n o p q r s t u v w x y z\n\nCada letra tem um nome (á, bê, cê, dê…) e representa um ou mais fonemas. Como já vimos (Capítulo 9), a correspondência entre letra e som não é perfeita: a mesma letra pode representar sons diferentes (o x de xale, exame, táxi, próximo), e o mesmo som pode ser grafado por letras diferentes (o /s/ de sapo, caça, cedo, passo).\n\n\n\n\n\n\nNotaAs letras k, w e y: quando se usam\n\n\n\nAntes do Acordo de 1990, k, w e y eram consideradas “estrangeiras” e usadas só em casos especiais. Hoje integram o alfabeto, mas seu emprego continua restrito a: (1) nomes próprios estrangeiros e derivados (Kant, kantiano; Darwin, darwinismo; Byron, byroniano); (2) símbolos e unidades internacionais (km, kg, W de watt, K de kelvin); (3) palavras estrangeiras ainda não aportuguesadas (show, playground). Em palavras já aportuguesadas, elas cedem lugar às letras nacionais (quilograma, uísque).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html#um-sistema-fonográfico-mas-não-fonético",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html#um-sistema-fonográfico-mas-não-fonético",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "16.3 Um sistema fonográfico — mas não fonético",
+    "text": "16.3 Um sistema fonográfico — mas não fonético\nO português usa um sistema de escrita alfabético e fonográfico: as letras representam, em princípio, os sons da fala. É por isso que, sabendo ler, conseguimos pronunciar palavras que nunca vimos. Mas o sistema não é fonético (uma letra para cada som, um som para cada letra); ele acumula três princípios:\n\nPrincípio fonográfico: a letra representa o som. É a base — pato se lê como se escreve.\nPrincípio etimológico: a grafia conserva a origem histórica da palavra, mesmo que a pronúncia tenha mudado. É por isso que hora tem h (do latim hora) e homem também, embora o h não soe.\nPrincípio das convenções fixadas: escolhas históricas consolidadas que distinguem grafias de mesmo som (ç × ss × s × sc; g × j; x × ch).\n\nEsses três princípios em tensão explicam por que a ortografia tem uma parte regular (previsível a partir do som ou de regras) e uma parte irregular (que se resolve por memória, etimologia ou consulta ao dicionário).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html#regra-convenção-o-que-dá-para-deduzir-e-o-que-não-dá",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html#regra-convenção-o-que-dá-para-deduzir-e-o-que-não-dá",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "16.4 Regra × convenção: o que dá para deduzir e o que não dá",
+    "text": "16.4 Regra × convenção: o que dá para deduzir e o que não dá\nDistinguir esses dois planos é a chave para estudar ortografia com eficiência — poupando memória para o que realmente precisa ser memorizado.\nA Figura 16.1 ilustra a distinção.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 16.1: A ortografia divide-se entre o que é regra (dedutível por um princípio) e o que é convenção (fixado historicamente): estudar bem é aplicar a estratégia certa a cada caso.\n\n\n\nAlguns casos são regra — bastam entender e aplicar:\n\nEmprega-se m (não n) antes de p e b: campo, tempo, ombro, também.\nAdjetivos terminados em -oso/-osa escrevem-se com s: gostoso, carinhosa.\nSubstantivos abstratos derivados de adjetivos com -eza: beleza, nobreza.\n\nOutros são convenção — não há como deduzir, deve-se saber ou consultar:\n\ncaça (com ç) mas massa (com ss); cassino mas caçula.\ngente (com g) mas jiló (com j); viagem (substantivo) mas viajem (verbo, aí por regra).\n\nA estratégia de estudo, portanto, é clara: compreender as regras (que cobrem muitos casos) e memorizar/consultar as convenções (concentrando o esforço de memória onde ele é indispensável). Os capítulos seguintes organizam justamente as regras dos casos mais problemáticos.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html#a-ortografia-é-oficial-e-consultável",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html#a-ortografia-é-oficial-e-consultável",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "16.5 A ortografia é oficial e consultável",
+    "text": "16.5 A ortografia é oficial e consultável\nUm ponto prático: a ortografia do português não é matéria de opinião. Ela é fixada oficialmente. A referência para o Brasil é o Vocabulário Ortográfico da Língua Portuguesa (VOLP), editado pela Academia Brasileira de Letras, que registra a grafia oficial de todas as palavras. Em caso de dúvida sobre como se escreve uma palavra — inclusive hífen e acentuação —, o VOLP (ou um bom dicionário atualizado, como o Houaiss (Houaiss; Villar, 2009)) é a autoridade a consultar.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html#quadro-resumo",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html#quadro-resumo",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "16.6 📋 Quadro-resumo",
+    "text": "16.6 📋 Quadro-resumo\n\n\n\n\n\n\n\nAspecto\nConteúdo\n\n\n\n\nAlfabeto\n26 letras (com k, w, y reincorporadas em 1990)\n\n\nSistema\nAlfabético e fonográfico, mas não fonético\n\n\nPrincípios\nFonográfico + etimológico + convenções fixadas\n\n\nRegra\nParte previsível (dedutível): m antes de p/b, -oso, -eza\n\n\nConvenção\nParte arbitrária (memória/consulta): ç × ss, g × j\n\n\nFonte oficial\nVOLP (Academia Brasileira de Letras)\n\n\n\nEm uma linha: o alfabeto tem 26 letras; o sistema é fonográfico (letra representa som), mas cruzado por etimologia e convenções — e estudar ortografia é distinguir o que é regra (deduzir) do que é convenção (memorizar/consultar).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html#pegadinhas-e-erros-comuns",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "16.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "16.7 ⚠️ Pegadinhas e erros comuns\n\nAchar que k, w, y não fazem parte do alfabeto. Fazem, desde o Acordo de 1990 — o alfabeto tem 26 letras. Seu uso, porém, é restrito a nomes próprios, símbolos e estrangeirismos.\nSupor que a escrita reflete exatamente a fala. O sistema é fonográfico, não fonético: há letras mudas (h), letras que valem vários sons (x), sons com várias grafias (/s/).\nTentar deduzir toda grafia por regra. Parte da ortografia é convenção arbitrária (caça × massa): não se deduz, memoriza-se ou consulta-se.\nConfundir “regra” com “convenção”. m antes de p/b é regra (sempre); a escolha entre ç e ss é convenção (caso a caso).\nTratar dúvida ortográfica como opinião. A ortografia é oficial e fixada no VOLP; há uma resposta certa a consultar, não uma preferência pessoal.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html#exercícios",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html#exercícios",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "16.8 ✍️ Exercícios",
+    "text": "16.8 ✍️ Exercícios\n1. Quantas letras tem o alfabeto oficial do português e o que mudou com o Acordo de 1990 quanto a ele?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nTem 26 letras. O Acordo de 1990 reincorporou oficialmente ao alfabeto as letras k, w e y, que antes eram tratadas como estrangeiras (o alfabeto era de 23 letras). O uso dessas três letras, porém, permanece restrito a nomes próprios estrangeiros e derivados, símbolos/unidades internacionais e estrangeirismos não aportuguesados.\n\n\n\n2. (Estilo ENEM) O sistema ortográfico do português é dito fonográfico, mas não fonético. Isso significa que:\n\ncada letra representa exatamente um som, e cada som, uma letra;\nas letras representam sons, mas há descompassos (letras mudas, sons com várias grafias);\na escrita não tem nenhuma relação com a pronúncia;\nsó as vogais representam sons;\na ortografia é definida por cada falante.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Fonográfico = as letras representam sons (base do sistema); “não fonético” = essa correspondência não é perfeita — há letras mudas (h), letras com vários valores (x) e sons com várias grafias (/s/ = s, ss, ç, c, sc). A (a) descreveria um sistema perfeitamente fonético, que o português não é.\n\n\n\n3. Classifique como regra (previsível) ou convenção (arbitrária): (a) usar m antes de p e b; (b) escrever caça com ç e massa com ss; (c) grafar adjetivos em -oso com s.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nregra (sempre m antes de p/b: campo, tempo). (b) convenção (não há como deduzir; memoriza-se ou consulta-se). (c) regra (adjetivos em -oso/-osa sempre com s: gostoso, formosa).\n\n\n\n\n4. Explique os três princípios que atuam no sistema ortográfico português.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nFonográfico: a letra representa o som (base do sistema — pato lê-se como se escreve). (2) Etimológico: a grafia conserva a origem histórica, mesmo com a pronúncia mudada (o h de hora, homem). (3) Convenções fixadas: escolhas históricas consolidadas que distinguem grafias de mesmo som (ç × ss, g × j). A tensão entre eles gera a parte regular e a parte irregular da ortografia.\n\n\n\n\n5. Em que situações se usam as letras k, w e y? Dê um exemplo de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nNomes próprios estrangeiros e derivados: Kant → kantiano; Darwin → darwinismo; Byron → byroniano. (2) Símbolos e unidades internacionais: km (quilômetro), kg, W (watt), y em notações. (3) Estrangeirismos não aportuguesados: show, playground, whisky. Em palavras já aportuguesadas, cedem lugar às letras nacionais (uísque, quilo).\n\n\n\n\n6. Por que se pode dizer que a dúvida ortográfica não é uma questão de opinião?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque a ortografia é fixada oficialmente: no Brasil, pelo Vocabulário Ortográfico da Língua Portuguesa (VOLP), da Academia Brasileira de Letras, que registra a grafia correta de cada palavra. Diante de dúvida, não se escolhe uma forma por preferência — consulta-se a fonte oficial, que dá a resposta certa.\n\n\n\n7. (Estilo FCC) Assinale a alternativa em que a grafia se explica por regra (e não por convenção arbitrária):\n\nexceção;\ntambém (com m antes de b);\njiló (com j);\npiscina;\nenxaqueca.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Também segue a regra de que se usa m (não n) antes de p e b. As demais grafias (xc de exceção, j de jiló, sc de piscina, x de enxaqueca) são convenções, que se memorizam ou consultam, não se deduzem por regra.\n\n\n\n8. Dê um exemplo de uma mesma letra representando sons diferentes e de um mesmo som representado por letras diferentes.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nMesma letra, sons diferentes: a letra x soa /ʃ/ em xale, /z/ em exame, /ks/ em táxi e /s/ em próximo. Mesmo som, letras diferentes: o fonema /s/ é grafado s (sapo), ss (passo), ç (caça), c (cedo), sc (nascer), x (próximo). Isso ilustra por que o sistema é fonográfico, mas não fonético.\n\n\n\n9. Explique a estratégia de estudo mais eficiente para a ortografia, com base na distinção regra × convenção.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA estratégia é aplicar o método certo a cada tipo: compreender as regras (princípios que cobrem muitos casos de uma vez, como m antes de p/b ou -oso com s) e reservar a memória (e a consulta ao dicionário/VOLP) para as convenções arbitrárias (ç × ss, g × j), que não se deduzem. Assim, poupa-se esforço de memorização, concentrando-o onde é indispensável.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Como o português tem sistema fonográfico, toda palavra se escreve exatamente como se pronuncia.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. O sistema é fonográfico (as letras representam sons), mas não fonético: há letras mudas (h de hora), letras com vários valores (x), sons com várias grafias (/s/) e o peso da etimologia e das convenções. Portanto, nem toda palavra se escreve exatamente como se pronuncia.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html#referências",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html#referências",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "16.9 📚 Referências",
+    "text": "16.9 📚 Referências\nO sistema ortográfico e o alfabeto oficial seguem o Acordo Ortográfico de 1990 e são tratados por Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017); a fonte de consulta obrigatória é o VOLP, complementado pelo dicionário Houaiss (Houaiss; Villar, 2009). Os casos particulares de emprego de letras são o tema do Capítulo 17.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.\n\n\nHOUAISS, Antônio; VILLAR, Mauro de Salles. Dicionário Houaiss da Língua Portuguesa. Rio de Janeiro: Objetiva, 2009.",
     "crumbs": [
       "Volume 3 — Ortografia e Acentuação",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
@@ -1528,7 +1627,117 @@
     "href": "capitulos/cap-15-emprego-de-letras.html",
     "title": "16  Emprego de letras: os casos problemáticos",
     "section": "",
-    "text": "17 Emprego de letras: os casos problemáticos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "17 Emprego de letras: os casos problemáticos\nViagem ou viajem? Enxada ou enchada? Excesso ou exceço? Analisar ou analizar? O emprego correto das letras — sobretudo naqueles pontos em que sons iguais se grafam de modos diferentes — é uma das dificuldades mais persistentes de quem escreve, e um dos temas mais cobrados em provas. No capítulo anterior vimos que parte da ortografia é convenção pura; mas boa parte é regra — e é justamente essa parte regular que este capítulo organiza, para que você deduza a grafia em vez de apenas tentar lembrá-la.\nConcentramo-nos nos casos que realmente causam dúvida: g × j, s × z, x × ch, ç, e × i, o × u, e o uso de h. Para cada um, há regras que cobrem a maioria das ocorrências — e algumas exceções a memorizar. É um capítulo de consulta tanto quanto de leitura.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-15-emprego-de-letras.html#objetivos-de-aprendizagem",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.1 🎯 Objetivos de aprendizagem",
+    "text": "17.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nAplicar as regras de emprego de g e j;\nDistinguir os usos de s, ss, ç, sc e z na representação do /s/ e do /z/;\nDecidir entre x e ch nos contextos regulares;\nEmpregar corretamente e/i e o/u em palavras de grafia duvidosa;\nJustificar o uso (ou a ausência) do h;\nReconhecer os limites das regras e quando recorrer ao dicionário.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#g-ou-j",
+    "href": "capitulos/cap-15-emprego-de-letras.html#g-ou-j",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.2 G ou J",
+    "text": "17.2 G ou J\nO som /ʒ/ (como em gelo, jarro) grafa-se ora g, ora j. Regras principais:\nEscreve-se com G:\n\npalavras terminadas em -agem, -igem, -ugem: viagem, garagem, origem, ferrugem (exceções: pajem, lambujem);\npalavras terminadas em -ágio, -égio, -ígio, -ógio, -úgio: pedágio, colégio, prestígio, relógio, refúgio;\nem geral, verbos em -ger, -gir: proteger, fugir, mugir.\n\nEscreve-se com J:\n\npalavras de origem indígena, africana ou popular: jiló, jerimum, canjica, pajé;\npalavras derivadas de outras com j: laranja → laranjeira; loja → lojista;\nformas dos verbos terminados em -jar: viajar → viaje, viajem (verbo!).\n\nA Figura 17.1 sintetiza a decisão mais cobrada.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 17.1: O teste do par viagem/viajem: se é substantivo, grafa-se com g; se é forma do verbo viajar, com j.\n\n\n\n\n\n\n\n\n\nImportanteViagem × viajem: substantivo × verbo\n\n\n\nViagem (com g) é substantivo (“Fiz uma boa viagem”). Viajem (com j) é forma do verbo viajar (“Espero que eles viajem em paz”). A mesma lógica vale para ferrugem (subst.) e não há verbo correspondente; mas o par viagem/viajem é a pegadinha clássica: pergunte-se se é nome ou verbo.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#os-sons-s-e-z-s-ss-ç-sc-x-e-z",
+    "href": "capitulos/cap-15-emprego-de-letras.html#os-sons-s-e-z-s-ss-ç-sc-x-e-z",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.3 Os sons /s/ e /z/: S, SS, Ç, SC, X e Z",
+    "text": "17.3 Os sons /s/ e /z/: S, SS, Ç, SC, X e Z\nO fonema /s/ tem seis grafias; o /z/, três. As regras mais úteis:\nSom /s/:\n\n-ç- aparece sobretudo em palavras de origem indígena, árabe ou africana e após ditongo: caçula, muçarela, traição, feição. Nunca se usa ç em início de palavra.\n-ss- entre vogais, em muitas palavras (frequentemente ligadas a formas com -d-, -t-, -ced-, -gred-): agressão (de agredir), permissão (de permitir), discussão (de discutir).\n-sc-, -sç-, -xc- são convenções: nascer, desço, exceção, excesso.\n\nSom /z/:\n\n-s- entre vogais tem som de /z/: casa, mesa, asa; e nos sufixos -oso/-osa (gostoso, formosa) e -ês/-esa de origem/gentílico (português, francesa, marquesa);\n-z- nos sufixos -ez/-eza (formadores de substantivos abstratos a partir de adjetivos: rigidez, beleza, nobreza) e em muitos derivados (razão → razoável).\n\n\nContraste que cai em prova:\n\n-ês/-esa (gentílico/origem) com s: inglês, chinesa, burguesa.\n-ez/-eza (qualidade abstrata) com z: timidez, pobreza, sensatez.\nanalisar com s (do inglês analyse/grego), mas deslizar com z.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#x-ou-ch",
+    "href": "capitulos/cap-15-emprego-de-letras.html#x-ou-ch",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.4 X ou CH",
+    "text": "17.4 X ou CH\nO som /ʃ/ grafa-se x ou ch. Regras para o X:\n\ngeralmente depois de ditongo: caixa, peixe, frouxo, feixe (exceção notável: recauchutar);\ngeralmente depois da sílaba inicial en-: enxada, enxame, enxergar, enxaqueca (mas encher, enchente e derivados de cheio mantêm ch, pois vêm de cheio);\ngeralmente depois da sílaba inicial me-: mexer, mexerica, mexilhão (exceção: mecha, de cabelo);\nem palavras de origem indígena ou africana: abacaxi, xará, xingar.\n\nAs demais grafam-se com ch por convenção: chave, chuva, cachorro, fechar.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#e-ou-i-o-ou-u",
+    "href": "capitulos/cap-15-emprego-de-letras.html#e-ou-i-o-ou-u",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.5 E ou I, O ou U",
+    "text": "17.5 E ou I, O ou U\nVogais átonas causam dúvida porque, na fala, /e/ átono soa /i/ e /o/ átono soa /u/. Não há regra geral; são em boa parte convenções, mas há listas úteis:\n\ncom E: cardeal, disenteria, empecilho, mexerica, palet ó? não — paletó; quase, seringa.\ncom I: aborígine, artimanha, cumeeira? (com e), digladiar, privilégio, requisito.\ncom O: bobina, boteco? — cuidado; goela, mágoa, toalha.\ncom U: bulir, camundongo, curtir, tábua, usufruir.\n\nAqui a estratégia é sobretudo a memória e a consulta; poucas regras salvam. Um caderno de palavras duvidosas ajuda.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#o-h",
+    "href": "capitulos/cap-15-emprego-de-letras.html#o-h",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.6 O H",
+    "text": "17.6 O H\nO h é a letra mais “etimológica” do português — costuma existir por herança histórica, sem valor sonoro próprio:\n\nh inicial: mantém-se por etimologia (homem, hora, honra, hoje); não soa.\nh final: só em interjeições (ah!, oh!) e alguns estrangeirismos.\nh em dígrafos: em ch, lh, nh, o h forma dígrafo (aí, sim, tem função: compõe o som).\nqueda do h: em palavras compostas com hífen, às vezes se mantém (pré-história); sem hífen e por aglutinação, cai (reaver, de re + haver).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#quadro-resumo",
+    "href": "capitulos/cap-15-emprego-de-letras.html#quadro-resumo",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.7 📋 Quadro-resumo",
+    "text": "17.7 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nDúvida\nRegra útil\nExemplo\n\n\n\n\ng × j (/ʒ/)\n-agem/-igem/-ugem, -ágio… → g; verbos -jar → j\nviagem (subst.) × viajem (verbo)\n\n\n/s/\nç após ditongo/origem; ss entre vogais\ntraição, agressão\n\n\n/z/\n-oso/-esa (origem) → s; -ez/-eza (qualidade) → z\nfrancesa × beleza\n\n\nx × ch (/ʃ/)\napós ditongo, en-, me- → x\ncaixa, enxada, mexer\n\n\ne × i, o × u\nátonas: sobretudo convenção/memória\nempecilho, privilégio\n\n\nh\ninicial etimológico (não soa); em dígrafos tem função\nhomem, chave\n\n\n\nEm uma linha: boa parte do emprego de letras é regra dedutível (-agem com g, -eza com z, x após ditongo); o resto é convenção que se memoriza ou consulta — e o par viagem/viajem resolve-se por substantivo × verbo.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-15-emprego-de-letras.html#pegadinhas-e-erros-comuns",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.8 ⚠️ Pegadinhas e erros comuns",
+    "text": "17.8 ⚠️ Pegadinhas e erros comuns\n\nViagem × viajem. Substantivo → viagem (g); verbo (viajar) → viajem (j). “Boa viagem” (nome); “que eles viajem” (verbo).\nConfundir -ês/-esa com -ez/-eza. Origem/gentílico com s (português, francesa); qualidade abstrata com z (rigidez, beleza).\nEscrever ç no início de palavra. Nunca se usa ç em início de palavra; ali vai s ou c (cedo, sapo).\nGrafar encher com x. Encher, enchente e derivados de cheio mantêm ch (vêm de cheio), apesar da regra do en- + x (enxada).\nAchar que há regra para todo e/i e o/u átono. Em boa parte, é convenção: empecilho (e), privilégio (i), bulir (u). Memória e dicionário.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#exercícios",
+    "href": "capitulos/cap-15-emprego-de-letras.html#exercícios",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.9 ✍️ Exercícios",
+    "text": "17.9 ✍️ Exercícios\n1. Complete com g ou j e justifique: (a) via_em (substantivo); (b) que eles via_em (verbo); (c) peda___o.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nviagem (substantivo → regra -agem com g). (b) que eles viajem (forma do verbo viajar → verbos em -jar com j). (c) pedagio? — na verdade pedágio (com g, terminação -ágio). A distinção substantivo/verbo resolve o par viagem/viajem.\n\n\n\n\n2. (Estilo ENEM) Assinale a alternativa com erro de grafia:\n\nexcesso;\nexceção;\nanalizar;\ndiscussão;\nagressão.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). O correto é analisar (com s), não “analizar”. As demais estão corretas: excesso, exceção (dígrafo xc), discussão (de discutir, com ss), agressão (de agredir, com ss).\n\n\n\n3. Escolha entre x e ch e diga a regra: (a) cai_a; (b) en_er (de encher); (c) me___er.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\ncaixa — x após ditongo (ai). (b) encher — mantém ch por derivar de cheio (exceção à regra do en- + x). (c) mexer — x após a sílaba inicial me-.\n\n\n\n\n4. Explique a diferença de grafia entre francesa e beleza.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nFrancesa (com s) é gentílico/origem, com o sufixo -esa, grafado com s (mesma lógica de portuguesa, inglesa, marquesa). Beleza (com z) é substantivo abstrato de qualidade derivado de adjetivo, com o sufixo -eza, grafado com z (como nobreza, pobreza, rigidez). A distinção origem/gentílico (s) × qualidade abstrata (z) é a chave.\n\n\n\n5. Por que não se pode escrever ç no início de palavras como cedo ou sapo?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque, por convenção ortográfica do português, nunca se usa ç em início de palavra. O som /s/ inicial grafa-se com s (sapo, sede) ou com c antes de e/i (cedo, cidade). O ç só aparece no interior das palavras, diante de a, o, u (caça, moço, açúcar).\n\n\n\n6. (Estilo FCC) Assinale a alternativa em que todas as palavras estão corretas:\n\nrigidez, timidez, sensatez;\nrigides, timidez, sensates;\nrigidez, timides, sensatez;\nrigides, timides, sensatez;\nrigidez, timidez, sensates.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (a). Rigidez, timidez e sensatez são substantivos abstratos de qualidade, formados com o sufixo -ez, grafado com z. Todas as demais alternativas trazem ao menos uma grafia com s indevido.\n\n\n\n7. Justifique a grafia com ss de permissão e discussão.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPermissão deriva de permitir e discussão deriva de discutir: nas famílias de palavras cujos verbos terminam em -tir/-mitir/-cutir etc., o substantivo em -ssão grafa-se com ss (permitir → permissão; discutir → discussão; agredir → agressão). É um caso em que a família da palavra ajuda a deduzir a grafia.\n\n\n\n8. Explique o valor (ou a ausência de valor sonoro) do h em hora e em chave.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm hora, o h é inicial e etimológico: existe por herança histórica (latim hora), mas não representa som algum — é letra muda. Em chave, o h integra o dígrafo ch, que representa o fonema /ʃ/: aí o h tem função, pois compõe, com o c, um único som. No primeiro caso, não soa; no segundo, participa de um dígrafo.\n\n\n\n9. Corrija, se necessário: (a) empecilho; (b) privilégio; (c) beneficiente.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nempecilho — correto (com e). (b) o correto é privilégio (com i na segunda sílaba: pri-vi-lé-gio), não “priviégio” nem “previlégio”. (c) o correto é beneficente (não “beneficiente”). São palavras de grafia frequentemente errada por influência da fala.\n\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “As palavras enxergar e enchente seguem a mesma regra: x após a sílaba inicial en-.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. Enxergar segue a regra do x após en- (com x). Mas enchente não a segue: mantém ch porque deriva de cheio (encher → enchente). É justamente a exceção clássica — palavras da família de cheio conservam o ch, apesar do en- inicial.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html#referências",
+    "href": "capitulos/cap-15-emprego-de-letras.html#referências",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "17.10 📚 Referências",
+    "text": "17.10 📚 Referências\nAs regras de emprego de letras seguem o tratamento normativo de Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017); os casos de convenção pura resolvem-se por consulta ao VOLP e ao dicionário Houaiss (Houaiss; Villar, 2009). As alterações trazidas pelo Acordo de 1990 (trema, algumas grafias) são detalhadas no Capítulo 18.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.\n\n\nHOUAISS, Antônio; VILLAR, Mauro de Salles. Dicionário Houaiss da Língua Portuguesa. Rio de Janeiro: Objetiva, 2009.",
     "crumbs": [
       "Volume 3 — Ortografia e Acentuação",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
@@ -1539,7 +1748,95 @@
     "href": "capitulos/cap-16-acordo-ortografico-1990.html",
     "title": "17  O Acordo Ortográfico de 1990",
     "section": "",
-    "text": "18 O Acordo Ortográfico de 1990\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "18 O Acordo Ortográfico de 1990\nEm 2009 entrou em vigor no Brasil (tornando-se obrigatório em 2016) o Acordo Ortográfico da Língua Portuguesa de 1990, um tratado entre os países de língua portuguesa para aproximar as grafias usadas de um lado e outro do Atlântico. Para quem estuda português, o Acordo importa por um motivo prático: ele mudou como se escrevem muitas palavras — aboliu o trema, alterou regras de acentuação e de hífen — e provas continuam cobrando essas mudanças, muitas vezes com pegadinhas sobre o que mudou e o que não mudou.\nEste capítulo faz o balanço do Acordo: o que ele alterou, o que permaneceu, e os mitos que circulam a seu respeito. As mudanças de acentuação e de hífen serão detalhadas nos capítulos seguintes (17, 18 e 19); aqui damos a visão de conjunto e fixamos os pontos mais cobrados.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-16-acordo-ortografico-1990.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-16-acordo-ortografico-1990.html#objetivos-de-aprendizagem",
+    "title": "17  O Acordo Ortográfico de 1990",
+    "section": "18.1 🎯 Objetivos de aprendizagem",
+    "text": "18.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nSituar o Acordo de 1990 e seu objetivo (unificação gráfica, não linguística);\nListar as principais mudanças (alfabeto, trema, acentuação, hífen);\nDistinguir o que mudou do que permaneceu igual;\nAplicar as novas regras nos casos mais frequentes;\nDesfazer mitos comuns sobre o Acordo;\nReconhecer que o Acordo é uma reforma ortográfica, não gramatical.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-16-acordo-ortografico-1990.html#o-que-o-acordo-é-e-o-que-não-é",
+    "href": "capitulos/cap-16-acordo-ortografico-1990.html#o-que-o-acordo-é-e-o-que-não-é",
+    "title": "17  O Acordo Ortográfico de 1990",
+    "section": "18.2 O que o Acordo é (e o que não é)",
+    "text": "18.2 O que o Acordo é (e o que não é)\nO Acordo Ortográfico é um tratado que visa unificar a ortografia dos países lusófonos, reduzindo as diferenças entre a grafia brasileira e a das demais nações. Seu alcance é exclusivamente gráfico: mexe em como as palavras se escrevem, não na gramática, na pronúncia, no vocabulário ou na sintaxe. Um brasileiro e um português continuam falando diferente e usando palavras diferentes (trem × comboio, ônibus × autocarro); o Acordo só aproxima a escrita.\n\n\n\n\n\n\nImportanteA unificação não é total\n\n\n\nMesmo após o Acordo, permanecem diferenças legítimas de grafia entre o Brasil e Portugal, ligadas a diferenças reais de pronúncia. Ex.: fato (BR, “acontecimento”) × facto (PT, onde o c é pronunciado); recepção (BR) × receção (PT). O Acordo eliminou consoantes mudas apenas onde elas não eram pronunciadas em nenhum dos lados; onde há pronúncia, mantém-se. Portanto, o Acordo aproxima, mas não unifica completamente.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-16-acordo-ortografico-1990.html#as-principais-mudanças",
+    "href": "capitulos/cap-16-acordo-ortografico-1990.html#as-principais-mudanças",
+    "title": "17  O Acordo Ortográfico de 1990",
+    "section": "18.3 As principais mudanças",
+    "text": "18.3 As principais mudanças\nA Figura 18.1 organiza as quatro frentes de mudança.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 18.1: As quatro frentes de mudança do Acordo de 1990: alfabeto, trema, acentuação e hífen.\n\n\n\n\n18.3.1 1. Alfabeto\nAs letras k, w e y foram formalmente reincorporadas: o alfabeto passou de 23 para 26 letras (Capítulo 16). Seu uso, porém, continua restrito a nomes próprios, símbolos e estrangeirismos.\n\n\n18.3.2 2. Abolição do trema\nO trema (¨) foi abolido em palavras portuguesas. Escreve-se agora linguiça, sequência, frequente, tranquilo, cinquenta — sem trema, embora o u continue sendo pronunciado. O trema só permanece em nomes próprios estrangeiros e seus derivados (Müller, mülleriano; Bündchen).\n\n\n18.3.3 3. Mudanças na acentuação\nVárias regras de acento mudaram (detalhes nos capítulos 17 e 18). As mais cobradas:\n\nCaiu o acento dos ditongos abertos -ei- e -oi- em paroxítonas: ideia, assembleia, heroico, jiboia, paranoico (mas permanece em oxítonas: herói, chapéu, anéis).\nCaiu o acento dos hiatos -oo- e -ee-: voo, enjoo, leem, creem, veem.\nCaiu o acento diferencial em vários pares: pelo (antes pêlo), pera (antes pêra), para (verbo, antes pára) — com exceções que permaneceram (pôde × pode; pôr × por).\nCaiu o acento do -i- e -u- tônicos após ditongo em paroxítonas: feiura, baiuca.\n\n\n\n18.3.4 4. Mudanças no hífen\nAs regras de hífen com prefixos foram reformuladas (detalhes no Capítulo 21). Em resumo: dobra-se r e s após prefixo terminado em vogal quando a segunda palavra começa por essas letras (antirreligioso, ultrassom, contrarregra); usa-se hífen quando o prefixo termina na mesma vogal ou consoante que inicia a segunda palavra (micro-ondas, anti-inflamatório, sub-bibliotecário).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-16-acordo-ortografico-1990.html#o-que-não-mudou-mitos-frequentes",
+    "href": "capitulos/cap-16-acordo-ortografico-1990.html#o-que-não-mudou-mitos-frequentes",
+    "title": "17  O Acordo Ortográfico de 1990",
+    "section": "18.4 O que NÃO mudou (mitos frequentes)",
+    "text": "18.4 O que NÃO mudou (mitos frequentes)\nCirculam muitos exageros sobre o Acordo. Fixe o que permaneceu:\n\nNão acabou o acento agudo nem o circunflexo em geral: café, avô, vovô, até, médico continuam acentuados.\nNão mudou a acentuação das proparoxítonas (todas continuam acentuadas) nem das oxítonas terminadas em -a, -e, -o, -em (sofá, café, cipó, também).\nNão mudou a distinção mau × mal, mas × más, nem a gramática, a concordância, a regência — nada disso é ortografia.\nPermaneceram os acentos diferenciais de pôde (passado) × pode (presente) e pôr (verbo) × por (preposição).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-16-acordo-ortografico-1990.html#quadro-resumo",
+    "href": "capitulos/cap-16-acordo-ortografico-1990.html#quadro-resumo",
+    "title": "17  O Acordo Ortográfico de 1990",
+    "section": "18.5 📋 Quadro-resumo",
+    "text": "18.5 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nFrente\nMudança\nExemplo (novo)\n\n\n\n\nAlfabeto\nk, w, y reincorporadas (26 letras)\nkm, watt\n\n\nTrema\nAbolido (salvo nomes próprios)\nlinguiça, sequência\n\n\nAcento ei/oi\nCai em paroxítonas\nideia, heroico\n\n\nHiatos oo/ee\nCai o acento\nvoo, leem\n\n\nAcento diferencial\nCai na maioria (fica pôde, pôr)\npelo, pera, para\n\n\nHífen\nNovas regras com prefixos\nantirreligioso, micro-ondas\n\n\n\nEm uma linha: o Acordo de 1990 é uma reforma só ortográfica — reincorporou k/w/y, aboliu o trema, tirou acento de ideia/heroico/voo/leem e reformulou o hífen —, mas não mexeu na gramática nem eliminou os acentos em geral.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-16-acordo-ortografico-1990.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-16-acordo-ortografico-1990.html#pegadinhas-e-erros-comuns",
+    "title": "17  O Acordo Ortográfico de 1990",
+    "section": "18.6 ⚠️ Pegadinhas e erros comuns",
+    "text": "18.6 ⚠️ Pegadinhas e erros comuns\n\nAchar que o trema sumiu da pronúncia. O trema foi abolido da escrita (linguiça), mas o u continua pronunciado. Mudou a grafia, não o som.\nTirar acento de oxítonas com ditongo aberto. O acento caiu só nas paroxítonas (ideia, heroico); nas oxítonas permanece (herói, chapéu, anéis).\nEsquecer que pôde e pôr mantêm acento. Os diferenciais pôde (passado) × pode e pôr (verbo) × por não foram abolidos.\nConfundir reforma ortográfica com reforma gramatical. O Acordo mexe só na escrita: não altera concordância, regência, pronúncia nem vocabulário.\nSupor unificação total com Portugal. Permanecem grafias diferentes onde há pronúncia diferente (fato/facto, recepção/receção).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-16-acordo-ortografico-1990.html#exercícios",
+    "href": "capitulos/cap-16-acordo-ortografico-1990.html#exercícios",
+    "title": "17  O Acordo Ortográfico de 1990",
+    "section": "18.7 ✍️ Exercícios",
+    "text": "18.7 ✍️ Exercícios\n1. Qual é o objetivo do Acordo Ortográfico de 1990 e qual o seu alcance?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO objetivo é unificar a ortografia entre os países de língua portuguesa, reduzindo as diferenças de grafia. Seu alcance é exclusivamente gráfico: mexe apenas em como as palavras se escrevem, não na gramática, na pronúncia, no vocabulário ou na sintaxe. A unificação, ademais, não é total: permanecem diferenças de grafia onde há diferenças reais de pronúncia (fato/facto).\n\n\n\n2. (Estilo ENEM) Após o Acordo de 1990, a palavra linguiça passou a ser escrita sem trema. Isso significa que:\n\no u deixou de ser pronunciado;\nmudou apenas a grafia; o u continua pronunciado;\na palavra passou a ser proparoxítona;\no trema foi abolido inclusive em nomes próprios;\na pronúncia passou a ser “linguiça” sem o som do u.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). O Acordo aboliu o trema da escrita, mas o u de linguiça, sequência, frequente continua sendo pronunciado. Mudou a grafia, não o som. E o trema permanece em nomes próprios estrangeiros (Müller), o que torna a (d) falsa.\n\n\n\n3. Indique se levam acento, após o Acordo: (a) ideia; (b) herói; (c) voo; (d) chapéu.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nideia — sem acento (paroxítona com ditongo ei: o acento caiu). (b) herói — com acento (oxítona com ditongo ói: mantém). (c) voo — sem acento (hiato oo: o acento caiu). (d) chapéu — com acento (oxítona com ditongo éu: mantém). A queda atingiu paroxítonas e hiatos oo/ee, não as oxítonas.\n\n\n\n\n4. Explique por que o Acordo não eliminou as grafias diferentes entre fato (BR) e facto (PT).\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque o Acordo eliminou as consoantes mudas apenas onde elas não eram pronunciadas em nenhuma variedade. Em Portugal, o c de facto é pronunciado; logo, a grafia com c se mantém lá, refletindo a pronúncia real. No Brasil, esse c não soa, e a grafia é fato. A diferença gráfica persiste porque persiste a diferença de pronúncia — o Acordo aproxima grafias, mas não impõe uma escrita contrária à fala.\n\n\n\n5. Cite dois acentos diferenciais que permaneceram após o Acordo e dois que foram abolidos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPermaneceram: pôde (pretérito) × pode (presente); pôr (verbo) × por (preposição). Foram abolidos: pelo (antes pêlo, substantivo, para distinguir de pelo = por + o); pera (antes pêra, fruta) × para; e o acento de para (verbo parar, antes pára).\n\n\n\n6. (Estilo FCC) Assinale a alternativa em que a grafia está de acordo com a norma vigente:\n\nidéia;\nheróico;\nassembléia;\ntranquilo;\nvôo.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (d). Tranquilo (sem trema) está correto pela norma vigente. As demais estão na grafia antiga: o correto hoje é ideia, heroico, assembleia (sem acento) e voo (sem acento).\n\n\n\n7. O Acordo de 1990 alterou a acentuação das proparoxítonas? Justifique.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nNão. As proparoxítonas continuam todas acentuadas (médico, lâmpada, sílaba, árvore), como sempre foram — essa é uma regra sem exceção que o Acordo não tocou. As mudanças de acentuação atingiram sobretudo paroxítonas com ditongos abertos (ideia), hiatos oo/ee (voo, leem) e acentos diferenciais, não as proparoxítonas.\n\n\n\n8. Reescreva na grafia atual: “A idéia do herói era manter o vôo tranqüilo até a assembléia.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“A ideia do herói era manter o voo tranquilo até a assembleia.” Correções: idéia → ideia (paroxítona, cai o acento); herói permanece (oxítona); vôo → voo (hiato oo); tranqüilo → tranquilo (sem trema); assembléia → assembleia (paroxítona, cai o acento).\n\n\n\n9. Um estudante afirma: “Com o novo Acordo, os acentos acabaram.” Comente criticamente.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA afirmação é falsa e exagerada. O Acordo não aboliu os acentos em geral: continuam acentuadas as proparoxítonas (médico), as oxítonas em -a/-e/-o/-em (sofá, café, também), muitas paroxítonas (fácil, automóvel) e permanecem acentos diferenciais (pôde, pôr). O que caiu foi um conjunto específico de acentos: os de ditongos abertos em paroxítonas (ideia), os de hiatos oo/ee (voo, leem) e a maioria dos diferenciais. A reforma foi pontual, não uma abolição dos acentos.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “O Acordo Ortográfico de 1990 alterou regras de concordância e de regência para aproximar o português do Brasil e o de Portugal.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. O Acordo é exclusivamente ortográfico: mexe apenas na grafia (alfabeto, trema, acentuação, hífen). Não altera concordância, regência, colocação, pronúncia nem vocabulário — essas dimensões continuam podendo variar entre as variedades. Confundir reforma ortográfica com reforma gramatical é um erro conceitual comum.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-16-acordo-ortografico-1990.html#referências",
+    "href": "capitulos/cap-16-acordo-ortografico-1990.html#referências",
+    "title": "17  O Acordo Ortográfico de 1990",
+    "section": "18.8 📚 Referências",
+    "text": "18.8 📚 Referências\nO texto e as regras do Acordo de 1990 são incorporados às edições atualizadas de Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017) e ao VOLP, fonte oficial. Para consulta de grafias específicas, o dicionário Houaiss (Houaiss; Villar, 2009) em edição pós-Acordo. As mudanças de acentuação e hífen são desenvolvidas nos capítulos 17 a 19.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.\n\n\nHOUAISS, Antônio; VILLAR, Mauro de Salles. Dicionário Houaiss da Língua Portuguesa. Rio de Janeiro: Objetiva, 2009.",
     "crumbs": [
       "Volume 3 — Ortografia e Acentuação",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
@@ -1550,7 +1847,117 @@
     "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html",
     "title": "18  Acentuação gráfica: regras fundamentais",
     "section": "",
-    "text": "19 Acentuação gráfica: regras fundamentais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "19 Acentuação gráfica: regras fundamentais\nA acentuação gráfica assusta muita gente, mas obedece a uma lógica notavelmente elegante. No fundo, todo o sistema responde a uma única pergunta: quais palavras precisam de acento para que o leitor saiba onde está a sílaba tônica? A resposta parte de uma constatação estatística — o português tem um “padrão default” de tonicidade — e acentua justamente as palavras que fogem desse padrão ou que poderiam gerar ambiguidade.\nNeste capítulo estabelecemos as regras fundamentais, organizadas pela classificação que aprendemos no Capítulo 12 (oxítonas, paroxítonas, proparoxítonas). Dominadas essas, o Capítulo 20 tratará dos casos especiais (hiatos, ditongos abertos, acentos diferenciais). Aqui está o coração da acentuação: entenda a lógica e você deixará de decorar listas.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#objetivos-de-aprendizagem",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.1 🎯 Objetivos de aprendizagem",
+    "text": "19.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nReconhecer os sinais gráficos (agudo, circunflexo, til, grave) e sua função;\nAplicar a regra de acentuação das oxítonas;\nAplicar a regra de acentuação das paroxítonas (pela terminação);\nJustificar por que todas as proparoxítonas são acentuadas;\nRelacionar a acentuação ao padrão tônico “default” do português;\nAcentuar corretamente palavras a partir de sua classificação.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#os-sinais-gráficos",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#os-sinais-gráficos",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.2 Os sinais gráficos",
+    "text": "19.2 Os sinais gráficos\nO português usa quatro sinais ligados à tonicidade e à pronúncia:\n\nAcento agudo (´): marca a sílaba tônica com vogal aberta — café, pá, herói, médico.\nAcento circunflexo (^): marca a sílaba tônica com vogal fechada — avô, lâmpada, três, pôr.\nTil (~): marca nasalidade (não é propriamente acento tônico, mas costuma coincidir com a tônica) — maçã, irmão, põe.\nAcento grave (`): marca exclusivamente a crase (fusão de a + a) — à, àquele. Não indica tonicidade; será estudado no Volume 8.\n\nAgudo e circunflexo distinguem-se pela abertura da vogal: avó (/ɔ/, aberta, agudo) × avô (/o/, fechada, circunflexo).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#o-padrão-default-e-a-lógica-da-acentuação",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#o-padrão-default-e-a-lógica-da-acentuação",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.3 O padrão “default” e a lógica da acentuação",
+    "text": "19.3 O padrão “default” e a lógica da acentuação\nA chave para entender tudo: a maioria esmagadora das palavras do português é paroxítona (tônica na penúltima) — é o padrão mais comum, o “default”. Por isso o sistema de acentuação é economicamente construído: acentuam-se sobretudo as palavras que fogem do padrão (oxítonas e proparoxítonas) e, entre as paroxítonas, apenas as de terminação menos comum. A Figura 19.1 resume essa lógica.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 19.1: A economia da acentuação: quanto mais a palavra se afasta do padrão paroxítono, mais provavelmente leva acento — todas as proparoxítonas, boa parte das oxítonas e só as paroxítonas de terminação incomum.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#regra-das-oxítonas",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#regra-das-oxítonas",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.4 Regra das oxítonas",
+    "text": "19.4 Regra das oxítonas\nAcentuam-se as oxítonas (tônica na última sílaba) terminadas em:\n\n-a, -as: sofá, vatapás, já (monossílabo tônico);\n-e, -es: café, você, convés, pés;\n-o, -os: cipó, paletó, avós, pós;\n-em, -ens: também, ninguém, parabéns, reféns.\n\nNão se acentuam as oxítonas terminadas em -i, -u, -r, -l, -z, -im, -um e outras: caqui, urubu, cantar, anzol, rapaz, capim, atum. (Os monossílabos tônicos seguem a mesma lógica: pá, fé, só, pôs são acentuados; quis, pus não.)\n\n\n\n\n\n\nNotaPor que essas terminações?\n\n\n\nAs oxítonas terminadas em -a, -e, -o, -em são as que “surpreendem” o leitor, porque essas terminações são típicas de paroxítonas (mesa, pente, carro, item). O acento avisa: “aqui a tônica é na última, não na penúltima”. Já caqui ou urubu terminam em -i/-u, terminações que já sugerem oxítona — daí dispensarem acento.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#regra-das-paroxítonas",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#regra-das-paroxítonas",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.5 Regra das paroxítonas",
+    "text": "19.5 Regra das paroxítonas\nComo a paroxítona é o padrão, acentuam-se apenas as de terminação incomum — isto é, todas exceto as terminadas em -a, -e, -o, -em, -ens (as terminações “típicas” de paroxítona, que por isso não precisam de aviso). Acentuam-se as paroxítonas terminadas em:\n\n-i, -is: júri, lápis, táxi, grátis;\n-us, -um, -uns: vírus, bônus, álbum, médiuns;\n-l, -n, -r, -x: fácil, hífen, caráter, tórax;\n-ã, -ãs, -ão, -ãos: ímã, órfã, órfão, bênção;\n-ps: bíceps, fórceps;\nditongo (oral ou nasal): série, água, régua, órgão, jóquei.\n\n\n\nfácil, útil, hábil (terminação -l) → acentuadas.\nitem, jovem (terminação -em) → não acentuadas (é terminação típica de paroxítona).\ntáxi, júri (terminação -i) → acentuadas.\nlapela, caneta (terminação -a) → não acentuadas.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#regra-das-proparoxítonas",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#regra-das-proparoxítonas",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.6 Regra das proparoxítonas",
+    "text": "19.6 Regra das proparoxítonas\nA regra mais simples de todas: todas as proparoxítonas são acentuadas, sem exceção. médico, lâmpada, sílaba, árvore, público, fôlego, êxodo. Se você identificar que a tônica está na antepenúltima, pode acentuar com segurança absoluta.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#quadro-resumo",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#quadro-resumo",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.7 📋 Quadro-resumo",
+    "text": "19.7 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nClasse\nAcentua-se quando termina em\nExemplos\n\n\n\n\nOxítona\n-a(s), -e(s), -o(s), -em/-ens\nsofá, café, cipó, também\n\n\nParoxítona\ntudo exceto -a(s), -e(s), -o(s), -em/-ens; + ditongo, -ã/-ão\nfácil, táxi, vírus, água, órgão\n\n\nProparoxítona\nsempre (todas)\nmédico, lâmpada, sílaba\n\n\n\nRegra de ouro: oxítona e paroxítona têm terminações complementares — o que acentua uma (-a, -e, -o, -em) é o que não acentua a outra. Proparoxítona: sempre acento.\nEm uma linha: acentua-se o que foge do padrão paroxítono — todas as proparoxítonas, as oxítonas em -a/-e/-o/-em e as paroxítonas de terminação incomum (-i, -us, -l, -r, -x, -ã, -ão, ditongo).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#pegadinhas-e-erros-comuns",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.8 ⚠️ Pegadinhas e erros comuns",
+    "text": "19.8 ⚠️ Pegadinhas e erros comuns\n\nTrocar as terminações de oxítona e paroxítona. São complementares: oxítona acentua em -a/-e/-o/-em (sofá); paroxítona acentua em tudo menos isso (fácil, táxi). Se confundir, erra os dois.\nNão acentuar proparoxítona. Todas levam acento (médico, árvore). É a regra sem exceção — nunca deixe uma proparoxítona sem acento.\nAcentuar oxítona terminada em -i/-u. Caqui, urubu, bambu não levam acento (a terminação já sugere oxítona).\nAchar que item e jovem levam acento. São paroxítonas terminadas em -em, terminação típica de paroxítona → sem acento (no plural, porém: itens, sem acento; mas hífens leva, por ser diferente).\nConfundir agudo e circunflexo. Vogal aberta → agudo (avó); vogal fechada → circunflexo (avô). A abertura decide o sinal.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#exercícios",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#exercícios",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.9 ✍️ Exercícios",
+    "text": "19.9 ✍️ Exercícios\n1. Explique a “lógica de economia” que rege o sistema de acentuação do português.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nComo a maioria das palavras do português é paroxítona (padrão “default”), o sistema acentua sobretudo as palavras que fogem desse padrão: todas as proparoxítonas (bem raras) e as oxítonas de terminação típica de paroxítona. Entre as paroxítonas, acentuam-se só as de terminação incomum. Assim, o acento serve de “aviso” quando a tônica não está onde o leitor esperaria, poupando sinais onde a terminação já indica a tonicidade.\n\n\n\n2. (Estilo ENEM) Assinale a alternativa em que a palavra deve ser acentuada:\n\ncaqui;\nurubu;\njovem;\nparabens;\ncantar.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (d). Parabéns é oxítona terminada em -ens → acentua-se. Caqui e urubu são oxítonas em -i/-u (sem acento); jovem é paroxítona em -em (sem acento); cantar é oxítona em -r (sem acento).\n\n\n\n3. Acentue se necessário e classifique: (a) facil; (b) sofa; (c) medico; (d) taxi.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nfácil — paroxítona terminada em -l → acento. (b) sofá — oxítona terminada em -a → acento. (c) médico — proparoxítona → acento (sempre). (d) táxi — paroxítona terminada em -i → acento.\n\n\n\n\n4. Por que sofá leva acento e lapela não, se ambas terminam em -a?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque a classificação é diferente. Sofá é oxítona (tônica na última): oxítonas em -a são acentuadas. Lapela é paroxítona (tônica na penúltima: la-PE-la): paroxítonas em -a são a terminação típica do padrão e não se acentuam. A mesma terminação -a tem efeito oposto conforme a posição da tônica.\n\n\n\n5. Explique a diferença entre o acento agudo e o circunflexo, com exemplos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAmbos marcam a sílaba tônica, mas indicam a abertura da vogal: o agudo (´) marca vogal aberta (avó /ɔ/, café /ɛ/, pé); o circunflexo (^) marca vogal fechada (avô /o/, você /e/, três). O par avó/avô ilustra: mesma letra o, mas aberta (agudo) × fechada (circunflexo).\n\n\n\n6. (Estilo FCC) Assinale a alternativa em que todas as paroxítonas estão corretamente acentuadas:\n\nfácil, vírus, tórax;\nfacil, virus, torax;\nfácil, virus, tórax;\nfacil, vírus, torax;\nfácil, vírus, torax.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (a). Fácil (paroxítona em -l), vírus (em -us) e tórax (em -x) são todas paroxítonas de terminação incomum, que se acentuam. As demais alternativas deixam ao menos uma sem o acento devido.\n\n\n\n7. Todas as proparoxítonas são acentuadas? Enuncie a regra e dê três exemplos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nSim — é uma regra sem exceção: toda palavra proparoxítona (tônica na antepenúltima sílaba) leva acento gráfico. Exemplos: médico, lâmpada, sílaba, árvore, público, fôlego. Identificada a tônica na antepenúltima, acentua-se com certeza.\n\n\n\n8. Acentue, se preciso: (a) ninguem; (b) item; (c) bonus; (d) cipo.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nninguém — oxítona em -em → acento. (b) item — paroxítona em -em → sem acento. (c) bônus — paroxítona em -us → acento. (d) cipó — oxítona em -o → acento.\n\n\n\n\n9. Por que a regra das oxítonas e a das paroxítonas são chamadas de “complementares”?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque as terminações que acentuam as oxítonas (-a, -e, -o, -em/-ens) são exatamente as que não acentuam as paroxítonas, e vice-versa. As paroxítonas se acentuam justamente nas terminações que não acentuam as oxítonas (-i, -us, -l, -r, -x, -ã, -ão, ditongo). As duas regras se encaixam como complementos: cobrem terminações opostas.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “A palavra jovem não é acentuada porque é paroxítona terminada em -em, mas seu plural jovens também não recebe acento.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCerto. Jovem é paroxítona terminada em -em (terminação típica de paroxítona) → sem acento. O plural jovens (paroxítona em -ens) também não recebe acento, pela mesma razão. (Cuidado para não confundir com hífen/hífens, em que a forma singular leva acento por outra razão de terminação.)",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html#referências",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html#referências",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "19.10 📚 Referências",
+    "text": "19.10 📚 Referências\nAs regras fundamentais de acentuação seguem a redação do Acordo de 1990, incorporada por Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017); a fonte oficial é o VOLP. Os casos especiais — hiatos, ditongos abertos e acentos diferenciais — são o tema do Capítulo 20.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 3 — Ortografia e Acentuação",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
@@ -1561,7 +1968,106 @@
     "href": "capitulos/cap-18-acentuacao-casos-especiais.html",
     "title": "19  Acentuação gráfica: casos especiais",
     "section": "",
-    "text": "20 Acentuação gráfica: casos especiais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "20 Acentuação gráfica: casos especiais\nAs regras fundamentais do Capítulo 19 cobrem a maioria das palavras. Restam, porém, alguns casos que fogem à classificação simples por oxítona/paroxítona/proparoxítona — e que, não por acaso, são os mais cobrados em prova: o acento dos hiatos (saída, baú), o dos ditongos abertos (herói, mas ideia), os acentos diferenciais (pôde × pode) e as mudanças que o Acordo de 1990 introduziu nesses pontos.\nEstes são precisamente os casos que o Acordo mais alterou. Por isso este capítulo faz dupla função: ensina as regras vigentes e mostra o que mudou em relação à ortografia antiga — distinção que as bancas exploram com prazer. Ao fim dele, você terá o sistema de acentuação completo.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html#objetivos-de-aprendizagem",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "20.1 🎯 Objetivos de aprendizagem",
+    "text": "20.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nAplicar a regra de acentuação dos hiatos i e u tônicos;\nReconhecer as exceções da regra do hiato (após ditongo, com nh, com -l);\nAcentuar corretamente os ditongos abertos, distinguindo oxítonas de paroxítonas;\nEmpregar os acentos diferenciais que permaneceram (pôde, pôr, têm/vêm);\nIdentificar o que o Acordo de 1990 aboliu nesses casos;\nResolver questões que misturam regra fundamental e caso especial.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html#acento-dos-hiatos-i-e-u-tônicos",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html#acento-dos-hiatos-i-e-u-tônicos",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "20.2 Acento dos hiatos: i e u tônicos",
+    "text": "20.2 Acento dos hiatos: i e u tônicos\nEsta é uma das regras mais úteis. Acentuam-se o -i e o -u tônicos quando formam hiato (sílaba sozinhos), estando sozinhos na sílaba ou seguidos de -s:\n\nsaída (sa-í-da), país (pa-ís), baú (ba-ú), saúde (sa-ú-de), egoísmo, juízes, faísca, raízes.\n\nO i ou u aqui é a segunda vogal do hiato, tônico, formando sílaba própria. Compare sa-í-da (com acento, hiato) e cai-xa (sem acento, ditongo — o i é semivogal).\n\n\n\n\n\n\nImportanteAs exceções da regra do hiato\n\n\n\nO i/u tônico em hiato não se acentua quando:\n\nvem depois de ditongo, em paroxítonas — feiura (fei-u-ra), baiuca, bocaiuva (mudança do Acordo: antes eram acentuadas);\né seguido de nh — rainha (ra-i-nha), moinho, campainha;\nforma sílaba com outra letra além de s (-l, -r, -z, -m, -ns) — paul, Raul, ruim, sair → cair; ou quando há consoante que não s — juiz (ju-iz, sem acento), raiz, contribuinte;\nhá vogal idêntica dobrada em certas formas (casos raros).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html#acento-dos-ditongos-abertos",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html#acento-dos-ditongos-abertos",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "20.3 Acento dos ditongos abertos",
+    "text": "20.3 Acento dos ditongos abertos\nOs ditongos abertos -éi-, -éu-, -ói- eram todos acentuados na ortografia antiga. O Acordo de 1990 manteve o acento nas oxítonas e nos monossílabos, mas o aboliu nas paroxítonas. A Figura 20.1 organiza a distinção — talvez a pegadinha mais frequente de toda a acentuação.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 20.1: Os ditongos abertos éi, éu, ói mantêm o acento nas oxítonas e monossílabos (herói, chapéu), mas o perderam nas paroxítonas (ideia, heroico) após o Acordo de 1990.\n\n\n\n\nOxítonas/monossílabos (acento mantido): herói, anéis, chapéu, troféu, dói, céu, véu, papéis, fiéis, sóis.\nParoxítonas (acento abolido): ideia, assembleia, plateia, heroico, jiboia, paranoico, apoio, joia, boia.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html#acentos-diferenciais-que-permaneceram",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html#acentos-diferenciais-que-permaneceram",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "20.4 Acentos diferenciais que permaneceram",
+    "text": "20.4 Acentos diferenciais que permaneceram\nO Acordo aboliu quase todos os acentos diferenciais (pêlo, pêra, pára perderam o acento), mas três permaneceram, e são cobrados sempre:\n\npôde (pretérito perfeito, “ele pôde ontem”) × pode (presente, “ele pode hoje”).\npôr (verbo, “vou pôr a mesa”) × por (preposição, “passei por aqui”).\ntêm / vêm (3ª pessoa do plural: “eles têm”, “eles vêm”) × tem / vem (3ª pessoa do singular: “ele tem”, “ele vem”). O circunflexo marca o plural.\n\nFacultativos (aceitos com ou sem acento):\n\nfôrma / forma: o acento é facultativo para distinguir o substantivo (fôrma de bolo) da forma verbal/substantivo (forma). Usa-se quando há risco de ambiguidade.\ndêmos / demos e casos raros análogos.\n\n\n\n\n\n\n\nNotaO til dos verbos ter e vir e derivados\n\n\n\nNos derivados de ter e vir, o plural leva circunflexo e o singular, agudo ou nada: ele mantém × eles mantêm; ele intervém × eles intervêm; ele contém × eles contêm. Regra prática: singular = -ém (agudo); plural = -êm (circunflexo).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html#verbos-com-hiato-arguir-redarguir",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html#verbos-com-hiato-arguir-redarguir",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "20.5 Verbos com hiato: arguir, redarguir",
+    "text": "20.5 Verbos com hiato: arguir, redarguir\nO Acordo também aboliu o acento em algumas formas verbais com u tônico precedido de g/q, como em arguir (antes argúi). Hoje: arguo, arguis, argui — sem acento. São casos raros, mas aparecem em provas mais difíceis.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html#quadro-resumo",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html#quadro-resumo",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "20.6 📋 Quadro-resumo",
+    "text": "20.6 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nCaso\nRegra vigente\nExemplos\n\n\n\n\nHiato i/u tônico\nacentua se sozinho na sílaba ou + s\nsaída, baú, juízes\n\n\nExceções do hiato\nnão acentua após ditongo, antes de nh, com outra consoante\nfeiura, rainha, juiz\n\n\nDitongo aberto\noxítona/monossílabo: mantém; paroxítona: cai\nherói × ideia\n\n\nDiferenciais mantidos\npôde/pode, pôr/por, têm/tem, vêm/vem\nplural com circunflexo\n\n\nFacultativo\nfôrma/forma\nusa-se se houver ambiguidade\n\n\n\nEm uma linha: acentuam-se os hiatos de i/u tônicos (com exceções: após ditongo, antes de nh); os ditongos abertos só nas oxítonas (herói, não ideia); e permanecem os diferenciais pôde, pôr, têm/vêm.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html#pegadinhas-e-erros-comuns",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "20.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "20.7 ⚠️ Pegadinhas e erros comuns\n\nAcentuar ideia, heroico, jiboia. São paroxítonas: o Acordo aboliu o acento. Só oxítonas/monossílabos mantêm (herói, chapéu).\nAcentuar feiura e rainha. Feiura (i após ditongo) e rainha (i antes de nh) são exceções da regra do hiato: não levam acento.\nEsquecer têm/vêm no plural. “Eles têm”, “eles vêm” levam circunflexo (plural); “ele tem”, “ele vem” não. O acento marca o número.\nDeixar pôde sem acento no passado. “Ontem ele pôde” (circunflexo, passado) × “hoje ele pode” (presente). Diferencial mantido.\nAcentuar juiz e raiz. O i tônico aí é seguido de consoante que não s (-z): não se acentua. Compare com país (i + s, acentuado).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html#exercícios",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html#exercícios",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "20.8 ✍️ Exercícios",
+    "text": "20.8 ✍️ Exercícios\n1. Enuncie a regra do acento dos hiatos i e u tônicos e dê três exemplos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAcentuam-se o i e o u tônicos quando formam hiato (constituem sílaba sozinhos ou seguidos apenas de -s). Exemplos: saída (sa-í-da), baú (ba-ú), juízes (ju-í-zes), país (pa-ís), saúde (sa-ú-de). O i/u é a segunda vogal do hiato, tônica, em sílaba própria.\n\n\n\n2. (Estilo ENEM) Assinale a alternativa em que não deve haver acento, segundo a norma vigente:\n\nherói;\nideia;\nchapéu;\nanéis;\ntroféu.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Ideia é paroxítona com ditongo aberto ei: o Acordo aboliu o acento. As demais são oxítonas/monossílabos com ditongo aberto (herói, chapéu, anéis, troféu), que mantêm o acento.\n\n\n\n3. Explique por que saída leva acento, mas rainha não.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nSaída (sa-í-da) tem i tônico em hiato, sozinho na sílaba → acentua-se pela regra do hiato. Rainha (ra-i-nha) também tem i tônico em hiato, mas ele é seguido de nh, e essa é uma das exceções da regra: i/u antes de nh não recebe acento (moinho, campainha, rainha).\n\n\n\n4. Complete com acento se necessário e justifique: (a) “Ontem ele _ode vir”; (b) “Hoje ele _ode vir”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\n“Ontem ele pôde vir” — pretérito perfeito, com circunflexo (acento diferencial mantido). (b) “Hoje ele pode vir” — presente do indicativo, sem acento. O circunflexo distingue o passado (pôde) do presente (pode).\n\n\n\n\n5. Acentue corretamente: (a) “Eles _em muitos livros” (verbo ter); (b) “Ele _em à tarde” (verbo vir).\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\n“Eles têm muitos livros” — 3ª pessoa do plural de ter, com circunflexo.\n“Ele vem à tarde” — 3ª pessoa do singular de vir, sem acento. O circunflexo marca o plural (têm, vêm), distinguindo-o do singular (tem, vem).\n\n\n\n\n6. (Estilo FCC) Assinale a alternativa correta quanto à acentuação:\n\nassembléia, platéia, idéia;\nassembleia, plateia, ideia;\nassembleia, platéia, idéia;\nassembléia, plateia, ideia;\nassembleia, plateia, idéia.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Assembleia, plateia e ideia são paroxítonas com ditongo aberto ei: o Acordo aboliu o acento em todas. As demais alternativas mantêm indevidamente o acento antigo em ao menos uma palavra.\n\n\n\n7. Por que feiura e bocaiuva não levam acento, apesar de terem i/u tônico em hiato?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque o i/u tônico, nessas palavras, vem depois de um ditongo (fei-ura, bocai-uva), e essa é uma das exceções da regra do hiato introduzidas/confirmadas pelo Acordo de 1990: i/u tônico após ditongo, em paroxítona, não se acentua. Antes do Acordo, feiúra e bocaiúva eram acentuadas; hoje, não.\n\n\n\n8. Distinga, quanto ao acento, pôr e por, com um exemplo de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPôr (com circunflexo) é o verbo: “Vou pôr a mesa”; “É preciso pôr ordem”. Por (sem acento) é a preposição: “Passei por aqui”; “Fiz isso por você”. É um acento diferencial que o Acordo manteve, para não confundir o verbo com a preposição.\n\n\n\n9. Acentue se necessário: (a) juiz; (b) pais (nação); (c) bau; (d) ruim.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\njuiz — sem acento (o i tônico em hiato é seguido de -z, consoante que não s: exceção). (b) país — com acento (i tônico em hiato + s: pa-ís). (c) baú — com acento (u tônico em hiato: ba-ú). (d) ruim — sem acento (o i tônico é seguido de -m: ru-im, exceção).\n\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Após o Acordo de 1990, tanto as oxítonas quanto as paroxítonas com ditongo aberto ói perderam o acento gráfico.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. Apenas as paroxítonas com ditongo aberto perderam o acento (jiboia, paranoico, heroico). As oxítonas e monossílabos com ditongo aberto mantêm o acento (herói, dói, anzóis). A perda foi seletiva, restrita às paroxítonas.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html#referências",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html#referências",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "20.9 📚 Referências",
+    "text": "20.9 📚 Referências\nOs casos especiais de acentuação e as alterações do Acordo de 1990 são detalhados por Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017), com a chancela do VOLP. Com este capítulo completa-se a acentuação; o Capítulo 21 trata do emprego do hífen, também reformulado pelo Acordo.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 3 — Ortografia e Acentuação",
       "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
@@ -1572,7 +2078,106 @@
     "href": "capitulos/cap-19-emprego-do-hifen.html",
     "title": "20  Emprego do hífen",
     "section": "",
-    "text": "21 Emprego do hífen\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "21 Emprego do hífen\nDe todas as áreas da ortografia, o hífen tem a fama de ser a mais confusa — reputação que o Acordo de 1990, ironicamente, não ajudou a desfazer, pois reformulou várias regras. Mas há boas notícias: por trás da aparente bagunça, existe uma lógica razoavelmente clara, baseada em duas ideias centrais — o encontro de letras iguais e a natureza do prefixo. Compreendidas essas, a maioria dos casos se resolve sem decoreba.\nEste capítulo organiza o emprego do hífen em compostos e, sobretudo, em palavras com prefixos — que é onde moram as dúvidas e as pegadinhas de prova. Fechamos assim o núcleo da ortografia, restando apenas as convenções de maiúsculas e abreviaturas (Capítulo 22).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-19-emprego-do-hifen.html#objetivos-de-aprendizagem",
+    "title": "20  Emprego do hífen",
+    "section": "21.1 🎯 Objetivos de aprendizagem",
+    "text": "21.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nAplicar a regra geral do hífen com prefixos (encontro de vogais e consoantes iguais);\nDecidir quando dobrar r e s em vez de usar hífen;\nReconhecer os prefixos de comportamento especial (sub-, sub-, ex-, vice-, pós/pré/pró-);\nEmpregar o hífen em palavras compostas;\nIdentificar o que o Acordo de 1990 mudou no uso do hífen;\nResolver casos frequentes de prova.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html#a-regra-de-ouro-dos-prefixos",
+    "href": "capitulos/cap-19-emprego-do-hifen.html#a-regra-de-ouro-dos-prefixos",
+    "title": "20  Emprego do hífen",
+    "section": "21.2 A regra de ouro dos prefixos",
+    "text": "21.2 A regra de ouro dos prefixos\nA maioria das dúvidas envolve prefixos (ou falsos prefixos como aero-, auto-, micro-, anti-, super-). A regra central gira em torno da letra que termina o prefixo e da letra que inicia a palavra seguinte. A Figura 21.1 resume.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 21.1: A decisão básica do hífen com prefixos: letras iguais em contato pedem hífen; letras diferentes juntam-se — com o cuidado de dobrar r e s após prefixo terminado em vogal.\n\n\n\nDesdobrando a regra em três situações práticas:\n\n21.2.1 1. Letras iguais em contato → HÍFEN\nQuando o prefixo termina na mesma letra com que começa a palavra seguinte, usa-se hífen para evitar a fusão:\n\nvogal + vogal igual: micro-ondas, anti-inflamatório, contra-almirante, auto-observação, arqui-inimigo.\nconsoante + consoante igual: sub-bibliotecário, inter-regional, hiper-resistente, super-romântico.\n\n\n\n21.2.2 2. Prefixo em vogal + r/s → DOBRA a consoante (sem hífen)\nQuando o prefixo termina em vogal e a palavra seguinte começa com r ou s, não se usa hífen: junta-se e dobra-se o r ou o s:\n\nantirreligioso, antissocial, ultrassom, contrarregra, autorretrato, semirreta, minissaia, neorrealismo.\n\n\n\n21.2.3 3. Letras diferentes → JUNTA (sem hífen)\nQuando não há encontro de letras iguais nem o caso do r/s, geralmente se junta tudo:\n\nautoescola, semicírculo, coautor, aeroporto, antiaéreo, extraoficial, infraestrutura.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html#prefixos-de-comportamento-especial",
+    "href": "capitulos/cap-19-emprego-do-hifen.html#prefixos-de-comportamento-especial",
+    "title": "20  Emprego do hífen",
+    "section": "21.3 Prefixos de comportamento especial",
+    "text": "21.3 Prefixos de comportamento especial\nAlguns prefixos têm regra própria, que convém memorizar:\n\nsub-, ob-, ad-: usam hífen antes de r (e b): sub-região, ad-renal, além de sub-bibliotecário (b+b).\ncircum-, pan-: hífen antes de vogal, m, n, h: circum-navegação, pan-americano.\nex- (estado anterior), vice-, soto-, além-, aquém-, recém-, sem-, pós-, pré-, pró- (tônicos): usam sempre hífen: ex-marido, vice-presidente, recém-nascido, pós-graduação, pré-vestibular, pró-reitor, além-mar, sem-terra.\nmal-: hífen quando a palavra seguinte começa por vogal, h ou l (mal-estar, mal-humorado, mal-limpo); caso contrário, junta (malcriado, malfeito).\nbem-: costuma usar hífen (bem-vindo, bem-estar, bem-humorado), embora algumas formas se aglutinem (benfeito, benquisto).\n\n\n\n\n\n\n\nNotaO prefixo co- quase sempre junta\n\n\n\nO prefixo co- aglutina-se mesmo diante de vogal, inclusive o: coautor, coordenar, coobrigação, coedição. É uma exceção prática útil: com co-, raramente se usa hífen.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html#hífen-em-palavras-compostas",
+    "href": "capitulos/cap-19-emprego-do-hifen.html#hífen-em-palavras-compostas",
+    "title": "20  Emprego do hífen",
+    "section": "21.4 Hífen em palavras compostas",
+    "text": "21.4 Hífen em palavras compostas\nEm compostos (junção de palavras que mantêm certa autonomia), o hífen aparece:\n\nem compostos sem elemento de ligação que formam nova unidade: guarda-chuva, segunda-feira, couve-flor, beija-flor, arco-íris, azul-escuro.\nem nomes de espécies animais e vegetais: bem-te-vi, erva-doce, bem-me-quer.\nNão se usa hífen em compostos que perderam a noção de composição: girassol, paraquedas, mandachuva, pontapé.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html#o-que-o-acordo-mudou",
+    "href": "capitulos/cap-19-emprego-do-hifen.html#o-que-o-acordo-mudou",
+    "title": "20  Emprego do hífen",
+    "section": "21.5 O que o Acordo mudou",
+    "text": "21.5 O que o Acordo mudou\nO Acordo de 1990 alterou vários pontos. Os mais cobrados:\n\ncaiu o hífen quando o prefixo termina em vogal e a palavra começa por vogal diferente: antes auto-escola, hoje autoescola; antes extra-oficial, hoje extraoficial.\npassou a dobrar r/s nesses casos: antes anti-religioso, hoje antirreligioso; antes ultra-som, hoje ultrassom.\ncaiu o hífen em muitos compostos que se aglutinaram: paraquedas, mandachuva (antes com hífen).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html#quadro-resumo",
+    "href": "capitulos/cap-19-emprego-do-hifen.html#quadro-resumo",
+    "title": "20  Emprego do hífen",
+    "section": "21.6 📋 Quadro-resumo",
+    "text": "21.6 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nSituação\nRegra\nExemplo\n\n\n\n\nLetras iguais em contato\nhífen\nmicro-ondas, sub-bibliotecário\n\n\nPrefixo em vogal + r/s\njunta e dobra r/s\nantirreligioso, ultrassom\n\n\nLetras diferentes\njunta (sem hífen)\nautoescola, coautor\n\n\nsub- + r/b\nhífen\nsub-região\n\n\nex-, vice-, recém-, pós/pré/pró-\nsempre hífen\nex-aluno, pós-graduação\n\n\nCompostos-unidade\nhífen\nguarda-chuva, arco-íris\n\n\n\nEm uma linha: com prefixos, letras iguais pedem hífen, prefixo em vogal + r/s dobra a consoante, e o resto junta — com alguns prefixos (ex-, vice-, recém-, pós/pré/pró-) sempre hifenizados.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-19-emprego-do-hifen.html#pegadinhas-e-erros-comuns",
+    "title": "20  Emprego do hífen",
+    "section": "21.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "21.7 ⚠️ Pegadinhas e erros comuns\n\nUsar hífen em autoescola, extraoficial. Vogais diferentes em contato juntam-se (sem hífen) desde o Acordo. Só vogais iguais pedem hífen (micro-ondas).\nNão dobrar o r/s. Prefixo em vogal + r/s → junta e dobra: antirreligioso, ultrassom, minissaia (não “anti-religioso” nem “antirreligioso” sem os dois r).\nEsquecer os prefixos “sempre com hífen”. Ex-, vice-, recém-, pós-, pré-, pró- levam hífen invariavelmente (ex-marido, recém-chegado).\nHifenizar coautor e coordenar. O prefixo co- junta mesmo diante de vogal: coautor, coordenar, coedição.\nManter hífen em compostos aglutinados. Paraquedas, mandachuva, girassol já não têm hífen.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html#exercícios",
+    "href": "capitulos/cap-19-emprego-do-hifen.html#exercícios",
+    "title": "20  Emprego do hífen",
+    "section": "21.8 ✍️ Exercícios",
+    "text": "21.8 ✍️ Exercícios\n1. Enuncie a regra de ouro do hífen com prefixos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCompara-se a letra final do prefixo com a letra inicial da palavra seguinte: (1) se forem iguais, usa-se hífen (micro-ondas, sub-bibliotecário); (2) se o prefixo termina em vogal e a palavra começa por r ou s, junta-se e dobra-se a consoante (antirreligioso, ultrassom); (3) nos demais casos (letras diferentes), junta-se sem hífen (autoescola, coautor).\n\n\n\n2. (Estilo ENEM) Assinale a alternativa com grafia correta segundo a norma vigente:\n\nauto-escola;\nanti-religioso;\nultrassom;\nmicro ondas;\nextra-oficial.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). Ultrassom: prefixo em vogal (ultra) + s → junta e dobra o s. As demais estão erradas: o correto é autoescola (vogais diferentes, junta), antirreligioso (dobra o r), micro-ondas (vogais iguais, hífen) e extraoficial (junta).\n\n\n\n3. Grafe corretamente: (a) anti + social; (b) micro + ondas; (c) co + autor; (d) sub + região.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nantissocial (vogal + s → dobra o s). (b) micro-ondas (vogais iguais o+o → hífen). (c) coautor (o prefixo co- junta mesmo diante de vogal). (d) sub-região (o prefixo sub- usa hífen antes de r).\n\n\n\n\n4. Explique por que micro-ondas leva hífen, mas microcomputador não.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm micro-ondas, o prefixo micro- termina em o e a palavra ondas começa por o: são vogais iguais em contato → usa-se hífen para evitar a fusão. Em microcomputador, o prefixo termina em o e a palavra começa por c (consoante diferente) → não há encontro de letras iguais, então se junta sem hífen.\n\n\n\n5. Cite três prefixos que usam sempre hífen e dê um exemplo de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nExemplos (bastam três): ex- (estado anterior) → ex-diretor; vice- → vice-presidente; recém- → recém-nascido; pós- → pós-graduação; pré- → pré-vestibular; pró- (tônico) → pró-reitor; além- → além-mar. Todos exigem hífen invariavelmente.\n\n\n\n6. (Estilo FCC) Assinale a alternativa em que todas as palavras estão grafadas conforme a norma:\n\nautorretrato, minissaia, semirreta;\nauto-retrato, mini-saia, semi-reta;\nautorretrato, mini-saia, semirreta;\nauto-retrato, minissaia, semi-reta;\nautorretrato, minisaia, semireta.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (a). Autorretrato, minissaia e semirreta: em todos, o prefixo termina em vogal e a palavra começa por r ou s → junta-se e dobra-se a consoante. As demais ou usam hífen indevido, ou não dobram a consoante.\n\n\n\n7. Grafe corretamente e explique: (a) mal + estar; (b) mal + criado.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nmal-estar — o prefixo mal- usa hífen antes de vogal, h ou l (aqui, vogal e). (b) malcriado — antes de consoante que não l, mal- junta-se sem hífen. A regra do mal- depende da letra inicial da palavra seguinte.\n\n\n\n\n8. Reescreva na grafia atual, se necessário: “Ele fez um curso de para-quedismo e virou mandachuva do anti-aéreo.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Ele fez um curso de paraquedismo e virou mandachuva do antiaéreo.” Correções: para-quedismo → paraquedismo (composto aglutinado, sem hífen); mandachuva já está certo (aglutinado); anti-aéreo → antiaéreo (vogais diferentes, junta sem hífen).\n\n\n\n9. Por que coautor e coordenar não levam hífen, apesar de o prefixo terminar em vogal e a palavra seguinte começar por vogal?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque o prefixo co- tem comportamento especial: aglutina-se com a palavra seguinte mesmo diante de vogal, inclusive vogal igual (o). Assim, escrevem-se coautor, coordenar, coobrigação, coedição — sem hífen. É uma exceção prática à regra geral das vogais iguais.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “A palavra sub-bibliotecário leva hífen porque o prefixo sub- termina em b e a palavra seguinte também começa por b.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCerto. Sub-bibliotecário tem o prefixo sub- terminando em b e a palavra bibliotecário começando por b: consoantes iguais em contato → usa-se hífen, pela regra geral (o mesmo ocorre em inter-regional, super-romântico, com r+r).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html#referências",
+    "href": "capitulos/cap-19-emprego-do-hifen.html#referências",
+    "title": "20  Emprego do hífen",
+    "section": "21.9 📚 Referências",
+    "text": "21.9 📚 Referências\nAs regras de hífen, extensamente reformuladas pelo Acordo de 1990, são detalhadas por Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017); para casos específicos, o VOLP é a fonte oficial. O Capítulo 22 encerra o Volume 3 com as convenções de maiúsculas, abreviaturas e siglas.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 3 — Ortografia e Acentuação",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
@@ -1583,7 +2188,106 @@
     "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html",
     "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
     "section": "",
-    "text": "22 Maiúsculas, abreviaturas, siglas e símbolos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "22 Maiúsculas, abreviaturas, siglas e símbolos\nFechamos o Volume 3 com um conjunto de convenções que, embora pareçam menores, distinguem o texto cuidado do texto descuidado — e são cobradas em provas de redação oficial e concursos: o uso das letras maiúsculas e minúsculas, a formação de abreviaturas, a grafia de siglas e o emprego de símbolos. São regras que a pressa faz esquecer, mas que revelam domínio da norma.\nAo contrário dos capítulos anteriores, muito baseados em regras fonéticas ou etimológicas, aqui estamos no terreno das convenções de escrita — decisões padronizadas pela tradição e por manuais oficiais. Vamos organizá-las de forma prática, com atenção aos pontos que mais geram dúvida (nomes de disciplinas, cargos, símbolos de unidades).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#objetivos-de-aprendizagem",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "22.1 🎯 Objetivos de aprendizagem",
+    "text": "22.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nAplicar as regras de uso das iniciais maiúsculas e minúsculas;\nDistinguir os casos em que a maiúscula é obrigatória, facultativa ou vedada;\nFormar abreviaturas corretamente (com ponto, mantendo a acentuação);\nGrafar siglas conforme o número de letras e a pronúncia;\nEmpregar símbolos de unidades (sem ponto, sem plural);\nCorrigir erros frequentes de maiúsculas e abreviações.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#iniciais-maiúsculas-quando-usar",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#iniciais-maiúsculas-quando-usar",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "22.2 Iniciais maiúsculas: quando usar",
+    "text": "22.2 Iniciais maiúsculas: quando usar\nA Figura 22.1 separa os casos obrigatórios dos vedados. A regra de fundo é: a maiúscula individualiza (nomes próprios, entidades específicas); a minúscula generaliza (nomes comuns, categorias).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 22.1: A lógica das iniciais: maiúscula para o que individualiza (nomes próprios, entidades específicas); minúscula para o que generaliza (categorias, nomes comuns).\n\n\n\n\n22.2.1 Maiúscula obrigatória\n\nInício de frase e após ponto final, de interrogação, de exclamação.\nNomes próprios de pessoas (Carlos, Clarice Lispector), lugares (Brasil, Rio de Janeiro, Amazonas), astros (Terra, Marte — como astros).\nInstituições e entidades específicas: Ministério da Educação, Universidade de São Paulo, Igreja Católica.\nTítulos de obras e nomes de eventos: Grande Sertão: Veredas, Semana de Arte Moderna.\nSiglas: ONU, IBGE, STF.\n\n\n\n22.2.2 Minúscula (não se usa maiúscula)\n\nMeses, dias da semana, estações: janeiro, segunda-feira, primavera.\nGentílicos: brasileiro, paulista, carioca (mas o nome do lugar, maiúsculo: São Paulo).\nPontos cardeais em sentido genérico: viajou para o sul; mas maiúsculo quando designam região: o Nordeste brasileiro, o Sul do país.\nNomes de disciplinas em contexto comum (facultativo): gosto de matemática (mas pode-se usar maiúscula em contexto acadêmico formal).\n\n\n\n22.2.3 Casos facultativos\nO Acordo tornou facultativas as maiúsculas em vários casos:\n\ntítulos e formas de tratamento: o Presidente / o presidente; Doutor / doutor.\nnomes de disciplinas e áreas: História / história.\nsantos e categorias religiosas: São Pedro (nome próprio, maiúsculo), mas o santo (comum).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#abreviaturas",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#abreviaturas",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "22.3 Abreviaturas",
+    "text": "22.3 Abreviaturas\nAbreviatura é a redução da palavra a algumas de suas letras, com ponto abreviativo. Regras:\n\nTermina com ponto e, em geral, na consoante anterior à primeira vogal ou na sílaba: pág. (página), séc. (século), cap. (capítulo), Dr. (doutor), V. Ex.ª (Vossa Excelência).\nMantém-se a acentuação da palavra original: pág. (não “pag.”), séc..\nNo plural, muitas dobram a letra ou acrescentam s: pp. (páginas), ss. (seguintes), séc. → sécs..",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#siglas",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#siglas",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "22.4 Siglas",
+    "text": "22.4 Siglas\nSigla é a redução de um nome composto às iniciais de suas palavras. A grafia depende do número de letras e da pronúncia:\n\nSiglas com até 3 letras: tudo maiúsculo — ONU, STF, PIB, CEP.\nSiglas com 4 ou mais letras, lidas como palavra (soletração fluida): só a inicial maiúscula ou tudo maiúsculo, conforme o uso consagrado — Unesco/UNESCO, Bradesco, Petrobras, Detran.\nSiglas lidas letra a letra: costumam ficar todas maiúsculas — BNDES, IPTU (embora IPTU se soletre), INSS.\nNão se usa ponto entre as letras (não “O.N.U.”) nem apóstrofo no plural: o plural, quando marcado, faz-se com -s minúsculo sem apóstrofo — os CDs, as ONGs, os DVDs (nunca “CD’s”).\n\n\n\n\n\n\n\nImportanteO apóstrofo no plural de siglas é erro\n\n\n\nEscreve-se os CDs, as ONGs, os IPs — com s minúsculo, sem apóstrofo. A forma “CD’s”, “ONG’s” é decalque do inglês e considerada incorreta na norma do português. Pegadinha recorrente em concursos.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#símbolos",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#símbolos",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "22.5 Símbolos",
+    "text": "22.5 Símbolos\nSímbolos de unidades de medida, elementos químicos e pontos cardeais não são abreviaturas — seguem convenções internacionais e comportam-se diferente:\n\nNão levam ponto: km (não “km.”), kg, m, h, N, S, L, O.\nNão variam no plural: 5 km (não “5 kms”), 3 kg, 10 m.\nRespeitam maiúsculas/minúsculas fixadas: kg (minúsculo), W (watt, maiúsculo), km (minúsculo), Hz (hertz).\nSeparam-se do número por espaço: 50 kg, 100 km/h.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#quadro-resumo",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#quadro-resumo",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "22.6 📋 Quadro-resumo",
+    "text": "22.6 📋 Quadro-resumo\n\n\n\n\n\n\n\n\n\nCategoria\nRegra-chave\nExemplo correto\nErro comum\n\n\n\n\nMaiúscula\nIndividualiza (nome próprio, entidade)\nMinistério da Saúde\njaneiro (não Janeiro)\n\n\nMinúscula\nGeneraliza (meses, gentílicos)\nbrasileiro, março\n—\n\n\nAbreviatura\nPonto + acento mantido\npág., séc., Dr.\n“pag” sem ponto\n\n\nSigla\nSem pontos; plural sem apóstrofo\nONU, os CDs\n“O.N.U.”, “CD’s”\n\n\nSímbolo\nSem ponto, sem plural\n5 km, 3 kg\n“5 kms”, “km.”\n\n\n\nEm uma linha: maiúscula individualiza (nomes próprios/entidades) e minúscula generaliza; abreviaturas levam ponto e conservam o acento; siglas não têm ponto e fazem plural sem apóstrofo (os CDs); símbolos não têm ponto nem plural (5 km).",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#pegadinhas-e-erros-comuns",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "22.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "22.7 ⚠️ Pegadinhas e erros comuns\n\nMaiúscula em meses, dias e gentílicos. Escreve-se janeiro, segunda-feira, brasileiro — tudo minúsculo. Só o nome do lugar é maiúsculo (Brasil).\nApóstrofo no plural de siglas. O correto é os CDs, as ONGs, sem apóstrofo. “CD’s” é erro.\nPonto ou plural em símbolos. km, kg, m não levam ponto (“km.” está errado) nem s de plural (“5 kms” está errado): escreve-se 5 km.\nConfundir símbolo com abreviatura. Pág. (abreviatura) leva ponto; km (símbolo) não. Abreviatura tem ponto; símbolo não.\nMaiúscula em pontos cardeais genéricos. Viajou para o sul (direção, minúsculo); mas o Sul do país (região, maiúsculo). Depende do sentido.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#exercícios",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#exercícios",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "22.8 ✍️ Exercícios",
+    "text": "22.8 ✍️ Exercícios\n1. Explique a lógica geral que rege o uso de iniciais maiúsculas e minúsculas.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA maiúscula individualiza: usa-se em nomes próprios e entidades específicas (Brasil, Ministério da Saúde, Machado de Assis), além do início de frase. A minúscula generaliza: usa-se em nomes comuns e categorias (janeiro, verão, brasileiro, o presidente em sentido genérico). Individualizar → maiúscula; generalizar → minúscula.\n\n\n\n2. (Estilo ENEM) Assinale a alternativa em que todas as palavras estão corretamente grafadas quanto à inicial:\n\nBrasileiro, Janeiro, Nordeste;\nbrasileiro, janeiro, Nordeste (região);\nBrasileiro, janeiro, nordeste;\nbrasileiro, Janeiro, nordeste;\nBrasileiro, Janeiro, nordeste.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Brasileiro (gentílico) → minúscula; janeiro (mês) → minúscula; Nordeste (região específica) → maiúscula. As demais erram ao usar maiúscula em gentílico ou mês, ou minúscula na região.\n\n\n\n3. Grafe as abreviaturas de: (a) página; (b) século; (c) doutor.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\npág. (com acento e ponto). (b) séc. (com acento e ponto). (c) Dr. (maiúsculo, com ponto). As abreviaturas conservam a acentuação da palavra original e terminam com ponto abreviativo.\n\n\n\n\n4. Corrija o plural das siglas: “Comprei três CD’s e doei a duas ONG’s.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Comprei três CDs e doei a duas ONGs.” O plural de siglas faz-se com s minúsculo e sem apóstrofo. As formas “CD’s” e “ONG’s” (com apóstrofo) são decalque do inglês e consideradas incorretas na norma do português.\n\n\n\n5. Explique a diferença entre abreviatura e símbolo, quanto ao ponto e ao plural.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA abreviatura (pág., séc., Dr.) leva ponto abreviativo e pode variar no plural (pp. para páginas). O símbolo (km, kg, m, h) não leva ponto e não varia no plural (5 km, não “5 kms” nem “5 km.”). Símbolos seguem convenções internacionais fixas; abreviaturas, a convenção ortográfica do português.\n\n\n\n6. (Estilo FCC) Assinale a alternativa correta:\n\nPercorri 50 kms em 2 hs.;\nPercorri 50 km em 2 h;\nPercorri 50 km. em 2 h.;\nPercorri 50 Km em 2 H;\nPercorri 50 kms. em 2 hs.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). 50 km e 2 h: símbolos sem ponto, sem plural, com espaço após o número e nas grafias corretas (km minúsculo, h minúsculo). As demais erram ao pluralizar (kms), pôr ponto (km.) ou usar maiúscula indevida (Km, H).\n\n\n\n7. Quando os pontos cardeais são escritos com maiúscula e quando com minúscula?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCom minúscula quando indicam direção ou sentido genérico: viajou para o sul, o vento vem do norte. Com maiúscula quando designam uma região específica: o Nordeste brasileiro, o Sul do país, o Oriente Médio. O critério é o sentido: direção (minúscula) × região/entidade geográfica (maiúscula).\n\n\n\n8. Classifique quanto à grafia da sigla e justifique: (a) ONU; (b) Unesco.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nONU — sigla de três letras: escreve-se toda em maiúscula. (b) Unesco — sigla de mais de três letras lida como palavra (não soletrada): grafa-se com apenas a inicial maiúscula (embora a forma toda em maiúsculas, UNESCO, também apareça consagrada). O número de letras e a forma de leitura orientam a grafia.\n\n\n\n\n9. Reescreva corrigindo os erros: “Nasci em Março, numa Segunda-feira, no Sul de minas gerais.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Nasci em março, numa segunda-feira, no sul de Minas Gerais.” Correções: Março → março (mês, minúsculo); Segunda-feira → segunda-feira (dia, minúsculo); Sul → sul (aqui como direção/localização genérica dentro do estado, minúsculo); minas gerais → Minas Gerais (nome próprio de estado, maiúsculo).\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “As formas km., kgs e CD’s estão todas de acordo com a norma.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. As três estão incorretas: km. (símbolo não leva ponto → km); kgs (símbolo não varia no plural → kg); CD’s (plural de sigla não leva apóstrofo → CDs). As formas corretas seriam km, kg e CDs.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#referências",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html#referências",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "22.9 📚 Referências",
+    "text": "22.9 📚 Referências\nAs convenções de maiúsculas, abreviaturas, siglas e símbolos seguem o Acordo de 1990 e os manuais de redação oficial, consolidados por Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017); a fonte de grafias é o VOLP. Com este capítulo encerra-se o Volume 3; o Volume 4 abre o estudo da morfologia, começando pelo morfema.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 3 — Ortografia e Acentuação",
       "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
