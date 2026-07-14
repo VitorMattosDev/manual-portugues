@@ -14,13 +14,13 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 04 | Breve história do português: panorama | `capitulos/cap-04-historia-portugues-panorama.qmd` | 1 | ✅ 2026-07-14 |
 | 05 | Comunicação e funções da linguagem | `capitulos/cap-05-comunicacao-funcoes-linguagem.qmd` | 1 | ✅ 2026-07-14 |
 | 06 | Como estudar português: método e recursos | `capitulos/cap-06-como-estudar-portugues.qmd` | 1 | ✅ 2026-07-14 |
-| 07 | Fonema e letra | `capitulos/cap-07-fonema-e-letra.qmd` | 2 | ⬜ |
-| 08 | Classificação dos fonemas: vogais, semivogais e consoantes | `capitulos/cap-08-classificacao-fonemas.qmd` | 2 | ⬜ |
-| 09 | Encontros vocálicos, encontros consonantais e dígrafos | `capitulos/cap-09-encontros-digrafos.qmd` | 2 | ⬜ |
-| 10 | Sílaba: estrutura, divisão silábica e tonicidade | `capitulos/cap-10-silaba-divisao-tonicidade.qmd` | 2 | ⬜ |
-| 11 | Processos fonológicos do português brasileiro | `capitulos/cap-11-processos-fonologicos.qmd` | 2 | ⬜ |
-| 12 | Ortoépia e prosódia | `capitulos/cap-12-ortoepia-prosodia.qmd` | 2 | ⬜ |
-| 13 | Noções de fonética articulatória: o trapézio vocálico | `capitulos/cap-13-fonetica-articulatoria-trapezio.qmd` | 2 | ⬜ |
+| 07 | Fonema e letra | `capitulos/cap-07-fonema-e-letra.qmd` | 2 | ✅ 2026-07-14 |
+| 08 | Classificação dos fonemas: vogais, semivogais e consoantes | `capitulos/cap-08-classificacao-fonemas.qmd` | 2 | ✅ 2026-07-14 |
+| 09 | Encontros vocálicos, encontros consonantais e dígrafos | `capitulos/cap-09-encontros-digrafos.qmd` | 2 | ✅ 2026-07-14 |
+| 10 | Sílaba: estrutura, divisão silábica e tonicidade | `capitulos/cap-10-silaba-divisao-tonicidade.qmd` | 2 | ✅ 2026-07-14 |
+| 11 | Processos fonológicos do português brasileiro | `capitulos/cap-11-processos-fonologicos.qmd` | 2 | ✅ 2026-07-14 |
+| 12 | Ortoépia e prosódia | `capitulos/cap-12-ortoepia-prosodia.qmd` | 2 | ✅ 2026-07-14 |
+| 13 | Noções de fonética articulatória: o trapézio vocálico | `capitulos/cap-13-fonetica-articulatoria-trapezio.qmd` | 2 | ✅ 2026-07-14 |
 | 14 | O alfabeto e o sistema ortográfico | `capitulos/cap-14-alfabeto-sistema-ortografico.qmd` | 3 | ⬜ |
 | 15 | Emprego de letras: os casos problemáticos | `capitulos/cap-15-emprego-de-letras.qmd` | 3 | ⬜ |
 | 16 | O Acordo Ortográfico de 1990 | `capitulos/cap-16-acordo-ortografico-1990.qmd` | 3 | ⬜ |

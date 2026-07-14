@@ -4,22 +4,310 @@ title: "Noções de fonética articulatória: o trapézio vocálico"
 
 # Noções de fonética articulatória: o trapézio vocálico {#sec-cap-13}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 2 — Fonética e Fonologia.
+> "Falar é uma coreografia invisível: lábios, língua, véu palatino e cordas vocais
+> dançam em milésimos de segundo."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Todo som que produzimos resulta de um gesto físico preciso: uma corrente de ar que
+sai dos pulmões e é modelada pelos **órgãos da fala** — lábios, dentes, língua,
+palato, cordas vocais. A **fonética articulatória** estuda justamente *como* cada som
+é produzido: onde a língua toca, se as cordas vocais vibram, por onde o ar escapa.
+Enquanto a fonologia (capítulos anteriores) olha os sons como peças do sistema, a
+fonética os olha como eventos físicos.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo fecha o Volume 2 dando os fundamentos articulatórios que estavam
+implícitos nas classificações anteriores. O ponto alto é o **trapézio vocálico**, o
+diagrama que representa as vogais conforme a posição da língua na boca — uma das
+figuras mais características de todo o estudo fonético, e que agora construímos com
+rigor.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Identificar** os principais órgãos do aparelho fonador e seu papel;
+- **Classificar** as consoantes por ponto de articulação, modo de articulação e
+  vozeamento;
+- **Ler** e **construir** o trapézio vocálico do português;
+- **Relacionar** a posição da língua às propriedades de altura e anterioridade das
+  vogais;
+- **Distinguir** sons orais de nasais pelo papel do véu palatino;
+- **Aplicar** a descrição articulatória à análise de fonemas do português.
+
+## O aparelho fonador
+
+A fala começa nos pulmões, que fornecem o ar. Ao subir pela traqueia, o ar passa pela
+**laringe**, onde estão as **cordas vocais** (ou pregas vocais): se elas vibram, o som
+é **sonoro** (/b/, /z/, /a/); se não, **surdo** (/p/, /s/). Acima, o ar chega às
+cavidades **oral** e **nasal**. O **véu palatino** (palato mole) funciona como uma
+comporta: abaixado, deixa o ar sair também pelo nariz (sons **nasais**); levantado,
+fecha a passagem nasal (sons **orais**).
+
+Na cavidade oral, os articuladores dão a forma final ao som: os **lábios**, os
+**dentes**, a **língua** (o articulador mais ágil) e as diferentes zonas do teto da
+boca — os **alvéolos** (atrás dos dentes), o **palato duro** e o **palato mole**
+(véu).
+
+## Classificação das consoantes
+
+Cada consoante define-se por **três** parâmetros, resumidos na @fig-consoantes.
+
+::: {#fig-consoantes}
+
+```{.tikz}
+%%| filename: consoantes
+%%| alt: Diagrama com os três critérios de classificação das consoantes, cada um numa caixa. Ponto de articulação: onde ocorre o obstáculo (bilabial, labiodental, alveolar, palatal, velar). Modo de articulação: como o ar é modelado (oclusiva, fricativa, nasal, lateral, vibrante). Vozeamento: se as cordas vocais vibram (surda ou sonora). Exemplos acompanham cada critério.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=50mm, minimum height=26mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{1. Ponto de articulação}\\{\scriptsize (onde está o obstáculo)}\\[3pt] bilabial: /p, b, m/\\ labiodental: /f, v/\\ alveolar: /t, d, s, z, n, l, r/\\ palatal: /ʃ, ʒ, ɲ, ʎ/\\ velar: /k, g, ʀ/};
+  \node[cx, draw=manualred, fill=manualred!8, right=4mm of a] (b) {\textbf{2. Modo de articulação}\\{\scriptsize (como o ar é modelado)}\\[3pt] oclusiva: /p, b, t, d, k, g/\\ fricativa: /f, v, s, z, ʃ, ʒ/\\ nasal: /m, n, ɲ/\\ lateral: /l, ʎ/\\ vibrante: /r, ʀ/};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, right=4mm of b, text width=40mm] (c) {\textbf{3. Vozeamento}\\{\scriptsize (cordas vocais)}\\[3pt] surda: /p, t, k, f, s, ʃ/\\ sonora: /b, d, g, v, z, ʒ/\\[3pt] {\scriptsize pares: p/b, t/d, k/g, f/v, s/z, ʃ/ʒ}};
+\end{tikzpicture}
+```
+
+Os três critérios de classificação das consoantes: ponto de articulação (onde),
+modo de articulação (como) e vozeamento (se as cordas vibram).
+:::
+
+- **Ponto de articulação** (onde está o obstáculo): **bilabial** (dois lábios: /p, b,
+  m/), **labiodental** (lábio + dentes: /f, v/), **alveolar** (língua nos alvéolos:
+  /t, d, s, z, n, l, ɾ/), **palatal** (língua no palato duro: /ʃ, ʒ, ɲ, ʎ/), **velar**
+  (língua no véu: /k, g, ʀ/).
+- **Modo de articulação** (como o ar passa): **oclusiva** (o ar é bloqueado e solto:
+  /p, b, t, d, k, g/), **fricativa** (o ar passa por uma fenda, com fricção: /f, v, s,
+  z, ʃ, ʒ/), **nasal** (o ar sai pelo nariz: /m, n, ɲ/), **lateral** (o ar sai pelos
+  lados da língua: /l, ʎ/), **vibrante** (a língua ou a úvula vibra: /ɾ, ʀ/).
+- **Vozeamento** (as cordas vocais vibram?): **surda** ou **sonora**.
+
+Com esses três dados, descreve-se qualquer consoante. O /p/, por exemplo, é uma
+**oclusiva bilabial surda**; o /z/, uma **fricativa alveolar sonora**; o /ɲ/ (o *nh*),
+uma **nasal palatal sonora**.
+
+## O trapézio vocálico
+
+As vogais não têm "obstáculo" nem ponto de contato — por isso não se classificam como
+as consoantes. O que as distingue é a **posição da língua** dentro da boca, em duas
+dimensões: a **altura** (quão elevada está a língua: alta, média, baixa) e a
+**anterioridade** (quão avançada: anterior, central, posterior). Representar essas
+duas dimensões num diagrama produz o **trapézio vocálico** — assim chamado porque a
+figura resultante tem a forma aproximada de um trapézio, refletindo o espaço real da
+cavidade bucal (mais largo em cima, na região das vogais altas).
+
+A @fig-trapezio-vocalico é o trapézio das sete vogais orais tônicas do português.
+
+::: {#fig-trapezio-vocalico}
+
+```{.tikz}
+%%| filename: trapezio-vocalico
+%%| alt: Trapézio vocálico do português com as sete vogais orais tônicas. O eixo horizontal vai de anterior (esquerda) a posterior (direita); o vertical, de alta (topo) a baixa (base). Vogais anteriores i, e, é do lado esquerdo em alturas decrescentes; vogal central a na base; vogais posteriores u, ô, ó do lado direito. A moldura tem forma de trapézio, mais larga no topo.
+
+\begin{tikzpicture}[font=\small]
+  % moldura trapezoidal
+  \draw[manualgray, thick] (0,3) -- (7,3) -- (5.3,0) -- (1.7,0) -- cycle;
+
+  % rótulos de eixo
+  \node[font=\footnotesize\bfseries, text=manualblue] at (0.6,3.4) {anterior};
+  \node[font=\footnotesize\bfseries, text=manualgreen] at (3.5,3.4) {central};
+  \node[font=\footnotesize\bfseries, text=manualred] at (6.4,3.4) {posterior};
+  \node[rotate=90, font=\footnotesize\bfseries] at (-0.8,1.5) {altura da língua};
+  \node[font=\scriptsize, anchor=east] at (-0.1,3) {alta};
+  \node[font=\scriptsize, anchor=east] at (-0.1,2) {média-fechada};
+  \node[font=\scriptsize, anchor=east] at (-0.1,1) {média-aberta};
+  \node[font=\scriptsize, anchor=east] at (-0.1,0) {baixa};
+
+  % vogais
+  \node[ponto, fill=manualblue, label={[text=manualblue]left:/i/}] at (0.7,3) {};
+  \node[ponto, fill=manualblue, label={[text=manualblue]left:/e/}] at (1.2,2) {};
+  \node[ponto, fill=manualblue, label={[text=manualblue]left:/ɛ/}] at (1.7,1) {};
+  \node[ponto, fill=manualgreen, label={[text=manualgreen]below:/a/}] at (3.5,0) {};
+  \node[ponto, fill=manualred, label={[text=manualred]right:/u/}] at (6.3,3) {};
+  \node[ponto, fill=manualred, label={[text=manualred]right:/o/}] at (5.8,2) {};
+  \node[ponto, fill=manualred, label={[text=manualred]right:/ɔ/}] at (5.3,1) {};
+\end{tikzpicture}
+```
+
+O trapézio vocálico do português: cada vogal ocupa uma posição definida pela altura
+(vertical) e pela anterioridade (horizontal) da língua. As anteriores /i, e, ɛ/ à
+esquerda; a central /a/ na base; as posteriores /u, o, ɔ/ à direita.
+:::
+
+Para "ler" o trapézio, pense no seu próprio corpo: diga /i/ e depois /a/, prestando
+atenção à mandíbula. No /i/, a boca está quase fechada e a língua alta e avançada
+(canto superior esquerdo); no /a/, a boca abre e a língua desce (base). Passe de /i/ a
+/u/: a língua recua e os lábios arredondam (topo direito). O trapézio é, literalmente,
+um mapa dos gestos da sua boca.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Por que trapézio, e não retângulo?
+Porque o espaço articulatório real é assimétrico: há mais "margem de manobra" para a
+língua nas posições altas do que nas baixas. Na altura baixa, as vogais anterior e
+posterior praticamente se encontram na vogal central /a/. Por isso a figura estreita
+para baixo, tomando forma de trapézio — ela reflete a anatomia, não é mero enfeite.
+:::
+
+## Vogais nasais no trapézio
+
+As cinco vogais nasais (/ɐ̃, ẽ, ĩ, õ, ũ/) ocupam posições próximas às de suas
+correspondentes orais, com o véu palatino abaixado (deixando o ar sair pelo nariz). A
+vogal /ɐ̃/ de *campo*, por exemplo, é um pouco mais alta e central que a /a/ oral. Para
+os fins deste manual, basta reter que a nasalidade acrescenta uma dimensão (oral ×
+nasal) à descrição vocálica, sem alterar radicalmente a posição da língua.
+
+## 📋 Quadro-resumo
+
+| Sons | Critérios de classificação |
+|---|---|
+| **Consoantes** | ponto (bilabial, labiodental, alveolar, palatal, velar) · modo (oclusiva, fricativa, nasal, lateral, vibrante) · vozeamento (surda/sonora) |
+| **Vogais** | altura (alta, média, baixa) · anterioridade (anterior, central, posterior) · arredondamento · nasalidade |
+
+Exemplos de descrição: /p/ = oclusiva bilabial surda; /z/ = fricativa alveolar sonora;
+/ɲ/ = nasal palatal sonora; /i/ = vogal alta anterior; /ɔ/ = vogal média-aberta
+posterior arredondada.
+
+Em uma linha: a **fonética articulatória** descreve como cada som é fisicamente
+produzido; as consoantes classificam-se por **ponto, modo e vozeamento**, e as vogais
+mapeiam-se no **trapézio vocálico** conforme a **altura** e a **anterioridade** da
+língua.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Aplicar "ponto de articulação" às vogais.** Vogais não têm obstáculo; classificam-se
+  por posição da língua (altura, anterioridade), não por ponto/modo como as consoantes.
+- **Confundir surda e sonora.** Surda = cordas vocais **não** vibram (/p, t, k, f, s,
+  ʃ/); sonora = vibram (/b, d, g, v, z, ʒ/). Ponha a mão na garganta para testar.
+- **Trocar os pares de vozeamento.** /p/–/b/, /t/–/d/, /k/–/g/, /f/–/v/, /s/–/z/,
+  /ʃ/–/ʒ/ diferem **só** no vozeamento (mesmo ponto e modo).
+- **Ler o trapézio ao contrário.** As **altas** (/i, u/) ficam no **topo**; as
+  **baixas** (/a/), na **base**. As **anteriores** à esquerda; as **posteriores** à
+  direita.
+- **Esquecer o papel do véu palatino.** É ele que decide oral × nasal: abaixado, o som
+  é nasal; levantado, oral.
+
+## ✍️ Exercícios
+
+**1.** Descreva o fonema /b/ pelos três critérios de classificação das consoantes.
+
+::: {.callout-tip collapse="true"}
+## Solução
+/b/ é uma **oclusiva** (o ar é bloqueado e liberado), **bilabial** (produzida com os
+dois lábios) e **sonora** (as cordas vocais vibram). Seu par surdo é /p/, que difere
+apenas no vozeamento.
+:::
+
+**2.** (Estilo ENEM) O que diferencia os fonemas /f/ e /v/?
+
+a) o ponto de articulação;
+b) o modo de articulação;
+c) o vozeamento (surda × sonora);
+d) a nasalidade;
+e) a altura da língua.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** /f/ e /v/ são ambas fricativas labiodentais; diferem apenas no
+**vozeamento**: /f/ é surda (cordas não vibram) e /v/ é sonora (cordas vibram). Formam
+um par de vozeamento.
+:::
+
+**3.** No trapézio vocálico, onde se localizam /i/, /a/ e /u/? Descreva a posição da
+língua em cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+/i/: canto **superior esquerdo** — vogal alta e anterior (língua elevada e avançada,
+boca quase fechada). /a/: **base** central — vogal baixa e central (língua abaixada,
+boca aberta). /u/: canto **superior direito** — vogal alta e posterior (língua elevada
+e recuada, lábios arredondados).
+:::
+
+**4.** Explique o papel do **véu palatino** na distinção entre sons orais e nasais.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O véu palatino (palato mole) funciona como uma comporta na entrada da cavidade nasal.
+Quando está **levantado**, fecha a passagem para o nariz, e o ar sai só pela boca —
+som **oral**. Quando está **abaixado**, o ar sai também pelo nariz — som **nasal**
+(como em /m, n, ɲ/ e nas vogais nasais). A posição do véu é o que decide a nasalidade.
+:::
+
+**5.** Por que o diagrama das vogais tem a forma de um **trapézio**, e não de um
+retângulo?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque reflete o espaço articulatório real da boca, que é assimétrico: nas posições
+altas há mais amplitude para a língua distinguir vogais anteriores e posteriores,
+enquanto nas posições baixas essa distinção se reduz (aproximando-se da vogal central
+/a/). Por isso a figura é mais larga no topo e estreita na base — a forma de trapézio
+representa a anatomia da cavidade bucal.
+:::
+
+**6.** (Estilo FCC) O fonema representado pelo dígrafo *nh* (/ɲ/) classifica-se como:
+
+a) oclusiva velar surda;
+b) fricativa alveolar sonora;
+c) nasal palatal sonora;
+d) lateral palatal sonora;
+e) vibrante velar sonora.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** /ɲ/ (o *nh* de *ninho*) é uma **nasal** (ar pelo nariz),
+**palatal** (língua no palato duro) e **sonora** (cordas vibram). A (d) descreveria o
+/ʎ/ (o *lh*), que é lateral, não nasal.
+:::
+
+**7.** Classifique as vogais /ɛ/ e /o/ quanto à altura e à anterioridade.
+
+::: {.callout-tip collapse="true"}
+## Solução
+/ɛ/ (o "é" aberto de *pé*): vogal **média-aberta** e **anterior** (não arredondada).
+/o/ (o "ô" fechado de *avô*): vogal **média-fechada** e **posterior** (arredondada).
+:::
+
+**8.** Dê um par de consoantes que se distinga apenas pelo **ponto de articulação** (e
+não pelo modo ou vozeamento).
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplo: /m/ e /n/ — ambas são **nasais sonoras**, distinguindo-se apenas no ponto:
+/m/ é **bilabial**, /n/ é **alveolar**. Outro exemplo: /s/ e /ʃ/ (ambas fricativas
+surdas: alveolar × palatal), ou /k/ e /p/ (ambas oclusivas surdas: velar × bilabial).
+:::
+
+**9.** Ao pronunciar lentamente a sequência /i/ – /e/ – /ɛ/ – /a/, o que acontece com
+a mandíbula e a língua? Relacione ao trapézio.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A boca vai se **abrindo** progressivamente e a língua vai **descendo**: de /i/ (alta,
+boca quase fechada) para /e/ (média-fechada), /ɛ/ (média-aberta) e /a/ (baixa, boca
+bem aberta). No trapézio, isso corresponde a descer pela lateral esquerda (vogais
+anteriores), do topo à base — a altura da vogal reflete diretamente o grau de abertura
+da boca.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "As vogais classificam-se por ponto e
+modo de articulação, exatamente como as consoantes."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** As vogais **não** se classificam por ponto e modo de articulação — esses
+critérios servem às **consoantes**, que têm obstáculo à passagem do ar. As vogais, em
+que o ar sai livre, classificam-se pela **posição da língua** (altura e
+anterioridade), além de arredondamento e nasalidade, e representam-se no trapézio
+vocálico.
+:::
+
+## 📚 Referências
+
+Os fundamentos de fonética articulatória e a construção do trapézio vocálico do
+português baseiam-se em Câmara Jr. [@camarajr1970]; para exposição acessível do sistema
+sonoro e da articulação, ver Castilho [@castilho2010] e Cunha & Cintra
+[@cunhacintra2017]. Com este capítulo encerra-se o Volume 2; o Volume 3 passa da
+descrição dos sons à sua representação escrita — a ortografia.
+
+::: {#refs}
 :::
