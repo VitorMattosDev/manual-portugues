@@ -28,11 +28,11 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 18 | Acentuação gráfica: casos especiais | `capitulos/cap-18-acentuacao-casos-especiais.qmd` | 3 | ✅ 2026-07-14 |
 | 19 | Emprego do hífen | `capitulos/cap-19-emprego-do-hifen.qmd` | 3 | ✅ 2026-07-14 |
 | 20 | Maiúsculas, abreviaturas, siglas e símbolos | `capitulos/cap-20-maiusculas-abreviaturas-siglas.qmd` | 3 | ✅ 2026-07-14 |
-| 21 | Morfema: as unidades mínimas de significado | `capitulos/cap-21-morfema-unidades-minimas.qmd` | 4 | ⬜ |
-| 22 | Estrutura das palavras: radical, afixos e desinências | `capitulos/cap-22-estrutura-das-palavras.qmd` | 4 | ⬜ |
-| 23 | Formação de palavras I: derivação | `capitulos/cap-23-formacao-derivacao.qmd` | 4 | ⬜ |
-| 24 | Formação de palavras II: composição e outros processos | `capitulos/cap-24-formacao-composicao.qmd` | 4 | ⬜ |
-| 25 | Famílias de palavras, cognatos e produtividade lexical | `capitulos/cap-25-familias-cognatos-produtividade.qmd` | 4 | ⬜ |
+| 21 | Morfema: as unidades mínimas de significado | `capitulos/cap-21-morfema-unidades-minimas.qmd` | 4 | ✅ 2026-07-14 |
+| 22 | Estrutura das palavras: radical, afixos e desinências | `capitulos/cap-22-estrutura-das-palavras.qmd` | 4 | ✅ 2026-07-14 |
+| 23 | Formação de palavras I: derivação | `capitulos/cap-23-formacao-derivacao.qmd` | 4 | ✅ 2026-07-14 |
+| 24 | Formação de palavras II: composição e outros processos | `capitulos/cap-24-formacao-composicao.qmd` | 4 | ✅ 2026-07-14 |
+| 25 | Famílias de palavras, cognatos e produtividade lexical | `capitulos/cap-25-familias-cognatos-produtividade.qmd` | 4 | ✅ 2026-07-14 |
 | 26 | Panorama das dez classes de palavras | `capitulos/cap-26-panorama-classes-palavras.qmd` | 5 | ⬜ |
 | 27 | Substantivo | `capitulos/cap-27-substantivo.qmd` | 5 | ⬜ |
 | 28 | Artigo e numeral | `capitulos/cap-28-artigo-numeral.qmd` | 5 | ⬜ |

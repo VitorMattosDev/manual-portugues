@@ -4,22 +4,304 @@ title: "Famílias de palavras, cognatos e produtividade lexical"
 
 # Famílias de palavras, cognatos e produtividade lexical {#sec-cap-25}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 4 — Morfologia I: Estrutura e Formação de Palavras.
+> "Conhecer um radical é ganhar, de uma vez, uma centena de palavras."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o Volume 4 reunindo o que aprendemos sobre morfema, estrutura e formação de
+palavras numa perspectiva de conjunto: as **famílias de palavras**. Palavras que
+compartilham o mesmo **radical** — e, portanto, um núcleo de significado — formam uma
+família: *terra*, *terreno*, *aterrar*, *enterrar*, *soterrar*, *terráqueo*,
+*subterrâneo*. Reconhecer essas famílias tem um valor enorme e prático: multiplica o
+vocabulário, ilumina a ortografia (palavras da mesma família tendem a grafar-se de modo
+coerente) e ajuda a inferir o sentido de palavras desconhecidas em provas de
+interpretação.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Trataremos também dos **cognatos** (palavras aparentadas pela origem), da distinção
+entre **cognatos verdadeiros e falsos**, e da **produtividade lexical** — a capacidade
+que a língua tem de gerar palavras novas a partir de padrões. É um capítulo que
+converte a teoria morfológica dos anteriores em ferramenta de leitura e escrita.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** famílias de palavras pelo radical comum;
+- **Definir** cognatos e distinguir cognatos de palavras apenas parecidas;
+- **Identificar** falsos cognatos (dentro do português e entre línguas);
+- **Empregar** o conhecimento de radicais gregos e latinos para inferir sentidos;
+- **Compreender** a produtividade lexical e os padrões de formação;
+- **Aplicar** as famílias de palavras à ortografia e à interpretação.
+
+## Famílias de palavras
+
+Uma **família de palavras** (ou família etimológica) é o conjunto de vocábulos que
+partilham o mesmo **radical**, girando em torno de um significado comum. A @fig-familia
+ilustra a família de *terra*.
+
+::: {#fig-familia}
+
+```{.tikz}
+%%| filename: familia-palavras
+%%| alt: Diagrama radial. No centro, o radical terr. Ao redor, ligadas por linhas, várias palavras da mesma família: terra, terreno, aterrar, enterrar, soterrar, terráqueo, subterrâneo, terrestre, território. Todas compartilham o núcleo terr.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  centro/.style={circle, draw=manualblue, very thick, fill=manualblue!12, minimum size=15mm, align=center, font=\bfseries},
+  folha/.style={rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, inner sep=3pt, align=center},
+]
+  \node[centro] (c) at (0,0) {terr-};
+  \foreach \ang/\lbl in {0/terreno, 40/aterrar, 80/enterrar, 120/soterrar, 160/terráqueo, 200/subterrâneo, 240/terrestre, 280/território, 320/terra} {
+    \node[folha] (f\ang) at (\ang:2.7) {\lbl};
+    \draw[manualgray, thick] (c) -- (f\ang);
+  }
+\end{tikzpicture}
+```
+
+A família de palavras do radical *terr-*: todas as palavras giram em torno do mesmo
+núcleo de significado, herdado do latim *terra*.
+:::
+
+O valor prático é triplo:
+
+- **Vocabulário**: dominar um radical dá acesso a toda a família. Quem conhece *terr-*
+  entende *soterrar* e *subterrâneo* sem consultar dicionário.
+- **Ortografia**: palavras da mesma família tendem a manter grafia coerente. Se
+  *análise* tem *s*, *analisar* também (mesma família); se *gás* tem *s*, *gasoso*
+  também.
+- **Interpretação**: em provas, reconhecer o radical de uma palavra difícil permite
+  inferir seu sentido pelo contexto.
+
+## Cognatos
+
+**Cognatos** são palavras que têm a **mesma origem etimológica** — descendem de um
+mesmo "ancestral". Dentro do português, os membros de uma família de palavras são
+cognatos entre si (*terra*, *terreno*, *aterrar*). Entre línguas, cognatos são palavras
+aparentadas de idiomas diferentes que remontam à mesma raiz: o português *noite*, o
+espanhol *noche*, o francês *nuit*, o italiano *notte* — todos do latim *nocte(m)*.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Cognato não é sinônimo
+Cuidado: cognatos partilham a **origem**, não necessariamente o **significado atual**.
+*Cadeira* e *cátedra* são cognatos (ambos do latim *cathedra*), mas hoje significam
+coisas distintas — são um **dubleto** (uma forma popular, *cadeira*; outra erudita,
+*cátedra*), fenômeno que já encontramos no @sec-cap-04. Cognatos podem, com o tempo,
+afastar-se bastante no sentido.
+:::
+
+## Falsos cognatos
+
+**Falsos cognatos** são palavras que **parecem** aparentadas (por semelhança de forma),
+mas **não** têm a mesma origem, ou que, tendo origens próximas, divergiram tanto que
+enganam. Há dois planos:
+
+- **Dentro do português**: palavras parecidas de famílias diferentes — *deferir*
+  (conceder) × *diferir* (adiar; ser diferente); *ratificar* (confirmar) × *retificar*
+  (corrigir); *emergir* × *imergir*. São os **parônimos**, que estudaremos no
+  @sec-cap-63.
+- **Entre línguas**: os "falsos amigos" — o inglês *pretend* (fingir, não "pretender"),
+  *actually* (na verdade, não "atualmente"), *push* (empurrar, não "puxar"); o espanhol
+  *embarazada* (grávida, não "envergonhada"), *oficina* (escritório, não "oficina").
+
+O falso cognato é uma armadilha clássica de tradução e de interpretação — a semelhança
+gráfica sugere um parentesco que não existe (ou já se desfez).
+
+## Radicais gregos e latinos: um atalho poderoso
+
+Boa parte do vocabulário culto e científico do português forma-se com **radicais
+gregos e latinos** de sentido estável. Conhecê-los é uma chave-mestra para decifrar
+palavras: sabendo que *bio-* = vida, *-logia* = estudo, *geo-* = terra, *hidro-* =
+água, *-grafia* = escrita, deduz-se *biologia*, *geografia*, *hidrografia*,
+*geologia*... Alguns úteis:
+
+| Radical | Sentido | Exemplos |
+|---|---|---|
+| *bio-* | vida | *biologia*, *biografia* |
+| *geo-* | terra | *geografia*, *geologia* |
+| *hidro-* | água | *hidrelétrica*, *hidratar* |
+| *-logia* | estudo | *psicologia*, *sociologia* |
+| *-fobia* | medo/aversão | *claustrofobia* |
+| *-filia* | afinidade | *bibliofilia* |
+| *tele-* | distância | *televisão*, *telefone* |
+| *-cracia* | poder/governo | *democracia* |
+
+## Produtividade lexical
+
+Chama-se **produtividade** a capacidade de um padrão de formação gerar palavras novas.
+Alguns afixos são **muito produtivos** (a língua os usa a todo momento para criar
+vocábulos): o sufixo *-inho* (diminutivos infinitos), o *-mente* (advérbios), o *-ção*
+(nomes de ação), o prefixo *super-*; e verbos em *-ar* (*deletar*, *printar*, *tuitar*,
+*lacrar* no sentido novo). Outros são **improdutivos** (fossilizados, não geram
+palavras novas): o sufixo *-ume* (*queixume*, *ciúme*) praticamente não forma vocábulos
+hoje.
+
+A produtividade explica por que a língua absorve com facilidade as novidades: um
+empréstimo como *deletar* imediatamente entra no padrão dos verbos de 1ª conjugação e
+gera *deletado*, *deletável*, *deleção*. O sistema morfológico é uma "fábrica" sempre em
+operação.
+
+## 📋 Quadro-resumo
+
+| Conceito | Definição | Exemplo |
+|---|---|---|
+| **Família de palavras** | Mesmo radical, sentido comum | *terra, terreno, aterrar* |
+| **Cognatos** | Mesma origem etimológica | *noite/noche/nuit*; *terra/terreno* |
+| **Dubleto** | Cognatos popular + erudito | *cadeira/cátedra* |
+| **Falso cognato (parônimo)** | Parece aparentado, mas não é | *deferir/diferir*; *pretend* (ing.) |
+| **Radical grego/latino** | Elemento culto de sentido fixo | *bio-*, *geo-*, *-logia* |
+| **Produtividade** | Capacidade de gerar palavras novas | *-inho*, *-mente*, verbos em *-ar* |
+
+Em uma linha: palavras de mesmo **radical** formam **famílias** (e são **cognatas**),
+o que amplia vocabulário, orienta a ortografia e permite inferir sentidos — mas cuidado
+com os **falsos cognatos**; e os padrões mais **produtivos** são a fábrica de palavras
+novas da língua.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que cognato = sinônimo.** Cognatos partilham a **origem**, não o significado
+  atual (*cadeira*/*cátedra* são cognatos, mas divergiram).
+- **Cair em falso cognato entre línguas.** O inglês *actually* = "na verdade" (não
+  "atualmente"); o espanhol *embarazada* = "grávida" (não "envergonhada"). A semelhança
+  engana.
+- **Confundir parônimos (falsos cognatos internos).** *Deferir* (conceder) × *diferir*
+  (adiar); *ratificar* (confirmar) × *retificar* (corrigir). Sentidos distintos.
+- **Ignorar a família na hora de grafar.** *Analisar* (com *s*) segue *análise*;
+  *gasoso* segue *gás*. A família orienta a ortografia.
+- **Supor que todo sufixo é produtivo.** *-inho* e *-mente* são produtíssimos; *-ume*
+  (*queixume*) é fossilizado, quase não gera palavras novas.
+
+## ✍️ Exercícios
+
+**1.** O que é uma **família de palavras**? Cite cinco membros da família de *terra*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Família de palavras é o conjunto de vocábulos que partilham o mesmo **radical** e, com
+ele, um núcleo de significado comum. Da família de *terra* (radical *terr-*): *terreno*,
+*aterrar*, *enterrar*, *soterrar*, *terráqueo*, *subterrâneo*, *terrestre*, *território*
+(bastam cinco).
+:::
+
+**2.** (Estilo ENEM) As palavras portuguesa *noite*, espanhola *noche* e francesa
+*nuit* são:
+
+a) sinônimas de línguas diferentes;
+b) cognatas, pois remontam à mesma origem (latim *nocte*);
+c) falsos cognatos;
+d) empréstimos recentes entre si;
+e) palavras sem parentesco.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** São **cognatas**: descendem todas do latim *nocte(m)*, cada uma
+tendo evoluído conforme sua língua. Não são falsos cognatos (têm mesmo parentesco real)
+nem empréstimos entre si (herdaram, não tomaram emprestado).
+:::
+
+**3.** Explique por que *cadeira* e *cátedra* são cognatas, mas não sinônimas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+São **cognatas** porque têm a mesma origem etimológica: ambas vêm do latim *cathedra*
+("assento"). Mas não são **sinônimas** porque divergiram no sentido: *cadeira* (forma
+popular, evoluída pela via oral) designa o móvel de sentar; *cátedra* (forma erudita,
+tomada diretamente do latim) designa a posição de professor titular ou a cátedra
+episcopal. Formam um **dubleto** — popular + erudito da mesma raiz.
+:::
+
+**4.** Distinga cognato verdadeiro de falso cognato, com um exemplo de cada entre
+línguas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Cognato verdadeiro**: palavras de línguas diferentes com mesma origem e sentido
+próximo — português *família* e espanhol *familia* (ambos do latim *familia*). **Falso
+cognato** (falso amigo): palavras parecidas na forma, mas de sentido diferente e/ou
+origem distinta — inglês *pretend* ("fingir", não "pretender"); espanhol *oficina*
+("escritório", não "oficina mecânica"). A semelhança de forma engana.
+:::
+
+**5.** Usando radicais gregos/latinos, deduza o sentido de: (a) *hidrofobia*; (b)
+*geologia*; (c) *bibliofilia*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *hidrofobia* = *hidro-* (água) + *-fobia* (medo/aversão) → aversão/medo à água. (b)
+*geologia* = *geo-* (terra) + *-logia* (estudo) → estudo da Terra (suas rochas,
+estrutura). (c) *bibliofilia* = *biblio-* (livro) + *-filia* (afinidade) → amor/afinidade
+por livros. Conhecer os radicais permite inferir o sentido sem dicionário.
+:::
+
+**6.** (Estilo FCC) Assinale o par de **parônimos** (falsos cognatos internos ao
+português):
+
+a) casa / lar;
+b) ratificar / retificar;
+c) belo / bonito;
+d) grande / enorme;
+e) rápido / veloz.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Ratificar* ("confirmar") e *retificar* ("corrigir") são
+**parônimos**: parecidos na forma, mas de sentidos distintos — é preciso não confundi-los.
+As demais alternativas trazem **sinônimos** (palavras de sentido próximo), não
+parônimos.
+:::
+
+**7.** Como o conhecimento da família de palavras ajuda na **ortografia**? Dê um
+exemplo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Palavras da mesma família tendem a manter grafia coerente, então a grafia de uma
+orienta a das outras. Exemplo: como *análise* se escreve com *s*, deduz-se que
+*analisar*, *analista*, *analítico* (mesma família) também levam *s*. Do mesmo modo,
+*gás* (com *s*) orienta *gasoso*, *gasoso*, *gasômetro*. Recorrer à família resolve
+muitas dúvidas de convenção.
+:::
+
+**8.** O que é **produtividade lexical**? Dê um sufixo muito produtivo e um
+improdutivo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Produtividade lexical é a capacidade de um padrão de formação **gerar palavras novas**.
+Sufixo muito **produtivo**: *-inho* (diminutivos ilimitados: *casinha*, *cafezinho*),
+*-mente* (advérbios), *-ção* (nomes de ação), ou verbos em *-ar* (*deletar*, *tuitar*).
+Sufixo **improdutivo** (fossilizado): *-ume* (*queixume*, *ciúme*), que praticamente
+não forma vocábulos novos hoje.
+:::
+
+**9.** Explique por que empréstimos como *deletar* se integram facilmente ao português.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o português tem padrões de formação muito **produtivos** que absorvem a novidade.
+Ao entrar, *deletar* encaixa-se no padrão dos verbos de 1ª conjugação (em *-ar*), o mais
+produtivo, e passa a flexionar-se normalmente (*deleto*, *deletava*, *deletado*) e a
+gerar derivados (*deletável*, *deleção*). O sistema morfológico funciona como uma
+fábrica que "nacionaliza" a palavra estrangeira segundo seus moldes.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "As palavras *emergir* e *imergir* são
+sinônimas, pois pertencem à mesma família e têm o mesmo radical."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Emergir* ("vir à tona, subir") e *imergir* ("mergulhar, afundar") têm
+sentidos **opostos**, apesar de o radical comum (*-mergir*) e a semelhança de forma. A
+diferença de prefixo (*e-* × *i-*) inverte o sentido. São **parônimos** que exigem
+cuidado: pertencer à mesma família não os torna sinônimos — pelo contrário, aqui são
+quase antônimos.
+:::
+
+## 📚 Referências
+
+As noções de família de palavras, cognatos e dubletos apoiam-se em Câmara Jr.
+[@camarajr1970] e na história da língua de Teyssier [@teyssier2007]; a produtividade
+lexical e os processos de formação são discutidos por Castilho [@castilho2010]. Os
+radicais gregos e latinos podem ser consultados no dicionário Houaiss [@houaiss2009].
+Com este capítulo encerra-se o Volume 4; o Volume 5 abre o estudo das classes de
+palavras.
+
+::: {#refs}
 :::
