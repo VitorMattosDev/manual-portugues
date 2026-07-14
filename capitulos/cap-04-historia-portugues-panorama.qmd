@@ -4,22 +4,319 @@ title: "Breve história do português: panorama"
 
 # Breve história do português: panorama {#sec-cap-04}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 1 — Introdução aos Estudos da Linguagem.
+> "Toda língua é um monumento vivo: nela se depositam, camada sobre camada, os
+> séculos de quem a falou."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+De onde vem o português? A resposta curta — "do latim" — é verdadeira, mas esconde
+uma história de mais de dois mil anos, feita de conquistas militares, migrações,
+misturas de povos e transformações graduais que ninguém planejou. Nenhum falante do
+latim acordou um dia falando português; a mudança foi tão lenta que era imperceptível
+de uma geração para a seguinte, e ainda assim, somadas, essas pequenas mudanças
+produziram um idioma novo.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo oferece um **panorama** — uma visão de conjunto — dessa trajetória. Não
+entraremos ainda nos detalhes de cada fase (isso ficará para o Volume 15); o objetivo
+aqui é você formar um mapa mental das grandes etapas, do latim ao português brasileiro
+de hoje, e entender *por que* a língua muda. Esse pano de fundo histórico ilumina
+quase tudo o que estudaremos depois: por que há palavras "irregulares", por que a
+ortografia às vezes não corresponde à pronúncia, por que existe tanta variação.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** o português como língua românica, derivada do latim vulgar;
+- **Ordenar** as grandes fases da história da língua (latim → galego-português →
+  português arcaico → clássico → moderno);
+- **Identificar** as principais camadas de influência no léxico (substrato,
+  superstrato, adstrato);
+- **Explicar**, em termos gerais, por que as línguas mudam ao longo do tempo;
+- **Situar** a formação do português brasileiro em relação ao europeu;
+- **Distinguir** mudança linguística de "corrupção" ou "decadência" da língua.
+
+## O tronco: uma língua românica
+
+O português pertence à família das **línguas românicas** (ou neolatinas) — o grupo
+de idiomas que descendem do latim. São seus "irmãos" o espanhol, o francês, o
+italiano, o romeno, o catalão, o galego, entre outros. Todos remontam não ao latim
+literário de Cícero, mas ao **latim vulgar**: a língua cotidiana, falada, dos
+soldados, comerciantes e colonos que se espalharam pelo Império Romano.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Latim clássico e latim vulgar
+O *latim clássico* era a língua escrita e literária, relativamente estável. O *latim
+vulgar* (de *vulgus*, "povo") era a variedade falada, mais inovadora e variável. Foi
+o latim vulgar — não o clássico — que, ao se diversificar de região para região,
+deu origem às línguas românicas. Um exemplo: o clássico *equus* ("cavalo") foi
+suplantado, no vulgar, por *caballus* — daí o português *cavalo*, o espanhol
+*caballo*, o francês *cheval*.
+:::
+
+A Península Ibérica foi romanizada a partir do século III a.C. O latim ali falado
+recebeu influências e, com a fragmentação do Império e o isolamento das regiões, foi
+se diferenciando. No noroeste peninsular formou-se o **galego-português**, tronco
+comum de que sairiam o galego e o português.
+
+## As grandes fases
+
+A trajetória do latim ao português brasileiro pode ser organizada em algumas
+grandes etapas, resumidas na @fig-fases-portugues. As datas são aproximadas — as
+fronteiras entre fases são graduais, nunca abruptas.
+
+::: {#fig-fases-portugues}
+
+```{.tikz}
+%%| filename: fases-portugues
+%%| alt: Linha do tempo horizontal do latim ao português brasileiro contemporâneo, marcando cinco fases sucessivas — latim vulgar, galego-português, português arcaico, português clássico e português moderno — com as datas aproximadas de cada transição.
+
+\begin{tikzpicture}[font=\footnotesize]
+  \draw[eixo, -{Stealth[length=2.4mm]}, thick] (0,0) -- (13.5,0);
+
+  \foreach \x/\lbl in {0/{séc. III a.C.}, 3/{séc. IX}, 5.5/{séc. XII}, 8.5/{séc. XVI}, 11/{séc. XVIII}, 13/{hoje}} {
+    \draw[thick] (\x,0.12) -- (\x,-0.12);
+    \node[below, font=\scriptsize] at (\x,-0.15) {\lbl};
+  }
+
+  \node[ponto, fill=manualgray] at (1.5,0) {};
+  \node[above, align=center, text=manualgray] at (1.5,0.15) {Latim\\vulgar};
+  \node[ponto, fill=manualblue] at (4.2,0) {};
+  \node[above, align=center, text=manualblue] at (4.2,0.15) {Galego-\\português};
+  \node[ponto, fill=manualgreen] at (7,0) {};
+  \node[above, align=center, text=manualgreen] at (7,0.15) {Português\\arcaico};
+  \node[ponto, fill=manualyellow] at (9.7,0) {};
+  \node[above, align=center, text=black] at (9.7,0.15) {Português\\clássico};
+  \node[ponto, fill=manualred] at (12,0) {};
+  \node[above, align=center, text=manualred] at (12,0.15) {Português\\moderno};
+\end{tikzpicture}
+```
+
+Da romanização da Península ao português contemporâneo: as fases são contínuas, e
+as datas marcam apenas transições aproximadas.
+:::
+
+- **Latim vulgar** (séc. III a.C. em diante): base falada de que tudo deriva.
+- **Galego-português** (séc. IX–XII): a língua já distinta do latim, documentada em
+  cantigas medievais. É a fase das *cantigas de amigo* e *de amor*.
+- **Português arcaico** (séc. XII–XVI): consolidação do idioma após a independência
+  de Portugal (1139); separação em relação ao galego.
+- **Português clássico** (séc. XVI–XVIII): época de Camões e dos grandes autores;
+  expansão marítima leva a língua ao mundo.
+- **Português moderno** (séc. XVIII em diante): a língua tal como a conhecemos, com
+  o português brasileiro seguindo, em muitos pontos, caminho próprio.
+
+## As camadas do léxico
+
+O vocabulário português é como um sítio arqueológico: cada época depositou uma
+camada. Os linguistas distinguem três tipos de influência:
+
+- **Substrato**: línguas faladas *antes* do latim numa região, que deixaram traços.
+  Na Península, línguas pré-romanas (ibérico, celta) legaram poucas palavras
+  (*barro*, *cerveja*, talvez *carro*).
+- **Superstrato**: línguas de povos que chegaram *depois* e se sobrepuseram sem
+  substituir o latim. Os **germânicos** (visigodos) deixaram termos militares
+  (*guerra*, *guarda*, *elmo*); os **árabes**, após a invasão de 711, legaram
+  centenas de palavras, muitas com o artigo *al-* incorporado (*álgebra*, *alface*,
+  *azeite*, *açúcar*, *almofada*).
+- **Adstrato**: línguas que convivem com a língua e trocam empréstimos ao longo do
+  tempo. No português, incluem-se as línguas indígenas (*abacaxi*, *tatu*,
+  *caatinga*), as africanas (*moleque*, *caçula*, *dendê*) e, mais recentemente, o
+  francês e o inglês (*abajur*, *futebol*, *deletar*).
+
+Essa estratificação explica por que, ao lado de palavras herdadas diretamente do
+latim (as **populares**, gastas pelo uso: *cheio* de *plenus*), convivem palavras
+tomadas de empréstimo mais tarde do próprio latim (as **eruditas**, quase intactas:
+*pleno*). Voltaremos a esses **dubletos** no Volume 4.
+
+## Por que as línguas mudam?
+
+Talvez a lição mais importante deste capítulo seja conceitual: **a mudança
+linguística é natural, inevitável e não representa "decadência"**. Toda língua viva
+muda; só as línguas mortas (como o latim clássico) não mudam mais. As causas são
+múltiplas:
+
+- **Economia articulatória**: a tendência a simplificar a pronúncia (quedas de sons,
+  assimilações) — foi assim que o latim *auru(m)* virou *ouro*.
+- **Analogia**: a tendência a regularizar padrões (crianças dizem "*fazi*" por
+  *fiz*, aplicando a regra geral; às vezes a analogia vence e se fixa).
+- **Contato entre línguas**: empréstimos e influências mútuas.
+- **Fatores sociais**: prestígio, identidade de grupo, mudanças na sociedade.
+
+Note bem: quando os falantes do latim começaram a dizer as coisas "de outro jeito",
+não estavam "estragando" o latim — estavam criando o português. A cada geração que
+critica os "erros" dos mais jovens, repete-se um mal-entendido antigo: confundir
+*mudança* com *deterioração*. O português de hoje não é um latim estragado, assim
+como o português de daqui a 500 anos não será um português estragado — será outra
+etapa da mesma língua viva.
+
+::: {.callout-important}
+## Mudança não é corrupção
+Dizer que "o português está sendo destruído" pelos jovens, pela internet ou pela
+"falta de estudo" é repetir um pânico que existe há séculos e nunca se confirmou. A
+língua muda porque está viva e é usada; a mudança tem regularidades descritíveis, não
+é caos. O que muda são as formas, não a capacidade da língua de exprimir tudo o que
+seus falantes precisam.
+:::
+
+## 📋 Quadro-resumo
+
+| Fase | Período aproximado | Marca |
+|---|---|---|
+| Latim vulgar | séc. III a.C.– | Base falada de todas as línguas românicas |
+| Galego-português | séc. IX–XII | Cantigas medievais; língua já distinta do latim |
+| Português arcaico | séc. XII–XVI | Independência de Portugal; separação do galego |
+| Português clássico | séc. XVI–XVIII | Camões; expansão marítima; língua leva-se ao mundo |
+| Português moderno | séc. XVIII– | Idioma atual; PB segue caminho próprio |
+
+Camadas do léxico: **substrato** (pré-latino) · **superstrato** (germânico, árabe) ·
+**adstrato** (indígena, africano, francês, inglês).
+
+Em uma linha: o português é uma **língua românica**, filha do **latim vulgar**, que
+mudou continuamente ao longo de séculos — e a mudança é sinal de vida, não de
+decadência.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Dizer que o português "vem do latim de Cícero".** Vem do **latim vulgar** (falado,
+  popular), não do latim clássico literário. Distinção clássica de prova.
+- **Confundir substrato, superstrato e adstrato.** Substrato = *antes* do latim;
+  superstrato = povo que chega *depois* mas não substitui o latim (germânicos,
+  árabes); adstrato = línguas em *convívio* e troca (indígenas, africanas, moderno).
+- **Achar que a mudança linguística é "erro" ou "decadência".** Toda língua viva muda;
+  a mudança é regular e natural. Só as línguas mortas não mudam.
+- **Tratar o galego-português como "português já pronto".** É a fase-tronco, comum ao
+  galego e ao português, anterior à separação dos dois idiomas.
+- **Supor que árabe e germânico entraram por "adstrato".** Entraram como
+  **superstrato** (povos que se sobrepuseram após a romanização). O adstrato clássico
+  do PB são as línguas indígenas e africanas.
+
+## ✍️ Exercícios
+
+**1.** Por que se diz que o português deriva do **latim vulgar**, e não do latim
+clássico?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque foi a variedade **falada** e popular do latim (o latim vulgar) que os
+soldados, colonos e comerciantes levaram às províncias e que, ao se diversificar
+regionalmente, originou as línguas românicas. O latim clássico era a variedade
+escrita e literária, mais estável, que não corresponde diretamente à fala de que o
+português brotou. Exemplo: o português *cavalo* vem do vulgar *caballus*, não do
+clássico *equus*.
+:::
+
+**2.** (Estilo ENEM) Palavras como *açúcar*, *alface*, *azeite* e *almofada* têm em
+comum a origem:
+
+a) indígena, do tupi;
+b) germânica, dos visigodos;
+c) árabe, do período da presença muçulmana na Península;
+d) africana, trazida pelos escravizados;
+e) inglesa, por empréstimo recente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** São arabismos, legado da longa presença árabe na Península
+Ibérica (a partir de 711), muitos com o artigo árabe *al-* incorporado (*al*-face,
+*al*-mofada). Constituem uma camada de **superstrato** no português.
+:::
+
+**3.** Ordene cronologicamente as fases: ( ) português clássico; ( ) galego-português;
+( ) latim vulgar; ( ) português moderno; ( ) português arcaico.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(4) português clássico; (2) galego-português; (1) latim vulgar; (5) português
+moderno; (3) português arcaico. Ordem: latim vulgar → galego-português → português
+arcaico → português clássico → português moderno.
+:::
+
+**4.** Classifique a influência (substrato, superstrato ou adstrato): (a) palavras
+celtas anteriores ao latim; (b) *guerra* e *guarda*, de origem germânica; (c) *tatu*
+e *abacaxi*, do tupi.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) substrato (línguas anteriores ao latim na região); (b) superstrato (germânicos,
+que se sobrepuseram após a romanização sem substituir o latim); (c) adstrato
+(línguas indígenas em convívio e troca com o português no Brasil).
+:::
+
+**5.** Explique, com um exemplo, o princípio da **economia articulatória** na
+mudança linguística.
+
+::: {.callout-tip collapse="true"}
+## Solução
+É a tendência dos falantes a simplificar a pronúncia, com quedas e fusões de sons ao
+longo do tempo. Exemplo: o latim *auru(m)* perdeu e transformou sons até chegar a
+*ouro*; *populu(m)* tornou-se *povo* (com queda do *l* intervocálico). A pronúncia
+"mais fácil" tende a se fixar geração após geração.
+:::
+
+**6.** Comente a afirmação: "Os jovens de hoje estão destruindo o português."
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação confunde **mudança** com **destruição**. A língua muda em todas as
+gerações, sempre, e essa mudança é regular e natural — foi assim que o latim se
+tornou português. Cada geração acusa a seguinte de "estragar" a língua, e nunca se
+confirma nenhuma destruição: o idioma continua plenamente funcional. As inovações
+juvenis são apenas mais um episódio da vida normal de uma língua viva, não sua ruína.
+:::
+
+**7.** (Estilo FUVEST) Explique a diferença entre uma palavra de origem **popular** e
+uma de origem **erudita**, usando o par *cheio* / *pleno*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A palavra **popular** foi herdada diretamente pela via oral, sofrendo as
+transformações fonéticas do uso ao longo dos séculos: *plenus* (latim) → *cheio*
+(com todas as mudanças de som). A palavra **erudita** foi tomada de empréstimo mais
+tarde, diretamente do latim escrito, permanecendo próxima da forma original: *plenus*
+→ *pleno*. Por isso *cheio* e *pleno*, embora venham da mesma origem, coexistem — são
+um **dubleto** (palavra popular e sua correspondente erudita).
+:::
+
+**8.** Por que apenas as línguas **mortas** não mudam?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a mudança linguística resulta do **uso**: são os falantes que, ao usar a
+língua no dia a dia, introduzem inovações que, acumuladas, transformam o idioma. Uma
+língua morta (como o latim clássico) não tem mais comunidade que a use como língua
+materna no cotidiano; sem uso vivo, ela se cristaliza e deixa de mudar. Mudança,
+portanto, é sinal de vida linguística.
+:::
+
+**9.** Situe o **galego-português** na história da língua: que fase é essa e por que
+seu nome é composto?
+
+::: {.callout-tip collapse="true"}
+## Solução
+O galego-português (séc. IX–XII) é a fase-tronco em que o idioma já se distinguia
+claramente do latim, falado no noroeste da Península Ibérica. Seu nome é composto
+porque, nessa época, galego e português ainda **não** se haviam separado: eram uma
+única língua, documentada nas cantigas medievais. Só mais tarde, com a consolidação
+de Portugal como reino independente, os dois se diferenciaram.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "O português é uma língua românica,
+o que significa que descende diretamente do grego antigo, base do latim."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Língua românica (ou neolatina) significa que descende do **latim** — mais
+precisamente do latim vulgar —, não do grego. O grego influenciou o latim e o
+português (sobretudo no vocabulário erudito e científico), mas não é a "base" de que
+o latim deriva, nem o ascendente direto do português.
+:::
+
+## 📚 Referências
+
+O panorama histórico aqui esboçado apoia-se em Teyssier [@teyssier2007] e em Câmara
+Jr. [@camarajr1975], referências clássicas sobre a história e a estrutura do
+português. Para a naturalidade da mudança linguística e a crítica à ideia de
+"decadência", ver Bagno [@bagno2007]. A formação do português brasileiro e sua
+relação com o europeu serão retomadas no Volume 15.
+
+::: {#refs}
 :::
