@@ -4,22 +4,296 @@ title: "Encontros vocálicos, encontros consonantais e dígrafos"
 
 # Encontros vocálicos, encontros consonantais e dígrafos {#sec-cap-09}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 2 — Fonética e Fonologia.
+> "Ditongo ou hiato? A resposta está nos ouvidos, não nos olhos."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Quando dois ou mais fonemas semelhantes aparecem juntos numa palavra, formam-se os
+**encontros**. Se são sons vocálicos, temos um **encontro vocálico** (ditongo, hiato
+ou tritongo); se são consonantais, um **encontro consonantal**. E há ainda um caso
+enganoso, o **dígrafo**, em que duas letras representam um único fonema — não sendo,
+portanto, um verdadeiro encontro de sons. Distinguir essas categorias é o coração da
+fonologia escolar e uma das fontes mais frequentes de erro em prova.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo depende diretamente do anterior: para saber se *i* e *u* formam ditongo
+ou hiato, é preciso reconhecer quando eles são semivogais e quando são vogais. Aqui
+sistematizamos essas combinações e desfazemos a confusão clássica entre **dígrafo** e
+**encontro consonantal** — dois conceitos que as bancas adoram embaralhar.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Classificar** os encontros vocálicos em ditongo, hiato e tritongo;
+- **Subclassificar** ditongos (crescente/decrescente, oral/nasal);
+- **Distinguir** encontro vocálico de encontro consonantal;
+- **Diferenciar** dígrafo de encontro consonantal (o ponto mais cobrado);
+- **Separar** dígrafos consonantais de dígrafos vocálicos;
+- **Aplicar** tudo isso à contagem de fonemas e à futura divisão silábica.
+
+## Encontros vocálicos
+
+Um **encontro vocálico** é a sequência de vogais e/ou semivogais numa palavra. Há
+três tipos, e a chave para distingui-los é lembrar do capítulo anterior: **vogal** é
+núcleo de sílaba; **semivogal** apoia-se numa vogal.
+
+### Ditongo
+
+**Ditongo** é o encontro de **uma vogal + uma semivogal** (ou vice-versa) na **mesma
+sílaba**. Subdivide-se por dois critérios:
+
+- Quanto à ordem: **decrescente** (vogal + semivogal: *pai*, *céu*, *dói*) ou
+  **crescente** (semivogal + vogal: *série* = sé-rie, *água* = á-gua, *quatro*).
+- Quanto à nasalidade: **oral** (*pai*, *meu*) ou **nasal** (*mãe*, *bem*, *muito*,
+  *pão*).
+
+### Hiato
+
+**Hiato** é o encontro de **duas vogais** que ficam em **sílabas diferentes** — cada
+uma é núcleo da sua sílaba. Em *saída* (sa-í-da), *poeta* (po-e-ta), *saúde*
+(sa-ú-de), *voo* (vo-o), as vogais se separam. O teste: se as duas vogais são
+pronunciadas em emissões de voz distintas, é hiato.
+
+### Tritongo
+
+**Tritongo** é o encontro de **semivogal + vogal + semivogal** na mesma sílaba:
+*Uruguai* (-guai), *quais*, *saguão*, *averiguou*. Também pode ser oral (*quais*) ou
+nasal (*saguão*).
+
+A @fig-encontros-vocalicos organiza a distinção decisiva ditongo × hiato.
+
+::: {#fig-encontros-vocalicos}
+
+```{.tikz}
+%%| filename: encontros-vocalicos
+%%| alt: Diagrama de decisão. Pergunta inicial: as duas vogais estão na mesma sílaba? Se sim, é ditongo (uma é semivogal), exemplo pai. Se não, é hiato (duas vogais em sílabas separadas), exemplo saída. Um ramo adicional mostra o tritongo, com semivogal-vogal-semivogal na mesma sílaba, exemplo quais.
+
+\begin{tikzpicture}[
+  font=\small,
+  q/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=center, text width=42mm, minimum height=10mm, inner sep=4pt},
+  r/.style={rounded corners=3pt, draw=manualgreen, thick, fill=manualgreen!8, align=center, text width=34mm, minimum height=10mm, inner sep=4pt},
+  fl/.style={-{Stealth[length=2.4mm]}, manualgray, thick},
+]
+  \node[q] (top) {Os dois sons vocálicos estão na \textbf{mesma sílaba}?};
+  \node[r, below left=13mm and 2mm of top] (sim) {\textbf{Ditongo}\\{\footnotesize vogal + semivogal}\\{\scriptsize \emph{pai}, \emph{água}}};
+  \node[r, draw=manualred, fill=manualred!8, below right=13mm and 2mm of top] (nao) {\textbf{Hiato}\\{\footnotesize duas vogais, sílabas separadas}\\{\scriptsize \emph{sa-í-da}}};
+
+  \draw[fl] (top) -- node[left, font=\scriptsize] {sim} (sim);
+  \draw[fl] (top) -- node[right, font=\scriptsize] {não} (nao);
+
+  \node[r, draw=manualyellow, fill=manualyellow!14, below=8mm of sim, text width=40mm] (tri) {\textbf{Tritongo}: semivogal + vogal + semivogal na mesma sílaba — \emph{quais}, \emph{sa-guão}};
+\end{tikzpicture}
+```
+
+O teste do ditongo × hiato: dois sons vocálicos na mesma sílaba formam ditongo (com
+uma semivogal); em sílabas separadas, formam hiato. O tritongo reúne três sons na
+mesma sílaba.
+:::
+
+## Encontros consonantais
+
+**Encontro consonantal** é a sequência de **duas consoantes**, cada uma com seu
+próprio som. Há dois tipos:
+
+- **Perfeito** (ou inseparável): as consoantes ficam na **mesma sílaba**, formando
+  grupos que iniciam sílaba — *pr*, *br*, *tr*, *dr*, *cr*, *gr*, *fr*, *vr*, *pl*,
+  *bl*, *cl*, *gl*, *fl*. Ex.: *pra-to*, *cla-ro*, *fle-cha*. Não se separam na
+  divisão silábica.
+- **Imperfeito** (ou separável): as consoantes ficam em **sílabas diferentes** —
+  *ad-vo-ga-do*, *ap-to*, *rit-mo*, *ab-do-me*. Separam-se na divisão silábica.
+
+O essencial: no encontro consonantal, **cada consoante conserva seu som**. É o que o
+diferencia do dígrafo.
+
+## Dígrafo × encontro consonantal: a distinção-chave
+
+Aqui está a pegadinha mais cobrada de toda a fonologia. **Dígrafo** é o encontro de
+**duas letras** que representam **um único fonema**. **Encontro consonantal** é o
+encontro de **duas consoantes** que representam **dois fonemas**. A confusão nasce
+porque ambos "juntam duas letras" — mas o critério é o número de **sons**.
+
+::: {.callout-important}
+## A regra de ouro
+Conte os **sons**, não as letras. Se duas letras juntas produzem **um** som →
+**dígrafo** (*ch*ave, ca*rr*o, pa*ss*o). Se produzem **dois** sons → **encontro
+consonantal** (*pr*ato, *bl*oco). Em *carro*, o *rr* é um só som /ʀ/ → dígrafo. Em
+*prato*, o *pr* são dois sons /p/+/ɾ/ → encontro consonantal.
+:::
+
+Os **dígrafos consonantais** do português são:
+
+| Dígrafo | Fonema | Exemplo |
+|---|---|---|
+| *ch* | /ʃ/ | *chave* |
+| *lh* | /ʎ/ | *palha* |
+| *nh* | /ɲ/ | *ninho* |
+| *rr* | /ʀ/ | *carro* |
+| *ss* | /s/ | *passo* |
+| *sc* | /s/ | *nascer* |
+| *sç* | /s/ | *desço* |
+| *xc* | /s/ | *exceto* |
+| *qu* (+e/i) | /k/ | *quero* |
+| *gu* (+e/i) | /g/ | *guerra* |
+
+Há também os **dígrafos vocálicos** (na verdade, dígrafos de nasalidade): as
+sequências *am, an, em, en, im, in, om, on, um, un* em que o *m/n* não é consoante,
+mas apenas marca a **nasalização** da vogal: *campo* (*am* = /ɐ̃/), *tempo*, *lindo*,
+*bomba*, *mundo*. Como vimos no @sec-cap-07, esse *m/n* não conta como fonema à parte.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Atenção: *gu* e *qu* nem sempre são dígrafos
+*Qu* e *gu* só são dígrafos quando o *u* **não soa** (antes de *e/i*): *quero* (/k/),
+*guitarra* (/g/). Quando o *u* **soa**, não há dígrafo, e sim consoante + semivogal ou
+vogal: *quatro* (/kw/-, o *u* soa), *aguentar* (o *u* soa, com trema abolido pelo
+Acordo, mas ainda pronunciado). Ouça: se o *u* tem som, não é dígrafo.
+:::
+
+## 📋 Quadro-resumo
+
+| Fenômeno | Definição | Nº de sons | Exemplo |
+|---|---|---|---|
+| **Ditongo** | Vogal + semivogal na mesma sílaba | 2 | *pai*, *água* |
+| **Hiato** | Duas vogais em sílabas separadas | 2 (separados) | *sa-í-da* |
+| **Tritongo** | Semivogal + vogal + semivogal | 3 | *quais* |
+| **Encontro consonantal** | Duas consoantes, dois sons | 2 | *prato*, *advogado* |
+| **Dígrafo** | Duas letras, um só fonema | 1 | *carro*, *chave* |
+
+Em uma linha: **ditongo/hiato/tritongo** são encontros de sons vocálicos; **encontro
+consonantal** junta duas consoantes com **dois** sons; **dígrafo** junta duas letras
+com **um** som — e a diferença entre os dois últimos está no número de sons, não de
+letras.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Chamar *rr* e *ss* de encontro consonantal.** São **dígrafos** (um só som cada). O
+  encontro consonantal tem dois sons (*pr*, *bl*, *tr*).
+- **Decidir ditongo/hiato pelos olhos.** *Saída* parece ter "ai", mas é hiato
+  (sa-í-da); *baile* tem ditongo (bai-le). Ouça: mesma sílaba = ditongo; sílabas
+  separadas = hiato.
+- **Achar que *qu*/*gu* são sempre dígrafos.** Só quando o *u* não soa (*quero*,
+  *guerra*). Se o *u* soa (*quatro*, *linguiça*), não é dígrafo.
+- **Esquecer o dígrafo vocálico (nasal).** Em *campo*, *tinta*, *bomba*, o *m/n*
+  marca a nasalização da vogal e forma dígrafo — não é consoante independente.
+- **Confundir *muito* com hiato.** *Muito* tem ditongo nasal (mui-to): o *ui* é
+  pronunciado numa só sílaba e nasalizado (/ũj̃/).
+
+## ✍️ Exercícios
+
+**1.** Classifique o encontro vocálico (ditongo, hiato ou tritongo): (a) *pai*; (b)
+*saúde*; (c) *Paraguai*; (d) *poeta*; (e) *série*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) ditongo decrescente oral (pai). (b) hiato (sa-ú-de). (c) tritongo (Para-guai). (d)
+hiato (po-e-ta). (e) ditongo crescente (sé-rie: semivogal /j/ + vogal /e/).
+:::
+
+**2.** (Estilo ENEM) Assinale a alternativa que contém **dígrafo** (duas letras, um
+som):
+
+a) prato;
+b) claro;
+c) ninho;
+d) globo;
+e) trave.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** Em *ninho*, o *nh* é dígrafo: representa um único fonema, a nasal
+palatal /ɲ/. Nas demais há **encontros consonantais** (*pr*, *cl*, *gl*, *tr*), com
+dois sons cada.
+:::
+
+**3.** Distinga, com suas palavras, **dígrafo** de **encontro consonantal**, dando um
+exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Dígrafo: duas letras que representam **um único** fonema (ex.: *ch* em *chave*, /ʃ/;
+*rr* em *carro*, /ʀ/). Encontro consonantal: duas consoantes que representam **dois**
+fonemas, cada uma com seu som (ex.: *pr* em *prato*, /p/+/ɾ/; *bl* em *bloco*). O
+critério é o número de sons: um som → dígrafo; dois sons → encontro consonantal.
+:::
+
+**4.** Classifique o ditongo em crescente ou decrescente: (a) *água*; (b) *céu*; (c)
+*quatro*; (d) *dói*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *água* → crescente (semivogal /w/ + vogal /a/: á-gua). (b) *céu* → decrescente
+(vogal /ɛ/ + semivogal /w/). (c) *quatro* → crescente (semivogal /w/ + vogal /a/). (d)
+*dói* → decrescente (vogal /ɔ/ + semivogal /j/).
+:::
+
+**5.** Por que *carro* tem dígrafo, mas *carta* tem encontro consonantal?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em *carro*, o *rr* representa **um único** fonema (/ʀ/, o "erre forte"): duas letras,
+um som → dígrafo. Em *carta*, o *r* e o *t* estão em contato mas representam **dois**
+sons distintos (/ɾ/ + /t/), em sílabas diferentes (car-ta) → encontro consonantal
+(imperfeito/separável). A diferença está no número de sons.
+:::
+
+**6.** (Estilo FCC) Em *exceção*, a sequência *xc* constitui:
+
+a) encontro consonantal perfeito;
+b) dígrafo;
+c) tritongo;
+d) hiato;
+e) encontro consonantal imperfeito.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O *xc* (como em *exceção*, *exceto*) é **dígrafo**: as duas letras
+representam um único fonema /s/. Não é encontro consonantal, pois não há dois sons
+consonantais distintos.
+:::
+
+**7.** Analise a palavra *aguentar* quanto ao *gu*: há dígrafo? Justifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não** há dígrafo. Em *aguentar*, o *u* **soa** (pronuncia-se /agwẽ'tar/, com o *gu*
+= /gw/, consoante + semivogal). O dígrafo *gu* só ocorre quando o *u* **não** soa
+(como em *guerra*, *guitarra*). Como aqui o *u* tem som, trata-se de consoante /g/ +
+semivogal /w/, não de dígrafo. (O trema, que antes marcava esse *u* pronunciado, foi
+abolido pelo Acordo de 1990, mas a pronúncia permanece.)
+:::
+
+**8.** Classifique o encontro consonantal em perfeito ou imperfeito: (a) *prato*; (b)
+*apto*; (c) *flor*; (d) *ritmo*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *prato* → perfeito (*pr* na mesma sílaba: pra-to). (b) *apto* → imperfeito (*p* e
+*t* em sílabas diferentes: ap-to). (c) *flor* → perfeito (*fl* na mesma sílaba). (d)
+*ritmo* → imperfeito (*t* e *m* em sílabas diferentes: rit-mo).
+:::
+
+**9.** A palavra *muito* contém ditongo ou hiato? E qual sua natureza?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Contém **ditongo**, e ditongo **nasal**: pronuncia-se *mui-to* numa sílaba tônica
+nasalizada (/ˈmũj̃tu/). Embora a nasalidade não esteja marcada por *m/n* ou til na
+escrita, o *ui* de *muito* é nasalizado na fala — é um caso especial de ditongo nasal.
+Não é hiato, pois as duas vogais são pronunciadas na mesma sílaba.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na palavra *passarinho* há dois
+dígrafos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** Em *passarinho* há dois dígrafos: *ss* (= /s/, em *pas-sa*) e *nh* (= /ɲ/,
+em *ri-nho*). Ambos são pares de letras que representam, cada um, um único fonema.
+:::
+
+## 📚 Referências
+
+A tipologia dos encontros e a distinção entre dígrafo e encontro consonantal seguem a
+descrição de Câmara Jr. [@camarajr1970] e o tratamento normativo de Cunha & Cintra
+[@cunhacintra2017] e Bechara [@bechara2009]. A aplicação desses conceitos à divisão
+silábica e à tonicidade é o tema do @sec-cap-10.
+
+::: {#refs}
 :::
