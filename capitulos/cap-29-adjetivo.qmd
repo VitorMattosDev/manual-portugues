@@ -4,22 +4,326 @@ title: "Adjetivo"
 
 # Adjetivo {#sec-cap-29}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "Se o substantivo nomeia, o adjetivo colore: é ele que diz *como* é aquilo que
+> nomeamos."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O **adjetivo** é a classe que **caracteriza** o substantivo, atribuindo-lhe uma
+qualidade, um estado, uma origem, um modo de ser. Se o substantivo *casa* nomeia,
+os adjetivos *grande*, *branca*, *antiga*, *confortável* dizem como ela é. É uma classe
+essencial para a descrição e para a expressão de julgamentos — e, por isso, central na
+interpretação de textos e na redação: a escolha dos adjetivos revela o ponto de vista de
+quem escreve.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Neste capítulo estudamos a classificação dos adjetivos, sua flexão (gênero, número e,
+sobretudo, **grau** — comparativo e superlativo, com as formas irregulares), os
+**adjetivos pátrios**, as **locuções adjetivas** e a posição do adjetivo (antes ou
+depois do nome), que pode alterar o sentido. São conteúdos de alta incidência em prova.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** o adjetivo e distingui-lo do substantivo e do advérbio;
+- **Classificar** adjetivos (simples/composto, primitivo/derivado, pátrio);
+- **Flexionar** o adjetivo em gênero, número e grau;
+- **Formar** o comparativo e o superlativo, inclusive as formas irregulares;
+- **Reconhecer** locuções adjetivas e adjetivos compostos;
+- **Analisar** o efeito de sentido da posição e da escolha do adjetivo.
+
+## O adjetivo e suas classificações
+
+**Adjetivo** é a palavra que modifica o substantivo, atribuindo-lhe característica. Ele
+concorda com o substantivo em gênero e número (*menino esperto*, *meninas espertas*) —
+traço mórfico que o distingue do advérbio (invariável).
+
+Classifica-se por critérios análogos aos do substantivo:
+
+- **Simples** (um radical: *azul*, *bom*) × **composto** (mais de um:
+  *azul-marinho*, *luso-brasileiro*).
+- **Primitivo** (*bom*, *feliz*) × **derivado** (*bondoso*, *infeliz*).
+- **Adjetivo pátrio** (gentílico): indica origem/nacionalidade — *brasileiro*,
+  *mineiro*, *paulistano*, *carioca*.
+
+### Locução adjetiva
+
+Uma **locução adjetiva** é a expressão (geralmente *preposição + substantivo*) que
+equivale a um adjetivo: *amor de mãe* = amor **materno**; *água da chuva* = água
+**pluvial**; *dor de estômago* = dor **gástrica**. Reconhecê-las é útil para
+vocabulário e para questões de equivalência.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Muitas locuções têm um adjetivo erudito correspondente
+Como muitos adjetivos vêm do latim/grego, a locução (mais transparente) e o adjetivo
+(erudito) coexistem: *de cabelo* → *capilar*; *de fígado* → *hepático*; *de coração*
+→ *cardíaco*; *de professor* → *docente*; *de lua* → *lunar*; *de anjo* → *angelical*.
+Conhecê-los enriquece o vocabulário e ajuda na leitura de textos técnicos.
+:::
+
+## Flexão de gênero e número
+
+- **Gênero**: os adjetivos podem ser **biformes** (duas formas: *bom/boa*, *esperto/
+  esperta*) ou **uniformes** (uma só forma para os dois gêneros: *feliz*, *simples*,
+  *comum*, *azul* — "homem feliz", "mulher feliz").
+- **Número**: seguem regras semelhantes às dos substantivos (*azul/azuis*, *fácil/
+  fáceis*, *bom/bons*).
+
+### Plural dos adjetivos compostos
+
+Regra importante e cobrada:
+
+- Em adjetivo composto, **só o último elemento** varia; os anteriores ficam invariáveis:
+  *acordos luso-brasileiros*, *camisas verde-escuras*, *olhos azul-claros*.
+- **Exceções**: *azul-marinho* e *azul-celeste* são **invariáveis** (camisas
+  *azul-marinho*); e compostos em que o segundo elemento é substantivo também ficam
+  invariáveis: *blusas verde-limão*, *ternos cinza-chumbo* (a cor de um substantivo
+  não varia).
+
+## Flexão de grau
+
+O grau do adjetivo tem dois eixos: comparativo e superlativo. A @fig-graus-adjetivo os
+organiza.
+
+::: {#fig-graus-adjetivo}
+
+```{.tikz}
+%%| filename: graus-adjetivo
+%%| alt: Diagrama em árvore dos graus do adjetivo. Grau comparativo, dividido em: de igualdade (tão alto quanto), de superioridade (mais alto que) e de inferioridade (menos alto que). Grau superlativo, dividido em: relativo (o mais alto de todos / o menos alto) e absoluto (analítico muito alto, sintético altíssimo).
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  n/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, minimum height=8mm},
+  fl/.style={-{Stealth[length=2mm]}, manualgray, thick},
+]
+  \node[n, draw=manualblue, very thick, fill=manualblue!10] (g) at (5,4.2) {GRAU do adjetivo};
+  \node[n, draw=manualgreen, thick, fill=manualgreen!8] (comp) at (2,3) {Comparativo};
+  \node[n, draw=manualred, thick, fill=manualred!8] (sup) at (8,3) {Superlativo};
+
+  \node[n, fill=manualgreen!5, text width=30mm] (ig) at (0,1.4) {igualdade\\{\scriptsize tão alto quanto}};
+  \node[n, fill=manualgreen!5, text width=30mm] (si) at (2,0.4) {superioridade\\{\scriptsize mais alto (do) que}};
+  \node[n, fill=manualgreen!5, text width=30mm] (in) at (0.2,-0.6) {inferioridade\\{\scriptsize menos alto (do) que}};
+
+  \node[n, fill=manualred!5, text width=32mm] (rel) at (8,1.4) {relativo\\{\scriptsize o mais/menos alto de todos}};
+  \node[n, fill=manualred!5, text width=32mm] (abs) at (8.4,0.1) {absoluto\\{\scriptsize muito alto / altíssimo}};
+
+  \draw[fl] (g) -- (comp);
+  \draw[fl] (g) -- (sup);
+  \draw[fl] (comp) -- (ig);
+  \draw[fl] (comp) -- (si);
+  \draw[fl] (comp) -- (in);
+  \draw[fl] (sup) -- (rel);
+  \draw[fl] (sup) -- (abs);
+\end{tikzpicture}
+```
+
+Os graus do adjetivo: o **comparativo** (igualdade, superioridade, inferioridade) e o
+**superlativo** (relativo — em relação a um grupo — e absoluto — analítico ou sintético).
+:::
+
+### Grau comparativo
+
+Compara a mesma qualidade em dois seres (ou o mesmo ser em situações diferentes):
+
+- **Igualdade**: *tão* alto *quanto/como* — "Ele é *tão* alto *quanto* o irmão."
+- **Superioridade**: *mais* alto *(do) que* — "Ele é *mais* alto *do que* o irmão."
+- **Inferioridade**: *menos* alto *(do) que* — "Ele é *menos* alto *(do) que* o irmão."
+
+### Grau superlativo
+
+Eleva a qualidade ao máximo:
+
+- **Relativo**: destaca o ser dentro de um **conjunto** — *o mais* alto *de todos*
+  (superioridade) / *o menos* alto *de todos* (inferioridade).
+- **Absoluto**: intensifica sem comparação com grupo. **Analítico** (com advérbio):
+  *muito* alto, *extremamente* alto. **Sintético** (com sufixo): *alt**íssimo***,
+  *facíl**imo***, *pobr**íssimo**/paup**érrimo***.
+
+::: {.callout-important}
+## Comparativos e superlativos irregulares
+Quatro adjetivos têm formas **irregulares** que substituem "mais + adjetivo":
+
+| Adjetivo | Comparativo de superioridade | Superlativo absoluto |
+|---|---|---|
+| bom | **melhor** (não "mais bom") | ótimo |
+| mau | **pior** (não "mais mau") | péssimo |
+| grande | **maior** (não "mais grande") | máximo |
+| pequeno | **menor** (não "mais pequeno") | mínimo |
+
+Atenção: usa-se *mais bom/mais grande* apenas quando se comparam **duas qualidades do
+mesmo ser**: "Ele é *mais bom* que inteligente" (aqui, correto). Fora disso, use as
+formas irregulares.
+:::
+
+## Posição do adjetivo e efeito de sentido
+
+A posição do adjetivo em relação ao substantivo pode ser neutra ou alterar o sentido:
+
+- **Depois do nome** (posição usual): sentido mais objetivo, descritivo — "um homem
+  *pobre*" (sem dinheiro).
+- **Antes do nome**: muitas vezes sentido subjetivo, afetivo ou figurado — "um *pobre*
+  homem" (digno de pena, coitado); "um *grande* homem" (notável) × "um homem *grande*"
+  (de porte físico avançado); "um *velho* amigo" (de longa data) × "um amigo *velho*"
+  (idoso).
+
+Essa mobilidade é um recurso estilístico poderoso, explorado em literatura e cobrado em
+interpretação.
+
+## 📋 Quadro-resumo
+
+| Aspecto | Conteúdo |
+|---|---|
+| **Função** | Caracteriza o substantivo (concorda em gênero e número) |
+| **Locução adjetiva** | Prep. + subst. = adjetivo (*de mãe* = materno) |
+| **Gênero** | Biforme (*bom/boa*) ou uniforme (*feliz*) |
+| **Plural composto** | Só o último varia (*luso-brasileiros*); exceções invariáveis (*azul-marinho*) |
+| **Comparativo** | igualdade / superioridade / inferioridade |
+| **Superlativo** | relativo / absoluto (analítico e sintético) |
+| **Irregulares** | melhor, pior, maior, menor |
+
+Em uma linha: o **adjetivo** caracteriza o substantivo, concordando com ele; flexiona-se
+em gênero, número e **grau** (comparativo e superlativo, com irregulares *melhor/pior/
+maior/menor*); e sua **posição** pode mudar o sentido.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Dizer "mais bom", "mais grande".** Use os irregulares: *melhor*, *maior* (salvo ao
+  comparar duas qualidades do mesmo ser: "mais bom que esperto").
+- **Flexionar todos os elementos do adjetivo composto.** Só o **último** varia
+  (*olhos verde-claros*); e *azul-marinho*/*azul-celeste* são invariáveis.
+- **Confundir superlativo relativo e absoluto.** Relativo compara com um grupo (*o mais
+  alto de todos*); absoluto intensifica sem grupo (*altíssimo*, *muito alto*).
+- **Trocar adjetivo por advérbio.** O adjetivo caracteriza **substantivo** e concorda
+  (*meninas rápidas*); o advérbio modifica **verbo** e é invariável (*correram
+  rápido*).
+- **Ignorar o efeito da posição.** "Um *pobre* homem" (coitado) × "um homem *pobre*"
+  (sem dinheiro): a anteposição muda o sentido.
+
+## ✍️ Exercícios
+
+**1.** Substitua a locução adjetiva pelo adjetivo correspondente: (a) *amor de mãe*;
+(b) *dor de estômago*; (c) *água da chuva*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *amor de mãe* → amor **materno**. (b) *dor de estômago* → dor **gástrica**. (c)
+*água da chuva* → água **pluvial**. As locuções adjetivas (prep. + substantivo)
+equivalem a adjetivos, muitas vezes eruditos.
+:::
+
+**2.** (Estilo ENEM) Assinale a alternativa em que o grau do adjetivo está **correto**:
+
+a) Ele é mais bom que o irmão;
+b) Este é o mais grande prédio da cidade;
+c) Ela é melhor aluna que o colega;
+d) Aquele é o mais mau exemplo;
+e) Meu carro é mais pequeno que o seu.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Ela é **melhor** aluna que o colega" usa corretamente o
+comparativo irregular de *bom* (*melhor*). As demais empregam formas analíticas onde a
+norma exige as irregulares: *maior* (não "mais grande"), *pior* (não "mais mau"),
+*menor* (não "mais pequeno"). O "mais bom" só caberia comparando duas qualidades do
+mesmo ser.
+:::
+
+**3.** Forme o plural: (a) *camisa verde-clara*; (b) *acordo luso-brasileiro*; (c)
+*terno azul-marinho*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *camisas verde-claras* (só o último elemento varia). (b) *acordos luso-brasileiros*
+(só o último varia). (c) *ternos azul-marinho* (**invariável** — exceção: *azul-marinho*
+não flexiona).
+:::
+
+**4.** Classifique o grau: (a) "tão forte quanto"; (b) "o mais forte de todos"; (c)
+"fortíssimo"; (d) "menos forte que".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) comparativo de **igualdade**. (b) superlativo **relativo** de superioridade
+(destaca dentro de um grupo). (c) superlativo **absoluto sintético** (com sufixo
+*-íssimo*). (d) comparativo de **inferioridade**.
+:::
+
+**5.** Explique a diferença de sentido entre "um grande homem" e "um homem grande".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "um **grande** homem" (adjetivo **antes** do nome), *grande* tem sentido figurado/
+valorativo: homem **notável, importante, admirável**. Em "um homem **grande**"
+(adjetivo **depois**), o sentido é literal/físico: homem de **porte avançado, alto ou
+corpulento**. A anteposição do adjetivo tende a produzir sentido subjetivo/figurado; a
+posposição, sentido objetivo/literal.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa com adjetivo **pátrio** (gentílico) composto
+corretamente flexionado no plural:
+
+a) acordos franco-brasileiro;
+b) relações luso-brasileiras;
+c) tratados sino-japonês;
+d) laços afro-brasileiro;
+e) pactos ítalo-alemão.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Relações **luso-brasileiras**": no adjetivo pátrio composto, só o
+**último** elemento flexiona (aqui, *brasileiras*, feminino plural, concordando com
+*relações*). As demais deixam o último elemento no singular, sem concordar com o
+substantivo.
+:::
+
+**7.** Dê os graus irregulares (comparativo de superioridade e superlativo absoluto):
+(a) *bom*; (b) *pequeno*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *bom* → comparativo de superioridade: **melhor**; superlativo absoluto: **ótimo**.
+(b) *pequeno* → comparativo de superioridade: **menor**; superlativo absoluto:
+**mínimo**. São formas irregulares que substituem "mais + adjetivo".
+:::
+
+**8.** Distinga adjetivo **biforme** de **uniforme** quanto ao gênero, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Biforme**: tem duas formas, uma para cada gênero — *bom/boa*, *esperto/esperta*,
+*europeu/europeia*. **Uniforme**: tem uma só forma para masculino e feminino —
+*feliz* (homem feliz / mulher feliz), *simples*, *comum*, *azul*, *inteligente*. No
+uniforme, o gênero é indicado pelo substantivo/artigo, não pela forma do adjetivo.
+:::
+
+**9.** Reescreva usando superlativo absoluto sintético: (a) "muito fácil"; (b) "muito
+pobre"; (c) "muito amável".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "muito fácil" → **facílimo** (forma erudita) ou *facilíssimo*. (b) "muito pobre" →
+**paupérrimo** (erudita) ou *pobríssimo*. (c) "muito amável" → **amabilíssimo**. O
+superlativo absoluto sintético forma-se com sufixo (*-íssimo*, *-imo*, *-érrimo*),
+substituindo o advérbio *muito*.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'As blusas eram
+verde-limão', o adjetivo composto deveria concordar no plural, escrevendo-se
+'verde-limões'."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Verde-limão* é **invariável**: quando o segundo elemento do adjetivo
+composto de cor é um **substantivo** (aqui, *limão*), o composto **não** flexiona. Diz-se
+"blusas *verde-limão*", assim como "ternos *cinza-chumbo*", "olhos *azul-piscina*". A
+cor derivada de um substantivo permanece invariável.
+:::
+
+## 📚 Referências
+
+A classificação e a flexão do adjetivo, com os graus e as formas irregulares, seguem a
+NGB, detalhada por Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]. Sobre o
+efeito de sentido da posição e da seleção adjetiva na construção do ponto de vista, ver
+Castilho [@castilho2010] e, na perspectiva da leitura, Koch & Elias [@koch2015texto]. Os
+pronomes, próxima classe determinante do nome, vêm nos capítulos 30 e 31.
+
+::: {#refs}
 :::
