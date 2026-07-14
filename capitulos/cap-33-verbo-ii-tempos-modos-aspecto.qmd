@@ -4,22 +4,307 @@ title: "Verbo II: tempos, modos e aspecto"
 
 # Verbo II: tempos, modos e aspecto {#sec-cap-33}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "Um mesmo fato pode ser dado como certo, como hipótese ou como ordem — e o verbo tem
+> forma para cada um."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Se no capítulo anterior vimos a estrutura do verbo, agora entramos no coração de sua
+expressividade: os **modos**, os **tempos** e o **aspecto**. É por meio dessas
+categorias que a língua situa a ação no tempo (presente, passado, futuro), atribui-lhe
+um grau de realidade (fato certo, hipótese, ordem) e informa como ela se desenrola
+(concluída ou em curso). Escolher o tempo e o modo certos é essencial para a norma culta
+e para a construção precisa do sentido — e alguns pontos (o futuro do subjuntivo, o
+imperativo, a correlação de tempos) estão entre os mais cobrados.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo apresenta os três **modos** e seus tempos, com o valor e o emprego de cada
+um, além da noção de **aspecto**. Não decoraremos todas as conjugações (isso é tarefa de
+consulta), mas entenderemos a **lógica** de quando usar cada tempo — que é o que a prova
+realmente cobra.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** os três modos verbais (indicativo, subjuntivo, imperativo);
+- **Reconhecer** os tempos de cada modo e seu valor;
+- **Empregar** corretamente o futuro do subjuntivo e o pretérito imperfeito do
+  subjuntivo;
+- **Formar** o imperativo afirmativo e negativo;
+- **Aplicar** a correlação de tempos entre orações;
+- **Compreender** a noção de aspecto verbal.
+
+## Os três modos
+
+O **modo** indica a atitude do falante diante do fato: se o apresenta como real, como
+possível/desejado ou como ordem. A @fig-modos resume.
+
+::: {#fig-modos}
+
+```{.tikz}
+%%| filename: modos-verbais
+%%| alt: Diagrama com os três modos verbais, cada um numa caixa com sua atitude e um exemplo. Indicativo: fato certo, real — ele estuda. Subjuntivo: hipótese, dúvida, desejo — que ele estude, se ele estudasse. Imperativo: ordem, pedido, conselho — estude!
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, text width=42mm, minimum height=24mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{INDICATIVO}\\{\scriptsize fato real, certo}\\[4pt] ``Ele \emph{estuda}.''\\ ``Ela \emph{viajou}.''};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, right=5mm of a] (b) {\textbf{SUBJUNTIVO}\\{\scriptsize hipótese, dúvida, desejo}\\[4pt] ``Que ele \emph{estude}.''\\ ``Se ela \emph{viajasse}...''};
+  \node[cx, draw=manualred, fill=manualred!8, right=5mm of b] (c) {\textbf{IMPERATIVO}\\{\scriptsize ordem, pedido, conselho}\\[4pt] ``\emph{Estude}!''\\ ``Não \emph{viaje}.''};
+\end{tikzpicture}
+```
+
+Os três modos verbais: o **indicativo** apresenta o fato como real; o **subjuntivo**,
+como hipótese/desejo; o **imperativo**, como ordem ou pedido.
+:::
+
+## Os tempos do indicativo
+
+O **indicativo** exprime fatos apresentados como **certos, reais**. Seus tempos:
+
+- **Presente**: fato atual, habitual ou verdade geral — "Ele *estuda* medicina", "A
+  Terra *gira*".
+- **Pretérito perfeito**: ação **concluída** no passado — "Ela *viajou* ontem".
+- **Pretérito imperfeito**: ação passada **habitual ou em curso**, sem fim definido —
+  "Ele *estudava* todas as noites" (hábito); "Eu *lia* quando ele chegou" (em curso).
+- **Pretérito mais-que-perfeito**: ação passada **anterior a outra** já passada —
+  "Quando cheguei, ele já *saíra*" (= tinha saído). A forma simples (*saíra*) é rara na
+  fala; usa-se a composta (*tinha saído*).
+- **Futuro do presente**: ação **futura** em relação ao momento da fala — "Eu
+  *viajarei* amanhã".
+- **Futuro do pretérito**: ação **futura em relação a um ponto passado**, ou hipótese/
+  condição — "Ele disse que *viajaria*", "Eu *compraria*, se pudesse".
+
+## Os tempos do subjuntivo
+
+O **subjuntivo** exprime fatos **incertos, hipotéticos, desejados, duvidosos**.
+Costuma aparecer em orações subordinadas, introduzido por *que*, *se*, *quando*,
+*embora*, etc. Três tempos:
+
+- **Presente**: desejo, dúvida ou hipótese presente/futura — "Espero que ele *venha*",
+  "Talvez ela *saiba*".
+- **Pretérito imperfeito**: hipótese ou condição no passado/irrealidade — "Se ele
+  *estudasse*, passaria", "Queria que você *viesse*".
+- **Futuro**: hipótese ou condição futura — "Quando ele *vier*, avise", "Se você
+  *quiser*, ajudo", "Faça como *puder*".
+
+::: {.callout-important}
+## Futuro do subjuntivo: a pegadinha nº 1
+O **futuro do subjuntivo** (usado após *se*, *quando*, *enquanto*, *assim que*, *como*,
+com sentido futuro/hipotético) é a fonte de erros clássicos, porque muitos verbos
+irregulares têm forma própria:
+
+- *ver*: "Quando eu **vir**" (não "quando eu *ver*")
+- *vir*: "Se ele **vier**" (não "se ele *vir*")
+- *ter*: "Quando **tiver**"; *pôr*: "Se **puser**"; *fazer*: "Quando **fizer**"
+- *querer*: "Se você **quiser**"; *dizer*: "Quando ele **disser**"
+
+Regra prática: o futuro do subjuntivo deriva do **pretérito perfeito**: tira-se o
+*-ram* da 3ª pessoa do plural (*fize-ram* → *fizer*; *vie-ram* → *vier*; *vi-ram* →
+*vir*).
+:::
+
+## O imperativo
+
+O **imperativo** exprime **ordem, pedido, conselho, súplica**. Tem duas formas:
+
+- **Afirmativo**: "*Estude*!", "*Venham* aqui".
+- **Negativo**: "*Não estude*", "*Não venham*".
+
+A formação do imperativo segue uma lógica precisa:
+
+- as pessoas **tu** e **vós** do afirmativo vêm do **presente do indicativo** sem o
+  *-s* final (*tu estudas* → *estuda tu*; *vós estudais* → *estudai vós*);
+- todas as demais pessoas (e todo o imperativo negativo) vêm do **presente do
+  subjuntivo** (*que você estude* → *estude você*; *não estude*).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O imperativo de *tu* e a mistura na fala
+Na fala brasileira, mistura-se com frequência "*Faz* isso" (forma de *tu*, do
+indicativo) com "*você*" — "Você, *faz* isso". A norma-padrão pede coerência: com *tu*,
+"*faze/faz* tu"; com *você*, "*faça* você". Provas cobram a forma do subjuntivo para as
+pessoas de tratamento (*você*): "**Traga**, **faça**, **diga**, **seja**" (não "traz,
+faz, diz, é" com "você" em registro formal).
+:::
+
+## Correlação de tempos
+
+A escolha do tempo numa oração depende, muitas vezes, do tempo da outra — é a
+**correlação de tempos**. Padrões frequentes:
+
+- **Condicional**: *se* + imperfeito do subjuntivo → futuro do pretérito — "Se eu
+  *pudesse* (subj.), *iria* (fut. pret.)".
+- **Condicional real**: *se* + futuro do subjuntivo → futuro do presente/presente —
+  "Se eu *puder* (fut. subj.), *irei* (fut. pres.)".
+- **Desejo no passado**: verbo principal no passado → subjuntivo no imperfeito —
+  "Queria que você *viesse*" (não "venha").
+
+## Aspecto verbal
+
+Além de tempo e modo, o verbo exprime **aspecto**: a maneira como a ação se **desenrola**
+no tempo, independentemente de quando ocorre. As principais oposições:
+
+- **Perfectivo** (ação **concluída**, vista como um todo): "Ele *leu* o livro" (terminou).
+- **Imperfectivo** (ação **em curso** ou **habitual**, sem foco no fim): "Ele *lia* o
+  livro" (estava lendo / costumava ler).
+- **Durativo** (ação que dura): "Está *chovendo*".
+- **Iterativo** (ação repetida): "*Batia* à porta insistentemente".
+
+O aspecto é marcado ora pela flexão (o perfeito é perfectivo; o imperfeito, imperfectivo),
+ora por perífrases (*estar + gerúndio* = durativo; *acabar de* = concluído recente).
+
+## 📋 Quadro-resumo
+
+| Modo | Valor | Tempos principais |
+|---|---|---|
+| **Indicativo** | Fato real/certo | presente, pret. perfeito, imperfeito, mais-que-perfeito, futuro do presente, futuro do pretérito |
+| **Subjuntivo** | Hipótese/desejo/dúvida | presente, pret. imperfeito, futuro |
+| **Imperativo** | Ordem/pedido | afirmativo, negativo |
+
+**Aspecto**: perfectivo (concluído: *leu*) × imperfectivo (em curso/habitual: *lia*).
+
+Em uma linha: o **indicativo** dá o fato como certo; o **subjuntivo**, como hipótese/
+desejo (cuidado com o futuro do subjuntivo: *quando eu **vir***); o **imperativo**, como
+ordem (afirmativo de *tu/vós* pelo indicativo, o resto pelo subjuntivo); e o **aspecto**
+diz se a ação está concluída ou em curso.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Errar o futuro do subjuntivo.** "Quando eu **vir**" (ver), "Se ele **vier**" (vir),
+  "Quando **tiver**", "Se **puser**". Deriva do pretérito perfeito (tira-se *-ram*).
+- **Usar presente do subjuntivo por imperfeito.** Com verbo principal no passado:
+  "Queria que você **viesse**" (não "venha").
+- **Misturar imperativo de *tu* e *você*.** Registro formal com *você*: "**Faça**,
+  **traga**, **diga**" (do subjuntivo), não "faz, traz, diz".
+- **Confundir futuro do presente e do pretérito.** "*Viajarei*" (futuro certo) × "disse
+  que *viajaria*" (futuro visto do passado / hipótese).
+- **Ignorar o aspecto ao interpretar.** *Leu* (concluído) × *lia* (em curso/habitual):
+  a diferença é aspectual, não só temporal, e muda o sentido.
+
+## ✍️ Exercícios
+
+**1.** Identifique o modo e o tempo: (a) "Espero que ele *chegue*"; (b) "Ele *chegou*
+ontem"; (c) "*Chegue* logo!".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *chegue* → **subjuntivo, presente** (desejo/hipótese, após "espero que"). (b)
+*chegou* → **indicativo, pretérito perfeito** (fato concluído no passado). (c) *chegue*
+→ **imperativo** afirmativo (ordem/pedido). Note que a forma "chegue" coincide entre
+subjuntivo presente e imperativo, distinguindo-se pelo contexto.
+:::
+
+**2.** (Estilo ENEM) Assinale a frase **correta** quanto ao futuro do subjuntivo:
+
+a) Quando eu ver você, aviso;
+b) Se ele vir amanhã, falo com ele;
+c) Quando você pôr a mesa, chame-me;
+d) Assim que eu tiver tempo, resolvo;
+e) Se você fazer isso, avise.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** "Assim que eu **tiver** tempo" usa corretamente o futuro do
+subjuntivo de *ter*. As demais erram: "quando eu **vir**" (ver, não "ver"); "se ele
+**vier**" (vir, não "vir"); "quando você **puser**" (pôr, não "pôr"); "se você
+**fizer**" (fazer, não "fazer").
+:::
+
+**3.** Forme o imperativo afirmativo (tu e você) de *fazer* e *dizer*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Fazer*: **faze (ou faz) tu** (do indicativo *fazes* sem o *-s*); **faça você** (do
+subjuntivo). *Dizer*: **dize (ou diz) tu**; **diga você**. As pessoas *tu/vós* vêm do
+presente do indicativo sem *-s*; as demais, do presente do subjuntivo.
+:::
+
+**4.** Complete com o tempo verbal adequado: "Se eu ___ (ter) dinheiro, ___ (viajar)
+pelo mundo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Se eu **tivesse** (pretérito imperfeito do subjuntivo) dinheiro, **viajaria** (futuro
+do pretérito) pelo mundo." É a correlação típica da condicional hipotética/irreal: *se*
++ imperfeito do subjuntivo na condição, futuro do pretérito na consequência.
+:::
+
+**5.** Distinga o valor aspectual de "Ele *leu* o livro" e "Ele *lia* o livro".
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ele **leu**" (pretérito perfeito) tem aspecto **perfectivo**: a ação é apresentada como
+**concluída**, vista como um todo acabado. "Ele **lia**" (pretérito imperfeito) tem
+aspecto **imperfectivo**: a ação é apresentada como **em curso** ou **habitual** no
+passado, sem foco em seu término ("estava lendo" ou "costumava ler"). A diferença é de
+aspecto, não de época.
+:::
+
+**6.** (Estilo FCC) Em "Disse que *faria* o trabalho", a forma verbal *faria* está no:
+
+a) futuro do presente do indicativo;
+b) futuro do pretérito do indicativo;
+c) presente do subjuntivo;
+d) pretérito imperfeito do subjuntivo;
+e) condicional composto.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Faria* está no **futuro do pretérito do indicativo**: exprime uma
+ação futura em relação a um momento **passado** ("disse" — passado; "faria" — o que era
+futuro naquele momento). É o tempo típico do discurso indireto e das hipóteses.
+:::
+
+**7.** Reescreva na norma-padrão: "Quando você ver ele, fala pra ele que eu vim aqui."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Quando você **vir**(-ir) ele... " — na norma: "Quando você **o vir**, **diga**-lhe que
+eu **estive** aqui" (ou "que vim aqui"). Correções: "ver" → **vir** (futuro do
+subjuntivo de *ver*: "quando eu vir"); "fala" → **diga/fale** (imperativo com *você*, do
+subjuntivo); e ajuste dos pronomes ("o vir", "diga-lhe"). O ponto central da questão é o
+futuro do subjuntivo *vir* (de ver).
+:::
+
+**8.** Explique quando se usa o **pretérito imperfeito** do indicativo, com dois valores
+diferentes.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O pretérito imperfeito do indicativo exprime ação passada **não concluída**, com dois
+valores principais: (1) **habitual/repetido** — "Ele **estudava** todas as noites"
+(costume no passado); (2) **em curso** (ação que se desenrolava quando outra ocorreu) —
+"Eu **lia** quando o telefone tocou". Em ambos, a ação não é vista como pontual/acabada
+(aspecto imperfectivo), diferente do pretérito perfeito.
+:::
+
+**9.** Forme o imperativo **negativo** (você e vocês) de *ir* e comente a formação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Ir*: "**Não vá** (você)", "**Não vão** (vocês)". O imperativo negativo forma-se
+**inteiramente** a partir do presente do **subjuntivo** (que você *vá*, que vocês
+*vão*), com o advérbio *não* antes. Isso vale para todas as pessoas do imperativo
+negativo, sem exceção.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Talvez ele venha amanhã', o
+verbo está no presente do indicativo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Venha* está no **presente do subjuntivo**, não do indicativo. O advérbio
+*talvez* exprime dúvida/possibilidade e exige o subjuntivo. O presente do indicativo
+seria *vem* ("Ele vem amanhã", fato dado como certo). Comparar: "Ele **vem**"
+(indicativo, certeza) × "Talvez ele **venha**" (subjuntivo, dúvida).
+:::
+
+## 📚 Referências
+
+O sistema de modos, tempos e o aspecto verbal são tratados por Bechara [@bechara2009] e
+Cunha & Cintra [@cunhacintra2017] no plano normativo, e com atenção ao aspecto por
+Castilho [@castilho2010] e Ilari & Basso [@ilaribasso2006], que discutem como o
+português brasileiro exprime a temporalidade. As vozes verbais e os verbos irregulares e
+defectivos completam o estudo do verbo no @sec-cap-34.
+
+::: {#refs}
 :::
