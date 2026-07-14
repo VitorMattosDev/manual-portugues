@@ -4,22 +4,293 @@ title: "Classificação dos fonemas: vogais, semivogais e consoantes"
 
 # Classificação dos fonemas: vogais, semivogais e consoantes {#sec-cap-08}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 2 — Fonética e Fonologia.
+> "Vogal é a alma da sílaba; sem ela, não há sílaba que se sustente."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+No capítulo anterior definimos o fonema. Agora vamos **classificá-lo**. Todos os
+fonemas do português dividem-se, quanto à sua natureza, em três grandes grupos:
+**vogais**, **semivogais** e **consoantes**. A distinção parece óbvia — "vogais são
+a, e, i, o, u", aprende-se na escola —, mas cuidado: estamos falando de **sons**, não
+de letras, e o critério não é a letra, e sim o modo como o ar sai da boca e o papel
+que o som desempenha na sílaba.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Dominar essa classificação é indispensável para os capítulos seguintes: sem saber o
+que é vogal e o que é semivogal, não se distingue ditongo de hiato (@sec-cap-09), nem
+se faz a divisão silábica (@sec-cap-10). É um daqueles conteúdos-base que, mal
+assentados, comprometem tudo o que vem depois.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** vogal, semivogal e consoante pelo critério articulatório e pelo papel
+  silábico;
+- **Distinguir** vogal de semivogal, mesmo quando grafadas com a mesma letra;
+- **Classificar** as vogais quanto à zona de articulação, à altura, ao arredondamento
+  e à nasalidade;
+- **Reconhecer** que *i* e *u* podem funcionar ora como vogal, ora como semivogal;
+- **Identificar** o número de vogais orais e nasais do português;
+- **Aplicar** a classificação à análise de palavras concretas.
+
+## O critério: como o ar sai
+
+A diferença fundamental entre os três grupos está no **caminho do ar** ao sair dos
+pulmões pela boca:
+
+- Na **vogal**, o ar sai **livremente**, sem obstáculo na boca. A vogal é, além
+disso, o som mais audível da sílaba: é ela que forma o **núcleo** silábico. Não há
+sílaba sem vogal.
+- Na **consoante**, o ar encontra algum **obstáculo** (os lábios se fecham, a língua
+toca os dentes ou o céu da boca). *Consoante* significa, etimologicamente, "que soa
+**com**" — ela precisa apoiar-se numa vogal para formar sílaba.
+- A **semivogal** é um som vocálico (o ar sai quase livre), mas que **não** é o
+núcleo da sílaba: ela se apoia numa vogal vizinha, com quem forma um ditongo. São
+apenas dois os sons semivocálicos: /j/ (som de *i*) e /w/ (som de *u*).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Semivogal: nem vogal plena, nem consoante
+A semivogal é o "sócio menor" da sílaba. Em *pai*, o *a* é a vogal (núcleo, som mais
+forte) e o *i* é a semivogal (/j/), que se apoia no *a*. Em *pau*, o *u* é semivogal
+(/w/). O teste prático: se o *i* ou o *u*, ao lado de outra vogal, é pronunciado
+**junto**, numa só emissão de voz, e mais fraco — é semivogal. Se forma sílaba
+própria, é vogal (compare *pai*, uma sílaba, com *pa-ís*, duas).
+:::
+
+## As vogais do português
+
+O português tem **sete vogais orais** tônicas, que se distinguem por três critérios
+articulatórios, além da nasalidade. A @fig-vogais-orais as organiza — é um prenúncio
+simplificado do trapézio vocálico, que estudaremos no @sec-cap-13.
+
+::: {#fig-vogais-orais}
+
+```{.tikz}
+%%| filename: vogais-orais
+%%| alt: Quadro das sete vogais orais do português tônicas, organizadas por zona de articulação (anteriores, central, posteriores) na horizontal e por altura (alta, média fechada, média aberta, baixa) na vertical. Anteriores i, e, é; central a; posteriores u, ô, ó.
+
+\begin{tikzpicture}[font=\small]
+  % eixos
+  \node[align=center, font=\footnotesize\bfseries] at (3,3.1) {anteriores \quad central \quad posteriores};
+  \node[rotate=90, font=\footnotesize\bfseries] at (-1.3,1.2) {altura};
+
+  \node[align=left, font=\scriptsize] at (-0.4,2.4) {alta};
+  \node[align=left, font=\scriptsize] at (-0.4,1.6) {média fech.};
+  \node[align=left, font=\scriptsize] at (-0.4,0.8) {média abe.};
+  \node[align=left, font=\scriptsize] at (-0.4,0.0) {baixa};
+
+  \node[ponto, fill=manualblue, label={[text=manualblue]above:/i/}] at (1.2,2.4) {};
+  \node[ponto, fill=manualblue, label={[text=manualblue]above:/e/}] at (1.6,1.6) {};
+  \node[ponto, fill=manualblue, label={[text=manualblue]above:/ɛ/}] at (2.0,0.8) {};
+  \node[ponto, fill=manualgreen, label={[text=manualgreen]below:/a/}] at (3.0,0.0) {};
+  \node[ponto, fill=manualred, label={[text=manualred]above:/u/}] at (4.8,2.4) {};
+  \node[ponto, fill=manualred, label={[text=manualred]above:/o/}] at (4.4,1.6) {};
+  \node[ponto, fill=manualred, label={[text=manualred]above:/ɔ/}] at (4.0,0.8) {};
+\end{tikzpicture}
+```
+
+As sete vogais orais tônicas do português, dispostas por zona de articulação
+(horizontal) e altura da língua (vertical): /i, e, ɛ, a, ɔ, o, u/.
+:::
+
+Os critérios de classificação das vogais são quatro:
+
+- **Zona de articulação** (onde a língua se posiciona): **anteriores** (ou palatais:
+  /i, e, ɛ/), **central** (/a/), **posteriores** (ou velares: /ɔ, o, u/).
+- **Altura** (grau de abertura da boca): **alta** (/i, u/), **média** (fechada /e, o/;
+  aberta /ɛ, ɔ/) e **baixa** (/a/).
+- **Arredondamento dos lábios**: **arredondadas** (/ɔ, o, u/) × **não
+  arredondadas** (/i, e, ɛ, a/).
+- **Nasalidade**: **orais** (o ar sai só pela boca) × **nasais** (parte do ar sai
+  pelo nariz: /ɐ̃, ẽ, ĩ, õ, ũ/, como em *campo*, *tempo*, *lindo*, *bomba*, *mundo*).
+
+Repare no par *avô* (/o/, média fechada) e *avó* (/ɔ/, média aberta): a mesma letra
+*o*, mas fonemas diferentes que distinguem palavras — mais uma prova de que letra e
+fonema não se confundem.
+
+## As semivogais e a dupla função de *i* e *u*
+
+Só existem duas semivogais: /j/ (grafada geralmente *i*, às vezes *e*: *mãe*) e /w/
+(grafada *u*, às vezes *o*: *mau*, *vou*). O detalhe crucial é que as letras *i* e *u*
+podem representar **ora vogal, ora semivogal**, dependendo de serem ou não o núcleo
+da sílaba:
+
+::: {.exemplo}
+- *pai* → o *i* é **semivogal** (/j/): apoia-se no *a*, forma ditongo, uma sílaba.
+- *pa-ís* → o *i* é **vogal**: é núcleo de sílaba própria, forma hiato, duas sílabas.
+- *mau* → o *u* é **semivogal** (/w/): ditongo, uma sílaba.
+- *sa-ú-de* → o *u* é **vogal**: núcleo próprio, hiato, três sílabas.
+:::
+
+Portanto, não se pode dizer "o *i* é sempre vogal": depende do papel que ele exerce
+na sílaba. Esse é o ponto que sustenta toda a distinção ditongo/hiato do próximo
+capítulo.
+
+## As consoantes
+
+As consoantes são os fonemas produzidos com **obstáculo** à passagem do ar. O
+português tem cerca de 19 fonemas consonantais (/p, b, t, d, k, g, f, v, s, z, ʃ, ʒ,
+m, n, ɲ, l, ʎ, ʀ, ɾ/). Elas se classificam por critérios que veremos com detalhe no
+@sec-cap-13 (ponto de articulação, modo de articulação, vozeamento). Por ora, retenha
+o essencial: **a consoante nunca forma sílaba sozinha** — precisa de uma vogal. Não
+existe, em português, sílaba como "pt" ou "brs": sempre há uma vogal no núcleo.
+
+Um par de oposições consonantais úteis desde já:
+
+- **Surdas × sonoras**: as sonoras vibram as cordas vocais; as surdas, não. Pares:
+  /p/ (surda) × /b/ (sonora), /t/ × /d/, /k/ × /g/, /f/ × /v/, /s/ × /z/, /ʃ/ × /ʒ/.
+  Ponha a mão na garganta e diga "fffff" e depois "vvvvv": sente a vibração só no /v/.
+- **Orais × nasais**: nas nasais (/m, n, ɲ/), o ar sai também pelo nariz.
+
+## 📋 Quadro-resumo
+
+| Grupo | Passagem do ar | Papel na sílaba | Quais são |
+|---|---|---|---|
+| **Vogal** | Livre | Núcleo (obrigatório) | /i, e, ɛ, a, ɔ, o, u/ + nasais |
+| **Semivogal** | Quase livre | Apoia-se na vogal (ditongo) | /j/ e /w/ (sons de *i* e *u*) |
+| **Consoante** | Com obstáculo | Depende de uma vogal | /p, b, t, d, k, g...| |
+
+Critérios das vogais: **zona** (anterior/central/posterior) · **altura**
+(alta/média/baixa) · **arredondamento** · **nasalidade**.
+
+Em uma linha: **vogal** é o som livre que forma o núcleo da sílaba; **semivogal** (/j/,
+/w/) é o som vocálico que se apoia na vogal; **consoante** é o som com obstáculo, que
+não forma sílaba sozinho — e *i*/*u* podem ser vogal ou semivogal conforme a posição.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Classificar pela letra, não pelo som.** *i* e *u* são vogais em *país* e *saúde*,
+  mas semivogais em *pai* e *mau*. O que decide é o papel na sílaba, não a letra.
+- **Esquecer que só há duas semivogais.** São apenas /j/ e /w/. Nenhuma consoante é
+  semivogal.
+- **Achar que toda sílaba precisa de consoante.** O obrigatório é a **vogal** (núcleo);
+  a consoante é dispensável (*á-gua*, *i-lha*). Sem vogal, não há sílaba.
+- **Confundir vogal aberta e fechada como se fossem a mesma.** *avô* (/o/) e *avó*
+  (/ɔ/) têm fonemas vocálicos distintos; a abertura muda a palavra.
+- **Ignorar as vogais nasais.** Além das sete orais, há cinco nasais (/ɐ̃, ẽ, ĩ, õ,
+  ũ/): *campo*, *tempo*, *lindo*, *bomba*, *mundo*.
+
+## ✍️ Exercícios
+
+**1.** Explique o critério que distingue **vogal**, **semivogal** e **consoante**.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O critério é articulatório e silábico. Na **vogal**, o ar sai livremente e ela forma o
+**núcleo** da sílaba (som mais audível). Na **consoante**, o ar encontra **obstáculo**
+e ela não forma sílaba sozinha (apoia-se numa vogal). A **semivogal** é um som
+vocálico (ar quase livre), mas que **não** é núcleo: apoia-se numa vogal, formando
+ditongo. Só há duas semivogais: /j/ e /w/.
+:::
+
+**2.** (Estilo ENEM) Em qual palavra a letra *i* representa uma **semivogal**?
+
+a) saída;
+b) baile;
+c) polícia (o *i* de *-cia*);
+d) juízo;
+e) egoísta.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Em *baile*, o *i* apoia-se no *a* formando o ditongo *ai*
+(bai-le) — é semivogal (/j/). Em *saída*, *juízo* e *egoísta*, o *i* forma hiato (sílaba
+própria: sa-í-da, ju-í-zo, e-go-ís-ta) — é vogal. Em *polícia*, o *i* de *-cia* é átono,
+mas ainda núcleo vocálico.
+:::
+
+**3.** Classifique as vogais /i/, /a/ e /u/ quanto à zona de articulação e à altura.
+
+::: {.callout-tip collapse="true"}
+## Solução
+/i/: anterior (palatal) e alta. /a/: central e baixa. /u/: posterior (velar) e alta.
+Além disso, /u/ é arredondada; /i/ e /a/ são não arredondadas.
+:::
+
+**4.** Dê um par de palavras em que a mesma letra (*i* ou *u*) funcione como vogal em
+uma e como semivogal na outra, justificando.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplo com *u*: *mau* × *saúde*. Em *mau*, o *u* é **semivogal** (/w/), forma ditongo
+com o *a* numa só sílaba. Em *sa-ú-de*, o *u* é **vogal**, núcleo de sílaba própria
+(hiato). Exemplo com *i*: *pai* (semivogal) × *pa-ís* (vogal). O papel na sílaba —
+núcleo ou apoio — define a classificação.
+:::
+
+**5.** Por que se diz que "não há sílaba sem vogal", mas pode haver sílaba sem
+consoante? Dê exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a vogal é o **núcleo** obrigatório da sílaba — o som mais audível, em torno do
+qual a sílaba se organiza. A consoante é opcional: existe apenas para se apoiar na
+vogal. Exemplos de sílabas sem consoante: *á* (em *á-gua*), *i* (em *i-lha*), *ou*
+(em *ou-ro*). Não existe, porém, sílaba formada só por consoantes.
+:::
+
+**6.** Quantas e quais são as vogais **nasais** do português? Dê um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+São **cinco**: /ɐ̃/ (*campo*, *lã*), /ẽ/ (*tempo*, *pente*), /ĩ/ (*lindo*, *sim*), /õ/
+(*bomba*, *bom*), /ũ/ (*mundo*, *um*). A nasalidade ocorre quando parte do ar sai pelo
+nariz, geralmente marcada por *m*/*n* na mesma sílaba ou pelo til.
+:::
+
+**7.** (Estilo FCC) Assinale a alternativa em que as duas vogais formam um par que se
+distingue apenas pela **altura/abertura**:
+
+a) /i/ e /u/;
+b) /e/ e /ɛ/;
+c) /a/ e /i/;
+d) /o/ e /a/;
+e) /i/ e /ɔ/.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** /e/ (média fechada) e /ɛ/ (média aberta) são ambas anteriores e
+não arredondadas, distinguindo-se pela **abertura/altura** — como em *sede* (móvel,
+/e/) e *sede* (de água, /ɛ/), ou *avô*/*avó* no caso do /o/–/ɔ/. Os demais pares
+diferem em zona ou arredondamento, não apenas em altura.
+:::
+
+**8.** Diga se cada fonema é surdo ou sonoro e indique seu par: (a) /p/; (b) /v/;
+(c) /k/.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) /p/ é **surda**; seu par sonoro é /b/. (b) /v/ é **sonora**; seu par surdo é /f/.
+(c) /k/ é **surda**; seu par sonoro é /g/. As sonoras vibram as cordas vocais; as
+surdas, não.
+:::
+
+**9.** Analise a palavra *quais* quanto a vogais e semivogais.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Quais* é monossílabo. Fonemas: /k/ /w/ /a/ /j/ /s/. O *qu* vale /k/ (consoante); o
+*u*, aqui, é **semivogal** /w/ (parte do encontro); o *a* é a **vogal** (núcleo); o
+*i* é **semivogal** /j/. Trata-se de um ditongo triplo (tritongo) *uai*: semivogal +
+vogal + semivogal numa só sílaba, mais a consoante final /s/.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Toda letra *i* representa
+necessariamente uma vogal, e toda letra *u*, também."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** As letras *i* e *u* podem representar **vogal** (quando são núcleo de
+sílaba: *pa-ís*, *sa-ú-de*) ou **semivogal** (quando se apoiam noutra vogal formando
+ditongo: *pai*, *mau*). A classificação depende do papel na sílaba, não da letra em
+si.
+:::
+
+## 📚 Referências
+
+A classificação dos fonemas do português em vogais, semivogais e consoantes segue a
+descrição estrutural de Câmara Jr. [@camarajr1970], base de todas as gramáticas
+posteriores. Para exposições acessíveis do sistema vocálico e consonantal, ver
+Castilho [@castilho2010] e Cunha & Cintra [@cunhacintra2017]. O detalhamento
+articulatório e o trapézio vocálico virão no @sec-cap-13.
+
+::: {#refs}
 :::
