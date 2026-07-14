@@ -1,0 +1,1240 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Manual de Língua Portuguesa",
+    "section": "",
+    "text": "Apresentação\nBem-vindo ao Manual de Língua Portuguesa, volume da série Manuais de Ciências. Este é um curso completo de português brasileiro que percorre, com rigor e clareza, todo o percurso da língua — do fonema ao texto, da ortografia à estilística, da norma-padrão à variação real dos falantes.\nNossa aposta pedagógica é simples de enunciar e exigente de cumprir: ensinar a norma culta com precisão, sem transformá-la em dogma. A gramática normativa é apresentada como aquilo que de fato é — um registro socialmente prestigiado, cujo domínio abre portas —, mas sempre em diálogo com a linguística descritiva e com a maneira como os brasileiros efetivamente falam e escrevem. Não há aqui nem prescritivismo ingênuo (“só existe um jeito certo”) nem relativismo vazio (“tanto faz”): há descrição honesta e orientação útil.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Língua Portuguesa</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#para-quem-é-este-manual",
+    "href": "index.html#para-quem-é-este-manual",
+    "title": "Manual de Língua Portuguesa",
+    "section": "0.1 Para quem é este manual",
+    "text": "0.1 Para quem é este manual\n\nEstudantes do ensino médio e vestibulandos que precisam dominar o conteúdo cobrado em ENEM, FUVEST e demais exames.\nConcurseiros, para quem gramática e interpretação de texto são, com frequência, a diferença entre passar e não passar.\nRedatores, revisores e profissionais da escrita que querem uma referência confiável e atualizada pelo Acordo Ortográfico de 1990.\nQualquer leitor curioso sobre como a língua portuguesa funciona.\n\nNão há pré-requisitos além da alfabetização plena.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Língua Portuguesa</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#como-o-manual-está-organizado",
+    "href": "index.html#como-o-manual-está-organizado",
+    "title": "Manual de Língua Portuguesa",
+    "section": "0.2 Como o manual está organizado",
+    "text": "0.2 Como o manual está organizado\nSão 98 capítulos distribuídos em 15 volumes, agrupados em 3 fases:\n\nFase 1 — Fundamentos da Língua (Volumes 1–5): introdução aos estudos da linguagem, fonética e fonologia, ortografia e acentuação, morfologia.\nFase 2 — Sintaxe e Sentido (Volumes 6–10): sintaxe da oração e do período, concordância, regência, crase, colocação, pontuação, semântica e léxico.\nFase 3 — Texto, Variação e Usos (Volumes 11–15): linguística textual, redação, interpretação, variação linguística e história da língua.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Língua Portuguesa</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#como-usar",
+    "href": "index.html#como-usar",
+    "title": "Manual de Língua Portuguesa",
+    "section": "0.3 Como usar",
+    "text": "0.3 Como usar\nCada capítulo segue a mesma anatomia, pensada para o estudo autônomo: objetivos de aprendizagem, desenvolvimento com exemplos autênticos do português brasileiro, esquemas visuais, quadro-resumo, seção de pegadinhas e erros comuns com foco em prova, e uma bateria de exercícios com solução comentada (clique para expandir).\nVocê pode ler linearmente — a ordem dos volumes é cumulativa — ou saltar para o tópico de que precisa. O grafo abaixo mostra as dependências recomendadas entre os volumes: uma seta A → B significa “convém dominar A antes de B”.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Língua Portuguesa</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#mapa-de-pré-requisitos-dos-volumes",
+    "href": "index.html#mapa-de-pré-requisitos-dos-volumes",
+    "title": "Manual de Língua Portuguesa",
+    "section": "0.4 Mapa de pré-requisitos dos volumes",
+    "text": "0.4 Mapa de pré-requisitos dos volumes\n\n\n\n\n\n\nflowchart TD\n    V1[\"V1 · Introdução aos&lt;br/&gt;Estudos da Linguagem\"]\n    V2[\"V2 · Fonética e&lt;br/&gt;Fonologia\"]\n    V3[\"V3 · Ortografia e&lt;br/&gt;Acentuação\"]\n    V4[\"V4 · Morfologia I&lt;br/&gt;Formação de Palavras\"]\n    V5[\"V5 · Morfologia II&lt;br/&gt;Classes de Palavras\"]\n    V6[\"V6 · Sintaxe I&lt;br/&gt;Termos da Oração\"]\n    V7[\"V7 · Sintaxe II&lt;br/&gt;Período Composto\"]\n    V8[\"V8 · Sintaxe III&lt;br/&gt;Concordância e Regência\"]\n    V9[\"V9 · Pontuação e&lt;br/&gt;Convenções\"]\n    V10[\"V10 · Semântica e&lt;br/&gt;Léxico\"]\n    V11[\"V11 · Linguística&lt;br/&gt;Textual\"]\n    V12[\"V12 · Redação e&lt;br/&gt;Escrita\"]\n    V13[\"V13 · Interpretação&lt;br/&gt;de Textos\"]\n    V14[\"V14 · Variação e&lt;br/&gt;Sociolinguística\"]\n    V15[\"V15 · História da&lt;br/&gt;Língua e Estilística\"]\n\n    V1 --&gt; V2\n    V1 --&gt; V3\n    V1 --&gt; V4\n    V2 --&gt; V3\n    V4 --&gt; V5\n    V5 --&gt; V6\n    V6 --&gt; V7\n    V7 --&gt; V8\n    V7 --&gt; V9\n    V5 --&gt; V10\n    V8 --&gt; V11\n    V9 --&gt; V11\n    V10 --&gt; V11\n    V11 --&gt; V12\n    V11 --&gt; V13\n    V1 --&gt; V14\n    V14 --&gt; V15\n    V1 --&gt; V15\n\n    classDef fase1 fill:#1f4e79,stroke:#123,color:#fff;\n    classDef fase2 fill:#2e7d32,stroke:#123,color:#fff;\n    classDef fase3 fill:#c0392b,stroke:#123,color:#fff;\n    class V1,V2,V3,V4,V5 fase1;\n    class V6,V7,V8,V9,V10 fase2;\n    class V11,V12,V13,V14,V15 fase3;\n\n\n\n\nFigura 1: Dependências recomendadas entre os 15 volumes do manual.\n\n\n\n\n\nBom estudo!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Manual de Língua Portuguesa</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html",
+    "title": "2  Linguagem, língua e fala",
+    "section": "",
+    "text": "3 Linguagem, língua e fala\nQuando dizemos que alguém “sabe português”, o que exatamente essa pessoa sabe? Ela decorou uma gramática? Memorizou um dicionário inteiro? Nada disso. Ela domina, na maior parte das vezes sem jamais ter estudado formalmente, um sistema de enorme complexidade: sabe combinar sons em palavras, palavras em frases, frases em textos; sabe quando dizer tu e quando dizer você; percebe que “gato bebeu o leite” e “o leite bebeu o gato” significam coisas diferentes — e que a segunda, embora estranha, é uma frase possível do português, ao contrário de “bebeu leite o gato o”. Esse conhecimento, silencioso e poderoso, é o ponto de partida de tudo o que estudaremos neste manual.\nPara investigá-lo com método, a linguística do século XX fez uma distinção fundamental — talvez a mais importante de toda a disciplina — entre três noções que o senso comum costuma embaralhar: linguagem, língua e fala. Compreendê-las com precisão é a chave que abre todas as portas seguintes: só depois de separar o sistema (a língua) do seu uso concreto (a fala) é que se torna possível descrever a gramática, entender a variação e discutir a norma sem confusão. É o que faremos neste primeiro capítulo.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#objetivos-de-aprendizagem",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.1 🎯 Objetivos de aprendizagem",
+    "text": "3.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nDistinguir linguagem, língua e fala, reconhecendo o alcance de cada conceito;\nIdentificar manifestações de linguagem verbal e não verbal no cotidiano;\nExplicar a dicotomia saussuriana entre langue e parole e sua importância para os estudos linguísticos;\nCaracterizar a língua como sistema social e a fala como realização individual;\nRelacionar essa distinção à existência natural da variação linguística;\nAplicar os conceitos na análise de situações concretas de comunicação.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#o-que-é-linguagem",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#o-que-é-linguagem",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.2 O que é linguagem?",
+    "text": "3.2 O que é linguagem?\nEm sentido amplo, linguagem é toda e qualquer capacidade de produzir sentido por meio de signos — isto é, de elementos que representam alguma coisa para alguém. Sempre que um elemento perceptível (um som, um gesto, uma cor, uma imagem) “está no lugar de” outra coisa e é assim interpretado, há linguagem.\nNote como a linguagem não se restringe às palavras. Distinguimos duas grandes modalidades:\n\nLinguagem verbal: aquela que utiliza a palavra, falada ou escrita, como signo. É a linguagem das conversas, dos livros, das leis, das mensagens de celular.\nLinguagem não verbal: aquela que se vale de outros signos que não a palavra — imagens, gestos, cores, sons não linguísticos, expressões faciais. O sinal vermelho do semáforo, o aceno de mão, a placa de “proibido fumar”, o logotipo de uma marca, a dança, a pintura: tudo isso é linguagem.\n\nMuitas vezes as duas modalidades se combinam. Uma tirinha de quadrinhos articula palavra (verbal) e desenho (não verbal); um comercial de televisão soma fala, texto na tela, música e imagem. A esses textos que mobilizam mais de uma linguagem simultaneamente chamamos multimodais — e voltaremos a eles no Volume 13.\n\n\n\n\n\n\nNotaLinguagem verbal e a faculdade humana\n\n\n\nQuando os linguistas dizem que a linguagem (verbal) é uma faculdade propriamente humana, referem-se à nossa capacidade biológica e cognitiva, universal na espécie, de adquirir e usar línguas. Nenhuma criança precisa de aulas para aprender a falar: basta estar exposta a uma comunidade linguística. Essa faculdade, comum a toda a humanidade, é o solo de que brotam as milhares de línguas particulares do mundo.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#língua-o-sistema-social",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#língua-o-sistema-social",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.3 Língua: o sistema social",
+    "text": "3.3 Língua: o sistema social\nEntre as manifestações da linguagem verbal, uma nos interessa de perto: a língua. Uma língua — o português, o guarani, o japonês — é um sistema de signos convencionais, partilhado por uma comunidade, que permite a seus membros se comunicarem.\nTrês palavras dessa definição merecem destaque:\n\nSistema: a língua não é um amontoado de palavras, mas um conjunto organizado, em que os elementos se definem por suas relações. O valor de uma palavra depende das outras: cadeira significa o que significa em parte porque se opõe a poltrona, banco, sofá.\nConvencional: a ligação entre um signo e aquilo que ele representa é arbitrária, fruto de um acordo tácito da comunidade. Não há nada na natureza do animal que obrigue a chamá-lo de cachorro; o inglês diz dog, o francês chien. O signo linguístico é, como ensinou Saussure, arbitrário.\nSocial: a língua existe na coletividade. Ninguém a inventa sozinho nem pode alterá-la à vontade. Ela preexiste ao falante, que a recebe pronta ao nascer, e sobrevive a ele. É, nesse sentido, um patrimônio da comunidade.\n\nJustamente por ser social e sistemática, a língua pode ser descrita: tem regularidades, padrões, uma organização interna que a gramática procura explicitar.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#fala-a-realização-individual",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#fala-a-realização-individual",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.4 Fala: a realização individual",
+    "text": "3.4 Fala: a realização individual\nSe a língua é o sistema abstrato que todos partilham, a fala é o seu uso concreto por cada indivíduo, em cada situação. É o ato pelo qual o falante coloca o sistema em funcionamento para dizer algo, aqui e agora.\nA fala é sempre individual (é este falante que fala), concreta (realiza-se em sons ou letras materiais) e momentânea (acontece em um tempo e um lugar determinados). Cada vez que você abre a boca — ou digita uma mensagem —, você produz um ato de fala único e irrepetível, embora recorra a um sistema comum.\nObserve a relação de mão dupla: a fala depende da língua (não se pode falar sem um sistema), mas a língua também depende da fala, pois é no uso que ela vive, se mantém e, ao longo do tempo, se transforma. Foi falando “de outro jeito”, geração após geração, que os falantes do latim acabaram produzindo o português.\n\n\n\n\n\n\nImportanteCuidado com o uso cotidiano da palavra “fala”\n\n\n\nNo dia a dia, “fala” costuma opor-se a “escrita” (modalidade oral × modalidade escrita). No sentido técnico deste capítulo, porém, fala designa toda realização individual do sistema — inclusive a escrita. Uma redação de vestibular é, tecnicamente, um ato de “fala” no sentido saussuriano. Os dois sentidos convivem; o contexto indica qual está em jogo.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#a-dicotomia-saussuriana-langue-e-parole",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#a-dicotomia-saussuriana-langue-e-parole",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.5 A dicotomia saussuriana: langue e parole",
+    "text": "3.5 A dicotomia saussuriana: langue e parole\nEssa distinção entre sistema e uso foi formulada de modo decisivo pelo linguista suíço Ferdinand de Saussure (1857–1913), no Curso de Linguística Geral (publicado em 1916, a partir de anotações de seus alunos). Saussure separou o que ele chamou, em francês, de langue (a língua-sistema) e parole (a fala, o uso), enxergando na langue o objeto próprio da linguística.\nA Figura 3.1 resume como esses conceitos se encaixam: a linguagem é o gênero mais amplo; dentro dela, a linguagem verbal se organiza em línguas; e cada língua, sistema social, realiza-se em incontáveis atos individuais de fala.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 3.1: Da linguagem à fala: o mais amplo (linguagem) contém a linguagem verbal, que se organiza em línguas (sistema social); cada língua se realiza em atos individuais de fala, e é o uso que, em retorno, mantém e transforma o sistema.\n\n\n\nPor que Saussure elegeu a langue como objeto central? Porque é ela que tem existência social e estrutura estável o bastante para ser descrita cientificamente. A parole, infinitamente variável de indivíduo para indivíduo e de momento para momento, seria caótica demais para servir de ponto de partida. Descrever a língua é descrever o sistema que torna a fala possível.\nVale registrar que a linguística posterior matizou essa separação. Autores como Mikhail Bakhtin insistiram em que a língua só existe de fato na interação concreta entre falantes, valorizando aquilo que Saussure havia posto em segundo plano. E a distinção saussuriana reaparece, reformulada, na oposição de Noam Chomsky entre competência (o conhecimento internalizado da língua) e desempenho (seu uso efetivo). O par língua/fala não é, portanto, a última palavra — mas continua sendo a porta de entrada indispensável.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#língua-fala-e-a-origem-da-variação",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#língua-fala-e-a-origem-da-variação",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.6 Língua, fala e a origem da variação",
+    "text": "3.6 Língua, fala e a origem da variação\nAqui chegamos a um ponto que percorrerá todo este manual. Se a língua é o sistema partilhado e a fala é a realização individual, e se cada falante realiza o sistema à sua maneira — conforme sua região, sua idade, sua escolaridade, a situação em que se encontra —, então a variação não é um defeito nem um acidente: é uma propriedade inerente ao funcionamento da língua.\nConsidere como um mesmo conteúdo se realiza de formas distintas:\n\n\n“Vou pegar o ônibus.” / “Vou pegar um busão.”\n“Nós fomos ao mercado.” / “A gente foi no mercado.”\n“Onde você o viu?” / “Onde que cê viu ele?”\n\n\nTodas essas realizações provêm do mesmo sistema, o português, mas atualizam-no de maneiras diferentes. Nenhuma delas está “fora da língua”; o que muda é o registro — mais ou menos formal, mais ou menos próximo da norma-padrão. Como observa Bagno (Bagno, 2007), tratar uma dessas formas como “erro” e a outra como “a língua certa” é confundir um julgamento social com um fato linguístico. Câmara Jr. (Câmara Jr., 1970), ao descrever a estrutura do português, e Ilari & Basso (Ilari; Basso, 2006), ao retratar “o português da gente”, mostram justamente um sistema que comporta, por natureza, essa pluralidade de realizações.\nGuarde esta ideia: a distinção língua/fala é o fundamento teórico da variação, tema dos Volumes 3 e 14. Não há contradição entre reconhecer um sistema comum e descrever seus muitos usos — pelo contrário, é o sistema que torna os usos possíveis.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#quadro-resumo",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#quadro-resumo",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.7 📋 Quadro-resumo",
+    "text": "3.7 📋 Quadro-resumo\n\n\n\n\n\n\n\n\n\nConceito\nO que é\nNatureza\nExemplo\n\n\n\n\nLinguagem\nCapacidade de produzir sentido por meio de signos\nFaculdade geral; verbal ou não verbal\nSemáforo, gesto, palavra, pintura\n\n\nLíngua (langue)\nSistema de signos convencionais partilhado por uma comunidade\nSocial, abstrata, sistemática, relativamente estável\nO português, o inglês, o tupi\n\n\nFala (parole)\nRealização individual e concreta do sistema\nIndividual, concreta, momentânea, variável\nEsta frase que você acaba de ler\n\n\n\nEm uma linha: a linguagem é a capacidade; a língua é o sistema social que a organiza; a fala é o uso individual desse sistema — e é no uso que nasce a variação.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#pegadinhas-e-erros-comuns",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.8 ⚠️ Pegadinhas e erros comuns",
+    "text": "3.8 ⚠️ Pegadinhas e erros comuns\n\nConfundir “linguagem” com “língua”. Toda língua é uma linguagem (verbal), mas nem toda linguagem é uma língua: a dança e o semáforo são linguagens, não línguas. Em prova, “linguagem” tende ao sentido amplo (verbal e não verbal); “língua”, ao sistema idiomático.\nAchar que “fala” significa apenas o oral. No sentido técnico (saussuriano), fala é qualquer realização individual do sistema — inclusive a escrita. Bancas gostam de explorar essa ambiguidade.\nTomar a variação como “erro” ou “defeito da fala”. A variação decorre da própria relação língua/fala: o sistema é comum, as realizações são muitas. Chamar de “português errado” o que é apenas outro registro é um equívoco conceitual — e, com frequência, preconceito linguístico (Bagno, 2007).\nAtribuir a Saussure a defesa do “certo x errado”. Saussure descreve o sistema; ele não prescreve a norma. Sistema (langue) não é norma-padrão — são coisas distintas, que separaremos no Capítulo 5.\nInverter a dicotomia. Langue = língua = sistema social; parole = fala = individual. Trocar os dois é o erro clássico em questões de banca.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#exercícios",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#exercícios",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.9 ✍️ Exercícios",
+    "text": "3.9 ✍️ Exercícios\n1. Explique, com suas palavras, a diferença entre linguagem e língua, dando um exemplo de linguagem que não seja uma língua.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nLinguagem é a capacidade geral de produzir sentido por meio de signos, verbais ou não verbais; língua é um sistema específico de signos verbais, convencional e partilhado por uma comunidade. Exemplo de linguagem que não é língua: o código de cores do semáforo (linguagem não verbal), os gestos de um árbitro, a linguagem das flores. Todos comunicam sem constituir um idioma.\n\n\n\n2. (Estilo ENEM) Leia:\n\nNo metrô lotado, um passageiro cede o assento a uma idosa apenas com um gesto de mão e um leve movimento de cabeça. Sem uma palavra, ela entende e senta-se.\n\nA situação descrita evidencia que:\n\na comunicação só é possível por meio da linguagem verbal;\ngestos não são capazes de transmitir mensagens completas;\na linguagem não verbal pode, por si só, produzir sentido eficaz;\na ausência de fala impede qualquer forma de comunicação;\no gesto substitui a língua, tornando-a desnecessária.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). O episódio mostra a linguagem não verbal (gesto, movimento de cabeça) produzindo sentido pleno, sem recurso à palavra. A (a), (b) e (d) negam a eficácia da linguagem não verbal, contrariando a cena. A (e) exagera: o gesto não “substitui a língua” em geral, apenas resolve aquela interação — a língua segue indispensável em incontáveis outras situações.\n\n\n\n3. Classifique cada item como linguagem verbal ou não verbal: (a) uma placa de trânsito com o desenho de uma seta; (b) um poema; (c) o toque de recolher de uma corneta; (d) uma mensagem de áudio no WhatsApp; (e) o logotipo de um banco.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nnão verbal (imagem); (b) verbal (palavra escrita); (c) não verbal (som não linguístico); (d) verbal (palavra falada); (e) não verbal (imagem/símbolo). Note que a modalidade (oral/escrita) não altera o fato de (b) e (d) serem verbais: o que conta é o uso da palavra como signo.\n\n\n\n\n4. Relacione as colunas:\n\nlangue (II) parole\n\n( ) ato individual, concreto e momentâneo ( ) sistema social, abstrato e partilhado ( ) objeto central da linguística para Saussure ( ) varia de falante para falante e de situação para situação\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n(II), (I), (I), (II). O ato individual e a variação de falante para falante são da parole (fala); o sistema social e o objeto central da linguística saussuriana são da langue (língua). Cuidado: o objeto central de Saussure é a langue, mas a variação individual pertence à parole.\n\n\n\n5. Por que Saussure considerou a langue, e não a parole, o objeto próprio da linguística? A resposta ainda é consensual hoje?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque a langue é social e sistemática, com estrutura estável o bastante para ser descrita cientificamente, ao passo que a parole seria individual e variável demais para servir de ponto de partida. Hoje esse recorte é matizado: Bakhtin valoriza a interação concreta (mais próxima da parole), e Chomsky reformula a oposição como competência × desempenho. A distinção continua útil, mas não é vista como uma separação estanque.\n\n\n\n6. Identifique, na frase abaixo, um argumento a favor de que a língua é social, e não invenção individual:\n\n“Uma criança brasileira criada no Japão, sem contato com brasileiros, não falará português.”\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO exemplo mostra que a língua não é herança biológica automática nem criação do indivíduo: ela é adquirida no convívio com uma comunidade que já a possui. Sem a coletividade que partilha o sistema, não há aquisição da língua específica — prova de que a língua é um fato social, exterior e anterior ao falante, embora a faculdade da linguagem seja universal na espécie.\n\n\n\n7. (Estilo FUVEST) “A fala depende da língua, mas a língua também depende da fala.” Explique o duplo sentido dessa afirmação.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nA fala depende da língua porque ninguém pode produzir um ato de fala sem recorrer ao sistema partilhado — é a língua que fornece os signos e as regras de combinação. (2) A língua depende da fala porque é no uso concreto, repetido pela comunidade ao longo do tempo, que o sistema se mantém vivo e se transforma. Sem falantes que a atualizem, a língua se tornaria “morta”. A mudança do latim ao português ilustra essa segunda dependência.\n\n\n\n\n8. Releia o quadro-resumo e construa uma frase única que articule os três conceitos (linguagem, língua, fala) numa mesma explicação.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nResposta pessoal. Exemplo satisfatório: “A linguagem é a capacidade humana de produzir sentido por signos; quando essa capacidade se organiza num sistema social e convencional, temos uma língua, como o português; e cada vez que um falante usa esse sistema para dizer algo, num ato concreto e individual, temos a fala.” Espera-se que os três conceitos apareçam corretamente hierarquizados.\n\n\n\n9. Um estudante afirma: “Quem diz ‘a gente vai’ está falando português errado; o certo é ‘nós vamos’.” Comente a afirmação à luz da distinção língua/fala e da noção de variação.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA afirmação confunde norma-padrão com língua. Tanto “nós vamos” quanto “a gente vai” são realizações legítimas do sistema do português; a segunda é larguíssimamente usada, inclusive por falantes escolarizados, em registro menos formal. O que existe é diferença de registro/prestígio, não de “certo x errado” no plano do sistema. Rotular a variante como “erro” é, como discute Bagno (Bagno, 2007), um julgamento social — preconceito linguístico —, não um fato gramatical. (A distinção fina entre língua, norma culta e norma-padrão será desenvolvida no Capítulo 5.)\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue o item:\n\n“No sentido técnico proposto por Saussure, a redação escrita por um candidato em um concurso é um exemplo de parole.”\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCerto. Parole (fala) é qualquer realização individual e concreta do sistema, o que inclui a modalidade escrita. A redação, produção individual que atualiza o sistema do português numa situação específica, é um ato de parole — ainda que, no sentido cotidiano, “fala” se oponha a “escrita”.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-01-linguagem-lingua-fala.html#referências",
+    "href": "capitulos/cap-01-linguagem-lingua-fala.html#referências",
+    "title": "2  Linguagem, língua e fala",
+    "section": "3.10 📚 Referências",
+    "text": "3.10 📚 Referências\nO tratamento clássico da dicotomia língua/fala está em Saussure; para o português, a descrição estrutural de Câmara Jr. (Câmara Jr., 1970) e o panorama acessível de Ilari & Basso (Ilari; Basso, 2006) são leituras de base. Sobre variação e os limites do rótulo “erro”, ver Bagno (Bagno, 2007). A norma culta como conceito distinto do sistema é discutida por Bechara (Bechara, 2009) e será retomada adiante.\n\n\nBAGNO, Marcos. Preconceito Linguístico: o que é, como se\nfaz. 49. ed. São Paulo: Loyola, 2007.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37.\ned. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua\nPortuguesa. Petrópolis: Vozes, 1970.\n\n\nILARI, Rodolfo; BASSO, Renato. O Português da Gente: a língua\nque estudamos, a língua que falamos. São Paulo: Contexto, 2006.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Linguagem, língua e fala</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-02-linguistica-gramatica.html",
+    "href": "capitulos/cap-02-linguistica-gramatica.html",
+    "title": "3  A linguística e a gramática: descrição e norma",
+    "section": "",
+    "text": "4 A linguística e a gramática: descrição e norma\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>A linguística e a gramática: descrição e norma</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-03-norma-culta-padrao-variedades.html",
+    "href": "capitulos/cap-03-norma-culta-padrao-variedades.html",
+    "title": "4  Norma culta, norma-padrão e variedades",
+    "section": "",
+    "text": "5 Norma culta, norma-padrão e variedades\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Norma culta, norma-padrão e variedades</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-04-historia-portugues-panorama.html",
+    "href": "capitulos/cap-04-historia-portugues-panorama.html",
+    "title": "5  Breve história do português: panorama",
+    "section": "",
+    "text": "6 Breve história do português: panorama\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Breve história do português: panorama</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-05-comunicacao-funcoes-linguagem.html",
+    "href": "capitulos/cap-05-comunicacao-funcoes-linguagem.html",
+    "title": "6  Comunicação e funções da linguagem",
+    "section": "",
+    "text": "7 Comunicação e funções da linguagem\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Comunicação e funções da linguagem</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-06-como-estudar-portugues.html",
+    "href": "capitulos/cap-06-como-estudar-portugues.html",
+    "title": "7  Como estudar português: método e recursos",
+    "section": "",
+    "text": "8 Como estudar português: método e recursos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 1 — Introdução aos Estudos da Linguagem",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Como estudar português: método e recursos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html",
+    "href": "capitulos/cap-07-fonema-e-letra.html",
+    "title": "8  Fonema e letra",
+    "section": "",
+    "text": "9 Fonema e letra\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html",
+    "href": "capitulos/cap-08-classificacao-fonemas.html",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "",
+    "text": "10 Classificação dos fonemas: vogais, semivogais e consoantes\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-09-encontros-digrafos.html",
+    "href": "capitulos/cap-09-encontros-digrafos.html",
+    "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
+    "section": "",
+    "text": "11 Encontros vocálicos, encontros consonantais e dígrafos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "",
+    "text": "12 Sílaba: estrutura, divisão silábica e tonicidade\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html",
+    "href": "capitulos/cap-11-processos-fonologicos.html",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "",
+    "text": "13 Processos fonológicos do português brasileiro\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-12-ortoepia-prosodia.html",
+    "href": "capitulos/cap-12-ortoepia-prosodia.html",
+    "title": "13  Ortoépia e prosódia",
+    "section": "",
+    "text": "14 Ortoépia e prosódia\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "",
+    "text": "15 Noções de fonética articulatória: o trapézio vocálico\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-14-alfabeto-sistema-ortografico.html",
+    "href": "capitulos/cap-14-alfabeto-sistema-ortografico.html",
+    "title": "15  O alfabeto e o sistema ortográfico",
+    "section": "",
+    "text": "16 O alfabeto e o sistema ortográfico\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>O alfabeto e o sistema ortográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-15-emprego-de-letras.html",
+    "href": "capitulos/cap-15-emprego-de-letras.html",
+    "title": "16  Emprego de letras: os casos problemáticos",
+    "section": "",
+    "text": "17 Emprego de letras: os casos problemáticos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Emprego de letras: os casos problemáticos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-16-acordo-ortografico-1990.html",
+    "href": "capitulos/cap-16-acordo-ortografico-1990.html",
+    "title": "17  O Acordo Ortográfico de 1990",
+    "section": "",
+    "text": "18 O Acordo Ortográfico de 1990\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O Acordo Ortográfico de 1990</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-17-acentuacao-regras-fundamentais.html",
+    "href": "capitulos/cap-17-acentuacao-regras-fundamentais.html",
+    "title": "18  Acentuação gráfica: regras fundamentais",
+    "section": "",
+    "text": "19 Acentuação gráfica: regras fundamentais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Acentuação gráfica: regras fundamentais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-18-acentuacao-casos-especiais.html",
+    "href": "capitulos/cap-18-acentuacao-casos-especiais.html",
+    "title": "19  Acentuação gráfica: casos especiais",
+    "section": "",
+    "text": "20 Acentuação gráfica: casos especiais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Acentuação gráfica: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-19-emprego-do-hifen.html",
+    "href": "capitulos/cap-19-emprego-do-hifen.html",
+    "title": "20  Emprego do hífen",
+    "section": "",
+    "text": "21 Emprego do hífen\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Emprego do hífen</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html",
+    "href": "capitulos/cap-20-maiusculas-abreviaturas-siglas.html",
+    "title": "21  Maiúsculas, abreviaturas, siglas e símbolos",
+    "section": "",
+    "text": "22 Maiúsculas, abreviaturas, siglas e símbolos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 3 — Ortografia e Acentuação",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maiúsculas, abreviaturas, siglas e símbolos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "",
+    "text": "23 Morfema: as unidades mínimas de significado\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "",
+    "text": "24 Estrutura das palavras: radical, afixos e desinências\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-23-formacao-derivacao.html",
+    "href": "capitulos/cap-23-formacao-derivacao.html",
+    "title": "24  Formação de palavras I: derivação",
+    "section": "",
+    "text": "25 Formação de palavras I: derivação\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-24-formacao-composicao.html",
+    "href": "capitulos/cap-24-formacao-composicao.html",
+    "title": "25  Formação de palavras II: composição e outros processos",
+    "section": "",
+    "text": "26 Formação de palavras II: composição e outros processos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Formação de palavras II: composição e outros processos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "",
+    "text": "27 Famílias de palavras, cognatos e produtividade lexical\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-26-panorama-classes-palavras.html",
+    "href": "capitulos/cap-26-panorama-classes-palavras.html",
+    "title": "27  Panorama das dez classes de palavras",
+    "section": "",
+    "text": "28 Panorama das dez classes de palavras\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Panorama das dez classes de palavras</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-27-substantivo.html",
+    "href": "capitulos/cap-27-substantivo.html",
+    "title": "28  Substantivo",
+    "section": "",
+    "text": "29 Substantivo\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Substantivo</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-28-artigo-numeral.html",
+    "href": "capitulos/cap-28-artigo-numeral.html",
+    "title": "29  Artigo e numeral",
+    "section": "",
+    "text": "30 Artigo e numeral\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Artigo e numeral</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-29-adjetivo.html",
+    "href": "capitulos/cap-29-adjetivo.html",
+    "title": "30  Adjetivo",
+    "section": "",
+    "text": "31 Adjetivo\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Adjetivo</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-30-pronome-i-pessoais-possessivos-demonstrativos.html",
+    "href": "capitulos/cap-30-pronome-i-pessoais-possessivos-demonstrativos.html",
+    "title": "31  Pronome I: pessoais, possessivos e demonstrativos",
+    "section": "",
+    "text": "32 Pronome I: pessoais, possessivos e demonstrativos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Pronome I: pessoais, possessivos e demonstrativos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-31-pronome-ii-relativos-indefinidos-interrogativos.html",
+    "href": "capitulos/cap-31-pronome-ii-relativos-indefinidos-interrogativos.html",
+    "title": "32  Pronome II: relativos, indefinidos e interrogativos",
+    "section": "",
+    "text": "33 Pronome II: relativos, indefinidos e interrogativos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Pronome II: relativos, indefinidos e interrogativos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-32-verbo-i-estrutura-conjugacoes.html",
+    "href": "capitulos/cap-32-verbo-i-estrutura-conjugacoes.html",
+    "title": "33  Verbo I: estrutura, conjugações e formas nominais",
+    "section": "",
+    "text": "34 Verbo I: estrutura, conjugações e formas nominais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Verbo I: estrutura, conjugações e formas nominais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-33-verbo-ii-tempos-modos-aspecto.html",
+    "href": "capitulos/cap-33-verbo-ii-tempos-modos-aspecto.html",
+    "title": "34  Verbo II: tempos, modos e aspecto",
+    "section": "",
+    "text": "35 Verbo II: tempos, modos e aspecto\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Verbo II: tempos, modos e aspecto</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-34-verbo-iii-vozes-irregulares-defectivos.html",
+    "href": "capitulos/cap-34-verbo-iii-vozes-irregulares-defectivos.html",
+    "title": "35  Verbo III: vozes verbais, irregulares e defectivos",
+    "section": "",
+    "text": "36 Verbo III: vozes verbais, irregulares e defectivos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Verbo III: vozes verbais, irregulares e defectivos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-35-adverbio-preposicao-conjuncao-interjeicao.html",
+    "href": "capitulos/cap-35-adverbio-preposicao-conjuncao-interjeicao.html",
+    "title": "36  Advérbio, preposição, conjunção e interjeição",
+    "section": "",
+    "text": "37 Advérbio, preposição, conjunção e interjeição\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 5 — Morfologia II: Classes de Palavras",
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Advérbio, preposição, conjunção e interjeição</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-36-frase-oracao-periodo.html",
+    "href": "capitulos/cap-36-frase-oracao-periodo.html",
+    "title": "37  Frase, oração e período",
+    "section": "",
+    "text": "38 Frase, oração e período\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 6 — Sintaxe I: Termos da Oração",
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Frase, oração e período</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-37-sujeito-e-tipos.html",
+    "href": "capitulos/cap-37-sujeito-e-tipos.html",
+    "title": "38  Sujeito e seus tipos",
+    "section": "",
+    "text": "39 Sujeito e seus tipos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 6 — Sintaxe I: Termos da Oração",
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Sujeito e seus tipos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-38-predicado.html",
+    "href": "capitulos/cap-38-predicado.html",
+    "title": "39  Predicado: verbal, nominal e verbo-nominal",
+    "section": "",
+    "text": "40 Predicado: verbal, nominal e verbo-nominal\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 6 — Sintaxe I: Termos da Oração",
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Predicado: verbal, nominal e verbo-nominal</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-39-complementos-verbais.html",
+    "href": "capitulos/cap-39-complementos-verbais.html",
+    "title": "40  Complementos verbais: objeto direto e objeto indireto",
+    "section": "",
+    "text": "41 Complementos verbais: objeto direto e objeto indireto\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 6 — Sintaxe I: Termos da Oração",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Complementos verbais: objeto direto e objeto indireto</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-40-complemento-nominal-agente-passiva.html",
+    "href": "capitulos/cap-40-complemento-nominal-agente-passiva.html",
+    "title": "41  Complemento nominal e agente da passiva",
+    "section": "",
+    "text": "42 Complemento nominal e agente da passiva\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 6 — Sintaxe I: Termos da Oração",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Complemento nominal e agente da passiva</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-41-adjunto-adnominal-adverbial.html",
+    "href": "capitulos/cap-41-adjunto-adnominal-adverbial.html",
+    "title": "42  Adjunto adnominal e adjunto adverbial",
+    "section": "",
+    "text": "43 Adjunto adnominal e adjunto adverbial\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 6 — Sintaxe I: Termos da Oração",
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Adjunto adnominal e adjunto adverbial</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-42-aposto-vocativo.html",
+    "href": "capitulos/cap-42-aposto-vocativo.html",
+    "title": "43  Aposto e vocativo",
+    "section": "",
+    "text": "44 Aposto e vocativo\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 6 — Sintaxe I: Termos da Oração",
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Aposto e vocativo</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-43-periodo-composto-coordenacao.html",
+    "href": "capitulos/cap-43-periodo-composto-coordenacao.html",
+    "title": "44  Período composto por coordenação",
+    "section": "",
+    "text": "45 Período composto por coordenação\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "",
+    "text": "46 Orações subordinadas substantivas\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "",
+    "text": "47 Orações subordinadas adjetivas\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "",
+    "text": "48 Orações subordinadas adverbiais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html",
+    "title": "48  Orações reduzidas",
+    "section": "",
+    "text": "49 Orações reduzidas\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "",
+    "text": "50 Análise sintática integral: método e prática\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-49-concordancia-verbal-i.html",
+    "href": "capitulos/cap-49-concordancia-verbal-i.html",
+    "title": "50  Concordância verbal I: regra geral e casos frequentes",
+    "section": "",
+    "text": "51 Concordância verbal I: regra geral e casos frequentes\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 8 — Sintaxe III: Concordância, Regência e Colocação",
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Concordância verbal I: regra geral e casos frequentes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-50-concordancia-verbal-ii.html",
+    "href": "capitulos/cap-50-concordancia-verbal-ii.html",
+    "title": "51  Concordância verbal II: casos especiais",
+    "section": "",
+    "text": "52 Concordância verbal II: casos especiais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 8 — Sintaxe III: Concordância, Regência e Colocação",
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Concordância verbal II: casos especiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-51-concordancia-nominal.html",
+    "href": "capitulos/cap-51-concordancia-nominal.html",
+    "title": "52  Concordância nominal",
+    "section": "",
+    "text": "53 Concordância nominal\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 8 — Sintaxe III: Concordância, Regência e Colocação",
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Concordância nominal</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-52-regencia-verbal.html",
+    "href": "capitulos/cap-52-regencia-verbal.html",
+    "title": "53  Regência verbal",
+    "section": "",
+    "text": "54 Regência verbal\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 8 — Sintaxe III: Concordância, Regência e Colocação",
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Regência verbal</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-53-regencia-nominal.html",
+    "href": "capitulos/cap-53-regencia-nominal.html",
+    "title": "54  Regência nominal",
+    "section": "",
+    "text": "55 Regência nominal\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 8 — Sintaxe III: Concordância, Regência e Colocação",
+      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Regência nominal</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-54-crase.html",
+    "href": "capitulos/cap-54-crase.html",
+    "title": "55  Crase",
+    "section": "",
+    "text": "56 Crase\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 8 — Sintaxe III: Concordância, Regência e Colocação",
+      "<span class='chapter-number'>55</span>  <span class='chapter-title'>Crase</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-55-colocacao-pronominal.html",
+    "href": "capitulos/cap-55-colocacao-pronominal.html",
+    "title": "56  Colocação pronominal",
+    "section": "",
+    "text": "57 Colocação pronominal\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 8 — Sintaxe III: Concordância, Regência e Colocação",
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>Colocação pronominal</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-56-fundamentos-pontuacao.html",
+    "href": "capitulos/cap-56-fundamentos-pontuacao.html",
+    "title": "57  Fundamentos da pontuação",
+    "section": "",
+    "text": "58 Fundamentos da pontuação\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 9 — Pontuação e Convenções",
+      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Fundamentos da pontuação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-57-a-virgula.html",
+    "href": "capitulos/cap-57-a-virgula.html",
+    "title": "58  A vírgula",
+    "section": "",
+    "text": "59 A vírgula\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 9 — Pontuação e Convenções",
+      "<span class='chapter-number'>58</span>  <span class='chapter-title'>A vírgula</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-58-ponto-virgula-dois-pontos.html",
+    "href": "capitulos/cap-58-ponto-virgula-dois-pontos.html",
+    "title": "59  Ponto e vírgula, dois-pontos e ponto final",
+    "section": "",
+    "text": "60 Ponto e vírgula, dois-pontos e ponto final\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 9 — Pontuação e Convenções",
+      "<span class='chapter-number'>59</span>  <span class='chapter-title'>Ponto e vírgula, dois-pontos e ponto final</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-59-aspas-travessao-parenteses.html",
+    "href": "capitulos/cap-59-aspas-travessao-parenteses.html",
+    "title": "60  Aspas, travessão, parênteses e reticências",
+    "section": "",
+    "text": "61 Aspas, travessão, parênteses e reticências\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 9 — Pontuação e Convenções",
+      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Aspas, travessão, parênteses e reticências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-60-pontuacao-periodo-composto.html",
+    "href": "capitulos/cap-60-pontuacao-periodo-composto.html",
+    "title": "61  Pontuação no período composto e em textos reais",
+    "section": "",
+    "text": "62 Pontuação no período composto e em textos reais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 9 — Pontuação e Convenções",
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>Pontuação no período composto e em textos reais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-61-denotacao-conotacao.html",
+    "href": "capitulos/cap-61-denotacao-conotacao.html",
+    "title": "62  Significado: denotação e conotação",
+    "section": "",
+    "text": "63 Significado: denotação e conotação\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 10 — Semântica e Léxico",
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Significado: denotação e conotação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-62-relacoes-lexicais.html",
+    "href": "capitulos/cap-62-relacoes-lexicais.html",
+    "title": "63  Relações lexicais: sinonímia, antonímia, hiponímia",
+    "section": "",
+    "text": "64 Relações lexicais: sinonímia, antonímia, hiponímia\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 10 — Semântica e Léxico",
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Relações lexicais: sinonímia, antonímia, hiponímia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-63-polissemia-homonimia-paronimia.html",
+    "href": "capitulos/cap-63-polissemia-homonimia-paronimia.html",
+    "title": "64  Polissemia, homonímia e paronímia",
+    "section": "",
+    "text": "65 Polissemia, homonímia e paronímia\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 10 — Semântica e Léxico",
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>Polissemia, homonímia e paronímia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-64-ambiguidade-pressuposicao.html",
+    "href": "capitulos/cap-64-ambiguidade-pressuposicao.html",
+    "title": "65  Ambiguidade e pressuposição",
+    "section": "",
+    "text": "66 Ambiguidade e pressuposição\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 10 — Semântica e Léxico",
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Ambiguidade e pressuposição</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-65-figuras-linguagem-i.html",
+    "href": "capitulos/cap-65-figuras-linguagem-i.html",
+    "title": "66  Figuras de linguagem I: figuras de palavra e de pensamento",
+    "section": "",
+    "text": "67 Figuras de linguagem I: figuras de palavra e de pensamento\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 10 — Semântica e Léxico",
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Figuras de linguagem I: figuras de palavra e de pensamento</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-66-figuras-linguagem-ii.html",
+    "href": "capitulos/cap-66-figuras-linguagem-ii.html",
+    "title": "67  Figuras de linguagem II: figuras de sintaxe e de som",
+    "section": "",
+    "text": "68 Figuras de linguagem II: figuras de sintaxe e de som\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 10 — Semântica e Léxico",
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>Figuras de linguagem II: figuras de sintaxe e de som</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-67-lexico-emprestimos-neologismos.html",
+    "href": "capitulos/cap-67-lexico-emprestimos-neologismos.html",
+    "title": "68  O léxico do português: empréstimos e neologismos",
+    "section": "",
+    "text": "69 O léxico do português: empréstimos e neologismos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 10 — Semântica e Léxico",
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>O léxico do português: empréstimos e neologismos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-68-texto-e-textualidade.html",
+    "href": "capitulos/cap-68-texto-e-textualidade.html",
+    "title": "69  Texto e textualidade",
+    "section": "",
+    "text": "70 Texto e textualidade\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 11 — Linguística Textual",
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Texto e textualidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-69-coesao.html",
+    "href": "capitulos/cap-69-coesao.html",
+    "title": "70  Coesão referencial e sequencial",
+    "section": "",
+    "text": "71 Coesão referencial e sequencial\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 11 — Linguística Textual",
+      "<span class='chapter-number'>70</span>  <span class='chapter-title'>Coesão referencial e sequencial</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-70-coerencia-textual.html",
+    "href": "capitulos/cap-70-coerencia-textual.html",
+    "title": "71  Coerência textual",
+    "section": "",
+    "text": "72 Coerência textual\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 11 — Linguística Textual",
+      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Coerência textual</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-71-tipologia-textual.html",
+    "href": "capitulos/cap-71-tipologia-textual.html",
+    "title": "72  Tipologia textual: narração, descrição, dissertação, injunção, exposição",
+    "section": "",
+    "text": "73 Tipologia textual: narração, descrição, dissertação, injunção, exposição\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 11 — Linguística Textual",
+      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Tipologia textual: narração, descrição, dissertação, injunção, exposição</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-72-generos-textuais.html",
+    "href": "capitulos/cap-72-generos-textuais.html",
+    "title": "73  Gêneros textuais",
+    "section": "",
+    "text": "74 Gêneros textuais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 11 — Linguística Textual",
+      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Gêneros textuais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-73-intertextualidade-parafrase.html",
+    "href": "capitulos/cap-73-intertextualidade-parafrase.html",
+    "title": "74  Intertextualidade e paráfrase",
+    "section": "",
+    "text": "75 Intertextualidade e paráfrase\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 11 — Linguística Textual",
+      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Intertextualidade e paráfrase</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-74-o-paragrafo.html",
+    "href": "capitulos/cap-74-o-paragrafo.html",
+    "title": "75  O parágrafo: estrutura e desenvolvimento",
+    "section": "",
+    "text": "76 O parágrafo: estrutura e desenvolvimento\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 12 — Redação e Escrita",
+      "<span class='chapter-number'>75</span>  <span class='chapter-title'>O parágrafo: estrutura e desenvolvimento</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-75-dissertacao-argumentativa.html",
+    "href": "capitulos/cap-75-dissertacao-argumentativa.html",
+    "title": "76  Dissertação argumentativa: estrutura",
+    "section": "",
+    "text": "77 Dissertação argumentativa: estrutura\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 12 — Redação e Escrita",
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Dissertação argumentativa: estrutura</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-76-argumentacao-falacias.html",
+    "href": "capitulos/cap-76-argumentacao-falacias.html",
+    "title": "77  Argumentação: tipos de argumento e falácias",
+    "section": "",
+    "text": "78 Argumentação: tipos de argumento e falácias\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 12 — Redação e Escrita",
+      "<span class='chapter-number'>77</span>  <span class='chapter-title'>Argumentação: tipos de argumento e falácias</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-77-redacao-enem-concursos.html",
+    "href": "capitulos/cap-77-redacao-enem-concursos.html",
+    "title": "78  A redação do ENEM e de concursos",
+    "section": "",
+    "text": "79 A redação do ENEM e de concursos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 12 — Redação e Escrita",
+      "<span class='chapter-number'>78</span>  <span class='chapter-title'>A redação do ENEM e de concursos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-78-redacao-tecnica-oficial.html",
+    "href": "capitulos/cap-78-redacao-tecnica-oficial.html",
+    "title": "79  Redação técnica e oficial",
+    "section": "",
+    "text": "80 Redação técnica e oficial\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 12 — Redação e Escrita",
+      "<span class='chapter-number'>79</span>  <span class='chapter-title'>Redação técnica e oficial</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-79-escrita-academica.html",
+    "href": "capitulos/cap-79-escrita-academica.html",
+    "title": "80  Escrita acadêmica: resumo, resenha e artigo",
+    "section": "",
+    "text": "81 Escrita acadêmica: resumo, resenha e artigo\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 12 — Redação e Escrita",
+      "<span class='chapter-number'>80</span>  <span class='chapter-title'>Escrita acadêmica: resumo, resenha e artigo</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-80-revisao-reescrita.html",
+    "href": "capitulos/cap-80-revisao-reescrita.html",
+    "title": "81  Revisão e reescrita",
+    "section": "",
+    "text": "82 Revisão e reescrita\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 12 — Redação e Escrita",
+      "<span class='chapter-number'>81</span>  <span class='chapter-title'>Revisão e reescrita</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-81-estrategias-de-leitura.html",
+    "href": "capitulos/cap-81-estrategias-de-leitura.html",
+    "title": "82  Estratégias de leitura",
+    "section": "",
+    "text": "83 Estratégias de leitura\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 13 — Interpretação de Textos",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>Estratégias de leitura</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-82-inferencia-pressuposto-subentendido.html",
+    "href": "capitulos/cap-82-inferencia-pressuposto-subentendido.html",
+    "title": "83  Inferência, pressuposto e subentendido",
+    "section": "",
+    "text": "84 Inferência, pressuposto e subentendido\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 13 — Interpretação de Textos",
+      "<span class='chapter-number'>83</span>  <span class='chapter-title'>Inferência, pressuposto e subentendido</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-83-ironia-humor-implicitos.html",
+    "href": "capitulos/cap-83-ironia-humor-implicitos.html",
+    "title": "84  Ironia, humor e implícitos",
+    "section": "",
+    "text": "85 Ironia, humor e implícitos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 13 — Interpretação de Textos",
+      "<span class='chapter-number'>84</span>  <span class='chapter-title'>Ironia, humor e implícitos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-84-textos-multimodais.html",
+    "href": "capitulos/cap-84-textos-multimodais.html",
+    "title": "85  Leitura de textos multimodais: charge, tirinha, infográfico",
+    "section": "",
+    "text": "86 Leitura de textos multimodais: charge, tirinha, infográfico\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 13 — Interpretação de Textos",
+      "<span class='chapter-number'>85</span>  <span class='chapter-title'>Leitura de textos multimodais: charge, tirinha, infográfico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-85-questoes-interpretacao-metodo.html",
+    "href": "capitulos/cap-85-questoes-interpretacao-metodo.html",
+    "title": "86  Questões de interpretação: método de resolução",
+    "section": "",
+    "text": "87 Questões de interpretação: método de resolução\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 13 — Interpretação de Textos",
+      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Questões de interpretação: método de resolução</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-86-sociolinguistica-fundamentos.html",
+    "href": "capitulos/cap-86-sociolinguistica-fundamentos.html",
+    "title": "87  Sociolinguística: fundamentos",
+    "section": "",
+    "text": "88 Sociolinguística: fundamentos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 14 — Variação Linguística e Sociolinguística",
+      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Sociolinguística: fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-87-variacao-diatopica.html",
+    "href": "capitulos/cap-87-variacao-diatopica.html",
+    "title": "88  Variação diatópica: os falares do Brasil",
+    "section": "",
+    "text": "89 Variação diatópica: os falares do Brasil\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 14 — Variação Linguística e Sociolinguística",
+      "<span class='chapter-number'>88</span>  <span class='chapter-title'>Variação diatópica: os falares do Brasil</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-88-variacao-diastratica-diafasica.html",
+    "href": "capitulos/cap-88-variacao-diastratica-diafasica.html",
+    "title": "89  Variação diastrática e diafásica: registro e estilo",
+    "section": "",
+    "text": "90 Variação diastrática e diafásica: registro e estilo\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 14 — Variação Linguística e Sociolinguística",
+      "<span class='chapter-number'>89</span>  <span class='chapter-title'>Variação diastrática e diafásica: registro e estilo</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-89-pb-e-pe.html",
+    "href": "capitulos/cap-89-pb-e-pe.html",
+    "title": "90  Português brasileiro e português europeu",
+    "section": "",
+    "text": "91 Português brasileiro e português europeu\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 14 — Variação Linguística e Sociolinguística",
+      "<span class='chapter-number'>90</span>  <span class='chapter-title'>Português brasileiro e português europeu</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-90-oralidade-e-escrita.html",
+    "href": "capitulos/cap-90-oralidade-e-escrita.html",
+    "title": "91  Oralidade e escrita",
+    "section": "",
+    "text": "92 Oralidade e escrita\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 14 — Variação Linguística e Sociolinguística",
+      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Oralidade e escrita</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-91-preconceito-linguistico.html",
+    "href": "capitulos/cap-91-preconceito-linguistico.html",
+    "title": "92  Preconceito linguístico e política linguística",
+    "section": "",
+    "text": "93 Preconceito linguístico e política linguística\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 14 — Variação Linguística e Sociolinguística",
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Preconceito linguístico e política linguística</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-92-do-latim-ao-galego-portugues.html",
+    "href": "capitulos/cap-92-do-latim-ao-galego-portugues.html",
+    "title": "93  Do latim ao galego-português",
+    "section": "",
+    "text": "94 Do latim ao galego-português\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 15 — História da Língua e Estilística",
+      "<span class='chapter-number'>93</span>  <span class='chapter-title'>Do latim ao galego-português</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-93-portugues-arcaico-classico.html",
+    "href": "capitulos/cap-93-portugues-arcaico-classico.html",
+    "title": "94  O português arcaico e o português clássico",
+    "section": "",
+    "text": "95 O português arcaico e o português clássico\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 15 — História da Língua e Estilística",
+      "<span class='chapter-number'>94</span>  <span class='chapter-title'>O português arcaico e o português clássico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-94-formacao-portugues-brasileiro.html",
+    "href": "capitulos/cap-94-formacao-portugues-brasileiro.html",
+    "title": "95  A formação do português brasileiro",
+    "section": "",
+    "text": "96 A formação do português brasileiro\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 15 — História da Língua e Estilística",
+      "<span class='chapter-number'>95</span>  <span class='chapter-title'>A formação do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-95-lusofonia.html",
+    "href": "capitulos/cap-95-lusofonia.html",
+    "title": "96  A lusofonia: o português no mundo",
+    "section": "",
+    "text": "97 A lusofonia: o português no mundo\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 15 — História da Língua e Estilística",
+      "<span class='chapter-number'>96</span>  <span class='chapter-title'>A lusofonia: o português no mundo</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-96-estilistica-fundamentos.html",
+    "href": "capitulos/cap-96-estilistica-fundamentos.html",
+    "title": "97  Estilística: fundamentos",
+    "section": "",
+    "text": "98 Estilística: fundamentos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 15 — História da Língua e Estilística",
+      "<span class='chapter-number'>97</span>  <span class='chapter-title'>Estilística: fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-97-versificacao.html",
+    "href": "capitulos/cap-97-versificacao.html",
+    "title": "98  Versificação: métrica, rima e ritmo",
+    "section": "",
+    "text": "99 Versificação: métrica, rima e ritmo\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 15 — História da Língua e Estilística",
+      "<span class='chapter-number'>98</span>  <span class='chapter-title'>Versificação: métrica, rima e ritmo</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-98-analise-literaria-estilo.html",
+    "href": "capitulos/cap-98-analise-literaria-estilo.html",
+    "title": "99  Noções de análise literária e estilo",
+    "section": "",
+    "text": "100 Noções de análise literária e estilo\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "crumbs": [
+      "Volume 15 — História da Língua e Estilística",
+      "<span class='chapter-number'>99</span>  <span class='chapter-title'>Noções de análise literária e estilo</span>"
+    ]
+  }
+]
