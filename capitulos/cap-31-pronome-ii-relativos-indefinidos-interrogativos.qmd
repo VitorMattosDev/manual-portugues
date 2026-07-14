@@ -4,22 +4,295 @@ title: "Pronome II: relativos, indefinidos e interrogativos"
 
 # Pronome II: relativos, indefinidos e interrogativos {#sec-cap-31}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "O pronome relativo é a dobradiça da frase: liga duas orações sem repetir o nome."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Continuamos o estudo dos pronomes com três subclasses de grande peso sintático: os
+**relativos**, os **indefinidos** e os **interrogativos**. O destaque vai para o
+**pronome relativo** (*que, o qual, cujo, onde...*), talvez o mais importante da
+sintaxe: é ele que introduz as orações adjetivas (Volume 7) e retoma um termo anterior,
+evitando repetição. Dominar o relativo — sobretudo o temido *cujo* e a regência que ele
+exige — é um divisor de águas na norma culta.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Os **indefinidos** (*algum, nenhum, todo, cada...*) e os **interrogativos** (*que, quem,
+qual, quanto* em perguntas) completam o quadro. Este capítulo fecha a classe dos
+pronomes e prepara o terreno para a sintaxe do período composto.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Identificar** os pronomes relativos e o termo que retomam (antecedente);
+- **Empregar** corretamente *que, quem, o qual, cujo, onde*;
+- **Dominar** o uso de *cujo* (posse) e sua regência;
+- **Reconhecer** e usar os pronomes indefinidos, atento a pares como *algum/nenhum*;
+- **Distinguir** pronomes interrogativos e seu papel nas perguntas;
+- **Relacionar** o pronome relativo às orações adjetivas.
+
+## Pronomes relativos
+
+**Pronome relativo** é aquele que **retoma um termo anterior** (o **antecedente**) e,
+ao mesmo tempo, **introduz uma oração** que o caracteriza (a oração adjetiva). Em "O
+livro *que* comprei é ótimo", *que* retoma *livro* (antecedente) e liga a oração
+"[que] comprei".
+
+Os relativos são: **que, quem, o qual (a qual, os quais, as quais), cujo (cuja, cujos,
+cujas), onde, quanto, como**. A @fig-relativos organiza os principais.
+
+::: {#fig-relativos}
+
+```{.tikz}
+%%| filename: pronomes-relativos
+%%| alt: Tabela dos pronomes relativos com uso e exemplo. Que: universal, para pessoas e coisas — o livro que li. Quem: só pessoas, sempre com preposição — a pessoa a quem me refiro. O qual: substitui que, evita ambiguidade — a razão pela qual saí. Cujo: indica posse, sem artigo depois — o autor cujo livro li. Onde: só lugar físico — a cidade onde nasci.
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  h/.style={draw=manualgray, fill=manualblue!12, minimum height=7mm, align=center, font=\bfseries\scriptsize},
+  k/.style={draw=manualgray, fill=manualgreen!10, minimum width=16mm, minimum height=9mm, align=center, font=\bfseries},
+  c/.style={draw=manualgray, minimum height=9mm, align=left, inner sep=3pt},
+]
+  \node[h, minimum width=16mm] at (0,0) {Relativo};
+  \node[h, minimum width=40mm] at (2.9,0) {Uso};
+  \node[h, minimum width=44mm] at (6.9,0) {Exemplo};
+
+  \foreach \i/\p/\u/\e in {
+    1/{que}/{universal (pessoas e coisas)}/{o livro \emph{que} li},
+    2/{quem}/{só pessoas, com preposição}/{a pessoa a \emph{quem} me refiro},
+    3/{o qual}/{substitui \emph{que}; evita ambiguidade}/{a razão pela \emph{qual} saí},
+    4/{cujo}/{posse; sem artigo depois}/{o autor \emph{cujo} livro li},
+    5/{onde}/{só lugar físico}/{a cidade \emph{onde} nasci}} {
+    \node[k, minimum width=16mm] at (0,-\i*0.95) {\p};
+    \node[c, minimum width=40mm, text width=38mm] at (2.9,-\i*0.95) {\u};
+    \node[c, minimum width=44mm, text width=42mm] at (6.9,-\i*0.95) {\e};
+  }
+\end{tikzpicture}
+```
+
+Os principais pronomes relativos, seu uso e um exemplo de cada: *que* (universal),
+*quem* (pessoas, com preposição), *o qual* (evita ambiguidade), *cujo* (posse) e *onde*
+(lugar).
+:::
+
+- **que**: o mais usado, serve para pessoas e coisas — "a casa *que* vi", "o homem
+  *que* chegou".
+- **quem**: só para **pessoas** e sempre precedido de **preposição** — "a pessoa *a
+  quem* me refiro", "o amigo *de quem* falei" (não "o homem quem chegou").
+- **o qual / a qual / os quais / as quais**: substitui *que*, útil para desfazer
+  ambiguidade ou após preposições longas — "a rua na *qual* moro", "o motivo pelo
+  *qual* saí".
+- **onde**: só para **lugar físico** — "a cidade *onde* nasci". Para lugar não físico
+  (situação, momento), use *em que*: "a reunião *em que* decidimos" (não "onde
+  decidimos").
+- **quanto**: após *tudo, todos, tanto* — "Fiz tudo *quanto* pude".
+
+::: {.callout-important}
+## *Cujo*: o relativo da posse
+*Cujo* (e flexões *cuja/cujos/cujas*) indica **posse**, equivalendo a "de que", "do
+qual". Regras de ouro:
+
+1. Vem **entre** o possuidor e a coisa possuída: "o autor **cujo** livro li" (o livro
+   *do* autor).
+2. Concorda com a **coisa possuída**, não com o possuidor: "a escritora **cujas** obras
+   admiro" (*cujas* concorda com *obras*).
+3. **Nunca** vem seguido de artigo: "o país cujas fronteiras..." (não "cujas *as*
+   fronteiras").
+4. Se houver preposição exigida, ela vem **antes** de *cujo*: "o autor **a cujas**
+   ideias me oponho" (opor-se *a*).
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## A regência dentro da oração relativa
+Ponto sofisticado e muito cobrado: a preposição que acompanha o relativo é exigida pelo
+**verbo da oração adjetiva**. "O filme **a que** assisti" (assistir *a* algo, regência
+culta) — não "o filme *que* assisti". "A pessoa **de que** gosto" (gostar *de*). O
+relativo "herda" a preposição do verbo que o rege dentro da oração.
+:::
+
+## Pronomes indefinidos
+
+Os **indefinidos** referem-se à 3ª pessoa de modo **vago, impreciso**. Os principais
+variáveis: *algum, nenhum, todo, muito, pouco, certo, outro, tanto, quanto, vário,
+qualquer*. Invariáveis: *alguém, ninguém, tudo, nada, algo, cada, outrem, quem*.
+
+Alguns empregos que caem em prova:
+
+- ***algum* × *nenhum* pospostos**: *algum* depois do nome ganha valor **negativo**:
+  "não há razão *alguma*" = nenhuma razão. Antes do nome, valor positivo: "*alguma*
+  razão".
+- ***cada***: é invariável e exige um numeral ou quantificação — "*cada* aluno";
+  "custou dez reais *cada*" (uso coloquial censurado por alguns: prefira "cada um").
+- ***todo* × *todo o***: como visto no @sec-cap-28, *todo* (sem artigo) = "qualquer/
+  cada"; *todo o* = "inteiro".
+- ***qualquer***: plural *quaisquer* — "em quaisquer circunstâncias".
+
+## Pronomes interrogativos
+
+Os **interrogativos** são pronomes usados para **formular perguntas** (diretas ou
+indiretas), referindo-se à 3ª pessoa de modo impreciso: **que, quem, qual, quanto**.
+
+- Direta: "*Quem* chegou?", "*Que* horas são?", "*Quanto* custa?", "*Qual* você
+  prefere?".
+- Indireta: "Perguntei *quem* chegou", "Não sei *quanto* custa".
+
+::: {.callout-note}
+## *Que* × *qual* na pergunta
+*Que* pede definição/identificação geral ("*Que* é isto?"); *qual* pede escolha dentro
+de um conjunto ("*Qual* destes você quer?"). Na fala, *que* é mais comum; na norma
+culta escrita, respeita-se a distinção: *qual* quando há seleção entre alternativas.
+:::
+
+## 📋 Quadro-resumo
+
+| Tipo | Formas principais | Uso-chave |
+|---|---|---|
+| **Relativo** | que, quem, o qual, cujo, onde, quanto | retoma antecedente + introduz oração adjetiva |
+| **cujo** | cujo/cuja/cujos/cujas | posse; concorda com o possuído; sem artigo depois |
+| **onde** | onde | só lugar físico (senão, *em que*) |
+| **Indefinido** | algum, nenhum, todo, cada, ninguém... | referência vaga (3ª pessoa) |
+| **Interrogativo** | que, quem, qual, quanto | perguntas (diretas/indiretas) |
+
+Em uma linha: o **relativo** retoma um antecedente e liga a oração adjetiva (com
+destaque para *cujo*, da posse, e *onde*, só de lugar físico); os **indefinidos** dão
+referência vaga; os **interrogativos** formulam perguntas.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Usar *onde* para não-lugar.** *Onde* só para lugar **físico** ("a casa onde moro").
+  Para situação/momento, use *em que* ("a época *em que* vivemos", não "onde vivemos").
+- **Pôr artigo depois de *cujo*.** "O autor *cujo* livro" — nunca "cujo *o* livro".
+- **Fazer *cujo* concordar com o possuidor.** *Cujo* concorda com a **coisa possuída**:
+  "a autora *cujas* obras admiro".
+- **Usar *quem* sem preposição.** *Quem* (relativo) vem sempre com preposição: "a pessoa
+  *a quem* amo", não "a pessoa *quem* amo".
+- **Esquecer a regência do relativo.** A preposição do verbo da adjetiva antecede o
+  relativo: "o filme *a que* assisti" (assistir *a*).
+
+## ✍️ Exercícios
+
+**1.** Identifique o pronome relativo e seu antecedente: "Comprei o livro cujo autor
+admiro."
+
+::: {.callout-tip collapse="true"}
+## Solução
+O pronome relativo é *cujo*; ele estabelece relação de **posse** entre *livro*
+(possuído... na verdade, entre *autor* e *livro*) e liga a oração adjetiva "cujo autor
+admiro". Mais precisamente: *cujo* relaciona *livro* (antecedente) e *autor* (o autor
+*do* livro), indicando que o autor pertence ao livro. Concorda com *autor* (masculino
+singular).
+:::
+
+**2.** (Estilo ENEM) Assinale a frase **correta**:
+
+a) A empresa onde trabalho fica no centro;
+b) A reunião onde decidimos isso foi longa;
+c) O momento onde tudo mudou;
+d) A situação onde me encontro;
+e) A época onde vivíamos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (a).** *Onde* só se usa para **lugar físico**: "a empresa **onde**
+trabalho" (a empresa é um lugar) está correta. Nas demais, os antecedentes não são
+lugares físicos (reunião, momento, situação, época) → deveria ser *em que*: "a reunião
+*em que* decidimos", "o momento *em que* tudo mudou" etc.
+:::
+
+**3.** Complete com *cujo/cuja/cujos/cujas*: (a) "O escritor ___ obra li"; (b) "A cidade
+___ ruas conheço"; (c) "O aluno ___ notas subiram".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "O escritor **cuja** obra li" (*cuja* concorda com *obra*, feminino singular). (b)
+"A cidade **cujas** ruas conheço" (*cujas* concorda com *ruas*, feminino plural). (c) "O
+aluno **cujas** notas subiram" (*cujas* concorda com *notas*). *Cujo* sempre concorda com
+a **coisa possuída** (o termo que vem depois dele), não com o possuidor.
+:::
+
+**4.** Corrija, se necessário: "O filme que eu assisti ontem era ótimo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Na norma culta: "O filme **a que** eu assisti ontem era ótimo." O verbo *assistir*, no
+sentido de "ver, presenciar", rege a preposição *a* (assistir *a* um filme); logo, o
+relativo deve vir precedido dela: *a que*. Na linguagem coloquial, "o filme que assisti"
+é comum, mas a norma-padrão exige *a que*.
+:::
+
+**5.** Distinga o valor de *algum* em "Há alguma esperança" e "Não há esperança alguma".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Há **alguma** esperança" (indefinido **antes** do nome), *alguma* tem valor
+**positivo**: existe alguma esperança. Em "Não há esperança **alguma**" (indefinido
+**depois** do nome, em contexto negativo), *alguma* ganha valor **negativo**,
+equivalente a "nenhuma": não há esperança nenhuma. A posposição em frase negativa
+inverte o sentido de *algum*.
+:::
+
+**6.** (Estilo FCC) Em "A pessoa ___ me refiro é gentil", a lacuna deve ser preenchida
+com:
+
+a) que;
+b) a quem;
+c) cuja;
+d) onde;
+e) qual.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O verbo *referir-se* rege a preposição *a* (referir-se *a* alguém),
+e o antecedente é **pessoa** → usa-se **a quem**: "a pessoa **a quem** me refiro". *Que*
+sozinho não traria a preposição; *cuja* indicaria posse; *onde* seria lugar; *qual*
+exigiria artigo e preposição ("à qual").
+:::
+
+**7.** Classifique os pronomes: "*Qual* deles *ninguém* escolheu?"
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Qual* = pronome **interrogativo** (pede escolha dentro de um conjunto — "deles"). *Ninguém*
+= pronome **indefinido** (referência vaga e negativa a pessoas). O primeiro formula a
+pergunta; o segundo indica ausência de qualquer pessoa.
+:::
+
+**8.** Reescreva usando *o qual* para desfazer a ambiguidade: "Falei com o irmão da
+Ana, que mora no Rio."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Se quem mora no Rio é o **irmão**: "Falei com o irmão da Ana, **o qual** mora no Rio"
+(*o qual*, masculino, refere-se a *irmão*). Se é a **Ana**: "Falei com o irmão da Ana,
+**a qual** mora no Rio" (*a qual*, feminino, refere-se a *Ana*). O uso de *o qual/a
+qual*, ao flexionar em gênero, desfaz a ambiguidade que *que* deixaria.
+:::
+
+**9.** Explique a diferença entre *que* e *qual* nas perguntas, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Que* pede identificação/definição geral, sem um conjunto delimitado: "**Que** é a
+felicidade?", "**Que** horas são?". *Qual* pede **escolha** dentro de um conjunto de
+alternativas: "**Qual** destes livros você prefere?", "**Qual** é a capital?". Quando há
+seleção entre opções, a norma culta prefere *qual*; para pergunta genérica, *que*.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Este é o projeto cujo os
+objetivos aprovamos', o pronome relativo está corretamente empregado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Cujo* **nunca** vem seguido de artigo. O correto é "o projeto **cujos**
+objetivos aprovamos" (sem o artigo *os*, e com *cujos* concordando com *objetivos*,
+masculino plural). A presença do artigo depois de *cujo* é erro clássico de norma.
+:::
+
+## 📚 Referências
+
+Os pronomes relativos, indefinidos e interrogativos são tratados por Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017]; a regência do relativo e o uso de
+*cujo* são pontos de norma detalhados nessas obras. A perspectiva descritiva dos usos
+reais (por exemplo, o predomínio do *que* "universal") está em Castilho [@castilho2010]
+e Perini [@perini2010]. As orações introduzidas pelos relativos são estudadas no
+@sec-cap-45. O verbo, próxima grande classe, ocupa os capítulos 32 a 34.
+
+::: {#refs}
 :::
