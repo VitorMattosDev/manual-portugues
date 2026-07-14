@@ -4,22 +4,281 @@ title: "Ortoépia e prosódia"
 
 # Ortoépia e prosódia {#sec-cap-12}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 2 — Fonética e Fonologia.
+> "*Rúbrica* ou *rubrica*? A dúvida não é sobre o sentido, mas sobre onde bate a voz."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Há dois tipos de "erro de pronúncia" que a tradição gramatical distingue com cuidado:
+pronunciar **mal os sons** de uma palavra (dizer *"cardeneta"* por *caderneta*) e
+pronunciar a palavra com a **sílaba tônica errada** (dizer *"rúbrica"* por
+*rubríca*). Ao primeiro cuida a **ortoépia** (ou ortoepia); ao segundo, a
+**prosódia**. São temas de aparência menor, mas de alta recorrência em concursos — e
+que revelam, mais uma vez, o descompasso entre o uso corrente e a norma-padrão.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo fecha o estudo do "som certo" da palavra segundo a norma culta,
+completando a fonologia antes de passarmos, no @sec-cap-13, à descrição articulatória
+dos sons. Aqui o foco é normativo: quais são, segundo a norma-padrão, as pronúncias
+recomendadas — e onde estão as armadilhas mais frequentes.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** ortoépia (pronúncia dos sons) de prosódia (posição da tônica);
+- **Reconhecer** os erros ortoépicos mais comuns (acréscimo, troca, supressão de sons);
+- **Identificar** as palavras de prosódia duvidosa (oscilação da tônica);
+- **Classificar** palavras como oxítonas, paroxítonas ou proparoxítonas segundo a
+  norma;
+- **Diferenciar** silabada (erro de prosódia) de erro ortoépico;
+- **Aplicar** a norma culta de pronúncia em contextos de prova e fala formal.
+
+## Ortoépia: a pronúncia correta dos sons
+
+**Ortoépia** (do grego *orthós*, "correto", + *épos*, "palavra") é a parte da
+gramática que trata da **pronúncia correta dos fonemas** segundo a norma culta. Um
+erro de ortoépia — chamado **cacoepia** — é pronunciar mal os sons de uma palavra, por
+acréscimo, supressão ou troca de fonemas.
+
+Muitos desses "erros" são justamente os processos fonológicos do capítulo anterior,
+vistos agora do ponto de vista **normativo**: o que descrevemos como epêntese, síncope
+ou rotacismo, a norma-padrão trata como pronúncia a evitar em registro formal.
+
+::: {.exemplo}
+Erros ortoépicos frequentes (à esquerda, a forma a evitar; à direita, a recomendada):
+
+- *"adevogado"* → **advogado** (epêntese a evitar)
+- *"cardeneta"* → **caderneta** (troca de sons)
+- *"mendigo"* pronunciado *"mendingo"* → **mendigo** (epêntese)
+- *"beneficência"* dita *"beneficiência"* → **beneficência** (acréscimo indevido de /i/)
+- *"prazeroso"* → **prazeroso** (e não *"prazenteiroso"*)
+- *"reivindicar"* → **reivindicar** (e não *"reinvindicar"*)
+- *"frustrado"* → **frustrado** (e não *"frustado"*, com síncope)
+- *"bicarbonato"* → **bicarbonato** (e não *"bicabornato"*, metátese)
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Cuidado com o *x* e com dígrafos
+Alguns erros ortoépicos envolvem a leitura de letras: *"estupro"* (não *"estrupo"*),
+*"asterisco"* (não *"asterístico"*), *"cabeleireiro"* (não *"cabelereiro"*). Aqui o
+problema é acrescentar, suprimir ou trocar sons em relação à forma culta registrada
+nos dicionários.
+:::
+
+## Prosódia: a posição correta da tônica
+
+**Prosódia** é a parte da gramática que trata da **correta acentuação tônica** das
+palavras — isto é, de qual sílaba é a tônica, segundo a norma culta. O erro de prosódia
+chama-se **silabada**: deslocar a tônica para a sílaba errada.
+
+Atenção à diferença: a prosódia trata da **tônica** (força da voz), não do **acento
+gráfico**. Muitas palavras de prosódia duvidosa nem sequer levam acento; o erro está na
+pronúncia, não na escrita.
+
+A @fig-prosodia-oscilante organiza as palavras que mais causam dúvida, separando as que
+a norma manda pronunciar como oxítonas, paroxítonas e proparoxítonas.
+
+::: {#fig-prosodia-oscilante}
+
+```{.tikz}
+%%| filename: prosodia-oscilante
+%%| alt: Três colunas de palavras de prosódia frequentemente confundida, classificadas segundo a norma. Coluna paroxítonas (norma): rubrica, ibero, avaro, filantropo, pudico. Coluna proparoxítonas (norma): aerólito, ínterim, protótipo. Coluna oxítonas ou casos especiais: mister, novel, Nobel, recém.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  col/.style={rounded corners=3pt, draw, align=left, text width=38mm, minimum height=34mm, inner sep=6pt, anchor=north},
+]
+  \node[col, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{Paroxítonas}\\{\scriptsize (tônica na penúltima)}\\[3pt] ru\textbf{bri}ca\\ i\textbf{be}ro\\ a\textbf{va}ro\\ filan\textbf{tro}po\\ pu\textbf{di}co\\ re\textbf{cor}de};
+  \node[col, draw=manualred, fill=manualred!8] (b) at (4.3,0) {\textbf{Proparoxítonas}\\{\scriptsize (tônica na antepenúltima)}\\[3pt] ae\textbf{ró}lito\\ \textbf{ín}terim\\ pro\textbf{tó}tipo\\ \textbf{ávaro?} não\\ \textbf{tra}nsístor?};
+  \node[col, draw=manualgreen, fill=manualgreen!8] (c) at (8.6,0) {\textbf{Oxítonas / especiais}\\{\scriptsize (tônica na última)}\\[3pt] mis\textbf{ter}\\ no\textbf{vel}\\ No\textbf{bel}\\ ur\textbf{tiga}? não\\ ce\textbf{tro}? não};
+\end{tikzpicture}
+```
+
+Palavras de prosódia frequentemente confundida, classificadas conforme a
+norma-padrão: a tônica correta aparece em negrito.
+:::
+
+### Paroxítonas que muitos dizem como proparoxítonas
+
+A norma culta as quer **paroxítonas**, mas é comum ouvi-las como proparoxítonas:
+
+- **rubrica** (ru-BRI-ca, não "RÚ-bri-ca")
+- **ibero** (i-BE-ro, não "Í-be-ro")
+- **avaro** (a-VA-ro, não "Á-va-ro")
+- **filantropo** (fi-lan-TRO-po, não "fi-LÂN-tro-po")
+- **pudico** (pu-DI-co, não "PÚ-di-co")
+- **recorde** (re-COR-de, não "RÉ-cor-de")
+
+### Proparoxítonas que muitos dizem como paroxítonas
+
+O inverso também ocorre. A norma as quer **proparoxítonas**:
+
+- **aerólito** (a-e-RÓ-li-to)
+- **ínterim** (ÍN-te-rim)
+- **protótipo** (pro-TÓ-ti-po)
+
+### Oxítonas confundidas
+
+- **mister** (mis-TER, no sentido de "necessário": *é mister agir*)
+- **novel** (no-VEL, "novo, inexperiente")
+- **Nobel** (No-BEL — o prêmio, oxítona)
+
+## Palavras com dupla prosódia aceita
+
+Algumas palavras admitem **duas** pronúncias, ambas corretas segundo a norma — são as
+de **prosódia dupla**:
+
+- **acróbata** / **acrobata**
+- **xérox** / **xerox**
+- **ortoépia** / **ortoepia** (o próprio termo!)
+- **hieróglifo** / **hieroglifo**
+- **zângão** / **zangão**
+- **transístor** / **transistor**
+
+Nesses casos, não há erro em nenhuma das formas — o dicionário registra as duas.
+
+## 📋 Quadro-resumo
+
+| Área | Trata de | Erro | Exemplo de erro |
+|---|---|---|---|
+| **Ortoépia** | Pronúncia dos sons/fonemas | Cacoepia | *"adevogado"*, *"frustado"* |
+| **Prosódia** | Posição da sílaba tônica | Silabada | *"rúbrica"* por *rubrica* |
+
+Paroxítonas (norma): *rubrica, ibero, avaro, filantropo, pudico, recorde*.
+Proparoxítonas (norma): *aerólito, ínterim, protótipo*.
+Oxítonas: *mister, novel, Nobel*.
+Prosódia dupla: *acróbata/acrobata, xérox/xerox, zângão/zangão*.
+
+Em uma linha: a **ortoépia** cuida do som certo dos fonemas; a **prosódia**, da tônica
+certa — e as pegadinhas de concurso moram nas palavras que o uso corrente pronuncia
+fora da norma.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir ortoépia com prosódia.** Ortoépia = pronúncia dos **sons** (*advogado*
+  sem o "e" de *"adevogado"*); prosódia = posição da **tônica** (*rubrica* paroxítona).
+- **Dizer *"rúbrica"*, *" íbero"*, *"ávaro"*.** A norma quer essas palavras
+  **paroxítonas**: ru-BRI-ca, i-BE-ro, a-VA-ro.
+- **Achar que prosódia é sobre acento gráfico.** É sobre a **tônica** (pronúncia).
+  Muitas palavras de prosódia duvidosa nem levam acento.
+- **Ignorar as de prosódia dupla.** *Xérox*/*xerox*, *acróbata*/*acrobata*,
+  *zângão*/*zangão* têm as duas formas aceitas — marcar uma como "errada" é a pegadinha.
+- **Inserir sons inexistentes.** *"reinvindicar"* (o certo é *reivindicar*),
+  *"beneficiência"* (o certo é *beneficência*), *"mendingo"* (o certo é *mendigo*).
+
+## ✍️ Exercícios
+
+**1.** Diferencie **ortoépia** de **prosódia**, dando um exemplo de erro de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Ortoépia trata da pronúncia correta dos **sons/fonemas** da palavra; seu erro
+(cacoepia) é pronunciar mal os sons, como *"adevogado"* por *advogado*. Prosódia trata
+da posição correta da **sílaba tônica**; seu erro (silabada) é deslocar a tônica, como
+*"rúbrica"* por *rubrica*. Uma cuida dos sons; a outra, de onde bate a força da voz.
+:::
+
+**2.** (Estilo ENEM) A pronúncia *"RÚ-bri-ca"*, em vez de *ru-BRI-ca*, constitui:
+
+a) erro de ortoépia (cacoepia);
+b) erro de prosódia (silabada);
+c) forma aceita como prosódia dupla;
+d) erro de ortografia;
+e) variação regional sem estatuto de erro.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O erro está em deslocar a **sílaba tônica** (a norma quer *rubrica*
+paroxítona, ru-BRI-ca) — trata-se de **silabada**, erro de prosódia. Não é ortoépia
+(os sons estão certos), nem prosódia dupla (a norma admite só a forma paroxítona).
+:::
+
+**3.** Classifique quanto à tonicidade, segundo a norma: (a) *ibero*; (b) *ínterim*;
+(c) *mister* (necessário); (d) *filantropo*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *ibero* → paroxítona (i-BE-ro). (b) *ínterim* → proparoxítona (ÍN-te-rim). (c)
+*mister* → oxítona (mis-TER). (d) *filantropo* → paroxítona (fi-lan-TRO-po).
+:::
+
+**4.** Corrija os erros ortoépicos: (a) *"frustado"*; (b) *"reinvindicar"*; (c)
+*"beneficiência"*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *frustrado* (com o *r*: frus-**tr**a-do). (b) *reivindicar* (rei-vin-di-car, sem o
+*n* extra). (c) *beneficência* (be-ne-fi-cên-cia, sem o *i* de *"ciência"*).
+:::
+
+**5.** O que é uma palavra de **prosódia dupla**? Dê dois exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+É a palavra que admite **duas** pronúncias tônicas, ambas aceitas pela norma e
+registradas em dicionário. Exemplos: *acróbata* / *acrobata*; *xérox* / *xerox*;
+*zângão* / *zangão*; *ortoépia* / *ortoepia*. Nenhuma das formas é considerada erro.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa cuja prosódia está de acordo com a norma:
+
+a) "RÉ-cor-de" (marca esportiva);
+b) "PÚ-di-co";
+c) "a-e-RÓ-li-to";
+d) "fi-LÂN-tro-po";
+e) "Í-be-ro".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** *Aerólito* é proparoxítona (a-e-RÓ-li-to), conforme a norma. As
+demais estão erradas: o correto é re-COR-de (paroxítona), pu-DI-co, fi-lan-TRO-po e
+i-BE-ro (todas paroxítonas).
+:::
+
+**7.** Explique por que o "erro" de dizer *"adevogado"* pode ser relacionado a um
+processo fonológico do capítulo anterior.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*"Adevogado"* resulta de **epêntese**: o acréscimo de uma vogal (/e/) no meio da
+palavra para desfazer o encontro consonantal *dv*, difícil de pronunciar. Do ponto de
+vista descritivo, é um processo fonológico regular; do ponto de vista **normativo**
+(ortoépia), é uma cacoepia a evitar no registro formal, pois a forma culta é
+*advogado*. O mesmo fato visto por duas lentes: a descritiva e a normativa.
+:::
+
+**8.** Coloque a tônica correta e classifique: (a) *avaro*; (b) *protótipo*; (c)
+*novel*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *a-VA-ro* → paroxítona. (b) *pro-TÓ-ti-po* → proparoxítona. (c) *no-VEL* → oxítona
+("novo, inexperiente").
+:::
+
+**9.** Um locutor diz "o vencedor do prêmio NÓ-bel". Há erro? De que tipo?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Sim, há erro de **prosódia** (silabada). O prêmio *Nobel* é **oxítona** (No-BEL),
+conforme a norma e a origem do nome (Alfred Nobel). Dizer "NÓ-bel" (como paroxítona)
+desloca indevidamente a tônica. Os sons estão certos, mas a posição da tônica, não —
+por isso é erro de prosódia, não de ortoépia.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "As palavras *xérox* e *xerox* são
+ambas aceitas pela norma, constituindo caso de prosódia dupla."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** *Xérox* (proparoxítona/paroxítona com acento) e *xerox* (oxítona) são
+ambas registradas e aceitas — caso de **prosódia dupla**. Nenhuma das duas pronúncias
+constitui erro.
+:::
+
+## 📚 Referências
+
+O tratamento normativo da ortoépia e da prosódia segue Bechara [@bechara2009] e Cunha
+& Cintra [@cunhacintra2017]; as pronúncias registradas devem ser confirmadas no
+dicionário Houaiss [@houaiss2009]. A relação entre esses "erros" e os processos
+fonológicos regulares é discutida por Bagno [@bagno2007].
+
+::: {#refs}
 :::
