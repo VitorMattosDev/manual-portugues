@@ -4,22 +4,285 @@ title: "Formação de palavras II: composição e outros processos"
 
 # Formação de palavras II: composição e outros processos {#sec-cap-24}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 4 — Morfologia I: Estrutura e Formação de Palavras.
+> "Quando um radical não basta, a língua junta dois — ou inventa atalhos."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+No capítulo anterior vimos a **derivação**, que forma palavras a partir de **um**
+radical mais afixos. Agora estudamos a **composição**, o processo que forma palavras
+juntando **dois ou mais radicais** — *guarda* + *chuva* → *guarda-chuva*; *pé* +
+*de* + *moleque* → *pé-de-moleque*. Além dela, o português dispõe de outros processos
+menores, porém muito produtivos na vida contemporânea: **abreviação**, **sigla**,
+**onomatopeia**, **hibridismo**, **neologismo por empréstimo**. Este capítulo completa,
+assim, o panorama da formação de palavras.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Distinguir **derivação** de **composição** é fundamental (e cobrado): na derivação, há
+um radical só; na composição, dois ou mais. E, dentro da composição, importa separar a
+**justaposição** da **aglutinação** — outra pegadinha frequente. Vamos organizar tudo
+isso.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Conceituar** composição como junção de dois ou mais radicais;
+- **Distinguir** composição por justaposição de composição por aglutinação;
+- **Diferenciar** composição de derivação;
+- **Reconhecer** os processos menores (abreviação, sigla, onomatopeia, hibridismo);
+- **Identificar** empréstimos e neologismos;
+- **Classificar** palavras quanto ao processo de formação.
+
+## Composição: dois radicais ou mais
+
+Na **composição**, forma-se uma palavra nova pela junção de **dois ou mais radicais**
+(que geralmente existem como palavras autônomas). O resultado tem significado próprio,
+muitas vezes diferente da simples soma: um *pé-de-moleque* não é o pé de ninguém.
+
+Há dois tipos, distinguidos pelo modo como os radicais se juntam. A @fig-composicao os
+contrasta.
+
+::: {#fig-composicao}
+
+```{.tikz}
+%%| filename: composicao
+%%| alt: Diagrama comparando os dois tipos de composição. Justaposição: os radicais se juntam sem perder letras nem sofrer alteração sonora, mantendo a integridade, exemplos guarda-chuva, girassol, passatempo. Aglutinação: os radicais se fundem com perda de elementos e alteração, exemplos planalto de plano mais alto, aguardente de água mais ardente, embora de em boa hora.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=54mm, minimum height=34mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{JUSTAPOSIÇÃO}\\{\scriptsize radicais se juntam \emph{sem} perda; mantêm a integridade}\\[4pt] • guarda-chuva\\ • girassol (gira + sol)\\ • passatempo\\ • segunda-feira\\ • couve-flor};
+  \node[cx, draw=manualred, fill=manualred!8, right=6mm of a] (b) {\textbf{AGLUTINAÇÃO}\\{\scriptsize radicais se \emph{fundem}, com perda de sons e alteração}\\[4pt] • planalto (plano + alto)\\ • aguardente (água + ardente)\\ • embora (em + boa + hora)\\ • fidalgo (filho + de + algo)\\ • vinagre (vinho + acre)};
+\end{tikzpicture}
+```
+
+Os dois tipos de composição: na **justaposição**, os radicais mantêm a integridade
+(*guarda-chuva*); na **aglutinação**, fundem-se com perda de elementos
+(*planalto* = *plano* + *alto*).
+:::
+
+### Composição por justaposição
+
+Os radicais **juntam-se sem perder letras nem alterar a pronúncia** — cada elemento
+mantém sua integridade. Pode haver hífen ou não: *guarda-chuva*, *segunda-feira*,
+*couve-flor*, *passatempo*, *girassol*, *pontapé*, *beija-flor*. Note: mesmo em
+*girassol* (sem hífen), reconhecem-se *gira* + *sol* intactos.
+
+### Composição por aglutinação
+
+Os radicais **fundem-se**, com **perda de sons** e alteração fonética; a soldadura é
+tão forte que nem sempre se reconhecem os elementos originais:
+
+- *planalto* = *plano* + *alto* (perde-se o *-o* de *plano*);
+- *aguardente* = *água* + *ardente*;
+- *embora* = *em* + *boa* + *hora*;
+- *fidalgo* = *filho* + *de* + *algo*;
+- *vinagre* = *vinho* + *acre*.
+
+Na aglutinação, há **um único acento tônico** e a fusão altera a forma; na
+justaposição, os elementos preservam-se (e muitas vezes cada um mantém seu acento).
+
+::: {.callout-important}
+## Composição × derivação: o número de radicais
+A diferença essencial:
+
+- **Derivação**: **um** radical + afixos (*infeliz* = *in-* + *feliz*).
+- **Composição**: **dois ou mais** radicais (*aguardente* = *água* + *ardente*).
+
+Se você identifica dois núcleos de significado (dois radicais), é composição; se há um
+radical só, com prefixos/sufixos, é derivação. Cuidado: *pé-de-moleque* é composição
+(três radicais); *pedreiro* é derivação (um radical, *pedr-*, + sufixo).
+:::
+
+## Processos menores de formação
+
+Além de derivação e composição, o português cria palavras por meios secundários, hoje
+muito produtivos:
+
+### Abreviação (redução)
+
+Encurta-se a palavra, que passa a circular na forma reduzida: *foto* (fotografia),
+*moto* (motocicleta), *pneu* (pneumático), *cine* (cinema), *extra* (extraordinário),
+*busão* (não — esse é gíria). A forma curta ganha autonomia.
+
+### Siglonimização (formação por siglas)
+
+Cria-se palavra a partir das iniciais de um nome composto: *ONU*, *OVNI*, *radar* (de
+sigla inglesa), *laser*. Algumas siglas viram palavras comuns e até geram derivados
+(*ONG* → *onguero*; *PT* → *petista*).
+
+### Onomatopeia
+
+Formam-se palavras que **imitam sons**: *tique-taque*, *reco-reco*, *zunzum*, *miau*,
+*toc-toc*, *pingue-pongue*. Geram derivados (*cochichar*, de *cochicho*).
+
+### Hibridismo
+
+Compõe-se com radicais de **línguas diferentes** (geralmente grego + latim, ou com
+línguas modernas): *automóvel* (grego *auto-* + latim *mobile*), *sociologia* (latim
+*socius* + grego *logia*), *burocracia*, *monóculo*, *televisão*. São formações
+"mistas".
+
+### Neologismo e empréstimo
+
+- **Neologismo**: palavra nova criada na língua (*deletar*, *printar*, *tuitar*).
+- **Empréstimo** (estrangeirismo): palavra tomada de outra língua (*futebol*, *abajur*,
+  *shopping*, *delete*), às vezes aportuguesada (*futebol* de *football*), às vezes não
+  (*show*). Voltaremos a eles no @sec-cap-67.
+
+## 📋 Quadro-resumo
+
+| Processo | Como se forma | Exemplo |
+|---|---|---|
+| **Composição — justaposição** | 2+ radicais **sem** perda | *guarda-chuva*, *girassol* |
+| **Composição — aglutinação** | 2+ radicais **fundidos** (com perda) | *planalto*, *aguardente* |
+| **Derivação** (cap. 23) | **um** radical + afixos | *infeliz*, *pedreiro* |
+| **Abreviação** | redução da palavra | *foto*, *moto*, *pneu* |
+| **Sigla** | iniciais de nome composto | *ONU*, *radar* |
+| **Onomatopeia** | imitação de sons | *tique-taque*, *miau* |
+| **Hibridismo** | radicais de línguas diferentes | *automóvel*, *sociologia* |
+| **Empréstimo/neologismo** | de outra língua / criação nova | *futebol*, *deletar* |
+
+Em uma linha: a **composição** junta **dois ou mais radicais**, por **justaposição**
+(sem perda: *guarda-chuva*) ou **aglutinação** (com fusão: *planalto*) — distinguindo-se
+da derivação (um radical) — e completam o quadro a abreviação, a sigla, a onomatopeia,
+o hibridismo e os empréstimos.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir composição com derivação.** Composição = **dois ou mais** radicais
+  (*aguardente*); derivação = **um** radical + afixos (*pedreiro*). Conte os radicais.
+- **Trocar justaposição por aglutinação.** Justaposição: radicais **inteiros**
+  (*girassol* = *gira* + *sol*). Aglutinação: radicais **fundidos com perda**
+  (*planalto* = *plan(o)* + *alto*).
+- **Achar que hífen é obrigatório na justaposição.** *Girassol*, *pontapé*, *passatempo*
+  são justapostos **sem** hífen. A presença de hífen não define o tipo.
+- **Não reconhecer hibridismo.** *Automóvel*, *sociologia*, *televisão* misturam
+  radicais de línguas diferentes (grego + latim) — é hibridismo.
+- **Ignorar a abreviação.** *Foto*, *moto*, *pneu*, *cine* são reduções autônomas, um
+  processo próprio de formação.
+
+## ✍️ Exercícios
+
+**1.** Explique a diferença essencial entre composição e derivação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A diferença está no **número de radicais**: a **derivação** parte de **um** radical, ao
+qual se acrescentam afixos (*in-* + *feliz* = *infeliz*; *pedr-* + *-eiro* =
+*pedreiro*). A **composição** junta **dois ou mais** radicais (*água* + *ardente* =
+*aguardente*; *guarda* + *chuva* = *guarda-chuva*). Um radical → derivação; dois ou
+mais → composição.
+:::
+
+**2.** (Estilo ENEM) A palavra *planalto* é formada por:
+
+a) derivação prefixal;
+b) composição por justaposição;
+c) composição por aglutinação;
+d) derivação parassintética;
+e) abreviação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** *Planalto* = *plano* + *alto*, com **perda** do *-o* de *plano* e
+fusão dos elementos → composição por **aglutinação**. Se os radicais se mantivessem
+inteiros (como em *girassol*), seria justaposição.
+:::
+
+**3.** Classifique como justaposição ou aglutinação: (a) *guarda-roupa*; (b)
+*aguardente*; (c) *passatempo*; (d) *vinagre*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *guarda-roupa* → justaposição (radicais inteiros). (b) *aguardente* → aglutinação
+(*água* + *ardente*, com fusão). (c) *passatempo* → justaposição (*passa* + *tempo*
+inteiros). (d) *vinagre* → aglutinação (*vinho* + *acre*, com perda).
+:::
+
+**4.** Identifique o processo de formação: (a) *foto*; (b) *automóvel*; (c) *tique-taque*;
+(d) *couve-flor*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *foto* → **abreviação** (redução de *fotografia*). (b) *automóvel* → **hibridismo**
+(grego *auto-* + latim *mobile*). (c) *tique-taque* → **onomatopeia** (imita som). (d)
+*couve-flor* → **composição por justaposição** (dois radicais inteiros).
+:::
+
+**5.** Por que *girassol* é composição, e não derivação, mesmo sem hífen?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque *girassol* junta **dois radicais** (*gira*, do verbo girar, + *sol*), cada um
+com significado próprio — é composição (por justaposição). A ausência de hífen não a
+transforma em derivação: o que define a composição é a presença de dois ou mais
+radicais, não a grafia com ou sem hífen. Se houvesse um radical só + afixo, seria
+derivação.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa formada por **hibridismo**:
+
+a) guarda-chuva;
+b) sociologia;
+c) planalto;
+d) foto;
+e) reco-reco.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Sociologia* mistura o radical latino *socius* ("sociedade") e o
+grego *-logia* ("estudo") → **hibridismo** (radicais de línguas diferentes). As demais
+são: composição justaposta (a), aglutinada (c), abreviação (d) e onomatopeia (e).
+:::
+
+**7.** Dê dois exemplos de palavras formadas por **abreviação** e explique o processo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplos: *moto* (de *motocicleta*), *pneu* (de *pneumático*), *cine* (de *cinema*),
+*extra* (de *extraordinário*). No processo de **abreviação** (ou redução), a palavra é
+encurtada e a forma reduzida passa a circular com autonomia, substituindo a longa no
+uso corrente.
+:::
+
+**8.** A palavra *pé-de-moleque* é derivação ou composição? Quantos radicais tem?
+
+::: {.callout-tip collapse="true"}
+## Solução
+É **composição** (por justaposição). Tem **três** radicais: *pé* + *de* + *moleque*
+(o *de* é elemento de ligação/preposição, mas a formação junta *pé* e *moleque*, dois
+núcleos plenos). Por ter mais de um radical, é composição — nunca derivação, que teria
+um radical só.
+:::
+
+**9.** Diferencie **neologismo** de **empréstimo**, com um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Neologismo** é a palavra **nova criada na própria língua**, muitas vezes por derivação
+ou composição a partir de material existente (*deletar*, *tuitar*, *printar*).
+**Empréstimo** (estrangeirismo) é a palavra **tomada de outra língua** (*futebol*, de
+*football*; *abajur*, do francês; *shopping*, do inglês), às vezes aportuguesada, às
+vezes não. Um cria; o outro importa.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "A palavra *aguardente* é formada por
+derivação, pois resulta do acréscimo de um sufixo ao radical *água*."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Aguardente* é formada por **composição** (aglutinação): junta **dois
+radicais**, *água* + *ardente*, com fusão e perda de sons. Não há acréscimo de sufixo a
+um único radical — logo, não é derivação. A presença de dois núcleos de significado
+caracteriza a composição.
+:::
+
+## 📚 Referências
+
+Os processos de composição (justaposição e aglutinação) e os processos menores de
+formação seguem Câmara Jr. [@camarajr1970], Bechara [@bechara2009] e Cunha & Cintra
+[@cunhacintra2017]. Sobre empréstimos e neologismos na dinâmica atual do léxico, ver
+Castilho [@castilho2010]; o tema será retomado no @sec-cap-67. As famílias de palavras e
+a produtividade lexical fecham o volume no @sec-cap-25.
+
+::: {#refs}
 :::
