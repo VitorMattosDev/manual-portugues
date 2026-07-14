@@ -4,22 +4,338 @@ title: "Norma culta, norma-padrão e variedades"
 
 # Norma culta, norma-padrão e variedades {#sec-cap-03}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 1 — Introdução aos Estudos da Linguagem.
+> "Norma não é o mesmo que gramática normativa, e uso culto não é o mesmo que
+> norma-padrão. Confundir esses planos é a origem de muita polêmica estéril."
+> — livremente inspirado em Carlos Alberto Faraco
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Poucas expressões são tão repetidas — e tão mal compreendidas — quanto "norma
+culta" e "norma-padrão". Trata-se, no senso comum, de sinônimos vagos para "o
+português certo". Mas a linguística contemporânea os distingue com cuidado, e essa
+distinção é decisiva: dela depende entender por que uma prova de concurso pode
+exigir uma construção que nenhum jornalista culto usa espontaneamente, e por que
+"falar bem" não é a mesma coisa que "seguir a gramática à risca".
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo fecha a tríade conceitual dos primeiros capítulos: depois de separar
+língua e fala (@sec-cap-01) e descrição e norma (@sec-cap-02), organizamos agora o
+território das **variedades** — as muitas formas que o português assume — e o lugar
+particular que a **norma culta** e a **norma-padrão** ocupam nesse território.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** variedade linguística e reconhecer suas dimensões (regional, social,
+  situacional);
+- **Distinguir** norma culta (uso real dos falantes escolarizados) de norma-padrão
+  (modelo idealizado registrado nas gramáticas);
+- **Explicar** por que norma-padrão e norma culta nem sempre coincidem;
+- **Situar** o preconceito linguístico como um julgamento social, não linguístico;
+- **Aplicar** o conceito de adequação (registro) à escolha da variedade em cada
+  situação;
+- **Analisar** enunciados quanto ao grau de formalidade e à norma envolvida.
+
+## Variedades linguísticas: a língua no plural
+
+Nenhuma língua viva é uniforme. O português que se fala em Porto Alegre não é
+idêntico ao de Recife; o de um adolescente difere do de seu avô; o de uma conversa
+entre amigos difere do de uma defesa de tese. A cada uma dessas formas particulares
+damos o nome de **variedade** (ou **variante**, no nível de cada forma específica).
+
+A variação organiza-se em algumas dimensões clássicas, que estudaremos a fundo no
+Volume 14 e apenas apresentamos aqui:
+
+- **Variação diatópica** (regional): diferenças no espaço — *mandioca*, *aipim*,
+  *macaxeira* para a mesma raiz; o "chiado" do carioca; o "r retroflexo" (o
+  "r caipira") do interior paulista.
+- **Variação diastrática** (social): diferenças entre grupos sociais, ligadas a
+  escolaridade, faixa etária, profissão — gírias juvenis, jargões técnicos,
+  concordâncias populares.
+- **Variação diafásica** (situacional/registro): diferenças conforme a situação —
+  o mesmo falante alterna entre o registro informal ("*Cê viu isso?*") e o formal
+  ("Vossa Senhoria observou o ocorrido?").
+
+Nenhuma dessas variedades é, em si, "melhor" que outra do ponto de vista
+**linguístico**: todas são sistemas plenos e funcionais. O que existe é diferença
+de **prestígio social** — um fato da sociedade, não da língua.
+
+## Norma culta × norma-padrão
+
+Aqui está a distinção mais cobrada e mais confundida do capítulo. Preste atenção,
+porque parece sutil e é fundamental.
+
+::: {#fig-norma-culta-padrao}
+
+```{.tikz}
+%%| filename: norma-culta-padrao
+%%| alt: Diagrama de dois círculos parcialmente sobrepostos. O círculo azul representa a norma culta (uso real dos falantes escolarizados) e o vermelho a norma-padrão (modelo idealizado das gramáticas). A interseção mostra o que coincide; as partes não sobrepostas mostram usos cultos não previstos pelo padrão e regras do padrão não seguidas na fala culta espontânea.
+
+\begin{tikzpicture}[font=\small]
+  \fill[manualblue!14] (-1.2,0) circle (2.2);
+  \fill[manualred!14] (1.2,0) circle (2.2);
+  \draw[manualblue, very thick] (-1.2,0) circle (2.2);
+  \draw[manualred, very thick] (1.2,0) circle (2.2);
+
+  \node[text=manualblue, align=center, font=\bfseries] at (-2.5,1.6) {NORMA\\CULTA};
+  \node[text=manualred, align=center, font=\bfseries] at (2.5,1.6) {NORMA-\\PADRÃO};
+
+  \node[align=center, text width=24mm, font=\footnotesize] at (-2.2,-0.3) {uso real dos falantes escolarizados};
+  \node[align=center, text width=22mm, font=\footnotesize] at (2.3,-0.3) {modelo ideal das gramáticas};
+  \node[align=center, text width=17mm, font=\scriptsize] at (0,-0.1) {\textbf{coincidência}};
+
+  \node[align=center, font=\scriptsize, text=manualblue] at (-2.3,-1.7) {``entre eu e você''};
+  \node[align=center, font=\scriptsize, text=manualred] at (2.3,-1.7) {``entre mim e você''};
+\end{tikzpicture}
+```
+
+Norma culta e norma-padrão têm ampla interseção, mas não coincidem: há usos cultos
+correntes não previstos pelo padrão e regras do padrão que a fala culta espontânea
+frequentemente não segue.
+:::
+
+A **norma culta** é o conjunto de usos linguísticos **efetivamente praticados**
+pelos falantes escolarizados, urbanos, em situações monitoradas — o português que
+sai da boca e da pena de professores, jornalistas, advogados, escritores no seu dia
+a dia profissional. É um fato **observável**: descreve-se coletando o que essas
+pessoas realmente dizem e escrevem [@faraco2008].
+
+A **norma-padrão** (ou norma gramatical) é um **modelo idealizado**, um conjunto de
+regras codificadas nas gramáticas normativas e nos manuais, que funciona como
+referência de correção para a escrita formal. Não é o retrato de nenhum falante
+real: é uma abstração relativamente estável e conservadora, muitas vezes baseada em
+usos literários de outras épocas.
+
+O ponto crucial: **as duas se sobrepõem em grande parte, mas não são idênticas**.
+
+::: {.exemplo}
+Casos em que a **norma culta real diverge da norma-padrão**:
+
+- Colocação pronominal: falantes cultos dizem espontaneamente "*Me* parece que
+  sim"; a norma-padrão prescreve "Parece-*me* que sim" (não se inicia frase com
+  próclise, na regra tradicional).
+- Uso de *onde*: é comum, na fala culta, "a reunião *onde* decidimos..."; a
+  norma-padrão exige *onde* apenas para lugar físico ("em que" para o resto).
+- Concordância com sujeito coletivo distante, regência de *assistir*, emprego do
+  infinitivo pessoal: em todos, há descompasso entre o que o falante culto produz e
+  o que a gramática normativa prescreve.
+:::
+
+Por isso Faraco [@faraco2008] insiste: quando uma banca "cobra a norma", ela cobra,
+na maioria das vezes, a **norma-padrão** (o modelo), não a norma culta (o uso real).
+Saber disso evita a frustração de quem "fala bem" e mesmo assim erra na prova: a
+prova não mede o uso culto, mede o domínio do modelo padrão.
+
+## Adequação: a chave que substitui "certo × errado"
+
+Se as variedades não se hierarquizam linguisticamente, como decidir o que usar? A
+resposta da linguística moderna é o conceito de **adequação**. Em vez de perguntar
+"isso é certo ou errado?", pergunta-se "isso é **adequado** a esta situação?".
+
+Uma mesma forma pode ser perfeitamente adequada num contexto e inadequada noutro:
+
+- "*E aí, cê tá suave?*" — adequado entre amigos; inadequado numa entrevista de
+  emprego.
+- "Cumpre-nos salientar a imperiosa necessidade de..." — adequado num parecer
+  jurídico; risível num bilhete para a família.
+
+O falante competente não é o que usa *sempre* a norma-padrão, mas o que sabe
+**transitar** entre as variedades conforme a situação exige — o que os
+sociolinguistas chamam de *competência comunicativa*. Dominar a norma-padrão é parte
+essencial dessa competência (porque muitas situações a exigem), mas não a esgota.
+
+## Preconceito linguístico: um julgamento social
+
+Quando uma variedade estigmatizada é tratada como "erro", "feiúra" ou "burrice",
+sai-se do plano linguístico e entra-se no plano do **preconceito linguístico** —
+uma forma de discriminação social que se disfarça de zelo gramatical [@bagno2007].
+
+É importante ser preciso aqui, para não cair em caricatura:
+
+- **Não** é preconceito ensinar e cobrar a norma-padrão nos contextos que a exigem
+  (a escola, o concurso, o texto oficial). Isso é dar ao estudante uma ferramenta
+  de cidadania.
+- **É** preconceito tratar quem usa variedades estigmatizadas como inferior,
+  ridicularizar sotaques regionais, ou afirmar que "o povo não sabe falar
+  português". Isso confunde valor social com valor humano e projeta na língua uma
+  hierarquia que é, na verdade, social.
+
+A postura madura — e a deste manual — é ensinar a norma-padrão com rigor *e*
+respeitar as demais variedades, deixando claro que a diferença entre elas é de
+prestígio, não de correção intrínseca.
+
+## 📋 Quadro-resumo
+
+| Conceito | O que é | Natureza |
+|---|---|---|
+| **Variedade** | Cada forma particular da língua (regional, social, situacional) | Descritiva; nenhuma superior |
+| **Norma culta** | Uso real dos falantes escolarizados em situação monitorada | Observável, descritível |
+| **Norma-padrão** | Modelo idealizado das gramáticas normativas | Abstrato, conservador, prescritivo |
+| **Adequação** | Ajuste da variedade à situação de uso | Substitui o par "certo × errado" |
+| **Preconceito linguístico** | Julgar variedades estigmatizadas como inferiores | Discriminação social, não fato linguístico |
+
+Em uma linha: a língua se realiza em muitas **variedades**; a **norma culta** é o
+uso real dos escolarizados; a **norma-padrão** é o modelo idealizado — e a bússola
+não é "certo × errado", mas **adequação** ao contexto.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Tomar norma culta e norma-padrão como sinônimos.** A norma culta é o uso real; a
+  norma-padrão é o modelo idealizado. Elas se sobrepõem muito, mas divergem em
+  vários pontos (colocação pronominal, regência, *onde*). Bancas exploram exatamente
+  essa diferença.
+- **Achar que "variedade" é o mesmo que "erro".** Variedade é forma sistemática e
+  legítima; o que muda entre variedades é o prestígio social, não a correção
+  linguística.
+- **Confundir formalidade com norma-padrão.** É possível ser formal sem seguir toda
+  a norma-padrão, e é possível seguir a norma-padrão de modo inadequado (linguagem
+  empolada em contexto simples). Formalidade é registro; norma-padrão é modelo.
+- **Reduzir a competência a "saber a norma-padrão".** O falante competente sabe
+  *transitar* entre variedades conforme a situação — a norma-padrão é uma delas,
+  indispensável em muitos contextos, mas não a única útil.
+- **Chamar de preconceito toda cobrança da norma.** Ensinar e exigir a norma-padrão
+  onde ela é requerida não é preconceito; preconceito é desprezar quem usa outras
+  variedades.
+
+## ✍️ Exercícios
+
+**1.** Diferencie **norma culta** de **norma-padrão** e dê um exemplo de construção
+em que elas divergem.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A norma culta é o uso linguístico efetivamente praticado por falantes escolarizados
+em situações monitoradas (fato observável); a norma-padrão é o modelo idealizado
+codificado nas gramáticas (abstração prescritiva). Exemplo de divergência: a
+colocação pronominal — o falante culto diz espontaneamente "*Me* parece que sim"
+(uso culto real), ao passo que a norma-padrão prescreve "Parece-*me* que sim".
+:::
+
+**2.** (Estilo ENEM) Um mesmo falante diz "*Cê vai lá?*" ao irmão e "O senhor
+poderia comparecer?" ao chefe. Esse comportamento evidencia:
+
+a) que ele não domina a norma-padrão;
+b) a variação diafásica: a adequação do registro à situação;
+c) um caso de preconceito linguístico;
+d) a superioridade da forma formal sobre a informal;
+e) um erro de concordância na primeira frase.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O falante ajusta o **registro** conforme o interlocutor e a
+situação — variação diafásica (situacional). Isso demonstra competência
+comunicativa, não falta de domínio (a) nem preconceito (c). Não há hierarquia
+linguística entre as formas (d) nem erro na primeira (e), adequada à conversa com o
+irmão.
+:::
+
+**3.** Classifique o tipo de variação (diatópica, diastrática ou diafásica): (a)
+*macaxeira* × *mandioca*; (b) gíria de um grupo de skatistas; (c) a diferença entre
+uma mensagem de WhatsApp e um requerimento oficial escritos pela mesma pessoa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) diatópica (regional); (b) diastrática (social, ligada a grupo); (c) diafásica
+(situacional/registro).
+:::
+
+**4.** Explique por que a afirmação "quem fala bem nunca erra na prova de português"
+é equivocada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque "falar bem" costuma significar dominar a **norma culta** (uso real dos
+escolarizados), enquanto a prova cobra a **norma-padrão** (modelo idealizado). Como
+as duas divergem em vários pontos (colocação pronominal, regência de certos verbos,
+usos de *onde* etc.), um falante culto pode produzir espontaneamente formas que a
+norma-padrão não aceita — e, por isso, "errar" na prova sem falar mal.
+:::
+
+**5.** Comente, distinguindo o plano linguístico do plano social: "O falar do
+interior é feio e errado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+No plano **linguístico**, o falar do interior é um sistema pleno e regular, tão
+funcional quanto qualquer outro; não há "feiúra" ou "erro" intrínsecos. O juízo de
+"feio e errado" pertence ao plano **social**: reflete a menor valorização atribuída
+a essa variedade — preconceito linguístico [@bagno2007]. Diferença de prestígio não
+é diferença de correção.
+:::
+
+**6.** (Estilo FCC) "A norma-padrão é um modelo relativamente estável e conservador,
+não o retrato fiel do uso culto contemporâneo." Essa afirmação está:
+
+a) errada, pois norma-padrão e norma culta são a mesma coisa;
+b) correta, pois a norma-padrão é uma abstração idealizada que diverge, em pontos,
+   do uso culto real;
+c) errada, pois a norma-padrão registra exatamente a fala dos escolarizados;
+d) correta, mas apenas para a língua falada;
+e) errada, pois nenhuma norma é conservadora.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A norma-padrão é um modelo idealizado, mais conservador que o
+uso culto real, do qual diverge em vários pontos. As alternativas (a) e (c) igualam
+norma-padrão e norma culta; a (d) restringe indevidamente à fala; a (e) nega o
+caráter conservador, que é justamente uma característica da norma-padrão.
+:::
+
+**7.** Reescreva "Vi ele saindo e não falei nada pra ele" na norma-padrão e indique
+que traços foram alterados.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Norma-padrão: "Vi-**o** saindo e não **lhe** falei nada" (ou "não falei nada **a
+ele**"). Alterou-se: (1) o pronome objeto direto *ele* → *o* (na norma-padrão, o
+pronome reto *ele* não funciona como objeto direto); (2) a regência/forma do
+complemento *pra ele* → *lhe*/*a ele*. A versão original corresponde à norma culta
+falada; a reescrita, à norma-padrão.
+:::
+
+**8.** Explique o conceito de **adequação** e por que ele é preferível ao par
+"certo × errado".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Adequação é o ajuste da variedade linguística à situação de uso: uma forma é
+avaliada como apropriada ou não *àquele* contexto, e não como certa ou errada em
+absoluto. É preferível porque reconhece que cada variedade tem seu lugar — o
+registro informal é adequado entre amigos, o formal numa petição — evitando tanto o
+preconceito (condenar variedades estigmatizadas) quanto o relativismo ingênuo
+(ignorar que certos contextos exigem a norma-padrão).
+:::
+
+**9.** Um candidato afirma: "Vou escrever minha redação do ENEM em linguagem bem
+coloquial, porque toda variedade é válida." Avalie a estratégia.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A premissa (toda variedade é linguisticamente válida) é correta, mas a conclusão é
+inadequada. A redação do ENEM é uma situação que **exige** a norma-padrão: é o
+registro esperado nesse contexto. Escolher o coloquial ali é uma inadequação de
+registro, que será penalizada — não porque o coloquial seja "errado", mas porque é
+inapropriado àquela situação. Validade linguística não elimina a necessidade de
+adequação.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Ensinar a norma-padrão na escola é
+uma forma de preconceito linguístico, pois impõe uma variedade sobre as demais."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Ensinar a norma-padrão nos contextos que a exigem é dar ao estudante uma
+ferramenta de cidadania e ampliar seu repertório, não preconceito. Preconceito
+linguístico seria *desprezar* ou ridicularizar as variedades que o estudante já
+domina, ou tratá-lo como inferior por usá-las. A escola deve somar a norma-padrão ao
+repertório do aluno, respeitando suas demais variedades.
+:::
+
+## 📚 Referências
+
+A distinção entre norma culta e norma-padrão é o eixo de Faraco [@faraco2008]; a
+crítica ao preconceito linguístico, de Bagno [@bagno2007] e [@bagno2011]. Para a
+descrição das variedades do português brasileiro, ver Ilari & Basso [@ilaribasso2006]
+e Castilho [@castilho2010]. O tratamento normativo de referência está em Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017].
+
+::: {#refs}
 :::
