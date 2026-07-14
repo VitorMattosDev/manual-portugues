@@ -32,6 +32,8 @@ jobs:
             TLMGR="$(find -L "$HOME" /opt /root -name tlmgr 2>/dev/null | head -n1)"
           fi
           echo "Using tlmgr at: $TLMGR"
+          # tlnet costuma estar à frente do tlmgr do TinyTeX; atualizar antes de instalar.
+          "$TLMGR" update --self
           "$TLMGR" install standalone pgf pgfplots dvisvgm xcolor amsmath amsfonts
 
       - name: Install Chrome (headless shell for Mermaid)
