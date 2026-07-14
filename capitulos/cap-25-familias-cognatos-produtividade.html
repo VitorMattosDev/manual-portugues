@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -883,7 +903,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#sec-cap-25" id="toc-sec-cap-25" class="nav-link active" data-scroll-target="#sec-cap-25"><span class="header-section-number">27</span> Famílias de palavras, cognatos e produtividade lexical</a></li>
+  <li><a href="#sec-cap-25" id="toc-sec-cap-25" class="nav-link active" data-scroll-target="#sec-cap-25"><span class="header-section-number">27</span> Famílias de palavras, cognatos e produtividade lexical</a>
+  <ul class="collapse">
+  <li><a href="#objetivos-de-aprendizagem" id="toc-objetivos-de-aprendizagem" class="nav-link" data-scroll-target="#objetivos-de-aprendizagem"><span class="header-section-number">27.1</span> 🎯 Objetivos de aprendizagem</a></li>
+  <li><a href="#famílias-de-palavras" id="toc-famílias-de-palavras" class="nav-link" data-scroll-target="#famílias-de-palavras"><span class="header-section-number">27.2</span> Famílias de palavras</a></li>
+  <li><a href="#cognatos" id="toc-cognatos" class="nav-link" data-scroll-target="#cognatos"><span class="header-section-number">27.3</span> Cognatos</a></li>
+  <li><a href="#falsos-cognatos" id="toc-falsos-cognatos" class="nav-link" data-scroll-target="#falsos-cognatos"><span class="header-section-number">27.4</span> Falsos cognatos</a></li>
+  <li><a href="#radicais-gregos-e-latinos-um-atalho-poderoso" id="toc-radicais-gregos-e-latinos-um-atalho-poderoso" class="nav-link" data-scroll-target="#radicais-gregos-e-latinos-um-atalho-poderoso"><span class="header-section-number">27.5</span> Radicais gregos e latinos: um atalho poderoso</a></li>
+  <li><a href="#produtividade-lexical" id="toc-produtividade-lexical" class="nav-link" data-scroll-target="#produtividade-lexical"><span class="header-section-number">27.6</span> Produtividade lexical</a></li>
+  <li><a href="#quadro-resumo" id="toc-quadro-resumo" class="nav-link" data-scroll-target="#quadro-resumo"><span class="header-section-number">27.7</span> 📋 Quadro-resumo</a></li>
+  <li><a href="#pegadinhas-e-erros-comuns" id="toc-pegadinhas-e-erros-comuns" class="nav-link" data-scroll-target="#pegadinhas-e-erros-comuns"><span class="header-section-number">27.8</span> ⚠️ Pegadinhas e erros comuns</a></li>
+  <li><a href="#exercícios" id="toc-exercícios" class="nav-link" data-scroll-target="#exercícios"><span class="header-section-number">27.9</span> ✍️ Exercícios</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências"><span class="header-section-number">27.10</span> 📚 Referências</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/vitormattosdev/manual-portugues/edit/main/capitulos/cap-25-familias-cognatos-produtividade.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/vitormattosdev/manual-portugues/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -911,36 +943,730 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="sec-cap-25" class="level1" data-number="27">
 <h1 data-number="27"><span class="header-section-number">27</span> Famílias de palavras, cognatos e produtividade lexical</h1>
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 4 — Morfologia I: Estrutura e Formação de Palavras.
-
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
-
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+<blockquote class="blockquote">
+<p>“Conhecer um radical é ganhar, de uma vez, uma centena de palavras.”</p>
+</blockquote>
+<p>Fechamos o Volume 4 reunindo o que aprendemos sobre morfema, estrutura e formação de palavras numa perspectiva de conjunto: as <strong>famílias de palavras</strong>. Palavras que compartilham o mesmo <strong>radical</strong> — e, portanto, um núcleo de significado — formam uma família: <em>terra</em>, <em>terreno</em>, <em>aterrar</em>, <em>enterrar</em>, <em>soterrar</em>, <em>terráqueo</em>, <em>subterrâneo</em>. Reconhecer essas famílias tem um valor enorme e prático: multiplica o vocabulário, ilumina a ortografia (palavras da mesma família tendem a grafar-se de modo coerente) e ajuda a inferir o sentido de palavras desconhecidas em provas de interpretação.</p>
+<p>Trataremos também dos <strong>cognatos</strong> (palavras aparentadas pela origem), da distinção entre <strong>cognatos verdadeiros e falsos</strong>, e da <strong>produtividade lexical</strong> — a capacidade que a língua tem de gerar palavras novas a partir de padrões. É um capítulo que converte a teoria morfológica dos anteriores em ferramenta de leitura e escrita.</p>
+<section id="objetivos-de-aprendizagem" class="level2" data-number="27.1">
+<h2 data-number="27.1" class="anchored" data-anchor-id="objetivos-de-aprendizagem"><span class="header-section-number">27.1</span> 🎯 Objetivos de aprendizagem</h2>
+<p>Ao final deste capítulo, você será capaz de:</p>
+<ul>
+<li><strong>Reconhecer</strong> famílias de palavras pelo radical comum;</li>
+<li><strong>Definir</strong> cognatos e distinguir cognatos de palavras apenas parecidas;</li>
+<li><strong>Identificar</strong> falsos cognatos (dentro do português e entre línguas);</li>
+<li><strong>Empregar</strong> o conhecimento de radicais gregos e latinos para inferir sentidos;</li>
+<li><strong>Compreender</strong> a produtividade lexical e os padrões de formação;</li>
+<li><strong>Aplicar</strong> as famílias de palavras à ortografia e à interpretação.</li>
+</ul>
+</section>
+<section id="famílias-de-palavras" class="level2" data-number="27.2">
+<h2 data-number="27.2" class="anchored" data-anchor-id="famílias-de-palavras"><span class="header-section-number">27.2</span> Famílias de palavras</h2>
+<p>Uma <strong>família de palavras</strong> (ou família etimológica) é o conjunto de vocábulos que partilham o mesmo <strong>radical</strong>, girando em torno de um significado comum. A <a href="#fig-familia" class="quarto-xref">Figura&nbsp;<span>27.1</span></a> ilustra a família de <em>terra</em>.</p>
+<div id="fig-familia" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-familia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="189.682889pt" height="162.340792pt" viewbox="-68.014948 -68.014949 189.682889 162.340792">
+<defs>
+<path id="tz_familia_palavras_g0-19" d="M3.156164-4.98132C3.243836-5.045081 3.315567-5.116812 3.315567-5.244334C3.315567-5.427646 3.148194-5.563138 3.004732-5.563138C2.972852-5.563138 2.86127-5.563138 2.757659-5.435616L1.737484-4.224159L1.904857-4.040847L3.156164-4.98132Z"></path>
+<path id="tz_familia_palavras_g0-94" d="M2.11208-5.531258L.980324-4.463263L1.139726-4.27198L2.11208-5.061021L3.084433-4.27198L3.243836-4.455293L2.11208-5.531258Z"></path>
+<path id="tz_familia_palavras_g0-97" d="M3.347447-2.375093C3.347447-3.156164 2.590286-3.55467 1.865006-3.55467C1.203487-3.55467 .613699-3.299626 .613699-2.773599C.613699-2.534496 .781071-2.391034 .988294-2.391034C1.211457-2.391034 1.362889-2.550436 1.362889-2.765629C1.362889-2.956912 1.243337-3.092403 1.067995-3.132254C1.362889-3.331507 1.793275-3.331507 1.849066-3.331507C2.295392-3.331507 2.741719-3.020672 2.741719-2.367123V-2.12005C2.279452-2.096139 1.745455-2.072229 1.187547-1.841096C.486177-1.538232 .350685-1.075965 .350685-.812951C.350685-.127522 1.155666 .079701 1.705604 .079701C2.287422 .079701 2.646077-.247073 2.82142-.565878C2.86127-.263014 3.068493 .039851 3.419178 .039851C3.498879 .039851 4.176339 .00797 4.176339-.71731V-1.155666H3.929265V-.71731C3.929265-.390535 3.809714-.263014 3.642341-.263014C3.347447-.263014 3.347447-.629639 3.347447-.71731V-2.375093ZM2.741719-1.123786C2.741719-.350685 2.088169-.143462 1.769365-.143462C1.354919-.143462 1.004234-.422416 1.004234-.804981C1.004234-1.331009 1.498381-1.872976 2.741719-1.912827V-1.123786Z"></path>
+<path id="tz_familia_palavras_g0-98" d="M1.466501-5.531258L.278954-5.443587V-5.180573C.820922-5.180573 .884682-5.124782 .884682-4.734247V0H1.131756L1.41868-.494147C1.609963-.223163 1.984558 .079701 2.526526 .079701C3.53873 .079701 4.415442-.70137 4.415442-1.721544C4.415442-2.725778 3.594521-3.514819 2.622167-3.514819C1.992528-3.514819 1.601993-3.172105 1.466501-3.028643V-5.531258ZM1.490411-2.518555C1.490411-2.669988 1.490411-2.685928 1.609963-2.82939C1.841096-3.124284 2.215691-3.291656 2.574346-3.291656C2.988792-3.291656 3.299626-3.044583 3.459029-2.805479C3.594521-2.590286 3.706102-2.311333 3.706102-1.729514C3.706102-1.546202 3.706102-.980324 3.419178-.605729C3.132254-.247073 2.757659-.143462 2.494645-.143462C2.11208-.143462 1.793275-.342715 1.586052-.653549C1.490411-.804981 1.490411-.812951 1.490411-.964384V-2.518555Z"></path>
+<path id="tz_familia_palavras_g0-101" d="M3.291656-1.817186C3.466999-1.817186 3.514819-1.817186 3.514819-2.000498C3.514819-2.709838 3.124284-3.55467 2.000498-3.55467C1.012204-3.55467 .239103-2.733748 .239103-1.745455C.239103-.71731 1.099875 .079701 2.10411 .079701C3.116314 .079701 3.514819-.773101 3.514819-.956413C3.514819-.988294 3.490909-1.067995 3.387298-1.067995C3.299626-1.067995 3.283686-1.012204 3.267746-.964384C2.980822-.191283 2.295392-.167372 2.15193-.167372C1.793275-.167372 1.42665-.334745 1.187547-.70137S.948443-1.578082 .948443-1.817186H3.291656ZM.956413-2.024408C1.028144-3.140224 1.705604-3.331507 2.000498-3.331507C2.933001-3.331507 2.964882-2.207721 2.972852-2.024408H.956413Z"></path>
+<path id="tz_familia_palavras_g0-105" d="M1.554172-4.909589C1.554172-5.140722 1.370859-5.355915 1.107846-5.355915C.876712-5.355915 .669489-5.172603 .669489-4.917559C.669489-4.638605 .900623-4.471233 1.107846-4.471233C1.3868-4.471233 1.554172-4.702366 1.554172-4.909589ZM.358655-3.427148V-3.164134C.868742-3.164134 .940473-3.116314 .940473-2.725778V-.621669C.940473-.263014 .844832-.263014 .334745-.263014V0C.645579-.02391 1.091905-.02391 1.211457-.02391C1.315068-.02391 1.793275-.02391 2.072229 0V-.263014C1.554172-.263014 1.522291-.302864 1.522291-.613699V-3.514819L.358655-3.427148Z"></path>
+<path id="tz_familia_palavras_g0-110" d="M3.873474-2.414944C3.873474-3.084433 3.57061-3.514819 2.733748-3.514819C1.944707-3.514819 1.586052-2.940971 1.490411-2.749689H1.482441V-3.514819L.326775-3.427148V-3.164134C.868742-3.164134 .932503-3.108344 .932503-2.717808V-.621669C.932503-.263014 .836862-.263014 .326775-.263014V0C.669489-.02391 1.020174-.02391 1.235367-.02391C1.466501-.02391 1.801245-.02391 2.14396 0V-.263014C1.633873-.263014 1.538232-.263014 1.538232-.621669V-2.064259C1.538232-2.901121 2.175841-3.291656 2.662017-3.291656S3.267746-2.948941 3.267746-2.446824V-.621669C3.267746-.263014 3.172105-.263014 2.662017-.263014V0C3.004732-.02391 3.355417-.02391 3.57061-.02391C3.801743-.02391 4.136488-.02391 4.479203 0V-.263014C3.969116-.263014 3.873474-.263014 3.873474-.621669V-2.414944Z"></path>
+<path id="tz_familia_palavras_g0-111" d="M3.985056-1.697634C3.985056-2.693898 3.164134-3.55467 2.11208-3.55467S.239103-2.693898 .239103-1.697634S1.091905 .079701 2.11208 .079701C3.140224 .079701 3.985056-.70137 3.985056-1.697634ZM2.11208-.167372C1.681694-.167372 1.346949-.374595 1.171606-.653549C.972354-.980324 .948443-1.370859 .948443-1.769365C.948443-2.072229 .948443-2.550436 1.195517-2.893151C1.40274-3.172105 1.737484-3.331507 2.11208-3.331507C2.526526-3.331507 2.86924-3.132254 3.052553-2.8533C3.267746-2.518555 3.275716-2.088169 3.275716-1.769365C3.275716-1.40274 3.259776-.964384 3.036613-.629639C2.82142-.310834 2.462765-.167372 2.11208-.167372Z"></path>
+<path id="tz_familia_palavras_g0-113" d="M3.817684-3.514819H3.594521L3.299626-2.82142C3.036613-3.243836 2.654047-3.514819 2.15193-3.514819C1.155666-3.514819 .278954-2.741719 .278954-1.713574C.278954-.71731 1.099875 .079701 2.080199 .079701C2.654047 .079701 3.020672-.239103 3.211955-.478207V.924533C3.211955 1.283188 3.116314 1.283188 2.606227 1.283188V1.546202C2.948941 1.522291 3.299626 1.522291 3.514819 1.522291C3.745953 1.522291 4.080697 1.522291 4.423412 1.546202V1.283188C3.913325 1.283188 3.817684 1.283188 3.817684 .924533V-3.514819ZM3.235866-1.131756C3.235866-1.004234 3.235866-.956413 3.116314-.749191C2.82142-.263014 2.399004-.143462 2.12802-.143462C1.490411-.143462 .988294-.852802 .988294-1.713574C.988294-2.622167 1.578082-3.267746 2.207721-3.267746C2.8533-3.267746 3.235866-2.622167 3.235866-2.183811V-1.131756Z"></path>
+<path id="tz_familia_palavras_g0-114" d="M1.466501-1.817186C1.466501-2.414944 1.713574-3.275716 2.478705-3.291656C2.430884-3.259776 2.351183-3.196015 2.351183-3.012702C2.351183-2.765629 2.542466-2.654047 2.701868-2.654047C2.893151-2.654047 3.060523-2.781569 3.060523-3.012702C3.060523-3.291656 2.805479-3.514819 2.454795-3.514819C1.936737-3.514819 1.586052-3.124284 1.41868-2.677958H1.41071V-3.514819L.278954-3.427148V-3.164134C.820922-3.164134 .884682-3.108344 .884682-2.717808V-.621669C.884682-.263014 .789041-.263014 .278954-.263014V0C.589788-.02391 1.028144-.02391 1.219427-.02391C1.689664-.02391 1.705604-.02391 2.223661 0V-.263014H2.064259C1.482441-.263014 1.466501-.350685 1.466501-.637609V-1.817186Z"></path>
+<path id="tz_familia_palavras_g0-115" d="M2.83736-3.347447C2.83736-3.474969 2.83736-3.55467 2.733748-3.55467C2.693898-3.55467 2.669988-3.55467 2.542466-3.427148C2.526526-3.419178 2.454795-3.347447 2.430884-3.347447C2.422914-3.347447 2.406974-3.347447 2.359153-3.379328C2.231631-3.466999 2.000498-3.55467 1.641843-3.55467C.526027-3.55467 .278954-2.948941 .278954-2.566376C.278954-2.16787 .573848-1.936737 .597758-1.912827C.916563-1.673724 1.099875-1.641843 1.633873-1.546202C2.008468-1.474471 2.622167-1.362889 2.622167-.820922C2.622167-.510087 2.414944-.143462 1.681694-.143462C.876712-.143462 .645579-.765131 .541968-1.187547C.510087-1.291158 .502117-1.331009 .406476-1.331009C.278954-1.331009 .278954-1.267248 .278954-1.115816V-.127522C.278954 0 .278954 .079701 .382565 .079701C.430386 .079701 .438356 .071731 .581818-.079701C.621669-.119552 .70934-.223163 .749191-.263014C1.107846 .063761 1.482441 .079701 1.689664 .079701C2.701868 .079701 3.052553-.502117 3.052553-1.028144C3.052553-1.41071 2.82142-1.968618 1.872976-2.14396C1.809215-2.1599 1.362889-2.239601 1.331009-2.239601C1.083935-2.295392 .70934-2.462765 .70934-2.781569C.70934-3.020672 .884682-3.355417 1.641843-3.355417C2.534496-3.355417 2.574346-2.701868 2.590286-2.478705C2.598257-2.414944 2.654047-2.391034 2.709838-2.391034C2.83736-2.391034 2.83736-2.446824 2.83736-2.598257V-3.347447Z"></path>
+<path id="tz_familia_palavras_g0-116" d="M1.482441-3.172105H2.669988V-3.435118H1.482441V-4.901619H1.235367C1.227397-4.176339 .900623-3.419178 .159402-3.395268V-3.172105H.876712V-.996264C.876712-.063761 1.594022 .079701 1.960648 .079701C2.494645 .079701 2.81345-.398506 2.81345-.996264V-1.44259H2.566376V-1.012204C2.566376-.462267 2.319303-.167372 2.016438-.167372C1.482441-.167372 1.482441-.852802 1.482441-.980324V-3.172105Z"></path>
+<path id="tz_familia_palavras_g0-117" d="M2.662017-3.427148V-3.164134C3.203985-3.164134 3.267746-3.108344 3.267746-2.717808V-1.331009C3.267746-.645579 2.8533-.143462 2.255542-.143462C1.570112-.143462 1.538232-.486177 1.538232-.884682V-3.514819L.326775-3.427148V-3.164134C.932503-3.164134 .932503-3.140224 .932503-2.430884V-1.235367C.932503-.661519 .932503 .079701 2.207721 .079701C2.956912 .079701 3.243836-.494147 3.283686-.565878H3.291656V.079701L4.479203 0V-.263014C3.937235-.263014 3.873474-.318804 3.873474-.70934V-3.514819L2.662017-3.427148Z"></path>
+<path id="tz_familia_palavras_g1-45" d="M3.16812-1.733499V-2.699875H.129514V-1.733499H3.16812Z"></path>
+<path id="tz_familia_palavras_g1-101" d="M4.60274-2.171856C4.821918-2.171856 4.921544-2.171856 4.921544-2.440847C4.921544-2.749689 4.861768-3.476961 4.363636-3.975093C3.995019-4.333748 3.466999-4.513076 2.779577-4.513076C1.185554-4.513076 .318804-3.486924 .318804-2.241594C.318804-.9066 1.315068 .059776 2.919054 .059776C4.493151 .059776 4.921544-.996264 4.921544-1.165629C4.921544-1.344956 4.732254-1.344956 4.682441-1.344956C4.513076-1.344956 4.493151-1.295143 4.433375-1.135741C4.224159-.657534 3.656289-.33873 3.008717-.33873C1.603985-.33873 1.594022-1.663761 1.594022-2.171856H4.60274ZM1.594022-2.500623C1.613948-2.889166 1.62391-3.307597 1.833126-3.636364C2.092154-4.034869 2.49066-4.154421 2.779577-4.154421C3.945205-4.154421 3.965131-2.849315 3.975093-2.500623H1.594022Z"></path>
+<path id="tz_familia_palavras_g1-114" d="M2.022416-3.35741V-4.483188L.368618-4.403487V-3.935243C.986301-3.935243 1.05604-3.935243 1.05604-3.5467V-.468244H.368618V0C.71731-.009963 1.165629-.029888 1.62391-.029888C2.002491-.029888 2.6401-.029888 2.998755 0V-.468244H2.132005V-2.211706C2.132005-2.909091 2.381071-4.124533 3.377335-4.124533C3.367372-4.11457 3.188045-3.955168 3.188045-3.666252C3.188045-3.257783 3.506849-3.058531 3.795766-3.058531S4.403487-3.267746 4.403487-3.666252C4.403487-4.194271 3.865504-4.483188 3.347447-4.483188C2.650062-4.483188 2.251557-3.985056 2.022416-3.35741Z"></path>
+<path id="tz_familia_palavras_g1-116" d="M1.026152-3.955168V-1.225405C1.026152-.159402 1.892902 .059776 2.600249 .059776C3.35741 .059776 3.805729-.508095 3.805729-1.235367V-1.763387H3.337484V-1.255293C3.337484-.577833 3.01868-.33873 2.739726-.33873C2.161893-.33873 2.161893-.976339 2.161893-1.205479V-3.955168H3.616438V-4.423412H2.161893V-6.326276H1.693649C1.683686-5.330012 1.195517-4.343711 .209215-4.313823V-3.955168H1.026152Z"></path>
+</defs>
+<g id="tz_familia_palavras_page1">
+<g stroke-miterlimit="10" transform="translate(28.764661,12.997311)scale(0.996264,-0.996264)">
+<g fill="#000" stroke="#000">
+<g stroke-width="0.4">
+<g stroke="#2780e3">
+<g stroke-width="1.2">
+<g fill="#e5f0fc">
+<g stroke="#2780e3">
+<g stroke-width="1.2">
+<g fill="#e5f0fc">
+<path d="M21.33955 0C21.33955 11.78566 11.78566 21.33955 0 21.33955S-21.33955 11.78566-21.33955 0S-11.78566-21.33955 0-21.33955S21.33955-11.78566 21.33955 0ZM0 0"></path>
+</g>
+</g>
+</g>
+<g transform="translate(-11.52426,-3.17459)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g1-116"></use>
+<use x="33.220151" y="12.997311" href="#tz_familia_palavras_g1-101"></use>
+<use x="38.471274" y="12.997311" href="#tz_familia_palavras_g1-114"></use>
+<use x="43.189679" y="12.997311" href="#tz_familia_palavras_g1-114"></use>
+<use x="47.908085" y="12.997311" href="#tz_familia_palavras_g1-45"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M91.05167 5.46031H62.59296C61.48837 5.46031 60.59296 4.5649 60.59296 3.46031V-3.46031C60.59296-4.5649 61.48837-5.46031 62.59296-5.46031H91.05167C92.15625-5.46031 93.05167-4.5649 93.05167-3.46031V3.46031C93.05167 4.5649 92.15625 5.46031 91.05167 5.46031ZM60.59296-5.46031"></path>
+</g>
+</g>
+<g transform="translate(63.59296,-2.46031)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="32.057914" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="35.821632" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="39.121802" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="42.421972" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="46.18569" y="12.997311" href="#tz_familia_palavras_g0-110"></use>
+<use x="50.890338" y="12.997311" href="#tz_familia_palavras_g0-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#6c757d" stroke="#6c757d">
+<g stroke-width="0.8">
+<path d="M21.93954 0H60.39296" fill="none"></path>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M72.60892 54.84103H45.08774C43.98315 54.84103 43.08774 53.94562 43.08774 52.84103V45.92041C43.08774 44.81583 43.98315 43.92041 45.08774 43.92041H72.60892C73.7135 43.92041 74.60892 44.81583 74.60892 45.92041V52.84103C74.60892 53.94562 73.7135 54.84103 72.60892 54.84103ZM43.08774 43.92041"></path>
+</g>
+</g>
+<g transform="translate(46.08774,46.92041)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g0-97"></use>
+<use x="32.998843" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="36.292097" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="40.055815" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="43.355985" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="46.656155" y="12.997311" href="#tz_familia_palavras_g0-97"></use>
+<use x="50.890338" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#6c757d" stroke="#6c757d">
+<g stroke-width="0.8">
+<path d="M16.80617 14.10222L52.10365 43.72041" fill="none"></path>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M29.10695 81.11606H-2.42818C-3.53276 81.11606-4.42818 80.22064-4.42818 79.11606V72.19543C-4.42818 71.09085-3.53276 70.19543-2.42818 70.19543H29.10695C30.21153 70.19543 31.10695 71.09085 31.10695 72.19543V79.11606C31.10695 80.22064 30.21153 81.11606 29.10695 81.11606ZM-4.42818 70.19543"></path>
+</g>
+</g>
+<g transform="translate(-1.42818,73.19543)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="32.528379" y="12.997311" href="#tz_familia_palavras_g0-110"></use>
+<use x="36.997794" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="40.291047" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="44.054765" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="47.354935" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="50.655106" y="12.997311" href="#tz_familia_palavras_g0-97"></use>
+<use x="54.889288" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#6c757d" stroke="#6c757d">
+<g stroke-width="0.8">
+<path d="M3.80936 21.60611L12.34174 69.99544" fill="none"></path>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M-22.97392 71.99055H-53.84795C-54.95253 71.99055-55.84795 71.09514-55.84795 69.99055V63.06993C-55.84795 61.96535-54.95253 61.06993-53.84795 61.06993H-22.97392C-21.86934 61.06993-20.97392 61.96535-20.97392 63.06993V69.99055C-20.97392 71.09514-21.86934 71.99055-22.97392 71.99055ZM-55.84795 61.06993"></path>
+</g>
+</g>
+<g transform="translate(-52.84795,64.06993)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g0-115"></use>
+<use x="32.104963" y="12.997311" href="#tz_familia_palavras_g0-111"></use>
+<use x="36.339146" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="39.6324" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="43.396118" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="46.696288" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="49.996458" y="12.997311" href="#tz_familia_palavras_g0-97"></use>
+<use x="54.230641" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#6c757d" stroke="#6c757d">
+<g stroke-width="0.8">
+<path d="M-10.96944 18.99991L-35.14323 60.86993" fill="none"></path>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M-53.59198 32.83058H-90.78693C-91.89151 32.83058-92.78693 31.93517-92.78693 30.83058V21.71947C-92.78693 20.61488-91.89151 19.71947-90.78693 19.71947H-53.59198C-52.4874 19.71947-51.59198 20.61488-51.59198 21.71947V30.83058C-51.59198 31.93517-52.4874 32.83058-53.59198 32.83058ZM-92.78693 19.71947"></path>
+</g>
+</g>
+<g transform="translate(-89.78693,24.27502)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="32.057914" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="35.821632" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="39.121802" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="42.421972" y="12.997311" href="#tz_familia_palavras_g0-19"></use>
+<use x="42.421972" y="12.997311" href="#tz_familia_palavras_g0-97"></use>
+<use x="46.656155" y="12.997311" href="#tz_familia_palavras_g0-113"></use>
+<use x="51.12557" y="12.997311" href="#tz_familia_palavras_g0-117"></use>
+<use x="55.830218" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="59.593936" y="12.997311" href="#tz_familia_palavras_g0-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#6c757d" stroke="#6c757d">
+<g stroke-width="0.8">
+<path d="M-20.61618 7.50354L-53.63066 19.51947" fill="none"></path>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M-49.43637-20.49725H-94.94254C-96.04712-20.49725-96.94254-21.39267-96.94254-22.49725V-30.0528C-96.94254-31.15738-96.04712-32.0528-94.94254-32.0528H-49.43637C-48.33179-32.0528-47.43637-31.15738-47.43637-30.0528V-22.49725C-47.43637-21.39267-48.33179-20.49725-49.43637-20.49725ZM-96.94254-32.0528"></path>
+</g>
+</g>
+<g transform="translate(-93.94254,-29.0528)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g0-115"></use>
+<use x="32.104963" y="12.997311" href="#tz_familia_palavras_g0-117"></use>
+<use x="36.809611" y="12.997311" href="#tz_familia_palavras_g0-98"></use>
+<use x="41.514259" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="44.807512" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="48.57123" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="51.8714" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="55.17157" y="12.997311" href="#tz_familia_palavras_g0-94"></use>
+<use x="55.17157" y="12.997311" href="#tz_familia_palavras_g0-97"></use>
+<use x="59.405753" y="12.997311" href="#tz_familia_palavras_g0-110"></use>
+<use x="64.110401" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="67.874119" y="12.997311" href="#tz_familia_palavras_g0-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#6c757d" stroke="#6c757d">
+<g stroke-width="0.8">
+<path d="M-20.61618-7.50354L-55.76738-20.29726" fill="none"></path>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M-21.79335-61.06993H-55.02852C-56.1331-61.06993-57.02852-61.96535-57.02852-63.06993V-69.99055C-57.02852-71.09514-56.1331-71.99055-55.02852-71.99055H-21.79335C-20.68877-71.99055-19.79335-71.09514-19.79335-69.99055V-63.06993C-19.79335-61.96535-20.68877-61.06993-21.79335-61.06993ZM-57.02852-71.99055"></path>
+</g>
+</g>
+<g transform="translate(-54.02852,-68.99055)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="32.057914" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="35.821632" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="39.121802" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="42.421972" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="46.18569" y="12.997311" href="#tz_familia_palavras_g0-115"></use>
+<use x="49.525993" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="52.819247" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="56.119417" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#6c757d" stroke="#6c757d">
+<g stroke-width="0.8">
+<path d="M-10.96944-18.99991L-35.14323-60.86993" fill="none"></path>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M31.11392-69.87798H-4.43515C-5.53973-69.87798-6.43515-70.77339-6.43515-71.87798V-79.43352C-6.43515-80.5381-5.53973-81.43352-4.43515-81.43352H31.11392C32.2185-81.43352 33.11392-80.5381 33.11392-79.43352V-71.87798C33.11392-70.77339 32.2185-69.87798 31.11392-69.87798ZM-6.43515-81.43352"></path>
+</g>
+</g>
+<g transform="translate(-3.43515,-78.43352)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="32.057914" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="35.821632" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="39.121802" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="42.421972" y="12.997311" href="#tz_familia_palavras_g0-105"></use>
+<use x="44.774296" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="48.067549" y="12.997311" href="#tz_familia_palavras_g0-19"></use>
+<use x="48.067549" y="12.997311" href="#tz_familia_palavras_g0-111"></use>
+<use x="52.301732" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="55.601902" y="12.997311" href="#tz_familia_palavras_g0-105"></use>
+<use x="57.954226" y="12.997311" href="#tz_familia_palavras_g0-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#6c757d" stroke="#6c757d">
+<g stroke-width="0.8">
+<path d="M3.80936-21.60611L12.28578-69.67798" fill="none"></path>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M68.82762-43.92041H48.86903C47.76445-43.92041 46.86903-44.81583 46.86903-45.92041V-52.84103C46.86903-53.94562 47.76445-54.84103 48.86903-54.84103H68.82762C69.9322-54.84103 70.82762-53.94562 70.82762-52.84103V-45.92041C70.82762-44.81583 69.9322-43.92041 68.82762-43.92041ZM46.86903-54.84103"></path>
+</g>
+</g>
+<g transform="translate(49.86903,-51.84103)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(28.764661,12.997311)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.764661" y="12.997311" href="#tz_familia_palavras_g0-116"></use>
+<use x="32.057914" y="12.997311" href="#tz_familia_palavras_g0-101"></use>
+<use x="35.821632" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="39.121802" y="12.997311" href="#tz_familia_palavras_g0-114"></use>
+<use x="42.421972" y="12.997311" href="#tz_familia_palavras_g0-97"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#6c757d" stroke="#6c757d">
+<g stroke-width="0.8">
+<path d="M16.80617-14.10222L52.10365-43.72041" fill="none"></path>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-familia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;27.1: A família de palavras do radical <em>terr-</em>: todas as palavras giram em torno do mesmo núcleo de significado, herdado do latim <em>terra</em>.
+</figcaption>
+</figure>
+</div>
+<p>O valor prático é triplo:</p>
+<ul>
+<li><strong>Vocabulário</strong>: dominar um radical dá acesso a toda a família. Quem conhece <em>terr-</em> entende <em>soterrar</em> e <em>subterrâneo</em> sem consultar dicionário.</li>
+<li><strong>Ortografia</strong>: palavras da mesma família tendem a manter grafia coerente. Se <em>análise</em> tem <em>s</em>, <em>analisar</em> também (mesma família); se <em>gás</em> tem <em>s</em>, <em>gasoso</em> também.</li>
+<li><strong>Interpretação</strong>: em provas, reconhecer o radical de uma palavra difícil permite inferir seu sentido pelo contexto.</li>
+</ul>
+</section>
+<section id="cognatos" class="level2" data-number="27.3">
+<h2 data-number="27.3" class="anchored" data-anchor-id="cognatos"><span class="header-section-number">27.3</span> Cognatos</h2>
+<p><strong>Cognatos</strong> são palavras que têm a <strong>mesma origem etimológica</strong> — descendem de um mesmo “ancestral”. Dentro do português, os membros de uma família de palavras são cognatos entre si (<em>terra</em>, <em>terreno</em>, <em>aterrar</em>). Entre línguas, cognatos são palavras aparentadas de idiomas diferentes que remontam à mesma raiz: o português <em>noite</em>, o espanhol <em>noche</em>, o francês <em>nuit</em>, o italiano <em>notte</em> — todos do latim <em>nocte(m)</em>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
+<span class="screen-reader-only">Nota</span>Cognato não é sinônimo
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Capítulo em preparação.</p>
+<p>Cuidado: cognatos partilham a <strong>origem</strong>, não necessariamente o <strong>significado atual</strong>. <em>Cadeira</em> e <em>cátedra</em> são cognatos (ambos do latim <em>cathedra</em>), mas hoje significam coisas distintas — são um <strong>dubleto</strong> (uma forma popular, <em>cadeira</em>; outra erudita, <em>cátedra</em>), fenômeno que já encontramos no <a href="cap-04-historia-portugues-panorama.html" class="quarto-xref"><span>Capítulo 6</span></a>. Cognatos podem, com o tempo, afastar-se bastante no sentido.</p>
+</div>
+</div>
+</section>
+<section id="falsos-cognatos" class="level2" data-number="27.4">
+<h2 data-number="27.4" class="anchored" data-anchor-id="falsos-cognatos"><span class="header-section-number">27.4</span> Falsos cognatos</h2>
+<p><strong>Falsos cognatos</strong> são palavras que <strong>parecem</strong> aparentadas (por semelhança de forma), mas <strong>não</strong> têm a mesma origem, ou que, tendo origens próximas, divergiram tanto que enganam. Há dois planos:</p>
+<ul>
+<li><strong>Dentro do português</strong>: palavras parecidas de famílias diferentes — <em>deferir</em> (conceder) × <em>diferir</em> (adiar; ser diferente); <em>ratificar</em> (confirmar) × <em>retificar</em> (corrigir); <em>emergir</em> × <em>imergir</em>. São os <strong>parônimos</strong>, que estudaremos no
+<ol class="example" type="1">
+<li></li>
+</ol></li>
+<li><strong>Entre línguas</strong>: os “falsos amigos” — o inglês <em>pretend</em> (fingir, não “pretender”), <em>actually</em> (na verdade, não “atualmente”), <em>push</em> (empurrar, não “puxar”); o espanhol <em>embarazada</em> (grávida, não “envergonhada”), <em>oficina</em> (escritório, não “oficina”).</li>
+</ul>
+<p>O falso cognato é uma armadilha clássica de tradução e de interpretação — a semelhança gráfica sugere um parentesco que não existe (ou já se desfez).</p>
+</section>
+<section id="radicais-gregos-e-latinos-um-atalho-poderoso" class="level2" data-number="27.5">
+<h2 data-number="27.5" class="anchored" data-anchor-id="radicais-gregos-e-latinos-um-atalho-poderoso"><span class="header-section-number">27.5</span> Radicais gregos e latinos: um atalho poderoso</h2>
+<p>Boa parte do vocabulário culto e científico do português forma-se com <strong>radicais gregos e latinos</strong> de sentido estável. Conhecê-los é uma chave-mestra para decifrar palavras: sabendo que <em>bio-</em> = vida, <em>-logia</em> = estudo, <em>geo-</em> = terra, <em>hidro-</em> = água, <em>-grafia</em> = escrita, deduz-se <em>biologia</em>, <em>geografia</em>, <em>hidrografia</em>, <em>geologia</em>… Alguns úteis:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Radical</th>
+<th>Sentido</th>
+<th>Exemplos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>bio-</em></td>
+<td>vida</td>
+<td><em>biologia</em>, <em>biografia</em></td>
+</tr>
+<tr class="even">
+<td><em>geo-</em></td>
+<td>terra</td>
+<td><em>geografia</em>, <em>geologia</em></td>
+</tr>
+<tr class="odd">
+<td><em>hidro-</em></td>
+<td>água</td>
+<td><em>hidrelétrica</em>, <em>hidratar</em></td>
+</tr>
+<tr class="even">
+<td><em>-logia</em></td>
+<td>estudo</td>
+<td><em>psicologia</em>, <em>sociologia</em></td>
+</tr>
+<tr class="odd">
+<td><em>-fobia</em></td>
+<td>medo/aversão</td>
+<td><em>claustrofobia</em></td>
+</tr>
+<tr class="even">
+<td><em>-filia</em></td>
+<td>afinidade</td>
+<td><em>bibliofilia</em></td>
+</tr>
+<tr class="odd">
+<td><em>tele-</em></td>
+<td>distância</td>
+<td><em>televisão</em>, <em>telefone</em></td>
+</tr>
+<tr class="even">
+<td><em>-cracia</em></td>
+<td>poder/governo</td>
+<td><em>democracia</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="produtividade-lexical" class="level2" data-number="27.6">
+<h2 data-number="27.6" class="anchored" data-anchor-id="produtividade-lexical"><span class="header-section-number">27.6</span> Produtividade lexical</h2>
+<p>Chama-se <strong>produtividade</strong> a capacidade de um padrão de formação gerar palavras novas. Alguns afixos são <strong>muito produtivos</strong> (a língua os usa a todo momento para criar vocábulos): o sufixo <em>-inho</em> (diminutivos infinitos), o <em>-mente</em> (advérbios), o <em>-ção</em> (nomes de ação), o prefixo <em>super-</em>; e verbos em <em>-ar</em> (<em>deletar</em>, <em>printar</em>, <em>tuitar</em>, <em>lacrar</em> no sentido novo). Outros são <strong>improdutivos</strong> (fossilizados, não geram palavras novas): o sufixo <em>-ume</em> (<em>queixume</em>, <em>ciúme</em>) praticamente não forma vocábulos hoje.</p>
+<p>A produtividade explica por que a língua absorve com facilidade as novidades: um empréstimo como <em>deletar</em> imediatamente entra no padrão dos verbos de 1ª conjugação e gera <em>deletado</em>, <em>deletável</em>, <em>deleção</em>. O sistema morfológico é uma “fábrica” sempre em operação.</p>
+</section>
+<section id="quadro-resumo" class="level2" data-number="27.7">
+<h2 data-number="27.7" class="anchored" data-anchor-id="quadro-resumo"><span class="header-section-number">27.7</span> 📋 Quadro-resumo</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Conceito</th>
+<th>Definição</th>
+<th>Exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Família de palavras</strong></td>
+<td>Mesmo radical, sentido comum</td>
+<td><em>terra, terreno, aterrar</em></td>
+</tr>
+<tr class="even">
+<td><strong>Cognatos</strong></td>
+<td>Mesma origem etimológica</td>
+<td><em>noite/noche/nuit</em>; <em>terra/terreno</em></td>
+</tr>
+<tr class="odd">
+<td><strong>Dubleto</strong></td>
+<td>Cognatos popular + erudito</td>
+<td><em>cadeira/cátedra</em></td>
+</tr>
+<tr class="even">
+<td><strong>Falso cognato (parônimo)</strong></td>
+<td>Parece aparentado, mas não é</td>
+<td><em>deferir/diferir</em>; <em>pretend</em> (ing.)</td>
+</tr>
+<tr class="odd">
+<td><strong>Radical grego/latino</strong></td>
+<td>Elemento culto de sentido fixo</td>
+<td><em>bio-</em>, <em>geo-</em>, <em>-logia</em></td>
+</tr>
+<tr class="even">
+<td><strong>Produtividade</strong></td>
+<td>Capacidade de gerar palavras novas</td>
+<td><em>-inho</em>, <em>-mente</em>, verbos em <em>-ar</em></td>
+</tr>
+</tbody>
+</table>
+<p>Em uma linha: palavras de mesmo <strong>radical</strong> formam <strong>famílias</strong> (e são <strong>cognatas</strong>), o que amplia vocabulário, orienta a ortografia e permite inferir sentidos — mas cuidado com os <strong>falsos cognatos</strong>; e os padrões mais <strong>produtivos</strong> são a fábrica de palavras novas da língua.</p>
+</section>
+<section id="pegadinhas-e-erros-comuns" class="level2" data-number="27.8">
+<h2 data-number="27.8" class="anchored" data-anchor-id="pegadinhas-e-erros-comuns"><span class="header-section-number">27.8</span> ⚠️ Pegadinhas e erros comuns</h2>
+<ul>
+<li><strong>Achar que cognato = sinônimo.</strong> Cognatos partilham a <strong>origem</strong>, não o significado atual (<em>cadeira</em>/<em>cátedra</em> são cognatos, mas divergiram).</li>
+<li><strong>Cair em falso cognato entre línguas.</strong> O inglês <em>actually</em> = “na verdade” (não “atualmente”); o espanhol <em>embarazada</em> = “grávida” (não “envergonhada”). A semelhança engana.</li>
+<li><strong>Confundir parônimos (falsos cognatos internos).</strong> <em>Deferir</em> (conceder) × <em>diferir</em> (adiar); <em>ratificar</em> (confirmar) × <em>retificar</em> (corrigir). Sentidos distintos.</li>
+<li><strong>Ignorar a família na hora de grafar.</strong> <em>Analisar</em> (com <em>s</em>) segue <em>análise</em>; <em>gasoso</em> segue <em>gás</em>. A família orienta a ortografia.</li>
+<li><strong>Supor que todo sufixo é produtivo.</strong> <em>-inho</em> e <em>-mente</em> são produtíssimos; <em>-ume</em> (<em>queixume</em>) é fossilizado, quase não gera palavras novas.</li>
+</ul>
+</section>
+<section id="exercícios" class="level2" data-number="27.9">
+<h2 data-number="27.9" class="anchored" data-anchor-id="exercícios"><span class="header-section-number">27.9</span> ✍️ Exercícios</h2>
+<p><strong>1.</strong> O que é uma <strong>família de palavras</strong>? Cite cinco membros da família de <em>terra</em>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Família de palavras é o conjunto de vocábulos que partilham o mesmo <strong>radical</strong> e, com ele, um núcleo de significado comum. Da família de <em>terra</em> (radical <em>terr-</em>): <em>terreno</em>, <em>aterrar</em>, <em>enterrar</em>, <em>soterrar</em>, <em>terráqueo</em>, <em>subterrâneo</em>, <em>terrestre</em>, <em>território</em> (bastam cinco).</p>
+</div>
+</div>
+</div>
+<p><strong>2.</strong> (Estilo ENEM) As palavras portuguesa <em>noite</em>, espanhola <em>noche</em> e francesa <em>nuit</em> são:</p>
+<ol type="a">
+<li>sinônimas de línguas diferentes;</li>
+<li>cognatas, pois remontam à mesma origem (latim <em>nocte</em>);</li>
+<li>falsos cognatos;</li>
+<li>empréstimos recentes entre si;</li>
+<li>palavras sem parentesco.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Alternativa (b).</strong> São <strong>cognatas</strong>: descendem todas do latim <em>nocte(m)</em>, cada uma tendo evoluído conforme sua língua. Não são falsos cognatos (têm mesmo parentesco real) nem empréstimos entre si (herdaram, não tomaram emprestado).</p>
+</div>
+</div>
+</div>
+<p><strong>3.</strong> Explique por que <em>cadeira</em> e <em>cátedra</em> são cognatas, mas não sinônimas.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>São <strong>cognatas</strong> porque têm a mesma origem etimológica: ambas vêm do latim <em>cathedra</em> (“assento”). Mas não são <strong>sinônimas</strong> porque divergiram no sentido: <em>cadeira</em> (forma popular, evoluída pela via oral) designa o móvel de sentar; <em>cátedra</em> (forma erudita, tomada diretamente do latim) designa a posição de professor titular ou a cátedra episcopal. Formam um <strong>dubleto</strong> — popular + erudito da mesma raiz.</p>
+</div>
+</div>
+</div>
+<p><strong>4.</strong> Distinga cognato verdadeiro de falso cognato, com um exemplo de cada entre línguas.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Cognato verdadeiro</strong>: palavras de línguas diferentes com mesma origem e sentido próximo — português <em>família</em> e espanhol <em>familia</em> (ambos do latim <em>familia</em>). <strong>Falso cognato</strong> (falso amigo): palavras parecidas na forma, mas de sentido diferente e/ou origem distinta — inglês <em>pretend</em> (“fingir”, não “pretender”); espanhol <em>oficina</em> (“escritório”, não “oficina mecânica”). A semelhança de forma engana.</p>
+</div>
+</div>
+</div>
+<p><strong>5.</strong> Usando radicais gregos/latinos, deduza o sentido de: (a) <em>hidrofobia</em>; (b) <em>geologia</em>; (c) <em>bibliofilia</em>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="a">
+<li><em>hidrofobia</em> = <em>hidro-</em> (água) + <em>-fobia</em> (medo/aversão) → aversão/medo à água. (b) <em>geologia</em> = <em>geo-</em> (terra) + <em>-logia</em> (estudo) → estudo da Terra (suas rochas, estrutura). (c) <em>bibliofilia</em> = <em>biblio-</em> (livro) + <em>-filia</em> (afinidade) → amor/afinidade por livros. Conhecer os radicais permite inferir o sentido sem dicionário.</li>
+</ol>
+</div>
+</div>
+</div>
+<p><strong>6.</strong> (Estilo FCC) Assinale o par de <strong>parônimos</strong> (falsos cognatos internos ao português):</p>
+<ol type="a">
+<li>casa / lar;</li>
+<li>ratificar / retificar;</li>
+<li>belo / bonito;</li>
+<li>grande / enorme;</li>
+<li>rápido / veloz.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Alternativa (b).</strong> <em>Ratificar</em> (“confirmar”) e <em>retificar</em> (“corrigir”) são <strong>parônimos</strong>: parecidos na forma, mas de sentidos distintos — é preciso não confundi-los. As demais alternativas trazem <strong>sinônimos</strong> (palavras de sentido próximo), não parônimos.</p>
+</div>
+</div>
+</div>
+<p><strong>7.</strong> Como o conhecimento da família de palavras ajuda na <strong>ortografia</strong>? Dê um exemplo.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Palavras da mesma família tendem a manter grafia coerente, então a grafia de uma orienta a das outras. Exemplo: como <em>análise</em> se escreve com <em>s</em>, deduz-se que <em>analisar</em>, <em>analista</em>, <em>analítico</em> (mesma família) também levam <em>s</em>. Do mesmo modo, <em>gás</em> (com <em>s</em>) orienta <em>gasoso</em>, <em>gasoso</em>, <em>gasômetro</em>. Recorrer à família resolve muitas dúvidas de convenção.</p>
+</div>
+</div>
+</div>
+<p><strong>8.</strong> O que é <strong>produtividade lexical</strong>? Dê um sufixo muito produtivo e um improdutivo.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Produtividade lexical é a capacidade de um padrão de formação <strong>gerar palavras novas</strong>. Sufixo muito <strong>produtivo</strong>: <em>-inho</em> (diminutivos ilimitados: <em>casinha</em>, <em>cafezinho</em>), <em>-mente</em> (advérbios), <em>-ção</em> (nomes de ação), ou verbos em <em>-ar</em> (<em>deletar</em>, <em>tuitar</em>). Sufixo <strong>improdutivo</strong> (fossilizado): <em>-ume</em> (<em>queixume</em>, <em>ciúme</em>), que praticamente não forma vocábulos novos hoje.</p>
+</div>
+</div>
+</div>
+<p><strong>9.</strong> Explique por que empréstimos como <em>deletar</em> se integram facilmente ao português.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Porque o português tem padrões de formação muito <strong>produtivos</strong> que absorvem a novidade. Ao entrar, <em>deletar</em> encaixa-se no padrão dos verbos de 1ª conjugação (em <em>-ar</em>), o mais produtivo, e passa a flexionar-se normalmente (<em>deleto</em>, <em>deletava</em>, <em>deletado</em>) e a gerar derivados (<em>deletável</em>, <em>deleção</em>). O sistema morfológico funciona como uma fábrica que “nacionaliza” a palavra estrangeira segundo seus moldes.</p>
+</div>
+</div>
+</div>
+<p><strong>10.</strong> (Estilo Cebraspe — Certo/Errado) Julgue: “As palavras <em>emergir</em> e <em>imergir</em> são sinônimas, pois pertencem à mesma família e têm o mesmo radical.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Errado.</strong> <em>Emergir</em> (“vir à tona, subir”) e <em>imergir</em> (“mergulhar, afundar”) têm sentidos <strong>opostos</strong>, apesar de o radical comum (<em>-mergir</em>) e a semelhança de forma. A diferença de prefixo (<em>e-</em> × <em>i-</em>) inverte o sentido. São <strong>parônimos</strong> que exigem cuidado: pertencer à mesma família não os torna sinônimos — pelo contrário, aqui são quase antônimos.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="referências" class="level2" data-number="27.10">
+<h2 data-number="27.10" class="anchored" data-anchor-id="referências"><span class="header-section-number">27.10</span> 📚 Referências</h2>
+<p>As noções de família de palavras, cognatos e dubletos apoiam-se em Câmara Jr. <span class="citation" data-cites="camarajr1970">(<a href="cap-01-linguagem-lingua-fala.html#ref-camarajr1970" role="doc-biblioref">Câmara Jr., 1970</a>)</span> e na história da língua de Teyssier <span class="citation" data-cites="teyssier2007">(<a href="cap-01-linguagem-lingua-fala.html#ref-teyssier2007" role="doc-biblioref">Teyssier, 2007</a>)</span>; a produtividade lexical e os processos de formação são discutidos por Castilho <span class="citation" data-cites="castilho2010">(<a href="cap-01-linguagem-lingua-fala.html#ref-castilho2010" role="doc-biblioref">Castilho, 2010</a>)</span>. Os radicais gregos e latinos podem ser consultados no dicionário Houaiss <span class="citation" data-cites="houaiss2009">(<a href="cap-01-linguagem-lingua-fala.html#ref-houaiss2009" role="doc-biblioref">Houaiss; Villar, 2009</a>)</span>. Com este capítulo encerra-se o Volume 4; o Volume 5 abre o estudo das classes de palavras.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-camarajr1970" class="csl-entry" role="listitem">
+CÂMARA JR., Joaquim Mattoso. <strong>Estrutura da Língua Portuguesa</strong>. Petrópolis: Vozes, 1970.
+</div>
+<div id="ref-castilho2010" class="csl-entry" role="listitem">
+CASTILHO, Ataliba Teixeira de. <strong>Nova Gramática do Português Brasileiro</strong>. São Paulo: Contexto, 2010.
+</div>
+<div id="ref-houaiss2009" class="csl-entry" role="listitem">
+HOUAISS, Antônio; VILLAR, Mauro de Salles. <strong>Dicionário Houaiss da Língua Portuguesa</strong>. Rio de Janeiro: Objetiva, 2009.
+</div>
+<div id="ref-teyssier2007" class="csl-entry" role="listitem">
+TEYSSIER, Paul. <strong>História da Língua Portuguesa</strong>. Tradução: Celso Cunha. São Paulo: Martins Fontes, 2007.
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

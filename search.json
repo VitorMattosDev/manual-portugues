@@ -2298,7 +2298,106 @@
     "href": "capitulos/cap-21-morfema-unidades-minimas.html",
     "title": "22  Morfema: as unidades mínimas de significado",
     "section": "",
-    "text": "23 Morfema: as unidades mínimas de significado\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "23 Morfema: as unidades mínimas de significado\nAbrimos o Volume 4, dedicado à morfologia — o estudo da estrutura e da formação das palavras. E começamos pela unidade fundamental desse estudo: o morfema. Se na fonologia a menor unidade era o fonema (que distingue significados, mas não significa nada por si), na morfologia a menor unidade é o morfema: o menor pedaço da palavra que carrega significado.\nTome a palavra meninas. Ela não é um bloco indivisível: contém menin- (a ideia de “criança”), -a (feminino) e -s (plural). Três morfemas, três significados somados. Aprender a decompor palavras assim — a enxergar as peças dentro delas — é a base de tudo o que veremos sobre estrutura (Capítulo 24) e formação de palavras (capítulos 23 e 24). É também uma habilidade que ilumina a ortografia, o vocabulário e a interpretação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html#objetivos-de-aprendizagem",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "23.1 🎯 Objetivos de aprendizagem",
+    "text": "23.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nDefinir morfema como a menor unidade significativa da língua;\nDistinguir morfema de fonema e de sílaba;\nClassificar os morfemas em lexicais e gramaticais (livres e presos);\nReconhecer morfemas zero e alomorfes;\nSegmentar palavras em seus morfemas constituintes;\nRelacionar o morfema à formação e à flexão das palavras.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html#o-que-é-um-morfema",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html#o-que-é-um-morfema",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "23.2 O que é um morfema",
+    "text": "23.2 O que é um morfema\nMorfema é a menor unidade da língua dotada de significado. “Menor” porque, se o dividirmos mais, perdemos o sentido; “dotada de significado” porque, ao contrário do fonema, o morfema significa algo — seja um conteúdo (a ideia de “gato”) seja uma função gramatical (plural, feminino, passado).\nCompare os três níveis:\n\nFonema: /g/, /a/, /t/, /u/ — distinguem, mas não significam.\nSílaba: ga, tu — unidades de pronúncia, sem necessário significado próprio.\nMorfema: gat- (ideia de gato), -o (masculino), -s (plural) — significam.\n\nNote que sílaba e morfema não coincidem: em gatos, a sílaba ga-tos divide de um jeito, mas os morfemas gat-o-s dividem de outro. São critérios diferentes: a sílaba é fonológica; o morfema, morfológico.\n\n\n\n\n\n\nNotaMorfema não é sílaba\n\n\n\nUm erro comum é segmentar por sílabas ao analisar morfemas. Em infelizmente, as sílabas são in-fe-liz-men-te (5), mas os morfemas são in- (negação) + feliz (base) + -mente (advérbio de modo) — 3 morfemas. A sílaba responde “como se pronuncia”; o morfema, “que pedaços de sentido a compõem”.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html#a-classificação-dos-morfemas",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html#a-classificação-dos-morfemas",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "23.3 A classificação dos morfemas",
+    "text": "23.3 A classificação dos morfemas\nOs morfemas dividem-se conforme o tipo de significado que carregam e sua capacidade de aparecer sozinhos. A Figura 23.1 organiza a tipologia.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 23.1: Os morfemas dividem-se em lexicais (conteúdo) e gramaticais (função — afixos e desinências), e, transversalmente, em livres (aparecem sozinhos) e presos (só ligados a outros).\n\n\n\n\n23.3.1 Morfema lexical × gramatical\n\nLexical (ou de conteúdo): carrega o significado “de dicionário”, o núcleo semântico. É o radical: gat- em gato, pedr- em pedra, cant- em cantar.\nGramatical (ou de função): carrega significado gramatical — indica flexão, cria palavras derivadas, marca relações. Inclui afixos (prefixos, sufixos) e desinências (de gênero, número, modo-tempo, número-pessoa).\n\n\n\n23.3.2 Morfema livre × preso\n\nLivre: pode aparecer sozinho como palavra — sol, mar, flor, ele.\nPreso: só existe ligado a outro morfema — o -s de plural, o prefixo in-, o sufixo -mente, muitos radicais (receb- só aparece em receber, recebo…).",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html#alomorfes-um-morfema-várias-formas",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html#alomorfes-um-morfema-várias-formas",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "23.4 Alomorfes: um morfema, várias formas",
+    "text": "23.4 Alomorfes: um morfema, várias formas\nUm mesmo morfema pode apresentar-se sob formas diferentes, conforme o contexto — essas variantes são os alomorfes. O morfema de plural, por exemplo, realiza-se como -s (gatos), mas como -es (flores) ou -is (fósseis, com transformação) em outros contextos. O prefixo de negação aparece como in- (incapaz), im- (impossível), i- (ilegal, irreal) — todos alomorfes do mesmo morfema negativo. São “a mesma peça de sentido, vestida de modos diferentes”.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html#morfema-zero",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html#morfema-zero",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "23.5 Morfema zero (∅)",
+    "text": "23.5 Morfema zero (∅)\nÀs vezes o significado gramatical está presente, mas sem marca visível. Diz-se então que há um morfema zero (∅). Em gato (masculino) × gata (feminino), o feminino é marcado por -a; o masculino, por ausência de marca — um morfema zero de masculino. Da mesma forma, o singular (gato) opõe-se ao plural (gatos, com -s): o singular tem morfema zero de número. O zero significa por contraste com a forma marcada.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html#quadro-resumo",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html#quadro-resumo",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "23.6 📋 Quadro-resumo",
+    "text": "23.6 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nConceito\nDefinição\nExemplo\n\n\n\n\nMorfema\nMenor unidade com significado\ngat-, -o, -s em gatos\n\n\nLexical\nConteúdo (radical)\nsol, cant-, pedr-\n\n\nGramatical\nFunção (afixos, desinências)\nin-, -mente, -s\n\n\nLivre\nAparece sozinho\nmar, flor\n\n\nPreso\nSó ligado a outro\n-s, in-, -mente\n\n\nAlomorfe\nVariante do mesmo morfema\nin-/im-/i-; -s/-es\n\n\nMorfema zero (∅)\nSignificado sem marca visível\nmasculino/singular de gato\n\n\n\nEm uma linha: o morfema é a menor peça de sentido da palavra; divide-se em lexical (radical) e gramatical (afixos e desinências), em livre e preso, e pode ter variantes (alomorfes) ou marca invisível (morfema zero).",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html#pegadinhas-e-erros-comuns",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "23.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "23.7 ⚠️ Pegadinhas e erros comuns\n\nSegmentar por sílabas em vez de morfemas. Infelizmente tem 5 sílabas, mas 3 morfemas (in- + feliz + -mente). Sílaba ≠ morfema.\nConfundir morfema com fonema. O fonema distingue mas não significa (/g/); o morfema significa (gat-). Níveis diferentes de análise.\nAchar que todo radical é morfema livre. Muitos radicais são presos: receb-, concluí… só aparecem ligados a desinências ou afixos.\nIgnorar o morfema zero. No masculino/singular de gato, o significado de gênero e número está presente por contraste com gata/gatos, ainda que sem marca visível.\nNão reconhecer alomorfes. in-, im-, i- (em incapaz, impossível, ilegal) são o mesmo morfema de negação, em variantes conforme o som seguinte.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html#exercícios",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html#exercícios",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "23.8 ✍️ Exercícios",
+    "text": "23.8 ✍️ Exercícios\n1. Defina morfema e explique como ele difere do fonema.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nMorfema é a menor unidade da língua dotada de significado. Difere do fonema porque o fonema é a menor unidade sonora distintiva, que diferencia significados sem significar nada por si (/p/ em pato × bato), ao passo que o morfema já carrega significado — de conteúdo (gat-) ou gramatical (-s de plural). O fonema pertence à fonologia; o morfema, à morfologia.\n\n\n\n2. (Estilo ENEM) Na palavra desigualdade, os morfemas são:\n\nde-si-gual-da-de (5 sílabas);\ndes- + igual + -dade;\ndesi- + gualdade;\ndes- + igualdade (indivisível);\ndesigual + idade.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Desigualdade segmenta-se em três morfemas: o prefixo des- (negação), o radical/base igual e o sufixo -dade (formador de substantivo abstrato). A (a) é a divisão silábica, não morfológica.\n\n\n\n3. Classifique cada morfema de pedreiros em lexical ou gramatical.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPedreiros = pedr- + -eir- + -o + -s. pedr- é morfema lexical (radical, conteúdo de “pedra”); -eir(o) é gramatical (sufixo derivacional, forma o nome de ofício); -o é gramatical (desinência de gênero masculino); -s é gramatical (desinência de número plural).\n\n\n\n4. Distinga morfema livre de morfema preso, com dois exemplos de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nMorfema livre aparece sozinho como palavra: sol, mar, flor, ele. Morfema preso só existe ligado a outro: os afixos in- e -mente, a desinência -s de plural, e radicais presos como receb- (que só ocorre em receber, recebo…). O livre tem autonomia; o preso, não.\n\n\n\n5. O que são alomorfes? Ilustre com o prefixo de negação.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlomorfes são as variantes de forma de um mesmo morfema, condicionadas pelo contexto. O morfema de negação apresenta-se como in- (incapaz), im- (impossível, antes de p/b), i- (ilegal, irreal, antes de l/r). São formas diferentes do mesmo morfema negativo — a mesma peça de sentido em variantes sonoras.\n\n\n\n6. (Estilo FCC) Em gato (masculino singular), o gênero masculino e o número singular são marcados por:\n\ndesinências visíveis -o e -s;\nmorfema zero (ausência de marca, por contraste com gata e gatos);\num prefixo;\num sufixo derivacional;\num alomorfe.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Em gato, o masculino e o singular são marcados por morfema zero: não há marca visível, mas o significado se estabelece por contraste com as formas marcadas gata (feminino, com -a) e gatos (plural, com -s). O zero significa pela oposição.\n\n\n\n7. Segmente em morfemas e conte-os: reflorestamento.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nReflorestamento = re- + florest- + -a- + -mento. São quatro morfemas: o prefixo re- (repetição), o radical florest- (de floresta), a vogal temática -a- (do verbo florestar/reflorestar) e o sufixo -mento (forma o substantivo de ação). O radical carrega o conteúdo; os demais, função gramatical/derivacional.\n\n\n\n8. Por que sílaba e morfema não coincidem? Ilustre com infelizmente.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque são critérios de análise diferentes: a sílaba é uma unidade de pronúncia (fonológica); o morfema, uma unidade de significado (morfológica). Em infelizmente, há 5 sílabas (in-fe-liz-men-te), mas apenas 3 morfemas: in- (negação) + feliz (base) + -mente (sufixo adverbial). A contagem por um critério não serve para o outro.\n\n\n\n9. Identifique os morfemas presos em: impossível.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nImpossível = im- + possív(el) (de poder/possível) + -el/base. Os morfemas presos são: o prefixo im- (alomorfe de in-, negação — só aparece ligado) e o sufixo/base flexional. O radical possí- (ligado a poder) também é preso, pois não ocorre isolado. Nenhum desses aparece sozinho como palavra.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Na palavra sol, há um único morfema, que é ao mesmo tempo lexical e livre.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCerto. Sol é constituída por um único morfema: é lexical (radical que carrega o conteúdo semântico) e livre (aparece sozinho como palavra, sem precisar ligar-se a outro morfema). Reúne, portanto, as duas classificações — o que é comum em substantivos monomorfêmicos.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-21-morfema-unidades-minimas.html#referências",
+    "href": "capitulos/cap-21-morfema-unidades-minimas.html#referências",
+    "title": "22  Morfema: as unidades mínimas de significado",
+    "section": "23.9 📚 Referências",
+    "text": "23.9 📚 Referências\nO conceito de morfema e sua tipologia (lexical/gramatical, livre/preso, alomorfe, morfema zero) seguem a descrição estrutural de Câmara Jr. (Câmara Jr., 1970), referência fundadora da morfologia do português, e são retomados por Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017). A estrutura interna da palavra é o tema do Capítulo 24.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>Morfema: as unidades mínimas de significado</span>"
@@ -2309,7 +2408,117 @@
     "href": "capitulos/cap-22-estrutura-das-palavras.html",
     "title": "23  Estrutura das palavras: radical, afixos e desinências",
     "section": "",
-    "text": "24 Estrutura das palavras: radical, afixos e desinências\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "24 Estrutura das palavras: radical, afixos e desinências\nNo capítulo anterior aprendemos que a palavra se divide em morfemas. Agora damos nome a cada tipo de morfema conforme sua posição e função dentro da palavra: radical, vogal temática, afixos (prefixos e sufixos) e desinências. Esses são os elementos mórficos (ou elementos estruturais) da palavra — o vocabulário técnico com que analisamos, por exemplo, que meninas é menin- (radical) + -a (desinência de gênero) + -s (desinência de número).\nDominar esses elementos é o que permite compreender a flexão (variação de gênero, número, tempo) e a derivação (formação de novas palavras), temas dos próximos capítulos. É também a base da análise morfológica pedida em provas. Vamos, portanto, mapear a anatomia da palavra portuguesa.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#objetivos-de-aprendizagem",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.1 🎯 Objetivos de aprendizagem",
+    "text": "24.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nIdentificar o radical como elemento portador do significado básico;\nReconhecer a vogal temática e o tema;\nDistinguir prefixos de sufixos e afixos derivacionais de flexionais;\nClassificar as desinências (nominais e verbais);\nDiferenciar vogais e consoantes de ligação dos demais elementos;\nAnalisar morficamente palavras nominais e verbais.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#o-radical-o-núcleo-da-palavra",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#o-radical-o-núcleo-da-palavra",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.2 O radical: o núcleo da palavra",
+    "text": "24.2 O radical: o núcleo da palavra\nO radical é o elemento que contém o significado básico da palavra, comum a toda uma família de vocábulos. Em pedra, pedreiro, pedregulho, empedrar, o radical pedr- é o núcleo compartilhado. É, em geral, o morfema lexical de que falamos no capítulo anterior.\nPalavras da mesma família compartilham o radical: terra, terreno, aterrar, enterrar, terráqueo — todas giram em torno de terr-. Identificar o radical é o primeiro passo da análise e a chave para reconhecer cognatos (Capítulo 27).\n\n\n\n\n\n\nNotaRadical, raiz e semantema\n\n\n\nAlguns autores distinguem raiz (o elemento mínimo irredutível, muitas vezes de origem latina/grega) de radical (o que resta ao se retirarem as desinências). Para os fins deste manual — e da maioria das provas —, usaremos radical como o núcleo significativo da palavra, sem entrar nas subdivisões mais finas.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#a-vogal-temática-e-o-tema",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#a-vogal-temática-e-o-tema",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.3 A vogal temática e o tema",
+    "text": "24.3 A vogal temática e o tema\nEntre o radical e as desinências, aparece muitas vezes uma vogal temática — uma vogal que “prepara” o radical para receber as desinências, sem significado próprio. Ela é mais visível nos verbos, onde indica a conjugação:\n\n1ª conjugação: vogal temática -a- (cantar, falar, amar).\n2ª conjugação: vogal temática -e- (vender, comer, bater).\n3ª conjugação: vogal temática -i- (partir, sorrir, abrir).\n\nO conjunto radical + vogal temática chama-se tema. Em cantar, o tema é canta-. Nos nomes, também há vogais temáticas (o -a de mesa, o -o de livro, o -e de dente), embora aí a análise seja mais debatida.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#os-afixos-prefixos-e-sufixos",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#os-afixos-prefixos-e-sufixos",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.4 Os afixos: prefixos e sufixos",
+    "text": "24.4 Os afixos: prefixos e sufixos\nAfixos são morfemas gramaticais que se juntam ao radical para formar novas palavras (derivação) ou, mais raramente, para marcar categorias. Dividem-se pela posição:\n\nPrefixo: vem antes do radical — des- (desfazer), in- (infeliz), re- (rever), pré- (pré-histórico).\nSufixo: vem depois do radical — -mente (rapidamente), -dade (bondade), -eiro (pedreiro), -ção (formação).\n\nOs afixos derivacionais mudam o sentido ou a classe da palavra: feliz (adjetivo) + -mente → felizmente (advérbio); pedra (substantivo) + -eiro → pedreiro (substantivo de ofício). Voltaremos a eles em detalhe no Capítulo 25.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#as-desinências-a-flexão",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#as-desinências-a-flexão",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.5 As desinências: a flexão",
+    "text": "24.5 As desinências: a flexão\nDesinências são morfemas que marcam a flexão — a variação gramatical da palavra dentro de sua classe (sem criar palavra nova nem mudar de classe). Há dois grandes grupos, resumidos na Figura 24.1.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 24.1: A anatomia de uma palavra nominal (meninas) e de uma verbal (cantávamos): radical, vogal temática (VT) e desinências de gênero (DG), número (DN), modo-tempo (DMT) e número-pessoa (DNP).\n\n\n\n\n24.5.1 Desinências nominais\nFlexionam nomes (substantivos, adjetivos) em:\n\ngênero (DG): -a (feminino) × zero (masculino) — menin-o / menin-a.\nnúmero (DN): -s (plural) × zero (singular) — menino / menino-s.\n\n\n\n24.5.2 Desinências verbais\nFlexionam verbos em quatro categorias, distribuídas em duas desinências:\n\ndesinência modo-temporal (DMT): marca modo e tempo — o -va- de cantava (pretérito imperfeito), o -ra- de cantara, o -sse- de cantasse.\ndesinência número-pessoal (DNP): marca pessoa e número — o -mos de cantamos (1ª pessoa do plural), o -s de cantas, o -m de cantam.\n\nAssim, cantávamos = cant- (radical) + -á- (VT) + -va- (DMT) + -mos (DNP).",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#elementos-de-ligação",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#elementos-de-ligação",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.6 Elementos de ligação",
+    "text": "24.6 Elementos de ligação\nPara facilitar a pronúncia, aparecem às vezes vogais e consoantes de ligação (morfemas sem significado, meramente eufônicos), sobretudo em palavras derivadas e compostas: o -t- de cafe-t-eira, o -z- de cafe-z-al, o -i- de pau-l-ada. Não carregam sentido; existem só para “colar” os morfemas sem choque de sons.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#quadro-resumo",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#quadro-resumo",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.7 📋 Quadro-resumo",
+    "text": "24.7 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nElemento\nFunção\nExemplo\n\n\n\n\nRadical\nSignificado básico (núcleo)\npedr-, cant-, terr-\n\n\nVogal temática\nLiga radical a desinências; indica conjugação\n-a- (cantar), -e- (vender), -i- (partir)\n\n\nPrefixo\nAfixo antes do radical (deriva)\ndes-, in-, re-\n\n\nSufixo\nAfixo depois do radical (deriva)\n-mente, -dade, -eiro\n\n\nDesinência nominal\nFlexão de gênero/número\n-a (gênero), -s (número)\n\n\nDesinência verbal\nFlexão modo-tempo (DMT) e número-pessoa (DNP)\n-va-, -mos\n\n\nVogal/consoante de ligação\nEufonia (sem sentido)\n-t- em cafeteira\n\n\n\nEm uma linha: a palavra estrutura-se em radical (núcleo de sentido) + vogal temática + afixos (prefixos/sufixos, que derivam) + desinências (que flexionam), com eventuais elementos de ligação por eufonia.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#pegadinhas-e-erros-comuns",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.8 ⚠️ Pegadinhas e erros comuns",
+    "text": "24.8 ⚠️ Pegadinhas e erros comuns\n\nConfundir afixo (derivação) com desinência (flexão). O afixo cria palavra nova ou muda a classe (feliz → felizmente); a desinência apenas flexiona dentro da classe (menino → meninos).\nTomar a vogal temática por desinência. A VT (-a- de cantar) não flexiona: só prepara o radical e indica a conjugação. As desinências verbais são a DMT e a DNP.\nEsquecer o morfema zero de gênero/número. Em menino, o masculino e o singular têm marca zero, por contraste com menina/meninos.\nAchar que toda vogal final é desinência. O -o de livro e o -e de dente são vogais temáticas nominais, não necessariamente desinências de gênero.\nTratar vogal de ligação como radical ou sufixo. O -t- de cafeteira é mero elemento eufônico, sem significado.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#exercícios",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#exercícios",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.9 ✍️ Exercícios",
+    "text": "24.9 ✍️ Exercícios\n1. Identifique o radical e cite três palavras da mesma família: terra.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nRadical: terr-. Palavras da mesma família (bastam três): terreno, aterrar, enterrar, terráqueo, soterrar. Todas compartilham o radical terr-, que carrega o significado básico comum.\n\n\n\n2. (Estilo ENEM) Em cantávamos, o elemento -mos é:\n\no radical;\na vogal temática;\na desinência modo-temporal;\na desinência número-pessoal;\num sufixo derivacional.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (d). O -mos é a desinência número-pessoal (DNP): marca a 1ª pessoa do plural. A análise completa é cant- (radical) + -á- (VT) + -va- (DMT, pretérito imperfeito) + -mos (DNP).\n\n\n\n3. Segmente e nomeie cada elemento de meninas.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nMeninas = menin- + -a + -s. menin- = radical (significado básico); -a = desinência de gênero (feminino); -s = desinência de número (plural). É uma palavra nominal flexionada em gênero e número.\n\n\n\n4. Qual é a vogal temática e a conjugação de: (a) vender; (b) partir; (c) amar?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nvender → VT -e-, 2ª conjugação. (b) partir → VT -i-, 3ª conjugação.\namar → VT -a-, 1ª conjugação. A vogal temática dos verbos identifica a conjugação.\n\n\n\n\n5. Diferencie afixo derivacional de desinência flexional, com exemplos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO afixo derivacional forma palavra nova, muitas vezes mudando a classe: feliz (adjetivo) + -mente → felizmente (advérbio); des- + fazer → desfazer. A desinência flexional apenas varia a palavra dentro de sua classe, sem criar palavra nova: menino → meninos (número), cantar → cantávamos (tempo/pessoa). Derivação = palavra nova; flexão = mesma palavra, forma variada.\n\n\n\n6. (Estilo FCC) Em infelizmente, os elementos mórficos são:\n\nradical + vogal temática + desinência;\nprefixo in- + radical feliz + sufixo -mente;\ntrês desinências;\nradical indivisível;\nprefixo + desinência de número.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Infelizmente = in- (prefixo, negação) + feliz (radical/base) + -mente (sufixo formador de advérbio). São dois afixos derivacionais ligados a um radical — não há desinências flexionais nem vogal temática visível aqui.\n\n\n\n7. Analise morficamente o verbo partíssemos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPartíssemos = part- + -í- + -sse- + -mos. part- = radical; -í- = vogal temática (3ª conjugação); -sse- = desinência modo-temporal (pretérito imperfeito do subjuntivo); -mos = desinência número-pessoal (1ª pessoa do plural).\n\n\n\n8. Aponte o elemento de ligação (vogal ou consoante) em: (a) cafeteira; (b) gasômetro; (c) paulada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\ncafe-t-eira → consoante de ligação -t-. (b) gas-ô-metro → vogal de ligação -o- (aqui ligando radicais). (c) pau-l-ada → consoante de ligação -l-. São elementos eufônicos, sem significado, que evitam o choque de sons na junção dos morfemas.\n\n\n\n\n9. Por que o -o de menino é considerado desinência de gênero, mas exige a noção de morfema zero para o masculino?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque o gênero se marca por oposição: menin-a tem a desinência -a de feminino; menin-o opõe-se a ela. Alguns analisam o -o como desinência de masculino; outros, como vogal temática, com o masculino sendo marcado por morfema zero (ausência de -a). Em qualquer análise, o masculino se define por contraste com o feminino marcado — daí a utilidade da noção de morfema zero.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Na palavra desleais, há um prefixo, um radical e duas desinências (de gênero e de número).”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado (parcialmente). Desleais = des- (prefixo) + leal (radical) + -s (desinência de número). O adjetivo leal é uniforme quanto ao gênero (serve para masculino e feminino: homem leal, mulher leal), logo não há desinência de gênero — há apenas a de número (-s). Portanto, são um prefixo, um radical e uma desinência (de número), não duas.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-22-estrutura-das-palavras.html#referências",
+    "href": "capitulos/cap-22-estrutura-das-palavras.html#referências",
+    "title": "23  Estrutura das palavras: radical, afixos e desinências",
+    "section": "24.10 📚 Referências",
+    "text": "24.10 📚 Referências\nA descrição dos elementos mórficos da palavra portuguesa (radical, vogal temática, afixos, desinências) tem em Câmara Jr. (Câmara Jr., 1970) sua formulação de referência, retomada por Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017). Os processos de formação por afixação são desenvolvidos no Capítulo 25.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
       "<span class='chapter-number'>23</span>  <span class='chapter-title'>Estrutura das palavras: radical, afixos e desinências</span>"
@@ -2320,7 +2529,95 @@
     "href": "capitulos/cap-23-formacao-derivacao.html",
     "title": "24  Formação de palavras I: derivação",
     "section": "",
-    "text": "25 Formação de palavras I: derivação\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "25 Formação de palavras I: derivação\nComo o português cria palavras novas? Raramente do nada — quase sempre a partir de material que já existe. O processo mais produtivo é a derivação: formar uma palavra nova acrescentando afixos (prefixos e sufixos) a uma palavra ou radical existente. De feliz nascem infeliz, felizmente, felicidade; de terra, aterrar, enterrar, terreno. Uma única base gera dezenas de derivados — é assim que o léxico cresce de modo econômico e regular.\nEste capítulo trata da derivação (o próximo, Capítulo 26, tratará da composição e dos demais processos). Vamos classificar seus tipos — prefixal, sufixal, parassintética, regressiva, imprópria — e, sobretudo, entender a diferença crucial entre prefixação + sufixação e parassíntese, uma das pegadinhas mais clássicas das provas de morfologia.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-23-formacao-derivacao.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-23-formacao-derivacao.html#objetivos-de-aprendizagem",
+    "title": "24  Formação de palavras I: derivação",
+    "section": "25.1 🎯 Objetivos de aprendizagem",
+    "text": "25.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nConceituar derivação como processo de formação por afixos;\nClassificar os tipos de derivação (prefixal, sufixal, parassintética, regressiva, imprópria);\nDistinguir parassíntese de derivação prefixal e sufixal;\nReconhecer o valor semântico dos principais afixos;\nIdentificar a mudança de classe provocada pela derivação;\nAnalisar palavras quanto ao seu processo de formação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-23-formacao-derivacao.html#palavras-primitivas-e-derivadas",
+    "href": "capitulos/cap-23-formacao-derivacao.html#palavras-primitivas-e-derivadas",
+    "title": "24  Formação de palavras I: derivação",
+    "section": "25.2 Palavras primitivas e derivadas",
+    "text": "25.2 Palavras primitivas e derivadas\nAntes dos tipos, dois conceitos:\n\nPalavra primitiva: não deriva de outra da língua; é a base (pedra, feliz, terra, mar).\nPalavra derivada: forma-se a partir de outra por acréscimo de afixos (pedreiro, infeliz, aterrar, marítimo).\n\nA derivação parte sempre de uma base (palavra primitiva ou já derivada) e lhe acrescenta afixos. Vejamos os tipos.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-23-formacao-derivacao.html#tipos-de-derivação",
+    "href": "capitulos/cap-23-formacao-derivacao.html#tipos-de-derivação",
+    "title": "24  Formação de palavras I: derivação",
+    "section": "25.3 Tipos de derivação",
+    "text": "25.3 Tipos de derivação\nA Figura 25.1 organiza os cinco tipos.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 25.1: Os cinco tipos de derivação: prefixal, sufixal, parassintética (prefixo e sufixo inseparáveis), regressiva (redução) e imprópria (mudança de classe sem afixo).\n\n\n\n\n25.3.1 Derivação prefixal\nAcrescenta-se apenas um prefixo à base: re- + fazer → refazer; des- + leal → desleal; in- + feliz → infeliz. A base continua sendo palavra da língua sem o prefixo (fazer, leal, feliz existem).\n\n\n25.3.2 Derivação sufixal\nAcrescenta-se apenas um sufixo: feliz + -mente → felizmente; pedra + -eiro → pedreiro; nação + -al → nacional. A base existe sem o sufixo.\n\n\n25.3.3 Derivação parassintética\nAqui está a distinção decisiva. Na parassíntese, acrescentam-se prefixo e sufixo ao mesmo tempo, e eles são inseparáveis: a palavra não existe nem só com o prefixo, nem só com o sufixo — os dois entram juntos, de uma vez.\nExemplo: entristecer (en- + trist(e) + -ecer). Teste: existe “tristecer” (só com sufixo)? Não. Existe “entriste” (só com prefixo)? Não. Como nenhum dos dois existe isoladamente, os afixos entraram simultaneamente → parassíntese.\n\n\n\n\n\n\nImportanteParassíntese × prefixação-e-sufixação: o teste\n\n\n\nQuando uma palavra tem prefixo e sufixo, faça o teste de retirada:\n\nSe, retirando só o prefixo, sobra palavra existente, ou retirando só o sufixo sobra palavra existente → é derivação prefixal e sufixal (não parassíntese). Ex.: infelizmente → existe felizmente (sem in-) e infeliz (sem -mente).\nSe nem com um nem com o outro sobra palavra existente → é parassíntese. Ex.: entristecer → não existe “tristecer” nem “entriste”.\n\nRegra prática: a maioria dos verbos formados de nome/adjetivo com a-/en- + -ecer/ -izar/-ar é parassintética: amanhecer, anoitecer, envelhecer, esfriar, aportuguesar.\n\n\n\n\n25.3.4 Derivação regressiva\nForma-se a palavra nova reduzindo a base, em vez de acrescentar afixo. Cria tipicamente substantivos derivados de verbos (os chamados deverbais): perder → perda; combater → combate; atacar → ataque; custear → custo; embarcar → embarque. O substantivo é mais “curto” que o verbo — daí “regressiva”.\n\n\n25.3.5 Derivação imprópria (ou conversão)\nA palavra muda de classe gramatical sem alterar a forma — não se acrescenta nem retira nada. O contexto faz a mudança:\n\nverbo → substantivo: o jantar está pronto (de jantar); o olhar dela.\nadjetivo → substantivo: os bons vencem (de bom).\nadvérbio → substantivo: o porquê da questão; um não seco.\nsubstantivo → adjetivo: um homem fera; um verde garrafa.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-23-formacao-derivacao.html#o-valor-semântico-dos-afixos",
+    "href": "capitulos/cap-23-formacao-derivacao.html#o-valor-semântico-dos-afixos",
+    "title": "24  Formação de palavras I: derivação",
+    "section": "25.4 O valor semântico dos afixos",
+    "text": "25.4 O valor semântico dos afixos\nOs afixos carregam significados razoavelmente estáveis, o que ajuda a interpretar palavras desconhecidas. Alguns exemplos:\n\n\n\n\n\n\n\n\nPrefixo\nSentido\nExemplo\n\n\n\n\ndes-, in-, a-\nnegação, ausência\ndesfazer, incapaz, amoral\n\n\nre-\nrepetição, retorno\nrefazer, rever\n\n\npré-, ante-\nanterioridade\nprever, antever\n\n\npós-\nposterioridade\npós-guerra\n\n\nsub-, hipo-\nposição inferior\nsubsolo, hipoderme\n\n\nsuper-, hiper-\nexcesso, posição superior\nsuperpovoado, hipertenso\n\n\n\n\n\n\n\n\n\n\n\nSufixo\nForma\nExemplo\n\n\n\n\n-mente\nadvérbios (de adjetivo)\nrapidamente\n\n\n-dade, -ez(a), -ura\nsubstantivos abstratos\nbondade, beleza, loucura\n\n\n-eiro, -ista\nagente/ofício\npedreiro, dentista\n\n\n-ção, -mento\nação (de verbo)\nformação, casamento\n\n\n-ável, -ível\npossibilidade (adjetivos)\namável, legível",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-23-formacao-derivacao.html#quadro-resumo",
+    "href": "capitulos/cap-23-formacao-derivacao.html#quadro-resumo",
+    "title": "24  Formação de palavras I: derivação",
+    "section": "25.5 📋 Quadro-resumo",
+    "text": "25.5 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nTipo\nComo se forma\nExemplo\n\n\n\n\nPrefixal\nsó prefixo\nrefazer, infeliz\n\n\nSufixal\nsó sufixo\nfelizmente, pedreiro\n\n\nParassintética\nprefixo + sufixo inseparáveis\nentristecer, anoitecer\n\n\nRegressiva\nredução (subst. de verbo)\nperda, ataque\n\n\nImprópria\nmuda de classe sem afixo\no jantar, os bons\n\n\n\nEm uma linha: a derivação forma palavras por afixos — só prefixo (prefixal), só sufixo (sufixal), os dois juntos e inseparáveis (parassintética), por redução (regressiva) ou por mudança de classe sem afixo (imprópria).",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-23-formacao-derivacao.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-23-formacao-derivacao.html#pegadinhas-e-erros-comuns",
+    "title": "24  Formação de palavras I: derivação",
+    "section": "25.6 ⚠️ Pegadinhas e erros comuns",
+    "text": "25.6 ⚠️ Pegadinhas e erros comuns\n\nConfundir parassíntese com prefixação-e-sufixação. Faça o teste: se sobra palavra ao retirar só o prefixo ou só o sufixo, não é parassíntese (infelizmente). Se não sobra em nenhum caso, é parassíntese (entristecer).\nAchar que toda palavra com prefixo e sufixo é parassintética. Deslealdade tem des- e -dade, mas existe lealdade (sem des-) → não é parassíntese.\nNão reconhecer a derivação regressiva. Perda, combate, ataque vêm dos verbos perder, combater, atacar por redução, não por sufixo.\nIgnorar a derivação imprópria. O jantar, os bons, o porquê mudam de classe sem afixo — é conversão, não outro processo.\nSegmentar sem testar a existência das bases. A classificação depende de saber se a base intermediária existe na língua.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-23-formacao-derivacao.html#exercícios",
+    "href": "capitulos/cap-23-formacao-derivacao.html#exercícios",
+    "title": "24  Formação de palavras I: derivação",
+    "section": "25.7 ✍️ Exercícios",
+    "text": "25.7 ✍️ Exercícios\n1. Distinga palavra primitiva de derivada, com exemplos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPalavra primitiva não deriva de outra da língua; é base para outras (pedra, feliz, terra). Palavra derivada forma-se a partir de outra por afixos (pedreiro, de pedra; infeliz, de feliz; aterrar, de terra). A primitiva é o ponto de partida; a derivada, o resultado do processo.\n\n\n\n2. (Estilo ENEM) A palavra entristecer é formada por:\n\nderivação prefixal;\nderivação sufixal;\nderivação parassintética;\nderivação regressiva;\nderivação imprópria.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). Entristecer (en- + trist(e) + -ecer) é parassintética: não existe “tristecer” (só sufixo) nem “entriste” (só prefixo), logo o prefixo e o sufixo entraram simultaneamente e são inseparáveis.\n\n\n\n3. Classifique o processo de formação: (a) refazer; (b) anoitecer; (c) ataque (de atacar); (d) o olhar.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nrefazer → derivação prefixal (só re-; existe fazer). (b) anoitecer → parassintética (não existe “noitecer” nem “anoite”). (c) ataque → regressiva (substantivo reduzido do verbo atacar). (d) o olhar → imprópria (verbo olhar convertido em substantivo pelo artigo).\n\n\n\n\n4. Aplique o teste da parassíntese a infelizmente e a entardecer, concluindo o tipo de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nInfelizmente: retirando só o prefixo, sobra felizmente (existe); retirando só o sufixo, sobra infeliz (existe). Como sobra palavra em ao menos um caso → derivação prefixal e sufixal, não parassíntese. Entardecer: não existe “tardecer” (só sufixo) nem “entarde” (só prefixo) → parassíntese. O teste distingue os dois.\n\n\n\n5. Explique a derivação regressiva e dê dois exemplos de substantivos deverbais.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nNa derivação regressiva, a palavra nova forma-se por redução da base, e não por acréscimo de afixo. Cria tipicamente substantivos a partir de verbos (deverbais), mais curtos que eles: perder → perda; combater → combate; embarcar → embarque; custear → custo. O substantivo “encurta” o verbo.\n\n\n\n6. (Estilo FCC) Assinale a alternativa em que não há derivação parassintética:\n\nenvelhecer;\namanhecer;\ndeslealdade;\nesfriar;\nempobrecer.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). Deslealdade tem prefixo (des-) e sufixo (-dade), mas existe lealdade (sem o prefixo) → é derivação prefixal e sufixal, não parassíntese. As demais (envelhecer, amanhecer, esfriar, empobrecer) são parassintéticas: não existem sem um dos afixos.\n\n\n\n7. Dê o valor semântico dos prefixos e forme uma palavra: (a) re-; (b) des-; (c) pré-.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nre- = repetição/retorno → refazer, reler. (b) des- = negação/separação → desfazer, desleal. (c) pré- = anterioridade → prever, pré-histórico. Os prefixos têm significados estáveis que ajudam a interpretar palavras desconhecidas.\n\n\n\n\n8. Identifique o tipo de derivação imprópria: (a) “O jantar está pronto”; (b) “Os bons triunfam”; (c) “Ele deu um não seco”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nTodas são derivação imprópria (conversão), com mudança de classe sem afixo: (a) verbo jantar → substantivo (o artigo o o substantiva); (b) adjetivo bons → substantivo (o artigo os); (c) advérbio não → substantivo (o artigo um). O contexto e o determinante operam a mudança de classe.\n\n\n\n9. A palavra deslealdade tem quantos afixos e por que não é parassintética?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nTem dois afixos: o prefixo des- e o sufixo -dade. Não é parassintética porque a base intermediária lealdade existe na língua (leal + -dade): retirando só o prefixo des-, ainda sobra palavra. Na parassíntese, os afixos são inseparáveis e nenhuma retirada isolada deixa palavra existente. Aqui, o processo foi: leal → lealdade → deslealdade (derivação sufixal seguida de prefixal).\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “A palavra combate (substantivo) forma-se do verbo combater por derivação sufixal.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. Combate forma-se de combater por derivação regressiva (redução), não sufixal: o substantivo resulta do encurtamento do verbo, sem acréscimo de sufixo. Seria sufixal se houvesse um sufixo acrescentado (como em combatente, com -nte).",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-23-formacao-derivacao.html#referências",
+    "href": "capitulos/cap-23-formacao-derivacao.html#referências",
+    "title": "24  Formação de palavras I: derivação",
+    "section": "25.8 📚 Referências",
+    "text": "25.8 📚 Referências\nOs processos de derivação e a distinção entre parassíntese e afixação múltipla seguem Câmara Jr. (Câmara Jr., 1970), Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017); uma abordagem descritiva da produtividade dos afixos está em Castilho (Castilho, 2010). A composição e os demais processos de formação são o tema do Capítulo 26.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
       "<span class='chapter-number'>24</span>  <span class='chapter-title'>Formação de palavras I: derivação</span>"
@@ -2331,7 +2628,84 @@
     "href": "capitulos/cap-24-formacao-composicao.html",
     "title": "25  Formação de palavras II: composição e outros processos",
     "section": "",
-    "text": "26 Formação de palavras II: composição e outros processos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "26 Formação de palavras II: composição e outros processos\nNo capítulo anterior vimos a derivação, que forma palavras a partir de um radical mais afixos. Agora estudamos a composição, o processo que forma palavras juntando dois ou mais radicais — guarda + chuva → guarda-chuva; pé + de + moleque → pé-de-moleque. Além dela, o português dispõe de outros processos menores, porém muito produtivos na vida contemporânea: abreviação, sigla, onomatopeia, hibridismo, neologismo por empréstimo. Este capítulo completa, assim, o panorama da formação de palavras.\nDistinguir derivação de composição é fundamental (e cobrado): na derivação, há um radical só; na composição, dois ou mais. E, dentro da composição, importa separar a justaposição da aglutinação — outra pegadinha frequente. Vamos organizar tudo isso.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Formação de palavras II: composição e outros processos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-24-formacao-composicao.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-24-formacao-composicao.html#objetivos-de-aprendizagem",
+    "title": "25  Formação de palavras II: composição e outros processos",
+    "section": "26.1 🎯 Objetivos de aprendizagem",
+    "text": "26.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nConceituar composição como junção de dois ou mais radicais;\nDistinguir composição por justaposição de composição por aglutinação;\nDiferenciar composição de derivação;\nReconhecer os processos menores (abreviação, sigla, onomatopeia, hibridismo);\nIdentificar empréstimos e neologismos;\nClassificar palavras quanto ao processo de formação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Formação de palavras II: composição e outros processos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-24-formacao-composicao.html#composição-dois-radicais-ou-mais",
+    "href": "capitulos/cap-24-formacao-composicao.html#composição-dois-radicais-ou-mais",
+    "title": "25  Formação de palavras II: composição e outros processos",
+    "section": "26.2 Composição: dois radicais ou mais",
+    "text": "26.2 Composição: dois radicais ou mais\nNa composição, forma-se uma palavra nova pela junção de dois ou mais radicais (que geralmente existem como palavras autônomas). O resultado tem significado próprio, muitas vezes diferente da simples soma: um pé-de-moleque não é o pé de ninguém.\nHá dois tipos, distinguidos pelo modo como os radicais se juntam. A Figura 26.1 os contrasta.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 26.1: Os dois tipos de composição: na justaposição, os radicais mantêm a integridade (guarda-chuva); na aglutinação, fundem-se com perda de elementos (planalto = plano + alto).\n\n\n\n\n26.2.1 Composição por justaposição\nOs radicais juntam-se sem perder letras nem alterar a pronúncia — cada elemento mantém sua integridade. Pode haver hífen ou não: guarda-chuva, segunda-feira, couve-flor, passatempo, girassol, pontapé, beija-flor. Note: mesmo em girassol (sem hífen), reconhecem-se gira + sol intactos.\n\n\n26.2.2 Composição por aglutinação\nOs radicais fundem-se, com perda de sons e alteração fonética; a soldadura é tão forte que nem sempre se reconhecem os elementos originais:\n\nplanalto = plano + alto (perde-se o -o de plano);\naguardente = água + ardente;\nembora = em + boa + hora;\nfidalgo = filho + de + algo;\nvinagre = vinho + acre.\n\nNa aglutinação, há um único acento tônico e a fusão altera a forma; na justaposição, os elementos preservam-se (e muitas vezes cada um mantém seu acento).\n\n\n\n\n\n\nImportanteComposição × derivação: o número de radicais\n\n\n\nA diferença essencial:\n\nDerivação: um radical + afixos (infeliz = in- + feliz).\nComposição: dois ou mais radicais (aguardente = água + ardente).\n\nSe você identifica dois núcleos de significado (dois radicais), é composição; se há um radical só, com prefixos/sufixos, é derivação. Cuidado: pé-de-moleque é composição (três radicais); pedreiro é derivação (um radical, pedr-, + sufixo).",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Formação de palavras II: composição e outros processos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-24-formacao-composicao.html#processos-menores-de-formação",
+    "href": "capitulos/cap-24-formacao-composicao.html#processos-menores-de-formação",
+    "title": "25  Formação de palavras II: composição e outros processos",
+    "section": "26.3 Processos menores de formação",
+    "text": "26.3 Processos menores de formação\nAlém de derivação e composição, o português cria palavras por meios secundários, hoje muito produtivos:\n\n26.3.1 Abreviação (redução)\nEncurta-se a palavra, que passa a circular na forma reduzida: foto (fotografia), moto (motocicleta), pneu (pneumático), cine (cinema), extra (extraordinário), busão (não — esse é gíria). A forma curta ganha autonomia.\n\n\n26.3.2 Siglonimização (formação por siglas)\nCria-se palavra a partir das iniciais de um nome composto: ONU, OVNI, radar (de sigla inglesa), laser. Algumas siglas viram palavras comuns e até geram derivados (ONG → onguero; PT → petista).\n\n\n26.3.3 Onomatopeia\nFormam-se palavras que imitam sons: tique-taque, reco-reco, zunzum, miau, toc-toc, pingue-pongue. Geram derivados (cochichar, de cochicho).\n\n\n26.3.4 Hibridismo\nCompõe-se com radicais de línguas diferentes (geralmente grego + latim, ou com línguas modernas): automóvel (grego auto- + latim mobile), sociologia (latim socius + grego logia), burocracia, monóculo, televisão. São formações “mistas”.\n\n\n26.3.5 Neologismo e empréstimo\n\nNeologismo: palavra nova criada na língua (deletar, printar, tuitar).\nEmpréstimo (estrangeirismo): palavra tomada de outra língua (futebol, abajur, shopping, delete), às vezes aportuguesada (futebol de football), às vezes não (show). Voltaremos a eles no Capítulo 69.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Formação de palavras II: composição e outros processos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-24-formacao-composicao.html#quadro-resumo",
+    "href": "capitulos/cap-24-formacao-composicao.html#quadro-resumo",
+    "title": "25  Formação de palavras II: composição e outros processos",
+    "section": "26.4 📋 Quadro-resumo",
+    "text": "26.4 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nProcesso\nComo se forma\nExemplo\n\n\n\n\nComposição — justaposição\n2+ radicais sem perda\nguarda-chuva, girassol\n\n\nComposição — aglutinação\n2+ radicais fundidos (com perda)\nplanalto, aguardente\n\n\nDerivação (cap. 23)\num radical + afixos\ninfeliz, pedreiro\n\n\nAbreviação\nredução da palavra\nfoto, moto, pneu\n\n\nSigla\niniciais de nome composto\nONU, radar\n\n\nOnomatopeia\nimitação de sons\ntique-taque, miau\n\n\nHibridismo\nradicais de línguas diferentes\nautomóvel, sociologia\n\n\nEmpréstimo/neologismo\nde outra língua / criação nova\nfutebol, deletar\n\n\n\nEm uma linha: a composição junta dois ou mais radicais, por justaposição (sem perda: guarda-chuva) ou aglutinação (com fusão: planalto) — distinguindo-se da derivação (um radical) — e completam o quadro a abreviação, a sigla, a onomatopeia, o hibridismo e os empréstimos.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Formação de palavras II: composição e outros processos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-24-formacao-composicao.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-24-formacao-composicao.html#pegadinhas-e-erros-comuns",
+    "title": "25  Formação de palavras II: composição e outros processos",
+    "section": "26.5 ⚠️ Pegadinhas e erros comuns",
+    "text": "26.5 ⚠️ Pegadinhas e erros comuns\n\nConfundir composição com derivação. Composição = dois ou mais radicais (aguardente); derivação = um radical + afixos (pedreiro). Conte os radicais.\nTrocar justaposição por aglutinação. Justaposição: radicais inteiros (girassol = gira + sol). Aglutinação: radicais fundidos com perda (planalto = plan(o) + alto).\nAchar que hífen é obrigatório na justaposição. Girassol, pontapé, passatempo são justapostos sem hífen. A presença de hífen não define o tipo.\nNão reconhecer hibridismo. Automóvel, sociologia, televisão misturam radicais de línguas diferentes (grego + latim) — é hibridismo.\nIgnorar a abreviação. Foto, moto, pneu, cine são reduções autônomas, um processo próprio de formação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Formação de palavras II: composição e outros processos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-24-formacao-composicao.html#exercícios",
+    "href": "capitulos/cap-24-formacao-composicao.html#exercícios",
+    "title": "25  Formação de palavras II: composição e outros processos",
+    "section": "26.6 ✍️ Exercícios",
+    "text": "26.6 ✍️ Exercícios\n1. Explique a diferença essencial entre composição e derivação.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA diferença está no número de radicais: a derivação parte de um radical, ao qual se acrescentam afixos (in- + feliz = infeliz; pedr- + -eiro = pedreiro). A composição junta dois ou mais radicais (água + ardente = aguardente; guarda + chuva = guarda-chuva). Um radical → derivação; dois ou mais → composição.\n\n\n\n2. (Estilo ENEM) A palavra planalto é formada por:\n\nderivação prefixal;\ncomposição por justaposição;\ncomposição por aglutinação;\nderivação parassintética;\nabreviação.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). Planalto = plano + alto, com perda do -o de plano e fusão dos elementos → composição por aglutinação. Se os radicais se mantivessem inteiros (como em girassol), seria justaposição.\n\n\n\n3. Classifique como justaposição ou aglutinação: (a) guarda-roupa; (b) aguardente; (c) passatempo; (d) vinagre.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nguarda-roupa → justaposição (radicais inteiros). (b) aguardente → aglutinação (água + ardente, com fusão). (c) passatempo → justaposição (passa + tempo inteiros). (d) vinagre → aglutinação (vinho + acre, com perda).\n\n\n\n\n4. Identifique o processo de formação: (a) foto; (b) automóvel; (c) tique-taque; (d) couve-flor.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nfoto → abreviação (redução de fotografia). (b) automóvel → hibridismo (grego auto- + latim mobile). (c) tique-taque → onomatopeia (imita som). (d) couve-flor → composição por justaposição (dois radicais inteiros).\n\n\n\n\n5. Por que girassol é composição, e não derivação, mesmo sem hífen?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque girassol junta dois radicais (gira, do verbo girar, + sol), cada um com significado próprio — é composição (por justaposição). A ausência de hífen não a transforma em derivação: o que define a composição é a presença de dois ou mais radicais, não a grafia com ou sem hífen. Se houvesse um radical só + afixo, seria derivação.\n\n\n\n6. (Estilo FCC) Assinale a alternativa formada por hibridismo:\n\nguarda-chuva;\nsociologia;\nplanalto;\nfoto;\nreco-reco.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Sociologia mistura o radical latino socius (“sociedade”) e o grego -logia (“estudo”) → hibridismo (radicais de línguas diferentes). As demais são: composição justaposta (a), aglutinada (c), abreviação (d) e onomatopeia (e).\n\n\n\n7. Dê dois exemplos de palavras formadas por abreviação e explique o processo.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nExemplos: moto (de motocicleta), pneu (de pneumático), cine (de cinema), extra (de extraordinário). No processo de abreviação (ou redução), a palavra é encurtada e a forma reduzida passa a circular com autonomia, substituindo a longa no uso corrente.\n\n\n\n8. A palavra pé-de-moleque é derivação ou composição? Quantos radicais tem?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nÉ composição (por justaposição). Tem três radicais: pé + de + moleque (o de é elemento de ligação/preposição, mas a formação junta pé e moleque, dois núcleos plenos). Por ter mais de um radical, é composição — nunca derivação, que teria um radical só.\n\n\n\n9. Diferencie neologismo de empréstimo, com um exemplo de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nNeologismo é a palavra nova criada na própria língua, muitas vezes por derivação ou composição a partir de material existente (deletar, tuitar, printar). Empréstimo (estrangeirismo) é a palavra tomada de outra língua (futebol, de football; abajur, do francês; shopping, do inglês), às vezes aportuguesada, às vezes não. Um cria; o outro importa.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “A palavra aguardente é formada por derivação, pois resulta do acréscimo de um sufixo ao radical água.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. Aguardente é formada por composição (aglutinação): junta dois radicais, água + ardente, com fusão e perda de sons. Não há acréscimo de sufixo a um único radical — logo, não é derivação. A presença de dois núcleos de significado caracteriza a composição.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Formação de palavras II: composição e outros processos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-24-formacao-composicao.html#referências",
+    "href": "capitulos/cap-24-formacao-composicao.html#referências",
+    "title": "25  Formação de palavras II: composição e outros processos",
+    "section": "26.7 📚 Referências",
+    "text": "26.7 📚 Referências\nOs processos de composição (justaposição e aglutinação) e os processos menores de formação seguem Câmara Jr. (Câmara Jr., 1970), Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017). Sobre empréstimos e neologismos na dinâmica atual do léxico, ver Castilho (Castilho, 2010); o tema será retomado no Capítulo 69. As famílias de palavras e a produtividade lexical fecham o volume no Capítulo 27.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
       "<span class='chapter-number'>25</span>  <span class='chapter-title'>Formação de palavras II: composição e outros processos</span>"
@@ -2342,7 +2716,117 @@
     "href": "capitulos/cap-25-familias-cognatos-produtividade.html",
     "title": "26  Famílias de palavras, cognatos e produtividade lexical",
     "section": "",
-    "text": "27 Famílias de palavras, cognatos e produtividade lexical\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "27 Famílias de palavras, cognatos e produtividade lexical\nFechamos o Volume 4 reunindo o que aprendemos sobre morfema, estrutura e formação de palavras numa perspectiva de conjunto: as famílias de palavras. Palavras que compartilham o mesmo radical — e, portanto, um núcleo de significado — formam uma família: terra, terreno, aterrar, enterrar, soterrar, terráqueo, subterrâneo. Reconhecer essas famílias tem um valor enorme e prático: multiplica o vocabulário, ilumina a ortografia (palavras da mesma família tendem a grafar-se de modo coerente) e ajuda a inferir o sentido de palavras desconhecidas em provas de interpretação.\nTrataremos também dos cognatos (palavras aparentadas pela origem), da distinção entre cognatos verdadeiros e falsos, e da produtividade lexical — a capacidade que a língua tem de gerar palavras novas a partir de padrões. É um capítulo que converte a teoria morfológica dos anteriores em ferramenta de leitura e escrita.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#objetivos-de-aprendizagem",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.1 🎯 Objetivos de aprendizagem",
+    "text": "27.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nReconhecer famílias de palavras pelo radical comum;\nDefinir cognatos e distinguir cognatos de palavras apenas parecidas;\nIdentificar falsos cognatos (dentro do português e entre línguas);\nEmpregar o conhecimento de radicais gregos e latinos para inferir sentidos;\nCompreender a produtividade lexical e os padrões de formação;\nAplicar as famílias de palavras à ortografia e à interpretação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#famílias-de-palavras",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#famílias-de-palavras",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.2 Famílias de palavras",
+    "text": "27.2 Famílias de palavras\nUma família de palavras (ou família etimológica) é o conjunto de vocábulos que partilham o mesmo radical, girando em torno de um significado comum. A Figura 27.1 ilustra a família de terra.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 27.1: A família de palavras do radical terr-: todas as palavras giram em torno do mesmo núcleo de significado, herdado do latim terra.\n\n\n\nO valor prático é triplo:\n\nVocabulário: dominar um radical dá acesso a toda a família. Quem conhece terr- entende soterrar e subterrâneo sem consultar dicionário.\nOrtografia: palavras da mesma família tendem a manter grafia coerente. Se análise tem s, analisar também (mesma família); se gás tem s, gasoso também.\nInterpretação: em provas, reconhecer o radical de uma palavra difícil permite inferir seu sentido pelo contexto.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#cognatos",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#cognatos",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.3 Cognatos",
+    "text": "27.3 Cognatos\nCognatos são palavras que têm a mesma origem etimológica — descendem de um mesmo “ancestral”. Dentro do português, os membros de uma família de palavras são cognatos entre si (terra, terreno, aterrar). Entre línguas, cognatos são palavras aparentadas de idiomas diferentes que remontam à mesma raiz: o português noite, o espanhol noche, o francês nuit, o italiano notte — todos do latim nocte(m).\n\n\n\n\n\n\nNotaCognato não é sinônimo\n\n\n\nCuidado: cognatos partilham a origem, não necessariamente o significado atual. Cadeira e cátedra são cognatos (ambos do latim cathedra), mas hoje significam coisas distintas — são um dubleto (uma forma popular, cadeira; outra erudita, cátedra), fenômeno que já encontramos no Capítulo 6. Cognatos podem, com o tempo, afastar-se bastante no sentido.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#falsos-cognatos",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#falsos-cognatos",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.4 Falsos cognatos",
+    "text": "27.4 Falsos cognatos\nFalsos cognatos são palavras que parecem aparentadas (por semelhança de forma), mas não têm a mesma origem, ou que, tendo origens próximas, divergiram tanto que enganam. Há dois planos:\n\nDentro do português: palavras parecidas de famílias diferentes — deferir (conceder) × diferir (adiar; ser diferente); ratificar (confirmar) × retificar (corrigir); emergir × imergir. São os parônimos, que estudaremos no\n\n\n\nEntre línguas: os “falsos amigos” — o inglês pretend (fingir, não “pretender”), actually (na verdade, não “atualmente”), push (empurrar, não “puxar”); o espanhol embarazada (grávida, não “envergonhada”), oficina (escritório, não “oficina”).\n\nO falso cognato é uma armadilha clássica de tradução e de interpretação — a semelhança gráfica sugere um parentesco que não existe (ou já se desfez).",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#radicais-gregos-e-latinos-um-atalho-poderoso",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#radicais-gregos-e-latinos-um-atalho-poderoso",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.5 Radicais gregos e latinos: um atalho poderoso",
+    "text": "27.5 Radicais gregos e latinos: um atalho poderoso\nBoa parte do vocabulário culto e científico do português forma-se com radicais gregos e latinos de sentido estável. Conhecê-los é uma chave-mestra para decifrar palavras: sabendo que bio- = vida, -logia = estudo, geo- = terra, hidro- = água, -grafia = escrita, deduz-se biologia, geografia, hidrografia, geologia… Alguns úteis:\n\n\n\nRadical\nSentido\nExemplos\n\n\n\n\nbio-\nvida\nbiologia, biografia\n\n\ngeo-\nterra\ngeografia, geologia\n\n\nhidro-\nágua\nhidrelétrica, hidratar\n\n\n-logia\nestudo\npsicologia, sociologia\n\n\n-fobia\nmedo/aversão\nclaustrofobia\n\n\n-filia\nafinidade\nbibliofilia\n\n\ntele-\ndistância\ntelevisão, telefone\n\n\n-cracia\npoder/governo\ndemocracia",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#produtividade-lexical",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#produtividade-lexical",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.6 Produtividade lexical",
+    "text": "27.6 Produtividade lexical\nChama-se produtividade a capacidade de um padrão de formação gerar palavras novas. Alguns afixos são muito produtivos (a língua os usa a todo momento para criar vocábulos): o sufixo -inho (diminutivos infinitos), o -mente (advérbios), o -ção (nomes de ação), o prefixo super-; e verbos em -ar (deletar, printar, tuitar, lacrar no sentido novo). Outros são improdutivos (fossilizados, não geram palavras novas): o sufixo -ume (queixume, ciúme) praticamente não forma vocábulos hoje.\nA produtividade explica por que a língua absorve com facilidade as novidades: um empréstimo como deletar imediatamente entra no padrão dos verbos de 1ª conjugação e gera deletado, deletável, deleção. O sistema morfológico é uma “fábrica” sempre em operação.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#quadro-resumo",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#quadro-resumo",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.7 📋 Quadro-resumo",
+    "text": "27.7 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nConceito\nDefinição\nExemplo\n\n\n\n\nFamília de palavras\nMesmo radical, sentido comum\nterra, terreno, aterrar\n\n\nCognatos\nMesma origem etimológica\nnoite/noche/nuit; terra/terreno\n\n\nDubleto\nCognatos popular + erudito\ncadeira/cátedra\n\n\nFalso cognato (parônimo)\nParece aparentado, mas não é\ndeferir/diferir; pretend (ing.)\n\n\nRadical grego/latino\nElemento culto de sentido fixo\nbio-, geo-, -logia\n\n\nProdutividade\nCapacidade de gerar palavras novas\n-inho, -mente, verbos em -ar\n\n\n\nEm uma linha: palavras de mesmo radical formam famílias (e são cognatas), o que amplia vocabulário, orienta a ortografia e permite inferir sentidos — mas cuidado com os falsos cognatos; e os padrões mais produtivos são a fábrica de palavras novas da língua.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#pegadinhas-e-erros-comuns",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.8 ⚠️ Pegadinhas e erros comuns",
+    "text": "27.8 ⚠️ Pegadinhas e erros comuns\n\nAchar que cognato = sinônimo. Cognatos partilham a origem, não o significado atual (cadeira/cátedra são cognatos, mas divergiram).\nCair em falso cognato entre línguas. O inglês actually = “na verdade” (não “atualmente”); o espanhol embarazada = “grávida” (não “envergonhada”). A semelhança engana.\nConfundir parônimos (falsos cognatos internos). Deferir (conceder) × diferir (adiar); ratificar (confirmar) × retificar (corrigir). Sentidos distintos.\nIgnorar a família na hora de grafar. Analisar (com s) segue análise; gasoso segue gás. A família orienta a ortografia.\nSupor que todo sufixo é produtivo. -inho e -mente são produtíssimos; -ume (queixume) é fossilizado, quase não gera palavras novas.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#exercícios",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#exercícios",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.9 ✍️ Exercícios",
+    "text": "27.9 ✍️ Exercícios\n1. O que é uma família de palavras? Cite cinco membros da família de terra.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nFamília de palavras é o conjunto de vocábulos que partilham o mesmo radical e, com ele, um núcleo de significado comum. Da família de terra (radical terr-): terreno, aterrar, enterrar, soterrar, terráqueo, subterrâneo, terrestre, território (bastam cinco).\n\n\n\n2. (Estilo ENEM) As palavras portuguesa noite, espanhola noche e francesa nuit são:\n\nsinônimas de línguas diferentes;\ncognatas, pois remontam à mesma origem (latim nocte);\nfalsos cognatos;\nempréstimos recentes entre si;\npalavras sem parentesco.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). São cognatas: descendem todas do latim nocte(m), cada uma tendo evoluído conforme sua língua. Não são falsos cognatos (têm mesmo parentesco real) nem empréstimos entre si (herdaram, não tomaram emprestado).\n\n\n\n3. Explique por que cadeira e cátedra são cognatas, mas não sinônimas.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nSão cognatas porque têm a mesma origem etimológica: ambas vêm do latim cathedra (“assento”). Mas não são sinônimas porque divergiram no sentido: cadeira (forma popular, evoluída pela via oral) designa o móvel de sentar; cátedra (forma erudita, tomada diretamente do latim) designa a posição de professor titular ou a cátedra episcopal. Formam um dubleto — popular + erudito da mesma raiz.\n\n\n\n4. Distinga cognato verdadeiro de falso cognato, com um exemplo de cada entre línguas.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCognato verdadeiro: palavras de línguas diferentes com mesma origem e sentido próximo — português família e espanhol familia (ambos do latim familia). Falso cognato (falso amigo): palavras parecidas na forma, mas de sentido diferente e/ou origem distinta — inglês pretend (“fingir”, não “pretender”); espanhol oficina (“escritório”, não “oficina mecânica”). A semelhança de forma engana.\n\n\n\n5. Usando radicais gregos/latinos, deduza o sentido de: (a) hidrofobia; (b) geologia; (c) bibliofilia.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nhidrofobia = hidro- (água) + -fobia (medo/aversão) → aversão/medo à água. (b) geologia = geo- (terra) + -logia (estudo) → estudo da Terra (suas rochas, estrutura). (c) bibliofilia = biblio- (livro) + -filia (afinidade) → amor/afinidade por livros. Conhecer os radicais permite inferir o sentido sem dicionário.\n\n\n\n\n6. (Estilo FCC) Assinale o par de parônimos (falsos cognatos internos ao português):\n\ncasa / lar;\nratificar / retificar;\nbelo / bonito;\ngrande / enorme;\nrápido / veloz.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Ratificar (“confirmar”) e retificar (“corrigir”) são parônimos: parecidos na forma, mas de sentidos distintos — é preciso não confundi-los. As demais alternativas trazem sinônimos (palavras de sentido próximo), não parônimos.\n\n\n\n7. Como o conhecimento da família de palavras ajuda na ortografia? Dê um exemplo.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPalavras da mesma família tendem a manter grafia coerente, então a grafia de uma orienta a das outras. Exemplo: como análise se escreve com s, deduz-se que analisar, analista, analítico (mesma família) também levam s. Do mesmo modo, gás (com s) orienta gasoso, gasoso, gasômetro. Recorrer à família resolve muitas dúvidas de convenção.\n\n\n\n8. O que é produtividade lexical? Dê um sufixo muito produtivo e um improdutivo.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nProdutividade lexical é a capacidade de um padrão de formação gerar palavras novas. Sufixo muito produtivo: -inho (diminutivos ilimitados: casinha, cafezinho), -mente (advérbios), -ção (nomes de ação), ou verbos em -ar (deletar, tuitar). Sufixo improdutivo (fossilizado): -ume (queixume, ciúme), que praticamente não forma vocábulos novos hoje.\n\n\n\n9. Explique por que empréstimos como deletar se integram facilmente ao português.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque o português tem padrões de formação muito produtivos que absorvem a novidade. Ao entrar, deletar encaixa-se no padrão dos verbos de 1ª conjugação (em -ar), o mais produtivo, e passa a flexionar-se normalmente (deleto, deletava, deletado) e a gerar derivados (deletável, deleção). O sistema morfológico funciona como uma fábrica que “nacionaliza” a palavra estrangeira segundo seus moldes.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “As palavras emergir e imergir são sinônimas, pois pertencem à mesma família e têm o mesmo radical.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. Emergir (“vir à tona, subir”) e imergir (“mergulhar, afundar”) têm sentidos opostos, apesar de o radical comum (-mergir) e a semelhança de forma. A diferença de prefixo (e- × i-) inverte o sentido. São parônimos que exigem cuidado: pertencer à mesma família não os torna sinônimos — pelo contrário, aqui são quase antônimos.",
+    "crumbs": [
+      "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-25-familias-cognatos-produtividade.html#referências",
+    "href": "capitulos/cap-25-familias-cognatos-produtividade.html#referências",
+    "title": "26  Famílias de palavras, cognatos e produtividade lexical",
+    "section": "27.10 📚 Referências",
+    "text": "27.10 📚 Referências\nAs noções de família de palavras, cognatos e dubletos apoiam-se em Câmara Jr. (Câmara Jr., 1970) e na história da língua de Teyssier (Teyssier, 2007); a produtividade lexical e os processos de formação são discutidos por Castilho (Castilho, 2010). Os radicais gregos e latinos podem ser consultados no dicionário Houaiss (Houaiss; Villar, 2009). Com este capítulo encerra-se o Volume 4; o Volume 5 abre o estudo das classes de palavras.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nHOUAISS, Antônio; VILLAR, Mauro de Salles. Dicionário Houaiss da Língua Portuguesa. Rio de Janeiro: Objetiva, 2009.\n\n\nTEYSSIER, Paul. História da Língua Portuguesa. Tradução: Celso Cunha. São Paulo: Martins Fontes, 2007.",
     "crumbs": [
       "Volume 4 — Morfologia I: Estrutura e Formação de Palavras",
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>Famílias de palavras, cognatos e produtividade lexical</span>"
