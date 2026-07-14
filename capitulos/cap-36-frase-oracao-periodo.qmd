@@ -4,22 +4,291 @@ title: "Frase, oração e período"
 
 # Frase, oração e período {#sec-cap-36}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 6 — Sintaxe I: Termos da Oração.
+> "Onde há um verbo, há uma oração; onde há sentido completo, há uma frase."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 6, dedicado à **sintaxe** — o estudo de como as palavras se combinam
+para formar enunciados. E começamos pelas três unidades fundamentais que a sintaxe
+manipula: a **frase**, a **oração** e o **período**. São conceitos que o senso comum
+usa como sinônimos ("frase", "oração"), mas que a gramática distingue com precisão, e
+essa distinção é o alicerce de toda a análise sintática que faremos daqui em diante.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A chave é simples e poderosa: a **oração** organiza-se em torno de um **verbo**; a
+**frase** é qualquer enunciado de sentido completo (com ou sem verbo); o **período** é a
+frase formada por orações. Dominar esses três conceitos — e saber contar orações pelos
+verbos — é o primeiro passo para analisar sujeitos, predicados e todos os termos que
+virão nos próximos capítulos.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** frase, oração e período, distinguindo-os com precisão;
+- **Reconhecer** a oração pela presença de um verbo (ou locução verbal);
+- **Classificar** frases em nominais e verbais;
+- **Distinguir** período simples de período composto;
+- **Contar** o número de orações de um período pelos verbos;
+- **Identificar** os tipos de frase quanto à intenção (declarativa, interrogativa etc.).
+
+## Frase: o enunciado de sentido completo
+
+**Frase** é todo enunciado de **sentido completo**, capaz de estabelecer comunicação num
+contexto. O critério é o **sentido**, não a presença de verbo. "Fogo!", "Que dia lindo!",
+"Silêncio.", "Os alunos estudaram para a prova." — todas são frases, pois comunicam algo
+completo numa situação.
+
+Quanto à estrutura, a frase pode ser:
+
+- **Frase nominal** (ou sem verbo): não tem verbo; organiza-se em torno de um nome —
+  "Que calor!", "Cuidado!", "Boa viagem!", "Fogo!".
+- **Frase verbal**: contém pelo menos um verbo — "O sol brilha.", "Os pássaros
+  cantavam ao amanhecer."
+
+Toda frase verbal é também uma **oração** (ou conjunto de orações); a frase nominal
+**não** é oração, pois lhe falta o verbo.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## A frase se define pelo contexto e pela entonação
+Uma mesma sequência pode ser frase ou não, conforme o contexto e a entonação. "Água"
+isolado pode ser uma frase (um pedido: "Água!") ou apenas uma palavra solta. Na escrita,
+a frase costuma vir delimitada por pontuação (ponto, exclamação, interrogação) e
+inicial maiúscula. O que a define é a **completude comunicativa** naquele contexto.
+:::
+
+## Oração: a unidade organizada por um verbo
+
+**Oração** é a unidade sintática que se organiza em torno de um **verbo** (ou locução
+verbal). Onde há um verbo, há uma oração; onde há dois verbos (não em locução), há duas
+orações. Este é o critério operacional mais importante do capítulo.
+
+- "O menino **chegou**." → **uma** oração (um verbo).
+- "O menino **chegou** e **abraçou** a mãe." → **duas** orações (dois verbos).
+- "Ele **quer estudar**." → **uma** oração (locução verbal *quer estudar* = um só núcleo
+  verbal).
+
+A oração tem, tipicamente, uma estrutura interna (sujeito e predicado), que estudaremos
+nos próximos capítulos. Mas sua marca definidora é o verbo.
+
+::: {.callout-important}
+## Contar orações: conte os verbos (com cuidado)
+Para saber quantas orações há num período, **conte os verbos** — descontando as
+locuções verbais, que valem por **um** verbo:
+
+- "Choveu." → 1 verbo → 1 oração.
+- "Estudei, mas não passei." → 2 verbos → 2 orações.
+- "Vou viajar amanhã." → *vou viajar* é locução (auxiliar + principal) → 1 oração.
+- "Quando cheguei, ele já tinha saído." → *cheguei* + *tinha saído* (locução) → 2
+  orações.
+
+Cuidado: locução verbal (auxiliar + infinitivo/gerúndio/particípio) conta como **uma**
+oração; verbos independentes contam separadamente.
+:::
+
+## Período: a frase estruturada em orações
+
+**Período** é a frase constituída por **uma ou mais orações**, delimitada por uma
+pausa final (ponto, exclamação, interrogação). Divide-se em:
+
+- **Período simples**: formado por **uma só** oração (chamada oração **absoluta**) —
+  "O sol nasceu."
+- **Período composto**: formado por **duas ou mais** orações — "O sol nasceu e os
+  pássaros cantaram."
+
+A @fig-frase-oracao-periodo sintetiza as relações entre os três conceitos.
+
+::: {#fig-frase-oracao-periodo}
+
+```{.tikz}
+%%| filename: frase-oracao-periodo
+%%| alt: Diagrama hierárquico. No topo, frase (enunciado de sentido completo), dividida em frase nominal (sem verbo, exemplo Que calor!) e frase verbal. A frase verbal é um período, que se divide em período simples (uma oração) e período composto (duas ou mais orações). A oração é definida pela presença de um verbo.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  n/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, minimum height=9mm, text width=34mm},
+  fl/.style={-{Stealth[length=2mm]}, manualgray, thick},
+]
+  \node[n, draw=manualblue, very thick, fill=manualblue!10] (fr) at (4,4.4) {\textbf{FRASE}\\{\scriptsize enunciado de sentido completo}};
+  \node[n, draw=manualgray, fill=manualgray!8] (nom) at (0.5,2.8) {\textbf{Nominal}\\{\scriptsize sem verbo — ``Que calor!''}};
+  \node[n, draw=manualgreen, thick, fill=manualgreen!8] (verb) at (6.5,2.8) {\textbf{Verbal = PERÍODO}\\{\scriptsize tem verbo}};
+
+  \node[n, draw=manualred, fill=manualred!8] (simp) at (4.5,1) {\textbf{Simples}\\{\scriptsize 1 oração}};
+  \node[n, draw=manualred, fill=manualred!8] (comp) at (8.4,1) {\textbf{Composto}\\{\scriptsize 2+ orações}};
+
+  \draw[fl] (fr) -- (nom);
+  \draw[fl] (fr) -- (verb);
+  \draw[fl] (verb) -- (simp);
+  \draw[fl] (verb) -- (comp);
+\end{tikzpicture}
+```
+
+As relações entre frase, oração e período: a frase (sentido completo) pode ser nominal
+(sem verbo) ou verbal; a frase verbal é um período, simples (uma oração) ou composto
+(duas ou mais).
+:::
+
+## Tipos de frase quanto à intenção
+
+Além da estrutura, as frases classificam-se pela **intenção comunicativa**, marcada pela
+entonação e pela pontuação:
+
+- **Declarativa**: afirma ou nega um fato — "Choveu ontem." / "Não vou sair."
+- **Interrogativa**: pergunta (direta) — "Você vem?" (direta) ou indireta ("Perguntei se
+  vinha").
+- **Exclamativa**: exprime emoção — "Que maravilha!"
+- **Imperativa**: ordem, pedido, conselho — "Feche a porta." / "Estude mais."
+- **Optativa**: exprime desejo — "Que Deus o abençoe!"
+
+## 📋 Quadro-resumo
+
+| Conceito | Definição | Exemplo |
+|---|---|---|
+| **Frase** | Enunciado de sentido completo | "Fogo!"; "O sol brilha." |
+| **Frase nominal** | Frase sem verbo | "Que calor!" |
+| **Oração** | Unidade organizada por um verbo | "O menino chegou." |
+| **Período** | Frase formada por orações | "Cheguei e saí." |
+| **Período simples** | Uma oração | "Choveu." |
+| **Período composto** | Duas ou mais orações | "Choveu e ventou." |
+
+Em uma linha: **frase** é o enunciado de sentido completo (nominal ou verbal);
+**oração** é a unidade organizada por um **verbo**; **período** é a frase feita de
+orações — simples (uma) ou composto (duas ou mais) —, e contam-se as orações pelos
+verbos.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir frase com oração.** Nem toda frase é oração: "Que calor!" é frase (sentido
+  completo), mas **não** é oração (não tem verbo). Toda oração, porém, é frase ou parte
+  de uma.
+- **Contar locução verbal como duas orações.** "Vou viajar" é **uma** oração (locução:
+  auxiliar + principal), não duas.
+- **Achar que frase precisa de verbo.** A frase nominal ("Silêncio!", "Boa noite!") não
+  tem verbo e mesmo assim é frase.
+- **Confundir período simples e oração absoluta com período composto.** Um verbo → uma
+  oração → período simples. Dois ou mais verbos independentes → período composto.
+- **Esquecer que o critério da oração é o verbo.** Para contar orações, localize os
+  verbos (descontando locuções): cada núcleo verbal é uma oração.
+
+## ✍️ Exercícios
+
+**1.** Defina frase, oração e período, mostrando a diferença entre eles.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Frase** é o enunciado de sentido completo, com ou sem verbo ("Fogo!"; "O sol brilha").
+**Oração** é a unidade sintática organizada em torno de um **verbo** ("O sol brilha" é
+oração; "Fogo!" não é). **Período** é a frase constituída por uma ou mais orações,
+delimitada por pausa final. Resumindo: a frase se define pelo sentido; a oração, pelo
+verbo; o período, por ser uma frase feita de orações.
+:::
+
+**2.** (Estilo ENEM) A expressão "Que belo dia!" é:
+
+a) uma oração, pois tem sentido completo;
+b) uma frase nominal, pois tem sentido completo mas não tem verbo;
+c) um período composto;
+d) uma frase verbal;
+e) uma oração absoluta.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Que belo dia!" comunica algo completo (é **frase**), mas **não**
+tem verbo, logo é **frase nominal** — e não é oração. As alternativas que a chamam de
+oração ou período estão erradas, pois essas categorias exigem verbo.
+:::
+
+**3.** Quantas orações há em cada período? (a) "Choveu."; (b) "Estudei e passei."; (c)
+"Vou começar a estudar hoje."
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Choveu." → **1** oração (1 verbo). (b) "Estudei e passei." → **2** orações (dois
+verbos independentes). (c) "Vou começar a estudar hoje." → **1** oração — *vou começar a
+estudar* é uma locução verbal (auxiliares + principal), que conta como um só núcleo
+verbal.
+:::
+
+**4.** Classifique como período simples ou composto: (a) "O gato dormiu no sofá."; (b)
+"O gato dormiu e o cachorro latiu."
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) período **simples** (uma só oração, com o verbo *dormiu* — oração absoluta). (b)
+período **composto** (duas orações: "O gato dormiu" e "o cachorro latiu", ligadas por
+*e*).
+:::
+
+**5.** Classifique as frases quanto à intenção: (a) "Você já almoçou?"; (b) "Saia
+daqui!"; (c) "Que saudade!"; (d) "Choveu muito ontem."
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **interrogativa** (pergunta direta). (b) **imperativa** (ordem). (c) **exclamativa**
+(emoção). (d) **declarativa** (afirma um fato). A intenção é marcada pela entonação e
+pela pontuação.
+:::
+
+**6.** (Estilo FCC) O período "Assim que chegou, cumprimentou todos e sentou-se" contém:
+
+a) uma oração;
+b) duas orações;
+c) três orações;
+d) quatro orações;
+e) uma frase nominal.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** São **três** verbos/orações: "Assim que **chegou**" (1),
+"**cumprimentou** todos" (2) e "**sentou-se**" (3). Cada núcleo verbal corresponde a uma
+oração, logo o período é composto por três orações.
+:::
+
+**7.** Explique por que "Vou viajar amanhã" é **uma** oração, e não duas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque *vou viajar* é uma **locução verbal**: o verbo auxiliar *vou* combina-se com o
+verbo principal no infinitivo *viajar* para formar **um único** núcleo verbal (expressa
+uma só ação, no futuro). A locução verbal conta como **um** verbo e, portanto, uma
+oração. Só haveria duas orações se houvesse dois núcleos verbais independentes.
+:::
+
+**8.** Transforme a frase nominal "Que frio!" numa frase verbal equivalente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplos de frase verbal equivalente: "**Está** muito frio!"; "**Faz** um frio
+terrível!"; "O frio **está** insuportável!". Ao introduzir um verbo (*estar*, *fazer*),
+a frase nominal ("Que frio!") converte-se em frase verbal — que é também uma oração.
+:::
+
+**9.** No período "Ele disse que viria, mas não apareceu", identifique o número de
+orações e os verbos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+São **três** orações, com três verbos: "Ele **disse**" (1), "que **viria**" (2) e "mas
+não **apareceu**" (3). Portanto, é um período composto por três orações. (Trata-se de
+uma combinação de subordinação — "que viria" — e coordenação — "mas não apareceu" —,
+temas dos próximos volumes.)
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Toda oração é uma frase, mas nem toda
+frase é uma oração."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo** (com precisão). Toda oração, tendo verbo e sentido, é uma frase ou parte de um
+período (frase). Mas nem toda frase é oração: as **frases nominais** ("Fogo!", "Que
+calor!") têm sentido completo (são frases), porém **não** têm verbo, logo **não** são
+orações. A oração exige verbo; a frase, apenas sentido completo.
+:::
+
+## 📚 Referências
+
+As noções de frase, oração e período são a base da sintaxe descrita por Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017]. Abordagens que discutem os limites do
+conceito de frase e a centralidade do verbo na organização da oração estão em Castilho
+[@castilho2010] e Perini [@perini2010]. Os termos internos da oração — sujeito e
+predicado — são o tema dos próximos capítulos.
+
+::: {#refs}
 :::
