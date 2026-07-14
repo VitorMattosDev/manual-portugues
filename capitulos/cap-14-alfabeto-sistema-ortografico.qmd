@@ -4,22 +4,293 @@ title: "O alfabeto e o sistema ortográfico"
 
 # O alfabeto e o sistema ortográfico {#sec-cap-14}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 3 — Ortografia e Acentuação.
+> "A ortografia é um pacto: um acordo coletivo sobre como grafar o que falamos."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 3, dedicado à **escrita** da língua — a ortografia e a acentuação.
+Depois de estudar os sons (Volume 2), passamos agora ao modo como esses sons são
+**representados** por letras. E a primeira lição é entender a natureza do sistema
+ortográfico português: ele é, ao mesmo tempo, **fonográfico** (as letras representam
+sons) e cheio de convenções que **não** decorrem diretamente da pronúncia (por que
+*caça* com *ç* e *massa* com *ss*, se ambos soam /s/?).
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo estabelece os fundamentos: o alfabeto oficial, os princípios que regem a
+ortografia, o papel das letras importadas (*k*, *w*, *y*) e a diferença entre o que é
+**regra** (previsível) e o que é **convenção** (deve ser memorizado ou consultado).
+É a base sobre a qual se assentam os capítulos seguintes, sobre emprego de letras
+(@sec-cap-15), o Acordo de 1990 (@sec-cap-16) e a acentuação.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** o alfabeto português oficial e suas 26 letras;
+- **Explicar** o caráter fonográfico do sistema e seus limites;
+- **Distinguir** o que na ortografia é regra (previsível) e o que é convenção
+  (arbitrária);
+- **Identificar** o papel das letras *k*, *w* e *y* e do uso etimológico;
+- **Compreender** por que a escrita não reflete perfeitamente a fala;
+- **Consultar** corretamente as fontes ortográficas oficiais (VOLP).
+
+## O alfabeto português
+
+O alfabeto oficial do português tem, desde o Acordo Ortográfico de 1990, **26
+letras** — as 23 tradicionais mais *k*, *w* e *y*, que foram formalmente
+reincorporadas:
+
+> a b c d e f g h i j **k** l m n o p q r s t u v **w** x **y** z
+
+Cada letra tem um **nome** (á, bê, cê, dê...) e representa um ou mais **fonemas**.
+Como já vimos (@sec-cap-07), a correspondência entre letra e som não é perfeita: a
+mesma letra pode representar sons diferentes (o *x* de *xale*, *exame*, *táxi*,
+*próximo*), e o mesmo som pode ser grafado por letras diferentes (o /s/ de *sapo*,
+*caça*, *cedo*, *passo*).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## As letras *k*, *w* e *y*: quando se usam
+Antes do Acordo de 1990, *k*, *w* e *y* eram consideradas "estrangeiras" e usadas só em
+casos especiais. Hoje integram o alfabeto, mas seu emprego continua restrito a:
+(1) **nomes próprios estrangeiros** e derivados (*Kant*, *kantiano*; *Darwin*,
+*darwinismo*; *Byron*, *byroniano*); (2) **símbolos e unidades internacionais**
+(*km*, *kg*, *W* de watt, *K* de kelvin); (3) **palavras estrangeiras** ainda não
+aportuguesadas (*show*, *playground*). Em palavras já aportuguesadas, elas cedem lugar
+às letras nacionais (*quilograma*, *uísque*).
+:::
+
+## Um sistema fonográfico — mas não fonético
+
+O português usa um sistema de escrita **alfabético** e **fonográfico**: as letras
+representam, em princípio, os sons da fala. É por isso que, sabendo ler, conseguimos
+pronunciar palavras que nunca vimos. Mas o sistema **não** é fonético (uma letra para
+cada som, um som para cada letra); ele acumula três princípios:
+
+- **Princípio fonográfico**: a letra representa o som. É a base — *pato* se lê como se
+  escreve.
+- **Princípio etimológico**: a grafia conserva a origem histórica da palavra, mesmo
+  que a pronúncia tenha mudado. É por isso que *hora* tem *h* (do latim *hora*) e
+  *homem* também, embora o *h* não soe.
+- **Princípio das convenções fixadas**: escolhas históricas consolidadas que
+  distinguem grafias de mesmo som (*ç* × *ss* × *s* × *sc*; *g* × *j*; *x* × *ch*).
+
+Esses três princípios em tensão explicam por que a ortografia tem uma parte
+**regular** (previsível a partir do som ou de regras) e uma parte **irregular** (que
+se resolve por memória, etimologia ou consulta ao dicionário).
+
+## Regra × convenção: o que dá para deduzir e o que não dá
+
+Distinguir esses dois planos é a chave para estudar ortografia com eficiência —
+poupando memória para o que realmente precisa ser memorizado.
+
+A @fig-regra-convencao ilustra a distinção.
+
+::: {#fig-regra-convencao}
+
+```{.tikz}
+%%| filename: regra-convencao
+%%| alt: Diagrama dividido em duas colunas. À esquerda, "regra" (previsível): casos que se deduzem, como o uso de m antes de p e b, exemplo campo, tempo. À direita, "convenção" (arbitrária): casos que se memorizam ou consultam, como caça com ç versus massa com ss. Uma seta indica que a estratégia de estudo é deduzir a regra e memorizar a convenção.
+
+\begin{tikzpicture}[
+  font=\small,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=52mm, minimum height=32mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualgreen, fill=manualgreen!8] (a) at (0,0) {\textbf{REGRA (previsível)}\\{\scriptsize deduz-se por princípio}\\[4pt] • \emph{m} antes de \emph{p} e \emph{b}: campo, tempo\\ • depois de ditongo: ceia, joia\\ • \emph{-oso/-osa}: gostoso, formosa\\ • \emph{-eza} (subst. de adj.): beleza\\[3pt] \textbf{Estratégia:} entender a lógica};
+  \node[cx, draw=manualred, fill=manualred!8, right=6mm of a] (b) {\textbf{CONVENÇÃO (arbitrária)}\\{\scriptsize memoriza-se ou consulta-se}\\[4pt] • \emph{caça} (ç) $\times$ \emph{massa} (ss)\\ • \emph{gente} (g) $\times$ \emph{jiló} (j)\\ • \emph{enxada} (x) $\times$ \emph{encher} (ch)\\ • \emph{piscina}, \emph{exceção}\\[3pt] \textbf{Estratégia:} memória e dicionário};
+\end{tikzpicture}
+```
+
+A ortografia divide-se entre o que é **regra** (dedutível por um princípio) e o que é
+**convenção** (fixado historicamente): estudar bem é aplicar a estratégia certa a cada
+caso.
+:::
+
+Alguns casos são **regra** — bastam entender e aplicar:
+
+- Emprega-se *m* (não *n*) antes de *p* e *b*: *campo*, *tempo*, *ombro*, *também*.
+- Adjetivos terminados em *-oso/-osa* escrevem-se com *s*: *gostoso*, *carinhosa*.
+- Substantivos abstratos derivados de adjetivos com *-eza*: *beleza*, *nobreza*.
+
+Outros são **convenção** — não há como deduzir, deve-se saber ou consultar:
+
+- *caça* (com *ç*) mas *massa* (com *ss*); *cassino* mas *caçula*.
+- *gente* (com *g*) mas *jiló* (com *j*); *viagem* (substantivo) mas *viajem* (verbo,
+  aí por regra).
+
+A estratégia de estudo, portanto, é clara: **compreender** as regras (que cobrem
+muitos casos) e **memorizar/consultar** as convenções (concentrando o esforço de
+memória onde ele é indispensável). Os capítulos seguintes organizam justamente as
+regras dos casos mais problemáticos.
+
+## A ortografia é oficial e consultável
+
+Um ponto prático: a ortografia do português não é matéria de opinião. Ela é
+**fixada oficialmente**. A referência para o Brasil é o **Vocabulário Ortográfico da
+Língua Portuguesa (VOLP)**, editado pela Academia Brasileira de Letras, que registra
+a grafia oficial de todas as palavras. Em caso de dúvida sobre como se escreve uma
+palavra — inclusive hífen e acentuação —, o VOLP (ou um bom dicionário atualizado,
+como o Houaiss [@houaiss2009]) é a autoridade a consultar.
+
+## 📋 Quadro-resumo
+
+| Aspecto | Conteúdo |
+|---|---|
+| **Alfabeto** | 26 letras (com *k*, *w*, *y* reincorporadas em 1990) |
+| **Sistema** | Alfabético e fonográfico, mas não fonético |
+| **Princípios** | Fonográfico + etimológico + convenções fixadas |
+| **Regra** | Parte previsível (dedutível): *m* antes de *p/b*, *-oso*, *-eza* |
+| **Convenção** | Parte arbitrária (memória/consulta): *ç* × *ss*, *g* × *j* |
+| **Fonte oficial** | VOLP (Academia Brasileira de Letras) |
+
+Em uma linha: o alfabeto tem **26 letras**; o sistema é **fonográfico** (letra
+representa som), mas cruzado por **etimologia** e **convenções** — e estudar
+ortografia é distinguir o que é **regra** (deduzir) do que é **convenção**
+(memorizar/consultar).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que *k*, *w*, *y* não fazem parte do alfabeto.** Fazem, desde o Acordo de
+  1990 — o alfabeto tem 26 letras. Seu **uso**, porém, é restrito a nomes próprios,
+  símbolos e estrangeirismos.
+- **Supor que a escrita reflete exatamente a fala.** O sistema é fonográfico, não
+  fonético: há letras mudas (*h*), letras que valem vários sons (*x*), sons com várias
+  grafias (/s/).
+- **Tentar deduzir toda grafia por regra.** Parte da ortografia é convenção arbitrária
+  (*caça* × *massa*): não se deduz, memoriza-se ou consulta-se.
+- **Confundir "regra" com "convenção".** *m* antes de *p/b* é regra (sempre); a escolha
+  entre *ç* e *ss* é convenção (caso a caso).
+- **Tratar dúvida ortográfica como opinião.** A ortografia é oficial e fixada no VOLP;
+  há uma resposta certa a consultar, não uma preferência pessoal.
+
+## ✍️ Exercícios
+
+**1.** Quantas letras tem o alfabeto oficial do português e o que mudou com o Acordo de
+1990 quanto a ele?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Tem **26 letras**. O Acordo de 1990 reincorporou oficialmente ao alfabeto as letras
+*k*, *w* e *y*, que antes eram tratadas como estrangeiras (o alfabeto era de 23
+letras). O uso dessas três letras, porém, permanece restrito a nomes próprios
+estrangeiros e derivados, símbolos/unidades internacionais e estrangeirismos não
+aportuguesados.
+:::
+
+**2.** (Estilo ENEM) O sistema ortográfico do português é dito **fonográfico, mas não
+fonético**. Isso significa que:
+
+a) cada letra representa exatamente um som, e cada som, uma letra;
+b) as letras representam sons, mas há descompassos (letras mudas, sons com várias
+   grafias);
+c) a escrita não tem nenhuma relação com a pronúncia;
+d) só as vogais representam sons;
+e) a ortografia é definida por cada falante.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Fonográfico = as letras representam sons (base do sistema); "não
+fonético" = essa correspondência não é perfeita — há letras mudas (*h*), letras com
+vários valores (*x*) e sons com várias grafias (/s/ = s, ss, ç, c, sc). A (a)
+descreveria um sistema perfeitamente fonético, que o português não é.
+:::
+
+**3.** Classifique como **regra** (previsível) ou **convenção** (arbitrária): (a) usar
+*m* antes de *p* e *b*; (b) escrever *caça* com *ç* e *massa* com *ss*; (c) grafar
+adjetivos em *-oso* com *s*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) regra (sempre *m* antes de *p/b*: campo, tempo). (b) convenção (não há como
+deduzir; memoriza-se ou consulta-se). (c) regra (adjetivos em *-oso/-osa* sempre com
+*s*: gostoso, formosa).
+:::
+
+**4.** Explique os três princípios que atuam no sistema ortográfico português.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(1) **Fonográfico**: a letra representa o som (base do sistema — *pato* lê-se como se
+escreve). (2) **Etimológico**: a grafia conserva a origem histórica, mesmo com a
+pronúncia mudada (o *h* de *hora*, *homem*). (3) **Convenções fixadas**: escolhas
+históricas consolidadas que distinguem grafias de mesmo som (*ç* × *ss*, *g* × *j*).
+A tensão entre eles gera a parte regular e a parte irregular da ortografia.
+:::
+
+**5.** Em que situações se usam as letras *k*, *w* e *y*? Dê um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(1) Nomes próprios estrangeiros e derivados: *Kant* → *kantiano*; *Darwin* →
+*darwinismo*; *Byron* → *byroniano*. (2) Símbolos e unidades internacionais: *km*
+(quilômetro), *kg*, *W* (watt), *y* em notações. (3) Estrangeirismos não
+aportuguesados: *show*, *playground*, *whisky*. Em palavras já aportuguesadas, cedem
+lugar às letras nacionais (*uísque*, *quilo*).
+:::
+
+**6.** Por que se pode dizer que a dúvida ortográfica **não** é uma questão de opinião?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a ortografia é **fixada oficialmente**: no Brasil, pelo Vocabulário Ortográfico
+da Língua Portuguesa (VOLP), da Academia Brasileira de Letras, que registra a grafia
+correta de cada palavra. Diante de dúvida, não se escolhe uma forma por preferência —
+consulta-se a fonte oficial, que dá a resposta certa.
+:::
+
+**7.** (Estilo FCC) Assinale a alternativa em que a grafia se explica por **regra** (e
+não por convenção arbitrária):
+
+a) *exceção*;
+b) *também* (com *m* antes de *b*);
+c) *jiló* (com *j*);
+d) *piscina*;
+e) *enxaqueca*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Também* segue a **regra** de que se usa *m* (não *n*) antes de
+*p* e *b*. As demais grafias (*xc* de *exceção*, *j* de *jiló*, *sc* de *piscina*, *x*
+de *enxaqueca*) são convenções, que se memorizam ou consultam, não se deduzem por
+regra.
+:::
+
+**8.** Dê um exemplo de uma mesma letra representando sons diferentes e de um mesmo som
+representado por letras diferentes.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Mesma letra, sons diferentes: a letra *x* soa /ʃ/ em *xale*, /z/ em *exame*, /ks/ em
+*táxi* e /s/ em *próximo*. Mesmo som, letras diferentes: o fonema /s/ é grafado *s*
+(*sapo*), *ss* (*passo*), *ç* (*caça*), *c* (*cedo*), *sc* (*nascer*), *x*
+(*próximo*). Isso ilustra por que o sistema é fonográfico, mas não fonético.
+:::
+
+**9.** Explique a estratégia de estudo mais eficiente para a ortografia, com base na
+distinção regra × convenção.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A estratégia é aplicar o método certo a cada tipo: **compreender** as regras
+(princípios que cobrem muitos casos de uma vez, como *m* antes de *p/b* ou *-oso* com
+*s*) e reservar a **memória** (e a consulta ao dicionário/VOLP) para as convenções
+arbitrárias (*ç* × *ss*, *g* × *j*), que não se deduzem. Assim, poupa-se esforço de
+memorização, concentrando-o onde é indispensável.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Como o português tem sistema
+fonográfico, toda palavra se escreve exatamente como se pronuncia."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** O sistema é fonográfico (as letras representam sons), mas **não fonético**:
+há letras mudas (*h* de *hora*), letras com vários valores (*x*), sons com várias
+grafias (/s/) e o peso da etimologia e das convenções. Portanto, nem toda palavra se
+escreve exatamente como se pronuncia.
+:::
+
+## 📚 Referências
+
+O sistema ortográfico e o alfabeto oficial seguem o Acordo Ortográfico de 1990 e são
+tratados por Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]; a fonte de
+consulta obrigatória é o VOLP, complementado pelo dicionário Houaiss [@houaiss2009]. Os
+casos particulares de emprego de letras são o tema do @sec-cap-15.
+
+::: {#refs}
 :::
