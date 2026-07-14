@@ -4,22 +4,280 @@ title: "Acentuação gráfica: regras fundamentais"
 
 # Acentuação gráfica: regras fundamentais {#sec-cap-17}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 3 — Ortografia e Acentuação.
+> "O acento não é enfeite: é a bússola que diz onde a voz deve bater."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+A acentuação gráfica assusta muita gente, mas obedece a uma lógica notavelmente
+elegante. No fundo, todo o sistema responde a uma única pergunta: **quais palavras
+precisam de acento para que o leitor saiba onde está a sílaba tônica?** A resposta
+parte de uma constatação estatística — o português tem um "padrão default" de
+tonicidade — e acentua justamente as palavras que **fogem** desse padrão ou que
+poderiam gerar ambiguidade.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Neste capítulo estabelecemos as regras **fundamentais**, organizadas pela
+classificação que aprendemos no @sec-cap-10 (oxítonas, paroxítonas, proparoxítonas).
+Dominadas essas, o @sec-cap-18 tratará dos casos especiais (hiatos, ditongos abertos,
+acentos diferenciais). Aqui está o coração da acentuação: entenda a lógica e você
+deixará de decorar listas.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** os sinais gráficos (agudo, circunflexo, til, grave) e sua função;
+- **Aplicar** a regra de acentuação das oxítonas;
+- **Aplicar** a regra de acentuação das paroxítonas (pela terminação);
+- **Justificar** por que todas as proparoxítonas são acentuadas;
+- **Relacionar** a acentuação ao padrão tônico "default" do português;
+- **Acentuar** corretamente palavras a partir de sua classificação.
+
+## Os sinais gráficos
+
+O português usa quatro sinais ligados à tonicidade e à pronúncia:
+
+- **Acento agudo (´)**: marca a sílaba tônica com vogal **aberta** — *café*, *pá*,
+  *herói*, *médico*.
+- **Acento circunflexo (^)**: marca a sílaba tônica com vogal **fechada** — *avô*,
+  *lâmpada*, *três*, *pôr*.
+- **Til (~)**: marca **nasalidade** (não é propriamente acento tônico, mas costuma
+  coincidir com a tônica) — *maçã*, *irmão*, *põe*.
+- **Acento grave (`)**: marca exclusivamente a **crase** (fusão de *a* + *a*) — *à*,
+  *àquele*. Não indica tonicidade; será estudado no Volume 8.
+
+Agudo e circunflexo distinguem-se pela **abertura** da vogal: *avó* (/ɔ/, aberta,
+agudo) × *avô* (/o/, fechada, circunflexo).
+
+## O padrão "default" e a lógica da acentuação
+
+A chave para entender tudo: a maioria esmagadora das palavras do português é
+**paroxítona** (tônica na penúltima) — é o padrão mais comum, o "default". Por isso o
+sistema de acentuação é economicamente construído: **acentuam-se sobretudo as palavras
+que fogem do padrão** (oxítonas e proparoxítonas) e, entre as paroxítonas, apenas as
+de terminação menos comum. A @fig-logica-acento resume essa lógica.
+
+::: {#fig-logica-acento}
+
+```{.tikz}
+%%| filename: logica-acento
+%%| alt: Esquema mostrando a lógica de economia da acentuação. As proparoxítonas (raras) são todas acentuadas. As oxítonas são acentuadas só em certas terminações. As paroxítonas (padrão comum) são acentuadas apenas quando têm terminação incomum. Setas indicam que quanto mais a palavra foge do padrão paroxítono, mais provável o acento.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, text width=44mm, minimum height=15mm, inner sep=4pt},
+]
+  \node[cx, draw=manualred, very thick, fill=manualred!10] (pp) at (0,0) {\textbf{Proparoxítonas}\\{\scriptsize (raras — fogem muito do padrão)}\\ \textbf{TODAS} acentuadas};
+  \node[cx, draw=manualyellow, thick, fill=manualyellow!14, right=6mm of pp] (ox) {\textbf{Oxítonas}\\{\scriptsize (fogem do padrão)}\\ acentuadas em \emph{-a(s), -e(s), -o(s), -em/-ens}};
+  \node[cx, draw=manualblue, thick, fill=manualblue!8, right=6mm of ox] (px) {\textbf{Paroxítonas}\\{\scriptsize (o padrão comum)}\\ acentuadas só em terminação \emph{incomum}};
+\end{tikzpicture}
+```
+
+A economia da acentuação: quanto mais a palavra se afasta do padrão paroxítono, mais
+provavelmente leva acento — todas as proparoxítonas, boa parte das oxítonas e só as
+paroxítonas de terminação incomum.
+:::
+
+## Regra das oxítonas
+
+Acentuam-se as **oxítonas** (tônica na última sílaba) terminadas em:
+
+- **-a, -as**: *sofá*, *vatapás*, *já* (monossílabo tônico);
+- **-e, -es**: *café*, *você*, *convés*, *pés*;
+- **-o, -os**: *cipó*, *paletó*, *avós*, *pós*;
+- **-em, -ens**: *também*, *ninguém*, *parabéns*, *reféns*.
+
+**Não** se acentuam as oxítonas terminadas em *-i, -u, -r, -l, -z, -im, -um* e outras:
+*caqui*, *urubu*, *cantar*, *anzol*, *rapaz*, *capim*, *atum*. (Os monossílabos tônicos
+seguem a mesma lógica: *pá*, *fé*, *só*, *pôs* são acentuados; *quis*, *pus* não.)
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Por que essas terminações?
+As oxítonas terminadas em *-a, -e, -o, -em* são as que "surpreendem" o leitor, porque
+essas terminações são típicas de paroxítonas (*mesa*, *pente*, *carro*, *item*). O
+acento avisa: "aqui a tônica é na última, não na penúltima". Já *caqui* ou *urubu*
+terminam em *-i/-u*, terminações que já sugerem oxítona — daí dispensarem acento.
+:::
+
+## Regra das paroxítonas
+
+Como a paroxítona é o padrão, acentuam-se apenas as de terminação **incomum** — isto é,
+**todas exceto** as terminadas em *-a, -e, -o, -em, -ens* (as terminações "típicas" de
+paroxítona, que por isso não precisam de aviso). Acentuam-se as paroxítonas terminadas
+em:
+
+- **-i, -is**: *júri*, *lápis*, *táxi*, *grátis*;
+- **-us, -um, -uns**: *vírus*, *bônus*, *álbum*, *médiuns*;
+- **-l, -n, -r, -x**: *fácil*, *hífen*, *caráter*, *tórax*;
+- **-ã, -ãs, -ão, -ãos**: *ímã*, *órfã*, *órfão*, *bênção*;
+- **-ps**: *bíceps*, *fórceps*;
+- **ditongo (oral ou nasal)**: *série*, *água*, *régua*, *órgão*, *jóquei*.
+
+::: {.exemplo}
+- *fácil*, *útil*, *hábil* (terminação *-l*) → acentuadas.
+- *item*, *jovem* (terminação *-em*) → **não** acentuadas (é terminação típica de
+  paroxítona).
+- *táxi*, *júri* (terminação *-i*) → acentuadas.
+- *lapela*, *caneta* (terminação *-a*) → não acentuadas.
+:::
+
+## Regra das proparoxítonas
+
+A regra mais simples de todas: **todas as proparoxítonas são acentuadas**, sem
+exceção. *médico*, *lâmpada*, *sílaba*, *árvore*, *público*, *fôlego*, *êxodo*. Se você
+identificar que a tônica está na antepenúltima, pode acentuar com segurança absoluta.
+
+## 📋 Quadro-resumo
+
+| Classe | Acentua-se quando termina em | Exemplos |
+|---|---|---|
+| **Oxítona** | *-a(s), -e(s), -o(s), -em/-ens* | *sofá, café, cipó, também* |
+| **Paroxítona** | tudo **exceto** *-a(s), -e(s), -o(s), -em/-ens*; + ditongo, *-ã/-ão* | *fácil, táxi, vírus, água, órgão* |
+| **Proparoxítona** | **sempre** (todas) | *médico, lâmpada, sílaba* |
+
+Regra de ouro: oxítona e paroxítona têm terminações **complementares** — o que acentua
+uma (*-a, -e, -o, -em*) é o que **não** acentua a outra. Proparoxítona: sempre acento.
+
+Em uma linha: acentua-se o que **foge** do padrão paroxítono — todas as
+proparoxítonas, as oxítonas em *-a/-e/-o/-em* e as paroxítonas de terminação incomum
+(*-i, -us, -l, -r, -x, -ã, -ão*, ditongo).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Trocar as terminações de oxítona e paroxítona.** São complementares: oxítona
+  acentua em *-a/-e/-o/-em* (*sofá*); paroxítona acentua em *tudo menos* isso
+  (*fácil*, *táxi*). Se confundir, erra os dois.
+- **Não acentuar proparoxítona.** **Todas** levam acento (*médico*, *árvore*). É a
+  regra sem exceção — nunca deixe uma proparoxítona sem acento.
+- **Acentuar oxítona terminada em *-i/-u*.** *Caqui*, *urubu*, *bambu* **não** levam
+  acento (a terminação já sugere oxítona).
+- **Achar que *item* e *jovem* levam acento.** São paroxítonas terminadas em *-em*,
+  terminação típica de paroxítona → **sem** acento (no plural, porém: *itens*, sem
+  acento; mas *hífens* leva, por ser diferente).
+- **Confundir agudo e circunflexo.** Vogal aberta → agudo (*avó*); vogal fechada →
+  circunflexo (*avô*). A abertura decide o sinal.
+
+## ✍️ Exercícios
+
+**1.** Explique a "lógica de economia" que rege o sistema de acentuação do português.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Como a maioria das palavras do português é **paroxítona** (padrão "default"), o sistema
+acentua sobretudo as palavras que **fogem** desse padrão: todas as proparoxítonas (bem
+raras) e as oxítonas de terminação típica de paroxítona. Entre as paroxítonas,
+acentuam-se só as de terminação **incomum**. Assim, o acento serve de "aviso" quando a
+tônica não está onde o leitor esperaria, poupando sinais onde a terminação já indica a
+tonicidade.
+:::
+
+**2.** (Estilo ENEM) Assinale a alternativa em que a palavra **deve** ser acentuada:
+
+a) caqui;
+b) urubu;
+c) jovem;
+d) parabens;
+e) cantar.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** *Parabéns* é oxítona terminada em *-ens* → acentua-se. *Caqui* e
+*urubu* são oxítonas em *-i/-u* (sem acento); *jovem* é paroxítona em *-em* (sem
+acento); *cantar* é oxítona em *-r* (sem acento).
+:::
+
+**3.** Acentue se necessário e classifique: (a) *facil*; (b) *sofa*; (c) *medico*; (d)
+*taxi*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *fácil* — paroxítona terminada em *-l* → acento. (b) *sofá* — oxítona terminada em
+*-a* → acento. (c) *médico* — proparoxítona → acento (sempre). (d) *táxi* — paroxítona
+terminada em *-i* → acento.
+:::
+
+**4.** Por que *sofá* leva acento e *lapela* não, se ambas terminam em *-a*?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a classificação é diferente. *Sofá* é **oxítona** (tônica na última): oxítonas
+em *-a* são acentuadas. *Lapela* é **paroxítona** (tônica na penúltima: la-PE-la):
+paroxítonas em *-a* são a terminação típica do padrão e **não** se acentuam. A mesma
+terminação *-a* tem efeito oposto conforme a posição da tônica.
+:::
+
+**5.** Explique a diferença entre o acento **agudo** e o **circunflexo**, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Ambos marcam a sílaba tônica, mas indicam a **abertura** da vogal: o **agudo (´)** marca
+vogal **aberta** (*avó* /ɔ/, *café* /ɛ/, *pé*); o **circunflexo (^)** marca vogal
+**fechada** (*avô* /o/, *você* /e/, *três*). O par *avó*/*avô* ilustra: mesma letra
+*o*, mas aberta (agudo) × fechada (circunflexo).
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que **todas** as paroxítonas estão
+corretamente acentuadas:
+
+a) fácil, vírus, tórax;
+b) facil, virus, torax;
+c) fácil, virus, tórax;
+d) facil, vírus, torax;
+e) fácil, vírus, torax.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (a).** *Fácil* (paroxítona em *-l*), *vírus* (em *-us*) e *tórax* (em *-x*)
+são todas paroxítonas de terminação incomum, que se acentuam. As demais alternativas
+deixam ao menos uma sem o acento devido.
+:::
+
+**7.** Todas as proparoxítonas são acentuadas? Enuncie a regra e dê três exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Sim** — é uma regra **sem exceção**: toda palavra proparoxítona (tônica na
+antepenúltima sílaba) leva acento gráfico. Exemplos: *médico*, *lâmpada*, *sílaba*,
+*árvore*, *público*, *fôlego*. Identificada a tônica na antepenúltima, acentua-se com
+certeza.
+:::
+
+**8.** Acentue, se preciso: (a) *ninguem*; (b) *item*; (c) *bonus*; (d) *cipo*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *ninguém* — oxítona em *-em* → acento. (b) *item* — paroxítona em *-em* → **sem**
+acento. (c) *bônus* — paroxítona em *-us* → acento. (d) *cipó* — oxítona em *-o* →
+acento.
+:::
+
+**9.** Por que a regra das oxítonas e a das paroxítonas são chamadas de
+"complementares"?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque as terminações que **acentuam** as oxítonas (*-a, -e, -o, -em/-ens*) são
+exatamente as que **não** acentuam as paroxítonas, e vice-versa. As paroxítonas se
+acentuam justamente nas terminações que **não** acentuam as oxítonas (*-i, -us, -l,
+-r, -x, -ã, -ão*, ditongo). As duas regras se encaixam como complementos: cobrem
+terminações opostas.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "A palavra *jovem* não é acentuada
+porque é paroxítona terminada em *-em*, mas seu plural *jovens* também não recebe
+acento."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** *Jovem* é paroxítona terminada em *-em* (terminação típica de paroxítona) →
+sem acento. O plural *jovens* (paroxítona em *-ens*) também **não** recebe acento, pela
+mesma razão. (Cuidado para não confundir com *hífen*/*hífens*, em que a forma singular
+leva acento por outra razão de terminação.)
+:::
+
+## 📚 Referências
+
+As regras fundamentais de acentuação seguem a redação do Acordo de 1990, incorporada
+por Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]; a fonte oficial é o
+VOLP. Os casos especiais — hiatos, ditongos abertos e acentos diferenciais — são o tema
+do @sec-cap-18.
+
+::: {#refs}
 :::
