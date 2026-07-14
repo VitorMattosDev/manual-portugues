@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -883,7 +903,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#sec-cap-06" id="toc-sec-cap-06" class="nav-link active" data-scroll-target="#sec-cap-06"><span class="header-section-number">8</span> Como estudar português: método e recursos</a></li>
+  <li><a href="#sec-cap-06" id="toc-sec-cap-06" class="nav-link active" data-scroll-target="#sec-cap-06"><span class="header-section-number">8</span> Como estudar português: método e recursos</a>
+  <ul class="collapse">
+  <li><a href="#objetivos-de-aprendizagem" id="toc-objetivos-de-aprendizagem" class="nav-link" data-scroll-target="#objetivos-de-aprendizagem"><span class="header-section-number">8.1</span> 🎯 Objetivos de aprendizagem</a></li>
+  <li><a href="#estudar-a-língua-não-é-decorar-regras" id="toc-estudar-a-língua-não-é-decorar-regras" class="nav-link" data-scroll-target="#estudar-a-língua-não-é-decorar-regras"><span class="header-section-number">8.2</span> Estudar a língua não é decorar regras</a></li>
+  <li><a href="#três-técnicas-que-funcionam" id="toc-três-técnicas-que-funcionam" class="nav-link" data-scroll-target="#três-técnicas-que-funcionam"><span class="header-section-number">8.3</span> Três técnicas que funcionam</a>
+  <ul class="collapse">
+  <li><a href="#recuperação-ativa-retrieval" id="toc-recuperação-ativa-retrieval" class="nav-link" data-scroll-target="#recuperação-ativa-retrieval"><span class="header-section-number">8.3.1</span> Recuperação ativa (<em>retrieval</em>)</a></li>
+  <li><a href="#revisão-espaçada" id="toc-revisão-espaçada" class="nav-link" data-scroll-target="#revisão-espaçada"><span class="header-section-number">8.3.2</span> Revisão espaçada</a></li>
+  <li><a href="#intercalação-interleaving" id="toc-intercalação-interleaving" class="nav-link" data-scroll-target="#intercalação-interleaving"><span class="header-section-number">8.3.3</span> Intercalação (<em>interleaving</em>)</a></li>
+  </ul></li>
+  <li><a href="#como-usar-este-manual" id="toc-como-usar-este-manual" class="nav-link" data-scroll-target="#como-usar-este-manual"><span class="header-section-number">8.4</span> Como usar este manual</a></li>
+  <li><a href="#os-recursos-e-quando-usá-los" id="toc-os-recursos-e-quando-usá-los" class="nav-link" data-scroll-target="#os-recursos-e-quando-usá-los"><span class="header-section-number">8.5</span> Os recursos e quando usá-los</a></li>
+  <li><a href="#interpretar-o-enunciado-metade-da-prova" id="toc-interpretar-o-enunciado-metade-da-prova" class="nav-link" data-scroll-target="#interpretar-o-enunciado-metade-da-prova"><span class="header-section-number">8.6</span> Interpretar o enunciado: metade da prova</a></li>
+  <li><a href="#quadro-resumo" id="toc-quadro-resumo" class="nav-link" data-scroll-target="#quadro-resumo"><span class="header-section-number">8.7</span> 📋 Quadro-resumo</a></li>
+  <li><a href="#pegadinhas-e-erros-comuns" id="toc-pegadinhas-e-erros-comuns" class="nav-link" data-scroll-target="#pegadinhas-e-erros-comuns"><span class="header-section-number">8.8</span> ⚠️ Pegadinhas e erros comuns</a></li>
+  <li><a href="#exercícios" id="toc-exercícios" class="nav-link" data-scroll-target="#exercícios"><span class="header-section-number">8.9</span> ✍️ Exercícios</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências"><span class="header-section-number">8.10</span> 📚 Referências</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/vitormattosdev/manual-portugues/edit/main/capitulos/cap-06-como-estudar-portugues.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/vitormattosdev/manual-portugues/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -911,36 +948,658 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="sec-cap-06" class="level1" data-number="8">
 <h1 data-number="8"><span class="header-section-number">8</span> Como estudar português: método e recursos</h1>
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 1 — Introdução aos Estudos da Linguagem.
-
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
-
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+<blockquote class="blockquote">
+<p>“Não basta saber, é preciso também aplicar; não basta querer, é preciso também fazer.” — atribuído a Goethe</p>
+</blockquote>
+<p>Chegamos ao capítulo que fecha o Volume 1 e, de certo modo, prepara todos os demais. Depois de entender o que é a língua, o que é a gramática e o que é a norma, resta uma pergunta prática: <strong>como estudar português de maneira eficiente?</strong> Muita gente estuda muito e rende pouco — decora regras que esquece na semana seguinte, faz listas de exercícios sem entender os erros, lê a teoria sem nunca aplicá-la. O problema quase nunca é falta de esforço; é falta de <strong>método</strong>.</p>
+<p>Este capítulo não traz conteúdo gramatical novo: traz uma estratégia de estudo. Ele explica como usar este manual, como distribuir o tempo, que recursos consultar e, sobretudo, como transformar leitura passiva em aprendizado duradouro. Trate-o como o “manual de instruções” dos catorze volumes seguintes.</p>
+<section id="objetivos-de-aprendizagem" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="objetivos-de-aprendizagem"><span class="header-section-number">8.1</span> 🎯 Objetivos de aprendizagem</h2>
+<p>Ao final deste capítulo, você será capaz de:</p>
+<ul>
+<li><strong>Organizar</strong> um plano de estudos progressivo e realista;</li>
+<li><strong>Aplicar</strong> técnicas de aprendizagem ativa (recuperação, intercalação, revisão espaçada);</li>
+<li><strong>Distinguir</strong> os tipos de recurso (gramáticas, dicionários, corpora, bancas) e quando usar cada um;</li>
+<li><strong>Interpretar</strong> enunciados de prova, identificando o que a banca realmente pede;</li>
+<li><strong>Diagnosticar</strong> os próprios erros para transformá-los em aprendizado;</li>
+<li><strong>Usar</strong> a estrutura deste manual (anatomia dos capítulos) a seu favor.</li>
+</ul>
+</section>
+<section id="estudar-a-língua-não-é-decorar-regras" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="estudar-a-língua-não-é-decorar-regras"><span class="header-section-number">8.2</span> Estudar a língua não é decorar regras</h2>
+<p>O primeiro reajuste de expectativa: português <strong>não</strong> se aprende por memorização bruta de regras isoladas. As regras que você decora sem entender evaporam sob pressão. O que fica é a <strong>compreensão</strong> — saber <em>por que</em> a regra é assim, ligá-la a outras, aplicá-la a casos novos. Uma regra de crase entendida (a lógica da fusão de <em>a</em> + <em>a</em>) vale por vinte regras decoradas.</p>
+<p>Isso não significa que a memória seja dispensável: há listas que precisam ser sabidas (verbos irregulares, palavras que fogem à regra). Mas mesmo essas se fixam melhor quando ancoradas em compreensão e praticadas ativamente, não relidas passivamente.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
+<span class="screen-reader-only">Nota</span>Aprendizagem passiva × ativa
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Capítulo em preparação.</p>
+<p>Reler a teoria e sublinhar dá a <strong>sensação</strong> de aprender, mas produz pouca retenção: é aprendizagem passiva. Fechar o livro e tentar <strong>recuperar</strong> o conteúdo de memória, resolver exercícios antes de ver a solução, explicar a matéria a outra pessoa — isso é aprendizagem <strong>ativa</strong>, e é ela que consolida o conhecimento. A dificuldade de recuperar é justamente o que fortalece a memória.</p>
+</div>
+</div>
+</section>
+<section id="três-técnicas-que-funcionam" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="três-técnicas-que-funcionam"><span class="header-section-number">8.3</span> Três técnicas que funcionam</h2>
+<p>A pesquisa sobre aprendizagem converge para algumas técnicas de alto rendimento. Três merecem destaque, resumidas na <a href="#fig-ciclo-estudo" class="quarto-xref">Figura&nbsp;<span>8.1</span></a>.</p>
+<section id="recuperação-ativa-retrieval" class="level3" data-number="8.3.1">
+<h3 data-number="8.3.1" class="anchored" data-anchor-id="recuperação-ativa-retrieval"><span class="header-section-number">8.3.1</span> Recuperação ativa (<em>retrieval</em>)</h3>
+<p>Depois de ler uma seção, feche o material e tente reconstruir o que aprendeu — de cabeça ou por escrito. Faça os exercícios <strong>antes</strong> de olhar a solução colapsável. O esforço de lembrar, mesmo com erro, fixa muito mais do que a releitura.</p>
+</section>
+<section id="revisão-espaçada" class="level3" data-number="8.3.2">
+<h3 data-number="8.3.2" class="anchored" data-anchor-id="revisão-espaçada"><span class="header-section-number">8.3.2</span> Revisão espaçada</h3>
+<p>Não estude um assunto uma vez só e nunca mais. Reveja-o em intervalos crescentes: no dia seguinte, depois de uma semana, depois de um mês. A cada revisão bem-sucedida, o intervalo pode aumentar. É assim que o conhecimento migra da memória de curto para a de longo prazo.</p>
+</section>
+<section id="intercalação-interleaving" class="level3" data-number="8.3.3">
+<h3 data-number="8.3.3" class="anchored" data-anchor-id="intercalação-interleaving"><span class="header-section-number">8.3.3</span> Intercalação (<em>interleaving</em>)</h3>
+<p>Em vez de resolver vinte questões seguidas do mesmo tema, misture temas. Intercalar crase, concordância e regência numa mesma sessão parece mais difícil — e é justamente por isso que treina o que a prova exige: <strong>reconhecer</strong> qual regra se aplica a cada caso, não apenas aplicá-la quando já se sabe qual é.</p>
+<div id="fig-ciclo-estudo" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ciclo-estudo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="227.877181pt" height="162.371875pt" viewbox="-68.014948 -68.014944 227.877181 162.371875">
+<defs>
+<path id="tz_ciclo_estudo_g0-46" d="M2.178829-.699377C2.178829-1.111831 1.847073-1.407721 1.479452-1.407721C1.066999-1.407721 .771108-1.075965 .771108-.708344C.771108-.29589 1.102864 0 1.470486 0C1.882939 0 2.178829-.331756 2.178829-.699377Z"></path>
+<path id="tz_ciclo_estudo_g0-49" d="M3.263761-5.586052C3.263761-5.783313 3.263761-5.881943 3.003736-5.881943C2.896139-5.881943 2.878207-5.881943 2.797509-5.819178C2.107098-5.308095 1.147696-5.308095 .968369-5.308095H.789041V-4.868742H.968369C1.183562-4.868742 1.667746-4.895641 2.169863-5.04807V-.439352H.887671V0C1.228394-.026899 2.313325-.026899 2.716812-.026899C3.138232-.026899 4.196264-.026899 4.563885 0V-.439352H3.263761V-5.586052Z"></path>
+<path id="tz_ciclo_estudo_g0-50" d="M4.770112-2.017435H4.312827C4.294894-1.891905 4.214197-1.255293 4.079701-1.192528C3.963138-1.147696 3.299626-1.147696 3.147198-1.147696H1.865006C2.340224-1.53325 2.878207-1.95467 3.326526-2.268493C4.079701-2.797509 4.770112-3.281694 4.770112-4.160399C4.770112-5.209465 3.81071-5.881943 2.510585-5.881943C1.398755-5.881943 .529016-5.352927 .529016-4.52802C.529016-4.061768 .887671-3.846575 1.201494-3.846575C1.488418-3.846575 1.865006-4.052802 1.865006-4.519054C1.865006-4.716314 1.784309-5.04807 1.389788-5.155666C1.703611-5.406725 2.107098-5.44259 2.286426-5.44259C3.021669-5.44259 3.48792-4.895641 3.48792-4.151432C3.48792-3.505853 3.102366-2.914072 2.627148-2.429888L.627646-.457285C.529016-.358655 .529016-.349689 .529016-.170361V0H4.492154L4.770112-2.017435Z"></path>
+<path id="tz_ciclo_estudo_g0-51" d="M2.447821-2.940971C3.452055-2.940971 3.452055-2.062267 3.452055-1.613948C3.452055-1.210461 3.452055-.29589 2.492653-.29589C2.385056-.29589 1.766376-.313823 1.353923-.609714C1.766376-.726276 1.85604-1.075965 1.85604-1.282192C1.85604-1.703611 1.560149-1.990535 1.147696-1.990535C.762142-1.990535 .439352-1.730511 .439352-1.273225C.439352-.430386 1.33599 .107597 2.537484 .107597C4.178331 .107597 4.859776-.789041 4.859776-1.613948C4.859776-2.322291 4.321793-2.940971 3.308593-3.156164C4.214197-3.469988 4.563885-4.088667 4.563885-4.635616C4.563885-5.308095 3.891407-5.881943 2.555417-5.881943C1.452553-5.881943 .735243-5.290162 .735243-4.563885C.735243-4.160399 1.022167-3.90934 1.380822-3.90934C1.766376-3.90934 2.026401-4.187298 2.026401-4.554919C2.026401-4.850809 1.85604-5.110834 1.497385-5.191532C1.569116-5.254296 1.936737-5.523288 2.510585-5.523288C3.29066-5.523288 3.29066-4.940473 3.29066-4.653549C3.29066-4.151432 3.102366-3.371357 2.331258-3.326526C2.304359-3.326526 2.008468-3.308593 1.909838-3.299626C1.766376-3.281694 1.766376-3.183064 1.766376-3.120299C1.766376-2.940971 1.865006-2.940971 2.026401-2.940971H2.447821Z"></path>
+<path id="tz_ciclo_estudo_g0-52" d="M4.1066-5.595019C4.1066-5.855044 4.079701-5.899875 3.81071-5.899875C3.595517-5.899875 3.577584-5.881943 3.48792-5.76538L.29589-1.829141V-1.389788H2.958904V-.439352H1.927771V0C2.241594-.026899 3.138232-.026899 3.505853-.026899S4.671482-.026899 5.003238 0V-.439352H4.1066V-1.389788H5.003238V-1.829141H4.1066V-5.595019ZM3.066501-4.617684V-1.829141H.806974L3.066501-4.617684Z"></path>
+<path id="tz_ciclo_estudo_g1-16" d="M.358655-3.864508V-3.58655C.932503-3.58655 1.0132-3.532752 1.0132-3.0934V-.690411C1.0132-.277958 .91457-.277958 .32279-.277958V0C.726276-.017933 .91457-.026899 1.309091-.026899C1.452553-.026899 1.829141-.026899 2.268493 0V-.277958C1.685679-.277958 1.649813-.32279 1.649813-.672478V-3.963138L.358655-3.864508Z"></path>
+<path id="tz_ciclo_estudo_g1-19" d="M3.425156-5.612951C3.541719-5.702615 3.61345-5.774346 3.61345-5.908842C3.61345-6.115068 3.434122-6.258531 3.272727-6.258531C3.120299-6.258531 3.075467-6.195766 2.99477-6.097136L1.900872-4.743213L2.071233-4.554919L3.425156-5.612951Z"></path>
+<path id="tz_ciclo_estudo_g1-24" d="M1.407721 1.604981C1.327024 1.604981 1.264259 1.604981 1.201494 1.613948V1.838107C1.578082 1.811208 1.981569 1.85604 2.501619 1.775342C3.048568 1.694645 3.398257 1.515318 3.398257 1.120797S3.057534 .537983 2.636115 .466252V.19726H1.972603V.636613C2.492653 .645579 2.734745 .869738 2.734745 1.120797C2.734745 1.596015 1.891905 1.604981 1.604981 1.604981H1.407721Z"></path>
+<path id="tz_ciclo_estudo_g1-40" d="M3.057534 2.133998C3.057534 2.089166 3.030635 2.062267 2.976837 1.999502C1.820174 .941469 1.470486-.672478 1.470486-2.241594C1.470486-3.631382 1.739477-5.317061 3.003736-6.518555C3.039601-6.554421 3.057534-6.58132 3.057534-6.626152C3.057534-6.688917 3.012702-6.724782 2.949938-6.724782C2.842341-6.724782 2.035367-6.079203 1.551183-5.101868C1.120797-4.241096 .905604-3.317559 .905604-2.25056C.905604-1.604981 .986301-.582814 1.479452 .475218C2.008468 1.578082 2.842341 2.232628 2.949938 2.232628C3.012702 2.232628 3.057534 2.196762 3.057534 2.133998Z"></path>
+<path id="tz_ciclo_estudo_g1-41" d="M2.67198-2.25056C2.67198-2.985803 2.564384-3.972105 2.098132-4.967372C1.569116-6.070237 .735243-6.724782 .627646-6.724782C.537983-6.724782 .52005-6.653051 .52005-6.626152C.52005-6.58132 .537983-6.554421 .600747-6.491656C1.120797-6.025405 2.107098-4.805978 2.107098-2.25056C2.107098-.968369 1.873973 .81594 .573848 2.026401C.555915 2.0533 .52005 2.089166 .52005 2.133998C.52005 2.160897 .537983 2.232628 .627646 2.232628C.735243 2.232628 1.542217 1.587049 2.026401 .609714C2.456787-.251059 2.67198-1.174595 2.67198-2.25056Z"></path>
+<path id="tz_ciclo_estudo_g1-76" d="M5.361893-2.313325H5.110834C5.012204-1.407721 4.886675-.277958 3.281694-.277958H2.501619C2.080199-.277958 2.062267-.340722 2.062267-.645579V-5.406725C2.062267-5.738481 2.098132-5.846077 2.914072-5.846077H3.200996V-6.124035C2.887173-6.097136 2.071233-6.097136 1.712578-6.097136C1.300125-6.097136 .744209-6.097136 .340722-6.124035V-5.846077H.546949C1.23736-5.846077 1.255293-5.747447 1.255293-5.415691V-.708344C1.255293-.376588 1.23736-.277958 .546949-.277958H.340722V0H5.110834L5.361893-2.313325Z"></path>
+<path id="tz_ciclo_estudo_g1-80" d="M3.577584-2.815442C4.832877-2.815442 5.747447-3.595517 5.747447-4.456289C5.747447-5.34396 4.82391-6.124035 3.577584-6.124035H.358655V-5.846077H.564882C1.255293-5.846077 1.273225-5.747447 1.273225-5.415691V-.708344C1.273225-.376588 1.255293-.277958 .564882-.277958H.358655V0C.762142-.026899 1.264259-.026899 1.676712-.026899S2.591283-.026899 2.99477 0V-.277958H2.788543C2.098132-.277958 2.080199-.376588 2.080199-.708344V-2.815442H3.577584ZM2.0533-5.478456C2.0533-5.783313 2.071233-5.846077 2.492653-5.846077H3.353425C4.832877-5.846077 4.832877-4.859776 4.832877-4.456289S4.832877-3.066501 3.344458-3.066501H2.0533V-5.478456Z"></path>
+<path id="tz_ciclo_estudo_g1-82" d="M2.0533-3.174097V-5.478456C2.0533-5.711582 2.071233-5.792279 2.241594-5.828144C2.322291-5.846077 2.609215-5.846077 2.797509-5.846077C3.568618-5.846077 4.707347-5.846077 4.707347-4.510087C4.707347-3.738979 4.312827-3.174097 3.0934-3.174097H2.0533ZM4.070735-3.039601C4.92254-3.281694 5.621918-3.81071 5.621918-4.510087C5.621918-5.397758 4.536986-6.124035 3.218929-6.124035H.358655V-5.846077H.564882C1.255293-5.846077 1.273225-5.747447 1.273225-5.415691V-.708344C1.273225-.376588 1.255293-.277958 .564882-.277958H.358655V0C.780075-.026899 1.228394-.026899 1.65878-.026899S2.537484-.026899 2.96787 0V-.277958H2.761644C2.071233-.277958 2.0533-.376588 2.0533-.708344V-2.949938H3.129265C3.774844-2.949938 4.061768-2.609215 4.097634-2.57335C4.366625-2.241594 4.366625-2.107098 4.366625-1.470486C4.366625-.869738 4.366625-.475218 4.797011-.134496C5.218431 .19726 5.756413 .19726 5.855044 .19726C6.608219 .19726 6.742715-.582814 6.742715-.798007C6.742715-.851806 6.742715-.959402 6.617186-.959402C6.500623-.959402 6.500623-.878705 6.491656-.806974C6.446824-.242092 6.168867-.026899 5.890909-.026899C5.603985-.026899 5.505355-.206227 5.433624-.358655C5.352927-.555915 5.272229-1.165629 5.218431-1.569116C5.1467-2.125031 5.066002-2.725778 4.070735-3.039601Z"></path>
+<path id="tz_ciclo_estudo_g1-97" d="M3.066501-.645579C3.111333-.268991 3.371357 .053798 3.756912 .053798C3.981071 .053798 4.545953-.080697 4.545953-.798007V-1.300125H4.294894V-.806974C4.294894-.708344 4.294894-.260025 3.972105-.260025S3.649315-.690411 3.649315-.833873V-2.402989C3.649315-2.914072 3.649315-3.218929 3.245828-3.58655C2.914072-3.882441 2.483686-4.016936 2.035367-4.016936C1.282192-4.016936 .654545-3.640349 .654545-3.066501C.654545-2.788543 .842839-2.636115 1.075965-2.636115C1.318057-2.636115 1.488418-2.815442 1.488418-3.048568C1.488418-3.434122 1.093898-3.478954 1.084932-3.478954C1.327024-3.71208 1.75741-3.792777 2.017435-3.792777C2.47472-3.792777 2.985803-3.452055 2.985803-2.663014V-2.367123C2.501619-2.349191 1.829141-2.304359 1.228394-2.017435C.582814-1.703611 .385554-1.23736 .385554-.878705C.385554-.143462 1.255293 .09863 1.85604 .09863C2.600249 .09863 2.940971-.394521 3.066501-.645579ZM2.985803-1.264259C2.985803-.394521 2.313325-.125529 1.918804-.125529C1.497385-.125529 1.102864-.430386 1.102864-.878705C1.102864-1.470486 1.613948-2.098132 2.985803-2.15193V-1.264259Z"></path>
+<path id="tz_ciclo_estudo_g1-99" d="M3.263761-3.523786C3.075467-3.48792 2.896139-3.362391 2.896139-3.102366C2.896139-2.86924 3.075467-2.689913 3.308593-2.689913S3.730012-2.842341 3.730012-3.120299C3.730012-3.676214 3.102366-4.016936 2.313325-4.016936C1.165629-4.016936 .304857-3.057534 .304857-1.936737C.304857-.780075 1.23736 .09863 2.295392 .09863C3.541719 .09863 3.828643-.986301 3.828643-1.066999C3.828643-1.174595 3.730012-1.174595 3.703113-1.174595C3.604483-1.174595 3.604483-1.156663 3.550685-1.004234C3.344458-.385554 2.842341-.152428 2.385056-.152428C1.811208-.152428 1.075965-.61868 1.075965-1.945704C1.075965-3.344458 1.793275-3.765878 2.331258-3.765878C2.447821-3.765878 2.932005-3.747945 3.263761-3.523786Z"></path>
+<path id="tz_ciclo_estudo_g1-100" d="M3.48792-1.075965C3.48792-.91457 3.48792-.887671 3.353425-.699377C3.075467-.29589 2.663014-.125529 2.304359-.125529C1.918804-.125529 1.560149-.340722 1.327024-.71731C1.093898-1.102864 1.075965-1.63188 1.075965-1.918804C1.075965-2.340224 1.129763-2.815442 1.362889-3.174097C1.560149-3.461021 1.927771-3.738979 2.402989-3.738979C2.779577-3.738979 3.138232-3.550685 3.380324-3.209963C3.48792-3.066501 3.48792-3.057534 3.48792-2.887173V-1.075965ZM3.514819-3.434122C3.469988-3.48792 3.066501-3.963138 2.367123-3.963138C1.264259-3.963138 .304857-3.084433 .304857-1.927771C.304857-.806974 1.201494 .09863 2.268493 .09863C2.923039 .09863 3.326526-.286924 3.48792-.475218V.09863L4.841843 0V-.277958C4.23213-.277958 4.151432-.340722 4.151432-.780075V-6.222665L2.824408-6.124035V-5.846077C3.434122-5.846077 3.514819-5.783313 3.514819-5.34396V-3.434122Z"></path>
+<path id="tz_ciclo_estudo_g1-101" d="M3.58655-2.0533C3.783811-2.0533 3.828643-2.0533 3.828643-2.241594C3.828643-3.165131 3.326526-4.016936 2.178829-4.016936C1.102864-4.016936 .260025-3.084433 .260025-1.972603C.260025-.798007 1.201494 .09863 2.295392 .09863S3.828643-.860772 3.828643-1.066999C3.828643-1.129763 3.783811-1.183562 3.703113-1.183562C3.61345-1.183562 3.58655-1.120797 3.577584-1.084932C3.272727-.170361 2.47472-.152428 2.340224-.152428C1.909838-.152428 1.542217-.394521 1.33599-.699377C1.0401-1.13873 1.031133-1.676712 1.031133-2.0533H3.58655ZM1.0401-2.268493C1.120797-3.649315 1.927771-3.792777 2.178829-3.792777C2.67198-3.792777 3.209963-3.416189 3.218929-2.268493H1.0401Z"></path>
+<path id="tz_ciclo_estudo_g1-105" d="M1.649813-3.963138L.358655-3.864508V-3.58655C.932503-3.58655 1.0132-3.532752 1.0132-3.0934V-.690411C1.0132-.277958 .91457-.277958 .32279-.277958V0C.726276-.017933 .91457-.026899 1.309091-.026899C1.452553-.026899 1.829141-.026899 2.268493 0V-.277958C1.685679-.277958 1.649813-.32279 1.649813-.672478V-3.963138ZM1.676712-5.523288C1.676712-5.792279 1.461519-6.007472 1.192528-6.007472C.91457-6.007472 .708344-5.783313 .708344-5.523288S.91457-5.039103 1.192528-5.039103C1.461519-5.039103 1.676712-5.254296 1.676712-5.523288Z"></path>
+<path id="tz_ciclo_estudo_g1-109" d="M1.667746-2.322291C1.667746-3.29066 2.367123-3.738979 2.905106-3.738979C3.398257-3.738979 3.559651-3.38929 3.559651-2.761644V-.690411C3.559651-.277958 3.461021-.277958 2.86924-.277958V0C3.29066-.017933 3.461021-.026899 3.891407-.026899S4.438356-.017933 4.913574 0V-.277958C4.321793-.277958 4.223163-.277958 4.223163-.690411V-2.322291C4.223163-3.29066 4.92254-3.738979 5.460523-3.738979C5.953674-3.738979 6.115068-3.38929 6.115068-2.761644V-.690411C6.115068-.277958 6.016438-.277958 5.424658-.277958V0C5.846077-.017933 6.016438-.026899 6.446824-.026899S6.993773-.017933 7.468991 0V-.277958C7.011706-.277958 6.787547-.277958 6.77858-.555915V-2.27746C6.77858-3.057534 6.77858-3.308593 6.48269-3.640349C6.294396-3.855542 5.935741-3.963138 5.523288-3.963138C4.877709-3.963138 4.438356-3.58655 4.187298-3.111333C4.079701-3.640349 3.721046-3.963138 2.96787-3.963138C2.25056-3.963138 1.811208-3.496887 1.622914-3.084433H1.613948V-3.963138L.313823-3.864508V-3.58655C.923537-3.58655 1.004234-3.523786 1.004234-3.084433V-.690411C1.004234-.277958 .905604-.277958 .313823-.277958V0C.735243-.017933 .905604-.026899 1.33599-.026899S1.882939-.017933 2.358157 0V-.277958C1.766376-.277958 1.667746-.277958 1.667746-.690411V-2.322291Z"></path>
+<path id="tz_ciclo_estudo_g1-110" d="M1.667746-2.322291C1.667746-3.272727 2.340224-3.738979 2.905106-3.738979C3.434122-3.738979 3.550685-3.299626 3.550685-2.761644V-.690411C3.550685-.277958 3.452055-.277958 2.860274-.277958V0C3.281694-.017933 3.452055-.026899 3.882441-.026899S4.42939-.017933 4.904608 0V-.277958C4.447323-.277958 4.223163-.277958 4.214197-.555915V-2.27746C4.214197-3.021669 4.214197-3.281694 3.963138-3.595517C3.756912-3.846575 3.416189-3.963138 2.96787-3.963138C2.133998-3.963138 1.748443-3.344458 1.622914-3.0934H1.613948V-3.963138L.313823-3.864508V-3.58655C.923537-3.58655 1.004234-3.523786 1.004234-3.084433V-.690411C1.004234-.277958 .905604-.277958 .313823-.277958V0C.735243-.017933 .905604-.026899 1.33599-.026899S1.882939-.017933 2.358157 0V-.277958C1.766376-.277958 1.667746-.277958 1.667746-.690411V-2.322291Z"></path>
+<path id="tz_ciclo_estudo_g1-111" d="M4.339726-1.909838C4.339726-3.084433 3.407223-4.016936 2.304359-4.016936C1.165629-4.016936 .260025-3.057534 .260025-1.909838C.260025-.789041 1.192528 .09863 2.295392 .09863C3.434122 .09863 4.339726-.806974 4.339726-1.909838ZM2.304359-.152428C1.85604-.152428 1.479452-.376588 1.273225-.726276C1.0401-1.102864 1.031133-1.578082 1.031133-1.990535C1.031133-2.322291 1.031133-2.833375 1.255293-3.200996C1.524284-3.658281 1.972603-3.792777 2.295392-3.792777C2.806476-3.792777 3.174097-3.505853 3.353425-3.200996C3.559651-2.824408 3.568618-2.367123 3.568618-1.990535C3.568618-1.65878 3.568618-1.13873 3.344458-.744209C3.0934-.331756 2.680946-.152428 2.304359-.152428Z"></path>
+<path id="tz_ciclo_estudo_g1-112" d="M1.622914-3.012702C1.927771-3.532752 2.420922-3.71208 2.797509-3.71208C3.496887-3.71208 4.034869-2.905106 4.034869-1.936737C4.034869-.91457 3.425156-.125529 2.698879-.125529C2.295392-.125529 1.95467-.358655 1.739477-.672478C1.622914-.851806 1.622914-.869738 1.622914-1.0401V-3.012702ZM1.622914-.430386C1.85604-.19726 2.160897 .09863 2.752677 .09863C3.819676 .09863 4.805978-.762142 4.805978-1.936737C4.805978-3.066501 3.927273-3.963138 2.86924-3.963138C2.385056-3.963138 1.936737-3.765878 1.596015-3.398257V-3.963138L.268991-3.864508V-3.58655C.905604-3.58655 .959402-3.532752 .959402-3.147198V1.049066C.959402 1.461519 .860772 1.461519 .268991 1.461519V1.739477C.690411 1.721544 .860772 1.712578 1.291158 1.712578S1.838107 1.721544 2.313325 1.739477V1.461519C1.721544 1.461519 1.622914 1.461519 1.622914 1.049066V-.430386Z"></path>
+<path id="tz_ciclo_estudo_g1-114" d="M1.596015-2.0533C1.596015-2.420922 1.694645-3.738979 2.716812-3.738979V-3.730012C2.698879-3.721046 2.555417-3.61345 2.555417-3.398257C2.555417-3.156164 2.743711-3.003736 2.949938-3.003736C3.138232-3.003736 3.344458-3.138232 3.344458-3.407223C3.344458-3.694147 3.075467-3.963138 2.67198-3.963138C2.133998-3.963138 1.75741-3.58655 1.551183-3.030635H1.542217V-3.963138L.268991-3.864508V-3.58655C.878705-3.58655 .959402-3.523786 .959402-3.084433V-.690411C.959402-.277958 .860772-.277958 .268991-.277958V0C.744209-.017933 .860772-.026899 1.318057-.026899C1.676712-.026899 1.891905-.017933 2.456787 0V-.277958H2.27746C1.622914-.277958 1.596015-.376588 1.596015-.708344V-2.0533Z"></path>
+<path id="tz_ciclo_estudo_g1-115" d="M3.084433-3.783811C3.084433-3.936239 3.084433-4.016936 2.976837-4.016936C2.932005-4.016936 2.914072-4.016936 2.797509-3.90934C2.779577-3.891407 2.698879-3.81071 2.645081-3.765878C2.367123-3.963138 2.089166-4.016936 1.784309-4.016936C.600747-4.016936 .304857-3.362391 .304857-2.905106C.304857-2.618182 .430386-2.385056 .636613-2.187796C.941469-1.909838 1.282192-1.847073 1.739477-1.766376C2.196762-1.676712 2.349191-1.649813 2.546451-1.497385C2.636115-1.425654 2.860274-1.255293 2.860274-.91457C2.860274-.125529 1.95467-.125529 1.829141-.125529C.91457-.125529 .681445-.887671 .573848-1.371856C.546949-1.461519 .537983-1.515318 .430386-1.515318C.304857-1.515318 .304857-1.443587 .304857-1.282192V-.134496C.304857 .017933 .304857 .09863 .412453 .09863C.466252 .09863 .475218 .089664 .636613-.080697C.672478-.134496 .771108-.251059 .81594-.29589C1.192528 .071731 1.604981 .09863 1.829141 .09863C2.932005 .09863 3.317559-.546949 3.317559-1.147696C3.317559-1.551183 3.138232-1.793275 2.940971-1.999502C2.636115-2.295392 2.313325-2.358157 1.649813-2.483686C1.416687-2.528518 .762142-2.645081 .762142-3.156164C.762142-3.443088 .968369-3.819676 1.784309-3.819676C2.752677-3.819676 2.815442-3.075467 2.833375-2.851308C2.842341-2.743711 2.842341-2.689913 2.958904-2.689913C3.084433-2.689913 3.084433-2.752677 3.084433-2.923039V-3.783811Z"></path>
+<path id="tz_ciclo_estudo_g1-116" d="M2.914072-3.58655V-3.864508H1.613948V-5.514321H1.362889C1.353923-4.761146 1.0401-3.837609 .170361-3.81071V-3.58655H.950436V-1.111831C.950436-.107597 1.676712 .09863 2.15193 .09863C2.752677 .09863 3.066501-.475218 3.066501-1.111831V-1.622914H2.815442V-1.13873C2.815442-.475218 2.537484-.152428 2.214695-.152428C1.613948-.152428 1.613948-.941469 1.613948-1.102864V-3.58655H2.914072Z"></path>
+<path id="tz_ciclo_estudo_g1-117" d="M3.550685-1.497385C3.550685-.699377 3.102366-.125529 2.456787-.125529C1.712578-.125529 1.667746-.511083 1.667746-.995268V-3.963138L.313823-3.864508V-3.58655C1.004234-3.58655 1.004234-3.559651 1.004234-2.761644V-1.416687C1.004234-.833873 1.004234-.457285 1.416687-.143462C1.676712 .035866 2.044334 .09863 2.402989 .09863C2.86924 .09863 3.308593-.107597 3.568618-.645579H3.577584V.09863L4.904608 0V-.277958C4.294894-.277958 4.214197-.340722 4.214197-.780075V-3.963138L2.860274-3.864508V-3.58655C3.469988-3.58655 3.550685-3.523786 3.550685-3.084433V-1.497385Z"></path>
+<path id="tz_ciclo_estudo_g1-118" d="M1.613948-3.183064C1.587049-3.236862 1.569116-3.29066 1.569116-3.353425C1.569116-3.58655 1.891905-3.58655 2.062267-3.58655V-3.864508C1.676712-3.846575 1.470486-3.837609 1.075965-3.837609C.762142-3.837609 .502117-3.837609 .179328-3.864508V-3.58655C.600747-3.58655 .771108-3.58655 .905604-3.254795L2.214695-.071731C2.268493 .071731 2.340224 .09863 2.420922 .09863S2.57335 .080697 2.636115-.071731L3.855542-3.012702C4.043836-3.469988 4.357659-3.577584 4.671482-3.58655V-3.864508C4.402491-3.837609 3.999004-3.837609 3.981071-3.837609C3.730012-3.837609 3.452055-3.846575 3.200996-3.864508V-3.58655C3.461021-3.568618 3.61345-3.434122 3.61345-3.200996C3.61345-3.111333 3.604483-3.0934 3.568618-2.99477L2.636115-.735243L1.613948-3.183064Z"></path>
+<path id="tz_ciclo_estudo_g1-120" d="M2.734745-2.017435C2.67198-2.098132 2.67198-2.107098 2.67198-2.116065C2.67198-2.133998 3.371357-2.985803 3.443088-3.057534C3.721046-3.362391 4.025903-3.577584 4.572852-3.58655V-3.864508C4.312827-3.837609 4.070735-3.837609 3.81071-3.837609C3.469988-3.837609 3.308593-3.837609 2.949938-3.864508V-3.58655C3.084433-3.568618 3.200996-3.496887 3.200996-3.317559C3.200996-3.174097 3.120299-3.075467 3.075467-3.021669L2.501619-2.313325L1.802242-3.200996C1.739477-3.281694 1.721544-3.299626 1.721544-3.362391C1.721544-3.469988 1.820174-3.577584 2.026401-3.58655V-3.864508C1.685679-3.846575 1.452553-3.837609 1.049066-3.837609C1.031133-3.837609 .52005-3.837609 .170361-3.864508V-3.58655C.789041-3.58655 .806974-3.568618 1.219427-3.039601L2.142964-1.882939C1.945704-1.649813 1.470486-1.058032 1.273225-.833873C.824907-.29589 .313823-.277958 .125529-.277958V0C.385554-.026899 .627646-.026899 .887671-.026899C1.174595-.026899 1.461519-.017933 1.748443 0V-.277958C1.524284-.304857 1.497385-.457285 1.497385-.546949C1.497385-.573848 1.497385-.699377 1.63188-.860772C1.847073-1.13873 2.080199-1.407721 2.304359-1.676712L3.012702-.771108C3.183064-.573848 3.183064-.555915 3.183064-.502117C3.183064-.403487 3.0934-.286924 2.878207-.277958V0C3.254795-.017933 3.469988-.026899 3.855542-.026899C3.873474-.026899 4.384558-.026899 4.734247 0V-.277958C4.375592-.277958 4.1066-.277958 3.90934-.529016L2.734745-2.017435Z"></path>
+</defs>
+<g id="tz_ciclo_estudo_page1">
+<g stroke-miterlimit="10" transform="translate(45.923642,13.170991)scale(0.996264,-0.996264)">
+<g fill="#000" stroke="#000">
+<g stroke-width="0.4">
+<g stroke="#2780e3">
+<g stroke-width="0.8">
+<g fill="#eef5fd">
+<g stroke="#2780e3">
+<g stroke-width="0.8">
+<g fill="#eef5fd">
+<path d="M36.98857 81.0904H-36.98857C-38.64545 81.0904-39.98857 79.74727-39.98857 78.0904V52.79239C-39.98857 51.13551-38.64545 49.79239-36.98857 49.79239H36.98857C38.64545 49.79239 39.98857 51.13551 39.98857 52.79239V78.0904C39.98857 79.74727 38.64545 81.0904 36.98857 81.0904ZM-39.98857 49.79239"></path>
+</g>
+</g>
+</g>
+<g transform="translate(-36.98857,68.74141)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(45.923642,13.170991)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="66.027437" y="13.170991" href="#tz_ciclo_estudo_g0-49"></use>
+<use x="71.332479" y="13.170991" href="#tz_ciclo_estudo_g0-46"></use>
+<use x="78.887418" y="13.170991" href="#tz_ciclo_estudo_g1-76"></use>
+<use x="84.646339" y="13.170991" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="88.745527" y="13.170991" href="#tz_ciclo_estudo_g1-114"></use>
+<use x="95.421507" y="13.170991" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="57.149824" y="24.129896" href="#tz_ciclo_estudo_g1-99"></use>
+<use x="61.245549" y="24.129896" href="#tz_ciclo_estudo_g1-111"></use>
+<use x="65.85324" y="24.129896" href="#tz_ciclo_estudo_g1-109"></use>
+<use x="73.532724" y="24.129896" href="#tz_ciclo_estudo_g1-112"></use>
+<use x="78.65238" y="24.129896" href="#tz_ciclo_estudo_g1-114"></use>
+<use x="82.256901" y="24.129896" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="86.35609" y="24.129896" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="90.455278" y="24.129896" href="#tz_ciclo_estudo_g1-110"></use>
+<use x="95.574934" y="24.129896" href="#tz_ciclo_estudo_g1-100"></use>
+<use x="100.69459" y="24.129896" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="104.793779" y="24.129896" href="#tz_ciclo_estudo_g1-114"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#2780e3">
+<g stroke-width="0.8">
+<g fill="#eef5fd">
+<g stroke="#2780e3">
+<g stroke-width="0.8">
+<g fill="#eef5fd">
+<path d="M110.96587 15.649H36.98872C35.33185 15.649 33.98872 14.30588 33.98872 12.649V-12.649C33.98872-14.30588 35.33185-15.649 36.98872-15.649H110.96587C112.62274-15.649 113.96587-14.30588 113.96587-12.649V12.649C113.96587 14.30588 112.62274 15.649 110.96587 15.649ZM33.98872-15.649"></path>
+</g>
+</g>
+</g>
+<g transform="translate(36.98872,2.42502)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(45.923642,13.170991)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="55.64959" y="13.170991" href="#tz_ciclo_estudo_g0-50"></use>
+<use x="60.954632" y="13.170991" href="#tz_ciclo_estudo_g0-46"></use>
+<use x="68.509571" y="13.170991" href="#tz_ciclo_estudo_g1-82"></use>
+<use x="75.292423" y="13.170991" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="79.391612" y="13.170991" href="#tz_ciclo_estudo_g1-99"></use>
+<use x="83.487337" y="13.170991" href="#tz_ciclo_estudo_g1-117"></use>
+<use x="88.606993" y="13.170991" href="#tz_ciclo_estudo_g1-112"></use>
+<use x="93.982632" y="13.170991" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="98.08182" y="13.170991" href="#tz_ciclo_estudo_g1-114"></use>
+<use x="101.686341" y="13.170991" href="#tz_ciclo_estudo_g1-97"></use>
+<use x="106.294032" y="13.170991" href="#tz_ciclo_estudo_g1-114"></use>
+<use x="59.209954" y="24.129896" href="#tz_ciclo_estudo_g1-100"></use>
+<use x="64.329611" y="24.129896" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="71.500258" y="24.129896" href="#tz_ciclo_estudo_g1-109"></use>
+<use x="79.179742" y="24.129896" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="83.278931" y="24.129896" href="#tz_ciclo_estudo_g1-109"></use>
+<use x="90.958415" y="24.129896" href="#tz_ciclo_estudo_g1-19"></use>
+<use x="90.958415" y="24.129896" href="#tz_ciclo_estudo_g1-111"></use>
+<use x="95.566106" y="24.129896" href="#tz_ciclo_estudo_g1-114"></use>
+<use x="99.170627" y="24.129896" href="#tz_ciclo_estudo_g1-105"></use>
+<use x="101.730455" y="24.129896" href="#tz_ciclo_estudo_g1-97"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#2780e3">
+<g stroke-width="0.8">
+<g fill="#eef5fd">
+<g stroke="#2780e3">
+<g stroke-width="0.8">
+<g fill="#eef5fd">
+<path d="M36.98857-49.79239H-36.98857C-38.64545-49.79239-39.98857-51.13551-39.98857-52.79239V-78.0904C-39.98857-79.74727-38.64545-81.0904-36.98857-81.0904H36.98857C38.64545-81.0904 39.98857-79.74727 39.98857-78.0904V-52.79239C39.98857-51.13551 38.64545-49.79239 36.98857-49.79239ZM-39.98857-81.0904"></path>
+</g>
+</g>
+</g>
+<g transform="translate(-36.98857,-63.01637)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(45.923642,13.170991)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="50.14957" y="13.170991" href="#tz_ciclo_estudo_g0-51"></use>
+<use x="55.454612" y="13.170991" href="#tz_ciclo_estudo_g0-46"></use>
+<use x="63.009551" y="13.170991" href="#tz_ciclo_estudo_g1-80"></use>
+<use x="69.280438" y="13.170991" href="#tz_ciclo_estudo_g1-114"></use>
+<use x="72.884959" y="13.170991" href="#tz_ciclo_estudo_g1-97"></use>
+<use x="77.49265" y="13.170991" href="#tz_ciclo_estudo_g1-116"></use>
+<use x="81.076409" y="13.170991" href="#tz_ciclo_estudo_g1-105"></use>
+<use x="83.636237" y="13.170991" href="#tz_ciclo_estudo_g1-99"></use>
+<use x="87.731962" y="13.170991" href="#tz_ciclo_estudo_g1-97"></use>
+<use x="92.339653" y="13.170991" href="#tz_ciclo_estudo_g1-114"></use>
+<use x="99.015633" y="13.170991" href="#tz_ciclo_estudo_g1-99"></use>
+<use x="103.111358" y="13.170991" href="#tz_ciclo_estudo_g1-111"></use>
+<use x="107.719049" y="13.170991" href="#tz_ciclo_estudo_g1-109"></use>
+<use x="63.663894" y="24.129896" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="67.763082" y="24.129896" href="#tz_ciclo_estudo_g1-120"></use>
+<use x="72.626756" y="24.129896" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="76.725944" y="24.129896" href="#tz_ciclo_estudo_g1-114"></use>
+<use x="80.330465" y="24.129896" href="#tz_ciclo_estudo_g1-99"></use>
+<use x="83.402259" y="24.129896" href="#tz_ciclo_estudo_g1-19"></use>
+<use x="84.42619" y="24.129896" href="#tz_ciclo_estudo_g1-16"></use>
+<use x="86.986018" y="24.129896" href="#tz_ciclo_estudo_g1-99"></use>
+<use x="91.081743" y="24.129896" href="#tz_ciclo_estudo_g1-105"></use>
+<use x="93.641571" y="24.129896" href="#tz_ciclo_estudo_g1-111"></use>
+<use x="98.249262" y="24.129896" href="#tz_ciclo_estudo_g1-115"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#2780e3">
+<g stroke-width="0.8">
+<g fill="#eef5fd">
+<g stroke="#2780e3">
+<g stroke-width="0.8">
+<g fill="#eef5fd">
+<path d="M-36.98872 15.649H-110.96587C-112.62274 15.649-113.96587 14.30588-113.96587 12.649V-12.649C-113.96587-14.30588-112.62274-15.649-110.96587-15.649H-36.98872C-35.33185-15.649-33.98872-14.30588-33.98872-12.649V12.649C-33.98872 14.30588-35.33185 15.649-36.98872 15.649ZM-113.96587-15.649"></path>
+</g>
+</g>
+</g>
+<g transform="translate(-110.96587,3.55002)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(45.923642,13.170991)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="61.267713" y="13.170991" href="#tz_ciclo_estudo_g0-52"></use>
+<use x="66.572755" y="13.170991" href="#tz_ciclo_estudo_g0-46"></use>
+<use x="74.127694" y="13.170991" href="#tz_ciclo_estudo_g1-82"></use>
+<use x="80.910546" y="13.170991" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="85.009734" y="13.170991" href="#tz_ciclo_estudo_g1-118"></use>
+<use x="89.873408" y="13.170991" href="#tz_ciclo_estudo_g1-105"></use>
+<use x="92.433236" y="13.170991" href="#tz_ciclo_estudo_g1-115"></use>
+<use x="96.068199" y="13.170991" href="#tz_ciclo_estudo_g1-97"></use>
+<use x="100.675889" y="13.170991" href="#tz_ciclo_estudo_g1-114"></use>
+<use x="61.24415" y="24.129896" href="#tz_ciclo_estudo_g1-40"></use>
+<use x="64.82791" y="24.129896" href="#tz_ciclo_estudo_g1-101"></use>
+<use x="68.927098" y="24.129896" href="#tz_ciclo_estudo_g1-115"></use>
+<use x="72.562061" y="24.129896" href="#tz_ciclo_estudo_g1-112"></use>
+<use x="77.681717" y="24.129896" href="#tz_ciclo_estudo_g1-97"></use>
+<use x="82.289408" y="24.129896" href="#tz_ciclo_estudo_g1-24"></use>
+<use x="82.289408" y="24.129896" href="#tz_ciclo_estudo_g1-99"></use>
+<use x="86.385133" y="24.129896" href="#tz_ciclo_estudo_g1-97"></use>
+<use x="90.992823" y="24.129896" href="#tz_ciclo_estudo_g1-100"></use>
+<use x="96.11248" y="24.129896" href="#tz_ciclo_estudo_g1-111"></use>
+<use x="100.72017" y="24.129896" href="#tz_ciclo_estudo_g1-41"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g fill="#3fb618" stroke="#3fb618">
+<g stroke-width="1.2">
+<path d="M40.38857 49.53828C53.99072 40.57036 60.60767 31.66216 63.97736 20.36072" fill="none"></path>
+<g transform="matrix(0.28572,-0.95827,0.95827,0.28572,63.14928,23.13799)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M5.68895 0L1.9376 1.42644L3.1982 0L1.9376-1.42644Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+<g fill="#3fb618" stroke="#3fb618">
+<g stroke-width="1.2">
+<path d="M65.26295-16.049C60.60767-31.66216 53.99072-40.57036 44.14485-47.06177" fill="none"></path>
+<g transform="matrix(-0.83482,-0.5504,0.5504,-0.83482,46.56435,-45.46658)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M5.68895 0L1.9376 1.42644L3.1982 0L1.9376-1.42644Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+<g fill="#3fb618" stroke="#3fb618">
+<g stroke-width="1.2">
+<path d="M-40.38857-49.53828C-53.99072-40.57036-60.60767-31.66216-63.97736-20.36072" fill="none"></path>
+<g transform="matrix(-0.28572,0.95827,-0.95827,-0.28572,-63.14928,-23.13799)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M5.68895 0L1.9376 1.42644L3.1982 0L1.9376-1.42644Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+<g fill="#3fb618" stroke="#3fb618">
+<g stroke-width="1.2">
+<path d="M-65.26295 16.049C-60.60767 31.66216-53.99072 40.57036-44.14485 47.06177" fill="none"></path>
+<g transform="matrix(0.83482,0.5504,-0.5504,0.83482,-46.56435,45.46658)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M5.68895 0L1.9376 1.42644L3.1982 0L1.9376-1.42644Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ciclo-estudo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;8.1: O ciclo do estudo eficiente: compreender, recuperar de memória, praticar e revisar de forma espaçada — um processo que se repete a cada tema.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="como-usar-este-manual" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="como-usar-este-manual"><span class="header-section-number">8.4</span> Como usar este manual</h2>
+<p>Cada capítulo deste manual tem uma <strong>anatomia fixa</strong>, pensada para o estudo ativo. Conhecê-la ajuda a extrair o máximo de cada um:</p>
+<ol type="1">
+<li><strong>Abertura e objetivos</strong>: leia-os primeiro para saber <em>aonde</em> vai chegar; os objetivos são a lista do que você deve dominar ao fim.</li>
+<li><strong>Desenvolvimento</strong>: leia com lápis na mão, testando cada conceito nos exemplos. Ao fim de cada seção, feche o livro e resuma-a mentalmente (recuperação ativa).</li>
+<li><strong>Figuras</strong>: não pule os esquemas — eles condensam relações que o texto explica linearmente. Tente reproduzi-los de memória.</li>
+<li><strong>Quadro-resumo</strong>: use-o para revisão rápida, não como substituto da leitura.</li>
+<li><strong>Pegadinhas</strong>: são o mapa dos erros que as bancas exploram; releia-as antes de qualquer prova.</li>
+<li><strong>Exercícios</strong>: resolva <strong>antes</strong> de abrir a solução. Errar aqui, entendendo depois, é o objetivo — não o fracasso.</li>
+<li><strong>Referências</strong>: para aprofundar, saiba a quem recorrer.</li>
+</ol>
+<p>A ordem dos volumes é progressiva: cada um pressupõe os anteriores. Fonologia (Vol. 2) antes de ortografia (Vol. 3); morfologia (Vol. 4–5) antes de sintaxe (Vol. 6–8). Siga a sequência sempre que puder.</p>
+</section>
+<section id="os-recursos-e-quando-usá-los" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="os-recursos-e-quando-usá-los"><span class="header-section-number">8.5</span> Os recursos e quando usá-los</h2>
+<p>Estudar bem é também saber <strong>consultar</strong>. Cada tipo de dúvida pede um recurso diferente:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo de dúvida</th>
+<th>Recurso adequado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sentido, grafia ou regência de uma palavra</td>
+<td>Dicionário (Houaiss <span class="citation" data-cites="houaiss2009">(<a href="cap-01-linguagem-lingua-fala.html#ref-houaiss2009" role="doc-biblioref">Houaiss; Villar, 2009</a>)</span>, Aulete, Michaelis)</td>
+</tr>
+<tr class="even">
+<td>Regra da norma-padrão para a prova</td>
+<td>Gramática normativa (Bechara <span class="citation" data-cites="bechara2009">(<a href="cap-01-linguagem-lingua-fala.html#ref-bechara2009" role="doc-biblioref">Bechara, 2009</a>)</span>, Cunha &amp; Cintra <span class="citation" data-cites="cunhacintra2017">(<a href="cap-01-linguagem-lingua-fala.html#ref-cunhacintra2017" role="doc-biblioref">Cunha; Cintra, 2017</a>)</span>)</td>
+</tr>
+<tr class="odd">
+<td>Como a língua realmente funciona</td>
+<td>Gramática descritiva (Castilho <span class="citation" data-cites="castilho2010">(<a href="cap-01-linguagem-lingua-fala.html#ref-castilho2010" role="doc-biblioref">Castilho, 2010</a>)</span>, Perini <span class="citation" data-cites="perini2010">(<a href="cap-01-linguagem-lingua-fala.html#ref-perini2010" role="doc-biblioref">Perini, 2010</a>)</span>)</td>
+</tr>
+<tr class="even">
+<td>Se uma construção é usada e como</td>
+<td>Observação de uso, corpora, textos reais</td>
+</tr>
+<tr class="odd">
+<td>Grafia oficial e hifenização</td>
+<td><em>Vocabulário Ortográfico da Língua Portuguesa</em> (VOLP), da ABL</td>
+</tr>
+<tr class="even">
+<td>Estilo de uma banca específica</td>
+<td>Provas anteriores da própria banca</td>
+</tr>
+</tbody>
+</table>
+<p>Duas recomendações práticas. Primeira: para concursos e vestibulares, <strong>conheça a banca</strong>. FCC, Cebraspe (antigo Cespe), FGV, VUNESP e o ENEM têm estilos próprios de enunciado e de “pegadinha”; resolver provas antigas da banca-alvo vale por muitas listas genéricas. Segunda: mantenha um <strong>caderno de erros</strong> — anote cada questão que errou, o motivo do erro e a regra correta, e revise-o periodicamente. É o recurso de estudo mais subestimado que existe.</p>
+</section>
+<section id="interpretar-o-enunciado-metade-da-prova" class="level2" data-number="8.6">
+<h2 data-number="8.6" class="anchored" data-anchor-id="interpretar-o-enunciado-metade-da-prova"><span class="header-section-number">8.6</span> Interpretar o enunciado: metade da prova</h2>
+<p>Muitas questões são perdidas não por desconhecimento do conteúdo, mas por leitura apressada do comando. Antes de responder, identifique com precisão o que se pede:</p>
+<ul>
+<li><strong>Palavras-chave de comando</strong>: “assinale a <strong>incorreta</strong>”, “<strong>exceto</strong>”, “<strong>NÃO</strong>” invertem a lógica — a distração aqui custa a questão.</li>
+<li><strong>Recortes</strong>: “quanto à <strong>regência</strong>”, “do ponto de vista <strong>sintático</strong>” delimitam o nível de análise; responder por outro critério erra o alvo.</li>
+<li><strong>Certo/Errado (Cebraspe)</strong>: um único detalhe falso torna todo o item errado; leia cada palavra, inclusive advérbios como “sempre”, “nunca”, “apenas”.</li>
+</ul>
+<p>Em prova de interpretação, volte <strong>sempre</strong> ao texto: a resposta certa se sustenta no que está escrito, não no que você supõe ou concorda. Voltaremos a esse método no Volume 13.</p>
+</section>
+<section id="quadro-resumo" class="level2" data-number="8.7">
+<h2 data-number="8.7" class="anchored" data-anchor-id="quadro-resumo"><span class="header-section-number">8.7</span> 📋 Quadro-resumo</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Princípio</th>
+<th>Prática concreta</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Compreender &gt; decorar</td>
+<td>Entender o <em>porquê</em> de cada regra antes de memorizá-la</td>
+</tr>
+<tr class="even">
+<td>Aprendizagem ativa</td>
+<td>Recuperar de memória; resolver antes de ver a solução</td>
+</tr>
+<tr class="odd">
+<td>Revisão espaçada</td>
+<td>Rever em intervalos crescentes (1 dia, 1 semana, 1 mês)</td>
+</tr>
+<tr class="even">
+<td>Intercalação</td>
+<td>Misturar temas nas sessões de exercício</td>
+</tr>
+<tr class="odd">
+<td>Recurso certo</td>
+<td>Dicionário, gramática normativa, descritiva ou VOLP, conforme a dúvida</td>
+</tr>
+<tr class="even">
+<td>Conhecer a banca</td>
+<td>Resolver provas anteriores do estilo-alvo</td>
+</tr>
+<tr class="odd">
+<td>Caderno de erros</td>
+<td>Registrar e revisar cada erro cometido</td>
+</tr>
+<tr class="even">
+<td>Ler o comando</td>
+<td>Identificar palavras-chave e recortes do enunciado</td>
+</tr>
+</tbody>
+</table>
+<p>Em uma linha: estude <strong>ativamente</strong> (recuperar, praticar, revisar espaçado), <strong>compreenda</strong> em vez de decorar, use o <strong>recurso certo</strong> para cada dúvida e <strong>leia o enunciado</strong> com atenção cirúrgica.</p>
+</section>
+<section id="pegadinhas-e-erros-comuns" class="level2" data-number="8.8">
+<h2 data-number="8.8" class="anchored" data-anchor-id="pegadinhas-e-erros-comuns"><span class="header-section-number">8.8</span> ⚠️ Pegadinhas e erros comuns</h2>
+<ul>
+<li><strong>Confundir sensação de aprender com aprendizado.</strong> Reler e sublinhar dão conforto, mas retêm pouco. O que consolida é recuperar de memória e praticar.</li>
+<li><strong>Estudar tudo de uma vez e nunca revisar.</strong> Sem revisão espaçada, o conteúdo se perde. Um pouco todo dia, com revisões programadas, rende mais que maratonas isoladas.</li>
+<li><strong>Ver a solução antes de tentar.</strong> Isso elimina o esforço de recuperação, que é o que fixa. Tente, erre, depois confira.</li>
+<li><strong>Usar a gramática normativa como se descrevesse toda a língua.</strong> Para a prova, ela é o recurso certo; para entender o uso real, recorra à descritiva. Saiba qual consultar.</li>
+<li><strong>Ignorar o comando da questão.</strong> “Exceto”, “incorreta”, “NÃO” e recortes de nível (“quanto à sintaxe”) mudam tudo. Metade dos erros de prova nasce aqui.</li>
+</ul>
+</section>
+<section id="exercícios" class="level2" data-number="8.9">
+<h2 data-number="8.9" class="anchored" data-anchor-id="exercícios"><span class="header-section-number">8.9</span> ✍️ Exercícios</h2>
+<p><strong>1.</strong> Explique a diferença entre aprendizagem <strong>passiva</strong> e <strong>ativa</strong> e dê um exemplo de cada.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Aprendizagem passiva consiste em receber o conteúdo sem esforço de reconstrução: reler, sublinhar, assistir a uma explicação. Aprendizagem ativa exige recuperar, aplicar ou explicar o conteúdo: fazer exercícios antes de ver a solução, fechar o livro e resumir de memória, ensinar a matéria a alguém. A ativa retém muito mais, pois o esforço de recuperação fortalece a memória.</p>
+</div>
+</div>
+</div>
+<p><strong>2.</strong> (Estilo ENEM) Um estudante resolve 30 questões seguidas só de crase, acerta quase todas e conclui que domina o tema. Na prova, porém, erra crase quando ela aparece “misturada” a outros assuntos. O que explica melhor essa falha?</p>
+<ol type="a">
+<li>Ele não estudou o suficiente.</li>
+<li>A prova é injusta.</li>
+<li>Faltou intercalação: treinar temas misturados, como na prova real.</li>
+<li>Crase é impossível de aprender.</li>
+<li>Ele deveria ter decorado mais regras.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Alternativa (c).</strong> Resolver muitas questões seguidas do mesmo tema treina a <em>aplicação</em> da regra quando já se sabe qual é, mas não o <em>reconhecimento</em> — que é o que a prova cobra, com os temas misturados. A <strong>intercalação</strong> (misturar assuntos nas sessões) desenvolve essa capacidade de identificar qual regra se aplica a cada caso.</p>
+</div>
+</div>
+</div>
+<p><strong>3.</strong> Associe a dúvida ao recurso adequado: (a) “Qual a grafia oficial de <em>autoescola</em>?”; (b) “O verbo <em>visar</em> rege qual preposição no sentido de ‘almejar’?”; (c) “Essa construção é realmente usada pelos falantes cultos?”.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="a">
+<li>VOLP (Vocabulário Ortográfico da Língua Portuguesa) ou dicionário atualizado; (b) gramática normativa e/ou dicionário de regência; (c) gramática descritiva, corpora ou observação de textos reais. Cada dúvida pede um tipo de recurso diferente.</li>
+</ol>
+</div>
+</div>
+</div>
+<p><strong>4.</strong> O que é <strong>revisão espaçada</strong> e por que ela é mais eficaz que estudar um tema uma única vez?</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Revisão espaçada é revisar o mesmo conteúdo em intervalos crescentes (por exemplo, no dia seguinte, após uma semana, após um mês). É mais eficaz porque cada recuperação bem-sucedida, feita quando o conteúdo já está começando a ser esquecido, reforça a memória e a transfere para o longo prazo. Estudar uma vez só leva ao esquecimento rápido, pois falta o reforço distribuído no tempo.</p>
+</div>
+</div>
+</div>
+<p><strong>5.</strong> Por que se recomenda resolver os exercícios <strong>antes</strong> de abrir a solução colapsável?</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Porque o esforço de recuperar e aplicar o conteúdo de memória — mesmo que resulte em erro — é o que consolida a aprendizagem (recuperação ativa). Se você lê a solução antes de tentar, elimina esse esforço e troca aprendizado real por mera sensação de compreensão. O erro seguido de conferência é parte produtiva do processo.</p>
+</div>
+</div>
+</div>
+<p><strong>6.</strong> (Estilo Cebraspe — Certo/Errado) Julgue: “Para dominar a norma-padrão exigida em concursos, a gramática descritiva de Perini é o recurso mais adequado.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Errado.</strong> Para a norma-padrão de concursos, o recurso adequado é a gramática <strong>normativa</strong> (Bechara, Cunha &amp; Cintra). A gramática <strong>descritiva</strong> de Perini é excelente para entender como a língua realmente funciona, mas não é o instrumento para saber a forma prescrita que a banca cobrará.</p>
+</div>
+</div>
+</div>
+<p><strong>7.</strong> Explique o valor de manter um <strong>caderno de erros</strong>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>O caderno de erros registra cada questão errada, o motivo do erro e a regra correta. Seu valor é triplo: (1) concentra a revisão exatamente nos pontos fracos, otimizando o tempo; (2) transforma o erro em oportunidade de aprendizado, em vez de repeti-lo; (3) revela padrões (temas ou tipos de pegadinha em que se erra mais), permitindo estudo direcionado. É um recurso de aprendizagem ativa e personalizada.</p>
+</div>
+</div>
+</div>
+<p><strong>8.</strong> Num enunciado que diz “Assinale a alternativa em que <strong>NÃO</strong> há erro de concordância”, o que a distração com o comando pode causar?</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>O comando pede a alternativa <strong>correta</strong> (sem erro). Quem lê apressadamente pode procurar a alternativa <em>com</em> erro — invertendo a resposta — ou aplicar o critério errado (procurar erro de regência, por exemplo, quando se pede concordância). Palavras como “NÃO”, “exceto” e “incorreta”, e o recorte do nível (“concordância”), precisam ser lidas com atenção, pois definem o que realmente se pede.</p>
+</div>
+</div>
+</div>
+<p><strong>9.</strong> Descreva, em passos, como você estudaria um novo capítulo deste manual aplicando as técnicas discutidas.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Resposta pessoal. Um roteiro satisfatório: (1) ler abertura e objetivos para saber a meta; (2) ler o desenvolvimento com lápis, testando os conceitos nos exemplos; (3) ao fim de cada seção, fechar o livro e resumir de memória (recuperação); (4) estudar as figuras e o quadro-resumo; (5) resolver todos os exercícios antes de ver as soluções; (6) anotar os erros no caderno de erros; (7) reagendar uma revisão do capítulo para o dia seguinte e outra para a semana seguinte (revisão espaçada), intercalando com outros temas.</p>
+</div>
+</div>
+</div>
+<p><strong>10.</strong> (Estilo FGV) “Estudar português é, sobretudo, decorar o maior número possível de regras.” Comente criticamente a afirmação à luz deste capítulo.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A afirmação é equivocada. Embora certas listas precisem ser memorizadas (verbos irregulares, exceções), o núcleo do aprendizado é a <strong>compreensão</strong>: entender o porquê das regras, ligá-las entre si e aplicá-las a casos novos. Regras decoradas sem compreensão evaporam sob a pressão da prova; regras compreendidas se sustentam e se transferem. Além disso, estudar bem envolve técnicas de aprendizagem ativa (recuperação, revisão espaçada, intercalação) e a interpretação cuidadosa dos enunciados — nada disso se reduz a “decorar regras”.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="referências" class="level2" data-number="8.10">
+<h2 data-number="8.10" class="anchored" data-anchor-id="referências"><span class="header-section-number">8.10</span> 📚 Referências</h2>
+<p>As recomendações de consulta remetem às gramáticas normativas de Bechara <span class="citation" data-cites="bechara2009">(<a href="cap-01-linguagem-lingua-fala.html#ref-bechara2009" role="doc-biblioref">Bechara, 2009</a>)</span> e Cunha &amp; Cintra <span class="citation" data-cites="cunhacintra2017">(<a href="cap-01-linguagem-lingua-fala.html#ref-cunhacintra2017" role="doc-biblioref">Cunha; Cintra, 2017</a>)</span>, às descritivas de Castilho <span class="citation" data-cites="castilho2010">(<a href="cap-01-linguagem-lingua-fala.html#ref-castilho2010" role="doc-biblioref">Castilho, 2010</a>)</span> e Perini <span class="citation" data-cites="perini2010">(<a href="cap-01-linguagem-lingua-fala.html#ref-perini2010" role="doc-biblioref">Perini, 2010</a>)</span>, e ao dicionário Houaiss <span class="citation" data-cites="houaiss2009">(<a href="cap-01-linguagem-lingua-fala.html#ref-houaiss2009" role="doc-biblioref">Houaiss; Villar, 2009</a>)</span>. Para a dimensão de produção e compreensão de textos, que orientará o método de leitura dos volumes finais, ver Koch &amp; Elias <span class="citation" data-cites="koch2015texto">(<a href="cap-01-linguagem-lingua-fala.html#ref-koch2015texto" role="doc-biblioref">Koch; Elias, 2015</a>)</span> e Marcuschi <span class="citation" data-cites="marcuschi2008">(<a href="cap-01-linguagem-lingua-fala.html#ref-marcuschi2008" role="doc-biblioref">Marcuschi, 2008</a>)</span>.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-bechara2009" class="csl-entry" role="listitem">
+BECHARA, Evanildo. <strong>Moderna Gramática Portuguesa</strong>. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.
+</div>
+<div id="ref-castilho2010" class="csl-entry" role="listitem">
+CASTILHO, Ataliba Teixeira de. <strong>Nova Gramática do Português Brasileiro</strong>. São Paulo: Contexto, 2010.
+</div>
+<div id="ref-cunhacintra2017" class="csl-entry" role="listitem">
+CUNHA, Celso; CINTRA, Luís F. Lindley. <strong>Nova Gramática do Português Contemporâneo</strong>. 7. ed. Rio de Janeiro: Lexikon, 2017.
+</div>
+<div id="ref-houaiss2009" class="csl-entry" role="listitem">
+HOUAISS, Antônio; VILLAR, Mauro de Salles. <strong>Dicionário Houaiss da Língua Portuguesa</strong>. Rio de Janeiro: Objetiva, 2009.
+</div>
+<div id="ref-koch2015texto" class="csl-entry" role="listitem">
+KOCH, Ingedore Grunfeld Villaça; ELIAS, Vanda Maria. <strong>O Texto e a Construção dos Sentidos</strong>. São Paulo: Contexto, 2015.
+</div>
+<div id="ref-marcuschi2008" class="csl-entry" role="listitem">
+MARCUSCHI, Luiz Antônio. <strong>Produção Textual, Análise de Gêneros e Compreensão</strong>. São Paulo: Parábola, 2008.
+</div>
+<div id="ref-perini2010" class="csl-entry" role="listitem">
+PERINI, Mário A. <strong>Gramática do Português Brasileiro</strong>. São Paulo: Parábola, 2010.
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
