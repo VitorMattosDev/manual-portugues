@@ -4,22 +4,265 @@ title: "Acentuação gráfica: casos especiais"
 
 # Acentuação gráfica: casos especiais {#sec-cap-18}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 3 — Ortografia e Acentuação.
+> "É nas exceções que se testa quem entendeu a regra."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+As regras fundamentais do @sec-cap-17 cobrem a maioria das palavras. Restam, porém,
+alguns casos que fogem à classificação simples por oxítona/paroxítona/proparoxítona —
+e que, não por acaso, são os mais cobrados em prova: o acento dos **hiatos** (*saída*,
+*baú*), o dos **ditongos abertos** (*herói*, mas *ideia*), os **acentos diferenciais**
+(*pôde* × *pode*) e as mudanças que o Acordo de 1990 introduziu nesses pontos.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Estes são precisamente os casos que o Acordo mais alterou. Por isso este capítulo faz
+dupla função: ensina as regras vigentes e mostra o que mudou em relação à ortografia
+antiga — distinção que as bancas exploram com prazer. Ao fim dele, você terá o sistema
+de acentuação completo.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** a regra de acentuação dos hiatos *i* e *u* tônicos;
+- **Reconhecer** as exceções da regra do hiato (após ditongo, com *nh*, com *-l*);
+- **Acentuar** corretamente os ditongos abertos, distinguindo oxítonas de paroxítonas;
+- **Empregar** os acentos diferenciais que permaneceram (*pôde*, *pôr*, *têm/vêm*);
+- **Identificar** o que o Acordo de 1990 aboliu nesses casos;
+- **Resolver** questões que misturam regra fundamental e caso especial.
+
+## Acento dos hiatos: *i* e *u* tônicos
+
+Esta é uma das regras mais úteis. Acentuam-se o **-i** e o **-u** **tônicos** quando
+formam **hiato** (sílaba sozinhos), estando **sozinhos na sílaba** ou seguidos de
+**-s**:
+
+- *saída* (sa-**í**-da), *país* (pa-**í**s), *baú* (ba-**ú**), *saúde* (sa-**ú**-de),
+  *egoísmo*, *juízes*, *faísca*, *raízes*.
+
+O *i* ou *u* aqui é a segunda vogal do hiato, tônico, formando sílaba própria. Compare
+*sa-í-da* (com acento, hiato) e *cai-xa* (sem acento, ditongo — o *i* é semivogal).
+
+::: {.callout-important}
+## As exceções da regra do hiato
+O *i*/*u* tônico em hiato **não** se acentua quando:
+
+1. **vem depois de ditongo**, em paroxítonas — *feiura* (fei-u-ra), *baiuca*,
+   *bocaiuva* (mudança do Acordo: antes eram acentuadas);
+2. **é seguido de *nh*** — *rainha* (ra-i-nha), *moinho*, *campainha*;
+3. **forma sílaba com outra letra além de *s*** (*-l, -r, -z, -m, -ns*) — *paul*,
+   *Raul*, *ruim*, *sair* → *cair*; ou quando há consoante que não *s* — *juiz*
+   (ju-iz, sem acento), *raiz*, *contribuinte*;
+4. **há vogal idêntica dobrada** em certas formas (casos raros).
+:::
+
+## Acento dos ditongos abertos
+
+Os ditongos abertos **-éi-, -éu-, -ói-** eram todos acentuados na ortografia antiga.
+O Acordo de 1990 manteve o acento nas **oxítonas** e nos **monossílabos**, mas o
+**aboliu nas paroxítonas**. A @fig-ditongos-abertos organiza a distinção — talvez a
+pegadinha mais frequente de toda a acentuação.
+
+::: {#fig-ditongos-abertos}
+
+```{.tikz}
+%%| filename: ditongos-abertos
+%%| alt: Diagrama comparando o acento nos ditongos abertos ei, eu, oi conforme a posição da tônica. Coluna oxítonas e monossílabos: acento mantido, exemplos herói, chapéu, anéis, dói. Coluna paroxítonas: acento abolido pelo Acordo, exemplos ideia, heroico, jiboia, assembleia.
+
+\begin{tikzpicture}[
+  font=\small,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=52mm, minimum height=30mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualgreen, fill=manualgreen!8] (a) at (0,0) {\textbf{Oxítonas e monossílabos}\\{\scriptsize acento MANTIDO}\\[4pt] her\textbf{ói}, an\textbf{éis}, chap\textbf{éu}\\ d\textbf{ói}, c\textbf{éu}, v\textbf{éu}\\ trof\textbf{éu}, pap\textbf{éis}, an\textbf{zóis}};
+  \node[cx, draw=manualred, fill=manualred!8, right=6mm of a] (b) {\textbf{Paroxítonas}\\{\scriptsize acento ABOLIDO (Acordo 1990)}\\[4pt] id\emph{ei}a, hero\emph{i}co\\ jib\emph{oi}a, paran\emph{oi}co\\ assembl\emph{ei}a, plat\emph{ei}a, ap\emph{oi}o};
+\end{tikzpicture}
+```
+
+Os ditongos abertos *éi, éu, ói* mantêm o acento nas oxítonas e monossílabos
+(*herói*, *chapéu*), mas o perderam nas paroxítonas (*ideia*, *heroico*) após o Acordo
+de 1990.
+:::
+
+- **Oxítonas/monossílabos** (acento mantido): *herói*, *anéis*, *chapéu*, *troféu*,
+  *dói*, *céu*, *véu*, *papéis*, *fiéis*, *sóis*.
+- **Paroxítonas** (acento abolido): *ideia*, *assembleia*, *plateia*, *heroico*,
+  *jiboia*, *paranoico*, *apoio*, *joia*, *boia*.
+
+## Acentos diferenciais que permaneceram
+
+O Acordo aboliu quase todos os acentos diferenciais (*pêlo*, *pêra*, *pára* perderam o
+acento), mas **três** permaneceram, e são cobrados sempre:
+
+- **pôde** (pretérito perfeito, "ele pôde ontem") × **pode** (presente, "ele pode
+  hoje").
+- **pôr** (verbo, "vou pôr a mesa") × **por** (preposição, "passei por aqui").
+- **têm / vêm** (3ª pessoa do **plural**: "eles têm", "eles vêm") × **tem / vem** (3ª
+  pessoa do **singular**: "ele tem", "ele vem"). O circunflexo marca o plural.
+
+Facultativos (aceitos com ou sem acento):
+
+- **fôrma** / **forma**: o acento é **facultativo** para distinguir o substantivo
+  (*fôrma* de bolo) da forma verbal/substantivo (*forma*). Usa-se quando há risco de
+  ambiguidade.
+- **dêmos** / **demos** e casos raros análogos.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O til dos verbos *ter* e *vir* e derivados
+Nos derivados de *ter* e *vir*, o plural leva **circunflexo** e o singular, **agudo**
+ou nada: *ele mantém* × *eles mantêm*; *ele intervém* × *eles intervêm*; *ele contém*
+× *eles contêm*. Regra prática: singular = *-ém* (agudo); plural = *-êm* (circunflexo).
+:::
+
+## Verbos com hiato: *arguir*, *redarguir*
+
+O Acordo também aboliu o acento em algumas formas verbais com *u* tônico precedido de
+*g/q*, como em *arguir* (antes *argúi*). Hoje: *arguo*, *arguis*, *argui* — sem acento.
+São casos raros, mas aparecem em provas mais difíceis.
+
+## 📋 Quadro-resumo
+
+| Caso | Regra vigente | Exemplos |
+|---|---|---|
+| **Hiato *i/u* tônico** | acentua se sozinho na sílaba ou + *s* | *saída*, *baú*, *juízes* |
+| **Exceções do hiato** | não acentua após ditongo, antes de *nh*, com outra consoante | *feiura*, *rainha*, *juiz* |
+| **Ditongo aberto** | oxítona/monossílabo: **mantém**; paroxítona: **cai** | *herói* × *ideia* |
+| **Diferenciais mantidos** | *pôde/pode*, *pôr/por*, *têm/tem*, *vêm/vem* | plural com circunflexo |
+| **Facultativo** | *fôrma/forma* | usa-se se houver ambiguidade |
+
+Em uma linha: acentuam-se os **hiatos** de *i/u* tônicos (com exceções: após ditongo,
+antes de *nh*); os **ditongos abertos** só nas oxítonas (*herói*, não *ideia*); e
+permanecem os diferenciais **pôde, pôr, têm/vêm**.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Acentuar *ideia*, *heroico*, *jiboia*.** São paroxítonas: o Acordo **aboliu** o
+  acento. Só oxítonas/monossílabos mantêm (*herói*, *chapéu*).
+- **Acentuar *feiura* e *rainha*.** *Feiura* (i após ditongo) e *rainha* (i antes de
+  *nh*) são **exceções** da regra do hiato: não levam acento.
+- **Esquecer *têm/vêm* no plural.** "Eles **têm**", "eles **vêm**" levam circunflexo
+  (plural); "ele tem", "ele vem" não. O acento marca o número.
+- **Deixar *pôde* sem acento no passado.** "Ontem ele **pôde**" (circunflexo, passado)
+  × "hoje ele pode" (presente). Diferencial mantido.
+- **Acentuar *juiz* e *raiz*.** O *i* tônico aí é seguido de consoante que não *s*
+  (*-z*): **não** se acentua. Compare com *país* (i + s, acentuado).
+
+## ✍️ Exercícios
+
+**1.** Enuncie a regra do acento dos hiatos *i* e *u* tônicos e dê três exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Acentuam-se o *i* e o *u* **tônicos** quando formam **hiato** (constituem sílaba
+sozinhos ou seguidos apenas de *-s*). Exemplos: *saída* (sa-í-da), *baú* (ba-ú),
+*juízes* (ju-í-zes), *país* (pa-ís), *saúde* (sa-ú-de). O *i/u* é a segunda vogal do
+hiato, tônica, em sílaba própria.
+:::
+
+**2.** (Estilo ENEM) Assinale a alternativa em que **não** deve haver acento, segundo a
+norma vigente:
+
+a) herói;
+b) ideia;
+c) chapéu;
+d) anéis;
+e) troféu.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Ideia* é paroxítona com ditongo aberto *ei*: o Acordo **aboliu**
+o acento. As demais são oxítonas/monossílabos com ditongo aberto (*herói*, *chapéu*,
+*anéis*, *troféu*), que **mantêm** o acento.
+:::
+
+**3.** Explique por que *saída* leva acento, mas *rainha* não.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Saída* (sa-í-da) tem *i* tônico em hiato, sozinho na sílaba → acentua-se pela regra do
+hiato. *Rainha* (ra-i-nha) também tem *i* tônico em hiato, mas ele é **seguido de
+*nh***, e essa é uma das **exceções** da regra: *i/u* antes de *nh* não recebe acento
+(*moinho*, *campainha*, *rainha*).
+:::
+
+**4.** Complete com acento se necessário e justifique: (a) "Ontem ele ___ode vir";
+(b) "Hoje ele ___ode vir".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Ontem ele **pôde** vir" — pretérito perfeito, com **circunflexo** (acento
+diferencial mantido). (b) "Hoje ele **pode** vir" — presente do indicativo, **sem**
+acento. O circunflexo distingue o passado (*pôde*) do presente (*pode*).
+:::
+
+**5.** Acentue corretamente: (a) "Eles ___em muitos livros" (verbo *ter*); (b) "Ele
+___em à tarde" (verbo *vir*).
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Eles **têm** muitos livros" — 3ª pessoa do **plural** de *ter*, com **circunflexo**.
+(b) "Ele **vem** à tarde" — 3ª pessoa do **singular** de *vir*, **sem** acento. O
+circunflexo marca o plural (*têm*, *vêm*), distinguindo-o do singular (*tem*, *vem*).
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa **correta** quanto à acentuação:
+
+a) assembléia, platéia, idéia;
+b) assembleia, plateia, ideia;
+c) assembleia, platéia, idéia;
+d) assembléia, plateia, ideia;
+e) assembleia, plateia, idéia.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Assembleia*, *plateia* e *ideia* são paroxítonas com ditongo
+aberto *ei*: o Acordo aboliu o acento em todas. As demais alternativas mantêm
+indevidamente o acento antigo em ao menos uma palavra.
+:::
+
+**7.** Por que *feiura* e *bocaiuva* não levam acento, apesar de terem *i*/*u* tônico em
+hiato?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o *i*/*u* tônico, nessas palavras, vem **depois de um ditongo** (*fei-ura*,
+*bocai-uva*), e essa é uma das exceções da regra do hiato introduzidas/confirmadas
+pelo Acordo de 1990: *i/u* tônico após ditongo, em paroxítona, **não** se acentua.
+Antes do Acordo, *feiúra* e *bocaiúva* eram acentuadas; hoje, não.
+:::
+
+**8.** Distinga, quanto ao acento, *pôr* e *por*, com um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Pôr* (com circunflexo) é o **verbo**: "Vou **pôr** a mesa"; "É preciso **pôr** ordem".
+*Por* (sem acento) é a **preposição**: "Passei **por** aqui"; "Fiz isso **por** você".
+É um acento diferencial que o Acordo **manteve**, para não confundir o verbo com a
+preposição.
+:::
+
+**9.** Acentue se necessário: (a) *juiz*; (b) *pais* (nação); (c) *bau*; (d) *ruim*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *juiz* — **sem** acento (o *i* tônico em hiato é seguido de *-z*, consoante que não
+*s*: exceção). (b) *país* — **com** acento (i tônico em hiato + *s*: pa-ís). (c) *baú*
+— **com** acento (u tônico em hiato: ba-ú). (d) *ruim* — **sem** acento (o *i* tônico
+é seguido de *-m*: ru-im, exceção).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Após o Acordo de 1990, tanto as
+oxítonas quanto as paroxítonas com ditongo aberto *ói* perderam o acento gráfico."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Apenas as **paroxítonas** com ditongo aberto perderam o acento (*jiboia*,
+*paranoico*, *heroico*). As **oxítonas** e monossílabos com ditongo aberto **mantêm** o
+acento (*herói*, *dói*, *anzóis*). A perda foi seletiva, restrita às paroxítonas.
+:::
+
+## 📚 Referências
+
+Os casos especiais de acentuação e as alterações do Acordo de 1990 são detalhados por
+Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017], com a chancela do VOLP. Com
+este capítulo completa-se a acentuação; o @sec-cap-19 trata do emprego do hífen, também
+reformulado pelo Acordo.
+
+::: {#refs}
 :::
