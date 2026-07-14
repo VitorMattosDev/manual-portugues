@@ -4,22 +4,283 @@ title: "Artigo e numeral"
 
 # Artigo e numeral {#sec-cap-28}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "Um pequeno *o* diante do nome muda tudo: o mundo passa de vago a definido."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Reunimos neste capítulo duas classes que acompanham o substantivo, ajudando a
+determiná-lo: o **artigo** e o **numeral**. O artigo, embora seja uma palavrinha
+discreta (*o*, *a*, *um*, *uma*), tem enorme poder: ele **define** ou **indefine** o
+substantivo, e sua presença ou ausência muda o sentido de uma frase inteira. O
+numeral, por sua vez, precisa o substantivo pela **quantidade** ou pela **ordem** —
+*dois* livros, o *segundo* colocado, o *dobro* da quantia.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+São classes de aparência simples que escondem sutilezas cobradas em prova: o valor
+semântico do artigo definido versus indefinido, a combinação do artigo com
+preposições, o emprego do numeral (cardinal, ordinal, multiplicativo, fracionário) e
+casos de concordância. Vamos organizá-las.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** artigo definido de indefinido e reconhecer seu valor semântico;
+- **Identificar** as combinações do artigo com preposições;
+- **Empregar** o artigo em casos especiais (nomes próprios, possessivos, "todo"/"todo
+  o");
+- **Classificar** os numerais (cardinal, ordinal, multiplicativo, fracionário);
+- **Flexionar** e empregar corretamente os numerais;
+- **Reconhecer** o valor de determinação que artigo e numeral trazem ao substantivo.
+
+## O artigo: definido e indefinido
+
+**Artigo** é a palavra que **antepõe-se ao substantivo** para determiná-lo, indicando
+seu gênero e número e situando-o como conhecido ou não. Há dois tipos:
+
+- **Definido** (*o, a, os, as*): apresenta o substantivo como **conhecido, específico,
+  determinado** — "Comprei *o* livro" (aquele livro de que já falamos).
+- **Indefinido** (*um, uma, uns, umas*): apresenta o substantivo como **genérico, novo,
+  não determinado** — "Comprei *um* livro" (um livro qualquer, ainda não identificado).
+
+A @fig-artigo-valor ilustra a diferença de sentido.
+
+::: {#fig-artigo-valor}
+
+```{.tikz}
+%%| filename: artigo-valor
+%%| alt: Diagrama comparando duas frases. À esquerda, com artigo definido: "Encontrei o médico" — sugere um médico específico, já conhecido dos interlocutores. À direita, com artigo indefinido: "Encontrei um médico" — sugere um médico qualquer, novo na conversa. Setas apontam para a diferença de determinação.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, text width=50mm, minimum height=22mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{Artigo definido}\\[3pt] ``Encontrei \textbf{o} médico.''\\[3pt] {\scriptsize $\to$ médico \emph{específico}, já conhecido dos interlocutores}};
+  \node[cx, draw=manualred, fill=manualred!8, right=8mm of a] (b) {\textbf{Artigo indefinido}\\[3pt] ``Encontrei \textbf{um} médico.''\\[3pt] {\scriptsize $\to$ médico \emph{qualquer}, novo na conversa}};
+\end{tikzpicture}
+```
+
+O artigo **definido** aponta para um ser específico e conhecido; o **indefinido**
+introduz um ser genérico e novo — a escolha muda o sentido da frase.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O poder do artigo: presença × ausência
+A simples presença ou ausência do artigo altera o sentido: "Gosto de *música*"
+(música em geral) × "Gosto d*a* música" (uma música específica). "*Homem* é mortal"
+(genérico) × "*O homem* chegou" (específico). Em interpretação de texto, atenção a
+esses matizes: o artigo é pequeno, mas semanticamente decisivo.
+:::
+
+## Combinações e contrações do artigo
+
+O artigo combina-se com preposições, formando **contrações** (que caem em prova de
+crase e regência):
+
+- *de* + *o/a* → *do/da*; *de* + *um* → *dum* (raro).
+- *em* + *o/a* → *no/na*; *em* + *um* → *num*.
+- *a* + *o* → *ao*; *a* + *a* → *à* (crase!); *a* + *as* → *às*.
+- *por* + *o/a* → *pelo/pela*.
+
+## Casos especiais do artigo
+
+- **Antes de possessivo**: é **facultativo** — "*Meu* carro" / "*O meu* carro" (ambos
+  corretos).
+- **Antes de nomes próprios de pessoas**: uso variável, mais comum na fala afetiva —
+  "*A* Maria chegou" (registro coloquial); em registro formal, muitas vezes se omite.
+- **"todo" × "todo o"**: *todo* (sem artigo) = "qualquer, cada" ("*todo* homem é
+  mortal" = qualquer homem); *todo o* (com artigo) = "inteiro" ("li *todo o* livro" =
+  o livro inteiro). Distinção sutil e cobrada.
+- **Omissão obrigatória**: não se usa artigo antes de certos pronomes (*"a minha
+  casa"* é possível, mas *"a esta casa"* não — não se diz *"a esta"*).
+
+## O numeral
+
+**Numeral** é a palavra que exprime **quantidade, ordem, múltiplo ou fração** dos
+seres. Classifica-se em quatro tipos:
+
+- **Cardinal**: quantidade exata — *um*, *dois*, *cem*, *mil*.
+- **Ordinal**: posição numa série — *primeiro*, *segundo*, *décimo*, *centésimo*.
+- **Multiplicativo**: multiplicação — *dobro*, *triplo*, *quádruplo*.
+- **Fracionário**: divisão — *meio*, *terço*, *quarto*, *décimo*.
+
+### Emprego e flexão dos numerais
+
+- **Concordância**: cardinais são invariáveis, salvo *um/uma*, *dois/duas* e as
+  centenas a partir de *duzentos* (*duzentas* páginas, *trezentas* casas).
+- **Ordinais** variam em gênero e número: *primeiros*, *segundas*.
+- **Leitura de números em textos**: em referências a leis, artigos, séculos, reis,
+  papas — usa-se **ordinal** até 10º e **cardinal** de 11 em diante: *Pedro II* (Pedro
+  Segundo), *João XXIII* (João Vinte e Três), *artigo 5º* (quinto), *artigo 11* (onze,
+  cardinal).
+- **Ambiguidade *um***: como vimos no @sec-cap-26, *um* pode ser numeral ("comprei
+  *um*, não dois") ou artigo indefinido ("comprei *um* livro qualquer"). O sentido de
+  quantidade contável, em oposição, indica numeral.
+
+::: {.callout-important}
+## Ordinais e cardinais na numeração
+Regra prática para leis, capítulos, artigos, soberanos:
+
+- **até o décimo** (10º): lê-se **ordinal** — *capítulo primeiro*, *artigo nono*,
+  *Luís X* (Luís Décimo).
+- **do décimo primeiro em diante** (11+): lê-se **cardinal** — *artigo 11* (onze),
+  *Bento XVI* (Dezesseis), *século XXI* (Vinte e Um).
+
+Exceção: se o numeral vem **antes** do substantivo, usa-se ordinal também acima de 10:
+*o 20º andar* (vigésimo).
+:::
+
+## 📋 Quadro-resumo
+
+| Classe | Tipo | Exemplos |
+|---|---|---|
+| **Artigo** | Definido | *o, a, os, as* — ser específico |
+| **Artigo** | Indefinido | *um, uma, uns, umas* — ser genérico |
+| **Numeral** | Cardinal | *um, dois, cem, mil* |
+| **Numeral** | Ordinal | *primeiro, décimo, centésimo* |
+| **Numeral** | Multiplicativo | *dobro, triplo* |
+| **Numeral** | Fracionário | *meio, terço, quarto* |
+
+Em uma linha: o **artigo** determina o substantivo como definido (específico) ou
+indefinido (genérico) — e sua presença muda o sentido; o **numeral** o precisa por
+quantidade (cardinal), ordem (ordinal), múltiplo ou fração.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir *todo* com *todo o*.** *Todo* homem = qualquer/cada homem; *todo o* dia =
+  o dia inteiro. A presença do artigo muda o sentido.
+- **Errar ordinal × cardinal na numeração.** Até 10º, ordinal (*artigo nono*); de 11 em
+  diante, cardinal (*artigo onze*, *João XXIII* = Vinte e Três).
+- **Deixar de flexionar centenas.** *Duzentas* páginas, *trezentas* casas — as centenas
+  a partir de *duzentos* concordam em gênero.
+- **Ignorar o valor do artigo.** "Gosto de música" (geral) × "Gosto da música"
+  (específica): a presença do artigo altera o sentido — importa na interpretação.
+- **Tratar *um* sempre como artigo.** *Um* é numeral quando indica quantidade em
+  oposição ("comprei *um*, não dois"); artigo quando apenas indefine ("*um* livro
+  qualquer").
+
+## ✍️ Exercícios
+
+**1.** Diferencie artigo **definido** de **indefinido** quanto ao valor semântico, com
+exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O artigo **definido** (*o, a, os, as*) apresenta o substantivo como **específico,
+conhecido, determinado**: "Encontrei *o* médico" (aquele já mencionado/conhecido). O
+**indefinido** (*um, uma, uns, umas*) apresenta-o como **genérico, novo, não
+determinado**: "Encontrei *um* médico" (um médico qualquer, ainda não identificado). O
+definido aponta; o indefinido introduz.
+:::
+
+**2.** (Estilo ENEM) Compare: "*Todo* brasileiro conhece a data" e "Estudei *todo o*
+livro". A diferença de sentido é:
+
+a) inexistente; são equivalentes;
+b) *todo* = "qualquer/cada"; *todo o* = "inteiro";
+c) *todo* = "inteiro"; *todo o* = "cada";
+d) ambos significam "metade";
+e) a diferença é apenas de registro.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Todo brasileiro* (sem artigo) = "**cada**/qualquer brasileiro"
+(sentido distributivo); *todo o livro* (com artigo) = "o livro **inteiro**" (sentido de
+totalidade). A presença do artigo definido muda o sentido de "cada" para "inteiro".
+:::
+
+**3.** Classifique o numeral: (a) *terço*; (b) *quádruplo*; (c) *vigésimo*; (d) *mil*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *terço* → fracionário (divisão). (b) *quádruplo* → multiplicativo. (c) *vigésimo* →
+ordinal (posição). (d) *mil* → cardinal (quantidade).
+:::
+
+**4.** Leia corretamente (ordinal ou cardinal): (a) *artigo 5º*; (b) *artigo 12*; (c)
+*Papa João XXIII*; (d) *Dom Pedro II*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *artigo quinto* (ordinal, até 10º). (b) *artigo doze* (cardinal, de 11 em diante).
+(c) *João Vinte e Três* (cardinal, acima de 10). (d) *Pedro Segundo* (ordinal, até
+10º). A regra: ordinal até o décimo, cardinal do décimo primeiro em diante.
+:::
+
+**5.** Faça as contrações: (a) *de* + *o*; (b) *em* + *uma*; (c) *a* + *as*; (d) *por* +
+*a*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *de* + *o* → *do*. (b) *em* + *uma* → *numa*. (c) *a* + *as* → *às* (com crase, pois
+*a* preposição + *as* artigo). (d) *por* + *a* → *pela*. São contrações de preposição
+com artigo.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa com flexão **correta** do numeral:
+
+a) duzentos páginas;
+b) duzentas páginas;
+c) trezentos casas;
+d) duzentas livros;
+e) trezentas carros.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Duzentas páginas*: as centenas a partir de *duzentos* concordam em
+gênero com o substantivo, e *página* é feminino → *duzentas*. As demais erram a
+concordância de gênero (*duzentas livros*, *trezentas carros* misturam feminino com
+substantivo masculino; *duzentos páginas* não concorda).
+:::
+
+**7.** Explique como a **presença ou ausência** do artigo altera o sentido em "Gosto de
+música" × "Gosto da música".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Sem artigo — "Gosto de música" —, o sentido é **genérico**: aprecio música em geral,
+como arte. Com o artigo definido (na contração *da* = de + a) — "Gosto d*a* música" —,
+o sentido é **específico**: refiro-me a uma música determinada, já conhecida no
+contexto (aquela que está tocando, por exemplo). O artigo definido individualiza o
+substantivo.
+:::
+
+**8.** Em "Comprei *um* carro" e "Comprei *um*, não dois", classifique *um* em cada
+frase.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Na primeira ("Comprei *um* carro"), *um* é **artigo indefinido**: apenas introduz o
+substantivo *carro* de modo genérico. Na segunda ("Comprei *um*, não dois"), *um* é
+**numeral cardinal**: indica quantidade exata, em oposição explícita a "dois". O sentido
+de quantidade contável, contrastiva, revela o numeral.
+:::
+
+**9.** O uso do artigo antes de pronome possessivo é obrigatório? Exemplifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não** é obrigatório — é **facultativo**. Pode-se dizer "*Meu* carro é novo" ou "*O
+meu* carro é novo": ambas as formas são corretas na norma-padrão. A escolha é
+estilística; a presença do artigo pode dar leve ênfase ou soar mais coloquial em certos
+contextos, mas nenhuma das duas é erro.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na expressão *século XXI*, o numeral
+deve ser lido como ordinal: século vigésimo primeiro."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Como o numeral (21) vem **depois** do substantivo e é **maior que 10**,
+lê-se como **cardinal**: *século Vinte e Um*. A leitura ordinal (*vigésimo primeiro*)
+só se aplicaria a numerais até o décimo, ou quando o numeral vem **antes** do
+substantivo. Portanto, "século Vinte e Um", não "vigésimo primeiro".
+:::
+
+## 📚 Referências
+
+O tratamento do artigo e do numeral segue a NGB, detalhada por Bechara [@bechara2009] e
+Cunha & Cintra [@cunhacintra2017]. Sobre o valor semântico do artigo (definitude,
+genericidade) na construção do sentido, ver Castilho [@castilho2010] e, na perspectiva
+textual, Koch & Elias [@koch2015texto]. O adjetivo, que também acompanha o substantivo,
+é o tema do @sec-cap-29.
+
+::: {#refs}
 :::
