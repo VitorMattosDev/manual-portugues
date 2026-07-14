@@ -4,22 +4,317 @@ title: "Substantivo"
 
 # Substantivo {#sec-cap-27}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "O substantivo é o nome que damos ao mundo: sem ele, não haveria do que falar."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O **substantivo** é, provavelmente, a classe mais intuitiva — é a palavra que **nomeia**
+os seres, as coisas, os lugares, as ideias, os sentimentos. *Cadeira*, *Maria*,
+*cidade*, *amor*, *saudade*, *revolução*: tudo o que existe (ou que imaginamos que
+exista) tem um substantivo para designá-lo. É por isso que ele é o **núcleo** em torno
+do qual se organiza boa parte da frase: o sujeito, os objetos, os complementos têm
+tipicamente um substantivo no centro.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Neste capítulo estudamos a classificação dos substantivos (comum/próprio, concreto/
+abstrato, coletivo...) e, sobretudo, suas **flexões** — de gênero, número e grau —, que
+concentram as dúvidas de prova: plurais irregulares, o gênero de palavras como *a
+grama* × *o grama*, o grau aumentativo e diminutivo. Dominar o substantivo é dominar a
+peça central da morfologia nominal.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Classificar** os substantivos (comum/próprio, concreto/abstrato, simples/composto,
+  primitivo/derivado, coletivo);
+- **Flexionar** o substantivo em gênero, reconhecendo os casos especiais;
+- **Formar** o plural de substantivos simples e compostos;
+- **Empregar** os graus aumentativo e diminutivo, inclusive o valor afetivo;
+- **Resolver** dúvidas de gênero (palavras que mudam de sentido conforme o gênero);
+- **Reconhecer** o substantivo como núcleo do sujeito e dos complementos.
+
+## Classificação dos substantivos
+
+Os substantivos classificam-se por vários critérios simultâneos, resumidos na
+@fig-classificacao-substantivo.
+
+::: {#fig-classificacao-substantivo}
+
+```{.tikz}
+%%| filename: classificacao-substantivo
+%%| alt: Diagrama com cinco pares de classificação do substantivo, cada um numa linha com os dois polos e um exemplo. Comum versus próprio: cidade versus Recife. Concreto versus abstrato: mesa versus alegria. Simples versus composto: couve versus couve-flor. Primitivo versus derivado: pedra versus pedreira. Individual versus coletivo: boi versus rebanho.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  a/.style={rounded corners=2pt, draw=manualblue, fill=manualblue!8, minimum width=30mm, minimum height=8mm, align=center},
+  b/.style={rounded corners=2pt, draw=manualred, fill=manualred!8, minimum width=30mm, minimum height=8mm, align=center},
+  ex/.style={font=\scriptsize, text=manualgray, align=left},
+]
+  \foreach \i/\x/\y in {0/{comum}/{próprio}, 1/{concreto}/{abstrato}, 2/{simples}/{composto}, 3/{primitivo}/{derivado}, 4/{individual}/{coletivo}} {
+    \node[a] (l\i) at (0,-\i*1.05) {\x};
+    \node[b] (r\i) at (3.4,-\i*1.05) {\y};
+    \node[font=\scriptsize] at (1.7,-\i*1.05) {$\times$};
+  }
+  \node[ex] at (6.4,0) {cidade / Recife};
+  \node[ex] at (6.4,-1.05) {mesa / alegria};
+  \node[ex] at (6.4,-2.1) {couve / couve-flor};
+  \node[ex] at (6.4,-3.15) {pedra / pedreira};
+  \node[ex] at (6.4,-4.2) {boi / rebanho};
+\end{tikzpicture}
+```
+
+Os principais eixos de classificação do substantivo: comum/próprio, concreto/abstrato,
+simples/composto, primitivo/derivado e individual/coletivo.
+:::
+
+- **Comum** (nomeia genericamente: *rio*, *cidade*) × **próprio** (nomeia um ser
+  específico, com maiúscula: *Amazonas*, *Recife*).
+- **Concreto** (designa ser de existência própria, real ou imaginária: *mesa*, *fada*,
+  *Deus*) × **abstrato** (designa qualidade, estado, ação ou sentimento, que dependem
+  de outro ser: *beleza*, *saúde*, *corrida*, *amor*).
+- **Simples** (um radical: *couve*, *tempo*) × **composto** (mais de um: *couve-flor*,
+  *passatempo*).
+- **Primitivo** (não deriva de outro: *pedra*, *ferro*) × **derivado** (deriva:
+  *pedreira*, *ferreiro*).
+- **Coletivo**: substantivo comum que, no singular, designa um **conjunto** de seres da
+  mesma espécie: *rebanho* (de gado), *cardume* (de peixes), *alcateia* (de lobos),
+  *matilha* (de cães), *biblioteca* (de livros).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Concreto × abstrato: um critério que engana
+O critério "concreto = o que se toca" falha: *fada*, *saci*, *Deus* são **concretos**
+(seres com existência própria, ainda que imaginária), enquanto *saúde* e *rapidez* são
+abstratos, embora "reais". A chave: **abstrato** é o que **depende** de outro ser para
+existir (qualidades, estados, ações, sentimentos); **concreto** é o que existe por si,
+mesmo que só na imaginação.
+:::
+
+## Flexão de gênero
+
+O português tem dois gêneros: **masculino** e **feminino**. Os substantivos podem ser:
+
+- **Biformes**: têm duas formas, uma para cada gênero — *menino/menina*, *gato/gata*,
+  *ator/atriz*, *cavalo/égua* (heterônimos, com radicais diferentes).
+- **Uniformes**: têm uma só forma para os dois gêneros. Subdividem-se em:
+  - **epicenos** (animais): um só gênero gramatical para macho e fêmea — *a cobra*
+    (macho ou fêmea), *o jacaré*, *a onça*;
+  - **comuns de dois gêneros**: o artigo distingue — *o/a estudante*, *o/a artista*,
+    *o/a colega*;
+  - **sobrecomuns**: um só gênero para ambos os sexos — *a criança* (menino ou menina),
+    *a vítima*, *o cônjuge*, *a testemunha*.
+
+::: {.callout-important}
+## Substantivos que mudam de sentido com o gênero
+Alguns substantivos mudam de **significado** conforme o gênero — pegadinha clássica:
+
+- *o cabeça* (líder) × *a cabeça* (parte do corpo)
+- *o capital* (dinheiro) × *a capital* (cidade)
+- *o grama* (unidade de peso) × *a grama* (relva)
+- *o rádio* (aparelho) × *a rádio* (emissora)
+- *o moral* (ânimo) × *a moral* (ética; conclusão)
+
+E cuidado com o gênero "correto" de certas palavras: são **masculinos** *o dó*, *o
+eclipse*, *o champanhe*, *o clã*; são **femininos** *a alface*, *a cal*, *a omoplata*,
+*a dinamite*, *a comichão*.
+:::
+
+## Flexão de número: o plural
+
+O plural regular faz-se com **-s** (*casa/casas*). Os casos que caem em prova são os
+**irregulares**:
+
+- Palavras em **-ão** → *-ões* (a maioria: *balão/balões*), *-ães* (*pão/pães*,
+  *cão/cães*, *alemão/alemães*) ou *-ãos* (*mão/mãos*, *irmão/irmãos*, *cidadão/
+  cidadãos*).
+- Palavras em **-l**: *-al/-el/-ol/-ul* → troca *l* por *is* (*animal/animais*,
+  *papel/papéis*, *anzol/anzóis*, *paul/pauis*); *-il* tônico → *-is* (*funil/funis*),
+  *-il* átono → *-eis* (*fóssil/fósseis*, *réptil/répteis*).
+- Palavras em **-m** → *-ns* (*homem/homens*, *jardim/jardins*).
+- Palavras em **-r, -z, -n** → *-es* (*mar/mares*, *luz/luzes*, *hífen/hifens*).
+- Palavras em **-s**: oxítonas → *-es* (*país/países*); paroxítonas → invariáveis
+  (*o/os lápis*, *o/os ônibus*).
+
+### Plural dos compostos
+
+Depende da classe dos elementos e do hífen:
+
+- Substantivo + substantivo/adjetivo: **ambos** variam — *couves-flores*,
+  *palavras-chave* (ou *palavras-chaves*), *guardas-noturnos*.
+- Verbo/palavra invariável + substantivo: só o **segundo** varia — *guarda-chuvas*,
+  *beija-flores*, *vaivéns*.
+- Palavras ligadas por preposição: só o **primeiro** varia — *pés-de-moleque*,
+  *mulas-sem-cabeça*.
+- Elementos repetidos ou onomatopaicos: só o **segundo** — *reco-recos*, *tico-ticos*.
+
+## Flexão de grau
+
+O grau exprime tamanho ou intensidade, com dois eixos:
+
+- **Aumentativo**: sintético (sufixos *-ão*, *-aço*, *-arra*: *casarão*, *ricaço*,
+  *bocarra*) ou analítico (*casa grande*).
+- **Diminutivo**: sintético (sufixos *-inho*, *-zinho*, *-ito*: *casinha*, *florzinha*)
+  ou analítico (*casa pequena*).
+
+Além do sentido de tamanho, o grau carrega frequentemente **valor afetivo** ou
+**pejorativo**: *filhinho* (carinho), *povinho* (desprezo), *livrão* (admiração ou
+tamanho). Esse valor conotativo é muito explorado em textos e em provas de
+interpretação.
+
+## 📋 Quadro-resumo
+
+| Aspecto | Conteúdo |
+|---|---|
+| **Classificação** | comum/próprio; concreto/abstrato; simples/composto; primitivo/derivado; coletivo |
+| **Gênero** | biforme (*gato/gata*); uniforme: epiceno, comum de 2 gêneros, sobrecomum |
+| **Muda de sentido** | *o/a capital*, *o/a grama*, *o/a rádio* |
+| **Plural em -ão** | *-ões* (balões), *-ães* (pães), *-ãos* (mãos) |
+| **Plural compostos** | depende da classe dos elementos e do hífen |
+| **Grau** | aumentativo/diminutivo, sintético/analítico; valor afetivo |
+
+Em uma linha: o **substantivo** nomeia; classifica-se por vários eixos (comum/próprio,
+concreto/abstrato, coletivo...); flexiona-se em **gênero** (com casos que mudam de
+sentido), **número** (plurais irregulares em *-ão*, *-l*, *-m*) e **grau** (com valor
+afetivo).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Trocar o gênero de palavras "traiçoeiras".** É *a* alface, *a* cal, *a* omoplata; é
+  *o* dó, *o* eclipse, *o* champanhe. E há as que mudam de sentido: *o/a capital*,
+  *o/a grama*.
+- **Errar o plural em -ão.** Não há regra única: *balões*, mas *pães* e *mãos*. Muitos
+  se memorizam.
+- **Errar o plural dos compostos.** *Guarda-chuvas* (verbo + subst.: só o 2º); mas
+  *guardas-noturnos* (subst. + adj.: os dois). Depende da classe dos elementos.
+- **Achar que concreto é "o que se toca".** *Fada* e *Deus* são concretos; *saúde* e
+  *beleza*, abstratos. O critério é a **dependência** de outro ser, não a
+  tangibilidade.
+- **Ignorar o valor afetivo do grau.** O diminutivo pode indicar carinho (*filhinho*)
+  ou desprezo (*povinho*), não só tamanho — importa na interpretação.
+
+## ✍️ Exercícios
+
+**1.** Classifique o substantivo *rebanho* quanto a todos os critérios possíveis.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Rebanho* é: **comum** (nomeia genericamente), **concreto** (designa um conjunto de
+seres de existência própria), **simples** (um radical), **primitivo** (não deriva de
+outro) e, sobretudo, **coletivo** (designa, no singular, um conjunto de animais —
+tipicamente de gado ou ovelhas).
+:::
+
+**2.** (Estilo ENEM) Assinale a alternativa em que o substantivo está com o gênero
+**correto**:
+
+a) a alface, o dó, a omoplata;
+b) o alface, a dó, o omoplata;
+c) a alface, a dó, o omoplata;
+d) o alface, o dó, a omoplata;
+e) a alface, o dó, o omoplata.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (a).** O correto é *a* alface (feminino), *o* dó (masculino) e *a*
+omoplata (feminino). São palavras cujo gênero costuma ser confundido; a alternativa (a)
+acerta os três.
+:::
+
+**3.** Forme o plural: (a) *cidadão*; (b) *fóssil*; (c) *anzol*; (d) *país*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *cidadãos* (plural em *-ãos*). (b) *fósseis* (paroxítona em *-il* átono → *-eis*).
+(c) *anzóis* (*-ol* → *-óis*). (d) *países* (oxítona em *-s* → *-es*).
+:::
+
+**4.** Distinga substantivo **epiceno**, **comum de dois gêneros** e **sobrecomum**, com
+um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Epiceno**: um só gênero gramatical, para animais, macho e fêmea — *a cobra*, *o
+jacaré* (para distinguir o sexo, diz-se "cobra macho/fêmea"). **Comum de dois
+gêneros**: uma só forma, mas o artigo distingue o gênero — *o/a estudante*, *o/a
+colega*. **Sobrecomum**: um só gênero gramatical para pessoas de ambos os sexos — *a
+criança*, *a vítima*, *o cônjuge* (o gênero não varia, independentemente do sexo).
+:::
+
+**5.** Forme o plural dos compostos: (a) *guarda-chuva*; (b) *couve-flor*; (c)
+*pé-de-moleque*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *guarda-chuvas* (verbo *guarda* + substantivo: só o segundo varia). (b)
+*couves-flores* (substantivo + substantivo: ambos variam). (c) *pés-de-moleque*
+(ligados por preposição: só o primeiro varia).
+:::
+
+**6.** (Estilo FCC) Em "*O capital* investido garantiu o crescimento", a palavra
+*capital*:
+
+a) está com gênero errado; deveria ser feminino;
+b) é masculino e significa "dinheiro/recurso financeiro";
+c) refere-se a uma cidade;
+d) é adjetivo;
+e) é coletivo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *O capital* (masculino) significa "recurso financeiro, dinheiro
+investido"; *a capital* (feminino) seria a cidade sede de um estado/país. Aqui o
+contexto ("investido", "crescimento") confirma o sentido financeiro, masculino. É um
+substantivo que muda de sentido conforme o gênero.
+:::
+
+**7.** Explique o **valor afetivo** do grau diminutivo, com dois exemplos de sentidos
+diferentes.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O diminutivo nem sempre indica tamanho reduzido; muitas vezes carrega **valor
+conotativo/afetivo**. Pode expressar **carinho/afeto** ("meu *filhinho*", "um
+*cafezinho*") ou, ao contrário, **desprezo/ironia** ("aquele *povinho*", "um
+*jornalzinho* qualquer"). O contexto e a entonação definem o valor. Por isso o grau é
+importante na interpretação de textos: revela a atitude do falante.
+:::
+
+**8.** Classifique como concreto ou abstrato: (a) *saci*; (b) *justiça*; (c) *cadeira*;
+(d) *cansaço*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *saci* → **concreto** (ser de existência própria, ainda que imaginário). (b)
+*justiça* → **abstrato** (qualidade/valor que depende de seres). (c) *cadeira* →
+**concreto**. (d) *cansaço* → **abstrato** (estado que depende de um ser). O critério é
+a existência própria (concreto) × dependência de outro ser (abstrato).
+:::
+
+**9.** Dê o plural e comente a regularidade: (a) *lápis*; (b) *hífen*; (c) *jardim*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *lápis* → *os lápis* (paroxítona terminada em *-s*: **invariável**). (b) *hífen* →
+*hifens* (terminada em *-n*: acrescenta *-es*, e note que o singular tem acento, mas o
+plural *hifens* não). (c) *jardim* → *jardins* (terminada em *-m*: troca *m* por *ns*).
+Cada terminação tem sua regra de plural.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "O substantivo *criança* é sobrecomum,
+pois tem uma só forma e um só gênero gramatical, que serve para meninos e meninas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** *Criança* é **sobrecomum**: tem forma única e gênero gramatical fixo
+(feminino: *a criança*), que designa indistintamente pessoas dos dois sexos. Diz-se
+"*a criança* é um menino" ou "*a criança* é uma menina" — o gênero da palavra não
+varia. Outros sobrecomuns: *a vítima*, *a testemunha*, *o cônjuge*.
+:::
+
+## 📚 Referências
+
+A classificação e as flexões do substantivo seguem a NGB, com o detalhamento normativo
+de Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]; para casos de gênero e
+plural, o VOLP e o dicionário Houaiss [@houaiss2009] são a referência. Uma análise do
+funcionamento do substantivo no português brasileiro está em Castilho [@castilho2010] e
+Perini [@perini2010].
+
+::: {#refs}
 :::
