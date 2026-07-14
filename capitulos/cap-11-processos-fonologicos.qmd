@@ -4,22 +4,301 @@ title: "Processos fonológicos do português brasileiro"
 
 # Processos fonológicos do português brasileiro {#sec-cap-11}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 2 — Fonética e Fonologia.
+> "O que hoje chamamos de 'erro de pronúncia' foi, muitas vezes, a regra de amanhã —
+> e a exceção de ontem."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Por que dizemos *"muié"* por *mulher*, *"cadeira"* por *cathedra*, *"vô"* por *vou*?
+Por que o *l* final vira *u* (*Brasil* soa *"Brasiu"*), o *r* final some (*"amá"* por
+*amar*), a vogal átona se fecha (*"minino"* por *menino*)? Essas não são falhas
+individuais nem "preguiça": são **processos fonológicos** — transformações regulares e
+sistemáticas dos sons, que ocorrem em todas as línguas e explicam boa parte da
+história do português e da variação atual.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Estudar esses processos tem dois ganhos. Primeiro, conceitual: mostra que a fala tem
+**lógica**, que o que parece "corrupção" segue padrões descritíveis. Segundo,
+prático: muitos "erros" de ortografia (Volume 3) e fenômenos de variação (Volume 14)
+só se entendem à luz desses processos. Este capítulo dá nome a eles e os organiza.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** processo fonológico e reconhecer sua regularidade;
+- **Identificar** os principais processos por acréscimo, perda, transformação e
+  transposição de fonemas;
+- **Relacionar** processos históricos (do latim ao português) e sincrônicos (variação
+  atual);
+- **Explicar** fenômenos como palatalização, ditongação, monotongação, rotacismo,
+  vocalização e nasalização;
+- **Distinguir** processo fonológico de simples "erro" individual;
+- **Aplicar** os conceitos à análise de formas populares e cultas.
+
+## O que é um processo fonológico
+
+**Processo fonológico** é toda alteração sistemática que um fonema sofre em
+determinado contexto. "Sistemática" é a palavra-chave: o processo não afeta uma
+palavra isolada por acaso, mas todas as que estão nas mesmas condições. Se o *l* final
+vira semivogal em *Brasil*, vira também em *sal*, *anel*, *sol* — é uma regra, não um
+capricho.
+
+Esses processos operam em dois planos:
+
+- **Diacrônico** (histórico): explica como o latim virou português (*plenus* → *cheio*,
+  *auru* → *ouro*). São mudanças já consolidadas.
+- **Sincrônico** (atual): explica a variação de hoje (*"muié"*, *"pобre"* → *"pobre"*
+  com vocalização, *"framengo"* por *flamengo*). São variantes vivas.
+
+Muitos processos que hoje geram variação estigmatizada são os **mesmos** que, no
+passado, produziram formas hoje consagradas. O rotacismo que transforma *"planta"* em
+*"pranta"* (estigmatizado) é o mesmo que, séculos atrás, transformou o latim *plaga*
+em *praga* (consagrado). A diferença é social, não linguística.
+
+## Processos por acréscimo de fonema
+
+Adicionam um som à palavra:
+
+- **Prótese**: acréscimo no **início** — *"alembrar"* por *lembrar*, *"avoar"* por
+  *voar* (formas populares/arcaicas).
+- **Epêntese**: acréscimo no **meio** — *"adevogado"* por *advogado*, *"pineu"* por
+  *pneu*, *"rítimo"* por *ritmo*. Muito comum para desfazer encontros consonantais
+  difíceis.
+- **Paragoge** (ou epítese): acréscimo no **fim** — *"clube"* de *club*, *"fósforo"*,
+  *"martire"* por *mártir* (formas populares).
+
+## Processos por perda de fonema
+
+Retiram um som:
+
+- **Aférese**: perda no **início** — *"tá"* por *está*, *"cê"* por *você*, *"inda"*
+  por *ainda*.
+- **Síncope**: perda no **meio** — *"espritо"* por *espírito*; historicamente,
+  *populu* → *povo* (queda do *l*).
+- **Apócope**: perda no **fim** — *"amá"* por *amar*, *"cantá"* por *cantar* (queda do
+  *r* final do infinitivo, generalizada na fala brasileira).
+
+## Processos por transformação de fonema
+
+Mudam a qualidade de um som. São os mais importantes para prova e variação, resumidos
+na @fig-processos-transformacao:
+
+::: {#fig-processos-transformacao}
+
+```{.tikz}
+%%| filename: processos-transformacao
+%%| alt: Diagrama com cinco processos de transformação fonológica, cada um numa caixa com o nome, uma seta indicando a mudança de som e um exemplo. Palatalização: t vira tch (tia). Vocalização: l final vira u (Brasil). Rotacismo: l vira r (planta para pranta). Monotongação: ditongo vira vogal (caixa para caxa). Ditongação: vogal vira ditongo (nós para nóis).
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=2pt, draw=manualblue, thick, fill=manualblue!8, align=center, text width=40mm, minimum height=13mm, inner sep=3pt},
+]
+  \node[cx] (a) at (0,0) {\textbf{Palatalização}\\ /t,d/ $\to$ [t͡ʃ, d͡ʒ]\\{\scriptsize \emph{tia} $\to$ ``tchia''}};
+  \node[cx, right=6mm of a] (b) {\textbf{Vocalização}\\ /l/ final $\to$ [w]\\{\scriptsize \emph{Brasil} $\to$ ``Brasiu''}};
+  \node[cx, right=6mm of b] (c) {\textbf{Rotacismo}\\ /l/ $\to$ /r/\\{\scriptsize \emph{planta} $\to$ ``pranta''}};
+  \node[cx, draw=manualred, fill=manualred!8, below=6mm of a] (d) {\textbf{Monotongação}\\ ditongo $\to$ vogal\\{\scriptsize \emph{caixa} $\to$ ``caxa''}};
+  \node[cx, draw=manualred, fill=manualred!8, below=6mm of b] (e) {\textbf{Ditongação}\\ vogal $\to$ ditongo\\{\scriptsize \emph{nós} $\to$ ``nóis''}};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, below=6mm of c] (f) {\textbf{Assimilação}\\ som se iguala ao vizinho\\{\scriptsize \emph{advogado} $\to$ ``adivogado''}};
+\end{tikzpicture}
+```
+
+Principais processos de transformação de fonema no português brasileiro, com o tipo
+de mudança e um exemplo de cada.
+:::
+
+- **Palatalização**: uma consoante torna-se palatal. No PB, /t/ e /d/ diante de /i/
+  viram [t͡ʃ] e [d͡ʒ] (*tia* soa *"tchia"*, *dia* soa *"djia"*) — traço da maioria dos
+  falares brasileiros.
+- **Vocalização**: uma consoante vira semivogal. O caso clássico é o /l/ em final de
+  sílaba, que vira [w]: *Brasil*, *sal*, *mel* soam com *u* final.
+- **Rotacismo**: troca de /l/ por /r/ — *"pranta"* por *planta*, *"chicrete"*,
+  *"craro"*. Estigmatizado hoje, mas responsável por formas consagradas (*praga*,
+  *branco*, *fresta*).
+- **Monotongação**: um ditongo reduz-se a uma vogal — *"caxa"* por *caixa*, *"queju"*
+  por *queijo*, *"otro"* por *outro*, *"pexe"* por *peixe*. Amplamente presente na
+  fala culta.
+- **Ditongação**: uma vogal ganha uma semivogal, formando ditongo — *"nóis"* por
+  *nós*, *"treis"* por *três*, *"mais"* por *mas* (na fala).
+- **Assimilação**: um som se torna semelhante a um vizinho — historicamente, *ipse* →
+  *esse*; *ad* + *similare* → *assimilar*.
+- **Nasalização**: uma vogal ganha traço nasal por influência de consoante nasal
+  vizinha.
+
+## Processos por transposição
+
+Mudam a posição dos fonemas:
+
+- **Metátese**: troca de posição de sons na palavra — *"estрopо"* → *estupro*?; casos
+  clássicos: *"probrema"* por *problema*, *"largato"* por *lagarto*, *"peguntar"* por
+  *perguntar*. Historicamente, o latim *semper* → *sempre*, *inter* → *entre*.
+- **Hipértese** (metátese à distância): o som salta para outra sílaba.
+
+## Processo não é "erro"
+
+Vale reforçar a lição conceitual. As formas populares aqui listadas (*"pranta"*,
+*"muié"*, *"adivogado"*) são **estigmatizadas** socialmente, e a norma-padrão pede as
+formas de prestígio — que este manual ensina. Mas do ponto de vista **linguístico**,
+elas resultam dos **mesmos** processos que produziram o português culto de hoje. Quem
+diz *"pranta"* aplica a mesma operação (rotacismo) que transformou o latim *plaga* em
+*praga*. Reconhecer isso não é "aceitar tudo": é entender que a fala tem lógica, e que
+o julgamento de "erro" é social, não uma verdade da natureza da língua [@bagno2007].
+
+## 📋 Quadro-resumo
+
+| Tipo | Processo | Posição/efeito | Exemplo |
+|---|---|---|---|
+| Acréscimo | Prótese / Epêntese / Paragoge | início / meio / fim | *alembrar* / *adivogado* / *clube* |
+| Perda | Aférese / Síncope / Apócope | início / meio / fim | *tá* / *espritо* / *amá* |
+| Transformação | Palatalização | /t,d/+i → tch, dj | *tia* → "tchia" |
+| Transformação | Vocalização | /l/ final → [w] | *Brasil* → "Brasiu" |
+| Transformação | Rotacismo | /l/ → /r/ | *planta* → "pranta" |
+| Transformação | Monotongação / Ditongação | ↓ ou ↑ ditongo | *caixa* → "caxa" / *nós* → "nóis" |
+| Transposição | Metátese | troca de posição | *problema* → "probrema" |
+
+Em uma linha: os **processos fonológicos** são alterações **regulares** dos sons — por
+acréscimo, perda, transformação ou transposição — que explicam tanto a história do
+português quanto a variação de hoje, e provam que a fala tem lógica.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir os processos de acréscimo entre si.** Prótese = início; epêntese = meio;
+  paragoge = fim. Vale a mesma lógica de posição para perda (aférese/síncope/apócope).
+- **Chamar todo processo de "erro".** Os processos são sistemáticos e ocorrem também na
+  fala culta (monotongação de *caixa* → "caxa", palatalização de *tia*). O que varia é
+  o prestígio social, não a existência do processo.
+- **Trocar vocalização por rotacismo.** Vocalização = /l/ vira semivogal [w]
+  (*Brasil*); rotacismo = /l/ vira /r/ (*pranta*). São transformações diferentes.
+- **Achar que monotongação é "fala errada".** *"Caxa"*, *"pexe"*, *"otro"* ocorrem
+  correntemente na fala de brasileiros escolarizados — é monotongação, processo amplo,
+  não descuido.
+- **Ignorar os processos históricos.** Muitas palavras cultas de hoje nasceram de
+  processos (síncope em *povo*, metátese em *sempre*) idênticos aos que hoje soam
+  populares.
+
+## ✍️ Exercícios
+
+**1.** Defina **processo fonológico** e explique por que ele é "sistemático".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Processo fonológico é toda alteração regular que um fonema sofre em determinado
+contexto. É "sistemático" porque não afeta uma palavra isolada por acaso, mas todas as
+que se encontram nas mesmas condições: se o /l/ final vira [w] em *Brasil*, vira
+também em *sal*, *anel*, *sol*. Trata-se de uma regra descritível, não de um capricho.
+:::
+
+**2.** (Estilo ENEM) A pronúncia *"Brasiu"* por *Brasil*, *"sáu"* por *sal* e *"méu"*
+por *mel* ilustra o processo de:
+
+a) rotacismo;
+b) vocalização do /l/;
+c) monotongação;
+d) palatalização;
+e) metátese.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O /l/ em final de sílaba transforma-se na semivogal [w] — processo
+de **vocalização**, generalizado no português brasileiro. Não é rotacismo (que troca
+/l/ por /r/), nem monotongação (redução de ditongo), nem palatalização.
+:::
+
+**3.** Nomeie o processo (posição do acréscimo ou perda): (a) *"tá"* por *está*; (b)
+*"adivogado"* por *advogado*; (c) *"amá"* por *amar*; (d) *"alembrar"* por *lembrar*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) aférese (perda no início). (b) epêntese (acréscimo no meio). (c) apócope (perda no
+fim — do *r*). (d) prótese (acréscimo no início).
+:::
+
+**4.** Explique o **rotacismo** e mostre como um mesmo processo pode gerar uma forma
+estigmatizada e uma consagrada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Rotacismo é a troca de /l/ por /r/. Hoje, em *"pranta"* (por *planta*) ou *"craro"*
+(por *claro*), é estigmatizado. Mas foi o **mesmo** processo que, na história da
+língua, transformou o latim *plaga* em *praga*, *blancus* em *branco*, *flaccus* → em
+formas com *r* — hoje plenamente consagradas. A diferença entre "erro" e "norma" é,
+portanto, social e histórica, não linguística.
+:::
+
+**5.** Classifique: *"caxa"* por *caixa* e *"nóis"* por *nós* ilustram, respectivamente,
+que processos?
+
+::: {.callout-tip collapse="true"}
+## Solução
+*"Caxa"* por *caixa* → **monotongação** (o ditongo *ai* reduz-se à vogal *a*). *"Nóis"*
+por *nós* → **ditongação** (a vogal *ó* ganha a semivogal, formando o ditongo *ói*).
+São processos inversos: um reduz, o outro cria ditongo.
+:::
+
+**6.** (Estilo FCC) A forma *"probrema"* por *problema* resulta de:
+
+a) epêntese;
+b) metátese;
+c) vocalização;
+d) aférese;
+e) palatalização.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Em *"probrema"*, o /l/ de *pro-blema* troca de posição/qualidade
+gerando *pro-brema* — trata-se de **metátese** (transposição), frequentemente combinada
+a rotacismo. Não é acréscimo (epêntese), perda (aférese) nem palatalização.
+:::
+
+**7.** Por que a palatalização de /t/ e /d/ diante de /i/ **não** deve ser considerada
+"erro" no português brasileiro?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque é um traço **majoritário e regular** do PB: a imensa maioria dos falantes
+brasileiros, de todos os níveis de escolaridade, pronuncia *tia* como "tchia" e *dia*
+como "djia". Não é um desvio individual, mas uma característica sistemática da
+pronúncia brasileira culta e popular. Trata-se de variação diatópica normal, não de
+erro.
+:::
+
+**8.** Identifique o processo histórico nas evoluções: (a) latim *povo* de *populu(m)*;
+(b) latim *sempre* de *semper*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *populu(m)* → *povo*: **síncope** (queda do /l/ intervocálico no meio da palavra).
+(b) *semper* → *sempre*: **metátese** (transposição: o *er* final passa a *re*). Ambos
+são processos que consolidaram formas hoje plenamente cultas.
+:::
+
+**9.** Um estudante diz: "Quem fala 'pexe' e 'caxa' está falando errado." Comente à luz
+dos processos fonológicos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+As formas *"pexe"* e *"caxa"* resultam de **monotongação**, processo amplamente
+presente na fala de brasileiros de todos os níveis, inclusive escolarizados. Não são
+"erro" no plano linguístico: são realizações sistemáticas e regulares. O que se pode
+dizer é que, na **escrita**, a norma pede *peixe* e *caixa* (com o ditongo), por
+convenção ortográfica. Confundir a convenção da escrita com "falar errado" ignora que a
+monotongação é um processo natural e difundido.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Os processos fonológicos ocorrem
+apenas na história da língua (diacronia), não na fala atual."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Os processos fonológicos operam tanto na **diacronia** (mudanças históricas
+já consolidadas, como *populu* → *povo*) quanto na **sincronia** (variação da fala
+atual, como a vocalização em *"Brasiu"* ou a palatalização em *"tchia"*). São o mesmo
+tipo de fenômeno em dois momentos: o de hoje pode ser o consolidado de amanhã.
+:::
+
+## 📚 Referências
+
+A tipologia dos processos fonológicos apoia-se na descrição de Câmara Jr.
+[@camarajr1970] e nas evoluções históricas descritas por Teyssier [@teyssier2007]. A
+relação entre processos, variação e a crítica ao rótulo de "erro" é desenvolvida por
+Bagno [@bagno2007] e por Castilho [@castilho2010].
+
+::: {#refs}
 :::
