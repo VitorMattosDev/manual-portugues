@@ -4,22 +4,279 @@ title: "Predicado: verbal, nominal e verbo-nominal"
 
 # Predicado: verbal, nominal e verbo-nominal {#sec-cap-38}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 6 — Sintaxe I: Termos da Oração.
+> "O predicado é tudo o que se diz do sujeito — e o segredo para classificá-lo está no
+> seu núcleo."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Se o sujeito é aquilo de que se declara algo, o **predicado** é justamente *o que se
+declara* — tudo o que, na oração, se afirma a respeito do sujeito. Em "Os alunos
+**estudaram muito para a prova**", o predicado é toda a parte destacada. Classificar o
+predicado é o próximo passo da análise sintática, e depende de identificar seu **núcleo**:
+se o que importa é uma **ação** (verbo) ou uma **qualidade/estado** (nome).
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo distingue os três tipos de predicado — **verbal**, **nominal** e
+**verbo-nominal** — e introduz conceitos essenciais que os sustentam: o **verbo de
+ligação**, o **predicativo do sujeito** e o **predicativo do objeto**. É um capítulo
+central, pois a noção de predicativo reaparece em concordância, em regência e na análise
+integral. O método é sempre o mesmo: achar o núcleo do predicado.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** predicado e identificar seu núcleo;
+- **Distinguir** verbos nocionais (de ação) de verbos de ligação;
+- **Classificar** o predicado em verbal, nominal e verbo-nominal;
+- **Reconhecer** o predicativo do sujeito e o predicativo do objeto;
+- **Diferenciar** predicativo de adjunto;
+- **Aplicar** a análise do predicado a orações concretas.
+
+## O predicado e seu núcleo
+
+**Predicado** é o termo da oração que contém a **declaração** feita sobre o sujeito.
+Numa oração com sujeito, tudo o que não é sujeito (nem termos a ele ligados) é predicado.
+
+A classificação do predicado depende de seu **núcleo** — a palavra mais importante da
+declaração:
+
+- Se o núcleo é um **verbo que indica ação, processo ou fenômeno** (verbo nocional):
+  predicado **verbal**.
+- Se o núcleo é um **nome** (adjetivo ou substantivo) que atribui **qualidade/estado**
+  ao sujeito, ligado por um verbo de ligação: predicado **nominal**.
+- Se há **dois núcleos** (um verbo de ação **e** um nome): predicado **verbo-nominal**.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Verbo nocional × verbo de ligação
+- **Verbo nocional**: exprime ação, processo ou fenômeno, com conteúdo próprio —
+  *correr*, *estudar*, *chover*, *quebrar*. É núcleo do predicado verbal.
+- **Verbo de ligação** (VL): não exprime ação; apenas **liga** o sujeito a uma
+  qualidade/estado (o predicativo). Os principais: *ser*, *estar*, *ficar*,
+  *permanecer*, *parecer*, *continuar*, *andar*, *tornar-se*. Em "Ele **está**
+  cansado", *estar* apenas liga *ele* a *cansado*.
+
+Cuidado: o mesmo verbo pode ser nocional ou de ligação conforme o sentido. "Ele **anda**
+depressa" (nocional, = caminha) × "Ele **anda** triste" (de ligação, = está).
+:::
+
+## Predicado verbal
+
+Tem como núcleo um **verbo nocional** (de ação/processo/fenômeno). A declaração central
+está no verbo: "Os alunos **estudaram**", "O rio **transbordou**", "As crianças
+**brincam** no parque". O núcleo é o verbo; os demais termos (objetos, adjuntos) o
+complementam.
+
+## Predicado nominal
+
+Tem como núcleo um **nome** (o predicativo do sujeito), ligado ao sujeito por um **verbo
+de ligação**. A declaração central é uma **qualidade ou estado**: "O dia **está**
+**bonito**" (núcleo: *bonito*, predicativo do sujeito, ligado por *está*); "Ela **é**
+**médica**" (núcleo: *médica*).
+
+O **predicativo do sujeito** é o nome que caracteriza o sujeito por meio do verbo de
+ligação. Concorda com o sujeito: "As casas estão **prontas**".
+
+## Predicado verbo-nominal
+
+Tem **dois núcleos**: um **verbo nocional** (ação) **e** um **nome** (predicativo). A
+oração declara, ao mesmo tempo, uma ação e um estado/qualidade: "Os alunos **saíram**
+**contentes**" — saíram (ação) *e* estavam contentes (estado). Aqui há predicativo do
+**sujeito** (*contentes* refere-se a *os alunos*).
+
+O predicativo pode também referir-se ao **objeto** — o **predicativo do objeto**:
+"Considero **o filme** **excelente**" — o predicativo *excelente* caracteriza o objeto
+*o filme*. "Elegeram **o candidato** **presidente**" (*presidente* = predicativo do
+objeto *o candidato*).
+
+A @fig-tipos-predicado resume os três tipos.
+
+::: {#fig-tipos-predicado}
+
+```{.tikz}
+%%| filename: tipos-predicado
+%%| alt: Diagrama com os três tipos de predicado, cada um numa caixa com seu núcleo e um exemplo. Verbal: núcleo é verbo de ação — os alunos estudaram. Nominal: núcleo é nome ligado por verbo de ligação — o dia está bonito, com bonito como predicativo do sujeito. Verbo-nominal: dois núcleos, verbo de ação mais nome — os alunos saíram contentes.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, text width=44mm, minimum height=24mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{VERBAL}\\{\scriptsize núcleo: verbo de ação}\\[4pt] ``Os alunos \textbf{estudaram}.''};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, right=5mm of a] (b) {\textbf{NOMINAL}\\{\scriptsize núcleo: nome (predicativo) + VL}\\[4pt] ``O dia \emph{está} \textbf{bonito}.''};
+  \node[cx, draw=manualred, fill=manualred!8, right=5mm of b] (c) {\textbf{VERBO-NOMINAL}\\{\scriptsize dois núcleos: verbo + nome}\\[4pt] ``Os alunos \textbf{saíram} \textbf{contentes}.''};
+\end{tikzpicture}
+```
+
+Os três tipos de predicado: verbal (núcleo verbo de ação), nominal (núcleo nome/
+predicativo com verbo de ligação) e verbo-nominal (dois núcleos: verbo de ação + nome).
+:::
+
+## Predicativo × adjunto: uma distinção fina
+
+Um ponto que confunde: tanto o predicativo quanto o adjunto adnominal podem ser
+adjetivos. A diferença:
+
+- O **predicativo** atribui uma qualidade **por meio do verbo** (predica algo, com
+  papel na estrutura do predicado): "As crianças chegaram **cansadas**" (predicativo do
+  sujeito — estavam cansadas ao chegar).
+- O **adjunto adnominal** caracteriza o nome **diretamente**, sem passar pelo verbo,
+  como mero acompanhante: "As crianças **cansadas** dormiram" (aqui *cansadas* apenas
+  qualifica *crianças*, dentro do sujeito).
+
+Teste: se o adjetivo estabelece um estado **resultante ou concomitante à ação/ao verbo**,
+é predicativo; se apenas acompanha o substantivo dentro de um termo, é adjunto.
+Voltaremos ao adjunto adnominal no @sec-cap-41.
+
+## 📋 Quadro-resumo
+
+| Tipo | Núcleo(s) | Verbo | Exemplo |
+|---|---|---|---|
+| **Verbal** | verbo de ação | nocional | "As crianças **brincam**" |
+| **Nominal** | nome (predicativo) | de ligação | "O dia **está bonito**" |
+| **Verbo-nominal** | verbo **e** nome | nocional + predicativo | "Saíram **felizes**" |
+
+**Predicativo do sujeito**: refere-se ao sujeito ("Ela é **médica**").
+**Predicativo do objeto**: refere-se ao objeto ("Considero o filme **ótimo**").
+
+Em uma linha: o **predicado** é o que se declara do sujeito; classifica-se pelo núcleo —
+**verbal** (verbo de ação), **nominal** (nome/predicativo + verbo de ligação) ou
+**verbo-nominal** (verbo de ação + predicativo) —, e o **predicativo** atribui qualidade
+ao sujeito ou ao objeto por meio do verbo.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir verbo de ligação com verbo nocional.** O mesmo verbo varia: "Ele **anda**
+  triste" (ligação, = está) × "Ele **anda** rápido" (ação). O sentido decide.
+- **Classificar o predicado sem achar o núcleo.** Núcleo verbo de ação → verbal; núcleo
+  nome → nominal; dois núcleos → verbo-nominal.
+- **Confundir predicativo com adjunto adnominal.** Predicativo predica por meio do verbo
+  ("chegaram **cansadas**"); adjunto acompanha o nome ("crianças **cansadas**").
+- **Esquecer o predicativo do objeto.** Em "Considero o filme **ótimo**", *ótimo* é
+  predicativo do **objeto**, e o predicado é verbo-nominal (dois núcleos).
+- **Achar que todo predicado com adjetivo é nominal.** "Os alunos saíram **felizes**" é
+  **verbo-nominal** (há ação *saíram* **e** predicativo *felizes*), não nominal.
+
+## ✍️ Exercícios
+
+**1.** Classifique o predicado: (a) "O mar estava calmo"; (b) "As ondas quebravam na
+praia".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "O mar estava calmo" → predicado **nominal**: o verbo *estava* é de ligação, e o
+núcleo é *calmo* (predicativo do sujeito, qualidade do mar). (b) "As ondas quebravam na
+praia" → predicado **verbal**: o núcleo é o verbo de ação *quebravam*.
+:::
+
+**2.** (Estilo ENEM) Em "Os torcedores voltaram felizes para casa", o predicado é:
+
+a) verbal, pois só há ação;
+b) nominal, pois há um verbo de ligação;
+c) verbo-nominal, pois há uma ação (voltaram) e um predicativo (felizes);
+d) verbal, e "felizes" é objeto;
+e) nominal, e "voltaram" é verbo de ligação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** Há **dois núcleos**: o verbo de ação *voltaram* (os torcedores
+praticaram a ação de voltar) **e** o predicativo do sujeito *felizes* (o estado deles ao
+voltar). Predicado que reúne ação + predicativo é **verbo-nominal**.
+:::
+
+**3.** Identifique o verbo de ligação e o predicativo do sujeito: "A cidade permanece
+tranquila."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Verbo de ligação: *permanece* (não indica ação; liga o sujeito a um estado).
+Predicativo do sujeito: *tranquila* (qualidade atribuída à *cidade*, núcleo do predicado
+nominal). O predicativo concorda com o sujeito (feminino singular: *tranquila*).
+:::
+
+**4.** Distinga verbo nocional de verbo de ligação, usando *ficar* em dois sentidos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Ficar* como **verbo de ligação** (liga o sujeito a um estado): "Ele **ficou** triste"
+(= tornou-se/estava triste — predicado nominal). *Ficar* como **verbo nocional**
+(indica permanência/localização, com conteúdo próprio): "Ele **ficou** em casa" (ação/
+situação de permanecer — predicado verbal). O sentido — estado atribuído × ação/
+localização — decide a classificação.
+:::
+
+**5.** Identifique o predicativo do objeto: "O júri considerou o réu inocente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Predicativo do objeto: *inocente*. Ele caracteriza o **objeto** *o réu* (o júri
+considerou o réu *como* inocente). O predicado é **verbo-nominal**: há o verbo *considerou*
+(ação) e o predicativo *inocente* referido ao objeto. Note que *inocente* não qualifica o
+sujeito (o júri), e sim o objeto (o réu).
+:::
+
+**6.** (Estilo FCC) Assinale a oração com predicado **nominal**:
+
+a) O gerente resolveu o problema;
+b) A funcionária parecia insegura;
+c) Os clientes reclamaram muito;
+d) A empresa contratou dez pessoas;
+e) O diretor chegou irritado.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "A funcionária parecia insegura": *parecer* é verbo de ligação, e o
+núcleo é *insegura* (predicativo do sujeito) → predicado **nominal**. A (e) "chegou
+irritado" seria **verbo-nominal** (ação + predicativo); as demais são **verbais**.
+:::
+
+**7.** Explique a diferença entre "As crianças cansadas dormiram" e "As crianças
+dormiram cansadas".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "As crianças **cansadas** dormiram", *cansadas* é **adjunto adnominal**: acompanha
+diretamente o substantivo *crianças* dentro do sujeito (quais crianças? as cansadas) —
+predicado **verbal** (núcleo *dormiram*). Em "As crianças dormiram **cansadas**",
+*cansadas* é **predicativo do sujeito**: exprime o estado das crianças relacionado ao
+verbo (dormiram *estando* cansadas) — predicado **verbo-nominal**. A posição e a relação
+com o verbo mudam a função.
+:::
+
+**8.** Classifique o predicado e identifique o(s) núcleo(s): "Elegeram-no líder."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Predicado **verbo-nominal**. Núcleos: o verbo de ação *elegeram* (a ação de eleger) e o
+nome *líder* (**predicativo do objeto**, referido a *-no* = ele, o objeto). "Elegeram-no
+líder" declara a ação (elegeram) e o estado/condição atribuído ao objeto (líder).
+:::
+
+**9.** Transforme o predicado verbal em nominal, mantendo o sentido aproximado: "O
+professor explicou bem."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplo: "O professor **foi claro**" ou "O professor **estava didático**". Substitui-se o
+verbo de ação (*explicou*) por um verbo de ligação (*ser*, *estar*) + predicativo
+(*claro*, *didático*), transformando a declaração de **ação** em declaração de
+**qualidade/estado** — de predicado verbal para nominal.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na oração 'O céu ficou nublado', o
+verbo *ficar* é nocional e o predicado é verbal."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Em "O céu ficou nublado", *ficar* é **verbo de ligação** (não indica ação, e
+sim mudança de estado), e *nublado* é o **predicativo do sujeito**. O predicado é,
+portanto, **nominal**, não verbal. *Ficar* só seria nocional com sentido de permanência/
+localização ("ficou em casa").
+:::
+
+## 📚 Referências
+
+A tipologia do predicado, os verbos de ligação e a noção de predicativo seguem Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017]. A distinção entre predicativo e
+adjunto e a análise dos predicados no português brasileiro são discutidas por Castilho
+[@castilho2010] e Perini [@perini2010]. Os complementos verbais — objetos direto e
+indireto — são o tema do @sec-cap-39.
+
+::: {#refs}
 :::
