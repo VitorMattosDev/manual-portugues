@@ -4,22 +4,318 @@ title: "Pronome I: pessoais, possessivos e demonstrativos"
 
 # Pronome I: pessoais, possessivos e demonstrativos {#sec-cap-30}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "O pronome é o dedo apontado da linguagem: em vez de repetir o nome, aponta para ele."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O **pronome** é a classe que **substitui** ou **acompanha** o substantivo, situando-o em
+relação às pessoas do discurso (quem fala, com quem se fala, de quem se fala). Em vez de
+repetir "Maria", dizemos "*ela*"; em vez de nomear de novo o objeto, dizemos "*este*",
+"*aquele*". Os pronomes são o "cimento" que dá coesão ao texto — sem eles, cada frase
+teria de renomear tudo o tempo todo.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Dada a extensão do tema, dividimo-lo em dois capítulos. Neste, tratamos dos pronomes
+**pessoais** (o coração do sistema, incluindo os oblíquos e o tratamento),
+**possessivos** e **demonstrativos**. No próximo (@sec-cap-31), veremos relativos,
+indefinidos e interrogativos. Aqui concentram-se pegadinhas clássicas: *eu* × *mim*, o
+uso de *este/esse/aquele*, a colocação dos oblíquos (que retomaremos no Volume 8).
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Identificar** os pronomes pessoais retos e oblíquos e as pessoas do discurso;
+- **Empregar** corretamente *eu/mim*, *tu/ti*, e os oblíquos átonos e tônicos;
+- **Usar** os pronomes de tratamento com a concordância adequada;
+- **Distinguir** e empregar os pronomes possessivos, atento à ambiguidade;
+- **Aplicar** os demonstrativos *este/esse/aquele* no espaço, no tempo e no texto;
+- **Reconhecer** o papel dos pronomes na coesão textual.
+
+## Pronomes pessoais
+
+Os **pronomes pessoais** designam as três pessoas do discurso. Dividem-se em **retos**
+(função de sujeito) e **oblíquos** (função de complemento), conforme a @fig-pessoais.
+
+::: {#fig-pessoais}
+
+```{.tikz}
+%%| filename: pronomes-pessoais
+%%| alt: Tabela dos pronomes pessoais organizada em três colunas — retos (sujeito), oblíquos átonos e oblíquos tônicos — e três linhas por número. Primeira pessoa singular: eu, me, mim/comigo. Segunda: tu, te, ti/contigo. Terceira: ele/ela, o/a/lhe/se, ele/si/consigo. Plural análogo: nós, nos, nós/conosco; vós, vos, vós/convosco; eles, os/as/lhes/se, eles/si.
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  h/.style={draw=manualgray, fill=manualblue!12, minimum width=26mm, minimum height=7mm, align=center, font=\bfseries\scriptsize},
+  c/.style={draw=manualgray, minimum width=26mm, minimum height=7mm, align=center},
+  r/.style={draw=manualgray, fill=manualgreen!10, minimum width=16mm, minimum height=7mm, align=center, font=\bfseries\scriptsize},
+]
+  \node[c, fill=white, draw=white] at (0,0) {};
+  \node[h] at (1.6,0) {Reto (sujeito)};
+  \node[h] at (4.2,0) {Oblíquo átono};
+  \node[h] at (6.8,0) {Oblíquo tônico};
+
+  \foreach \i/\p/\rt/\at/\tn in {1/{1ª sg}/eu/me/{mim, comigo}, 2/{2ª sg}/tu/te/{ti, contigo}, 3/{3ª sg}/{ele/ela}/{o, a, lhe, se}/{ele, si, consigo}, 4/{1ª pl}/nós/nos/{nós, conosco}, 5/{2ª pl}/vós/vos/{vós, convosco}, 6/{3ª pl}/{eles/elas}/{os, as, lhes, se}/{eles, si, consigo}} {
+    \node[r] at (0,-\i*0.72) {\p};
+    \node[c] at (1.6,-\i*0.72) {\rt};
+    \node[c] at (4.2,-\i*0.72) {\at};
+    \node[c] at (6.8,-\i*0.72) {\tn};
+  }
+\end{tikzpicture}
+```
+
+Quadro dos pronomes pessoais: retos (sujeito), oblíquos átonos (complemento sem
+preposição) e oblíquos tônicos (complemento com preposição), nas três pessoas do
+singular e do plural.
+:::
+
+- **Retos** (*eu, tu, ele/ela, nós, vós, eles/elas*): função típica de **sujeito** —
+  "*Eu* cheguei".
+- **Oblíquos átonos** (*me, te, o, a, lhe, se, nos, vos, os, as, lhes*): complemento
+  **sem** preposição — "Ele *me* viu", "Dei-*lhe* o livro".
+- **Oblíquos tônicos** (*mim, ti, si, ele, nós, vós* + *comigo, contigo, consigo,
+  conosco, convosco*): complemento **com** preposição — "Isto é para *mim*", "Vá
+  *comigo*".
+
+::: {.callout-important}
+## *Eu* × *mim*: a pegadinha clássica
+Regra: **antes de verbo no infinitivo**, use o pronome **reto** (*eu*, *tu*); depois de
+**preposição** sem infinitivo, use o **oblíquo tônico** (*mim*, *ti*).
+
+- ✔ "Isto é para **eu** fazer." (sujeito do infinitivo *fazer* → reto)
+- ✔ "Isto é para **mim**." (complemento da preposição *para*, sem verbo → oblíquo)
+- ✘ "Isto é para *mim* fazer." (erro: *mim* não pode ser sujeito)
+
+Teste: se houver um verbo no infinitivo logo depois, e o pronome for quem pratica a
+ação, use *eu/tu*. "Entre *mim* e *ti*" (sem infinitivo) está correto.
+:::
+
+## Pronomes de tratamento
+
+Os **pronomes de tratamento** são formas de cortesia usadas para dirigir-se às pessoas.
+Embora se refiram à 2ª pessoa (a quem se fala), levam o verbo e os pronomes na **3ª
+pessoa**:
+
+- *Você* (tratamento geral); *o senhor/a senhora* (formal).
+- *Vossa Senhoria* (V. S.ª — correspondência); *Vossa Excelência* (V. Ex.ª —
+  autoridades); *Vossa Magnificência* (reitores); *Vossa Santidade* (o Papa).
+
+Regra de concordância: "*Vossa Excelência* **está** enganado" — verbo na 3ª pessoa, mas
+o adjetivo concorda com o **sexo** da pessoa ("enganado"/"enganada"). E usa-se *Vossa*
+ao falar **com** a pessoa; *Sua* ao falar **dela**: "*Vossa* Excelência chegou" (a ela)
+× "*Sua* Excelência chegou" (referindo-se a ela para outrem).
+
+## Pronomes possessivos
+
+Os **possessivos** (*meu, teu, seu, nosso, vosso* e flexões) indicam **posse**,
+relacionando o objeto às pessoas do discurso. Concordam em gênero e número com a **coisa
+possuída**, não com o possuidor: "*minhas* casas" (as casas são minhas — *minhas*
+concorda com *casas*).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## A ambiguidade de *seu/sua*
+*Seu* pode referir-se à 2ª pessoa (*você*) ou à 3ª (*ele/ela*), gerando ambiguidade:
+"João disse a Pedro que *sua* casa pegou fogo" — a casa de quem? Para desfazer, usa-se
+*dele/dela*: "...que a casa **dele** pegou fogo". Em redação, prefira *dele/dela* quando
+houver risco de dupla leitura.
+:::
+
+## Pronomes demonstrativos
+
+Os **demonstrativos** (*este, esse, aquele* e flexões; *isto, isso, aquilo*
+invariáveis) **situam** o ser em relação às pessoas do discurso — no espaço, no tempo
+ou no texto. A @fig-demonstrativos sintetiza a lógica das três posições.
+
+::: {#fig-demonstrativos}
+
+```{.tikz}
+%%| filename: demonstrativos
+%%| alt: Diagrama de três colunas relacionando cada demonstrativo à pessoa, ao espaço, ao tempo e ao texto. Este/isto: 1ª pessoa, perto de quem fala, tempo presente/futuro, o que vai ser dito. Esse/isso: 2ª pessoa, perto de quem ouve, passado próximo, o que já foi dito. Aquele/aquilo: 3ª pessoa, longe de ambos, passado distante.
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=36mm, minimum height=32mm, inner sep=5pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{ESTE / ISTO}\\{\scriptsize 1ª pessoa (quem fala)}\\[3pt] • espaço: perto de mim\\ • tempo: presente/futuro\\ • texto: o que \emph{vou} dizer};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, right=4mm of a] (b) {\textbf{ESSE / ISSO}\\{\scriptsize 2ª pessoa (quem ouve)}\\[3pt] • espaço: perto de você\\ • tempo: passado próximo\\ • texto: o que \emph{já} disse};
+  \node[cx, draw=manualred, fill=manualred!8, right=4mm of b] (c) {\textbf{AQUELE / AQUILO}\\{\scriptsize 3ª pessoa (nem eu, nem você)}\\[3pt] • espaço: longe de ambos\\ • tempo: passado distante\\ • texto: já bem mencionado};
+\end{tikzpicture}
+```
+
+A lógica dos demonstrativos: *este* liga-se à 1ª pessoa (perto de quem fala, futuro no
+texto); *esse*, à 2ª (perto de quem ouve, já dito); *aquele*, à 3ª (longe de ambos).
+:::
+
+- **Este/isto**: o que está **perto de quem fala** (1ª pessoa); no tempo, presente ou
+  futuro; no texto, o que **será** dito (catáfora).
+- **Esse/isso**: o que está **perto de quem ouve** (2ª pessoa); no tempo, passado
+  próximo; no texto, o que **já** foi dito (anáfora).
+- **Aquele/aquilo**: o que está **longe** de ambos (3ª pessoa); no tempo, passado
+  distante.
+
+::: {.callout-important}
+## No texto: *este* (o que vem) × *esse* (o que veio)
+Uso muito cobrado. Para retomar algo **já mencionado**, use *esse/isso*; para anunciar
+algo que **ainda será** dito, use *este/isto*:
+
+- "Ele disse **isto**: que viria amanhã." (anuncia o que vem)
+- "Ele viria amanhã; **isso** me alegrou." (retoma o que veio)
+
+E, ao referir dois elementos citados, *aquele* retoma o **primeiro** (mais distante) e
+*este*, o **último** (mais próximo): "Cícero e César: *aquele* era orador; *este*,
+general."
+:::
+
+## 📋 Quadro-resumo
+
+| Tipo | Formas | Função/uso |
+|---|---|---|
+| **Pessoal reto** | eu, tu, ele, nós, vós, eles | sujeito |
+| **Pessoal oblíquo átono** | me, te, o, a, lhe, se, nos, vos, os, as, lhes | complemento sem preposição |
+| **Pessoal oblíquo tônico** | mim, ti, si, comigo, contigo... | complemento com preposição |
+| **Tratamento** | você, o senhor, V. Ex.ª | cortesia (verbo na 3ª pessoa) |
+| **Possessivo** | meu, teu, seu, nosso... | posse (concorda com o possuído) |
+| **Demonstrativo** | este, esse, aquele; isto, isso, aquilo | situa no espaço/tempo/texto |
+
+Em uma linha: os pronomes **pessoais** situam as pessoas do discurso (retos = sujeito,
+oblíquos = complemento; cuidado com *eu/mim*); os **possessivos** indicam posse
+(concordando com o possuído); os **demonstrativos** situam no espaço, no tempo e no
+texto (*este* = perto/futuro; *esse* = perto de você/já dito; *aquele* = longe).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Usar *mim* como sujeito.** "Para **eu** fazer" (reto, sujeito do infinitivo), não
+  "para *mim* fazer". *Mim* não pratica ação.
+- **Concordar o possessivo com o possuidor.** *Seus* concorda com a coisa possuída:
+  "ela guardou *seus* documentos" (os documentos, plural).
+- **Trocar *este* por *esse* no texto.** Para o que **vai** ser dito, *este/isto*; para o
+  que **já** foi dito, *esse/isso*.
+- **Esquecer a 3ª pessoa nos tratamentos.** "*Vossa Excelência* **deferiu**" (verbo na
+  3ª pessoa), com adjetivo concordando com o sexo da pessoa.
+- **Deixar *seu* ambíguo.** Prefira *dele/dela* quando houver risco de dupla leitura de
+  possuidor.
+
+## ✍️ Exercícios
+
+**1.** Complete com *eu* ou *mim* e justifique: (a) "Trouxeram o livro para ___ ler";
+(b) "Este presente é para ___".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "para **eu** ler" — o pronome é **sujeito** do infinitivo *ler* → forma reta *eu*.
+(b) "para **mim**" — o pronome é **complemento** da preposição *para*, sem verbo no
+infinitivo → oblíquo tônico *mim*. Regra: reto antes de infinitivo (sujeito); oblíquo
+após preposição sem verbo.
+:::
+
+**2.** (Estilo ENEM) Assinale a frase **correta** quanto ao pronome:
+
+a) Não há nada entre eu e ti;
+b) Ele falou para mim resolver;
+c) Chegou a hora de eu decidir;
+d) Trouxeram flores para mim e para tu;
+e) Entre eu e você não há segredos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "de **eu** decidir": *eu* é sujeito do infinitivo *decidir* →
+correto. As demais erram: "entre **mim** e **ti**" (b, d, e usam formas erradas — após
+*entre*, oblíquo: "entre mim e ti", "entre mim e você"); e (b) deveria ser "para **eu**
+resolver".
+:::
+
+**3.** Classifique os pronomes pessoais sublinhados: "*Ele* deu-*me* o livro e falou de
+*ti*."
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Ele* = pronome pessoal **reto** (sujeito). *Me* = oblíquo **átono** (complemento sem
+preposição — objeto indireto). *Ti* = oblíquo **tônico** (complemento com preposição
+*de*). Cada um exerce uma função sintática típica de sua subclasse.
+:::
+
+**4.** Corrija a ambiguidade: "Paulo avisou o irmão de que sua casa seria vendida."
+
+::: {.callout-tip collapse="true"}
+## Solução
+A frase é ambígua: *sua casa* pode ser a de Paulo ou a do irmão. Para desfazer, usa-se
+*dele*: "Paulo avisou o irmão de que a casa **dele** (de Paulo / do irmão) seria
+vendida" — especificando o possuidor conforme a intenção. Em redação, *dele/dela*
+resolve a ambiguidade de *seu/sua*.
+:::
+
+**5.** Escolha *este*, *esse* ou *aquele* e justifique: (a) "Guarde bem ___ conselho
+que vou lhe dar agora."; (b) "Você mentiu, e ___ me magoou."
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Guarde bem **este** conselho que vou lhe dar" — anuncia algo que **ainda será**
+dito (catáfora) → *este/isto*. (b) "Você mentiu, e **isso** me magoou" — retoma algo
+**já** dito (a mentira, anáfora) → *esse/isso*. Regra do texto: *este* para o que vem;
+*esse* para o que já veio.
+:::
+
+**6.** (Estilo FCC) Em "Cícero e César foram grandes: aquele, orador; este, general", os
+demonstrativos indicam que:
+
+a) *aquele* retoma César e *este* retoma Cícero;
+b) *aquele* retoma Cícero (o primeiro) e *este* retoma César (o último);
+c) ambos retomam Cícero;
+d) ambos retomam César;
+e) os demonstrativos estão empregados incorretamente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Quando se retomam dois elementos citados, *aquele* refere-se ao
+**primeiro** (mais distante, Cícero) e *este*, ao **último** (mais próximo, César). Logo,
+"aquele, orador" = Cícero foi orador; "este, general" = César foi general.
+:::
+
+**7.** Reescreva com o pronome de tratamento e concordância corretos, dirigindo-se a um
+juiz: "Você julgou o caso, você está certo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"**Vossa Excelência** julgou o caso; **Vossa Excelência** está **certo/certa**." O
+pronome de tratamento adequado a um juiz é *Vossa Excelência* (V. Ex.ª); o verbo vai na
+**3ª pessoa** ("julgou", "está"), e o adjetivo concorda com o **sexo** da pessoa
+("certo" para homem, "certa" para mulher).
+:::
+
+**8.** Os possessivos concordam com o possuidor ou com o possuído? Exemplifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Concordam em gênero e número com a **coisa possuída**, não com o possuidor. Exemplo:
+"Ele guardou **suas** joias" — *suas* está no feminino plural porque concorda com
+*joias* (o possuído), independentemente do gênero do possuidor. Do mesmo modo, "minha
+casa", "meus livros": os possessivos acompanham o substantivo possuído.
+:::
+
+**9.** Explique a diferença entre "Vossa Excelência" e "Sua Excelência".
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Vossa Excelência* usa-se ao falar **diretamente com** a pessoa tratada: "Vossa
+Excelência decidirá" (dirigindo-se a ela). *Sua Excelência* usa-se ao falar **sobre** a
+pessoa, a um terceiro: "Sua Excelência, o ministro, decidirá" (referindo-se a ela para
+outrem). *Vossa* = com a pessoa; *Sua* = sobre a pessoa.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Espero que fique tudo entre
+mim e ti', os pronomes estão empregados corretamente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** Após a preposição *entre*, empregam-se os pronomes **oblíquos tônicos**:
+"entre **mim** e **ti**". Não há infinitivo de que os pronomes seriam sujeito, logo não
+cabem as formas retas. A construção "entre mim e ti" está de acordo com a norma-padrão
+(erro comum seria "entre eu e tu").
+:::
+
+## 📚 Referências
+
+O sistema pronominal — pessoais, tratamento, possessivos e demonstrativos — é descrito
+por Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017] no plano normativo, e por
+Castilho [@castilho2010] no descritivo, atento aos usos do português brasileiro (como o
+predomínio de *você* e *a gente*). O papel dos pronomes na coesão referencial será
+retomado no @sec-cap-69. Relativos, indefinidos e interrogativos vêm no @sec-cap-31.
+
+::: {#refs}
 :::
