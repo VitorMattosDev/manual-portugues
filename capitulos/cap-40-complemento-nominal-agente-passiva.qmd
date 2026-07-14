@@ -4,22 +4,282 @@ title: "Complemento nominal e agente da passiva"
 
 # Complemento nominal e agente da passiva {#sec-cap-40}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 6 — Sintaxe I: Termos da Oração.
+> "Nem só o verbo pede complemento: um nome também pode exigir quem o complete."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Completamos os **termos integrantes** da oração (aqueles que integram o sentido de outro
+termo) com dois de identificação delicada: o **complemento nominal** e o **agente da
+passiva**. O complemento nominal completa o sentido de um **nome** (substantivo,
+adjetivo ou advérbio) que, como certos verbos, é "transitivo" — pede complemento: *amor*
+**a quê?**, *fiel* **a quê?**, *favorável* **a quê?**. O agente da passiva, por sua vez,
+é quem pratica a ação na voz passiva ("O livro foi lido **pelos alunos**").
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+O grande desafio deste capítulo — e uma das pegadinhas mais famosas da sintaxe — é
+distinguir o **complemento nominal** do **adjunto adnominal**, dois termos que podem ter
+a mesma forma (preposição + substantivo ligada a um nome) mas funções opostas. Daremos
+um método claro para não errar.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** complemento nominal e reconhecer os nomes que o exigem;
+- **Distinguir** complemento nominal de adjunto adnominal;
+- **Aplicar** o critério paciente × agente/posse para diferenciá-los;
+- **Identificar** o agente da passiva e sua preposição;
+- **Relacionar** o agente da passiva à conversão de voz;
+- **Analisar** orações com esses termos integrantes.
+
+## Complemento nominal
+
+**Complemento nominal (CN)** é o termo que **completa o sentido de um nome** (substantivo
+abstrato, adjetivo ou advérbio) que não se basta sozinho, ligando-se a ele por uma
+**preposição** exigida. Assim como certos verbos são transitivos, certos **nomes** pedem
+complemento:
+
+- substantivos abstratos (derivados de verbos ou adjetivos): *amor* **a**, *respeito*
+  **a**, *necessidade* **de**, *medo* **de**, *obediência* **a** — "O amor **aos
+  filhos**", "A necessidade **de reformas**".
+- adjetivos: *fiel* **a**, *favorável* **a**, *capaz* **de**, *ávido* **de/por** — "Ele
+  é fiel **aos amigos**", "Ávido **de poder**".
+- advérbios: *favoravelmente* **a** — "Agiu favoravelmente **ao réu**".
+
+O complemento nominal indica, tipicamente, o **alvo/paciente** da noção expressa pelo
+nome: em "o amor aos filhos", os filhos **recebem** o amor (são o alvo).
+
+## Complemento nominal × adjunto adnominal: a grande distinção
+
+Aqui está a pegadinha clássica. Compare:
+
+::: {.exemplo}
+- "A construção **da casa**." → *da casa* é **complemento nominal** (a casa é
+  **construída** — paciente, recebe a ação de construir).
+- "A casa **do pedreiro**." → *do pedreiro* é **adjunto adnominal** (o pedreiro
+  **possui** a casa — posse; não é a casa quem "pedreira").
+:::
+
+Ambos têm a forma "preposição + substantivo" ligada a um nome, mas a função difere. A
+@fig-cn-adjunto sistematiza os critérios.
+
+::: {#fig-cn-adjunto}
+
+```{.tikz}
+%%| filename: cn-adjunto
+%%| alt: Diagrama comparando complemento nominal e adjunto adnominal. Complemento nominal: liga-se a nome abstrato, o termo é paciente ou alvo (recebe a ação), sempre com preposição, exemplo a destruição da cidade (a cidade é destruída). Adjunto adnominal: liga-se a qualquer substantivo, exprime posse, agente ou qualidade, exemplo o livro do aluno (o aluno possui o livro).
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=54mm, minimum height=34mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{COMPLEMENTO NOMINAL}\\[3pt] • completa nome \emph{abstrato}, adj. ou adv.\\ • o termo é \textbf{paciente/alvo} (recebe)\\ • \textbf{sempre} com preposição\\[3pt] {\scriptsize ``a destruição \textbf{da cidade}''\\ (a cidade \emph{é} destruída)}};
+  \node[cx, draw=manualred, fill=manualred!8, right=6mm of a] (b) {\textbf{ADJUNTO ADNOMINAL}\\[3pt] • liga-se a qualquer substantivo\\ • exprime \textbf{posse, agente, qualidade}\\ • com ou sem preposição\\[3pt] {\scriptsize ``o livro \textbf{do aluno}''\\ (o aluno \emph{possui} o livro)}};
+\end{tikzpicture}
+```
+
+Complemento nominal × adjunto adnominal: o CN completa nome abstrato e o termo é
+paciente (recebe a noção); o adjunto liga-se a substantivos exprimindo posse, agente ou
+qualidade.
+:::
+
+**Critérios práticos** para distinguir:
+
+1. **Paciente × agente/posse**: se o termo **recebe** (sofre) a ação/noção do nome, é
+   **CN**; se **pratica** ou **possui**, é **adjunto adnominal**.
+   - "A prisão **do bandido**" → o bandido é preso (paciente) → **CN**.
+   - "A ordem **do juiz**" → o juiz dá a ordem (agente) → **adjunto adnominal**.
+2. **Tipo de nome**: o CN liga-se sobretudo a nomes **abstratos**; o adjunto pode ligar-se
+   a qualquer substantivo, inclusive concretos.
+3. **Preposição obrigatória**: o CN **sempre** tem preposição; o adjunto adnominal pode
+   ou não ter (o adjetivo *bonito*, por exemplo, é adjunto sem preposição).
+
+::: {.callout-important}
+## O teste da ação nominalizada
+Muitos nomes que pedem CN derivam de verbos (*destruição* ← destruir; *nomeação* ←
+nomear). Transforme o nome no verbo e veja quem é sujeito e quem é objeto:
+
+- "A destruição **da cidade** (pelos inimigos)": *destruir* → a cidade é **objeto**
+  (é destruída) → **CN**. (Os inimigos seriam o agente = adjunto/agente.)
+- "A chegada **do trem**": *chegar* → o trem é **sujeito** (o trem chega) → **adjunto
+  adnominal**.
+
+Se o termo corresponde ao **objeto** do verbo subjacente, é CN; se corresponde ao
+**sujeito** (agente), é adjunto.
+:::
+
+## Agente da passiva
+
+**Agente da passiva** é o termo que, na **voz passiva**, indica **quem pratica** a ação
+(o que seria o sujeito na voz ativa). Vem introduzido pelas preposições **por** (e suas
+contrações *pelo/pela*) ou, mais raramente, **de**:
+
+- "O livro foi lido **pelos alunos**." (agente da passiva: *pelos alunos*)
+- "A cidade foi cercada **pelo inimigo**."
+- "Ela é respeitada **de/por todos**."
+
+O agente da passiva só existe na **voz passiva**. Ao converter para a ativa, ele se
+torna o **sujeito**: "**Os alunos** leram o livro". Reconhecê-lo é, portanto, ligado à
+conversão de voz (@sec-cap-34).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Agente da passiva × adjunto adverbial
+Cuidado para não confundir o agente da passiva com um adjunto adverbial introduzido por
+*por/de*: "O muro foi pintado **pelo pedreiro**" (agente da passiva — o pedreiro pintou)
+× "Passei **pela praça**" (adjunto adverbial de lugar). O agente da passiva **pratica a
+ação** do verbo passivo; o adjunto exprime circunstância. Só há agente da passiva se o
+verbo estiver na voz passiva.
+:::
+
+## 📋 Quadro-resumo
+
+| Termo | Completa/liga-se a | Marca | Exemplo |
+|---|---|---|---|
+| **Complemento nominal** | nome abstrato, adjetivo, advérbio | preposição (paciente) | "amor **aos filhos**" |
+| **Adjunto adnominal** | qualquer substantivo | posse/agente/qualidade | "livro **do aluno**" |
+| **Agente da passiva** | verbo na voz passiva | *por/pelo*, *de* | "lido **pelos alunos**" |
+
+Em uma linha: o **complemento nominal** completa um nome (o termo é **paciente**, com
+preposição); distingue-se do **adjunto adnominal** (posse/agente); e o **agente da
+passiva** (*por/pelo*, *de*) é quem pratica a ação na voz passiva.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir CN e adjunto adnominal.** Teste paciente × agente/posse: "a prisão do
+  bandido" (paciente → CN) × "a decisão do juiz" (agente → adjunto).
+- **Achar que todo "preposição + substantivo" ligado a nome é adjunto.** Se o nome é
+  abstrato e o termo é paciente, é **complemento nominal**.
+- **Confundir agente da passiva com adjunto adverbial.** O agente pratica a ação do verbo
+  passivo ("pintado **pelo pintor**"); o adjunto é circunstância ("passei **pela
+  rua**").
+- **Procurar agente da passiva na voz ativa.** Ele só existe na **voz passiva**. Na ativa
+  correspondente, vira sujeito.
+- **Esquecer que o CN sempre tem preposição.** Um adjetivo sem preposição ligado ao nome
+  (*casa bonita*) é adjunto adnominal, nunca complemento nominal.
+
+## ✍️ Exercícios
+
+**1.** Identifique o complemento nominal: "Tenho necessidade de silêncio."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Complemento nominal: **de silêncio**. Completa o substantivo abstrato *necessidade*, que
+não se basta sozinho (necessidade **de quê?**), ligando-se a ele pela preposição *de*
+exigida. O silêncio é o alvo da necessidade (paciente da noção).
+:::
+
+**2.** (Estilo ENEM) Em "A votação da lei ocorreu ontem", o termo "da lei" é:
+
+a) adjunto adnominal, pois a lei pratica a votação;
+b) complemento nominal, pois a lei é votada (paciente);
+c) objeto direto;
+d) agente da passiva;
+e) sujeito.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Da lei* é **complemento nominal**: completa o nome abstrato
+*votação* (derivado de *votar*), e a lei é **paciente** — é **votada** (objeto do verbo
+subjacente *votar a lei*). Como o termo corresponde ao objeto da ação nominalizada, é CN,
+não adjunto.
+:::
+
+**3.** Classifique como CN ou adjunto adnominal: (a) "a chegada do trem"; (b) "a
+destruição da floresta"; (c) "o carro do vizinho".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "a chegada **do trem**" → **adjunto adnominal** (o trem *chega* — é agente/sujeito de
+chegar). (b) "a destruição **da floresta**" → **complemento nominal** (a floresta é
+*destruída* — paciente). (c) "o carro **do vizinho**" → **adjunto adnominal** (posse: o
+vizinho possui o carro). O critério é paciente (CN) × agente/posse (adjunto).
+:::
+
+**4.** Identifique o agente da passiva: "O relatório foi elaborado pela equipe técnica."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Agente da passiva: **pela equipe técnica**. Está na voz passiva ("foi elaborado"), e o
+agente — quem praticou a ação de elaborar — vem introduzido pela preposição *por* (na
+contração *pela*). Na voz ativa: "A equipe técnica elaborou o relatório" (o agente vira
+sujeito).
+:::
+
+**5.** Aplique o teste da ação nominalizada para classificar "da cidade" em "A defesa da
+cidade foi heroica".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Transformando *defesa* no verbo *defender*: "defender **a cidade**" — a cidade é
+**objeto** (é defendida). Como o termo corresponde ao objeto da ação, "da cidade" é
+**complemento nominal** (a cidade é paciente, alvo da defesa). Se fosse "a defesa dos
+soldados" (os soldados defendem — agente/sujeito), seria adjunto adnominal.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que o termo destacado é **complemento
+nominal**:
+
+a) O livro **do professor** sumiu;
+b) A casa **de tijolos** é firme;
+c) A obediência **às regras** é essencial;
+d) O muro **do jardim** caiu;
+e) A camisa **do time** é azul.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "A obediência **às regras**": *obediência* é nome abstrato que pede
+complemento (obediência **a quê?**), e as regras são o alvo (obedece-se **a** elas) →
+**complemento nominal**. As demais são adjuntos adnominais (posse, material, pertença).
+:::
+
+**7.** Distinga o agente da passiva do adjunto adverbial: "O quadro foi pintado por
+Portinari" × "Passamos por Portinari (cidade)".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "O quadro foi pintado **por Portinari**", *por Portinari* é **agente da passiva**: o
+verbo está na voz passiva ("foi pintado") e Portinari **praticou** a ação de pintar. Em
+"Passamos **por Portinari**" (a cidade), *por Portinari* é **adjunto adverbial de lugar**:
+indica por onde se passou, uma circunstância, e o verbo está na voz ativa. Só há agente
+da passiva quando o verbo é passivo e o termo pratica a ação.
+:::
+
+**8.** Em "Ela é favorável à proposta", classifique "à proposta" e explique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+"À proposta" é **complemento nominal**: completa o **adjetivo** *favorável*, que exige
+complemento (favorável **a quê?**), ligando-se a ele pela preposição *a* (aqui em crase:
+*à*). A proposta é o alvo da atitude favorável. Adjetivos como *favorável*, *fiel*,
+*contrário*, *capaz* pedem complemento nominal.
+:::
+
+**9.** Converta para a voz ativa, identificando o que era agente da passiva: "As metas
+foram definidas pela diretoria."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Voz ativa: "**A diretoria** definiu as metas." O agente da passiva ("pela diretoria")
+torna-se o **sujeito** da ativa (a diretoria); o sujeito paciente da passiva ("as metas")
+torna-se o **objeto direto**; o verbo passa de "foram definidas" (ser + particípio) para
+"definiu" (ativa, mesmo tempo).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Em 'O amor à pátria move heróis', o
+termo 'à pátria' é adjunto adnominal, pois indica posse."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** "À pátria" é **complemento nominal**, não adjunto adnominal. Completa o nome
+abstrato *amor* (amor **a quê?**), e a pátria é o **alvo/paciente** do amor (ama-se **a**
+pátria), não a possuidora de nada. Não há relação de posse: a pátria recebe o amor. Por
+isso é complemento nominal.
+:::
+
+## 📚 Referências
+
+O complemento nominal, sua distinção do adjunto adnominal e o agente da passiva seguem
+Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]. A discussão sobre os limites
+entre complemento nominal e adjunto — um dos pontos mais controversos da análise
+sintática — está aprofundada em Castilho [@castilho2010] e Perini [@perini2010]. Os
+adjuntos adnominal e adverbial, termos acessórios, são o tema do @sec-cap-41.
+
+::: {#refs}
 :::
