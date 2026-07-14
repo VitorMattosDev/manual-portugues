@@ -139,18 +139,18 @@ A @fig-funcoes-elementos resume a correspondência entre elemento e função.
 
 ```{.tikz}
 %%| filename: funcoes-elementos
-%%| alt: Tabela-diagrama pareando cada elemento da comunicação com a função da linguagem que o enfatiza: emissor–emotiva, receptor–conativa, mensagem–poética, canal–fática, código–metalinguística, referente–referencial.
+%%| alt: Diagrama pareando cada elemento da comunicação com a função da linguagem que o enfatiza: emissor–emotiva, receptor–conativa, mensagem–poética, canal–fática, código–metalinguística, referente–referencial.
 
-\begin{tikzpicture}[font=\small, node distance=0mm]
-  \matrix[matrix of nodes, nodes={draw=manualgray, minimum width=34mm, minimum height=8mm, anchor=center, align=center, font=\small}, row sep=-\pgflinewidth, column sep=-\pgflinewidth] (m) {
-    |[fill=manualblue!12]| \textbf{Elemento} & |[fill=manualred!12]| \textbf{Função} \\
-    Emissor & Emotiva (expressiva) \\
-    Receptor & Conativa (apelativa) \\
-    Mensagem & Poética (estética) \\
-    Canal (contato) & Fática \\
-    Código & Metalinguística \\
-    Referente/contexto & Referencial (denotativa) \\
-  };
+\begin{tikzpicture}[
+  font=\small,
+  elem/.style={draw=manualblue, thick, fill=manualblue!10, minimum width=34mm, minimum height=8mm, align=center, inner sep=2pt},
+  func/.style={draw=manualred, thick, fill=manualred!10, minimum width=44mm, minimum height=8mm, align=center, inner sep=2pt},
+]
+  \foreach \i/\e/\f in {0/{Emissor}/{Emotiva (expressiva)}, 1/{Receptor}/{Conativa (apelativa)}, 2/{Mensagem}/{Poética (estética)}, 3/{Canal (contato)}/{Fática}, 4/{Código}/{Metalinguística}, 5/{Referente/contexto}/{Referencial (denotativa)}} {
+    \node[elem] (e\i) at (0, -\i*0.95) {\e};
+    \node[func, right=8mm of e\i] (f\i) {\f};
+    \draw[-{Stealth[length=2mm]}, manualgray] (e\i) -- (f\i);
+  }
 \end{tikzpicture}
 ```
 
