@@ -4,22 +4,299 @@ title: "Formação de palavras I: derivação"
 
 # Formação de palavras I: derivação {#sec-cap-23}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 4 — Morfologia I: Estrutura e Formação de Palavras.
+> "Uma língua não precisa inventar do nada: ela fabrica palavras novas a partir das que
+> já tem."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Como o português cria palavras novas? Raramente do nada — quase sempre a partir de
+material que já existe. O processo mais produtivo é a **derivação**: formar uma palavra
+nova acrescentando **afixos** (prefixos e sufixos) a uma palavra ou radical existente.
+De *feliz* nascem *infeliz*, *felizmente*, *felicidade*; de *terra*, *aterrar*,
+*enterrar*, *terreno*. Uma única base gera dezenas de derivados — é assim que o léxico
+cresce de modo econômico e regular.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo trata da **derivação** (o próximo, @sec-cap-24, tratará da composição e
+dos demais processos). Vamos classificar seus tipos — prefixal, sufixal, parassintética,
+regressiva, imprópria — e, sobretudo, entender a diferença crucial entre **prefixação +
+sufixação** e **parassíntese**, uma das pegadinhas mais clássicas das provas de
+morfologia.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Conceituar** derivação como processo de formação por afixos;
+- **Classificar** os tipos de derivação (prefixal, sufixal, parassintética, regressiva,
+  imprópria);
+- **Distinguir** parassíntese de derivação prefixal e sufixal;
+- **Reconhecer** o valor semântico dos principais afixos;
+- **Identificar** a mudança de classe provocada pela derivação;
+- **Analisar** palavras quanto ao seu processo de formação.
+
+## Palavras primitivas e derivadas
+
+Antes dos tipos, dois conceitos:
+
+- **Palavra primitiva**: não deriva de outra da língua; é a base (*pedra*, *feliz*,
+  *terra*, *mar*).
+- **Palavra derivada**: forma-se a partir de outra por acréscimo de afixos (*pedreiro*,
+  *infeliz*, *aterrar*, *marítimo*).
+
+A derivação parte sempre de uma base (palavra primitiva ou já derivada) e lhe acrescenta
+afixos. Vejamos os tipos.
+
+## Tipos de derivação
+
+A @fig-tipos-derivacao organiza os cinco tipos.
+
+::: {#fig-tipos-derivacao}
+
+```{.tikz}
+%%| filename: tipos-derivacao
+%%| alt: Diagrama com cinco tipos de derivação, cada um numa caixa com definição e exemplo. Prefixal: só prefixo, refazer. Sufixal: só sufixo, felizmente. Parassintética: prefixo e sufixo ao mesmo tempo, obrigatoriamente juntos, entristecer. Regressiva: redução, o substantivo perda vem do verbo perder. Imprópria: muda de classe sem afixo, o jantar como substantivo.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=left, text width=52mm, minimum height=15mm, inner sep=5pt, anchor=north},
+]
+  \node[cx] (a) at (0,0) {\textbf{Prefixal}: só prefixo\\{\scriptsize re + fazer $\to$ \emph{refazer}}};
+  \node[cx, right=5mm of a] (b) {\textbf{Sufixal}: só sufixo\\{\scriptsize feliz + mente $\to$ \emph{felizmente}}};
+  \node[cx, draw=manualred, fill=manualred!8, below=4mm of a, text width=52mm] (c) {\textbf{Parassintética}: prefixo \emph{e} sufixo simultâneos e inseparáveis\\{\scriptsize en + trist(e) + ecer $\to$ \emph{entristecer}}};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, below=4mm of b, text width=52mm] (d) {\textbf{Regressiva}: redução (cria subst. de verbo)\\{\scriptsize perder $\to$ \emph{perda}; combater $\to$ \emph{combate}}};
+  \node[cx, draw=manualyellow, fill=manualyellow!14, below=23mm of a, text width=110mm] (e) {\textbf{Imprópria (conversão)}: muda de classe sem afixo — \emph{o jantar} (verbo $\to$ substantivo); \emph{um não} (advérbio $\to$ substantivo)};
+\end{tikzpicture}
+```
+
+Os cinco tipos de derivação: prefixal, sufixal, parassintética (prefixo e sufixo
+inseparáveis), regressiva (redução) e imprópria (mudança de classe sem afixo).
+:::
+
+### Derivação prefixal
+
+Acrescenta-se **apenas um prefixo** à base: *re-* + *fazer* → *refazer*; *des-* +
+*leal* → *desleal*; *in-* + *feliz* → *infeliz*. A base continua sendo palavra da
+língua sem o prefixo (*fazer*, *leal*, *feliz* existem).
+
+### Derivação sufixal
+
+Acrescenta-se **apenas um sufixo**: *feliz* + *-mente* → *felizmente*; *pedra* +
+*-eiro* → *pedreiro*; *nação* + *-al* → *nacional*. A base existe sem o sufixo.
+
+### Derivação parassintética
+
+Aqui está a distinção decisiva. Na **parassíntese**, acrescentam-se **prefixo e sufixo
+ao mesmo tempo**, e eles são **inseparáveis**: a palavra não existe nem só com o
+prefixo, nem só com o sufixo — os dois entram **juntos**, de uma vez.
+
+Exemplo: *entristecer* (*en-* + *trist(e)* + *-ecer*). Teste: existe *"tristecer"*
+(só com sufixo)? Não. Existe *"entriste"* (só com prefixo)? Não. Como **nenhum** dos
+dois existe isoladamente, os afixos entraram simultaneamente → **parassíntese**.
+
+::: {.callout-important}
+## Parassíntese × prefixação-e-sufixação: o teste
+Quando uma palavra tem prefixo **e** sufixo, faça o teste de retirada:
+
+- Se, retirando **só o prefixo**, sobra palavra existente, **ou** retirando **só o
+  sufixo** sobra palavra existente → é **derivação prefixal e sufixal** (não
+  parassíntese). Ex.: *infelizmente* → existe *felizmente* (sem *in-*) e *infeliz*
+  (sem *-mente*).
+- Se **nem** com um **nem** com o outro sobra palavra existente → é **parassíntese**.
+  Ex.: *entristecer* → não existe *"tristecer"* nem *"entriste"*.
+
+Regra prática: a maioria dos **verbos** formados de nome/adjetivo com *a-/en-* + *-ecer/
+-izar/-ar* é parassintética: *amanhecer*, *anoitecer*, *envelhecer*, *esfriar*,
+*aportuguesar*.
+:::
+
+### Derivação regressiva
+
+Forma-se a palavra nova **reduzindo** a base, em vez de acrescentar afixo. Cria
+tipicamente **substantivos derivados de verbos** (os chamados **deverbais**): *perder*
+→ *perda*; *combater* → *combate*; *atacar* → *ataque*; *custear* → *custo*; *embarcar*
+→ *embarque*. O substantivo é mais "curto" que o verbo — daí "regressiva".
+
+### Derivação imprópria (ou conversão)
+
+A palavra **muda de classe gramatical sem alterar a forma** — não se acrescenta nem
+retira nada. O contexto faz a mudança:
+
+- verbo → substantivo: *o jantar* está pronto (de *jantar*); *o olhar* dela.
+- adjetivo → substantivo: *os bons* vencem (de *bom*).
+- advérbio → substantivo: *o porquê* da questão; *um não* seco.
+- substantivo → adjetivo: um homem *fera*; um verde *garrafa*.
+
+## O valor semântico dos afixos
+
+Os afixos carregam significados razoavelmente estáveis, o que ajuda a interpretar
+palavras desconhecidas. Alguns exemplos:
+
+| Prefixo | Sentido | Exemplo |
+|---|---|---|
+| *des-, in-, a-* | negação, ausência | *desfazer*, *incapaz*, *amoral* |
+| *re-* | repetição, retorno | *refazer*, *rever* |
+| *pré-, ante-* | anterioridade | *prever*, *antever* |
+| *pós-* | posterioridade | *pós-guerra* |
+| *sub-, hipo-* | posição inferior | *subsolo*, *hipoderme* |
+| *super-, hiper-* | excesso, posição superior | *superpovoado*, *hipertenso* |
+
+| Sufixo | Forma | Exemplo |
+|---|---|---|
+| *-mente* | advérbios (de adjetivo) | *rapidamente* |
+| *-dade, -ez(a), -ura* | substantivos abstratos | *bondade*, *beleza*, *loucura* |
+| *-eiro, -ista* | agente/ofício | *pedreiro*, *dentista* |
+| *-ção, -mento* | ação (de verbo) | *formação*, *casamento* |
+| *-ável, -ível* | possibilidade (adjetivos) | *amável*, *legível* |
+
+## 📋 Quadro-resumo
+
+| Tipo | Como se forma | Exemplo |
+|---|---|---|
+| **Prefixal** | só prefixo | *refazer*, *infeliz* |
+| **Sufixal** | só sufixo | *felizmente*, *pedreiro* |
+| **Parassintética** | prefixo + sufixo **inseparáveis** | *entristecer*, *anoitecer* |
+| **Regressiva** | redução (subst. de verbo) | *perda*, *ataque* |
+| **Imprópria** | muda de classe sem afixo | *o jantar*, *os bons* |
+
+Em uma linha: a **derivação** forma palavras por afixos — só prefixo (**prefixal**), só
+sufixo (**sufixal**), os dois juntos e inseparáveis (**parassintética**), por redução
+(**regressiva**) ou por mudança de classe sem afixo (**imprópria**).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir parassíntese com prefixação-e-sufixação.** Faça o teste: se sobra palavra
+  ao retirar só o prefixo **ou** só o sufixo, **não** é parassíntese (*infelizmente*).
+  Se não sobra em nenhum caso, é parassíntese (*entristecer*).
+- **Achar que toda palavra com prefixo e sufixo é parassintética.** *Deslealdade* tem
+  *des-* e *-dade*, mas existe *lealdade* (sem *des-*) → **não** é parassíntese.
+- **Não reconhecer a derivação regressiva.** *Perda*, *combate*, *ataque* vêm dos verbos
+  *perder*, *combater*, *atacar* por **redução**, não por sufixo.
+- **Ignorar a derivação imprópria.** *O jantar*, *os bons*, *o porquê* mudam de classe
+  **sem** afixo — é conversão, não outro processo.
+- **Segmentar sem testar a existência das bases.** A classificação depende de saber se a
+  base intermediária existe na língua.
+
+## ✍️ Exercícios
+
+**1.** Distinga palavra **primitiva** de **derivada**, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Palavra **primitiva** não deriva de outra da língua; é base para outras (*pedra*,
+*feliz*, *terra*). Palavra **derivada** forma-se a partir de outra por afixos
+(*pedreiro*, de *pedra*; *infeliz*, de *feliz*; *aterrar*, de *terra*). A primitiva é o
+ponto de partida; a derivada, o resultado do processo.
+:::
+
+**2.** (Estilo ENEM) A palavra *entristecer* é formada por:
+
+a) derivação prefixal;
+b) derivação sufixal;
+c) derivação parassintética;
+d) derivação regressiva;
+e) derivação imprópria.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** *Entristecer* (*en-* + *trist(e)* + *-ecer*) é **parassintética**:
+não existe *"tristecer"* (só sufixo) nem *"entriste"* (só prefixo), logo o prefixo e o
+sufixo entraram **simultaneamente** e são inseparáveis.
+:::
+
+**3.** Classifique o processo de formação: (a) *refazer*; (b) *anoitecer*; (c) *ataque*
+(de atacar); (d) *o olhar*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *refazer* → derivação **prefixal** (só *re-*; existe *fazer*). (b) *anoitecer* →
+**parassintética** (não existe *"noitecer"* nem *"anoite"*). (c) *ataque* → **regressiva**
+(substantivo reduzido do verbo *atacar*). (d) *o olhar* → **imprópria** (verbo *olhar*
+convertido em substantivo pelo artigo).
+:::
+
+**4.** Aplique o teste da parassíntese a *infelizmente* e a *entardecer*, concluindo o
+tipo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Infelizmente*: retirando só o prefixo, sobra *felizmente* (existe); retirando só o
+sufixo, sobra *infeliz* (existe). Como sobra palavra em ao menos um caso → **derivação
+prefixal e sufixal**, não parassíntese. *Entardecer*: não existe *"tardecer"* (só
+sufixo) nem *"entarde"* (só prefixo) → **parassíntese**. O teste distingue os dois.
+:::
+
+**5.** Explique a derivação **regressiva** e dê dois exemplos de substantivos deverbais.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Na derivação **regressiva**, a palavra nova forma-se por **redução** da base, e não por
+acréscimo de afixo. Cria tipicamente **substantivos a partir de verbos** (deverbais),
+mais curtos que eles: *perder* → *perda*; *combater* → *combate*; *embarcar* →
+*embarque*; *custear* → *custo*. O substantivo "encurta" o verbo.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que **não** há derivação parassintética:
+
+a) envelhecer;
+b) amanhecer;
+c) deslealdade;
+d) esfriar;
+e) empobrecer.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** *Deslealdade* tem prefixo (*des-*) e sufixo (*-dade*), mas existe
+*lealdade* (sem o prefixo) → é derivação prefixal e sufixal, **não** parassíntese. As
+demais (*envelhecer*, *amanhecer*, *esfriar*, *empobrecer*) são parassintéticas: não
+existem sem um dos afixos.
+:::
+
+**7.** Dê o valor semântico dos prefixos e forme uma palavra: (a) *re-*; (b) *des-*;
+(c) *pré-*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *re-* = repetição/retorno → *refazer*, *reler*. (b) *des-* = negação/separação →
+*desfazer*, *desleal*. (c) *pré-* = anterioridade → *prever*, *pré-histórico*. Os
+prefixos têm significados estáveis que ajudam a interpretar palavras desconhecidas.
+:::
+
+**8.** Identifique o tipo de derivação imprópria: (a) "*O jantar* está pronto"; (b) "*Os
+bons* triunfam"; (c) "Ele deu *um não* seco".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Todas são derivação **imprópria** (conversão), com mudança de classe sem afixo: (a)
+verbo *jantar* → **substantivo** (o artigo *o* o substantiva); (b) adjetivo *bons* →
+**substantivo** (o artigo *os*); (c) advérbio *não* → **substantivo** (o artigo *um*).
+O contexto e o determinante operam a mudança de classe.
+:::
+
+**9.** A palavra *deslealdade* tem quantos afixos e por que **não** é parassintética?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Tem **dois** afixos: o prefixo *des-* e o sufixo *-dade*. **Não** é parassintética
+porque a base intermediária *lealdade* **existe** na língua (leal + -dade): retirando só
+o prefixo *des-*, ainda sobra palavra. Na parassíntese, os afixos são inseparáveis e
+nenhuma retirada isolada deixa palavra existente. Aqui, o processo foi: *leal* → *lealdade*
+→ *deslealdade* (derivação sufixal seguida de prefixal).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "A palavra *combate* (substantivo)
+forma-se do verbo *combater* por derivação sufixal."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Combate* forma-se de *combater* por derivação **regressiva** (redução), não
+sufixal: o substantivo resulta do **encurtamento** do verbo, sem acréscimo de sufixo.
+Seria sufixal se houvesse um sufixo acrescentado (como em *combatente*, com *-nte*).
+:::
+
+## 📚 Referências
+
+Os processos de derivação e a distinção entre parassíntese e afixação múltipla seguem
+Câmara Jr. [@camarajr1970], Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017];
+uma abordagem descritiva da produtividade dos afixos está em Castilho [@castilho2010]. A
+composição e os demais processos de formação são o tema do @sec-cap-24.
+
+::: {#refs}
 :::
