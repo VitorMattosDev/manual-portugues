@@ -35,6 +35,9 @@ jobs:
           # tlnet costuma estar à frente do tlmgr do TinyTeX; atualizar antes de instalar.
           "$TLMGR" update --self
           "$TLMGR" install standalone pgf pgfplots dvisvgm xcolor amsmath amsfonts
+          # Persistir o bin do TinyTeX no PATH dos passos seguintes (render).
+          # Sem isto, o filtro TikZ falha com "pdflatex/dvisvgm not found on PATH".
+          echo "$(dirname "$TLMGR")" >> "$GITHUB_PATH"
 
       - name: Install Chrome (headless shell for Mermaid)
         run: quarto install chrome-headless-shell
