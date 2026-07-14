@@ -736,7 +736,106 @@
     "href": "capitulos/cap-07-fonema-e-letra.html",
     "title": "8  Fonema e letra",
     "section": "",
-    "text": "9 Fonema e letra\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "9 Fonema e letra\nAbrimos aqui o Volume 2, dedicado aos sons da língua. E a primeira coisa a aprender é também a mais contrária ao senso comum: som e letra não são a mesma coisa. Estamos tão habituados à escrita que tendemos a pensar a língua como um conjunto de letras — mas a língua é, antes de tudo, falada, e a escrita é apenas uma tentativa (imperfeita) de registrá-la. Uma criança fala anos antes de escrever; milhares de línguas no mundo nunca foram escritas; e mesmo no português a correspondência entre o que se ouve e o que se grafa está longe de ser perfeita.\nDistinguir fonema (unidade de som) de letra (unidade de escrita) é a base de toda a fonética e a fonologia — e a chave para não errar contagens de fonemas, um clássico de prova. Neste capítulo estabelecemos essa distinção e aprendemos a contar fonemas e letras com segurança, preparando o terreno para a classificação dos sons (Capítulo 10) e para tudo o que vem depois.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-07-fonema-e-letra.html#objetivos-de-aprendizagem",
+    "title": "8  Fonema e letra",
+    "section": "9.1 🎯 Objetivos de aprendizagem",
+    "text": "9.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nDistinguir fonema (som) de letra (grafia) e de fone (realização concreta);\nReconhecer o fonema como unidade distintiva de significado;\nContar fonemas e letras de uma palavra sem se deixar enganar pela escrita;\nIdentificar os casos em que letra e fonema não se correspondem (dígrafos, letras mudas, uma letra para dois sons e vice-versa);\nEmpregar corretamente a notação entre barras /​/ (fonema) e colchetes [ ] (fone);\nAnalisar pares mínimos para provar a existência de um fonema.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html#fonema-a-menor-unidade-distintiva-de-som",
+    "href": "capitulos/cap-07-fonema-e-letra.html#fonema-a-menor-unidade-distintiva-de-som",
+    "title": "8  Fonema e letra",
+    "section": "9.2 Fonema: a menor unidade distintiva de som",
+    "text": "9.2 Fonema: a menor unidade distintiva de som\nFonema é a menor unidade sonora capaz de distinguir significados numa língua. A definição parece abstrata, mas a ideia é simples: um fonema é um som que, trocado por outro, muda a palavra.\nCompare pato e bato: a única diferença está no primeiro som, /p/ contra /b/. Essa troca muda o significado — logo, /p/ e /b/ são fonemas distintos do português. O mesmo teste vale para mala / sala / fala / cala, ou para pé / pá / pó (muda a vogal, muda a palavra). A esses pares que se distinguem por um único fonema chamamos pares mínimos, e são a prova concreta de que dois sons são fonemas diferentes.\n\n\n\n\n\n\nNotaFonema × fone: o abstrato e o concreto\n\n\n\nO fonema é uma unidade abstrata do sistema (o /t/ “ideal” do português). O fone é a realização física, concreta, desse fonema na fala. O fonema /t/ realiza-se como [t] em tomate, mas como [t͡ʃ] (o “tch”) em tia, na maior parte do Brasil. São dois fones do mesmo fonema — variantes que não mudam o significado. Notação: fonema entre barras /t/; fone entre colchetes [t͡ʃ]. Neste volume, o foco é o fonema.\n\n\nRepare: o fonema não tem significado próprio — /p/ não significa nada —, mas serve para diferenciar significados. É uma peça do sistema, não uma palavra. Por isso se diz que o fonema é uma unidade distintiva.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html#letra-a-unidade-da-escrita",
+    "href": "capitulos/cap-07-fonema-e-letra.html#letra-a-unidade-da-escrita",
+    "title": "8  Fonema e letra",
+    "section": "9.3 Letra: a unidade da escrita",
+    "text": "9.3 Letra: a unidade da escrita\nLetra (ou grafema) é a menor unidade da escrita, um sinal gráfico usado para representar, na medida do possível, os fonemas. O português usa o alfabeto latino, com 26 letras (após o Acordo de 1990, que reincorporou k, w e y).\nO ponto decisivo é que a correspondência entre letras e fonemas não é perfeita. Um sistema de escrita ideal teria uma letra para cada fonema e um fonema para cada letra. Nenhuma língua alcança isso plenamente, e o português tem vários descompassos, que a Figura 9.1 ilustra e as seções seguintes detalham.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 9.1: Quatro descompassos entre letra e fonema: o dígrafo (duas letras, um som), o x como /ks/ (uma letra, dois sons), a letra muda (letra sem som) e o par mínimo, que prova a distinção fonêmica.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html#os-descompassos-entre-letra-e-fonema",
+    "href": "capitulos/cap-07-fonema-e-letra.html#os-descompassos-entre-letra-e-fonema",
+    "title": "8  Fonema e letra",
+    "section": "9.4 Os descompassos entre letra e fonema",
+    "text": "9.4 Os descompassos entre letra e fonema\nContar fonemas exige atenção a cinco situações em que a escrita “engana”:\n\n9.4.1 1. Dígrafos: duas letras, um fonema\nUm dígrafo é o encontro de duas letras que representam um único fonema. Os principais: ch (/ʃ/), lh (/ʎ/), nh (/ɲ/), rr (/ʀ/ ou /χ/), ss (/s/), qu e gu antes de e/i (/k/, /g/), além de sc, sç, xc. Em chave, o ch conta como um fonema; em carro, o rr conta como um só. Voltaremos aos dígrafos em detalhe no Capítulo 11.\n\n\n9.4.2 2. A letra x pode valer por dois fonemas\nA letra x às vezes representa o grupo /ks/: em táxi, fixo, tórax, o x soa como dois fonemas (/k/ + /s/). Ali, uma letra corresponde a dois fonemas — o oposto do dígrafo. (Em outras palavras, o x vale por um só fonema: /ʃ/ em xale, /z/ em exame, /s/ em próximo.)\n\n\n9.4.3 3. Letras mudas: letra sem fonema\nAlgumas letras não representam som algum. O caso clássico é o h inicial (hora, homem, hoje): existe na escrita por razões etimológicas, mas não corresponde a nenhum fonema. Em hora, há 4 letras e apenas 3 fonemas.\n\n\n9.4.4 4. Um fonema representado por letras diferentes\nO mesmo fonema pode ser grafado de várias maneiras. O fonema /s/, por exemplo, aparece como s (sapo), ss (passo), ç (caça), c (cedo), sc (nascer), x (próximo), xc (exceção). Isso não muda a contagem de fonemas — mas explica muitas dúvidas de ortografia (Volume 3).\n\n\n9.4.5 5. Uma letra representando fonemas diferentes\nA mesma letra pode valer por fonemas distintos conforme o contexto. A letra x já vimos; o e e o o podem ser abertos ou fechados (/ɛ/ e /e/; /ɔ/ e /o/), como em avô /o/ e avó /ɔ/; o m e o n em final de sílaba não representam consoante, mas apenas a nasalização da vogal anterior (em campo, o m não é um fonema consonantal /m/, e sim marca a vogal nasal ɐ̃).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html#como-contar-fonemas-um-método",
+    "href": "capitulos/cap-07-fonema-e-letra.html#como-contar-fonemas-um-método",
+    "title": "8  Fonema e letra",
+    "section": "9.5 Como contar fonemas: um método",
+    "text": "9.5 Como contar fonemas: um método\nDiante de uma palavra, para contar fonemas com segurança, pronuncie-a lentamente e siga estes passos:\n\nIgnore a escrita e ouça os sons. Conte pelo que se pronuncia, não pelo que se vê.\nTrate cada dígrafo como um só fonema (ch, lh, nh, rr, ss, qu/gu antes de e/i, sc…).\nDesconte as letras mudas (o h inicial; o u de que/gui quando não soa).\nConte o x = /ks/ como dois fonemas.\nLembre que m/n de nasalização não é fonema à parte: em sim, há /s/ + vogal nasal = 2 ou 3 fonemas conforme a análise adotada; as bancas em geral contam a vogal nasal como um fonema e o m como mera marca (sim = /s/ + /ĩ/ = 2 fonemas).\n\n\n\nchuva: ch-u-v-a → /ʃ/ /u/ /v/ /a/ = 4 fonemas, 5 letras.\nhoje: h(mudo)-o-j-e → /o/ /ʒ/ /i/ = 3 fonemas, 4 letras.\nfixo: f-i-x(=ks)-o → /f/ /i/ /k/ /s/ /o/ = 5 fonemas, 4 letras.\nguerra: gu(=/g/)-e-rr(=1)-a → /g/ /e/ /ʀ/ /a/ = 4 fonemas, 6 letras.\ncampo: c-a(nasal)-m-p-o → /k/ /ɐ̃/ /p/ /o/ = 4 fonemas, 5 letras (o m só nasaliza).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html#quadro-resumo",
+    "href": "capitulos/cap-07-fonema-e-letra.html#quadro-resumo",
+    "title": "8  Fonema e letra",
+    "section": "9.6 📋 Quadro-resumo",
+    "text": "9.6 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nSituação\nEfeito na contagem\nExemplo\n\n\n\n\nDígrafo\n2 letras = 1 fonema\nchave, carro, passo\n\n\nLetra muda\nletra = 0 fonema\nhora, hoje\n\n\nLetra x = /ks/\n1 letra = 2 fonemas\ntáxi, fixo\n\n\nUm fonema, várias letras\nnão altera contagem\n/s/ = s, ss, ç, c, sc, x\n\n\nNasalização (m/n final)\nm/n não é fonema à parte\ncampo, sim\n\n\n\nEm uma linha: fonema é som distintivo (entre barras /​/); letra é sinal gráfico; e a contagem de fonemas se faz pelos sons pronunciados, atento a dígrafos, letras mudas e ao x = /ks/.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-07-fonema-e-letra.html#pegadinhas-e-erros-comuns",
+    "title": "8  Fonema e letra",
+    "section": "9.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "9.7 ⚠️ Pegadinhas e erros comuns\n\nContar letras achando que conta fonemas. Chave tem 5 letras, mas 4 fonemas (o dígrafo ch é um só som). É o erro número um em prova de fonologia.\nEsquecer que o x pode valer /ks/. Em táxi, fixo, tórax, uma letra vale por dois fonemas — aumenta a contagem, ao contrário do dígrafo.\nContar o h inicial como fonema. O h de hora, homem, hoje é mudo: letra sem som.\nTratar o m/n de nasalização como consoante. Em campo e sim, o m não é o fonema /m/; apenas indica que a vogal anterior é nasal.\nConfundir fonema com fone. Fonema (/t/) é a unidade abstrata do sistema; fone ([t] ou [t͡ʃ]) é a realização concreta. O “tch” de tia é um fone do fonema /t/, não um fonema à parte.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html#exercícios",
+    "href": "capitulos/cap-07-fonema-e-letra.html#exercícios",
+    "title": "8  Fonema e letra",
+    "section": "9.8 ✍️ Exercícios",
+    "text": "9.8 ✍️ Exercícios\n1. Defina fonema e explique por que se diz que ele é uma unidade “distintiva”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nFonema é a menor unidade sonora capaz de distinguir significados numa língua. Diz-se “distintiva” porque o fonema, em si, não tem significado, mas sua troca por outro altera o significado da palavra: em pato / bato, trocar /p/ por /b/ muda a palavra — logo, /p/ e /b/ são fonemas distintos. O fonema serve, portanto, para diferenciar significados.\n\n\n\n2. (Estilo ENEM) Assinale a palavra em que o número de letras é maior que o número de fonemas:\n\ntáxi;\nfixo;\nchuva;\npróximo (considere x = /s/);\nexato (considere x = /z/).\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). Chuva tem 5 letras (c-h-u-v-a) e 4 fonemas (/ʃ/ /u/ /v/ /a/), pois ch é dígrafo (2 letras, 1 som): letras &gt; fonemas. Em táxi e fixo, o x = /ks/ faz os fonemas superarem ou igualarem as letras. Em próximo e exato, com x = 1 som, letras e fonemas se igualam.\n\n\n\n3. Conte letras e fonemas de: (a) hoje; (b) guerra; (c) fixo; (d) campo.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nhoje: 4 letras, 3 fonemas (/o/ /ʒ/ /i/ — h mudo). (b) guerra: 6 letras, 4 fonemas (/g/ /e/ /ʀ/ /a/ — gu = /g/, rr = 1). (c) fixo: 4 letras, 5 fonemas (/f/ /i/ /k/ /s/ /o/ — x = /ks/). (d) campo: 5 letras, 4 fonemas (/k/ /ɐ̃/ /p/ /o/ — o m só nasaliza a vogal).\n\n\n\n\n4. O que é um par mínimo e para que serve na análise fonológica?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPar mínimo é o par de palavras que se distinguem por um único fonema, numa mesma posição, resultando em significados diferentes (por exemplo, mala / sala, pé / pá). Serve para provar que dois sons são fonemas distintos na língua: se a troca de um som pelo outro muda o significado, os dois sons são fonemas diferentes.\n\n\n\n5. Explique a diferença entre fonema e fone, usando o t de tomate e o de tia.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO fonema é a unidade abstrata do sistema; o fone, sua realização concreta. Em tomate, o fonema /t/ realiza-se como o fone [t]; em tia, na maior parte do Brasil, o mesmo fonema /t/ realiza-se como o fone [t͡ʃ] (o “tch”). São dois fones (variantes) de um só fonema /t/: a diferença entre eles não muda o significado, apenas a pronúncia.\n\n\n\n6. Escreva três grafias diferentes para o fonema /s/ e três palavras que as ilustrem.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nExemplos (bastam três): s em sapo; ss em passo; ç em caça; c (antes de e/i) em cedo; sc em nascer; x em próximo; xc em exceção. Todas representam o mesmo fonema /s/, ilustrando que um fonema pode ter várias grafias.\n\n\n\n7. (Estilo FCC) Em qual alternativa há dígrafo?\n\nprato;\ncarro;\ngrade;\nclaro;\ntriste.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Em carro, o rr é dígrafo (duas letras, um só fonema /ʀ/). Nas demais, há encontros consonantais (pr, gr, cl, tr), em que cada consoante mantém seu próprio som — não são dígrafos. (A distinção entre dígrafo e encontro consonantal é aprofundada no Capítulo 11.)\n\n\n\n8. Por que a letra h em hora não é contada como fonema, mas o nh em ninho conta como um fonema?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO h inicial de hora é letra muda: existe por etimologia, mas não representa nenhum som — daí não ser fonema. Já em ninho, o h forma com o n o dígrafo nh, que representa um fonema, a consoante nasal palatal /ɲ/. No primeiro caso o h não tem valor sonoro; no segundo, integra um dígrafo que vale por um fonema.\n\n\n\n9. Analise a palavra exceção quanto a letras e fonemas, comentando os descompassos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nExceção tem 7 letras (e-x-c-e-ç-ã-o). Fonemas: /e/ /s/ /e/ /s/ /ɐ̃/ /w̃/ — ou, numa contagem simplificada, /e/ /s/ /e/ /s/ /ã/ /w/ = 6 fonemas. Descompassos: o grupo xc representa aqui um único /s/ (na verdade x soa /s/ e o c também tende a /s/, com a sequência xce realizada como /se/); o ç representa /s/; e o ão final é um ditongo nasal (/ɐ̃w̃/). Vários grafemas convergem para o fonema /s/, e o ão concentra dois sons vocálicos nasais.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Na palavra guitarra, há 8 letras e 8 fonemas.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. Guitarra tem 8 letras (g-u-i-t-a-r-r-a), mas 6 fonemas: /g/ /i/ /t/ /a/ /ʀ/ /a/. O gu antes de i é dígrafo que vale /g/ (o u não soa), e o rr é dígrafo que vale um só /ʀ/. Dois dígrafos reduzem a contagem de fonemas em relação às letras.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-07-fonema-e-letra.html#referências",
+    "href": "capitulos/cap-07-fonema-e-letra.html#referências",
+    "title": "8  Fonema e letra",
+    "section": "9.9 📚 Referências",
+    "text": "9.9 📚 Referências\nA distinção entre fonema, fone e letra e a noção de par mínimo são tratadas na descrição estrutural do português por Câmara Jr. (Câmara Jr., 1970); para uma exposição acessível do sistema sonoro, ver Castilho (Castilho, 2010) e Ilari & Basso (Ilari; Basso, 2006). Os aspectos ortográficos ligados aos descompassos entre letra e fonema serão desenvolvidos no Volume 3.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nILARI, Rodolfo; BASSO, Renato. O Português da Gente: a língua que estudamos, a língua que falamos. São Paulo: Contexto, 2006.",
     "crumbs": [
       "Volume 2 — Fonética e Fonologia",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fonema e letra</span>"
@@ -747,7 +846,106 @@
     "href": "capitulos/cap-08-classificacao-fonemas.html",
     "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
     "section": "",
-    "text": "10 Classificação dos fonemas: vogais, semivogais e consoantes\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "10 Classificação dos fonemas: vogais, semivogais e consoantes\nNo capítulo anterior definimos o fonema. Agora vamos classificá-lo. Todos os fonemas do português dividem-se, quanto à sua natureza, em três grandes grupos: vogais, semivogais e consoantes. A distinção parece óbvia — “vogais são a, e, i, o, u”, aprende-se na escola —, mas cuidado: estamos falando de sons, não de letras, e o critério não é a letra, e sim o modo como o ar sai da boca e o papel que o som desempenha na sílaba.\nDominar essa classificação é indispensável para os capítulos seguintes: sem saber o que é vogal e o que é semivogal, não se distingue ditongo de hiato (Capítulo 11), nem se faz a divisão silábica (Capítulo 12). É um daqueles conteúdos-base que, mal assentados, comprometem tudo o que vem depois.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-08-classificacao-fonemas.html#objetivos-de-aprendizagem",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "10.1 🎯 Objetivos de aprendizagem",
+    "text": "10.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nDefinir vogal, semivogal e consoante pelo critério articulatório e pelo papel silábico;\nDistinguir vogal de semivogal, mesmo quando grafadas com a mesma letra;\nClassificar as vogais quanto à zona de articulação, à altura, ao arredondamento e à nasalidade;\nReconhecer que i e u podem funcionar ora como vogal, ora como semivogal;\nIdentificar o número de vogais orais e nasais do português;\nAplicar a classificação à análise de palavras concretas.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html#o-critério-como-o-ar-sai",
+    "href": "capitulos/cap-08-classificacao-fonemas.html#o-critério-como-o-ar-sai",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "10.2 O critério: como o ar sai",
+    "text": "10.2 O critério: como o ar sai\nA diferença fundamental entre os três grupos está no caminho do ar ao sair dos pulmões pela boca:\n\nNa vogal, o ar sai livremente, sem obstáculo na boca. A vogal é, além disso, o som mais audível da sílaba: é ela que forma o núcleo silábico. Não há sílaba sem vogal.\nNa consoante, o ar encontra algum obstáculo (os lábios se fecham, a língua toca os dentes ou o céu da boca). Consoante significa, etimologicamente, “que soa com” — ela precisa apoiar-se numa vogal para formar sílaba.\nA semivogal é um som vocálico (o ar sai quase livre), mas que não é o núcleo da sílaba: ela se apoia numa vogal vizinha, com quem forma um ditongo. São apenas dois os sons semivocálicos: /j/ (som de i) e /w/ (som de u).\n\n\n\n\n\n\n\nNotaSemivogal: nem vogal plena, nem consoante\n\n\n\nA semivogal é o “sócio menor” da sílaba. Em pai, o a é a vogal (núcleo, som mais forte) e o i é a semivogal (/j/), que se apoia no a. Em pau, o u é semivogal (/w/). O teste prático: se o i ou o u, ao lado de outra vogal, é pronunciado junto, numa só emissão de voz, e mais fraco — é semivogal. Se forma sílaba própria, é vogal (compare pai, uma sílaba, com pa-ís, duas).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html#as-vogais-do-português",
+    "href": "capitulos/cap-08-classificacao-fonemas.html#as-vogais-do-português",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "10.3 As vogais do português",
+    "text": "10.3 As vogais do português\nO português tem sete vogais orais tônicas, que se distinguem por três critérios articulatórios, além da nasalidade. A Figura 10.1 as organiza — é um prenúncio simplificado do trapézio vocálico, que estudaremos no Capítulo 15.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 10.1: As sete vogais orais tônicas do português, dispostas por zona de articulação (horizontal) e altura da língua (vertical): /i, e, ɛ, a, ɔ, o, u/.\n\n\n\nOs critérios de classificação das vogais são quatro:\n\nZona de articulação (onde a língua se posiciona): anteriores (ou palatais: /i, e, ɛ/), central (/a/), posteriores (ou velares: /ɔ, o, u/).\nAltura (grau de abertura da boca): alta (/i, u/), média (fechada /e, o/; aberta /ɛ, ɔ/) e baixa (/a/).\nArredondamento dos lábios: arredondadas (/ɔ, o, u/) × não arredondadas (/i, e, ɛ, a/).\nNasalidade: orais (o ar sai só pela boca) × nasais (parte do ar sai pelo nariz: /ɐ̃, ẽ, ĩ, õ, ũ/, como em campo, tempo, lindo, bomba, mundo).\n\nRepare no par avô (/o/, média fechada) e avó (/ɔ/, média aberta): a mesma letra o, mas fonemas diferentes que distinguem palavras — mais uma prova de que letra e fonema não se confundem.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html#as-semivogais-e-a-dupla-função-de-i-e-u",
+    "href": "capitulos/cap-08-classificacao-fonemas.html#as-semivogais-e-a-dupla-função-de-i-e-u",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "10.4 As semivogais e a dupla função de i e u",
+    "text": "10.4 As semivogais e a dupla função de i e u\nSó existem duas semivogais: /j/ (grafada geralmente i, às vezes e: mãe) e /w/ (grafada u, às vezes o: mau, vou). O detalhe crucial é que as letras i e u podem representar ora vogal, ora semivogal, dependendo de serem ou não o núcleo da sílaba:\n\n\npai → o i é semivogal (/j/): apoia-se no a, forma ditongo, uma sílaba.\npa-ís → o i é vogal: é núcleo de sílaba própria, forma hiato, duas sílabas.\nmau → o u é semivogal (/w/): ditongo, uma sílaba.\nsa-ú-de → o u é vogal: núcleo próprio, hiato, três sílabas.\n\n\nPortanto, não se pode dizer “o i é sempre vogal”: depende do papel que ele exerce na sílaba. Esse é o ponto que sustenta toda a distinção ditongo/hiato do próximo capítulo.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html#as-consoantes",
+    "href": "capitulos/cap-08-classificacao-fonemas.html#as-consoantes",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "10.5 As consoantes",
+    "text": "10.5 As consoantes\nAs consoantes são os fonemas produzidos com obstáculo à passagem do ar. O português tem cerca de 19 fonemas consonantais (/p, b, t, d, k, g, f, v, s, z, ʃ, ʒ, m, n, ɲ, l, ʎ, ʀ, ɾ/). Elas se classificam por critérios que veremos com detalhe no Capítulo 15 (ponto de articulação, modo de articulação, vozeamento). Por ora, retenha o essencial: a consoante nunca forma sílaba sozinha — precisa de uma vogal. Não existe, em português, sílaba como “pt” ou “brs”: sempre há uma vogal no núcleo.\nUm par de oposições consonantais úteis desde já:\n\nSurdas × sonoras: as sonoras vibram as cordas vocais; as surdas, não. Pares: /p/ (surda) × /b/ (sonora), /t/ × /d/, /k/ × /g/, /f/ × /v/, /s/ × /z/, /ʃ/ × /ʒ/. Ponha a mão na garganta e diga “fffff” e depois “vvvvv”: sente a vibração só no /v/.\nOrais × nasais: nas nasais (/m, n, ɲ/), o ar sai também pelo nariz.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html#quadro-resumo",
+    "href": "capitulos/cap-08-classificacao-fonemas.html#quadro-resumo",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "10.6 📋 Quadro-resumo",
+    "text": "10.6 📋 Quadro-resumo\n\n\n\n\n\n\n\n\n\nGrupo\nPassagem do ar\nPapel na sílaba\nQuais são\n\n\n\n\nVogal\nLivre\nNúcleo (obrigatório)\n/i, e, ɛ, a, ɔ, o, u/ + nasais\n\n\nSemivogal\nQuase livre\nApoia-se na vogal (ditongo)\n/j/ e /w/ (sons de i e u)\n\n\nConsoante\nCom obstáculo\nDepende de uma vogal\n/p, b, t, d, k, g…\n\n\n\nCritérios das vogais: zona (anterior/central/posterior) · altura (alta/média/baixa) · arredondamento · nasalidade.\nEm uma linha: vogal é o som livre que forma o núcleo da sílaba; semivogal (/j/, /w/) é o som vocálico que se apoia na vogal; consoante é o som com obstáculo, que não forma sílaba sozinho — e i/u podem ser vogal ou semivogal conforme a posição.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-08-classificacao-fonemas.html#pegadinhas-e-erros-comuns",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "10.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "10.7 ⚠️ Pegadinhas e erros comuns\n\nClassificar pela letra, não pelo som. i e u são vogais em país e saúde, mas semivogais em pai e mau. O que decide é o papel na sílaba, não a letra.\nEsquecer que só há duas semivogais. São apenas /j/ e /w/. Nenhuma consoante é semivogal.\nAchar que toda sílaba precisa de consoante. O obrigatório é a vogal (núcleo); a consoante é dispensável (á-gua, i-lha). Sem vogal, não há sílaba.\nConfundir vogal aberta e fechada como se fossem a mesma. avô (/o/) e avó (/ɔ/) têm fonemas vocálicos distintos; a abertura muda a palavra.\nIgnorar as vogais nasais. Além das sete orais, há cinco nasais (/ɐ̃, ẽ, ĩ, õ, ũ/): campo, tempo, lindo, bomba, mundo.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html#exercícios",
+    "href": "capitulos/cap-08-classificacao-fonemas.html#exercícios",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "10.8 ✍️ Exercícios",
+    "text": "10.8 ✍️ Exercícios\n1. Explique o critério que distingue vogal, semivogal e consoante.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO critério é articulatório e silábico. Na vogal, o ar sai livremente e ela forma o núcleo da sílaba (som mais audível). Na consoante, o ar encontra obstáculo e ela não forma sílaba sozinha (apoia-se numa vogal). A semivogal é um som vocálico (ar quase livre), mas que não é núcleo: apoia-se numa vogal, formando ditongo. Só há duas semivogais: /j/ e /w/.\n\n\n\n2. (Estilo ENEM) Em qual palavra a letra i representa uma semivogal?\n\nsaída;\nbaile;\npolícia (o i de -cia);\njuízo;\negoísta.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Em baile, o i apoia-se no a formando o ditongo ai (bai-le) — é semivogal (/j/). Em saída, juízo e egoísta, o i forma hiato (sílaba própria: sa-í-da, ju-í-zo, e-go-ís-ta) — é vogal. Em polícia, o i de -cia é átono, mas ainda núcleo vocálico.\n\n\n\n3. Classifique as vogais /i/, /a/ e /u/ quanto à zona de articulação e à altura.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n/i/: anterior (palatal) e alta. /a/: central e baixa. /u/: posterior (velar) e alta. Além disso, /u/ é arredondada; /i/ e /a/ são não arredondadas.\n\n\n\n4. Dê um par de palavras em que a mesma letra (i ou u) funcione como vogal em uma e como semivogal na outra, justificando.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nExemplo com u: mau × saúde. Em mau, o u é semivogal (/w/), forma ditongo com o a numa só sílaba. Em sa-ú-de, o u é vogal, núcleo de sílaba própria (hiato). Exemplo com i: pai (semivogal) × pa-ís (vogal). O papel na sílaba — núcleo ou apoio — define a classificação.\n\n\n\n5. Por que se diz que “não há sílaba sem vogal”, mas pode haver sílaba sem consoante? Dê exemplos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque a vogal é o núcleo obrigatório da sílaba — o som mais audível, em torno do qual a sílaba se organiza. A consoante é opcional: existe apenas para se apoiar na vogal. Exemplos de sílabas sem consoante: á (em á-gua), i (em i-lha), ou (em ou-ro). Não existe, porém, sílaba formada só por consoantes.\n\n\n\n6. Quantas e quais são as vogais nasais do português? Dê um exemplo de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nSão cinco: /ɐ̃/ (campo, lã), /ẽ/ (tempo, pente), /ĩ/ (lindo, sim), /õ/ (bomba, bom), /ũ/ (mundo, um). A nasalidade ocorre quando parte do ar sai pelo nariz, geralmente marcada por m/n na mesma sílaba ou pelo til.\n\n\n\n7. (Estilo FCC) Assinale a alternativa em que as duas vogais formam um par que se distingue apenas pela altura/abertura:\n\n/i/ e /u/;\n/e/ e /ɛ/;\n/a/ e /i/;\n/o/ e /a/;\n/i/ e /ɔ/.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). /e/ (média fechada) e /ɛ/ (média aberta) são ambas anteriores e não arredondadas, distinguindo-se pela abertura/altura — como em sede (móvel, /e/) e sede (de água, /ɛ/), ou avô/avó no caso do /o/–/ɔ/. Os demais pares diferem em zona ou arredondamento, não apenas em altura.\n\n\n\n8. Diga se cada fonema é surdo ou sonoro e indique seu par: (a) /p/; (b) /v/; (c) /k/.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\n/p/ é surda; seu par sonoro é /b/. (b) /v/ é sonora; seu par surdo é /f/.\n/k/ é surda; seu par sonoro é /g/. As sonoras vibram as cordas vocais; as surdas, não.\n\n\n\n\n9. Analise a palavra quais quanto a vogais e semivogais.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nQuais é monossílabo. Fonemas: /k/ /w/ /a/ /j/ /s/. O qu vale /k/ (consoante); o u, aqui, é semivogal /w/ (parte do encontro); o a é a vogal (núcleo); o i é semivogal /j/. Trata-se de um ditongo triplo (tritongo) uai: semivogal + vogal + semivogal numa só sílaba, mais a consoante final /s/.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Toda letra i representa necessariamente uma vogal, e toda letra u, também.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. As letras i e u podem representar vogal (quando são núcleo de sílaba: pa-ís, sa-ú-de) ou semivogal (quando se apoiam noutra vogal formando ditongo: pai, mau). A classificação depende do papel na sílaba, não da letra em si.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-08-classificacao-fonemas.html#referências",
+    "href": "capitulos/cap-08-classificacao-fonemas.html#referências",
+    "title": "9  Classificação dos fonemas: vogais, semivogais e consoantes",
+    "section": "10.9 📚 Referências",
+    "text": "10.9 📚 Referências\nA classificação dos fonemas do português em vogais, semivogais e consoantes segue a descrição estrutural de Câmara Jr. (Câmara Jr., 1970), base de todas as gramáticas posteriores. Para exposições acessíveis do sistema vocálico e consonantal, ver Castilho (Castilho, 2010) e Cunha & Cintra (Cunha; Cintra, 2017). O detalhamento articulatório e o trapézio vocálico virão no Capítulo 15.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 2 — Fonética e Fonologia",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Classificação dos fonemas: vogais, semivogais e consoantes</span>"
@@ -758,7 +956,95 @@
     "href": "capitulos/cap-09-encontros-digrafos.html",
     "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
     "section": "",
-    "text": "11 Encontros vocálicos, encontros consonantais e dígrafos\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "11 Encontros vocálicos, encontros consonantais e dígrafos\nQuando dois ou mais fonemas semelhantes aparecem juntos numa palavra, formam-se os encontros. Se são sons vocálicos, temos um encontro vocálico (ditongo, hiato ou tritongo); se são consonantais, um encontro consonantal. E há ainda um caso enganoso, o dígrafo, em que duas letras representam um único fonema — não sendo, portanto, um verdadeiro encontro de sons. Distinguir essas categorias é o coração da fonologia escolar e uma das fontes mais frequentes de erro em prova.\nEste capítulo depende diretamente do anterior: para saber se i e u formam ditongo ou hiato, é preciso reconhecer quando eles são semivogais e quando são vogais. Aqui sistematizamos essas combinações e desfazemos a confusão clássica entre dígrafo e encontro consonantal — dois conceitos que as bancas adoram embaralhar.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-09-encontros-digrafos.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-09-encontros-digrafos.html#objetivos-de-aprendizagem",
+    "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
+    "section": "11.1 🎯 Objetivos de aprendizagem",
+    "text": "11.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nClassificar os encontros vocálicos em ditongo, hiato e tritongo;\nSubclassificar ditongos (crescente/decrescente, oral/nasal);\nDistinguir encontro vocálico de encontro consonantal;\nDiferenciar dígrafo de encontro consonantal (o ponto mais cobrado);\nSeparar dígrafos consonantais de dígrafos vocálicos;\nAplicar tudo isso à contagem de fonemas e à futura divisão silábica.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-09-encontros-digrafos.html#encontros-vocálicos",
+    "href": "capitulos/cap-09-encontros-digrafos.html#encontros-vocálicos",
+    "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
+    "section": "11.2 Encontros vocálicos",
+    "text": "11.2 Encontros vocálicos\nUm encontro vocálico é a sequência de vogais e/ou semivogais numa palavra. Há três tipos, e a chave para distingui-los é lembrar do capítulo anterior: vogal é núcleo de sílaba; semivogal apoia-se numa vogal.\n\n11.2.1 Ditongo\nDitongo é o encontro de uma vogal + uma semivogal (ou vice-versa) na mesma sílaba. Subdivide-se por dois critérios:\n\nQuanto à ordem: decrescente (vogal + semivogal: pai, céu, dói) ou crescente (semivogal + vogal: série = sé-rie, água = á-gua, quatro).\nQuanto à nasalidade: oral (pai, meu) ou nasal (mãe, bem, muito, pão).\n\n\n\n11.2.2 Hiato\nHiato é o encontro de duas vogais que ficam em sílabas diferentes — cada uma é núcleo da sua sílaba. Em saída (sa-í-da), poeta (po-e-ta), saúde (sa-ú-de), voo (vo-o), as vogais se separam. O teste: se as duas vogais são pronunciadas em emissões de voz distintas, é hiato.\n\n\n11.2.3 Tritongo\nTritongo é o encontro de semivogal + vogal + semivogal na mesma sílaba: Uruguai (-guai), quais, saguão, averiguou. Também pode ser oral (quais) ou nasal (saguão).\nA Figura 11.1 organiza a distinção decisiva ditongo × hiato.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 11.1: O teste do ditongo × hiato: dois sons vocálicos na mesma sílaba formam ditongo (com uma semivogal); em sílabas separadas, formam hiato. O tritongo reúne três sons na mesma sílaba.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-09-encontros-digrafos.html#encontros-consonantais",
+    "href": "capitulos/cap-09-encontros-digrafos.html#encontros-consonantais",
+    "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
+    "section": "11.3 Encontros consonantais",
+    "text": "11.3 Encontros consonantais\nEncontro consonantal é a sequência de duas consoantes, cada uma com seu próprio som. Há dois tipos:\n\nPerfeito (ou inseparável): as consoantes ficam na mesma sílaba, formando grupos que iniciam sílaba — pr, br, tr, dr, cr, gr, fr, vr, pl, bl, cl, gl, fl. Ex.: pra-to, cla-ro, fle-cha. Não se separam na divisão silábica.\nImperfeito (ou separável): as consoantes ficam em sílabas diferentes — ad-vo-ga-do, ap-to, rit-mo, ab-do-me. Separam-se na divisão silábica.\n\nO essencial: no encontro consonantal, cada consoante conserva seu som. É o que o diferencia do dígrafo.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-09-encontros-digrafos.html#dígrafo-encontro-consonantal-a-distinção-chave",
+    "href": "capitulos/cap-09-encontros-digrafos.html#dígrafo-encontro-consonantal-a-distinção-chave",
+    "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
+    "section": "11.4 Dígrafo × encontro consonantal: a distinção-chave",
+    "text": "11.4 Dígrafo × encontro consonantal: a distinção-chave\nAqui está a pegadinha mais cobrada de toda a fonologia. Dígrafo é o encontro de duas letras que representam um único fonema. Encontro consonantal é o encontro de duas consoantes que representam dois fonemas. A confusão nasce porque ambos “juntam duas letras” — mas o critério é o número de sons.\n\n\n\n\n\n\nImportanteA regra de ouro\n\n\n\nConte os sons, não as letras. Se duas letras juntas produzem um som → dígrafo (chave, carro, passo). Se produzem dois sons → encontro consonantal (prato, bloco). Em carro, o rr é um só som /ʀ/ → dígrafo. Em prato, o pr são dois sons /p/+/ɾ/ → encontro consonantal.\n\n\nOs dígrafos consonantais do português são:\n\n\n\nDígrafo\nFonema\nExemplo\n\n\n\n\nch\n/ʃ/\nchave\n\n\nlh\n/ʎ/\npalha\n\n\nnh\n/ɲ/\nninho\n\n\nrr\n/ʀ/\ncarro\n\n\nss\n/s/\npasso\n\n\nsc\n/s/\nnascer\n\n\nsç\n/s/\ndesço\n\n\nxc\n/s/\nexceto\n\n\nqu (+e/i)\n/k/\nquero\n\n\ngu (+e/i)\n/g/\nguerra\n\n\n\nHá também os dígrafos vocálicos (na verdade, dígrafos de nasalidade): as sequências am, an, em, en, im, in, om, on, um, un em que o m/n não é consoante, mas apenas marca a nasalização da vogal: campo (am = /ɐ̃/), tempo, lindo, bomba, mundo. Como vimos no Capítulo 9, esse m/n não conta como fonema à parte.\n\n\n\n\n\n\nNotaAtenção: gu e qu nem sempre são dígrafos\n\n\n\nQu e gu só são dígrafos quando o u não soa (antes de e/i): quero (/k/), guitarra (/g/). Quando o u soa, não há dígrafo, e sim consoante + semivogal ou vogal: quatro (/kw/-, o u soa), aguentar (o u soa, com trema abolido pelo Acordo, mas ainda pronunciado). Ouça: se o u tem som, não é dígrafo.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-09-encontros-digrafos.html#quadro-resumo",
+    "href": "capitulos/cap-09-encontros-digrafos.html#quadro-resumo",
+    "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
+    "section": "11.5 📋 Quadro-resumo",
+    "text": "11.5 📋 Quadro-resumo\n\n\n\n\n\n\n\n\n\nFenômeno\nDefinição\nNº de sons\nExemplo\n\n\n\n\nDitongo\nVogal + semivogal na mesma sílaba\n2\npai, água\n\n\nHiato\nDuas vogais em sílabas separadas\n2 (separados)\nsa-í-da\n\n\nTritongo\nSemivogal + vogal + semivogal\n3\nquais\n\n\nEncontro consonantal\nDuas consoantes, dois sons\n2\nprato, advogado\n\n\nDígrafo\nDuas letras, um só fonema\n1\ncarro, chave\n\n\n\nEm uma linha: ditongo/hiato/tritongo são encontros de sons vocálicos; encontro consonantal junta duas consoantes com dois sons; dígrafo junta duas letras com um som — e a diferença entre os dois últimos está no número de sons, não de letras.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-09-encontros-digrafos.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-09-encontros-digrafos.html#pegadinhas-e-erros-comuns",
+    "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
+    "section": "11.6 ⚠️ Pegadinhas e erros comuns",
+    "text": "11.6 ⚠️ Pegadinhas e erros comuns\n\nChamar rr e ss de encontro consonantal. São dígrafos (um só som cada). O encontro consonantal tem dois sons (pr, bl, tr).\nDecidir ditongo/hiato pelos olhos. Saída parece ter “ai”, mas é hiato (sa-í-da); baile tem ditongo (bai-le). Ouça: mesma sílaba = ditongo; sílabas separadas = hiato.\nAchar que qu/gu são sempre dígrafos. Só quando o u não soa (quero, guerra). Se o u soa (quatro, linguiça), não é dígrafo.\nEsquecer o dígrafo vocálico (nasal). Em campo, tinta, bomba, o m/n marca a nasalização da vogal e forma dígrafo — não é consoante independente.\nConfundir muito com hiato. Muito tem ditongo nasal (mui-to): o ui é pronunciado numa só sílaba e nasalizado (/ũj̃/).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-09-encontros-digrafos.html#exercícios",
+    "href": "capitulos/cap-09-encontros-digrafos.html#exercícios",
+    "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
+    "section": "11.7 ✍️ Exercícios",
+    "text": "11.7 ✍️ Exercícios\n1. Classifique o encontro vocálico (ditongo, hiato ou tritongo): (a) pai; (b) saúde; (c) Paraguai; (d) poeta; (e) série.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nditongo decrescente oral (pai). (b) hiato (sa-ú-de). (c) tritongo (Para-guai). (d) hiato (po-e-ta). (e) ditongo crescente (sé-rie: semivogal /j/ + vogal /e/).\n\n\n\n\n2. (Estilo ENEM) Assinale a alternativa que contém dígrafo (duas letras, um som):\n\nprato;\nclaro;\nninho;\nglobo;\ntrave.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). Em ninho, o nh é dígrafo: representa um único fonema, a nasal palatal /ɲ/. Nas demais há encontros consonantais (pr, cl, gl, tr), com dois sons cada.\n\n\n\n3. Distinga, com suas palavras, dígrafo de encontro consonantal, dando um exemplo de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nDígrafo: duas letras que representam um único fonema (ex.: ch em chave, /ʃ/; rr em carro, /ʀ/). Encontro consonantal: duas consoantes que representam dois fonemas, cada uma com seu som (ex.: pr em prato, /p/+/ɾ/; bl em bloco). O critério é o número de sons: um som → dígrafo; dois sons → encontro consonantal.\n\n\n\n4. Classifique o ditongo em crescente ou decrescente: (a) água; (b) céu; (c) quatro; (d) dói.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nágua → crescente (semivogal /w/ + vogal /a/: á-gua). (b) céu → decrescente (vogal /ɛ/ + semivogal /w/). (c) quatro → crescente (semivogal /w/ + vogal /a/). (d) dói → decrescente (vogal /ɔ/ + semivogal /j/).\n\n\n\n\n5. Por que carro tem dígrafo, mas carta tem encontro consonantal?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm carro, o rr representa um único fonema (/ʀ/, o “erre forte”): duas letras, um som → dígrafo. Em carta, o r e o t estão em contato mas representam dois sons distintos (/ɾ/ + /t/), em sílabas diferentes (car-ta) → encontro consonantal (imperfeito/separável). A diferença está no número de sons.\n\n\n\n6. (Estilo FCC) Em exceção, a sequência xc constitui:\n\nencontro consonantal perfeito;\ndígrafo;\ntritongo;\nhiato;\nencontro consonantal imperfeito.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). O xc (como em exceção, exceto) é dígrafo: as duas letras representam um único fonema /s/. Não é encontro consonantal, pois não há dois sons consonantais distintos.\n\n\n\n7. Analise a palavra aguentar quanto ao gu: há dígrafo? Justifique.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nNão há dígrafo. Em aguentar, o u soa (pronuncia-se /agwẽ’tar/, com o gu = /gw/, consoante + semivogal). O dígrafo gu só ocorre quando o u não soa (como em guerra, guitarra). Como aqui o u tem som, trata-se de consoante /g/ + semivogal /w/, não de dígrafo. (O trema, que antes marcava esse u pronunciado, foi abolido pelo Acordo de 1990, mas a pronúncia permanece.)\n\n\n\n8. Classifique o encontro consonantal em perfeito ou imperfeito: (a) prato; (b) apto; (c) flor; (d) ritmo.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nprato → perfeito (pr na mesma sílaba: pra-to). (b) apto → imperfeito (p e t em sílabas diferentes: ap-to). (c) flor → perfeito (fl na mesma sílaba). (d) ritmo → imperfeito (t e m em sílabas diferentes: rit-mo).\n\n\n\n\n9. A palavra muito contém ditongo ou hiato? E qual sua natureza?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nContém ditongo, e ditongo nasal: pronuncia-se mui-to numa sílaba tônica nasalizada (/ˈmũj̃tu/). Embora a nasalidade não esteja marcada por m/n ou til na escrita, o ui de muito é nasalizado na fala — é um caso especial de ditongo nasal. Não é hiato, pois as duas vogais são pronunciadas na mesma sílaba.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Na palavra passarinho há dois dígrafos.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCerto. Em passarinho há dois dígrafos: ss (= /s/, em pas-sa) e nh (= /ɲ/, em ri-nho). Ambos são pares de letras que representam, cada um, um único fonema.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-09-encontros-digrafos.html#referências",
+    "href": "capitulos/cap-09-encontros-digrafos.html#referências",
+    "title": "10  Encontros vocálicos, encontros consonantais e dígrafos",
+    "section": "11.8 📚 Referências",
+    "text": "11.8 📚 Referências\nA tipologia dos encontros e a distinção entre dígrafo e encontro consonantal seguem a descrição de Câmara Jr. (Câmara Jr., 1970) e o tratamento normativo de Cunha & Cintra (Cunha; Cintra, 2017) e Bechara (Bechara, 2009). A aplicação desses conceitos à divisão silábica e à tonicidade é o tema do Capítulo 12.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 2 — Fonética e Fonologia",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Encontros vocálicos, encontros consonantais e dígrafos</span>"
@@ -769,7 +1055,117 @@
     "href": "capitulos/cap-10-silaba-divisao-tonicidade.html",
     "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
     "section": "",
-    "text": "12 Sílaba: estrutura, divisão silábica e tonicidade\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "12 Sílaba: estrutura, divisão silábica e tonicidade\nToda palavra falada se organiza em sílabas — os “golpes de voz” com que a pronunciamos. Dividir palavras em sílabas parece trivial (qualquer criança separa ca-sa), mas há regras precisas que resolvem os casos difíceis (subs-cre-ver, pneu, sa-ú-de) e que fundamentam a translineação (a divisão no fim da linha) e a acentuação gráfica. Além disso, uma sílaba de cada palavra é pronunciada com mais força: a sílaba tônica — e é sobre ela que recai (ou não) o acento, tema dos capítulos de acentuação (Volume 3).\nEste capítulo reúne o que construímos até aqui: vogais e semivogais (Capítulo 10), ditongos, hiatos e dígrafos (Capítulo 11) entram todos na divisão silábica. Dominar a sílaba e a tonicidade é o último degrau da fonologia antes de passarmos aos processos sonoros e à acentuação.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#objetivos-de-aprendizagem",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.1 🎯 Objetivos de aprendizagem",
+    "text": "12.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nReconhecer a estrutura da sílaba (a vogal como núcleo obrigatório);\nAplicar as regras de divisão silábica, inclusive nos casos difíceis;\nClassificar as palavras quanto ao número de sílabas (mono, di, tri, polissílabas);\nIdentificar a sílaba tônica e classificar as palavras em oxítonas, paroxítonas e proparoxítonas;\nDistinguir tônica, subtônica e átonas;\nDiferenciar monossílabos tônicos de átonos.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#a-estrutura-da-sílaba",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#a-estrutura-da-sílaba",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.2 A estrutura da sílaba",
+    "text": "12.2 A estrutura da sílaba\nA sílaba é a menor unidade de pronúncia, emitida num só impulso de voz. Seu elemento central e obrigatório é a vogal (o núcleo): como vimos, não há sílaba sem vogal, mas pode haver sílaba sem consoante. Em torno do núcleo podem aparecer consoantes (antes, o ataque; depois, a coda) e semivogais.\nAssim, uma sílaba pode ir da mais simples à mais complexa:\n\nsó vogal: á (á-gua), é, ou (com semivogal);\nconsoante + vogal: ca (ca-sa) — o padrão mais comum;\nconsoante + vogal + consoante: sol, par;\ncom encontros: tran (trans-por-te), claus (claus-tro).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#regras-de-divisão-silábica",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#regras-de-divisão-silábica",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.3 Regras de divisão silábica",
+    "text": "12.3 Regras de divisão silábica\nDividir em sílabas segue princípios ligados aos conceitos do capítulo anterior. Eis os casos que importam:\nNão se separam (ficam na mesma sílaba):\n\nDitongos e tritongos: pai-xão, á-gua, sa-guão, quais.\nDígrafos ch, lh, nh: cha-ve, pa-lha, ni-nho (representam um só som).\nEncontros consonantais perfeitos (pr, br, tr, cl, gl, fl…): pra-to, a-pren-der, re-gra.\n\nSeparam-se:\n\nHiatos (duas vogais em sílabas distintas): sa-í-da, po-e-ta, vo-o, ra-i-nha.\nDígrafos rr, ss, sc, sç, xc: car-ro, pas-so, nas-cer, des-ço, ex-ce-to.\nEncontros consonantais imperfeitos: ad-vo-ga-do, ap-to, rit-mo, sub-li-nhar → sub-li-nhar (aqui bl é perfeito; cuidado caso a caso).\n\n\n\n\n\n\n\nNotaO caso dos grupos com s: subs-, trans-, ins-\n\n\n\nEm grupos de três consoantes, a divisão costuma deixar o s fechando a sílaba anterior: subs-cre-ver, trans-por-te, ins-tru-ção, pers-pi-caz. E consoantes que não formam grupo perfeito distribuem-se entre as sílabas: con-vic-ção, op-ção. Na dúvida, teste a pronúncia: as consoantes que se pronunciam “juntas” no início de uma sílaba ficam juntas; as demais, separam-se.\n\n\n\n\nsubscrever → subs-cre-ver (o bs separa; cr perfeito fica junto).\npneumonia → pneu-mo-ni-a (pn inicial fica junto; o i-a final é hiato).\nbilíngue → bi-lín-gue (o gu = /g/ é dígrafo, fica junto).\ncoelho → co-e-lho (hiato o-e; dígrafo lh junto).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#número-de-sílabas",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#número-de-sílabas",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.4 Número de sílabas",
+    "text": "12.4 Número de sílabas\nQuanto ao número de sílabas, as palavras classificam-se em:\n\nMonossílabas: uma sílaba (pá, sol, mão, quais).\nDissílabas: duas (ca-sa, pa-pel).\nTrissílabas: três (ca-de-ra → ca-dei-ra tem 3; ár-vo-re).\nPolissílabas: quatro ou mais (bor-bo-le-ta, pa-ra-le-le-pí-pe-do).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#tonicidade-a-sílaba-mais-forte",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#tonicidade-a-sílaba-mais-forte",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.5 Tonicidade: a sílaba mais forte",
+    "text": "12.5 Tonicidade: a sílaba mais forte\nEm toda palavra com mais de uma sílaba, uma delas é pronunciada com mais intensidade: é a sílaba tônica. As demais são átonas (podendo a átona anterior à tônica, em palavras longas, ter um acento secundário, a subtônica). Atenção: tônica é conceito fonético (força da pronúncia), independente de haver ou não acento gráfico — café e caqui são ambas oxítonas, mas só a primeira leva acento.\nConforme a posição da tônica, as palavras (com duas ou mais sílabas) classificam-se em três tipos, resumidos na Figura 12.1:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 12.1: A posição da sílaba tônica define a classificação: última (oxítona), penúltima (paroxítona) ou antepenúltima (proparoxítona).\n\n\n\n\nOxítona: tônica na última sílaba — ca-fé, u-ru-bu, pa-rede → pa-re-DE? não; ca-jU → caju é oxítona. Ex.: sofá, urubu, parabéns.\nParoxítona: tônica na penúltima — ca-der-no, me-sa, á-gua. É o padrão mais comum do português.\nProparoxítona: tônica na antepenúltima — lâm-pa-da, mé-di-co, ú-ti-mo → último. Todas as proparoxítonas são acentuadas (Volume 3).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#monossílabos-tônicos-e-átonos",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#monossílabos-tônicos-e-átonos",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.6 Monossílabos: tônicos e átonos",
+    "text": "12.6 Monossílabos: tônicos e átonos\nOs monossílabos, embora tenham uma só sílaba, dividem-se por seu peso na frase:\n\nTônicos: têm autonomia e força própria — pá, sol, fé, mão, três. São, em geral, substantivos, verbos, advérbios: palavras de conteúdo.\nÁtonos: apoiam-se em outra palavra, sem força própria — artigos (o, a), preposições (de, em), pronomes oblíquos (me, te, se), conjunções (e, que). São palavras gramaticais que “colam” nas vizinhas.\n\nCompare “Vi o sol”: sol é tônico (forte), enquanto o é átono (apoia-se em sol). Essa distinção importará para a colocação pronominal (Volume 8) e para a acentuação de monossílabos.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#quadro-resumo",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#quadro-resumo",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.7 📋 Quadro-resumo",
+    "text": "12.7 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nClassificação\nCritério\nExemplos\n\n\n\n\nMono/di/tri/polissílaba\nNúmero de sílabas\nsol / casa / cadeira / borboleta\n\n\nOxítona\nTônica na última\ncafé, urubu, parabéns\n\n\nParoxítona\nTônica na penúltima\nmesa, caderno, água\n\n\nProparoxítona\nTônica na antepenúltima\nlâmpada, médico, sílaba\n\n\nMonossílabo tônico\nForça própria\npá, fé, sol\n\n\nMonossílabo átono\nApoia-se noutra palavra\no, de, me, e\n\n\n\nNão se separam: ditongos, tritongos, dígrafos ch/lh/nh, encontros perfeitos. Separam-se: hiatos, dígrafos rr/ss/sc/sç/xc, encontros imperfeitos.\nEm uma linha: a sílaba gira em torno da vogal-núcleo; a divisão silábica segue o comportamento de ditongos, dígrafos e encontros; e a tonicidade classifica as palavras conforme a posição da sílaba mais forte.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#pegadinhas-e-erros-comuns",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.8 ⚠️ Pegadinhas e erros comuns",
+    "text": "12.8 ⚠️ Pegadinhas e erros comuns\n\nSeparar dígrafo que não se separa. ch, lh, nh ficam juntos (ni-nho); mas rr, ss, sc separam-se (car-ro, nas-cer). Não confunda os dois grupos.\nSeparar ditongo ou juntar hiato. pai-xão (ditongo, junto), mas sa-í-da (hiato, separado). Ouça a pronúncia.\nConfundir tônica com sílaba acentuada graficamente. Toda palavra tem tônica; nem toda leva acento. Caju é oxítona sem acento; café, oxítona com acento.\nAchar que paroxítona é “regra de acento”. Oxítona/paroxítona/proparoxítona classificam pela posição da tônica, não pela presença de acento. A acentuação gráfica é assunto do Volume 3.\nTratar todo monossílabo como tônico. Artigos, preposições, conjunções e pronomes oblíquos são monossílabos átonos.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#exercícios",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#exercícios",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.9 ✍️ Exercícios",
+    "text": "12.9 ✍️ Exercícios\n1. Divida em sílabas e classifique quanto ao número de sílabas: (a) subscrever; (b) coelho; (c) pneu; (d) saúde.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nsubs-cre-ver — trissílaba. (b) co-e-lho — trissílaba (hiato o-e; dígrafo lh junto). (c) pneu — monossílaba (pn junto; eu ditongo). (d) sa-ú-de — trissílaba (hiato a-ú).\n\n\n\n\n2. (Estilo ENEM) Assinale a palavra proparoxítona:\n\nparabéns;\nrecorde (o troféu);\nexército;\ncaqui;\nabacaxi.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). E-xér-ci-to tem a tônica na antepenúltima sílaba (xér) → proparoxítona. Parabéns e abacaxi são oxítonas; caqui é paroxítona; recorde é paroxítona (re-COR-de).\n\n\n\n3. Classifique quanto à tonicidade: (a) régua; (b) cajá; (c) máquina; (d) Brasil.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nré-gua → paroxítona (tônica na penúltima). (b) ca-já → oxítona. (c) má-qui-na → proparoxítona. (d) Bra-sil → oxítona (tônica em sil).\n\n\n\n\n4. Por que carro se divide car-ro, mas carreta mantém o rr separado do mesmo modo? Explique a regra.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO dígrafo rr (que representa um só fonema /ʀ/) separa-se na divisão silábica, com cada r ficando numa sílaba: car-ro, car-re-ta. Isso ocorre porque, embora represente um único som, o rr está sempre entre vogais e a convenção da translineação divide-o. É o oposto dos dígrafos ch/lh/nh, que ficam juntos.\n\n\n\n5. Diferencie sílaba tônica de sílaba acentuada graficamente, com exemplos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA sílaba tônica é a pronunciada com mais força — existe em toda palavra de duas ou mais sílabas, independentemente da escrita. A sílaba acentuada graficamente é a que leva sinal de acento, o que só ocorre em parte das palavras, conforme as regras de acentuação. Exemplo: em caju, a tônica é ju, mas não há acento gráfico; em café, a tônica é fé e leva acento. Toda palavra tem tônica; nem toda tem acento gráfico.\n\n\n\n6. (Estilo FCC) Assinale a alternativa em que a divisão silábica está correta:\n\nsub-li-nhar;\nsu-bli-nhar;\nsubl-i-nhar;\nsub-lin-har;\nsu-bli-nha-r.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (a). sub-li-nhar: o prefixo sub- fecha a primeira sílaba, e o dígrafo nh permanece junto (nhar). A (b) junta indevidamente bl (que aqui não é grupo perfeito no interior, pois há o prefixo sub); a (d) separa o dígrafo nh; a (e) isola o r final.\n\n\n\n7. Identifique os monossílabos átonos na frase: “Eu vi o mar e o sol de manhã.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nÁtonos: o (artigo, duas ocorrências), e (conjunção), de (preposição). Tônicos: Eu, vi, mar, sol (têm força própria — pronomes, verbos e substantivos de conteúdo). Manhã é dissílaba, não monossílabo.\n\n\n\n8. Divida em sílabas: (a) transatlântico; (b) psicologia; (c) bilíngue.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\ntrans-a-tlân-ti-co (o s de trans fecha a sílaba; tl junto). (b) psi-co-lo-gi-a (o ps inicial junto; i-a final é hiato). (c) bi-lín-gue (o gu = /g/ é dígrafo, fica junto).\n\n\n\n\n9. Uma palavra pode ser, ao mesmo tempo, paroxítona e conter um hiato. Dê um exemplo e justifique.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nExemplo: saída (sa-í-da). É paroxítona (tônica na penúltima, í) e contém o hiato a-í (duas vogais em sílabas separadas). Outro: poeta (po-e-ta), paroxítona com hiato o-e. As duas classificações são independentes: uma trata da posição da tônica; a outra, do encontro vocálico.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Todas as palavras proparoxítonas do português são acentuadas graficamente.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCerto. Uma das poucas regras sem exceção da acentuação: todas as proparoxítonas levam acento gráfico (lâmpada, médico, sílaba, árvore). Isso será formalizado no Volume 3, mas já se pode afirmar com segurança.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-10-silaba-divisao-tonicidade.html#referências",
+    "href": "capitulos/cap-10-silaba-divisao-tonicidade.html#referências",
+    "title": "11  Sílaba: estrutura, divisão silábica e tonicidade",
+    "section": "12.10 📚 Referências",
+    "text": "12.10 📚 Referências\nAs regras de divisão silábica e a classificação quanto à tonicidade seguem o tratamento normativo de Cunha & Cintra (Cunha; Cintra, 2017) e Bechara (Bechara, 2009), em consonância com a descrição estrutural de Câmara Jr. (Câmara Jr., 1970). A aplicação da tonicidade à acentuação gráfica é desenvolvida nos capítulos 17 e 18 (Volume 3).\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 2 — Fonética e Fonologia",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sílaba: estrutura, divisão silábica e tonicidade</span>"
@@ -780,7 +1176,128 @@
     "href": "capitulos/cap-11-processos-fonologicos.html",
     "title": "12  Processos fonológicos do português brasileiro",
     "section": "",
-    "text": "13 Processos fonológicos do português brasileiro\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "13 Processos fonológicos do português brasileiro\nPor que dizemos “muié” por mulher, “cadeira” por cathedra, “vô” por vou? Por que o l final vira u (Brasil soa “Brasiu”), o r final some (“amá” por amar), a vogal átona se fecha (“minino” por menino)? Essas não são falhas individuais nem “preguiça”: são processos fonológicos — transformações regulares e sistemáticas dos sons, que ocorrem em todas as línguas e explicam boa parte da história do português e da variação atual.\nEstudar esses processos tem dois ganhos. Primeiro, conceitual: mostra que a fala tem lógica, que o que parece “corrupção” segue padrões descritíveis. Segundo, prático: muitos “erros” de ortografia (Volume 3) e fenômenos de variação (Volume 14) só se entendem à luz desses processos. Este capítulo dá nome a eles e os organiza.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-11-processos-fonologicos.html#objetivos-de-aprendizagem",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.1 🎯 Objetivos de aprendizagem",
+    "text": "13.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nDefinir processo fonológico e reconhecer sua regularidade;\nIdentificar os principais processos por acréscimo, perda, transformação e transposição de fonemas;\nRelacionar processos históricos (do latim ao português) e sincrônicos (variação atual);\nExplicar fenômenos como palatalização, ditongação, monotongação, rotacismo, vocalização e nasalização;\nDistinguir processo fonológico de simples “erro” individual;\nAplicar os conceitos à análise de formas populares e cultas.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#o-que-é-um-processo-fonológico",
+    "href": "capitulos/cap-11-processos-fonologicos.html#o-que-é-um-processo-fonológico",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.2 O que é um processo fonológico",
+    "text": "13.2 O que é um processo fonológico\nProcesso fonológico é toda alteração sistemática que um fonema sofre em determinado contexto. “Sistemática” é a palavra-chave: o processo não afeta uma palavra isolada por acaso, mas todas as que estão nas mesmas condições. Se o l final vira semivogal em Brasil, vira também em sal, anel, sol — é uma regra, não um capricho.\nEsses processos operam em dois planos:\n\nDiacrônico (histórico): explica como o latim virou português (plenus → cheio, auru → ouro). São mudanças já consolidadas.\nSincrônico (atual): explica a variação de hoje (“muié”, “pобre” → “pobre” com vocalização, “framengo” por flamengo). São variantes vivas.\n\nMuitos processos que hoje geram variação estigmatizada são os mesmos que, no passado, produziram formas hoje consagradas. O rotacismo que transforma “planta” em “pranta” (estigmatizado) é o mesmo que, séculos atrás, transformou o latim plaga em praga (consagrado). A diferença é social, não linguística.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#processos-por-acréscimo-de-fonema",
+    "href": "capitulos/cap-11-processos-fonologicos.html#processos-por-acréscimo-de-fonema",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.3 Processos por acréscimo de fonema",
+    "text": "13.3 Processos por acréscimo de fonema\nAdicionam um som à palavra:\n\nPrótese: acréscimo no início — “alembrar” por lembrar, “avoar” por voar (formas populares/arcaicas).\nEpêntese: acréscimo no meio — “adevogado” por advogado, “pineu” por pneu, “rítimo” por ritmo. Muito comum para desfazer encontros consonantais difíceis.\nParagoge (ou epítese): acréscimo no fim — “clube” de club, “fósforo”, “martire” por mártir (formas populares).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#processos-por-perda-de-fonema",
+    "href": "capitulos/cap-11-processos-fonologicos.html#processos-por-perda-de-fonema",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.4 Processos por perda de fonema",
+    "text": "13.4 Processos por perda de fonema\nRetiram um som:\n\nAférese: perda no início — “tá” por está, “cê” por você, “inda” por ainda.\nSíncope: perda no meio — “espritо” por espírito; historicamente, populu → povo (queda do l).\nApócope: perda no fim — “amá” por amar, “cantá” por cantar (queda do r final do infinitivo, generalizada na fala brasileira).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#processos-por-transformação-de-fonema",
+    "href": "capitulos/cap-11-processos-fonologicos.html#processos-por-transformação-de-fonema",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.5 Processos por transformação de fonema",
+    "text": "13.5 Processos por transformação de fonema\nMudam a qualidade de um som. São os mais importantes para prova e variação, resumidos na Figura 13.1:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 13.1: Principais processos de transformação de fonema no português brasileiro, com o tipo de mudança e um exemplo de cada.\n\n\n\n\nPalatalização: uma consoante torna-se palatal. No PB, /t/ e /d/ diante de /i/ viram [t͡ʃ] e [d͡ʒ] (tia soa “tchia”, dia soa “djia”) — traço da maioria dos falares brasileiros.\nVocalização: uma consoante vira semivogal. O caso clássico é o /l/ em final de sílaba, que vira [w]: Brasil, sal, mel soam com u final.\nRotacismo: troca de /l/ por /r/ — “pranta” por planta, “chicrete”, “craro”. Estigmatizado hoje, mas responsável por formas consagradas (praga, branco, fresta).\nMonotongação: um ditongo reduz-se a uma vogal — “caxa” por caixa, “queju” por queijo, “otro” por outro, “pexe” por peixe. Amplamente presente na fala culta.\nDitongação: uma vogal ganha uma semivogal, formando ditongo — “nóis” por nós, “treis” por três, “mais” por mas (na fala).\nAssimilação: um som se torna semelhante a um vizinho — historicamente, ipse → esse; ad + similare → assimilar.\nNasalização: uma vogal ganha traço nasal por influência de consoante nasal vizinha.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#processos-por-transposição",
+    "href": "capitulos/cap-11-processos-fonologicos.html#processos-por-transposição",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.6 Processos por transposição",
+    "text": "13.6 Processos por transposição\nMudam a posição dos fonemas:\n\nMetátese: troca de posição de sons na palavra — “estрopо” → estupro?; casos clássicos: “probrema” por problema, “largato” por lagarto, “peguntar” por perguntar. Historicamente, o latim semper → sempre, inter → entre.\nHipértese (metátese à distância): o som salta para outra sílaba.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#processo-não-é-erro",
+    "href": "capitulos/cap-11-processos-fonologicos.html#processo-não-é-erro",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.7 Processo não é “erro”",
+    "text": "13.7 Processo não é “erro”\nVale reforçar a lição conceitual. As formas populares aqui listadas (“pranta”, “muié”, “adivogado”) são estigmatizadas socialmente, e a norma-padrão pede as formas de prestígio — que este manual ensina. Mas do ponto de vista linguístico, elas resultam dos mesmos processos que produziram o português culto de hoje. Quem diz “pranta” aplica a mesma operação (rotacismo) que transformou o latim plaga em praga. Reconhecer isso não é “aceitar tudo”: é entender que a fala tem lógica, e que o julgamento de “erro” é social, não uma verdade da natureza da língua (Bagno, 2007).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#quadro-resumo",
+    "href": "capitulos/cap-11-processos-fonologicos.html#quadro-resumo",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.8 📋 Quadro-resumo",
+    "text": "13.8 📋 Quadro-resumo\n\n\n\n\n\n\n\n\n\nTipo\nProcesso\nPosição/efeito\nExemplo\n\n\n\n\nAcréscimo\nPrótese / Epêntese / Paragoge\ninício / meio / fim\nalembrar / adivogado / clube\n\n\nPerda\nAférese / Síncope / Apócope\ninício / meio / fim\ntá / espritо / amá\n\n\nTransformação\nPalatalização\n/t,d/+i → tch, dj\ntia → “tchia”\n\n\nTransformação\nVocalização\n/l/ final → [w]\nBrasil → “Brasiu”\n\n\nTransformação\nRotacismo\n/l/ → /r/\nplanta → “pranta”\n\n\nTransformação\nMonotongação / Ditongação\n↓ ou ↑ ditongo\ncaixa → “caxa” / nós → “nóis”\n\n\nTransposição\nMetátese\ntroca de posição\nproblema → “probrema”\n\n\n\nEm uma linha: os processos fonológicos são alterações regulares dos sons — por acréscimo, perda, transformação ou transposição — que explicam tanto a história do português quanto a variação de hoje, e provam que a fala tem lógica.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-11-processos-fonologicos.html#pegadinhas-e-erros-comuns",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.9 ⚠️ Pegadinhas e erros comuns",
+    "text": "13.9 ⚠️ Pegadinhas e erros comuns\n\nConfundir os processos de acréscimo entre si. Prótese = início; epêntese = meio; paragoge = fim. Vale a mesma lógica de posição para perda (aférese/síncope/apócope).\nChamar todo processo de “erro”. Os processos são sistemáticos e ocorrem também na fala culta (monotongação de caixa → “caxa”, palatalização de tia). O que varia é o prestígio social, não a existência do processo.\nTrocar vocalização por rotacismo. Vocalização = /l/ vira semivogal [w] (Brasil); rotacismo = /l/ vira /r/ (pranta). São transformações diferentes.\nAchar que monotongação é “fala errada”. “Caxa”, “pexe”, “otro” ocorrem correntemente na fala de brasileiros escolarizados — é monotongação, processo amplo, não descuido.\nIgnorar os processos históricos. Muitas palavras cultas de hoje nasceram de processos (síncope em povo, metátese em sempre) idênticos aos que hoje soam populares.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#exercícios",
+    "href": "capitulos/cap-11-processos-fonologicos.html#exercícios",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.10 ✍️ Exercícios",
+    "text": "13.10 ✍️ Exercícios\n1. Defina processo fonológico e explique por que ele é “sistemático”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nProcesso fonológico é toda alteração regular que um fonema sofre em determinado contexto. É “sistemático” porque não afeta uma palavra isolada por acaso, mas todas as que se encontram nas mesmas condições: se o /l/ final vira [w] em Brasil, vira também em sal, anel, sol. Trata-se de uma regra descritível, não de um capricho.\n\n\n\n2. (Estilo ENEM) A pronúncia “Brasiu” por Brasil, “sáu” por sal e “méu” por mel ilustra o processo de:\n\nrotacismo;\nvocalização do /l/;\nmonotongação;\npalatalização;\nmetátese.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). O /l/ em final de sílaba transforma-se na semivogal [w] — processo de vocalização, generalizado no português brasileiro. Não é rotacismo (que troca /l/ por /r/), nem monotongação (redução de ditongo), nem palatalização.\n\n\n\n3. Nomeie o processo (posição do acréscimo ou perda): (a) “tá” por está; (b) “adivogado” por advogado; (c) “amá” por amar; (d) “alembrar” por lembrar.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\naférese (perda no início). (b) epêntese (acréscimo no meio). (c) apócope (perda no fim — do r). (d) prótese (acréscimo no início).\n\n\n\n\n4. Explique o rotacismo e mostre como um mesmo processo pode gerar uma forma estigmatizada e uma consagrada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nRotacismo é a troca de /l/ por /r/. Hoje, em “pranta” (por planta) ou “craro” (por claro), é estigmatizado. Mas foi o mesmo processo que, na história da língua, transformou o latim plaga em praga, blancus em branco, flaccus → em formas com r — hoje plenamente consagradas. A diferença entre “erro” e “norma” é, portanto, social e histórica, não linguística.\n\n\n\n5. Classifique: “caxa” por caixa e “nóis” por nós ilustram, respectivamente, que processos?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Caxa” por caixa → monotongação (o ditongo ai reduz-se à vogal a). “Nóis” por nós → ditongação (a vogal ó ganha a semivogal, formando o ditongo ói). São processos inversos: um reduz, o outro cria ditongo.\n\n\n\n6. (Estilo FCC) A forma “probrema” por problema resulta de:\n\nepêntese;\nmetátese;\nvocalização;\naférese;\npalatalização.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Em “probrema”, o /l/ de pro-blema troca de posição/qualidade gerando pro-brema — trata-se de metátese (transposição), frequentemente combinada a rotacismo. Não é acréscimo (epêntese), perda (aférese) nem palatalização.\n\n\n\n7. Por que a palatalização de /t/ e /d/ diante de /i/ não deve ser considerada “erro” no português brasileiro?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque é um traço majoritário e regular do PB: a imensa maioria dos falantes brasileiros, de todos os níveis de escolaridade, pronuncia tia como “tchia” e dia como “djia”. Não é um desvio individual, mas uma característica sistemática da pronúncia brasileira culta e popular. Trata-se de variação diatópica normal, não de erro.\n\n\n\n8. Identifique o processo histórico nas evoluções: (a) latim povo de populu(m); (b) latim sempre de semper.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\npopulu(m) → povo: síncope (queda do /l/ intervocálico no meio da palavra).\nsemper → sempre: metátese (transposição: o er final passa a re). Ambos são processos que consolidaram formas hoje plenamente cultas.\n\n\n\n\n9. Um estudante diz: “Quem fala ‘pexe’ e ‘caxa’ está falando errado.” Comente à luz dos processos fonológicos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAs formas “pexe” e “caxa” resultam de monotongação, processo amplamente presente na fala de brasileiros de todos os níveis, inclusive escolarizados. Não são “erro” no plano linguístico: são realizações sistemáticas e regulares. O que se pode dizer é que, na escrita, a norma pede peixe e caixa (com o ditongo), por convenção ortográfica. Confundir a convenção da escrita com “falar errado” ignora que a monotongação é um processo natural e difundido.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Os processos fonológicos ocorrem apenas na história da língua (diacronia), não na fala atual.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. Os processos fonológicos operam tanto na diacronia (mudanças históricas já consolidadas, como populu → povo) quanto na sincronia (variação da fala atual, como a vocalização em “Brasiu” ou a palatalização em “tchia”). São o mesmo tipo de fenômeno em dois momentos: o de hoje pode ser o consolidado de amanhã.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-11-processos-fonologicos.html#referências",
+    "href": "capitulos/cap-11-processos-fonologicos.html#referências",
+    "title": "12  Processos fonológicos do português brasileiro",
+    "section": "13.11 📚 Referências",
+    "text": "13.11 📚 Referências\nA tipologia dos processos fonológicos apoia-se na descrição de Câmara Jr. (Câmara Jr., 1970) e nas evoluções históricas descritas por Teyssier (Teyssier, 2007). A relação entre processos, variação e a crítica ao rótulo de “erro” é desenvolvida por Bagno (Bagno, 2007) e por Castilho (Castilho, 2010).\n\n\nBAGNO, Marcos. Preconceito Linguístico: o que é, como se faz. 49. ed. São Paulo: Loyola, 2007.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nTEYSSIER, Paul. História da Língua Portuguesa. Tradução: Celso Cunha. São Paulo: Martins Fontes, 2007.",
     "crumbs": [
       "Volume 2 — Fonética e Fonologia",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Processos fonológicos do português brasileiro</span>"
@@ -791,7 +1308,95 @@
     "href": "capitulos/cap-12-ortoepia-prosodia.html",
     "title": "13  Ortoépia e prosódia",
     "section": "",
-    "text": "14 Ortoépia e prosódia\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "14 Ortoépia e prosódia\nHá dois tipos de “erro de pronúncia” que a tradição gramatical distingue com cuidado: pronunciar mal os sons de uma palavra (dizer “cardeneta” por caderneta) e pronunciar a palavra com a sílaba tônica errada (dizer “rúbrica” por rubríca). Ao primeiro cuida a ortoépia (ou ortoepia); ao segundo, a prosódia. São temas de aparência menor, mas de alta recorrência em concursos — e que revelam, mais uma vez, o descompasso entre o uso corrente e a norma-padrão.\nEste capítulo fecha o estudo do “som certo” da palavra segundo a norma culta, completando a fonologia antes de passarmos, no Capítulo 15, à descrição articulatória dos sons. Aqui o foco é normativo: quais são, segundo a norma-padrão, as pronúncias recomendadas — e onde estão as armadilhas mais frequentes.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-12-ortoepia-prosodia.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-12-ortoepia-prosodia.html#objetivos-de-aprendizagem",
+    "title": "13  Ortoépia e prosódia",
+    "section": "14.1 🎯 Objetivos de aprendizagem",
+    "text": "14.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nDistinguir ortoépia (pronúncia dos sons) de prosódia (posição da tônica);\nReconhecer os erros ortoépicos mais comuns (acréscimo, troca, supressão de sons);\nIdentificar as palavras de prosódia duvidosa (oscilação da tônica);\nClassificar palavras como oxítonas, paroxítonas ou proparoxítonas segundo a norma;\nDiferenciar silabada (erro de prosódia) de erro ortoépico;\nAplicar a norma culta de pronúncia em contextos de prova e fala formal.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-12-ortoepia-prosodia.html#ortoépia-a-pronúncia-correta-dos-sons",
+    "href": "capitulos/cap-12-ortoepia-prosodia.html#ortoépia-a-pronúncia-correta-dos-sons",
+    "title": "13  Ortoépia e prosódia",
+    "section": "14.2 Ortoépia: a pronúncia correta dos sons",
+    "text": "14.2 Ortoépia: a pronúncia correta dos sons\nOrtoépia (do grego orthós, “correto”, + épos, “palavra”) é a parte da gramática que trata da pronúncia correta dos fonemas segundo a norma culta. Um erro de ortoépia — chamado cacoepia — é pronunciar mal os sons de uma palavra, por acréscimo, supressão ou troca de fonemas.\nMuitos desses “erros” são justamente os processos fonológicos do capítulo anterior, vistos agora do ponto de vista normativo: o que descrevemos como epêntese, síncope ou rotacismo, a norma-padrão trata como pronúncia a evitar em registro formal.\n\nErros ortoépicos frequentes (à esquerda, a forma a evitar; à direita, a recomendada):\n\n“adevogado” → advogado (epêntese a evitar)\n“cardeneta” → caderneta (troca de sons)\n“mendigo” pronunciado “mendingo” → mendigo (epêntese)\n“beneficência” dita “beneficiência” → beneficência (acréscimo indevido de /i/)\n“prazeroso” → prazeroso (e não “prazenteiroso”)\n“reivindicar” → reivindicar (e não “reinvindicar”)\n“frustrado” → frustrado (e não “frustado”, com síncope)\n“bicarbonato” → bicarbonato (e não “bicabornato”, metátese)\n\n\n\n\n\n\n\n\nNotaCuidado com o x e com dígrafos\n\n\n\nAlguns erros ortoépicos envolvem a leitura de letras: “estupro” (não “estrupo”), “asterisco” (não “asterístico”), “cabeleireiro” (não “cabelereiro”). Aqui o problema é acrescentar, suprimir ou trocar sons em relação à forma culta registrada nos dicionários.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-12-ortoepia-prosodia.html#prosódia-a-posição-correta-da-tônica",
+    "href": "capitulos/cap-12-ortoepia-prosodia.html#prosódia-a-posição-correta-da-tônica",
+    "title": "13  Ortoépia e prosódia",
+    "section": "14.3 Prosódia: a posição correta da tônica",
+    "text": "14.3 Prosódia: a posição correta da tônica\nProsódia é a parte da gramática que trata da correta acentuação tônica das palavras — isto é, de qual sílaba é a tônica, segundo a norma culta. O erro de prosódia chama-se silabada: deslocar a tônica para a sílaba errada.\nAtenção à diferença: a prosódia trata da tônica (força da voz), não do acento gráfico. Muitas palavras de prosódia duvidosa nem sequer levam acento; o erro está na pronúncia, não na escrita.\nA Figura 14.1 organiza as palavras que mais causam dúvida, separando as que a norma manda pronunciar como oxítonas, paroxítonas e proparoxítonas.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 14.1: Palavras de prosódia frequentemente confundida, classificadas conforme a norma-padrão: a tônica correta aparece em negrito.\n\n\n\n\n14.3.1 Paroxítonas que muitos dizem como proparoxítonas\nA norma culta as quer paroxítonas, mas é comum ouvi-las como proparoxítonas:\n\nrubrica (ru-BRI-ca, não “RÚ-bri-ca”)\nibero (i-BE-ro, não “Í-be-ro”)\navaro (a-VA-ro, não “Á-va-ro”)\nfilantropo (fi-lan-TRO-po, não “fi-LÂN-tro-po”)\npudico (pu-DI-co, não “PÚ-di-co”)\nrecorde (re-COR-de, não “RÉ-cor-de”)\n\n\n\n14.3.2 Proparoxítonas que muitos dizem como paroxítonas\nO inverso também ocorre. A norma as quer proparoxítonas:\n\naerólito (a-e-RÓ-li-to)\nínterim (ÍN-te-rim)\nprotótipo (pro-TÓ-ti-po)\n\n\n\n14.3.3 Oxítonas confundidas\n\nmister (mis-TER, no sentido de “necessário”: é mister agir)\nnovel (no-VEL, “novo, inexperiente”)\nNobel (No-BEL — o prêmio, oxítona)",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-12-ortoepia-prosodia.html#palavras-com-dupla-prosódia-aceita",
+    "href": "capitulos/cap-12-ortoepia-prosodia.html#palavras-com-dupla-prosódia-aceita",
+    "title": "13  Ortoépia e prosódia",
+    "section": "14.4 Palavras com dupla prosódia aceita",
+    "text": "14.4 Palavras com dupla prosódia aceita\nAlgumas palavras admitem duas pronúncias, ambas corretas segundo a norma — são as de prosódia dupla:\n\nacróbata / acrobata\nxérox / xerox\nortoépia / ortoepia (o próprio termo!)\nhieróglifo / hieroglifo\nzângão / zangão\ntransístor / transistor\n\nNesses casos, não há erro em nenhuma das formas — o dicionário registra as duas.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-12-ortoepia-prosodia.html#quadro-resumo",
+    "href": "capitulos/cap-12-ortoepia-prosodia.html#quadro-resumo",
+    "title": "13  Ortoépia e prosódia",
+    "section": "14.5 📋 Quadro-resumo",
+    "text": "14.5 📋 Quadro-resumo\n\n\n\n\n\n\n\n\n\nÁrea\nTrata de\nErro\nExemplo de erro\n\n\n\n\nOrtoépia\nPronúncia dos sons/fonemas\nCacoepia\n“adevogado”, “frustado”\n\n\nProsódia\nPosição da sílaba tônica\nSilabada\n“rúbrica” por rubrica\n\n\n\nParoxítonas (norma): rubrica, ibero, avaro, filantropo, pudico, recorde. Proparoxítonas (norma): aerólito, ínterim, protótipo. Oxítonas: mister, novel, Nobel. Prosódia dupla: acróbata/acrobata, xérox/xerox, zângão/zangão.\nEm uma linha: a ortoépia cuida do som certo dos fonemas; a prosódia, da tônica certa — e as pegadinhas de concurso moram nas palavras que o uso corrente pronuncia fora da norma.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-12-ortoepia-prosodia.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-12-ortoepia-prosodia.html#pegadinhas-e-erros-comuns",
+    "title": "13  Ortoépia e prosódia",
+    "section": "14.6 ⚠️ Pegadinhas e erros comuns",
+    "text": "14.6 ⚠️ Pegadinhas e erros comuns\n\nConfundir ortoépia com prosódia. Ortoépia = pronúncia dos sons (advogado sem o “e” de “adevogado”); prosódia = posição da tônica (rubrica paroxítona).\nDizer “rúbrica”, ” íbero”, “ávaro”. A norma quer essas palavras paroxítonas: ru-BRI-ca, i-BE-ro, a-VA-ro.\nAchar que prosódia é sobre acento gráfico. É sobre a tônica (pronúncia). Muitas palavras de prosódia duvidosa nem levam acento.\nIgnorar as de prosódia dupla. Xérox/xerox, acróbata/acrobata, zângão/zangão têm as duas formas aceitas — marcar uma como “errada” é a pegadinha.\nInserir sons inexistentes. “reinvindicar” (o certo é reivindicar), “beneficiência” (o certo é beneficência), “mendingo” (o certo é mendigo).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-12-ortoepia-prosodia.html#exercícios",
+    "href": "capitulos/cap-12-ortoepia-prosodia.html#exercícios",
+    "title": "13  Ortoépia e prosódia",
+    "section": "14.7 ✍️ Exercícios",
+    "text": "14.7 ✍️ Exercícios\n1. Diferencie ortoépia de prosódia, dando um exemplo de erro de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nOrtoépia trata da pronúncia correta dos sons/fonemas da palavra; seu erro (cacoepia) é pronunciar mal os sons, como “adevogado” por advogado. Prosódia trata da posição correta da sílaba tônica; seu erro (silabada) é deslocar a tônica, como “rúbrica” por rubrica. Uma cuida dos sons; a outra, de onde bate a força da voz.\n\n\n\n2. (Estilo ENEM) A pronúncia “RÚ-bri-ca”, em vez de ru-BRI-ca, constitui:\n\nerro de ortoépia (cacoepia);\nerro de prosódia (silabada);\nforma aceita como prosódia dupla;\nerro de ortografia;\nvariação regional sem estatuto de erro.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). O erro está em deslocar a sílaba tônica (a norma quer rubrica paroxítona, ru-BRI-ca) — trata-se de silabada, erro de prosódia. Não é ortoépia (os sons estão certos), nem prosódia dupla (a norma admite só a forma paroxítona).\n\n\n\n3. Classifique quanto à tonicidade, segundo a norma: (a) ibero; (b) ínterim; (c) mister (necessário); (d) filantropo.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nibero → paroxítona (i-BE-ro). (b) ínterim → proparoxítona (ÍN-te-rim). (c) mister → oxítona (mis-TER). (d) filantropo → paroxítona (fi-lan-TRO-po).\n\n\n\n\n4. Corrija os erros ortoépicos: (a) “frustado”; (b) “reinvindicar”; (c) “beneficiência”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nfrustrado (com o r: frus-tra-do). (b) reivindicar (rei-vin-di-car, sem o n extra). (c) beneficência (be-ne-fi-cên-cia, sem o i de “ciência”).\n\n\n\n\n5. O que é uma palavra de prosódia dupla? Dê dois exemplos.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nÉ a palavra que admite duas pronúncias tônicas, ambas aceitas pela norma e registradas em dicionário. Exemplos: acróbata / acrobata; xérox / xerox; zângão / zangão; ortoépia / ortoepia. Nenhuma das formas é considerada erro.\n\n\n\n6. (Estilo FCC) Assinale a alternativa cuja prosódia está de acordo com a norma:\n\n“RÉ-cor-de” (marca esportiva);\n“PÚ-di-co”;\n“a-e-RÓ-li-to”;\n“fi-LÂN-tro-po”;\n“Í-be-ro”.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). Aerólito é proparoxítona (a-e-RÓ-li-to), conforme a norma. As demais estão erradas: o correto é re-COR-de (paroxítona), pu-DI-co, fi-lan-TRO-po e i-BE-ro (todas paroxítonas).\n\n\n\n7. Explique por que o “erro” de dizer “adevogado” pode ser relacionado a um processo fonológico do capítulo anterior.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Adevogado” resulta de epêntese: o acréscimo de uma vogal (/e/) no meio da palavra para desfazer o encontro consonantal dv, difícil de pronunciar. Do ponto de vista descritivo, é um processo fonológico regular; do ponto de vista normativo (ortoépia), é uma cacoepia a evitar no registro formal, pois a forma culta é advogado. O mesmo fato visto por duas lentes: a descritiva e a normativa.\n\n\n\n8. Coloque a tônica correta e classifique: (a) avaro; (b) protótipo; (c) novel.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\na-VA-ro → paroxítona. (b) pro-TÓ-ti-po → proparoxítona. (c) no-VEL → oxítona (“novo, inexperiente”).\n\n\n\n\n9. Um locutor diz “o vencedor do prêmio NÓ-bel”. Há erro? De que tipo?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nSim, há erro de prosódia (silabada). O prêmio Nobel é oxítona (No-BEL), conforme a norma e a origem do nome (Alfred Nobel). Dizer “NÓ-bel” (como paroxítona) desloca indevidamente a tônica. Os sons estão certos, mas a posição da tônica, não — por isso é erro de prosódia, não de ortoépia.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “As palavras xérox e xerox são ambas aceitas pela norma, constituindo caso de prosódia dupla.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCerto. Xérox (proparoxítona/paroxítona com acento) e xerox (oxítona) são ambas registradas e aceitas — caso de prosódia dupla. Nenhuma das duas pronúncias constitui erro.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-12-ortoepia-prosodia.html#referências",
+    "href": "capitulos/cap-12-ortoepia-prosodia.html#referências",
+    "title": "13  Ortoépia e prosódia",
+    "section": "14.8 📚 Referências",
+    "text": "14.8 📚 Referências\nO tratamento normativo da ortoépia e da prosódia segue Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017); as pronúncias registradas devem ser confirmadas no dicionário Houaiss (Houaiss; Villar, 2009). A relação entre esses “erros” e os processos fonológicos regulares é discutida por Bagno (Bagno, 2007).\n\n\nBAGNO, Marcos. Preconceito Linguístico: o que é, como se faz. 49. ed. São Paulo: Loyola, 2007.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.\n\n\nHOUAISS, Antônio; VILLAR, Mauro de Salles. Dicionário Houaiss da Língua Portuguesa. Rio de Janeiro: Objetiva, 2009.",
     "crumbs": [
       "Volume 2 — Fonética e Fonologia",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ortoépia e prosódia</span>"
@@ -802,7 +1407,106 @@
     "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html",
     "title": "14  Noções de fonética articulatória: o trapézio vocálico",
     "section": "",
-    "text": "15 Noções de fonética articulatória: o trapézio vocálico\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "15 Noções de fonética articulatória: o trapézio vocálico\nTodo som que produzimos resulta de um gesto físico preciso: uma corrente de ar que sai dos pulmões e é modelada pelos órgãos da fala — lábios, dentes, língua, palato, cordas vocais. A fonética articulatória estuda justamente como cada som é produzido: onde a língua toca, se as cordas vocais vibram, por onde o ar escapa. Enquanto a fonologia (capítulos anteriores) olha os sons como peças do sistema, a fonética os olha como eventos físicos.\nEste capítulo fecha o Volume 2 dando os fundamentos articulatórios que estavam implícitos nas classificações anteriores. O ponto alto é o trapézio vocálico, o diagrama que representa as vogais conforme a posição da língua na boca — uma das figuras mais características de todo o estudo fonético, e que agora construímos com rigor.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#objetivos-de-aprendizagem",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "15.1 🎯 Objetivos de aprendizagem",
+    "text": "15.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nIdentificar os principais órgãos do aparelho fonador e seu papel;\nClassificar as consoantes por ponto de articulação, modo de articulação e vozeamento;\nLer e construir o trapézio vocálico do português;\nRelacionar a posição da língua às propriedades de altura e anterioridade das vogais;\nDistinguir sons orais de nasais pelo papel do véu palatino;\nAplicar a descrição articulatória à análise de fonemas do português.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#o-aparelho-fonador",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#o-aparelho-fonador",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "15.2 O aparelho fonador",
+    "text": "15.2 O aparelho fonador\nA fala começa nos pulmões, que fornecem o ar. Ao subir pela traqueia, o ar passa pela laringe, onde estão as cordas vocais (ou pregas vocais): se elas vibram, o som é sonoro (/b/, /z/, /a/); se não, surdo (/p/, /s/). Acima, o ar chega às cavidades oral e nasal. O véu palatino (palato mole) funciona como uma comporta: abaixado, deixa o ar sair também pelo nariz (sons nasais); levantado, fecha a passagem nasal (sons orais).\nNa cavidade oral, os articuladores dão a forma final ao som: os lábios, os dentes, a língua (o articulador mais ágil) e as diferentes zonas do teto da boca — os alvéolos (atrás dos dentes), o palato duro e o palato mole (véu).",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#classificação-das-consoantes",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#classificação-das-consoantes",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "15.3 Classificação das consoantes",
+    "text": "15.3 Classificação das consoantes\nCada consoante define-se por três parâmetros, resumidos na Figura 15.1.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 15.1: Os três critérios de classificação das consoantes: ponto de articulação (onde), modo de articulação (como) e vozeamento (se as cordas vibram).\n\n\n\n\nPonto de articulação (onde está o obstáculo): bilabial (dois lábios: /p, b, m/), labiodental (lábio + dentes: /f, v/), alveolar (língua nos alvéolos: /t, d, s, z, n, l, ɾ/), palatal (língua no palato duro: /ʃ, ʒ, ɲ, ʎ/), velar (língua no véu: /k, g, ʀ/).\nModo de articulação (como o ar passa): oclusiva (o ar é bloqueado e solto: /p, b, t, d, k, g/), fricativa (o ar passa por uma fenda, com fricção: /f, v, s, z, ʃ, ʒ/), nasal (o ar sai pelo nariz: /m, n, ɲ/), lateral (o ar sai pelos lados da língua: /l, ʎ/), vibrante (a língua ou a úvula vibra: /ɾ, ʀ/).\nVozeamento (as cordas vocais vibram?): surda ou sonora.\n\nCom esses três dados, descreve-se qualquer consoante. O /p/, por exemplo, é uma oclusiva bilabial surda; o /z/, uma fricativa alveolar sonora; o /ɲ/ (o nh), uma nasal palatal sonora.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#o-trapézio-vocálico",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#o-trapézio-vocálico",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "15.4 O trapézio vocálico",
+    "text": "15.4 O trapézio vocálico\nAs vogais não têm “obstáculo” nem ponto de contato — por isso não se classificam como as consoantes. O que as distingue é a posição da língua dentro da boca, em duas dimensões: a altura (quão elevada está a língua: alta, média, baixa) e a anterioridade (quão avançada: anterior, central, posterior). Representar essas duas dimensões num diagrama produz o trapézio vocálico — assim chamado porque a figura resultante tem a forma aproximada de um trapézio, refletindo o espaço real da cavidade bucal (mais largo em cima, na região das vogais altas).\nA Figura 15.2 é o trapézio das sete vogais orais tônicas do português.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 15.2: O trapézio vocálico do português: cada vogal ocupa uma posição definida pela altura (vertical) e pela anterioridade (horizontal) da língua. As anteriores /i, e, ɛ/ à esquerda; a central /a/ na base; as posteriores /u, o, ɔ/ à direita.\n\n\n\nPara “ler” o trapézio, pense no seu próprio corpo: diga /i/ e depois /a/, prestando atenção à mandíbula. No /i/, a boca está quase fechada e a língua alta e avançada (canto superior esquerdo); no /a/, a boca abre e a língua desce (base). Passe de /i/ a /u/: a língua recua e os lábios arredondam (topo direito). O trapézio é, literalmente, um mapa dos gestos da sua boca.\n\n\n\n\n\n\nNotaPor que trapézio, e não retângulo?\n\n\n\nPorque o espaço articulatório real é assimétrico: há mais “margem de manobra” para a língua nas posições altas do que nas baixas. Na altura baixa, as vogais anterior e posterior praticamente se encontram na vogal central /a/. Por isso a figura estreita para baixo, tomando forma de trapézio — ela reflete a anatomia, não é mero enfeite.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#vogais-nasais-no-trapézio",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#vogais-nasais-no-trapézio",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "15.5 Vogais nasais no trapézio",
+    "text": "15.5 Vogais nasais no trapézio\nAs cinco vogais nasais (/ɐ̃, ẽ, ĩ, õ, ũ/) ocupam posições próximas às de suas correspondentes orais, com o véu palatino abaixado (deixando o ar sair pelo nariz). A vogal /ɐ̃/ de campo, por exemplo, é um pouco mais alta e central que a /a/ oral. Para os fins deste manual, basta reter que a nasalidade acrescenta uma dimensão (oral × nasal) à descrição vocálica, sem alterar radicalmente a posição da língua.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#quadro-resumo",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#quadro-resumo",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "15.6 📋 Quadro-resumo",
+    "text": "15.6 📋 Quadro-resumo\n\n\n\n\n\n\n\nSons\nCritérios de classificação\n\n\n\n\nConsoantes\nponto (bilabial, labiodental, alveolar, palatal, velar) · modo (oclusiva, fricativa, nasal, lateral, vibrante) · vozeamento (surda/sonora)\n\n\nVogais\naltura (alta, média, baixa) · anterioridade (anterior, central, posterior) · arredondamento · nasalidade\n\n\n\nExemplos de descrição: /p/ = oclusiva bilabial surda; /z/ = fricativa alveolar sonora; /ɲ/ = nasal palatal sonora; /i/ = vogal alta anterior; /ɔ/ = vogal média-aberta posterior arredondada.\nEm uma linha: a fonética articulatória descreve como cada som é fisicamente produzido; as consoantes classificam-se por ponto, modo e vozeamento, e as vogais mapeiam-se no trapézio vocálico conforme a altura e a anterioridade da língua.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#pegadinhas-e-erros-comuns",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "15.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "15.7 ⚠️ Pegadinhas e erros comuns\n\nAplicar “ponto de articulação” às vogais. Vogais não têm obstáculo; classificam-se por posição da língua (altura, anterioridade), não por ponto/modo como as consoantes.\nConfundir surda e sonora. Surda = cordas vocais não vibram (/p, t, k, f, s, ʃ/); sonora = vibram (/b, d, g, v, z, ʒ/). Ponha a mão na garganta para testar.\nTrocar os pares de vozeamento. /p/–/b/, /t/–/d/, /k/–/g/, /f/–/v/, /s/–/z/, /ʃ/–/ʒ/ diferem só no vozeamento (mesmo ponto e modo).\nLer o trapézio ao contrário. As altas (/i, u/) ficam no topo; as baixas (/a/), na base. As anteriores à esquerda; as posteriores à direita.\nEsquecer o papel do véu palatino. É ele que decide oral × nasal: abaixado, o som é nasal; levantado, oral.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#exercícios",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#exercícios",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "15.8 ✍️ Exercícios",
+    "text": "15.8 ✍️ Exercícios\n1. Descreva o fonema /b/ pelos três critérios de classificação das consoantes.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n/b/ é uma oclusiva (o ar é bloqueado e liberado), bilabial (produzida com os dois lábios) e sonora (as cordas vocais vibram). Seu par surdo é /p/, que difere apenas no vozeamento.\n\n\n\n2. (Estilo ENEM) O que diferencia os fonemas /f/ e /v/?\n\no ponto de articulação;\no modo de articulação;\no vozeamento (surda × sonora);\na nasalidade;\na altura da língua.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). /f/ e /v/ são ambas fricativas labiodentais; diferem apenas no vozeamento: /f/ é surda (cordas não vibram) e /v/ é sonora (cordas vibram). Formam um par de vozeamento.\n\n\n\n3. No trapézio vocálico, onde se localizam /i/, /a/ e /u/? Descreva a posição da língua em cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n/i/: canto superior esquerdo — vogal alta e anterior (língua elevada e avançada, boca quase fechada). /a/: base central — vogal baixa e central (língua abaixada, boca aberta). /u/: canto superior direito — vogal alta e posterior (língua elevada e recuada, lábios arredondados).\n\n\n\n4. Explique o papel do véu palatino na distinção entre sons orais e nasais.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nO véu palatino (palato mole) funciona como uma comporta na entrada da cavidade nasal. Quando está levantado, fecha a passagem para o nariz, e o ar sai só pela boca — som oral. Quando está abaixado, o ar sai também pelo nariz — som nasal (como em /m, n, ɲ/ e nas vogais nasais). A posição do véu é o que decide a nasalidade.\n\n\n\n5. Por que o diagrama das vogais tem a forma de um trapézio, e não de um retângulo?\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nPorque reflete o espaço articulatório real da boca, que é assimétrico: nas posições altas há mais amplitude para a língua distinguir vogais anteriores e posteriores, enquanto nas posições baixas essa distinção se reduz (aproximando-se da vogal central /a/). Por isso a figura é mais larga no topo e estreita na base — a forma de trapézio representa a anatomia da cavidade bucal.\n\n\n\n6. (Estilo FCC) O fonema representado pelo dígrafo nh (/ɲ/) classifica-se como:\n\noclusiva velar surda;\nfricativa alveolar sonora;\nnasal palatal sonora;\nlateral palatal sonora;\nvibrante velar sonora.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). /ɲ/ (o nh de ninho) é uma nasal (ar pelo nariz), palatal (língua no palato duro) e sonora (cordas vibram). A (d) descreveria o /ʎ/ (o lh), que é lateral, não nasal.\n\n\n\n7. Classifique as vogais /ɛ/ e /o/ quanto à altura e à anterioridade.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n/ɛ/ (o “é” aberto de pé): vogal média-aberta e anterior (não arredondada). /o/ (o “ô” fechado de avô): vogal média-fechada e posterior (arredondada).\n\n\n\n8. Dê um par de consoantes que se distinga apenas pelo ponto de articulação (e não pelo modo ou vozeamento).\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nExemplo: /m/ e /n/ — ambas são nasais sonoras, distinguindo-se apenas no ponto: /m/ é bilabial, /n/ é alveolar. Outro exemplo: /s/ e /ʃ/ (ambas fricativas surdas: alveolar × palatal), ou /k/ e /p/ (ambas oclusivas surdas: velar × bilabial).\n\n\n\n9. Ao pronunciar lentamente a sequência /i/ – /e/ – /ɛ/ – /a/, o que acontece com a mandíbula e a língua? Relacione ao trapézio.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA boca vai se abrindo progressivamente e a língua vai descendo: de /i/ (alta, boca quase fechada) para /e/ (média-fechada), /ɛ/ (média-aberta) e /a/ (baixa, boca bem aberta). No trapézio, isso corresponde a descer pela lateral esquerda (vogais anteriores), do topo à base — a altura da vogal reflete diretamente o grau de abertura da boca.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “As vogais classificam-se por ponto e modo de articulação, exatamente como as consoantes.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. As vogais não se classificam por ponto e modo de articulação — esses critérios servem às consoantes, que têm obstáculo à passagem do ar. As vogais, em que o ar sai livre, classificam-se pela posição da língua (altura e anterioridade), além de arredondamento e nasalidade, e representam-se no trapézio vocálico.",
+    "crumbs": [
+      "Volume 2 — Fonética e Fonologia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#referências",
+    "href": "capitulos/cap-13-fonetica-articulatoria-trapezio.html#referências",
+    "title": "14  Noções de fonética articulatória: o trapézio vocálico",
+    "section": "15.9 📚 Referências",
+    "text": "15.9 📚 Referências\nOs fundamentos de fonética articulatória e a construção do trapézio vocálico do português baseiam-se em Câmara Jr. (Câmara Jr., 1970); para exposição acessível do sistema sonoro e da articulação, ver Castilho (Castilho, 2010) e Cunha & Cintra (Cunha; Cintra, 2017). Com este capítulo encerra-se o Volume 2; o Volume 3 passa da descrição dos sons à sua representação escrita — a ortografia.\n\n\nCÂMARA JR., Joaquim Mattoso. Estrutura da Língua Portuguesa. Petrópolis: Vozes, 1970.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 2 — Fonética e Fonologia",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Noções de fonética articulatória: o trapézio vocálico</span>"
