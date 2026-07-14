@@ -4,22 +4,316 @@ title: "Sílaba: estrutura, divisão silábica e tonicidade"
 
 # Sílaba: estrutura, divisão silábica e tonicidade {#sec-cap-10}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 2 — Fonética e Fonologia.
+> "A sílaba é a batida do coração da palavra: é nela que a língua respira."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Toda palavra falada se organiza em **sílabas** — os "golpes de voz" com que a
+pronunciamos. Dividir palavras em sílabas parece trivial (qualquer criança separa
+*ca-sa*), mas há regras precisas que resolvem os casos difíceis (*subs-cre-ver*,
+*pneu*, *sa-ú-de*) e que fundamentam a translineação (a divisão no fim da linha) e a
+acentuação gráfica. Além disso, uma sílaba de cada palavra é pronunciada com mais
+força: a **sílaba tônica** — e é sobre ela que recai (ou não) o acento, tema dos
+capítulos de acentuação (Volume 3).
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo reúne o que construímos até aqui: vogais e semivogais (@sec-cap-08),
+ditongos, hiatos e dígrafos (@sec-cap-09) entram todos na divisão silábica. Dominar a
+sílaba e a tonicidade é o último degrau da fonologia antes de passarmos aos processos
+sonoros e à acentuação.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** a estrutura da sílaba (a vogal como núcleo obrigatório);
+- **Aplicar** as regras de divisão silábica, inclusive nos casos difíceis;
+- **Classificar** as palavras quanto ao número de sílabas (mono, di, tri,
+  polissílabas);
+- **Identificar** a sílaba tônica e classificar as palavras em oxítonas,
+  paroxítonas e proparoxítonas;
+- **Distinguir** tônica, subtônica e átonas;
+- **Diferenciar** monossílabos tônicos de átonos.
+
+## A estrutura da sílaba
+
+A **sílaba** é a menor unidade de pronúncia, emitida num só impulso de voz. Seu
+elemento central e obrigatório é a **vogal** (o núcleo): como vimos, não há sílaba
+sem vogal, mas pode haver sílaba sem consoante. Em torno do núcleo podem aparecer
+consoantes (antes, o *ataque*; depois, a *coda*) e semivogais.
+
+Assim, uma sílaba pode ir da mais simples à mais complexa:
+
+- só vogal: *á* (á-gua), *é*, *ou* (com semivogal);
+- consoante + vogal: *ca* (ca-sa) — o padrão mais comum;
+- consoante + vogal + consoante: *sol*, *par*;
+- com encontros: *tran* (trans-por-te), *claus* (claus-tro).
+
+## Regras de divisão silábica
+
+Dividir em sílabas segue princípios ligados aos conceitos do capítulo anterior. Eis
+os casos que importam:
+
+**Não se separam** (ficam na mesma sílaba):
+
+- **Ditongos e tritongos**: *pai-xão*, *á-gua*, *sa-guão*, *quais*.
+- **Dígrafos *ch*, *lh*, *nh***: *cha-ve*, *pa-lha*, *ni-nho* (representam um só som).
+- **Encontros consonantais perfeitos** (*pr, br, tr, cl, gl, fl*...): *pra-to*,
+  *a-pren-der*, *re-gra*.
+
+**Separam-se**:
+
+- **Hiatos** (duas vogais em sílabas distintas): *sa-í-da*, *po-e-ta*, *vo-o*,
+  *ra-i-nha*.
+- **Dígrafos *rr*, *ss*, *sc*, *sç*, *xc***: *car-ro*, *pas-so*, *nas-cer*,
+  *des-ço*, *ex-ce-to*.
+- **Encontros consonantais imperfeitos**: *ad-vo-ga-do*, *ap-to*, *rit-mo*,
+  *sub-li-nhar* → *sub-li-nhar* (aqui *bl* é perfeito; cuidado caso a caso).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O caso dos grupos com *s*: *subs-*, *trans-*, *ins-*
+Em grupos de três consoantes, a divisão costuma deixar o *s* fechando a sílaba
+anterior: *subs-cre-ver*, *trans-por-te*, *ins-tru-ção*, *pers-pi-caz*. E consoantes
+que não formam grupo perfeito distribuem-se entre as sílabas: *con-vic-ção*,
+*op-ção*. Na dúvida, teste a pronúncia: as consoantes que se pronunciam "juntas" no
+início de uma sílaba ficam juntas; as demais, separam-se.
+:::
+
+::: {.exemplo}
+- *subscrever* → **subs-cre-ver** (o *bs* separa; *cr* perfeito fica junto).
+- *pneumonia* → **pneu-mo-ni-a** (*pn* inicial fica junto; o *i-a* final é hiato).
+- *bilíngue* → **bi-lín-gue** (o *gu* = /g/ é dígrafo, fica junto).
+- *coelho* → **co-e-lho** (hiato *o-e*; dígrafo *lh* junto).
+:::
+
+## Número de sílabas
+
+Quanto ao número de sílabas, as palavras classificam-se em:
+
+- **Monossílabas**: uma sílaba (*pá*, *sol*, *mão*, *quais*).
+- **Dissílabas**: duas (*ca-sa*, *pa-pel*).
+- **Trissílabas**: três (*ca-de-ra* → *ca-dei-ra* tem 3; *ár-vo-re*).
+- **Polissílabas**: quatro ou mais (*bor-bo-le-ta*, *pa-ra-le-le-pí-pe-do*).
+
+## Tonicidade: a sílaba mais forte
+
+Em toda palavra com mais de uma sílaba, uma delas é pronunciada com **mais
+intensidade**: é a **sílaba tônica**. As demais são **átonas** (podendo a átona
+anterior à tônica, em palavras longas, ter um acento secundário, a **subtônica**).
+Atenção: tônica é conceito **fonético** (força da pronúncia), independente de haver ou
+não acento gráfico — *café* e *caqui* são ambas oxítonas, mas só a primeira leva
+acento.
+
+Conforme a posição da tônica, as palavras (com duas ou mais sílabas) classificam-se
+em três tipos, resumidos na @fig-tonicidade:
+
+::: {#fig-tonicidade}
+
+```{.tikz}
+%%| filename: tonicidade
+%%| alt: Esquema com três palavras exemplificando a posição da sílaba tônica. Oxítona: tônica na última sílaba (ca-FÉ). Paroxítona: tônica na penúltima (ca-DER-no, destacando a penúltima). Proparoxítona: tônica na antepenúltima (LÂM-pa-da). A sílaba tônica aparece destacada em cada caso.
+
+\begin{tikzpicture}[
+  font=\small,
+  sil/.style={draw=manualgray, minimum width=14mm, minimum height=8mm, align=center, inner sep=2pt},
+  ton/.style={sil, draw=manualred, very thick, fill=manualred!12, font=\bfseries},
+  rot/.style={font=\footnotesize\bfseries, text=manualblue},
+]
+  % oxítona
+  \node[rot] at (-1.2,2.4) {Oxítona};
+  \node[sil] (o1) at (0.6,2.4) {ca};
+  \node[ton] (o2) at (2.0,2.4) {fé};
+  \node[font=\scriptsize] at (3.9,2.4) {última};
+
+  % paroxítona
+  \node[rot] at (-1.2,1.2) {Paroxítona};
+  \node[sil] (p1) at (0.6,1.2) {ca};
+  \node[ton] (p2) at (2.0,1.2) {der};
+  \node[sil] (p3) at (3.4,1.2) {no};
+  \node[font=\scriptsize] at (5.2,1.2) {penúltima};
+
+  % proparoxítona
+  \node[rot] at (-1.2,0.0) {Proparoxítona};
+  \node[ton] (pp1) at (0.6,0.0) {lâm};
+  \node[sil] (pp2) at (2.0,0.0) {pa};
+  \node[sil] (pp3) at (3.4,0.0) {da};
+  \node[font=\scriptsize] at (5.4,0.0) {antepenúltima};
+\end{tikzpicture}
+```
+
+A posição da sílaba tônica define a classificação: última (oxítona), penúltima
+(paroxítona) ou antepenúltima (proparoxítona).
+:::
+
+- **Oxítona**: tônica na **última** sílaba — *ca-fé*, *u-ru-bu*, *pa-rede* → *pa-re-DE*?
+  não; *ca-jU* → *caju* é oxítona. Ex.: *sofá*, *urubu*, *parabéns*.
+- **Paroxítona**: tônica na **penúltima** — *ca-**der**-no*, ***me**-sa*, ***á**-gua*.
+  É o padrão mais comum do português.
+- **Proparoxítona**: tônica na **antepenúltima** — ***lâm**-pa-da*, ***mé**-di-co*,
+  ***ú**-ti-mo* → *último*. Todas as proparoxítonas são acentuadas (Volume 3).
+
+## Monossílabos: tônicos e átonos
+
+Os monossílabos, embora tenham uma só sílaba, dividem-se por seu peso na frase:
+
+- **Tônicos**: têm autonomia e força própria — *pá*, *sol*, *fé*, *mão*, *três*. São,
+  em geral, substantivos, verbos, advérbios: palavras de conteúdo.
+- **Átonos**: apoiam-se em outra palavra, sem força própria — artigos (*o*, *a*),
+  preposições (*de*, *em*), pronomes oblíquos (*me*, *te*, *se*), conjunções (*e*,
+  *que*). São palavras gramaticais que "colam" nas vizinhas.
+
+Compare *"Vi o sol"*: *sol* é tônico (forte), enquanto *o* é átono (apoia-se em
+*sol*). Essa distinção importará para a colocação pronominal (Volume 8) e para a
+acentuação de monossílabos.
+
+## 📋 Quadro-resumo
+
+| Classificação | Critério | Exemplos |
+|---|---|---|
+| **Mono/di/tri/polissílaba** | Número de sílabas | *sol* / *casa* / *cadeira* / *borboleta* |
+| **Oxítona** | Tônica na última | *café*, *urubu*, *parabéns* |
+| **Paroxítona** | Tônica na penúltima | *mesa*, *caderno*, *água* |
+| **Proparoxítona** | Tônica na antepenúltima | *lâmpada*, *médico*, *sílaba* |
+| **Monossílabo tônico** | Força própria | *pá*, *fé*, *sol* |
+| **Monossílabo átono** | Apoia-se noutra palavra | *o*, *de*, *me*, *e* |
+
+Não se separam: ditongos, tritongos, dígrafos *ch/lh/nh*, encontros perfeitos.
+Separam-se: hiatos, dígrafos *rr/ss/sc/sç/xc*, encontros imperfeitos.
+
+Em uma linha: a **sílaba** gira em torno da vogal-núcleo; a **divisão silábica** segue
+o comportamento de ditongos, dígrafos e encontros; e a **tonicidade** classifica as
+palavras conforme a posição da sílaba mais forte.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Separar dígrafo que não se separa.** *ch*, *lh*, *nh* ficam juntos (*ni-nho*); mas
+  *rr*, *ss*, *sc* separam-se (*car-ro*, *nas-cer*). Não confunda os dois grupos.
+- **Separar ditongo ou juntar hiato.** *pai-xão* (ditongo, junto), mas *sa-í-da*
+  (hiato, separado). Ouça a pronúncia.
+- **Confundir tônica com sílaba acentuada graficamente.** Toda palavra tem tônica; nem
+  toda leva acento. *Caju* é oxítona sem acento; *café*, oxítona com acento.
+- **Achar que paroxítona é "regra de acento".** Oxítona/paroxítona/proparoxítona
+  classificam pela **posição da tônica**, não pela presença de acento. A acentuação
+  gráfica é assunto do Volume 3.
+- **Tratar todo monossílabo como tônico.** Artigos, preposições, conjunções e pronomes
+  oblíquos são monossílabos **átonos**.
+
+## ✍️ Exercícios
+
+**1.** Divida em sílabas e classifique quanto ao número de sílabas: (a) *subscrever*;
+(b) *coelho*; (c) *pneu*; (d) *saúde*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *subs-cre-ver* — trissílaba. (b) *co-e-lho* — trissílaba (hiato *o-e*; dígrafo *lh*
+junto). (c) *pneu* — monossílaba (*pn* junto; *eu* ditongo). (d) *sa-ú-de* —
+trissílaba (hiato *a-ú*).
+:::
+
+**2.** (Estilo ENEM) Assinale a palavra **proparoxítona**:
+
+a) parabéns;
+b) recorde (o troféu);
+c) exército;
+d) caqui;
+e) abacaxi.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** *E-xér-ci-to* tem a tônica na antepenúltima sílaba (*xér*) →
+proparoxítona. *Parabéns* e *abacaxi* são oxítonas; *caqui* é paroxítona; *recorde* é
+paroxítona (re-COR-de).
+:::
+
+**3.** Classifique quanto à tonicidade: (a) *régua*; (b) *cajá*; (c) *máquina*; (d)
+*Brasil*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *ré-gua* → paroxítona (tônica na penúltima). (b) *ca-já* → oxítona. (c)
+*má-qui-na* → proparoxítona. (d) *Bra-sil* → oxítona (tônica em *sil*).
+:::
+
+**4.** Por que *carro* se divide *car-ro*, mas *carreta* mantém o *rr* separado do
+mesmo modo? Explique a regra.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O dígrafo *rr* (que representa um só fonema /ʀ/) **separa-se** na divisão silábica,
+com cada *r* ficando numa sílaba: *car-ro*, *car-re-ta*. Isso ocorre porque, embora
+represente um único som, o *rr* está sempre entre vogais e a convenção da
+translineação divide-o. É o oposto dos dígrafos *ch/lh/nh*, que ficam juntos.
+:::
+
+**5.** Diferencie **sílaba tônica** de **sílaba acentuada graficamente**, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A sílaba **tônica** é a pronunciada com mais força — existe em toda palavra de duas ou
+mais sílabas, independentemente da escrita. A sílaba **acentuada graficamente** é a que
+leva sinal de acento, o que só ocorre em parte das palavras, conforme as regras de
+acentuação. Exemplo: em *caju*, a tônica é *ju*, mas não há acento gráfico; em *café*,
+a tônica é *fé* e leva acento. Toda palavra tem tônica; nem toda tem acento gráfico.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que a divisão silábica está **correta**:
+
+a) sub-li-nhar;
+b) su-bli-nhar;
+c) subl-i-nhar;
+d) sub-lin-har;
+e) su-bli-nha-r.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (a).** *sub-li-nhar*: o prefixo *sub-* fecha a primeira sílaba, e o
+dígrafo *nh* permanece junto (*nhar*). A (b) junta indevidamente *bl* (que aqui não é
+grupo perfeito no interior, pois há o prefixo *sub*); a (d) separa o dígrafo *nh*; a
+(e) isola o *r* final.
+:::
+
+**7.** Identifique os monossílabos **átonos** na frase: "Eu vi o mar e o sol de manhã."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Átonos: *o* (artigo, duas ocorrências), *e* (conjunção), *de* (preposição). Tônicos:
+*Eu*, *vi*, *mar*, *sol* (têm força própria — pronomes, verbos e substantivos de
+conteúdo). *Manhã* é dissílaba, não monossílabo.
+:::
+
+**8.** Divida em sílabas: (a) *transatlântico*; (b) *psicologia*; (c) *bilíngue*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *trans-a-tlân-ti-co* (o *s* de *trans* fecha a sílaba; *tl* junto). (b)
+*psi-co-lo-gi-a* (o *ps* inicial junto; *i-a* final é hiato). (c) *bi-lín-gue* (o *gu*
+= /g/ é dígrafo, fica junto).
+:::
+
+**9.** Uma palavra pode ser, ao mesmo tempo, paroxítona e conter um hiato. Dê um
+exemplo e justifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplo: *saída* (sa-**í**-da). É paroxítona (tônica na penúltima, *í*) e contém o
+hiato *a-í* (duas vogais em sílabas separadas). Outro: *poeta* (po-**e**-ta),
+paroxítona com hiato *o-e*. As duas classificações são independentes: uma trata da
+posição da tônica; a outra, do encontro vocálico.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Todas as palavras proparoxítonas do
+português são acentuadas graficamente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** Uma das poucas regras sem exceção da acentuação: **todas** as
+proparoxítonas levam acento gráfico (*lâmpada*, *médico*, *sílaba*, *árvore*). Isso
+será formalizado no Volume 3, mas já se pode afirmar com segurança.
+:::
+
+## 📚 Referências
+
+As regras de divisão silábica e a classificação quanto à tonicidade seguem o
+tratamento normativo de Cunha & Cintra [@cunhacintra2017] e Bechara [@bechara2009], em
+consonância com a descrição estrutural de Câmara Jr. [@camarajr1970]. A aplicação da
+tonicidade à acentuação gráfica é desenvolvida nos capítulos 17 e 18 (Volume 3).
+
+::: {#refs}
 :::
