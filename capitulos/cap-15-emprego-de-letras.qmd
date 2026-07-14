@@ -4,22 +4,307 @@ title: "Emprego de letras: os casos problemáticos"
 
 # Emprego de letras: os casos problemáticos {#sec-cap-15}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 3 — Ortografia e Acentuação.
+> "Escrever certo não é ter boa memória: é conhecer as regras que dispensam a memória."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+*Viagem* ou *viajem*? *Enxada* ou *enchada*? *Excesso* ou *exceço*? *Analisar* ou
+*analizar*? O emprego correto das letras — sobretudo naqueles pontos em que sons
+iguais se grafam de modos diferentes — é uma das dificuldades mais persistentes de
+quem escreve, e um dos temas mais cobrados em provas. No capítulo anterior vimos que
+parte da ortografia é convenção pura; mas boa parte é **regra** — e é justamente essa
+parte regular que este capítulo organiza, para que você deduza a grafia em vez de
+apenas tentar lembrá-la.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Concentramo-nos nos casos que realmente causam dúvida: *g* × *j*, *s* × *z*, *x* ×
+*ch*, *ç*, *e* × *i*, *o* × *u*, e o uso de *h*. Para cada um, há regras que cobrem a
+maioria das ocorrências — e algumas exceções a memorizar. É um capítulo de consulta
+tanto quanto de leitura.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** as regras de emprego de *g* e *j*;
+- **Distinguir** os usos de *s*, *ss*, *ç*, *sc* e *z* na representação do /s/ e do /z/;
+- **Decidir** entre *x* e *ch* nos contextos regulares;
+- **Empregar** corretamente *e*/*i* e *o*/*u* em palavras de grafia duvidosa;
+- **Justificar** o uso (ou a ausência) do *h*;
+- **Reconhecer** os limites das regras e quando recorrer ao dicionário.
+
+## G ou J
+
+O som /ʒ/ (como em *gelo*, *jarro*) grafa-se ora *g*, ora *j*. Regras principais:
+
+**Escreve-se com _G_:**
+
+- palavras terminadas em **-agem, -igem, -ugem**: *viagem*, *garagem*, *origem*,
+  *ferrugem* (exceções: *pajem*, *lambujem*);
+- palavras terminadas em **-ágio, -égio, -ígio, -ógio, -úgio**: *pedágio*, *colégio*,
+  *prestígio*, *relógio*, *refúgio*;
+- em geral, verbos em **-ger, -gir**: *proteger*, *fugir*, *mugir*.
+
+**Escreve-se com _J_:**
+
+- palavras de origem **indígena, africana ou popular**: *jiló*, *jerimum*, *canjica*,
+  *pajé*;
+- palavras derivadas de outras com *j*: *laranja* → *laranjeira*; *loja* → *lojista*;
+- formas dos verbos terminados em **-jar**: *viajar* → *viaje*, *viajem* (verbo!).
+
+A @fig-viagem-viajem sintetiza a decisão mais cobrada.
+
+::: {#fig-viagem-viajem}
+
+```{.tikz}
+%%| filename: viagem-viajem
+%%| alt: Fluxograma de decisão. Pergunta: a palavra com som de j final é substantivo ou verbo? Se for substantivo (nome de uma ação ou coisa), grafa-se viagem com g. Se for forma do verbo viajar, grafa-se viajem com j. Exemplos acompanham cada ramo.
+
+\begin{tikzpicture}[
+  font=\small,
+  q/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=center, text width=46mm, minimum height=11mm, inner sep=4pt},
+  r/.style={rounded corners=3pt, thick, align=center, text width=40mm, minimum height=13mm, inner sep=4pt},
+  fl/.style={-{Stealth[length=2.4mm]}, manualgray, thick},
+]
+  \node[q] (top) {É \textbf{substantivo} (nome) ou \textbf{verbo} (de \emph{viajar})?};
+  \node[r, draw=manualgreen, fill=manualgreen!8, below left=13mm and 0mm of top] (sub) {\textbf{Substantivo}\\ $\to$ \textbf{via\emph{g}em} (com \emph{g})\\{\scriptsize ``Fiz uma boa viagem.''}};
+  \node[r, draw=manualred, fill=manualred!8, below right=13mm and 0mm of top] (verb) {\textbf{Verbo}\\ $\to$ \textbf{via\emph{j}em} (com \emph{j})\\{\scriptsize ``Espero que eles viajem.''}};
+  \draw[fl] (top) -- node[left, font=\scriptsize] {nome} (sub);
+  \draw[fl] (top) -- node[right, font=\scriptsize] {verbo} (verb);
+\end{tikzpicture}
+```
+
+O teste do par *viagem/viajem*: se é substantivo, grafa-se com *g*; se é forma do
+verbo *viajar*, com *j*.
+:::
+
+::: {.callout-important}
+## *Viagem* × *viajem*: substantivo × verbo
+*Viagem* (com *g*) é **substantivo** ("Fiz uma boa viagem"). *Viajem* (com *j*) é forma
+do **verbo** *viajar* ("Espero que eles viajem em paz"). A mesma lógica vale para
+*ferrugem* (subst.) e não há verbo correspondente; mas o par *viagem/viajem* é a
+pegadinha clássica: pergunte-se se é nome ou verbo.
+:::
+
+## Os sons /s/ e /z/: S, SS, Ç, SC, X e Z
+
+O fonema /s/ tem seis grafias; o /z/, três. As regras mais úteis:
+
+**Som /s/:**
+
+- **-ç-** aparece sobretudo em palavras de origem indígena, árabe ou africana e após
+  ditongo: *caçula*, *muçarela*, *traição*, *feição*. Nunca se usa *ç* em início de
+  palavra.
+- **-ss-** entre vogais, em muitas palavras (frequentemente ligadas a formas com *-d-,
+  -t-, -ced-, -gred-*): *agressão* (de *agredir*), *permissão* (de *permitir*),
+  *discussão* (de *discutir*).
+- **-sc-, -sç-, -xc-** são convenções: *nascer*, *desço*, *exceção*, *excesso*.
+
+**Som /z/:**
+
+- **-s-** entre vogais tem som de /z/: *casa*, *mesa*, *asa*; e nos sufixos **-oso/-osa**
+  (*gostoso*, *formosa*) e **-ês/-esa** de origem/gentílico (*português*, *francesa*,
+  *marquesa*);
+- **-z-** nos sufixos **-ez/-eza** (formadores de substantivos abstratos a partir de
+  adjetivos: *rigidez*, *beleza*, *nobreza*) e em muitos derivados (*razão* →
+  *razoável*).
+
+::: {.exemplo}
+Contraste que cai em prova:
+
+- *-ês/-esa* (gentílico/origem) com **s**: *inglês*, *chinesa*, *burguesa*.
+- *-ez/-eza* (qualidade abstrata) com **z**: *timidez*, *pobreza*, *sensatez*.
+- *analisar* com **s** (do inglês *analyse*/grego), mas *deslizar* com **z**.
+:::
+
+## X ou CH
+
+O som /ʃ/ grafa-se *x* ou *ch*. Regras para o *X*:
+
+- geralmente **depois de ditongo**: *caixa*, *peixe*, *frouxo*, *feixe* (exceção
+  notável: *recauchutar*);
+- geralmente **depois da sílaba inicial _en-_**: *enxada*, *enxame*, *enxergar*,
+  *enxaqueca* (mas *encher*, *enchente* e derivados de *cheio* mantêm *ch*, pois vêm
+  de *cheio*);
+- geralmente **depois da sílaba inicial _me-_**: *mexer*, *mexerica*, *mexilhão*
+  (exceção: *mecha*, de cabelo);
+- em palavras de origem **indígena ou africana**: *abacaxi*, *xará*, *xingar*.
+
+As demais grafam-se com *ch* por convenção: *chave*, *chuva*, *cachorro*, *fechar*.
+
+## E ou I, O ou U
+
+Vogais átonas causam dúvida porque, na fala, /e/ átono soa /i/ e /o/ átono soa /u/.
+Não há regra geral; são em boa parte convenções, mas há listas úteis:
+
+- **com _E_**: *cardeal*, *disenteria*, *empecilho*, *mexerica*, *palet ó*? não —
+  *paletó*; *quase*, *seringa*.
+- **com _I_**: *aborígine*, *artimanha*, *cumeeira*? (com e), *digladiar*, *privilégio*,
+  *requisito*.
+- **com _O_**: *bobina*, *boteco*? — cuidado; *goela*, *mágoa*, *toalha*.
+- **com _U_**: *bulir*, *camundongo*, *curtir*, *tábua*, *usufruir*.
+
+Aqui a estratégia é sobretudo a memória e a consulta; poucas regras salvam. Um caderno
+de palavras duvidosas ajuda.
+
+## O H
+
+O *h* é a letra mais "etimológica" do português — costuma existir por herança
+histórica, sem valor sonoro próprio:
+
+- **h inicial**: mantém-se por etimologia (*homem*, *hora*, *honra*, *hoje*); não soa.
+- **h final**: só em interjeições (*ah!*, *oh!*) e alguns estrangeirismos.
+- **h em dígrafos**: em *ch*, *lh*, *nh*, o *h* forma dígrafo (aí, sim, tem função:
+  compõe o som).
+- **queda do h**: em palavras compostas com hífen, às vezes se mantém (*pré-história*);
+  sem hífen e por aglutinação, cai (*reaver*, de *re + haver*).
+
+## 📋 Quadro-resumo
+
+| Dúvida | Regra útil | Exemplo |
+|---|---|---|
+| *g* × *j* (/ʒ/) | *-agem/-igem/-ugem*, *-ágio...* → **g**; verbos *-jar* → **j** | *viagem* (subst.) × *viajem* (verbo) |
+| /s/ | *ç* após ditongo/origem; *ss* entre vogais | *traição*, *agressão* |
+| /z/ | *-oso/-esa* (origem) → **s**; *-ez/-eza* (qualidade) → **z** | *francesa* × *beleza* |
+| *x* × *ch* (/ʃ/) | após ditongo, *en-*, *me-* → **x** | *caixa*, *enxada*, *mexer* |
+| *e* × *i*, *o* × *u* | átonas: sobretudo convenção/memória | *empecilho*, *privilégio* |
+| *h* | inicial etimológico (não soa); em dígrafos tem função | *homem*, *chave* |
+
+Em uma linha: boa parte do emprego de letras é **regra** dedutível (*-agem* com *g*,
+*-eza* com *z*, *x* após ditongo); o resto é **convenção** que se memoriza ou consulta
+— e o par *viagem/viajem* resolve-se por substantivo × verbo.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- ***Viagem* × *viajem*.** Substantivo → *viagem* (g); verbo (*viajar*) → *viajem* (j).
+  "Boa viagem" (nome); "que eles viajem" (verbo).
+- **Confundir *-ês/-esa* com *-ez/-eza*.** Origem/gentílico com **s** (*português*,
+  *francesa*); qualidade abstrata com **z** (*rigidez*, *beleza*).
+- **Escrever *ç* no início de palavra.** Nunca se usa *ç* em início de palavra; ali vai
+  *s* ou *c* (*cedo*, *sapo*).
+- **Grafar *encher* com *x*.** *Encher*, *enchente* e derivados de *cheio* mantêm *ch*
+  (vêm de *cheio*), apesar da regra do *en-* + *x* (*enxada*).
+- **Achar que há regra para todo *e/i* e *o/u* átono.** Em boa parte, é convenção:
+  *empecilho* (e), *privilégio* (i), *bulir* (u). Memória e dicionário.
+
+## ✍️ Exercícios
+
+**1.** Complete com *g* ou *j* e justifique: (a) via___em (substantivo); (b) que eles
+via___em (verbo); (c) peda___o.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) via**g**em (substantivo → regra *-agem* com *g*). (b) que eles via**j**em (forma do
+verbo *viajar* → verbos em *-jar* com *j*). (c) peda**g**io? — na verdade *pedágio*
+(com *g*, terminação *-ágio*). A distinção substantivo/verbo resolve o par
+*viagem/viajem*.
+:::
+
+**2.** (Estilo ENEM) Assinale a alternativa com **erro** de grafia:
+
+a) excesso;
+b) exceção;
+c) analizar;
+d) discussão;
+e) agressão.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** O correto é *anali**s**ar* (com *s*), não *"analizar"*. As demais
+estão corretas: *excesso*, *exceção* (dígrafo *xc*), *discussão* (de *discutir*, com
+*ss*), *agressão* (de *agredir*, com *ss*).
+:::
+
+**3.** Escolha entre *x* e *ch* e diga a regra: (a) cai___a; (b) en___er (de encher);
+(c) me___er.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) cai**x**a — *x* após ditongo (*ai*). (b) en**ch**er — mantém *ch* por derivar de
+*cheio* (exceção à regra do *en-* + *x*). (c) me**x**er — *x* após a sílaba inicial
+*me-*.
+:::
+
+**4.** Explique a diferença de grafia entre *francesa* e *beleza*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Francesa* (com **s**) é gentílico/origem, com o sufixo *-esa*, grafado com *s*
+(mesma lógica de *portuguesa*, *inglesa*, *marquesa*). *Beleza* (com **z**) é
+substantivo abstrato de qualidade derivado de adjetivo, com o sufixo *-eza*, grafado
+com *z* (como *nobreza*, *pobreza*, *rigidez*). A distinção origem/gentílico (s) ×
+qualidade abstrata (z) é a chave.
+:::
+
+**5.** Por que não se pode escrever *ç* no início de palavras como *cedo* ou *sapo*?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque, por convenção ortográfica do português, **nunca** se usa *ç* em início de
+palavra. O som /s/ inicial grafa-se com *s* (*sapo*, *sede*) ou com *c* antes de *e/i*
+(*cedo*, *cidade*). O *ç* só aparece no interior das palavras, diante de *a*, *o*, *u*
+(*caça*, *moço*, *açúcar*).
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que todas as palavras estão **corretas**:
+
+a) rigidez, timidez, sensatez;
+b) rigides, timidez, sensates;
+c) rigidez, timides, sensatez;
+d) rigides, timides, sensatez;
+e) rigidez, timidez, sensates.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (a).** *Rigidez*, *timidez* e *sensatez* são substantivos abstratos de
+qualidade, formados com o sufixo *-ez*, grafado com **z**. Todas as demais alternativas
+trazem ao menos uma grafia com *s* indevido.
+:::
+
+**7.** Justifique a grafia com *ss* de *permissão* e *discussão*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Permissão* deriva de *permitir* e *discussão* deriva de *discutir*: nas famílias de
+palavras cujos verbos terminam em *-tir/-mitir/-cutir* etc., o substantivo em *-ssão*
+grafa-se com **ss** (permitir → permissão; discutir → discussão; agredir → agressão).
+É um caso em que a família da palavra ajuda a deduzir a grafia.
+:::
+
+**8.** Explique o valor (ou a ausência de valor sonoro) do *h* em *hora* e em *chave*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em *hora*, o *h* é **inicial e etimológico**: existe por herança histórica (latim
+*hora*), mas **não representa som algum** — é letra muda. Em *chave*, o *h* integra o
+**dígrafo** *ch*, que representa o fonema /ʃ/: aí o *h* tem função, pois compõe, com o
+*c*, um único som. No primeiro caso, não soa; no segundo, participa de um dígrafo.
+:::
+
+**9.** Corrija, se necessário: (a) *empecilho*; (b) *privilégio*; (c) *beneficiente*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *empecilho* — correto (com *e*). (b) o correto é *privilégio* (com *i* na segunda
+sílaba: pri-vi-lé-gio), não *"priviégio"* nem *"previlégio"*. (c) o correto é
+*beneficente* (não *"beneficiente"*). São palavras de grafia frequentemente errada por
+influência da fala.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "As palavras *enxergar* e *enchente*
+seguem a mesma regra: *x* após a sílaba inicial *en-*."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Enxergar* segue a regra do *x* após *en-* (com *x*). Mas *enchente*
+**não** a segue: mantém *ch* porque deriva de *cheio* (encher → enchente). É justamente
+a exceção clássica — palavras da família de *cheio* conservam o *ch*, apesar do *en-*
+inicial.
+:::
+
+## 📚 Referências
+
+As regras de emprego de letras seguem o tratamento normativo de Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017]; os casos de convenção pura
+resolvem-se por consulta ao VOLP e ao dicionário Houaiss [@houaiss2009]. As alterações
+trazidas pelo Acordo de 1990 (trema, algumas grafias) são detalhadas no @sec-cap-16.
+
+::: {#refs}
 :::
