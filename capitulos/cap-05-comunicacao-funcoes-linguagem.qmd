@@ -4,22 +4,344 @@ title: "Comunicação e funções da linguagem"
 
 # Comunicação e funções da linguagem {#sec-cap-05}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 1 — Introdução aos Estudos da Linguagem.
+> "A linguagem deve ser estudada em toda a variedade de suas funções."
+> — Roman Jakobson, *Linguística e Comunicação*
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Toda vez que alguém diz alguma coisa, faz muito mais do que "transmitir uma
+informação". Um "bom dia" pode informar, cumprimentar, quebrar o gelo ou simplesmente
+manter o contato. Um poema não existe para relatar fatos, mas para chamar a atenção
+sobre a própria maneira de dizer. Um comando ("Feche a porta!") não descreve nada:
+quer produzir uma ação. Compreender essa multiplicidade de propósitos é entender que
+a linguagem serve a **funções** diversas, muitas vezes simultâneas.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Neste capítulo estudamos o modelo clássico da comunicação e as **seis funções da
+linguagem** propostas por Roman Jakobson — conteúdo campeão de recorrência no ENEM e
+em concursos, e, mais que isso, ferramenta poderosa de análise de qualquer texto.
+Identificar a função predominante de um enunciado é uma das perguntas mais frequentes
+das provas de interpretação, e a base para muito do que veremos nos Volumes 11 a 13.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Descrever** os elementos do ato comunicativo (emissor, receptor, mensagem,
+  canal, código, referente/contexto);
+- **Relacionar** cada função da linguagem ao elemento que ela enfatiza;
+- **Identificar** a função predominante em textos variados;
+- **Reconhecer** que um mesmo texto pode combinar várias funções;
+- **Analisar** enunciados a partir de sua intenção comunicativa;
+- **Aplicar** o modelo a gêneros do cotidiano (propaganda, poema, notícia, bilhete).
+
+## Os elementos da comunicação
+
+Antes das funções, o modelo. Comunicar-se envolve seis elementos, que a
+@fig-elementos-comunicacao dispõe em torno da mensagem.
+
+::: {#fig-elementos-comunicacao}
+
+```{.tikz}
+%%| filename: elementos-comunicacao
+%%| alt: Esquema da comunicação segundo Jakobson. No centro, a mensagem circula do emissor (à esquerda) ao receptor (à direita). Acima da mensagem, o referente/contexto; abaixo, o canal (contato) e o código, dispostos verticalmente entre emissor e receptor.
+
+\begin{tikzpicture}[
+  font=\small,
+  el/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=center, minimum height=8mm, inner sep=4pt},
+  ms/.style={rounded corners=3pt, draw=manualred, very thick, fill=manualred!10, align=center, minimum height=9mm, inner sep=4pt},
+]
+  \node[el] (emi) at (0,0) {EMISSOR};
+  \node[el] (rec) at (10,0) {RECEPTOR};
+  \node[ms] (msg) at (5,0) {MENSAGEM};
+  \node[el, above=10mm of msg] (ref) {REFERENTE / CONTEXTO};
+  \node[el, below=7mm of msg] (can) {CANAL (contato)};
+  \node[el, below=16mm of msg] (cod) {CÓDIGO};
+
+  \draw[-{Stealth[length=2.4mm]}, manualgray, thick] (emi) -- (msg);
+  \draw[-{Stealth[length=2.4mm]}, manualgray, thick] (msg) -- (rec);
+  \draw[manualgray, thick] (msg) -- (ref);
+  \draw[manualgray, thick] (msg) -- (can);
+\end{tikzpicture}
+```
+
+Os seis elementos do ato comunicativo: a mensagem circula do emissor ao receptor,
+referindo-se a um contexto, veiculada por um canal e cifrada num código partilhado.
+:::
+
+- **Emissor** (ou remetente): quem produz a mensagem.
+- **Receptor** (ou destinatário): a quem a mensagem se dirige.
+- **Mensagem**: o conteúdo transmitido, em sua forma concreta.
+- **Canal** (ou contato): o meio físico que liga emissor e receptor (o ar, o papel,
+  a tela, a onda de rádio).
+- **Código**: o sistema de signos partilhado (a língua portuguesa, o alfabeto Morse,
+  os gestos) — sem código comum, não há comunicação.
+- **Referente** (ou contexto): aquilo de que a mensagem trata, o mundo a que remete.
+
+Cada um desses elementos pode tornar-se o **foco** do enunciado. Quando isso acontece,
+diz-se que a linguagem exerce uma determinada **função**. Há, portanto, seis funções,
+uma para cada elemento.
+
+## As seis funções da linguagem
+
+### Função referencial (ou denotativa)
+
+Centrada no **referente/contexto**. Predomina quando o objetivo é **informar**,
+transmitir conteúdo objetivo sobre o mundo. É a linguagem da notícia, do texto
+científico, da bula, do verbete. Marcas: 3ª pessoa, objetividade, denotação, ausência
+de opinião explícita.
+
+> "O Brasil tem 26 estados e um Distrito Federal."
+
+### Função emotiva (ou expressiva)
+
+Centrada no **emissor**. Predomina quando o foco é exprimir os sentimentos, as
+emoções, as opiniões de quem fala. Marcas: 1ª pessoa, interjeições, exclamações,
+subjetividade.
+
+> "Ah, como eu queria estar em casa agora!"
+
+### Função conativa (ou apelativa)
+
+Centrada no **receptor**. Predomina quando se busca **influenciar** o interlocutor,
+levá-lo a agir ou pensar de certo modo. É a linguagem da propaganda, do discurso
+político, da ordem. Marcas: 2ª pessoa, vocativos, imperativo, verbos de comando.
+
+> "Compre já! Não perca esta oportunidade."
+
+### Função fática
+
+Centrada no **canal/contato**. Predomina quando o objetivo é **estabelecer, manter ou
+testar** a comunicação, mais do que transmitir conteúdo. Marcas: fórmulas de contato,
+saudações, "testes" de canal.
+
+> "Alô? Alô, está me ouvindo?" / "Né? Entende?"
+
+### Função metalinguística
+
+Centrada no **código**. Predomina quando a linguagem fala **da própria linguagem**:
+explica um termo, define uma palavra, comenta as regras do idioma. O dicionário é o
+exemplo por excelência. Este próprio manual, ao explicar o que é "função", exerce
+função metalinguística.
+
+> "'Metalinguagem' é o uso da língua para falar da própria língua."
+
+### Função poética (ou estética)
+
+Centrada na **mensagem**. Predomina quando o foco recai sobre a **forma** do
+enunciado, sobre o modo de dizer — a sonoridade, o ritmo, as imagens, os jogos de
+palavras. Não se restringe à poesia: aparece em provérbios, slogans, letras de
+música, títulos criativos. Marcas: figuras de linguagem, rimas, trabalho com o
+significante.
+
+> "De grão em grão, a galinha enche o papo."
+
+A @fig-funcoes-elementos resume a correspondência entre elemento e função.
+
+::: {#fig-funcoes-elementos}
+
+```{.tikz}
+%%| filename: funcoes-elementos
+%%| alt: Tabela-diagrama pareando cada elemento da comunicação com a função da linguagem que o enfatiza: emissor–emotiva, receptor–conativa, mensagem–poética, canal–fática, código–metalinguística, referente–referencial.
+
+\begin{tikzpicture}[font=\small, node distance=0mm]
+  \matrix[matrix of nodes, nodes={draw=manualgray, minimum width=34mm, minimum height=8mm, anchor=center, align=center, font=\small}, row sep=-\pgflinewidth, column sep=-\pgflinewidth] (m) {
+    |[fill=manualblue!12]| \textbf{Elemento} & |[fill=manualred!12]| \textbf{Função} \\
+    Emissor & Emotiva (expressiva) \\
+    Receptor & Conativa (apelativa) \\
+    Mensagem & Poética (estética) \\
+    Canal (contato) & Fática \\
+    Código & Metalinguística \\
+    Referente/contexto & Referencial (denotativa) \\
+  };
+\end{tikzpicture}
+```
+
+A cada elemento do ato comunicativo corresponde uma função da linguagem, definida
+pelo foco que o enunciado coloca sobre aquele elemento.
+:::
+
+## Funções combinadas: cuidado com o "predominante"
+
+Um erro comum é buscar *a* função de um texto como se cada enunciado tivesse uma só.
+Na prática, quase todo texto combina várias funções; o que se pede em prova é a
+função **predominante**. Uma propaganda, por exemplo, costuma ser conativa (quer que
+você compre), mas frequentemente é também poética (usa um slogan trabalhado) e pode
+ter momentos referenciais (dados do produto).
+
+::: {.exemplo}
+Slogan: **"Tomou Doril, a dor sumiu."**
+
+- **Conativa**: quer induzir o consumidor a comprar o remédio.
+- **Poética**: explora a rima (*Doril* / (a dor su)*miu* — na verdade a assonância e
+  o paralelismo sonoro), tornando a frase memorável.
+
+A predominância depende do foco principal: aqui, o objetivo último é influenciar o
+receptor (conativa), com a forma poética a serviço desse fim.
+:::
+
+A dica de análise é perguntar: *para onde este texto aponta?* Se aponta para o mundo
+(informar), é referencial; para o emissor (expressar-se), emotiva; para o receptor
+(convencer/mandar), conativa; para o contato (manter a conversa), fática; para o
+código (explicar a língua), metalinguística; para a própria forma (o modo de dizer),
+poética.
+
+## 📋 Quadro-resumo
+
+| Função | Elemento em foco | Objetivo | Exemplo típico |
+|---|---|---|---|
+| **Referencial** | Referente/contexto | Informar objetivamente | Notícia, verbete, bula |
+| **Emotiva** | Emissor | Exprimir sentimentos/opiniões | Diário, desabafo, lírica |
+| **Conativa** | Receptor | Influenciar, levar a agir | Propaganda, ordem, discurso |
+| **Fática** | Canal/contato | Abrir/manter/testar contato | "Alô?", "Né?", saudações |
+| **Metalinguística** | Código | Falar da própria língua | Dicionário, gramática |
+| **Poética** | Mensagem | Focar a forma do dizer | Poema, slogan, provérbio |
+
+Em uma linha: há **seis elementos** na comunicação e **seis funções**, cada uma
+definida pelo elemento que o enunciado põe em foco — e a maioria dos textos combina
+várias, com uma **predominando**.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir função poética com "poesia".** A função poética está em qualquer
+  enunciado que foque a *forma* (slogans, provérbios, trocadilhos, títulos), não só em
+  versos. E há poemas com forte carga emotiva ou até referencial.
+- **Trocar fática por conativa.** A fática visa ao **canal** (manter/testar o
+  contato: "Alô?", "tá me ouvindo?"); a conativa visa ao **receptor** (levá-lo a
+  agir: "Faça já!"). O apelo à ação é conativo; o mero "manter a linha aberta" é
+  fático.
+- **Achar que metalinguística é só dicionário.** É toda linguagem que fala da
+  linguagem: uma gramática, um comentário sobre uma palavra, um poema que fala sobre o
+  ato de escrever poemas.
+- **Buscar uma única função.** Em prova, pede-se a **predominante**; quase todo texto
+  mistura funções. Justifique pela intenção principal.
+- **Igualar emotiva a "uso de 1ª pessoa".** A 1ª pessoa é uma pista, não uma prova: o
+  que define a função emotiva é o foco na subjetividade do emissor, não apenas o
+  pronome.
+
+## ✍️ Exercícios
+
+**1.** Relacione cada elemento da comunicação à função que o enfatiza: emissor,
+receptor, mensagem, canal, código, referente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Emissor → emotiva; receptor → conativa; mensagem → poética; canal → fática; código →
+metalinguística; referente → referencial.
+:::
+
+**2.** (Estilo ENEM) "Vem pra Caixa você também! Vem!" (slogan bancário). A função da
+linguagem predominante é:
+
+a) referencial;
+b) metalinguística;
+c) conativa;
+d) fática;
+e) emotiva.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** O slogan dirige-se ao receptor com verbos no imperativo ("Vem"),
+buscando induzi-lo a uma ação (tornar-se cliente) — função conativa/apelativa. Há
+também função poética (repetição, ritmo), mas o foco predominante é o apelo ao
+receptor.
+:::
+
+**3.** Identifique a função predominante: (a) verbete de dicionário; (b) "Que saudade
+imensa eu sinto de você!"; (c) "Alô, alô, teste de som, um, dois, três"; (d) manchete
+"Chuvas atingem o litoral e provocam alagamentos".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) metalinguística (a língua fala das palavras); (b) emotiva (foco nos sentimentos
+do emissor); (c) fática (testar/estabelecer o canal); (d) referencial (informação
+objetiva sobre o mundo).
+:::
+
+**4.** Por que o dicionário é o exemplo clássico de função **metalinguística**?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque no dicionário a linguagem é usada para falar da **própria linguagem**: ele
+emprega palavras (código) para definir e explicar outras palavras do mesmo código. O
+foco recai sobre o código, que é justamente o que caracteriza a função
+metalinguística.
+:::
+
+**5.** Explique por que a propaganda costuma combinar as funções **conativa** e
+**poética**.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A propaganda quer, acima de tudo, influenciar o receptor a consumir — daí a função
+**conativa** predominante. Mas, para tornar a mensagem memorável e persuasiva, ela
+trabalha a forma do enunciado (rimas, ritmo, trocadilhos, imagens) — daí a função
+**poética**. A dimensão poética está a serviço do objetivo conativo: a beleza da
+frase reforça o apelo.
+:::
+
+**6.** (Estilo FCC) Em "Você sabia que o verbo 'haver', no sentido de existir, é
+impessoal?", a função predominante é:
+
+a) emotiva;
+b) fática;
+c) metalinguística;
+d) poética;
+e) conativa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** O enunciado usa a língua para falar de um fato da própria língua
+(o comportamento do verbo *haver*) — função metalinguística. A pergunta "Você sabia"
+tem leve toque fático/conativo, mas o foco é o código.
+:::
+
+**7.** Classifique e justifique: "Não vá! Fique mais um pouco comigo, por favor."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Predomina a função **conativa**: os imperativos ("Não vá", "Fique") e o apelo ("por
+favor") dirigem-se ao receptor para influenciar seu comportamento. Há também um matiz
+**emotivo** ("comigo", o tom afetivo), mas o objetivo central é agir sobre o outro.
+:::
+
+**8.** Um poema pode ter função predominante **não** poética? Justifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Sim. Embora a maioria dos poemas explore a forma (função poética), um poema pode ter
+outra função predominante: um poema de desabafo intenso pode ser sobretudo **emotivo**;
+um poema panfletário, que pede engajamento, pode ser **conativo**; um poema que
+descreve objetivamente uma paisagem pode aproximar-se do **referencial**. O gênero
+"poema" não determina mecanicamente a função — o que conta é o foco do enunciado.
+:::
+
+**9.** Analise o enunciado "Tá ligado? Tipo assim, sacou?" quanto à função
+predominante.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Predomina a função **fática**. Expressões como "Tá ligado?", "sacou?" servem para
+manter e testar o contato com o interlocutor, verificando se o canal está aberto e se
+a comunicação flui, mais do que para transmitir conteúdo novo. São marcadores típicos
+de função fática na fala coloquial.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Está chovendo muito na
+capital neste momento', predomina a função emotiva, pois há um verbo no presente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Predomina a função **referencial**: o enunciado transmite informação
+objetiva sobre o mundo (a chuva na capital), em 3ª pessoa, sem marcas de subjetividade
+do emissor. A presença de verbo no presente não caracteriza função emotiva — o que
+definiria a emotiva seria o foco nos sentimentos de quem fala.
+:::
+
+## 📚 Referências
+
+O modelo dos elementos da comunicação e das seis funções é a formulação clássica de
+Jakobson, amplamente difundida nos estudos de linguagem. Para o tratamento das
+funções articulado à produção e à compreensão de textos, ver Koch & Elias
+[@koch2015texto] e Marcuschi [@marcuschi2008], que serão retomados nos volumes de
+linguística textual.
+
+::: {#refs}
 :::
