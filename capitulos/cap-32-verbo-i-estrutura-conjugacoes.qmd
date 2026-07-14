@@ -4,22 +4,315 @@ title: "Verbo I: estrutura, conjugações e formas nominais"
 
 # Verbo I: estrutura, conjugações e formas nominais {#sec-cap-32}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "O verbo é o motor da frase: é ele que põe o mundo em movimento e o situa no tempo."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O **verbo** é a mais complexa das classes de palavras — e a mais importante para a
+sintaxe, pois é em torno dele que a oração se organiza. Exprime **ação** (*correr*),
+**estado** (*ser*, *estar*), **fenômeno** (*chover*) ou **mudança de estado**
+(*tornar-se*), sempre situando-os no tempo. E, ao contrário das demais classes, o verbo
+flexiona-se abundantemente: em **número, pessoa, modo, tempo, voz e aspecto**. Uma só
+raiz verbal gera dezenas de formas.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Por sua riqueza, dividimos o verbo em três capítulos. Neste primeiro, estabelecemos os
+fundamentos: a **estrutura** do verbo (radical, vogal temática, desinências), as três
+**conjugações** e as **formas nominais** (infinitivo, gerúndio, particípio). Nos
+seguintes, veremos tempos e modos (@sec-cap-33) e vozes, irregulares e defectivos
+(@sec-cap-34). Aqui está a fundação de todo o edifício verbal.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Decompor** a estrutura do verbo em radical, vogal temática e desinências;
+- **Identificar** as três conjugações pela vogal temática;
+- **Reconhecer** as flexões verbais (número, pessoa, modo, tempo, voz);
+- **Distinguir** e empregar as formas nominais (infinitivo, gerúndio, particípio);
+- **Diferenciar** infinitivo pessoal de impessoal;
+- **Analisar** morficamente uma forma verbal.
+
+## A estrutura do verbo
+
+Como vimos no @sec-cap-22, uma forma verbal decompõe-se em:
+
+- **Radical**: o núcleo de significado — *cant-* em *cantar*.
+- **Vogal temática (VT)**: indica a conjugação — *-a-*, *-e-*, *-i-*.
+- **Desinência modo-temporal (DMT)**: marca modo e tempo — o *-va-* de *cantava*.
+- **Desinência número-pessoal (DNP)**: marca pessoa e número — o *-mos* de *cantamos*.
+
+Assim, *cantávamos* = *cant-* + *-á-* (VT) + *-va-* (DMT) + *-mos* (DNP). Reconhecer
+essas peças permite entender por que os verbos se conjugam de modo regular (na maioria)
+e onde surgem as irregularidades.
+
+## As três conjugações
+
+Os verbos agrupam-se em **três conjugações**, definidas pela **vogal temática** do
+infinitivo:
+
+- **1ª conjugação — vogal temática -a-**: verbos em *-ar* (*cantar*, *amar*, *falar*).
+  É a mais numerosa e produtiva (novos verbos entram aqui: *deletar*, *tuitar*).
+- **2ª conjugação — vogal temática -e-**: verbos em *-er* (*vender*, *comer*, *bater*).
+- **3ª conjugação — vogal temática -i-**: verbos em *-ir* (*partir*, *sorrir*, *abrir*).
+
+O verbo *pôr* (e derivados: *compor*, *repor*, *supor*) pertence, historicamente, à 2ª
+conjugação (vinha de *poer*), sendo tratado como caso à parte.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Verbos regulares, irregulares e anômalos
+- **Regulares**: seguem o modelo (paradigma) da sua conjugação sem alterar o radical —
+  *cantar*: *canto*, *cantava*, *cantei*, *cantarei*.
+- **Irregulares**: afastam-se do modelo, alterando o radical ou as desinências —
+  *fazer*: *faço*, *fiz*, *farei* (radical muda).
+- **Anômalos**: irregularidade extrema, com radicais muito diferentes — *ser* (*sou*,
+  *fui*, *era*) e *ir* (*vou*, *fui*, *irei*).
+:::
+
+## As flexões do verbo
+
+O verbo flexiona-se em cinco categorias, resumidas na @fig-flexoes-verbo:
+
+::: {#fig-flexoes-verbo}
+
+```{.tikz}
+%%| filename: flexoes-verbo
+%%| alt: Diagrama radial com o verbo no centro e cinco flexões ao redor, cada uma com seus valores. Número: singular e plural. Pessoa: primeira, segunda, terceira. Modo: indicativo, subjuntivo, imperativo. Tempo: presente, pretérito, futuro. Voz: ativa, passiva, reflexiva.
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  centro/.style={circle, draw=manualblue, very thick, fill=manualblue!12, minimum size=13mm, align=center, font=\bfseries\footnotesize},
+  folha/.style={rounded corners=3pt, draw=manualgreen, fill=manualgreen!8, align=center, inner sep=3pt, text width=26mm},
+]
+  \node[centro] (v) at (0,0) {VERBO};
+  \node[folha] (num) at (0:3.4) {\textbf{Número}\\ singular, plural};
+  \node[folha] (pes) at (72:3.4) {\textbf{Pessoa}\\ 1ª, 2ª, 3ª};
+  \node[folha] (mod) at (144:3.4) {\textbf{Modo}\\ indic., subj., imperat.};
+  \node[folha] (tem) at (216:3.4) {\textbf{Tempo}\\ presente, pret., futuro};
+  \node[folha] (voz) at (288:3.4) {\textbf{Voz}\\ ativa, passiva, reflexiva};
+  \foreach \n in {num,pes,mod,tem,voz} \draw[-{Stealth[length=2mm]}, manualgray, thick] (v) -- (\n);
+\end{tikzpicture}
+```
+
+As cinco flexões do verbo: número, pessoa, modo, tempo e voz — a que se soma o aspecto
+(a maneira como a ação se desenrola no tempo).
+:::
+
+- **Número**: singular × plural (*canto* / *cantamos*).
+- **Pessoa**: 1ª (quem fala), 2ª (com quem se fala), 3ª (de quem se fala).
+- **Modo**: indicativo (fato real/certo), subjuntivo (hipótese/dúvida/desejo),
+  imperativo (ordem/pedido). Detalhado no @sec-cap-33.
+- **Tempo**: presente, pretérito (passado), futuro. Detalhado no @sec-cap-33.
+- **Voz**: ativa, passiva, reflexiva. Detalhada no @sec-cap-34.
+
+A que se acrescenta o **aspecto**: a maneira como a ação se desenrola (concluída ou não,
+pontual ou durativa) — também no @sec-cap-33.
+
+## As formas nominais
+
+As **formas nominais** do verbo são aquelas que **não** se flexionam em modo e tempo,
+comportando-se em parte como nomes (daí o nome). São três: **infinitivo**, **gerúndio**
+e **particípio**.
+
+### Infinitivo
+
+Exprime a ação de modo genérico, "nomeando-a" (*cantar*, *vender*, *partir*). Pode
+funcionar como substantivo ("O *jantar* está pronto"). Distingue-se em:
+
+- **Impessoal**: não se refere a sujeito determinado — "É bom *viver*". Forma invariável.
+- **Pessoal**: refere-se a um sujeito e **flexiona-se** em pessoa e número — "É bom
+  *virmos* juntos", "para eles *estudarem*". Formas: *cantar, cantares, cantar,
+  cantarmos, cantardes, cantarem*.
+
+::: {.callout-important}
+## Quando flexionar o infinitivo?
+Regra prática: **flexiona-se** o infinitivo quando ele tem **sujeito próprio, expresso
+ou determinado**, para deixar claro quem pratica a ação: "Ele mandou os alunos
+*saírem*" (sujeito: os alunos). **Não** se flexiona quando não há sujeito próprio, em
+locuções verbais ou quando o sujeito é o mesmo do verbo principal: "Eles querem
+*cantar*" (o sujeito é o mesmo). É um dos pontos mais elegantes — e cobrados — da norma.
+:::
+
+### Gerúndio
+
+Exprime a ação **em curso**, em desenvolvimento (*cantando*, *vendendo*, *partindo*).
+Indica processo simultâneo ou modo: "Saiu *chorando*", "*Estudando*, aprende-se".
+
+### Particípio
+
+Exprime a ação **concluída** (*cantado*, *vendido*, *partido*). Tem dupla função:
+compõe os **tempos compostos** (com *ter/haver*: "tinha *cantado*") e a **voz passiva**
+(com *ser*: "foi *cantado*"); e funciona como **adjetivo**, concordando com o
+substantivo ("a tarefa *concluída*").
+
+::: {.callout-note}
+## Particípios duplos (abundantes)
+Alguns verbos têm **dois particípios**: um regular (com *ter/haver*) e um irregular
+(com *ser/estar*):
+
+- *aceitar*: tinha **aceitado** / foi **aceito**
+- *pagar*: tinha **pagado** / foi **pago**
+- *ganhar*: tinha **ganhado** / foi **ganho** (uso moderno admite *ganho* nos dois)
+- *imprimir*: tinha **imprimido** / foi **impresso**
+
+Regra: forma **regular** com *ter/haver*; forma **irregular** com *ser/estar*. Detalhes
+no @sec-cap-34.
+:::
+
+## 📋 Quadro-resumo
+
+| Aspecto | Conteúdo |
+|---|---|
+| **Estrutura** | radical + VT + DMT + DNP |
+| **Conjugações** | 1ª *-ar* (a), 2ª *-er* (e), 3ª *-ir* (i) |
+| **Flexões** | número, pessoa, modo, tempo, voz (+ aspecto) |
+| **Infinitivo** | ação genérica; impessoal (invariável) × pessoal (flexionado) |
+| **Gerúndio** | ação em curso (*-ndo*) |
+| **Particípio** | ação concluída (*-do*); tempos compostos, passiva, adjetivo |
+
+Em uma linha: o **verbo** estrutura-se em radical + VT + desinências; agrupa-se em **três
+conjugações** (*-ar/-er/-ir*); flexiona-se em número, pessoa, modo, tempo e voz; e tem
+três **formas nominais** — infinitivo (genérico, pessoal ou impessoal), gerúndio (em
+curso) e particípio (concluído).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Não flexionar o infinitivo pessoal quando há sujeito próprio.** "Mandou os alunos
+  *saírem*" (sujeito: os alunos). Flexione quando o infinitivo tem sujeito determinado.
+- **Flexionar o infinitivo desnecessariamente.** Em locução verbal ou com sujeito
+  idêntico ao do verbo principal, não flexione: "Eles querem *cantar*" (não "cantarem").
+- **Trocar os particípios duplos.** Com *ter/haver*, forma **regular** ("tinha pago"? —
+  não: "tinha **pagado**"); com *ser/estar*, forma **irregular** ("foi **pago**").
+- **Confundir gerúndio (em curso) com particípio (concluído).** *Cantando* = ação em
+  desenvolvimento; *cantado* = ação terminada.
+- **Errar a conjugação do verbo *pôr*.** *Pôr* e derivados (*compor*, *repor*) seguem
+  padrão próprio (2ª conjugação histórica): *ponho*, *punha*, *pus*, *porei*.
+
+## ✍️ Exercícios
+
+**1.** Decomponha morficamente a forma *vendíamos*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Vendíamos* = *vend-* (radical) + *-í-* (vogal temática, 2ª conjugação — aqui com a
+variação *-í-* no imperfeito) + *-a-* (desinência modo-temporal do pretérito imperfeito)
++ *-mos* (desinência número-pessoal, 1ª pessoa do plural). Ou, na análise usual:
+radical *vend-* + DMT *-ía-* + DNP *-mos*.
+:::
+
+**2.** (Estilo ENEM) Em "É importante os alunos *estudarem* para a prova", a flexão do
+infinitivo justifica-se porque:
+
+a) o infinitivo nunca se flexiona;
+b) o infinitivo tem sujeito próprio determinado (os alunos);
+c) há uma locução verbal;
+d) o verbo é irregular;
+e) trata-se de gerúndio.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Flexiona-se o infinitivo (*estudarem*) porque ele tem **sujeito
+próprio e determinado** — "os alunos" —, deixando claro quem pratica a ação. Quando o
+infinitivo tem sujeito expresso/determinado, a norma admite (e recomenda) a flexão
+pessoal.
+:::
+
+**3.** Identifique a conjugação de: (a) *sorrir*; (b) *escrever*; (c) *trabalhar*; (d)
+*pôr*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *sorrir* → 3ª conjugação (vogal temática *-i-*, terminação *-ir*). (b) *escrever* →
+2ª conjugação (*-e-*, *-er*). (c) *trabalhar* → 1ª conjugação (*-a-*, *-ar*). (d) *pôr*
+→ caso especial, historicamente da 2ª conjugação (de *poer*).
+:::
+
+**4.** Classifique a forma nominal e explique seu valor: (a) "Saiu *correndo*"; (b) "A
+casa foi *vendida*"; (c) "É proibido *fumar*".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *correndo* → **gerúndio** (ação em curso/simultânea: o modo como saiu). (b)
+*vendida* → **particípio** (ação concluída; aqui, formando a voz passiva com *ser*, e
+concordando com *casa*). (c) *fumar* → **infinitivo** (impessoal, ação genérica,
+funcionando quase como substantivo).
+:::
+
+**5.** Distinga infinitivo **pessoal** de **impessoal**, com um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **impessoal** não se refere a sujeito determinado e é invariável: "É bom **viver**",
+"É proibido **entrar**". O **pessoal** refere-se a um sujeito e **flexiona-se** em
+pessoa e número: "É bom **vivermos** em paz", "para os alunos **estudarem**". O pessoal
+tem sujeito próprio; o impessoal, não.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que o particípio está corretamente
+empregado:
+
+a) O documento foi imprimido ontem;
+b) Ele tinha pago a conta;
+c) A carta foi escrita à mão;
+d) Havíamos ganho o jogo (sentido antigo estrito);
+e) O texto tinha impresso.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "A carta foi **escrita**": com o auxiliar *ser* (voz passiva),
+usa-se o particípio (aqui, único, *escrita*), concordando com *carta*. As demais erram a
+combinação: com *ser/estar* usa-se a forma irregular ("foi **impresso**", não
+"imprimido"); com *ter/haver*, a regular ("tinha **pagado**", não "pago").
+:::
+
+**7.** Reescreva flexionando o infinitivo, se a norma pedir: "O chefe mandou os
+funcionários *sair* mais cedo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"O chefe mandou os funcionários **saírem** mais cedo." Flexiona-se o infinitivo porque
+ele tem **sujeito próprio determinado** ("os funcionários"), distinto do sujeito do
+verbo principal ("o chefe"). A flexão (*saírem*, 3ª pessoa do plural) explicita quem
+pratica a ação de sair.
+:::
+
+**8.** Classifique os verbos quanto à regularidade: (a) *cantar*; (b) *fazer*; (c) *ir*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *cantar* → **regular** (segue o paradigma da 1ª conjugação sem alterar o radical).
+(b) *fazer* → **irregular** (altera o radical: *faço*, *fiz*, *farei*). (c) *ir* →
+**anômalo** (irregularidade extrema, com radicais muito diferentes: *vou*, *fui*,
+*irei*, *ia*).
+:::
+
+**9.** Explique a dupla função do **particípio**, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O particípio tem duas funções principais: (1) **verbal** — compõe os tempos compostos
+com *ter/haver* ("tinha **cantado**") e a voz passiva com *ser* ("foi **cantado**"); (2)
+**adjetiva** — caracteriza um substantivo, concordando com ele em gênero e número ("a
+tarefa **concluída**", "os problemas **resolvidos**"). Numa função, é núcleo verbal; na
+outra, funciona como adjetivo.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "As formas nominais do verbo
+(infinitivo, gerúndio e particípio) flexionam-se normalmente em modo e tempo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** As formas nominais **não** se flexionam em modo e tempo — é justamente isso
+que as distingue das formas finitas. O infinitivo pode flexionar-se em **pessoa e
+número** (infinitivo pessoal), e o particípio, em **gênero e número** (como adjetivo),
+mas **nenhuma** delas exprime modo e tempo. Por isso se chamam "nominais": comportam-se,
+em parte, como nomes.
+:::
+
+## 📚 Referências
+
+A estrutura, as conjugações e as formas nominais do verbo seguem a descrição de Câmara
+Jr. [@camarajr1970] e o tratamento normativo de Bechara [@bechara2009] e Cunha & Cintra
+[@cunhacintra2017]; sobre o infinitivo flexionado e os particípios, essas gramáticas são
+a referência. A perspectiva descritiva do sistema verbal do português brasileiro está
+em Castilho [@castilho2010]. Tempos, modos e aspecto vêm no @sec-cap-33.
+
+::: {#refs}
 :::
