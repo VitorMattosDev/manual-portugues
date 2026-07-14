@@ -1,0 +1,417 @@
+---
+title: "Linguagem, língua e fala"
+---
+
+# Linguagem, língua e fala {#sec-cap-01}
+
+> "A língua não é função do falante, é produto que o indivíduo registra
+> passivamente. […] A fala é, ao contrário, um ato individual de vontade e
+> inteligência."
+> — Ferdinand de Saussure, *Curso de Linguística Geral*
+
+Quando dizemos que alguém "sabe português", o que exatamente essa pessoa sabe?
+Ela decorou uma gramática? Memorizou um dicionário inteiro? Nada disso. Ela
+domina, na maior parte das vezes sem jamais ter estudado formalmente, um sistema
+de enorme complexidade: sabe combinar sons em palavras, palavras em frases,
+frases em textos; sabe quando dizer *tu* e quando dizer *você*; percebe que
+"gato bebeu o leite" e "o leite bebeu o gato" significam coisas diferentes — e
+que a segunda, embora estranha, é uma frase possível do português, ao contrário
+de "bebeu leite o gato o". Esse conhecimento, silencioso e poderoso, é o ponto de
+partida de tudo o que estudaremos neste manual.
+
+Para investigá-lo com método, a linguística do século XX fez uma distinção
+fundamental — talvez a mais importante de toda a disciplina — entre três noções
+que o senso comum costuma embaralhar: **linguagem**, **língua** e **fala**.
+Compreendê-las com precisão é a chave que abre todas as portas seguintes: só
+depois de separar o sistema (a língua) do seu uso concreto (a fala) é que se
+torna possível descrever a gramática, entender a variação e discutir a norma sem
+confusão. É o que faremos neste primeiro capítulo.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** linguagem, língua e fala, reconhecendo o alcance de cada conceito;
+- **Identificar** manifestações de linguagem verbal e não verbal no cotidiano;
+- **Explicar** a dicotomia saussuriana entre *langue* e *parole* e sua importância
+  para os estudos linguísticos;
+- **Caracterizar** a língua como sistema social e a fala como realização individual;
+- **Relacionar** essa distinção à existência natural da variação linguística;
+- **Aplicar** os conceitos na análise de situações concretas de comunicação.
+
+## O que é linguagem?
+
+Em sentido amplo, **linguagem** é toda e qualquer capacidade de produzir sentido
+por meio de signos — isto é, de elementos que representam alguma coisa para
+alguém. Sempre que um elemento perceptível (um som, um gesto, uma cor, uma
+imagem) "está no lugar de" outra coisa e é assim interpretado, há linguagem.
+
+Note como a linguagem não se restringe às palavras. Distinguimos duas grandes
+modalidades:
+
+- **Linguagem verbal**: aquela que utiliza a palavra, falada ou escrita, como
+  signo. É a linguagem das conversas, dos livros, das leis, das mensagens de
+  celular.
+- **Linguagem não verbal**: aquela que se vale de outros signos que não a
+  palavra — imagens, gestos, cores, sons não linguísticos, expressões faciais.
+  O sinal vermelho do semáforo, o aceno de mão, a placa de "proibido fumar", o
+  logotipo de uma marca, a dança, a pintura: tudo isso é linguagem.
+
+Muitas vezes as duas modalidades se combinam. Uma tirinha de quadrinhos articula
+palavra (verbal) e desenho (não verbal); um comercial de televisão soma fala,
+texto na tela, música e imagem. A esses textos que mobilizam mais de uma
+linguagem simultaneamente chamamos **multimodais** — e voltaremos a eles no
+Volume 13.
+
+::: {.callout-note}
+## Linguagem verbal e a faculdade humana
+Quando os linguistas dizem que a **linguagem** (verbal) é uma faculdade
+propriamente humana, referem-se à nossa capacidade biológica e cognitiva,
+universal na espécie, de adquirir e usar línguas. Nenhuma criança precisa de aulas
+para aprender a falar: basta estar exposta a uma comunidade linguística. Essa
+faculdade, comum a toda a humanidade, é o solo de que brotam as milhares de
+línguas particulares do mundo.
+:::
+
+## Língua: o sistema social
+
+Entre as manifestações da linguagem verbal, uma nos interessa de perto: a
+**língua**. Uma língua — o português, o guarani, o japonês — é um **sistema de
+signos convencionais, partilhado por uma comunidade**, que permite a seus
+membros se comunicarem.
+
+Três palavras dessa definição merecem destaque:
+
+- **Sistema**: a língua não é um amontoado de palavras, mas um conjunto
+  organizado, em que os elementos se definem por suas relações. O valor de uma
+  palavra depende das outras: *cadeira* significa o que significa em parte porque
+  se opõe a *poltrona*, *banco*, *sofá*.
+- **Convencional**: a ligação entre um signo e aquilo que ele representa é
+  arbitrária, fruto de um acordo tácito da comunidade. Não há nada na natureza do
+  animal que obrigue a chamá-lo de *cachorro*; o inglês diz *dog*, o francês
+  *chien*. O signo linguístico é, como ensinou Saussure, arbitrário.
+- **Social**: a língua existe na coletividade. Ninguém a inventa sozinho nem pode
+  alterá-la à vontade. Ela preexiste ao falante, que a recebe pronta ao nascer, e
+  sobrevive a ele. É, nesse sentido, um patrimônio da comunidade.
+
+Justamente por ser social e sistemática, a língua pode ser descrita: tem
+regularidades, padrões, uma organização interna que a gramática procura explicitar.
+
+## Fala: a realização individual
+
+Se a língua é o sistema abstrato que todos partilham, a **fala** é o seu uso
+concreto por cada indivíduo, em cada situação. É o ato pelo qual o falante coloca
+o sistema em funcionamento para dizer algo, aqui e agora.
+
+A fala é sempre **individual** (é *este* falante que fala), **concreta** (realiza-se
+em sons ou letras materiais) e **momentânea** (acontece em um tempo e um lugar
+determinados). Cada vez que você abre a boca — ou digita uma mensagem —, você
+produz um ato de fala único e irrepetível, embora recorra a um sistema comum.
+
+Observe a relação de mão dupla: a fala depende da língua (não se pode falar sem
+um sistema), mas a língua também depende da fala, pois é no uso que ela vive, se
+mantém e, ao longo do tempo, se transforma. Foi falando "de outro jeito", geração
+após geração, que os falantes do latim acabaram produzindo o português.
+
+::: {.callout-important}
+## Cuidado com o uso cotidiano da palavra "fala"
+No dia a dia, "fala" costuma opor-se a "escrita" (modalidade oral × modalidade
+escrita). No sentido técnico deste capítulo, porém, **fala** designa toda
+realização individual do sistema — inclusive a escrita. Uma redação de vestibular
+é, tecnicamente, um ato de "fala" no sentido saussuriano. Os dois sentidos
+convivem; o contexto indica qual está em jogo.
+:::
+
+## A dicotomia saussuriana: *langue* e *parole*
+
+Essa distinção entre sistema e uso foi formulada de modo decisivo pelo linguista
+suíço **Ferdinand de Saussure** (1857–1913), no *Curso de Linguística Geral*
+(publicado em 1916, a partir de anotações de seus alunos). Saussure separou o que
+ele chamou, em francês, de **langue** (a língua-sistema) e **parole** (a fala,
+o uso), enxergando na *langue* o objeto próprio da linguística.
+
+A @fig-linguagem-lingua-fala resume como esses conceitos se encaixam: a linguagem
+é o gênero mais amplo; dentro dela, a linguagem verbal se organiza em línguas; e
+cada língua, sistema social, realiza-se em incontáveis atos individuais de fala.
+
+::: {#fig-linguagem-lingua-fala}
+
+```{.tikz}
+%%| filename: linguagem-lingua-fala
+%%| alt: Diagrama hierárquico mostrando a linguagem como conceito mais amplo, dividida em verbal e não verbal; a linguagem verbal se realiza como língua (sistema social); e a língua se concretiza em atos individuais de fala.
+
+\begin{tikzpicture}[
+  font=\small,
+  nivel/.style={rounded corners=3pt, draw, align=center, minimum height=9mm, inner xsep=6pt},
+  sistema/.style={nivel, draw=manualblue, very thick, fill=manualblue!8},
+  usoind/.style={nivel, draw=manualgreen, thick, fill=manualgreen!8},
+  outro/.style={nivel, draw=manualgray, thin, fill=manualgray!6},
+  seta/.style={-{Stealth[length=2.4mm]}, manualgray, thick},
+]
+
+% Topo: linguagem
+\node[nivel, draw=manualred, very thick, fill=manualred!8] (ling) {LINGUAGEM\\[-1pt]{\footnotesize capacidade de produzir sentido por signos}};
+
+% Modalidades
+\node[outro, below left=12mm and 6mm of ling] (naoverbal) {não verbal\\[-2pt]{\footnotesize imagem, gesto, cor}};
+\node[sistema, below right=12mm and 0mm of ling] (verbal) {verbal $\rightarrow$ \textbf{LÍNGUA}\\[-1pt]{\footnotesize sistema social de signos}};
+
+\draw[seta] (ling) -- (naoverbal);
+\draw[seta] (ling) -- (verbal);
+
+% Fala: realizações individuais
+\node[usoind, below=14mm of verbal] (fala) {\textbf{FALA}\\[-1pt]{\footnotesize realização individual e concreta}};
+
+\node[outro, below left=10mm and -2mm of fala, scale=.9] (f1) {ato 1};
+\node[outro, below=10mm of fala, scale=.9] (f2) {ato 2};
+\node[outro, below right=10mm and -2mm of fala, scale=.9] (f3) {ato 3};
+
+\draw[seta, manualblue] (verbal) -- node[right, font=\scriptsize, text=manualblue] {realiza-se em} (fala);
+\draw[seta, manualgreen] (fala) -- (f1);
+\draw[seta, manualgreen] (fala) -- (f2);
+\draw[seta, manualgreen] (fala) -- (f3);
+
+% Seta de retorno: a fala alimenta e transforma a língua
+\draw[destaque, -{Stealth[length=2.4mm]}, dashed]
+  (f1.west) to[out=180, in=200] node[left, font=\scriptsize, align=center] {o uso\\mantém e\\transforma} (verbal.west);
+
+\end{tikzpicture}
+```
+
+Da linguagem à fala: o mais amplo (linguagem) contém a linguagem verbal, que se
+organiza em línguas (sistema social); cada língua se realiza em atos individuais
+de fala, e é o uso que, em retorno, mantém e transforma o sistema.
+:::
+
+Por que Saussure elegeu a *langue* como objeto central? Porque é ela que tem
+existência social e estrutura estável o bastante para ser descrita
+cientificamente. A *parole*, infinitamente variável de indivíduo para indivíduo e
+de momento para momento, seria caótica demais para servir de ponto de partida.
+Descrever a língua é descrever o sistema que torna a fala possível.
+
+Vale registrar que a linguística posterior matizou essa separação. Autores como
+**Mikhail Bakhtin** insistiram em que a língua só existe de fato na interação
+concreta entre falantes, valorizando aquilo que Saussure havia posto em segundo
+plano. E a distinção saussuriana reaparece, reformulada, na oposição de **Noam
+Chomsky** entre **competência** (o conhecimento internalizado da língua) e
+**desempenho** (seu uso efetivo). O par língua/fala não é, portanto, a última
+palavra — mas continua sendo a porta de entrada indispensável.
+
+## Língua, fala e a origem da variação
+
+Aqui chegamos a um ponto que percorrerá todo este manual. Se a língua é o sistema
+partilhado e a fala é a realização individual, e se cada falante realiza o sistema
+à sua maneira — conforme sua região, sua idade, sua escolaridade, a situação em
+que se encontra —, então a **variação** não é um defeito nem um acidente: é uma
+propriedade inerente ao funcionamento da língua.
+
+Considere como um mesmo conteúdo se realiza de formas distintas:
+
+::: {.exemplo}
+- "Vou pegar **o** ônibus." / "Vou pegar **um** busão."
+- "**Nós** fomos ao mercado." / "A gente foi no mercado."
+- "Onde você **o** viu?" / "Onde **que** cê viu **ele**?"
+:::
+
+Todas essas realizações provêm do mesmo sistema, o português, mas atualizam-no de
+maneiras diferentes. Nenhuma delas está "fora da língua"; o que muda é o
+**registro** — mais ou menos formal, mais ou menos próximo da norma-padrão. Como
+observa Bagno [@bagno2007], tratar uma dessas formas como "erro" e a outra como
+"a língua certa" é confundir um julgamento social com um fato linguístico. Câmara
+Jr. [@camarajr1970], ao descrever a estrutura do português, e Ilari & Basso
+[@ilaribasso2006], ao retratar "o português da gente", mostram justamente um
+sistema que comporta, por natureza, essa pluralidade de realizações.
+
+Guarde esta ideia: **a distinção língua/fala é o fundamento teórico da variação**,
+tema dos Volumes 3 e 14. Não há contradição entre reconhecer um sistema comum e
+descrever seus muitos usos — pelo contrário, é o sistema que torna os usos
+possíveis.
+
+## 📋 Quadro-resumo
+
+| Conceito | O que é | Natureza | Exemplo |
+|---|---|---|---|
+| **Linguagem** | Capacidade de produzir sentido por meio de signos | Faculdade geral; verbal ou não verbal | Semáforo, gesto, palavra, pintura |
+| **Língua** (*langue*) | Sistema de signos convencionais partilhado por uma comunidade | Social, abstrata, sistemática, relativamente estável | O português, o inglês, o tupi |
+| **Fala** (*parole*) | Realização individual e concreta do sistema | Individual, concreta, momentânea, variável | *Esta* frase que você acaba de ler |
+
+Em uma linha: **a linguagem** é a capacidade; **a língua** é o sistema social que
+a organiza; **a fala** é o uso individual desse sistema — e é no uso que nasce a
+variação.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir "linguagem" com "língua".** Toda língua é uma linguagem (verbal),
+  mas nem toda linguagem é uma língua: a dança e o semáforo são linguagens, não
+  línguas. Em prova, "linguagem" tende ao sentido amplo (verbal *e* não verbal);
+  "língua", ao sistema idiomático.
+- **Achar que "fala" significa apenas o oral.** No sentido técnico (saussuriano),
+  fala é qualquer realização individual do sistema — inclusive a escrita. Bancas
+  gostam de explorar essa ambiguidade.
+- **Tomar a variação como "erro" ou "defeito da fala".** A variação decorre da
+  própria relação língua/fala: o sistema é comum, as realizações são muitas.
+  Chamar de "português errado" o que é apenas outro registro é um equívoco
+  conceitual — e, com frequência, preconceito linguístico [@bagno2007].
+- **Atribuir a Saussure a defesa do "certo x errado".** Saussure descreve o
+  sistema; ele não prescreve a norma. Sistema (langue) não é norma-padrão — são
+  coisas distintas, que separaremos no @sec-cap-03.
+- **Inverter a dicotomia.** *Langue* = língua = sistema **social**; *parole* =
+  fala = **individual**. Trocar os dois é o erro clássico em questões de banca.
+
+## ✍️ Exercícios
+
+**1.** Explique, com suas palavras, a diferença entre *linguagem* e *língua*, dando
+um exemplo de linguagem que **não** seja uma língua.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Linguagem* é a capacidade geral de produzir sentido por meio de signos, verbais
+ou não verbais; *língua* é um sistema específico de signos verbais, convencional e
+partilhado por uma comunidade. Exemplo de linguagem que não é língua: o código de
+cores do semáforo (linguagem não verbal), os gestos de um árbitro, a linguagem
+das flores. Todos comunicam sem constituir um idioma.
+:::
+
+**2.** (Estilo ENEM) Leia:
+
+> No metrô lotado, um passageiro cede o assento a uma idosa apenas com um gesto de
+> mão e um leve movimento de cabeça. Sem uma palavra, ela entende e senta-se.
+
+A situação descrita evidencia que:
+
+a) a comunicação só é possível por meio da linguagem verbal;
+b) gestos não são capazes de transmitir mensagens completas;
+c) a linguagem não verbal pode, por si só, produzir sentido eficaz;
+d) a ausência de fala impede qualquer forma de comunicação;
+e) o gesto substitui a língua, tornando-a desnecessária.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** O episódio mostra a linguagem não verbal (gesto, movimento de
+cabeça) produzindo sentido pleno, sem recurso à palavra. A (a), (b) e (d) negam a
+eficácia da linguagem não verbal, contrariando a cena. A (e) exagera: o gesto não
+"substitui a língua" em geral, apenas resolve *aquela* interação — a língua segue
+indispensável em incontáveis outras situações.
+:::
+
+**3.** Classifique cada item como **linguagem verbal** ou **não verbal**: (a) uma
+placa de trânsito com o desenho de uma seta; (b) um poema; (c) o toque de recolher
+de uma corneta; (d) uma mensagem de áudio no WhatsApp; (e) o logotipo de um banco.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) não verbal (imagem); (b) verbal (palavra escrita); (c) não verbal (som não
+linguístico); (d) verbal (palavra falada); (e) não verbal (imagem/símbolo). Note
+que a modalidade (oral/escrita) não altera o fato de (b) e (d) serem verbais: o
+que conta é o uso da palavra como signo.
+:::
+
+**4.** Relacione as colunas:
+
+(I) *langue*  (II) *parole*
+
+( ) ato individual, concreto e momentâneo
+( ) sistema social, abstrato e partilhado
+( ) objeto central da linguística para Saussure
+( ) varia de falante para falante e de situação para situação
+
+::: {.callout-tip collapse="true"}
+## Solução
+(II), (I), (I), (II). O ato individual e a variação de falante para falante são da
+*parole* (fala); o sistema social e o objeto central da linguística saussuriana
+são da *langue* (língua). Cuidado: o objeto **central** de Saussure é a *langue*,
+mas a variação individual pertence à *parole*.
+:::
+
+**5.** Por que Saussure considerou a *langue*, e não a *parole*, o objeto próprio
+da linguística? A resposta ainda é consensual hoje?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a *langue* é social e sistemática, com estrutura estável o bastante para
+ser descrita cientificamente, ao passo que a *parole* seria individual e variável
+demais para servir de ponto de partida. Hoje esse recorte é matizado: Bakhtin
+valoriza a interação concreta (mais próxima da *parole*), e Chomsky reformula a
+oposição como competência × desempenho. A distinção continua útil, mas não é vista
+como uma separação estanque.
+:::
+
+**6.** Identifique, na frase abaixo, um argumento a favor de que a língua é
+**social**, e não invenção individual:
+
+> "Uma criança brasileira criada no Japão, sem contato com brasileiros, não
+> falará português."
+
+::: {.callout-tip collapse="true"}
+## Solução
+O exemplo mostra que a língua não é herança biológica automática nem criação do
+indivíduo: ela é adquirida no convívio com uma comunidade que já a possui. Sem a
+coletividade que partilha o sistema, não há aquisição da língua específica —
+prova de que a língua é um fato **social**, exterior e anterior ao falante,
+embora a *faculdade* da linguagem seja universal na espécie.
+:::
+
+**7.** (Estilo FUVEST) "A fala depende da língua, mas a língua também depende da
+fala." Explique o duplo sentido dessa afirmação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(1) A fala depende da língua porque ninguém pode produzir um ato de fala sem
+recorrer ao sistema partilhado — é a língua que fornece os signos e as regras de
+combinação. (2) A língua depende da fala porque é no uso concreto, repetido pela
+comunidade ao longo do tempo, que o sistema se mantém vivo e se transforma. Sem
+falantes que a atualizem, a língua se tornaria "morta". A mudança do latim ao
+português ilustra essa segunda dependência.
+:::
+
+**8.** Releia o quadro-resumo e construa uma frase única que articule os três
+conceitos (linguagem, língua, fala) numa mesma explicação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta pessoal. Exemplo satisfatório: *"A **linguagem** é a capacidade humana de
+produzir sentido por signos; quando essa capacidade se organiza num sistema social
+e convencional, temos uma **língua**, como o português; e cada vez que um falante
+usa esse sistema para dizer algo, num ato concreto e individual, temos a
+**fala**."* Espera-se que os três conceitos apareçam corretamente hierarquizados.
+:::
+
+**9.** Um estudante afirma: "Quem diz *'a gente vai'* está falando português
+errado; o certo é *'nós vamos'*." Comente a afirmação à luz da distinção
+língua/fala e da noção de variação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação confunde **norma-padrão** com **língua**. Tanto "nós vamos" quanto "a
+gente vai" são realizações legítimas do sistema do português; a segunda é
+larguíssimamente usada, inclusive por falantes escolarizados, em registro menos
+formal. O que existe é diferença de **registro/prestígio**, não de "certo x
+errado" no plano do sistema. Rotular a variante como "erro" é, como discute Bagno
+[@bagno2007], um julgamento social — preconceito linguístico —, não um fato
+gramatical. (A distinção fina entre língua, norma culta e norma-padrão será
+desenvolvida no @sec-cap-03.)
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue o item:
+
+> "No sentido técnico proposto por Saussure, a redação escrita por um candidato em
+> um concurso é um exemplo de *parole*."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** *Parole* (fala) é qualquer realização individual e concreta do sistema,
+o que inclui a modalidade escrita. A redação, produção individual que atualiza o
+sistema do português numa situação específica, é um ato de *parole* — ainda que,
+no sentido cotidiano, "fala" se oponha a "escrita".
+:::
+
+## 📚 Referências
+
+O tratamento clássico da dicotomia língua/fala está em Saussure; para o português,
+a descrição estrutural de Câmara Jr. [@camarajr1970] e o panorama acessível de
+Ilari & Basso [@ilaribasso2006] são leituras de base. Sobre variação e os limites
+do rótulo "erro", ver Bagno [@bagno2007]. A norma culta como conceito distinto do
+sistema é discutida por Bechara [@bechara2009] e será retomada adiante.
+
+::: {#refs}
+:::
