@@ -33,16 +33,16 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 23 | Formação de palavras I: derivação | `capitulos/cap-23-formacao-derivacao.qmd` | 4 | ✅ 2026-07-14 |
 | 24 | Formação de palavras II: composição e outros processos | `capitulos/cap-24-formacao-composicao.qmd` | 4 | ✅ 2026-07-14 |
 | 25 | Famílias de palavras, cognatos e produtividade lexical | `capitulos/cap-25-familias-cognatos-produtividade.qmd` | 4 | ✅ 2026-07-14 |
-| 26 | Panorama das dez classes de palavras | `capitulos/cap-26-panorama-classes-palavras.qmd` | 5 | ⬜ |
-| 27 | Substantivo | `capitulos/cap-27-substantivo.qmd` | 5 | ⬜ |
-| 28 | Artigo e numeral | `capitulos/cap-28-artigo-numeral.qmd` | 5 | ⬜ |
-| 29 | Adjetivo | `capitulos/cap-29-adjetivo.qmd` | 5 | ⬜ |
-| 30 | Pronome I: pessoais, possessivos e demonstrativos | `capitulos/cap-30-pronome-i-pessoais-possessivos-demonstrativos.qmd` | 5 | ⬜ |
-| 31 | Pronome II: relativos, indefinidos e interrogativos | `capitulos/cap-31-pronome-ii-relativos-indefinidos-interrogativos.qmd` | 5 | ⬜ |
-| 32 | Verbo I: estrutura, conjugações e formas nominais | `capitulos/cap-32-verbo-i-estrutura-conjugacoes.qmd` | 5 | ⬜ |
-| 33 | Verbo II: tempos, modos e aspecto | `capitulos/cap-33-verbo-ii-tempos-modos-aspecto.qmd` | 5 | ⬜ |
-| 34 | Verbo III: vozes verbais, irregulares e defectivos | `capitulos/cap-34-verbo-iii-vozes-irregulares-defectivos.qmd` | 5 | ⬜ |
-| 35 | Advérbio, preposição, conjunção e interjeição | `capitulos/cap-35-adverbio-preposicao-conjuncao-interjeicao.qmd` | 5 | ⬜ |
+| 26 | Panorama das dez classes de palavras | `capitulos/cap-26-panorama-classes-palavras.qmd` | 5 | ✅ 2026-07-14 |
+| 27 | Substantivo | `capitulos/cap-27-substantivo.qmd` | 5 | ✅ 2026-07-14 |
+| 28 | Artigo e numeral | `capitulos/cap-28-artigo-numeral.qmd` | 5 | ✅ 2026-07-14 |
+| 29 | Adjetivo | `capitulos/cap-29-adjetivo.qmd` | 5 | ✅ 2026-07-14 |
+| 30 | Pronome I: pessoais, possessivos e demonstrativos | `capitulos/cap-30-pronome-i-pessoais-possessivos-demonstrativos.qmd` | 5 | ✅ 2026-07-14 |
+| 31 | Pronome II: relativos, indefinidos e interrogativos | `capitulos/cap-31-pronome-ii-relativos-indefinidos-interrogativos.qmd` | 5 | ✅ 2026-07-14 |
+| 32 | Verbo I: estrutura, conjugações e formas nominais | `capitulos/cap-32-verbo-i-estrutura-conjugacoes.qmd` | 5 | ✅ 2026-07-14 |
+| 33 | Verbo II: tempos, modos e aspecto | `capitulos/cap-33-verbo-ii-tempos-modos-aspecto.qmd` | 5 | ✅ 2026-07-14 |
+| 34 | Verbo III: vozes verbais, irregulares e defectivos | `capitulos/cap-34-verbo-iii-vozes-irregulares-defectivos.qmd` | 5 | ✅ 2026-07-14 |
+| 35 | Advérbio, preposição, conjunção e interjeição | `capitulos/cap-35-adverbio-preposicao-conjuncao-interjeicao.qmd` | 5 | ✅ 2026-07-14 |
 | 36 | Frase, oração e período | `capitulos/cap-36-frase-oracao-periodo.qmd` | 6 | ⬜ |
 | 37 | Sujeito e seus tipos | `capitulos/cap-37-sujeito-e-tipos.qmd` | 6 | ⬜ |
 | 38 | Predicado: verbal, nominal e verbo-nominal | `capitulos/cap-38-predicado.qmd` | 6 | ⬜ |

@@ -4,22 +4,323 @@ title: "Advérbio, preposição, conjunção e interjeição"
 
 # Advérbio, preposição, conjunção e interjeição {#sec-cap-35}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "As palavras invariáveis são discretas, mas sustentam a arquitetura da frase."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o Volume 5 reunindo as quatro classes **invariáveis** que ainda não estudamos:
+**advérbio**, **preposição**, **conjunção** e **interjeição**. São palavras que não
+flexionam (com a ressalva do grau do advérbio) e cujo papel é sobretudo **relacional**:
+modificam, ligam, estruturam. Discretas na aparência, são decisivas no funcionamento da
+frase — e a **conjunção**, em especial, é a chave de toda a sintaxe do período composto
+(Volume 7), pois é ela que articula as orações.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo apresenta cada uma dessas classes, seu valor e suas subclasses. A
+conjunção recebe atenção especial por seu peso sintático: distinguir coordenativas de
+subordinativas, e conhecer o valor de cada conectivo, é pré-requisito para tudo o que
+vem no estudo das orações.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Classificar** os advérbios por circunstância e reconhecer as locuções adverbiais;
+- **Identificar** as preposições e as relações que estabelecem;
+- **Distinguir** conjunções coordenativas de subordinativas e seus valores;
+- **Reconhecer** as interjeições e seu valor expressivo;
+- **Diferenciar** classes que se confundem (advérbio × adjetivo; preposição ×
+  conjunção);
+- **Relacionar** conjunções e preposições à sintaxe do período.
+
+## O advérbio
+
+**Advérbio** é a palavra invariável que **modifica** o verbo, o adjetivo ou outro
+advérbio, exprimindo uma **circunstância**. "Ele correu **rapidamente**" (modifica o
+verbo); "muito **bonito**" (modifica adjetivo); "**bem** longe" (modifica advérbio).
+
+Classificam-se pela circunstância que exprimem:
+
+| Circunstância | Exemplos |
+|---|---|
+| **tempo** | ontem, hoje, sempre, nunca, cedo, já |
+| **lugar** | aqui, ali, longe, dentro, atrás |
+| **modo** | bem, mal, assim, depressa, e a maioria dos *-mente* |
+| **intensidade** | muito, pouco, bastante, tão, demais |
+| **afirmação** | sim, certamente, realmente |
+| **negação** | não, nunca, jamais, tampouco |
+| **dúvida** | talvez, quiçá, porventura, acaso |
+
+As **locuções adverbiais** são expressões (prep. + palavra) com valor de advérbio: *às
+pressas* (modo), *de repente*, *à noite* (tempo), *à direita* (lugar), *por acaso*.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Advérbio × adjetivo: a distinção prática
+Um mesmo item pode ser adjetivo ou advérbio conforme o que modifica:
+
+- "Ela é uma aluna **rápida**." → adjetivo (caracteriza o substantivo *aluna*, concorda:
+  *rápida*).
+- "Ela corre **rápido**." → advérbio (modifica o verbo *corre*, invariável).
+
+Teste: se modifica **substantivo** e **concorda**, é adjetivo; se modifica **verbo** e é
+**invariável**, é advérbio. "Eles falam **alto**" (advérbio, invariável), não "altos".
+:::
+
+## A preposição
+
+**Preposição** é a palavra invariável que **liga** dois termos, estabelecendo entre eles
+uma relação de **dependência**. Em "livro **de** história", a preposição *de* liga
+*livro* a *história*.
+
+- **Preposições essenciais** (só funcionam como preposição): *a, ante, após, até, com,
+  contra, de, desde, em, entre, para, per, perante, por, sem, sob, sobre, trás*.
+- **Preposições acidentais** (palavras de outras classes que funcionam como preposição):
+  *durante*, *mediante*, *conforme*, *segundo*, *exceto*, *fora* (nesses usos).
+
+As preposições exprimem relações variadas: posse ("casa *de* Ana"), lugar ("*em* casa"),
+tempo ("*por* uma hora"), causa ("morreu *de* fome"), instrumento ("cortou *com* a
+faca"), finalidade ("estuda *para* passar). A regência (Volume 8) é justamente o estudo
+de qual preposição cada palavra exige.
+
+::: {.callout-important}
+## Combinação e contração
+A preposição pode fundir-se com a palavra seguinte:
+
+- **Combinação** (sem perda de som): *a* + *o* → *ao*; *a* + *onde* → *aonde*.
+- **Contração** (com perda): *de* + *o* → *do*; *em* + *a* → *na*; *de* + *ele* →
+  *dele*; *a* + *a* → *à* (crase).
+:::
+
+## A conjunção
+
+**Conjunção** é a palavra invariável que **liga orações**, ou termos de mesma função,
+estabelecendo uma relação entre eles. É a classe mais importante para a sintaxe do
+período. Divide-se em dois grandes grupos, conforme a @fig-conjuncoes.
+
+::: {#fig-conjuncoes}
+
+```{.tikz}
+%%| filename: conjuncoes
+%%| alt: Diagrama em árvore das conjunções. Coordenativas (ligam orações independentes) subdividem-se em aditivas (e, nem), adversativas (mas, porém), alternativas (ou), conclusivas (logo, portanto) e explicativas (pois, porque). Subordinativas (ligam oração dependente à principal) incluem causais (porque), condicionais (se), concessivas (embora), temporais (quando), finais (para que), entre outras.
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  n/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, minimum height=8mm},
+  fl/.style={-{Stealth[length=2mm]}, manualgray, thick},
+]
+  \node[n, draw=manualblue, very thick, fill=manualblue!10] (c) at (5,4.4) {CONJUNÇÃO};
+  \node[n, draw=manualgreen, thick, fill=manualgreen!8, text width=34mm] (coord) at (2,3) {\textbf{Coordenativas}\\{\scriptsize ligam orações independentes}};
+  \node[n, draw=manualred, thick, fill=manualred!8, text width=34mm] (sub) at (8,3) {\textbf{Subordinativas}\\{\scriptsize ligam dependente à principal}};
+
+  \node[n, fill=manualgreen!5, text width=38mm, align=left] (lc) at (2,1.1) {aditiva: \emph{e, nem}\\ adversativa: \emph{mas, porém}\\ alternativa: \emph{ou...ou}\\ conclusiva: \emph{logo, portanto}\\ explicativa: \emph{pois, porque}};
+  \node[n, fill=manualred!5, text width=38mm, align=left] (ls) at (8,1.1) {causal: \emph{porque}\\ condicional: \emph{se}\\ concessiva: \emph{embora}\\ temporal: \emph{quando}\\ final: \emph{para que}};
+
+  \draw[fl] (c) -- (coord);
+  \draw[fl] (c) -- (sub);
+  \draw[fl] (coord) -- (lc);
+  \draw[fl] (sub) -- (ls);
+\end{tikzpicture}
+```
+
+As conjunções dividem-se em **coordenativas** (ligam orações independentes: aditivas,
+adversativas, alternativas, conclusivas, explicativas) e **subordinativas** (ligam a
+oração dependente à principal: causais, condicionais, concessivas, temporais, finais
+etc.).
+:::
+
+### Conjunções coordenativas
+
+Ligam elementos de **mesmo nível** (independentes):
+
+- **aditiva** (soma): *e*, *nem*, *não só... mas também*.
+- **adversativa** (oposição): *mas*, *porém*, *contudo*, *todavia*, *entretanto*.
+- **alternativa** (alternância): *ou*, *ou... ou*, *ora... ora*, *já... já*.
+- **conclusiva** (conclusão): *logo*, *portanto*, *pois* (após o verbo), *por isso*.
+- **explicativa** (justificativa): *porque*, *que*, *pois* (antes do verbo).
+
+### Conjunções subordinativas
+
+Ligam uma oração **dependente** à principal. As adverbiais exprimem circunstâncias
+(estudadas no @sec-cap-46):
+
+- **causal**: *porque*, *como*, *visto que*, *já que*.
+- **condicional**: *se*, *caso*, *contanto que*, *a menos que*.
+- **concessiva**: *embora*, *ainda que*, *mesmo que*, *conquanto*.
+- **temporal**: *quando*, *enquanto*, *assim que*, *logo que*.
+- **final**: *para que*, *a fim de que*.
+- **comparativa**, **consecutiva**, **conformativa**, **proporcional** — completam o
+  quadro.
+- **integrante** (*que*, *se*): introduz orações substantivas (@sec-cap-44), sem valor
+  circunstancial: "Espero *que* venha".
+
+::: {.callout-note}
+## *Mas* × *porém*: mesma função, posições diferentes
+*Mas* e *porém* são ambas adversativas, mas *mas* vem sempre no **início** da oração,
+enquanto *porém* tem mobilidade: "Estudou, **mas** não passou" / "Estudou; não passou,
+**porém**." E cuidado: *mas* (conjunção) ≠ *mais* (advérbio de intensidade) ≠ *más*
+(adjetivo, plural de *má*).
+:::
+
+## A interjeição
+
+**Interjeição** é a palavra (ou expressão) invariável que exprime, de modo súbito e
+emocional, uma **reação** do falante — alegria, dor, susto, apelo. Equivale, sozinha, a
+uma frase: *Ai!* (dor), *Oba!* (alegria), *Psiu!* (chamado), *Nossa!* (espanto),
+*Coragem!* (estímulo).
+
+As **locuções interjetivas** são expressões com esse valor: *Ai de mim!*, *Meu Deus!*,
+*Ora bolas!*, *Que pena!*. A interjeição tem forte carga expressiva e liga-se à **função
+emotiva** da linguagem (@sec-cap-05).
+
+## 📋 Quadro-resumo
+
+| Classe | Função | Subclasses/exemplos |
+|---|---|---|
+| **Advérbio** | Modifica verbo/adj./advérbio | tempo, lugar, modo, intensidade, negação... |
+| **Preposição** | Liga com dependência | essenciais (*de, em, para*), acidentais (*durante*) |
+| **Conjunção** | Liga orações/termos | coordenativas × subordinativas |
+| **Interjeição** | Exprime emoção súbita | *Ai!*, *Oba!*, *Meu Deus!* |
+
+Em uma linha: o **advérbio** modifica exprimindo circunstância (invariável); a
+**preposição** liga com dependência; a **conjunção** liga orações (coordenativas ×
+subordinativas — base da sintaxe do período); a **interjeição** exprime emoção.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Flexionar o advérbio como adjetivo.** "Eles falam **alto**" (advérbio, invariável),
+  não "altos". Adjetivo concorda; advérbio, não.
+- **Confundir *mas*, *mais*, *más*.** *Mas* = conjunção adversativa; *mais* = advérbio de
+  intensidade; *más* = adjetivo (plural de *má*).
+- **Trocar conjunção coordenativa por subordinativa.** *E, mas, ou, logo* coordenam
+  (independentes); *porque, se, embora, quando* subordinam (dependência).
+- **Confundir *porque*, *por que*, *porquê*, *por quê*.** *Porque* (conjunção, resposta/
+  causa); *por que* (preposição + pronome, pergunta); *porquê* (substantivo, "o
+  motivo"); *por quê* (fim de frase). Detalhe no Volume 9.
+- **Achar que a interjeição integra a estrutura sintática.** A interjeição é isolada,
+  equivale a uma frase inteira e não exerce função sintática dentro da oração.
+
+## ✍️ Exercícios
+
+**1.** Classifique os advérbios quanto à circunstância: (a) "Chegou **cedo**"; (b)
+"Falou **bem**"; (c) "Está **muito** cansado"; (d) "**Talvez** venha".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *cedo* → advérbio de **tempo**. (b) *bem* → advérbio de **modo**. (c) *muito* →
+advérbio de **intensidade** (modifica o adjetivo *cansado*). (d) *talvez* → advérbio de
+**dúvida**.
+:::
+
+**2.** (Estilo ENEM) Em "Os atletas correram **rápido**", a palavra *rápido* é:
+
+a) adjetivo, pois caracteriza os atletas;
+b) advérbio de modo, pois modifica o verbo e é invariável;
+c) substantivo;
+d) conjunção;
+e) preposição.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Rápido* modifica o **verbo** *correram* (indica o modo como
+correram) e permanece **invariável** (não "rápidos") → é **advérbio** de modo. Se fosse
+adjetivo, caracterizaria um substantivo e concordaria com ele ("atletas rápidos").
+:::
+
+**3.** Classifique a conjunção e seu valor: (a) "Estudou, **mas** não passou"; (b)
+"Chove, **portanto** levarei guarda-chuva"; (c) "Fique, **porque** preciso de você".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *mas* → coordenativa **adversativa** (oposição). (b) *portanto* → coordenativa
+**conclusiva** (conclusão). (c) *porque* → aqui, explicativa/causal (justifica o pedido);
+é coordenativa **explicativa** (ou subordinativa causal, conforme a análise). Todas
+ligam orações, com valores distintos.
+:::
+
+**4.** Distinga preposição **essencial** de **acidental**, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Essencial**: palavra que só funciona como preposição — *a, de, em, para, com, sobre,
+sem, por* etc. **Acidental**: palavra de outra classe que, em certo contexto, funciona
+como preposição — *durante* (era particípio), *mediante*, *conforme*, *segundo*,
+*exceto*, *fora* (em "todos vieram, exceto ele"). A essencial é preposição por natureza;
+a acidental, por empréstimo de função.
+:::
+
+**5.** Identifique as combinações/contrações: (a) *a* + *o*; (b) *de* + *ele*; (c) *em* +
+*a*; (d) *a* + *a*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *a* + *o* → *ao* (combinação, sem perda). (b) *de* + *ele* → *dele* (contração). (c)
+*em* + *a* → *na* (contração). (d) *a* + *a* → *à* (contração com **crase**). São fusões
+da preposição com a palavra seguinte.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que a conjunção é **subordinativa**:
+
+a) e;
+b) mas;
+c) ou;
+d) embora;
+e) portanto.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** *Embora* é conjunção **subordinativa** (concessiva): liga uma
+oração dependente à principal ("**Embora** chovesse, saímos"). As demais são
+**coordenativas**: *e* (aditiva), *mas* (adversativa), *ou* (alternativa), *portanto*
+(conclusiva) — ligam orações independentes.
+:::
+
+**7.** Classifique a interjeição quanto ao sentido: (a) "Ai!"; (b) "Oba!"; (c) "Psiu!";
+(d) "Coragem!".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *Ai!* → dor. (b) *Oba!* → alegria/satisfação. (c) *Psiu!* → chamamento/pedido de
+silêncio. (d) *Coragem!* → estímulo/animação. As interjeições exprimem reações
+emocionais súbitas e equivalem, cada uma, a uma frase.
+:::
+
+**8.** Diferencie *mas*, *mais* e *más* e use cada uma numa frase.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Mas* = conjunção adversativa: "Quis ir, **mas** não pude." *Mais* = advérbio de
+intensidade (ou pronome/quantificador): "Ele é o **mais** alto da turma." *Más* =
+adjetivo, feminino plural de *má*: "Elas tiveram **más** intenções." Três palavras
+homófonas de classes e sentidos distintos.
+:::
+
+**9.** Reescreva substituindo a locução adverbial por um advérbio equivalente: (a) "Saiu
+**às pressas**"; (b) "Chegou **de repente**".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Saiu às pressas" → "Saiu **apressadamente**" (advérbio de modo). (b) "Chegou de
+repente" → "Chegou **repentinamente**" (advérbio de modo). As locuções adverbiais (prep.
++ palavra) equivalem a advérbios, frequentemente os terminados em *-mente*.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Embora estivesse cansado,
+continuou trabalhando', a palavra *embora* é uma conjunção coordenativa adversativa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Embora* é conjunção **subordinativa concessiva**, não coordenativa
+adversativa. Ela introduz uma oração **dependente** (subordinada adverbial concessiva),
+exprimindo uma concessão/contraste que não impede o fato da principal: "Embora estivesse
+cansado (concessão), continuou trabalhando (principal)". A adversativa seria *mas*,
+*porém* — que coordenam orações independentes.
+:::
+
+## 📚 Referências
+
+As classes invariáveis — advérbio, preposição, conjunção e interjeição — são descritas
+por Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]; a classificação das
+conjunções é a base da sintaxe do período composto (Volume 7). Uma revisão do
+funcionamento dos conectivos no português brasileiro está em Castilho [@castilho2010] e,
+na perspectiva textual, em Koch [@koch2018coesao]. Com este capítulo encerra-se a
+morfologia; o Volume 6 inicia a sintaxe.
+
+::: {#refs}
 :::
