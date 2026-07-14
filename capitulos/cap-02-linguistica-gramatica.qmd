@@ -4,22 +4,385 @@ title: "A linguística e a gramática: descrição e norma"
 
 # A linguística e a gramática: descrição e norma {#sec-cap-02}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 1 — Introdução aos Estudos da Linguagem.
+> "A gramática de uma língua não é um código de leis a que os falantes devam
+> obediência, mas a descrição de como essa língua funciona."
+> — livremente inspirado em Mário A. Perini
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+No capítulo anterior separamos a língua (sistema social) da fala (uso individual).
+Agora precisamos de duas ferramentas para estudar esse sistema: uma ciência que o
+investiga — a **linguística** — e um conjunto de descrições de suas regras — a
+**gramática**. O problema é que a palavra "gramática" tem, no português cotidiano,
+pelo menos três sentidos que costumam se confundir, e essa confusão está na raiz de
+boa parte das discussões acaloradas sobre "falar certo" e "falar errado".
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Compreender a diferença entre **descrever** como a língua funciona e **prescrever**
+como ela deveria ser usada é, talvez, a virada de maturidade mais importante de
+quem estuda português a sério. Não se trata de abandonar a norma-padrão — ela é
+socialmente indispensável, e este manual a ensina com cuidado —, mas de saber
+exatamente o que ela é e o que ela não é. É esse o mapa que traçamos aqui.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** a linguística como ciência descritiva da linguagem;
+- **Distinguir** os três sentidos da palavra "gramática" (conhecimento internalizado,
+  descrição científica e conjunto de normas);
+- **Diferenciar** a atitude descritiva da atitude prescritiva diante da língua;
+- **Reconhecer** os principais níveis de análise linguística (fonologia, morfologia,
+  sintaxe, semântica, pragmática);
+- **Relacionar** as gramáticas normativa, descritiva e internalizada às práticas de
+  estudo e de prova;
+- **Avaliar** criticamente afirmações do senso comum sobre "certo" e "errado".
+
+## A linguística: a ciência da linguagem
+
+**Linguística** é o estudo científico da linguagem verbal. A palavra-chave é
+*científico*: o linguista observa os fatos da língua como um biólogo observa os
+seres vivos, buscando descrever regularidades, formular hipóteses e testá-las
+contra os dados — sem partir do pressuposto de que uma forma é "melhor" que outra.
+
+Isso não significa que o linguista ache que "tudo é permitido" ou que "não existe
+erro". Significa que ele distingue dois tipos de julgamento:
+
+- Um julgamento **linguístico**: a construção pertence ou não ao sistema? "Os menino
+  chegou" pertence ao português (é largamente usada e perfeitamente compreensível);
+  "menino os chegou" não pertence (nenhum falante nativo a produz).
+- Um julgamento **social**: a construção é prestigiada ou estigmatizada? "Os menino
+  chegou" é estigmatizada, associada à fala de menor escolaridade; "os meninos
+  chegaram" é prestigiada, exigida pela norma-padrão.
+
+A linguística estuda os dois planos, mas não os confunde. Reconhecer que "os menino
+chegou" é estigmatizada é um fato sociológico verdadeiro; dizer que "não é
+português" é um erro descritivo.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## A linguística não é "contra" a norma
+Um mal-entendido frequente: como a linguística descreve a variação sem condená-la,
+muita gente conclui que ela seria "contra ensinar a norma-padrão". Não é. O
+linguista descreve *todos* os registros, inclusive o culto e o padrão, e reconhece
+seu valor social. O que ele recusa é confundir prestígio social com correção
+linguística. Ensinar a norma-padrão como *mais uma* variedade de alto valor social
+é perfeitamente compatível com a ciência linguística [@faraco2008].
+:::
+
+## Os três sentidos de "gramática"
+
+Aqui está o nó que precisamos desatar. Quando alguém diz "gramática", pode estar
+falando de três coisas bem diferentes. A @fig-tres-gramaticas as organiza.
+
+::: {#fig-tres-gramaticas}
+
+```{.tikz}
+%%| filename: tres-gramaticas
+%%| alt: Diagrama com três caixas paralelas representando os três sentidos de gramática — internalizada (o conhecimento que o falante tem), descritiva (a análise que o linguista faz) e normativa (o conjunto de regras de prestígio) — cada uma ligada a quem a produz.
+
+\begin{tikzpicture}[
+  font=\small,
+  cx/.style={rounded corners=3pt, draw, align=center, minimum height=15mm, text width=30mm, inner sep=5pt},
+  rot/.style={draw=manualgray, fill=manualgray!8, minimum height=7mm, text width=26mm, align=center, rounded corners=2pt, font=\footnotesize},
+]
+
+\node[cx, draw=manualgreen, very thick, fill=manualgreen!8] (int) {\textbf{Internalizada}\\[2pt]{\footnotesize o saber que o falante tem da língua}};
+\node[cx, draw=manualblue, very thick, fill=manualblue!8, right=10mm of int] (des) {\textbf{Descritiva}\\[2pt]{\footnotesize como a língua de fato funciona}};
+\node[cx, draw=manualred, very thick, fill=manualred!8, right=10mm of des] (nor) {\textbf{Normativa}\\[2pt]{\footnotesize regras da variedade de prestígio}};
+
+\node[rot, below=6mm of int] (rint) {todo falante nativo};
+\node[rot, below=6mm of des] (rdes) {o linguista};
+\node[rot, below=6mm of nor] (rnor) {a tradição escolar};
+
+\draw[-{Stealth[length=2mm]}, manualgreen] (int) -- (rint);
+\draw[-{Stealth[length=2mm]}, manualblue] (des) -- (rdes);
+\draw[-{Stealth[length=2mm]}, manualred] (nor) -- (rnor);
+
+\end{tikzpicture}
+```
+
+Os três sentidos de "gramática": o conhecimento que todo falante já possui
+(internalizada), a análise científica desse conhecimento (descritiva) e o conjunto
+de regras da variedade de prestígio (normativa).
+:::
+
+### Gramática internalizada
+
+É o conhecimento que todo falante nativo tem da sua língua, mesmo sem nunca ter
+estudado. É graças a ela que uma criança de cinco anos, que jamais ouviu falar em
+"sujeito" ou "predicado", já forma frases complexas, flexiona verbos e percebe
+quando uma frase "soa errada". Essa gramática é **inconsciente**, adquirida
+naturalmente, e é a mesma para todos os falantes de uma comunidade — inclusive os
+que "não sabem gramática" no sentido escolar. Ninguém precisa aprender que, em
+português, o artigo vem antes do substantivo (*a casa*, não *casa a*): isso já está
+internalizado.
+
+### Gramática descritiva
+
+É a que o linguista elabora ao **descrever** a gramática internalizada, tornando
+explícitas as regras que o falante segue sem perceber. Ela busca responder "como
+esta língua realmente funciona?", registrando os usos efetivos, cultos e
+populares, sem julgá-los. As gramáticas de Castilho [@castilho2010] e de Perini
+[@perini2010], por exemplo, são descritivas: descrevem o português brasileiro tal
+como ele é falado e escrito, não como "deveria" ser.
+
+### Gramática normativa
+
+É o conjunto de regras que estabelecem como se deve escrever e falar na
+**variedade de prestígio** (a norma-padrão). Ela é **prescritiva**: diz o que
+"deve" e o que "não deve" ser usado *naquele registro formal*. As gramáticas de
+Bechara [@bechara2009] e de Cunha & Cintra [@cunhacintra2017] têm forte
+componente normativo. É a gramática das provas, dos concursos, dos documentos
+oficiais — e por isso este manual a ensina detalhadamente. Mas é importante ter
+claro: ela descreve *um* registro (o culto formal), não "a língua" inteira.
+
+## Descrever × prescrever: duas atitudes
+
+No fundo, tudo se reduz a duas atitudes possíveis diante de um fato de língua.
+
+- A atitude **descritiva** pergunta: *como as pessoas falam e escrevem?* Registra o
+  uso, incluindo a variação, sem hierarquizar.
+- A atitude **prescritiva** (ou normativa) pergunta: *como se deve falar e escrever
+  na variedade de prestígio?* Estabelece regras e recomenda formas.
+
+As duas são legítimas em seus domínios. O erro está em **confundi-las**: tratar uma
+recomendação normativa ("não se deve iniciar frase com pronome oblíquo") como se
+fosse uma lei natural da língua, ou tratar uma descrição ("muitos falantes dizem
+*'me empresta'*") como se fosse uma autorização para tudo em qualquer contexto.
+
+::: {.exemplo}
+Considere a frase "**Tem** muitas pessoas na fila".
+
+- Do ponto de vista **descritivo**: é uma construção usadíssima no português
+  brasileiro, em todos os níveis de escolaridade, na fala espontânea. Pertence
+  plenamente ao sistema.
+- Do ponto de vista **normativo**: a norma-padrão prefere "**Há** muitas pessoas na
+  fila" (verbo *haver* impessoal no sentido de "existir"), e uma prova de concurso
+  provavelmente cobrará essa forma.
+
+As duas informações são verdadeiras e não se contradizem. Saber as duas — e saber
+*quando* cada uma importa — é o objetivo deste manual.
+:::
+
+## Os níveis de análise linguística
+
+Para descrever uma língua com método, a linguística a examina em **níveis**, dos
+menores aos maiores elementos. Cada nível corresponde, aliás, a um bloco deste
+manual.
+
+| Nível | Objeto de estudo | Exemplo de pergunta | Volume |
+|---|---|---|---|
+| **Fonética/Fonologia** | Os sons e sua organização | Quantos fonemas tem *chave*? | 2 |
+| **Morfologia** | A estrutura e formação das palavras | Como se forma *deslealdade*? | 4–5 |
+| **Sintaxe** | A combinação de palavras em frases | Qual é o sujeito desta oração? | 6–7 |
+| **Semântica** | O significado das palavras e frases | *Manga* (fruta ou da camisa)? | 10 |
+| **Pragmática** | O sentido no uso e no contexto | O que "que calor!" pede numa sala abafada? | 10–11 |
+
+Esses níveis não são compartimentos estanques: eles interagem o tempo todo. A
+entoação (fonologia) pode mudar o sentido (semântica/pragmática) de "Você vai."
+para "Você vai?"; a posição de uma palavra (sintaxe) altera o significado
+(semântica). Mas separá-los é útil para organizar o estudo — e é o princípio que
+estrutura todo este manual.
+
+## Para que serve estudar gramática?
+
+Se a gramática internalizada já nos permite falar, por que estudar gramática na
+escola? Por três razões complementares:
+
+1. **Domínio da norma-padrão.** A variedade de prestígio precisa ser aprendida
+   conscientemente, pois muitas de suas regras não coincidem com a fala espontânea
+   (crase, colocação pronominal, concordância culta). Esse domínio abre portas
+   sociais e profissionais — é uma questão de cidadania, não de superioridade.
+2. **Reflexão sobre a língua.** Estudar gramática desenvolve o raciocínio: analisar
+   uma frase é um exercício lógico. Entender *por que* uma vírgula muda o sentido
+   torna a pessoa um leitor e um escritor melhor.
+3. **Consciência linguística.** Saber distinguir o descritivo do normativo protege
+   contra o preconceito linguístico e contra fórmulas decoradas sem compreensão.
+
+Este manual persegue os três objetivos ao mesmo tempo: ensina a norma-padrão com
+rigor (para a prova e para a vida), explica *por que* as regras são como são
+(descrição) e nunca transforma diferença social em juízo sobre o valor das pessoas.
+
+## 📋 Quadro-resumo
+
+| Conceito | Pergunta que responde | Natureza | Exemplos de obras |
+|---|---|---|---|
+| **Linguística** | Como a linguagem funciona, cientificamente? | Descritiva | — |
+| **Gramática internalizada** | O que o falante já sabe sem estudar? | Inconsciente, natural | (não é livro) |
+| **Gramática descritiva** | Como a língua de fato funciona? | Descritiva | Castilho, Perini |
+| **Gramática normativa** | Como se deve usar a variedade de prestígio? | Prescritiva | Bechara, Cunha & Cintra |
+
+Em uma linha: **descrever** é registrar como a língua é; **prescrever** é recomendar
+como usá-la na variedade de prestígio — e confundir as duas coisas é a fonte da
+maioria dos equívocos sobre "certo e errado".
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que "gramática" só significa "regras de prova".** Esse é apenas um dos três
+  sentidos (o normativo). Há também a internalizada e a descritiva. Bancas de
+  concurso e o ENEM cobram cada vez mais essa distinção.
+- **Pensar que a linguística "acha que não existe erro".** Existe inadequação ao
+  registro e à norma-padrão; o que a linguística recusa é chamar de "não português"
+  o que é apenas estigmatizado. São coisas diferentes.
+- **Tratar a gramática normativa como descrição da língua inteira.** A norma-padrão
+  descreve *um* registro (o culto formal escrito), não todo o português. Confundir
+  os dois leva a afirmações como "ninguém sabe português", que são absurdas.
+- **Confundir os níveis de análise.** Um erro de concordância é sintático/morfológico,
+  não "de ortografia"; um problema de ambiguidade é semântico, não "de gramática" em
+  geral. Bancas exploram a nomenclatura dos níveis.
+- **Supor que quem "erra" a norma não tem gramática.** Todo falante nativo tem
+  gramática internalizada plena. O que pode faltar é o domínio consciente da
+  norma-padrão — que se aprende, e é o que este manual ensina.
+
+## ✍️ Exercícios
+
+**1.** Explique, com suas palavras, a diferença entre gramática **descritiva** e
+gramática **normativa**, dando um exemplo de afirmação típica de cada uma.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A descritiva registra como a língua funciona ("os falantes brasileiros usam
+*tem* no sentido de *existe*: '*tem* gente aqui'"); a normativa recomenda como usar
+a variedade de prestígio ("na norma-padrão, empregue *há*: '*há* gente aqui'"). A
+primeira observa o uso; a segunda prescreve a forma culta formal.
+:::
+
+**2.** (Estilo ENEM) Leia:
+
+> Um professor corrige, na redação de um aluno, a frase "A gente vamos resolver".
+> Ele explica que, na norma-padrão, o correto é "A gente vai resolver", porque
+> *a gente* leva o verbo na 3ª pessoa do singular.
+
+A atitude do professor pode ser descrita como:
+
+a) descritiva, pois ele registra como os falantes usam a língua;
+b) normativa, pois ele orienta o uso conforme a variedade de prestígio;
+c) preconceituosa, pois toda correção é preconceito linguístico;
+d) científica, pois a linguística proíbe a forma "a gente vamos";
+e) contraditória, pois "a gente vamos" não pertence ao português.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O professor prescreve a forma de prestígio para o contexto
+escrito formal — atitude normativa. Não é descritiva (a), pois ele não está apenas
+registrando o uso; não é preconceito (c), pois ensinar a norma-padrão para um
+contexto que a exige é legítimo; a (d) é falsa (a linguística descreve, não proíbe);
+a (e) é falsa, pois "a gente vamos" ocorre na fala de muitos brasileiros.
+:::
+
+**3.** Associe cada afirmação ao sentido de "gramática" envolvido — (I) internalizada,
+(II) descritiva, (III) normativa:
+
+( ) "Uma criança de 4 anos já forma frases sem estudar regras."
+( ) "A gramática de Perini registra o português brasileiro tal como é."
+( ) "Segundo a gramática, não se deve usar *onde* para lugares não físicos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+(I), (II), (III). O saber espontâneo da criança é a gramática internalizada; a
+obra que registra o uso real é descritiva; a recomendação de prestígio ("não se
+deve...") é normativa.
+:::
+
+**4.** Classifique cada objeto de estudo no nível de análise correspondente
+(fonologia, morfologia, sintaxe, semântica, pragmática): (a) a formação da palavra
+*infelizmente*; (b) a diferença de sentido entre *banco* de praça e *banco*
+financeiro; (c) o número de fonemas em *quilo*; (d) a função de "no parque" em "Brinquei
+no parque"; (e) o que se quer dizer com "Está aberta a janela?" dito com frio.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) morfologia (estrutura/formação da palavra); (b) semântica (significado —
+polissemia); (c) fonologia (sons); (d) sintaxe (função sintática — adjunto
+adverbial); (e) pragmática (sentido no contexto — um pedido indireto para fechar a
+janela).
+:::
+
+**5.** Por que se pode dizer que **todo** falante nativo "sabe gramática", mesmo o
+que nunca frequentou a escola?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque todo falante nativo possui a gramática **internalizada**: domina, de modo
+inconsciente, o sistema de sons, a formação de palavras e as regras de combinação
+de sua língua. O que pode faltar ao falante não escolarizado é o domínio consciente
+da **norma-padrão** — que é apenas uma variedade específica, aprendida
+formalmente —, não "a gramática" em geral.
+:::
+
+**6.** Comente a afirmação: "A linguística é contra o ensino da norma-padrão."
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação é falsa. A linguística descreve *todas* as variedades, incluindo a
+culta e a padrão, e reconhece o valor social da norma-padrão. O que ela recusa é
+confundir prestígio social com "correção" absoluta e tratar as demais variedades
+como "erro" ou "não língua". Ensinar a norma-padrão como uma variedade de alto valor
+social é plenamente compatível com a ciência linguística [@faraco2008].
+:::
+
+**7.** (Estilo FCC) A frase "Existem, na variação linguística, formas mais e menos
+prestigiadas socialmente, mas não formas linguisticamente 'superiores'" traduz uma
+atitude:
+
+a) exclusivamente normativa;
+b) descritiva, que separa julgamento social de julgamento linguístico;
+c) prescritiva, que hierarquiza as variedades;
+d) contrária ao ensino de qualquer regra;
+e) que nega a existência de variação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A frase reconhece a diferença de prestígio (fato social) sem
+atribuir superioridade linguística a nenhuma variedade — exatamente a separação
+entre o plano social e o plano descritivo. Não é normativa/prescritiva (a, c), não
+nega regras (d) nem a variação (e).
+:::
+
+**8.** Reescreva a frase "Naquele lugar tem muitos problemas que ninguém resolve"
+na norma-padrão e, em seguida, explique por que a versão original **não** pode ser
+chamada de "não português".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Norma-padrão: "Naquele lugar **há** muitos problemas que ninguém resolve". A versão
+original usa *ter* no sentido de *existir*, construção usadíssima no português
+brasileiro falado, em todos os grupos sociais, e perfeitamente sistemática e
+compreensível: pertence, portanto, ao português. O que ela não segue é a
+**norma-padrão** (que prefere *haver*) — uma questão de registro, não de
+pertencimento ao sistema.
+:::
+
+**9.** Um estudante afirma: "Não adianta estudar gramática, porque eu já sei falar."
+Responda apresentando pelo menos duas razões para estudar gramática apesar de já se
+dominar a gramática internalizada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta pessoal, contemplando ao menos duas destas razões: (1) dominar a
+**norma-padrão**, que não coincide com a fala espontânea e é exigida em provas,
+concursos e contextos formais; (2) desenvolver a **reflexão** sobre a língua,
+aprimorando leitura e escrita; (3) ganhar **consciência linguística**, distinguindo
+o descritivo do normativo e evitando o preconceito. A gramática internalizada
+permite falar; o estudo permite usar a língua com autonomia e adequação.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "As gramáticas de Bechara e de
+Cunha & Cintra são exemplos de gramática descritiva, pois registram o português
+brasileiro sem prescrever formas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Bechara e Cunha & Cintra têm forte orientação **normativa**: prescrevem
+as formas da variedade de prestígio (norma-padrão). Exemplos de gramática
+predominantemente **descritiva** seriam as de Castilho e de Perini, que descrevem o
+português brasileiro tal como é usado.
+:::
+
+## 📚 Referências
+
+A distinção entre descrição e norma é desenvolvida, com clareza acessível, por
+Perini [@perini2010] e Castilho [@castilho2010] no polo descritivo, e por Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017] no polo normativo. Sobre a norma
+culta brasileira e a relação entre linguística e ensino, ver Faraco [@faraco2008];
+sobre os limites do rótulo "erro", Bagno [@bagno2007].
+
+::: {#refs}
 :::
