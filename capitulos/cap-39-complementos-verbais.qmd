@@ -4,22 +4,291 @@ title: "Complementos verbais: objeto direto e objeto indireto"
 
 # Complementos verbais: objeto direto e objeto indireto {#sec-cap-39}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 6 — Sintaxe I: Termos da Oração.
+> "Alguns verbos bastam-se; outros pedem um complemento — e a preposição diz qual."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Muitos verbos não expressam sentido completo sozinhos: eles **pedem um complemento**.
+Quem *ama*, ama **alguém**; quem *precisa*, precisa **de algo**; quem *dá*, dá **algo a
+alguém**. Esses complementos exigidos pelo verbo são os **objetos** — direto e indireto
+—, e sua identificação é o coração da **transitividade verbal**, tema que sustenta a
+regência (Volume 8) e boa parte da análise sintática.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Neste capítulo aprendemos a classificar os verbos quanto à transitividade (intransitivo,
+transitivo direto, indireto, direto e indireto) e a reconhecer os objetos direto e
+indireto, incluindo os casos que confundem: o **objeto direto preposicionado** e a
+substituição dos objetos por **pronomes oblíquos** (*o/a* × *lhe*), ponto de norma
+muito cobrado.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Classificar** os verbos quanto à transitividade;
+- **Identificar** o objeto direto e o objeto indireto;
+- **Reconhecer** a preposição que marca o objeto indireto;
+- **Substituir** objetos por pronomes oblíquos corretamente (*o/a*, *lhe*);
+- **Reconhecer** o objeto direto preposicionado;
+- **Relacionar** transitividade e complementos à regência verbal.
+
+## Transitividade verbal
+
+**Transitividade** é a propriedade de o verbo exigir (ou não) complemento. A
+@fig-transitividade organiza os quatro casos.
+
+::: {#fig-transitividade}
+
+```{.tikz}
+%%| filename: transitividade
+%%| alt: Diagrama com os quatro tipos de transitividade verbal, cada um numa caixa. Intransitivo: não precisa de complemento, exemplo o bebê dormiu. Transitivo direto: pede objeto sem preposição, exemplo comprei um livro. Transitivo indireto: pede objeto com preposição, exemplo preciso de ajuda. Transitivo direto e indireto: pede os dois objetos, exemplo dei um presente a ela.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=52mm, minimum height=16mm, inner sep=5pt, anchor=north},
+]
+  \node[cx, draw=manualgray, fill=manualgray!8] (a) at (0,0) {\textbf{Intransitivo (VI)}\\{\scriptsize não pede complemento}\\ ``O bebê \emph{dormiu}.''};
+  \node[cx, draw=manualblue, fill=manualblue!8, right=5mm of a] (b) {\textbf{Transitivo direto (VTD)}\\{\scriptsize objeto SEM preposição}\\ ``Comprei \textbf{um livro}.''};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, below=4mm of a] (c) {\textbf{Transitivo indireto (VTI)}\\{\scriptsize objeto COM preposição}\\ ``Preciso \textbf{de ajuda}.''};
+  \node[cx, draw=manualred, fill=manualred!8, below=4mm of b] (d) {\textbf{Transitivo direto e indireto (VTDI)}\\{\scriptsize dois objetos}\\ ``Dei \textbf{um presente} \textbf{a ela}.''};
+\end{tikzpicture}
+```
+
+Os quatro tipos de transitividade: intransitivo (sem complemento), transitivo direto
+(objeto sem preposição), transitivo indireto (objeto com preposição) e transitivo direto
+e indireto (os dois objetos).
+:::
+
+- **Verbo intransitivo (VI)**: tem sentido completo, não pede complemento — "O bebê
+  **dormiu**", "A criança **nasceu**". (Pode ter adjuntos, mas não objetos.)
+- **Verbo transitivo direto (VTD)**: pede complemento **sem preposição** (objeto
+  direto) — "Comprei **um livro**", "Ela ama **o filho**".
+- **Verbo transitivo indireto (VTI)**: pede complemento **com preposição** (objeto
+  indireto) — "Preciso **de ajuda**", "Gosto **de música**".
+- **Verbo transitivo direto e indireto (VTDI)**: pede **dois** complementos, um direto e
+  um indireto — "Dei **um presente** (OD) **a ela** (OI)".
 
 ::: {.callout-note}
-Capítulo em preparação.
+## A transitividade depende do uso
+Um mesmo verbo pode ter transitividades diferentes conforme o contexto: "Ele **comeu**"
+(VI, sentido completo) × "Ele **comeu** a maçã" (VTD, com objeto). "Ela **assiste** ao
+filme" (VTI, assistir *a*) × "O médico **assiste** o paciente" (VTD, no sentido de
+"prestar assistência"). Por isso a transitividade se analisa **na oração**, não no verbo
+isolado.
+:::
+
+## Objeto direto
+
+**Objeto direto (OD)** é o complemento do verbo transitivo direto, ligado a ele **sem
+preposição**. Responde a "o quê?" ou "quem?" após o verbo: "Comprei **o quê**? um
+livro"; "Ele viu **quem**? a mãe".
+
+O OD pode ser substituído pelos pronomes oblíquos **o, a, os, as**: "Comprei o livro →
+Compre**i-o**"; "Vi a mãe → V**i-a**". Essa substituição é a prova prática de que o termo
+é objeto direto.
+
+### Objeto direto preposicionado
+
+Em alguns casos, o objeto direto vem **com preposição**, sem deixar de ser direto —
+é o **objeto direto preposicionado**, usado por ênfase, clareza ou com certos pronomes:
+
+- "Amar **a Deus** sobre todas as coisas." (ênfase/tradição)
+- "Puxou **da** espada." (expressividade)
+- "A mim, ninguém engana." (com pronome tônico, para clareza)
+
+## Objeto indireto
+
+**Objeto indireto (OI)** é o complemento do verbo transitivo indireto, ligado a ele
+**com preposição** (exigida pelo verbo). Responde a "de quê?/a quem?/em quê?" conforme a
+preposição: "Preciso **de quê**? de ajuda"; "Obedeço **a quem**? aos pais".
+
+O OI pode ser substituído pelo pronome oblíquo **lhe/lhes** (quando equivale a "a
+ele/a eles"): "Obedeço aos pais → Obedeço-**lhes**"; "Dei o livro a ela → Dei-**lhe** o
+livro".
+
+::: {.callout-important}
+## *O/a* × *lhe*: a distinção de norma
+Ponto muito cobrado:
+
+- **O, a, os, as** substituem o **objeto direto** (sem preposição): "Vi **o menino** →
+  V**i-o**". Nunca "vi-lhe".
+- **Lhe, lhes** substituem o **objeto indireto** (com preposição *a*): "Obedeço **ao
+  chefe** → Obedeço-**lhe**". Nunca "obedeço-o".
+
+Erro clássico: "*Eu lhe vi ontem*" (deveria ser "eu **o** vi", pois *ver* é VTD). E
+"*Eu o obedeço*" (deveria ser "eu **lhe** obedeço", pois *obedecer* é VTI). A regência do
+verbo decide o pronome.
+:::
+
+## Objeto direto e objeto indireto na mesma oração
+
+Verbos VTDI (como *dar*, *entregar*, *dizer*, *oferecer*, *emprestar*) pedem os dois:
+
+::: {.exemplo}
+"O professor **entregou** **as provas** (OD) **aos alunos** (OI)."
+
+- OD: *as provas* (entregou **o quê**? — sem preposição).
+- OI: *aos alunos* (entregou **a quem**? — com preposição *a*).
+- Substituição: "Entregou-**lhes** as provas" (OI → lhes) / "Entregou-**as** aos alunos"
+  (OD → as).
+:::
+
+## 📋 Quadro-resumo
+
+| Conceito | Definição | Pronome | Exemplo |
+|---|---|---|---|
+| **VI** | sem complemento | — | "O bebê dormiu" |
+| **VTD** | objeto sem preposição | o, a, os, as | "Comprei **um livro**" |
+| **VTI** | objeto com preposição | lhe, lhes | "Preciso **de ajuda**" |
+| **VTDI** | OD + OI | as + lhes | "Dei **um livro** **a ela**" |
+| **OD preposicionado** | objeto direto com preposição | o, a | "Amar **a Deus**" |
+
+Em uma linha: a **transitividade** diz se o verbo pede complemento; o **objeto direto**
+liga-se ao verbo sem preposição (pronomes *o/a*), o **objeto indireto** liga-se com
+preposição (pronome *lhe*) — e a regência do verbo decide qual pronome usar.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Usar *lhe* para objeto direto.** "Eu **o** vi" (ver é VTD), não "eu lhe vi". *Lhe* é
+  só para objeto indireto.
+- **Usar *o/a* para objeto indireto.** "Eu **lhe** obedeço" (obedecer é VTI), não "eu o
+  obedeço".
+- **Analisar a transitividade no verbo isolado.** Depende do uso: "Ele comeu" (VI) × "Ele
+  comeu a maçã" (VTD). Analise na oração.
+- **Confundir objeto indireto com adjunto adverbial.** O OI é **exigido** pelo verbo
+  (regência); o adjunto adverbial é circunstância acessória. "Gosto **de você**" (OI) ×
+  "Cheguei **de trem**" (adjunto de meio).
+- **Não reconhecer o objeto direto preposicionado.** "Amar a Deus": *a Deus* é objeto
+  **direto** preposicionado (amar é VTD), não indireto.
+
+## ✍️ Exercícios
+
+**1.** Classifique a transitividade e identifique o(s) objeto(s): (a) "As crianças
+brincam"; (b) "Comprei pão"; (c) "Gosto de café"; (d) "Ofereci flores à professora".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *brincam* → **VI** (intransitivo, sem complemento). (b) *comprei* → **VTD**; objeto
+direto: *pão*. (c) *gosto* → **VTI**; objeto indireto: *de café*. (d) *ofereci* →
+**VTDI**; objeto direto: *flores*; objeto indireto: *à professora*.
+:::
+
+**2.** (Estilo ENEM) Em "O médico assistiu o paciente com dedicação", o termo "o
+paciente" é:
+
+a) objeto indireto;
+b) objeto direto;
+c) adjunto adverbial;
+d) sujeito;
+e) predicativo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** No sentido de "prestar assistência, cuidar", *assistir* é
+**transitivo direto**: "assistiu **o paciente**" (sem preposição) → **objeto direto**.
+(No sentido de "ver/presenciar", *assistir* é VTI: "assistir **ao** filme". A
+transitividade muda com o sentido.)
+:::
+
+**3.** Substitua os objetos por pronomes oblíquos: (a) "Vi o filme"; (b) "Obedeço aos
+pais"; (c) "Entreguei o relatório ao chefe".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Vi o filme" → "V**i-o**" (OD → *o*). (b) "Obedeço aos pais" → "Obedeço-**lhes**" (OI
+→ *lhes*). (c) "Entreguei o relatório ao chefe" → "Entreguei-**lho**" (ou "Entreguei-**lhe**
+o relatório" / "Entreguei-**o** ao chefe"): OD *o relatório* → *o*; OI *ao chefe* →
+*lhe*.
+:::
+
+**4.** Corrija, se necessário: "Encontrei ele na rua e disse-o para esperar."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Encontrei-**o** na rua e **lhe** disse para esperar." Correções: "encontrei **ele**" →
+"encontrei-**o**" (*encontrar* é VTD; o pronome objeto direto é *o*, não *ele*); e
+"disse-**o**" → "**lhe** disse" (*dizer algo **a** alguém*; o complemento "a ele" é
+objeto indireto → *lhe*, não *o*).
+:::
+
+**5.** Distinga objeto indireto de adjunto adverbial: "Preciso de dinheiro" × "Viajei de
+avião".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Preciso **de dinheiro**", *de dinheiro* é **objeto indireto**: o verbo *precisar*
+**exige** o complemento com preposição (precisar *de* algo) — é da regência do verbo. Em
+"Viajei **de avião**", *de avião* é **adjunto adverbial** (de meio): é uma circunstância
+acessória, não exigida pelo verbo *viajar* (que teria sentido completo sozinho:
+"viajei"). O OI é obrigatório; o adjunto, acessório.
+:::
+
+**6.** (Estilo FCC) Assinale a oração com verbo **transitivo direto e indireto**:
+
+a) Ele chegou tarde;
+b) Nós precisamos de você;
+c) O pai comprou um carro;
+d) A empresa pagou o salário aos funcionários;
+e) As flores murcharam.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** "A empresa pagou **o salário** (OD) **aos funcionários** (OI)":
+verbo **VTDI**, com objeto direto e objeto indireto. A (a) e (e) são VI; a (b), VTI; a
+(c), VTD.
+:::
+
+**7.** Identifique o objeto direto preposicionado e explique por que é direto: "Amamos a
+Deus e respeitamos a Ele."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Amamos **a Deus**", *a Deus* é **objeto direto preposicionado**: o verbo *amar* é
+transitivo **direto** (amar alguém, sem preposição obrigatória), mas aqui, por
+tradição/ênfase, o objeto vem com a preposição *a*. Continua sendo objeto **direto**
+(pode-se dizer "amamo-**lo**"? na verdade "amamo-**lo**" com *o*), pois a preposição é
+opcional/expressiva, não exigida pela regência. É o caso clássico do objeto direto
+preposicionado.
+:::
+
+**8.** Classifique a transitividade do verbo *assistir* em cada frase: (a) "Assisti ao
+jogo"; (b) "O enfermeiro assiste os doentes".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Assisti **ao** jogo" → *assistir* no sentido de "ver, presenciar" é **VTI** (rege a
+preposição *a*): objeto indireto *ao jogo*. (b) "O enfermeiro assiste **os doentes**" →
+*assistir* no sentido de "prestar assistência, cuidar" é **VTD**: objeto direto *os
+doentes*. O mesmo verbo muda de transitividade conforme o sentido.
+:::
+
+**9.** Reescreva substituindo os dois objetos por pronomes: "O aluno mostrou o trabalho
+ao professor."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Objeto direto: *o trabalho* → *o*; objeto indireto: *ao professor* → *lhe*. Formas
+possíveis: "O aluno mostrou-**lhe** o trabalho" (só o OI) / "O aluno mostrou-**o** ao
+professor" (só o OD) / "O aluno mostrou-**lho**" (contração de *lhe* + *o*, ambos os
+objetos, uso mais raro/formal).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Ela obedece o regulamento', o
+verbo está corretamente empregado na norma-padrão."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** O verbo *obedecer* é **transitivo indireto** na norma-padrão: exige a
+preposição *a* (obedecer **a** algo/alguém). O correto é "Ela obedece **ao**
+regulamento". A forma sem preposição ("obedece o regulamento") ocorre na fala, mas
+contraria a regência culta. (A regência de *obedecer* será retomada no Volume 8.)
+:::
+
+## 📚 Referências
+
+A transitividade verbal e os complementos (objetos direto e indireto) seguem Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017]; a relação com a regência é
+aprofundada no @sec-cap-52. Uma análise crítica da noção de transitividade e dos
+complementos no português brasileiro está em Perini [@perini2010] e Castilho
+[@castilho2010]. O complemento nominal e o agente da passiva, que completam os termos
+integrantes, vêm no @sec-cap-40.
+
+::: {#refs}
 :::
