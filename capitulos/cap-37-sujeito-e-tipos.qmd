@@ -4,22 +4,310 @@ title: "Sujeito e seus tipos"
 
 # Sujeito e seus tipos {#sec-cap-37}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 6 — Sintaxe I: Termos da Oração.
+> "Perguntar 'quem?' ou 'o quê?' ao verbo é o gesto que revela o sujeito."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Toda oração organiza-se em torno de um verbo, e, na maioria das vezes, em torno de dois
+grandes blocos: o **sujeito** (aquilo de que se declara algo) e o **predicado** (aquilo
+que se declara). Neste capítulo estudamos o primeiro deles — o **sujeito** —, seu núcleo
+e seus tipos. Identificar corretamente o sujeito é a base da concordância verbal (Volume
+8) e de toda a análise sintática: muitos erros de concordância nascem de uma
+identificação equivocada do sujeito.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Veremos como localizar o sujeito, distinguir seus tipos (simples, composto, oculto,
+indeterminado) e — ponto crucial — reconhecer as orações **sem sujeito** (com verbos
+impessoais), onde não há sujeito algum. A confusão entre sujeito indeterminado e oração
+sem sujeito é uma das pegadinhas mais recorrentes das provas.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Identificar** o sujeito e seu núcleo numa oração;
+- **Classificar** o sujeito (simples, composto, oculto/desinencial);
+- **Reconhecer** o sujeito indeterminado e suas formas de indeterminação;
+- **Distinguir** sujeito indeterminado de oração sem sujeito (verbos impessoais);
+- **Empregar** corretamente os verbos impessoais (*haver*, *fazer*, fenômenos);
+- **Relacionar** a identificação do sujeito à concordância verbal.
+
+## O que é o sujeito
+
+**Sujeito** é o termo da oração sobre o qual se faz uma declaração — aquilo de que o
+predicado diz algo. Em "**Os alunos** estudaram para a prova", o sujeito é *os alunos*
+(é deles que se declara terem estudado).
+
+Para **localizar** o sujeito, pergunte ao verbo **"quem?"** ou **"o quê?"**: "Quem
+estudou? → os alunos". O **núcleo** do sujeito é a palavra principal (substantivo ou
+pronome): em "os alunos aplicados", o núcleo é *alunos*.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O sujeito nem sempre vem antes do verbo
+A ordem mais comum é sujeito + verbo, mas o sujeito pode vir **depois** do verbo (ordem
+inversa): "Chegaram **os convidados**" (sujeito: os convidados). Por isso não se deve
+identificar o sujeito pela posição, e sim pela relação com o verbo (quem pratica/de quem
+se declara). Cuidado especial na concordância: "Faltam **dez dias**" (sujeito posposto,
+verbo no plural).
+:::
+
+## Tipos de sujeito
+
+A @fig-tipos-sujeito organiza os tipos de sujeito.
+
+::: {#fig-tipos-sujeito}
+
+```{.tikz}
+%%| filename: tipos-sujeito
+%%| alt: Diagrama em árvore dos tipos de sujeito. Sujeito determinado, subdividido em simples (um núcleo, exemplo o aluno chegou), composto (dois ou mais núcleos, exemplo João e Maria chegaram) e oculto ou desinencial (identificável pela desinência, exemplo chegamos cedo). Sujeito indeterminado (não se pode identificar, exemplo bateram à porta). Oração sem sujeito (verbos impessoais, exemplo choveu ontem).
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  n/.style={rounded corners=3pt, draw, align=center, inner sep=3pt, minimum height=8mm, text width=30mm},
+  fl/.style={-{Stealth[length=2mm]}, manualgray, thick},
+]
+  \node[n, draw=manualblue, very thick, fill=manualblue!10, text width=34mm] (top) at (5,5) {SUJEITO (ou sua ausência)};
+  \node[n, draw=manualgreen, thick, fill=manualgreen!8] (det) at (1.5,3.6) {\textbf{Determinado}};
+  \node[n, draw=manualyellow, thick, fill=manualyellow!14] (ind) at (5,3.6) {\textbf{Indeterminado}\\{\scriptsize ``Bateram à porta.''}};
+  \node[n, draw=manualred, thick, fill=manualred!8] (sem) at (8.6,3.6) {\textbf{Oração sem sujeito}\\{\scriptsize ``Choveu.''}};
+
+  \node[n, fill=manualgreen!5] (simp) at (-0.5,1.6) {\textbf{Simples}\\{\scriptsize 1 núcleo}};
+  \node[n, fill=manualgreen!5] (comp) at (2.6,1.6) {\textbf{Composto}\\{\scriptsize 2+ núcleos}};
+  \node[n, fill=manualgreen!5] (ocul) at (1,0.2) {\textbf{Oculto/desinencial}\\{\scriptsize ``Chegamos.''}};
+
+  \draw[fl] (top) -- (det);
+  \draw[fl] (top) -- (ind);
+  \draw[fl] (top) -- (sem);
+  \draw[fl] (det) -- (simp);
+  \draw[fl] (det) -- (comp);
+  \draw[fl] (det) -- (ocul);
+\end{tikzpicture}
+```
+
+Os tipos de sujeito: determinado (simples, composto, oculto), indeterminado — e, à
+parte, a oração **sem sujeito**, quando o verbo é impessoal.
+:::
+
+### Sujeito simples
+
+Tem **um só** núcleo: "**O sol** brilha", "**Nós** vencemos". O núcleo (*sol*, *nós*) é
+único.
+
+### Sujeito composto
+
+Tem **dois ou mais** núcleos: "**João e Maria** chegaram", "**O pai, a mãe e os filhos**
+viajaram". Vários núcleos ligados, em geral, por *e*.
+
+### Sujeito oculto (ou desinencial/elíptico)
+
+Não está expresso, mas é **identificável pela desinência verbal** ou pelo contexto:
+"**Estudamos** a noite toda" (sujeito: *nós*, indicado pela desinência *-mos*).
+"Cheguei cedo" (sujeito: *eu*). O sujeito existe e é determinado, embora não apareça.
+
+### Sujeito indeterminado
+
+Existe um sujeito, mas **não se pode ou não se quer identificá-lo**. Há duas formas
+principais:
+
+- **Verbo na 3ª pessoa do plural**, sem referência a sujeito anterior: "**Bateram** à
+  porta" (quem bateu? não se sabe/diz), "**Roubaram** meu carro".
+- **Verbo (VI/VTI/VL) na 3ª pessoa do singular + partícula *se*** (índice de
+  indeterminação do sujeito): "**Precisa-se** de vendedores", "**Vive-se** bem aqui".
+
+::: {.callout-important}
+## Sujeito indeterminado × oração sem sujeito
+Distinção decisiva:
+
+- **Sujeito indeterminado**: **há** sujeito, mas não se identifica ("Falaram mal de
+  você"). A oração *tem* sujeito (alguém falou), apenas oculto na indeterminação.
+- **Oração sem sujeito**: **não há** sujeito algum — o verbo é **impessoal**. "Choveu
+  ontem" (não há quem "chova"). O verbo fica na 3ª pessoa do singular por não ter com
+  quem concordar.
+
+Teste: se dá para imaginar um agente humano indeterminado ("alguém"), é sujeito
+indeterminado; se o verbo exprime fenômeno/existência sem agente, é oração sem sujeito.
+:::
+
+## Orações sem sujeito: os verbos impessoais
+
+Certos verbos são **impessoais** — não têm sujeito, e ficam na **3ª pessoa do
+singular**. Os casos:
+
+- **Fenômenos da natureza**: *chover*, *nevar*, *ventar*, *amanhecer*, *anoitecer* —
+  "Choveu muito", "Anoiteceu cedo". (Mas, em sentido figurado, podem ter sujeito:
+  "Choveram críticas".)
+- **Verbo *haver* no sentido de "existir"**: "**Há** muitos problemas" (= existem
+  problemas). *Haver* impessoal fica **sempre no singular**: "Havia dez pessoas" (não
+  "haviam").
+- **Verbo *fazer*, *haver*, *ir* indicando tempo decorrido ou clima**: "**Faz** dez
+  anos", "**Há** dois meses", "**Faz** calor". Impessoais, no singular.
+- **Verbo *ser* indicando tempo/distância**: "**É** uma hora", "**São** duas horas"
+  (aqui concorda com a hora).
+
+::: {.callout-important}
+## *Haver* × *ter*: o erro campeão
+Na norma-padrão, no sentido de "existir", usa-se *haver* **impessoal** (sempre
+singular): "**Havia** muitas pessoas" (não "*Haviam* muitas pessoas"). Na fala, usa-se
+*ter* ("Tinha muita gente"), mas a norma culta escrita prefere *haver*. E, como
+*haver* é impessoal, **não** vai ao plural, por mais que o complemento seja plural:
+"Deve **haver** erros" (não "devem haver"). Retomaremos na concordância (@sec-cap-50).
+:::
+
+## 📋 Quadro-resumo
+
+| Tipo | Característica | Exemplo |
+|---|---|---|
+| **Simples** | um núcleo | "**O sol** brilha" |
+| **Composto** | dois ou mais núcleos | "**João e Ana** vieram" |
+| **Oculto/desinencial** | identificado pela desinência | "**Estudamos** muito" (nós) |
+| **Indeterminado** | há sujeito, não se identifica | "**Bateram** à porta" |
+| **Oração sem sujeito** | verbo impessoal, sem sujeito | "**Choveu**"; "**Há** erros" |
+
+Em uma linha: o **sujeito** é aquilo de que se declara algo (localiza-se com "quem?/o
+quê?"); pode ser simples, composto ou oculto (determinado), ou **indeterminado**; e há
+orações **sem sujeito**, com verbos impessoais (*chover*, *haver* = existir), sempre no
+singular.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir sujeito indeterminado com oração sem sujeito.** "Bateram à porta"
+  (indeterminado: há alguém) × "Choveu" (sem sujeito: verbo impessoal). Teste: cabe um
+  agente humano?
+- **Pôr *haver* (= existir) no plural.** *Haver* impessoal é **sempre singular**:
+  "**Havia** dez pessoas", "Deve **haver** erros" (não "haviam"/"devem haver").
+- **Identificar o sujeito pela posição.** O sujeito pode vir **depois** do verbo:
+  "Faltam **dez dias**" (sujeito posposto → verbo no plural).
+- **Achar que oração sem sujeito não existe.** Existe: fenômenos da natureza, *haver*
+  existencial, tempo decorrido — verbos impessoais, sem sujeito.
+- **Confundir a partícula *se*.** *Se* como índice de indeterminação do sujeito (VI/VTI
+  + *se*: "Precisa-se de...") × partícula apassivadora (VTD + *se*: "Vendem-se
+  casas"). Casos diferentes.
+
+## ✍️ Exercícios
+
+**1.** Identifique o sujeito e seu núcleo: "Os antigos moradores da rua protestaram."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Sujeito: "**Os antigos moradores da rua**" (perguntando "quem protestou?"). O **núcleo**
+do sujeito é *moradores* (substantivo principal); "os", "antigos" e "da rua" são termos
+que o acompanham (adjuntos). É um sujeito **simples** (um só núcleo).
+:::
+
+**2.** (Estilo ENEM) Em "Choveu granizo na serra ontem", o sujeito é:
+
+a) "granizo";
+b) "a serra";
+c) "ontem";
+d) inexistente — oração sem sujeito;
+e) indeterminado.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** *Chover* é verbo **impessoal** (fenômeno da natureza), logo a
+oração **não tem sujeito**. "Granizo" é objeto/complemento, não sujeito ("choveu o quê?
+granizo" — mas o verbo permanece impessoal, na 3ª pessoa do singular). "Na serra" e
+"ontem" são adjuntos adverbiais.
+:::
+
+**3.** Classifique o sujeito: (a) "João e Maria casaram"; (b) "Vencemos o jogo"; (c) "O
+professor faltou".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) sujeito **composto** ("João e Maria" — dois núcleos). (b) sujeito **oculto/
+desinencial** (*nós*, indicado por *-mos* em "vencemos"). (c) sujeito **simples** ("O
+professor" — um núcleo).
+:::
+
+**4.** Distinga sujeito indeterminado de oração sem sujeito, com um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+No **sujeito indeterminado**, existe um sujeito, mas não se identifica quem é: "**Bateram**
+à porta" (alguém bateu, não se sabe quem). Na **oração sem sujeito**, não há sujeito
+algum, pois o verbo é impessoal: "**Choveu** ontem" (não há quem "chova"). No primeiro
+caso, cabe imaginar um agente ("alguém"); no segundo, não — o verbo exprime fenômeno ou
+existência.
+:::
+
+**5.** Reescreva na norma-padrão: "Tinham muitas pessoas na festa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"**Havia** muitas pessoas na festa." No sentido de "existir", a norma-padrão usa *haver*
+**impessoal**, que permanece **no singular** independentemente do complemento ("muitas
+pessoas"): "havia", não "haviam". A forma com *ter* ("tinha"/"tinham") é própria da fala,
+não da norma culta escrita.
+:::
+
+**6.** (Estilo FCC) Assinale a oração com **sujeito indeterminado**:
+
+a) Faz calor hoje;
+b) Há problemas sérios;
+c) Precisa-se de funcionários;
+d) Choveu a noite toda;
+e) São três horas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Precisa-se de funcionários" tem **sujeito indeterminado**: verbo
+transitivo indireto (*precisar de*) na 3ª pessoa do singular + *se* (índice de
+indeterminação). As demais são **orações sem sujeito** (verbos impessoais: *fazer* de
+clima, *haver* existencial, *chover*, *ser* de tempo).
+:::
+
+**7.** Explique por que "Deve haver falhas" está correto, e "Devem haver falhas" não.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque *haver*, no sentido de "existir", é **impessoal** e não tem sujeito, ficando
+**sempre no singular**. Quando forma locução com um auxiliar (*dever*, *poder*), a
+impessoalidade se transmite ao auxiliar, que **também** fica no singular: "**Deve**
+haver falhas" (não "devem"). "Falhas" não é sujeito — é objeto de *haver* —, logo não
+puxa o verbo para o plural.
+:::
+
+**8.** Identifique a forma de indeterminação do sujeito: (a) "Comentaram sobre o caso";
+(b) "Vive-se bem no interior".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Comentaram sobre o caso" → indeterminação por **verbo na 3ª pessoa do plural** sem
+sujeito expresso. (b) "Vive-se bem no interior" → indeterminação por **verbo intransitivo
+na 3ª pessoa do singular + *se*** (índice de indeterminação do sujeito). São as duas
+formas clássicas de indeterminar o sujeito.
+:::
+
+**9.** No período "Faltam poucos dias para a viagem", identifique e classifique o
+sujeito, comentando a concordância.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Sujeito: "**poucos dias**" (perguntando "o que falta?"). É sujeito **simples**, com
+núcleo *dias*, **posposto** ao verbo (ordem inversa). Por isso o verbo concorda no
+**plural**: "**Faltam** poucos dias". O erro comum seria deixar no singular ("falta
+poucos dias"), por não perceber que "poucos dias" é o sujeito, apenas deslocado para
+depois do verbo.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na oração 'Anoiteceu rapidamente', há
+sujeito indeterminado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Anoitecer* é verbo **impessoal** (fenômeno da natureza), logo a oração é
+**sem sujeito**, não de sujeito indeterminado. Não há agente algum a quem atribuir a
+ação — o verbo fica na 3ª pessoa do singular por impessoalidade. Sujeito indeterminado
+exigiria a possibilidade de um agente ("alguém"), o que não ocorre com verbos de
+fenômeno natural.
+:::
+
+## 📚 Referências
+
+A tipologia do sujeito e a distinção entre indeterminação e impessoalidade seguem
+Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]; a questão de *haver*/*ter*
+existencial, central na concordância, é retomada no @sec-cap-50. A análise do sujeito no
+português brasileiro — incluindo o chamado sujeito nulo — é discutida por Castilho
+[@castilho2010] e Perini [@perini2010]. O predicado, contraparte do sujeito, vem no
+@sec-cap-38.
+
+::: {#refs}
 :::
