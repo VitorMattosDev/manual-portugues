@@ -8,7 +8,7 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 
 | Nº | Título | Arquivo | Vol. | Status |
 |---:|--------|---------|:---:|:---:|
-| 01 | Linguagem, língua e fala | `capitulos/cap-01-linguagem-lingua-fala.qmd` | 1 | ⬜ |
+| 01 | Linguagem, língua e fala | `capitulos/cap-01-linguagem-lingua-fala.qmd` | 1 | ✅ 2026-07-14 |
 | 02 | A linguística e a gramática: descrição e norma | `capitulos/cap-02-linguistica-gramatica.qmd` | 1 | ⬜ |
 | 03 | Norma culta, norma-padrão e variedades | `capitulos/cap-03-norma-culta-padrao-variedades.qmd` | 1 | ⬜ |
 | 04 | Breve história do português: panorama | `capitulos/cap-04-historia-portugues-panorama.qmd` | 1 | ⬜ |
