@@ -4,22 +4,316 @@ title: "Fonema e letra"
 
 # Fonema e letra {#sec-cap-07}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 2 — Fonética e Fonologia.
+> "A escrita não é a língua, mas apenas uma forma de representá-la."
+> — livremente inspirado em Ferdinand de Saussure
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos aqui o Volume 2, dedicado aos **sons** da língua. E a primeira coisa a
+aprender é também a mais contrária ao senso comum: **som e letra não são a mesma
+coisa**. Estamos tão habituados à escrita que tendemos a pensar a língua como um
+conjunto de letras — mas a língua é, antes de tudo, falada, e a escrita é apenas uma
+tentativa (imperfeita) de registrá-la. Uma criança fala anos antes de escrever;
+milhares de línguas no mundo nunca foram escritas; e mesmo no português a
+correspondência entre o que se ouve e o que se grafa está longe de ser perfeita.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Distinguir **fonema** (unidade de som) de **letra** (unidade de escrita) é a base de
+toda a fonética e a fonologia — e a chave para não errar contagens de fonemas, um
+clássico de prova. Neste capítulo estabelecemos essa distinção e aprendemos a contar
+fonemas e letras com segurança, preparando o terreno para a classificação dos sons
+(@sec-cap-08) e para tudo o que vem depois.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** fonema (som) de letra (grafia) e de fone (realização concreta);
+- **Reconhecer** o fonema como unidade distintiva de significado;
+- **Contar** fonemas e letras de uma palavra sem se deixar enganar pela escrita;
+- **Identificar** os casos em que letra e fonema não se correspondem (dígrafos,
+  letras mudas, uma letra para dois sons e vice-versa);
+- **Empregar** corretamente a notação entre barras /​/ (fonema) e colchetes [ ] (fone);
+- **Analisar** pares mínimos para provar a existência de um fonema.
+
+## Fonema: a menor unidade distintiva de som
+
+**Fonema** é a menor unidade sonora capaz de **distinguir significados** numa língua.
+A definição parece abstrata, mas a ideia é simples: um fonema é um som que, trocado
+por outro, muda a palavra.
+
+Compare *pato* e *bato*: a única diferença está no primeiro som, /p/ contra /b/. Essa
+troca muda o significado — logo, /p/ e /b/ são **fonemas** distintos do português. O
+mesmo teste vale para *mala* / *sala* / *fala* / *cala*, ou para *pé* / *pá* / *pó*
+(muda a vogal, muda a palavra). A esses pares que se distinguem por um único fonema
+chamamos **pares mínimos**, e são a prova concreta de que dois sons são fonemas
+diferentes.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Fonema × fone: o abstrato e o concreto
+O **fonema** é uma unidade abstrata do sistema (o /t/ "ideal" do português). O **fone**
+é a realização física, concreta, desse fonema na fala. O fonema /t/ realiza-se como
+[t] em *tomate*, mas como [t͡ʃ] (o "tch") em *tia*, na maior parte do Brasil. São dois
+fones do mesmo fonema — variantes que não mudam o significado. Notação: fonema entre
+**barras** /t/; fone entre **colchetes** [t͡ʃ]. Neste volume, o foco é o fonema.
+:::
+
+Repare: o fonema não tem significado próprio — /p/ não significa nada —, mas serve
+para *diferenciar* significados. É uma peça do sistema, não uma palavra. Por isso se
+diz que o fonema é uma unidade **distintiva**.
+
+## Letra: a unidade da escrita
+
+**Letra** (ou grafema) é a menor unidade da **escrita**, um sinal gráfico usado para
+representar, na medida do possível, os fonemas. O português usa o alfabeto latino,
+com 26 letras (após o Acordo de 1990, que reincorporou *k*, *w* e *y*).
+
+O ponto decisivo é que **a correspondência entre letras e fonemas não é perfeita**.
+Um sistema de escrita ideal teria uma letra para cada fonema e um fonema para cada
+letra. Nenhuma língua alcança isso plenamente, e o português tem vários descompassos,
+que a @fig-fonema-letra ilustra e as seções seguintes detalham.
+
+::: {#fig-fonema-letra}
+
+```{.tikz}
+%%| filename: fonema-letra
+%%| alt: Diagrama com quatro casos de descompasso entre letras e fonemas. Caso 1: a palavra "chave" com cinco letras mas quatro fonemas, porque "ch" é um dígrafo (duas letras, um som). Caso 2: a palavra "táxi" com quatro letras mas cinco fonemas, porque "x" vale por dois sons. Caso 3: a palavra "hora" com quatro letras mas três fonemas, porque o "h" é mudo. Caso 4: pares mínimos pato/bato mostrando fonemas distintivos.
+
+\begin{tikzpicture}[
+  font=\small,
+  cx/.style={rounded corners=2pt, draw=manualgray, align=center, minimum height=9mm, inner sep=4pt, text width=44mm},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{chave}\\{\footnotesize 5 letras · 4 fonemas}\\{\scriptsize \emph{ch} = dígrafo (2 letras, 1 som)}};
+  \node[cx, draw=manualred, fill=manualred!8, right=8mm of a] (b) {\textbf{táxi}\\{\footnotesize 4 letras · 5 fonemas}\\{\scriptsize \emph{x} = /ks/ (1 letra, 2 sons)}};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, below=6mm of a] (c) {\textbf{hora}\\{\footnotesize 4 letras · 3 fonemas}\\{\scriptsize \emph{h} inicial = mudo (letra, 0 som)}};
+  \node[cx, draw=manualyellow, fill=manualyellow!12, below=6mm of b] (d) {\textbf{pato / bato}\\{\footnotesize par mínimo}\\{\scriptsize /p/ e /b/ = fonemas distintos}};
+\end{tikzpicture}
+```
+
+Quatro descompassos entre letra e fonema: o dígrafo (duas letras, um som), o *x* como
+/ks/ (uma letra, dois sons), a letra muda (letra sem som) e o par mínimo, que prova a
+distinção fonêmica.
+:::
+
+## Os descompassos entre letra e fonema
+
+Contar fonemas exige atenção a cinco situações em que a escrita "engana":
+
+### 1. Dígrafos: duas letras, um fonema
+
+Um **dígrafo** é o encontro de duas letras que representam **um único** fonema. Os
+principais: *ch* (/ʃ/), *lh* (/ʎ/), *nh* (/ɲ/), *rr* (/ʀ/ ou /χ/), *ss* (/s/), *qu*
+e *gu* antes de *e/i* (/k/, /g/), além de *sc*, *sç*, *xc*. Em *chave*, o *ch* conta
+como **um** fonema; em *carro*, o *rr* conta como um só. Voltaremos aos dígrafos em
+detalhe no @sec-cap-09.
+
+### 2. A letra *x* pode valer por dois fonemas
+
+A letra *x* às vezes representa o grupo /ks/: em *táxi*, *fixo*, *tórax*, o *x* soa
+como dois fonemas (/k/ + /s/). Ali, uma letra corresponde a **dois** fonemas — o
+oposto do dígrafo. (Em outras palavras, o *x* vale por um só fonema: /ʃ/ em *xale*,
+/z/ em *exame*, /s/ em *próximo*.)
+
+### 3. Letras mudas: letra sem fonema
+
+Algumas letras não representam som algum. O caso clássico é o *h* inicial (*hora*,
+*homem*, *hoje*): existe na escrita por razões etimológicas, mas não corresponde a
+nenhum fonema. Em *hora*, há 4 letras e apenas 3 fonemas.
+
+### 4. Um fonema representado por letras diferentes
+
+O mesmo fonema pode ser grafado de várias maneiras. O fonema /s/, por exemplo,
+aparece como *s* (*sapo*), *ss* (*passo*), *ç* (*caça*), *c* (*cedo*), *sc*
+(*nascer*), *x* (*próximo*), *xc* (*exceção*). Isso não muda a contagem de fonemas —
+mas explica muitas dúvidas de ortografia (Volume 3).
+
+### 5. Uma letra representando fonemas diferentes
+
+A mesma letra pode valer por fonemas distintos conforme o contexto. A letra *x* já vimos;
+o *e* e o *o* podem ser abertos ou fechados (/ɛ/ e /e/; /ɔ/ e /o/), como em *avô*
+/o/ e *avó* /ɔ/; o *m* e o *n* em final de sílaba não representam consoante, mas
+apenas a **nasalização** da vogal anterior (em *campo*, o *m* não é um fonema
+consonantal /m/, e sim marca a vogal nasal ɐ̃).
+
+## Como contar fonemas: um método
+
+Diante de uma palavra, para contar fonemas com segurança, pronuncie-a lentamente e
+siga estes passos:
+
+1. **Ignore a escrita e ouça os sons.** Conte pelo que se pronuncia, não pelo que se
+   vê.
+2. **Trate cada dígrafo como um só fonema** (*ch*, *lh*, *nh*, *rr*, *ss*, *qu/gu*
+   antes de *e/i*, *sc*...).
+3. **Desconte as letras mudas** (o *h* inicial; o *u* de *que/gui* quando não soa).
+4. **Conte o *x* = /ks/ como dois fonemas**.
+5. **Lembre que *m/n* de nasalização não é fonema à parte**: em *sim*, há /s/ + vogal
+   nasal = 2 ou 3 fonemas conforme a análise adotada; as bancas em geral contam a
+   vogal nasal como **um** fonema e o *m* como mera marca (*sim* = /s/ + /ĩ/ = 2
+   fonemas).
+
+::: {.exemplo}
+- **chuva**: *ch*-u-v-a → /ʃ/ /u/ /v/ /a/ = **4 fonemas**, 5 letras.
+- **hoje**: h(mudo)-o-j-e → /o/ /ʒ/ /i/ = **3 fonemas**, 4 letras.
+- **fixo**: f-i-*x*(=ks)-o → /f/ /i/ /k/ /s/ /o/ = **5 fonemas**, 4 letras.
+- **guerra**: *gu*(=/g/)-e-*rr*(=1)-a → /g/ /e/ /ʀ/ /a/ = **4 fonemas**, 6 letras.
+- **campo**: c-a(nasal)-*m*-p-o → /k/ /ɐ̃/ /p/ /o/ = **4 fonemas**, 5 letras (o *m* só
+  nasaliza).
+:::
+
+## 📋 Quadro-resumo
+
+| Situação | Efeito na contagem | Exemplo |
+|---|---|---|
+| **Dígrafo** | 2 letras = 1 fonema | *ch*ave, ca*rr*o, pa*ss*o |
+| **Letra muda** | letra = 0 fonema | *h*ora, *h*oje |
+| **Letra *x* = /ks/** | 1 letra = 2 fonemas | tá*x*i, fi*x*o |
+| **Um fonema, várias letras** | não altera contagem | /s/ = s, ss, ç, c, sc, x |
+| **Nasalização (m/n final)** | m/n não é fonema à parte | ca*m*po, si*m* |
+
+Em uma linha: **fonema** é som distintivo (entre barras /​/); **letra** é sinal
+gráfico; e a contagem de fonemas se faz pelos **sons pronunciados**, atento a
+dígrafos, letras mudas e ao *x* = /ks/.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Contar letras achando que conta fonemas.** *Chave* tem 5 letras, mas 4 fonemas
+  (o dígrafo *ch* é um só som). É o erro número um em prova de fonologia.
+- **Esquecer que o *x* pode valer /ks/.** Em *táxi*, *fixo*, *tórax*, uma letra vale
+  por dois fonemas — aumenta a contagem, ao contrário do dígrafo.
+- **Contar o *h* inicial como fonema.** O *h* de *hora*, *homem*, *hoje* é mudo: letra
+  sem som.
+- **Tratar o *m/n* de nasalização como consoante.** Em *campo* e *sim*, o *m* não é o
+  fonema /m/; apenas indica que a vogal anterior é nasal.
+- **Confundir fonema com fone.** Fonema (/t/) é a unidade abstrata do sistema; fone
+  ([t] ou [t͡ʃ]) é a realização concreta. O "tch" de *tia* é um fone do fonema /t/,
+  não um fonema à parte.
+
+## ✍️ Exercícios
+
+**1.** Defina **fonema** e explique por que se diz que ele é uma unidade "distintiva".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Fonema é a menor unidade sonora capaz de distinguir significados numa língua. Diz-se
+"distintiva" porque o fonema, em si, não tem significado, mas sua troca por outro
+altera o significado da palavra: em *pato* / *bato*, trocar /p/ por /b/ muda a palavra
+— logo, /p/ e /b/ são fonemas distintos. O fonema serve, portanto, para diferenciar
+significados.
+:::
+
+**2.** (Estilo ENEM) Assinale a palavra em que o número de **letras** é maior que o
+número de **fonemas**:
+
+a) táxi;
+b) fixo;
+c) chuva;
+d) próximo (considere *x* = /s/);
+e) exato (considere *x* = /z/).
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** *Chuva* tem 5 letras (c-h-u-v-a) e 4 fonemas (/ʃ/ /u/ /v/ /a/),
+pois *ch* é dígrafo (2 letras, 1 som): letras > fonemas. Em *táxi* e *fixo*, o *x* =
+/ks/ faz os fonemas superarem ou igualarem as letras. Em *próximo* e *exato*, com *x*
+= 1 som, letras e fonemas se igualam.
+:::
+
+**3.** Conte letras e fonemas de: (a) *hoje*; (b) *guerra*; (c) *fixo*; (d) *campo*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *hoje*: 4 letras, 3 fonemas (/o/ /ʒ/ /i/ — *h* mudo). (b) *guerra*: 6 letras, 4
+fonemas (/g/ /e/ /ʀ/ /a/ — *gu* = /g/, *rr* = 1). (c) *fixo*: 4 letras, 5 fonemas
+(/f/ /i/ /k/ /s/ /o/ — *x* = /ks/). (d) *campo*: 5 letras, 4 fonemas (/k/ /ɐ̃/ /p/ /o/
+— o *m* só nasaliza a vogal).
+:::
+
+**4.** O que é um **par mínimo** e para que serve na análise fonológica?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Par mínimo é o par de palavras que se distinguem por **um único** fonema, numa mesma
+posição, resultando em significados diferentes (por exemplo, *mala* / *sala*, *pé* /
+*pá*). Serve para **provar** que dois sons são fonemas distintos na língua: se a troca
+de um som pelo outro muda o significado, os dois sons são fonemas diferentes.
+:::
+
+**5.** Explique a diferença entre **fonema** e **fone**, usando o *t* de *tomate* e o
+de *tia*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O fonema é a unidade abstrata do sistema; o fone, sua realização concreta. Em
+*tomate*, o fonema /t/ realiza-se como o fone [t]; em *tia*, na maior parte do Brasil,
+o mesmo fonema /t/ realiza-se como o fone [t͡ʃ] (o "tch"). São dois fones (variantes)
+de um só fonema /t/: a diferença entre eles não muda o significado, apenas a pronúncia.
+:::
+
+**6.** Escreva três grafias diferentes para o fonema /s/ e três palavras que as
+ilustrem.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplos (bastam três): *s* em *sapo*; *ss* em *passo*; *ç* em *caça*; *c* (antes de
+*e/i*) em *cedo*; *sc* em *nascer*; *x* em *próximo*; *xc* em *exceção*. Todas
+representam o mesmo fonema /s/, ilustrando que um fonema pode ter várias grafias.
+:::
+
+**7.** (Estilo FCC) Em qual alternativa há **dígrafo**?
+
+a) prato;
+b) carro;
+c) grade;
+d) claro;
+e) triste.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Em *carro*, o *rr* é dígrafo (duas letras, um só fonema /ʀ/). Nas
+demais, há **encontros consonantais** (*pr*, *gr*, *cl*, *tr*), em que cada consoante
+mantém seu próprio som — não são dígrafos. (A distinção entre dígrafo e encontro
+consonantal é aprofundada no @sec-cap-09.)
+:::
+
+**8.** Por que a letra *h* em *hora* não é contada como fonema, mas o *nh* em *ninho*
+conta como um fonema?
+
+::: {.callout-tip collapse="true"}
+## Solução
+O *h* inicial de *hora* é **letra muda**: existe por etimologia, mas não representa
+nenhum som — daí não ser fonema. Já em *ninho*, o *h* forma com o *n* o dígrafo *nh*,
+que representa **um** fonema, a consoante nasal palatal /ɲ/. No primeiro caso o *h*
+não tem valor sonoro; no segundo, integra um dígrafo que vale por um fonema.
+:::
+
+**9.** Analise a palavra *exceção* quanto a letras e fonemas, comentando os
+descompassos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Exceção* tem 7 letras (e-x-c-e-ç-ã-o). Fonemas: /e/ /s/ /e/ /s/ /ɐ̃/ /w̃/ — ou, numa
+contagem simplificada, /e/ /s/ /e/ /s/ /ã/ /w/ = 6 fonemas. Descompassos: o grupo *xc*
+representa aqui um único /s/ (na verdade *x* soa /s/ e o *c* também tende a /s/,
+com a sequência *xce* realizada como /se/); o *ç* representa /s/; e o *ão* final é um
+ditongo nasal (/ɐ̃w̃/). Vários grafemas convergem para o fonema /s/, e o *ão*
+concentra dois sons vocálicos nasais.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na palavra *guitarra*, há 8 letras e
+8 fonemas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Guitarra* tem 8 letras (g-u-i-t-a-r-r-a), mas **6** fonemas: /g/ /i/ /t/
+/a/ /ʀ/ /a/. O *gu* antes de *i* é dígrafo que vale /g/ (o *u* não soa), e o *rr* é
+dígrafo que vale um só /ʀ/. Dois dígrafos reduzem a contagem de fonemas em relação às
+letras.
+:::
+
+## 📚 Referências
+
+A distinção entre fonema, fone e letra e a noção de par mínimo são tratadas na
+descrição estrutural do português por Câmara Jr. [@camarajr1970]; para uma exposição
+acessível do sistema sonoro, ver Castilho [@castilho2010] e Ilari & Basso
+[@ilaribasso2006]. Os aspectos ortográficos ligados aos descompassos entre letra e
+fonema serão desenvolvidos no Volume 3.
+
+::: {#refs}
 :::
