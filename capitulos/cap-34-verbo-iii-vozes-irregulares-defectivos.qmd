@@ -4,22 +4,320 @@ title: "Verbo III: vozes verbais, irregulares e defectivos"
 
 # Verbo III: vozes verbais, irregulares e defectivos {#sec-cap-34}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 5 — Morfologia II: Classes de Palavras.
+> "A mesma cena pode ser contada de dentro de quem age ou de quem sofre a ação — e o
+> verbo tem voz para as duas."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o estudo do verbo com três temas de forte apelo sintático e normativo: as
+**vozes verbais** (ativa, passiva, reflexiva), os verbos **irregulares** de maior
+recorrência e os verbos **defectivos** e **abundantes**. A voz verbal, em especial, é
+uma ponte para a sintaxe: entender a transformação da ativa para a passiva é essencial
+para a análise sintática (Volume 6) e para questões de reescrita, muito frequentes em
+prova.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Não esgotaremos as tabelas de conjugação dos irregulares — isso é matéria de consulta —,
+mas fixaremos os padrões e os casos que mais caem: *ver/vir*, *ter/vir* no pretérito, os
+particípios duplos, verbos como *reaver* e *precaver-se* (defectivos). Ao fim,
+teremos o verbo dominado em suas três dimensões: estrutura, flexão e voz.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** as três vozes verbais (ativa, passiva, reflexiva);
+- **Diferenciar** a passiva analítica da passiva sintética (pronominal);
+- **Converter** a voz ativa em passiva e vice-versa;
+- **Reconhecer** os principais verbos irregulares e seus padrões;
+- **Empregar** os verbos defectivos e abundantes (particípios duplos);
+- **Relacionar** a voz verbal à análise sintática.
+
+## As vozes verbais
+
+A **voz** indica a relação entre o sujeito e a ação verbal: se o sujeito **pratica**,
+**sofre** ou **pratica e sofre** a ação. A @fig-vozes resume.
+
+::: {#fig-vozes}
+
+```{.tikz}
+%%| filename: vozes-verbais
+%%| alt: Diagrama com as três vozes verbais. Voz ativa: o sujeito pratica a ação, exemplo o gato comeu o rato. Voz passiva: o sujeito sofre a ação, exemplo o rato foi comido pelo gato. Voz reflexiva: o sujeito pratica e sofre a ação, exemplo o menino feriu-se. Setas indicam a relação sujeito-ação.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, text width=44mm, minimum height=22mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{ATIVA}\\{\scriptsize sujeito \emph{pratica} a ação}\\[4pt] ``O gato \emph{comeu} o rato.''\\ {\scriptsize sujeito = agente}};
+  \node[cx, draw=manualred, fill=manualred!8, right=5mm of a] (b) {\textbf{PASSIVA}\\{\scriptsize sujeito \emph{sofre} a ação}\\[4pt] ``O rato \emph{foi comido} pelo gato.''\\ {\scriptsize sujeito = paciente}};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, right=5mm of b] (c) {\textbf{REFLEXIVA}\\{\scriptsize sujeito pratica \emph{e} sofre}\\[4pt] ``O menino \emph{feriu-se}.''\\ {\scriptsize agente = paciente}};
+\end{tikzpicture}
+```
+
+As três vozes verbais: na **ativa**, o sujeito é agente; na **passiva**, é paciente; na
+**reflexiva**, é agente e paciente ao mesmo tempo.
+:::
+
+### Voz ativa
+
+O sujeito **pratica** a ação (é o **agente**): "*O gato* comeu o rato." O sujeito (*o
+gato*) faz a ação.
+
+### Voz passiva
+
+O sujeito **sofre** a ação (é o **paciente**). Há duas formas:
+
+- **Passiva analítica**: *ser* (ou *estar/ficar*) + particípio — "*O rato* **foi
+  comido** pelo gato." O agente vem introduzido por *por/pelo* (**agente da passiva**).
+- **Passiva sintética** (ou pronominal): verbo na 3ª pessoa + pronome **se** (partícula
+  apassivadora) — "**Vendem-se** casas" (= casas são vendidas), "**Aluga-se** sala".
+
+::: {.callout-important}
+## A concordância da passiva sintética
+Na passiva sintética, o verbo concorda com o **sujeito** (a coisa que sofre a ação):
+
+- "Vende**m**-se casa**s**" (casas = sujeito plural → verbo no plural).
+- "Vende-se casa" (casa = sujeito singular → verbo no singular).
+
+Erro clássico: "*vende-se casas*" (verbo no singular com sujeito plural). Como a
+partícula *se* é apassivadora e "casas" é o sujeito, o verbo deve ir ao plural:
+"vende**m**-se casas". Voltaremos a isso na concordância verbal (@sec-cap-50).
+:::
+
+### Voz reflexiva
+
+O sujeito **pratica e sofre** a ação ao mesmo tempo (agente = paciente): "O menino
+**feriu-se**" (feriu a si mesmo), "Ela **penteia-se**". Quando a ação é trocada entre
+os sujeitos, é **recíproca**: "Os dois **se abraçaram**" (um ao outro).
+
+## Conversão ativa ↔ passiva
+
+Transformar a ativa em passiva é operação cobrada em reescrita. O mecanismo:
+
+- O **objeto direto** da ativa vira **sujeito** da passiva.
+- O **sujeito** da ativa vira **agente da passiva** (com *por/pelo*).
+- O verbo passa a *ser* + particípio, mantendo o tempo.
+
+::: {.exemplo}
+- Ativa: "**O júri** (sujeito) premiou **o filme** (objeto direto)."
+- Passiva: "**O filme** (sujeito) foi premiado **pelo júri** (agente da passiva)."
+
+Só verbos **transitivos diretos** (que têm objeto direto) admitem a passiva. Por isso
+"gostar de", intransitivo/indireto, não vira passiva.
+:::
+
+## Verbos irregulares: os padrões
+
+Os **irregulares** afastam-se do paradigma, alterando radical ou desinências. Os
+campeões de erro:
+
+- **ver**: vejo, vi, verei; futuro do subjuntivo *vir* ("quando eu **vir**"); particípio
+  *visto*.
+- **vir**: venho, vim, virei; futuro do subjuntivo *vier* ("se ele **vier**");
+  particípio *vindo*.
+- **ter/ver/vir no pretérito**: *tive*, *vi*, *vim* — cuidado com "eu vim" (perfeito) ×
+  "eu vinha" (imperfeito).
+- **pôr**: ponho, pus, porei; "quando eu **puser**".
+- **fazer**: faço, fiz, farei; "quando **fizer**"; particípio *feito*.
+- **querer**: quero, quis, quererei; "se **quiser**".
+- **haver**, **ser**, **ir**, **estar**: anômalos, exigem consulta.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## *Ver* × *vir*: não confundir as formas
+Um foco de erro: "quando eu **vir**" é futuro do subjuntivo de **ver** (de *vi/viram*);
+"quando eu **vier**" é de **vir** (de *vim/vieram*). E o gerúndio de *vir* é *vindo*, que
+coincide com o particípio de *vir* — o contexto distingue: "estou **vindo**" (gerúndio)
+× "tenho **vindo**" (particípio).
+:::
+
+## Verbos defectivos
+
+**Defectivos** são verbos que **não** têm todas as formas — faltam-lhes certas pessoas
+ou tempos, geralmente por razões de eufonia ou desuso:
+
+- ***reaver***: só existe nas formas em que *haver* tem o *v* — *reavemos*, *reouve*,
+  *reaverei*; **não** existe "eu *reavejo*" nem "que eu *reaveja*".
+- ***precaver-se***: não tem presente do indicativo nas 1ª/2ª/3ª do singular e plural
+  irregulares, nem presente do subjuntivo; usa-se "eu me *precavia*", "*precavi-me*".
+- ***abolir*, *falir*, *colorir*, *demolir***: defectivos na 1ª pessoa do presente do
+  indicativo (não se diz "eu *aboo*"/"eu *falo*" no sentido de falir) e no presente do
+  subjuntivo.
+
+Na prática, quando falta a forma, recorre-se a um **sinônimo** ("recupero" em vez de
+"reavejo").
+
+## Verbos abundantes: os particípios duplos
+
+**Abundantes** são os verbos com **mais de uma forma** para a mesma função —
+tipicamente, dois **particípios** (um regular, um irregular), já vistos no @sec-cap-32:
+
+| Verbo | Regular (com *ter/haver*) | Irregular (com *ser/estar*) |
+|---|---|---|
+| aceitar | aceitado | aceito |
+| entregar | entregado | entregue |
+| pagar | pagado | pago |
+| imprimir | imprimido | impresso |
+| morrer | morrido | morto |
+| eleger | elegido | eleito |
+
+Regra: **regular** com os auxiliares *ter/haver* ("tinha **aceitado**"); **irregular**
+com *ser/estar* ("foi **aceito**"). Alguns já admitem a forma curta com todos os
+auxiliares no uso moderno (*ganho*, *pago*, *gasto*).
+
+## 📋 Quadro-resumo
+
+| Tema | Conteúdo |
+|---|---|
+| **Voz ativa** | sujeito pratica (agente): "O gato comeu o rato" |
+| **Voz passiva** | sujeito sofre; analítica (*ser* + part.) ou sintética (*se*) |
+| **Voz reflexiva** | sujeito pratica e sofre: "feriu-se" |
+| **Conversão** | OD da ativa → sujeito da passiva; só com transitivos diretos |
+| **Irregulares** | ver/vir, pôr, fazer, querer (futuro subj. do pretérito perfeito) |
+| **Defectivos** | reaver, precaver-se, abolir, falir (faltam formas) |
+| **Abundantes** | particípio duplo: regular (*ter/haver*), irregular (*ser/estar*) |
+
+Em uma linha: as **vozes** dizem se o sujeito pratica (ativa), sofre (passiva) ou ambos
+(reflexiva) a ação; a passiva pode ser analítica (*ser* + particípio) ou sintética
+(*se*); e há verbos **irregulares** (ver/vir/pôr), **defectivos** (reaver) e
+**abundantes** (particípio duplo).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Errar a concordância da passiva sintética.** "Vende**m**-se casas" (verbo no plural,
+  pois "casas" é o sujeito), não "vende-se casas".
+- **Tentar passiva com verbo intransitivo/indireto.** Só verbos **transitivos diretos**
+  viram passiva. "Gostar de" não tem voz passiva.
+- **Confundir *vir* e *ver* no futuro do subjuntivo.** "Quando eu **vir**" (ver) × "se
+  ele **vier**" (vir). Derivam de *vi/viram* e *vim/vieram*.
+- **Trocar os particípios duplos.** *Ter/haver* → regular ("tinha **entregado**");
+  *ser/estar* → irregular ("foi **entregue**").
+- **Usar formas inexistentes de defectivos.** Não há "eu *reavejo*" nem "que eu
+  *precaveja*": recorra a sinônimos ("recupero", "tomo cuidado").
+
+## ✍️ Exercícios
+
+**1.** Classifique a voz verbal: (a) "A cidade foi destruída pela enchente"; (b) "As
+crianças se machucaram"; (c) "O prefeito inaugurou a escola".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) voz **passiva analítica** (sujeito *a cidade* sofre a ação; *ser* + particípio;
+agente "pela enchente"). (b) voz **reflexiva** (as crianças praticam e sofrem a ação —
+machucaram a si mesmas). (c) voz **ativa** (o sujeito *o prefeito* pratica a ação).
+:::
+
+**2.** (Estilo ENEM) A frase "Vendem-se apartamentos na planta" está na voz:
+
+a) ativa;
+b) passiva sintética (pronominal);
+c) reflexiva;
+d) passiva analítica;
+e) recíproca.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Vendem-se apartamentos" é **passiva sintética** (pronominal): o
+*se* é partícula apassivadora, e "apartamentos" é o sujeito paciente (= apartamentos são
+vendidos). O verbo concorda no plural com o sujeito ("vende**m**-se apartamentos"),
+concordância correta na frase.
+:::
+
+**3.** Converta para a voz passiva analítica: "Os alunos resolveram os exercícios."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Os exercícios **foram resolvidos** pelos alunos." O objeto direto da ativa (*os
+exercícios*) torna-se sujeito da passiva; o sujeito da ativa (*os alunos*) vira agente
+da passiva (*pelos alunos*); o verbo passa a *ser* + particípio (*foram resolvidos*),
+mantendo o tempo (pretérito perfeito).
+:::
+
+**4.** Corrija a concordância: "Aluga-se salas comerciais."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Aluga**m**-se salas comerciais." É passiva sintética: "salas comerciais" é o **sujeito**
+(= salas são alugadas), e está no plural, logo o verbo deve concordar no **plural**:
+"aluga**m**-se". O erro consiste em deixar o verbo no singular, tratando "salas" como
+objeto — mas, com o *se* apassivador, "salas" é o sujeito.
+:::
+
+**5.** Explique por que "Gostaram do filme" **não** pode ser convertido para a voz
+passiva.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque só verbos **transitivos diretos** (que têm objeto direto) admitem voz passiva. O
+verbo *gostar* é **transitivo indireto** (gostar **de** algo): "do filme" é objeto
+**indireto**, não direto. Sem objeto direto para se tornar sujeito da passiva, a
+conversão é impossível. A voz passiva depende da existência de um objeto direto na voz
+ativa.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa com o particípio corretamente empregado:
+
+a) O prazo foi entregado ontem;
+b) Tinham eleito o novo diretor;
+c) A encomenda foi entregue;
+d) O réu tinha absolvido pelo júri;
+e) O texto foi imprimido.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "A encomenda foi **entregue**": com o auxiliar *ser* (passiva),
+usa-se o particípio **irregular** (*entregue*). As demais erram: com *ter/haver*, forma
+regular ("tinham **elegido**", não "eleito"); com *ser*, irregular ("foi **impresso**",
+não "imprimido"); e "foi entregado" inverte a regra (com *ser*, seria "entregue").
+:::
+
+**7.** Complete com a forma correta do verbo defectivo: "Preciso ___ (reaver) meus
+documentos perdidos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Preciso **reaver** meus documentos" — no **infinitivo**, o verbo *reaver* funciona
+normalmente. A dificuldade dos defectivos aparece em outras formas: não existe "eu
+*reavejo*" (presente) nem "que eu *reaveja*" (subjuntivo). Nesses casos, usa-se um
+sinônimo ("recupero", "recuperar") ou uma forma existente (*reouve*, *reavemos*,
+*reaverei*).
+:::
+
+**8.** Distinga voz reflexiva de voz recíproca, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Na **reflexiva**, o sujeito pratica e sofre a ação **sobre si mesmo**: "Ela **penteou-se**"
+(penteou a si própria); "O menino **feriu-se**". Na **recíproca** (um tipo de
+reflexiva), dois ou mais sujeitos praticam a ação **um sobre o outro**: "Os amigos **se
+abraçaram**" (um abraçou o outro); "Eles **se cumprimentaram**". A recíproca exige
+sujeito plural e ação trocada entre os participantes.
+:::
+
+**9.** Conjugue o futuro do subjuntivo (1ª pessoa do singular) de: (a) *ver*; (b) *vir*;
+(c) *pôr*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *ver* → "quando eu **vir**" (de *vi/viram*). (b) *vir* → "quando eu **vier**" (de
+*vim/vieram*). (c) *pôr* → "quando eu **puser**" (de *pus/puseram*). O futuro do
+subjuntivo deriva do pretérito perfeito: retira-se o *-ram* da 3ª pessoa do plural.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "A frase 'O livro foi lido por todos'
+está na voz passiva analítica, e seu sujeito é 'o livro'."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** "O livro foi lido por todos" é **voz passiva analítica** (*ser* + particípio
+*lido*), com **agente da passiva** "por todos". O sujeito é "**o livro**", que **sofre**
+a ação (é paciente). Na ativa correspondente seria: "Todos leram o livro" (todos =
+sujeito/agente; o livro = objeto direto).
+:::
+
+## 📚 Referências
+
+As vozes verbais, os verbos irregulares, defectivos e abundantes seguem o tratamento de
+Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]; para conjugações completas, o
+dicionário Houaiss [@houaiss2009] e conjugadores de referência. A relação entre voz
+verbal e função sintática será aprofundada no Volume 6, e a concordância da passiva
+sintética, no @sec-cap-50. As demais classes invariáveis fecham o volume no @sec-cap-35.
+
+::: {#refs}
 :::
