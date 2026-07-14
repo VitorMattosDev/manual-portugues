@@ -4,22 +4,303 @@ title: "Estrutura das palavras: radical, afixos e desinências"
 
 # Estrutura das palavras: radical, afixos e desinências {#sec-cap-22}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 4 — Morfologia I: Estrutura e Formação de Palavras.
+> "Toda palavra é um pequeno edifício: há a fundação, as paredes e os acabamentos —
+> e cada peça tem seu nome."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+No capítulo anterior aprendemos que a palavra se divide em morfemas. Agora damos
+**nome a cada tipo de morfema** conforme sua posição e função dentro da palavra:
+radical, vogal temática, afixos (prefixos e sufixos) e desinências. Esses são os
+**elementos mórficos** (ou elementos estruturais) da palavra — o vocabulário técnico
+com que analisamos, por exemplo, que *meninas* é *menin-* (radical) + *-a* (desinência
+de gênero) + *-s* (desinência de número).
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Dominar esses elementos é o que permite compreender a **flexão** (variação de gênero,
+número, tempo) e a **derivação** (formação de novas palavras), temas dos próximos
+capítulos. É também a base da análise morfológica pedida em provas. Vamos, portanto,
+mapear a anatomia da palavra portuguesa.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Identificar** o radical como elemento portador do significado básico;
+- **Reconhecer** a vogal temática e o tema;
+- **Distinguir** prefixos de sufixos e afixos derivacionais de flexionais;
+- **Classificar** as desinências (nominais e verbais);
+- **Diferenciar** vogais e consoantes de ligação dos demais elementos;
+- **Analisar** morficamente palavras nominais e verbais.
+
+## O radical: o núcleo da palavra
+
+O **radical** é o elemento que contém o **significado básico** da palavra, comum a toda
+uma família de vocábulos. Em *pedra*, *pedreiro*, *pedregulho*, *empedrar*, o radical
+*pedr-* é o núcleo compartilhado. É, em geral, o morfema lexical de que falamos no
+capítulo anterior.
+
+Palavras da mesma família compartilham o radical: *terra*, *terreno*, *aterrar*,
+*enterrar*, *terráqueo* — todas giram em torno de *terr-*. Identificar o radical é o
+primeiro passo da análise e a chave para reconhecer **cognatos** (@sec-cap-25).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Radical, raiz e semantema
+Alguns autores distinguem **raiz** (o elemento mínimo irredutível, muitas vezes de
+origem latina/grega) de **radical** (o que resta ao se retirarem as desinências).
+Para os fins deste manual — e da maioria das provas —, usaremos **radical** como o
+núcleo significativo da palavra, sem entrar nas subdivisões mais finas.
+:::
+
+## A vogal temática e o tema
+
+Entre o radical e as desinências, aparece muitas vezes uma **vogal temática** — uma
+vogal que "prepara" o radical para receber as desinências, sem significado próprio. Ela
+é mais visível nos **verbos**, onde indica a **conjugação**:
+
+- **1ª conjugação**: vogal temática **-a-** (*cantar*, *falar*, *amar*).
+- **2ª conjugação**: vogal temática **-e-** (*vender*, *comer*, *bater*).
+- **3ª conjugação**: vogal temática **-i-** (*partir*, *sorrir*, *abrir*).
+
+O conjunto **radical + vogal temática** chama-se **tema**. Em *cantar*, o tema é
+*canta-*. Nos nomes, também há vogais temáticas (o *-a* de *mesa*, o *-o* de *livro*, o
+*-e* de *dente*), embora aí a análise seja mais debatida.
+
+## Os afixos: prefixos e sufixos
+
+**Afixos** são morfemas gramaticais que se juntam ao radical para **formar novas
+palavras** (derivação) ou, mais raramente, para marcar categorias. Dividem-se pela
+posição:
+
+- **Prefixo**: vem **antes** do radical — *des-* (*desfazer*), *in-* (*infeliz*),
+  *re-* (*rever*), *pré-* (*pré-histórico*).
+- **Sufixo**: vem **depois** do radical — *-mente* (*rapidamente*), *-dade*
+  (*bondade*), *-eiro* (*pedreiro*), *-ção* (*formação*).
+
+Os afixos derivacionais **mudam o sentido** ou a **classe** da palavra: *feliz*
+(adjetivo) + *-mente* → *felizmente* (advérbio); *pedra* (substantivo) + *-eiro* →
+*pedreiro* (substantivo de ofício). Voltaremos a eles em detalhe no @sec-cap-23.
+
+## As desinências: a flexão
+
+**Desinências** são morfemas que marcam a **flexão** — a variação gramatical da palavra
+dentro de sua classe (sem criar palavra nova nem mudar de classe). Há dois grandes
+grupos, resumidos na @fig-elementos-morficos.
+
+::: {#fig-elementos-morficos}
+
+```{.tikz}
+%%| filename: elementos-morficos
+%%| alt: Diagrama decompondo duas palavras em seus elementos mórficos. A palavra nominal meninas mostra radical menin, desinência de gênero -a e desinência de número -s. A palavra verbal cantávamos mostra radical cant, vogal temática -a, desinência modo-temporal -va e desinência número-pessoal -mos. Cada peça é rotulada.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  bx/.style={draw, minimum height=9mm, align=center, inner sep=3pt},
+  rad/.style={bx, draw=manualblue, very thick, fill=manualblue!10},
+  vt/.style={bx, draw=manualgreen, fill=manualgreen!8},
+  des/.style={bx, draw=manualred, fill=manualred!8},
+  rot/.style={font=\scriptsize, align=center},
+]
+  % nominal
+  \node[rot, anchor=east] at (-0.3,3) {\textbf{Nominal:}};
+  \node[rad] (n1) at (0.6,3) {menin};
+  \node[des, right=0mm of n1] (n2) {a};
+  \node[des, right=0mm of n2] (n3) {s};
+  \node[rot, below=1mm of n1] {radical};
+  \node[rot, below=1mm of n2] {DG\\gênero};
+  \node[rot, below=1mm of n3] {DN\\número};
+
+  % verbal
+  \node[rot, anchor=east] at (-0.3,0.6) {\textbf{Verbal:}};
+  \node[rad] (v1) at (0.6,0.6) {cant};
+  \node[vt, right=0mm of v1] (v2) {á};
+  \node[des, right=0mm of v2] (v3) {va};
+  \node[des, right=0mm of v3] (v4) {mos};
+  \node[rot, below=1mm of v1] {radical};
+  \node[rot, below=1mm of v2] {VT};
+  \node[rot, below=1mm of v3] {DMT\\modo-tempo};
+  \node[rot, below=1mm of v4] {DNP\\núm.-pessoa};
+\end{tikzpicture}
+```
+
+A anatomia de uma palavra nominal (*meninas*) e de uma verbal (*cantávamos*): radical,
+vogal temática (VT) e desinências de gênero (DG), número (DN), modo-tempo (DMT) e
+número-pessoa (DNP).
+:::
+
+### Desinências nominais
+
+Flexionam **nomes** (substantivos, adjetivos) em:
+
+- **gênero** (DG): *-a* (feminino) × zero (masculino) — *menin-o* / *menin-a*.
+- **número** (DN): *-s* (plural) × zero (singular) — *menino* / *menino-s*.
+
+### Desinências verbais
+
+Flexionam **verbos** em quatro categorias, distribuídas em duas desinências:
+
+- **desinência modo-temporal (DMT)**: marca modo e tempo — o *-va-* de *cantava*
+  (pretérito imperfeito), o *-ra-* de *cantara*, o *-sse-* de *cantasse*.
+- **desinência número-pessoal (DNP)**: marca pessoa e número — o *-mos* de *cantamos*
+  (1ª pessoa do plural), o *-s* de *cantas*, o *-m* de *cantam*.
+
+Assim, *cantávamos* = *cant-* (radical) + *-á-* (VT) + *-va-* (DMT) + *-mos* (DNP).
+
+## Elementos de ligação
+
+Para facilitar a pronúncia, aparecem às vezes **vogais e consoantes de ligação**
+(morfemas sem significado, meramente eufônicos), sobretudo em palavras derivadas e
+compostas: o *-t-* de *cafe-t-eira*, o *-z-* de *cafe-z-al*, o *-i-* de *pau-l-ada*.
+Não carregam sentido; existem só para "colar" os morfemas sem choque de sons.
+
+## 📋 Quadro-resumo
+
+| Elemento | Função | Exemplo |
+|---|---|---|
+| **Radical** | Significado básico (núcleo) | *pedr-*, *cant-*, *terr-* |
+| **Vogal temática** | Liga radical a desinências; indica conjugação | *-a-* (cantar), *-e-* (vender), *-i-* (partir) |
+| **Prefixo** | Afixo antes do radical (deriva) | *des-*, *in-*, *re-* |
+| **Sufixo** | Afixo depois do radical (deriva) | *-mente*, *-dade*, *-eiro* |
+| **Desinência nominal** | Flexão de gênero/número | *-a* (gênero), *-s* (número) |
+| **Desinência verbal** | Flexão modo-tempo (DMT) e número-pessoa (DNP) | *-va-*, *-mos* |
+| **Vogal/consoante de ligação** | Eufonia (sem sentido) | *-t-* em *cafeteira* |
+
+Em uma linha: a palavra estrutura-se em **radical** (núcleo de sentido) + **vogal
+temática** + **afixos** (prefixos/sufixos, que derivam) + **desinências** (que
+flexionam), com eventuais **elementos de ligação** por eufonia.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir afixo (derivação) com desinência (flexão).** O afixo cria palavra nova ou
+  muda a classe (*feliz* → *felizmente*); a desinência apenas flexiona dentro da classe
+  (*menino* → *meninos*).
+- **Tomar a vogal temática por desinência.** A VT (*-a-* de *cantar*) não flexiona: só
+  prepara o radical e indica a conjugação. As desinências verbais são a DMT e a DNP.
+- **Esquecer o morfema zero de gênero/número.** Em *menino*, o masculino e o singular
+  têm marca zero, por contraste com *menina*/*meninos*.
+- **Achar que toda vogal final é desinência.** O *-o* de *livro* e o *-e* de *dente* são
+  vogais temáticas nominais, não necessariamente desinências de gênero.
+- **Tratar vogal de ligação como radical ou sufixo.** O *-t-* de *cafeteira* é mero
+  elemento eufônico, sem significado.
+
+## ✍️ Exercícios
+
+**1.** Identifique o radical e cite três palavras da mesma família: *terra*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Radical: *terr-*. Palavras da mesma família (bastam três): *terreno*, *aterrar*,
+*enterrar*, *terráqueo*, *soterrar*. Todas compartilham o radical *terr-*, que carrega o
+significado básico comum.
+:::
+
+**2.** (Estilo ENEM) Em *cantávamos*, o elemento *-mos* é:
+
+a) o radical;
+b) a vogal temática;
+c) a desinência modo-temporal;
+d) a desinência número-pessoal;
+e) um sufixo derivacional.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** O *-mos* é a **desinência número-pessoal** (DNP): marca a 1ª pessoa
+do plural. A análise completa é *cant-* (radical) + *-á-* (VT) + *-va-* (DMT,
+pretérito imperfeito) + *-mos* (DNP).
+:::
+
+**3.** Segmente e nomeie cada elemento de *meninas*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Meninas* = *menin-* + *-a* + *-s*. *menin-* = radical (significado básico); *-a* =
+desinência de gênero (feminino); *-s* = desinência de número (plural). É uma palavra
+nominal flexionada em gênero e número.
+:::
+
+**4.** Qual é a vogal temática e a conjugação de: (a) *vender*; (b) *partir*; (c)
+*amar*?
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *vender* → VT *-e-*, **2ª** conjugação. (b) *partir* → VT *-i-*, **3ª** conjugação.
+(c) *amar* → VT *-a-*, **1ª** conjugação. A vogal temática dos verbos identifica a
+conjugação.
+:::
+
+**5.** Diferencie afixo derivacional de desinência flexional, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O **afixo derivacional** forma palavra nova, muitas vezes mudando a classe: *feliz*
+(adjetivo) + *-mente* → *felizmente* (advérbio); *des-* + *fazer* → *desfazer*. A
+**desinência flexional** apenas varia a palavra dentro de sua classe, sem criar palavra
+nova: *menino* → *meninos* (número), *cantar* → *cantávamos* (tempo/pessoa). Derivação =
+palavra nova; flexão = mesma palavra, forma variada.
+:::
+
+**6.** (Estilo FCC) Em *infelizmente*, os elementos mórficos são:
+
+a) radical + vogal temática + desinência;
+b) prefixo *in-* + radical *feliz* + sufixo *-mente*;
+c) três desinências;
+d) radical indivisível;
+e) prefixo + desinência de número.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Infelizmente* = *in-* (prefixo, negação) + *feliz* (radical/base)
++ *-mente* (sufixo formador de advérbio). São dois afixos derivacionais ligados a um
+radical — não há desinências flexionais nem vogal temática visível aqui.
+:::
+
+**7.** Analise morficamente o verbo *partíssemos*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Partíssemos* = *part-* + *-í-* + *-sse-* + *-mos*. *part-* = radical; *-í-* = vogal
+temática (3ª conjugação); *-sse-* = desinência modo-temporal (pretérito imperfeito do
+subjuntivo); *-mos* = desinência número-pessoal (1ª pessoa do plural).
+:::
+
+**8.** Aponte o elemento de ligação (vogal ou consoante) em: (a) *cafeteira*; (b)
+*gasômetro*; (c) *paulada*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *cafe-**t**-eira* → consoante de ligação *-t-*. (b) *gas-**ô**-metro* → vogal de
+ligação *-o-* (aqui ligando radicais). (c) *pau-**l**-ada* → consoante de ligação *-l-*.
+São elementos eufônicos, sem significado, que evitam o choque de sons na junção dos
+morfemas.
+:::
+
+**9.** Por que o *-o* de *menino* é considerado desinência de gênero, mas exige a noção
+de morfema zero para o masculino?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o gênero se marca por **oposição**: *menin-a* tem a desinência *-a* de feminino;
+*menin-o* opõe-se a ela. Alguns analisam o *-o* como desinência de masculino; outros,
+como vogal temática, com o masculino sendo marcado por **morfema zero** (ausência de
+*-a*). Em qualquer análise, o masculino se define por **contraste** com o feminino
+marcado — daí a utilidade da noção de morfema zero.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na palavra *desleais*, há um prefixo,
+um radical e duas desinências (de gênero e de número)."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado** (parcialmente). *Desleais* = *des-* (prefixo) + *leal* (radical) + *-s*
+(desinência de número). O adjetivo *leal* é **uniforme** quanto ao gênero (serve para
+masculino e feminino: *homem leal*, *mulher leal*), logo **não** há desinência de
+gênero — há apenas a de número (*-s*). Portanto, são um prefixo, um radical e **uma**
+desinência (de número), não duas.
+:::
+
+## 📚 Referências
+
+A descrição dos elementos mórficos da palavra portuguesa (radical, vogal temática,
+afixos, desinências) tem em Câmara Jr. [@camarajr1970] sua formulação de referência,
+retomada por Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]. Os processos
+de formação por afixação são desenvolvidos no @sec-cap-23.
+
+::: {#refs}
 :::
