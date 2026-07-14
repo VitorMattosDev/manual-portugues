@@ -25,9 +25,11 @@ jobs:
 
       - name: Install required LaTeX packages
         run: |
+          # tlmgr em bin/ é um symlink, então NÃO usar -find -type f.
+          export PATH="$HOME/.TinyTeX/bin/x86_64-linux:$PATH"
           TLMGR="$(command -v tlmgr || true)"
           if [ -z "$TLMGR" ]; then
-            TLMGR="$(find "$HOME" /root -name tlmgr -type f 2>/dev/null | head -n1)"
+            TLMGR="$(find -L "$HOME" /opt /root -name tlmgr 2>/dev/null | head -n1)"
           fi
           echo "Using tlmgr at: $TLMGR"
           "$TLMGR" install standalone pgf pgfplots dvisvgm xcolor amsmath amsfonts
