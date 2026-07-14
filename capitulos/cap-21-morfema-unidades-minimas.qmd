@@ -4,22 +4,279 @@ title: "Morfema: as unidades mínimas de significado"
 
 # Morfema: as unidades mínimas de significado {#sec-cap-21}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 4 — Morfologia I: Estrutura e Formação de Palavras.
+> "Se o fonema é o tijolo sem sentido, o morfema é a primeira parede que já significa."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 4, dedicado à **morfologia** — o estudo da estrutura e da formação das
+palavras. E começamos pela unidade fundamental desse estudo: o **morfema**. Se na
+fonologia a menor unidade era o fonema (que distingue significados, mas não significa
+nada por si), na morfologia a menor unidade é o morfema: o **menor pedaço da palavra
+que carrega significado**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Tome a palavra *meninas*. Ela não é um bloco indivisível: contém *menin-* (a ideia de
+"criança"), *-a* (feminino) e *-s* (plural). Três morfemas, três significados somados.
+Aprender a decompor palavras assim — a enxergar as peças dentro delas — é a base de
+tudo o que veremos sobre estrutura (@sec-cap-22) e formação de palavras (capítulos 23
+e 24). É também uma habilidade que ilumina a ortografia, o vocabulário e a
+interpretação.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** morfema como a menor unidade significativa da língua;
+- **Distinguir** morfema de fonema e de sílaba;
+- **Classificar** os morfemas em lexicais e gramaticais (livres e presos);
+- **Reconhecer** morfemas zero e alomorfes;
+- **Segmentar** palavras em seus morfemas constituintes;
+- **Relacionar** o morfema à formação e à flexão das palavras.
+
+## O que é um morfema
+
+**Morfema** é a **menor unidade da língua dotada de significado**. "Menor" porque, se
+o dividirmos mais, perdemos o sentido; "dotada de significado" porque, ao contrário do
+fonema, o morfema significa algo — seja um conteúdo (a ideia de "gato") seja uma
+função gramatical (plural, feminino, passado).
+
+Compare os três níveis:
+
+- **Fonema**: /g/, /a/, /t/, /u/ — distinguem, mas não significam.
+- **Sílaba**: *ga*, *tu* — unidades de pronúncia, sem necessário significado próprio.
+- **Morfema**: *gat-* (ideia de gato), *-o* (masculino), *-s* (plural) — significam.
+
+Note que **sílaba e morfema não coincidem**: em *gatos*, a sílaba *ga-tos* divide de um
+jeito, mas os morfemas *gat-o-s* dividem de outro. São critérios diferentes: a sílaba
+é fonológica; o morfema, morfológico.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Morfema não é sílaba
+Um erro comum é segmentar por sílabas ao analisar morfemas. Em *infelizmente*, as
+sílabas são *in-fe-liz-men-te* (5), mas os morfemas são *in-* (negação) + *feliz*
+(base) + *-mente* (advérbio de modo) — 3 morfemas. A sílaba responde "como se
+pronuncia"; o morfema, "que pedaços de sentido a compõem".
+:::
+
+## A classificação dos morfemas
+
+Os morfemas dividem-se conforme o tipo de significado que carregam e sua capacidade de
+aparecer sozinhos. A @fig-tipos-morfema organiza a tipologia.
+
+::: {#fig-tipos-morfema}
+
+```{.tikz}
+%%| filename: tipos-morfema
+%%| alt: Diagrama em árvore. No topo, morfema, dividido em dois ramos. Ramo lexical: carrega significado de conteúdo, exemplo o radical gat- de gato. Ramo gramatical: carrega significado de função, subdividido em afixos (prefixo in-, sufixo -mente) e desinências (de gênero, número, verbais). À direita, distinção transversal entre morfema livre (aparece sozinho, como sol) e preso (só aparece ligado, como o -s de plural).
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  n/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, minimum height=8mm},
+  fl/.style={-{Stealth[length=2mm]}, manualgray, thick},
+]
+  \node[n, draw=manualblue, very thick, fill=manualblue!10] (top) at (4,4) {MORFEMA};
+  \node[n, draw=manualgreen, thick, fill=manualgreen!8, text width=32mm] (lex) at (1,2.6) {\textbf{Lexical} (radical)\\{\scriptsize conteúdo: \emph{gat-}, \emph{sol}}};
+  \node[n, draw=manualred, thick, fill=manualred!8, text width=34mm] (gram) at (6.5,2.6) {\textbf{Gramatical}\\{\scriptsize função}};
+  \node[n, draw=manualred, fill=manualred!6, text width=34mm] (afx) at (5,1) {\textbf{Afixos}: prefixo \emph{in-}, sufixo \emph{-mente}};
+  \node[n, draw=manualred, fill=manualred!6, text width=34mm] (des) at (8.3,1) {\textbf{Desinências}: gênero, número, verbais};
+
+  \draw[fl] (top) -- (lex);
+  \draw[fl] (top) -- (gram);
+  \draw[fl] (gram) -- (afx);
+  \draw[fl] (gram) -- (des);
+
+  \node[n, draw=manualgray, fill=manualgray!8, text width=44mm, align=left] at (4,-0.6) {\textbf{Transversal:} \emph{livre} (aparece só: \emph{sol}, \emph{mar}) $\times$ \emph{preso} (só ligado: \emph{-s}, \emph{in-}, \emph{-mente})};
+\end{tikzpicture}
+```
+
+Os morfemas dividem-se em lexicais (conteúdo) e gramaticais (função — afixos e
+desinências), e, transversalmente, em livres (aparecem sozinhos) e presos (só ligados a
+outros).
+:::
+
+### Morfema lexical × gramatical
+
+- **Lexical** (ou de conteúdo): carrega o significado "de dicionário", o núcleo
+  semântico. É o **radical**: *gat-* em *gato*, *pedr-* em *pedra*, *cant-* em *cantar*.
+- **Gramatical** (ou de função): carrega significado gramatical — indica flexão,
+  cria palavras derivadas, marca relações. Inclui **afixos** (prefixos, sufixos) e
+  **desinências** (de gênero, número, modo-tempo, número-pessoa).
+
+### Morfema livre × preso
+
+- **Livre**: pode aparecer **sozinho** como palavra — *sol*, *mar*, *flor*, *ele*.
+- **Preso**: só existe **ligado** a outro morfema — o *-s* de plural, o prefixo *in-*,
+  o sufixo *-mente*, muitos radicais (*receb-* só aparece em *receber*, *recebo*...).
+
+## Alomorfes: um morfema, várias formas
+
+Um mesmo morfema pode apresentar-se sob **formas diferentes**, conforme o contexto —
+essas variantes são os **alomorfes**. O morfema de plural, por exemplo, realiza-se como
+*-s* (*gatos*), mas como *-es* (*flores*) ou *-is* (*fósseis*, com transformação) em
+outros contextos. O prefixo de negação aparece como *in-* (*incapaz*), *im-*
+(*impossível*), *i-* (*ilegal*, *irreal*) — todos alomorfes do mesmo morfema negativo.
+São "a mesma peça de sentido, vestida de modos diferentes".
+
+## Morfema zero (∅)
+
+Às vezes o significado gramatical está presente, mas **sem marca visível**. Diz-se então
+que há um **morfema zero** (∅). Em *gato* (masculino) × *gata* (feminino), o feminino é
+marcado por *-a*; o masculino, por ausência de marca — um morfema zero de masculino. Da
+mesma forma, o singular (*gato*) opõe-se ao plural (*gatos*, com *-s*): o singular tem
+morfema zero de número. O zero significa por **contraste** com a forma marcada.
+
+## 📋 Quadro-resumo
+
+| Conceito | Definição | Exemplo |
+|---|---|---|
+| **Morfema** | Menor unidade com significado | *gat-*, *-o*, *-s* em *gatos* |
+| **Lexical** | Conteúdo (radical) | *sol*, *cant-*, *pedr-* |
+| **Gramatical** | Função (afixos, desinências) | *in-*, *-mente*, *-s* |
+| **Livre** | Aparece sozinho | *mar*, *flor* |
+| **Preso** | Só ligado a outro | *-s*, *in-*, *-mente* |
+| **Alomorfe** | Variante do mesmo morfema | *in-/im-/i-*; *-s/-es* |
+| **Morfema zero (∅)** | Significado sem marca visível | masculino/singular de *gato* |
+
+Em uma linha: o **morfema** é a menor peça de **sentido** da palavra; divide-se em
+**lexical** (radical) e **gramatical** (afixos e desinências), em **livre** e **preso**,
+e pode ter variantes (**alomorfes**) ou marca invisível (**morfema zero**).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Segmentar por sílabas em vez de morfemas.** *Infelizmente* tem 5 sílabas, mas 3
+  morfemas (*in-* + *feliz* + *-mente*). Sílaba ≠ morfema.
+- **Confundir morfema com fonema.** O fonema distingue mas não significa (/g/); o
+  morfema significa (*gat-*). Níveis diferentes de análise.
+- **Achar que todo radical é morfema livre.** Muitos radicais são **presos**: *receb-*,
+  *concluí*... só aparecem ligados a desinências ou afixos.
+- **Ignorar o morfema zero.** No masculino/singular de *gato*, o significado de gênero e
+  número está presente por **contraste** com *gata*/*gatos*, ainda que sem marca
+  visível.
+- **Não reconhecer alomorfes.** *in-*, *im-*, *i-* (em *incapaz*, *impossível*,
+  *ilegal*) são o **mesmo** morfema de negação, em variantes conforme o som seguinte.
+
+## ✍️ Exercícios
+
+**1.** Defina morfema e explique como ele difere do fonema.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Morfema é a **menor unidade da língua dotada de significado**. Difere do fonema porque
+o fonema é a menor unidade **sonora distintiva**, que diferencia significados sem
+significar nada por si (/p/ em *pato* × *bato*), ao passo que o morfema já **carrega
+significado** — de conteúdo (*gat-*) ou gramatical (*-s* de plural). O fonema pertence
+à fonologia; o morfema, à morfologia.
+:::
+
+**2.** (Estilo ENEM) Na palavra *desigualdade*, os morfemas são:
+
+a) de-si-gual-da-de (5 sílabas);
+b) *des-* + *igual* + *-dade*;
+c) *desi-* + *gualdade*;
+d) *des-* + *igualdade* (indivisível);
+e) *desigual* + *idade*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Desigualdade* segmenta-se em três morfemas: o prefixo *des-*
+(negação), o radical/base *igual* e o sufixo *-dade* (formador de substantivo
+abstrato). A (a) é a divisão silábica, não morfológica.
+:::
+
+**3.** Classifique cada morfema de *pedreiros* em lexical ou gramatical.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Pedreiros* = *pedr-* + *-eir-* + *-o* + *-s*. *pedr-* é morfema **lexical** (radical,
+conteúdo de "pedra"); *-eir(o)* é **gramatical** (sufixo derivacional, forma o nome de
+ofício); *-o* é **gramatical** (desinência de gênero masculino); *-s* é **gramatical**
+(desinência de número plural).
+:::
+
+**4.** Distinga morfema **livre** de morfema **preso**, com dois exemplos de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Morfema **livre** aparece sozinho como palavra: *sol*, *mar*, *flor*, *ele*. Morfema
+**preso** só existe ligado a outro: os afixos *in-* e *-mente*, a desinência *-s* de
+plural, e radicais presos como *receb-* (que só ocorre em *receber*, *recebo*...). O
+livre tem autonomia; o preso, não.
+:::
+
+**5.** O que são **alomorfes**? Ilustre com o prefixo de negação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Alomorfes são as **variantes de forma** de um mesmo morfema, condicionadas pelo
+contexto. O morfema de negação apresenta-se como *in-* (*incapaz*), *im-*
+(*impossível*, antes de *p/b*), *i-* (*ilegal*, *irreal*, antes de *l/r*). São formas
+diferentes do **mesmo** morfema negativo — a mesma peça de sentido em variantes
+sonoras.
+:::
+
+**6.** (Estilo FCC) Em *gato* (masculino singular), o gênero masculino e o número
+singular são marcados por:
+
+a) desinências visíveis *-o* e *-s*;
+b) morfema zero (ausência de marca, por contraste com *gata* e *gatos*);
+c) um prefixo;
+d) um sufixo derivacional;
+e) um alomorfe.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Em *gato*, o masculino e o singular são marcados por **morfema
+zero**: não há marca visível, mas o significado se estabelece por **contraste** com as
+formas marcadas *gata* (feminino, com *-a*) e *gatos* (plural, com *-s*). O zero
+significa pela oposição.
+:::
+
+**7.** Segmente em morfemas e conte-os: *reflorestamento*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Reflorestamento* = *re-* + *florest-* + *-a-* + *-mento*. São **quatro** morfemas: o
+prefixo *re-* (repetição), o radical *florest-* (de floresta), a vogal temática *-a-*
+(do verbo *florestar*/*reflorestar*) e o sufixo *-mento* (forma o substantivo de
+ação). O radical carrega o conteúdo; os demais, função gramatical/derivacional.
+:::
+
+**8.** Por que sílaba e morfema não coincidem? Ilustre com *infelizmente*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque são critérios de análise diferentes: a **sílaba** é uma unidade de pronúncia
+(fonológica); o **morfema**, uma unidade de significado (morfológica). Em
+*infelizmente*, há **5 sílabas** (in-fe-liz-men-te), mas apenas **3 morfemas**: *in-*
+(negação) + *feliz* (base) + *-mente* (sufixo adverbial). A contagem por um critério não
+serve para o outro.
+:::
+
+**9.** Identifique os morfemas presos em: *impossível*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Impossível* = *im-* + *possív(el)* (de *poder*/*possível*) + *-el*/base. Os morfemas
+**presos** são: o prefixo *im-* (alomorfe de *in-*, negação — só aparece ligado) e o
+sufixo/base flexional. O radical *possí-* (ligado a *poder*) também é preso, pois não
+ocorre isolado. Nenhum desses aparece sozinho como palavra.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na palavra *sol*, há um único morfema,
+que é ao mesmo tempo lexical e livre."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** *Sol* é constituída por um único morfema: é **lexical** (radical que carrega
+o conteúdo semântico) e **livre** (aparece sozinho como palavra, sem precisar ligar-se a
+outro morfema). Reúne, portanto, as duas classificações — o que é comum em substantivos
+monomorfêmicos.
+:::
+
+## 📚 Referências
+
+O conceito de morfema e sua tipologia (lexical/gramatical, livre/preso, alomorfe,
+morfema zero) seguem a descrição estrutural de Câmara Jr. [@camarajr1970], referência
+fundadora da morfologia do português, e são retomados por Bechara [@bechara2009] e
+Cunha & Cintra [@cunhacintra2017]. A estrutura interna da palavra é o tema do
+@sec-cap-22.
+
+::: {#refs}
 :::
