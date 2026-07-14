@@ -4,22 +4,285 @@ title: "O Acordo Ortográfico de 1990"
 
 # O Acordo Ortográfico de 1990 {#sec-cap-16}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 3 — Ortografia e Acentuação.
+> "Unificar a grafia não é unificar a língua: é apenas combinar como registrá-la no
+> papel."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Em 2009 entrou em vigor no Brasil (tornando-se obrigatório em 2016) o **Acordo
+Ortográfico da Língua Portuguesa de 1990**, um tratado entre os países de língua
+portuguesa para aproximar as grafias usadas de um lado e outro do Atlântico. Para
+quem estuda português, o Acordo importa por um motivo prático: ele mudou como se
+escrevem muitas palavras — aboliu o trema, alterou regras de acentuação e de hífen — e
+provas continuam cobrando essas mudanças, muitas vezes com pegadinhas sobre o que
+mudou e o que **não** mudou.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo faz o balanço do Acordo: o que ele alterou, o que permaneceu, e os
+mitos que circulam a seu respeito. As mudanças de acentuação e de hífen serão
+detalhadas nos capítulos seguintes (17, 18 e 19); aqui damos a visão de conjunto e
+fixamos os pontos mais cobrados.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Situar** o Acordo de 1990 e seu objetivo (unificação gráfica, não linguística);
+- **Listar** as principais mudanças (alfabeto, trema, acentuação, hífen);
+- **Distinguir** o que mudou do que permaneceu igual;
+- **Aplicar** as novas regras nos casos mais frequentes;
+- **Desfazer** mitos comuns sobre o Acordo;
+- **Reconhecer** que o Acordo é uma reforma **ortográfica**, não gramatical.
+
+## O que o Acordo é (e o que não é)
+
+O Acordo Ortográfico é um tratado que visa **unificar a ortografia** dos países
+lusófonos, reduzindo as diferenças entre a grafia brasileira e a das demais nações.
+Seu alcance é **exclusivamente gráfico**: mexe em como as palavras se escrevem, não
+na gramática, na pronúncia, no vocabulário ou na sintaxe. Um brasileiro e um português
+continuam falando diferente e usando palavras diferentes (*trem* × *comboio*, *ônibus*
+× *autocarro*); o Acordo só aproxima a **escrita**.
+
+::: {.callout-important}
+## A unificação não é total
+Mesmo após o Acordo, permanecem **diferenças legítimas** de grafia entre o Brasil e
+Portugal, ligadas a diferenças reais de pronúncia. Ex.: *fato* (BR, "acontecimento") ×
+*facto* (PT, onde o *c* é pronunciado); *recepção* (BR) × *receção* (PT). O Acordo
+eliminou consoantes mudas apenas onde elas **não** eram pronunciadas em nenhum dos
+lados; onde há pronúncia, mantém-se. Portanto, o Acordo aproxima, mas não unifica
+completamente.
+:::
+
+## As principais mudanças
+
+A @fig-mudancas-acordo organiza as quatro frentes de mudança.
+
+::: {#fig-mudancas-acordo}
+
+```{.tikz}
+%%| filename: mudancas-acordo
+%%| alt: Quatro caixas resumindo as mudanças do Acordo de 1990. Alfabeto: reintrodução de k, w, y (23 para 26 letras). Trema: abolido, exceto em nomes próprios estrangeiros. Acentuação: quedas de acento em paroxítonas com ei/oi, em hiatos oo/ee e em alguns homógrafos. Hífen: novas regras para prefixos e para r/s dobrados.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=left, text width=48mm, minimum height=20mm, inner sep=5pt, anchor=north},
+]
+  \node[cx] (a) at (0,0) {\textbf{1. Alfabeto}\\ reintrodução de \emph{k, w, y}\\ (23 $\to$ 26 letras)};
+  \node[cx, draw=manualred, fill=manualred!8, right=5mm of a] (b) {\textbf{2. Trema}\\ abolido (\emph{linguiça}, \emph{sequência})\\ mantém-se só em nomes próprios (\emph{Müller})};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, below=4mm of a] (c) {\textbf{3. Acentuação}\\ caem acentos: \emph{ideia}, \emph{heroico},\\ \emph{voo}, \emph{leem}, \emph{feiura}};
+  \node[cx, draw=manualyellow, fill=manualyellow!14, below=4mm of b] (d) {\textbf{4. Hífen}\\ novas regras com prefixos;\\ \emph{antirreligioso}, \emph{ultrassom}, \emph{micro-ondas}};
+\end{tikzpicture}
+```
+
+As quatro frentes de mudança do Acordo de 1990: alfabeto, trema, acentuação e hífen.
+:::
+
+### 1. Alfabeto
+
+As letras *k*, *w* e *y* foram formalmente reincorporadas: o alfabeto passou de 23
+para **26 letras** (@sec-cap-14). Seu uso, porém, continua restrito a nomes próprios,
+símbolos e estrangeirismos.
+
+### 2. Abolição do trema
+
+O **trema** (¨) foi **abolido** em palavras portuguesas. Escreve-se agora *linguiça*,
+*sequência*, *frequente*, *tranquilo*, *cinquenta* — sem trema, embora o *u* continue
+sendo **pronunciado**. O trema só permanece em **nomes próprios estrangeiros** e seus
+derivados (*Müller*, *mülleriano*; *Bündchen*).
+
+### 3. Mudanças na acentuação
+
+Várias regras de acento mudaram (detalhes nos capítulos 17 e 18). As mais cobradas:
+
+- Caiu o acento dos ditongos abertos **-ei-** e **-oi-** em **paroxítonas**: *ideia*,
+  *assembleia*, *heroico*, *jiboia*, *paranoico* (mas permanece em **oxítonas**:
+  *herói*, *chapéu*, *anéis*).
+- Caiu o acento dos **hiatos -oo- e -ee-**: *voo*, *enjoo*, *leem*, *creem*, *veem*.
+- Caiu o acento diferencial em vários pares: *pelo* (antes *pêlo*), *pera* (antes
+  *pêra*), *para* (verbo, antes *pára*) — com exceções que permaneceram (*pôde* ×
+  *pode*; *pôr* × *por*).
+- Caiu o acento do **-i-** e **-u-** tônicos após ditongo em **paroxítonas**: *feiura*,
+  *baiuca*.
+
+### 4. Mudanças no hífen
+
+As regras de hífen com prefixos foram reformuladas (detalhes no @sec-cap-19). Em
+resumo: dobra-se *r* e *s* após prefixo terminado em vogal quando a segunda palavra
+começa por essas letras (*antirreligioso*, *ultrassom*, *contrarregra*); usa-se hífen
+quando o prefixo termina na mesma vogal ou consoante que inicia a segunda palavra
+(*micro-ondas*, *anti-inflamatório*, *sub-bibliotecário*).
+
+## O que NÃO mudou (mitos frequentes)
+
+Circulam muitos exageros sobre o Acordo. Fixe o que **permaneceu**:
+
+- **Não** acabou o acento agudo nem o circunflexo em geral: *café*, *avô*, *vovô*,
+  *até*, *médico* continuam acentuados.
+- **Não** mudou a acentuação das **proparoxítonas** (todas continuam acentuadas) nem
+  das **oxítonas** terminadas em *-a, -e, -o, -em* (*sofá*, *café*, *cipó*, *também*).
+- **Não** mudou a distinção *mau* × *mal*, *mas* × *más*, nem a gramática, a
+  concordância, a regência — nada disso é ortografia.
+- **Permaneceram** os acentos diferenciais de *pôde* (passado) × *pode* (presente) e
+  *pôr* (verbo) × *por* (preposição).
+
+## 📋 Quadro-resumo
+
+| Frente | Mudança | Exemplo (novo) |
+|---|---|---|
+| **Alfabeto** | *k, w, y* reincorporadas (26 letras) | *km*, *watt* |
+| **Trema** | Abolido (salvo nomes próprios) | *linguiça*, *sequência* |
+| **Acento ei/oi** | Cai em **paroxítonas** | *ideia*, *heroico* |
+| **Hiatos oo/ee** | Cai o acento | *voo*, *leem* |
+| **Acento diferencial** | Cai na maioria (fica *pôde*, *pôr*) | *pelo*, *pera*, *para* |
+| **Hífen** | Novas regras com prefixos | *antirreligioso*, *micro-ondas* |
+
+Em uma linha: o Acordo de 1990 é uma reforma **só ortográfica** — reincorporou *k/w/y*,
+**aboliu o trema**, tirou acento de *ideia/heroico/voo/leem* e reformulou o **hífen** —,
+mas **não** mexeu na gramática nem eliminou os acentos em geral.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que o trema sumiu da pronúncia.** O trema foi abolido da **escrita**
+  (*linguiça*), mas o *u* continua **pronunciado**. Mudou a grafia, não o som.
+- **Tirar acento de oxítonas com ditongo aberto.** O acento caiu só nas
+  **paroxítonas** (*ideia*, *heroico*); nas **oxítonas** permanece (*herói*, *chapéu*,
+  *anéis*).
+- **Esquecer que *pôde* e *pôr* mantêm acento.** Os diferenciais *pôde* (passado) ×
+  *pode* e *pôr* (verbo) × *por* **não** foram abolidos.
+- **Confundir reforma ortográfica com reforma gramatical.** O Acordo mexe só na
+  **escrita**: não altera concordância, regência, pronúncia nem vocabulário.
+- **Supor unificação total com Portugal.** Permanecem grafias diferentes onde há
+  pronúncia diferente (*fato*/*facto*, *recepção*/*receção*).
+
+## ✍️ Exercícios
+
+**1.** Qual é o objetivo do Acordo Ortográfico de 1990 e qual o seu alcance?
+
+::: {.callout-tip collapse="true"}
+## Solução
+O objetivo é **unificar a ortografia** entre os países de língua portuguesa, reduzindo
+as diferenças de grafia. Seu alcance é **exclusivamente gráfico**: mexe apenas em como
+as palavras se escrevem, não na gramática, na pronúncia, no vocabulário ou na sintaxe.
+A unificação, ademais, não é total: permanecem diferenças de grafia onde há diferenças
+reais de pronúncia (*fato*/*facto*).
+:::
+
+**2.** (Estilo ENEM) Após o Acordo de 1990, a palavra *linguiça* passou a ser escrita
+sem trema. Isso significa que:
+
+a) o *u* deixou de ser pronunciado;
+b) mudou apenas a grafia; o *u* continua pronunciado;
+c) a palavra passou a ser proparoxítona;
+d) o trema foi abolido inclusive em nomes próprios;
+e) a pronúncia passou a ser "linguiça" sem o som do *u*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O Acordo aboliu o trema da **escrita**, mas o *u* de *linguiça*,
+*sequência*, *frequente* continua sendo **pronunciado**. Mudou a grafia, não o som. E o
+trema permanece em nomes próprios estrangeiros (*Müller*), o que torna a (d) falsa.
+:::
+
+**3.** Indique se levam acento, após o Acordo: (a) *ideia*; (b) *herói*; (c) *voo*;
+(d) *chapéu*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *ideia* — **sem** acento (paroxítona com ditongo *ei*: o acento caiu). (b) *herói*
+— **com** acento (oxítona com ditongo *ói*: mantém). (c) *voo* — **sem** acento (hiato
+*oo*: o acento caiu). (d) *chapéu* — **com** acento (oxítona com ditongo *éu*: mantém).
+A queda atingiu paroxítonas e hiatos *oo/ee*, não as oxítonas.
+:::
+
+**4.** Explique por que o Acordo **não** eliminou as grafias diferentes entre *fato*
+(BR) e *facto* (PT).
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o Acordo eliminou as consoantes mudas apenas onde elas **não** eram
+pronunciadas em nenhuma variedade. Em Portugal, o *c* de *facto* **é** pronunciado;
+logo, a grafia com *c* se mantém lá, refletindo a pronúncia real. No Brasil, esse *c*
+não soa, e a grafia é *fato*. A diferença gráfica persiste porque persiste a diferença
+de pronúncia — o Acordo aproxima grafias, mas não impõe uma escrita contrária à fala.
+:::
+
+**5.** Cite dois acentos **diferenciais** que permaneceram após o Acordo e dois que
+foram abolidos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Permaneceram: *pôde* (pretérito) × *pode* (presente); *pôr* (verbo) × *por*
+(preposição). Foram abolidos: *pelo* (antes *pêlo*, substantivo, para distinguir de
+*pelo* = *por + o*); *pera* (antes *pêra*, fruta) × *para*; e o acento de *para*
+(verbo *parar*, antes *pára*).
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que a grafia está de acordo com a norma
+vigente:
+
+a) idéia;
+b) heróico;
+c) assembléia;
+d) tranquilo;
+e) vôo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** *Tranquilo* (sem trema) está correto pela norma vigente. As demais
+estão na grafia **antiga**: o correto hoje é *ideia*, *heroico*, *assembleia* (sem
+acento) e *voo* (sem acento).
+:::
+
+**7.** O Acordo de 1990 alterou a acentuação das **proparoxítonas**? Justifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não.** As proparoxítonas continuam **todas** acentuadas (*médico*, *lâmpada*,
+*sílaba*, *árvore*), como sempre foram — essa é uma regra sem exceção que o Acordo não
+tocou. As mudanças de acentuação atingiram sobretudo paroxítonas com ditongos abertos
+(*ideia*), hiatos *oo/ee* (*voo*, *leem*) e acentos diferenciais, não as
+proparoxítonas.
+:::
+
+**8.** Reescreva na grafia atual: "A idéia do herói era manter o vôo tranqüilo até a
+assembléia."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"A **ideia** do herói era manter o **voo tranquilo** até a **assembleia**." Correções:
+*idéia* → *ideia* (paroxítona, cai o acento); *herói* permanece (oxítona); *vôo* →
+*voo* (hiato *oo*); *tranqüilo* → *tranquilo* (sem trema); *assembléia* → *assembleia*
+(paroxítona, cai o acento).
+:::
+
+**9.** Um estudante afirma: "Com o novo Acordo, os acentos acabaram." Comente
+criticamente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação é falsa e exagerada. O Acordo **não** aboliu os acentos em geral: continuam
+acentuadas as proparoxítonas (*médico*), as oxítonas em *-a/-e/-o/-em* (*sofá*, *café*,
+*também*), muitas paroxítonas (*fácil*, *automóvel*) e permanecem acentos diferenciais
+(*pôde*, *pôr*). O que caiu foi um conjunto **específico** de acentos: os de ditongos
+abertos em paroxítonas (*ideia*), os de hiatos *oo/ee* (*voo*, *leem*) e a maioria dos
+diferenciais. A reforma foi pontual, não uma abolição dos acentos.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "O Acordo Ortográfico de 1990 alterou
+regras de concordância e de regência para aproximar o português do Brasil e o de
+Portugal."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** O Acordo é **exclusivamente ortográfico**: mexe apenas na grafia (alfabeto,
+trema, acentuação, hífen). Não altera concordância, regência, colocação, pronúncia nem
+vocabulário — essas dimensões continuam podendo variar entre as variedades. Confundir
+reforma ortográfica com reforma gramatical é um erro conceitual comum.
+:::
+
+## 📚 Referências
+
+O texto e as regras do Acordo de 1990 são incorporados às edições atualizadas de
+Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017] e ao VOLP, fonte oficial.
+Para consulta de grafias específicas, o dicionário Houaiss [@houaiss2009] em edição
+pós-Acordo. As mudanças de acentuação e hífen são desenvolvidas nos capítulos 17 a 19.
+
+::: {#refs}
 :::
