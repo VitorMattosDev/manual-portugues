@@ -4,22 +4,294 @@ title: "Emprego do hífen"
 
 # Emprego do hífen {#sec-cap-19}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 3 — Ortografia e Acentuação.
+> "O hífen é o pequeno traço que une sem fundir — e cuja regra assusta mais do que
+> deveria."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+De todas as áreas da ortografia, o **hífen** tem a fama de ser a mais confusa —
+reputação que o Acordo de 1990, ironicamente, não ajudou a desfazer, pois reformulou
+várias regras. Mas há boas notícias: por trás da aparente bagunça, existe uma lógica
+razoavelmente clara, baseada em **duas ideias centrais** — o encontro de letras iguais
+e a natureza do prefixo. Compreendidas essas, a maioria dos casos se resolve sem
+decoreba.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo organiza o emprego do hífen em compostos e, sobretudo, em palavras com
+**prefixos** — que é onde moram as dúvidas e as pegadinhas de prova. Fechamos assim o
+núcleo da ortografia, restando apenas as convenções de maiúsculas e abreviaturas
+(@sec-cap-20).
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** a regra geral do hífen com prefixos (encontro de vogais e consoantes
+  iguais);
+- **Decidir** quando dobrar *r* e *s* em vez de usar hífen;
+- **Reconhecer** os prefixos de comportamento especial (*sub-*, *sub-*, *ex-*,
+  *vice-*, *pós/pré/pró-*);
+- **Empregar** o hífen em palavras compostas;
+- **Identificar** o que o Acordo de 1990 mudou no uso do hífen;
+- **Resolver** casos frequentes de prova.
+
+## A regra de ouro dos prefixos
+
+A maioria das dúvidas envolve **prefixos** (ou falsos prefixos como *aero-*, *auto-*,
+*micro-*, *anti-*, *super-*). A regra central gira em torno da **letra que termina o
+prefixo** e da **letra que inicia a palavra seguinte**. A @fig-hifen-prefixos resume.
+
+::: {#fig-hifen-prefixos}
+
+```{.tikz}
+%%| filename: hifen-prefixos
+%%| alt: Fluxograma de decisão para o hífen com prefixos. Pergunta central: a letra final do prefixo é igual à letra inicial da segunda palavra? Se sim, usa-se hífen (exemplo micro-ondas, anti-inflamatório). Se não, geralmente junta-se sem hífen (exemplo autoescola); com o detalhe de que, se o prefixo termina em vogal e a palavra começa por r ou s, dobram-se essas letras (antirreligioso, ultrassom).
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  q/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=center, text width=50mm, minimum height=12mm, inner sep=4pt},
+  r/.style={rounded corners=3pt, thick, align=center, text width=44mm, minimum height=15mm, inner sep=4pt},
+  fl/.style={-{Stealth[length=2.4mm]}, manualgray, thick},
+]
+  \node[q] (top) {A letra \textbf{final} do prefixo é \textbf{igual} à \textbf{inicial} da palavra seguinte?};
+  \node[r, draw=manualred, fill=manualred!8, below left=14mm and -2mm of top] (sim) {\textbf{SIM} $\to$ usa-se \textbf{hífen}\\{\scriptsize micro-ondas, anti-inflamatório, contra-almirante}};
+  \node[r, draw=manualgreen, fill=manualgreen!8, below right=14mm and -2mm of top] (nao) {\textbf{NÃO} $\to$ junta-se sem hífen\\{\scriptsize autoescola, semicírculo}\\{\scriptsize (mas dobra \emph{r/s}: antirreligioso, ultrassom)}};
+  \draw[fl] (top) -- node[left, font=\scriptsize] {iguais} (sim);
+  \draw[fl] (top) -- node[right, font=\scriptsize] {diferentes} (nao);
+\end{tikzpicture}
+```
+
+A decisão básica do hífen com prefixos: letras iguais em contato pedem hífen; letras
+diferentes juntam-se — com o cuidado de dobrar *r* e *s* após prefixo terminado em
+vogal.
+:::
+
+Desdobrando a regra em três situações práticas:
+
+### 1. Letras iguais em contato → HÍFEN
+
+Quando o prefixo termina na **mesma letra** com que começa a palavra seguinte, usa-se
+hífen para evitar a fusão:
+
+- vogal + vogal igual: *micro-ondas*, *anti-inflamatório*, *contra-almirante*,
+  *auto-observação*, *arqui-inimigo*.
+- consoante + consoante igual: *sub-bibliotecário*, *inter-regional*,
+  *hiper-resistente*, *super-romântico*.
+
+### 2. Prefixo em vogal + *r*/*s* → DOBRA a consoante (sem hífen)
+
+Quando o prefixo termina em **vogal** e a palavra seguinte começa com **r** ou **s**,
+não se usa hífen: junta-se e **dobra-se** o *r* ou o *s*:
+
+- *antirreligioso*, *antissocial*, *ultrassom*, *contrarregra*, *autorretrato*,
+  *semirreta*, *minissaia*, *neorrealismo*.
+
+### 3. Letras diferentes → JUNTA (sem hífen)
+
+Quando não há encontro de letras iguais nem o caso do *r/s*, geralmente se junta tudo:
+
+- *autoescola*, *semicírculo*, *coautor*, *aeroporto*, *antiaéreo*, *extraoficial*,
+  *infraestrutura*.
+
+## Prefixos de comportamento especial
+
+Alguns prefixos têm regra própria, que convém memorizar:
+
+- **sub-, ob-, ad-**: usam hífen antes de *r* (e *b*): *sub-região*, *ad-renal*, além
+  de *sub-bibliotecário* (b+b).
+- **circum-, pan-**: hífen antes de vogal, *m*, *n*, *h*: *circum-navegação*,
+  *pan-americano*.
+- **ex- (estado anterior), vice-, soto-, além-, aquém-, recém-, sem-, pós-, pré-,
+  pró- (tônicos)**: usam **sempre** hífen: *ex-marido*, *vice-presidente*,
+  *recém-nascido*, *pós-graduação*, *pré-vestibular*, *pró-reitor*, *além-mar*,
+  *sem-terra*.
+- **mal-**: hífen quando a palavra seguinte começa por **vogal, *h* ou *l***
+  (*mal-estar*, *mal-humorado*, *mal-limpo*); caso contrário, junta (*malcriado*,
+  *malfeito*).
+- **bem-**: costuma usar hífen (*bem-vindo*, *bem-estar*, *bem-humorado*), embora
+  algumas formas se aglutinem (*benfeito*, *benquisto*).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O prefixo *co-* quase sempre junta
+O prefixo *co-* aglutina-se mesmo diante de vogal, inclusive *o*: *coautor*,
+*coordenar*, *coobrigação*, *coedição*. É uma exceção prática útil: com *co-*,
+raramente se usa hífen.
+:::
+
+## Hífen em palavras compostas
+
+Em compostos (junção de palavras que mantêm certa autonomia), o hífen aparece:
+
+- em compostos **sem elemento de ligação** que formam nova unidade: *guarda-chuva*,
+  *segunda-feira*, *couve-flor*, *beija-flor*, *arco-íris*, *azul-escuro*.
+- em nomes de **espécies** animais e vegetais: *bem-te-vi*, *erva-doce*,
+  *bem-me-quer*.
+- Não se usa hífen em compostos que **perderam** a noção de composição: *girassol*,
+  *paraquedas*, *mandachuva*, *pontapé*.
+
+## O que o Acordo mudou
+
+O Acordo de 1990 alterou vários pontos. Os mais cobrados:
+
+- **caiu** o hífen quando o prefixo termina em vogal e a palavra começa por vogal
+  **diferente**: antes *auto-escola*, hoje *autoescola*; antes *extra-oficial*, hoje
+  *extraoficial*.
+- **passou a dobrar** *r*/*s* nesses casos: antes *anti-religioso*, hoje
+  *antirreligioso*; antes *ultra-som*, hoje *ultrassom*.
+- **caiu** o hífen em muitos compostos que se aglutinaram: *paraquedas*, *mandachuva*
+  (antes com hífen).
+
+## 📋 Quadro-resumo
+
+| Situação | Regra | Exemplo |
+|---|---|---|
+| Letras **iguais** em contato | **hífen** | *micro-ondas*, *sub-bibliotecário* |
+| Prefixo em vogal + *r/s* | junta e **dobra** *r/s* | *antirreligioso*, *ultrassom* |
+| Letras **diferentes** | junta (sem hífen) | *autoescola*, *coautor* |
+| *sub-* + *r/b* | hífen | *sub-região* |
+| *ex-, vice-, recém-, pós/pré/pró-* | **sempre** hífen | *ex-aluno*, *pós-graduação* |
+| Compostos-unidade | hífen | *guarda-chuva*, *arco-íris* |
+
+Em uma linha: com prefixos, **letras iguais** pedem hífen, prefixo em vogal + *r/s*
+**dobra** a consoante, e o resto **junta** — com alguns prefixos (*ex-, vice-, recém-,
+pós/pré/pró-*) sempre hifenizados.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Usar hífen em *autoescola*, *extraoficial*.** Vogais **diferentes** em contato
+  **juntam-se** (sem hífen) desde o Acordo. Só vogais iguais pedem hífen
+  (*micro-ondas*).
+- **Não dobrar o *r/s*.** Prefixo em vogal + *r/s* → junta e **dobra**: *antirreligioso*,
+  *ultrassom*, *minissaia* (não *"anti-religioso"* nem *"antirreligioso"* sem os dois
+  *r*).
+- **Esquecer os prefixos "sempre com hífen".** *Ex-*, *vice-*, *recém-*, *pós-*, *pré-*,
+  *pró-* levam hífen invariavelmente (*ex-marido*, *recém-chegado*).
+- **Hifenizar *coautor* e *coordenar*.** O prefixo *co-* junta mesmo diante de vogal:
+  *coautor*, *coordenar*, *coedição*.
+- **Manter hífen em compostos aglutinados.** *Paraquedas*, *mandachuva*, *girassol* já
+  **não** têm hífen.
+
+## ✍️ Exercícios
+
+**1.** Enuncie a regra de ouro do hífen com prefixos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Compara-se a **letra final do prefixo** com a **letra inicial** da palavra seguinte:
+(1) se forem **iguais**, usa-se **hífen** (*micro-ondas*, *sub-bibliotecário*); (2) se o
+prefixo termina em **vogal** e a palavra começa por **r** ou **s**, junta-se e
+**dobra-se** a consoante (*antirreligioso*, *ultrassom*); (3) nos demais casos (letras
+diferentes), **junta-se** sem hífen (*autoescola*, *coautor*).
+:::
+
+**2.** (Estilo ENEM) Assinale a alternativa com grafia **correta** segundo a norma
+vigente:
+
+a) auto-escola;
+b) anti-religioso;
+c) ultrassom;
+d) micro ondas;
+e) extra-oficial.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** *Ultrassom*: prefixo em vogal (*ultra*) + *s* → junta e dobra o
+*s*. As demais estão erradas: o correto é *autoescola* (vogais diferentes, junta),
+*antirreligioso* (dobra o *r*), *micro-ondas* (vogais iguais, hífen) e *extraoficial*
+(junta).
+:::
+
+**3.** Grafe corretamente: (a) *anti* + *social*; (b) *micro* + *ondas*; (c) *co* +
+*autor*; (d) *sub* + *região*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *antissocial* (vogal + *s* → dobra o *s*). (b) *micro-ondas* (vogais iguais *o+o* →
+hífen). (c) *coautor* (o prefixo *co-* junta mesmo diante de vogal). (d) *sub-região*
+(o prefixo *sub-* usa hífen antes de *r*).
+:::
+
+**4.** Explique por que *micro-ondas* leva hífen, mas *microcomputador* não.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em *micro-ondas*, o prefixo *micro-* termina em *o* e a palavra *ondas* começa por *o*:
+são **vogais iguais** em contato → usa-se hífen para evitar a fusão. Em
+*microcomputador*, o prefixo termina em *o* e a palavra começa por *c* (consoante
+diferente) → não há encontro de letras iguais, então se **junta** sem hífen.
+:::
+
+**5.** Cite três prefixos que usam **sempre** hífen e dê um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplos (bastam três): *ex-* (estado anterior) → *ex-diretor*; *vice-* →
+*vice-presidente*; *recém-* → *recém-nascido*; *pós-* → *pós-graduação*; *pré-* →
+*pré-vestibular*; *pró-* (tônico) → *pró-reitor*; *além-* → *além-mar*. Todos exigem
+hífen invariavelmente.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que **todas** as palavras estão grafadas
+conforme a norma:
+
+a) autorretrato, minissaia, semirreta;
+b) auto-retrato, mini-saia, semi-reta;
+c) autorretrato, mini-saia, semirreta;
+d) auto-retrato, minissaia, semi-reta;
+e) autorretrato, minisaia, semireta.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (a).** *Autorretrato*, *minissaia* e *semirreta*: em todos, o prefixo
+termina em vogal e a palavra começa por *r* ou *s* → junta-se e **dobra-se** a
+consoante. As demais ou usam hífen indevido, ou não dobram a consoante.
+:::
+
+**7.** Grafe corretamente e explique: (a) *mal* + *estar*; (b) *mal* + *criado*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *mal-estar* — o prefixo *mal-* usa **hífen** antes de vogal, *h* ou *l* (aqui,
+vogal *e*). (b) *malcriado* — antes de consoante que não *l*, *mal-* **junta-se** sem
+hífen. A regra do *mal-* depende da letra inicial da palavra seguinte.
+:::
+
+**8.** Reescreva na grafia atual, se necessário: "Ele fez um curso de para-quedismo e
+virou mandachuva do anti-aéreo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ele fez um curso de **paraquedismo** e virou **mandachuva** do **antiaéreo**."
+Correções: *para-quedismo* → *paraquedismo* (composto aglutinado, sem hífen);
+*mandachuva* já está certo (aglutinado); *anti-aéreo* → *antiaéreo* (vogais
+diferentes, junta sem hífen).
+:::
+
+**9.** Por que *coautor* e *coordenar* não levam hífen, apesar de o prefixo terminar em
+vogal e a palavra seguinte começar por vogal?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o prefixo *co-* tem comportamento **especial**: aglutina-se com a palavra
+seguinte mesmo diante de vogal, inclusive vogal igual (*o*). Assim, escrevem-se
+*coautor*, *coordenar*, *coobrigação*, *coedição* — sem hífen. É uma exceção prática à
+regra geral das vogais iguais.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "A palavra *sub-bibliotecário* leva
+hífen porque o prefixo *sub-* termina em *b* e a palavra seguinte também começa por
+*b*."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** *Sub-bibliotecário* tem o prefixo *sub-* terminando em *b* e a palavra
+*bibliotecário* começando por *b*: **consoantes iguais** em contato → usa-se hífen,
+pela regra geral (o mesmo ocorre em *inter-regional*, *super-romântico*, com *r+r*).
+:::
+
+## 📚 Referências
+
+As regras de hífen, extensamente reformuladas pelo Acordo de 1990, são detalhadas por
+Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]; para casos específicos, o
+VOLP é a fonte oficial. O @sec-cap-20 encerra o Volume 3 com as convenções de
+maiúsculas, abreviaturas e siglas.
+
+::: {#refs}
 :::
