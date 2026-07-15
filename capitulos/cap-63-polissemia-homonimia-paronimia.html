@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -883,7 +903,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#sec-cap-63" id="toc-sec-cap-63" class="nav-link active" data-scroll-target="#sec-cap-63"><span class="header-section-number">65</span> Polissemia, homonímia e paronímia</a></li>
+  <li><a href="#sec-cap-63" id="toc-sec-cap-63" class="nav-link active" data-scroll-target="#sec-cap-63"><span class="header-section-number">65</span> Polissemia, homonímia e paronímia</a>
+  <ul class="collapse">
+  <li><a href="#objetivos-de-aprendizagem" id="toc-objetivos-de-aprendizagem" class="nav-link" data-scroll-target="#objetivos-de-aprendizagem"><span class="header-section-number">65.1</span> 🎯 Objetivos de aprendizagem</a></li>
+  <li><a href="#polissemia-uma-palavra-muitos-sentidos" id="toc-polissemia-uma-palavra-muitos-sentidos" class="nav-link" data-scroll-target="#polissemia-uma-palavra-muitos-sentidos"><span class="header-section-number">65.2</span> Polissemia: uma palavra, muitos sentidos</a></li>
+  <li><a href="#homonímia-formas-iguais-palavras-diferentes" id="toc-homonímia-formas-iguais-palavras-diferentes" class="nav-link" data-scroll-target="#homonímia-formas-iguais-palavras-diferentes"><span class="header-section-number">65.3</span> Homonímia: formas iguais, palavras diferentes</a>
+  <ul class="collapse">
+  <li><a href="#os-três-tipos-de-homônimo" id="toc-os-três-tipos-de-homônimo" class="nav-link" data-scroll-target="#os-três-tipos-de-homônimo"><span class="header-section-number">65.3.1</span> Os três tipos de homônimo</a></li>
+  <li><a href="#o-critério-que-separa-polissemia-de-homonímia" id="toc-o-critério-que-separa-polissemia-de-homonímia" class="nav-link" data-scroll-target="#o-critério-que-separa-polissemia-de-homonímia"><span class="header-section-number">65.3.2</span> O critério que separa polissemia de homonímia</a></li>
+  </ul></li>
+  <li><a href="#paronímia-o-mesmo-que-engana" id="toc-paronímia-o-mesmo-que-engana" class="nav-link" data-scroll-target="#paronímia-o-mesmo-que-engana"><span class="header-section-number">65.4</span> Paronímia: o mesmo que engana</a></li>
+  <li><a href="#o-contexto-resolve-quase-sempre" id="toc-o-contexto-resolve-quase-sempre" class="nav-link" data-scroll-target="#o-contexto-resolve-quase-sempre"><span class="header-section-number">65.5</span> O contexto resolve (quase sempre)</a>
+  <ul class="collapse">
+  <li><a href="#a-duplicidade-como-recurso" id="toc-a-duplicidade-como-recurso" class="nav-link" data-scroll-target="#a-duplicidade-como-recurso"><span class="header-section-number">65.5.1</span> A duplicidade como recurso</a></li>
+  </ul></li>
+  <li><a href="#quadro-resumo" id="toc-quadro-resumo" class="nav-link" data-scroll-target="#quadro-resumo"><span class="header-section-number">65.6</span> 📋 Quadro-resumo</a></li>
+  <li><a href="#pegadinhas-e-erros-comuns" id="toc-pegadinhas-e-erros-comuns" class="nav-link" data-scroll-target="#pegadinhas-e-erros-comuns"><span class="header-section-number">65.7</span> ⚠️ Pegadinhas e erros comuns</a></li>
+  <li><a href="#exercícios" id="toc-exercícios" class="nav-link" data-scroll-target="#exercícios"><span class="header-section-number">65.8</span> ✍️ Exercícios</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências"><span class="header-section-number">65.9</span> 📚 Referências</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/vitormattosdev/manual-portugues/edit/main/capitulos/cap-63-polissemia-homonimia-paronimia.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/vitormattosdev/manual-portugues/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -911,36 +949,1252 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="sec-cap-63" class="level1" data-number="65">
 <h1 data-number="65"><span class="header-section-number">65</span> Polissemia, homonímia e paronímia</h1>
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 10 — Semântica e Léxico.
-
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
-
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+<blockquote class="blockquote">
+<p>“Se cada sentido exigisse uma palavra própria, nenhuma memória humana daria conta da língua.”</p>
+</blockquote>
+<p>O capítulo anterior olhou para as relações <strong>entre</strong> palavras diferentes. Este olha para um fato aparentemente incômodo: <strong>a mesma forma serve a vários sentidos</strong>.</p>
+<p><em>Manga</em> é fruta e é parte da camisa. <em>Banco</em> é assento e é instituição financeira. <em>Ponto</em> é sinal gráfico, parada de ônibus, unidade de escore, ponto de costura e ponto do teatro. Se a língua fosse projetada por um engenheiro, isso seria um defeito — ambiguidade gratuita. Mas não é defeito: é <strong>economia</strong>. Um sistema com uma forma para cada sentido exigiria um léxico impossível de memorizar.</p>
+<p>O preço dessa economia é a ambiguidade potencial — que o <strong>contexto</strong>, quase sempre, resolve sem que ninguém perceba. Este capítulo distingue três fenômenos que a intuição costuma embaralhar: a <strong>polissemia</strong> (uma palavra, sentidos relacionados), a <strong>homonímia</strong> (palavras diferentes que colidiram na forma) e a <strong>paronímia</strong> (palavras parecidas, mas não iguais — a que mais derruba candidato em prova).</p>
+<section id="objetivos-de-aprendizagem" class="level2" data-number="65.1">
+<h2 data-number="65.1" class="anchored" data-anchor-id="objetivos-de-aprendizagem"><span class="header-section-number">65.1</span> 🎯 Objetivos de aprendizagem</h2>
+<p>Ao final deste capítulo, você será capaz de:</p>
+<ul>
+<li><strong>Distinguir</strong> polissemia de homonímia pelo critério da relação entre os sentidos;</li>
+<li><strong>Classificar</strong> os homônimos em homógrafos, homófonos e perfeitos;</li>
+<li><strong>Reconhecer</strong> parônimos e empregar corretamente os pares mais cobrados;</li>
+<li><strong>Explicar</strong> como o contexto desfaz a ambiguidade lexical;</li>
+<li><strong>Analisar</strong> o uso intencional da duplicidade em humor e publicidade;</li>
+<li><strong>Diagnosticar</strong> os erros de paronímia mais frequentes na escrita formal.</li>
+</ul>
+</section>
+<section id="polissemia-uma-palavra-muitos-sentidos" class="level2" data-number="65.2">
+<h2 data-number="65.2" class="anchored" data-anchor-id="polissemia-uma-palavra-muitos-sentidos"><span class="header-section-number">65.2</span> Polissemia: uma palavra, muitos sentidos</h2>
+<p>A <strong>polissemia</strong> ocorre quando <strong>uma mesma palavra</strong> apresenta <strong>vários sentidos relacionados entre si</strong>, derivados de um núcleo comum por extensão metafórica ou metonímica.</p>
+<p>Tome <strong>cabeça</strong>:</p>
+<ul>
+<li>“Bati a <strong>cabeça</strong> na porta.” (parte do corpo — sentido nuclear)</li>
+<li>“Ele é a <strong>cabeça</strong> da organização.” (líder — quem dirige, como a cabeça dirige o corpo)</li>
+<li>“Não tenho <strong>cabeça</strong> para isso hoje.” (capacidade mental)</li>
+<li>“A <strong>cabeça</strong> do prego entortou.” (extremidade superior, por analogia de forma)</li>
+<li>“Contamos por <strong>cabeça</strong>.” (indivíduo — metonímia: a parte pelo todo)</li>
+</ul>
+<p>São cinco sentidos, mas <strong>um único item lexical</strong>: todos irradiam do mesmo núcleo. Você consegue reconstruir o caminho de um ao outro, e é isso que caracteriza a polissemia. No dicionário, esses sentidos aparecem <strong>num só verbete</strong>, numerados.</p>
+<p>A polissemia é a regra, não a exceção: quanto mais frequente uma palavra, mais sentidos ela acumula. <em>Dar</em>, <em>ver</em>, <em>pegar</em>, <em>ponto</em>, <em>linha</em> e <em>casa</em> têm dezenas cada.</p>
+</section>
+<section id="homonímia-formas-iguais-palavras-diferentes" class="level2" data-number="65.3">
+<h2 data-number="65.3" class="anchored" data-anchor-id="homonímia-formas-iguais-palavras-diferentes"><span class="header-section-number">65.3</span> Homonímia: formas iguais, palavras diferentes</h2>
+<p>A <strong>homonímia</strong> ocorre quando <strong>palavras diferentes</strong>, de <strong>origens distintas</strong>, vieram a ter a <strong>mesma forma</strong>. Não há relação de sentido entre elas — a coincidência é histórica, um acidente.</p>
+<p>O par clássico é <strong>manga</strong>:</p>
+<ul>
+<li><em>manga</em> (fruta) — do concani/malaiala <em>manga</em>, via línguas da Índia.</li>
+<li><em>manga</em> (da camisa) — do latim <em>manica</em>, “o que cobre a mão”.</li>
+</ul>
+<p>Não há núcleo comum a reconstruir: a fruta não é uma extensão metafórica da manga da camisa, nem vice-versa. Duas palavras distintas colidiram na pronúncia. No dicionário, recebem <strong>verbetes separados</strong>, numerados: manga¹, manga².</p>
+<section id="os-três-tipos-de-homônimo" class="level3" data-number="65.3.1">
+<h3 data-number="65.3.1" class="anchored" data-anchor-id="os-três-tipos-de-homônimo"><span class="header-section-number">65.3.1</span> Os três tipos de homônimo</h3>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Homógrafos, homófonos e perfeitos
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Homógrafos</strong> — mesma <strong>grafia</strong>, pronúncia diferente: <em>gosto</em> (/ˈgostu/, substantivo) × <em>gosto</em> (/ˈgɔstu/, verbo); <em>colher</em> (/koˈʎeɾ/, verbo) × <em>colher</em> (/kuˈʎɛɾ/, substantivo); <em>sede</em> (/ˈsedʒi/, local) × <em>sede</em> (/ˈsɛdʒi/, vontade de beber).</li>
+<li><strong>Homófonos</strong> — mesmo <strong>som</strong>, grafia diferente: <em>cela</em> / <em>sela</em>; <em>concerto</em> / <em>conserto</em>; <em>cessão</em> / <em>sessão</em> / <em>seção</em>; <em>acender</em> / <em>ascender</em>.</li>
+<li><strong>Perfeitos</strong> — mesma <strong>grafia e mesmo som</strong>: <em>manga</em> (fruta) / <em>manga</em> (camisa); <em>banco</em> (assento) / <em>banco</em> (instituição); <em>rio</em> (curso d’água) / <em>rio</em> (verbo <em>rir</em>).</li>
+</ul>
+<p>Mnemônico: <em>homó<strong>grafo</strong></em> remete a <strong>escrita</strong> (grafia igual); <em>homó<strong>fono</strong></em> remete a <strong>som</strong> (fone igual). Os <strong>perfeitos</strong> empatam nos dois.</p>
+</div>
+</div>
+</section>
+<section id="o-critério-que-separa-polissemia-de-homonímia" class="level3" data-number="65.3.2">
+<h3 data-number="65.3.2" class="anchored" data-anchor-id="o-critério-que-separa-polissemia-de-homonímia"><span class="header-section-number">65.3.2</span> O critério que separa polissemia de homonímia</h3>
+<p>A pergunta decisiva é: <strong>os sentidos são relacionados?</strong></p>
+<ul>
+<li><strong>Sim, há núcleo comum</strong> → <strong>polissemia</strong> (uma palavra, vários sentidos).</li>
+<li><strong>Não, a coincidência é acidental</strong> → <strong>homonímia</strong> (palavras distintas).</li>
+</ul>
+<p><em>Cabeça</em> (do corpo) e <em>cabeça</em> (do prego) partilham a ideia de extremidade superior → polissemia. <em>Manga</em> (fruta) e <em>manga</em> (camisa) não partilham nada → homonímia.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
+<span class="screen-reader-only">Nota</span>Uma fronteira menos nítida do que parece
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Capítulo em preparação.</p>
+<p>Convém honestidade aqui: o critério não é sempre decidível. A relação entre sentidos pode ter existido e se apagado, ou pode ser reconstruída por etimologia que o falante comum desconhece. <em>Banco</em> (assento) e <em>banco</em> (instituição) parecem homônimos perfeitos — mas há uma ligação histórica real: os cambistas medievais operavam sobre <strong>bancos</strong>, e a instituição herdou o nome do móvel.</p>
+<p>Ou seja: pela etimologia, é polissemia; pela intuição do falante, é homonímia. As gramáticas escolares tratam o par como homonímia, e é isso que a prova cobra — mas vale saber que a fronteira é <strong>gradual e histórica</strong>, não uma linha rígida. O mesmo já se viu entre denotação e conotação (<a href="cap-61-denotacao-conotacao.html" class="quarto-xref"><span>Capítulo 63</span></a>): a diacronia atravessa as classificações sincrônicas.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="paronímia-o-mesmo-que-engana" class="level2" data-number="65.4">
+<h2 data-number="65.4" class="anchored" data-anchor-id="paronímia-o-mesmo-que-engana"><span class="header-section-number">65.4</span> Paronímia: o mesmo que engana</h2>
+<p>A <strong>paronímia</strong> ocorre entre palavras <strong>parecidas</strong> — mas <strong>não idênticas</strong> — na grafia e na pronúncia, e de <strong>sentidos diferentes</strong>. É a fonte mais produtiva de erro na escrita formal, e a campeã de questões de concurso.</p>
+<p>Diferentemente dos homônimos, os parônimos <strong>não se confundem no sistema</strong>: são formas distintas. Confundem-se apenas na <strong>cabeça do escrevente distraído</strong>.</p>
+<p>Os pares que mais aparecem:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parônimos</th>
+<th>Sentidos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>eminente</strong> / <strong>iminente</strong></td>
+<td>ilustre, notável / prestes a acontecer</td>
+</tr>
+<tr class="even">
+<td><strong>tráfego</strong> / <strong>tráfico</strong></td>
+<td>trânsito de veículos / comércio ilícito</td>
+</tr>
+<tr class="odd">
+<td><strong>descrição</strong> / <strong>discrição</strong></td>
+<td>ato de descrever / reserva, sensatez</td>
+</tr>
+<tr class="even">
+<td><strong>infligir</strong> / <strong>infringir</strong></td>
+<td>aplicar (pena) / violar (regra)</td>
+</tr>
+<tr class="odd">
+<td><strong>ratificar</strong> / <strong>retificar</strong></td>
+<td>confirmar / corrigir</td>
+</tr>
+<tr class="even">
+<td><strong>deferir</strong> / <strong>diferir</strong></td>
+<td>conceder / adiar; ser diferente</td>
+</tr>
+<tr class="odd">
+<td><strong>flagrante</strong> / <strong>fragrante</strong></td>
+<td>evidente, em flagrante / perfumado</td>
+</tr>
+<tr class="even">
+<td><strong>mandato</strong> / <strong>mandado</strong></td>
+<td>período de exercício / ordem judicial</td>
+</tr>
+<tr class="odd">
+<td><strong>comprimento</strong> / <strong>cumprimento</strong></td>
+<td>extensão / saudação; ato de cumprir</td>
+</tr>
+<tr class="even">
+<td><strong>absolver</strong> / <strong>absorver</strong></td>
+<td>inocentar / sorver, embeber</td>
+</tr>
+<tr class="odd">
+<td><strong>emergir</strong> / <strong>imergir</strong></td>
+<td>vir à tona / mergulhar</td>
+</tr>
+<tr class="even">
+<td><strong>vultoso</strong> / <strong>vultuoso</strong></td>
+<td>de grande vulto / inchado (rosto)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Como não errar os campeões
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>eminente / iminente</strong>: <strong>e</strong>minente = <strong>e</strong>levado (pessoa ilustre). <strong>i</strong>minente = <strong>i</strong>mediato (vai acontecer). “O <strong>eminente</strong> jurista alertou para o perigo <strong>iminente</strong>.”</li>
+<li><strong>infligir / infringir</strong>: infli<strong>g</strong>ir = apli<strong>c</strong>ar castigo. Infrin<strong>g</strong>ir = tem <strong>r</strong> de <strong>r</strong>egra violada. “Quem <strong>infringe</strong> a lei pode ter uma multa <strong>infligida</strong>.”</li>
+<li><strong>ratificar / retificar</strong>: <strong>ra</strong>tificar = <strong>ra</strong>tifica, confirma (pense em “ratificado o acordo”). <strong>Re</strong>tificar = <strong>re</strong>faz, corrige.</li>
+<li><strong>mandato / mandado</strong>: manda<strong>to</strong> = tempo de manda<strong>to</strong> do políti<strong>co</strong>. Manda<strong>do</strong> = ordem dada, particípio de <em>mandar</em> (“foi mandado”).</li>
+<li><strong>tráfego / tráfico</strong>: tráfe<strong>g</strong>o de veículos (pense em “engarrafamento”). Tráfi<strong>c</strong>o = <strong>c</strong>rime.</li>
+</ul>
+</div>
+</div>
+<p>A <a href="#fig-polissemia-homonimia" class="quarto-xref">Figura&nbsp;<span>65.1</span></a> sintetiza a distinção entre os três fenômenos.</p>
+<div id="fig-polissemia-homonimia" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-polissemia-homonimia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="480.469738pt" height="161.366506pt" viewbox="-68.014948 -68.014944 480.469738 161.366506">
+<defs>
+<path id="tz_polissemia_homonimia_g0-101" d="M3.598506-1.45056C3.744956-1.45056 3.84259-1.45056 3.84259-1.659776C3.84259-1.862017 3.793773-2.385056 3.459029-2.726775C3.082441-3.103362 2.566376-3.159153 2.182814-3.159153C.892653-3.159153 .278954-2.39203 .278954-1.569116C.278954-.739228 .920548 .041843 2.30137 .041843C2.552428 .041843 2.956912 .013948 3.305604-.174346C3.717061-.390535 3.84259-.72528 3.84259-.795019C3.84259-.948443 3.689166-.948443 3.619427-.948443C3.493898-.948443 3.459029-.941469 3.403238-.829888C3.152179-.313823 2.517559-.313823 2.399004-.313823C1.297136-.313823 1.262267-1.129763 1.248319-1.45056H3.598506ZM1.248319-1.743462C1.255293-2.015442 1.290162-2.838356 2.189788-2.838356S3.138232-2.043337 3.152179-1.743462H1.248319Z"></path>
+<path id="tz_polissemia_homonimia_g0-105" d="M1.827148-4.274969C1.827148-4.609714 1.555168-4.846824 1.262267-4.846824C.927522-4.846824 .690411-4.574844 .690411-4.281943C.690411-3.947198 .962391-3.710087 1.255293-3.710087C1.590037-3.710087 1.827148-3.982067 1.827148-4.274969ZM.488169-3.082441V-2.691905C.885679-2.691905 .934496-2.691905 .934496-2.419925V-.390535H.467248V0C.481196 0 1.03213-.027895 1.345953-.027895C1.63188-.027895 1.910834-.020922 2.196762 0V-.390535H1.771357V-3.138232L.488169-3.082441Z"></path>
+<path id="tz_polissemia_homonimia_g0-109" d="M6.750685-2.099128C6.750685-2.970859 6.171856-3.138232 5.558157-3.138232C4.888667-3.138232 4.463263-2.824408 4.233126-2.48269C4.05878-3.089415 3.459029-3.138232 3.082441-3.138232C2.245579-3.138232 1.84807-2.650062 1.708593-2.412951V-3.138232L.446326-3.082441V-2.691905C.857783-2.691905 .913574-2.691905 .913574-2.419925V-.390535H.446326V0C.4533 0 1.018182-.027895 1.352927-.027895C1.694645-.027895 2.259527 0 2.266501 0V-.390535H1.799253V-1.736488C1.799253-2.559402 2.545455-2.817435 2.942964-2.817435C3.256787-2.817435 3.38929-2.66401 3.38929-2.147945V-.390535H2.922042V0C2.929016 0 3.493898-.027895 3.828643-.027895C4.170361-.027895 4.735243 0 4.742217 0V-.390535H4.274969V-1.736488C4.274969-2.559402 5.021171-2.817435 5.41868-2.817435C5.732503-2.817435 5.865006-2.66401 5.865006-2.147945V-.390535H5.397758V0C5.404732 0 5.969614-.027895 6.304359-.027895C6.646077-.027895 7.210959 0 7.217933 0V-.390535H6.750685V-2.099128Z"></path>
+<path id="tz_polissemia_homonimia_g0-110" d="M4.267995-2.099128C4.267995-2.956912 3.717061-3.138232 3.075467-3.138232C2.231631-3.138232 1.841096-2.636115 1.708593-2.412951V-3.138232L.446326-3.082441V-2.691905C.857783-2.691905 .913574-2.691905 .913574-2.419925V-.390535H.446326V0C.4533 0 1.018182-.027895 1.352927-.027895C1.694645-.027895 2.259527 0 2.266501 0V-.390535H1.799253V-1.736488C1.799253-2.545455 2.524533-2.817435 2.942964-2.817435C3.249813-2.817435 3.382316-2.657036 3.382316-2.154919V-.390535H2.915068V0C2.922042 0 3.486924-.027895 3.821669-.027895C4.163387-.027895 4.728269 0 4.735243 0V-.390535H4.267995V-2.099128Z"></path>
+<path id="tz_polissemia_homonimia_g0-116" d="M1.708593-2.705853H2.84533V-3.096389H1.708593V-4.428394H1.26924C1.262267-3.779826 .934496-3.047572 .195268-3.02665V-2.705853H.822914V-.843836C.822914-.153425 1.387796 .041843 1.994521 .041843C2.545455 .041843 2.991781-.278954 2.991781-.843836V-1.206476H2.552428V-.871731C2.552428-.390535 2.259527-.313823 2.12005-.313823C1.715567-.313823 1.708593-.655542 1.708593-.843836V-2.705853Z"></path>
+<path id="tz_polissemia_homonimia_g1-97" d="M3.898381-2.594271C3.926276-2.698879 3.926276-2.712827 3.926276-2.740722C3.926276-2.901121 3.807721-3.033624 3.612453-3.033624C3.493898-3.033624 3.375342-2.977833 3.284682-2.887173C3.061519-3.11731 2.789539-3.152179 2.608219-3.152179C1.436613-3.152179 .739228-1.994521 .739228-1.060025C.739228-.230137 1.325031 .055791 1.855044 .055791C2.280448 .055791 2.608219-.167372 2.775592-.299875C2.908095-.055791 3.221918 .055791 3.493898 .055791C3.821669 .055791 3.996015-.18132 4.086675-.320797C4.267995-.613699 4.358655-1.004234 4.358655-1.03213C4.358655-1.129763 4.267995-1.129763 4.163387-1.129763C3.996015-1.129763 3.989041-1.12279 3.940224-.948443C3.884433-.718306 3.758904-.195268 3.521793-.195268C3.438107-.195268 3.38929-.251059 3.38929-.411457C3.38929-.54396 3.403238-.599751 3.431133-.711333L3.898381-2.594271ZM2.712827-.822914C2.698879-.774097 2.698879-.753176 2.691905-.697385C2.39203-.299875 2.099128-.195268 1.882939-.195268C1.72254-.195268 1.48543-.292902 1.48543-.690411C1.48543-1.066999 1.729514-1.924782 1.806227-2.12005C2.043337-2.796513 2.426899-2.901121 2.608219-2.901121C2.852304-2.901121 3.047572-2.747696 3.124284-2.468742L2.712827-.822914Z"></path>
+<path id="tz_polissemia_homonimia_g1-99" d="M3.200996-2.75467C2.852304-2.629141 2.84533-2.308344 2.84533-2.287422C2.84533-2.182814 2.901121-1.966625 3.194022-1.966625S3.696139-2.21071 3.696139-2.510585C3.696139-2.852304 3.38929-3.152179 2.810461-3.152179C1.48543-3.152179 .746202-2.022416 .746202-1.115816C.746202-.54396 1.073973 .055791 2.099128 .055791C2.280448 .055791 2.712827 .041843 3.089415-.097634C3.466002-.244085 3.737983-.516065 3.737983-.599751C3.737983-.655542 3.598506-.822914 3.528767-.822914C3.507846-.822914 3.47995-.822914 3.431133-.774097C2.915068-.195268 2.21071-.195268 2.106102-.195268C1.72254-.195268 1.506351-.411457 1.506351-.808966C1.506351-1.080946 1.701619-1.931756 1.889913-2.294396C2.161893-2.796513 2.594271-2.901121 2.803487-2.901121C2.880199-2.901121 3.068493-2.894147 3.200996-2.75467Z"></path>
+<path id="tz_polissemia_homonimia_g1-100" d="M4.407472-4.60274C4.414446-4.637609 4.428394-4.679452 4.428394-4.714321C4.428394-4.846824 4.302864-4.839851 4.20523-4.832877L3.347447-4.791034C3.270735-4.78406 3.131258-4.78406 3.131258-4.581818C3.131258-4.456289 3.256787-4.456289 3.319552-4.456289C3.403238-4.456289 3.528767-4.449315 3.612453-4.442341L3.242839-2.929016C3.019676-3.124284 2.768618-3.152179 2.608219-3.152179C1.436613-3.152179 .739228-1.994521 .739228-1.060025C.739228-.230137 1.325031 .055791 1.855044 .055791C2.280448 .055791 2.608219-.167372 2.775592-.299875C2.908095-.055791 3.221918 .055791 3.493898 .055791C3.821669 .055791 3.996015-.18132 4.086675-.320797C4.267995-.613699 4.358655-1.004234 4.358655-1.03213C4.358655-1.129763 4.267995-1.129763 4.163387-1.129763C3.996015-1.129763 3.989041-1.12279 3.940224-.948443C3.884433-.718306 3.758904-.195268 3.521793-.195268C3.438107-.195268 3.38929-.251059 3.38929-.411457C3.38929-.54396 3.403238-.599751 3.431133-.711333L4.407472-4.60274ZM2.712827-.822914C2.698879-.774097 2.698879-.753176 2.691905-.697385C2.39203-.299875 2.099128-.195268 1.882939-.195268C1.72254-.195268 1.48543-.292902 1.48543-.690411C1.48543-1.066999 1.729514-1.924782 1.806227-2.12005C2.043337-2.796513 2.426899-2.901121 2.608219-2.901121C2.852304-2.901121 3.047572-2.747696 3.124284-2.468742L2.712827-.822914Z"></path>
+<path id="tz_polissemia_homonimia_g1-101" d="M1.910834-1.520299C2.329265-1.520299 3.710087-1.520299 3.710087-2.48269C3.710087-2.901121 3.319552-3.152179 2.803487-3.152179C1.597011-3.152179 .767123-2.238605 .767123-1.164633C.767123-.411457 1.234371 .055791 2.106102 .055791C2.322291 .055791 2.733748 .034869 3.089415-.097634C3.466002-.244085 3.737983-.516065 3.737983-.599751C3.737983-.655542 3.598506-.822914 3.528767-.822914C3.507846-.822914 3.47995-.822914 3.431133-.774097C2.915068-.195268 2.21071-.195268 2.113076-.195268C1.72254-.195268 1.520299-.425405 1.520299-.836862C1.520299-1.011208 1.569116-1.283188 1.63188-1.520299H1.910834ZM1.694645-1.771357C1.792279-2.12005 1.862017-2.329265 2.064259-2.552428C2.259527-2.789539 2.566376-2.901121 2.803487-2.901121C3.096389-2.901121 3.256787-2.712827 3.256787-2.489664C3.256787-1.771357 2.12005-1.771357 1.694645-1.771357Z"></path>
+<path id="tz_polissemia_homonimia_g1-105" d="M2.594271-4.505106C2.594271-4.686426 2.461768-4.839851 2.252553-4.839851C1.994521-4.839851 1.75741-4.60274 1.75741-4.358655C1.75741-4.170361 1.896887-4.02391 2.099128-4.02391C2.357161-4.02391 2.594271-4.261021 2.594271-4.505106ZM.983313-.836862C.941469-.72528 .920548-.669489 .920548-.564882C.920548-.174346 1.276214 .055791 1.652802 .055791C2.378082 .055791 2.719801-.885679 2.719801-1.03213C2.719801-1.129763 2.629141-1.129763 2.524533-1.129763C2.39203-1.129763 2.357161-1.129763 2.329265-1.039103C2.273474-.857783 2.085181-.195268 1.687671-.195268C1.652802-.195268 1.590037-.195268 1.590037-.320797C1.590037-.411457 1.638854-.585803 1.645828-.599751L2.273474-2.259527C2.315318-2.371108 2.336239-2.426899 2.336239-2.531507C2.336239-2.922042 1.980573-3.152179 1.603985-3.152179C.878705-3.152179 .536986-2.21071 .536986-2.064259C.536986-1.966625 .627646-1.966625 .732254-1.966625C.864757-1.966625 .899626-1.966625 .927522-2.057285C.983313-2.238605 1.171606-2.901121 1.569116-2.901121C1.603985-2.901121 1.66675-2.901121 1.66675-2.775592C1.66675-2.684932 1.617933-2.510585 1.610959-2.496638L.983313-.836862Z"></path>
+<path id="tz_polissemia_homonimia_g1-108" d="M2.357161-4.60274C2.364134-4.637609 2.378082-4.679452 2.378082-4.714321C2.378082-4.846824 2.252553-4.839851 2.154919-4.832877L1.297136-4.791034C1.220423-4.78406 1.080946-4.78406 1.080946-4.581818C1.080946-4.456289 1.206476-4.456289 1.26924-4.456289C1.352927-4.456289 1.478456-4.449315 1.562142-4.442341L.662516-.822914C.63462-.711333 .63462-.662516 .63462-.620672C.63462-.174346 1.053051 .055791 1.443587 .055791C1.771357 .055791 1.945704-.18132 2.036364-.320797C2.217684-.613699 2.308344-1.004234 2.308344-1.03213C2.308344-1.129763 2.217684-1.129763 2.113076-1.129763C1.945704-1.129763 1.93873-1.12279 1.889913-.948443C1.834122-.718306 1.708593-.195268 1.471482-.195268C1.387796-.195268 1.338979-.251059 1.338979-.411457C1.338979-.54396 1.352927-.599751 1.380822-.711333L2.357161-4.60274Z"></path>
+<path id="tz_polissemia_homonimia_g1-109" d="M2.127024-2.050311C2.175841-2.252553 2.566376-2.901121 3.200996-2.901121C3.500872-2.901121 3.500872-2.636115 3.500872-2.503611C3.500872-2.329265 3.472976-2.21071 3.396264-1.910834L3.103362-.739228C3.061519-.571856 2.991781-.292902 2.991781-.244085C2.991781-.027895 3.159153 .055791 3.305604 .055791C3.38929 .055791 3.66127 .020922 3.75193-.334745L4.177335-2.050311C4.226152-2.252553 4.623661-2.901121 5.251308-2.901121C5.551183-2.901121 5.551183-2.636115 5.551183-2.503611C5.551183-2.085181 5.230386-1.227397 5.104857-.913574C5.042092-.739228 5.021171-.669489 5.021171-.564882C5.021171-.174346 5.376837 .055791 5.753425 .055791C6.478705 .055791 6.820423-.885679 6.820423-1.03213C6.820423-1.129763 6.729763-1.129763 6.625156-1.129763C6.492653-1.129763 6.457783-1.129763 6.429888-1.039103C6.374097-.857783 6.185803-.195268 5.788294-.195268C5.753425-.195268 5.69066-.195268 5.69066-.320797C5.69066-.467248 5.760399-.648568 5.851059-.885679C5.948692-1.143711 6.262516-1.966625 6.262516-2.364134C6.262516-2.942964 5.851059-3.152179 5.300125-3.152179C4.742217-3.152179 4.42142-2.859278 4.184309-2.622167C4.030884-3.152179 3.396264-3.152179 3.249813-3.152179S2.643088-3.152179 2.182814-2.670984C2.043337-3.068493 1.624907-3.152179 1.401743-3.152179C1.073973-3.152179 .899626-2.915068 .808966-2.775592C.627646-2.48269 .536986-2.092154 .536986-2.064259C.536986-1.966625 .627646-1.966625 .732254-1.966625C.899626-1.966625 .9066-1.973599 .955417-2.147945C1.011208-2.378082 1.136737-2.901121 1.373848-2.901121C1.457534-2.901121 1.506351-2.84533 1.506351-2.684932C1.506351-2.552428 1.492403-2.496638 1.464508-2.385056L.969365-.397509C.941469-.292902 .941469-.278954 .941469-.244085C.941469-.027895 1.108842 .055791 1.255293 .055791C1.30411 .055791 1.603985 .041843 1.694645-.320797L2.127024-2.050311Z"></path>
+<path id="tz_polissemia_homonimia_g1-110" d="M2.127024-2.050311C2.175841-2.252553 2.566376-2.901121 3.200996-2.901121C3.500872-2.901121 3.500872-2.636115 3.500872-2.503611C3.500872-2.085181 3.180075-1.227397 3.054545-.913574C2.991781-.739228 2.970859-.669489 2.970859-.564882C2.970859-.174346 3.326526 .055791 3.703113 .055791C4.428394 .055791 4.770112-.885679 4.770112-1.03213C4.770112-1.129763 4.679452-1.129763 4.574844-1.129763C4.442341-1.129763 4.407472-1.129763 4.379577-1.039103C4.323786-.857783 4.135492-.195268 3.737983-.195268C3.703113-.195268 3.640349-.195268 3.640349-.320797C3.640349-.467248 3.710087-.648568 3.800747-.885679C3.898381-1.143711 4.212204-1.966625 4.212204-2.364134C4.212204-2.942964 3.800747-3.152179 3.249813-3.152179C3.103362-3.152179 2.643088-3.152179 2.182814-2.670984C2.043337-3.068493 1.624907-3.152179 1.401743-3.152179C1.073973-3.152179 .899626-2.915068 .808966-2.775592C.627646-2.48269 .536986-2.092154 .536986-2.064259C.536986-1.966625 .627646-1.966625 .732254-1.966625C.899626-1.966625 .9066-1.973599 .955417-2.147945C1.011208-2.378082 1.136737-2.901121 1.373848-2.901121C1.457534-2.901121 1.506351-2.84533 1.506351-2.684932C1.506351-2.552428 1.492403-2.496638 1.464508-2.385056L.969365-.397509C.941469-.292902 .941469-.278954 .941469-.244085C.941469-.027895 1.108842 .055791 1.255293 .055791C1.30411 .055791 1.603985 .041843 1.694645-.320797L2.127024-2.050311Z"></path>
+<path id="tz_polissemia_homonimia_g1-111" d="M4.14944-1.980573C4.14944-2.698879 3.654296-3.152179 2.824408-3.152179C1.443587-3.152179 .746202-1.987547 .746202-1.115816C.746202-.397509 1.241345 .055791 2.071233 .055791C3.445081 .055791 4.14944-1.101868 4.14944-1.980573ZM2.085181-.195268C1.841096-.195268 1.506351-.313823 1.506351-.808966C1.506351-1.080946 1.687671-1.862017 1.862017-2.231631C2.064259-2.670984 2.454795-2.901121 2.810461-2.901121C3.054545-2.901121 3.38929-2.782565 3.38929-2.287422C3.38929-2.015442 3.20797-1.234371 3.033624-.864757C2.831382-.425405 2.440847-.195268 2.085181-.195268Z"></path>
+<path id="tz_polissemia_homonimia_g1-112" d="M.641594 .913574C.613699 1.018182 .606725 1.025156 .397509 1.025156C.292902 1.025156 .174346 1.025156 .174346 1.227397C.174346 1.311083 .244085 1.352927 .306849 1.352927C.502117 1.352927 .72528 1.332005 .927522 1.332005C1.171606 1.332005 1.422665 1.352927 1.659776 1.352927C1.708593 1.352927 1.84807 1.352927 1.84807 1.150685C1.84807 1.03213 1.729514 1.025156 1.659776 1.025156C1.562142 1.025156 1.45056 1.025156 1.3599 1.018182L1.652802-.167372C1.875965 .027895 2.127024 .055791 2.287422 .055791C3.459029 .055791 4.156413-1.101868 4.156413-2.036364C4.156413-2.866252 3.57061-3.152179 3.040598-3.152179C2.615193-3.152179 2.287422-2.929016 2.12005-2.796513C1.987547-3.040598 1.673724-3.152179 1.401743-3.152179C1.073973-3.152179 .899626-2.915068 .808966-2.775592C.627646-2.48269 .536986-2.092154 .536986-2.064259C.536986-1.966625 .627646-1.966625 .732254-1.966625C.899626-1.966625 .9066-1.973599 .955417-2.147945C1.011208-2.378082 1.136737-2.901121 1.373848-2.901121C1.457534-2.901121 1.506351-2.84533 1.506351-2.684932C1.506351-2.552428 1.492403-2.496638 1.464508-2.385056L.641594 .913574ZM2.182814-2.273474C2.196762-2.322291 2.196762-2.343213 2.203736-2.399004C2.503611-2.796513 2.796513-2.901121 3.012702-2.901121C3.173101-2.901121 3.410212-2.803487 3.410212-2.405978C3.410212-2.02939 3.166127-1.171606 3.089415-.976339C2.852304-.299875 2.468742-.195268 2.287422-.195268C2.043337-.195268 1.84807-.348692 1.771357-.627646L2.182814-2.273474Z"></path>
+<path id="tz_polissemia_homonimia_g1-114" d="M2.168867-2.217684C2.21071-2.378082 2.524533-2.901121 3.012702-2.901121C3.089415-2.901121 3.256787-2.894147 3.396264-2.782565C3.075467-2.636115 3.068493-2.343213 3.068493-2.315318C3.068493-2.140971 3.200996-1.994521 3.417186-1.994521C3.682192-1.994521 3.919303-2.217684 3.919303-2.531507C3.919303-2.901121 3.542715-3.152179 3.033624-3.152179C2.768618-3.152179 2.440847-3.075467 2.140971-2.775592C2.022416-2.991781 1.743462-3.152179 1.401743-3.152179C1.073973-3.152179 .899626-2.915068 .808966-2.775592C.627646-2.48269 .536986-2.092154 .536986-2.064259C.536986-1.966625 .627646-1.966625 .732254-1.966625C.899626-1.966625 .9066-1.973599 .955417-2.147945C1.011208-2.378082 1.136737-2.901121 1.373848-2.901121C1.457534-2.901121 1.506351-2.84533 1.506351-2.684932C1.506351-2.552428 1.492403-2.496638 1.464508-2.385056L.969365-.397509C.941469-.292902 .941469-.278954 .941469-.244085C.941469-.027895 1.108842 .055791 1.255293 .055791C1.30411 .055791 1.603985 .041843 1.694645-.320797L2.168867-2.217684Z"></path>
+<path id="tz_polissemia_homonimia_g1-115" d="M2.915068-2.733748C2.650062-2.615193 2.650062-2.364134 2.650062-2.343213C2.650062-2.168867 2.782565-2.057285 2.956912-2.057285S3.38929-2.196762 3.38929-2.538481C3.38929-2.922042 2.998755-3.152179 2.447821-3.152179C1.903861-3.152179 1.659776-2.963885 1.534247-2.859278C1.30411-2.66401 1.164633-2.294396 1.164633-2.078207C1.164633-1.48543 1.764384-1.366874 1.980573-1.325031C2.343213-1.255293 2.712827-1.185554 2.712827-.864757C2.712827-.857783 2.712827-.195268 1.743462-.195268C1.652802-.195268 1.325031-.195268 1.094894-.383562C1.143711-.404483 1.436613-.536986 1.436613-.857783C1.436613-1.12279 1.21345-1.17858 1.094894-1.17858C.836862-1.17858 .592777-.976339 .592777-.63462C.592777-.195268 1.046077 .055791 1.72254 .055791C1.917808 .055791 2.364134 .048817 2.740722-.216189C3.103362-.474222 3.242839-.913574 3.242839-1.143711C3.242839-1.297136 3.194022-1.534247 2.93599-1.736488C2.733748-1.896887 2.559402-1.931756 2.189788-2.001494C1.980573-2.043337 1.694645-2.099128 1.694645-2.357161C1.694645-2.364134 1.694645-2.901121 2.433873-2.901121C2.503611-2.901121 2.75467-2.901121 2.915068-2.733748Z"></path>
+<path id="tz_polissemia_homonimia_g2-183" d="M1.562142-2.015442C1.415691-1.917808 1.318057-1.750436 1.318057-1.603985C1.318057-1.443587 1.471482-1.283188 1.63188-1.283188C1.889913-1.283188 2.127024-1.513325 2.127024-1.771357C2.127024-1.889913 2.113076-1.924782 2.022416-2.001494C1.882939-2.127024 1.736488-2.127024 1.562142-2.015442Z"></path>
+<path id="tz_polissemia_homonimia_g3-19" d="M4.100623-4.365629C4.198257-4.428394 4.281943-4.491158 4.281943-4.623661C4.281943-4.770112 4.163387-4.853798 4.05878-4.853798C3.961146-4.853798 3.884433-4.791034 3.856538-4.763138L2.705853-3.765878C2.636115-3.703113 2.622167-3.696139 2.622167-3.654296S2.684932-3.486924 2.768618-3.486924C2.789539-3.486924 2.810461-3.486924 2.880199-3.535741L4.100623-4.365629Z"></path>
+<path id="tz_polissemia_homonimia_g3-24" d="M2.02939-.055791C1.862017-.055791 1.855044-.055791 1.8132 .09066C1.792279 .167372 1.743462 .355666 1.743462 .383562C1.743462 .474222 1.834122 .481196 1.875965 .481196C2.12005 .502117 2.266501 .585803 2.266501 .72528C2.266501 1.129763 1.45056 1.129763 1.227397 1.129763H1.115816C1.004234 1.129763 .920548 1.129763 .920548 1.227397C.920548 1.276214 .955417 1.318057 1.018182 1.325031H1.227397C1.896887 1.325031 2.775592 1.283188 2.775592 .718306C2.775592 .383562 2.378082 .327771 2.273474 .313823C2.30137 .223163 2.336239 .076712 2.336239 .048817C2.336239-.055791 2.266501-.055791 2.140971-.055791H2.02939Z"></path>
+<path id="tz_polissemia_homonimia_g3-45" d="M2.447821-1.276214C2.601245-1.276214 2.615193-1.276214 2.643088-1.39477C2.650062-1.39477 2.698879-1.603985 2.698879-1.63188C2.698879-1.729514 2.608219-1.729514 2.503611-1.729514H.948443C.795019-1.729514 .774097-1.729514 .746202-1.617933C.739228-1.603985 .683437-1.401743 .683437-1.373848C.683437-1.276214 .774097-1.276214 .878705-1.276214H2.447821Z"></path>
+<path id="tz_polissemia_homonimia_g3-49" d="M3.549689-4.442341C3.556663-4.463263 3.563636-4.51208 3.563636-4.533001C3.563636-4.546949 3.556663-4.630635 3.459029-4.630635C3.396264-4.630635 3.38929-4.616687 3.312578-4.519054C3.047572-4.184309 2.615193-3.7868 2.022416-3.737983C1.931756-3.724035 1.855044-3.717061 1.855044-3.584558C1.855044-3.47995 1.952677-3.47995 1.987547-3.47995C2.099128-3.47995 2.419925-3.507846 2.859278-3.779826L2.057285-.564882C1.994521-.320797 1.952677-.251059 1.332005-.251059H1.234371C1.115816-.251059 1.025156-.251059 1.025156-.097634C1.025156-.09066 1.025156 0 1.136737 0C1.471482 0 1.841096-.027895 2.182814-.027895S2.901121 0 3.235866 0C3.291656 0 3.38929 0 3.38929-.153425C3.38929-.251059 3.29863-.251059 3.194022-.251059H3.096389C2.998755-.251059 2.873225-.258032 2.775592-.265006C2.580324-.285928 2.545455-.285928 2.545455-.397509C2.545455-.425405 2.545455-.439352 2.57335-.54396L3.549689-4.442341Z"></path>
+<path id="tz_polissemia_homonimia_g3-50" d="M1.311083-.571856C1.680697-1.115816 2.238605-1.387796 2.378082-1.457534C3.835616-2.140971 4.33076-2.650062 4.33076-3.396264C4.33076-4.107597 3.800747-4.630635 3.033624-4.630635C1.959651-4.630635 1.255293-3.38929 1.255293-2.838356C1.255293-2.503611 1.45056-2.343213 1.694645-2.343213C2.273474-2.343213 2.636115-3.124284 2.636115-3.431133C2.636115-3.584558 2.538481-3.835616 2.440847-3.835616C2.39203-3.835616 2.336239-3.7868 2.336239-3.737983C2.336239-3.710087 2.357161-3.675218 2.371108-3.654296C2.412951-3.584558 2.440847-3.500872 2.440847-3.424159C2.440847-3.20797 2.140971-2.538481 1.701619-2.538481C1.555168-2.538481 1.534247-2.677958 1.534247-2.782565C1.534247-3.249813 2.12005-4.435367 3.019676-4.435367C3.340473-4.435367 3.772852-4.254047 3.772852-3.619427C3.772852-2.866252 3.431133-2.266501 2.266501-1.708593C.913574-1.053051 .711333 .027895 .711333 .055791C.711333 .139477 .795019 .139477 .857783 .139477C.969365 .139477 .983313 .132503 1.011208 .034869C1.066999-.139477 1.199502-.383562 1.408717-.383562C1.645828-.383562 1.862017-.278954 2.106102-.139477C2.294396-.027895 2.57335 .139477 2.887173 .139477C3.737983 .139477 4.163387-.962391 4.163387-1.143711C4.163387-1.227397 4.065753-1.227397 4.016936-1.227397C3.905355-1.227397 3.891407-1.21345 3.863512-1.129763C3.724035-.704359 3.382316-.390535 2.949938-.390535C2.726775-.390535 2.419925-.446326 2.175841-.488169C2.057285-.516065 1.687671-.585803 1.415691-.585803L1.311083-.571856Z"></path>
+<path id="tz_polissemia_homonimia_g3-97" d="M3.814695-2.587298C3.84259-2.691905 3.84259-2.705853 3.84259-2.733748C3.84259-2.887173 3.731009-2.942964 3.626401-2.942964C3.396264-2.942964 3.326526-2.705853 3.319552-2.684932C3.145205-2.970859 2.887173-3.075467 2.636115-3.075467C1.785305-3.075467 .899626-2.092154 .899626-1.073973C.899626-.327771 1.373848 .069738 1.889913 .069738C2.336239 .069738 2.705853-.258032 2.84533-.404483C2.93599-.069738 3.263761 .069738 3.514819 .069738C3.731009 .069738 3.912329-.034869 4.065753-.285928C4.233126-.557908 4.33076-.976339 4.33076-.99726C4.33076-1.08792 4.2401-1.08792 4.184309-1.08792C4.05878-1.08792 4.051806-1.073973 4.009963-.899626C3.912329-.536986 3.793773-.125529 3.535741-.125529C3.340473-.125529 3.312578-.334745 3.312578-.4533S3.312578-.585803 3.354421-.746202L3.814695-2.587298ZM2.887173-.948443C2.831382-.732254 2.677958-.564882 2.517559-.411457C2.231631-.160399 2.015442-.125529 1.910834-.125529C1.590037-.125529 1.429639-.425405 1.429639-.788045C1.429639-1.080946 1.603985-1.84807 1.799253-2.224658C2.022416-2.636115 2.357161-2.880199 2.636115-2.880199C3.110336-2.880199 3.200996-2.273474 3.200996-2.203736C3.200996-2.182814 3.194022-2.154919 3.180075-2.106102L2.887173-.948443Z"></path>
+<path id="tz_polissemia_homonimia_g3-98" d="M2.294396-4.637609C2.30137-4.665504 2.315318-4.714321 2.315318-4.742217C2.315318-4.846824 2.203736-4.839851 2.127024-4.832877L1.373848-4.770112C1.283188-4.763138 1.192528-4.756164 1.192528-4.609714C1.192528-4.51208 1.283188-4.51208 1.373848-4.51208C1.708593-4.51208 1.708593-4.463263 1.708593-4.400498C1.708593-4.358655 1.708593-4.344707 1.680697-4.247073L1.004234-1.555168C.941469-1.30411 .941469-1.143711 .941469-1.053051C.941469-.313823 1.39477 .069738 1.896887 .069738C2.75467 .069738 3.633375-.927522 3.633375-1.93873C3.633375-2.636115 3.194022-3.075467 2.643088-3.075467C2.266501-3.075467 1.973599-2.84533 1.8132-2.719801L2.294396-4.637609ZM1.903861-.125529C1.610959-.125529 1.401743-.376588 1.401743-.829888C1.401743-1.199502 1.659776-2.133998 1.701619-2.203736C1.910834-2.538481 2.280448-2.880199 2.629141-2.880199C2.956912-2.880199 3.103362-2.559402 3.103362-2.224658C3.103362-1.903861 2.908095-1.12279 2.733748-.795019C2.475716-.306849 2.127024-.125529 1.903861-.125529Z"></path>
+<path id="tz_polissemia_homonimia_g3-99" d="M3.382316-2.629141C3.180075-2.57335 3.110336-2.405978 3.110336-2.287422C3.110336-2.175841 3.187049-2.057285 3.361395-2.057285C3.47995-2.057285 3.710087-2.133998 3.710087-2.468742C3.710087-2.922042 3.221918-3.075467 2.838356-3.075467C1.862017-3.075467 .9066-2.12005 .9066-1.129763C.9066-.474222 1.345953 .069738 2.12005 .069738C3.242839 .069738 3.772852-.585803 3.772852-.676463C3.772852-.732254 3.675218-.843836 3.612453-.843836C3.577584-.843836 3.556663-.822914 3.507846-.767123C3.082441-.258032 2.475716-.125529 2.127024-.125529S1.457534-.327771 1.457534-.892653C1.457534-1.220423 1.610959-1.959651 1.931756-2.364134C2.21071-2.719801 2.545455-2.880199 2.84533-2.880199C2.963885-2.880199 3.263761-2.84533 3.382316-2.629141Z"></path>
+<path id="tz_polissemia_homonimia_g3-100" d="M4.33076-4.637609C4.337733-4.665504 4.351681-4.714321 4.351681-4.742217C4.351681-4.846824 4.2401-4.839851 4.163387-4.832877L3.410212-4.770112C3.319552-4.763138 3.228892-4.756164 3.228892-4.609714C3.228892-4.51208 3.319552-4.51208 3.410212-4.51208C3.744956-4.51208 3.744956-4.463263 3.744956-4.400498C3.744956-4.379577 3.744956-4.365629 3.717061-4.267995L3.326526-2.684932C3.166127-2.929016 2.929016-3.075467 2.636115-3.075467C1.785305-3.075467 .899626-2.092154 .899626-1.073973C.899626-.327771 1.373848 .069738 1.889913 .069738C2.336239 .069738 2.705853-.258032 2.84533-.404483C2.93599-.069738 3.263761 .069738 3.514819 .069738C3.731009 .069738 3.912329-.034869 4.065753-.285928C4.233126-.557908 4.33076-.976339 4.33076-.99726C4.33076-1.08792 4.2401-1.08792 4.184309-1.08792C4.05878-1.08792 4.051806-1.073973 4.009963-.899626C3.912329-.536986 3.793773-.125529 3.535741-.125529C3.340473-.125529 3.312578-.334745 3.312578-.4533S3.347447-.718306 3.354421-.739228L4.33076-4.637609ZM2.887173-.948443C2.831382-.732254 2.677958-.564882 2.517559-.411457C2.231631-.160399 2.015442-.125529 1.910834-.125529C1.590037-.125529 1.429639-.425405 1.429639-.788045C1.429639-1.080946 1.603985-1.84807 1.799253-2.224658C2.022416-2.636115 2.357161-2.880199 2.636115-2.880199C3.110336-2.880199 3.200996-2.273474 3.200996-2.203736C3.200996-2.182814 3.194022-2.154919 3.180075-2.106102L2.887173-.948443Z"></path>
+<path id="tz_polissemia_homonimia_g3-101" d="M2.001494-1.590037C2.30137-1.590037 3.675218-1.590037 3.675218-2.461768C3.675218-2.838356 3.319552-3.075467 2.831382-3.075467C2.050311-3.075467 .941469-2.447821 .941469-1.220423C.941469-.488169 1.373848 .069738 2.127024 .069738C3.235866 .069738 3.772852-.585803 3.772852-.676463C3.772852-.732254 3.675218-.843836 3.612453-.843836C3.577584-.843836 3.556663-.822914 3.507846-.767123C3.082441-.258032 2.475716-.125529 2.127024-.125529C1.673724-.125529 1.478456-.509091 1.478456-.948443C1.478456-1.164633 1.520299-1.380822 1.569116-1.590037H2.001494ZM1.624907-1.785305C1.93873-2.866252 2.747696-2.880199 2.831382-2.880199C3.124284-2.880199 3.340473-2.719801 3.340473-2.468742C3.340473-1.785305 2.224658-1.785305 1.952677-1.785305H1.624907Z"></path>
+<path id="tz_polissemia_homonimia_g3-102" d="M2.154919-2.75467H2.810461C2.93599-2.75467 3.02665-2.75467 3.02665-2.908095C3.02665-3.005729 2.929016-3.005729 2.824408-3.005729H2.203736C2.280448-3.466002 2.364134-3.891407 2.399004-4.037858C2.468742-4.379577 2.538481-4.714321 2.817435-4.714321C2.929016-4.714321 3.040598-4.686426 3.124284-4.616687C2.991781-4.560897 2.901121-4.435367 2.901121-4.29589C2.901121-4.093649 3.068493-4.05878 3.145205-4.05878C3.347447-4.05878 3.500872-4.226152 3.500872-4.442341C3.500872-4.742217 3.180075-4.909589 2.817435-4.909589C2.057285-4.909589 1.896887-4.086675 1.855044-3.870486L1.687671-3.005729H1.157659C1.03213-3.005729 .948443-3.005729 .948443-2.852304C.948443-2.75467 1.03213-2.75467 1.143711-2.75467H1.638854L1.185554-.278954C.9066 1.227397 .704359 1.227397 .550934 1.227397C.523039 1.227397 .376588 1.227397 .258032 1.12279C.481196 1.03213 .481196 .836862 .481196 .808966C.481196 .606725 .313823 .571856 .237111 .571856C.034869 .571856-.118555 .739228-.118555 .955417C-.118555 1.26924 .223163 1.422665 .54396 1.422665C1.21345 1.422665 1.48543 .530012 1.57609 .195268C1.638854-.041843 1.701619-.278954 1.743462-.516065L2.154919-2.75467Z"></path>
+<path id="tz_polissemia_homonimia_g3-103" d="M3.807721-2.587298C3.835616-2.691905 3.835616-2.705853 3.835616-2.733748C3.835616-2.887173 3.724035-2.942964 3.619427-2.942964C3.472976-2.942964 3.354421-2.838356 3.312578-2.698879C3.145205-2.956912 2.901121-3.075467 2.629141-3.075467C1.778331-3.075467 .9066-2.099128 .9066-1.12279C.9066-.481196 1.318057 0 1.903861 0C2.252553 0 2.545455-.188294 2.733748-.348692C2.712827-.258032 2.517559 .495143 2.517559 .509091C2.461768 .655542 2.203736 1.227397 1.48543 1.227397C1.387796 1.227397 1.143711 1.227397 .976339 1.164633C1.143711 1.066999 1.143711 .885679 1.143711 .878705C1.143711 .739228 1.046077 .641594 .892653 .641594C.718306 .641594 .54396 .788045 .54396 1.018182C.54396 1.387796 .990286 1.422665 1.464508 1.422665C2.468742 1.422665 2.942964 .885679 3.054545 .446326L3.807721-2.587298ZM2.894147-.983313C2.838356-.767123 2.371108-.195268 1.924782-.195268C1.603985-.195268 1.443587-.481196 1.443587-.843836C1.443587-1.136737 1.617933-1.917808 1.834122-2.287422C2.078207-2.705853 2.399004-2.880199 2.629141-2.880199C3.110336-2.880199 3.194022-2.280448 3.194022-2.217684L3.173101-2.12005L2.894147-.983313Z"></path>
+<path id="tz_polissemia_homonimia_g3-105" d="M2.489664-4.344707C2.489664-4.491158 2.385056-4.588792 2.245579-4.588792C2.050311-4.588792 1.896887-4.407472 1.896887-4.254047C1.896887-4.128518 1.980573-4.009963 2.147945-4.009963C2.322291-4.009963 2.489664-4.177335 2.489664-4.344707ZM1.471482-1.72254C1.422665-1.590037 1.297136-1.26924 1.227397-1.073973C1.157659-.892653 1.060025-.641594 1.060025-.516065C1.060025-.195268 1.311083 .069738 1.680697 .069738C2.378082 .069738 2.691905-.885679 2.691905-.99726C2.691905-1.08792 2.601245-1.08792 2.545455-1.08792C2.419925-1.08792 2.412951-1.066999 2.378082-.941469C2.287422-.606725 2.057285-.125529 1.701619-.125529C1.534247-.125529 1.534247-.292902 1.534247-.36264C1.534247-.530012 1.652802-.829888 1.743462-1.053051C1.820174-1.26924 2.168867-2.154919 2.203736-2.259527C2.245579-2.378082 2.245579-2.399004 2.245579-2.489664C2.245579-2.803487 2.001494-3.075467 1.617933-3.075467C.934496-3.075467 .613699-2.133998 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.136737-2.817435 1.471482-2.880199 1.597011-2.880199C1.680697-2.880199 1.771357-2.859278 1.771357-2.643088C1.771357-2.489664 1.715567-2.350187 1.659776-2.203736L1.471482-1.72254Z"></path>
+<path id="tz_polissemia_homonimia_g3-108" d="M2.294396-4.637609C2.30137-4.665504 2.315318-4.714321 2.315318-4.742217C2.315318-4.846824 2.203736-4.839851 2.127024-4.832877L1.373848-4.770112C1.283188-4.763138 1.192528-4.756164 1.192528-4.609714C1.192528-4.51208 1.283188-4.51208 1.373848-4.51208C1.708593-4.51208 1.708593-4.463263 1.708593-4.400498C1.708593-4.351681 1.694645-4.29589 1.680697-4.247073L.822914-.822914C.788045-.683437 .788045-.63462 .788045-.585803C.788045-.125529 1.171606 .069738 1.478456 .069738C1.638854 .069738 1.855044 .013948 2.043337-.306849C2.196762-.578829 2.287422-.969365 2.287422-.99726C2.287422-1.08792 2.196762-1.08792 2.140971-1.08792C2.015442-1.08792 2.008468-1.066999 1.980573-.948443C1.882939-.578829 1.764384-.125529 1.499377-.125529C1.30411-.125529 1.276214-.334745 1.276214-.4533S1.311083-.718306 1.318057-.739228L2.294396-4.637609Z"></path>
+<path id="tz_polissemia_homonimia_g3-109" d="M3.228892-.613699C3.187049-.460274 3.11731-.18132 3.11731-.139477C3.11731 .013948 3.228892 .069738 3.333499 .069738C3.57061 .069738 3.619427-.139477 3.647323-.244085C3.675218-.36264 3.765878-.711333 3.807721-.864757C3.828643-.969365 3.898381-1.234371 3.919303-1.338979C3.940224-1.408717 4.030884-1.75741 4.037858-1.806227C4.051806-1.84807 4.261021-2.308344 4.546949-2.57335C4.756164-2.761644 5.000249-2.880199 5.279203-2.880199C5.6-2.880199 5.676712-2.636115 5.676712-2.405978C5.676712-1.994521 5.348941-1.150685 5.230386-.829888C5.160648-.655542 5.160648-.606725 5.160648-.516065C5.160648-.139477 5.460523 .069738 5.78132 .069738C6.478705 .069738 6.792528-.885679 6.792528-.99726C6.792528-1.08792 6.701868-1.08792 6.646077-1.08792C6.520548-1.08792 6.513574-1.066999 6.478705-.941469C6.360149-.509091 6.109091-.125529 5.802242-.125529C5.704608-.125529 5.627895-.174346 5.627895-.36264C5.627895-.516065 5.69066-.669489 5.746451-.829888C5.87198-1.157659 6.164882-1.917808 6.164882-2.30137C6.164882-2.84533 5.788294-3.075467 5.307098-3.075467C4.770112-3.075467 4.400498-2.775592 4.11457-2.405978C4.051806-2.984807 3.577584-3.075467 3.256787-3.075467C2.636115-3.075467 2.280448-2.657036 2.12005-2.475716C2.078207-2.915068 1.701619-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.412951 1.534247-2.057285 1.478456-1.8132L1.283188-1.060025C1.262267-.955417 1.192528-.690411 1.164633-.585803C1.129763-.432379 1.066999-.188294 1.066999-.139477C1.066999 .013948 1.17858 .069738 1.283188 .069738C1.520299 .069738 1.569116-.139477 1.597011-.244085C1.624907-.36264 1.715567-.711333 1.75741-.864757C1.862017-1.297136 1.966625-1.729514 1.987547-1.806227C1.987547-1.8132 2.217684-2.343213 2.531507-2.608219C2.629141-2.684932 2.866252-2.880199 3.235866-2.880199C3.563636-2.880199 3.633375-2.622167 3.633375-2.399004C3.633375-2.238605 3.584558-2.050311 3.542715-1.868991C3.500872-1.72254 3.410212-1.352927 3.375342-1.199502L3.228892-.613699Z"></path>
+<path id="tz_polissemia_homonimia_g3-110" d="M2.12005-2.48269C2.071233-2.908095 1.708593-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.412951 1.534247-2.057285 1.478456-1.8132L1.283188-1.060025C1.262267-.955417 1.192528-.690411 1.164633-.585803C1.129763-.432379 1.066999-.188294 1.066999-.139477C1.066999 .013948 1.17858 .069738 1.283188 .069738C1.520299 .069738 1.569116-.139477 1.597011-.244085C1.624907-.36264 1.715567-.711333 1.75741-.864757C1.778331-.969365 1.84807-1.234371 1.868991-1.338979C1.889913-1.408717 1.980573-1.75741 1.987547-1.806227C2.001494-1.84807 2.21071-2.308344 2.496638-2.57335C2.705853-2.761644 2.949938-2.880199 3.228892-2.880199C3.549689-2.880199 3.626401-2.636115 3.626401-2.405978C3.626401-1.994521 3.29863-1.150685 3.180075-.829888C3.110336-.655542 3.110336-.606725 3.110336-.516065C3.110336-.139477 3.410212 .069738 3.731009 .069738C4.428394 .069738 4.742217-.885679 4.742217-.99726C4.742217-1.08792 4.651557-1.08792 4.595766-1.08792C4.470237-1.08792 4.463263-1.066999 4.428394-.941469C4.309838-.509091 4.05878-.125529 3.75193-.125529C3.654296-.125529 3.577584-.174346 3.577584-.36264C3.577584-.516065 3.640349-.669489 3.696139-.829888C3.821669-1.157659 4.11457-1.917808 4.11457-2.30137C4.11457-2.84533 3.737983-3.075467 3.256787-3.075467C2.705853-3.075467 2.329265-2.747696 2.12005-2.48269Z"></path>
+<path id="tz_polissemia_homonimia_g3-111" d="M4.037858-1.875965C4.037858-2.552428 3.563636-3.075467 2.84533-3.075467C1.84807-3.075467 .9066-2.106102 .9066-1.129763C.9066-.418431 1.408717 .069738 2.099128 .069738C3.096389 .069738 4.037858-.9066 4.037858-1.875965ZM2.106102-.125529C1.910834-.125529 1.457534-.223163 1.457534-.892653C1.457534-1.199502 1.597011-1.931756 1.931756-2.364134C2.175841-2.691905 2.531507-2.880199 2.838356-2.880199C3.082441-2.880199 3.486924-2.733748 3.486924-2.113076C3.486924-1.875965 3.382316-1.206476 3.082441-.732254C2.866252-.397509 2.475716-.125529 2.106102-.125529Z"></path>
+<path id="tz_polissemia_homonimia_g3-112" d="M.808966 .857783C.760149 1.060025 .718306 1.101868 .460274 1.101868C.36264 1.101868 .278954 1.101868 .278954 1.255293C.278954 1.318057 .320797 1.352927 .376588 1.352927C.557908 1.352927 .774097 1.325031 .962391 1.325031C1.192528 1.325031 1.45056 1.352927 1.673724 1.352927C1.708593 1.352927 1.8132 1.352927 1.8132 1.206476C1.8132 1.101868 1.743462 1.101868 1.610959 1.101868C1.48543 1.101868 1.297136 1.101868 1.297136 1.018182C1.297136 .976339 1.332005 .81594 1.3599 .711333L1.617933-.320797C1.715567-.167372 1.931756 .069738 2.308344 .069738C3.166127 .069738 4.044832-.927522 4.044832-1.931756C4.044832-2.636115 3.598506-3.075467 3.054545-3.075467C2.601245-3.075467 2.231631-2.747696 2.099128-2.601245C1.987547-2.984807 1.624907-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.468742 1.624907-2.419925 1.597011-2.308344L.808966 .857783ZM2.050311-2.057285C2.113076-2.315318 2.594271-2.880199 3.033624-2.880199C3.347447-2.880199 3.514819-2.587298 3.514819-2.224658C3.514819-1.875965 3.319552-1.115816 3.152179-.801993C2.852304-.251059 2.496638-.125529 2.308344-.125529C1.841096-.125529 1.743462-.704359 1.743462-.801993C1.743462-.829888 1.750436-.843836 1.764384-.9066L2.050311-2.057285Z"></path>
+<path id="tz_polissemia_homonimia_g3-114" d="M1.862017-1.297136C1.896887-1.45056 1.93873-1.597011 1.973599-1.750436C2.015442-1.917808 2.092154-2.217684 2.399004-2.566376C2.538481-2.726775 2.740722-2.880199 3.047572-2.880199C3.124284-2.880199 3.361395-2.873225 3.521793-2.761644C3.375342-2.691905 3.312578-2.566376 3.312578-2.447821C3.312578-2.252553 3.466002-2.21071 3.556663-2.21071C3.689166-2.21071 3.905355-2.308344 3.905355-2.594271C3.905355-2.949938 3.472976-3.075467 3.061519-3.075467C2.873225-3.075467 2.496638-3.061519 2.099128-2.601245C1.987547-2.984807 1.624907-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.412951 1.534247-2.057285 1.478456-1.8132L1.283188-1.060025C1.262267-.955417 1.192528-.690411 1.164633-.585803C1.129763-.432379 1.066999-.188294 1.066999-.139477C1.066999 .013948 1.17858 .069738 1.283188 .069738C1.436613 .069738 1.527273-.041843 1.555168-.097634C1.57609-.146451 1.638854-.397509 1.673724-.54396L1.862017-1.297136Z"></path>
+<path id="tz_polissemia_homonimia_g3-115" d="M2.991781-2.594271C2.956912-2.580324 2.775592-2.48269 2.775592-2.30137C2.775592-2.21071 2.824408-2.092154 2.998755-2.092154C3.082441-2.092154 3.305604-2.133998 3.305604-2.468742C3.305604-2.915068 2.831382-3.075467 2.426899-3.075467C1.429639-3.075467 1.199502-2.322291 1.199502-2.050311C1.199502-1.48543 1.750436-1.380822 2.008468-1.332005C2.336239-1.26924 2.726775-1.199502 2.726775-.843836C2.726775-.655542 2.552428-.125529 1.715567-.125529C1.499377-.125529 1.094894-.167372 .948443-.467248C1.192528-.530012 1.234371-.732254 1.234371-.808966C1.234371-.941469 1.136737-1.039103 .990286-1.039103C.801993-1.039103 .627646-.899626 .627646-.606725C.627646-.188294 1.060025 .069738 1.701619 .069738C2.894147 .069738 3.166127-.774097 3.166127-1.08792C3.166127-1.297136 3.075467-1.492403 2.908095-1.638854C2.705853-1.806227 2.531507-1.841096 2.154919-1.910834C1.945704-1.952677 1.638854-2.008468 1.638854-2.294396C1.638854-2.419925 1.75741-2.880199 2.419925-2.880199C2.580324-2.880199 2.880199-2.84533 2.991781-2.594271Z"></path>
+<path id="tz_polissemia_homonimia_g3-116" d="M2.022416-2.75467H2.712827C2.838356-2.75467 2.922042-2.75467 2.922042-2.908095C2.922042-3.005729 2.838356-3.005729 2.726775-3.005729H2.085181L2.336239-4.009963C2.364134-4.107597 2.364134-4.121544 2.364134-4.14944C2.364134-4.274969 2.266501-4.358655 2.140971-4.358655C1.903861-4.358655 1.84807-4.128518 1.834122-4.065753L1.569116-3.005729H.878705C.753176-3.005729 .669489-3.005729 .669489-2.852304C.669489-2.75467 .753176-2.75467 .864757-2.75467H1.506351L1.025156-.822914C.990286-.683437 .990286-.63462 .990286-.585803C.990286-.153425 1.332005 .069738 1.694645 .069738C2.447821 .069738 2.894147-.892653 2.894147-1.004234C2.894147-1.08792 2.803487-1.08792 2.75467-1.08792C2.643088-1.08792 2.636115-1.073973 2.594271-.976339C2.266501-.237111 1.903861-.125529 1.715567-.125529C1.478456-.125529 1.478456-.383562 1.478456-.4533C1.478456-.571856 1.513325-.718306 1.520299-.739228L2.022416-2.75467Z"></path>
+<path id="tz_polissemia_homonimia_g3-117" d="M4.051806-2.712827C4.065753-2.775592 4.072727-2.782565 4.072727-2.796513C4.072727-2.901121 3.996015-3.005729 3.849564-3.005729C3.626401-3.005729 3.556663-2.803487 3.535741-2.705853L3.082441-.878705C3.033624-.676463 2.705853-.125529 2.217684-.125529C1.896887-.125529 1.75741-.36264 1.75741-.690411C1.75741-1.08792 1.980573-1.66675 2.168867-2.147945C2.217684-2.280448 2.245579-2.357161 2.245579-2.489664C2.245579-2.838356 1.966625-3.075467 1.624907-3.075467C.934496-3.075467 .613699-2.127024 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.12279-2.768618 1.436613-2.880199 1.603985-2.880199C1.72254-2.880199 1.778331-2.803487 1.778331-2.650062C1.778331-2.489664 1.729514-2.378082 1.603985-2.043337C1.352927-1.387796 1.26924-1.066999 1.26924-.795019C1.26924-.097634 1.799253 .069738 2.189788 .069738C2.622167 .069738 2.866252-.167372 3.068493-.369614C3.180075-.027895 3.514819 .069738 3.724035 .069738C3.940224 .069738 4.121544-.034869 4.274969-.285928C4.442341-.557908 4.539975-.976339 4.539975-.99726C4.539975-1.08792 4.449315-1.08792 4.393524-1.08792C4.267995-1.08792 4.261021-1.073973 4.219178-.899626C4.121544-.536986 4.002989-.125529 3.744956-.125529C3.549689-.125529 3.521793-.334745 3.521793-.4533S3.521793-.585803 3.563636-.746202L4.051806-2.712827Z"></path>
+<path id="tz_polissemia_homonimia_g3-118" d="M3.891407-2.538481C3.891407-3.061519 3.612453-3.082441 3.563636-3.082441C3.382316-3.082441 3.200996-2.901121 3.200996-2.726775C3.200996-2.629141 3.256787-2.580324 3.291656-2.538481C3.431133-2.399004 3.493898-2.217684 3.493898-2.015442C3.493898-1.736488 3.110336-.125529 2.30137-.125529C2.036364-.125529 1.764384-.251059 1.764384-.732254C1.764384-1.115816 1.987547-1.687671 2.182814-2.182814C2.245579-2.357161 2.245579-2.426899 2.245579-2.489664C2.245579-2.838356 1.966625-3.075467 1.624907-3.075467C.934496-3.075467 .613699-2.127024 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.12279-2.768618 1.436613-2.880199 1.603985-2.880199C1.72254-2.880199 1.778331-2.803487 1.778331-2.650062C1.778331-2.489664 1.729514-2.378082 1.603985-2.043337C1.276214-1.192528 1.276214-.983313 1.276214-.822914C1.276214-.083686 1.868991 .069738 2.280448 .069738C3.445081 .069738 3.891407-2.036364 3.891407-2.538481Z"></path>
+<path id="tz_polissemia_homonimia_g3-126" d="M4.463263-4.595766C4.463263-4.651557 4.42142-4.6934 4.372603-4.6934C4.337733-4.6934 4.323786-4.6934 4.219178-4.595766C4.086675-4.484184 3.758904-4.226152 3.563636-4.226152C3.445081-4.226152 3.38929-4.309838 3.29863-4.435367C3.221918-4.539975 3.110336-4.6934 2.894147-4.6934C2.608219-4.6934 2.252553-4.393524 2.057285-4.226152C1.889913-4.086675 1.882939-4.079701 1.882939-4.030884C1.882939-3.961146 1.93873-3.93325 1.980573-3.93325C2.015442-3.93325 2.02939-3.947198 2.071233-3.989041C2.238605-4.128518 2.57335-4.400498 2.789539-4.400498C2.901121-4.400498 2.956912-4.33076 3.061519-4.184309C3.159153-4.037858 3.263761-3.93325 3.459029-3.93325C3.66127-3.93325 3.898381-4.093649 4.051806-4.198257C4.156413-4.281943 4.463263-4.505106 4.463263-4.595766Z"></path>
+<path id="tz_polissemia_homonimia_g4-19" d="M4.174346-5.877958C4.333748-5.967621 4.552927-6.07721 4.552927-6.396015C4.552927-6.704857 4.273973-7.013699 3.955168-7.013699C3.726027-7.013699 3.606476-6.884184 3.486924-6.75467C3.227895-6.465753 2.620174-5.728518 2.371108-5.439601L2.669988-5.070984L4.174346-5.877958Z"></path>
+<path id="tz_polissemia_homonimia_g4-65" d="M4.722291-6.694894C4.612702-6.953923 4.493151-6.953923 4.323786-6.953923C4.044832-6.953923 4.004981-6.874222 3.935243-6.694894L1.464508-.697385C1.404732-.547945 1.374844-.468244 .617684-.468244H.408468V0C.787049-.009963 1.265255-.029888 1.574097-.029888C1.96264-.029888 2.520548-.029888 2.889166 0V-.468244C2.86924-.468244 2.002491-.468244 2.002491-.597758C2.002491-.607721 2.032379-.707347 2.042341-.71731L2.540473-1.92279H5.210461L5.808219-.468244H4.861768V0C5.240349-.029888 6.1868-.029888 6.615193-.029888C7.013699-.029888 7.890411-.029888 8.239103 0V-.468244H7.272727L4.722291-6.694894ZM3.875467-5.160648L5.011208-2.391034H2.739726L3.875467-5.160648Z"></path>
+<path id="tz_polissemia_homonimia_g4-69" d="M7.202989-2.729763H6.734745C6.515567-1.354919 6.236613-.468244 4.393524-.468244H2.879203V-3.277709H3.427148C4.383562-3.277709 4.483188-2.849315 4.483188-2.11208H4.951432V-4.911582H4.483188C4.483188-4.174346 4.393524-3.745953 3.427148-3.745953H2.879203V-6.306351H4.393524C5.997509-6.306351 6.256538-5.579078 6.41594-4.373599H6.884184L6.575342-6.774595H.388543V-6.306351H1.464508V-.468244H.388543V0H6.744707L7.202989-2.729763Z"></path>
+<path id="tz_polissemia_homonimia_g4-72" d="M7.491905-6.366127H8.56787V-6.834371C8.18929-6.804483 7.212951-6.804483 6.784558-6.804483S5.379826-6.804483 5.001245-6.834371V-6.366127H6.07721V-3.785803H2.879203V-6.366127H3.955168V-6.834371C3.576588-6.804483 2.600249-6.804483 2.171856-6.804483S.767123-6.804483 .388543-6.834371V-6.366127H1.464508V-.468244H.388543V0C.767123-.029888 1.743462-.029888 2.171856-.029888S3.576588-.029888 3.955168 0V-.468244H2.879203V-3.317559H6.07721V-.468244H5.001245V0C5.379826-.029888 6.356164-.029888 6.784558-.029888S8.18929-.029888 8.56787 0V-.468244H7.491905V-6.366127Z"></path>
+<path id="tz_polissemia_homonimia_g4-73" d="M2.879203-6.366127H4.014944V-6.834371C3.606476-6.804483 2.630137-6.804483 2.171856-6.804483S.737235-6.804483 .328767-6.834371V-6.366127H1.464508V-.468244H.328767V0C.737235-.029888 1.713574-.029888 2.171856-.029888S3.606476-.029888 4.014944 0V-.468244H2.879203V-6.366127Z"></path>
+<path id="tz_polissemia_homonimia_g4-76" d="M6.405978-2.729763H5.937733C5.858032-2.042341 5.688667-.468244 3.905355-.468244H2.879203V-6.366127H4.224159V-6.834371C3.785803-6.804483 2.699875-6.804483 2.211706-6.804483C1.77335-6.804483 .767123-6.804483 .388543-6.834371V-6.366127H1.464508V-.468244H.388543V0H6.097136L6.405978-2.729763Z"></path>
+<path id="tz_polissemia_homonimia_g4-77" d="M5.439601-1.315068L3.048568-6.585305C2.938979-6.834371 2.82939-6.834371 2.610212-6.834371H.398506V-6.366127H1.474471V-.757161C1.474471-.537983 1.464508-.52802 1.185554-.498132C.946451-.468244 .926526-.468244 .647572-.468244H.398506V0C.777086-.029888 1.344956-.029888 1.733499-.029888C2.15193-.029888 2.669988-.029888 3.078456 0V-.468244H2.82939C2.650062-.468244 2.480697-.478207 2.30137-.498132C2.012453-.52802 2.002491-.537983 2.002491-.757161V-6.236613H2.012453L4.722291-.249066C4.811955-.049813 4.931507 0 5.041096 0C5.240349 0 5.32005-.14944 5.3599-.239103L8.139477-6.366127H8.14944V-.468244H7.073474V0C7.43213-.029888 8.358655-.029888 8.767123-.029888S10.11208-.029888 10.470735 0V-.468244H9.39477V-6.366127H10.470735V-6.834371H8.268991C8.049813-6.834371 7.940224-6.834371 7.830635-6.585305L5.439601-1.315068Z"></path>
+<path id="tz_polissemia_homonimia_g4-78" d="M2.998755-6.704857C2.889166-6.824408 2.879203-6.834371 2.669988-6.834371H.388543V-6.366127H1.464508V-.757161C1.464508-.537983 1.454545-.52802 1.175592-.498132C.936488-.468244 .916563-.468244 .637609-.468244H.388543V0C.767123-.029888 1.334994-.029888 1.723537-.029888C2.141968-.029888 2.660025-.029888 3.068493 0V-.468244H2.819427C2.6401-.468244 2.470735-.478207 2.291407-.498132C2.002491-.52802 1.992528-.537983 1.992528-.757161V-5.967621L6.953923-.129514C7.053549-.009963 7.063512 0 7.222914 0C7.491905 0 7.491905-.089664 7.491905-.318804V-6.07721C7.491905-6.296389 7.501868-6.306351 7.780822-6.336239C8.019925-6.366127 8.039851-6.366127 8.318804-6.366127H8.56787V-6.834371C8.18929-6.804483 7.62142-6.804483 7.232877-6.804483C6.814446-6.804483 6.296389-6.804483 5.88792-6.834371V-6.366127H6.136986C6.316314-6.366127 6.485679-6.356164 6.665006-6.336239C6.953923-6.306351 6.963885-6.296389 6.963885-6.07721V-2.042341L2.998755-6.704857Z"></path>
+<path id="tz_polissemia_homonimia_g4-79" d="M7.960149-3.377335C7.960149-5.529265 6.515567-6.94396 4.303861-6.94396C2.022416-6.94396 .637609-5.469489 .637609-3.377335C.637609-1.315068 2.032379 .109589 4.293898 .109589C6.585305 .109589 7.960149-1.334994 7.960149-3.377335ZM4.293898-.308842C3.706102-.308842 2.978829-.587796 2.570361-1.344956C2.241594-1.96264 2.161893-2.669988 2.161893-3.526775C2.161893-4.164384 2.191781-5.011208 2.630137-5.688667C3.038605-6.296389 3.706102-6.545455 4.293898-6.545455C4.931507-6.545455 5.618929-6.266501 6.017435-5.608966C6.396015-4.971357 6.435866-4.204234 6.435866-3.526775C6.435866-2.82939 6.396015-1.942715 5.977584-1.255293C5.529265-.52802 4.83188-.308842 4.293898-.308842Z"></path>
+<path id="tz_polissemia_homonimia_g4-80" d="M2.879203-3.008717H4.64259C6.027397-3.008717 7.183064-3.726027 7.183064-4.891656C7.183064-5.987547 6.196762-6.834371 4.542964-6.834371H.388543V-6.366127H1.464508V-.468244H.388543V0C.767123-.029888 1.743462-.029888 2.171856-.029888S3.576588-.029888 3.955168 0V-.468244H2.879203V-3.008717ZM4.154421-3.417186H2.819427V-6.366127H4.164384C5.65878-6.366127 5.65878-5.608966 5.65878-4.891656C5.65878-4.184309 5.65878-3.417186 4.154421-3.417186Z"></path>
+<path id="tz_polissemia_homonimia_g4-82" d="M2.819427-3.596513V-6.366127H3.995019C5.599004-6.366127 5.618929-5.589041 5.618929-4.98132C5.618929-4.423412 5.618929-3.596513 3.975093-3.596513H2.819427ZM5.479452-3.387298C6.635118-3.686177 7.143213-4.333748 7.143213-4.991283C7.143213-5.997509 6.047323-6.834371 4.174346-6.834371H.388543V-6.366127H1.464508V-.468244H.388543V0C.747198-.029888 1.723537-.029888 2.141968-.029888S3.536737-.029888 3.895392 0V-.468244H2.819427V-3.237858H3.985056C4.124533-3.237858 4.562889-3.237858 4.871731-2.899128C5.190535-2.550436 5.190535-2.361146 5.190535-1.633873C5.190535-.976339 5.190535-.488169 5.88792-.14944C6.326276 .069738 6.94396 .109589 7.352428 .109589C8.418431 .109589 8.547945-.787049 8.547945-.946451C8.547945-1.165629 8.408468-1.165629 8.308842-1.165629C8.099626-1.165629 8.089664-1.066002 8.079701-.936488C8.029888-.468244 7.740971-.249066 7.442092-.249066C6.844334-.249066 6.75467-.956413 6.704857-1.374844C6.684932-1.484433 6.60523-2.171856 6.595268-2.221669C6.455791-2.919054 5.907846-3.227895 5.479452-3.387298Z"></path>
+<path id="tz_polissemia_homonimia_g4-83" d="M4.004981-4.124533L2.560399-4.433375C2.161893-4.523039 1.603985-4.861768 1.603985-5.469489C1.603985-5.897883 1.882939-6.515567 2.879203-6.515567C3.676214-6.515567 4.682441-6.176837 4.911582-4.821918C4.951432-4.582814 4.951432-4.562889 5.160648-4.562889C5.399751-4.562889 5.399751-4.612702 5.399751-4.841843V-6.665006C5.399751-6.854296 5.399751-6.94396 5.220423-6.94396C5.140722-6.94396 5.13076-6.933998 5.021171-6.834371L4.572852-6.396015C3.995019-6.854296 3.347447-6.94396 2.86924-6.94396C1.354919-6.94396 .637609-5.987547 .637609-4.941469C.637609-4.293898 .966376-3.835616 1.175592-3.616438C1.663761-3.128269 2.002491-3.058531 3.088418-2.819427C3.965131-2.630137 4.134496-2.600249 4.353674-2.391034C4.503113-2.241594 4.752179-1.982565 4.752179-1.524284C4.752179-1.046077 4.493151-.358655 3.457036-.358655C2.699875-.358655 1.185554-.557908 1.105853-2.042341C1.09589-2.221669 1.09589-2.271482 .876712-2.271482C.637609-2.271482 .637609-2.211706 .637609-1.982565V-.169365C.637609 .019925 .637609 .109589 .816936 .109589C.9066 .109589 .926526 .089664 1.006227 .019925L1.464508-.438356C2.122042 .049813 3.048568 .109589 3.457036 .109589C5.100872 .109589 5.718555-1.016189 5.718555-2.022416C5.718555-3.128269 4.911582-3.935243 4.004981-4.124533Z"></path>
+<path id="tz_polissemia_homonimia_g5-24" d="M2.925031 .111582H1.952677V.502117C2.231631 .502117 2.765629 .533998 2.765629 .900623C2.765629 1.299128 1.761395 1.299128 1.474471 1.299128H1.131756V1.633873H1.617933C2.048319 1.633873 2.486675 1.617933 2.917061 1.538232C3.291656 1.458531 3.737983 1.307098 3.737983 .892653C3.737983 .366625 3.172105 .255044 2.925031 .215193V.111582Z"></path>
+<path id="tz_polissemia_homonimia_g5-97" d="M4.000996-2.359153C4.000996-3.076463 3.427148-3.626401 2.12802-3.626401C1.737484-3.626401 .597758-3.626401 .597758-2.83736C.597758-2.486675 .868742-2.295392 1.131756-2.295392C1.45056-2.295392 1.673724-2.526526 1.673724-2.82939C1.673724-3.084433 1.514321-3.227895 1.506351-3.235866C1.570112-3.251806 1.801245-3.291656 2.11208-3.291656C2.749689-3.291656 3.028643-2.940971 3.028643-2.367123V-2.13599C1.833126-2.12802 .278954-1.865006 .278954-.892653C.278954-.215193 1.044085 .055791 1.912827 .055791C2.733748 .055791 3.076463-.382565 3.180075-.541968C3.180075-.302864 3.267746 0 4.040847 0H4.463263C4.614695 0 4.734247 0 4.734247-.207223S4.606725-.414446 4.495143-.414446C4.000996-.414446 4.000996-.494147 4.000996-.67746V-2.359153ZM3.028643-1.091905C3.028643-.278954 2.072229-.278954 2.040349-.278954C1.625903-.278954 1.251308-.526027 1.251308-.908593C1.251308-1.466501 1.992528-1.809215 3.028643-1.833126V-1.091905Z"></path>
+<path id="tz_polissemia_homonimia_g5-98" d="M1.817186-5.531258L.366625-5.467497V-5.053051C.836862-5.053051 .892653-5.053051 .892653-4.742217V0H1.338979L1.705604-.438356C2.064259-.095641 2.478705 .055791 2.948941 .055791C4.29589 .055791 5.092902-.74122 5.092902-1.769365C5.092902-2.82939 4.311831-3.594521 3.060523-3.594521C2.446824-3.594521 2.016438-3.363387 1.817186-3.227895V-5.531258ZM1.865006-2.741719C2.008468-2.940971 2.414944-3.259776 2.972852-3.259776C4.016936-3.259776 4.016936-2.287422 4.016936-1.793275C4.016936-1.291158 4.016936-.278954 2.87721-.278954C2.287422-.278954 1.952677-.71731 1.865006-.852802V-2.741719Z"></path>
+<path id="tz_polissemia_homonimia_g5-99" d="M4.056787-.916563C4.056787-1.060025 3.929265-1.060025 3.833624-1.060025C3.682192-1.060025 3.658281-1.060025 3.602491-.916563C3.379328-.390535 2.84533-.318804 2.590286-.318804C1.40274-.318804 1.40274-1.458531 1.40274-1.801245C1.40274-2.279452 1.42665-3.251806 2.494645-3.251806C2.550436-3.251806 2.996762-3.235866 2.996762-3.203985C2.996762-3.196015 2.988792-3.180075 2.964882-3.156164C2.901121-3.060523 2.86924-2.940971 2.86924-2.82939C2.86924-2.510585 3.116314-2.295392 3.403238-2.295392C3.706102-2.295392 3.945205-2.502615 3.945205-2.83736C3.945205-3.626401 2.789539-3.626401 2.462765-3.626401C.932503-3.626401 .326775-2.669988 .326775-1.769365C.326775-.781071 1.044085 .055791 2.430884 .055791C2.789539 .055791 3.188045-.00797 3.514819-.207223C3.937235-.470237 4.056787-.868742 4.056787-.916563Z"></path>
+<path id="tz_polissemia_homonimia_g5-101" d="M3.921295-1.689664C4.088667-1.689664 4.192279-1.689664 4.192279-1.920797C4.192279-2.263512 4.112578-2.789539 3.714072-3.180075C3.267746-3.626401 2.550436-3.626401 2.367123-3.626401C.948443-3.626401 .270984-2.741719 .270984-1.801245C.270984-.765131 1.067995 .055791 2.486675 .055791C3.889415 .055791 4.192279-.804981 4.192279-.916563C4.192279-1.083935 4.024907-1.083935 3.969116-1.083935C3.833624-1.083935 3.801743-1.067995 3.737983-.932503C3.482939-.374595 2.805479-.318804 2.582316-.318804C1.40274-.318804 1.362889-1.243337 1.346949-1.689664H3.921295ZM1.346949-2.000498C1.354919-2.319303 1.3868-3.291656 2.375093-3.291656S3.403238-2.311333 3.411208-2.000498H1.346949Z"></path>
+<path id="tz_polissemia_homonimia_g5-103" d="M1.785305-.6934C1.546202-.6934 1.39477-.6934 1.275218-.797011C1.195517-.876712 1.091905-.996264 1.091905-1.187547C1.091905-1.267248 1.115816-1.354919 1.155666-1.41071C1.482441-1.251308 1.872976-1.211457 2.16787-1.211457C3.459029-1.211457 3.849564-1.912827 3.849564-2.399004C3.849564-2.82939 3.57858-3.108344 3.53076-3.148194C3.745953-3.259776 3.905355-3.283686 4.016936-3.299626C3.993026-3.251806 3.985056-3.172105 3.985056-3.132254C3.985056-2.909091 4.144458-2.749689 4.359651-2.749689S4.742217-2.909091 4.742217-3.132254C4.742217-3.371357 4.558904-3.650311 4.184309-3.650311C3.873474-3.650311 3.514819-3.52279 3.283686-3.339477C2.996762-3.498879 2.669988-3.594521 2.16787-3.594521C.876712-3.594521 .486177-2.893151 .486177-2.406974C.486177-1.944707 .757161-1.705604 .900623-1.578082C.74122-1.3868 .637609-1.131756 .637609-.868742C.637609-.581818 .757161-.302864 .964384-.103611C.629639-.01594 .270984 .207223 .270984 .589788C.270984 1.012204 .74122 1.609963 2.438854 1.609963C3.945205 1.609963 4.606725 1.131756 4.606725 .565878C4.606725-.207223 4.008966-.454296 3.841594-.518057C3.411208-.6934 2.925031-.6934 2.199751-.6934H1.785305ZM2.16787-1.554172C1.41071-1.554172 1.41071-2.080199 1.41071-2.399004C1.41071-2.733748 1.41071-3.251806 2.16787-3.251806S2.925031-2.725778 2.925031-2.406974C2.925031-2.072229 2.925031-1.554172 2.16787-1.554172ZM2.662017 .135492C2.901121 .135492 3.865504 .135492 3.865504 .589788C3.865504 .860772 3.53076 1.267248 2.438854 1.267248C1.3868 1.267248 1.012204 .884682 1.012204 .581818C1.012204 .135492 1.530262 .135492 1.649813 .135492H2.662017Z"></path>
+<path id="tz_polissemia_homonimia_g5-109" d="M7.364384-2.414944C7.364384-3.371357 6.782565-3.594521 6.049315-3.594521C5.212453-3.594521 4.774097-3.108344 4.606725-2.86127C4.415442-3.482939 3.881445-3.594521 3.339477-3.594521C2.375093-3.594521 1.944707-2.956912 1.849066-2.781569H1.841096V-3.594521L.446326-3.53076V-3.116314C.916563-3.116314 .972354-3.116314 .972354-2.805479V-.414446H.446326V0C.876712-.02391 1.155666-.02391 1.458531-.02391C1.769365-.02391 2.040349-.02391 2.470735 0V-.414446H1.944707V-2.016438C1.944707-2.901121 2.709838-3.259776 3.219925-3.259776C3.498879-3.259776 3.682192-3.124284 3.682192-2.502615V-.414446H3.156164V0C3.58655-.02391 3.865504-.02391 4.168369-.02391C4.479203-.02391 4.750187-.02391 5.180573 0V-.414446H4.654545V-2.016438C4.654545-2.901121 5.419676-3.259776 5.929763-3.259776C6.208717-3.259776 6.39203-3.124284 6.39203-2.502615V-.414446H5.866002V0C6.296389-.02391 6.575342-.02391 6.878207-.02391C7.189041-.02391 7.460025-.02391 7.890411 0V-.414446H7.364384V-2.414944Z"></path>
+<path id="tz_polissemia_homonimia_g5-110" d="M4.654545-2.414944C4.654545-3.387298 4.048817-3.594521 3.339477-3.594521C2.375093-3.594521 1.944707-2.956912 1.849066-2.781569H1.841096V-3.594521L.446326-3.53076V-3.116314C.916563-3.116314 .972354-3.116314 .972354-2.805479V-.414446H.446326V0C.876712-.02391 1.155666-.02391 1.458531-.02391C1.769365-.02391 2.040349-.02391 2.470735 0V-.414446H1.944707V-2.016438C1.944707-2.901121 2.709838-3.259776 3.219925-3.259776C3.498879-3.259776 3.682192-3.124284 3.682192-2.502615V-.414446H3.156164V0C3.58655-.02391 3.865504-.02391 4.168369-.02391C4.479203-.02391 4.750187-.02391 5.180573 0V-.414446H4.654545V-2.414944Z"></path>
+<path id="tz_polissemia_homonimia_g6-16" d="M1.436613-3.075467L.411457-2.998755V-2.747696C.850809-2.747696 .913574-2.705853 .913574-2.364134V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.404483 0 .892653-.027895 1.171606-.027895C1.415691-.027895 1.66675-.020922 1.910834 0V-.251059C1.506351-.251059 1.436613-.251059 1.436613-.54396V-3.075467Z"></path>
+<path id="tz_polissemia_homonimia_g6-19" d="M1.799253-3.528767C2.343213-3.926276 2.768618-4.219178 2.901121-4.323786C3.012702-4.400498 3.075467-4.449315 3.075467-4.581818S2.956912-4.867746 2.789539-4.867746C2.677958-4.867746 2.622167-4.804981 2.552428-4.728269L1.638854-3.710087L1.799253-3.528767Z"></path>
+<path id="tz_polissemia_homonimia_g6-24" d="M2.259527 .139477H1.708593V.481196C2.175841 .488169 2.350187 .662516 2.350187 .850809C2.350187 1.12279 1.987547 1.227397 1.311083 1.227397H1.060025V1.422665H1.401743C1.408717 1.422665 1.966625 1.422665 2.322291 1.345953C2.608219 1.283188 2.901121 1.164633 2.901121 .850809C2.901121 .571856 2.691905 .390535 2.259527 .320797V.139477Z"></path>
+<path id="tz_polissemia_homonimia_g6-40" d="M2.475716-5.230386C1.150685-4.29589 .801993-2.817435 .801993-1.750436C.801993-.767123 1.094894 .760149 2.475716 1.736488C2.531507 1.736488 2.615193 1.736488 2.615193 1.652802C2.615193 1.610959 2.594271 1.597011 2.545455 1.548194C1.617933 .711333 1.276214-.474222 1.276214-1.743462C1.276214-3.626401 1.994521-4.546949 2.566376-5.063014C2.594271-5.090909 2.615193-5.111831 2.615193-5.1467C2.615193-5.230386 2.531507-5.230386 2.475716-5.230386Z"></path>
+<path id="tz_polissemia_homonimia_g6-41" d="M.627646-5.230386C.578829-5.230386 .495143-5.230386 .495143-5.1467C.495143-5.111831 .516065-5.090909 .557908-5.042092C1.157659-4.491158 1.827148-3.549689 1.827148-1.750436C1.827148-.292902 1.373848 .808966 .620672 1.492403C.502117 1.610959 .495143 1.617933 .495143 1.652802S.516065 1.736488 .585803 1.736488C.669489 1.736488 1.332005 1.276214 1.792279 .404483C2.099128-.174346 2.30137-.927522 2.30137-1.743462C2.30137-2.726775 2.008468-4.254047 .627646-5.230386Z"></path>
+<path id="tz_polissemia_homonimia_g6-46" d="M1.527273-.397509C1.527273-.641594 1.332005-.801993 1.129763-.801993C.885679-.801993 .72528-.606725 .72528-.404483C.72528-.160399 .920548 0 1.12279 0C1.366874 0 1.527273-.195268 1.527273-.397509Z"></path>
+<path id="tz_polissemia_homonimia_g6-97" d="M3.110336-1.868991C3.110336-2.238605 3.110336-2.503611 2.789539-2.761644C2.503611-2.998755 2.168867-3.110336 1.75741-3.110336C1.094894-3.110336 .627646-2.859278 .627646-2.433873C.627646-2.21071 .781071-2.092154 .962391-2.092154C1.150685-2.092154 1.290162-2.231631 1.290162-2.419925C1.290162-2.538481 1.234371-2.684932 1.046077-2.740722C1.297136-2.915068 1.701619-2.915068 1.743462-2.915068C2.133998-2.915068 2.559402-2.657036 2.559402-2.071233V-1.855044C2.175841-1.841096 1.715567-1.820174 1.206476-1.63188C.578829-1.401743 .383562-1.018182 .383562-.704359C.383562-.104608 1.108842 .069738 1.603985 .069738C2.161893 .069738 2.489664-.244085 2.636115-.516065C2.66401-.230137 2.852304 .034869 3.173101 .034869C3.187049 .034869 3.863512 .034869 3.863512-.627646V-1.011208H3.626401V-.63462C3.626401-.564882 3.626401-.230137 3.368369-.230137S3.110336-.557908 3.110336-.648568V-1.868991ZM2.559402-.983313C2.559402-.313823 1.973599-.125529 1.659776-.125529C1.30411-.125529 .969365-.36264 .969365-.704359C.969365-1.08792 1.30411-1.624907 2.559402-1.673724V-.983313Z"></path>
+<path id="tz_polissemia_homonimia_g6-98" d="M1.387796-4.839851L.341719-4.763138V-4.51208C.81594-4.51208 .864757-4.456289 .864757-4.107597V0H1.101868L1.345953-.425405C1.610959-.076712 1.994521 .069738 2.364134 .069738C3.284682 .069738 4.072727-.620672 4.072727-1.506351C4.072727-2.357161 3.354421-3.075467 2.440847-3.075467C2.022416-3.075467 1.638854-2.908095 1.387796-2.657036V-4.839851ZM1.415691-2.336239C1.610959-2.657036 1.987547-2.880199 2.405978-2.880199C2.796513-2.880199 3.075467-2.657036 3.214944-2.447821C3.354421-2.245579 3.438107-1.973599 3.438107-1.513325C3.438107-1.352927 3.438107-.829888 3.152179-.502117C2.873225-.188294 2.531507-.125529 2.329265-.125529C1.771357-.125529 1.492403-.564882 1.415691-.711333V-2.336239Z"></path>
+<path id="tz_polissemia_homonimia_g6-99" d="M2.712827-2.782565C2.587298-2.726775 2.517559-2.615193 2.517559-2.475716C2.517559-2.287422 2.650062-2.147945 2.84533-2.147945C3.033624-2.147945 3.180075-2.266501 3.180075-2.489664C3.180075-3.110336 2.21071-3.110336 2.015442-3.110336C.969365-3.110336 .320797-2.308344 .320797-1.506351C.320797-.627646 1.066999 .069738 1.980573 .069738C3.019676 .069738 3.263761-.753176 3.263761-.836862S3.173101-.920548 3.145205-.920548C3.054545-.920548 3.047572-.899626 3.012702-.801993C2.859278-.369614 2.489664-.153425 2.064259-.153425C1.583064-.153425 .955417-.509091 .955417-1.513325C.955417-2.399004 1.387796-2.887173 2.036364-2.887173C2.127024-2.887173 2.461768-2.887173 2.712827-2.782565Z"></path>
+<path id="tz_polissemia_homonimia_g6-100" d="M2.48269-4.763138V-4.51208C2.949938-4.51208 3.005729-4.463263 3.005729-4.121544V-2.677958C2.747696-2.929016 2.412951-3.075467 2.02939-3.075467C1.101868-3.075467 .320797-2.378082 .320797-1.499377C.320797-.627646 1.060025 .069738 1.945704 .069738C2.517559 .069738 2.859278-.237111 2.977833-.36264V.069738L4.051806 0V-.251059C3.584558-.251059 3.528767-.299875 3.528767-.641594V-4.839851L2.48269-4.763138ZM2.977833-.732254C2.796513-.404483 2.440847-.125529 1.987547-.125529C1.597011-.125529 1.318057-.355666 1.17858-.557908C1.039103-.767123 .955417-1.046077 .955417-1.492403C.955417-1.652802 .955417-2.175841 1.241345-2.503611C1.520299-2.817435 1.862017-2.880199 2.064259-2.880199C2.399004-2.880199 2.698879-2.726775 2.894147-2.475716C2.977833-2.364134 2.977833-2.357161 2.977833-2.224658V-.732254Z"></path>
+<path id="tz_polissemia_homonimia_g6-101" d="M3.068493-1.590037C3.214944-1.590037 3.263761-1.590037 3.263761-1.743462C3.263761-2.357161 2.922042-3.110336 1.882939-3.110336C.969365-3.110336 .27198-2.385056 .27198-1.527273C.27198-.641594 1.046077 .069738 1.973599 .069738C2.915068 .069738 3.263761-.683437 3.263761-.836862C3.263761-.864757 3.249813-.934496 3.145205-.934496C3.054545-.934496 3.040598-.892653 3.019676-.822914C2.803487-.258032 2.273474-.153425 2.022416-.153425C1.694645-.153425 1.380822-.299875 1.171606-.564882C.913574-.892653 .9066-1.318057 .9066-1.590037H3.068493ZM.913574-1.771357C.990286-2.75467 1.617933-2.915068 1.882939-2.915068C2.740722-2.915068 2.768618-1.945704 2.775592-1.771357H.913574Z"></path>
+<path id="tz_polissemia_homonimia_g6-102" d="M1.436613-2.75467H2.308344V-3.005729H1.408717V-3.7868C1.408717-4.42142 1.785305-4.714321 2.085181-4.714321C2.147945-4.714321 2.217684-4.700374 2.287422-4.679452C2.189788-4.623661 2.133998-4.51208 2.133998-4.400498C2.133998-4.212204 2.266501-4.079701 2.454795-4.079701S2.775592-4.212204 2.775592-4.400498C2.775592-4.700374 2.475716-4.909589 2.092154-4.909589C1.54122-4.909589 .913574-4.519054 .913574-3.7868V-3.005729H.313823V-2.75467H.913574V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.425405 0 .899626-.027895 1.185554-.027895C1.48543-.027895 1.792279-.013948 2.092154 0V-.251059H1.952677C1.436613-.251059 1.436613-.327771 1.436613-.564882V-2.75467Z"></path>
+<path id="tz_polissemia_homonimia_g6-103" d="M1.004234-1.241345C1.108842-1.17858 1.3599-1.025156 1.764384-1.025156C2.48269-1.025156 3.005729-1.506351 3.005729-2.050311C3.005729-2.322291 2.880199-2.538481 2.712827-2.719801C3.02665-2.942964 3.29863-2.949938 3.417186-2.949938C3.38929-2.922042 3.354421-2.894147 3.354421-2.782565C3.354421-2.643088 3.459029-2.559402 3.577584-2.559402C3.675218-2.559402 3.800747-2.629141 3.800747-2.789539S3.668244-3.145205 3.38929-3.145205C3.284682-3.145205 2.908095-3.124284 2.580324-2.824408C2.371108-2.977833 2.078207-3.075467 1.771357-3.075467C1.053051-3.075467 .530012-2.594271 .530012-2.050311C.530012-1.778331 .669489-1.527273 .864757-1.345953C.808966-1.283188 .655542-1.053051 .655542-.781071C.655542-.690411 .676463-.36264 .948443-.160399C.63462-.055791 .27198 .174346 .27198 .536986C.27198 1.046077 1.039103 1.429639 1.980573 1.429639C2.866252 1.429639 3.689166 1.080946 3.689166 .523039C3.689166 .313823 3.605479-.062765 3.221918-.27198C2.810461-.488169 2.399004-.488169 1.72254-.488169C1.569116-.488169 1.318057-.488169 1.262267-.495143C1.039103-.54396 .913574-.753176 .913574-.955417C.913574-1.129763 .962391-1.185554 1.004234-1.241345ZM1.771357-1.234371C1.08792-1.234371 1.08792-1.903861 1.08792-2.050311C1.08792-2.161893 1.08792-2.440847 1.227397-2.622167C1.325031-2.740722 1.513325-2.866252 1.764384-2.866252C2.447821-2.866252 2.447821-2.196762 2.447821-2.050311C2.447821-1.93873 2.447821-1.659776 2.308344-1.478456C2.21071-1.3599 2.022416-1.234371 1.771357-1.234371ZM1.771357-.020922C2.39203-.020922 3.263761-.020922 3.263761 .530012C3.263761 .899626 2.712827 1.220423 1.980573 1.220423S.697385 .892653 .697385 .530012C.697385 .285928 .920548-.013948 1.366874-.020922H1.771357Z"></path>
+<path id="tz_polissemia_homonimia_g6-105" d="M1.471482-4.302864C1.471482-4.505106 1.30411-4.700374 1.066999-4.700374C.857783-4.700374 .669489-4.533001 .669489-4.302864C.669489-4.051806 .871731-3.898381 1.066999-3.898381C1.290162-3.898381 1.471482-4.072727 1.471482-4.302864ZM.411457-2.998755V-2.747696C.850809-2.747696 .913574-2.705853 .913574-2.364134V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.404483 0 .892653-.027895 1.171606-.027895C1.415691-.027895 1.66675-.020922 1.910834 0V-.251059C1.506351-.251059 1.436613-.251059 1.436613-.54396V-3.075467L.411457-2.998755Z"></path>
+<path id="tz_polissemia_homonimia_g6-108" d="M1.436613-4.839851L.390535-4.763138V-4.51208C.857783-4.51208 .913574-4.463263 .913574-4.121544V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.404483 0 .892653-.027895 1.171606-.027895C1.436613-.027895 1.694645-.020922 1.959651 0V-.251059C1.506351-.251059 1.436613-.251059 1.436613-.550934V-4.839851Z"></path>
+<path id="tz_polissemia_homonimia_g6-109" d="M5.732503-2.113076C5.732503-2.719801 5.432628-3.075467 4.686426-3.075467C4.135492-3.075467 3.758904-2.775592 3.57061-2.426899C3.431133-2.922042 3.054545-3.075467 2.545455-3.075467C1.973599-3.075467 1.603985-2.761644 1.408717-2.399004H1.401743V-3.075467L.376588-2.998755V-2.747696C.843836-2.747696 .899626-2.698879 .899626-2.357161V-.550934C.899626-.251059 .829888-.251059 .376588-.251059V0C.390535 0 .878705-.027895 1.171606-.027895C1.429639-.027895 1.910834-.006974 1.973599 0V-.251059C1.520299-.251059 1.45056-.251059 1.45056-.550934V-1.806227C1.45056-2.538481 2.02939-2.880199 2.489664-2.880199C2.977833-2.880199 3.040598-2.496638 3.040598-2.140971V-.550934C3.040598-.251059 2.970859-.251059 2.517559-.251059V0C2.531507 0 3.019676-.027895 3.312578-.027895C3.57061-.027895 4.051806-.006974 4.11457 0V-.251059C3.66127-.251059 3.591532-.251059 3.591532-.550934V-1.806227C3.591532-2.538481 4.170361-2.880199 4.630635-2.880199C5.118804-2.880199 5.181569-2.496638 5.181569-2.140971V-.550934C5.181569-.251059 5.111831-.251059 4.658531-.251059V0C4.672478 0 5.160648-.027895 5.453549-.027895C5.711582-.027895 6.192777-.006974 6.255542 0V-.251059C5.802242-.251059 5.732503-.251059 5.732503-.550934V-2.113076Z"></path>
+<path id="tz_polissemia_homonimia_g6-110" d="M3.591532-2.113076C3.591532-2.719801 3.291656-3.075467 2.545455-3.075467C1.973599-3.075467 1.603985-2.761644 1.408717-2.399004H1.401743V-3.075467L.376588-2.998755V-2.747696C.843836-2.747696 .899626-2.698879 .899626-2.357161V-.550934C.899626-.251059 .829888-.251059 .376588-.251059V0C.390535 0 .878705-.027895 1.171606-.027895C1.429639-.027895 1.910834-.006974 1.973599 0V-.251059C1.520299-.251059 1.45056-.251059 1.45056-.550934V-1.806227C1.45056-2.538481 2.02939-2.880199 2.489664-2.880199C2.977833-2.880199 3.040598-2.496638 3.040598-2.140971V-.550934C3.040598-.251059 2.970859-.251059 2.517559-.251059V0C2.531507 0 3.019676-.027895 3.312578-.027895C3.57061-.027895 4.051806-.006974 4.11457 0V-.251059C3.66127-.251059 3.591532-.251059 3.591532-.550934V-2.113076Z"></path>
+<path id="tz_polissemia_homonimia_g6-111" d="M3.689166-1.48543C3.689166-2.357161 2.942964-3.110336 1.980573-3.110336S.27198-2.357161 .27198-1.48543C.27198-.620672 1.039103 .069738 1.980573 .069738S3.689166-.620672 3.689166-1.48543ZM1.980573-.153425C1.72254-.153425 1.345953-.237111 1.115816-.578829C.927522-.864757 .9066-1.227397 .9066-1.548194C.9066-1.84807 .913574-2.259527 1.157659-2.559402C1.332005-2.761644 1.624907-2.915068 1.980573-2.915068C2.39203-2.915068 2.684932-2.719801 2.838356-2.503611C3.033624-2.231631 3.054545-1.882939 3.054545-1.548194S3.033624-.843836 2.831382-.557908C2.643088-.292902 2.322291-.153425 1.980573-.153425Z"></path>
+<path id="tz_polissemia_homonimia_g6-112" d="M1.93873 1.101868C1.48543 1.101868 1.415691 1.101868 1.415691 .801993V-.334745C1.45056-.299875 1.778331 .069738 2.364134 .069738C3.284682 .069738 4.072727-.620672 4.072727-1.506351C4.072727-2.364134 3.361395-3.075467 2.475716-3.075467C2.078207-3.075467 1.673724-2.929016 1.387796-2.650062V-3.075467L.341719-2.998755V-2.747696C.829888-2.747696 .864757-2.712827 .864757-2.419925V.801993C.864757 1.101868 .795019 1.101868 .341719 1.101868V1.352927C.355666 1.352927 .843836 1.325031 1.136737 1.325031C1.39477 1.325031 1.875965 1.345953 1.93873 1.352927V1.101868ZM1.415691-2.322291C1.624907-2.670984 2.02939-2.852304 2.399004-2.852304C2.984807-2.852304 3.438107-2.238605 3.438107-1.506351C3.438107-.711333 2.915068-.125529 2.322291-.125529C1.708593-.125529 1.436613-.662516 1.415691-.704359V-2.322291Z"></path>
+<path id="tz_polissemia_homonimia_g6-114" d="M1.387796-1.590037C1.387796-2.175841 1.659776-2.880199 2.322291-2.880199C2.259527-2.831382 2.203736-2.740722 2.203736-2.629141C2.203736-2.399004 2.385056-2.308344 2.517559-2.308344C2.684932-2.308344 2.838356-2.419925 2.838356-2.629141C2.838356-2.866252 2.615193-3.075467 2.287422-3.075467C1.93873-3.075467 1.555168-2.859278 1.345953-2.329265H1.338979V-3.075467L.341719-2.998755V-2.747696C.808966-2.747696 .864757-2.698879 .864757-2.357161V-.550934C.864757-.251059 .795019-.251059 .341719-.251059V0C.376588 0 .850809-.027895 1.136737-.027895C1.436613-.027895 1.743462-.013948 2.043337 0V-.251059H1.903861C1.387796-.251059 1.387796-.327771 1.387796-.564882V-1.590037Z"></path>
+<path id="tz_polissemia_homonimia_g6-115" d="M2.643088-2.929016C2.643088-3.047572 2.643088-3.110336 2.545455-3.110336C2.510585-3.110336 2.496638-3.110336 2.405978-3.02665C2.39203-3.019676 2.322291-2.956912 2.280448-2.922042C2.071233-3.068493 1.806227-3.110336 1.548194-3.110336C.550934-3.110336 .313823-2.587298 .313823-2.238605C.313823-2.015442 .411457-1.834122 .578829-1.694645C.843836-1.464508 1.108842-1.415691 1.54122-1.345953C1.889913-1.283188 2.454795-1.185554 2.454795-.718306C2.454795-.446326 2.266501-.125529 1.597011-.125529S.683437-.564882 .557908-1.039103C.536986-1.129763 .530012-1.157659 .432379-1.157659C.313823-1.157659 .313823-1.108842 .313823-.969365V-.111582C.313823 .006974 .313823 .069738 .411457 .069738C.474222 .069738 .606725-.076712 .746202-.230137C1.053051 .055791 1.429639 .069738 1.597011 .069738C2.503611 .069738 2.838356-.418431 2.838356-.913574C2.838356-1.17858 2.719801-1.387796 2.538481-1.555168C2.273474-1.799253 1.952677-1.855044 1.708593-1.896887C1.150685-1.994521 .697385-2.078207 .697385-2.447821C.697385-2.670984 .885679-2.942964 1.548194-2.942964C2.357161-2.942964 2.39203-2.378082 2.405978-2.175841C2.412951-2.099128 2.496638-2.099128 2.524533-2.099128C2.643088-2.099128 2.643088-2.147945 2.643088-2.280448V-2.929016Z"></path>
+<path id="tz_polissemia_homonimia_g6-116" d="M1.401743-2.75467H2.489664V-3.005729H1.401743V-4.288917H1.164633C1.157659-3.66127 .871731-2.970859 .202242-2.949938V-2.75467H.850809V-.871731C.850809-.09066 1.436613 .069738 1.827148 .069738C2.294396 .069738 2.615193-.327771 2.615193-.878705V-1.262267H2.378082V-.885679C2.378082-.411457 2.154919-.153425 1.882939-.153425C1.401743-.153425 1.401743-.739228 1.401743-.864757V-2.75467Z"></path>
+<path id="tz_polissemia_homonimia_g6-117" d="M2.517559-2.998755V-2.747696C2.984807-2.747696 3.040598-2.698879 3.040598-2.357161V-1.164633C3.040598-.550934 2.643088-.125529 2.113076-.125529C1.478456-.125529 1.45056-.425405 1.45056-.781071V-3.075467L.376588-2.998755V-2.747696C.899626-2.747696 .899626-2.726775 .899626-2.106102V-1.060025C.899626-.578829 .899626 .069738 2.064259 .069738C2.217684 .069738 2.726775 .069738 3.061519-.516065H3.068493V.069738L4.11457 0V-.251059C3.647323-.251059 3.591532-.299875 3.591532-.641594V-3.075467L2.517559-2.998755Z"></path>
+</defs>
+<g id="tz_polissemia_homonimia_page1">
+<g stroke-miterlimit="10" transform="translate(20.787799,7.679196)scale(0.996264,-0.996264)">
+<g fill="#000" stroke="#000">
+<g stroke-width="0.4">
+<g stroke="#2780e3">
+<g fill="#e5f0fc">
+<g stroke="#2780e3">
+<g fill="#e5f0fc">
+<path d="M30.45274 12.52777H-30.45274C-32.10962 12.52777-33.45274 11.18465-33.45274 9.52777V-9.52777C-33.45274-11.18465-32.10962-12.52777-30.45274-12.52777H30.45274C32.10962-12.52777 33.45274-11.18465 33.45274-9.52777V9.52777C33.45274 11.18465 32.10962 12.52777 30.45274 12.52777ZM-33.45274-12.52777"></path>
+</g>
+</g>
+<g transform="translate(-28.45274,1.97223)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="34.965042" y="7.679196" href="#tz_polissemia_homonimia_g5-99"></use>
+<use x="39.30436" y="7.679196" href="#tz_polissemia_homonimia_g5-97"></use>
+<use x="44.050494" y="7.679196" href="#tz_polissemia_homonimia_g5-98"></use>
+<use x="49.745857" y="7.679196" href="#tz_polissemia_homonimia_g5-101"></use>
+<use x="54.218008" y="7.679196" href="#tz_polissemia_homonimia_g5-24"></use>
+<use x="54.218008" y="7.679196" href="#tz_polissemia_homonimia_g5-99"></use>
+<use x="58.557327" y="7.679196" href="#tz_polissemia_homonimia_g5-97"></use>
+<use x="38.078428" y="17.143704" href="#tz_polissemia_homonimia_g6-110"></use>
+<use x="42.693099" y="17.143704" href="#tz_polissemia_homonimia_g6-19"></use>
+<use x="42.47862" y="17.143704" href="#tz_polissemia_homonimia_g6-117"></use>
+<use x="46.878809" y="17.143704" href="#tz_polissemia_homonimia_g6-99"></use>
+<use x="50.421101" y="17.143704" href="#tz_polissemia_homonimia_g6-108"></use>
+<use x="52.676546" y="17.143704" href="#tz_polissemia_homonimia_g6-101"></use>
+<use x="56.218838" y="17.143704" href="#tz_polissemia_homonimia_g6-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#2780e3">
+<g fill="#f7fafe">
+<g stroke="#2780e3">
+<g fill="#f7fafe">
+<path d="M-33.5661 45.09975H-85.93576C-87.59264 45.09975-88.93576 43.75662-88.93576 42.09975V31.87755C-88.93576 30.22067-87.59264 28.87755-85.93576 28.87755H-33.5661C-31.90923 28.87755-30.5661 30.22067-30.5661 31.87755V42.09975C-30.5661 43.75662-31.90923 45.09975-33.5661 45.09975ZM-88.93576 28.87755"></path>
+</g>
+</g>
+<g transform="translate(-83.93576,35.23865)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="29.766595" y="7.679196" href="#tz_polissemia_homonimia_g6-100"></use>
+<use x="34.166784" y="7.679196" href="#tz_polissemia_homonimia_g6-111"></use>
+<use x="40.785217" y="7.679196" href="#tz_polissemia_homonimia_g6-99"></use>
+<use x="44.327509" y="7.679196" href="#tz_polissemia_homonimia_g6-111"></use>
+<use x="48.29875" y="7.679196" href="#tz_polissemia_homonimia_g6-114"></use>
+<use x="51.412093" y="7.679196" href="#tz_polissemia_homonimia_g6-112"></use>
+<use x="56.026749" y="7.679196" href="#tz_polissemia_homonimia_g6-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#2780e3">
+<g fill="#f7fafe">
+<g stroke="#2780e3">
+<g fill="#f7fafe">
+<path d="M85.93576 44.41919H33.5661C31.90923 44.41919 30.5661 43.07607 30.5661 41.41919V32.5581C30.5661 30.90123 31.90923 29.5581 33.5661 29.5581H85.93576C87.59264 29.5581 88.93576 30.90123 88.93576 32.5581V41.41919C88.93576 43.07607 87.59264 44.41919 85.93576 44.41919ZM30.5661 29.5581"></path>
+</g>
+</g>
+<g transform="translate(35.5661,34.5581)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="37.098931" y="7.679196" href="#tz_polissemia_homonimia_g6-108"></use>
+<use x="38.49648" y="7.679196" href="#tz_polissemia_homonimia_g6-19"></use>
+<use x="39.35438" y="7.679196" href="#tz_polissemia_homonimia_g6-16"></use>
+<use x="41.609826" y="7.679196" href="#tz_polissemia_homonimia_g6-100"></use>
+<use x="46.010015" y="7.679196" href="#tz_polissemia_homonimia_g6-101"></use>
+<use x="49.552307" y="7.679196" href="#tz_polissemia_homonimia_g6-114"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#2780e3">
+<g fill="#f7fafe">
+<g stroke="#2780e3">
+<g fill="#f7fafe">
+<path d="M-33.5661-28.87755H-85.93576C-87.59264-28.87755-88.93576-30.22067-88.93576-31.87755V-42.09975C-88.93576-43.75662-87.59264-45.09975-85.93576-45.09975H-33.5661C-31.90923-45.09975-30.5661-43.75662-30.5661-42.09975V-31.87755C-30.5661-30.22067-31.90923-28.87755-33.5661-28.87755ZM-88.93576-45.09975"></path>
+</g>
+</g>
+<g transform="translate(-83.93576,-38.73865)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="29.873828" y="7.679196" href="#tz_polissemia_homonimia_g6-100"></use>
+<use x="34.274017" y="7.679196" href="#tz_polissemia_homonimia_g6-111"></use>
+<use x="40.892451" y="7.679196" href="#tz_polissemia_homonimia_g6-112"></use>
+<use x="45.29264" y="7.679196" href="#tz_polissemia_homonimia_g6-114"></use>
+<use x="48.405983" y="7.679196" href="#tz_polissemia_homonimia_g6-101"></use>
+<use x="51.948275" y="7.679196" href="#tz_polissemia_homonimia_g6-103"></use>
+<use x="55.919515" y="7.679196" href="#tz_polissemia_homonimia_g6-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#2780e3">
+<g fill="#f7fafe">
+<g stroke="#2780e3">
+<g fill="#f7fafe">
+<path d="M85.93576-28.87755H33.5661C31.90923-28.87755 30.5661-30.22067 30.5661-31.87755V-42.09975C30.5661-43.75662 31.90923-45.09975 33.5661-45.09975H85.93576C87.59264-45.09975 88.93576-43.75662 88.93576-42.09975V-31.87755C88.93576-30.22067 87.59264-28.87755 85.93576-28.87755ZM30.5661-45.09975"></path>
+</g>
+</g>
+<g transform="translate(35.5661,-38.73865)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="26.117073" y="7.679196" href="#tz_polissemia_homonimia_g6-112"></use>
+<use x="30.731728" y="7.679196" href="#tz_polissemia_homonimia_g6-111"></use>
+<use x="34.702969" y="7.679196" href="#tz_polissemia_homonimia_g6-114"></use>
+<use x="40.463505" y="7.679196" href="#tz_polissemia_homonimia_g6-99"></use>
+<use x="44.005797" y="7.679196" href="#tz_polissemia_homonimia_g6-97"></use>
+<use x="47.977037" y="7.679196" href="#tz_polissemia_homonimia_g6-98"></use>
+<use x="52.591693" y="7.679196" href="#tz_polissemia_homonimia_g6-101"></use>
+<use x="56.133985" y="7.679196" href="#tz_polissemia_homonimia_g6-24"></use>
+<use x="56.133988" y="7.679196" href="#tz_polissemia_homonimia_g6-99"></use>
+<use x="59.676279" y="7.679196" href="#tz_polissemia_homonimia_g6-97"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#6c757d">
+<path d="M-20.56046 12.72777L-44.4626 27.52095" fill="none"></path>
+<g fill="#6c757d">
+<g transform="matrix(-0.85028,0.52625,-0.52625,-0.85028,-43.35541,26.8357)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M2.93042 0L.64584 .86327L1.40213 0L.64584-.86327Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+<g stroke="#6c757d">
+<path d="M20.55988 12.72777L45.56146 28.2015" fill="none"></path>
+<g fill="#6c757d">
+<g transform="matrix(0.85028,0.52625,-0.52625,0.85028,44.45427,27.51625)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M2.93042 0L.64584 .86327L1.40213 0L.64584-.86327Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+<g stroke="#6c757d">
+<path d="M-20.56046-12.72777L-44.4626-27.52095" fill="none"></path>
+<g fill="#6c757d">
+<g transform="matrix(-0.85028,-0.52625,0.52625,-0.85028,-43.35541,-26.8357)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M2.93042 0L.64584 .86327L1.40213 0L.64584-.86327Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+<g stroke="#6c757d">
+<path d="M20.56046-12.72777L44.4626-27.52095" fill="none"></path>
+<g fill="#6c757d">
+<g transform="matrix(0.85028,-0.52625,0.52625,0.85028,43.35541,-26.8357)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M2.93042 0L.64584 .86327L1.40213 0L.64584-.86327Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+<g transform="translate(-36.04146,63.2839)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#2780e3">
+<g stroke="none">
+<g fill="#2780e3">
+<use x="20.787799" y="7.679196" href="#tz_polissemia_homonimia_g4-80"></use>
+<use x="28.619501" y="7.679196" href="#tz_polissemia_homonimia_g4-79"></use>
+<use x="37.226066" y="7.679196" href="#tz_polissemia_homonimia_g4-76"></use>
+<use x="44.116853" y="7.679196" href="#tz_polissemia_homonimia_g4-73"></use>
+<use x="48.461656" y="7.679196" href="#tz_polissemia_homonimia_g4-83"></use>
+<use x="54.826642" y="7.679196" href="#tz_polissemia_homonimia_g4-83"></use>
+<use x="61.191628" y="7.679196" href="#tz_polissemia_homonimia_g4-69"></use>
+<use x="68.718914" y="7.679196" href="#tz_polissemia_homonimia_g4-77"></use>
+<use x="79.594744" y="7.679196" href="#tz_polissemia_homonimia_g4-73"></use>
+<use x="83.939547" y="7.679196" href="#tz_polissemia_homonimia_g4-65"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-62.59605,-65.29955)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#6c757d">
+<g stroke="none">
+<g fill="#6c757d">
+<use x="25.158296" y="7.679196" href="#tz_polissemia_homonimia_g3-49"></use>
+<use x="32.168824" y="7.679196" href="#tz_polissemia_homonimia_g3-112"></use>
+<use x="35.965741" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="40.17224" y="7.679196" href="#tz_polissemia_homonimia_g3-108"></use>
+<use x="42.33083" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="46.537329" y="7.679196" href="#tz_polissemia_homonimia_g3-118"></use>
+<use x="50.334245" y="7.679196" href="#tz_polissemia_homonimia_g3-114"></use>
+<use x="53.414401" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="60.424929" y="7.679196" href="#tz_polissemia_homonimia_g2-183"></use>
+<use x="65.796479" y="7.679196" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="69.183814" y="7.679196" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="72.980731" y="7.679196" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="77.596811" y="7.679196" href="#tz_polissemia_homonimia_g3-116"></use>
+<use x="80.369781" y="7.679196" href="#tz_polissemia_homonimia_g3-105"></use>
+<use x="82.937953" y="7.679196" href="#tz_polissemia_homonimia_g3-100"></use>
+<use x="87.144451" y="7.679196" href="#tz_polissemia_homonimia_g3-111"></use>
+<use x="91.35095" y="7.679196" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="97.542315" y="7.679196" href="#tz_polissemia_homonimia_g1-114"></use>
+<use x="100.630159" y="7.679196" href="#tz_polissemia_homonimia_g1-101"></use>
+<use x="104.34176" y="7.679196" href="#tz_polissemia_homonimia_g1-108"></use>
+<use x="106.410651" y="7.679196" href="#tz_polissemia_homonimia_g1-97"></use>
+<use x="110.532931" y="7.679196" href="#tz_polissemia_homonimia_g1-99"></use>
+<use x="114.244532" y="7.679196" href="#tz_polissemia_homonimia_g1-105"></use>
+<use x="116.724102" y="7.679196" href="#tz_polissemia_homonimia_g1-111"></use>
+<use x="120.846382" y="7.679196" href="#tz_polissemia_homonimia_g1-110"></use>
+<use x="125.379341" y="7.679196" href="#tz_polissemia_homonimia_g1-97"></use>
+<use x="129.50162" y="7.679196" href="#tz_polissemia_homonimia_g1-100"></use>
+<use x="133.6239" y="7.679196" href="#tz_polissemia_homonimia_g1-111"></use>
+<use x="137.74618" y="7.679196" href="#tz_polissemia_homonimia_g1-115"></use>
+<use x="41.794063" y="15.649308" href="#tz_polissemia_homonimia_g3-49"></use>
+<use x="48.804591" y="15.649308" href="#tz_polissemia_homonimia_g3-118"></use>
+<use x="52.601508" y="15.649308" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="56.398425" y="15.649308" href="#tz_polissemia_homonimia_g3-114"></use>
+<use x="59.888162" y="15.649308" href="#tz_polissemia_homonimia_g3-98"></use>
+<use x="63.275497" y="15.649308" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="67.072414" y="15.649308" href="#tz_polissemia_homonimia_g3-116"></use>
+<use x="69.845383" y="15.649308" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="76.44633" y="15.649308" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="81.06241" y="15.649308" href="#tz_polissemia_homonimia_g3-111"></use>
+<use x="88.072938" y="15.649308" href="#tz_polissemia_homonimia_g3-100"></use>
+<use x="92.279437" y="15.649308" href="#tz_polissemia_homonimia_g3-105"></use>
+<use x="94.847609" y="15.649308" href="#tz_polissemia_homonimia_g3-99"></use>
+<use x="98.644525" y="15.649308" href="#tz_polissemia_homonimia_g3-105"></use>
+<use x="101.212697" y="15.649308" href="#tz_polissemia_homonimia_g3-111"></use>
+<use x="105.419196" y="15.649308" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="110.035276" y="15.649308" href="#tz_polissemia_homonimia_g3-19"></use>
+<use x="110.035289" y="15.649308" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="114.241788" y="15.649308" href="#tz_polissemia_homonimia_g3-114"></use>
+<use x="117.731525" y="15.649308" href="#tz_polissemia_homonimia_g3-105"></use>
+<use x="120.299697" y="15.649308" href="#tz_polissemia_homonimia_g3-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#d7433b">
+<g fill="#fef8f8">
+<g stroke="#d7433b">
+<g fill="#fef8f8">
+<path d="M215.3954 49.29419H148.79936C147.14249 49.29419 145.79936 47.95107 145.79936 46.29419V27.6831C145.79936 26.02623 147.14249 24.6831 148.79936 24.6831H215.3954C217.05228 24.6831 218.3954 26.02623 218.3954 27.6831V46.29419C218.3954 47.95107 217.05228 49.29419 215.3954 49.29419ZM145.79936 24.6831"></path>
+</g>
+</g>
+<g transform="translate(150.79936,39.04419)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="28.60983" y="7.679196" href="#tz_polissemia_homonimia_g3-109"></use>
+<use x="35.273819" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="39.480317" y="7.679196" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="44.096397" y="7.679196" href="#tz_polissemia_homonimia_g3-105"></use>
+<use x="46.664569" y="7.679196" href="#tz_polissemia_homonimia_g3-99"></use>
+<use x="50.051905" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="57.505914" y="7.679196" href="#tz_polissemia_homonimia_g6-40"></use>
+<use x="60.619257" y="7.679196" href="#tz_polissemia_homonimia_g6-108"></use>
+<use x="62.874703" y="7.679196" href="#tz_polissemia_homonimia_g6-97"></use>
+<use x="66.845944" y="7.679196" href="#tz_polissemia_homonimia_g6-116"></use>
+<use x="69.959287" y="7.679196" href="#tz_polissemia_homonimia_g6-46"></use>
+<use x="72.214732" y="7.679196" href="#tz_polissemia_homonimia_g6-41"></use>
+<use x="21.985897" y="15.649308" href="#tz_polissemia_homonimia_g6-109"></use>
+<use x="28.53083" y="15.649308" href="#tz_polissemia_homonimia_g6-97"></use>
+<use x="32.50207" y="15.649308" href="#tz_polissemia_homonimia_g6-110"></use>
+<use x="36.902259" y="15.649308" href="#tz_polissemia_homonimia_g6-103"></use>
+<use x="40.8735" y="15.649308" href="#tz_polissemia_homonimia_g6-97"></use>
+<use x="47.491933" y="15.649308" href="#tz_polissemia_homonimia_g6-100"></use>
+<use x="51.892122" y="15.649308" href="#tz_polissemia_homonimia_g6-97"></use>
+<use x="58.510555" y="15.649308" href="#tz_polissemia_homonimia_g6-99"></use>
+<use x="62.052847" y="15.649308" href="#tz_polissemia_homonimia_g6-97"></use>
+<use x="66.024088" y="15.649308" href="#tz_polissemia_homonimia_g6-109"></use>
+<use x="72.56902" y="15.649308" href="#tz_polissemia_homonimia_g6-105"></use>
+<use x="74.824466" y="15.649308" href="#tz_polissemia_homonimia_g6-115"></use>
+<use x="77.980707" y="15.649308" href="#tz_polissemia_homonimia_g6-97"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#d7433b">
+<g fill="#fef8f8">
+<g stroke="#d7433b">
+<g fill="#fef8f8">
+<path d="M215.3954-25.36365H148.79936C147.14249-25.36365 145.79936-26.70677 145.79936-28.36365V-45.61365C145.79936-47.27052 147.14249-48.61365 148.79936-48.61365H215.3954C217.05228-48.61365 218.3954-47.27052 218.3954-45.61365V-28.36365C218.3954-26.70677 217.05228-25.36365 215.3954-25.36365ZM145.79936-48.61365"></path>
+</g>
+</g>
+<g transform="translate(150.79936,-35.61365)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="22.445416" y="7.679196" href="#tz_polissemia_homonimia_g3-109"></use>
+<use x="29.109405" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="33.315903" y="7.679196" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="37.931983" y="7.679196" href="#tz_polissemia_homonimia_g3-103"></use>
+<use x="41.7289" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="49.18291" y="7.679196" href="#tz_polissemia_homonimia_g6-40"></use>
+<use x="52.296253" y="7.679196" href="#tz_polissemia_homonimia_g6-99"></use>
+<use x="55.838545" y="7.679196" href="#tz_polissemia_homonimia_g6-111"></use>
+<use x="59.809785" y="7.679196" href="#tz_polissemia_homonimia_g6-110"></use>
+<use x="64.209974" y="7.679196" href="#tz_polissemia_homonimia_g6-99"></use>
+<use x="67.752266" y="7.679196" href="#tz_polissemia_homonimia_g6-97"></use>
+<use x="71.723507" y="7.679196" href="#tz_polissemia_homonimia_g6-110"></use>
+<use x="76.123696" y="7.679196" href="#tz_polissemia_homonimia_g6-105"></use>
+<use x="78.379141" y="7.679196" href="#tz_polissemia_homonimia_g6-41"></use>
+<use x="40.125667" y="15.649308" href="#tz_polissemia_homonimia_g6-97"></use>
+<use x="46.7441" y="15.649308" href="#tz_polissemia_homonimia_g6-102"></use>
+<use x="49.214027" y="15.649308" href="#tz_polissemia_homonimia_g6-114"></use>
+<use x="52.32737" y="15.649308" href="#tz_polissemia_homonimia_g6-117"></use>
+<use x="56.727559" y="15.649308" href="#tz_polissemia_homonimia_g6-116"></use>
+<use x="59.840902" y="15.649308" href="#tz_polissemia_homonimia_g6-97"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#d7433b">
+<g fill="#fbe9e8">
+<g stroke="#d7433b">
+<g fill="#fbe9e8">
+<path d="M208.28221 11.52777H155.91255C154.25568 11.52777 152.91255 10.18465 152.91255 8.52777V-8.52777C152.91255-10.18465 154.25568-11.52777 155.91255-11.52777H208.28221C209.93909-11.52777 211.28221-10.18465 211.28221-8.52777V8.52777C211.28221 10.18465 209.93909 11.52777 208.28221 11.52777ZM152.91255-11.52777"></path>
+</g>
+</g>
+<g transform="translate(157.91255,2.97223)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="30.915105" y="7.679196" href="#tz_polissemia_homonimia_g5-109"></use>
+<use x="39.051327" y="7.679196" href="#tz_polissemia_homonimia_g5-97"></use>
+<use x="43.79746" y="7.679196" href="#tz_polissemia_homonimia_g5-110"></use>
+<use x="49.221608" y="7.679196" href="#tz_polissemia_homonimia_g5-103"></use>
+<use x="54.103341" y="7.679196" href="#tz_polissemia_homonimia_g5-97"></use>
+<use x="34.846955" y="17.143704" href="#tz_polissemia_homonimia_g6-102"></use>
+<use x="37.316881" y="17.143704" href="#tz_polissemia_homonimia_g6-111"></use>
+<use x="41.288122" y="17.143704" href="#tz_polissemia_homonimia_g6-114"></use>
+<use x="44.401465" y="17.143704" href="#tz_polissemia_homonimia_g6-109"></use>
+<use x="50.946397" y="17.143704" href="#tz_polissemia_homonimia_g6-97"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#6c757d">
+<path d="M182.09738 24.48311V13.92563" fill="none"></path>
+<g transform="matrix(0.0,-1.0,1.0,0.0,182.09738,15.22777)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M2.93042 0L.64584 .86327L1.40213 0L.64584-.86327Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+<g stroke="#6c757d">
+<path d="M182.09738-25.16365V-13.92563" fill="none"></path>
+<g transform="matrix(0.0,1.0,-1.0,0.0,182.09738,-15.22777)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M2.93042 0L.64584 .86327L1.40213 0L.64584-.86327Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+<g transform="translate(144.8337,63.2839)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#d7433b">
+<g stroke="none">
+<g fill="#d7433b">
+<use x="20.787799" y="7.679196" href="#tz_polissemia_homonimia_g4-72"></use>
+<use x="29.754133" y="7.679196" href="#tz_polissemia_homonimia_g4-79"></use>
+<use x="38.360698" y="7.679196" href="#tz_polissemia_homonimia_g4-77"></use>
+<use x="49.236528" y="7.679196" href="#tz_polissemia_homonimia_g4-79"></use>
+<use x="57.843094" y="7.679196" href="#tz_polissemia_homonimia_g4-78"></use>
+<use x="66.11758" y="5.271552" href="#tz_polissemia_homonimia_g4-19"></use>
+<use x="66.809428" y="7.679196" href="#tz_polissemia_homonimia_g4-73"></use>
+<use x="71.15423" y="7.679196" href="#tz_polissemia_homonimia_g4-77"></use>
+<use x="82.03006" y="7.679196" href="#tz_polissemia_homonimia_g4-73"></use>
+<use x="86.374863" y="7.679196" href="#tz_polissemia_homonimia_g4-65"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(119.50133,-65.29956)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#6c757d">
+<g stroke="none">
+<g fill="#6c757d">
+<use x="54.290414" y="7.679196" href="#tz_polissemia_homonimia_g3-50"></use>
+<use x="61.300942" y="7.679196" href="#tz_polissemia_homonimia_g3-112"></use>
+<use x="65.097859" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="69.304358" y="7.679196" href="#tz_polissemia_homonimia_g3-108"></use>
+<use x="71.462948" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="75.669447" y="7.679196" href="#tz_polissemia_homonimia_g3-118"></use>
+<use x="79.466363" y="7.679196" href="#tz_polissemia_homonimia_g3-114"></use>
+<use x="82.546519" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="86.753018" y="7.679196" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="92.944382" y="7.679196" href="#tz_polissemia_homonimia_g2-183"></use>
+<use x="98.315932" y="7.679196" href="#tz_polissemia_homonimia_g1-115"></use>
+<use x="101.711787" y="7.679196" href="#tz_polissemia_homonimia_g1-101"></use>
+<use x="105.423388" y="7.679196" href="#tz_polissemia_homonimia_g1-109"></use>
+<use x="50.841099" y="15.649308" href="#tz_polissemia_homonimia_g3-114"></use>
+<use x="53.921255" y="15.649308" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="57.718172" y="15.649308" href="#tz_polissemia_homonimia_g3-108"></use>
+<use x="59.876762" y="15.649308" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="64.083261" y="15.649308" href="#tz_polissemia_homonimia_g3-24"></use>
+<use x="64.083274" y="15.649308" href="#tz_polissemia_homonimia_g3-99"></use>
+<use x="67.880191" y="15.649308" href="#tz_polissemia_homonimia_g3-126"></use>
+<use x="67.880204" y="15.649308" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="72.086703" y="15.649308" href="#tz_polissemia_homonimia_g3-111"></use>
+<use x="79.097231" y="15.649308" href="#tz_polissemia_homonimia_g3-100"></use>
+<use x="83.303729" y="15.649308" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="89.904676" y="15.649308" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="93.292011" y="15.649308" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="97.088928" y="15.649308" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="101.705008" y="15.649308" href="#tz_polissemia_homonimia_g3-116"></use>
+<use x="104.477978" y="15.649308" href="#tz_polissemia_homonimia_g3-105"></use>
+<use x="107.04615" y="15.649308" href="#tz_polissemia_homonimia_g3-100"></use>
+<use x="111.252648" y="15.649308" href="#tz_polissemia_homonimia_g3-111"></use>
+<use x="46.992981" y="23.61942" href="#tz_polissemia_homonimia_g3-50"></use>
+<use x="54.003509" y="23.61942" href="#tz_polissemia_homonimia_g3-118"></use>
+<use x="57.800426" y="23.61942" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="61.597343" y="23.61942" href="#tz_polissemia_homonimia_g3-114"></use>
+<use x="65.08708" y="23.61942" href="#tz_polissemia_homonimia_g3-98"></use>
+<use x="68.474415" y="23.61942" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="72.271332" y="23.61942" href="#tz_polissemia_homonimia_g3-116"></use>
+<use x="75.044302" y="23.61942" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="78.841219" y="23.61942" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="85.032584" y="23.61942" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="88.419919" y="23.61942" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="92.216836" y="23.61942" href="#tz_polissemia_homonimia_g3-112"></use>
+<use x="96.013753" y="23.61942" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="100.220251" y="23.61942" href="#tz_polissemia_homonimia_g3-114"></use>
+<use x="103.300407" y="23.61942" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="107.506905" y="23.61942" href="#tz_polissemia_homonimia_g3-100"></use>
+<use x="111.713404" y="23.61942" href="#tz_polissemia_homonimia_g3-111"></use>
+<use x="115.919902" y="23.61942" href="#tz_polissemia_homonimia_g3-115"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M366.19528 31.34737H293.90869C292.25182 31.34737 290.90869 30.00424 290.90869 28.34737V11.48628C290.90869 9.8294 292.25182 8.48628 293.90869 8.48628H366.19528C367.85216 8.48628 369.19528 9.8294 369.19528 11.48628V28.34737C369.19528 30.00424 367.85216 31.34737 366.19528 31.34737ZM290.90869 8.48628"></path>
+</g>
+</g>
+<g transform="translate(295.90869,21.48628)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="36.951428" y="7.679196" href="#tz_polissemia_homonimia_g0-101"></use>
+<use x="41.082467" y="7.679196" href="#tz_polissemia_homonimia_g0-109"></use>
+<use x="48.568279" y="7.679196" href="#tz_polissemia_homonimia_g0-105"></use>
+<use x="51.100437" y="7.679196" href="#tz_polissemia_homonimia_g0-110"></use>
+<use x="56.109425" y="7.679196" href="#tz_polissemia_homonimia_g0-101"></use>
+<use x="60.240464" y="7.679196" href="#tz_polissemia_homonimia_g0-110"></use>
+<use x="65.00177" y="7.679196" href="#tz_polissemia_homonimia_g0-116"></use>
+<use x="68.524661" y="7.679196" href="#tz_polissemia_homonimia_g0-101"></use>
+<use x="43.885402" y="15.649308" href="#tz_polissemia_homonimia_g6-105"></use>
+<use x="46.140848" y="15.649308" href="#tz_polissemia_homonimia_g6-108"></use>
+<use x="48.396294" y="15.649308" href="#tz_polissemia_homonimia_g6-117"></use>
+<use x="52.796483" y="15.649308" href="#tz_polissemia_homonimia_g6-115"></use>
+<use x="55.952723" y="15.649308" href="#tz_polissemia_homonimia_g6-116"></use>
+<use x="59.066067" y="15.649308" href="#tz_polissemia_homonimia_g6-114"></use>
+<use x="62.17941" y="15.649308" href="#tz_polissemia_homonimia_g6-101"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<g stroke="#3fb618">
+<g fill="#f0faed">
+<path d="M366.19528-7.80573H293.90869C292.25182-7.80573 290.90869-9.14885 290.90869-10.80573V-29.02792C290.90869-30.6848 292.25182-32.02792 293.90869-32.02792H366.19528C367.85216-32.02792 369.19528-30.6848 369.19528-29.02792V-10.80573C369.19528-9.14885 367.85216-7.80573 366.19528-7.80573ZM290.90869-32.02792"></path>
+</g>
+</g>
+<g transform="translate(295.90869,-17.66682)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="37.750875" y="7.679196" href="#tz_polissemia_homonimia_g0-105"></use>
+<use x="40.283033" y="7.679196" href="#tz_polissemia_homonimia_g0-109"></use>
+<use x="47.768845" y="7.679196" href="#tz_polissemia_homonimia_g0-105"></use>
+<use x="50.301003" y="7.679196" href="#tz_polissemia_homonimia_g0-110"></use>
+<use x="55.309991" y="7.679196" href="#tz_polissemia_homonimia_g0-101"></use>
+<use x="59.44103" y="7.679196" href="#tz_polissemia_homonimia_g0-110"></use>
+<use x="64.202335" y="7.679196" href="#tz_polissemia_homonimia_g0-116"></use>
+<use x="67.725227" y="7.679196" href="#tz_polissemia_homonimia_g0-101"></use>
+<use x="25.868007" y="15.649308" href="#tz_polissemia_homonimia_g6-112"></use>
+<use x="30.268196" y="15.649308" href="#tz_polissemia_homonimia_g6-114"></use>
+<use x="33.381539" y="15.649308" href="#tz_polissemia_homonimia_g6-101"></use>
+<use x="36.923831" y="15.649308" href="#tz_polissemia_homonimia_g6-115"></use>
+<use x="40.080071" y="15.649308" href="#tz_polissemia_homonimia_g6-116"></use>
+<use x="43.193414" y="15.649308" href="#tz_polissemia_homonimia_g6-101"></use>
+<use x="46.735706" y="15.649308" href="#tz_polissemia_homonimia_g6-115"></use>
+<use x="52.539139" y="15.649308" href="#tz_polissemia_homonimia_g6-97"></use>
+<use x="59.157573" y="15.649308" href="#tz_polissemia_homonimia_g6-111"></use>
+<use x="63.34328" y="15.649308" href="#tz_polissemia_homonimia_g6-99"></use>
+<use x="66.885572" y="15.649308" href="#tz_polissemia_homonimia_g6-111"></use>
+<use x="70.856812" y="15.649308" href="#tz_polissemia_homonimia_g6-114"></use>
+<use x="73.970155" y="15.649308" href="#tz_polissemia_homonimia_g6-114"></use>
+<use x="77.083498" y="15.649308" href="#tz_polissemia_homonimia_g6-101"></use>
+<use x="80.62579" y="15.649308" href="#tz_polissemia_homonimia_g6-114"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(295.11469,63.2839)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#3fb618">
+<g stroke="none">
+<g fill="#3fb618">
+<use x="20.787799" y="7.679196" href="#tz_polissemia_homonimia_g4-80"></use>
+<use x="27.664753" y="7.679196" href="#tz_polissemia_homonimia_g4-65"></use>
+<use x="36.326671" y="7.679196" href="#tz_polissemia_homonimia_g4-82"></use>
+<use x="44.601153" y="7.679196" href="#tz_polissemia_homonimia_g4-79"></use>
+<use x="53.207719" y="7.679196" href="#tz_polissemia_homonimia_g4-78"></use>
+<use x="61.482205" y="5.271552" href="#tz_polissemia_homonimia_g4-19"></use>
+<use x="62.174053" y="7.679196" href="#tz_polissemia_homonimia_g4-73"></use>
+<use x="66.518855" y="7.679196" href="#tz_polissemia_homonimia_g4-77"></use>
+<use x="77.394685" y="7.679196" href="#tz_polissemia_homonimia_g4-73"></use>
+<use x="81.739488" y="7.679196" href="#tz_polissemia_homonimia_g4-65"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(270.30121,-65.29956)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(20.787799,7.679196)scale(-1,-1)">
+<g fill="#6c757d">
+<g stroke="none">
+<g fill="#6c757d">
+<use x="37.218098" y="7.679196" href="#tz_polissemia_homonimia_g3-102"></use>
+<use x="39.78629" y="7.679196" href="#tz_polissemia_homonimia_g3-111"></use>
+<use x="43.992789" y="7.679196" href="#tz_polissemia_homonimia_g3-114"></use>
+<use x="47.482526" y="7.679196" href="#tz_polissemia_homonimia_g3-109"></use>
+<use x="54.146514" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="58.353013" y="7.679196" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="64.544377" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="68.750876" y="7.679196" href="#tz_polissemia_homonimia_g3-112"></use>
+<use x="72.547793" y="7.679196" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="76.34471" y="7.679196" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="80.96079" y="7.679196" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="85.167288" y="7.679196" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="91.358653" y="7.679196" href="#tz_polissemia_homonimia_g1-112"></use>
+<use x="95.070242" y="7.679196" href="#tz_polissemia_homonimia_g1-97"></use>
+<use x="99.192521" y="7.679196" href="#tz_polissemia_homonimia_g1-114"></use>
+<use x="102.280366" y="7.679196" href="#tz_polissemia_homonimia_g1-101"></use>
+<use x="105.581275" y="7.679196" href="#tz_polissemia_homonimia_g1-99"></use>
+<use x="109.292876" y="7.679196" href="#tz_polissemia_homonimia_g1-105"></use>
+<use x="111.772446" y="7.679196" href="#tz_polissemia_homonimia_g1-100"></use>
+<use x="115.894726" y="7.679196" href="#tz_polissemia_homonimia_g1-97"></use>
+<use x="120.017006" y="7.679196" href="#tz_polissemia_homonimia_g1-115"></use>
+<use x="31.574528" y="15.649308" href="#tz_polissemia_homonimia_g3-99"></use>
+<use x="34.961863" y="15.649308" href="#tz_polissemia_homonimia_g3-111"></use>
+<use x="39.168361" y="15.649308" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="43.784442" y="15.649308" href="#tz_polissemia_homonimia_g3-102"></use>
+<use x="46.352634" y="15.649308" href="#tz_polissemia_homonimia_g3-117"></use>
+<use x="50.763929" y="15.649308" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="55.38001" y="15.649308" href="#tz_polissemia_homonimia_g3-100"></use>
+<use x="59.586508" y="15.649308" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="63.383425" y="15.649308" href="#tz_polissemia_homonimia_g3-109"></use>
+<use x="70.047413" y="15.649308" href="#tz_polissemia_homonimia_g3-45"></use>
+<use x="73.025167" y="15.649308" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="76.412502" y="15.649308" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="83.013449" y="15.649308" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="86.400784" y="15.649308" href="#tz_polissemia_homonimia_g3-19"></use>
+<use x="86.400797" y="15.649308" href="#tz_polissemia_homonimia_g3-111"></use>
+<use x="93.411325" y="15.649308" href="#tz_polissemia_homonimia_g3-110"></use>
+<use x="98.027405" y="15.649308" href="#tz_polissemia_homonimia_g3-97"></use>
+<use x="105.037933" y="15.649308" href="#tz_polissemia_homonimia_g3-101"></use>
+<use x="108.83485" y="15.649308" href="#tz_polissemia_homonimia_g3-115"></use>
+<use x="112.222186" y="15.649308" href="#tz_polissemia_homonimia_g3-99"></use>
+<use x="116.019102" y="15.649308" href="#tz_polissemia_homonimia_g3-114"></use>
+<use x="119.50884" y="15.649308" href="#tz_polissemia_homonimia_g3-105"></use>
+<use x="122.077012" y="15.649308" href="#tz_polissemia_homonimia_g3-116"></use>
+<use x="124.849981" y="15.649308" href="#tz_polissemia_homonimia_g3-97"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-polissemia-homonimia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;65.1: Os três fenômenos. Na <strong>polissemia</strong>, os sentidos irradiam de um núcleo; na <strong>homonímia</strong>, duas palavras distintas colidem numa forma; na <strong>paronímia</strong>, as formas nem sequer coincidem — apenas se parecem.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="o-contexto-resolve-quase-sempre" class="level2" data-number="65.5">
+<h2 data-number="65.5" class="anchored" data-anchor-id="o-contexto-resolve-quase-sempre"><span class="header-section-number">65.5</span> O contexto resolve (quase sempre)</h2>
+<p>Se a polissemia e a homonímia são tão abundantes, por que raramente nos confundimos? Porque o <strong>contexto</strong> filtra os sentidos incompatíveis antes que a consciência os note.</p>
+<p>Em “Sentei no banco e esperei”, ninguém cogita a instituição financeira. Em “O banco aprovou meu empréstimo”, ninguém cogita o assento. O verbo, o artigo, a situação — tudo conspira para selecionar um sentido e descartar o resto. A ambiguidade é <strong>potencial</strong>, não <strong>efetiva</strong>.</p>
+<p>Ela só se torna efetiva quando o contexto <strong>não</strong> desfaz a duplicidade:</p>
+<blockquote class="blockquote">
+<p>“Vi o banco da praça.” (móvel? agência?)</p>
+</blockquote>
+<p>E aí temos duas possibilidades: ou é um <strong>defeito</strong> (a corrigir, se o gênero exige precisão), ou é um <strong>recurso</strong> (a explorar, se o gênero admite jogo). Este é o tema do próximo capítulo (<a href="cap-64-ambiguidade-pressuposicao.html" class="quarto-xref"><span>Capítulo 66</span></a>).</p>
+<section id="a-duplicidade-como-recurso" class="level3" data-number="65.5.1">
+<h3 data-number="65.5.1" class="anchored" data-anchor-id="a-duplicidade-como-recurso"><span class="header-section-number">65.5.1</span> A duplicidade como recurso</h3>
+<p>O humor e a publicidade vivem de forçar duas leituras simultâneas:</p>
+<ul>
+<li><strong>Trocadilho por homonímia</strong>: “Ele foi ao banco e sentou-se no gerente.” O humor nasce de acionar os dois <em>bancos</em>.</li>
+<li><strong>Trocadilho por polissemia</strong>: um anúncio de banco que diz “Aqui, seu dinheiro tem <strong>peso</strong>” joga com <em>peso</em> (importância / grandeza física / moeda).</li>
+<li><strong>Trocadilho por paronímia</strong>: “Não é hora de <strong>imergir</strong>, é hora de <strong>emergir</strong>.”</li>
+</ul>
+<p>Nesses casos, a ambiguidade não é falha de redação — é o próprio ponto do texto. O que determina se a duplicidade é erro ou recurso é, mais uma vez, o <strong>gênero</strong> (<a href="cap-61-denotacao-conotacao.html" class="quarto-xref"><span>Capítulo 63</span></a>): inaceitável numa bula, celebrada numa charge.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Norma-padrão × uso real
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Polissemia e homonímia são <strong>fatos do sistema</strong> — não estão sujeitas a correção: ninguém “erra” ao usar <em>banco</em> nos dois sentidos. Já a <strong>paronímia</strong> é diferente: trocar <em>infligir</em> por <em>infringir</em> é, sim, um desvio, porque são duas palavras distintas com sentidos incompatíveis, e a troca produz uma frase que não diz o que se pretendia.</p>
+<p>Vale notar, porém, que a maior parte das confusões de parônimos ocorre com palavras de <strong>registro formal e baixa frequência</strong> (<em>deferir</em>, <em>vultoso</em>, <em>retificar</em>) — itens que o falante encontra quase só na escrita burocrática. Não é ignorância da língua: é pouca convivência com um vocabulário específico. A solução é exposição e consulta ao dicionário <span class="citation" data-cites="houaiss2009">(<a href="cap-01-linguagem-lingua-fala.html#ref-houaiss2009" role="doc-biblioref">Houaiss; Villar, 2009</a>)</span>, não constrangimento.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="quadro-resumo" class="level2" data-number="65.6">
+<h2 data-number="65.6" class="anchored" data-anchor-id="quadro-resumo"><span class="header-section-number">65.6</span> 📋 Quadro-resumo</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fenômeno</th>
+<th>Formas</th>
+<th>Sentidos</th>
+<th>Dicionário</th>
+<th>Exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Polissemia</strong></td>
+<td>1 palavra</td>
+<td>vários, <strong>relacionados</strong></td>
+<td>1 verbete</td>
+<td><em>cabeça</em> (corpo/líder/prego)</td>
+</tr>
+<tr class="even">
+<td><strong>Homonímia</strong></td>
+<td>2+ palavras</td>
+<td><strong>sem</strong> relação</td>
+<td>verbetes separados</td>
+<td><em>manga</em> (fruta/camisa)</td>
+</tr>
+<tr class="odd">
+<td>— <strong>homógrafos</strong></td>
+<td>grafia igual, som ≠</td>
+<td>—</td>
+<td>—</td>
+<td><em>gosto</em> (subst./verbo)</td>
+</tr>
+<tr class="even">
+<td>— <strong>homófonos</strong></td>
+<td>som igual, grafia ≠</td>
+<td>—</td>
+<td>—</td>
+<td><em>cela</em> / <em>sela</em></td>
+</tr>
+<tr class="odd">
+<td>— <strong>perfeitos</strong></td>
+<td>grafia e som iguais</td>
+<td>—</td>
+<td>—</td>
+<td><em>banco</em> (assento/agência)</td>
+</tr>
+<tr class="even">
+<td><strong>Paronímia</strong></td>
+<td>formas <strong>parecidas</strong></td>
+<td>diferentes</td>
+<td>verbetes separados</td>
+<td><em>eminente</em> / <em>iminente</em></td>
+</tr>
+</tbody>
+</table>
+<p>Em uma linha: <strong>polissemia</strong> = sentidos que irradiam de um núcleo; <strong>homonímia</strong> = palavras distintas que colidiram na forma; <strong>paronímia</strong> = formas que apenas se parecem — e é a única das três em que existe <strong>erro</strong> a evitar.</p>
+</section>
+<section id="pegadinhas-e-erros-comuns" class="level2" data-number="65.7">
+<h2 data-number="65.7" class="anchored" data-anchor-id="pegadinhas-e-erros-comuns"><span class="header-section-number">65.7</span> ⚠️ Pegadinhas e erros comuns</h2>
+<ul>
+<li><strong>Confundir polissemia com homonímia.</strong> O critério é a <strong>relação entre os sentidos</strong>: há núcleo comum (polissemia) ou não (homonímia)?</li>
+<li><strong>Confundir homônimo com parônimo.</strong> Homônimos são <strong>iguais</strong> (na grafia, no som ou em ambos); parônimos são apenas <strong>parecidos</strong>. <em>Cela</em>/<em>sela</em> = homófonos. <em>Eminente</em>/ <em>iminente</em> = parônimos.</li>
+<li><strong>Trocar <em>infligir</em> por <em>infringir</em>.</strong> “A lei foi infringida; a multa, infligida.”</li>
+<li><strong>Trocar <em>tráfego</em> por <em>tráfico</em>.</strong> “O <strong>tráfego</strong> estava lento” (veículos) × “<strong>tráfico</strong> de drogas” (crime).</li>
+<li><strong>Trocar <em>mandato</em> por <em>mandado</em>.</strong> “O <strong>mandato</strong> do senador” (período) × “<strong>mandado</strong> de prisão” (ordem judicial).</li>
+<li><strong>Achar que ambiguidade lexical é sempre defeito.</strong> Depende do gênero: erro na bula, recurso na charge.</li>
+<li><strong>Esquecer os homógrafos na leitura em voz alta.</strong> <em>Gosto</em>, <em>colher</em>, <em>sede</em>, <em>jogo</em> mudam de timbre conforme a classe.</li>
+</ul>
+</section>
+<section id="exercícios" class="level2" data-number="65.8">
+<h2 data-number="65.8" class="anchored" data-anchor-id="exercícios"><span class="header-section-number">65.8</span> ✍️ Exercícios</h2>
+<p><strong>1.</strong> Classifique e justifique: (a) <em>cabeça</em> (do corpo) / <em>cabeça</em> (do prego); (b) <em>manga</em> (fruta) / <em>manga</em> (camisa).</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>(a) Polissemia.</strong> Os dois sentidos são <strong>relacionados</strong>: partilham o núcleo “extremidade superior, parte que encima”. A cabeça do prego chama-se assim por <strong>analogia de forma e posição</strong> com a cabeça humana. Como se pode reconstruir o caminho de um sentido ao outro, trata-se de <strong>uma única palavra</strong> com sentidos estendidos — e o dicionário os reúne num só verbete.</p>
+<p><strong>(b) Homonímia</strong> (perfeita: mesma grafia e mesmo som). Não há <strong>nenhuma</strong> relação de sentido: a fruta não é extensão metafórica da peça de roupa. A coincidência é um <strong>acidente histórico</strong> — <em>manga</em> (camisa) vem do latim <em>manica</em> (“o que cobre a mão”), enquanto <em>manga</em> (fruta) entrou por línguas da Índia. São <strong>duas palavras distintas</strong> que vieram a soar igual, e o dicionário lhes dá verbetes separados: manga¹, manga².</p>
+</div>
+</div>
+</div>
+<p><strong>2.</strong> Classifique os homônimos: (a) <em>cela</em> / <em>sela</em>; (b) <em>gosto</em> (subst.) / <em>gosto</em> (verbo); (c) <em>rio</em> (água) / <em>rio</em> (verbo <em>rir</em>).</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>(a) Homófonos.</strong> Mesmo <strong>som</strong> (/ˈsɛlɐ/), <strong>grafias diferentes</strong>: <em>cela</em> (cômodo de prisão ou convento) × <em>sela</em> (arreio do cavalo; ou verbo <em>selar</em>).</p>
+<p><strong>(b) Homógrafos.</strong> Mesma <strong>grafia</strong>, <strong>pronúncias diferentes</strong>: <em>gosto</em> substantivo tem vogal fechada (/ˈgostu/); <em>gosto</em> verbo tem vogal aberta (/ˈgɔstu/). “Eu <strong>gosto</strong> (/ɔ/) do <strong>gosto</strong> (/o/) desta comida.”</p>
+<p><strong>(c) Homônimos perfeitos.</strong> Mesma <strong>grafia</strong> e mesmo <strong>som</strong> (/ˈʁiu/): o curso d’água e a 1ª pessoa de <em>rir</em>. “Eu <strong>rio</strong> quando vejo o <strong>rio</strong>.”</p>
+</div>
+</div>
+</div>
+<p><strong>3.</strong> Complete corretamente: “O ___ jurista alertou para o perigo ___.” (<em>eminente</em> / <em>iminente</em>)</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>“O <strong>eminente</strong> jurista alertou para o perigo <strong>iminente</strong>.”</p>
+<ul>
+<li><strong><em>eminente</em></strong> = ilustre, notável, de destaque → qualifica o <strong>jurista</strong> (uma pessoa respeitada). Mnemônico: <strong>e</strong>minente = <strong>e</strong>levado.</li>
+<li><strong><em>iminente</em></strong> = prestes a acontecer, na iminência → qualifica o <strong>perigo</strong> (algo que está para ocorrer). Mnemônico: <strong>i</strong>minente = <strong>i</strong>mediato.</li>
+</ul>
+<p>São <strong>parônimos</strong>: as formas se parecem (diferem numa vogal), mas os sentidos são incompatíveis. Trocá-los produziria absurdos: “o iminente jurista” sugeriria um jurista prestes a acontecer.</p>
+</div>
+</div>
+</div>
+<p><strong>4.</strong> (Estilo FCC) Assinale a frase <strong>correta</strong>:</p>
+<ol type="a">
+<li>O réu infligiu a lei e foi punido;</li>
+<li>O tráfego de drogas aumentou na região;</li>
+<li>É preciso ratificar o erro no documento;</li>
+<li>O mandato de prisão foi expedido ontem;</li>
+<li>A pena foi infligida ao condenado por infringir o regulamento.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Alternativa (e).</strong> “A pena foi <strong>infligida</strong> (= aplicada) ao condenado por <strong>infringir</strong> (= violar) o regulamento.” Ambos os parônimos estão corretamente empregados.</p>
+<p>As demais: <strong>(a)</strong> “infligiu a lei” ✗ → o correto é <strong>infringiu</strong> (violou) a lei; <strong>(b)</strong> “tráfego de drogas” ✗ → <strong>tráfico</strong> (comércio ilícito); <em>tráfego</em> é de veículos; <strong>(c)</strong> “ratificar o erro” ✗ → <strong>retificar</strong> (corrigir); <em>ratificar</em> é confirmar — ratificar um erro seria confirmá-lo, o oposto do pretendido; <strong>(d)</strong> “mandato de prisão” ✗ → <strong>mandado</strong> (ordem judicial); <em>mandato</em> é período de exercício de cargo.</p>
+</div>
+</div>
+</div>
+<p><strong>5.</strong> Explique por que o contexto quase sempre desfaz a ambiguidade de <em>banco</em>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Porque os elementos que cercam a palavra <strong>selecionam</strong> um dos sentidos e <strong>descartam</strong> os incompatíveis, antes mesmo que a consciência registre a duplicidade.</p>
+<ul>
+<li>“<strong>Sentei no</strong> banco <strong>e esperei</strong>” — o verbo <em>sentar</em> exige um suporte físico; a instituição financeira é incompatível com a ação e nem chega a ser cogitada.</li>
+<li>“O banco <strong>aprovou meu empréstimo</strong>” — <em>aprovar empréstimo</em> exige um agente institucional; o móvel é descartado.</li>
+</ul>
+<p>Ou seja: a ambiguidade da homonímia é <strong>potencial</strong>, não <strong>efetiva</strong>. Ela só se atualiza quando o contexto é insuficiente para filtrar — “Vi o banco da praça” —, e mesmo aí o conhecimento de mundo costuma ajudar.</p>
+<p>É por isso que a economia do sistema (poucas formas, muitos sentidos) não gera o caos comunicativo que se poderia prever: o custo da ambiguidade é pago pelo contexto, de graça.</p>
+</div>
+</div>
+</div>
+<p><strong>6.</strong> (Estilo Cebraspe — Certo/Errado) Julgue: “As palavras <em>cela</em> e <em>sela</em> são homônimas perfeitas.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Errado.</strong> <em>Cela</em> e <em>sela</em> são <strong>homófonas</strong>, não homônimas perfeitas.</p>
+<p>Homônimos <strong>perfeitos</strong> exigem coincidência <strong>de grafia e de som</strong> — como <em>manga</em>/<em>manga</em> ou <em>rio</em>/<em>rio</em>. No par <em>cela</em>/<em>sela</em>, o <strong>som</strong> coincide (/ˈsɛlɐ/), mas a <strong>grafia difere</strong> (<em>c</em> × <em>s</em>). Coincidência apenas sonora define os <strong>homófonos</strong>.</p>
+<p>O erro do enunciado está em tomar o hiperônimo (“homônimas”) com o especificador errado (“perfeitas”): elas são homônimas em sentido amplo, mas do subtipo <strong>homófono</strong>.</p>
+</div>
+</div>
+</div>
+<p><strong>7.</strong> Analise o humor: “Ele foi ao banco e sentou-se no gerente.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>O humor nasce da exploração intencional da <strong>homonímia perfeita</strong> de <em>banco</em>.</p>
+<p>Mecanismo: a primeira ocorrência (“foi ao <strong>banco</strong>”) ativa o sentido de <strong>instituição financeira</strong> — leitura natural, selecionada pelo contexto. A segunda oração (“sentou-se no gerente”) força retroativamente o sentido de <strong>assento</strong>, criando a imagem absurda de alguém sentado sobre uma pessoa.</p>
+<p>O efeito cômico depende da <strong>quebra de expectativa</strong>: o leitor já havia descartado o sentido de móvel, e a frase o reintroduz quando não cabe mais. É o mesmo mecanismo do trocadilho publicitário — a diferença é o gênero, que aqui autoriza (e busca) a duplicidade que uma bula proibiria.</p>
+</div>
+</div>
+</div>
+<p><strong>8.</strong> Distinga, com exemplos próprios, homônimos de parônimos.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>O critério é o <strong>grau de coincidência entre as formas</strong>.</p>
+<p><strong>Homônimos</strong> — as formas <strong>coincidem</strong>, no som, na grafia ou em ambos:</p>
+<ul>
+<li><em>seção</em> / <em>cessão</em> / <em>sessão</em> — homófonos (mesmo som /ˈsɛsɐ̃w̃/, grafias distintas).</li>
+<li><em>jogo</em> substantivo (/ˈʒogu/) / <em>jogo</em> verbo (/ˈʒɔgu/) — homógrafos.</li>
+<li><em>canto</em> (ângulo) / <em>canto</em> (música) — perfeitos.</li>
+</ul>
+<p><strong>Parônimos</strong> — as formas apenas <strong>se parecem</strong>, sem coincidir:</p>
+<ul>
+<li><em>absolver</em> (inocentar) / <em>absorver</em> (sorver) — diferem em duas letras.</li>
+<li><em>emergir</em> (vir à tona) / <em>imergir</em> (mergulhar) — diferem na vogal inicial e são <strong>antônimos</strong>, o que agrava a confusão.</li>
+<li><em>comprimento</em> (extensão) / <em>cumprimento</em> (saudação).</li>
+</ul>
+<p>Consequência prática: os homônimos não geram erro de escrita quando são perfeitos (a forma é a mesma); os <strong>homófonos</strong> e os <strong>parônimos</strong>, sim — e são a matéria-prima das questões de ortografia e vocabulário.</p>
+</div>
+</div>
+</div>
+<p><strong>9.</strong> (Estilo FUVEST) Explique por que <em>banco</em> (assento) e <em>banco</em> (instituição) constituem um caso instrutivo para a fronteira entre polissemia e homonímia.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Porque o par recebe <strong>classificações diferentes conforme o critério adotado</strong>.</p>
+<p>Pela <strong>intuição sincrônica</strong> do falante contemporâneo, não há relação alguma entre um móvel e uma instituição financeira: os sentidos parecem completamente desconexos, e o par se comporta como <strong>homonímia perfeita</strong>. É assim que as gramáticas escolares o tratam, e é essa a resposta esperada em prova.</p>
+<p>Pela <strong>etimologia</strong>, porém, há uma ligação <strong>real</strong>: os cambistas medievais operavam sentados a <strong>bancos</strong> nas praças, e a instituição herdou o nome do móvel sobre o qual o negócio se fazia (uma <strong>metonímia</strong> — o lugar pela atividade). Sob esse critério, seria <strong>polissemia</strong>, com um núcleo comum apagado pelo tempo.</p>
+<p>O que o caso ensina: a fronteira entre polissemia e homonímia é <strong>gradual e histórica</strong>, não uma linha rígida. A polissemia de ontem, quando o elo se apaga da consciência dos falantes, torna-se a homonímia de hoje — movimento simétrico ao que se viu entre conotação e denotação (<a href="cap-61-denotacao-conotacao.html" class="quarto-xref"><span>Capítulo 63</span></a>). Classificações sincrônicas são sempre atravessadas pela diacronia.</p>
+</div>
+</div>
+</div>
+<p><strong>10.</strong> Corrija os parônimos: “O senador teve seu mandado cassado após infligir a legislação eleitoral; a decisão ratificou o erro apontado pela defesa.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>“O senador teve seu <strong>mandato</strong> cassado após <strong>infringir</strong> a legislação eleitoral; a decisão <strong>retificou</strong> o erro apontado pela defesa.”</p>
+<p>Três correções:</p>
+<ol type="1">
+<li><strong>mandado → mandato</strong>: cassa-se o <strong>mandato</strong> (o período de exercício do cargo eletivo). <em>Mandado</em> é ordem judicial (mandado de prisão, de busca).</li>
+<li><strong>infligir → infringir</strong>: <strong>infringe-se</strong> (viola-se) a legislação. <em>Infligir</em> é <strong>aplicar</strong> uma pena — quem inflige é a autoridade, não o infrator.</li>
+<li><strong>ratificou → retificou</strong>: <em>ratificar</em> é <strong>confirmar</strong>; o texto diz que a decisão corrigiu o erro, logo o verbo é <strong>retificar</strong>. Note que manter “ratificou” inverteria o sentido: a decisão teria <strong>confirmado</strong> o erro, o oposto do pretendido.</li>
+</ol>
+<p>O trecho é típico do registro jurídico-burocrático — exatamente o terreno em que os parônimos de baixa frequência mais derrubam quem escreve.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="referências" class="level2" data-number="65.9">
+<h2 data-number="65.9" class="anchored" data-anchor-id="referências"><span class="header-section-number">65.9</span> 📚 Referências</h2>
+<p>A distinção entre polissemia e homonímia, bem como o critério da relação entre sentidos e seu caráter gradual, segue Ilari <span class="citation" data-cites="ilari2001">(<a href="cap-01-linguagem-lingua-fala.html#ref-ilari2001" role="doc-biblioref">Ilari, 2001</a>)</span> e Ilari &amp; Basso <span class="citation" data-cites="ilaribasso2006">(<a href="cap-01-linguagem-lingua-fala.html#ref-ilaribasso2006" role="doc-biblioref">Ilari; Basso, 2006</a>)</span>; os registros de verbetes, timbres e etimologias apoiam-se no Houaiss <span class="citation" data-cites="houaiss2009">(<a href="cap-01-linguagem-lingua-fala.html#ref-houaiss2009" role="doc-biblioref">Houaiss; Villar, 2009</a>)</span>. A classificação dos homônimos e as listas de parônimos seguem Bechara <span class="citation" data-cites="bechara2009">(<a href="cap-01-linguagem-lingua-fala.html#ref-bechara2009" role="doc-biblioref">Bechara, 2009</a>)</span> e Cunha &amp; Cintra <span class="citation" data-cites="cunhacintra2017">(<a href="cap-01-linguagem-lingua-fala.html#ref-cunhacintra2017" role="doc-biblioref">Cunha; Cintra, 2017</a>)</span>. Para os timbres que distinguem os homógrafos, veja o <a href="cap-12-ortoepia-prosodia.html" class="quarto-xref"><span>Capítulo 14</span></a>; para o tratamento da ambiguidade como defeito ou recurso, o <a href="cap-64-ambiguidade-pressuposicao.html" class="quarto-xref"><span>Capítulo 66</span></a>, a seguir, que aprofunda o tema junto com a pressuposição.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-bechara2009" class="csl-entry" role="listitem">
+BECHARA, Evanildo. <strong>Moderna Gramática Portuguesa</strong>. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.
+</div>
+<div id="ref-cunhacintra2017" class="csl-entry" role="listitem">
+CUNHA, Celso; CINTRA, Luís F. Lindley. <strong>Nova Gramática do Português Contemporâneo</strong>. 7. ed. Rio de Janeiro: Lexikon, 2017.
+</div>
+<div id="ref-houaiss2009" class="csl-entry" role="listitem">
+HOUAISS, Antônio; VILLAR, Mauro de Salles. <strong>Dicionário Houaiss da Língua Portuguesa</strong>. Rio de Janeiro: Objetiva, 2009.
+</div>
+<div id="ref-ilari2001" class="csl-entry" role="listitem">
+ILARI, Rodolfo. <strong>Introdução à Semântica: brincando com a gramática</strong>. São Paulo: Contexto, 2001.
+</div>
+<div id="ref-ilaribasso2006" class="csl-entry" role="listitem">
+ILARI, Rodolfo; BASSO, Renato. <strong>O Português da Gente: a língua que estudamos, a língua que falamos</strong>. São Paulo: Contexto, 2006.
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

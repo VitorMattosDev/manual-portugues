@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -883,7 +903,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#sec-cap-64" id="toc-sec-cap-64" class="nav-link active" data-scroll-target="#sec-cap-64"><span class="header-section-number">66</span> Ambiguidade e pressuposição</a></li>
+  <li><a href="#sec-cap-64" id="toc-sec-cap-64" class="nav-link active" data-scroll-target="#sec-cap-64"><span class="header-section-number">66</span> Ambiguidade e pressuposição</a>
+  <ul class="collapse">
+  <li><a href="#objetivos-de-aprendizagem" id="toc-objetivos-de-aprendizagem" class="nav-link" data-scroll-target="#objetivos-de-aprendizagem"><span class="header-section-number">66.1</span> 🎯 Objetivos de aprendizagem</a></li>
+  <li><a href="#ambiguidade-quando-a-frase-diz-demais" id="toc-ambiguidade-quando-a-frase-diz-demais" class="nav-link" data-scroll-target="#ambiguidade-quando-a-frase-diz-demais"><span class="header-section-number">66.2</span> Ambiguidade: quando a frase diz demais</a>
+  <ul class="collapse">
+  <li><a href="#ambiguidade-lexical" id="toc-ambiguidade-lexical" class="nav-link" data-scroll-target="#ambiguidade-lexical"><span class="header-section-number">66.2.1</span> Ambiguidade lexical</a></li>
+  <li><a href="#ambiguidade-estrutural" id="toc-ambiguidade-estrutural" class="nav-link" data-scroll-target="#ambiguidade-estrutural"><span class="header-section-number">66.2.2</span> Ambiguidade estrutural</a></li>
+  <li><a href="#defeito-ou-recurso" id="toc-defeito-ou-recurso" class="nav-link" data-scroll-target="#defeito-ou-recurso"><span class="header-section-number">66.2.3</span> Defeito ou recurso?</a></li>
+  </ul></li>
+  <li><a href="#pressuposição-quando-a-frase-dá-por-certo" id="toc-pressuposição-quando-a-frase-dá-por-certo" class="nav-link" data-scroll-target="#pressuposição-quando-a-frase-dá-por-certo"><span class="header-section-number">66.3</span> Pressuposição: quando a frase dá por certo</a>
+  <ul class="collapse">
+  <li><a href="#o-teste-da-negação" id="toc-o-teste-da-negação" class="nav-link" data-scroll-target="#o-teste-da-negação"><span class="header-section-number">66.3.1</span> O teste da negação</a></li>
+  <li><a href="#os-gatilhos-de-pressuposição" id="toc-os-gatilhos-de-pressuposição" class="nav-link" data-scroll-target="#os-gatilhos-de-pressuposição"><span class="header-section-number">66.3.2</span> Os gatilhos de pressuposição</a></li>
+  <li><a href="#pressuposto-e-subentendido" id="toc-pressuposto-e-subentendido" class="nav-link" data-scroll-target="#pressuposto-e-subentendido"><span class="header-section-number">66.3.3</span> Pressuposto e subentendido</a></li>
+  </ul></li>
+  <li><a href="#a-pressuposição-como-estratégia-argumentativa" id="toc-a-pressuposição-como-estratégia-argumentativa" class="nav-link" data-scroll-target="#a-pressuposição-como-estratégia-argumentativa"><span class="header-section-number">66.4</span> A pressuposição como estratégia argumentativa</a></li>
+  <li><a href="#quadro-resumo" id="toc-quadro-resumo" class="nav-link" data-scroll-target="#quadro-resumo"><span class="header-section-number">66.5</span> 📋 Quadro-resumo</a></li>
+  <li><a href="#pegadinhas-e-erros-comuns" id="toc-pegadinhas-e-erros-comuns" class="nav-link" data-scroll-target="#pegadinhas-e-erros-comuns"><span class="header-section-number">66.6</span> ⚠️ Pegadinhas e erros comuns</a></li>
+  <li><a href="#exercícios" id="toc-exercícios" class="nav-link" data-scroll-target="#exercícios"><span class="header-section-number">66.7</span> ✍️ Exercícios</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências"><span class="header-section-number">66.8</span> 📚 Referências</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/vitormattosdev/manual-portugues/edit/main/capitulos/cap-64-ambiguidade-pressuposicao.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/vitormattosdev/manual-portugues/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -911,36 +951,1093 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="sec-cap-64" class="level1" data-number="66">
 <h1 data-number="66"><span class="header-section-number">66</span> Ambiguidade e pressuposição</h1>
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 10 — Semântica e Léxico.
-
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
-
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+<blockquote class="blockquote">
+<p>“Toda pergunta carrega, escondida, uma afirmação que não se pediu para aceitar.”</p>
+</blockquote>
+<p>Este capítulo reúne dois fenômenos que parecem distantes, mas partilham um traço decisivo: ambos tratam do que uma frase diz <strong>sem dizer</strong>.</p>
+<p>A <strong>ambiguidade</strong> é a frase que diz <strong>duas coisas</strong> quando deveria dizer uma. A <strong>pressuposição</strong> é a frase que <strong>dá por certa</strong> uma informação que nunca chegou a afirmar. Em ambos os casos, o sentido excede o enunciado — e quem lê depressa não percebe.</p>
+<p>A relevância prática é grande e vai muito além da prova. Um contrato ambíguo gera litígio. Uma pergunta com pressuposto embutido — “Você já parou de fraudar a licitação?” — condena antes de qualquer resposta. Saber identificar essas estruturas é, ao mesmo tempo, uma técnica de escrita (para não cometê-las sem querer) e uma ferramenta de leitura crítica (para não engoli-las sem perceber).</p>
+<p>Este capítulo faz o trabalho <strong>semântico</strong>; o <a href="cap-82-inferencia-pressuposto-subentendido.html" class="quarto-xref"><span>Capítulo 84</span></a>, no Volume 13, retomará o tema pelo ângulo da <strong>interpretação de textos</strong>.</p>
+<section id="objetivos-de-aprendizagem" class="level2" data-number="66.1">
+<h2 data-number="66.1" class="anchored" data-anchor-id="objetivos-de-aprendizagem"><span class="header-section-number">66.1</span> 🎯 Objetivos de aprendizagem</h2>
+<p>Ao final deste capítulo, você será capaz de:</p>
+<ul>
+<li><strong>Distinguir</strong> ambiguidade lexical de ambiguidade estrutural;</li>
+<li><strong>Desfazer</strong> ambiguidades por reescrita, pontuação ou reordenação;</li>
+<li><strong>Diferenciar</strong> o posto (o que se afirma) do pressuposto (o que se dá por certo);</li>
+<li><strong>Aplicar</strong> o teste da negação para identificar pressupostos;</li>
+<li><strong>Reconhecer</strong> os marcadores lexicais que disparam pressuposição;</li>
+<li><strong>Analisar</strong> criticamente o uso argumentativo do pressuposto em discursos reais.</li>
+</ul>
+</section>
+<section id="ambiguidade-quando-a-frase-diz-demais" class="level2" data-number="66.2">
+<h2 data-number="66.2" class="anchored" data-anchor-id="ambiguidade-quando-a-frase-diz-demais"><span class="header-section-number">66.2</span> Ambiguidade: quando a frase diz demais</h2>
+<p>Há <strong>ambiguidade</strong> (ou <strong>anfibologia</strong>) quando um enunciado admite <strong>mais de uma leitura</strong> e o contexto não decide entre elas. O ponto importante é o segundo: potencialmente, quase toda frase é ambígua; efetivamente, só o é quando nada filtra as leituras concorrentes (<a href="cap-63-polissemia-homonimia-paronimia.html" class="quarto-xref"><span>Capítulo 65</span></a>).</p>
+<section id="ambiguidade-lexical" class="level3" data-number="66.2.1">
+<h3 data-number="66.2.1" class="anchored" data-anchor-id="ambiguidade-lexical"><span class="header-section-number">66.2.1</span> Ambiguidade lexical</h3>
+<p>Origina-se na <strong>palavra</strong>: um item polissêmico ou homônimo cujo sentido o contexto não seleciona.</p>
+<ul>
+<li>“Vi o <strong>banco</strong> da praça.” (móvel ou agência?)</li>
+<li>“Ele não gostou da <strong>manga</strong>.” (fruta ou parte da camisa?)</li>
+<li>“O <strong>ponto</strong> estava errado.” (sinal? parada? escore? costura?)</li>
+</ul>
+<p>A correção é simples: <strong>especificar</strong> — “vi o banco de madeira da praça” — ou trocar o item — “vi a agência da praça”.</p>
+</section>
+<section id="ambiguidade-estrutural" class="level3" data-number="66.2.2">
+<h3 data-number="66.2.2" class="anchored" data-anchor-id="ambiguidade-estrutural"><span class="header-section-number">66.2.2</span> Ambiguidade estrutural</h3>
+<p>Origina-se na <strong>sintaxe</strong>: as palavras são unívocas, mas se combinam de mais de um modo. É a mais interessante — e a mais cobrada.</p>
+<p><strong>Escopo do adjunto ou do adjetivo:</strong></p>
+<blockquote class="blockquote">
+<p>“Vi o filho do vizinho <strong>correndo</strong>.” Quem corria — o filho ou eu?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Encontrei o irmão de Maria <strong>que mora em Lisboa</strong>.” Quem mora em Lisboa — o irmão ou Maria?</p>
+</blockquote>
+<p><strong>Referência do pronome:</strong></p>
+<blockquote class="blockquote">
+<p>“João disse a Pedro que <strong>ele</strong> havia errado.” Quem errou — João ou Pedro?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Deixei o livro sobre a mesa e depois <strong>a</strong> vendi.” Vendi a mesa? O livro (com erro de gênero)?</p>
+</blockquote>
+<p><strong>Escopo da negação ou do quantificador:</strong></p>
+<blockquote class="blockquote">
+<p>“Todos os alunos não fizeram a prova.” Nenhum fez? Ou alguns não fizeram?</p>
+</blockquote>
+<p><strong>Regência ou função sintática:</strong></p>
+<blockquote class="blockquote">
+<p>“O ataque dos ingleses foi devastador.” Os ingleses atacaram (agente) ou foram atacados (paciente)?</p>
+</blockquote>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>As três ferramentas para desfazer ambiguidade
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><strong>Reordenar</strong>: “Vi, correndo, o filho do vizinho” / “Vi o filho do vizinho, que corria”.</li>
+<li><strong>Pontuar</strong>: a vírgula distingue restritiva de explicativa e resolve o escopo da adjetiva (<a href="cap-60-pontuacao-periodo-composto.html" class="quarto-xref"><span>Capítulo 62</span></a>).</li>
+<li><strong>Explicitar</strong>: substituir o pronome pelo nome — “João disse a Pedro que <strong>Pedro</strong> havia errado” — ou nomear o agente — “os ingleses atacaram devastadoramente”.</li>
+</ol>
+<p>Regra de ouro da revisão (<a href="cap-80-revisao-reescrita.html" class="quarto-xref"><span>Capítulo 82</span></a>): se <strong>você</strong> precisou reler para entender, o leitor também precisará. Reescreva.</p>
+</div>
+</div>
+</section>
+<section id="defeito-ou-recurso" class="level3" data-number="66.2.3">
+<h3 data-number="66.2.3" class="anchored" data-anchor-id="defeito-ou-recurso"><span class="header-section-number">66.2.3</span> Defeito ou recurso?</h3>
+<p>Como no capítulo anterior, o que decide não é a estrutura, mas o <strong>gênero</strong>:</p>
+<ul>
+<li><strong>Defeito</strong> — em contrato, edital, bula, laudo, questão de prova. Aqui a ambiguidade custa dinheiro ou vida.</li>
+<li><strong>Recurso</strong> — em piada, charge, poesia, publicidade, manchete jocosa. Aqui a duplicidade é o produto.</li>
+</ul>
+<p>Manchetes reais ilustram o acidente:</p>
+<blockquote class="blockquote">
+<p>“Mulher é presa por matar marido com facada na delegacia.” (a facada foi na delegacia? a prisão? o marido estava na delegacia?)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Cachorro de morador de rua é adotado por policial que estava doente.” (quem estava doente?)</p>
+</blockquote>
+<p>Ninguém quis fazer humor: quiseram economizar palavras e produziram duas leituras.</p>
+</section>
+</section>
+<section id="pressuposição-quando-a-frase-dá-por-certo" class="level2" data-number="66.3">
+<h2 data-number="66.3" class="anchored" data-anchor-id="pressuposição-quando-a-frase-dá-por-certo"><span class="header-section-number">66.3</span> Pressuposição: quando a frase dá por certo</h2>
+<p>Aqui entramos num terreno mais sutil. Considere:</p>
+<blockquote class="blockquote">
+<p>“Pedro <strong>parou de fumar</strong>.”</p>
+</blockquote>
+<p>O que essa frase <strong>afirma</strong>? Que Pedro não fuma mais. Mas o que ela <strong>dá por certo</strong>, sem afirmar? Que <strong>Pedro fumava antes</strong>. Essa segunda informação não foi asserida — foi <strong>pressuposta</strong>. Ela entra no texto pela porta dos fundos, sem passar pelo crivo do leitor.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Posto × pressuposto
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Posto</strong> (ou <strong>asserido</strong>): o que a frase <strong>afirma</strong> explicitamente. É o que se discute, o que se pode contestar diretamente.</li>
+<li><strong>Pressuposto</strong>: o que a frase <strong>assume como verdadeiro</strong> para poder ser dita. Não se afirma — apresenta-se como já sabido, já acordado, fora de discussão.</li>
+</ul>
+<p>Em “Pedro parou de fumar”:</p>
+<ul>
+<li><strong>Posto</strong>: Pedro não fuma atualmente.</li>
+<li><strong>Pressuposto</strong>: Pedro fumava antes.</li>
+</ul>
+</div>
+</div>
+<section id="o-teste-da-negação" class="level3" data-number="66.3.1">
+<h3 data-number="66.3.1" class="anchored" data-anchor-id="o-teste-da-negação"><span class="header-section-number">66.3.1</span> O teste da negação</h3>
+<p>Como identificar um pressuposto com segurança? <strong>Negue a frase.</strong> O que <strong>sobrevive</strong> à negação é pressuposto; o que <strong>desaparece</strong> era posto.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Frase</th>
+<th>Negação</th>
+<th>Sobrevive?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>“Pedro parou de fumar.”</td>
+<td>“Pedro <strong>não</strong> parou de fumar.”</td>
+<td>“Pedro fumava” → <strong>sobrevive</strong> = pressuposto</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>“Pedro não fuma hoje” → <strong>desaparece</strong> = posto</td>
+</tr>
+</tbody>
+</table>
+<p>Note a elegância do teste: tanto “Pedro parou de fumar” quanto “Pedro não parou de fumar” <strong>assumem</strong> que ele fumava. É por isso que o pressuposto é tão poderoso — ele resiste à negação, e portanto resiste à contestação mais óbvia.</p>
+<p>A <a href="#fig-posto-pressuposto" class="quarto-xref">Figura&nbsp;<span>66.1</span></a> representa a estrutura.</p>
+<div id="fig-posto-pressuposto" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-posto-pressuposto-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="238.906959pt" height="182.948314pt" viewbox="-68.014948 -68.014949 238.906959 182.948314">
+<defs>
+<path id="tz_posto_pressuposto_g0-24" d="M2.698879 .083686H1.8132V.425405C2.064259 .425405 2.552428 .439352 2.552428 .760149C2.552428 1.108842 1.659776 1.108842 1.380822 1.108842H1.066999V1.429639H1.506351C3.305604 1.429639 3.438107 1.018182 3.438107 .760149C3.438107 .292902 2.970859 .188294 2.698879 .146451V.083686Z"></path>
+<path id="tz_posto_pressuposto_g0-65" d="M3.758904-4.714321C3.668244-4.909589 3.584558-4.909589 3.375342-4.909589C3.159153-4.909589 3.075467-4.909589 2.984807-4.714321L1.108842-.516065C1.066999-.432379 1.060025-.425405 .885679-.404483C.753176-.390535 .683437-.390535 .564882-.390535H.355666V0C.383562 0 .913574-.027895 1.227397-.027895C1.534247-.027895 2.182814 0 2.217684 0V-.390535C2.196762-.390535 1.617933-.390535 1.617933-.446326C1.617933-.4533 1.645828-.509091 1.652802-.523039L2.02939-1.366874H4.156413L4.595766-.390535H3.96812V0C4.33076-.027895 4.867746-.027895 5.23736-.027895C5.669738-.027895 6.290411-.006974 6.388045 0V-.390535H5.697634L3.758904-4.714321ZM3.089415-3.737983L3.982067-1.75741H2.203736L3.089415-3.737983Z"></path>
+<path id="tz_posto_pressuposto_g0-67" d="M5.96264-4.644583C5.96264-4.78406 5.96264-4.867746 5.802242-4.867746C5.718555-4.867746 5.704608-4.860772 5.634869-4.798007L5.167621-4.393524C4.47721-4.867746 3.814695-4.867746 3.605479-4.867746C1.583064-4.867746 .523039-3.731009 .523039-2.39203C.523039-1.073973 1.555168 .083686 3.612453 .083686C5.049066 .083686 5.96264-.72528 5.96264-1.590037C5.96264-1.764384 5.885928-1.764384 5.739477-1.764384C5.641843-1.764384 5.530262-1.764384 5.523288-1.645828C5.460523-.578829 4.393524-.306849 3.7868-.306849C3.214944-.306849 2.57335-.446326 2.154919-.857783C1.75741-1.255293 1.659776-1.841096 1.659776-2.39203C1.659776-3.054545 1.799253-3.66127 2.273474-4.030884C2.75467-4.400498 3.340473-4.47721 3.772852-4.47721C4.672478-4.47721 5.314072-3.863512 5.453549-3.138232C5.488418-2.949938 5.488418-2.93599 5.69066-2.93599H5.739477C5.941719-2.93599 5.96264-2.956912 5.96264-3.159153V-4.644583Z"></path>
+<path id="tz_posto_pressuposto_g0-68" d="M.397509-4.78406V-4.393524H1.143711V-.390535H.397509V0H3.668244C5.202491 0 6.339228-.885679 6.339228-2.357161C6.339228-3.814695 5.251308-4.78406 3.66127-4.78406H.397509ZM2.147945-.390535V-4.393524H3.368369C5.251308-4.393524 5.251308-2.991781 5.251308-2.357161C5.251308-1.729514 5.251308-.390535 3.375342-.390535H2.147945Z"></path>
+<path id="tz_posto_pressuposto_g0-69" d="M5.6-1.875965H5.160648C4.972354-.878705 4.672478-.390535 3.472976-.390535H2.196762V-2.259527H2.657036C3.249813-2.259527 3.452055-2.099128 3.452055-1.492403H3.891407V-3.417186H3.452055C3.452055-2.817435 3.256787-2.650062 2.657036-2.650062H2.196762V-4.344707H3.403238C4.379577-4.344707 4.777086-4.072727 4.916563-3.068493H5.355915L5.118804-4.735243H.397509V-4.344707H1.143711V-.390535H.397509V0H5.244334L5.6-1.875965Z"></path>
+<path id="tz_posto_pressuposto_g0-71" d="M5.969614-1.527273H6.590286V-1.917808C6.485679-1.910834 5.837111-1.889913 5.404732-1.889913C5.125778-1.889913 4.839851-1.896887 4.553923-1.896887C4.351681-1.896887 4.002989-1.903861 3.800747-1.917808V-1.527273H4.916563V-.878705C4.916563-.697385 4.916563-.306849 3.870486-.306849C3.556663-.306849 2.789539-.334745 2.238605-.801993C1.910834-1.080946 1.659776-1.520299 1.659776-2.399004C1.659776-3.103362 1.820174-3.612453 2.189788-3.961146C2.650062-4.38655 3.340473-4.47721 3.772852-4.47721C4.553923-4.47721 5.293151-4.002989 5.467497-3.103362C5.495392-2.956912 5.502366-2.93599 5.697634-2.93599H5.746451C5.948692-2.93599 5.969614-2.956912 5.969614-3.159153V-4.644583C5.969614-4.78406 5.969614-4.867746 5.809215-4.867746C5.725529-4.867746 5.711582-4.860772 5.641843-4.798007L5.174595-4.393524C4.470237-4.867746 3.828643-4.867746 3.605479-4.867746C1.590037-4.867746 .523039-3.737983 .523039-2.39203C.523039-1.26924 1.325031 .083686 3.668244 .083686C4.044832 .083686 4.853798 .069738 5.209465-.292902C5.369863-.18132 5.788294 0 5.844085 0C5.969614 0 5.969614-.118555 5.969614-.223163V-1.527273Z"></path>
+<path id="tz_posto_pressuposto_g0-78" d="M2.280448-4.6934C2.196762-4.78406 2.182814-4.78406 2.036364-4.78406H.397509V-4.393524H1.143711V-.564882C1.143711-.4533 1.136737-.446326 1.12279-.432379C1.060025-.390535 .711333-.390535 .627646-.390535H.397509V0C.488169-.006974 1.12279-.027895 1.387796-.027895S2.322291 0 2.378082 0V-.390535H2.147945C2.043337-.390535 1.903861-.397509 1.799253-.404483C1.638854-.418431 1.63188-.425405 1.63188-.564882V-4.051806L5.355915-.083686C5.432628 0 5.453549 0 5.593026 0C5.802242 0 5.837111-.034869 5.837111-.244085V-4.219178C5.837111-4.33076 5.844085-4.337733 5.858032-4.351681C5.920797-4.393524 6.269489-4.393524 6.353176-4.393524H6.583313V-4.78406C6.492653-4.777086 5.858032-4.756164 5.593026-4.756164S4.658531-4.78406 4.60274-4.78406V-4.393524H4.832877C4.937484-4.393524 5.076961-4.38655 5.181569-4.379577C5.341968-4.365629 5.348941-4.358655 5.348941-4.219178V-1.422665L2.280448-4.6934Z"></path>
+<path id="tz_posto_pressuposto_g0-79" d="M6.220672-2.364134C6.220672-3.731009 5.251308-4.867746 3.375342-4.867746C1.457534-4.867746 .523039-3.703113 .523039-2.364134C.523039-1.011208 1.499377 .083686 3.368369 .083686C5.279203 .083686 6.220672-1.039103 6.220672-2.364134ZM3.368369-.285928C2.93599-.285928 2.371108-.432379 2.008468-.955417C1.687671-1.429639 1.659776-2.085181 1.659776-2.468742C1.659776-2.93599 1.701619-3.500872 2.050311-3.947198C2.343213-4.309838 2.824408-4.51208 3.368369-4.51208C5.083935-4.51208 5.083935-2.894147 5.083935-2.468742C5.083935-1.93873 5.021171-1.408717 4.749191-.976339C4.428394-.481196 3.884433-.285928 3.368369-.285928Z"></path>
+<path id="tz_posto_pressuposto_g0-83" d="M1.994521-3.110336C1.48543-3.20797 1.234371-3.500872 1.234371-3.800747C1.234371-4.093649 1.443587-4.51208 2.259527-4.51208C2.859278-4.51208 3.605479-4.302864 3.772852-3.396264C3.807721-3.214944 3.807721-3.194022 4.002989-3.194022C4.20523-3.194022 4.226152-3.214944 4.226152-3.417186V-4.644583C4.226152-4.78406 4.226152-4.867746 4.065753-4.867746C3.989041-4.867746 3.975093-4.867746 3.884433-4.777086L3.647323-4.553923C3.591532-4.498132 3.584558-4.498132 3.577584-4.498132S3.563636-4.498132 3.521793-4.533001C3.124284-4.798007 2.657036-4.867746 2.259527-4.867746C.99726-4.867746 .523039-4.11457 .523039-3.466002C.523039-3.096389 .683437-2.796513 .892653-2.580324C1.26924-2.203736 1.603985-2.133998 2.475716-1.966625C2.677958-1.931756 3.019676-1.868991 3.075467-1.855044C3.417186-1.764384 3.765878-1.499377 3.765878-1.094894C3.765878-1.018182 3.765878-.306849 2.712827-.306849C2.489664-.306849 1.959651-.327771 1.534247-.530012C1.046077-.774097 .976339-1.171606 .962391-1.408717C.955417-1.548194 .948443-1.590037 .746202-1.590037S.523039-1.569116 .523039-1.366874V-.139477C.523039 0 .523039 .083686 .683437 .083686C.767123 .083686 .781071 .076712 .829888 .034869C.9066-.034869 1.080946-.216189 1.157659-.278954C1.638854 .020922 2.238605 .083686 2.719801 .083686C4.037858 .083686 4.47721-.746202 4.47721-1.415691C4.47721-2.217684 3.807721-2.75467 3.138232-2.887173L1.994521-3.110336Z"></path>
+<path id="tz_posto_pressuposto_g0-84" d="M5.732503-4.6934H.516065L.348692-3.02665H.788045C.864757-3.7868 .962391-4.302864 1.973599-4.302864H2.601245V-.390535H1.54122V0C1.72254-.013948 2.106102-.020922 2.294396-.020922C2.57335-.020922 2.852304-.027895 3.124284-.027895C3.410212-.027895 3.696139-.020922 3.982067-.020922C4.184309-.020922 4.51208-.013948 4.714321 0V-.390535H3.654296V-4.302864H4.274969C5.286177-4.302864 5.383811-3.793773 5.460523-3.02665H5.899875L5.732503-4.6934Z"></path>
+<path id="tz_posto_pressuposto_g0-97" d="M3.682192-2.057285C3.682192-2.629141 3.221918-3.159153 1.966625-3.159153C1.562142-3.159153 .585803-3.159153 .585803-2.468742C.585803-2.161893 .808966-1.980573 1.066999-1.980573C1.373848-1.980573 1.555168-2.196762 1.555168-2.461768C1.555168-2.615193 1.492403-2.719801 1.471482-2.740722C1.457534-2.761644 1.45056-2.775592 1.45056-2.789539C1.45056-2.824408 1.896887-2.838356 1.945704-2.838356C2.433873-2.838356 2.796513-2.643088 2.796513-2.050311V-1.862017C2.454795-1.862017 .285928-1.834122 .285928-.801993C.285928-.153425 1.053051 .041843 1.750436 .041843C2.489664 .041843 2.817435-.292902 2.93599-.474222C2.93599-.174346 3.124284 0 3.696139 0H4.107597C4.2401 0 4.351681 0 4.351681-.195268S4.247073-.390535 4.100623-.390535C3.682192-.390535 3.682192-.446326 3.682192-.606725V-2.057285ZM2.796513-.955417C2.796513-.808966 2.796513-.606725 2.524533-.439352C2.259527-.278954 1.931756-.278954 1.889913-.278954C1.499377-.278954 1.164633-.495143 1.164633-.808966C1.164633-1.380822 2.099128-1.569116 2.796513-1.590037V-.955417Z"></path>
+<path id="tz_posto_pressuposto_g0-98" d="M1.687671-4.839851L.383562-4.78406V-4.393524C.795019-4.393524 .850809-4.393524 .850809-4.121544V0H1.164633C1.276214 0 1.283188-.006974 1.318057-.034869C1.380822-.111582 1.520299-.306849 1.583064-.383562C2.050311 .013948 2.510585 .041843 2.740722 .041843C3.940224 .041843 4.672478-.63462 4.672478-1.555168C4.672478-2.399004 4.051806-3.138232 2.838356-3.138232C2.39203-3.138232 2.001494-3.019676 1.687671-2.824408V-4.839851ZM1.736488-2.378082C1.931756-2.615193 2.30137-2.817435 2.740722-2.817435C3.703113-2.817435 3.703113-1.994521 3.703113-1.569116C3.703113-1.136737 3.703113-.278954 2.657036-.278954C2.280448-.278954 1.966625-.4533 1.736488-.781071V-2.378082Z"></path>
+<path id="tz_posto_pressuposto_g0-99" d="M3.731009-.795019C3.731009-.920548 3.612453-.920548 3.507846-.920548C3.347447-.920548 3.333499-.913574 3.284682-.808966C3.180075-.578829 2.956912-.313823 2.419925-.313823C1.297136-.313823 1.297136-1.290162 1.297136-1.57609C1.297136-2.099128 1.380822-2.803487 2.315318-2.803487C2.357161-2.803487 2.75467-2.796513 2.75467-2.768618C2.75467-2.75467 2.747696-2.747696 2.740722-2.740722C2.726775-2.719801 2.66401-2.615193 2.66401-2.461768C2.66401-2.175841 2.873225-1.980573 3.145205-1.980573C3.431133-1.980573 3.633375-2.175841 3.633375-2.468742C3.633375-3.138232 2.698879-3.159153 2.294396-3.159153C.739228-3.159153 .327771-2.196762 .327771-1.548194C.327771-.732254 .934496 .041843 2.252553 .041843C2.594271 .041843 2.949938-.013948 3.228892-.174346C3.626401-.411457 3.731009-.753176 3.731009-.795019Z"></path>
+<path id="tz_posto_pressuposto_g0-100" d="M2.84533-4.78406V-4.393524C3.256787-4.393524 3.312578-4.393524 3.312578-4.121544V-2.84533C2.880199-3.110336 2.489664-3.138232 2.259527-3.138232C1.011208-3.138232 .327771-2.426899 .327771-1.54122C.327771-.676463 .976339 .041843 2.168867 .041843C2.615193 .041843 2.984807-.097634 3.263761-.292902V.041843L4.616687 0V-.390535C4.20523-.390535 4.14944-.390535 4.14944-.662516V-4.839851L2.84533-4.78406ZM3.263761-.808966C3.103362-.578829 2.761644-.278954 2.252553-.278954C1.297136-.278954 1.297136-1.115816 1.297136-1.527273C1.297136-1.959651 1.297136-2.817435 2.343213-2.817435C2.929016-2.817435 3.242839-2.426899 3.263761-2.399004V-.808966Z"></path>
+<path id="tz_posto_pressuposto_g0-101" d="M3.598506-1.45056C3.744956-1.45056 3.84259-1.45056 3.84259-1.659776C3.84259-1.862017 3.793773-2.385056 3.459029-2.726775C3.082441-3.103362 2.566376-3.159153 2.182814-3.159153C.892653-3.159153 .278954-2.39203 .278954-1.569116C.278954-.739228 .920548 .041843 2.30137 .041843C2.552428 .041843 2.956912 .013948 3.305604-.174346C3.717061-.390535 3.84259-.72528 3.84259-.795019C3.84259-.948443 3.689166-.948443 3.619427-.948443C3.493898-.948443 3.459029-.941469 3.403238-.829888C3.152179-.313823 2.517559-.313823 2.399004-.313823C1.297136-.313823 1.262267-1.129763 1.248319-1.45056H3.598506ZM1.248319-1.743462C1.255293-2.015442 1.290162-2.838356 2.189788-2.838356S3.138232-2.043337 3.152179-1.743462H1.248319Z"></path>
+<path id="tz_posto_pressuposto_g0-105" d="M1.827148-4.274969C1.827148-4.609714 1.555168-4.846824 1.262267-4.846824C.927522-4.846824 .690411-4.574844 .690411-4.281943C.690411-3.947198 .962391-3.710087 1.255293-3.710087C1.590037-3.710087 1.827148-3.982067 1.827148-4.274969ZM.488169-3.082441V-2.691905C.885679-2.691905 .934496-2.691905 .934496-2.419925V-.390535H.467248V0C.481196 0 1.03213-.027895 1.345953-.027895C1.63188-.027895 1.910834-.020922 2.196762 0V-.390535H1.771357V-3.138232L.488169-3.082441Z"></path>
+<path id="tz_posto_pressuposto_g0-109" d="M6.750685-2.099128C6.750685-2.970859 6.171856-3.138232 5.558157-3.138232C4.888667-3.138232 4.463263-2.824408 4.233126-2.48269C4.05878-3.089415 3.459029-3.138232 3.082441-3.138232C2.245579-3.138232 1.84807-2.650062 1.708593-2.412951V-3.138232L.446326-3.082441V-2.691905C.857783-2.691905 .913574-2.691905 .913574-2.419925V-.390535H.446326V0C.4533 0 1.018182-.027895 1.352927-.027895C1.694645-.027895 2.259527 0 2.266501 0V-.390535H1.799253V-1.736488C1.799253-2.559402 2.545455-2.817435 2.942964-2.817435C3.256787-2.817435 3.38929-2.66401 3.38929-2.147945V-.390535H2.922042V0C2.929016 0 3.493898-.027895 3.828643-.027895C4.170361-.027895 4.735243 0 4.742217 0V-.390535H4.274969V-1.736488C4.274969-2.559402 5.021171-2.817435 5.41868-2.817435C5.732503-2.817435 5.865006-2.66401 5.865006-2.147945V-.390535H5.397758V0C5.404732 0 5.969614-.027895 6.304359-.027895C6.646077-.027895 7.210959 0 7.217933 0V-.390535H6.750685V-2.099128Z"></path>
+<path id="tz_posto_pressuposto_g0-110" d="M4.267995-2.099128C4.267995-2.956912 3.717061-3.138232 3.075467-3.138232C2.231631-3.138232 1.841096-2.636115 1.708593-2.412951V-3.138232L.446326-3.082441V-2.691905C.857783-2.691905 .913574-2.691905 .913574-2.419925V-.390535H.446326V0C.4533 0 1.018182-.027895 1.352927-.027895C1.694645-.027895 2.259527 0 2.266501 0V-.390535H1.799253V-1.736488C1.799253-2.545455 2.524533-2.817435 2.942964-2.817435C3.249813-2.817435 3.382316-2.657036 3.382316-2.154919V-.390535H2.915068V0C2.922042 0 3.486924-.027895 3.821669-.027895C4.163387-.027895 4.728269 0 4.735243 0V-.390535H4.267995V-2.099128Z"></path>
+<path id="tz_posto_pressuposto_g0-111" d="M4.226152-1.520299C4.226152-2.350187 3.619427-3.159153 2.252553-3.159153C.871731-3.159153 .278954-2.343213 .278954-1.520299C.278954-.704359 .899626 .041843 2.252553 .041843C3.612453 .041843 4.226152-.711333 4.226152-1.520299ZM2.252553-.313823C1.248319-.313823 1.248319-1.004234 1.248319-1.603985C1.248319-2.161893 1.248319-2.838356 2.252553-2.838356S3.256787-2.161893 3.256787-1.603985C3.256787-1.004234 3.256787-.313823 2.252553-.313823Z"></path>
+<path id="tz_posto_pressuposto_g0-112" d="M2.203736 .962391H1.736488V-.258032C1.910834-.139477 2.252553 .041843 2.740722 .041843C3.940224 .041843 4.672478-.63462 4.672478-1.555168C4.672478-2.399004 4.065753-3.138232 2.880199-3.138232C2.517559-3.138232 2.092154-3.068493 1.687671-2.817435V-3.138232L.383562-3.082441V-2.691905C.502117-2.691905 .641594-2.691905 .732254-2.677958C.850809-2.657036 .850809-2.580324 .850809-2.447821V.962391H.383562V1.352927C.390535 1.352927 .955417 1.325031 1.290162 1.325031C1.63188 1.325031 2.196762 1.352927 2.203736 1.352927V.962391ZM1.736488-2.231631C1.736488-2.364134 1.743462-2.371108 1.841096-2.461768C2.175841-2.75467 2.587298-2.782565 2.733748-2.782565C3.326526-2.782565 3.703113-2.308344 3.703113-1.555168C3.703113-.648568 3.180075-.278954 2.650062-.278954S1.820174-.655542 1.736488-.774097V-2.231631Z"></path>
+<path id="tz_posto_pressuposto_g0-114" d="M1.687671-1.464508C1.687671-2.092154 1.973599-2.782565 2.601245-2.817435C2.594271-2.810461 2.503611-2.691905 2.503611-2.517559C2.503611-2.245579 2.698879-2.043337 2.977833-2.043337S3.452055-2.245579 3.452055-2.517559C3.452055-2.901121 3.061519-3.138232 2.629141-3.138232C2.127024-3.138232 1.792279-2.803487 1.603985-2.371108H1.597011V-3.138232L.383562-3.082441V-2.691905C.795019-2.691905 .850809-2.691905 .850809-2.419925V-.390535H.383562V0C.411457 0 .948443-.027895 1.276214-.027895C1.548194-.027895 2.224658 0 2.273474 0V-.390535H1.687671V-1.464508Z"></path>
+<path id="tz_posto_pressuposto_g0-115" d="M3.012702-2.93599C3.012702-3.075467 3.012702-3.159153 2.84533-3.159153C2.796513-3.159153 2.775592-3.159153 2.66401-3.103362C2.650062-3.096389 2.559402-3.054545 2.531507-3.054545C2.524533-3.054545 2.510585-3.054545 2.48269-3.068493C2.196762-3.159153 1.903861-3.159153 1.75741-3.159153C1.555168-3.159153 1.129763-3.159153 .781071-2.970859C.383562-2.747696 .327771-2.385056 .327771-2.224658C.327771-1.471482 1.248319-1.332005 1.736488-1.255293C2.161893-1.192528 2.670984-1.115816 2.670984-.753176C2.670984-.278954 1.980573-.278954 1.8132-.278954C1.150685-.278954 .9066-.578829 .774097-.955417C.732254-1.073973 .72528-1.08792 .550934-1.08792C.348692-1.08792 .327771-1.066999 .327771-.864757V-.18132C.327771-.041843 .327771 .041843 .488169 .041843C.550934 .041843 .564882 .041843 .711333-.048817C.753176-.069738 .864757-.132503 .9066-.160399C1.26924 .041843 1.645828 .041843 1.806227 .041843C2.036364 .041843 3.235866 .041843 3.235866-.990286C3.235866-1.311083 3.068493-1.534247 2.908095-1.66675C2.580324-1.93873 2.280448-1.987547 1.701619-2.078207C1.30411-2.140971 .892653-2.203736 .892653-2.48269C.892653-2.873225 1.590037-2.873225 1.736488-2.873225C2.524533-2.873225 2.552428-2.552428 2.57335-2.385056C2.587298-2.245579 2.629141-2.231631 2.789539-2.231631C2.991781-2.231631 3.012702-2.252553 3.012702-2.454795V-2.93599Z"></path>
+<path id="tz_posto_pressuposto_g0-118" d="M3.996015-2.587298C4.044832-2.677958 4.051806-2.684932 4.198257-2.698879C4.281943-2.705853 4.456289-2.705853 4.505106-2.705853V-3.096389C4.288917-3.082441 4.142466-3.068493 3.919303-3.068493C3.710087-3.068493 3.438107-3.075467 3.228892-3.096389V-2.705853C3.410212-2.705853 3.452055-2.691905 3.535741-2.66401L2.601245-.829888L1.645828-2.705853H1.973599V-3.096389C1.673724-3.082441 1.366874-3.068493 1.066999-3.068493C.795019-3.068493 .523039-3.075467 .251059-3.096389V-2.705853H.704359L2.008468-.153425C2.099128 .027895 2.168867 .041843 2.378082 .041843S2.650062 .027895 2.747696-.153425L3.996015-2.587298Z"></path>
+<path id="tz_posto_pressuposto_g0-126" d="M3.507846-4.839851C3.38929-4.721295 3.159153-4.533001 2.873225-4.533001C2.705853-4.533001 2.566376-4.581818 2.315318-4.6934C2.147945-4.770112 1.980573-4.839851 1.792279-4.839851C1.48543-4.839851 1.373848-4.735243 .774097-4.14944L.99726-3.919303C1.115816-4.037858 1.345953-4.226152 1.63188-4.226152C1.799253-4.226152 1.93873-4.177335 2.189788-4.065753C2.357161-3.989041 2.524533-3.919303 2.712827-3.919303C3.019676-3.919303 3.131258-4.02391 3.731009-4.609714L3.507846-4.839851Z"></path>
+<path id="tz_posto_pressuposto_g1-183" d="M.934496-2.036364C.81594-1.959651 .718306-1.8132 .718306-1.694645C.718306-1.499377 .934496-1.290162 1.12279-1.290162S1.527273-1.499377 1.527273-1.694645C1.527273-1.882939 1.311083-2.099128 1.12279-2.099128C1.073973-2.099128 .990286-2.071233 .934496-2.036364Z"></path>
+<path id="tz_posto_pressuposto_g2-80" d="M2.598257-2.486675H3.945205C5.053051-2.486675 6.152927-3.339477 6.152927-4.2401C6.152927-4.893649 5.579078-5.443587 4.630635-5.443587H2.13599C2.000498-5.443587 1.904857-5.443587 1.904857-5.292154C1.904857-5.180573 2.000498-5.180573 2.13599-5.180573C2.351183-5.180573 2.574346-5.180573 2.574346-5.061021C2.574346-5.0132 2.550436-4.941469 2.542466-4.893649L1.482441-.629639C1.40274-.310834 1.346949-.263014 .828892-.263014C.70934-.263014 .605729-.263014 .605729-.111582C.605729-.047821 .653549 0 .72528 0C.765131 0 1.115816-.01594 1.179577-.02391H1.657783C2.335243-.02391 2.558406 0 2.598257 0C2.646077 0 2.757659 0 2.757659-.151432C2.757659-.263014 2.662017-.263014 2.526526-.263014C2.279452-.263014 2.088169-.263014 2.088169-.390535C2.088169-.398506 2.088169-.446326 2.12005-.565878L2.598257-2.486675ZM3.180075-4.901619C3.251806-5.180573 3.307597-5.180573 3.55467-5.180573H4.375592C4.95741-5.180573 5.435616-4.99726 5.435616-4.423412C5.435616-4.184309 5.308095-3.514819 5.0132-3.196015C4.606725-2.765629 4.048817-2.725778 3.761893-2.725778H2.638107L3.180075-4.901619Z"></path>
+<path id="tz_posto_pressuposto_g2-97" d="M4.072727-2.972852C4.080697-3.012702 4.104608-3.100374 4.104608-3.140224C4.104608-3.267746 4.000996-3.363387 3.865504-3.363387C3.753923-3.363387 3.57858-3.291656 3.53873-3.068493C3.371357-3.347447 3.140224-3.514819 2.805479-3.514819C1.865006-3.514819 .900623-2.335243 .900623-1.195517C.900623-.430386 1.354919 .079701 1.952677 .079701C2.422914 .079701 2.81345-.270984 2.980822-.462267C3.052553-.167372 3.315567 .079701 3.698132 .079701C3.985056 .079701 4.176339-.095641 4.311831-.342715C4.479203-.661519 4.582814-1.123786 4.582814-1.139726C4.582814-1.243337 4.471233-1.243337 4.431382-1.243337C4.29589-1.243337 4.29589-1.219427 4.24807-1.020174C4.096638-.406476 3.929265-.143462 3.714072-.143462C3.490909-.143462 3.490909-.398506 3.490909-.494147C3.490909-.549938 3.490909-.629639 3.514819-.72528L4.072727-2.972852ZM3.036613-1.060025C2.972852-.781071 2.446824-.143462 1.976588-.143462C1.601993-.143462 1.482441-.549938 1.482441-.868742C1.482441-1.243337 1.713574-2.183811 1.912827-2.550436C2.231631-3.132254 2.582316-3.291656 2.805479-3.291656C3.307597-3.291656 3.395268-2.614197 3.395268-2.534496L3.371357-2.422914L3.036613-1.060025Z"></path>
+<path id="tz_posto_pressuposto_g2-100" d="M4.654545-5.300125C4.662516-5.332005 4.678456-5.387796 4.678456-5.419676C4.678456-5.539228 4.550934-5.531258 4.463263-5.523288L3.634371-5.451557C3.52279-5.443587 3.435118-5.435616 3.435118-5.292154C3.435118-5.180573 3.53076-5.180573 3.642341-5.180573C4.024907-5.180573 4.024907-5.132752 4.024907-5.061021C4.024907-5.021171 4.000996-4.933499 3.993026-4.885679L3.53873-3.068493C3.371357-3.347447 3.140224-3.514819 2.805479-3.514819C1.865006-3.514819 .900623-2.335243 .900623-1.195517C.900623-.430386 1.354919 .079701 1.952677 .079701C2.422914 .079701 2.81345-.270984 2.980822-.462267C3.052553-.167372 3.315567 .079701 3.698132 .079701C3.985056 .079701 4.176339-.095641 4.311831-.342715C4.479203-.661519 4.582814-1.123786 4.582814-1.139726C4.582814-1.243337 4.471233-1.243337 4.431382-1.243337C4.29589-1.243337 4.29589-1.219427 4.24807-1.020174C4.096638-.406476 3.929265-.143462 3.714072-.143462C3.490909-.143462 3.490909-.398506 3.490909-.494147C3.490909-.541968 3.490909-.629639 3.514819-.72528L4.654545-5.300125ZM3.036613-1.060025C2.972852-.781071 2.446824-.143462 1.976588-.143462C1.601993-.143462 1.482441-.549938 1.482441-.868742C1.482441-1.243337 1.713574-2.183811 1.912827-2.550436C2.231631-3.132254 2.582316-3.291656 2.805479-3.291656C3.307597-3.291656 3.395268-2.614197 3.395268-2.534496L3.371357-2.422914L3.036613-1.060025Z"></path>
+<path id="tz_posto_pressuposto_g2-101" d="M2.10411-1.817186C2.422914-1.817186 3.913325-1.817186 3.913325-2.82142C3.913325-3.219925 3.56264-3.514819 3.020672-3.514819C2.1599-3.514819 .948443-2.765629 .948443-1.354919C.948443-.621669 1.362889 .079701 2.207721 .079701C3.355417 .079701 4.000996-.68543 4.000996-.797011C4.000996-.860772 3.897385-.964384 3.841594-.964384C3.793773-.964384 3.785803-.948443 3.714072-.868742C3.283686-.342715 2.654047-.143462 2.215691-.143462C1.665753-.143462 1.538232-.6934 1.538232-1.052055C1.538232-1.235367 1.594022-1.578082 1.649813-1.817186H2.10411ZM1.713574-2.040349C1.976588-3.028643 2.669988-3.291656 3.020672-3.291656C3.299626-3.291656 3.56264-3.140224 3.56264-2.82142C3.56264-2.040349 2.335243-2.040349 2.040349-2.040349H1.713574Z"></path>
+<path id="tz_posto_pressuposto_g2-102" d="M2.303362-3.172105H2.996762C3.132254-3.172105 3.235866-3.172105 3.235866-3.323537C3.235866-3.435118 3.124284-3.435118 3.004732-3.435118H2.351183C2.470735-4.064757 2.446824-4.000996 2.582316-4.622665C2.662017-5.00523 2.741719-5.387796 3.036613-5.387796C3.060523-5.387796 3.227895-5.387796 3.347447-5.284184C3.219925-5.236364 3.076463-5.100872 3.076463-4.909589C3.076463-4.678456 3.267746-4.638605 3.355417-4.638605C3.58655-4.638605 3.761893-4.829888 3.761893-5.076961C3.761893-5.427646 3.403238-5.610959 3.044583-5.610959C2.207721-5.610959 2.016438-4.606725 1.960648-4.303861L1.793275-3.435118H1.235367C1.099875-3.435118 1.004234-3.435118 1.004234-3.283686C1.004234-3.172105 1.107846-3.172105 1.227397-3.172105H1.745455L1.203487-.294894C1.107846 .215193 1.091905 .294894 .956413 .773101C.908593 .956413 .789041 1.40274 .510087 1.40274C.334745 1.40274 .215193 1.307098 .215193 1.307098C.366625 1.243337 .486177 1.099875 .486177 .924533C.486177 .6934 .294894 .653549 .207223 .653549C-.02391 .653549-.199253 .844832-.199253 1.091905C-.199253 1.458531 .183313 1.625903 .494147 1.625903C1.331009 1.625903 1.657783 .247073 1.833126-.68543L2.303362-3.172105Z"></path>
+<path id="tz_posto_pressuposto_g2-108" d="M2.478705-5.300125C2.486675-5.332005 2.502615-5.387796 2.502615-5.419676C2.502615-5.539228 2.375093-5.531258 2.287422-5.523288L1.458531-5.451557C1.346949-5.443587 1.259278-5.435616 1.259278-5.292154C1.259278-5.180573 1.354919-5.180573 1.466501-5.180573C1.849066-5.180573 1.849066-5.132752 1.849066-5.061021C1.849066-5.021171 1.825156-4.933499 1.817186-4.885679L.828892-.940473C.789041-.781071 .789041-.73325 .789041-.653549C.789041-.167372 1.155666 .079701 1.522291 .079701C1.689664 .079701 1.936737 .02391 2.13599-.358655C2.279452-.645579 2.391034-1.107846 2.391034-1.139726C2.391034-1.243337 2.279452-1.243337 2.239601-1.243337C2.11208-1.243337 2.10411-1.211457 2.072229-1.083935C1.960648-.669489 1.825156-.143462 1.538232-.143462C1.315068-.143462 1.315068-.398506 1.315068-.494147C1.315068-.541968 1.315068-.629639 1.338979-.72528L2.478705-5.300125Z"></path>
+<path id="tz_posto_pressuposto_g2-109" d="M2.13599-2.183811C2.14396-2.183811 2.566376-3.291656 3.443088-3.291656C3.745953-3.291656 3.857534-3.092403 3.857534-2.765629C3.857534-2.701868 3.857534-2.550436 3.793773-2.311333L3.291656-.310834C3.283686-.270984 3.259776-.183313 3.259776-.143462C3.259776-.01594 3.363387 .079701 3.498879 .079701C3.753923 .079701 3.801743-.111582 3.873474-.414446C3.929265-.613699 4.008966-.940473 4.048817-1.099875C4.088667-1.267248 4.088667-1.283188 4.176339-1.617933L4.303861-2.13599C4.327771-2.207721 4.542964-2.701868 4.893649-3.012702C5.037111-3.132254 5.300125-3.291656 5.626899-3.291656S6.033375-3.036613 6.033375-2.765629C6.033375-2.303362 5.69863-1.40274 5.547198-.996264C5.491407-.852802 5.443587-.72528 5.443587-.581818C5.443587-.215193 5.7066 .079701 6.113076 .079701C6.870237 .079701 7.204981-1.028144 7.204981-1.139726C7.204981-1.243337 7.0934-1.243337 7.053549-1.243337C6.926027-1.243337 6.918057-1.211457 6.878207-1.075965C6.734745-.565878 6.471731-.143462 6.129016-.143462C5.977584-.143462 5.953674-.255044 5.953674-.398506C5.953674-.581818 6.017435-.749191 6.073225-.908593C6.232628-1.331009 6.559402-2.191781 6.559402-2.654047C6.559402-3.339477 6.081196-3.514819 5.650809-3.514819C5.092902-3.514819 4.678456-3.211955 4.375592-2.797509C4.311831-3.371357 3.849564-3.514819 3.474969-3.514819C2.789539-3.514819 2.406974-3.060523 2.255542-2.87721C2.207721-3.243836 1.912827-3.514819 1.522291-3.514819C1.251308-3.514819 1.060025-3.363387 .900623-3.084433C.757161-2.81345 .637609-2.335243 .637609-2.295392C.637609-2.191781 .74122-2.191781 .789041-2.191781C.916563-2.191781 .924533-2.215691 .972354-2.406974C1.091905-2.87721 1.235367-3.291656 1.506351-3.291656C1.729514-3.291656 1.729514-3.012702 1.729514-2.940971C1.729514-2.82939 1.713574-2.701868 1.681694-2.590286L1.099875-.263014C1.083935-.191283 1.075965-.167372 1.075965-.143462C1.075965-.01594 1.179577 .079701 1.315068 .079701C1.570112 .079701 1.617933-.111582 1.689664-.414446C1.745455-.613699 1.825156-.940473 1.865006-1.099875L2.13599-2.183811Z"></path>
+<path id="tz_posto_pressuposto_g2-110" d="M2.12005-2.13599C2.1599-2.263512 2.406974-2.733748 2.654047-2.964882C2.901121-3.180075 3.156164-3.291656 3.435118-3.291656C3.745953-3.291656 3.841594-3.068493 3.841594-2.765629C3.841594-2.303362 3.506849-1.39477 3.355417-.996264C3.299626-.852802 3.251806-.72528 3.251806-.581818C3.251806-.215193 3.514819 .079701 3.921295 .079701C4.678456 .079701 5.0132-1.028144 5.0132-1.139726C5.0132-1.243337 4.901619-1.243337 4.861768-1.243337C4.734247-1.243337 4.726276-1.211457 4.686426-1.075965C4.542964-.565878 4.27995-.143462 3.937235-.143462C3.785803-.143462 3.761893-.255044 3.761893-.398506C3.761893-.581818 3.825654-.749191 3.881445-.908593C4.040847-1.331009 4.367621-2.191781 4.367621-2.654047C4.367621-3.339477 3.897385-3.514819 3.459029-3.514819C2.781569-3.514819 2.406974-3.060523 2.255542-2.87721C2.207721-3.243836 1.912827-3.514819 1.522291-3.514819C1.251308-3.514819 1.060025-3.363387 .900623-3.084433C.757161-2.81345 .637609-2.335243 .637609-2.295392C.637609-2.191781 .74122-2.191781 .789041-2.191781C.916563-2.191781 .924533-2.215691 .972354-2.406974C1.091905-2.87721 1.235367-3.291656 1.506351-3.291656C1.729514-3.291656 1.729514-3.012702 1.729514-2.940971C1.729514-2.82939 1.713574-2.701868 1.681694-2.590286L1.099875-.263014C1.083935-.191283 1.075965-.167372 1.075965-.143462C1.075965-.01594 1.179577 .079701 1.315068 .079701C1.570112 .079701 1.617933-.111582 1.689664-.414446C1.745455-.613699 1.825156-.940473 1.865006-1.099875C1.904857-1.267248 1.904857-1.283188 1.992528-1.617933L2.12005-2.13599Z"></path>
+<path id="tz_posto_pressuposto_g2-111" d="M4.303861-2.16787C4.303861-2.996762 3.745953-3.514819 3.028643-3.514819C2.000498-3.514819 .916563-2.438854 .916563-1.267248C.916563-.390535 1.514321 .079701 2.183811 .079701C3.243836 .079701 4.303861-1.020174 4.303861-2.16787ZM2.191781-.143462C1.888917-.143462 1.514321-.350685 1.514321-.988294C1.514321-1.346949 1.681694-2.096139 1.936737-2.534496C2.279452-3.108344 2.749689-3.291656 3.020672-3.291656C3.403238-3.291656 3.706102-3.004732 3.706102-2.446824C3.706102-2.191781 3.58655-1.41868 3.259776-.876712C3.004732-.438356 2.574346-.143462 2.191781-.143462Z"></path>
+<path id="tz_posto_pressuposto_g2-114" d="M2.13599-2.183811C2.1599-2.295392 2.534496-3.291656 3.251806-3.291656C3.323537-3.291656 3.5467-3.283686 3.698132-3.164134C3.443088-3.068493 3.427148-2.86127 3.427148-2.797509C3.427148-2.574346 3.602491-2.526526 3.706102-2.526526C3.857534-2.526526 4.104608-2.638107 4.104608-2.964882C4.104608-3.427148 3.53076-3.514819 3.259776-3.514819C2.797509-3.514819 2.462765-3.259776 2.239601-2.964882C2.16787-3.267746 1.904857-3.514819 1.522291-3.514819C1.251308-3.514819 1.060025-3.363387 .900623-3.084433C.757161-2.81345 .637609-2.335243 .637609-2.295392C.637609-2.191781 .74122-2.191781 .789041-2.191781C.916563-2.191781 .924533-2.215691 .972354-2.406974C1.091905-2.87721 1.235367-3.291656 1.506351-3.291656C1.729514-3.291656 1.729514-3.012702 1.729514-2.940971C1.729514-2.82939 1.713574-2.701868 1.681694-2.590286L1.099875-.263014C1.083935-.191283 1.075965-.167372 1.075965-.143462C1.075965-.01594 1.179577 .079701 1.315068 .079701C1.538232 .079701 1.617933-.103611 1.649813-.231133L2.13599-2.183811Z"></path>
+<path id="tz_posto_pressuposto_g2-115" d="M3.196015-2.956912C2.917061-2.885181 2.917061-2.646077 2.917061-2.630137C2.917061-2.486675 3.028643-2.391034 3.164134-2.391034C3.196015-2.391034 3.514819-2.391034 3.514819-2.82939C3.514819-3.299626 3.044583-3.514819 2.590286-3.514819C1.514321-3.514819 1.259278-2.646077 1.259278-2.343213C1.259278-2.13599 1.346949-1.912827 1.514321-1.777335C1.689664-1.625903 1.777335-1.609963 2.247572-1.506351C2.422914-1.474471 2.84533-1.3868 2.84533-.980324C2.84533-.74122 2.638107-.143462 1.761395-.143462C1.594022-.143462 1.123786-.167372 .956413-.533998C1.315068-.597758 1.315068-.900623 1.315068-.924533C1.315068-1.075965 1.203487-1.187547 1.036115-1.187547C.820922-1.187547 .621669-1.028144 .621669-.6934C.621669-.247073 1.060025 .079701 1.761395 .079701C3.012702 .079701 3.339477-.860772 3.339477-1.243337C3.339477-1.952677 2.638107-2.096139 2.375093-2.15193C2.024408-2.223661 1.753425-2.279452 1.753425-2.606227C1.753425-2.82939 1.952677-3.291656 2.574346-3.291656C2.82939-3.291656 3.100374-3.203985 3.196015-2.956912Z"></path>
+<path id="tz_posto_pressuposto_g2-116" d="M2.1599-3.172105H2.885181C3.020672-3.172105 3.116314-3.172105 3.116314-3.323537C3.116314-3.435118 3.020672-3.435118 2.893151-3.435118H2.223661L2.510585-4.582814C2.542466-4.702366 2.542466-4.718306 2.542466-4.758157C2.542466-4.941469 2.383064-4.98132 2.311333-4.98132C2.056289-4.98132 1.992528-4.742217 1.976588-4.670486L1.665753-3.435118H.948443C.804981-3.435118 .70934-3.435118 .70934-3.283686C.70934-3.172105 .812951-3.172105 .932503-3.172105H1.601993L1.044085-.940473C1.004234-.781071 1.004234-.73325 1.004234-.653549C1.004234-.183313 1.354919 .079701 1.745455 .079701C2.582316 .079701 3.044583-1.036115 3.044583-1.147696C3.044583-1.243337 2.933001-1.243337 2.901121-1.243337C2.781569-1.243337 2.773599-1.219427 2.733748-1.115816C2.383064-.302864 2.008468-.143462 1.761395-.143462C1.562142-.143462 1.530262-.318804 1.530262-.494147C1.530262-.549938 1.530262-.629639 1.554172-.72528L2.1599-3.172105Z"></path>
+<path id="tz_posto_pressuposto_g2-117" d="M4.303861-3.052553C4.335741-3.164134 4.335741-3.180075 4.335741-3.203985C4.335741-3.355417 4.23213-3.435118 4.096638-3.435118C3.841594-3.435118 3.777833-3.188045 3.761893-3.116314L3.219925-.924533C3.180075-.765131 2.84533-.143462 2.311333-.143462C1.841096-.143462 1.841096-.629639 1.841096-.765131C1.841096-1.211457 2.040349-1.761395 2.295392-2.454795C2.359153-2.614197 2.391034-2.693898 2.391034-2.8533C2.391034-3.291656 2.064259-3.514819 1.729514-3.514819C.964384-3.514819 .637609-2.399004 .637609-2.295392S.74122-2.191781 .789041-2.191781C.916563-2.191781 .924533-2.215691 .956413-2.359153C1.099875-2.8533 1.362889-3.291656 1.713574-3.291656C1.857036-3.291656 1.888917-3.188045 1.888917-3.044583C1.888917-2.86127 1.825156-2.693898 1.753425-2.510585C1.530262-1.896887 1.307098-1.315068 1.307098-.876712C1.307098-.151432 1.825156 .079701 2.279452 .079701C2.462765 .079701 2.82142 .055791 3.219925-.406476C3.339477-.00797 3.706102 .079701 3.913325 .079701C4.200249 .079701 4.391532-.095641 4.527024-.342715C4.694396-.661519 4.798007-1.123786 4.798007-1.139726C4.798007-1.243337 4.686426-1.243337 4.646575-1.243337C4.511083-1.243337 4.511083-1.219427 4.463263-1.020174C4.311831-.406476 4.144458-.143462 3.929265-.143462C3.706102-.143462 3.706102-.398506 3.706102-.494147C3.706102-.549938 3.706102-.629639 3.730012-.72528L4.303861-3.052553Z"></path>
+<path id="tz_posto_pressuposto_g2-118" d="M4.152428-2.933001C4.152428-3.435118 3.913325-3.514819 3.793773-3.514819C3.626401-3.514819 3.403238-3.355417 3.403238-3.132254C3.403238-3.020672 3.459029-2.964882 3.506849-2.917061C3.666252-2.749689 3.722042-2.526526 3.722042-2.311333C3.722042-2.008468 3.307597-.143462 2.406974-.143462C1.849066-.143462 1.849066-.6934 1.849066-.812951C1.849066-1.155666 1.968618-1.570112 2.239601-2.279452C2.303362-2.470735 2.391034-2.693898 2.391034-2.8533C2.391034-3.291656 2.064259-3.514819 1.729514-3.514819C.964384-3.514819 .637609-2.399004 .637609-2.295392S.74122-2.191781 .789041-2.191781C.916563-2.191781 .924533-2.215691 .956413-2.359153C1.099875-2.8533 1.362889-3.291656 1.713574-3.291656C1.857036-3.291656 1.888917-3.188045 1.888917-3.044583C1.888917-2.86127 1.825156-2.693898 1.753425-2.510585C1.514321-1.857036 1.315068-1.323039 1.315068-.916563C1.315068-.135492 1.896887 .079701 2.383064 .079701C3.714072 .079701 4.152428-2.526526 4.152428-2.933001Z"></path>
+<path id="tz_posto_pressuposto_g2-126" d="M4.798007-5.236364C4.798007-5.300125 4.750187-5.347945 4.686426-5.347945C4.654545-5.347945 4.622665-5.332005 4.550934-5.260274C4.447323-5.172603 4.056787-4.813948 3.817684-4.813948C3.730012-4.813948 3.682192-4.837858 3.57858-4.99726C3.451059-5.196513 3.347447-5.347945 3.108344-5.347945C2.893151-5.347945 2.646077-5.180573 2.446824-5.021171C2.287422-4.893649 2.024408-4.686426 2.024408-4.598755C2.024408-4.534994 2.072229-4.487173 2.12802-4.487173C2.175841-4.487173 2.199751-4.511083 2.239601-4.550934C2.311333-4.614695 2.749689-5.021171 2.996762-5.021171C3.092403-5.021171 3.140224-4.99726 3.275716-4.790037C3.355417-4.662516 3.466999-4.487173 3.706102-4.487173C3.953176-4.487173 4.2401-4.702366 4.367621-4.813948C4.542964-4.94944 4.798007-5.148692 4.798007-5.236364Z"></path>
+<path id="tz_posto_pressuposto_g3-69" d="M6.121046-2.191781H5.67472C5.483437-1.052055 5.196513-.414446 3.745953-.414446H2.422914V-2.606227H2.901121C3.650311-2.606227 3.785803-2.327273 3.785803-1.689664H4.23213V-3.937235H3.785803C3.785803-3.299626 3.650311-3.020672 2.901121-3.020672H2.422914V-5.00523H3.722042C4.869738-5.00523 5.260274-4.614695 5.403736-3.482939H5.850062L5.587049-5.419676H.374595V-5.00523H1.235367V-.414446H.374595V0H5.730511L6.121046-2.191781Z"></path>
+<path id="tz_posto_pressuposto_g3-79" d="M6.782565-2.701868C6.782565-4.303861 5.69066-5.579078 3.658281-5.579078C1.657783-5.579078 .541968-4.327771 .541968-2.701868C.541968-1.099875 1.665753 .111582 3.658281 .111582C5.69863 .111582 6.782565-1.139726 6.782565-2.701868ZM3.666252-.278954C3.211955-.278954 2.566376-.422416 2.15193-1.123786C1.833126-1.665753 1.817186-2.414944 1.817186-2.82142C1.817186-3.56264 1.904857-4.104608 2.263512-4.582814C2.470735-4.853798 2.948941-5.204483 3.658281-5.204483C4.23213-5.204483 4.766127-4.97335 5.092902-4.534994C5.475467-4.016936 5.507347-3.331507 5.507347-2.82142C5.507347-1.992528 5.395766-1.498381 5.132752-1.060025C4.821918-.549938 4.25604-.278954 3.666252-.278954Z"></path>
+<path id="tz_posto_pressuposto_g3-80" d="M2.422914-2.359153H3.865504C5.292154-2.359153 6.105106-3.044583 6.105106-3.897385C6.105106-4.758157 5.300125-5.467497 3.865504-5.467497H.374595V-5.053051H1.235367V-.414446H.374595V0C.67746-.02391 1.482441-.02391 1.833126-.02391C2.175841-.02391 2.980822-.02391 3.283686 0V-.414446H2.422914V-2.359153ZM3.57061-5.053051C4.829888-5.053051 4.829888-4.447323 4.829888-3.897385S4.829888-2.733748 3.56264-2.733748H2.375093V-5.053051H3.57061Z"></path>
+<path id="tz_posto_pressuposto_g3-82" d="M4.750187-2.709838C5.587049-2.940971 6.065255-3.419178 6.065255-3.977086C6.065255-4.821918 5.084932-5.467497 3.5467-5.467497H.374595V-5.053051H1.235367V-.414446H.374595V0C.68543-.02391 1.458531-.02391 1.809215-.02391S2.925031-.02391 3.235866 0V-.414446H2.375093V-2.566376H3.395268C3.698132-2.566376 3.977086-2.486675 4.192279-2.263512C4.431382-2.032379 4.431382-1.865006 4.431382-1.323039C4.431382-.789041 4.431382-.430386 4.941469-.135492C5.292154 .063761 5.858032 .111582 6.232628 .111582C7.12528 .111582 7.260772-.597758 7.260772-.781071C7.260772-.956413 7.13325-.980324 7.037609-.980324C6.870237-.980324 6.822416-.908593 6.814446-.797011C6.774595-.302864 6.447821-.223163 6.312329-.223163C5.810212-.223163 5.746451-.73325 5.65878-1.41071C5.595019-1.944707 5.531258-2.414944 4.750187-2.709838ZM3.411208-2.901121H2.375093V-5.053051H3.435118C4.734247-5.053051 4.790037-4.471233 4.790037-3.977086C4.790037-3.506849 4.750187-2.901121 3.411208-2.901121Z"></path>
+<path id="tz_posto_pressuposto_g3-83" d="M2.191781-3.55467C1.617933-3.674222 1.346949-4.024907 1.346949-4.375592S1.594022-5.204483 2.446824-5.204483C2.630137-5.204483 3.164134-5.188543 3.58655-4.869738C4.032877-4.527024 4.120548-4.032877 4.152428-3.841594C4.176339-3.690162 4.184309-3.650311 4.383562-3.650311C4.598755-3.650311 4.606725-3.706102 4.606725-3.897385V-5.332005C4.606725-5.483437 4.606725-5.579078 4.431382-5.579078C4.335741-5.579078 4.327771-5.571108 4.144458-5.387796L3.897385-5.148692C3.53076-5.411706 3.084433-5.579078 2.446824-5.579078C1.099875-5.579078 .541968-4.742217 .541968-3.969116C.541968-3.626401 .653549-3.291656 .924533-2.980822C1.338979-2.510585 1.841096-2.414944 2.191781-2.343213L3.172105-2.14396C3.857534-2.000498 4.072727-1.570112 4.072727-1.219427C4.072727-.972354 3.961146-.302864 2.940971-.302864C2.558406-.302864 1.976588-.358655 1.530262-.637609C1.028144-.948443 .996264-1.43462 .988294-1.689664C.980324-1.817186 .852802-1.817186 .765131-1.817186C.541968-1.817186 .541968-1.753425 .541968-1.570112V-.135492C.541968 .01594 .541968 .111582 .71731 .111582C.812951 .111582 .820922 .103611 1.004234-.079701L1.243337-.310834C1.801245 .055791 2.534496 .111582 2.948941 .111582C4.383562 .111582 4.877709-.828892 4.877709-1.609963C4.877709-2.486675 4.200249-3.148194 3.403238-3.307597L2.191781-3.55467Z"></path>
+<path id="tz_posto_pressuposto_g3-84" d="M6.248568-5.363885H.533998L.350685-3.427148H.797011C.876712-4.359651 .996264-4.94944 2.14396-4.94944H2.797509V-.414446H1.586052V0C1.888917-.02391 3.012702-.02391 3.387298-.02391C3.769863-.02391 4.893649-.02391 5.196513 0V-.414446H3.985056V-4.94944H4.638605C5.786301-4.94944 5.905853-4.359651 5.985554-3.427148H6.43188L6.248568-5.363885Z"></path>
+<path id="tz_posto_pressuposto_g3-85" d="M6.240598-4.837858C6.240598-5.00523 6.248568-5.0132 6.471731-5.037111C6.575342-5.045081 6.806476-5.053051 6.878207-5.053051H7.10137V-5.467497C6.471731-5.443587 6.455791-5.443587 5.977584-5.443587S5.483437-5.443587 4.853798-5.467497V-5.053051H5.076961C5.284184-5.053051 5.316065-5.053051 5.499377-5.029141C5.7066-5.00523 5.71457-4.99726 5.71457-4.837858V-1.849066C5.71457-.73325 4.885679-.302864 3.913325-.302864C2.438854-.302864 2.422914-1.354919 2.422914-1.793275V-5.053051H3.283686V-5.467497C2.980822-5.443587 2.175841-5.443587 1.833126-5.443587C1.482441-5.443587 .67746-5.443587 .374595-5.467497V-5.053051H1.235367V-1.841096C1.235367-.781071 2.12802 .111582 3.881445 .111582C5.547198 .111582 6.240598-.852802 6.240598-1.833126V-4.837858Z"></path>
+<path id="tz_posto_pressuposto_g4-16" d="M1.471482-1.72254C1.422665-1.590037 1.297136-1.26924 1.227397-1.073973C1.157659-.892653 1.060025-.641594 1.060025-.516065C1.060025-.195268 1.311083 .069738 1.680697 .069738C2.378082 .069738 2.691905-.885679 2.691905-.99726C2.691905-1.08792 2.601245-1.08792 2.545455-1.08792C2.419925-1.08792 2.412951-1.066999 2.378082-.941469C2.287422-.606725 2.057285-.125529 1.701619-.125529C1.534247-.125529 1.534247-.292902 1.534247-.36264C1.534247-.530012 1.652802-.829888 1.743462-1.053051C1.820174-1.26924 2.168867-2.154919 2.203736-2.259527C2.245579-2.378082 2.245579-2.399004 2.245579-2.489664C2.245579-2.803487 2.001494-3.075467 1.617933-3.075467C.934496-3.075467 .613699-2.133998 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.136737-2.817435 1.471482-2.880199 1.597011-2.880199C1.680697-2.880199 1.771357-2.859278 1.771357-2.643088C1.771357-2.489664 1.715567-2.350187 1.659776-2.203736L1.471482-1.72254Z"></path>
+<path id="tz_posto_pressuposto_g4-19" d="M4.100623-4.365629C4.198257-4.428394 4.281943-4.491158 4.281943-4.623661C4.281943-4.770112 4.163387-4.853798 4.05878-4.853798C3.961146-4.853798 3.884433-4.791034 3.856538-4.763138L2.705853-3.765878C2.636115-3.703113 2.622167-3.696139 2.622167-3.654296S2.684932-3.486924 2.768618-3.486924C2.789539-3.486924 2.810461-3.486924 2.880199-3.535741L4.100623-4.365629Z"></path>
+<path id="tz_posto_pressuposto_g4-45" d="M2.447821-1.276214C2.601245-1.276214 2.615193-1.276214 2.643088-1.39477C2.650062-1.39477 2.698879-1.603985 2.698879-1.63188C2.698879-1.729514 2.608219-1.729514 2.503611-1.729514H.948443C.795019-1.729514 .774097-1.729514 .746202-1.617933C.739228-1.603985 .683437-1.401743 .683437-1.373848C.683437-1.276214 .774097-1.276214 .878705-1.276214H2.447821Z"></path>
+<path id="tz_posto_pressuposto_g4-97" d="M3.814695-2.587298C3.84259-2.691905 3.84259-2.705853 3.84259-2.733748C3.84259-2.887173 3.731009-2.942964 3.626401-2.942964C3.396264-2.942964 3.326526-2.705853 3.319552-2.684932C3.145205-2.970859 2.887173-3.075467 2.636115-3.075467C1.785305-3.075467 .899626-2.092154 .899626-1.073973C.899626-.327771 1.373848 .069738 1.889913 .069738C2.336239 .069738 2.705853-.258032 2.84533-.404483C2.93599-.069738 3.263761 .069738 3.514819 .069738C3.731009 .069738 3.912329-.034869 4.065753-.285928C4.233126-.557908 4.33076-.976339 4.33076-.99726C4.33076-1.08792 4.2401-1.08792 4.184309-1.08792C4.05878-1.08792 4.051806-1.073973 4.009963-.899626C3.912329-.536986 3.793773-.125529 3.535741-.125529C3.340473-.125529 3.312578-.334745 3.312578-.4533S3.312578-.585803 3.354421-.746202L3.814695-2.587298ZM2.887173-.948443C2.831382-.732254 2.677958-.564882 2.517559-.411457C2.231631-.160399 2.015442-.125529 1.910834-.125529C1.590037-.125529 1.429639-.425405 1.429639-.788045C1.429639-1.080946 1.603985-1.84807 1.799253-2.224658C2.022416-2.636115 2.357161-2.880199 2.636115-2.880199C3.110336-2.880199 3.200996-2.273474 3.200996-2.203736C3.200996-2.182814 3.194022-2.154919 3.180075-2.106102L2.887173-.948443Z"></path>
+<path id="tz_posto_pressuposto_g4-99" d="M3.382316-2.629141C3.180075-2.57335 3.110336-2.405978 3.110336-2.287422C3.110336-2.175841 3.187049-2.057285 3.361395-2.057285C3.47995-2.057285 3.710087-2.133998 3.710087-2.468742C3.710087-2.922042 3.221918-3.075467 2.838356-3.075467C1.862017-3.075467 .9066-2.12005 .9066-1.129763C.9066-.474222 1.345953 .069738 2.12005 .069738C3.242839 .069738 3.772852-.585803 3.772852-.676463C3.772852-.732254 3.675218-.843836 3.612453-.843836C3.577584-.843836 3.556663-.822914 3.507846-.767123C3.082441-.258032 2.475716-.125529 2.127024-.125529S1.457534-.327771 1.457534-.892653C1.457534-1.220423 1.610959-1.959651 1.931756-2.364134C2.21071-2.719801 2.545455-2.880199 2.84533-2.880199C2.963885-2.880199 3.263761-2.84533 3.382316-2.629141Z"></path>
+<path id="tz_posto_pressuposto_g4-100" d="M4.33076-4.637609C4.337733-4.665504 4.351681-4.714321 4.351681-4.742217C4.351681-4.846824 4.2401-4.839851 4.163387-4.832877L3.410212-4.770112C3.319552-4.763138 3.228892-4.756164 3.228892-4.609714C3.228892-4.51208 3.319552-4.51208 3.410212-4.51208C3.744956-4.51208 3.744956-4.463263 3.744956-4.400498C3.744956-4.379577 3.744956-4.365629 3.717061-4.267995L3.326526-2.684932C3.166127-2.929016 2.929016-3.075467 2.636115-3.075467C1.785305-3.075467 .899626-2.092154 .899626-1.073973C.899626-.327771 1.373848 .069738 1.889913 .069738C2.336239 .069738 2.705853-.258032 2.84533-.404483C2.93599-.069738 3.263761 .069738 3.514819 .069738C3.731009 .069738 3.912329-.034869 4.065753-.285928C4.233126-.557908 4.33076-.976339 4.33076-.99726C4.33076-1.08792 4.2401-1.08792 4.184309-1.08792C4.05878-1.08792 4.051806-1.073973 4.009963-.899626C3.912329-.536986 3.793773-.125529 3.535741-.125529C3.340473-.125529 3.312578-.334745 3.312578-.4533S3.347447-.718306 3.354421-.739228L4.33076-4.637609ZM2.887173-.948443C2.831382-.732254 2.677958-.564882 2.517559-.411457C2.231631-.160399 2.015442-.125529 1.910834-.125529C1.590037-.125529 1.429639-.425405 1.429639-.788045C1.429639-1.080946 1.603985-1.84807 1.799253-2.224658C2.022416-2.636115 2.357161-2.880199 2.636115-2.880199C3.110336-2.880199 3.200996-2.273474 3.200996-2.203736C3.200996-2.182814 3.194022-2.154919 3.180075-2.106102L2.887173-.948443Z"></path>
+<path id="tz_posto_pressuposto_g4-101" d="M2.001494-1.590037C2.30137-1.590037 3.675218-1.590037 3.675218-2.461768C3.675218-2.838356 3.319552-3.075467 2.831382-3.075467C2.050311-3.075467 .941469-2.447821 .941469-1.220423C.941469-.488169 1.373848 .069738 2.127024 .069738C3.235866 .069738 3.772852-.585803 3.772852-.676463C3.772852-.732254 3.675218-.843836 3.612453-.843836C3.577584-.843836 3.556663-.822914 3.507846-.767123C3.082441-.258032 2.475716-.125529 2.127024-.125529C1.673724-.125529 1.478456-.509091 1.478456-.948443C1.478456-1.164633 1.520299-1.380822 1.569116-1.590037H2.001494ZM1.624907-1.785305C1.93873-2.866252 2.747696-2.880199 2.831382-2.880199C3.124284-2.880199 3.340473-2.719801 3.340473-2.468742C3.340473-1.785305 2.224658-1.785305 1.952677-1.785305H1.624907Z"></path>
+<path id="tz_posto_pressuposto_g4-102" d="M2.154919-2.75467H2.810461C2.93599-2.75467 3.02665-2.75467 3.02665-2.908095C3.02665-3.005729 2.929016-3.005729 2.824408-3.005729H2.203736C2.280448-3.466002 2.364134-3.891407 2.399004-4.037858C2.468742-4.379577 2.538481-4.714321 2.817435-4.714321C2.929016-4.714321 3.040598-4.686426 3.124284-4.616687C2.991781-4.560897 2.901121-4.435367 2.901121-4.29589C2.901121-4.093649 3.068493-4.05878 3.145205-4.05878C3.347447-4.05878 3.500872-4.226152 3.500872-4.442341C3.500872-4.742217 3.180075-4.909589 2.817435-4.909589C2.057285-4.909589 1.896887-4.086675 1.855044-3.870486L1.687671-3.005729H1.157659C1.03213-3.005729 .948443-3.005729 .948443-2.852304C.948443-2.75467 1.03213-2.75467 1.143711-2.75467H1.638854L1.185554-.278954C.9066 1.227397 .704359 1.227397 .550934 1.227397C.523039 1.227397 .376588 1.227397 .258032 1.12279C.481196 1.03213 .481196 .836862 .481196 .808966C.481196 .606725 .313823 .571856 .237111 .571856C.034869 .571856-.118555 .739228-.118555 .955417C-.118555 1.26924 .223163 1.422665 .54396 1.422665C1.21345 1.422665 1.48543 .530012 1.57609 .195268C1.638854-.041843 1.701619-.278954 1.743462-.516065L2.154919-2.75467Z"></path>
+<path id="tz_posto_pressuposto_g4-105" d="M2.489664-4.344707C2.489664-4.491158 2.385056-4.588792 2.245579-4.588792C2.050311-4.588792 1.896887-4.407472 1.896887-4.254047C1.896887-4.128518 1.980573-4.009963 2.147945-4.009963C2.322291-4.009963 2.489664-4.177335 2.489664-4.344707ZM1.471482-1.72254C1.422665-1.590037 1.297136-1.26924 1.227397-1.073973C1.157659-.892653 1.060025-.641594 1.060025-.516065C1.060025-.195268 1.311083 .069738 1.680697 .069738C2.378082 .069738 2.691905-.885679 2.691905-.99726C2.691905-1.08792 2.601245-1.08792 2.545455-1.08792C2.419925-1.08792 2.412951-1.066999 2.378082-.941469C2.287422-.606725 2.057285-.125529 1.701619-.125529C1.534247-.125529 1.534247-.292902 1.534247-.36264C1.534247-.530012 1.652802-.829888 1.743462-1.053051C1.820174-1.26924 2.168867-2.154919 2.203736-2.259527C2.245579-2.378082 2.245579-2.399004 2.245579-2.489664C2.245579-2.803487 2.001494-3.075467 1.617933-3.075467C.934496-3.075467 .613699-2.133998 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.136737-2.817435 1.471482-2.880199 1.597011-2.880199C1.680697-2.880199 1.771357-2.859278 1.771357-2.643088C1.771357-2.489664 1.715567-2.350187 1.659776-2.203736L1.471482-1.72254Z"></path>
+<path id="tz_posto_pressuposto_g4-108" d="M2.294396-4.637609C2.30137-4.665504 2.315318-4.714321 2.315318-4.742217C2.315318-4.846824 2.203736-4.839851 2.127024-4.832877L1.373848-4.770112C1.283188-4.763138 1.192528-4.756164 1.192528-4.609714C1.192528-4.51208 1.283188-4.51208 1.373848-4.51208C1.708593-4.51208 1.708593-4.463263 1.708593-4.400498C1.708593-4.351681 1.694645-4.29589 1.680697-4.247073L.822914-.822914C.788045-.683437 .788045-.63462 .788045-.585803C.788045-.125529 1.171606 .069738 1.478456 .069738C1.638854 .069738 1.855044 .013948 2.043337-.306849C2.196762-.578829 2.287422-.969365 2.287422-.99726C2.287422-1.08792 2.196762-1.08792 2.140971-1.08792C2.015442-1.08792 2.008468-1.066999 1.980573-.948443C1.882939-.578829 1.764384-.125529 1.499377-.125529C1.30411-.125529 1.276214-.334745 1.276214-.4533S1.311083-.718306 1.318057-.739228L2.294396-4.637609Z"></path>
+<path id="tz_posto_pressuposto_g4-109" d="M3.228892-.613699C3.187049-.460274 3.11731-.18132 3.11731-.139477C3.11731 .013948 3.228892 .069738 3.333499 .069738C3.57061 .069738 3.619427-.139477 3.647323-.244085C3.675218-.36264 3.765878-.711333 3.807721-.864757C3.828643-.969365 3.898381-1.234371 3.919303-1.338979C3.940224-1.408717 4.030884-1.75741 4.037858-1.806227C4.051806-1.84807 4.261021-2.308344 4.546949-2.57335C4.756164-2.761644 5.000249-2.880199 5.279203-2.880199C5.6-2.880199 5.676712-2.636115 5.676712-2.405978C5.676712-1.994521 5.348941-1.150685 5.230386-.829888C5.160648-.655542 5.160648-.606725 5.160648-.516065C5.160648-.139477 5.460523 .069738 5.78132 .069738C6.478705 .069738 6.792528-.885679 6.792528-.99726C6.792528-1.08792 6.701868-1.08792 6.646077-1.08792C6.520548-1.08792 6.513574-1.066999 6.478705-.941469C6.360149-.509091 6.109091-.125529 5.802242-.125529C5.704608-.125529 5.627895-.174346 5.627895-.36264C5.627895-.516065 5.69066-.669489 5.746451-.829888C5.87198-1.157659 6.164882-1.917808 6.164882-2.30137C6.164882-2.84533 5.788294-3.075467 5.307098-3.075467C4.770112-3.075467 4.400498-2.775592 4.11457-2.405978C4.051806-2.984807 3.577584-3.075467 3.256787-3.075467C2.636115-3.075467 2.280448-2.657036 2.12005-2.475716C2.078207-2.915068 1.701619-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.412951 1.534247-2.057285 1.478456-1.8132L1.283188-1.060025C1.262267-.955417 1.192528-.690411 1.164633-.585803C1.129763-.432379 1.066999-.188294 1.066999-.139477C1.066999 .013948 1.17858 .069738 1.283188 .069738C1.520299 .069738 1.569116-.139477 1.597011-.244085C1.624907-.36264 1.715567-.711333 1.75741-.864757C1.862017-1.297136 1.966625-1.729514 1.987547-1.806227C1.987547-1.8132 2.217684-2.343213 2.531507-2.608219C2.629141-2.684932 2.866252-2.880199 3.235866-2.880199C3.563636-2.880199 3.633375-2.622167 3.633375-2.399004C3.633375-2.238605 3.584558-2.050311 3.542715-1.868991C3.500872-1.72254 3.410212-1.352927 3.375342-1.199502L3.228892-.613699Z"></path>
+<path id="tz_posto_pressuposto_g4-111" d="M4.037858-1.875965C4.037858-2.552428 3.563636-3.075467 2.84533-3.075467C1.84807-3.075467 .9066-2.106102 .9066-1.129763C.9066-.418431 1.408717 .069738 2.099128 .069738C3.096389 .069738 4.037858-.9066 4.037858-1.875965ZM2.106102-.125529C1.910834-.125529 1.457534-.223163 1.457534-.892653C1.457534-1.199502 1.597011-1.931756 1.931756-2.364134C2.175841-2.691905 2.531507-2.880199 2.838356-2.880199C3.082441-2.880199 3.486924-2.733748 3.486924-2.113076C3.486924-1.875965 3.382316-1.206476 3.082441-.732254C2.866252-.397509 2.475716-.125529 2.106102-.125529Z"></path>
+<path id="tz_posto_pressuposto_g4-112" d="M.808966 .857783C.760149 1.060025 .718306 1.101868 .460274 1.101868C.36264 1.101868 .278954 1.101868 .278954 1.255293C.278954 1.318057 .320797 1.352927 .376588 1.352927C.557908 1.352927 .774097 1.325031 .962391 1.325031C1.192528 1.325031 1.45056 1.352927 1.673724 1.352927C1.708593 1.352927 1.8132 1.352927 1.8132 1.206476C1.8132 1.101868 1.743462 1.101868 1.610959 1.101868C1.48543 1.101868 1.297136 1.101868 1.297136 1.018182C1.297136 .976339 1.332005 .81594 1.3599 .711333L1.617933-.320797C1.715567-.167372 1.931756 .069738 2.308344 .069738C3.166127 .069738 4.044832-.927522 4.044832-1.931756C4.044832-2.636115 3.598506-3.075467 3.054545-3.075467C2.601245-3.075467 2.231631-2.747696 2.099128-2.601245C1.987547-2.984807 1.624907-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.468742 1.624907-2.419925 1.597011-2.308344L.808966 .857783ZM2.050311-2.057285C2.113076-2.315318 2.594271-2.880199 3.033624-2.880199C3.347447-2.880199 3.514819-2.587298 3.514819-2.224658C3.514819-1.875965 3.319552-1.115816 3.152179-.801993C2.852304-.251059 2.496638-.125529 2.308344-.125529C1.841096-.125529 1.743462-.704359 1.743462-.801993C1.743462-.829888 1.750436-.843836 1.764384-.9066L2.050311-2.057285Z"></path>
+<path id="tz_posto_pressuposto_g4-113" d="M3.884433-2.887173C3.898381-2.929016 3.905355-2.956912 3.905355-2.977833C3.905355-3.033624 3.856538-3.075467 3.807721-3.075467C3.731009-3.075467 3.459029-2.838356 3.347447-2.643088C3.180075-2.929016 2.922042-3.075467 2.629141-3.075467C1.792279-3.075467 .899626-2.092154 .899626-1.073973C.899626-.334745 1.3599 .069738 1.889913 .069738C2.315318 .069738 2.677958-.251059 2.719801-.285928C2.691905-.188294 2.510585 .536986 2.468742 .732254C2.378082 1.080946 2.371108 1.094894 1.93873 1.101868C1.84807 1.101868 1.75741 1.101868 1.75741 1.248319C1.75741 1.311083 1.792279 1.352927 1.862017 1.352927C2.085181 1.352927 2.343213 1.325031 2.57335 1.325031C2.810461 1.325031 3.075467 1.352927 3.29863 1.352927C3.340473 1.352927 3.438107 1.352927 3.438107 1.199502C3.438107 1.101868 3.354421 1.101868 3.256787 1.101868C3.103362 1.101868 2.922042 1.101868 2.922042 1.018182C2.922042 .990286 2.93599 .9066 2.93599 .899626L3.884433-2.887173ZM2.887173-.941469C2.831382-.72528 2.364134-.125529 1.903861-.125529C1.57609-.125529 1.429639-.446326 1.429639-.781071C1.429639-1.073973 1.590037-1.799253 1.792279-2.196762C2.001494-2.629141 2.350187-2.880199 2.629141-2.880199C3.110336-2.880199 3.194022-2.259527 3.194022-2.203736C3.194022-2.175841 3.187049-2.168867 3.173101-2.099128L2.887173-.941469Z"></path>
+<path id="tz_posto_pressuposto_g4-114" d="M1.862017-1.297136C1.896887-1.45056 1.93873-1.597011 1.973599-1.750436C2.015442-1.917808 2.092154-2.217684 2.399004-2.566376C2.538481-2.726775 2.740722-2.880199 3.047572-2.880199C3.124284-2.880199 3.361395-2.873225 3.521793-2.761644C3.375342-2.691905 3.312578-2.566376 3.312578-2.447821C3.312578-2.252553 3.466002-2.21071 3.556663-2.21071C3.689166-2.21071 3.905355-2.308344 3.905355-2.594271C3.905355-2.949938 3.472976-3.075467 3.061519-3.075467C2.873225-3.075467 2.496638-3.061519 2.099128-2.601245C1.987547-2.984807 1.624907-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.412951 1.534247-2.057285 1.478456-1.8132L1.283188-1.060025C1.262267-.955417 1.192528-.690411 1.164633-.585803C1.129763-.432379 1.066999-.188294 1.066999-.139477C1.066999 .013948 1.17858 .069738 1.283188 .069738C1.436613 .069738 1.527273-.041843 1.555168-.097634C1.57609-.146451 1.638854-.397509 1.673724-.54396L1.862017-1.297136Z"></path>
+<path id="tz_posto_pressuposto_g4-115" d="M2.991781-2.594271C2.956912-2.580324 2.775592-2.48269 2.775592-2.30137C2.775592-2.21071 2.824408-2.092154 2.998755-2.092154C3.082441-2.092154 3.305604-2.133998 3.305604-2.468742C3.305604-2.915068 2.831382-3.075467 2.426899-3.075467C1.429639-3.075467 1.199502-2.322291 1.199502-2.050311C1.199502-1.48543 1.750436-1.380822 2.008468-1.332005C2.336239-1.26924 2.726775-1.199502 2.726775-.843836C2.726775-.655542 2.552428-.125529 1.715567-.125529C1.499377-.125529 1.094894-.167372 .948443-.467248C1.192528-.530012 1.234371-.732254 1.234371-.808966C1.234371-.941469 1.136737-1.039103 .990286-1.039103C.801993-1.039103 .627646-.899626 .627646-.606725C.627646-.188294 1.060025 .069738 1.701619 .069738C2.894147 .069738 3.166127-.774097 3.166127-1.08792C3.166127-1.297136 3.075467-1.492403 2.908095-1.638854C2.705853-1.806227 2.531507-1.841096 2.154919-1.910834C1.945704-1.952677 1.638854-2.008468 1.638854-2.294396C1.638854-2.419925 1.75741-2.880199 2.419925-2.880199C2.580324-2.880199 2.880199-2.84533 2.991781-2.594271Z"></path>
+<path id="tz_posto_pressuposto_g4-116" d="M2.022416-2.75467H2.712827C2.838356-2.75467 2.922042-2.75467 2.922042-2.908095C2.922042-3.005729 2.838356-3.005729 2.726775-3.005729H2.085181L2.336239-4.009963C2.364134-4.107597 2.364134-4.121544 2.364134-4.14944C2.364134-4.274969 2.266501-4.358655 2.140971-4.358655C1.903861-4.358655 1.84807-4.128518 1.834122-4.065753L1.569116-3.005729H.878705C.753176-3.005729 .669489-3.005729 .669489-2.852304C.669489-2.75467 .753176-2.75467 .864757-2.75467H1.506351L1.025156-.822914C.990286-.683437 .990286-.63462 .990286-.585803C.990286-.153425 1.332005 .069738 1.694645 .069738C2.447821 .069738 2.894147-.892653 2.894147-1.004234C2.894147-1.08792 2.803487-1.08792 2.75467-1.08792C2.643088-1.08792 2.636115-1.073973 2.594271-.976339C2.266501-.237111 1.903861-.125529 1.715567-.125529C1.478456-.125529 1.478456-.383562 1.478456-.4533C1.478456-.571856 1.513325-.718306 1.520299-.739228L2.022416-2.75467Z"></path>
+<path id="tz_posto_pressuposto_g4-117" d="M4.051806-2.712827C4.065753-2.775592 4.072727-2.782565 4.072727-2.796513C4.072727-2.901121 3.996015-3.005729 3.849564-3.005729C3.626401-3.005729 3.556663-2.803487 3.535741-2.705853L3.082441-.878705C3.033624-.676463 2.705853-.125529 2.217684-.125529C1.896887-.125529 1.75741-.36264 1.75741-.690411C1.75741-1.08792 1.980573-1.66675 2.168867-2.147945C2.217684-2.280448 2.245579-2.357161 2.245579-2.489664C2.245579-2.838356 1.966625-3.075467 1.624907-3.075467C.934496-3.075467 .613699-2.127024 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.12279-2.768618 1.436613-2.880199 1.603985-2.880199C1.72254-2.880199 1.778331-2.803487 1.778331-2.650062C1.778331-2.489664 1.729514-2.378082 1.603985-2.043337C1.352927-1.387796 1.26924-1.066999 1.26924-.795019C1.26924-.097634 1.799253 .069738 2.189788 .069738C2.622167 .069738 2.866252-.167372 3.068493-.369614C3.180075-.027895 3.514819 .069738 3.724035 .069738C3.940224 .069738 4.121544-.034869 4.274969-.285928C4.442341-.557908 4.539975-.976339 4.539975-.99726C4.539975-1.08792 4.449315-1.08792 4.393524-1.08792C4.267995-1.08792 4.261021-1.073973 4.219178-.899626C4.121544-.536986 4.002989-.125529 3.744956-.125529C3.549689-.125529 3.521793-.334745 3.521793-.4533S3.521793-.585803 3.563636-.746202L4.051806-2.712827Z"></path>
+<path id="tz_posto_pressuposto_g4-118" d="M3.891407-2.538481C3.891407-3.061519 3.612453-3.082441 3.563636-3.082441C3.382316-3.082441 3.200996-2.901121 3.200996-2.726775C3.200996-2.629141 3.256787-2.580324 3.291656-2.538481C3.431133-2.399004 3.493898-2.217684 3.493898-2.015442C3.493898-1.736488 3.110336-.125529 2.30137-.125529C2.036364-.125529 1.764384-.251059 1.764384-.732254C1.764384-1.115816 1.987547-1.687671 2.182814-2.182814C2.245579-2.357161 2.245579-2.426899 2.245579-2.489664C2.245579-2.838356 1.966625-3.075467 1.624907-3.075467C.934496-3.075467 .613699-2.127024 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.12279-2.768618 1.436613-2.880199 1.603985-2.880199C1.72254-2.880199 1.778331-2.803487 1.778331-2.650062C1.778331-2.489664 1.729514-2.378082 1.603985-2.043337C1.276214-1.192528 1.276214-.983313 1.276214-.822914C1.276214-.083686 1.868991 .069738 2.280448 .069738C3.445081 .069738 3.891407-2.036364 3.891407-2.538481Z"></path>
+<path id="tz_posto_pressuposto_g4-126" d="M4.463263-4.595766C4.463263-4.651557 4.42142-4.6934 4.372603-4.6934C4.337733-4.6934 4.323786-4.6934 4.219178-4.595766C4.086675-4.484184 3.758904-4.226152 3.563636-4.226152C3.445081-4.226152 3.38929-4.309838 3.29863-4.435367C3.221918-4.539975 3.110336-4.6934 2.894147-4.6934C2.608219-4.6934 2.252553-4.393524 2.057285-4.226152C1.889913-4.086675 1.882939-4.079701 1.882939-4.030884C1.882939-3.961146 1.93873-3.93325 1.980573-3.93325C2.015442-3.93325 2.02939-3.947198 2.071233-3.989041C2.238605-4.128518 2.57335-4.400498 2.789539-4.400498C2.901121-4.400498 2.956912-4.33076 3.061519-4.184309C3.159153-4.037858 3.263761-3.93325 3.459029-3.93325C3.66127-3.93325 3.898381-4.093649 4.051806-4.198257C4.156413-4.281943 4.463263-4.505106 4.463263-4.595766Z"></path>
+<path id="tz_posto_pressuposto_g5-97" d="M4.339726-2.67198C4.339726-3.461021 3.694147-4.061768 2.313325-4.061768C1.802242-4.061768 .654545-4.043836 .654545-3.218929C.654545-2.815442 .959402-2.627148 1.23736-2.627148C1.542217-2.627148 1.820174-2.842341 1.820174-3.209963C1.820174-3.469988 1.667746-3.622416 1.640847-3.649315C1.730511-3.667248 1.945704-3.703113 2.27746-3.703113C2.923039-3.703113 3.29066-3.380324 3.29066-2.67198V-2.385056C1.802242-2.385056 .29589-1.999502 .29589-1.004234C.29589-.116563 1.416687 .053798 2.062267 .053798C2.743711 .053798 3.209963-.242092 3.452055-.663512C3.452055-.430386 3.452055 0 4.411457 0H4.850809C5.021171 0 5.1467 0 5.1467-.224159C5.1467-.439352 5.003238-.439352 4.913574-.439352C4.339726-.448319 4.339726-.537983 4.339726-.753176V-2.67198ZM3.29066-1.246326C3.29066-.304857 2.25056-.304857 2.214695-.304857C1.75741-.304857 1.380822-.600747 1.380822-1.004234C1.380822-1.300125 1.542217-1.999502 3.29066-2.080199V-1.246326Z"></path>
+<path id="tz_posto_pressuposto_g5-100" d="M3.299626-6.150934V-5.711582C3.837609-5.711582 3.90934-5.711582 3.90934-5.361893V-3.631382C3.514819-3.918306 3.0934-4.034869 2.663014-4.034869C1.201494-4.034869 .349689-3.147198 .349689-1.990535C.349689-.798007 1.192528 .053798 2.555417 .053798C3.120299 .053798 3.568618-.161395 3.855542-.394521V.053798L5.514321 0V-.439352C4.976339-.439352 4.904608-.439352 4.904608-.789041V-6.222665L3.299626-6.150934ZM3.855542-.977335C3.658281-.663512 3.227895-.304857 2.654047-.304857C1.542217-.304857 1.542217-1.380822 1.542217-1.972603C1.542217-2.492653 1.551183-2.878207 1.784309-3.209963C2.017435-3.568618 2.447821-3.676214 2.761644-3.676214C3.209963-3.676214 3.577584-3.478954 3.855542-3.129265V-.977335Z"></path>
+<path id="tz_posto_pressuposto_g5-101" d="M4.267995-1.927771C4.456289-1.927771 4.563885-1.927771 4.563885-2.178829C4.563885-2.37609 4.545953-3.165131 3.963138-3.649315C3.559651-3.981071 3.021669-4.061768 2.582316-4.061768C1.049066-4.061768 .29589-3.0934 .29589-2.017435C.29589-.842839 1.183562 .053798 2.707846 .053798C4.187298 .053798 4.563885-.896638 4.563885-1.0401C4.563885-1.219427 4.384558-1.219427 4.33076-1.219427C4.169365-1.219427 4.151432-1.165629 4.097634-1.0401C3.891407-.573848 3.344458-.331756 2.779577-.331756C1.506351-.331756 1.488418-1.488418 1.488418-1.927771H4.267995ZM1.488418-2.25056C1.506351-2.663014 1.551183-3.703113 2.582316-3.703113C3.631382-3.703113 3.667248-2.609215 3.685181-2.25056H1.488418Z"></path>
+<path id="tz_posto_pressuposto_g5-102" d="M2.080199-3.541719H3.147198V-3.981071H2.026401V-4.868742C2.026401-5.846077 2.725778-5.917808 2.949938-5.917808C2.976837-5.917808 3.066501-5.917808 3.066501-5.899875C3.066501-5.890909 3.066501-5.881943 3.048568-5.86401C2.949938-5.747447 2.905106-5.621918 2.905106-5.478456C2.905106-5.101868 3.209963-4.904608 3.469988-4.904608C3.765878-4.904608 4.043836-5.119801 4.043836-5.478456C4.043836-5.881943 3.694147-6.276463 2.99477-6.276463C2.0533-6.276463 1.084932-5.872976 1.084932-4.868742V-3.981071H.394521V-3.541719H1.084932V-.439352H.475218V0C1.13873-.026899 1.192528-.026899 1.622914-.026899C1.847073-.026899 2.367123-.026899 2.842341 0V-.439352H2.080199V-3.541719Z"></path>
+<path id="tz_posto_pressuposto_g5-109" d="M7.989041-2.734745C7.989041-3.792777 7.352428-4.034869 6.563387-4.034869C5.630884-4.034869 5.173599-3.469988 5.003238-3.19203C4.805978-3.999004 4.016936-4.034869 3.622416-4.034869C2.510585-4.034869 2.071233-3.227895 2.008468-3.0934H1.999502V-4.034869L.448319-3.963138V-3.523786C.986301-3.523786 1.058032-3.523786 1.058032-3.174097V-.439352H.448319V0C1.111831-.026899 1.219427-.026899 1.578082-.026899C1.945704-.026899 2.035367-.026899 2.716812 0V-.439352H2.107098V-2.27746C2.107098-3.272727 2.932005-3.676214 3.469988-3.676214C3.81071-3.676214 3.999004-3.496887 3.999004-2.815442V-.439352H3.38929V0C4.052802-.026899 4.160399-.026899 4.519054-.026899C4.886675-.026899 4.976339-.026899 5.657783 0V-.439352H5.04807V-2.27746C5.04807-3.272727 5.872976-3.676214 6.410959-3.676214C6.751681-3.676214 6.939975-3.496887 6.939975-2.815442V-.439352H6.330262V0C6.993773-.026899 7.10137-.026899 7.460025-.026899C7.827646-.026899 7.91731-.026899 8.598755 0V-.439352H7.989041V-2.734745Z"></path>
+<path id="tz_posto_pressuposto_g5-111" d="M5.003238-1.95467C5.003238-3.129265 4.178331-4.061768 2.654047-4.061768C1.075965-4.061768 .29589-3.084433 .29589-1.95467C.29589-.842839 1.102864 .053798 2.645081 .053798C4.250062 .053798 5.003238-.887671 5.003238-1.95467ZM2.654047-.331756C1.488418-.331756 1.488418-1.273225 1.488418-2.0533C1.488418-2.806476 1.488418-3.703113 2.645081-3.703113C3.81071-3.703113 3.81071-2.806476 3.81071-2.0533C3.81071-1.282192 3.81071-.331756 2.654047-.331756Z"></path>
+<path id="tz_posto_pressuposto_g5-112" d="M2.636115 1.300125H2.026401V-.349689C2.555417 .053798 3.048568 .053798 3.218929 .053798C4.62665 .053798 5.532254-.798007 5.532254-1.990535C5.532254-3.174097 4.716314-4.034869 3.362391-4.034869C2.636115-4.034869 2.142964-3.730012 1.972603-3.604483V-4.034869L.367621-3.963138V-3.523786C.546949-3.523786 .690411-3.523786 .806974-3.496887C.977335-3.469988 .977335-3.371357 .977335-3.183064V1.300125H.367621V1.739477C1.031133 1.712578 1.13873 1.712578 1.497385 1.712578C1.865006 1.712578 1.95467 1.712578 2.636115 1.739477V1.300125ZM2.026401-3.0934C2.187796-3.29066 2.609215-3.649315 3.218929-3.649315C3.846575-3.649315 4.339726-3.0934 4.339726-1.999502C4.339726-.753176 3.703113-.304857 3.111333-.304857C2.654047-.304857 2.268493-.564882 2.026401-.932503V-3.0934Z"></path>
+<path id="tz_posto_pressuposto_g5-114" d="M1.972603-1.95467C1.972603-2.609215 2.214695-3.649315 3.084433-3.676214C2.985803-3.577584 2.940971-3.425156 2.940971-3.281694C2.940971-2.887173 3.254795-2.707846 3.505853-2.707846C3.792777-2.707846 4.079701-2.905106 4.079701-3.281694C4.079701-3.738979 3.61345-4.034869 3.084433-4.034869C2.456787-4.034869 2.071233-3.577584 1.873973-3.057534H1.865006V-4.034869L.367621-3.963138V-3.523786C.905604-3.523786 .977335-3.523786 .977335-3.174097V-.439352H.367621V0C1.031133-.026899 1.084932-.026899 1.515318-.026899C1.739477-.026899 2.259527-.026899 2.734745 0V-.439352H1.972603V-1.95467Z"></path>
+<path id="tz_posto_pressuposto_g5-117" d="M3.380324-3.963138V-3.523786C3.918306-3.523786 3.990037-3.523786 3.990037-3.174097V-1.470486C3.990037-.753176 3.523786-.304857 2.833375-.304857S2.107098-.502117 2.107098-.977335V-4.034869L.448319-3.963138V-3.523786C.986301-3.523786 1.058032-3.523786 1.058032-3.174097V-1.102864C1.058032-.125529 1.829141 .053798 2.698879 .053798C2.976837 .053798 3.58655 .053798 4.043836-.61868V.053798L5.648817 0V-.439352C5.110834-.439352 5.039103-.439352 5.039103-.789041V-4.034869L3.380324-3.963138Z"></path>
+<path id="tz_posto_pressuposto_g6-34" d="M1.398755-5.272229C1.398755-5.846077 1.165629-6.222665 .789041-6.222665C.475218-6.222665 .304857-5.980573 .304857-5.738481S.475218-5.254296 .789041-5.254296C.905604-5.254296 1.022167-5.290162 1.120797-5.370859C1.13873-5.388792 1.147696-5.397758 1.156663-5.397758C1.174595-5.397758 1.174595-5.34396 1.174595-5.263263C1.174595-4.671482 .905604-4.124533 .475218-3.721046C.457285-3.703113 .430386-3.676214 .430386-3.631382S.484184-3.523786 .546949-3.523786C.636613-3.523786 1.398755-4.196264 1.398755-5.272229ZM3.19203-5.272229C3.19203-5.846077 2.958904-6.222665 2.582316-6.222665C2.268493-6.222665 2.098132-5.980573 2.098132-5.738481S2.268493-5.254296 2.582316-5.254296C2.698879-5.254296 2.815442-5.290162 2.914072-5.370859C2.932005-5.388792 2.940971-5.397758 2.949938-5.397758C2.96787-5.397758 2.96787-5.34396 2.96787-5.263263C2.96787-4.671482 2.698879-4.124533 2.268493-3.721046C2.25056-3.703113 2.223661-3.676214 2.223661-3.631382S2.27746-3.523786 2.340224-3.523786C2.429888-3.523786 3.19203-4.196264 3.19203-5.272229Z"></path>
+<path id="tz_posto_pressuposto_g6-46" d="M1.75741-.484184C1.75741-.744209 1.542217-.968369 1.273225-.968369S.789041-.744209 .789041-.484184C.789041-.215193 1.004234 0 1.273225 0S1.75741-.215193 1.75741-.484184Z"></path>
+<path id="tz_posto_pressuposto_g6-80" d="M3.577584-2.815442C4.832877-2.815442 5.747447-3.595517 5.747447-4.456289C5.747447-5.34396 4.82391-6.124035 3.577584-6.124035H.358655V-5.846077H.564882C1.255293-5.846077 1.273225-5.747447 1.273225-5.415691V-.708344C1.273225-.376588 1.255293-.277958 .564882-.277958H.358655V0C.762142-.026899 1.264259-.026899 1.676712-.026899S2.591283-.026899 2.99477 0V-.277958H2.788543C2.098132-.277958 2.080199-.376588 2.080199-.708344V-2.815442H3.577584ZM2.0533-5.478456C2.0533-5.783313 2.071233-5.846077 2.492653-5.846077H3.353425C4.832877-5.846077 4.832877-4.859776 4.832877-4.456289S4.832877-3.066501 3.344458-3.066501H2.0533V-5.478456Z"></path>
+<path id="tz_posto_pressuposto_g6-92" d="M2.501619-3.999004C2.501619-4.241096 2.331258-4.483188 2.017435-4.483188C1.900872-4.483188 1.784309-4.447323 1.685679-4.366625C1.667746-4.348692 1.65878-4.339726 1.649813-4.339726C1.63188-4.339726 1.63188-4.393524 1.63188-4.474222C1.63188-5.066002 1.900872-5.612951 2.331258-6.016438C2.349191-6.034371 2.37609-6.06127 2.37609-6.106102S2.322291-6.213699 2.259527-6.213699C2.169863-6.213699 1.407721-5.54122 1.407721-4.465255C1.407721-3.891407 1.640847-3.514819 2.017435-3.514819C2.331258-3.514819 2.501619-3.756912 2.501619-3.999004ZM4.294894-3.999004C4.294894-4.241096 4.124533-4.483188 3.81071-4.483188C3.694147-4.483188 3.577584-4.447323 3.478954-4.366625C3.461021-4.348692 3.452055-4.339726 3.443088-4.339726C3.425156-4.339726 3.425156-4.393524 3.425156-4.474222C3.425156-5.066002 3.694147-5.612951 4.124533-6.016438C4.142466-6.034371 4.169365-6.06127 4.169365-6.106102S4.115567-6.213699 4.052802-6.213699C3.963138-6.213699 3.200996-5.54122 3.200996-4.465255C3.200996-3.891407 3.434122-3.514819 3.81071-3.514819C4.124533-3.514819 4.294894-3.756912 4.294894-3.999004Z"></path>
+<path id="tz_posto_pressuposto_g6-100" d="M3.48792-1.075965C3.48792-.91457 3.48792-.887671 3.353425-.699377C3.075467-.29589 2.663014-.125529 2.304359-.125529C1.918804-.125529 1.560149-.340722 1.327024-.71731C1.093898-1.102864 1.075965-1.63188 1.075965-1.918804C1.075965-2.340224 1.129763-2.815442 1.362889-3.174097C1.560149-3.461021 1.927771-3.738979 2.402989-3.738979C2.779577-3.738979 3.138232-3.550685 3.380324-3.209963C3.48792-3.066501 3.48792-3.057534 3.48792-2.887173V-1.075965ZM3.514819-3.434122C3.469988-3.48792 3.066501-3.963138 2.367123-3.963138C1.264259-3.963138 .304857-3.084433 .304857-1.927771C.304857-.806974 1.201494 .09863 2.268493 .09863C2.923039 .09863 3.326526-.286924 3.48792-.475218V.09863L4.841843 0V-.277958C4.23213-.277958 4.151432-.340722 4.151432-.780075V-6.222665L2.824408-6.124035V-5.846077C3.434122-5.846077 3.514819-5.783313 3.514819-5.34396V-3.434122Z"></path>
+<path id="tz_posto_pressuposto_g6-101" d="M3.58655-2.0533C3.783811-2.0533 3.828643-2.0533 3.828643-2.241594C3.828643-3.165131 3.326526-4.016936 2.178829-4.016936C1.102864-4.016936 .260025-3.084433 .260025-1.972603C.260025-.798007 1.201494 .09863 2.295392 .09863S3.828643-.860772 3.828643-1.066999C3.828643-1.129763 3.783811-1.183562 3.703113-1.183562C3.61345-1.183562 3.58655-1.120797 3.577584-1.084932C3.272727-.170361 2.47472-.152428 2.340224-.152428C1.909838-.152428 1.542217-.394521 1.33599-.699377C1.0401-1.13873 1.031133-1.676712 1.031133-2.0533H3.58655ZM1.0401-2.268493C1.120797-3.649315 1.927771-3.792777 2.178829-3.792777C2.67198-3.792777 3.209963-3.416189 3.218929-2.268493H1.0401Z"></path>
+<path id="tz_posto_pressuposto_g6-111" d="M4.339726-1.909838C4.339726-3.084433 3.407223-4.016936 2.304359-4.016936C1.165629-4.016936 .260025-3.057534 .260025-1.909838C.260025-.789041 1.192528 .09863 2.295392 .09863C3.434122 .09863 4.339726-.806974 4.339726-1.909838ZM2.304359-.152428C1.85604-.152428 1.479452-.376588 1.273225-.726276C1.0401-1.102864 1.031133-1.578082 1.031133-1.990535C1.031133-2.322291 1.031133-2.833375 1.255293-3.200996C1.524284-3.658281 1.972603-3.792777 2.295392-3.792777C2.806476-3.792777 3.174097-3.505853 3.353425-3.200996C3.559651-2.824408 3.568618-2.367123 3.568618-1.990535C3.568618-1.65878 3.568618-1.13873 3.344458-.744209C3.0934-.331756 2.680946-.152428 2.304359-.152428Z"></path>
+<path id="tz_posto_pressuposto_g6-114" d="M1.596015-2.0533C1.596015-2.420922 1.694645-3.738979 2.716812-3.738979V-3.730012C2.698879-3.721046 2.555417-3.61345 2.555417-3.398257C2.555417-3.156164 2.743711-3.003736 2.949938-3.003736C3.138232-3.003736 3.344458-3.138232 3.344458-3.407223C3.344458-3.694147 3.075467-3.963138 2.67198-3.963138C2.133998-3.963138 1.75741-3.58655 1.551183-3.030635H1.542217V-3.963138L.268991-3.864508V-3.58655C.878705-3.58655 .959402-3.523786 .959402-3.084433V-.690411C.959402-.277958 .860772-.277958 .268991-.277958V0C.744209-.017933 .860772-.026899 1.318057-.026899C1.676712-.026899 1.891905-.017933 2.456787 0V-.277958H2.27746C1.622914-.277958 1.596015-.376588 1.596015-.708344V-2.0533Z"></path>
+<path id="tz_posto_pressuposto_g7-33" d="M6.41594-1.57609C5.537235-.934496 5.41868-.020922 5.41868-.013948C5.41868 .09066 5.488418 .09066 5.586052 .09066C5.711582 .09066 5.732503 .09066 5.767372-.027895C5.809215-.202242 5.920797-.648568 6.283437-1.03213C6.68792-1.457534 7.036613-1.562142 7.329514-1.652802C7.371357-1.66675 7.399253-1.708593 7.399253-1.743462C7.399253-1.8132 7.35741-1.827148 7.26675-1.855044C6.262516-2.175841 5.906849-2.887173 5.760399-3.500872C5.732503-3.584558 5.683686-3.584558 5.586052-3.584558S5.41868-3.584558 5.41868-3.47995C5.41868-3.466002 5.488418-2.998755 5.830137-2.517559C5.990535-2.280448 6.185803-2.085181 6.41594-1.917808H.81594C.704359-1.917808 .536986-1.917808 .536986-1.750436C.536986-1.57609 .697385-1.57609 .81594-1.57609H6.41594Z"></path>
+<path id="tz_posto_pressuposto_g8-12" d="M2.719801-3.02665C2.643088-3.019676 2.608219-3.019676 2.594271-3.012702S2.566376-3.005729 2.468742-3.005729H1.3599V-3.765878C1.3599-4.456289 2.078207-4.714321 2.559402-4.714321C2.796513-4.714321 3.033624-4.665504 3.214944-4.519054C2.963885-4.463263 2.942964-4.267995 2.942964-4.184309C2.942964-3.96812 3.11731-3.84259 3.284682-3.84259C3.410212-3.84259 3.626401-3.926276 3.626401-4.198257C3.626401-4.581818 3.235866-4.909589 2.587298-4.909589C1.862017-4.909589 .864757-4.581818 .864757-3.772852V-3.005729H.265006V-2.75467H.864757V-.550934C.864757-.251059 .795019-.251059 .341719-.251059V0C.355666 0 .843836-.027895 1.12279-.027895C1.387796-.027895 1.645828-.020922 1.910834 0V-.251059C1.457534-.251059 1.387796-.251059 1.387796-.550934V-2.75467H2.775592C3.061519-2.75467 3.11731-2.684932 3.11731-2.378082V-.550934C3.11731-.251059 3.047572-.251059 2.594271-.251059V0C2.608219 0 3.096389-.027895 3.375342-.027895C3.640349-.027895 3.898381-.020922 4.163387 0V-.251059C3.710087-.251059 3.640349-.251059 3.640349-.550934V-3.089415L2.719801-3.02665Z"></path>
+<path id="tz_posto_pressuposto_g8-16" d="M1.436613-3.075467L.411457-2.998755V-2.747696C.850809-2.747696 .913574-2.705853 .913574-2.364134V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.404483 0 .892653-.027895 1.171606-.027895C1.415691-.027895 1.66675-.020922 1.910834 0V-.251059C1.506351-.251059 1.436613-.251059 1.436613-.54396V-3.075467Z"></path>
+<path id="tz_posto_pressuposto_g8-18" d="M2.161893-3.528767L2.322291-3.703113L1.401743-4.742217C1.290162-4.867746 1.199502-4.867746 1.171606-4.867746C1.004234-4.867746 .885679-4.714321 .885679-4.581818C.885679-4.51208 .9066-4.428394 1.039103-4.33076L2.161893-3.528767Z"></path>
+<path id="tz_posto_pressuposto_g8-19" d="M1.799253-3.528767C2.343213-3.926276 2.768618-4.219178 2.901121-4.323786C3.012702-4.400498 3.075467-4.449315 3.075467-4.581818S2.956912-4.867746 2.789539-4.867746C2.677958-4.867746 2.622167-4.804981 2.552428-4.728269L1.638854-3.710087L1.799253-3.528767Z"></path>
+<path id="tz_posto_pressuposto_g8-24" d="M2.259527 .139477H1.708593V.481196C2.175841 .488169 2.350187 .662516 2.350187 .850809C2.350187 1.12279 1.987547 1.227397 1.311083 1.227397H1.060025V1.422665H1.401743C1.408717 1.422665 1.966625 1.422665 2.322291 1.345953C2.608219 1.283188 2.901121 1.164633 2.901121 .850809C2.901121 .571856 2.691905 .390535 2.259527 .320797V.139477Z"></path>
+<path id="tz_posto_pressuposto_g8-34" d="M1.025156-4.170361C1.025156-3.947198 1.025156-3.375342 .474222-2.887173C.425405-2.84533 .411457-2.824408 .411457-2.789539C.411457-2.747696 .460274-2.684932 .509091-2.684932C.592777-2.684932 1.220423-3.221918 1.220423-4.079701C1.220423-4.491158 1.053051-4.839851 .711333-4.839851C.446326-4.839851 .313823-4.630635 .313823-4.442341C.313823-4.247073 .439352-4.037858 .718306-4.037858C.913574-4.037858 .976339-4.107597 1.025156-4.170361ZM2.524533-4.170361C2.524533-3.947198 2.524533-3.375342 1.973599-2.887173C1.924782-2.84533 1.910834-2.824408 1.910834-2.789539C1.910834-2.747696 1.959651-2.684932 2.008468-2.684932C2.092154-2.684932 2.719801-3.221918 2.719801-4.079701C2.719801-4.491158 2.552428-4.839851 2.21071-4.839851C1.945704-4.839851 1.8132-4.630635 1.8132-4.442341C1.8132-4.247073 1.93873-4.037858 2.217684-4.037858C2.412951-4.037858 2.475716-4.107597 2.524533-4.170361Z"></path>
+<path id="tz_posto_pressuposto_g8-40" d="M2.475716-5.230386C1.150685-4.29589 .801993-2.817435 .801993-1.750436C.801993-.767123 1.094894 .760149 2.475716 1.736488C2.531507 1.736488 2.615193 1.736488 2.615193 1.652802C2.615193 1.610959 2.594271 1.597011 2.545455 1.548194C1.617933 .711333 1.276214-.474222 1.276214-1.743462C1.276214-3.626401 1.994521-4.546949 2.566376-5.063014C2.594271-5.090909 2.615193-5.111831 2.615193-5.1467C2.615193-5.230386 2.531507-5.230386 2.475716-5.230386Z"></path>
+<path id="tz_posto_pressuposto_g8-41" d="M.627646-5.230386C.578829-5.230386 .495143-5.230386 .495143-5.1467C.495143-5.111831 .516065-5.090909 .557908-5.042092C1.157659-4.491158 1.827148-3.549689 1.827148-1.750436C1.827148-.292902 1.373848 .808966 .620672 1.492403C.502117 1.610959 .495143 1.617933 .495143 1.652802S.516065 1.736488 .585803 1.736488C.669489 1.736488 1.332005 1.276214 1.792279 .404483C2.099128-.174346 2.30137-.927522 2.30137-1.743462C2.30137-2.726775 2.008468-4.254047 .627646-5.230386Z"></path>
+<path id="tz_posto_pressuposto_g8-46" d="M1.527273-.397509C1.527273-.641594 1.332005-.801993 1.129763-.801993C.885679-.801993 .72528-.606725 .72528-.404483C.72528-.160399 .920548 0 1.12279 0C1.366874 0 1.527273-.195268 1.527273-.397509Z"></path>
+<path id="tz_posto_pressuposto_g8-80" d="M1.785305-2.161893H3.054545C4.065753-2.161893 4.860772-2.747696 4.860772-3.452055C4.860772-4.142466 4.079701-4.763138 3.054545-4.763138H.404483V-4.51208H.571856C1.108842-4.51208 1.12279-4.442341 1.12279-4.198257V-.564882C1.12279-.327771 1.108842-.251059 .571856-.251059H.404483V0C.753176-.013948 1.199502-.027895 1.45056-.027895C1.708593-.027895 2.154919-.013948 2.503611 0V-.251059H2.336239C1.799253-.251059 1.785305-.320797 1.785305-.564882V-2.161893ZM2.880199-4.51208C4.044832-4.51208 4.11457-3.856538 4.11457-3.452055C4.11457-3.145205 4.11457-2.385056 2.880199-2.385056H1.75741V-4.2401C1.75741-4.456289 1.764384-4.51208 2.092154-4.51208H2.880199Z"></path>
+<path id="tz_posto_pressuposto_g8-92" d="M1.436613-3.354421C1.436613-3.577584 1.436613-4.14944 1.987547-4.637609C2.036364-4.679452 2.050311-4.700374 2.050311-4.735243C2.050311-4.777086 2.001494-4.839851 1.952677-4.839851C1.868991-4.839851 1.241345-4.302864 1.241345-3.445081C1.241345-3.033624 1.408717-2.684932 1.750436-2.684932C2.015442-2.684932 2.147945-2.894147 2.147945-3.082441C2.147945-3.277709 2.022416-3.486924 1.743462-3.486924C1.548194-3.486924 1.48543-3.417186 1.436613-3.354421ZM2.93599-3.354421C2.93599-3.577584 2.93599-4.14944 3.486924-4.637609C3.535741-4.679452 3.549689-4.700374 3.549689-4.735243C3.549689-4.777086 3.500872-4.839851 3.452055-4.839851C3.368369-4.839851 2.740722-4.302864 2.740722-3.445081C2.740722-3.033624 2.908095-2.684932 3.249813-2.684932C3.514819-2.684932 3.647323-2.894147 3.647323-3.082441C3.647323-3.277709 3.521793-3.486924 3.242839-3.486924C3.047572-3.486924 2.984807-3.417186 2.93599-3.354421Z"></path>
+<path id="tz_posto_pressuposto_g8-97" d="M3.110336-1.868991C3.110336-2.238605 3.110336-2.503611 2.789539-2.761644C2.503611-2.998755 2.168867-3.110336 1.75741-3.110336C1.094894-3.110336 .627646-2.859278 .627646-2.433873C.627646-2.21071 .781071-2.092154 .962391-2.092154C1.150685-2.092154 1.290162-2.231631 1.290162-2.419925C1.290162-2.538481 1.234371-2.684932 1.046077-2.740722C1.297136-2.915068 1.701619-2.915068 1.743462-2.915068C2.133998-2.915068 2.559402-2.657036 2.559402-2.071233V-1.855044C2.175841-1.841096 1.715567-1.820174 1.206476-1.63188C.578829-1.401743 .383562-1.018182 .383562-.704359C.383562-.104608 1.108842 .069738 1.603985 .069738C2.161893 .069738 2.489664-.244085 2.636115-.516065C2.66401-.230137 2.852304 .034869 3.173101 .034869C3.187049 .034869 3.863512 .034869 3.863512-.627646V-1.011208H3.626401V-.63462C3.626401-.564882 3.626401-.230137 3.368369-.230137S3.110336-.557908 3.110336-.648568V-1.868991ZM2.559402-.983313C2.559402-.313823 1.973599-.125529 1.659776-.125529C1.30411-.125529 .969365-.36264 .969365-.704359C.969365-1.08792 1.30411-1.624907 2.559402-1.673724V-.983313Z"></path>
+<path id="tz_posto_pressuposto_g8-98" d="M1.387796-4.839851L.341719-4.763138V-4.51208C.81594-4.51208 .864757-4.456289 .864757-4.107597V0H1.101868L1.345953-.425405C1.610959-.076712 1.994521 .069738 2.364134 .069738C3.284682 .069738 4.072727-.620672 4.072727-1.506351C4.072727-2.357161 3.354421-3.075467 2.440847-3.075467C2.022416-3.075467 1.638854-2.908095 1.387796-2.657036V-4.839851ZM1.415691-2.336239C1.610959-2.657036 1.987547-2.880199 2.405978-2.880199C2.796513-2.880199 3.075467-2.657036 3.214944-2.447821C3.354421-2.245579 3.438107-1.973599 3.438107-1.513325C3.438107-1.352927 3.438107-.829888 3.152179-.502117C2.873225-.188294 2.531507-.125529 2.329265-.125529C1.771357-.125529 1.492403-.564882 1.415691-.711333V-2.336239Z"></path>
+<path id="tz_posto_pressuposto_g8-99" d="M2.712827-2.782565C2.587298-2.726775 2.517559-2.615193 2.517559-2.475716C2.517559-2.287422 2.650062-2.147945 2.84533-2.147945C3.033624-2.147945 3.180075-2.266501 3.180075-2.489664C3.180075-3.110336 2.21071-3.110336 2.015442-3.110336C.969365-3.110336 .320797-2.308344 .320797-1.506351C.320797-.627646 1.066999 .069738 1.980573 .069738C3.019676 .069738 3.263761-.753176 3.263761-.836862S3.173101-.920548 3.145205-.920548C3.054545-.920548 3.047572-.899626 3.012702-.801993C2.859278-.369614 2.489664-.153425 2.064259-.153425C1.583064-.153425 .955417-.509091 .955417-1.513325C.955417-2.399004 1.387796-2.887173 2.036364-2.887173C2.127024-2.887173 2.461768-2.887173 2.712827-2.782565Z"></path>
+<path id="tz_posto_pressuposto_g8-100" d="M2.48269-4.763138V-4.51208C2.949938-4.51208 3.005729-4.463263 3.005729-4.121544V-2.677958C2.747696-2.929016 2.412951-3.075467 2.02939-3.075467C1.101868-3.075467 .320797-2.378082 .320797-1.499377C.320797-.627646 1.060025 .069738 1.945704 .069738C2.517559 .069738 2.859278-.237111 2.977833-.36264V.069738L4.051806 0V-.251059C3.584558-.251059 3.528767-.299875 3.528767-.641594V-4.839851L2.48269-4.763138ZM2.977833-.732254C2.796513-.404483 2.440847-.125529 1.987547-.125529C1.597011-.125529 1.318057-.355666 1.17858-.557908C1.039103-.767123 .955417-1.046077 .955417-1.492403C.955417-1.652802 .955417-2.175841 1.241345-2.503611C1.520299-2.817435 1.862017-2.880199 2.064259-2.880199C2.399004-2.880199 2.698879-2.726775 2.894147-2.475716C2.977833-2.364134 2.977833-2.357161 2.977833-2.224658V-.732254Z"></path>
+<path id="tz_posto_pressuposto_g8-101" d="M3.068493-1.590037C3.214944-1.590037 3.263761-1.590037 3.263761-1.743462C3.263761-2.357161 2.922042-3.110336 1.882939-3.110336C.969365-3.110336 .27198-2.385056 .27198-1.527273C.27198-.641594 1.046077 .069738 1.973599 .069738C2.915068 .069738 3.263761-.683437 3.263761-.836862C3.263761-.864757 3.249813-.934496 3.145205-.934496C3.054545-.934496 3.040598-.892653 3.019676-.822914C2.803487-.258032 2.273474-.153425 2.022416-.153425C1.694645-.153425 1.380822-.299875 1.171606-.564882C.913574-.892653 .9066-1.318057 .9066-1.590037H3.068493ZM.913574-1.771357C.990286-2.75467 1.617933-2.915068 1.882939-2.915068C2.740722-2.915068 2.768618-1.945704 2.775592-1.771357H.913574Z"></path>
+<path id="tz_posto_pressuposto_g8-102" d="M1.436613-2.75467H2.308344V-3.005729H1.408717V-3.7868C1.408717-4.42142 1.785305-4.714321 2.085181-4.714321C2.147945-4.714321 2.217684-4.700374 2.287422-4.679452C2.189788-4.623661 2.133998-4.51208 2.133998-4.400498C2.133998-4.212204 2.266501-4.079701 2.454795-4.079701S2.775592-4.212204 2.775592-4.400498C2.775592-4.700374 2.475716-4.909589 2.092154-4.909589C1.54122-4.909589 .913574-4.519054 .913574-3.7868V-3.005729H.313823V-2.75467H.913574V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.425405 0 .899626-.027895 1.185554-.027895C1.48543-.027895 1.792279-.013948 2.092154 0V-.251059H1.952677C1.436613-.251059 1.436613-.327771 1.436613-.564882V-2.75467Z"></path>
+<path id="tz_posto_pressuposto_g8-103" d="M1.004234-1.241345C1.108842-1.17858 1.3599-1.025156 1.764384-1.025156C2.48269-1.025156 3.005729-1.506351 3.005729-2.050311C3.005729-2.322291 2.880199-2.538481 2.712827-2.719801C3.02665-2.942964 3.29863-2.949938 3.417186-2.949938C3.38929-2.922042 3.354421-2.894147 3.354421-2.782565C3.354421-2.643088 3.459029-2.559402 3.577584-2.559402C3.675218-2.559402 3.800747-2.629141 3.800747-2.789539S3.668244-3.145205 3.38929-3.145205C3.284682-3.145205 2.908095-3.124284 2.580324-2.824408C2.371108-2.977833 2.078207-3.075467 1.771357-3.075467C1.053051-3.075467 .530012-2.594271 .530012-2.050311C.530012-1.778331 .669489-1.527273 .864757-1.345953C.808966-1.283188 .655542-1.053051 .655542-.781071C.655542-.690411 .676463-.36264 .948443-.160399C.63462-.055791 .27198 .174346 .27198 .536986C.27198 1.046077 1.039103 1.429639 1.980573 1.429639C2.866252 1.429639 3.689166 1.080946 3.689166 .523039C3.689166 .313823 3.605479-.062765 3.221918-.27198C2.810461-.488169 2.399004-.488169 1.72254-.488169C1.569116-.488169 1.318057-.488169 1.262267-.495143C1.039103-.54396 .913574-.753176 .913574-.955417C.913574-1.129763 .962391-1.185554 1.004234-1.241345ZM1.771357-1.234371C1.08792-1.234371 1.08792-1.903861 1.08792-2.050311C1.08792-2.161893 1.08792-2.440847 1.227397-2.622167C1.325031-2.740722 1.513325-2.866252 1.764384-2.866252C2.447821-2.866252 2.447821-2.196762 2.447821-2.050311C2.447821-1.93873 2.447821-1.659776 2.308344-1.478456C2.21071-1.3599 2.022416-1.234371 1.771357-1.234371ZM1.771357-.020922C2.39203-.020922 3.263761-.020922 3.263761 .530012C3.263761 .899626 2.712827 1.220423 1.980573 1.220423S.697385 .892653 .697385 .530012C.697385 .285928 .920548-.013948 1.366874-.020922H1.771357Z"></path>
+<path id="tz_posto_pressuposto_g8-105" d="M1.471482-4.302864C1.471482-4.505106 1.30411-4.700374 1.066999-4.700374C.857783-4.700374 .669489-4.533001 .669489-4.302864C.669489-4.051806 .871731-3.898381 1.066999-3.898381C1.290162-3.898381 1.471482-4.072727 1.471482-4.302864ZM.411457-2.998755V-2.747696C.850809-2.747696 .913574-2.705853 .913574-2.364134V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.404483 0 .892653-.027895 1.171606-.027895C1.415691-.027895 1.66675-.020922 1.910834 0V-.251059C1.506351-.251059 1.436613-.251059 1.436613-.54396V-3.075467L.411457-2.998755Z"></path>
+<path id="tz_posto_pressuposto_g8-108" d="M1.436613-4.839851L.390535-4.763138V-4.51208C.857783-4.51208 .913574-4.463263 .913574-4.121544V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.404483 0 .892653-.027895 1.171606-.027895C1.436613-.027895 1.694645-.020922 1.959651 0V-.251059C1.506351-.251059 1.436613-.251059 1.436613-.550934V-4.839851Z"></path>
+<path id="tz_posto_pressuposto_g8-109" d="M5.732503-2.113076C5.732503-2.719801 5.432628-3.075467 4.686426-3.075467C4.135492-3.075467 3.758904-2.775592 3.57061-2.426899C3.431133-2.922042 3.054545-3.075467 2.545455-3.075467C1.973599-3.075467 1.603985-2.761644 1.408717-2.399004H1.401743V-3.075467L.376588-2.998755V-2.747696C.843836-2.747696 .899626-2.698879 .899626-2.357161V-.550934C.899626-.251059 .829888-.251059 .376588-.251059V0C.390535 0 .878705-.027895 1.171606-.027895C1.429639-.027895 1.910834-.006974 1.973599 0V-.251059C1.520299-.251059 1.45056-.251059 1.45056-.550934V-1.806227C1.45056-2.538481 2.02939-2.880199 2.489664-2.880199C2.977833-2.880199 3.040598-2.496638 3.040598-2.140971V-.550934C3.040598-.251059 2.970859-.251059 2.517559-.251059V0C2.531507 0 3.019676-.027895 3.312578-.027895C3.57061-.027895 4.051806-.006974 4.11457 0V-.251059C3.66127-.251059 3.591532-.251059 3.591532-.550934V-1.806227C3.591532-2.538481 4.170361-2.880199 4.630635-2.880199C5.118804-2.880199 5.181569-2.496638 5.181569-2.140971V-.550934C5.181569-.251059 5.111831-.251059 4.658531-.251059V0C4.672478 0 5.160648-.027895 5.453549-.027895C5.711582-.027895 6.192777-.006974 6.255542 0V-.251059C5.802242-.251059 5.732503-.251059 5.732503-.550934V-2.113076Z"></path>
+<path id="tz_posto_pressuposto_g8-110" d="M3.591532-2.113076C3.591532-2.719801 3.291656-3.075467 2.545455-3.075467C1.973599-3.075467 1.603985-2.761644 1.408717-2.399004H1.401743V-3.075467L.376588-2.998755V-2.747696C.843836-2.747696 .899626-2.698879 .899626-2.357161V-.550934C.899626-.251059 .829888-.251059 .376588-.251059V0C.390535 0 .878705-.027895 1.171606-.027895C1.429639-.027895 1.910834-.006974 1.973599 0V-.251059C1.520299-.251059 1.45056-.251059 1.45056-.550934V-1.806227C1.45056-2.538481 2.02939-2.880199 2.489664-2.880199C2.977833-2.880199 3.040598-2.496638 3.040598-2.140971V-.550934C3.040598-.251059 2.970859-.251059 2.517559-.251059V0C2.531507 0 3.019676-.027895 3.312578-.027895C3.57061-.027895 4.051806-.006974 4.11457 0V-.251059C3.66127-.251059 3.591532-.251059 3.591532-.550934V-2.113076Z"></path>
+<path id="tz_posto_pressuposto_g8-111" d="M3.689166-1.48543C3.689166-2.357161 2.942964-3.110336 1.980573-3.110336S.27198-2.357161 .27198-1.48543C.27198-.620672 1.039103 .069738 1.980573 .069738S3.689166-.620672 3.689166-1.48543ZM1.980573-.153425C1.72254-.153425 1.345953-.237111 1.115816-.578829C.927522-.864757 .9066-1.227397 .9066-1.548194C.9066-1.84807 .913574-2.259527 1.157659-2.559402C1.332005-2.761644 1.624907-2.915068 1.980573-2.915068C2.39203-2.915068 2.684932-2.719801 2.838356-2.503611C3.033624-2.231631 3.054545-1.882939 3.054545-1.548194S3.033624-.843836 2.831382-.557908C2.643088-.292902 2.322291-.153425 1.980573-.153425Z"></path>
+<path id="tz_posto_pressuposto_g8-112" d="M1.93873 1.101868C1.48543 1.101868 1.415691 1.101868 1.415691 .801993V-.334745C1.45056-.299875 1.778331 .069738 2.364134 .069738C3.284682 .069738 4.072727-.620672 4.072727-1.506351C4.072727-2.364134 3.361395-3.075467 2.475716-3.075467C2.078207-3.075467 1.673724-2.929016 1.387796-2.650062V-3.075467L.341719-2.998755V-2.747696C.829888-2.747696 .864757-2.712827 .864757-2.419925V.801993C.864757 1.101868 .795019 1.101868 .341719 1.101868V1.352927C.355666 1.352927 .843836 1.325031 1.136737 1.325031C1.39477 1.325031 1.875965 1.345953 1.93873 1.352927V1.101868ZM1.415691-2.322291C1.624907-2.670984 2.02939-2.852304 2.399004-2.852304C2.984807-2.852304 3.438107-2.238605 3.438107-1.506351C3.438107-.711333 2.915068-.125529 2.322291-.125529C1.708593-.125529 1.436613-.662516 1.415691-.704359V-2.322291Z"></path>
+<path id="tz_posto_pressuposto_g8-114" d="M1.387796-1.590037C1.387796-2.175841 1.659776-2.880199 2.322291-2.880199C2.259527-2.831382 2.203736-2.740722 2.203736-2.629141C2.203736-2.399004 2.385056-2.308344 2.517559-2.308344C2.684932-2.308344 2.838356-2.419925 2.838356-2.629141C2.838356-2.866252 2.615193-3.075467 2.287422-3.075467C1.93873-3.075467 1.555168-2.859278 1.345953-2.329265H1.338979V-3.075467L.341719-2.998755V-2.747696C.808966-2.747696 .864757-2.698879 .864757-2.357161V-.550934C.864757-.251059 .795019-.251059 .341719-.251059V0C.376588 0 .850809-.027895 1.136737-.027895C1.436613-.027895 1.743462-.013948 2.043337 0V-.251059H1.903861C1.387796-.251059 1.387796-.327771 1.387796-.564882V-1.590037Z"></path>
+<path id="tz_posto_pressuposto_g8-115" d="M2.643088-2.929016C2.643088-3.047572 2.643088-3.110336 2.545455-3.110336C2.510585-3.110336 2.496638-3.110336 2.405978-3.02665C2.39203-3.019676 2.322291-2.956912 2.280448-2.922042C2.071233-3.068493 1.806227-3.110336 1.548194-3.110336C.550934-3.110336 .313823-2.587298 .313823-2.238605C.313823-2.015442 .411457-1.834122 .578829-1.694645C.843836-1.464508 1.108842-1.415691 1.54122-1.345953C1.889913-1.283188 2.454795-1.185554 2.454795-.718306C2.454795-.446326 2.266501-.125529 1.597011-.125529S.683437-.564882 .557908-1.039103C.536986-1.129763 .530012-1.157659 .432379-1.157659C.313823-1.157659 .313823-1.108842 .313823-.969365V-.111582C.313823 .006974 .313823 .069738 .411457 .069738C.474222 .069738 .606725-.076712 .746202-.230137C1.053051 .055791 1.429639 .069738 1.597011 .069738C2.503611 .069738 2.838356-.418431 2.838356-.913574C2.838356-1.17858 2.719801-1.387796 2.538481-1.555168C2.273474-1.799253 1.952677-1.855044 1.708593-1.896887C1.150685-1.994521 .697385-2.078207 .697385-2.447821C.697385-2.670984 .885679-2.942964 1.548194-2.942964C2.357161-2.942964 2.39203-2.378082 2.405978-2.175841C2.412951-2.099128 2.496638-2.099128 2.524533-2.099128C2.643088-2.099128 2.643088-2.147945 2.643088-2.280448V-2.929016Z"></path>
+<path id="tz_posto_pressuposto_g8-116" d="M1.401743-2.75467H2.489664V-3.005729H1.401743V-4.288917H1.164633C1.157659-3.66127 .871731-2.970859 .202242-2.949938V-2.75467H.850809V-.871731C.850809-.09066 1.436613 .069738 1.827148 .069738C2.294396 .069738 2.615193-.327771 2.615193-.878705V-1.262267H2.378082V-.885679C2.378082-.411457 2.154919-.153425 1.882939-.153425C1.401743-.153425 1.401743-.739228 1.401743-.864757V-2.75467Z"></path>
+<path id="tz_posto_pressuposto_g8-117" d="M2.517559-2.998755V-2.747696C2.984807-2.747696 3.040598-2.698879 3.040598-2.357161V-1.164633C3.040598-.550934 2.643088-.125529 2.113076-.125529C1.478456-.125529 1.45056-.425405 1.45056-.781071V-3.075467L.376588-2.998755V-2.747696C.899626-2.747696 .899626-2.726775 .899626-2.106102V-1.060025C.899626-.578829 .899626 .069738 2.064259 .069738C2.217684 .069738 2.726775 .069738 3.061519-.516065H3.068493V.069738L4.11457 0V-.251059C3.647323-.251059 3.591532-.299875 3.591532-.641594V-3.075467L2.517559-2.998755Z"></path>
+<path id="tz_posto_pressuposto_g8-118" d="M3.305604-2.322291C3.500872-2.747696 3.849564-2.75467 3.961146-2.75467V-3.005729C3.7868-2.991781 3.605479-2.977833 3.431133-2.977833C3.242839-2.977833 2.984807-2.984807 2.796513-3.005729V-2.75467C3.089415-2.740722 3.089415-2.510585 3.089415-2.489664C3.089415-2.454795 3.082441-2.385056 3.033624-2.287422L2.245579-.564882L1.380822-2.461768C1.380822-2.468742 1.338979-2.545455 1.338979-2.594271C1.338979-2.75467 1.57609-2.75467 1.694645-2.75467V-3.005729C1.680697-3.005729 1.185554-2.977833 .899626-2.977833C.690411-2.977833 .418431-2.984807 .216189-3.005729V-2.75467C.599751-2.75467 .683437-2.740722 .788045-2.503611L1.889913-.076712C1.924782 .006974 1.966625 .069738 2.085181 .069738C2.217684 .069738 2.245579 .006974 2.280448-.069738L3.305604-2.322291Z"></path>
+<path id="tz_posto_pressuposto_g8-126" d="M3.124284-4.6934C2.922042-4.47721 2.719801-4.372603 2.524533-4.372603C2.343213-4.372603 2.133998-4.47721 2.078207-4.51208C1.827148-4.630635 1.680697-4.6934 1.527273-4.6934C1.241345-4.6934 1.136737-4.581818 .697385-4.135492L.836862-3.996015C1.039103-4.212204 1.241345-4.316812 1.436613-4.316812C1.617933-4.316812 1.827148-4.212204 1.882939-4.177335C2.133998-4.05878 2.280448-3.996015 2.433873-3.996015C2.719801-3.996015 2.824408-4.107597 3.263761-4.553923L3.124284-4.6934Z"></path>
+</defs>
+<g id="tz_posto_pressuposto_page1">
+<g stroke-miterlimit="10" transform="translate(51.438529,3.512767)scale(0.996264,-0.996264)">
+<g fill="#000" stroke="#000">
+<g stroke-width="0.4">
+<g stroke="#6c757d">
+<g fill="#eeeff0">
+<g stroke="#6c757d">
+<g fill="#eeeff0">
+<path d="M67.44133 71.59595H-67.44133C-69.0982 71.59595-70.44133 70.25282-70.44133 68.59595V56.59595C-70.44133 54.93907-69.0982 53.59595-67.44133 53.59595H67.44133C69.0982 53.59595 70.44133 54.93907 70.44133 56.59595V68.59595C70.44133 70.25282 69.0982 71.59595 67.44133 71.59595ZM-70.44133 53.59595"></path>
+</g>
+</g>
+<g transform="translate(-65.44133,60.34595)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(51.438529,3.512767)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="61.965779" y="3.512767" href="#tz_posto_pressuposto_g6-92"></use>
+<use x="66.57347" y="3.512767" href="#tz_posto_pressuposto_g6-80"></use>
+<use x="72.588373" y="3.512767" href="#tz_posto_pressuposto_g6-101"></use>
+<use x="76.687561" y="3.512767" href="#tz_posto_pressuposto_g6-100"></use>
+<use x="81.807218" y="3.512767" href="#tz_posto_pressuposto_g6-114"></use>
+<use x="85.411739" y="3.512767" href="#tz_posto_pressuposto_g6-111"></use>
+<use x="93.090889" y="3.512767" href="#tz_posto_pressuposto_g5-112"></use>
+<use x="98.985377" y="3.512767" href="#tz_posto_pressuposto_g5-97"></use>
+<use x="104.143051" y="3.512767" href="#tz_posto_pressuposto_g5-114"></use>
+<use x="108.519676" y="3.512767" href="#tz_posto_pressuposto_g5-111"></use>
+<use x="113.824718" y="3.512767" href="#tz_posto_pressuposto_g5-117"></use>
+<use x="122.790666" y="3.512767" href="#tz_posto_pressuposto_g5-100"></use>
+<use x="128.685154" y="3.512767" href="#tz_posto_pressuposto_g5-101"></use>
+<use x="136.625118" y="3.512767" href="#tz_posto_pressuposto_g5-102"></use>
+<use x="139.867094" y="3.512767" href="#tz_posto_pressuposto_g5-117"></use>
+<use x="145.761583" y="3.512767" href="#tz_posto_pressuposto_g5-109"></use>
+<use x="154.603319" y="3.512767" href="#tz_posto_pressuposto_g5-97"></use>
+<use x="159.760993" y="3.512767" href="#tz_posto_pressuposto_g5-114"></use>
+<use x="164.137619" y="3.512767" href="#tz_posto_pressuposto_g6-46"></use>
+<use x="166.697447" y="3.512767" href="#tz_posto_pressuposto_g6-34"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke-dasharray="3.0,3.0" stroke-dashoffset="0.0">
+<g stroke-width="0.8">
+<g stroke="#2780e3">
+<path d="M-119.50143 21.33955H119.50143" fill="none"></path>
+</g>
+</g>
+</g>
+<g transform="translate(53.43184,26.70274)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(51.438529,3.512767)scale(-1,-1)">
+<g fill="#2780e3">
+<g stroke="none">
+<g fill="#2780e3">
+<use x="51.438529" y="3.512767" href="#tz_posto_pressuposto_g4-115"></use>
+<use x="54.825865" y="3.512767" href="#tz_posto_pressuposto_g4-117"></use>
+<use x="59.237161" y="3.512767" href="#tz_posto_pressuposto_g4-112"></use>
+<use x="63.034078" y="3.512767" href="#tz_posto_pressuposto_g4-101"></use>
+<use x="66.830994" y="3.512767" href="#tz_posto_pressuposto_g4-114"></use>
+<use x="70.320732" y="3.512767" href="#tz_posto_pressuposto_g4-102"></use>
+<use x="72.06976" y="3.512767" href="#tz_posto_pressuposto_g4-19"></use>
+<use x="72.888937" y="3.512767" href="#tz_posto_pressuposto_g4-16"></use>
+<use x="75.457109" y="3.512767" href="#tz_posto_pressuposto_g4-99"></use>
+<use x="79.254026" y="3.512767" href="#tz_posto_pressuposto_g4-105"></use>
+<use x="81.822198" y="3.512767" href="#tz_posto_pressuposto_g4-101"></use>
+<use x="88.596855" y="3.512767" href="#tz_posto_pressuposto_g4-100"></use>
+<use x="92.803354" y="3.512767" href="#tz_posto_pressuposto_g4-111"></use>
+<use x="99.987592" y="3.512767" href="#tz_posto_pressuposto_g4-100"></use>
+<use x="104.194091" y="3.512767" href="#tz_posto_pressuposto_g4-105"></use>
+<use x="106.762263" y="3.512767" href="#tz_posto_pressuposto_g4-116"></use>
+<use x="109.535232" y="3.512767" href="#tz_posto_pressuposto_g4-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#ecf8e8">
+<g stroke="#3fb618">
+<g fill="#ecf8e8">
+<path d="M75.97716 57.33636H-75.97716C-77.63403 57.33636-78.97716 55.99324-78.97716 54.33636V22.48639C-78.97716 20.82951-77.63403 19.48639-75.97716 19.48639H75.97716C77.63403 19.48639 78.97716 20.82951 78.97716 22.48639V54.33636C78.97716 55.99324 77.63403 57.33636 75.97716 57.33636ZM-78.97716 19.48639"></path>
+</g>
+</g>
+<g transform="translate(-73.97716,46.84747)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(51.438529,3.512767)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="90.061044" y="3.512767" href="#tz_posto_pressuposto_g3-80"></use>
+<use x="96.719455" y="3.512767" href="#tz_posto_pressuposto_g3-79"></use>
+<use x="104.05313" y="3.512767" href="#tz_posto_pressuposto_g3-83"></use>
+<use x="109.477278" y="3.512767" href="#tz_posto_pressuposto_g3-84"></use>
+<use x="116.268537" y="3.512767" href="#tz_posto_pressuposto_g3-79"></use>
+<use x="126.424696" y="3.512767" href="#tz_posto_pressuposto_g8-40"></use>
+<use x="129.538039" y="3.512767" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="133.509279" y="3.512767" href="#tz_posto_pressuposto_g8-115"></use>
+<use x="136.66552" y="3.512767" href="#tz_posto_pressuposto_g8-115"></use>
+<use x="139.821761" y="3.512767" href="#tz_posto_pressuposto_g8-101"></use>
+<use x="143.364052" y="3.512767" href="#tz_posto_pressuposto_g8-114"></use>
+<use x="146.477395" y="3.512767" href="#tz_posto_pressuposto_g8-105"></use>
+<use x="148.732841" y="3.512767" href="#tz_posto_pressuposto_g8-100"></use>
+<use x="153.13303" y="3.512767" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="157.104271" y="3.512767" href="#tz_posto_pressuposto_g8-41"></use>
+<use x="73.490873" y="12.977275" href="#tz_posto_pressuposto_g2-80"></use>
+<use x="79.28859" y="12.977275" href="#tz_posto_pressuposto_g2-101"></use>
+<use x="82.786596" y="12.977275" href="#tz_posto_pressuposto_g2-100"></use>
+<use x="87.1591" y="12.977275" href="#tz_posto_pressuposto_g2-114"></use>
+<use x="90.329173" y="12.977275" href="#tz_posto_pressuposto_g2-111"></use>
+<use x="97.524162" y="12.977275" href="#tz_posto_pressuposto_g2-110"></use>
+<use x="102.333914" y="12.977275" href="#tz_posto_pressuposto_g2-126"></use>
+<use x="102.333914" y="12.977275" href="#tz_posto_pressuposto_g2-97"></use>
+<use x="106.706418" y="12.977275" href="#tz_posto_pressuposto_g2-111"></use>
+<use x="113.901407" y="12.977275" href="#tz_posto_pressuposto_g2-102"></use>
+<use x="116.52493" y="12.977275" href="#tz_posto_pressuposto_g2-117"></use>
+<use x="121.116066" y="12.977275" href="#tz_posto_pressuposto_g2-109"></use>
+<use x="128.112063" y="12.977275" href="#tz_posto_pressuposto_g2-97"></use>
+<use x="135.307052" y="12.977275" href="#tz_posto_pressuposto_g2-97"></use>
+<use x="139.679556" y="12.977275" href="#tz_posto_pressuposto_g2-116"></use>
+<use x="142.521696" y="12.977275" href="#tz_posto_pressuposto_g2-117"></use>
+<use x="147.112832" y="12.977275" href="#tz_posto_pressuposto_g2-97"></use>
+<use x="151.485336" y="12.977275" href="#tz_posto_pressuposto_g2-108"></use>
+<use x="153.671595" y="12.977275" href="#tz_posto_pressuposto_g2-109"></use>
+<use x="160.667592" y="12.977275" href="#tz_posto_pressuposto_g2-101"></use>
+<use x="164.602847" y="12.977275" href="#tz_posto_pressuposto_g2-110"></use>
+<use x="169.4126" y="12.977275" href="#tz_posto_pressuposto_g2-116"></use>
+<use x="172.254741" y="12.977275" href="#tz_posto_pressuposto_g2-101"></use>
+<use x="57.810645" y="24.434311" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="61.781886" y="24.434311" href="#tz_posto_pressuposto_g8-12"></use>
+<use x="66.292771" y="24.434311" href="#tz_posto_pressuposto_g8-114"></use>
+<use x="69.406114" y="24.434311" href="#tz_posto_pressuposto_g8-109"></use>
+<use x="75.951046" y="24.434311" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="79.922287" y="24.434311" href="#tz_posto_pressuposto_g8-100"></use>
+<use x="84.322476" y="24.434311" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="91.116201" y="24.434311" href="#tz_posto_pressuposto_g1-183"></use>
+<use x="96.193566" y="24.434311" href="#tz_posto_pressuposto_g8-100"></use>
+<use x="100.593755" y="24.434311" href="#tz_posto_pressuposto_g8-105"></use>
+<use x="102.849201" y="24.434311" href="#tz_posto_pressuposto_g8-115"></use>
+<use x="106.005441" y="24.434311" href="#tz_posto_pressuposto_g8-99"></use>
+<use x="109.547733" y="24.434311" href="#tz_posto_pressuposto_g8-117"></use>
+<use x="113.947922" y="24.434311" href="#tz_posto_pressuposto_g8-116"></use>
+<use x="116.203368" y="24.434311" href="#tz_posto_pressuposto_g8-19"></use>
+<use x="117.061268" y="24.434311" href="#tz_posto_pressuposto_g8-16"></use>
+<use x="119.316714" y="24.434311" href="#tz_posto_pressuposto_g8-118"></use>
+<use x="123.287953" y="24.434311" href="#tz_posto_pressuposto_g8-101"></use>
+<use x="126.830245" y="24.434311" href="#tz_posto_pressuposto_g8-108"></use>
+<use x="131.908175" y="24.434311" href="#tz_posto_pressuposto_g1-183"></use>
+<use x="136.98554" y="24.434311" href="#tz_posto_pressuposto_g0-99"></use>
+<use x="141.003795" y="24.434311" href="#tz_posto_pressuposto_g0-97"></use>
+<use x="145.393569" y="24.434311" href="#tz_posto_pressuposto_g0-105"></use>
+<use x="150.748212" y="24.434311" href="#tz_posto_pressuposto_g8-115"></use>
+<use x="153.904452" y="24.434311" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="157.875693" y="24.434311" href="#tz_posto_pressuposto_g8-98"></use>
+<use x="165.098367" y="24.434311" href="#tz_posto_pressuposto_g8-110"></use>
+<use x="169.498556" y="24.434311" href="#tz_posto_pressuposto_g8-101"></use>
+<use x="173.040847" y="24.434311" href="#tz_posto_pressuposto_g8-103"></use>
+<use x="177.012088" y="24.434311" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="180.983328" y="24.434311" href="#tz_posto_pressuposto_g8-24"></use>
+<use x="180.983331" y="24.434311" href="#tz_posto_pressuposto_g8-99"></use>
+<use x="184.525623" y="24.434311" href="#tz_posto_pressuposto_g8-126"></use>
+<use x="184.525626" y="24.434311" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="188.496866" y="24.434311" href="#tz_posto_pressuposto_g8-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#d7433b">
+<g fill="#fbedec">
+<g stroke="#d7433b">
+<g fill="#fbedec">
+<path d="M75.97716 9.75864H-75.97716C-77.63403 9.75864-78.97716 8.41551-78.97716 6.75864V-34.59134C-78.97716-36.24821-77.63403-37.59134-75.97716-37.59134H75.97716C77.63403-37.59134 78.97716-36.24821 78.97716-34.59134V6.75864C78.97716 8.41551 77.63403 9.75864 75.97716 9.75864ZM-78.97716-37.59134"></path>
+</g>
+</g>
+<g transform="translate(-73.97716,-0.73026)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(51.438529,3.512767)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="89.02863" y="3.512767" href="#tz_posto_pressuposto_g3-80"></use>
+<use x="95.687042" y="3.512767" href="#tz_posto_pressuposto_g3-82"></use>
+<use x="102.981951" y="3.512767" href="#tz_posto_pressuposto_g3-69"></use>
+<use x="109.380229" y="3.512767" href="#tz_posto_pressuposto_g3-83"></use>
+<use x="114.804377" y="3.512767" href="#tz_posto_pressuposto_g3-83"></use>
+<use x="120.228525" y="3.512767" href="#tz_posto_pressuposto_g3-85"></use>
+<use x="127.708851" y="3.512767" href="#tz_posto_pressuposto_g3-80"></use>
+<use x="134.367262" y="3.512767" href="#tz_posto_pressuposto_g3-79"></use>
+<use x="141.700937" y="3.512767" href="#tz_posto_pressuposto_g3-83"></use>
+<use x="147.125085" y="3.512767" href="#tz_posto_pressuposto_g3-84"></use>
+<use x="153.916344" y="3.512767" href="#tz_posto_pressuposto_g3-79"></use>
+<use x="88.217509" y="12.977275" href="#tz_posto_pressuposto_g2-80"></use>
+<use x="94.015225" y="12.977275" href="#tz_posto_pressuposto_g2-101"></use>
+<use x="97.513232" y="12.977275" href="#tz_posto_pressuposto_g2-100"></use>
+<use x="101.885735" y="12.977275" href="#tz_posto_pressuposto_g2-114"></use>
+<use x="105.055809" y="12.977275" href="#tz_posto_pressuposto_g2-111"></use>
+<use x="112.250797" y="12.977275" href="#tz_posto_pressuposto_g2-102"></use>
+<use x="114.874321" y="12.977275" href="#tz_posto_pressuposto_g2-117"></use>
+<use x="119.465457" y="12.977275" href="#tz_posto_pressuposto_g2-109"></use>
+<use x="126.461454" y="12.977275" href="#tz_posto_pressuposto_g2-97"></use>
+<use x="130.833958" y="12.977275" href="#tz_posto_pressuposto_g2-118"></use>
+<use x="134.769213" y="12.977275" href="#tz_posto_pressuposto_g2-97"></use>
+<use x="141.964201" y="12.977275" href="#tz_posto_pressuposto_g2-97"></use>
+<use x="146.336705" y="12.977275" href="#tz_posto_pressuposto_g2-110"></use>
+<use x="151.146458" y="12.977275" href="#tz_posto_pressuposto_g2-116"></use>
+<use x="153.988598" y="12.977275" href="#tz_posto_pressuposto_g2-101"></use>
+<use x="157.923853" y="12.977275" href="#tz_posto_pressuposto_g2-115"></use>
+<use x="82.733025" y="24.434311" href="#tz_posto_pressuposto_g8-110"></use>
+<use x="87.133214" y="24.434311" href="#tz_posto_pressuposto_g8-126"></use>
+<use x="87.133217" y="24.434311" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="91.104458" y="24.434311" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="97.898183" y="24.434311" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="101.869423" y="24.434311" href="#tz_posto_pressuposto_g8-12"></use>
+<use x="106.380308" y="24.434311" href="#tz_posto_pressuposto_g8-114"></use>
+<use x="109.493651" y="24.434311" href="#tz_posto_pressuposto_g8-109"></use>
+<use x="116.038583" y="24.434311" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="120.009824" y="24.434311" href="#tz_posto_pressuposto_g8-100"></use>
+<use x="124.410013" y="24.434311" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="131.203738" y="24.434311" href="#tz_posto_pressuposto_g1-183"></use>
+<use x="136.281103" y="24.434311" href="#tz_posto_pressuposto_g8-100"></use>
+<use x="140.681292" y="24.434311" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="144.652533" y="24.434311" href="#tz_posto_pressuposto_g8-100"></use>
+<use x="149.052722" y="24.434311" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="155.846447" y="24.434311" href="#tz_posto_pressuposto_g8-112"></use>
+<use x="160.461103" y="24.434311" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="164.432343" y="24.434311" href="#tz_posto_pressuposto_g8-114"></use>
+<use x="75.609257" y="33.898819" href="#tz_posto_pressuposto_g8-99"></use>
+<use x="79.151549" y="33.898819" href="#tz_posto_pressuposto_g8-101"></use>
+<use x="82.693841" y="33.898819" href="#tz_posto_pressuposto_g8-114"></use>
+<use x="85.807184" y="33.898819" href="#tz_posto_pressuposto_g8-116"></use>
+<use x="88.920527" y="33.898819" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="95.714252" y="33.898819" href="#tz_posto_pressuposto_g1-183"></use>
+<use x="100.791617" y="33.898819" href="#tz_posto_pressuposto_g0-115"></use>
+<use x="104.36405" y="33.898819" href="#tz_posto_pressuposto_g0-111"></use>
+<use x="108.877675" y="33.898819" href="#tz_posto_pressuposto_g0-98"></use>
+<use x="113.886663" y="33.898819" href="#tz_posto_pressuposto_g0-114"></use>
+<use x="117.614352" y="33.898819" href="#tz_posto_pressuposto_g0-101"></use>
+<use x="121.745391" y="33.898819" href="#tz_posto_pressuposto_g0-118"></use>
+<use x="126.506697" y="33.898819" href="#tz_posto_pressuposto_g0-105"></use>
+<use x="129.038855" y="33.898819" href="#tz_posto_pressuposto_g0-118"></use>
+<use x="133.552479" y="33.898819" href="#tz_posto_pressuposto_g0-101"></use>
+<use x="140.506002" y="33.898819" href="#tz_posto_pressuposto_g8-18"></use>
+<use x="140.506005" y="33.898819" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="147.29973" y="33.898819" href="#tz_posto_pressuposto_g8-110"></use>
+<use x="151.699919" y="33.898819" href="#tz_posto_pressuposto_g8-101"></use>
+<use x="155.242211" y="33.898819" href="#tz_posto_pressuposto_g8-103"></use>
+<use x="159.213452" y="33.898819" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="163.184692" y="33.898819" href="#tz_posto_pressuposto_g8-24"></use>
+<use x="163.184695" y="33.898819" href="#tz_posto_pressuposto_g8-99"></use>
+<use x="166.726987" y="33.898819" href="#tz_posto_pressuposto_g8-126"></use>
+<use x="166.72699" y="33.898819" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="170.69823" y="33.898819" href="#tz_posto_pressuposto_g8-111"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#2780e3">
+<g fill="#f2f8fe">
+<g stroke="#2780e3">
+<g fill="#f2f8fe">
+<path d="M64.59605-45.72455H-64.59605C-66.25293-45.72455-67.59605-47.06767-67.59605-48.72455V-108.63843C-67.59605-110.2953-66.25293-111.63843-64.59605-111.63843H64.59605C66.25293-111.63843 67.59605-110.2953 67.59605-108.63843V-48.72455C67.59605-47.06767 66.25293-45.72455 64.59605-45.72455ZM-67.59605-111.63843"></path>
+</g>
+</g>
+<g transform="translate(-62.59605,-57.27733)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(51.438529,3.512767)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="66.478078" y="3.512767" href="#tz_posto_pressuposto_g0-84"></use>
+<use x="72.735165" y="3.512767" href="#tz_posto_pressuposto_g0-69"></use>
+<use x="78.624185" y="3.512767" href="#tz_posto_pressuposto_g0-83"></use>
+<use x="83.633173" y="3.512767" href="#tz_posto_pressuposto_g0-84"></use>
+<use x="89.89026" y="3.512767" href="#tz_posto_pressuposto_g0-69"></use>
+<use x="98.426472" y="3.512767" href="#tz_posto_pressuposto_g0-68"></use>
+<use x="105.048852" y="3.512767" href="#tz_posto_pressuposto_g0-65"></use>
+<use x="114.445728" y="3.512767" href="#tz_posto_pressuposto_g0-78"></use>
+<use x="121.43341" y="3.512767" href="#tz_posto_pressuposto_g0-69"></use>
+<use x="127.32243" y="3.512767" href="#tz_posto_pressuposto_g0-71"></use>
+<use x="134.376526" y="3.512767" href="#tz_posto_pressuposto_g0-65"></use>
+<use x="141.126209" y="3.512767" href="#tz_posto_pressuposto_g0-67"></use>
+<use x="142.364638" y="3.512767" href="#tz_posto_pressuposto_g0-24"></use>
+<use x="148.739323" y="1.827406" href="#tz_posto_pressuposto_g0-126"></use>
+<use x="147.621293" y="3.512767" href="#tz_posto_pressuposto_g0-65"></use>
+<use x="154.370976" y="3.512767" href="#tz_posto_pressuposto_g0-79"></use>
+<use x="62.218311" y="14.471671" href="#tz_posto_pressuposto_g8-92"></use>
+<use x="66.189551" y="14.471671" href="#tz_posto_pressuposto_g8-80"></use>
+<use x="71.330018" y="14.471671" href="#tz_posto_pressuposto_g8-101"></use>
+<use x="74.87231" y="14.471671" href="#tz_posto_pressuposto_g8-100"></use>
+<use x="79.272499" y="14.471671" href="#tz_posto_pressuposto_g8-114"></use>
+<use x="82.385842" y="14.471671" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="89.004275" y="14.471671" href="#tz_posto_pressuposto_g0-110"></use>
+<use x="93.951331" y="14.471671" href="#tz_posto_pressuposto_g0-126"></use>
+<use x="94.013266" y="14.471671" href="#tz_posto_pressuposto_g0-97"></use>
+<use x="98.40304" y="14.471671" href="#tz_posto_pressuposto_g0-111"></use>
+<use x="105.563858" y="14.471671" href="#tz_posto_pressuposto_g8-112"></use>
+<use x="109.964047" y="14.471671" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="113.935288" y="14.471671" href="#tz_posto_pressuposto_g8-114"></use>
+<use x="117.048631" y="14.471671" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="121.019871" y="14.471671" href="#tz_posto_pressuposto_g8-117"></use>
+<use x="128.067253" y="14.471671" href="#tz_posto_pressuposto_g8-100"></use>
+<use x="132.467442" y="14.471671" href="#tz_posto_pressuposto_g8-101"></use>
+<use x="138.656927" y="14.471671" href="#tz_posto_pressuposto_g8-102"></use>
+<use x="141.126854" y="14.471671" href="#tz_posto_pressuposto_g8-117"></use>
+<use x="145.527043" y="14.471671" href="#tz_posto_pressuposto_g8-109"></use>
+<use x="152.071975" y="14.471671" href="#tz_posto_pressuposto_g8-97"></use>
+<use x="156.043216" y="14.471671" href="#tz_posto_pressuposto_g8-114"></use>
+<use x="159.156559" y="14.471671" href="#tz_posto_pressuposto_g8-46"></use>
+<use x="161.412005" y="14.471671" href="#tz_posto_pressuposto_g8-34"></use>
+<use x="76.514478" y="25.430575" href="#tz_posto_pressuposto_g8-112"></use>
+<use x="81.129133" y="25.430575" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="85.100374" y="25.430575" href="#tz_posto_pressuposto_g8-115"></use>
+<use x="88.256615" y="25.430575" href="#tz_posto_pressuposto_g8-116"></use>
+<use x="91.369958" y="25.430575" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="97.988391" y="25.430575" href="#tz_posto_pressuposto_g7-33"></use>
+<use x="108.578058" y="25.430575" href="#tz_posto_pressuposto_g0-100"></use>
+<use x="113.587046" y="25.430575" href="#tz_posto_pressuposto_g0-101"></use>
+<use x="117.718085" y="25.430575" href="#tz_posto_pressuposto_g0-115"></use>
+<use x="121.290518" y="25.430575" href="#tz_posto_pressuposto_g0-97"></use>
+<use x="125.680292" y="25.430575" href="#tz_posto_pressuposto_g0-112"></use>
+<use x="130.68928" y="25.430575" href="#tz_posto_pressuposto_g0-97"></use>
+<use x="135.079054" y="25.430575" href="#tz_posto_pressuposto_g0-114"></use>
+<use x="138.806743" y="25.430575" href="#tz_posto_pressuposto_g0-101"></use>
+<use x="142.937782" y="25.430575" href="#tz_posto_pressuposto_g0-99"></use>
+<use x="146.956037" y="25.430575" href="#tz_posto_pressuposto_g0-101"></use>
+<use x="65.744592" y="33.400687" href="#tz_posto_pressuposto_g8-112"></use>
+<use x="70.144782" y="33.400687" href="#tz_posto_pressuposto_g8-114"></use>
+<use x="73.258125" y="33.400687" href="#tz_posto_pressuposto_g8-101"></use>
+<use x="76.800416" y="33.400687" href="#tz_posto_pressuposto_g8-115"></use>
+<use x="79.956657" y="33.400687" href="#tz_posto_pressuposto_g8-115"></use>
+<use x="83.112898" y="33.400687" href="#tz_posto_pressuposto_g8-117"></use>
+<use x="87.513087" y="33.400687" href="#tz_posto_pressuposto_g8-112"></use>
+<use x="92.127743" y="33.400687" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="96.098983" y="33.400687" href="#tz_posto_pressuposto_g8-115"></use>
+<use x="99.255224" y="33.400687" href="#tz_posto_pressuposto_g8-116"></use>
+<use x="102.368567" y="33.400687" href="#tz_posto_pressuposto_g8-111"></use>
+<use x="108.987" y="33.400687" href="#tz_posto_pressuposto_g7-33"></use>
+<use x="119.576667" y="33.400687" href="#tz_posto_pressuposto_g0-112"></use>
+<use x="124.833323" y="33.400687" href="#tz_posto_pressuposto_g0-101"></use>
+<use x="128.964362" y="33.400687" href="#tz_posto_pressuposto_g0-114"></use>
+<use x="132.692051" y="33.400687" href="#tz_posto_pressuposto_g0-109"></use>
+<use x="140.177862" y="33.400687" href="#tz_posto_pressuposto_g0-97"></use>
+<use x="144.567636" y="33.400687" href="#tz_posto_pressuposto_g0-110"></use>
+<use x="149.576625" y="33.400687" href="#tz_posto_pressuposto_g0-101"></use>
+<use x="153.707663" y="33.400687" href="#tz_posto_pressuposto_g0-99"></use>
+<use x="157.725918" y="33.400687" href="#tz_posto_pressuposto_g0-101"></use>
+<use x="79.710698" y="43.363327" href="#tz_posto_pressuposto_g4-97"></use>
+<use x="83.917196" y="43.363327" href="#tz_posto_pressuposto_g4-115"></use>
+<use x="89.951724" y="43.363327" href="#tz_posto_pressuposto_g4-100"></use>
+<use x="94.158223" y="43.363327" href="#tz_posto_pressuposto_g4-117"></use>
+<use x="98.569519" y="43.363327" href="#tz_posto_pressuposto_g4-97"></use>
+<use x="102.776017" y="43.363327" href="#tz_posto_pressuposto_g4-115"></use>
+<use x="108.810545" y="43.363327" href="#tz_posto_pressuposto_g4-118"></use>
+<use x="112.607462" y="43.363327" href="#tz_posto_pressuposto_g4-101"></use>
+<use x="116.404379" y="43.363327" href="#tz_posto_pressuposto_g4-114"></use>
+<use x="119.894117" y="43.363327" href="#tz_posto_pressuposto_g4-115"></use>
+<use x="123.281452" y="43.363327" href="#tz_posto_pressuposto_g4-126"></use>
+<use x="123.281465" y="43.363327" href="#tz_posto_pressuposto_g4-111"></use>
+<use x="127.487964" y="43.363327" href="#tz_posto_pressuposto_g4-101"></use>
+<use x="131.28488" y="43.363327" href="#tz_posto_pressuposto_g4-115"></use>
+<use x="137.319409" y="43.363327" href="#tz_posto_pressuposto_g4-97"></use>
+<use x="141.525907" y="43.363327" href="#tz_posto_pressuposto_g4-115"></use>
+<use x="144.913242" y="43.363327" href="#tz_posto_pressuposto_g4-45"></use>
+<use x="73.262664" y="51.33344" href="#tz_posto_pressuposto_g4-115"></use>
+<use x="76.65" y="51.33344" href="#tz_posto_pressuposto_g4-117"></use>
+<use x="81.061296" y="51.33344" href="#tz_posto_pressuposto_g4-109"></use>
+<use x="87.725284" y="51.33344" href="#tz_posto_pressuposto_g4-101"></use>
+<use x="91.522201" y="51.33344" href="#tz_posto_pressuposto_g4-109"></use>
+<use x="100.833382" y="51.33344" href="#tz_posto_pressuposto_g4-113"></use>
+<use x="104.630299" y="51.33344" href="#tz_posto_pressuposto_g4-117"></use>
+<use x="109.041595" y="51.33344" href="#tz_posto_pressuposto_g4-101"></use>
+<use x="115.485704" y="51.33344" href="#tz_posto_pressuposto_g4-101"></use>
+<use x="119.282621" y="51.33344" href="#tz_posto_pressuposto_g4-108"></use>
+<use x="121.441211" y="51.33344" href="#tz_posto_pressuposto_g4-101"></use>
+<use x="127.885321" y="51.33344" href="#tz_posto_pressuposto_g4-102"></use>
+<use x="130.453513" y="51.33344" href="#tz_posto_pressuposto_g4-117"></use>
+<use x="134.864809" y="51.33344" href="#tz_posto_pressuposto_g4-109"></use>
+<use x="141.528797" y="51.33344" href="#tz_posto_pressuposto_g4-97"></use>
+<use x="145.735296" y="51.33344" href="#tz_posto_pressuposto_g4-118"></use>
+<use x="149.532213" y="51.33344" href="#tz_posto_pressuposto_g4-97"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#6c757d">
+<path d="M0 53.39595V55.00099" fill="none"></path>
+<g fill="#6c757d">
+<g transform="matrix(0.0,1.0,-1.0,0.0,0.0,53.53636)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M3.43042 0L.64589 1.05077L1.56462 0L.64589-1.05077Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+<g stroke="#6c757d">
+<path d="M0-37.79134V-42.98918" fill="none"></path>
+<g fill="#6c757d">
+<g transform="matrix(0.0,-1.0,1.0,0.0,0.0,-41.52455)">
+<g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linejoin="miter">
+ <path d="M3.43042 0L.64589 1.05077L1.56462 0L.64589-1.05077Z"></path>
+ </g>
+ </g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-posto-pressuposto-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;66.1: A estrutura em duas camadas. O <strong>posto</strong> está na superfície e cai sob negação; o <strong>pressuposto</strong> fica submerso e sobrevive — que é exatamente o que o torna difícil de contestar.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="os-gatilhos-de-pressuposição" class="level3" data-number="66.3.2">
+<h3 data-number="66.3.2" class="anchored" data-anchor-id="os-gatilhos-de-pressuposição"><span class="header-section-number">66.3.2</span> Os gatilhos de pressuposição</h3>
+<p>Certos itens lexicais e estruturas <strong>disparam</strong> pressupostos de modo previsível:</p>
+<ul>
+<li><strong>Verbos aspectuais</strong> (<em>parar de, começar a, continuar, deixar de, voltar a</em>): “Ele <strong>continua</strong> desempregado” → pressupõe que já estava.</li>
+<li><strong>Verbos factivos</strong> (<em>saber, lamentar, descobrir, perceber, esquecer</em>): “Ela <strong>lamenta</strong> que o projeto tenha falhado” → pressupõe que o projeto falhou.</li>
+<li><strong>Advérbios</strong> (<em>ainda, já, também, novamente</em>): “Ele <strong>ainda</strong> mora lá” → pressupõe que morava.</li>
+<li><strong>Orações adjetivas restritivas</strong>: “Os deputados <strong>que aceitaram propina</strong> serão julgados” → pressupõe que alguns aceitaram (<a href="cap-60-pontuacao-periodo-composto.html" class="quarto-xref"><span>Capítulo 62</span></a>).</li>
+<li><strong>Artigo definido / posse</strong>: “<strong>O filho</strong> dele chegou” → pressupõe que ele tem filho.</li>
+<li><strong>Verbos iterativos</strong> (<em>voltar a, repetir, de novo</em>): “Ele <strong>voltou a</strong> mentir” → pressupõe que já mentira.</li>
+<li><strong>Adjetivos e advérbios avaliativos</strong>: “Ele resolveu o problema <strong>até que</strong> rápido” → pressupõe expectativa contrária.</li>
+</ul>
+</section>
+<section id="pressuposto-e-subentendido" class="level3" data-number="66.3.3">
+<h3 data-number="66.3.3" class="anchored" data-anchor-id="pressuposto-e-subentendido"><span class="header-section-number">66.3.3</span> Pressuposto e subentendido</h3>
+<p>Convém não confundir. Ambos são implícitos, mas se comportam de modo diferente:</p>
+<ul>
+<li><strong>Pressuposto</strong>: marcado <strong>na língua</strong>, por um gatilho identificável. É objetivo, testável pela negação, e o falante <strong>não pode negar</strong> tê-lo veiculado — está lá.</li>
+<li><strong>Subentendido</strong> (implicatura): sugerido pelo <strong>contexto</strong>, sem marca formal. É cancelável e o falante <strong>pode negar</strong> tê-lo dito.</li>
+</ul>
+<p>Compare:</p>
+<blockquote class="blockquote">
+<p>“Pedro parou de beber.” → <strong>pressupõe</strong> que bebia. Não há como o falante recuar: “eu não disse que ele bebia” é falso — disse, pela porta dos fundos.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Está frio aqui.” → <strong>subentende</strong>, talvez, “feche a janela”. Mas o falante pode recuar sem contradição: “só constatei um fato, não pedi nada”.</p>
+</blockquote>
+<p>Essa diferença — o pressuposto compromete, o subentendido não — é o que faz do pressuposto uma arma retórica tão eficaz. Ela será desenvolvida no <a href="cap-82-inferencia-pressuposto-subentendido.html" class="quarto-xref"><span>Capítulo 84</span></a>.</p>
+</section>
+</section>
+<section id="a-pressuposição-como-estratégia-argumentativa" class="level2" data-number="66.4">
+<h2 data-number="66.4" class="anchored" data-anchor-id="a-pressuposição-como-estratégia-argumentativa"><span class="header-section-number">66.4</span> A pressuposição como estratégia argumentativa</h2>
+<p>Aqui o capítulo deixa de ser técnico e passa a ser cívico.</p>
+<p>Quem pressupõe <strong>coloca a informação fora do debate</strong>. Contestá-la exige um movimento extra, custoso e que soa defensivo — porque obriga o interlocutor a rejeitar a <strong>moldura</strong> da frase, não apenas seu conteúdo.</p>
+<p><strong>A pergunta capciosa</strong> é o caso extremo:</p>
+<blockquote class="blockquote">
+<p>“Você já parou de fraudar as licitações?”</p>
+</blockquote>
+<p>Ambas as respostas condenam: “sim” admite que fraudava; “não” admite que ainda frauda. A única saída é <strong>recusar o pressuposto</strong> — “eu nunca fraudei licitação alguma” —, o que exige perceber a armadilha e ter presença de espírito para desarmá-la. É uma técnica conhecida de interrogatório e de entrevista hostil.</p>
+<p><strong>No discurso político e publicitário</strong>, os pressupostos fazem trabalho pesado:</p>
+<blockquote class="blockquote">
+<p>“Vamos <strong>resgatar</strong> a qualidade do ensino.” → pressupõe que a qualidade se perdeu.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“<strong>Continuaremos</strong> combatendo a corrupção.” → pressupõe que já se combatia.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Por que o governo <strong>insiste</strong> nesse erro?” → pressupõe que é erro e que há insistência.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“<strong>Finalmente</strong> um sabão em pó que limpa de verdade.” → pressupõe que os outros não limpam.</p>
+</blockquote>
+<p>Em nenhum desses casos a informação foi <strong>afirmada</strong>. Se contestada, o falante pode alegar que “nem disse isso”. E, no entanto, disse — e o ouvinte, se não estiver atento, <strong>aceitou</strong>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
+<span class="screen-reader-only">Nota</span>Norma-padrão × uso real
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Capítulo em preparação.</p>
+<p>Não há aqui questão de norma: pressupor não é erro nem acerto — é um recurso <strong>estrutural</strong> da língua, disponível a todos os falantes, cultos ou não, e usado o tempo todo sem qualquer intenção manipuladora (“Já almoçou?” pressupõe que existe um almoço esperado). O que muda é o <strong>grau de consciência</strong>: quem reconhece o mecanismo escolhe quando usá-lo e percebe quando o usam sobre si.</p>
+<p>Vale registrar que a habilidade de detectar pressupostos correlaciona-se fortemente com <strong>letramento crítico</strong>, e não com domínio da norma-padrão. Um falante que diga “nós vai” pode desarmar uma pergunta capciosa com perfeição; um doutor pode engolir o pressuposto de uma manchete sem notar. São competências independentes — e a segunda, argumentavelmente, importa mais para a cidadania (<a href="cap-91-preconceito-linguistico.html" class="quarto-xref"><span>Capítulo 93</span></a>).</p>
+</div>
+</div>
+</section>
+<section id="quadro-resumo" class="level2" data-number="66.5">
+<h2 data-number="66.5" class="anchored" data-anchor-id="quadro-resumo"><span class="header-section-number">66.5</span> 📋 Quadro-resumo</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Conceito</th>
+<th>Definição</th>
+<th>Marca</th>
+<th>Teste</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ambiguidade lexical</strong></td>
+<td>palavra com 2+ sentidos possíveis</td>
+<td>item polissêmico/homônimo</td>
+<td>o contexto seleciona?</td>
+</tr>
+<tr class="even">
+<td><strong>Ambiguidade estrutural</strong></td>
+<td>2+ combinações sintáticas</td>
+<td>escopo, pronome, adjunto</td>
+<td>há 2 análises sintáticas?</td>
+</tr>
+<tr class="odd">
+<td><strong>Posto</strong></td>
+<td>o que se <strong>afirma</strong></td>
+<td>o enunciado explícito</td>
+<td><strong>cai</strong> sob negação</td>
+</tr>
+<tr class="even">
+<td><strong>Pressuposto</strong></td>
+<td>o que se <strong>dá por certo</strong></td>
+<td>gatilho lexical</td>
+<td><strong>sobrevive</strong> à negação</td>
+</tr>
+<tr class="odd">
+<td><strong>Subentendido</strong></td>
+<td>o que se <strong>sugere</strong></td>
+<td>nenhuma (contexto)</td>
+<td>é <strong>cancelável</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Gatilhos de pressuposição</strong>: aspectuais (<em>parar de, continuar, voltar a</em>), factivos (<em>saber, lamentar, descobrir</em>), advérbios (<em>ainda, já, também</em>), adjetivas restritivas, artigo definido, avaliativos.</p>
+<p>Em uma linha: a <strong>ambiguidade</strong> é a frase que diz <strong>duas coisas</strong>; o <strong>pressuposto</strong> é o que a frase diz <strong>sem afirmar</strong> — e sobrevive à negação, o que o torna difícil de contestar.</p>
+</section>
+<section id="pegadinhas-e-erros-comuns" class="level2" data-number="66.6">
+<h2 data-number="66.6" class="anchored" data-anchor-id="pegadinhas-e-erros-comuns"><span class="header-section-number">66.6</span> ⚠️ Pegadinhas e erros comuns</h2>
+<ul>
+<li><strong>Confundir ambiguidade lexical com estrutural.</strong> A primeira está na <strong>palavra</strong> (<em>banco</em>); a segunda, na <strong>combinação</strong> (“vi o filho do vizinho correndo”).</li>
+<li><strong>Achar que toda frase ambígua é erro.</strong> Depende do gênero: erro no contrato, recurso na charge.</li>
+<li><strong>Confundir posto com pressuposto.</strong> Aplique a <strong>negação</strong>: o que sobrevive é pressuposto.</li>
+<li><strong>Confundir pressuposto com subentendido.</strong> O pressuposto tem <strong>gatilho na língua</strong> e compromete o falante; o subentendido depende do contexto e é <strong>cancelável</strong>.</li>
+<li><strong>Não perceber o pressuposto da adjetiva restritiva.</strong> “Os alunos que colaram serão punidos” <strong>pressupõe</strong> que houve cola. A explicativa não faria isso do mesmo modo (<a href="cap-60-pontuacao-periodo-composto.html" class="quarto-xref"><span>Capítulo 62</span></a>).</li>
+<li><strong>Responder a pergunta capciosa.</strong> “Sim” e “não” aceitam o pressuposto. A saída é <strong>recusar a moldura</strong>.</li>
+<li><strong>Supor que detectar pressuposto é questão de norma culta.</strong> É questão de <strong>letramento crítico</strong> — competência independente do domínio da norma-padrão.</li>
+</ul>
+</section>
+<section id="exercícios" class="level2" data-number="66.7">
+<h2 data-number="66.7" class="anchored" data-anchor-id="exercícios"><span class="header-section-number">66.7</span> ✍️ Exercícios</h2>
+<p><strong>1.</strong> Identifique o tipo de ambiguidade e desfaça-a: “Vi o filho do vizinho correndo.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Ambiguidade estrutural</strong> (sintática), por <strong>escopo do gerúndio</strong>: <em>correndo</em> pode ligar-se a <em>filho</em> ou a <em>vi</em> (isto é, ao sujeito da oração).</p>
+<p>Duas leituras:</p>
+<ol type="1">
+<li><strong>O filho corria</strong> → “Vi o filho do vizinho, <strong>que corria</strong>.” / “Vi o filho do vizinho <strong>enquanto ele corria</strong>.”</li>
+<li><strong>Eu corria</strong> → “<strong>Enquanto eu corria,</strong> vi o filho do vizinho.” / “Vi, <strong>correndo</strong>, o filho do vizinho.”</li>
+</ol>
+<p>As três ferramentas em ação: <strong>reordenar</strong> (deslocar o gerúndio), <strong>pontuar</strong> (isolar com vírgula) e <strong>explicitar</strong> (substituir o gerúndio por oração desenvolvida, com sujeito expresso). A terceira é a mais segura.</p>
+</div>
+</div>
+</div>
+<p><strong>2.</strong> Determine o posto e o pressuposto: “A empresa continua poluindo o rio.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Posto</strong> (afirmado): a empresa polui o rio <strong>atualmente</strong>.</li>
+<li><strong>Pressuposto</strong> (dado por certo): a empresa <strong>já poluía antes</strong>.</li>
+</ul>
+<p>O gatilho é o <strong>verbo aspectual <em>continuar</em></strong>, que exige a persistência de um estado anterior.</p>
+<p><strong>Teste da negação</strong>: “A empresa <strong>não</strong> continua poluindo o rio.” O posto desaparece (ela não polui hoje), mas o pressuposto <strong>sobrevive intacto</strong> — a frase negada continua assumindo que ela poluía antes. Só o pressuposto resiste, o que confirma a classificação.</p>
+</div>
+</div>
+</div>
+<p><strong>3.</strong> Explique por que “Você já parou de fraudar as licitações?” é uma pergunta capciosa.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Porque o gatilho aspectual <strong><em>parar de</em></strong> dispara o pressuposto <strong>“você fraudava licitações”</strong>, e esse pressuposto <strong>não é afetado por nenhuma das respostas possíveis</strong>:</p>
+<ul>
+<li><strong>“Sim, parei”</strong> → admite que fraudava (e deixou de fraudar).</li>
+<li><strong>“Não, não parei”</strong> → admite que fraudava (e continua fraudando).</li>
+</ul>
+<p>Ambas as respostas <strong>aceitam a moldura</strong> e, portanto, condenam. É a assinatura do pressuposto: ele sobrevive à negação, logo sobrevive à recusa mais óbvia.</p>
+<p>A única saída é <strong>recusar o pressuposto em vez de responder à pergunta</strong>: “Eu nunca fraudei licitação alguma — a pergunta parte de uma premissa falsa.” Isso exige perceber a armadilha, o que a pressa de responder normalmente impede. Por isso a técnica é eficaz em interrogatórios e entrevistas hostis.</p>
+</div>
+</div>
+</div>
+<p><strong>4.</strong> (Estilo ENEM) Na manchete “Mulher é presa por matar marido com facada na delegacia”, o problema decorre de:</p>
+<ol type="a">
+<li>ambiguidade lexical, pela polissemia de <em>facada</em>;</li>
+<li>ambiguidade estrutural, pelo escopo indefinido do adjunto adverbial;</li>
+<li>erro de concordância verbal;</li>
+<li>pressuposição de culpa;</li>
+<li>uso conotativo de <em>presa</em>.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Alternativa (b).</strong> O adjunto adverbial de lugar “<strong>na delegacia</strong>” pode ligar-se a três núcleos diferentes, gerando três leituras:</p>
+<ol type="1">
+<li>a <strong>prisão</strong> ocorreu na delegacia;</li>
+<li>o <strong>assassinato</strong> ocorreu na delegacia;</li>
+<li>a <strong>facada</strong> foi desferida na delegacia (leitura próxima da 2).</li>
+</ol>
+<p>As palavras são todas unívocas — o problema está na <strong>combinação sintática</strong>, não no léxico, o que descarta (a). A solução seria reordenar: “Na delegacia, mulher é presa por matar marido com facada” (leitura 1) ou explicitar: “Mulher é presa por ter matado o marido a facadas dentro da delegacia” (leitura 2).</p>
+<p>O caso é típico do jornalismo: a compressão da manchete elimina justamente as palavras que fixariam o escopo.</p>
+</div>
+</div>
+</div>
+<p><strong>5.</strong> Aplique o teste da negação e identifique o pressuposto: “Ela lamenta que o projeto tenha sido cancelado.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Posto</strong>: ela sente pesar.</li>
+<li><strong>Pressuposto</strong>: <strong>o projeto foi cancelado</strong>.</li>
+</ul>
+<p>O gatilho é o <strong>verbo factivo <em>lamentar</em></strong>. Verbos factivos (<em>saber, lamentar, descobrir, perceber, esquecer</em>) pressupõem a <strong>verdade</strong> de sua oração completiva.</p>
+<p><strong>Teste</strong>: “Ela <strong>não</strong> lamenta que o projeto tenha sido cancelado.” O posto cai (ela não sente pesar — talvez esteja aliviada), mas o cancelamento do projeto <strong>permanece dado como certo</strong>. Nas duas versões, o projeto foi cancelado.</p>
+<p>Compare com um verbo <strong>não factivo</strong>: “Ela <strong>acha</strong> que o projeto foi cancelado” — aqui não há pressuposto algum. O projeto pode não ter sido cancelado; ela apenas acredita que sim. É o traço de factividade que produz o pressuposto.</p>
+</div>
+</div>
+</div>
+<p><strong>6.</strong> (Estilo Cebraspe — Certo/Errado) Julgue: “Em ‘Ele voltou a mentir’, a informação de que ele mentira antes constitui um subentendido.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Errado.</strong> Trata-se de um <strong>pressuposto</strong>, não de um subentendido.</p>
+<p>A distinção: o <strong>pressuposto</strong> tem <strong>gatilho formal na língua</strong> — aqui, a locução iterativa <strong><em>voltar a</em></strong>, que exige uma ocorrência anterior. É objetivo, testável pela negação (“Ele <strong>não</strong> voltou a mentir” continua assumindo que ele mentira) e <strong>compromete o falante</strong>: ele não pode alegar “não foi isso que eu disse”.</p>
+<p>O <strong>subentendido</strong> (implicatura) não tem marca formal, depende do contexto e é <strong>cancelável</strong> sem contradição — como em “Está frio aqui” para sugerir “feche a janela”, que o falante pode negar ter pedido.</p>
+<p>Como há gatilho lexical e o implícito resiste à negação, o caso é de pressuposição.</p>
+</div>
+</div>
+</div>
+<p><strong>7.</strong> Analise os pressupostos do slogan: “Finalmente, um sabão em pó que limpa de verdade.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Há <strong>dois gatilhos</strong> operando em conjunto:</p>
+<ol type="1">
+<li><strong>“Finalmente”</strong> (advérbio) → pressupõe que <strong>houve uma espera</strong>, que o produto demorou a existir e que sua ausência era sentida como falta.</li>
+<li><strong>Adjetiva restritiva “que limpa de verdade”</strong> → pressupõe que existem sabões em pó que <strong>não</strong> limpam de verdade. A restritiva delimita um subconjunto e, ao fazê-lo, afirma a existência do complemento (<a href="cap-60-pontuacao-periodo-composto.html" class="quarto-xref"><span>Capítulo 62</span></a>).</li>
+</ol>
+<p>Combinados, os dois constroem a conclusão: <strong>os concorrentes não funcionam</strong>.</p>
+<p>O detalhe estratégico: essa conclusão <strong>nunca é afirmada</strong>. Se acusado de propaganda comparativa desleal, o anunciante pode alegar que não disse nada sobre os concorrentes — e literalmente não disse. Mas o consumidor <strong>aceitou</strong> a informação, porque pressupostos entram sem passar pelo crivo crítico. É a conotação (<a href="cap-61-denotacao-conotacao.html" class="quarto-xref"><span>Capítulo 63</span></a>) e o pressuposto operando como escudos jurídicos simultâneos.</p>
+</div>
+</div>
+</div>
+<p><strong>8.</strong> Desfaça a ambiguidade de três modos distintos: “João disse a Pedro que ele havia errado.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Ambiguidade estrutural</strong> por <strong>referência pronominal</strong>: o pronome <em>ele</em> pode retomar <em>João</em> ou <em>Pedro</em>.</p>
+<p>Três reescritas:</p>
+<ol type="1">
+<li><strong>Explicitar o nome</strong>: “João disse a Pedro que <strong>Pedro</strong> havia errado.” / “João disse a Pedro que <strong>João</strong> havia errado.”</li>
+<li><strong>Reestruturar com discurso direto</strong>: “João disse a Pedro: ‘<strong>Você</strong> errou.’” / “João disse a Pedro: ‘<strong>Eu</strong> errei.’”</li>
+<li><strong>Reordenar ou usar o reflexivo</strong>: “João <strong>admitiu a Pedro que errara</strong>” (se o errado é João) / “João <strong>acusou Pedro de ter errado</strong>” (se o errado é Pedro).</li>
+</ol>
+<p>A terceira é a melhor: a escolha lexical (<em>admitir</em> × <em>acusar</em>) elimina a ambiguidade sem repetir nomes e ainda ganha precisão sobre o ato de fala realizado.</p>
+</div>
+</div>
+</div>
+<p><strong>9.</strong> (Estilo FUVEST) Compare, quanto ao que pressupõem: (a) “Os deputados que receberam propina serão julgados.”; (b) “Os deputados, que receberam propina, serão julgados.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>A vírgula muda o tipo de adjetiva e, com ele, o pressuposto.</p>
+<p><strong>(a) Restritiva</strong> (sem vírgulas): delimita um <strong>subconjunto</strong>. Pressupõe que <strong>alguns</strong> deputados receberam propina e outros não; apenas os primeiros serão julgados. O pressuposto é a <strong>existência do subconjunto</strong> — a frase assume, sem afirmar, que houve propina.</p>
+<p><strong>(b) Explicativa</strong> (entre vírgulas): informa sobre a <strong>totalidade</strong>. Pressupõe que <strong>todos</strong> os deputados referidos receberam propina, e todos serão julgados. A acusação é <strong>coletiva</strong>.</p>
+<p>O que o par ensina: a pontuação não é acessória à pressuposição — ela <strong>determina</strong> o pressuposto. Em (b), um par de vírgulas acusa uma categoria inteira sem que a frase o afirme. Num texto jornalístico, isso é potencialmente difamatório; e o autor poderia alegar que “não disse que todos receberam” — embora tenha dito, pela porta dos fundos (<a href="cap-60-pontuacao-periodo-composto.html" class="quarto-xref"><span>Capítulo 62</span></a>).</p>
+</div>
+</div>
+</div>
+<p><strong>10.</strong> Reescreva o trecho eliminando ambiguidades e explicitando os pressupostos: “O diretor voltou a criticar os funcionários que faltam às reuniões na sala dele.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Ambiguidades identificadas:</strong></p>
+<ol type="1">
+<li><strong>“na sala dele”</strong> — escopo indefinido: as reuniões ocorrem na sala? As críticas ocorreram na sala? De quem é a sala — do diretor ou dos funcionários?</li>
+<li><strong>“dele”</strong> — referência pronominal indefinida (diretor ou funcionário).</li>
+</ol>
+<p><strong>Pressupostos identificados:</strong></p>
+<ol type="1">
+<li><strong><em>voltar a</em></strong> (iterativo) → o diretor <strong>já criticara antes</strong>.</li>
+<li><strong>adjetiva restritiva “que faltam às reuniões”</strong> → <strong>alguns</strong> funcionários faltam (e outros não).</li>
+</ol>
+<p><strong>Reescrita possível, com tudo explícito:</strong></p>
+<p>“Na sala do diretor, ele <strong>criticou novamente</strong> os funcionários — <strong>alguns dos quais têm faltado às reuniões</strong>.”</p>
+<p>Ou, mais direta e sem implícitos:</p>
+<p>“Alguns funcionários têm faltado às reuniões. O diretor já os criticara antes e, nesta segunda-feira, criticou-os outra vez, em sua sala.”</p>
+<p>Comentário: a segunda versão <strong>desfaz os pressupostos convertendo-os em postos</strong> — a informação que antes entrava pela porta dos fundos passa a ser afirmada e, portanto, fica disponível para contestação. É exatamente esse o ganho da escrita explícita em gêneros que exigem precisão: nada de relevante fica submerso.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="referências" class="level2" data-number="66.8">
+<h2 data-number="66.8" class="anchored" data-anchor-id="referências"><span class="header-section-number">66.8</span> 📚 Referências</h2>
+<p>O tratamento da ambiguidade e da distinção entre posto e pressuposto, bem como o teste da negação e o inventário de gatilhos, apoia-se em Ilari <span class="citation" data-cites="ilari2001">(<a href="cap-01-linguagem-lingua-fala.html#ref-ilari2001" role="doc-biblioref">Ilari, 2001</a>)</span> e Ilari &amp; Basso <span class="citation" data-cites="ilaribasso2006">(<a href="cap-01-linguagem-lingua-fala.html#ref-ilaribasso2006" role="doc-biblioref">Ilari; Basso, 2006</a>)</span>; a discussão dos implícitos, da implicatura e do funcionamento argumentativo do pressuposto segue Koch <span class="citation" data-cites="koch2015texto">(<a href="cap-01-linguagem-lingua-fala.html#ref-koch2015texto" role="doc-biblioref">Koch; Elias, 2015</a>)</span> e Marcuschi <span class="citation" data-cites="marcuschi2008">(<a href="cap-01-linguagem-lingua-fala.html#ref-marcuschi2008" role="doc-biblioref">Marcuschi, 2008</a>)</span>. Para a ambiguidade lexical e seus mecanismos, veja o <a href="cap-63-polissemia-homonimia-paronimia.html" class="quarto-xref"><span>Capítulo 65</span></a>; para o papel da vírgula na determinação do pressuposto da adjetiva, o <a href="cap-60-pontuacao-periodo-composto.html" class="quarto-xref"><span>Capítulo 62</span></a>; para a técnica de reescrita, o <a href="cap-80-revisao-reescrita.html" class="quarto-xref"><span>Capítulo 82</span></a>. O tema retorna, pelo ângulo da leitura crítica, no <a href="cap-82-inferencia-pressuposto-subentendido.html" class="quarto-xref"><span>Capítulo 84</span></a>, e a relação entre letramento crítico e cidadania é discutida no <a href="cap-91-preconceito-linguistico.html" class="quarto-xref"><span>Capítulo 93</span></a>. Os próximos dois capítulos tratam das figuras de linguagem.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-ilari2001" class="csl-entry" role="listitem">
+ILARI, Rodolfo. <strong>Introdução à Semântica: brincando com a gramática</strong>. São Paulo: Contexto, 2001.
+</div>
+<div id="ref-ilaribasso2006" class="csl-entry" role="listitem">
+ILARI, Rodolfo; BASSO, Renato. <strong>O Português da Gente: a língua que estudamos, a língua que falamos</strong>. São Paulo: Contexto, 2006.
+</div>
+<div id="ref-koch2015texto" class="csl-entry" role="listitem">
+KOCH, Ingedore Grunfeld Villaça; ELIAS, Vanda Maria. <strong>O Texto e a Construção dos Sentidos</strong>. São Paulo: Contexto, 2015.
+</div>
+<div id="ref-marcuschi2008" class="csl-entry" role="listitem">
+MARCUSCHI, Luiz Antônio. <strong>Produção Textual, Análise de Gêneros e Compreensão</strong>. São Paulo: Parábola, 2008.
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
