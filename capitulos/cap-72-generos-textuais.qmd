@@ -4,22 +4,595 @@ title: "Gêneros textuais"
 
 # Gêneros textuais {#sec-cap-72}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 11 — Linguística Textual.
+> "Não falamos por frases nem por tipos: falamos por gêneros. Eles são as formas de vida da
+> linguagem."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O capítulo anterior apresentou os cinco tipos textuais e insistiu numa advertência: eles
+são uma **grade analítica**, fechada e estável. Este capítulo trata da outra categoria — a
+**aberta**, **infinita** e **histórica**: os **gêneros textuais**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+E aqui há uma inversão de perspectiva que vale antecipar. A tradição escolar trata os
+gêneros como um apêndice: primeiro ensina-se a "matéria séria" (gramática, tipos), depois
+menciona-se que "existem também" a carta, o e-mail, o anúncio. A linguística textual
+contemporânea inverte isso: os gêneros são a **realidade primeira** da comunicação. Ninguém
+jamais produziu um "texto argumentativo" em abstrato — produz-se um editorial, uma redação
+de vestibular, uma petição, um comentário no Instagram. O tipo é uma abstração que
+extraímos depois; o gênero é o que efetivamente se faz.
+
+Marcuschi [@marcuschi2008] formula isso com precisão: os gêneros são **artefatos culturais
+construídos historicamente**, e é impossível comunicar-se fora deles. Não há linguagem
+"solta": toda enunciação assume alguma forma socialmente reconhecível.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** gênero textual e explicar por que é categoria sócio-histórica;
+- **Identificar** os elementos que constituem um gênero: função, situação, forma, suporte;
+- **Explicar** por que os gêneros nascem, mudam e morrem;
+- **Distinguir** gênero de suporte e de domínio discursivo;
+- **Analisar** um gênero desconhecido a partir de suas condições de produção;
+- **Reconhecer** o papel dos gêneros digitais e sua relação com os anteriores.
+
+## O que constitui um gênero
+
+Um gênero não se define pela **forma** apenas. Se fosse assim, bastaria contar linhas e
+identificar verbos. Ele se define pela combinação de **quatro** elementos.
+
+::: {.callout-important}
+## Os quatro elementos de um gênero
+1. **Função (propósito comunicativo)** — para que serve? Convencer, instruir, registrar,
+   divertir, cumprimentar, denunciar?
+2. **Situação (condições de produção)** — quem escreve para quem, quando, onde, com que
+   relação de poder entre os interlocutores?
+3. **Forma (composição e estilo)** — que estrutura, que extensão, que registro, que tipos
+   textuais mobiliza?
+4. **Suporte** — em que meio circula? (papel, tela, placa, muro, tela de celular)
+
+O elemento decisivo é o **primeiro**: é a **função numa situação** que faz o gênero. A
+forma é consequência, não causa.
+:::
+
+Veja como isso opera. Considere estas duas frases:
+
+> "Estou com saudade."
+
+Sozinha, ela não é gênero algum. Mas:
+
+- num **bilhete** deixado na geladeira → gênero bilhete;
+- num **e-mail** para um amigo distante → gênero e-mail pessoal;
+- num **verso** de canção → gênero letra de canção;
+- numa **mensagem de WhatsApp** → gênero mensagem instantânea;
+- numa **carta** de 1890 → gênero carta pessoal do séc. XIX.
+
+Mesma frase, cinco gêneros. O que muda não é o texto: é a **situação** e o **suporte**. É
+a tese do @sec-cap-68 reaparecendo — a textualidade não está no papel.
+
+## Gênero, suporte e domínio: três coisas diferentes
+
+Aqui reside uma confusão frequente, que vale desfazer com cuidado.
+
+- **Gênero** — a **prática** de linguagem: notícia, editorial, receita, petição.
+- **Suporte** — o **meio material** que fixa e transporta o texto: jornal, livro, tela,
+  placa, outdoor, celular.
+- **Domínio discursivo** — a **esfera social** em que a prática ocorre: jornalístico,
+  jurídico, religioso, acadêmico, publicitário, cotidiano.
+
+O erro típico: dizer que "jornal é um gênero". Não é — jornal é **suporte** (e
+*jornalístico* é o domínio). Dentro do jornal circulam **muitos gêneros**: notícia,
+reportagem, editorial, crônica, carta do leitor, classificado, horóscopo, charge,
+obituário. Cada um com função e forma próprias.
+
+Do mesmo modo: "internet não é gênero". É suporte (ou, mais precisamente, um conjunto de
+suportes). Nela circulam gêneros — e-mail, tuíte, post, comentário, meme, artigo, live.
+
+::: {#fig-generos}
+
+```{.tikz}
+%%| filename: generos
+%%| alt: Esquema em três níveis distinguindo domínio discursivo, suporte e gênero. No topo, domínio discursivo, a esfera social, com exemplos jornalístico, jurídico, acadêmico e cotidiano. No meio, suporte, o meio material que transporta o texto, com exemplos jornal, tela, placa e celular. Embaixo, gênero, a prática de linguagem, com exemplos notícia, editorial, crônica, charge e classificado, todos circulando no suporte jornal. Ao lado, os quatro elementos que constituem um gênero: função, que é o propósito e o elemento decisivo; situação, que são as condições de produção; forma, que é a composição e o estilo; e suporte, que é o meio de circulação. Abaixo, a observação de que jornal não é gênero, é suporte, e que dentro dele circulam muitos gêneros.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[cx, draw=manualgray, fill=manualgray!14, text width=64mm] (dom) at (-2.6,2.8)
+    {\textbf{DOMÍNIO DISCURSIVO} — a \emph{esfera social}\\
+     jornalístico · jurídico · acadêmico · religioso · cotidiano};
+
+  \node[cx, draw=manualblue, fill=manualblue!12, text width=64mm] (sup) at (-2.6,1.5)
+    {\textbf{SUPORTE} — o \emph{meio material}\\
+     jornal · livro · tela · placa · celular · muro};
+
+  \node[cx, draw=manualred, fill=manualred!12, text width=64mm] (gen) at (-2.6,0.2)
+    {\textbf{GÊNERO} — a \emph{prática} de linguagem};
+
+  \draw[s] (dom) -- (sup); \draw[s] (sup) -- (gen);
+
+  \node[cx, draw=manualred, fill=manualred!4, text width=17mm] (g1) at (-6.0,-1.3) {notícia};
+  \node[cx, draw=manualred, fill=manualred!4, text width=17mm] (g2) at (-4.3,-1.3) {editorial};
+  \node[cx, draw=manualred, fill=manualred!4, text width=17mm] (g3) at (-2.6,-1.3) {crônica};
+  \node[cx, draw=manualred, fill=manualred!4, text width=17mm] (g4) at (-0.9,-1.3) {charge};
+  \node[cx, draw=manualred, fill=manualred!4, text width=19mm] (g5) at (0.9,-1.3) {classificado};
+  \draw[s] (gen) -- (g1); \draw[s] (gen) -- (g2); \draw[s] (gen) -- (g3);
+  \draw[s] (gen) -- (g4); \draw[s] (gen) -- (g5);
+
+  \node[font=\scriptsize\itshape, text=manualgray, anchor=north, text width=70mm, align=center] at (-2.6,-2.0)
+    {todos circulam no suporte \textbf{jornal} — logo, \textbf{jornal não é gênero}};
+
+  %% elementos
+  \node[cx, draw=manualgreen, fill=manualgreen!8, text width=42mm, align=left] at (5.4,1.0)
+    {\textbf{O que constitui um gênero}\\[3pt]
+     \textbf{1. FUNÇÃO} — para quê?\\ {\scriptsize(o elemento \textbf{decisivo})}\\[2pt]
+     \textbf{2. SITUAÇÃO} — quem, para quem\\[2pt]
+     \textbf{3. FORMA} — composição, estilo\\[2pt]
+     \textbf{4. SUPORTE} — onde circula};
+\end{tikzpicture}
+```
+
+Três níveis que não se confundem. O **gênero** é a prática; o **suporte**, o meio que a
+transporta; o **domínio**, a esfera social. E o que faz o gênero é, antes de tudo, sua
+**função numa situação**.
+:::
+
+## Os gêneros são históricos
+
+Esta é a propriedade que os distingue radicalmente dos tipos. Os cinco tipos são estáveis
+há milênios: gregos e romanos já narravam, descreviam e argumentavam com os mesmos
+mecanismos. Os **gêneros**, não — eles **nascem, mudam e morrem** conforme mudam as
+práticas sociais.
+
+**Gêneros que morreram ou definham**: o telegrama (morto pelo custo e pela velocidade dos
+substitutos), a carta pessoal manuscrita, o classificado impresso, o fax, o cartão-postal,
+a ata datilografada, a lista telefônica.
+
+**Gêneros que nasceram**: o e-mail, o tuíte, o post, o comentário, o meme, o *stories*, a
+*thread*, a live, a mensagem de voz, o vídeo curto legendado.
+
+**Gêneros que mudaram**: a receita (do livro de família ao blog com história pessoal e
+vídeo); a notícia (do lide impresso ao push de celular); o currículo (da folha datilografada
+ao perfil de plataforma).
+
+::: {.callout-important}
+## Novos gêneros não nascem do nada
+Um ponto teórico importante: os gêneros novos **derivam** de anteriores, por adaptação a
+novas condições. Marcuschi [@marcuschi2008] insiste nisso.
+
+- O **e-mail** descende da **carta** — herdou saudação, corpo, despedida, assinatura. Mas
+  perdeu a formalidade, ganhou velocidade e mudou de suporte.
+- O **tuíte** descende do **telegrama** e da **manchete** — a compressão extrema por
+  limite físico (caracteres, custo por palavra) produz efeitos formais análogos.
+- O **blog** descende do **diário** e da **crônica**.
+- O **meme** descende da **charge** e da **piada**.
+
+O que isso mostra: não há ruptura, há **transformação**. A tecnologia não cria gêneros do
+zero — ela cria **condições novas**, e os gêneros existentes se reconfiguram. Por isso a
+tese de que "a internet está criando uma linguagem nova" é, no mínimo, exagerada: está
+criando **suportes** novos, e os gêneros se adaptaram — como sempre fizeram.
+:::
+
+## Analisar um gênero desconhecido
+
+A utilidade prática do capítulo é esta: com a grade dos quatro elementos, você consegue
+analisar **qualquer** gênero, inclusive um que nunca estudou. Basta perguntar:
+
+1. **Qual a função?** O que este texto quer fazer com o leitor?
+2. **Qual a situação?** Quem escreve, para quem, em que relação?
+3. **Que forma isso impõe?** Extensão, estrutura, registro, tipos mobilizados.
+4. **Onde circula?** Como o suporte condiciona o resto?
+
+Aplique ao **boletim de ocorrência**:
+
+- **Função**: registrar oficialmente a versão de um fato, para efeitos legais.
+- **Situação**: cidadão relata a um agente do Estado, que transcreve; assimetria de poder;
+  o texto poderá ser usado em juízo.
+- **Forma**: narração em terceira pessoa, pretérito perfeito, registro formal, campos
+  fixos, verbos de dizer que marcam distância ("**alega** o comunicante que..."). Nada de
+  avaliação: o agente não pode opinar.
+- **Suporte**: formulário padronizado, hoje digital.
+
+Note como a **função** explica a **forma**: o "alega o comunicante" não é preciosismo
+burocrático — é a marca linguística de que o Estado **registra sem endossar**. A forma
+decorre da função.
+
+## Gêneros e ensino
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Aqui os gêneros lançam luz sobre uma questão que atravessa todo o manual.
+
+A pergunta "isto está correto?" quase sempre está mal formulada. A pergunta útil é "isto é
+**adequado a este gênero**?".
+
+- "Fala, galera!" — **inadequado** num ofício, **perfeito** num vídeo de divulgação para
+  jovens.
+- "Outrossim, cumpre salientar" — **adequado** num parecer jurídico, **ridículo** num
+  WhatsApp para a namorada.
+- "vc vem?" — **adequado** numa mensagem instantânea, **inadequado** num e-mail
+  profissional.
+
+Nenhum dos seis é "erro de português". Todos são **acertos ou erros de gênero**.
+
+Isso reposiciona o ensino de língua. O objetivo não é fazer o aluno falar sempre na
+norma-padrão — objetivo tolo, que nenhum falante culto cumpre (ninguém usa mesóclise no
+bar). O objetivo é ampliar seu **repertório de gêneros**, para que ele **transite** entre
+eles: que saiba escrever o ofício **e** o WhatsApp, e saiba **qual** usar quando
+[@marcuschi2008; @faraco2008].
+
+O aluno que só domina a variedade de casa está limitado; o que só domina a norma escolar
+também. A meta é o **trânsito** — e é uma meta muito mais ambiciosa, e mais respeitosa, do
+que a substituição de uma variedade por outra (@sec-cap-91).
+:::
+
+## 📋 Quadro-resumo
+
+**Definição**: gênero textual é uma **prática social de linguagem**, definida por sua
+**função numa situação**, com forma e suporte relativamente estabilizados. É categoria
+**sócio-histórica**: aberta, infinita e mutável.
+
+**Os quatro elementos**: **função** (para quê — o decisivo), **situação** (quem, para
+quem), **forma** (composição, estilo, tipos), **suporte** (onde circula).
+
+**Três níveis que não se confundem:**
+
+| | Definição | Exemplos |
+|---|---|---|
+| **Domínio discursivo** | esfera social | jornalístico, jurídico, acadêmico |
+| **Suporte** | meio material | jornal, tela, placa, celular |
+| **Gênero** | prática de linguagem | notícia, editorial, crônica, meme |
+
+**Tipo × gênero** (síntese do @sec-cap-71):
+
+| | **Tipo** | **Gênero** |
+|---|---|---|
+| Conjunto | fechado (5) | aberto (infinito) |
+| Natureza | linguística | sócio-histórica |
+| Estabilidade | universal | histórico, mutável |
+| Definido por | traços internos | função e situação |
+
+Em uma linha: **falamos por gêneros, não por tipos** — e a pergunta certa nunca é "está
+correto?", mas "**é adequado a este gênero?**".
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir gênero com tipo.** "Gênero narrativo" ✗ — narrativo é **tipo**. Gênero é
+  conto, notícia, piada (@sec-cap-71).
+- **Confundir gênero com suporte.** "Jornal é gênero" ✗ — é **suporte**; nele circulam
+  notícia, editorial, charge, classificado.
+- **Confundir gênero com domínio.** "Jurídico é gênero" ✗ — é **domínio**; os gêneros são
+  petição, sentença, parecer, contrato.
+- **Definir gênero pela forma.** A forma é **consequência** da função. O "alega o
+  comunicante" do BO decorre da função de registrar sem endossar.
+- **Achar que gêneros digitais são ruptura total.** Descendem de anteriores: e-mail ←
+  carta; tuíte ← telegrama; meme ← charge.
+- **Achar que gênero é assunto secundário.** É a **realidade primeira** da comunicação —
+  ninguém produz "tipo argumentativo" em abstrato.
+- **Perguntar "está correto?".** Pergunte "**é adequado a este gênero?**". "Fala, galera"
+  não é erro; é escolha certa ou errada conforme o gênero.
+
+## ✍️ Exercícios
+
+**1.** Explique por que "jornal" não é um gênero textual.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque jornal é **suporte** — o meio material que fixa e transporta textos —, não uma
+prática de linguagem.
+
+Dentro do jornal circulam **muitos gêneros distintos**, cada um com função e forma próprias:
+
+- **notícia** — informar um fato (narração, impessoalidade);
+- **editorial** — defender a posição institucional (argumentação);
+- **crônica** — refletir sobre o cotidiano (híbrido, subjetivo);
+- **carta do leitor** — manifestar opinião do público;
+- **classificado** — anunciar (descrição condensada);
+- **charge** — criticar pelo humor (multimodal);
+- **obituário**, **horóscopo**, **previsão do tempo**...
+
+Se "jornal" fosse gênero, todos esses textos teriam a mesma função e a mesma forma — e não
+têm.
+
+**A distinção completa em três níveis**: *jornalístico* é o **domínio discursivo** (esfera
+social); *jornal* é o **suporte** (meio material); *notícia*, *editorial* e *charge* são os
+**gêneros** (práticas). O mesmo raciocínio vale para "internet": é suporte, não gênero.
+:::
+
+**2.** Analise o gênero "boletim de ocorrência" pelos quatro elementos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**1. Função**: registrar **oficialmente** a versão de um fato, para efeitos legais. Não é
+investigar nem julgar — é **documentar** que alguém declarou algo em determinada data.
+
+**2. Situação**: um cidadão relata a um agente do Estado, que **transcreve**. Há
+**assimetria de poder** (o agente detém a forma; o cidadão, o conteúdo) e o texto tem
+**consequências jurídicas** — poderá ser usado em juízo, e o falso comunicado é crime.
+
+**3. Forma**: narração em **terceira pessoa**, **pretérito perfeito**, registro **formal**,
+campos padronizados, e — o traço decisivo — **verbos de dizer que marcam distância**:
+"**alega** o comunicante que...", "**segundo** o declarante...". Ausência total de
+avaliação: o agente não pode opinar sobre a veracidade.
+
+**4. Suporte**: formulário padronizado, historicamente em papel, hoje predominantemente
+digital (com versões de autoatendimento on-line).
+
+**A articulação — o ponto do exercício**: note como a **função explica a forma**. O "alega
+o comunicante" não é preciosismo burocrático nem enfeite: é a **marca linguística** de que
+o Estado **registra sem endossar**. Se o BO dissesse "o vizinho furtou a bicicleta", o
+Estado estaria **afirmando** um crime não provado. Ao dizer "alega o comunicante que o
+vizinho furtou", registra a acusação sem assumi-la.
+
+A forma decorre da função — que é o princípio central da análise de gêneros.
+:::
+
+**3.** A frase "Estou com saudade" constitui um gênero? Justifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não, isoladamente.** Fora de qualquer situação, é apenas uma frase — não uma prática de
+linguagem.
+
+Ela **passa a integrar** gêneros distintos conforme a situação e o suporte:
+
+- num **bilhete** na geladeira → gênero **bilhete**;
+- num **e-mail** a um amigo distante → gênero **e-mail pessoal**;
+- num **verso** de canção → gênero **letra de canção**;
+- numa **mensagem de WhatsApp** → gênero **mensagem instantânea**;
+- numa **carta** de 1890 → gênero **carta pessoal do séc. XIX**;
+- numa **legenda de foto** no Instagram → gênero **post**.
+
+**O que muda**: não o texto — que é idêntico nos seis casos —, mas a **função**, a
+**situação**, o **suporte** e as **expectativas** que cada um mobiliza. Na carta de 1890,
+a frase é o núcleo de um texto longo e ritualizado; no WhatsApp, pode ser o texto inteiro,
+seguido de um emoji.
+
+**A lição**: gênero não se define pela forma nem pelo conteúdo, mas pela **função numa
+situação**. É a tese do @sec-cap-68 reaparecendo — a textualidade não está no papel; está
+na relação entre texto, usuários e situação.
+:::
+
+**4.** (Estilo ENEM) Sobre gêneros textuais, é correto afirmar que:
+
+a) constituem conjunto fechado, definido por traços linguísticos;
+b) são práticas sociais historicamente construídas, que nascem, mudam e morrem;
+c) jornal, revista e internet são exemplos de gêneros;
+d) são sinônimos de tipos textuais;
+e) independem da situação de comunicação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Gêneros são **artefatos culturais** construídos historicamente
+[@marcuschi2008], definidos por sua função numa situação. São **abertos, infinitos e
+mutáveis**: o telegrama morreu, o tuíte nasceu, a receita mudou.
+
+As demais: **(a)** descreve os **tipos** (fechado, cinco, traços linguísticos), não os
+gêneros; **(c)** confunde gênero com **suporte** — jornal e internet transportam gêneros,
+não são gêneros; **(d)** confunde as duas categorias, que diferem em natureza (linguística
+× sócio-histórica), extensão (5 × infinitos) e critério (traços × função); **(e)** inverte
+a definição — a **situação** é justamente constitutiva do gênero, e a mesma frase integra
+gêneros diferentes conforme a situação muda.
+:::
+
+**5.** Explique a afirmação: "novos gêneros não nascem do nada".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Significa que gêneros novos **derivam de anteriores**, por **adaptação a condições novas**
+— não por criação espontânea [@marcuschi2008].
+
+**Filiações claras:**
+
+- **e-mail ← carta**: herdou saudação, corpo, despedida e assinatura; perdeu formalidade,
+  ganhou velocidade, mudou de suporte.
+- **tuíte ← telegrama / manchete**: a **compressão extrema por limite físico** (caracteres
+  × custo por palavra) produz efeitos formais análogos — supressão de artigos, abreviação,
+  densidade.
+- **blog ← diário / crônica**: registro pessoal datado, em ordem cronológica inversa.
+- **meme ← charge / piada**: crítica ou humor por imagem + texto curto, com repertório
+  compartilhado.
+- **live ← programa de auditório / aula**.
+
+**O que a tese implica**: não há **ruptura**, há **transformação**. A tecnologia não cria
+gêneros do zero — ela cria **condições novas** (velocidade, alcance, limite de caracteres,
+multimodalidade), e os gêneros existentes se **reconfiguram** para ocupá-las.
+
+**Consequência crítica**: a tese popular de que "a internet está criando uma linguagem
+nova" é exagerada. A internet criou **suportes** novos; os gêneros se adaptaram — como
+sempre fizeram, desde que a imprensa criou o jornal e o telégrafo criou o telegrama. O
+processo é antigo; só a velocidade mudou.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "A expressão 'Fala, galera!' constitui erro
+de português."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Não há **nenhum** desvio da norma-padrão em "Fala, galera!": o verbo está no
+imperativo afirmativo corretamente formado, e *galera* é vocativo — item dicionarizado, de
+registro coloquial. Gramaticalmente, a construção é impecável.
+
+A questão é de **adequação ao gênero**, não de correção:
+
+- **Adequado**: vídeo de divulgação para jovens, podcast informal, story, conversa entre
+  amigos.
+- **Inadequado**: ofício, petição, artigo acadêmico, e-mail a um cliente desconhecido.
+
+**O reenquadramento que o capítulo propõe**: a pergunta "isto está correto?" quase sempre
+está mal formulada. A pergunta útil é "isto é **adequado a este gênero**?".
+
+Note a simetria, que é o que torna a lição incômoda para o purismo: "**Outrossim, cumpre
+salientar**" é igualmente adequado num parecer jurídico e **ridículo** num WhatsApp para a
+namorada. Nenhuma das duas expressões é erro; ambas são **acertos ou erros de gênero**.
+
+**A implicação para o ensino**: o objetivo não é substituir a variedade do aluno pela
+norma-padrão — é ampliar seu **repertório de gêneros**, para que ele **transite** entre
+eles e saiba **qual** usar quando [@faraco2008; @marcuschi2008].
+:::
+
+**7.** Liste três gêneros que morreram e três que nasceram nas últimas décadas, explicando
+as causas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Morreram (ou definham):**
+
+1. **Telegrama** — morto pelo **custo por palavra** e pela existência de substitutos
+   instantâneos e gratuitos. Sua marca formal (compressão extrema, supressão de artigos,
+   "PONTO FINAL") era resposta direta a uma restrição econômica que desapareceu.
+2. **Carta pessoal manuscrita** — substituída pelo e-mail e pela mensagem instantânea. A
+   causa é a **velocidade**: o gênero pressupunha dias de espera, e essa temporalidade
+   organizava sua forma (retomada do que se disse na carta anterior, notícias acumuladas).
+3. **Classificado impresso** — morto pelas **plataformas de busca**, que permitem filtro,
+   foto e contato direto. O gênero existia porque o espaço no papel era caro e escasso —
+   daí a abreviação extrema ("vd ap 2 qts, ót est").
+
+**Nasceram:**
+
+1. **Tuíte** — filho do **limite de caracteres** e da comunicação em rede pública. Herdou
+   do telegrama e da manchete a compressão.
+2. **Meme** — filho da **facilidade de edição e circulação de imagem** e do repertório
+   compartilhado em rede. Descende da charge e da piada.
+3. ***Stories*** — filho da **efemeridade programada** (24h) e da câmera no bolso.
+   Descende do diário e do instantâneo fotográfico.
+
+**O padrão que os casos revelam**: gêneros morrem quando desaparecem as **condições
+materiais e sociais** que os justificavam (custo, escassez de espaço, lentidão do
+transporte); e nascem quando surgem condições novas — sempre por **adaptação de gêneros
+anteriores**, nunca do nada. É o que confirma o caráter **sócio-histórico** da categoria
+(@sec-cap-71).
+:::
+
+**8.** Analise um gênero digital de sua escolha pelos quatro elementos, indicando sua
+filiação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível — o gênero **comentário de rede social**:
+
+**1. Função**: reagir publicamente a um conteúdo alheio — concordar, discordar, ironizar,
+complementar, atacar. Diferentemente da carta do leitor, é **imediato**, **público**,
+**sem curadoria** e **dialógico** (gera respostas).
+
+**2. Situação**: qualquer usuário dirige-se ao autor do conteúdo **e a uma audiência
+indeterminada** que assiste. Não há filtro editorial. A **assimetria** é baixa (qualquer
+um comenta), mas o **alcance** é desigual (curtidas e algoritmo hierarquizam). O
+comentarista sabe que está sendo lido por terceiros — e escreve **para a plateia**, não só
+para o interlocutor.
+
+**3. Forma**: extensão curta, registro informal, marcas de oralidade, emojis, abreviações,
+menções (@), hashtags. Tipos mobilizados: **argumentação** condensada (frequentemente sem
+os conectivos, que ficam implícitos) e **injunção** ("para de falar besteira"). Ausência de
+saudação e despedida — herança que **não** veio da carta.
+
+**4. Suporte**: plataforma digital, com interface que **condiciona o gênero** — limite de
+caracteres, ordenação por engajamento, possibilidade de resposta encadeada, botão de
+curtir.
+
+**Filiação**: descende da **carta do leitor** (reação pública a conteúdo jornalístico) e da
+**conversa de botequim** (informalidade, réplica imediata). Perdeu a **curadoria editorial**
+e o **atraso** da primeira; ganhou a **permanência** e o **público indeterminado**, que a
+segunda não tinha.
+
+**O ponto analítico**: a combinação inédita — informalidade de conversa + permanência de
+texto escrito + audiência ampla e desconhecida — explica boa parte dos conflitos do gênero.
+As pessoas escrevem com a **despreocupação da conversa** num suporte que tem a
+**permanência do documento** e o **alcance da imprensa**. A função explica a forma; o
+suporte explica o atrito.
+:::
+
+**9.** (Estilo FUVEST) Discuta a afirmação: "é impossível comunicar-se fora de um gênero".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é defensável e, corretamente entendida, verdadeira.**
+
+**O argumento a favor**: toda enunciação real ocorre numa **situação concreta**, com
+propósito, interlocutor e suporte — e essas condições **impõem** uma forma socialmente
+reconhecível. Não existe "linguagem em geral": existe pedido, saudação, ordem, relato,
+piada. Mesmo o ato mais banal ("oi") pertence a um gênero (a saudação), com regras
+tácitas — a quem se diz, quando, com que resposta esperada. Marcuschi [@marcuschi2008]
+formula assim: os gêneros são as formas de vida da linguagem, e comunicar-se **é**
+assumir uma delas.
+
+**Evidência pela violação**: tente falar "fora de gênero" e verá o resultado — o
+interlocutor **atribuirá** um gênero mesmo assim, ou julgará você incompreensível. Recitar
+uma lista de palavras numa reunião fará alguém supor que é poesia, piada ou crise. A
+atribuição de gênero é automática e inescapável do lado da recepção (é a
+**aceitabilidade** do @sec-cap-68 em ação).
+
+**As objeções, e por que não procedem:**
+
+1. *"E os gêneros novos? Quem os inventou estava fora de gênero."* — Não: estava
+   **adaptando** gêneros existentes a condições novas. O primeiro e-mail foi escrito como
+   carta.
+2. *"E a poesia experimental, que rompe as convenções?"* — Ela **depende** das convenções
+   para romper: só se percebe a ruptura contra o pano de fundo do gênero. A vanguarda
+   habita o gênero pelo avesso — o que é uma forma de habitá-lo.
+
+**O risco da tese**: se levada ao extremo, sugere um **determinismo** — como se o gênero
+falasse pelo falante, sem margem de invenção. Isso é falso. Os gêneros são **relativamente
+estabilizados**: oferecem moldes, não camisas de força. É justamente porque os falantes os
+esticam que eles mudam ao longo do tempo. A formulação precisa: não se comunica **fora** de
+gênero, mas se comunica **contra** e **através** dos gêneros — e é assim que nascem os
+novos.
+
+**Implicação para o ensino**: se é impossível estar fora de gênero, então ensinar língua é
+ensinar **gêneros** — e ampliar o repertório do aluno, não substituir sua variedade
+(@sec-cap-91).
+:::
+
+**10.** Compare notícia e editorial sobre o mesmo fato, analisando os quatro elementos de
+cada gênero.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Fato**: uma enchente destrói casas numa cidade do interior.
+
+| Elemento | **NOTÍCIA** | **EDITORIAL** |
+|---|---|---|
+| **Função** | **informar** o que ocorreu | **defender** a posição institucional do veículo |
+| **Situação** | repórter → leitor; compromisso com a factualidade; assinada ou não | o **jornal como instituição** → leitor e poder público; **não assinado** (é a voz da empresa) |
+| **Forma** | narração, pretérito perfeito, lide (o quê, quem, quando, onde, como, por quê), impessoalidade, fontes atribuídas | argumentação, presente atemporal, tese explícita, conectivos lógicos, operadores, avaliação declarada |
+| **Suporte** | jornal (papel/digital), primeiras páginas ou editoria | jornal, **página editorial** — posição fixa e conhecida |
+
+**O que a comparação revela:**
+
+1. **Mesmo suporte, mesmo domínio, gêneros distintos.** Ambos circulam no jornal
+   (suporte) e na esfera jornalística (domínio). O que os separa é a **função** — e a
+   função gera todo o resto.
+
+2. **A função explica cada traço formal.** A notícia atribui fontes ("segundo a Defesa
+   Civil") porque **não pode endossar**; o editorial afirma sem atribuir porque **é** o
+   endosso. A notícia é narrativa porque informa fatos; o editorial é argumentativo porque
+   defende tese (@sec-cap-71).
+
+3. **A ausência de assinatura no editorial não é descuido**: é a marca de que ali fala a
+   **instituição**, não um indivíduo. É um traço formal inteiramente derivado da situação.
+
+4. **A notícia não é "neutra".** Ela também escolhe o que contar, em que ordem e com que
+   verbos — mas seu gênero exige que essas escolhas fiquem **implícitas**. O editorial as
+   torna explícitas. A diferença não é presença × ausência de ponto de vista: é ponto de
+   vista **dissimulado pela convenção** × **declarado pela convenção**.
+
+**Síntese**: dois gêneros, um fato. A análise pelos quatro elementos mostra que a forma de
+cada texto não é escolha estética — é consequência da função numa situação.
+:::
+
+## 📚 Referências
+
+A concepção de gênero como prática social e artefato cultural historicamente construído, a
+distinção entre gênero, suporte e domínio discursivo, e a tese de que os gêneros digitais
+derivam de gêneros anteriores seguem Marcuschi [@marcuschi2008], referência central deste
+capítulo; a articulação entre gêneros, textualidade e situação de produção apoia-se em Koch
+[@koch2015texto] e Koch [@koch2018coesao]. A defesa do ensino centrado na ampliação do
+repertório de gêneros, e não na substituição da variedade do aluno, segue Faraco
+[@faraco2008] e Bagno [@bagno2011], e será retomada no @sec-cap-91. Para a distinção entre
+tipo e gênero, veja o @sec-cap-71; para a textualidade como relação, e não propriedade, o
+@sec-cap-68. Os gêneros específicos da escrita formal são tratados nos @sec-cap-77 a
+@sec-cap-79; os multimodais, no @sec-cap-84. O próximo capítulo trata da
+intertextualidade — o sétimo critério de textualidade e a propriedade que faz todo texto
+responder a outros.
+
+::: {#refs}
 :::
