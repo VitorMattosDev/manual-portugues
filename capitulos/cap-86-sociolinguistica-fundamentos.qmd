@@ -4,22 +4,711 @@ title: "Sociolinguística: fundamentos"
 
 # Sociolinguística: fundamentos {#sec-cap-86}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 14 — Variação Linguística e Sociolinguística.
+> "Não existe língua homogênea. Existe língua com variação organizada — e a organização é o
+> objeto."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 14, dedicado à **variação linguística**. É, em certo sentido, o volume que
+o manual inteiro vinha preparando: desde o @sec-cap-03, a distinção entre norma-padrão e uso
+real reapareceu em quase todos os capítulos, e sempre com a mesma advertência — "sem
+prescritivismo ingênuo nem relativismo vazio". Chegou a hora de fundamentar isso.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A sociolinguística nasce de uma constatação simples e de suas consequências radicais. A
+constatação: **ninguém fala igual a ninguém**, e ninguém fala igual a si mesmo o tempo todo.
+Você fala diferente com seu chefe e com seu irmão; um paulistano fala diferente de um
+gaúcho; um jovem fala diferente de um idoso.
+
+A tradição gramatical tratou isso como **ruído** — desvio, corrupção, erro a corrigir. A
+sociolinguística faz o movimento oposto: toma a variação como **objeto**, e descobre que ela
+não é caótica. É **sistemática**, **estruturada** e **previsível** — tanto que se pode
+calcular a probabilidade de um falante usar uma forma, dadas suas características sociais e
+o contexto.
+
+Essa descoberta tem consequências que atravessarão todo o volume.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Explicar** a heterogeneidade ordenada e por que ela desmonta a noção de língua uniforme;
+- **Distinguir** os tipos de variação: diatópica, diastrática, diafásica, diacrônica;
+- **Identificar** variáveis e variantes linguísticas;
+- **Relacionar** variação e mudança linguística;
+- **Reconhecer** os fatores sociais que condicionam a variação;
+- **Diferenciar** a descrição sociolinguística do relativismo e do prescritivismo.
+
+## A heterogeneidade ordenada
+
+A tese fundadora, formulada por Weinreich, Labov e Herzog em 1968, é uma **inversão**: a
+variação não é imperfeição da língua — é **propriedade constitutiva** dela.
+
+::: {.callout-important}
+## Duas afirmações, ambas verdadeiras
+1. **Nenhuma língua é homogênea.** Não existe, nem nunca existiu, uma comunidade em que
+   todos falem igual. A homogeneidade é uma **ficção metodológica** — útil para certos fins,
+   falsa como descrição.
+2. **A variação não é caótica.** Ela é **ordenada**: correlaciona-se sistematicamente com
+   fatores sociais (origem, classe, idade, sexo, escolaridade) e linguísticos (contexto
+   fonológico, posição na frase).
+
+Daí o nome: **heterogeneidade ordenada**. A língua é heterogênea **e** sistemática — as duas
+coisas, ao mesmo tempo.
+
+**Por que isso é uma descoberta e não uma obviedade**: porque a linguística anterior supunha
+que, para descrever a língua, era preciso **abstrair** a variação — tratá-la como ruído
+externo ao sistema. A sociolinguística demonstrou que a variação **é** sistema: tem regras,
+e as regras podem ser escritas.
+:::
+
+Um exemplo concreto. No português brasileiro, a marcação de plural no sintagma nominal varia:
+
+- "**os meninos bonitos**" (marcação plena)
+- "**os menino bonito**" (marcação apenas no primeiro elemento)
+
+Isso **não é aleatório**. A probabilidade de marcar depende de fatores que se podem medir:
+
+- **posição**: marca-se muito mais no **primeiro** elemento (*os* meninos) que nos seguintes;
+- **saliência fônica**: plurais irregulares (*mão/mãos*) são marcados mais que os regulares;
+- **escolaridade**: quanto mais anos de escola, mais marcação;
+- **formalidade**: quanto mais formal a situação, mais marcação.
+
+Ou seja: há uma **regra variável** — não "às vezes acontece", mas "acontece com probabilidade
+X sob as condições Y". É gramática, e não desleixo.
+
+## Variável e variante
+
+O vocabulário técnico é simples e vale fixar:
+
+- **Variável linguística** — o **ponto** da língua em que há variação. Notação: entre
+  parênteses.
+- **Variantes** — as **formas concorrentes** naquele ponto.
+
+| Variável | Variantes |
+|---|---|
+| (r) em final de sílaba | *porta* com /ʁ/ · /ɾ/ · retroflexo (o "r caipira") · zero |
+| (plural no SN) | "os meninos bonitos" · "os menino bonito" |
+| (concordância verbal) | "nós fomos" · "nós foi" |
+| (pronome objeto) | "eu o vi" · "eu vi ele" |
+| (você/tu) | "você fala" · "tu falas" · "tu fala" |
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O que faz duas formas serem variantes
+Elas precisam **dizer a mesma coisa**: "os meninos bonitos" e "os menino bonito" têm o mesmo
+significado referencial. A escolha entre elas **não** muda o que se diz — muda o que se
+**sinaliza** sobre quem diz.
+
+Essa é a definição clássica: variantes são **maneiras diferentes de dizer a mesma coisa**.
+
+E aqui há uma sutileza importante: se as duas formas significassem coisas **diferentes**,
+não seriam variantes — seriam itens distintos. É por isso que a variação sintática é mais
+difícil de estudar que a fonológica: mudar a estrutura tende a mudar o sentido, ainda que
+sutilmente.
+:::
+
+## Os quatro tipos de variação
+
+::: {#fig-tipos-variacao}
+
+```{.tikz}
+%%| filename: tipos-variacao
+%%| alt: Esquema dos quatro tipos de variação linguística dispostos em torno de um núcleo. Núcleo: variação, com a indicação de que é heterogeneidade ordenada, sendo sistemática e não caótica. Primeiro tipo, diatópica, que varia no espaço, exemplo mandioca, aipim e macaxeira, e responde à pergunta de onde é o falante. Segundo tipo, diastrática, que varia por grupo social, ligada a classe, escolaridade, idade e sexo, exemplo nós fomos contra nós foi, e responde à pergunta de qual grupo é o falante. Terceiro tipo, diafásica, que varia por situação, ligada ao grau de formalidade e ao interlocutor, exemplo falar com o chefe contra falar com o irmão, e responde à pergunta de com quem e onde se fala. Quarto tipo, diacrônica, que varia no tempo, exemplo vossa mercê que virou você, e responde à pergunta de quando. Abaixo, a observação de que os quatro operam simultaneamente no mesmo falante, e que a diacrônica é a variação de ontem já consolidada.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize, text width=44mm},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[rounded corners=3pt, draw=manualgray, fill=manualgray!14, align=center,
+        inner sep=5pt, text width=32mm] (n) at (0,0)
+    {\textbf{VARIAÇÃO}\\{\scriptsize heterogeneidade \textbf{ordenada}}\\{\scriptsize sistemática, não caótica}};
+
+  \node[cx, draw=manualblue, fill=manualblue!10] (t1) at (-4.2,2.1)
+    {\textbf{DIATÓPICA} — no \emph{espaço}\\[2pt]
+     {\scriptsize \emph{mandioca} · \emph{aipim} · \emph{macaxeira}}\\
+     {\scriptsize \textbf{de onde} é o falante?}};
+
+  \node[cx, draw=manualred, fill=manualred!10] (t2) at (4.2,2.1)
+    {\textbf{DIASTRÁTICA} — por \emph{grupo}\\[2pt]
+     {\scriptsize classe · escolaridade · idade · sexo}\\
+     {\scriptsize ``nós fomos'' $\times$ ``nós foi''}\\
+     {\scriptsize \textbf{de qual grupo} é o falante?}};
+
+  \node[cx, draw=manualgreen, fill=manualgreen!10] (t3) at (-4.2,-2.1)
+    {\textbf{DIAFÁSICA} — por \emph{situação}\\[2pt]
+     {\scriptsize formalidade · interlocutor}\\
+     {\scriptsize com o chefe $\times$ com o irmão}\\
+     {\scriptsize \textbf{com quem, onde}?}};
+
+  \node[cx, draw=manualyellow, fill=manualyellow!12] (t4) at (4.2,-2.1)
+    {\textbf{DIACRÔNICA} — no \emph{tempo}\\[2pt]
+     {\scriptsize \emph{vossa mercê} $\rightarrow$ \emph{vosmecê} $\rightarrow$ \emph{você}}\\
+     {\scriptsize \textbf{quando}?}};
+
+  \draw[s] (n) -- (t1); \draw[s] (n) -- (t2); \draw[s] (n) -- (t3); \draw[s] (n) -- (t4);
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=68mm] at (0,-3.6)
+    {Os quatro operam \textbf{simultaneamente} no mesmo falante.\\
+     A \textbf{diacrônica} é a variação de ontem — já consolidada.};
+\end{tikzpicture}
+```
+
+Os quatro tipos de variação. Eles não são categorias excludentes: um mesmo enunciado é
+sempre, ao mesmo tempo, de um lugar, de um grupo, de uma situação e de um momento.
+:::
+
+### Diatópica — no espaço
+
+Varia conforme a **região**: *mandioca* / *aipim* / *macaxeira*; o "r" carioca × paulista ×
+gaúcho; "tu" no Sul e no Norte × "você" no Sudeste. Tema do @sec-cap-87.
+
+### Diastrática — por grupo social
+
+Varia conforme **classe, escolaridade, idade, sexo, profissão**: "nós fomos" × "nós foi"; a
+gíria juvenil; o jargão profissional. Tema do @sec-cap-88.
+
+### Diafásica — por situação
+
+Varia conforme o **contexto**: o mesmo falante, na mesma hora, fala diferente com o chefe e
+com o irmão. É a variação **de registro** ou **estilo**. Tema do @sec-cap-88.
+
+### Diacrônica — no tempo
+
+Varia conforme a **época**: *vossa mercê* → *vosmecê* → *você* → *cê*. Tema do Volume 15.
+
+::: {.callout-important}
+## Os quatro operam ao mesmo tempo
+Não são gavetas. Todo enunciado é simultaneamente marcado nos quatro eixos.
+
+Quando um jovem gaúcho de classe média diz "**tu vai**" numa conversa informal com amigos,
+temos:
+
+- **diatópica** — *tu* é marca do Sul (no Sudeste, seria *você*);
+- **diastrática** — *tu vai* (sem a concordância "tu vais") é característico de certos
+  grupos, e o mesmo falante escolarizado escreveria "tu vais" ou "você vai";
+- **diafásica** — na conversa informal; numa entrevista de emprego, ele provavelmente diria
+  "você vai";
+- **diacrônica** — *tu vais* está em recuo há décadas; *tu vai* é a forma emergente.
+
+Um único enunciado de duas palavras, quatro eixos.
+:::
+
+## Variação e mudança
+
+A relação é decisiva e frequentemente mal compreendida.
+
+::: {.callout-important}
+## Toda mudança pressupõe variação; nem toda variação vira mudança
+**O processo:**
+
+1. Uma inovação surge e **convive** com a forma antiga → **variação**.
+2. Uma das variantes **se generaliza**, e a outra desaparece → **mudança consumada**.
+
+**Exemplo histórico completo**: *vossa mercê* (tratamento cerimonioso) → *vosmecê* → *você*
+→ *cê*. Cada etapa foi um período de **variação** (as duas formas conviviam) que se
+resolveu em **mudança**.
+
+**Exemplo em curso agora**: o pronome objeto.
+
+- "Eu **o** vi." (norma-padrão, hoje quase restrita à escrita formal)
+- "Eu vi **ele**." (majoritária na fala, inclusive culta)
+
+Estamos **no meio** de uma mudança. Daqui a um século, provavelmente "eu o vi" soará como
+"vossa mercê" soa hoje.
+
+**A implicação incômoda**: aquilo que a escola condena hoje como "erro" é, com frequência, a
+**forma vencedora** de uma mudança em curso. As formas que a norma-padrão prescreve foram,
+elas próprias, inovações condenadas em seu tempo.
+
+**Mas**: nem toda variação vira mudança. Muitas variantes convivem **estavelmente** por
+séculos, sem que nenhuma vença — o "r" caipira e o "r" carioca coexistem há gerações.
+:::
+
+## Os fatores condicionantes
+
+A variação correlaciona-se com fatores **mensuráveis**. Os principais:
+
+**Fatores sociais:**
+
+| Fator | Padrão observado |
+|---|---|
+| **Escolaridade** | é o mais forte no Brasil — mais escola, mais formas padrão |
+| **Classe social** | fortemente correlacionada à escolaridade |
+| **Idade** | jovens lideram inovações; idosos conservam |
+| **Sexo/gênero** | mulheres tendem a usar mais formas de prestígio (padrão robusto e discutido) |
+| **Rede social** | redes densas conservam; redes abertas inovam |
+| **Origem** | urbana × rural; região |
+
+**Fatores linguísticos** (frequentemente mais fortes que os sociais):
+
+- **posição** no sintagma (o plural marca-se mais à esquerda);
+- **saliência fônica** (diferenças mais audíveis resistem mais);
+- **contexto fonológico** (o som seguinte condiciona);
+- **paralelismo** (formas tendem a se repetir em série).
+
+::: {.callout-note}
+## O detalhe metodológico que impressiona
+A sociolinguística **quantifica**. Não diz "os menos escolarizados às vezes não marcam o
+plural" — diz que, controladas as demais variáveis, cada faixa de escolaridade corresponde a
+uma probabilidade específica de marcação.
+
+Isso significa que a variação é **previsível**: dadas as características do falante e do
+contexto, pode-se estimar a probabilidade de cada variante. É o oposto de "desleixo" — é
+regra, com precisão estatística.
+
+E é o argumento mais forte contra o preconceito linguístico: o que se chama de "erro" tem
+**regularidade demonstrável**, o que é, por definição, o que caracteriza a gramática
+[@bagno2007; @bagno2011].
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Aqui é preciso ser preciso, porque este é o volume em que o mal-entendido mais ocorre.
+
+**O que a sociolinguística afirma:**
+
+1. Todas as variedades são **sistemas linguísticos completos**, com gramática, regras e
+   capacidade expressiva plena. "Nós foi" não é ausência de regra — é **outra** regra.
+2. As variedades têm **prestígio social desigual** — e o prestígio é um fato **social**, não
+   linguístico. Não há nada em "nós fomos" que o torne intrinsecamente melhor; ele é melhor
+   **avaliado** porque é falado por quem tem poder.
+
+**O que ela NÃO afirma** — e é aqui que a caricatura se instala:
+
+1. **Não** afirma que "tanto faz". As variedades **não** têm o mesmo valor **social**, e
+   fingir que têm prejudica quem não domina a de prestígio. A norma abre portas — e negar
+   isso ao aluno é abandoná-lo.
+2. **Não** propõe abolir o ensino da norma-padrão. Propõe ensiná-la como o que é: **mais uma
+   variedade**, a de prestígio, que se acrescenta ao repertório do aluno — não que substitui
+   a dele.
+3. **Não** afirma que não existe erro. Existe **inadequação ao gênero** (@sec-cap-72) e
+   existe **desvio da norma-padrão**, que tem custo social real. O que não existe é erro **de
+   língua** — falha do sistema.
+
+**A posição defensável**, e a deste manual: descrever com honestidade **e** ensinar a norma
+com competência. Quem só descreve abandona o aluno; quem só prescreve o humilha. A meta é o
+**trânsito** entre variedades (@sec-cap-72), que é mais ambicioso que qualquer das duas
+posturas [@faraco2008; @bagno2011].
+:::
+
+## 📋 Quadro-resumo
+
+**Heterogeneidade ordenada**: a língua é **heterogênea** (ninguém fala igual) **e**
+**sistemática** (a variação tem regras e é previsível). As duas coisas ao mesmo tempo.
+
+**Variável** = o ponto de variação, entre parênteses: (r), (plural no SN).
+**Variantes** = as formas concorrentes — "maneiras diferentes de dizer **a mesma coisa**".
+
+**Os quatro tipos:**
+
+| Tipo | Varia por | Exemplo |
+|---|---|---|
+| **Diatópica** | espaço | *mandioca* / *aipim* / *macaxeira* |
+| **Diastrática** | grupo social | "nós fomos" × "nós foi" |
+| **Diafásica** | situação | com o chefe × com o irmão |
+| **Diacrônica** | tempo | *vossa mercê* → *você* → *cê* |
+
+Os quatro operam **simultaneamente** no mesmo enunciado.
+
+**Variação × mudança**: toda mudança pressupõe variação; **nem toda** variação vira mudança
+(muitas convivem estavelmente).
+
+**Fatores**: sociais (escolaridade — o mais forte no Brasil —, classe, idade, sexo, rede) e
+linguísticos (posição, saliência fônica, contexto, paralelismo).
+
+Em uma linha: a variação **não é ruído** — é **regra**, quantificável e previsível; e o
+prestígio de uma variedade é fato **social**, não linguístico.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que variação é desleixo.** É **regra variável**, com probabilidade calculável.
+- **Achar que a língua "deveria" ser homogênea.** Nenhuma língua jamais foi. A homogeneidade
+  é ficção metodológica.
+- **Confundir os tipos.** Diatópica = **espaço**; diastrática = **grupo**; diafásica =
+  **situação**; diacrônica = **tempo**.
+- **Achar que os tipos são excludentes.** "Tu vai" é marcado nos **quatro** eixos ao mesmo
+  tempo.
+- **Achar que toda variação vira mudança.** Muitas variantes convivem estavelmente por
+  séculos.
+- **Confundir descrição com relativismo.** Dizer que "nós foi" tem regra **não** é dizer que
+  tanto faz. O prestígio é desigual, e isso tem consequências.
+- **Achar que a sociolinguística quer abolir a norma.** Ela quer que se **acrescente** a
+  norma ao repertório, não que se substitua a variedade do aluno.
+- **Esquecer os fatores linguísticos.** Frequentemente são **mais fortes** que os sociais.
+
+## ✍️ Exercícios
+
+**1.** Explique a "heterogeneidade ordenada" e por que ela é uma descoberta.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**As duas afirmações, ambas verdadeiras:**
+
+1. **Heterogeneidade**: nenhuma língua é homogênea. Não existe, nem nunca existiu, comunidade
+   em que todos falem igual. Ninguém fala como o vizinho, e ninguém fala como si mesmo o
+   tempo todo (muda com o interlocutor, a situação, o assunto).
+2. **Ordenada**: a variação **não é caótica**. Correlaciona-se **sistematicamente** com
+   fatores sociais (escolaridade, classe, idade, região) e linguísticos (posição, saliência
+   fônica, contexto).
+
+**Por que é uma descoberta, e não obviedade:**
+
+A linguística anterior supunha que, para descrever a língua, era preciso **abstrair** a
+variação — tratá-la como ruído **externo** ao sistema, interferência a ser filtrada. Estudar
+a língua seria estudar sua parte homogênea.
+
+Weinreich, Labov e Herzog (1968) demonstraram o contrário: **a variação é o sistema**. Ela
+tem regras, e as regras podem ser **escritas** — inclusive quantificadas.
+
+**A evidência**: a marcação de plural no PB ("os meninos bonitos" × "os menino bonito") não é
+aleatória. Marca-se mais no **primeiro** elemento; mais nos plurais **irregulares** (mão/mãos)
+que nos regulares; mais quanto **maior a escolaridade**; mais quanto **mais formal** a
+situação. Há uma **regra variável** — não "às vezes acontece", mas "acontece com
+probabilidade X sob condições Y".
+
+**A consequência**: o que a tradição chamava de desleixo tem **regularidade demonstrável** —
+o que é, por definição, o que caracteriza gramática.
+:::
+
+**2.** Distinga variável de variante, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Variável linguística** — o **ponto** da língua onde há variação. Notação: entre parênteses.
+
+**Variantes** — as **formas concorrentes** naquele ponto.
+
+**Exemplos:**
+
+| Variável | Variantes |
+|---|---|
+| **(r)** em final de sílaba | *porta* com /ʁ/ (carioca) · /ɾ/ (tepe) · retroflexo (caipira) · zero (*porta* → "pota") |
+| **(plural no SN)** | "os meninos bonitos" · "os menino bonito" |
+| **(concordância verbal, 1ª pl.)** | "nós fomos" · "nós foi" |
+| **(pronome objeto)** | "eu **o** vi" · "eu vi **ele**" |
+| **(2ª pessoa)** | "**você** fala" · "**tu** falas" · "**tu** fala" |
+
+**O critério que define variantes** — e é o ponto do exercício: elas precisam **dizer a mesma
+coisa**. "Os meninos bonitos" e "os menino bonito" têm o mesmo **significado referencial**: o
+mesmo conjunto de meninos, os mesmos atributos.
+
+A escolha entre elas **não muda o que se diz** — muda o que se **sinaliza sobre quem diz**
+(região, escolaridade, formalidade).
+
+**A definição clássica**: variantes são **maneiras diferentes de dizer a mesma coisa**.
+
+**A sutileza importante**: se as formas significassem coisas **diferentes**, não seriam
+variantes — seriam itens distintos. É por isso que a variação **sintática** é mais difícil de
+estudar que a **fonológica**: mudar a estrutura tende a mudar o sentido, ainda que
+sutilmente. Duas pronúncias de *porta* significam exatamente o mesmo; duas ordens de palavras
+podem não significar.
+:::
+
+**3.** Classifique a variação: (a) *mandioca* / *macaxeira*; (b) "nós fomos" / "nós foi"; (c)
+falar com o chefe / com o irmão; (d) *vossa mercê* / *você*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Diatópica** — variação no **espaço**. *Mandioca* (Sudeste/Centro-Oeste), *aipim*
+(Rio/Sul), *macaxeira* (Norte/Nordeste). O mesmo tubérculo, três regiões (@sec-cap-87).
+
+**(b) Diastrática** — variação por **grupo social**. "Nós foi" correlaciona-se fortemente com
+**escolaridade** (o fator mais forte no Brasil) e classe. Note que **não** é falta de regra:
+é outra regra, com regularidade demonstrável (@sec-cap-88).
+
+**(c) Diafásica** — variação por **situação** (registro/estilo). O **mesmo falante**, na
+**mesma hora**, no **mesmo lugar**, fala diferente conforme o interlocutor e o grau de
+formalidade. É a prova de que a variação não caracteriza apenas grupos, mas **situações**
+(@sec-cap-88).
+
+**(d) Diacrônica** — variação no **tempo**. *Vossa mercê* → *vosmecê* → *você* → *cê*. Cada
+etapa foi um período de variação que se resolveu em **mudança** (Volume 15).
+
+**A observação que fecha o exercício**: os quatro tipos **não são gavetas excludentes**. Todo
+enunciado é marcado nos **quatro eixos ao mesmo tempo**. "Tu vai", dito por um jovem gaúcho a
+um amigo, é simultaneamente: diatópico (*tu* do Sul), diastrático (sem a concordância
+"vais"), diafásico (informal) e diacrônico ("tu vais" está em recuo).
+:::
+
+**4.** (Estilo ENEM) A sociolinguística sustenta que:
+
+a) a variação linguística é caótica e deve ser corrigida;
+b) todas as variedades são sistemas completos, embora tenham prestígio social desigual;
+c) todas as variedades têm o mesmo valor social;
+d) a norma-padrão não deve ser ensinada;
+e) a língua portuguesa é homogênea em seu núcleo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** As duas afirmações da sociolinguística, e a articulação entre elas:
+
+1. Todas as variedades são **sistemas linguísticos completos**, com gramática, regras e
+   capacidade expressiva plena. "Nós foi" não é ausência de regra — é **outra** regra, com
+   regularidade demonstrável.
+2. As variedades têm **prestígio social desigual** — e o prestígio é fato **social**, não
+   linguístico. Nada em "nós fomos" o torna intrinsecamente melhor; ele é melhor **avaliado**
+   porque é falado por quem tem poder.
+
+As demais:
+
+- **(a)** inverte a tese: a variação é **ordenada**, não caótica — tem regras quantificáveis.
+- **(c)** é a **caricatura relativista**. A sociolinguística afirma igualdade **linguística**,
+  não **social**. As variedades **não** têm o mesmo valor social — e fingir que têm prejudica
+  quem não domina a de prestígio.
+- **(d)** é o outro lado da caricatura. A sociolinguística propõe ensinar a norma como
+  **mais uma variedade**, a ser **acrescentada** ao repertório — não abolida.
+- **(e)** contraria a **heterogeneidade**: nenhuma língua é homogênea, em núcleo algum.
+
+**O que a questão testa**: distinguir a tese real das duas caricaturas simétricas — a
+prescritivista (a) e a relativista (c)/(d).
+:::
+
+**5.** Explique a relação entre variação e mudança, com exemplo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A regra**: **toda mudança pressupõe variação; nem toda variação vira mudança.**
+
+**O processo em duas etapas:**
+
+1. Uma inovação surge e **convive** com a forma antiga → **variação** (as duas formas
+   coexistem, e falantes ou contextos diferentes preferem uma ou outra).
+2. Uma variante **se generaliza** e a outra desaparece → **mudança consumada**.
+
+**Exemplo histórico completo** — o tratamento:
+
+> *vossa mercê* (séc. XV, cerimonioso) → *vossemecê* → *vosmecê* → **você** → **cê**
+
+Cada seta é um período de **variação**, às vezes de séculos, que se resolveu em mudança. Hoje
+*vossa mercê* está morto; *você* é neutro; e *cê* está em variação com *você* — mudança em
+curso.
+
+**Exemplo em curso agora** — o pronome objeto:
+
+- "Eu **o** vi." — norma-padrão, hoje quase restrita à escrita formal;
+- "Eu vi **ele**." — majoritária na fala, **inclusive culta**.
+
+Estamos **no meio** da mudança. Daqui a um século, "eu o vi" provavelmente soará como *vossa
+mercê* soa hoje.
+
+**A implicação incômoda**: aquilo que a escola condena como "erro" é, com frequência, a
+**forma vencedora** de uma mudança em curso. E as formas que a norma prescreve foram, elas
+próprias, inovações **condenadas** em seu tempo — *você* já foi vulgar.
+
+**A ressalva necessária**: **nem toda variação vira mudança**. Muitas variantes convivem
+**estavelmente** por séculos sem que nenhuma vença: o "r" caipira e o "r" carioca coexistem
+há gerações, sem sinal de que uma elimine a outra. Prever qual variação virará mudança é,
+notoriamente, difícil.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Para a sociolinguística, todas as
+variedades têm o mesmo valor, logo não faz diferença qual se usa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado** — e o erro está numa **confusão deliberada** entre dois tipos de valor.
+
+**O que a sociolinguística afirma**: todas as variedades têm o mesmo valor **linguístico** —
+são sistemas completos, com gramática, regras e capacidade expressiva plena. Não há variedade
+"pobre", "sem regra" ou "corrompida".
+
+**O que ela NÃO afirma**: que tenham o mesmo valor **social**. Ao contrário — ela é a
+disciplina que mais **documenta** a desigualdade de prestígio. Sabe-se com precisão que "nós
+foi" fecha portas em entrevistas de emprego, e que isso é um fato social mensurável.
+
+**Por que "não faz diferença" é falso e perigoso:**
+
+1. **Empiricamente falso**: faz enorme diferença. A variedade de prestígio abre portas —
+   emprego, universidade, credibilidade.
+2. **Pedagogicamente irresponsável**: dizer ao aluno que "tanto faz" é **abandoná-lo**.
+   Ele será julgado pela norma quer ela seja justa ou não, e negar-lhe o acesso a ela em nome
+   da igualdade linguística é condená-lo em nome de um princípio abstrato.
+3. **Não decorre da premissa**: que as variedades sejam linguisticamente iguais **não
+   implica** que sejam socialmente equivalentes. São proposições sobre coisas diferentes.
+
+**A posição correta** — e a deste manual: descrever com honestidade (todas são sistemas) **e**
+ensinar a norma com competência (ela tem valor social real). A meta é o **trânsito** entre
+variedades (@sec-cap-72) — ampliar o repertório, não substituí-lo.
+
+**O diagnóstico do enunciado**: ele é um **espantalho** (@sec-cap-76) — uma caricatura da
+posição sociolinguística, construída para ser fácil de refutar. E é usado com frequência
+exatamente assim, no debate público.
+:::
+
+**7.** Liste os fatores que condicionam a variação e comente o mais forte no Brasil.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Fatores sociais:**
+
+| Fator | Padrão |
+|---|---|
+| **Escolaridade** | **o mais forte no Brasil** |
+| **Classe social** | fortemente correlacionada à escolaridade |
+| **Idade** | jovens lideram inovações; idosos conservam |
+| **Sexo/gênero** | mulheres tendem a usar mais formas de prestígio |
+| **Rede social** | redes densas conservam; redes abertas inovam |
+| **Origem** | urbana × rural; região |
+
+**Fatores linguísticos** (frequentemente **mais fortes** que os sociais):
+
+- **posição** no sintagma (o plural marca-se mais à esquerda);
+- **saliência fônica** (diferenças mais audíveis resistem mais: *mão/mãos* marca mais que
+  *menino/meninos*);
+- **contexto fonológico** (o som seguinte condiciona);
+- **paralelismo** (formas tendem a se repetir em série).
+
+**O mais forte no Brasil: a escolaridade.** E isso merece comentário.
+
+Em muitos países, a variável social mais forte é a **região** ou a **classe**. No Brasil, é a
+**escolaridade** — o que reflete a história do país: a escolarização foi tardia, desigual e
+concentrada, e o acesso à norma-padrão passou quase exclusivamente pela escola.
+
+**A consequência que importa**: isso significa que o "erro" de português, no Brasil, é em
+larga medida um **marcador de exclusão escolar**. Quando se ridiculariza quem diz "nós foi",
+não se está ridicularizando uma escolha — está-se ridicularizando o **efeito de não ter tido
+escola**, o que transforma o preconceito linguístico numa forma socialmente aceitável de
+preconceito de classe (@sec-cap-91).
+
+**O detalhe metodológico**: a sociolinguística **quantifica** esses fatores. Não diz "os
+menos escolarizados às vezes não marcam plural" — calcula a **probabilidade** de marcação por
+faixa de escolaridade, controladas as demais variáveis [@bagno2007].
+:::
+
+**8.** Analise "tu vai" nos quatro eixos de variação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Um enunciado de **duas palavras**, marcado nos **quatro eixos simultaneamente**. Suponhamos
+um jovem gaúcho de classe média, falando com amigos.
+
+**1. Diatópica (espaço)** — o pronome ***tu*** é marca do **Sul** (e de partes do Norte,
+Nordeste e do Rio). No Sudeste, o mesmo falante diria "**você** vai". A escolha do pronome
+localiza geograficamente.
+
+**2. Diastrática (grupo)** — a **ausência de concordância** ("tu **vai**", e não "tu
+**vais**") correlaciona-se com escolaridade e classe. Em Porto Alegre, "tu vai" é
+generalizado na fala, mas "tu vais" aparece mais em falantes mais escolarizados e em
+situações monitoradas.
+
+**3. Diafásica (situação)** — na conversa **informal com amigos**, "tu vai". Numa entrevista
+de emprego, o mesmo falante provavelmente diria "**você vai**" — trocando o pronome para
+evitar o problema da concordância. A variação **no mesmo falante**, na mesma hora, prova que
+o eixo diafásico é independente.
+
+**4. Diacrônica (tempo)** — "tu **vais**" está em **recuo** há décadas; "tu **vai**" é a
+forma **emergente e vencedora** na fala. Estamos vendo uma **mudança em curso**: o pronome
+*tu* sobrevive, mas perde a concordância verbal que o acompanhava.
+
+**A conclusão do exercício**: os quatro eixos **não são gavetas** — operam ao mesmo tempo, no
+mesmo enunciado. Classificar uma forma como "diatópica" ou "diastrática" é sempre uma
+simplificação: ela é **as duas coisas**, e mais duas.
+
+**Nota adicional**: note a **regularidade** de "tu vai". Não é aleatório — é sistemático,
+previsível e majoritário em toda uma comunidade. Chamá-lo de "erro" é chamar de erro a
+gramática de milhões de falantes, o que descreve mal o objeto (@sec-cap-91).
+:::
+
+**9.** (Estilo FUVEST) Discuta: "a sociolinguística é relativista e prejudica o ensino".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A acusação é um espantalho** (@sec-cap-76) — refuta uma posição que a disciplina não
+sustenta.
+
+**O que a sociolinguística de fato afirma** — duas teses, ambas necessárias:
+
+1. **Igualdade linguística**: todas as variedades são sistemas completos, com gramática e
+   regras. Isso não é ideologia: é **descrição empírica**. "Nós foi" tem regularidade
+   demonstrável e quantificável.
+2. **Desigualdade social**: as variedades têm prestígio **radicalmente desigual**, e isso tem
+   consequências materiais (emprego, escola, credibilidade). A sociolinguística é a
+   disciplina que mais **documenta** essa desigualdade — dificilmente poderia negá-la.
+
+**A acusação confunde (1) com "tanto faz"** — mas (2) é parte da mesma teoria. Dizer que
+"nós foi" é linguisticamente regular **não é** dizer que usá-lo numa entrevista de emprego é
+indiferente. São proposições sobre coisas diferentes.
+
+**Onde a acusação tem um grão de verdade**: houve, sim, **má aplicação pedagógica**.
+Professores mal informados concluíram que ensinar a norma seria "opressão" e deixaram de
+ensiná-la — o que **prejudica exatamente os alunos que a disciplina queria proteger**, já que
+os de classe alta aprendem a norma em casa de todo modo. O relativismo pedagógico é
+**regressivo**: penaliza os pobres.
+
+Mas note: esse é um erro **de aplicação**, não da teoria. Bagno [@bagno2011] e Faraco
+[@faraco2008] — os autores mais associados à sociolinguística educacional brasileira —
+**defendem explicitamente** o ensino da norma. A tese deles nunca foi "não ensine"; foi "não
+humilhe ao ensinar".
+
+**A posição defensável**: descrever com honestidade **e** ensinar a norma com competência.
+
+- Quem **só descreve** abandona o aluno — entrega-o ao julgamento social sem ferramentas.
+- Quem **só prescreve** o humilha — trata sua língua materna, e a de sua família, como
+  defeito.
+
+A meta é o **trânsito** entre variedades (@sec-cap-72): **acrescentar** a norma ao repertório
+do aluno, não substituir o que ele traz. É mais ambicioso que qualquer das duas posturas
+simplistas — e é a única honesta com o que se sabe sobre a língua **e** sobre a sociedade.
+:::
+
+**10.** Documente uma variável linguística que você observe no seu contexto e descreva seus
+condicionantes.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível — o valor está no **método**.
+
+**Variável escolhida**: **(a gente / nós)** — as duas formas de primeira pessoa do plural.
+
+**Variantes:**
+
+1. "**Nós vamos** ao cinema." (forma tradicional, com concordância)
+2. "**A gente vai** ao cinema." (forma inovadora, verbo em 3ª pessoa)
+3. "**Nós vai** ao cinema." (forma estigmatizada)
+
+**Significado referencial**: idêntico nas três. Logo, são **variantes** legítimas.
+
+**Condicionantes observados:**
+
+| Fator | Observação |
+|---|---|
+| **Idade** | jovens usam "a gente" quase categoricamente; idosos alternam mais |
+| **Diafásico** | "a gente" domina a fala informal; "nós" reaparece na escrita e em situações formais |
+| **Escolaridade** | afeta pouco a escolha entre (1) e (2), mas fortemente a rejeição de (3) |
+| **Diatópico** | pouca variação regional — "a gente" avança em todo o país |
+| **Paralelismo** | uma vez escolhida a forma, tende a se repetir na sequência do discurso |
+
+**Análise:**
+
+Trata-se de uma **mudança em curso** clássica, e num estágio avançado: "a gente" já é
+majoritário na fala de todas as classes e regiões, inclusive entre falantes cultos. A forma
+"nós" resiste principalmente na **escrita** e em contextos monitorados — padrão típico de
+uma variante que perde a fala antes de perder a escrita.
+
+**A previsão** (com a cautela devida): se a mudança se completar, "nós vamos" seguirá o
+caminho de "vossa mercê" — restrito a registros formais e, depois, extinto. Mas a cautela é
+necessária: **nem toda variação vira mudança**, e "nós" tem o suporte poderoso da escola e da
+escrita.
+
+**Observação sobre (3)**: "nós vai" tem a **mesma lógica** de "a gente vai" — verbo na forma
+não marcada. A diferença entre elas não é linguística: é que "a gente vai" foi **aceito** e
+"nós vai", **estigmatizado**. Duas soluções para o mesmo problema, dois destinos sociais
+opostos — o que ilustra que o prestígio é fato **social** (@sec-cap-91).
+:::
+
+## 📚 Referências
+
+A concepção de heterogeneidade ordenada, o par variável/variante e a articulação entre
+variação e mudança remontam à sociolinguística variacionista de Weinreich, Labov e Herzog, e
+são apresentados no Brasil por Bagno [@bagno2007; @bagno2011] e Faraco [@faraco2008]; a
+descrição dos fenômenos variáveis do português brasileiro — concordância, pronomes,
+tratamento — apoia-se em Castilho [@castilho2010], Perini [@perini2010] e Ilari & Basso
+[@ilaribasso2006]. Para a distinção entre norma-padrão, norma culta e variedades, retomada
+neste capítulo, veja o @sec-cap-03; para a noção de gênero que fundamenta a defesa do
+trânsito entre variedades, o @sec-cap-72. Os capítulos seguintes desenvolvem cada eixo: a
+variação **diatópica** no @sec-cap-87; a **diastrática e diafásica** no @sec-cap-88; o
+contraste com o **português europeu** no @sec-cap-89; a **oralidade** no @sec-cap-90; e o
+**preconceito linguístico** no @sec-cap-91, onde as implicações políticas deste capítulo são
+enfrentadas diretamente.
+
+::: {#refs}
 :::
