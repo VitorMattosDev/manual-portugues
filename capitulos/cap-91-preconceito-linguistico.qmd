@@ -4,22 +4,1124 @@ title: "Preconceito linguístico e política linguística"
 
 # Preconceito linguístico e política linguística {#sec-cap-91}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 14 — Variação Linguística e Sociolinguística.
+> "Ninguém é discriminado por um fonema. As pessoas são discriminadas por quem são — e o
+> fonema é só o pretexto."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Chegamos ao capítulo que os cinco anteriores vinham preparando. O @sec-cap-86 mostrou que a
+variação é ordenada; o @sec-cap-87, que o eixo real da variação brasileira é social, não
+geográfico; o @sec-cap-88, que o registro formal é a fala dos grupos de prestígio generalizada
+como norma; o @sec-cap-89, que nenhuma variedade é "a original"; o @sec-cap-90, que a fala não é
+escrita defeituosa.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Cada um desses capítulos terminou apontando para cá, e sempre com a mesma frase: **o prestígio é
+um fato social, não linguístico**. É hora de tratar disso diretamente — e de tratar da pergunta
+que vem junto: se é um fato social, o que se faz a respeito?
+
+Duas advertências antes de começar.
+
+A primeira: este é o capítulo em que o manual mais corre o risco de ser mal lido. Demonstrar que
+o preconceito linguístico existe **não** é dizer que tanto faz como se fala, nem que a escola
+deve parar de ensinar a norma. É o contrário — e o capítulo argumentará que quem tira essa
+conclusão prejudica exatamente quem pretendia defender.
+
+A segunda: nada aqui é opinião do autor sobre política. São **consequências** de resultados
+descritivos estabelecidos. Se as variedades são sistemas completos (fato), e se algumas são
+desqualificadas (fato), então a desqualificação não tem base linguística (dedução). O que fazer
+com isso é onde a política começa — e o capítulo será explícito sobre onde termina a descrição.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** preconceito linguístico e explicar por que ele é sempre preconceito social;
+- **Identificar** e refutar os mitos que o sustentam;
+- **Analisar** o mecanismo pelo qual o juízo sobre a forma se transfere à pessoa;
+- **Distinguir** o combate ao preconceito da recusa a ensinar a norma;
+- **Descrever** o quadro linguístico brasileiro real e as políticas que o afetam;
+- **Avaliar** episódios concretos da vida pública brasileira com instrumentos técnicos.
+
+## O que é preconceito linguístico
+
+**Definição**: o julgamento negativo de uma **pessoa** ou de um **grupo** com base na variedade
+linguística que usa.
+
+A definição já contém o essencial, e vale desdobrá-lo. O objeto do juízo **não** é a forma — é a
+pessoa. Ninguém se incomoda genuinamente com o fonema; incomoda-se com quem o pronuncia. A
+forma é o **pretexto**, e a evidência disso é simples: os mesmos traços, na boca de pessoas
+diferentes, recebem avaliações diferentes.
+
+::: {.callout-important}
+## O mecanismo: como o juízo sobre a forma vira juízo sobre a pessoa
+O preconceito linguístico opera em **quatro passos**, e nomeá-los é o que permite desmontá-lo.
+
+**Passo 1 — A correlação real.** Certos traços linguísticos correlacionam-se, de fato, com
+certos grupos sociais. "Nós foi" é mais frequente entre falantes de baixa escolaridade
+(@sec-cap-88). Isso é **verdade**, é mensurável, e não há nada de escandaloso nisso — é o objeto
+da sociolinguística.
+
+**Passo 2 — A inferência (legítima).** Ouvindo "nós foi", o ouvinte infere algo sobre a
+escolaridade do falante. Isso ainda é **legítimo** — é o que qualquer falante faz, e é a mesma
+inferência que o pesquisador faz. Até aqui, nenhum preconceito.
+
+**Passo 3 — O salto (ilegítimo).** Da escolaridade, infere-se **inteligência**, **caráter**,
+**competência**, **confiabilidade**. É **aqui** que o preconceito nasce — e note que o salto **não
+é linguístico**: nada em "nós foi" informa sobre inteligência. O salto é a aplicação, à pessoa,
+de um preconceito **social** preexistente, usando a língua apenas como **detector**.
+
+**Passo 4 — A naturalização.** O juízo se disfarça de técnico. Não se diz "desprezo pobres" —
+diz-se "**ele fala errado**". A língua fornece um **álibi respeitável** para um preconceito que,
+enunciado diretamente, seria inaceitável.
+
+**Por que este é o passo decisivo**: o preconceito linguístico é o **último preconceito
+socialmente aceito**. Ninguém diz em público "não contrato pobres". Mas "ele não sabe falar
+português" é dito abertamente, em entrevistas de emprego, em comentários sobre políticos, em
+salas de aula — e passa por **exigência de qualidade**. A língua lava o preconceito e o devolve
+apresentável.
+
+**A prova de que é isto**: os mesmos traços recebem avaliações **opostas** conforme quem fala. O
+"r" retroflexo de um caipira é motivo de piada; o mesmo "r" num cantor sertanejo de sucesso é
+"autenticidade". O francês de um imigrante rico é "charmoso"; o espanhol de um imigrante pobre é
+"não sabe falar". **A forma é a mesma; o juízo muda com a pessoa.** Se o problema fosse a forma,
+isso seria impossível.
+:::
+
+## Os mitos
+
+Bagno [@bagno2007] catalogou as crenças que sustentam o preconceito. Vale enunciá-las e refutá-las
+uma a uma, porque cada refutação já foi estabelecida em algum capítulo anterior.
+
+### Mito 1 — "O português do Brasil apresenta uma unidade surpreendente"
+
+**A crença**: aqui todo mundo fala igual; as diferenças são pitorescas.
+
+**A refutação** (@sec-cap-87): o Brasil é relativamente homogêneo **no eixo geográfico** — e por
+razões históricas identificáveis. Mas é **profundamente heterogêneo** no eixo **social**. A
+distância entre a fala de um doutor e a de um trabalhador não escolarizado da **mesma cidade** é
+maior que a distância entre dois doutores de Belém e de Porto Alegre.
+
+**Por que o mito serve ao preconceito**: afirmar a unidade **esconde a desigualdade**. Se todos
+falamos igual, quem fala diferente é desviante — e não vítima de uma estrutura.
+
+### Mito 2 — "Brasileiro não sabe português; quem sabe é Portugal"
+
+**A refutação** (@sec-cap-89): Portugal **não** conservou o português original. A redução das
+vogais átonas e o "a + infinitivo" são **inovações portuguesas** pós-coloniais. O brasileiro que
+diz "estou fazendo" usa a forma de **Camões**; o português que diz "estou a fazer" usa uma
+novidade de 250 anos.
+
+Os **dois** inovaram, em pontos diferentes. Nenhum é o original — o clássico não existe mais em
+lugar nenhum.
+
+### Mito 3 — "Português é muito difícil"
+
+**A refutação**: nenhuma língua é difícil para seus falantes nativos. **Toda** criança adquire
+**qualquer** língua no mesmo prazo, sem ensino formal.
+
+**O que é difícil** não é o português: é a **norma-padrão escrita** — que é uma construção
+artificial, ensinada, e que **ninguém** adquire naturalmente, nem em Portugal.
+
+**Como o mito funciona**: ele transforma a dificuldade de dominar um **artefato** (a norma) em
+uma propriedade da **língua**, e daí em um defeito do **falante**. O aluno conclui que é incapaz
+de falar a própria língua — o que é logicamente impossível, e devastador.
+
+### Mito 4 — "As pessoas sem instrução falam tudo errado"
+
+**A refutação** (@sec-cap-86): "nós foi" **não é ausência de regra** — é **outra** regra. E é uma
+regra elegante: não marcar redundantemente o plural quando o sujeito já o marca. O falante
+aplica um princípio de **economia**, e o aplica com regularidade.
+
+**Note a ironia**: várias línguas de enorme prestígio fazem exatamente o que se condena no PB
+popular. O inglês marca a pessoa em **um** único lugar (*he speaks*, e nada mais); o francês
+falado perdeu quase todas as distinções verbais audíveis. Ninguém diz que o inglês é
+"defeituoso" por isso.
+
+### Mito 5 — "O lugar onde melhor se fala português é o Maranhão"
+
+**A refutação**: a crença apoia-se em traços isolados — a conservação do "tu" com concordância
+plena ("tu falas") — e os erige em critério.
+
+**O problema é o critério**: por que a conservação seria melhor? Não há razão. E se o critério
+fosse aplicado com coerência, o Maranhão perderia — ele inovou em outros pontos, como todo
+mundo. **Nenhum lugar fala melhor**, porque não existe critério linguístico de "melhor".
+
+### Mito 6 — "O certo é falar assim porque se escreve assim"
+
+**A refutação** (@sec-cap-07, @sec-cap-90): inverte a relação. A **fala é primária** — histórica,
+biológica e ontogeneticamente. A escrita é uma tecnologia de cerca de 5.000 anos; a linguagem
+tem pelo menos 100.000. Há milhares de línguas sem escrita, e nenhuma língua sem fala.
+
+Pronunciar "muito" com o "u" que a grafia registra não é falar melhor: é **ler em voz alta**.
+
+### Mito 7 — "É preciso saber gramática para falar e escrever bem"
+
+**A refutação**: confunde **saber a língua** com **saber descrever a língua** — competência e
+metalinguagem. Toda criança de cinco anos domina construções sintáticas que a gramática leva
+páginas para descrever, e não sabe o nome de nenhuma.
+
+**A evidência**: Machado de Assis, Guimarães Rosa e Clarice Lispector escreveram como
+escreveram sem que a nomenclatura tenha tido papel nisso. E, inversamente, milhões de alunos
+sabem classificar orações subordinadas e não conseguem escrever um parágrafo coerente.
+
+**A ressalva honesta**: isso **não** significa que a gramática seja inútil. Ela é um instrumento
+de **análise** valioso — e este manual inteiro a ensina. Significa que ela **não é condição** para
+escrever bem. Confundir o mapa com o caminho é o erro.
+
+### Mito 8 — "O domínio da norma-padrão é um instrumento de ascensão social"
+
+Este é o mito mais delicado — e o único que é **parcialmente verdadeiro**.
+
+**O que é verdade**: a norma **abre portas**. Sem ela, certas posições são inacessíveis. Negar
+isso ao aluno é abandoná-lo, e o manual o diz desde o @sec-cap-86.
+
+**O que é falso**: que ela **baste**. A norma é **necessária** e **não suficiente** — e apresentá-la
+como suficiente é cruel, porque:
+
+1. **Transfere ao indivíduo a responsabilidade por uma estrutura.** Se a norma bastasse, quem não
+   ascendeu não estudou o bastante. A desigualdade vira **culpa pessoal**;
+2. **Esconde as outras barreiras**: capital social, rede de contatos, cor da pele, origem,
+   aparência. O falante que domina a norma perfeitamente **ainda** enfrenta todas elas;
+3. **Promete o que não entrega.** Milhões dominam a norma e não ascenderam. A promessa
+   quebrada produz frustração — e a frustração se volta contra a própria pessoa.
+
+**A formulação honesta**: a norma é uma **ferramenta necessária**, cuja ausência **fecha** portas,
+mas cuja presença **não garante** que se abram. Ensiná-la sim; vendê-la como escada, não.
+
+::: {#fig-preconceito}
+
+```{.tikz}
+%%| filename: preconceito
+%%| alt: Esquema em quatro passos do mecanismo do preconceito linguístico. Passo um, a correlação real: certos traços linguísticos de fato se correlacionam com grupos sociais, o que é fato mensurável e legítimo. Passo dois, a inferência legítima: ao ouvir o traço, infere-se a escolaridade ou a origem do falante, o que ainda é legítimo. Passo três, o salto ilegítimo, destacado em vermelho: da escolaridade infere-se inteligência, caráter e competência, e é aqui que nasce o preconceito, num salto que não tem nenhuma base linguística. Passo quatro, a naturalização: o juízo social se disfarça de juízo técnico, e em vez de dizer que se despreza o pobre, diz-se que ele fala errado. Ao final, uma caixa registra que a língua funciona como álibi respeitável, e que por isso o preconceito linguístico é o último preconceito socialmente aceito. Uma nota lembra que o teste decisivo é que os mesmos traços recebem avaliações opostas conforme quem fala.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  p/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize, text width=88mm},
+  s/.style={-{Stealth[length=5pt]}, line width=1.2pt, draw=manualgray},
+]
+  \node[p, draw=manualgreen, fill=manualgreen!10] (p1) at (0,3.9)
+    {\textbf{1. A CORRELAÇÃO} --- \emph{real, mensurável}\\
+     {\scriptsize ``nós foi'' correlaciona-se com baixa escolaridade. \textbf{É fato}, e é o objeto da sociolinguística.}};
+
+  \node[p, draw=manualgreen, fill=manualgreen!10] (p2) at (0,2.2)
+    {\textbf{2. A INFERÊNCIA} --- \emph{legítima}\\
+     {\scriptsize Ouvindo o traço, infere-se a \textbf{escolaridade} do falante. Todo falante faz isso.}};
+
+  \node[p, draw=manualred, fill=manualred!16, line width=1pt] (p3) at (0,0.3)
+    {\textbf{3. O SALTO} --- \emph{ilegítimo} $\leftarrow$ \textbf{aqui nasce o preconceito}\\
+     {\scriptsize Da escolaridade infere-se \textbf{inteligência}, \textbf{caráter}, \textbf{competência}.}\\
+     {\scriptsize O salto \textbf{não é linguístico}: nada em ``nós foi'' informa sobre inteligência.}};
+
+  \node[p, draw=manualyellow, fill=manualyellow!16] (p4) at (0,-1.6)
+    {\textbf{4. A NATURALIZAÇÃO} --- \emph{o disfarce}\\
+     {\scriptsize Não se diz ``desprezo pobres''. Diz-se ``\textbf{ele fala errado}''.}\\
+     {\scriptsize O juízo \textbf{social} passa por juízo \textbf{técnico}.}};
+
+  \draw[s] (p1) -- (p2);
+  \draw[s] (p2) -- (p3);
+  \draw[s, draw=manualred] (p3) -- (p4);
+
+  \node[rounded corners=3pt, draw=manualgray, fill=manualgray!14, align=center,
+        font=\scriptsize, inner sep=5pt, text width=92mm] at (0,-3.3)
+    {A língua fornece um \textbf{álibi respeitável} --- por isso o preconceito linguístico é o\\
+     \textbf{último preconceito socialmente aceito}.\\[3pt]
+     \textbf{O teste}: os \emph{mesmos} traços recebem avaliações \emph{opostas} conforme \textbf{quem} fala.\\
+     {\scriptsize O ``r'' caipira é piada no roceiro e \emph{autenticidade} no cantor sertanejo.}};
+\end{tikzpicture}
+```
+
+O mecanismo do preconceito linguístico em quatro passos. O salto ilegítimo ocorre no passo 3 —
+e é onde a crítica deve incidir.
+
+:::
+
+## O que a crítica ao preconceito NÃO é
+
+Esta seção existe porque o mal-entendido é sistemático — e porque ele é frequentemente
+**deliberado**: caricaturar a posição é o modo mais eficiente de não ter de respondê-la.
+
+::: {.callout-important}
+## As quatro caricaturas
+**Caricatura 1 — "Então tanto faz como se fala."**
+
+**Não.** Tanto **não** faz, e a sociolinguística é quem melhor documenta isso. Ela **mede** o
+custo social das variantes: mostra, com números, que "nós foi" custa a vaga de emprego. Dizer
+"tanto faz" seria **contrariar** os dados da própria disciplina.
+
+O que ela afirma é diferente: as variedades são equivalentes **linguisticamente** (todas têm
+gramática completa) e **desiguais socialmente** (o prestígio é distribuído com o poder). As duas
+coisas, ao mesmo tempo. Confundi-las é o erro.
+
+**Caricatura 2 — "Então não se deve ensinar a norma."**
+
+**Ao contrário — deve-se ensinar melhor.** O argumento é direto: se a norma tem valor social real,
+então **negá-la ao aluno pobre é fechar-lhe a porta**. O aluno de classe alta a aprende em casa;
+o aluno pobre só a aprende na escola. Uma escola que não a ensina **reproduz** a desigualdade
+que julga combater — e faz isso em nome do aluno.
+
+**Quem defende não ensinar a norma está, objetivamente, do lado do privilégio** — e essa é a
+crítica mais dura que se pode fazer ao relativismo, porque é feita de dentro da mesma
+preocupação.
+
+**Caricatura 3 — "Então não existe erro."**
+
+**Existem três coisas distintas**, e a caricatura funde as três:
+
+| | Existe? | O que é |
+|---|:---:|---|
+| **Erro de língua** — falha do sistema | **não** | Não existe. Nenhum falante nativo produz sistema defeituoso |
+| **Desvio da norma-padrão** | **sim** | Existe e tem **custo social real**. É um fato sobre a sociedade |
+| **Inadequação ao gênero** | **sim** | "Cadê" no ofício. É fato sobre a situação (@sec-cap-88) |
+
+Negar o primeiro **não** é negar os outros dois.
+
+**Caricatura 4 — "É ideologia; a gramática é neutra."**
+
+Esta merece atenção, porque se apresenta como a posição sóbria.
+
+**A resposta**: a norma-padrão **não** é neutra, e não por acusação — por **construção
+histórica**. Ela foi **escolhida**: alguém decidiu, em algum momento, que a variedade de
+prestígio de certo grupo seria "a" norma. No Brasil, a norma-padrão foi calcada em parte na
+literatura **portuguesa** do século XIX — nem sequer na fala culta brasileira da época.
+
+Isso não é opinião: é história documentada [@faraco2008]. A norma é um **artefato**, com autores,
+datas e interesses. Chamá-la de neutra é que é a posição ideológica — a que apaga a própria
+história e apresenta uma escolha como se fosse natureza.
+
+**E note**: reconhecer isso **não** desqualifica a norma nem dispensa de ensiná-la. Artefatos são
+úteis. Um sistema métrico também é convenção arbitrária, e ninguém propõe abandoná-lo. O que se
+recusa é a **mentira** sobre sua origem.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real — a posição do manual, enunciada inteira
+Este é o lugar de dizê-la sem rodeios, porque é a posição que atravessou os catorze volumes.
+
+**As duas verdades, ambas verdadeiras ao mesmo tempo:**
+
+1. **Todas as variedades são sistemas completos.** "Nós foi" tem regra. Nenhum falante nativo
+   fala errado sua própria língua. **Fato linguístico.**
+2. **As variedades têm valor social desigual, e isso tem consequências materiais.** A norma abre
+   portas; a falta dela as fecha. **Fato social.**
+
+**As duas posturas erradas**, que são simétricas e igualmente confortáveis:
+
+- **O prescritivismo ingênuo** — só reconhece (2), e a explica por (1) invertido: "a norma vale
+  mais porque é melhor". É **falso**, e **humilha** o aluno: ensina-lhe, junto com a gramática,
+  que ele e sua família são inferiores;
+- **O relativismo vazio** — só reconhece (1), e conclui que (2) não importa: "tanto faz". É
+  **verdadeiro e insuficiente**, e **abandona** o aluno: manda-o para um mundo que vai cobrá-lo,
+  desarmado, em nome de um princípio que não o alimenta.
+
+**A terceira posição — a única defensável:**
+
+Sustentar as duas ao mesmo tempo. Dizer ao aluno, sem contradição:
+
+> "Sua variedade tem gramática, é completa, e serve perfeitamente onde você a usa. **E** existe
+> outra variedade, a de prestígio, que não é melhor — é mais **valorizada**, por razões que nada
+> têm a ver com língua e tudo a ver com poder. Você tem direito a ela também. Vamos aprendê-la,
+> **sem** que você tenha de abandonar a sua."
+
+**A meta é o trânsito** (@sec-cap-72, @sec-cap-88): **acrescentar**, não substituir. Ampliar o
+repertório, não trocá-lo. É mais ambicioso que qualquer das duas posturas — e mais difícil,
+porque exige do professor que ele saiba as duas coisas: a descrição **e** a norma.
+
+**A frase que resume o manual inteiro**: quem só descreve **abandona**; quem só prescreve
+**humilha**. A única saída é fazer as duas coisas, e dizer a verdade sobre ambas
+[@faraco2008; @bagno2011].
+:::
+
+## Política linguística
+
+Do preconceito passamos às **instituições** — porque o Estado também age sobre a língua, e suas
+decisões afetam milhões.
+
+**Política linguística** é o conjunto de decisões — do Estado, de instituições, da escola — sobre
+**quais** línguas e variedades são usadas, ensinadas e reconhecidas, e **onde**. A distinção
+clássica:
+
+- **Política linguística** — as decisões e escolhas (que língua é oficial? qual se ensina?);
+- **Planejamento linguístico** — a **execução** dessas decisões (ortografias, gramáticas,
+  dicionários, currículos, formação de professores).
+
+### O Brasil não é monolíngue
+
+Este é o fato que mais surpreende, e o mais consequente.
+
+O senso comum diz: "no Brasil se fala português". É **falso**, e a falsidade tem vítimas.
+
+**O quadro real** — cerca de **220 línguas** no território:
+
+| Grupo | Número aproximado | Situação |
+|---|---|---|
+| **Línguas indígenas** | ~180 | A imensa maioria **ameaçada**; muitas com menos de 100 falantes. Eram cerca de **1.200** em 1500 |
+| **Línguas de imigração** | ~30 | Alemão (Hunsrückisch, Pomerano), italiano (Talian), japonês, árabe, ucraniano, polonês |
+| **Libras** | 1 | **Língua de sinais brasileira** — língua natural plena, não "mímica" nem "português gestualizado" |
+| **Línguas afro-brasileiras** | poucas | Remanescentes rituais e comunitários |
+| **Português** | 1 | Majoritário, oficial |
+
+**A perda**: das ~1.200 línguas indígenas de 1500, restam ~180. **Mais de 85% desapareceram** — e
+não por evolução natural: por **extermínio** dos falantes e por **política deliberada** de
+apagamento.
+
+::: {.callout-note}
+## O Diretório dos Índios: a política linguística mais eficaz da história do Brasil
+Um episódio que vale conhecer, porque ilustra o que política linguística **faz**.
+
+Até meados do século XVIII, a **língua geral** (o nheengatu, base tupi) era mais falada que o
+português em vastas áreas — inclusive em São Paulo, onde os bandeirantes a usavam como língua do
+cotidiano. O português era a língua da administração; o nheengatu, a da vida.
+
+Em **1757**, o Marquês de Pombal promulgou o **Diretório dos Índios**, que **proibiu** o uso das
+línguas gerais e **impôs** o português. A motivação era política — reduzir a influência dos
+jesuítas e consolidar o domínio da Coroa —, mas o efeito foi linguístico e **duradouro**.
+
+**O resultado**: em poucas gerações, o português tornou-se dominante. O nheengatu recuou ao
+Amazonas, onde sobrevive — e onde, ironia notável, é hoje **cooficial** em São Gabriel da
+Cachoeira.
+
+**O que o episódio ensina** — e é por isso que está aqui:
+
+1. **Política linguística funciona.** Não é retórica: o Diretório **mudou** a língua de um país.
+   Quem pensa que a língua "evolui naturalmente" e que decisões não importam deve explicar 1757;
+2. **O monolinguismo brasileiro é uma construção**, não um dado. Não somos monolíngues por
+   natureza — **fomos feitos** monolíngues, por decreto, contra uma realidade que era outra;
+3. **O apagamento é ativo.** As línguas não "morreram": foram **mortas**, por política deliberada
+   e por extermínio dos falantes. A voz passiva importa.
+:::
+
+### Marcos legais brasileiros
+
+| Marco | O que faz |
+|---|---|
+| **Constituição de 1988, art. 210 §2º** | Assegura às comunidades indígenas o uso de **suas línguas maternas** no ensino fundamental. Rompe com séculos de política de apagamento |
+| **Lei 10.436/2002 — Lei de Libras** | Reconhece a **Libras** como **língua** (não "recurso"), e o Decreto 5.626/2005 a torna disciplina obrigatória na formação de professores e fonoaudiólogos |
+| **Cooficialização municipal** | São Gabriel da Cachoeira (AM), 2002: **nheengatu**, **tukano** e **baniwa** cooficiais ao lado do português — primeiro caso do Brasil. Depois: Talian (RS), Pomerano (ES), Hunsrückisch |
+| **INDL** (2010) | Inventário Nacional da Diversidade Linguística — reconhece línguas como **patrimônio cultural** |
+| **Acordo Ortográfico de 1990** | Planejamento de **corpus**: unifica a grafia (@sec-cap-16). Só a grafia (@sec-cap-89) |
+
+### Dois episódios brasileiros
+
+**1. O Projeto de Lei 1676/1999 (Aldo Rebelo)** — propunha **restringir** o uso de estrangeirismos,
+com multa. Chegou a ser aprovado na Câmara e nunca virou lei.
+
+**A análise técnica** (@sec-cap-67):
+
+- **Empréstimo é normal e universal.** O português é feito deles: *álcool* e *azeite* são árabes;
+  *garçom* e *abajur*, franceses; *futebol* e *time*, ingleses. Nenhuma língua jamais se degradou
+  por importar palavras — e uma língua que não importa é uma língua que não é usada;
+- **A língua já filtra sozinha.** O que é útil fica e se adapta (*futebol*, *estresse*,
+  *deletar* — que já ganhou conjugação portuguesa); o que não é, cai. *Vitrola* e *gilete*
+  entraram; a maior parte das novidades dos anos 1990 sumiu sem lei nenhuma;
+- **O alvo era simbólico, não real.** O PL não ameaçava a língua e não a defenderia. Servia a uma
+  **política de identidade** — e é legítimo discutir identidade nacional. O que não é legítimo é
+  apresentar isso como **defesa técnica** de um idioma que não estava em risco.
+
+**A observação que fecha**: se a preocupação fosse com as línguas do Brasil, havia 180 línguas
+**de fato** ameaçadas de extinção esperando atenção. O PL não tratava delas.
+
+**2. O caso do livro didático (2011)** — a obra *Por uma vida melhor*, do PNLD, trazia um capítulo
+explicando que "os livro" ocorre no PB falado, tem regra, e que o aluno deve saber **quando** usar
+cada forma. Explosão na imprensa: "MEC ensina a falar errado".
+
+**A análise**:
+
+- **O livro estava tecnicamente correto** e dizia **exatamente** o que este manual diz: a forma
+  existe, tem regra, e há situações em que **causa prejuízo** — por isso é preciso dominar a
+  norma. Ele **ensinava** a norma;
+- **A reação leu o oposto do que estava escrito.** Descrever virou prescrever; explicar virou
+  endossar. O livro dizia "aprenda a norma **porque** existe preconceito"; leu-se "não aprenda a
+  norma";
+- **O que o episódio revela** — e é o ponto: a distinção **descrever × prescrever** (@sec-cap-02),
+  que é o primeiro conceito de qualquer curso de linguística, **não chegou** ao debate público.
+  Depois de um século de linguística, a ideia de que se pode **descrever** uma forma sem
+  **recomendá-la** ainda é ininteligível fora da academia;
+- **O custo**: professores passaram a **temer** ensinar variação. O efeito prático de um debate
+  mal conduzido é o silêncio — e o silêncio favorece o preconceito.
+
+## 📋 Quadro-resumo
+
+**Preconceito linguístico** = julgar a **pessoa** pela variedade. O objeto **nunca** é a forma.
+
+**O mecanismo em 4 passos**: (1) **correlação** real (traço ↔ grupo) → (2) **inferência**
+legítima (traço → escolaridade) → (3) **o salto ILEGÍTIMO** (escolaridade → inteligência,
+caráter) → (4) **naturalização** ("não desprezo pobres; ele fala errado"). **O salto está no
+passo 3.**
+
+**Por que persiste**: é o **último preconceito socialmente aceito** — a língua dá **álibi
+respeitável** ao que, dito diretamente, seria inaceitável.
+
+**O teste decisivo**: os **mesmos** traços recebem avaliações **opostas** conforme **quem** fala.
+"R" caipira = piada no roceiro, autenticidade no cantor sertanejo.
+
+**Os mitos** [@bagno2007]: unidade surpreendente (esconde a desigualdade **social**) · Portugal
+sabe mais (os **dois** inovaram) · português é difícil (difícil é a **norma**, não a língua) · sem
+instrução fala errado (é **outra** regra) · Maranhão fala melhor (não há critério) · falar como se
+escreve (a **fala é primária**) · precisa de gramática para escrever (competência ≠
+metalinguagem) · **a norma é ascensão** (necessária, **não suficiente** — o único parcialmente
+verdadeiro).
+
+**As quatro caricaturas e as respostas:**
+
+| Caricatura | Resposta |
+|---|---|
+| "tanto faz" | Não: a disciplina **mede** o custo. Equivalentes **linguisticamente**, desiguais **socialmente** |
+| "não ensine a norma" | **Ensine melhor.** O rico a aprende em casa; o pobre, só na escola. Não ensinar **reproduz** o privilégio |
+| "não existe erro" | **Três** coisas: erro de língua (**não** existe) · desvio da norma (**existe**, custa) · inadequação (**existe**) |
+| "a gramática é neutra" | Não: foi **escolhida**. A norma brasileira calcou-se na literatura **portuguesa** do séc. XIX |
+
+**A posição do manual**: (1) todas as variedades são **completas** — fato linguístico; (2) o valor
+social é **desigual** — fato social. **As duas ao mesmo tempo.** Quem só descreve **abandona**;
+quem só prescreve **humilha**. Meta: **acrescentar**, não substituir.
+
+**Política linguística** = decisões sobre quais línguas se usam/ensinam. **Planejamento** = a
+execução.
+
+**O Brasil NÃO é monolíngue**: ~**220 línguas** — ~180 **indígenas** (eram ~1.200 em 1500: **85%
+apagadas**), ~30 de **imigração**, **Libras** (língua plena), português.
+
+**Marcos**: CF/88 art. 210 §2º (línguas maternas indígenas) · **Lei 10.436/2002** (Libras) ·
+**São Gabriel da Cachoeira/AM, 2002** (nheengatu, tukano, baniwa **cooficiais**) · INDL (2010).
+
+**Diretório dos Índios (1757, Pombal)**: proibiu as línguas gerais, impôs o português. **Prova que
+política linguística funciona** — e que o monolinguismo brasileiro foi **construído**, não dado.
+
+**PL 1676/1999**: empréstimo é **normal**; a língua **filtra sozinha**; o alvo era **simbólico**.
+**Caso do livro didático (2011)**: o livro estava **certo** e **ensinava** a norma; a reação leu o
+oposto — a distinção **descrever × prescrever** não chegou ao debate público.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que o preconceito é sobre a língua.** É sobre a **pessoa**. A forma é pretexto.
+- **Localizar mal o salto.** Os passos 1 e 2 são **legítimos**. O ilegítimo é o **3**.
+- **Achar que criticar o preconceito é dizer "tanto faz".** A disciplina **mede** o custo social.
+- **Achar que é não ensinar a norma.** É **ensinar melhor** — não ensinar **reproduz** o
+  privilégio.
+- **Achar que "não existe erro".** Erro de **língua** não existe; **desvio da norma** e
+  **inadequação** existem e custam.
+- **Achar que a norma-padrão é neutra.** Foi **escolhida**, e a brasileira calcou-se na
+  literatura **portuguesa**.
+- **Achar que a norma basta para ascender.** **Necessária, não suficiente.** Vendê-la como escada
+  transfere ao indivíduo a culpa por uma estrutura.
+- **Achar que o Brasil é monolíngue.** ~**220 línguas**. Esse mito **é** política linguística.
+- **Achar que Libras é mímica ou "português gestualizado".** É **língua natural plena**, com
+  gramática própria e sintaxe espacial — e é **lei** desde 2002.
+- **Achar que as línguas indígenas "morreram".** Foram **mortas** — extermínio e política
+  deliberada. A voz passiva importa.
+- **Achar que estrangeirismo ameaça a língua.** *Álcool*, *azeite*, *garçom*, *futebol*. A língua
+  **filtra sozinha**.
+- **Confundir política com planejamento.** Política = **decisão**; planejamento = **execução**.
+
+## ✍️ Exercícios
+
+**1.** Explique o mecanismo do preconceito linguístico em seus quatro passos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Passo 1 — A correlação (real).** Certos traços correlacionam-se de fato com certos grupos. "Nós
+foi" é mais frequente entre falantes de baixa escolaridade (@sec-cap-88). Isso é **verdade**,
+mensurável, e é o objeto da sociolinguística. Nada de errado aqui.
+
+**Passo 2 — A inferência (legítima).** Ouvindo o traço, o ouvinte infere algo sobre a
+**escolaridade** do falante. Ainda **legítimo**: é o que qualquer falante faz, e é a mesma
+inferência que o pesquisador faz profissionalmente. Até aqui, nenhum preconceito.
+
+**Passo 3 — O salto (ILEGÍTIMO).** Da escolaridade, infere-se **inteligência**, **caráter**,
+**competência**, **confiabilidade**. **É aqui que o preconceito nasce.**
+
+E note o essencial: **o salto não é linguístico**. Nada em "nós foi" informa sobre inteligência —
+a forma tem regra, e aplicá-la exige a mesma competência que aplicar qualquer outra. O salto é a
+aplicação, à pessoa, de um preconceito **social preexistente**, usando a língua apenas como
+**detector** de origem.
+
+**Passo 4 — A naturalização (o disfarce).** O juízo social se disfarça de técnico. Não se diz
+"desprezo pobres" — diz-se "**ele fala errado**". A língua fornece um **álibi respeitável**.
+
+**Por que o passo 4 é decisivo**: o preconceito linguístico é o **último preconceito socialmente
+aceito**. Ninguém declara em público "não contrato pobres". Mas "ele não sabe falar português" é
+dito abertamente — em entrevistas, em comentários sobre políticos, em salas de aula — e passa por
+**exigência de qualidade**. A língua **lava** o preconceito e o devolve apresentável.
+
+**A prova de que o mecanismo é este**: os **mesmos traços** recebem avaliações **opostas**
+conforme quem fala. O "r" retroflexo de um roceiro é piada; o mesmo "r" num cantor sertanejo de
+sucesso é **autenticidade**. O francês de um imigrante rico é "charmoso"; o espanhol de um
+imigrante pobre é "não sabe falar". A forma é idêntica; muda a **pessoa**.
+
+Se o problema fosse a forma, isso seria **impossível**. Logo, o problema não é a forma.
+
+**Onde a crítica deve incidir**: no **passo 3**. Não adianta negar a correlação (ela existe) nem
+proibir a inferência (ela é natural). O que se combate é o **salto** — e o disfarce que o torna
+respeitável.
+:::
+
+**2.** Refute o mito "brasileiro não sabe português; quem sabe é Portugal".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O mito supõe** que Portugal conservou "o português de verdade" e o Brasil o corrompeu. É
+**falso**, e a refutação é histórica (@sec-cap-89).
+
+**Traços em que o BRASIL é o conservador** (mantém o clássico; Portugal inovou):
+
+- **o gerúndio** — "estou fazendo" é a construção do **português clássico**, de Camões e Vieira.
+  "Estou a fazer" é **inovação portuguesa** generalizada a partir do **século XVIII** — depois
+  da colonização;
+- **as vogais átonas plenas** — o clássico **não** reduzia como o PE moderno reduz. A redução
+  drástica (*telefone* → [tlˈfon]) é mudança **portuguesa** pós-colonial. E note: é o traço
+  fonologicamente **mais estruturante** de todos, o responsável pela dificuldade de nos
+  entendermos. Quem mudou foi **Portugal**;
+- **itens lexicais** que caíram em desuso lá e sobrevivem aqui.
+
+**Traços em que o BRASIL inovou** (Portugal manteve): a perda dos clíticos de 3ª ("vi ele"), o
+preenchimento do sujeito, a redução do paradigma verbal, a próclise generalizada.
+
+**A conclusão inescapável**: os **dois** inovaram, em pontos **diferentes**. Nenhum é "o português
+original" — **o clássico não existe mais em lugar nenhum**. São dois descendentes que se
+afastaram, cada um por um caminho, de um ancestral que ambos abandonaram.
+
+**A inversão retórica**: o brasileiro que diz "estou fazendo" usa a forma de **Camões**; o
+português que diz "estou a fazer" usa uma novidade de 250 anos.
+
+**A ressalva indispensável**, que separa a boa resposta: isso **não** torna o PB "mais correto".
+Cair nessa conclusão seria **aceitar a premissa errada** do adversário — a de que o mais antigo
+é o melhor. **Antiguidade não é critério de correção**; línguas mudam sem se degradar
+(@sec-cap-86).
+
+O argumento não serve para inverter a hierarquia — serve para **destruí-la**. Não há um português
+melhor: há **duas normas**, ambas legítimas, ambas inovadoras, ambas conservadoras.
+
+**A função do mito**: ele fornece uma **âncora externa** para o preconceito interno. Se existe um
+lugar onde se fala "certo", então o brasileiro que fala diferente falha por comparação — e a
+régua está convenientemente fora do alcance de qualquer verificação.
+:::
+
+**3.** "A norma-padrão é instrumento de ascensão social." O mito mais delicado — analise.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**É o único mito parcialmente verdadeiro** — e é por isso que é o mais perigoso: não se refuta
+negando, mas **corrigindo**.
+
+**O que é VERDADE — e o manual insiste nisso:**
+
+A norma **abre portas**. Sem ela, certas posições são simplesmente inacessíveis: concursos,
+cargos, universidade, profissões de prestígio. O custo de não dominá-la é **real e mensurável**.
+
+Negar isso ao aluno é **abandoná-lo** — e é a razão pela qual o manual sustenta, desde o
+@sec-cap-86, que a norma **deve** ser ensinada, e bem.
+
+**O que é FALSO — que ela BASTE:**
+
+A norma é **necessária** e **não suficiente**. E apresentá-la como suficiente é cruel, por três
+razões:
+
+1. **Transfere ao indivíduo a responsabilidade por uma estrutura.** Se a norma bastasse, então
+   quem não ascendeu simplesmente não estudou o bastante. A desigualdade — que é estrutural —
+   converte-se em **culpa pessoal**. É a operação ideológica central do mito;
+2. **Esconde as outras barreiras**: capital social, rede de contatos, cor da pele, origem,
+   aparência, o sobrenome. O falante que domina a norma **perfeitamente** ainda enfrenta todas
+   elas — e a norma não o protege de nenhuma;
+3. **Promete o que não entrega.** Milhões de brasileiros dominam a norma e **não** ascenderam. A
+   promessa quebrada produz frustração — e, pela lógica do ponto 1, a frustração se volta **contra
+   a própria pessoa**: "eu devia ter estudado mais".
+
+**A formulação honesta**: a norma é uma **ferramenta necessária**, cuja **ausência fecha** portas
+mas cuja **presença não garante** que se abram.
+
+**A diferença prática, que é o que importa:**
+
+| Dizer | Efeito |
+|---|---|
+| "Estude a norma e você vencerá" | Promessa falsa → frustração → **autoculpa** |
+| "A norma é necessária; sem ela certas portas nem se abrem. Ela **não basta** — há outras barreiras, e elas não são culpa sua" | Verdade → o aluno estuda **e** entende a estrutura → pode **agir** sobre ela |
+
+**A síntese**: ensiná-la, sim — com competência e urgência. **Vendê-la como escada**, não. A
+diferença entre as duas coisas é a diferença entre armar o aluno e enganá-lo [@bagno2007;
+@faraco2008].
+:::
+
+**4.** "Criticar o preconceito linguístico é dizer que tanto faz e que não se deve ensinar a
+norma." Responda.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**São duas caricaturas, e ambas invertem a posição.**
+
+**Caricatura 1 — "tanto faz":**
+
+**Não.** Tanto **não** faz — e a sociolinguística é justamente **quem melhor documenta isso**.
+Ela **mede** o custo social das variantes: mostra, com números, que "nós foi" custa a vaga de
+emprego, que o sotaque afeta a avaliação de competência, que o desvio da norma tem preço.
+
+Dizer "tanto faz" seria **contrariar os dados da própria disciplina**. A acusação é
+autocontraditória: acusa a sociolinguística de negar exatamente o que ela demonstrou.
+
+**O que ela afirma** é outra coisa, e são duas proposições simultâneas:
+
+- as variedades são equivalentes **linguisticamente** — todas têm gramática completa (fato sobre
+  a língua);
+- as variedades são desiguais **socialmente** — o prestígio se distribui com o poder (fato sobre
+  a sociedade).
+
+Confundir os dois planos é o erro. A caricatura funde-os e atribui à disciplina a fusão que ela
+combate.
+
+**Caricatura 2 — "não ensine a norma":**
+
+**Ao contrário — ensine melhor.** E o argumento é o mais forte do capítulo:
+
+Se a norma tem valor social real (e tem), então **negá-la ao aluno pobre é fechar-lhe a porta**.
+O aluno de classe alta a aprende **em casa** — ouvindo os pais, lendo, no jantar. O aluno pobre
+só a aprende **na escola**. Se a escola não a ensina, ele **não a aprende em lugar nenhum**.
+
+Portanto: **uma escola que não ensina a norma reproduz a desigualdade que julga combater** — e o
+faz em nome do aluno, o que torna a coisa pior.
+
+**A conclusão, que é dura e é justa**: quem defende não ensinar a norma está, **objetivamente,
+do lado do privilégio**. Não por má intenção — mas pelo efeito. É a crítica mais severa que se
+pode fazer ao relativismo, e ela vem **de dentro** da mesma preocupação com o aluno pobre.
+
+**A posição correta, enunciada inteira:**
+
+> "Sua variedade tem gramática e serve perfeitamente onde você a usa. **E** existe outra, a de
+> prestígio, que não é melhor — é mais **valorizada**, por razões que nada têm a ver com língua
+> e tudo a ver com poder. Você tem direito a ela também. Vamos aprendê-la, **sem** que você tenha
+> de abandonar a sua."
+
+**A síntese**: quem só descreve **abandona**; quem só prescreve **humilha**. A meta é
+**acrescentar** — o trânsito entre variedades (@sec-cap-72, @sec-cap-88), que é mais ambicioso
+que qualquer das duas posturas.
+:::
+
+**5.** "Não existe erro de português." Analise a afirmação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é ambígua** — e a ambiguidade é onde mora todo o debate. É preciso separar **três**
+coisas que ela funde:
+
+| | Existe? | O que é |
+|---|:---:|---|
+| **Erro de língua** — falha do sistema | **NÃO** | Nenhum falante nativo produz sistema defeituoso. "Nós foi" tem regra: não marcar redundantemente o plural quando o sujeito já o marca (@sec-cap-86) |
+| **Desvio da norma-padrão** | **SIM** | Existe e tem **custo social real**. É fato sobre a **sociedade**, não sobre a língua |
+| **Inadequação ao gênero/situação** | **SIM** | "Cadê" no ofício. É fato sobre a **situação** (@sec-cap-88) |
+
+**Portanto:**
+
+- **Se "erro" significa falha do sistema linguístico**: a afirmação é **verdadeira**. Não existe,
+  e não pode existir — um falante nativo não pode falhar em produzir sua própria língua. E há um
+  quarto tipo que a tabela nem lista: o **lapso** (trocar sílabas, começar uma frase e mudar de
+  ideia), que existe, mas é falha de **execução**, não de sistema, e ocorre igualmente em todas
+  as variedades;
+- **Se "erro" significa desvio da norma-padrão**: a afirmação é **falsa**. Desvios existem, são
+  identificáveis, e **custam caro**.
+
+**A má-fé de cada lado** — e é o que a boa resposta expõe:
+
+- **O prescritivista** usa a ambiguidade para tratar o **desvio** como se fosse **falha de
+  sistema** — e daí concluir que o falante é deficiente. Da inadequação ele deduz a
+  incapacidade;
+- **O relativista** usa a ambiguidade ao contrário: da inexistência do **erro de língua** conclui
+  que o **desvio** não importa — o que é falso e prejudica o aluno.
+
+**A formulação precisa**, que não dá margem a nenhum dos dois:
+
+> Não existe erro **de língua**. Existe **desvio da norma-padrão**, que é real e tem custo social
+> real. Existe **inadequação ao gênero**, que é real e compromete a comunicação. Negar o primeiro
+> **não** é negar os outros dois.
+
+**Por que a distinção importa na prática**: ela permite dizer ao aluno "isto não se escreve
+assim **neste gênero**" — que é verdadeiro, útil e acionável — em vez de "você fala errado" — que
+é falso, inútil e humilhante. A mesma correção, com um fundamento diferente, produz um aluno
+diferente.
+:::
+
+**6.** Descreva o quadro linguístico brasileiro real e explique por que o mito do monolinguismo é
+uma política linguística.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O quadro real** — cerca de **220 línguas** no território:
+
+| Grupo | Nº aprox. | Situação |
+|---|---|---|
+| **Indígenas** | ~180 | Maioria **ameaçada**; muitas com menos de 100 falantes. Eram ~**1.200** em 1500 |
+| **De imigração** | ~30 | Alemão (Hunsrückisch, Pomerano), italiano (Talian), japonês, árabe, ucraniano, polonês |
+| **Libras** | 1 | Língua natural **plena** — não mímica, não "português gestualizado" |
+| **Afro-brasileiras** | poucas | Remanescentes rituais e comunitários |
+| **Português** | 1 | Majoritário, oficial |
+
+**A perda**: das ~1.200 línguas indígenas de 1500 restam ~180 — **mais de 85% desapareceram**. E
+a voz passiva importa: elas **não morreram**; foram **mortas**, por extermínio dos falantes e por
+política deliberada de apagamento.
+
+**Por que o mito do monolinguismo É uma política linguística** — este é o núcleo da questão:
+
+**1. Ele não é um erro inocente; é um efeito produzido.** O Brasil **não** é monolíngue por
+natureza — **foi feito** monolíngue. O caso exemplar é o **Diretório dos Índios** (1757, Pombal):
+proibiu o uso das línguas gerais (o nheengatu, então mais falado que o português em vastas
+áreas, inclusive em São Paulo) e **impôs** o português. Em poucas gerações, o português tornou-se
+dominante.
+
+Ou seja: o monolinguismo que hoje se toma por dado natural é o **resultado** de uma política — e
+uma política que **funcionou**. Quem acha que decisões estatais não afetam a língua precisa
+explicar 1757.
+
+**2. Ele naturaliza o resultado e apaga o processo.** Dizer "no Brasil se fala português" faz
+parecer que sempre foi assim, que é o estado natural das coisas. Isso **apaga** a violência que
+produziu o resultado — e, apagando-a, a legitima retroativamente.
+
+**3. Ele produz efeitos presentes.** Não é só sobre o passado:
+
+- **Invisibiliza** os falantes atuais — 180 povos cujas línguas não aparecem no currículo, na
+  mídia, na estatística;
+- **Justifica a inação**: não se faz política para o que não se reconhece existir. Não há
+  urgência em salvar línguas que "não existem";
+- **Sustenta o preconceito interno**: se somos monolíngues e homogêneos, quem fala diferente
+  **é desviante** — e não parte de uma diversidade.
+
+**A conclusão**: **afirmar o monolinguismo é um ato político**, não uma descrição. É a
+continuação, por outros meios, da política que o produziu — agora sem decreto, apenas pela
+repetição.
+
+**O contramovimento**: CF/88 art. 210 §2º (línguas maternas indígenas no ensino), Lei
+10.436/2002 (Libras), a cooficialização em **São Gabriel da Cachoeira/AM** (2002 — nheengatu,
+tukano e baniwa cooficiais; note a ironia: o nheengatu que Pombal proibiu é hoje língua oficial
+de um município brasileiro), o INDL (2010).
+:::
+
+**7.** Analise tecnicamente o PL 1676/1999, que propunha restringir estrangeirismos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O projeto** (dep. Aldo Rebelo) propunha restringir o uso de estrangeirismos, com **multa**.
+Aprovado na Câmara, nunca virou lei.
+
+**A análise técnica — três pontos** (@sec-cap-67):
+
+**1. Empréstimo é normal e universal.** Toda língua em uso importa palavras; é sinal de
+**vitalidade**, não de doença. E o português é **feito** de empréstimos:
+
+- do **árabe**: *álcool*, *azeite*, *açúcar*, *alface*, *almofada*, *xadrez*;
+- do **francês**: *garçom*, *abajur*, *chique*, *menu*;
+- do **tupi**: *abacaxi*, *mandioca*, *pipoca*, *tatu*;
+- do **africano**: *samba*, *moleque*, *caçula*, *dendê*;
+- do **inglês**: *futebol*, *time*, *gol*, *esporte*.
+
+**A ironia decisiva**: as palavras que o projeto **defenderia** como "genuinamente portuguesas"
+são, em sua maioria, empréstimos de ontem. *Futebol* já foi estrangeirismo agressivo. Nenhuma
+língua jamais se degradou por importar — e uma língua que **não** importa é uma língua que não é
+usada.
+
+**2. A língua já filtra sozinha, e melhor que qualquer lei.** O mecanismo é automático:
+
+- o que é **útil** fica e se **adapta** à fonologia e à morfologia: *futebol* (de *football*),
+  *estresse*, *deletar* — que já ganhou conjugação portuguesa completa (*deleto*, *deletava*,
+  *deletaríamos*). Isso não é invasão: é **digestão**;
+- o que **não** é útil **cai sozinho**. A maior parte das novidades dos anos 1990 sumiu sem lei
+  nenhuma.
+
+Uma lei seria, portanto, **redundante onde funciona** e **inútil onde não funciona**.
+
+**3. O alvo era simbólico, não real.** O PL não protegia contra ameaça alguma, porque não havia
+ameaça: o português é falado por 200 milhões de pessoas e nunca esteve tão vigoroso.
+
+Ele servia a uma **política de identidade** — e é legítimo discutir identidade nacional, soberania
+cultural, o peso do inglês na globalização. O que **não** é legítimo é apresentar essa discussão
+como **defesa técnica** de um idioma que não estava em risco. O disfarce é o problema, não o
+tema.
+
+**A observação que fecha o argumento** — e é a mais dura:
+
+Havia, no Brasil, **180 línguas de fato ameaçadas de extinção** — muitas com menos de 100
+falantes, várias que morreram na década em que o projeto tramitava. Se a preocupação fosse com
+as línguas do Brasil, elas estavam ali, esperando.
+
+**O PL não tratava delas.** Tratava de proteger a língua **majoritária, oficial e robusta**
+contra palavras. O que a escolha do alvo revela sobre a motivação real é o ponto: não era
+preservação linguística — era outra coisa, com nome de preservação linguística.
+:::
+
+**8.** O caso do livro didático de 2011. O que ele revela?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O episódio**: a obra *Por uma vida melhor*, aprovada no PNLD, trazia um capítulo explicando que
+"os livro" ocorre no PB falado, que tem **regra**, e que o aluno precisa saber **quando** usar
+cada forma. A imprensa explodiu: "MEC ensina a falar errado".
+
+**O que o livro de fato dizia:**
+
+1. a forma "os livro" **existe** e é usada por milhões — **descrição**, e verdadeira;
+2. ela **tem regra** — não marcar redundantemente o plural quando o determinante já o marca
+   (@sec-cap-86) — **descrição**, e verdadeira;
+3. ela **causa prejuízo** em certas situações, porque há preconceito — **descrição**, e
+   verdadeira;
+4. **por isso** o aluno precisa dominar a norma-padrão — **prescrição**, e exatamente a que os
+   críticos queriam.
+
+**O livro estava tecnicamente correto e ENSINAVA A NORMA.** Dizia precisamente o que este manual
+diz — e o que o Volume 14 inteiro sustenta.
+
+**O que a reação leu**: o oposto. "Descrever" virou "prescrever"; "explicar" virou "endossar". O
+livro dizia *"aprenda a norma **porque** existe preconceito"*; leu-se *"não aprenda a norma"*. A
+inversão é total, e o argumento 4 — que era a conclusão do capítulo — sumiu do debate.
+
+**O que o episódio revela — três coisas:**
+
+**1. A distinção descrever × prescrever não chegou ao debate público.** É o **primeiro** conceito
+de qualquer curso de linguística (@sec-cap-02). E, depois de um século de linguística no Brasil,
+a ideia de que se pode **descrever** uma forma sem **recomendá-la** ainda é **ininteligível** fora
+da academia. Um manual de medicina que descreve um vírus não o está recomendando — mas com
+língua, a distinção não passa.
+
+**2. O preconceito linguístico é socialmente aceito e mobilizável.** A indignação foi **imediata,
+massiva e transversal** — atravessou o espectro político inteiro. Nenhum outro preconceito
+produziria consenso tão rápido: uma acusação equivalente sobre raça ou classe teria encontrado
+resistência. Sobre língua, não encontrou. É a demonstração empírica do **passo 4** do mecanismo:
+o álibi funciona.
+
+**3. O custo prático foi o silêncio.** Professores passaram a **temer** ensinar variação
+linguística — o tema virou terreno minado. E o efeito de um debate mal conduzido não é o
+esclarecimento: é a **retirada**. Quem se cala não é o preconceito; é quem tentava explicá-lo.
+
+**A lição para o professor** — e é o que a questão realmente cobra:
+
+Ensinar variação **exige** explicitar a distinção descrever × prescrever, **antes** e **junto**.
+Não basta estar certo: é preciso ser **compreendido**, e a compreensão não é automática num
+terreno em que o público tem uma teoria própria e forte sobre o assunto.
+
+**A formulação que o livro deveria ter tornado impossível de ignorar** — e que o manual repete a
+cada capítulo:
+
+> "Esta forma existe, tem regra, e você deve dominar a norma-padrão **exatamente porque** o
+> preconceito contra ela é real."
+
+A frase contém a descrição **e** a prescrição, e não deixa margem para a inversão.
+:::
+
+**9.** Distinga política linguística de planejamento linguístico, com exemplos brasileiros.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A distinção:**
+
+- **Política linguística** — as **decisões** e escolhas sobre quais línguas e variedades são
+  usadas, ensinadas e reconhecidas, e onde. Responde: **o quê** e **por quê**;
+- **Planejamento linguístico** — a **execução** dessas decisões: ortografias, gramáticas,
+  dicionários, currículos, formação de professores, material didático. Responde: **como**.
+
+A política **decide**; o planejamento **implementa**. Uma política sem planejamento é letra
+morta; um planejamento sem política é técnica sem rumo.
+
+**Exemplos brasileiros:**
+
+| Caso | Política (a decisão) | Planejamento (a execução) |
+|---|---|---|
+| **Diretório dos Índios (1757)** | Proibir as línguas gerais e impor o português | Ensino obrigatório em português; punição do uso do nheengatu; substituição dos religiosos |
+| **CF/88, art. 210 §2º** | Assegurar às comunidades indígenas o uso de suas **línguas maternas** no ensino fundamental | Formação de professores indígenas; produção de material bilíngue; ortografias para línguas até então só orais |
+| **Lei 10.436/2002 (Libras)** | Reconhecer a Libras como **língua** | Decreto 5.626/2005: disciplina obrigatória na formação de professores e fonoaudiólogos; intérpretes; ensino |
+| **São Gabriel da Cachoeira/AM (2002)** | **Cooficializar** nheengatu, tukano e baniwa | Serviços públicos, documentos e sinalização nas quatro línguas |
+| **Acordo Ortográfico (1990)** | Unificar a grafia entre os países lusófonos | Vocabulários ortográficos, prazos de transição, adaptação de livros didáticos (@sec-cap-16) |
+
+**A distinção técnica clássica**, que vale acrescentar:
+
+- **planejamento de STATUS** — decide sobre a **posição** da língua na sociedade: qual é oficial,
+  qual se ensina, qual aparece nos tribunais. A Lei de Libras e a cooficialização em São Gabriel
+  são planejamento de status;
+- **planejamento de CORPUS** — atua sobre a **língua em si**: ortografia, gramática, criação de
+  terminologia. O Acordo Ortográfico é planejamento de corpus **puro** — não mudou o status do
+  português em lugar nenhum; mudou como se escreve.
+
+**O ponto que a resposta deve alcançar**: a existência do **Diretório** prova que política
+linguística **funciona** — ela mudou a língua de um país em poucas gerações. Isso desmonta a ideia
+de que "a língua evolui naturalmente" e que decisões não a afetam.
+
+E tem uma consequência incômoda: **não fazer política linguística também é uma política**. O
+Estado que não reconhece as 180 línguas indígenas não está sendo neutro — está deixando operar o
+resultado da política anterior, que foi de apagamento. A omissão **continua** o Diretório por
+inércia.
+:::
+
+**10.** (Estilo ENEM) Um empregador afirma: "Não contratei porque ele não sabe falar português."
+O candidato é brasileiro, nascido no Brasil. A afirmação:
+
+a) é tecnicamente correta, pois o candidato desconhece a norma-padrão;
+b) revela preconceito linguístico, pois transforma um traço social em juízo sobre a competência
+   da pessoa;
+c) demonstra que o candidato não é falante nativo do português;
+d) é uma avaliação neutra de qualificação profissional;
+e) prova que a variedade do candidato é linguisticamente deficiente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: b.**
+
+**Por que b está certa**: a afirmação executa o **passo 3** do mecanismo — o salto ilegítimo. O
+empregador percebeu um traço linguístico, inferiu (legitimamente) a escolaridade ou a origem, e
+**saltou** daí para a **competência profissional**. Nada em nenhuma variedade do português informa
+sobre capacidade de trabalho.
+
+E executa também o **passo 4**: o empregador não disse "não contratei porque ele é pobre" — disse
+"não sabe falar português". O juízo social apareceu como **avaliação técnica**. É o álibi
+funcionando exatamente como descrito.
+
+**Por que as outras erram:**
+
+**a)** Falso na **premissa** e no **vocabulário**. Primeiro, "não sabe falar português" **não** é
+o mesmo que "desconhece a norma-padrão": o candidato **sabe** falar português — é nativo, e a
+prova é que o empregador o entendeu. Segundo, mesmo que houvesse desvio da norma, a alternativa
+chama isso de "tecnicamente correta", validando a confusão entre **desvio de norma** e
+**incapacidade linguística**.
+
+**c)** Absurdo, e logicamente autodestrutivo: o candidato **é** brasileiro nascido no Brasil, e
+falantes nativos são, por definição, competentes em sua língua. Além disso, se ele não falasse
+português, não teria havido entrevista.
+
+**d)** Falso, e é a **autodescrição do preconceito** — é exatamente o que o empregador acredita
+estar fazendo. A alternativa existe para pegar quem aceita o passo 4 pelo valor de face. Uma
+avaliação neutra de qualificação avaliaria a **qualificação**; esta avaliou a **origem**, com
+outro nome.
+
+**e)** Falso, e é a crença que sustenta tudo. **Nenhuma** variedade é linguisticamente deficiente
+(@sec-cap-86): todas têm gramática completa e capacidade expressiva plena.
+
+**A nota que a resposta madura acrescenta:** reconhecer o preconceito **não** significa que a
+norma não importe. O caso é justamente a **prova** de que ela importa — o custo social é real, e
+o candidato pagou. É por isso que a escola **deve** ensiná-la (@sec-cap-88). Mas o problema
+aqui **não é do candidato**: é do empregador, e a solução correta é combater o preconceito — não
+concluir que a vítima deveria ter falado melhor.
+
+**O padrão** (@sec-cap-85): (a), (c), (d) e (e) são **quatro** versões do senso comum
+prescritivista, oferecidas porque são o que o candidato desavisado pensa. A correta é a que
+localiza o juízo no **social** — como quase sempre nesse tipo de questão.
+:::
+
+**11.** (Estilo Cebraspe — julgue C ou E)
+
+I. A Libras é reconhecida por lei como língua oficial do Brasil, em pé de igualdade com o
+português.
+II. O Diretório dos Índios (1757) proibiu o uso das línguas gerais e impôs o português.
+III. Combater o preconceito linguístico implica deixar de ensinar a norma-padrão.
+IV. Estima-se que restem hoje cerca de 180 línguas indígenas no Brasil, de cerca de 1.200
+existentes em 1500.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — ERRADO**, e a pegadinha é sutil e boa.
+
+A **Lei 10.436/2002 reconhece a Libras como língua** — isso está certo, e é um marco: afirma que
+Libras é **língua natural plena**, com gramática própria e sintaxe espacial, e não mímica nem
+"português gestualizado".
+
+**Mas ela não é língua oficial do Brasil.** A lei a reconhece como **meio legal de comunicação e
+expressão** da comunidade surda, e o Decreto 5.626/2005 garante acesso e ensino. O art. 13 da
+Constituição mantém o **português** como **única** língua oficial da República. Mais: a própria
+Lei 10.436 é **explícita** ao dizer que a Libras **não substitui** o português escrito.
+
+O item mistura duas coisas verdadeiras — o reconhecimento legal e a plenitude linguística — para
+fazer passar uma falsa: a oficialidade. **Reconhecimento ≠ oficialidade.**
+
+**II — CERTO.** O Diretório dos Índios, promulgado por **Pombal em 1757**, proibiu o uso das
+línguas gerais (notadamente o **nheengatu**, então mais falado que o português em vastas áreas,
+inclusive em São Paulo) e **impôs** o português. A motivação era política — reduzir a influência
+jesuítica e consolidar o domínio da Coroa —, mas o efeito foi linguístico e duradouro: em poucas
+gerações o português tornou-se dominante. É a prova histórica de que **política linguística
+funciona**, e de que o monolinguismo brasileiro foi **construído**.
+
+**III — ERRADO**, e é a caricatura central do capítulo. Combater o preconceito implica o
+**contrário**: ensinar a norma **melhor** e para **todos**. O argumento: se a norma tem valor
+social real, negá-la ao aluno pobre é **fechar-lhe a porta** — o aluno rico a aprende em casa; o
+pobre, só na escola. Uma escola que não a ensina **reproduz** a desigualdade que julga combater.
+A meta é **acrescentar**, não substituir (@sec-cap-88).
+
+**IV — CERTO.** Restam cerca de **180** línguas indígenas, de cerca de **1.200** faladas em 1500
+— mais de **85%** desapareceram. E a formulação importa: elas não "morreram"; foram **mortas**,
+por extermínio dos falantes e por política deliberada de apagamento (item II).
+
+**Gabarito: E, C, E, C.**
+:::
+
+**12.** Enuncie a posição do manual sobre norma e variação, e explique por que ela não é
+contraditória.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**As duas verdades, ambas verdadeiras ao mesmo tempo:**
+
+1. **Todas as variedades são sistemas linguísticos completos.** "Nós foi" tem regra. Nenhum
+   falante nativo fala errado sua própria língua. Nenhuma variedade é deficiente. — **Fato
+   linguístico**, estabelecido no @sec-cap-86.
+2. **As variedades têm valor social desigual, e isso tem consequências materiais.** A norma abre
+   portas; a falta dela as fecha. O custo é real e mensurável. — **Fato social**, documentado no
+   @sec-cap-88.
+
+**Por que NÃO há contradição** — e este é o coração da questão:
+
+As duas proposições são sobre **objetos diferentes**.
+
+- A primeira é sobre a **língua**: descreve sistemas gramaticais e afirma que são todos
+  completos;
+- A segunda é sobre a **sociedade**: descreve como o prestígio é distribuído e afirma que
+  acompanha o poder.
+
+Não há contradição em dizer que **duas coisas são linguisticamente equivalentes e socialmente
+desiguais** — porque "equivalente" e "desigual" estão predicando **dimensões distintas**.
+
+**A analogia que esclarece**: dois sobrenomes são linguisticamente equivalentes — ambos são
+nomes, ambos funcionam, nenhum é gramaticalmente superior. E são socialmente desiguais: um abre
+portas que o outro não abre. Ninguém vê contradição aí. **A contradição só aparece se
+confundirmos os planos** — e é essa confusão que ambas as posturas erradas cometem.
+
+**As duas posturas erradas**, que são simétricas:
+
+| | Reconhece | Nega | Efeito sobre o aluno |
+|---|---|---|---|
+| **Prescritivismo ingênuo** | (2) — o valor social | (1) — explica (2) por "a norma é melhor" | **Humilha** — ensina, junto com a gramática, que ele e sua família são inferiores |
+| **Relativismo vazio** | (1) — a completude | (2) — "tanto faz" | **Abandona** — manda-o desarmado para um mundo que vai cobrá-lo |
+
+Note que **cada uma acerta metade** — e é por isso que ambas são persuasivas. O erro não é
+afirmar o que afirmam; é **negar a outra metade**.
+
+**A terceira posição — a única defensável:**
+
+Sustentar as duas **ao mesmo tempo**, e dizer ao aluno, sem contradição:
+
+> "Sua variedade tem gramática, é completa, e serve perfeitamente onde você a usa. **E** existe
+> outra, a de prestígio, que **não é melhor** — é mais **valorizada**, por razões que nada têm a
+> ver com língua e tudo a ver com poder. Você tem direito a ela também. Vamos aprendê-la, **sem**
+> que você tenha de abandonar a sua."
+
+**Por que é mais difícil**: exige do professor que saiba **as duas coisas** — a descrição
+linguística **e** a norma, com competência. É mais fácil só descrever (e sentir-se progressista)
+ou só prescrever (e sentir-se rigoroso). A posição do meio dá mais trabalho e não oferece
+conforto ideológico nenhum.
+
+**A meta**: o **trânsito** entre variedades (@sec-cap-72, @sec-cap-88) — **acrescentar**, não
+substituir; ampliar o repertório, não trocá-lo.
+
+**A frase que resume o manual inteiro**:
+
+> Quem só descreve **abandona**. Quem só prescreve **humilha**. A única saída é fazer as duas
+> coisas — e dizer a verdade sobre ambas [@faraco2008; @bagno2011].
+:::
+
+## 📚 Referências
+
+O catálogo dos mitos e a análise do preconceito seguem Bagno [@bagno2007; @bagno2011]. A posição
+sobre norma culta, ensino e a crítica tanto ao prescritivismo quanto ao relativismo é de Faraco
+[@faraco2008], referência central deste capítulo e do volume. A descrição do PB que sustenta as
+refutações vem de Castilho [@castilho2010], Perini [@perini2010] e Ilari e Basso
+[@ilaribasso2006]; o arcabouço sociolinguístico, de Labov [@labov2008]. Sobre a história do
+contato e do apagamento linguístico no Brasil, ver Teyssier [@teyssier2007] e Câmara Jr.
+[@camarajr1975]; sobre a formação do PB, o @sec-cap-94.
+
+Com este capítulo encerra-se o **Volume 14**. O @sec-cap-86 abriu com a heterogeneidade ordenada;
+os capítulos seguintes percorreram o espaço (@sec-cap-87), o grupo e a situação (@sec-cap-88), o
+Atlântico (@sec-cap-89) e a oralidade (@sec-cap-90) — e todos convergiram para cá, que era o
+destino desde o início.
+
+O **Volume 15** muda de eixo: da variação **sincrônica** passa-se à **diacronia** e à
+**estilística**. O @sec-cap-92 recua ao latim para mostrar de onde tudo veio — e por que a
+mudança que este volume descreveu como fato do presente é a mesma que produziu a língua inteira.
+
+::: {#refs}
 :::
