@@ -4,22 +4,296 @@ title: "Adjunto adnominal e adjunto adverbial"
 
 # Adjunto adnominal e adjunto adverbial {#sec-cap-41}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 6 — Sintaxe I: Termos da Oração.
+> "Os adjuntos são acessórios — mas é neles que mora boa parte da riqueza de sentido da
+> frase."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Depois dos termos essenciais (sujeito, predicado) e integrantes (objetos, complemento
+nominal, agente da passiva), chegamos aos termos **acessórios** — aqueles que não são
+indispensáveis à estrutura básica, mas acrescentam informações. Os dois principais são
+o **adjunto adnominal** (que caracteriza um **nome**) e o **adjunto adverbial** (que
+exprime uma **circunstância**, ligando-se ao **verbo**). Embora "acessórios", eles são
+fundamentais para a precisão e a expressividade: é o adjunto que diz *qual* casa, *quando*
+e *como* algo aconteceu.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo distingue os dois adjuntos, retoma a diferença entre adjunto adnominal e
+complemento nominal (@sec-cap-40) e detalha as circunstâncias do adjunto adverbial. Com
+ele, completamos praticamente todos os termos da oração, preparando a análise sintática
+integral do @sec-cap-48.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** adjunto adnominal e reconhecer suas formas;
+- **Distinguir** adjunto adnominal de complemento nominal e de predicativo;
+- **Definir** adjunto adverbial e classificá-lo pela circunstância;
+- **Diferenciar** adjunto adverbial de objeto indireto;
+- **Reconhecer** o valor semântico e a mobilidade dos adjuntos adverbiais;
+- **Analisar** orações identificando os adjuntos.
+
+## Adjunto adnominal
+
+**Adjunto adnominal (adj. adn.)** é o termo acessório que **caracteriza, determina ou
+especifica um substantivo**, ligando-se a ele **diretamente** (sem intermédio de verbo).
+Responde a "qual?", "quantos?", "de quem?".
+
+Podem funcionar como adjunto adnominal:
+
+- **artigos**: *o*, *a*, *um* — "**a** casa";
+- **adjetivos**: "casa **grande**", "aluno **dedicado**";
+- **locuções adjetivas**: "casa **de campo**", "amor **de mãe**";
+- **pronomes adjetivos**: "**minha** casa", "**este** livro", "**alguns** alunos";
+- **numerais**: "**dois** livros".
+
+Todos eles se referem a um substantivo (o núcleo), acrescentando-lhe uma
+característica ou determinação, dentro de um mesmo termo (sujeito, objeto etc.).
+
+::: {.callout-important}
+## Adjunto adnominal × complemento nominal × predicativo
+Três termos que podem ter forma de adjetivo ou de "prep. + substantivo". A distinção:
+
+- **Adjunto adnominal**: liga-se ao nome **diretamente**, exprimindo posse, qualidade,
+  agente — "o livro **do aluno**" (posse), "casa **bonita**".
+- **Complemento nominal**: completa nome **abstrato**, o termo é **paciente** — "a
+  destruição **da cidade**" (a cidade é destruída) [ver @sec-cap-40].
+- **Predicativo**: atribui qualidade **por meio do verbo** — "o aluno é **inteligente**"
+  (predicativo do sujeito) [ver @sec-cap-38].
+
+Chave: adjunto acompanha o nome; CN completa nome abstrato (paciente); predicativo
+predica via verbo.
+:::
+
+## Adjunto adverbial
+
+**Adjunto adverbial (adj. adv.)** é o termo acessório que exprime uma **circunstância**
+(tempo, lugar, modo, causa etc.), modificando o **verbo** (ou, às vezes, um adjetivo ou
+advérbio). Pode ser um advérbio, uma locução adverbial ou uma expressão de valor
+circunstancial.
+
+As circunstâncias mais cobradas estão na @fig-adjunto-adverbial.
+
+::: {#fig-adjunto-adverbial}
+
+```{.tikz}
+%%| filename: adjunto-adverbial
+%%| alt: Diagrama radial com o adjunto adverbial no centro e as principais circunstâncias ao redor, cada uma com exemplo: tempo (ontem), lugar (na escola), modo (com cuidado), causa (de fome), finalidade (para estudar), intensidade (muito), companhia (com os amigos), instrumento (com a faca).
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  centro/.style={circle, draw=manualblue, very thick, fill=manualblue!12, minimum size=15mm, align=center, font=\bfseries\scriptsize},
+  folha/.style={rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center, inner sep=2pt, text width=22mm},
+]
+  \node[centro] (v) at (0,0) {ADJUNTO\\ADVERBIAL};
+  \foreach \ang/\lbl in {0/{\textbf{tempo}\\ ontem}, 45/{\textbf{lugar}\\ na escola}, 90/{\textbf{modo}\\ com cuidado}, 135/{\textbf{causa}\\ de fome}, 180/{\textbf{finalidade}\\ para estudar}, 225/{\textbf{intensidade}\\ muito}, 270/{\textbf{companhia}\\ com amigos}, 315/{\textbf{instrumento}\\ com a faca}} {
+    \node[folha] (f\ang) at (\ang:3.1) {\lbl};
+    \draw[-{Stealth[length=1.6mm]}, manualgray] (v) -- (f\ang);
+  }
+\end{tikzpicture}
+```
+
+As principais circunstâncias do adjunto adverbial: tempo, lugar, modo, causa,
+finalidade, intensidade, companhia, instrumento — entre outras.
+:::
+
+Principais circunstâncias: **tempo** (ontem, à noite), **lugar** (aqui, na escola),
+**modo** (bem, com cuidado), **causa** (de fome, por doença), **finalidade** (para
+estudar), **intensidade** (muito, demais), **companhia** (com os amigos),
+**instrumento** (com a faca), **meio** (de trem), **dúvida** (talvez), **negação**
+(não), **afirmação** (sim).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Mobilidade do adjunto adverbial
+Diferentemente dos objetos, o adjunto adverbial tem **mobilidade** na frase: "**Ontem**,
+choveu" / "Choveu **ontem**" / "Choveu muito **ontem**". Essa liberdade de posição é uma
+pista para reconhecê-lo. Quando deslocado para o início, costuma vir separado por
+vírgula — o que se liga à pontuação (Volume 9).
+:::
+
+## Adjunto adverbial × objeto indireto
+
+Distinção importante, retomando o @sec-cap-39: ambos podem ter forma "preposição +
+termo", mas:
+
+- O **objeto indireto** é **exigido** pela regência do verbo (integra seu sentido):
+  "Preciso **de você**", "Gosto **de música**". Sem ele, o verbo fica incompleto.
+- O **adjunto adverbial** é **acessório**, exprime circunstância: "Cheguei **de trem**"
+  (meio), "Saí **com pressa**" (modo). O verbo teria sentido completo sem ele.
+
+Teste: se o termo é obrigatório para o sentido do verbo → OI; se é uma circunstância
+dispensável → adjunto adverbial.
+
+## Adjunto adverbial × predicativo
+
+Outra distinção: em "Cheguei **cansado**", *cansado* é **predicativo do sujeito** (estado
+do sujeito ligado ao verbo, concorda: *cansada* se fosse mulher). Já em "Cheguei
+**rapidamente**", *rapidamente* é **adjunto adverbial** de modo (circunstância,
+invariável). O predicativo refere-se ao ser e concorda; o adjunto adverbial exprime
+circunstância e não concorda.
+
+## 📋 Quadro-resumo
+
+| Termo | Liga-se a | Função | Exemplo |
+|---|---|---|---|
+| **Adjunto adnominal** | substantivo | caracteriza/determina o nome | "**a** casa **grande** **do vizinho**" |
+| **Adjunto adverbial** | verbo (adj./adv.) | circunstância | "chegou **ontem**", "saiu **correndo**" |
+
+Formas do adj. adnominal: artigo, adjetivo, locução adjetiva, pronome adjetivo, numeral.
+Circunstâncias do adj. adverbial: tempo, lugar, modo, causa, fim, intensidade,
+companhia, instrumento, meio, negação...
+
+Em uma linha: o **adjunto adnominal** caracteriza um **substantivo** diretamente (artigo,
+adjetivo, locução, pronome, numeral); o **adjunto adverbial** exprime uma **circunstância**
+ligada ao **verbo** — e ambos são acessórios (dispensáveis à estrutura básica).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir adjunto adnominal com complemento nominal.** Teste paciente × posse/agente:
+  "a leitura **do livro**" (o livro é lido → CN) × "a capa **do livro**" (posse →
+  adjunto).
+- **Confundir adjunto adverbial com objeto indireto.** O OI é exigido pelo verbo ("gosto
+  **de você**"); o adjunto é circunstância dispensável ("vim **de carro**").
+- **Confundir adjunto adverbial com predicativo.** "Chegou **cansado**" (predicativo,
+  concorda) × "Chegou **cedo**" (adjunto adverbial, invariável).
+- **Achar que adjunto adnominal só é adjetivo.** Também são adjuntos adnominais artigos,
+  pronomes adjetivos, numerais e locuções adjetivas.
+- **Ignorar a mobilidade do adjunto adverbial.** Pode aparecer em várias posições ("Ontem
+  choveu" / "Choveu ontem") — pista para identificá-lo.
+
+## ✍️ Exercícios
+
+**1.** Identifique todos os adjuntos adnominais em "Os dois velhos livros do professor
+sumiram".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Adjuntos adnominais (todos ligados ao núcleo *livros*): *Os* (artigo), *dois* (numeral),
+*velhos* (adjetivo) e *do professor* (locução adjetiva, posse). Todos caracterizam ou
+determinam o substantivo *livros*, dentro do sujeito.
+:::
+
+**2.** (Estilo ENEM) Em "Ela viajou para o exterior no ano passado", os termos "para o
+exterior" e "no ano passado" são:
+
+a) objetos indiretos;
+b) adjuntos adverbiais (de lugar e de tempo);
+c) complementos nominais;
+d) predicativos;
+e) adjuntos adnominais.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Para o exterior" é adjunto adverbial de **lugar** (para onde
+viajou); "no ano passado" é adjunto adverbial de **tempo** (quando viajou). São
+circunstâncias ligadas ao verbo *viajar* (que teria sentido completo sozinho), não
+complementos exigidos.
+:::
+
+**3.** Classifique a circunstância do adjunto adverbial: (a) "Estudou **com afinco**";
+(b) "Chegou **de madrugada**"; (c) "Morreu **de fome**"; (d) "Foi **para vencer**".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *com afinco* → **modo**. (b) *de madrugada* → **tempo**. (c) *de fome* → **causa**.
+(d) *para vencer* → **finalidade**. Cada locução adverbial exprime uma circunstância
+diferente.
+:::
+
+**4.** Distinga adjunto adverbial de objeto indireto: "Gosto de você" × "Cheguei de
+avião".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Gosto **de você**", *de você* é **objeto indireto**: o verbo *gostar* **exige** o
+complemento com preposição (gostar *de* algo/alguém) — integra a regência. Em "Cheguei
+**de avião**", *de avião* é **adjunto adverbial** de meio: é uma circunstância dispensável
+(o verbo *chegar* tem sentido completo sozinho: "cheguei"). O OI é obrigatório; o
+adjunto, acessório.
+:::
+
+**5.** Em "A notícia da tragédia abalou a cidade", classifique "da tragédia" e
+justifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Da tragédia" é **complemento nominal** (não adjunto adnominal): completa o nome abstrato
+*notícia* (notícia **de quê?**), e a tragédia é o **conteúdo/alvo** da notícia. Não indica
+posse (a tragédia não "possui" a notícia). Como completa nome abstrato e o termo é o
+paciente/conteúdo da noção, é complemento nominal. (Alguns analistas admitem adjunto aqui;
+a análise dominante em prova é CN.)
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que o termo destacado é **adjunto
+adverbial**:
+
+a) O carro **do meu pai** é novo;
+b) Ela precisa **de atenção**;
+c) Trabalhamos **com dedicação**;
+d) A construção **da ponte** demorou;
+e) Ele é fiel **aos princípios**.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Com dedicação" é **adjunto adverbial de modo** (como trabalhamos).
+As demais são: adjunto adnominal/posse (a), objeto indireto (b), complemento nominal (d,
+e). Só a (c) exprime circunstância ligada ao verbo.
+:::
+
+**7.** Diferencie o valor de "cansado" e "rapidamente" em "O corredor chegou cansado" e
+"O corredor chegou rapidamente".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "chegou **cansado**", *cansado* é **predicativo do sujeito**: exprime o **estado** do
+corredor ligado ao verbo (chegou *estando* cansado), concorda com o sujeito (*cansada*
+se fosse mulher) e o predicado é verbo-nominal. Em "chegou **rapidamente**",
+*rapidamente* é **adjunto adverbial de modo**: exprime uma **circunstância** da ação
+(como chegou), é invariável. Predicativo refere-se ao ser e concorda; adjunto adverbial
+exprime circunstância e não varia.
+:::
+
+**8.** Identifique e classifique os adjuntos adverbiais em "Ontem, na praça, os amigos
+conversaram alegremente por horas".
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Ontem* → adjunto adverbial de **tempo**; *na praça* → de **lugar**; *alegremente* → de
+**modo**; *por horas* → de **tempo** (duração). Todos são circunstâncias que modificam o
+verbo *conversaram*. Note a mobilidade: os adjuntos aparecem em posições variadas, alguns
+deslocados para o início (com vírgula).
+:::
+
+**9.** Explique por que o adjunto adverbial tem "mobilidade" e o que isso ajuda a
+identificar.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O adjunto adverbial pode ocupar **posições variadas** na frase sem alterar sua função:
+"**Ontem** ele chegou" / "Ele chegou **ontem**" / "Ele **ontem** chegou". Essa
+mobilidade decorre de ser um termo **acessório** (não preso à regência do verbo, como os
+objetos). Isso ajuda a **identificá-lo**: se um termo pode ser deslocado livremente pela
+oração, provavelmente é adjunto adverbial, não objeto (que tem posição mais fixa após o
+verbo).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Em 'Ele confia nos amigos', o termo
+'nos amigos' é adjunto adverbial de companhia."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** "Nos amigos" é **objeto indireto**, não adjunto adverbial. O verbo *confiar*
+é transitivo indireto: **exige** o complemento com preposição (confiar **em** algo/
+alguém). "Nos amigos" (em + os amigos) integra a regência do verbo, completando seu
+sentido — é objeto indireto. Adjunto adverbial de companhia seria algo como "saiu **com
+os amigos**", circunstância dispensável.
+:::
+
+## 📚 Referências
+
+Os adjuntos adnominal e adverbial e suas distinções em relação ao complemento nominal, ao
+predicativo e ao objeto indireto seguem Bechara [@bechara2009] e Cunha & Cintra
+[@cunhacintra2017]. A análise dos termos acessórios e das controvérsias de classificação
+está em Castilho [@castilho2010] e Perini [@perini2010]. Aposto e vocativo, que fecham os
+termos da oração, vêm no @sec-cap-42.
+
+::: {#refs}
 :::
