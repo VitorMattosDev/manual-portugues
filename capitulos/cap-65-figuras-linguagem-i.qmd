@@ -4,22 +4,636 @@ title: "Figuras de linguagem I: figuras de palavra e de pensamento"
 
 # Figuras de linguagem I: figuras de palavra e de pensamento {#sec-cap-65}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 10 — Semântica e Léxico.
+> "A metáfora não é um enfeite do pensamento: é um modo de pensar."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Se a conotação (@sec-cap-61) é o **fenômeno**, as figuras de linguagem são os
+**mecanismos** que o produzem. Elas têm nome desde a Antiguidade — a retórica clássica
+catalogou dezenas — e sobrevivem no currículo escolar sob a forma que você provavelmente
+conheceu: uma lista de rótulos a decorar.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo propõe outro caminho. Em vez de memorizar definições, você vai entender
+**por que** cada figura funciona: que operação mental ela executa, que relação ela explora,
+que efeito ela produz. Quem entende o mecanismo identifica a figura em qualquer exemplo
+novo; quem decora a lista só reconhece os exemplos que decorou.
+
+Dividimos o assunto em dois capítulos, seguindo a tradição da NGB. Aqui tratamos das
+**figuras de palavra** (que operam sobre o **sentido** dos itens lexicais) e das **figuras
+de pensamento** (que operam sobre a **atitude** do enunciador diante do que diz). O
+@sec-cap-66 tratará das figuras de **sintaxe** e de **som**.
+
+Uma advertência desde já: as figuras não são propriedade da literatura. Você usará seis ou
+sete delas antes do almoço.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** figuras de palavra de figuras de pensamento pelo critério da operação;
+- **Identificar** metáfora, comparação, metonímia, sinédoque e catacrese em textos reais;
+- **Explicar** o mecanismo de cada figura, e não apenas seu rótulo;
+- **Reconhecer** ironia, eufemismo, hipérbole, antítese e paradoxo, e seus efeitos;
+- **Analisar** o uso das figuras em gêneros não literários (publicidade, política, fala);
+- **Evitar** as confusões clássicas: metáfora × comparação, metáfora × metonímia,
+  antítese × paradoxo.
+
+## Duas famílias, dois critérios
+
+A classificação tradicional pode parecer arbitrária. Não é, se você atentar ao **que cada
+família manipula**:
+
+- **Figuras de palavra** (*tropos*) — manipulam o **sentido** de um item lexical: uma
+  palavra é usada por outra, com base numa **relação** (semelhança, contiguidade,
+  inclusão). A pergunta é: *que palavra está no lugar de qual?*
+- **Figuras de pensamento** — manipulam a **atitude** do enunciador: a relação entre o que
+  se diz e o que se pensa, sente ou pretende. A pergunta é: *o que o falante está fazendo
+  ao dizer isso?*
+
+Guarde a distinção pelo teste: se você consegue apontar **um substituto lexical**, é
+figura de palavra ("cobra" no lugar de "pessoa astuta"). Se a figura está no **gesto**
+— exagerar, suavizar, dizer o contrário, opor —, é figura de pensamento.
+
+## Figuras de palavra
+
+### Comparação (símile)
+
+Aproximação explícita de dois elementos por um **conectivo comparativo** (*como, tal qual,
+assim como, feito, parece*).
+
+- "Ele é forte **como** um touro."
+- "Seus olhos eram **feito** duas jabuticabas."
+
+O traço definidor é a **marca formal**: o conectivo está lá, visível.
+
+### Metáfora
+
+Aproximação **implícita** de dois elementos por **semelhança** — a comparação **sem** o
+conectivo. Uma palavra ocupa o lugar da outra.
+
+- "Ele **é** um touro." (metáfora)
+- "Meu coração **é** um balde despejado." (Álvaro de Campos)
+- "A vida é uma **estrada** longa."
+
+::: {.callout-important}
+## Metáfora × comparação: a distinção mais cobrada
+O critério é **formal**, e por isso é fácil — se você não o esquecer:
+
+- **Comparação** → **há** conectivo comparativo: "Ele é forte **como** um touro."
+- **Metáfora** → **não há**: "Ele é um touro."
+
+Cuidado com o falso atalho "metáfora é a comparação subentendida, logo é mais poética". O
+valor não está na hierarquia: está no efeito. A metáfora **identifica** (ele *é* touro,
+com todas as consequências), enquanto a comparação apenas **aproxima** (ele é *como* um
+touro — a diferença permanece explícita). São gestos semânticos distintos, não versões
+melhor e pior do mesmo gesto.
+:::
+
+### Metonímia
+
+Substituição por **contiguidade** — uma relação **real** entre os elementos, não de
+semelhança. É a figura mais subestimada e a mais onipresente.
+
+Os tipos mais frequentes:
+
+- **Autor pela obra**: "Li **Machado de Assis**." (li os livros dele)
+- **Continente pelo conteúdo**: "Bebeu o **copo** inteiro." (o líquido)
+- **Marca pelo produto**: "Passa o **Bombril**." (a esponja de aço)
+- **Lugar pelo produto**: "Tomei um **Porto**." (vinho do Porto)
+- **Instrumento pelo agente**: "Ele é um bom **garfo**." (comilão)
+- **Causa pelo efeito**: "Vive do seu **suor**." (do trabalho)
+- **Símbolo pelo referente**: "Jurou pela **bandeira**." (pela pátria)
+
+Note: não há **nenhuma semelhança** entre Machado de Assis e seus livros. Há uma **relação
+de origem** — ele os escreveu. É isso que distingue metonímia de metáfora.
+
+### Sinédoque
+
+Caso particular de metonímia em que a relação é de **inclusão** (parte–todo ou todo–parte),
+isto é, **meronímia** (@sec-cap-62).
+
+- **Parte pelo todo**: "Preciso de mais **braços** na obra." (trabalhadores)
+- **Todo pela parte**: "O **Brasil** venceu a Argentina." (a seleção)
+- **Singular pelo plural**: "O **brasileiro** é hospitaleiro." (os brasileiros)
+- **Gênero pela espécie**: "Os **mortais** temem a morte." (os humanos)
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Sinédoque ou metonímia?
+Boa parte das gramáticas contemporâneas — e boa parte das bancas — trata a **sinédoque
+como um subtipo da metonímia**, já que a inclusão é um caso de contiguidade. Bechara
+[@bechara2009] mantém a distinção tradicional; Cunha & Cintra [@cunhacintra2017] a
+relativizam.
+
+Consequência prática: numa questão que ofereça as duas alternativas, prefira **sinédoque**
+se a relação for claramente de **parte–todo** ("mais braços na obra"); prefira
+**metonímia** nos demais casos de contiguidade ("li Machado"). Se apenas *metonímia*
+estiver disponível, ela abrange a sinédoque e é resposta segura.
+:::
+
+### Catacrese
+
+Metáfora **lexicalizada** por **falta de termo próprio**. A língua não tinha nome para a
+coisa e emprestou um.
+
+- **pé** da mesa, **braço** da cadeira, **dente** de alho, **céu** da boca, **asa** da
+  xícara, **boca** do túnel, **folha** de papel, **cabeça** do prego.
+
+É a zona intermediária da escala do @sec-cap-61: figura na origem, denotação hoje. Ninguém
+percebe imagem alguma ao dizer "pé da mesa" — e é exatamente esse apagamento que define a
+catacrese.
+
+### Antonomásia (perífrase)
+
+Substituição de um nome por uma **expressão que o caracteriza**.
+
+- "O **Rei do Futebol**" (Pelé); "a **Cidade Maravilhosa**" (Rio de Janeiro); "o **Bruxo do
+  Cosme Velho**" (Machado de Assis); "o **Poeta dos Escravos**" (Castro Alves).
+
+### Sinestesia
+
+Cruzamento de **sensações de campos sensoriais diferentes**.
+
+- "Um som **áspero**." (audição + tato)
+- "Uma cor **quente**." (visão + tato)
+- "Um perfume **doce**." (olfato + paladar)
+- "Um silêncio **pesado**." (audição + tato)
+
+A @fig-tropos organiza as figuras de palavra pelo **tipo de relação** que cada uma
+explora.
+
+::: {#fig-tropos}
+
+```{.tikz}
+%%| filename: tropos
+%%| alt: Esquema das figuras de palavra organizadas pelo tipo de relação. A partir do nó central figuras de palavra, saem três ramos. Ramo da semelhança: comparação, que tem conectivo explícito como em ele é forte como um touro, e metáfora, sem conectivo, como em ele é um touro. Ramo da contiguidade, relação real: metonímia, com exemplo li Machado de Assis, autor pela obra, e sinédoque, subtipo de inclusão parte todo, com exemplo preciso de mais braços. Ramo da ausência de termo próprio: catacrese, com exemplo pé da mesa, metáfora lexicalizada que hoje é denotativa.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=4pt},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[cx, draw=manualgray, fill=manualgray!12, text width=26mm] (fp) at (0,0)
+    {\textbf{FIGURAS DE PALAVRA}\\{\scriptsize substituição lexical}};
+
+  \node[cx, draw=manualblue, fill=manualblue!10, text width=24mm] (sem) at (0,2.4)
+    {\textbf{por SEMELHANÇA}};
+  \node[cx, draw=manualred, fill=manualred!10, text width=24mm] (con) at (-4.6,-0.2)
+    {\textbf{por CONTIGUIDADE}\\{\scriptsize relação \emph{real}}};
+  \node[cx, draw=manualgreen, fill=manualgreen!10, text width=26mm] (fal) at (4.6,-0.2)
+    {\textbf{por FALTA de termo}};
+
+  \draw[s] (fp) -- (sem);
+  \draw[s] (fp) -- (con);
+  \draw[s] (fp) -- (fal);
+
+  \node[cx, draw=manualblue, fill=manualblue!4, font=\scriptsize, text width=30mm] (comp) at (-2.6,3.8)
+    {\textbf{comparação}\\ \emph{com} conectivo\\ ``forte \textbf{como} um touro''};
+  \node[cx, draw=manualblue, fill=manualblue!4, font=\scriptsize, text width=30mm] (met) at (2.6,3.8)
+    {\textbf{metáfora}\\ \emph{sem} conectivo\\ ``ele \textbf{é} um touro''};
+  \draw[s] (sem) -- (comp);
+  \draw[s] (sem) -- (met);
+
+  \node[cx, draw=manualred, fill=manualred!4, font=\scriptsize, text width=30mm] (mtn) at (-4.6,-1.9)
+    {\textbf{metonímia}\\ ``li \textbf{Machado}''\\{\scriptsize autor pela obra}};
+  \node[cx, draw=manualred, fill=manualred!4, font=\scriptsize, text width=30mm] (sin) at (-4.6,-3.5)
+    {\textbf{sinédoque}\\ ``mais \textbf{braços}''\\{\scriptsize parte pelo todo (inclusão)}};
+  \draw[s] (con) -- (mtn);
+  \draw[s] (mtn) -- (sin);
+
+  \node[cx, draw=manualgreen, fill=manualgreen!4, font=\scriptsize, text width=30mm] (cat) at (4.6,-1.9)
+    {\textbf{catacrese}\\ ``\textbf{pé} da mesa''\\{\scriptsize figura apagada: hoje denota}};
+  \draw[s] (fal) -- (cat);
+\end{tikzpicture}
+```
+
+As figuras de palavra organizadas pela **relação** que exploram. O critério não é o efeito
+poético, mas o tipo de vínculo entre o termo dito e o termo substituído.
+:::
+
+## Figuras de pensamento
+
+Aqui não há substituição lexical: o que se manipula é a **postura do enunciador**.
+
+### Ironia
+
+Diz-se o **contrário** do que se pretende, com marca (entonação, contexto, exagero) que
+permita ao interlocutor recuperar a intenção.
+
+- "Que **belíssimo** trabalho!" (diante de um desastre)
+- "**Adorei** ficar três horas na fila." (não adorou)
+
+A ironia depende inteiramente do **contexto compartilhado**. Sem ele, vira mentira ou
+mal-entendido — razão pela qual fracassa tanto por escrito, onde falta a entonação. Será
+retomada no @sec-cap-83.
+
+### Eufemismo
+
+**Suaviza** uma expressão desagradável.
+
+- "Ele **nos deixou**." (morreu)
+- "Pessoa em **situação de rua**." (mendigo)
+- "**Faltou com a verdade**." (mentiu)
+- "**Desligamos** cinquenta colaboradores." (demitimos)
+
+O eufemismo tem dupla face: pode ser **cortesia** (poupar o enlutado) ou **encobrimento**
+(a empresa que "desliga" em vez de demitir; o governo que fala em "realinhamento tarifário"
+em vez de aumento). Vale sempre perguntar: *a suavização protege quem ouve ou quem fala?*
+
+### Disfemismo
+
+O oposto: **agrava** deliberadamente.
+
+- "**Bateu as botas**." (morreu)
+- "Aquele **puxa-saco**." (bajulador)
+
+### Hipérbole
+
+**Exagero** intencional.
+
+- "Estou **morrendo** de fome."
+- "Já te falei isso **um milhão** de vezes."
+- "Chorei **rios** de lágrimas."
+
+É a figura mais banal do cotidiano — o que confirma que figura não é privilégio literário.
+
+### Litotes (atenuação)
+
+Afirma-se pela **negação do contrário**.
+
+- "Ele **não é nenhum tolo**." (é inteligente)
+- "**Não foi mau** o resultado." (foi bom)
+
+### Antítese
+
+Aproximação de **ideias opostas**, ambas verdadeiras, sem contradição lógica.
+
+- "Era o **melhor** dos tempos, era o **pior** dos tempos." (Dickens)
+- "**Amor** e **ódio** caminham juntos."
+- "Uns **sobem**, outros **descem**."
+
+### Paradoxo (oxímoro)
+
+Aproximação de ideias **contraditórias** na mesma unidade, criando uma tensão que só se
+resolve na interpretação.
+
+- "**Amor é fogo que arde sem se ver**." (Camões)
+- "Um **silêncio ensurdecedor**."
+- "É **ferida que dói e não se sente**." (Camões)
+
+::: {.callout-important}
+## Antítese × paradoxo: a confusão clássica
+Ambas opõem. A diferença está na **compatibilidade lógica**:
+
+- **Antítese** — os opostos convivem **sem contradição**: "uns sobem, outros descem" é
+  perfeitamente coerente. São **dois referentes** (ou dois momentos) em oposição.
+- **Paradoxo** — os opostos se aplicam **ao mesmo referente ao mesmo tempo**, gerando
+  contradição aparente: "silêncio ensurdecedor" atribui ao **mesmo** silêncio a
+  propriedade de ensurdecer. Logicamente impossível — e é essa impossibilidade que produz
+  o sentido.
+
+**Teste**: pergunte se a frase é literalmente contraditória. "Uns sobem, outros descem" →
+não é → **antítese**. "Fogo que arde sem se ver" → é → **paradoxo**.
+
+O **oxímoro** é o paradoxo condensado em dois termos contíguos ("silêncio ensurdecedor",
+"doce amargura"). Muitas bancas usam os dois nomes como sinônimos.
+:::
+
+### Prosopopeia (personificação)
+
+Atribui-se **traço humano** a seres inanimados, abstratos ou irracionais.
+
+- "O vento **uivava** e as árvores **gemiam**."
+- "A cidade **acordou** assustada."
+- "A esperança **morreu** naquele instante."
+
+### Gradação (clímax)
+
+Sequência de ideias em **intensidade crescente** ou decrescente.
+
+- "Cheguei, vi, venci." (crescente)
+- "Um rumor, um sussurro, um grito." (crescente)
+
+### Apóstrofe
+
+Interpelação **direta** e enfática de um interlocutor, presente ou não, real ou abstrato.
+
+- "**Deus!** Ó Deus! Onde estás que não respondes?" (Castro Alves)
+- "**Pátria amada**, salve, salve!"
+
+Sintaticamente, é um **vocativo** (@sec-cap-42) com carga emocional.
+
+## As figuras fora da literatura
+
+Vale insistir, porque a escola sugere o contrário: as figuras são **estruturais** ao uso
+comum da língua.
+
+- **Na fala cotidiana** — hipérbole ("morrendo de fome"), metonímia ("passa o Bombril"),
+  catacrese ("pé da mesa"), ironia ("que dia lindo", na chuva). Um falante comum produz
+  dezenas por dia sem nenhuma intenção estética.
+- **Na publicidade** — metáfora ("este carro é um tanque"), hipérbole ("a maior liquidação
+  do planeta"), personificação ("sua casa pede um sofá novo").
+- **No discurso político** — eufemismo ("realinhamento tarifário" por aumento; "danos
+  colaterais" por mortes de civis), antítese ("não é um custo, é um investimento"),
+  metonímia ("o Planalto decidiu").
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Nenhuma figura é "erro" — todas são recursos do sistema, disponíveis a qualquer falante. O
+que a escola às vezes faz, e convém não repetir, é tratar as figuras como **ornamento
+culto**, algo que o "bom escritor" acrescenta a um texto que já estaria pronto sem elas.
+
+A descrição linguística contemporânea vai em direção oposta: a metáfora, em particular, é
+hoje entendida menos como enfeite e mais como **instrumento de cognição** — pensamos por
+projeções ("o tempo é dinheiro", "argumento é guerra": *derrubar* uma tese, *atacar* um
+ponto, *defender* uma posição). Note que a frase anterior deste capítulo — "a discussão
+**vai em direção** oposta" — já é metafórica, e não houve intenção estilística alguma. As
+figuras não decoram o pensamento: em boa medida, elas **o constituem** [@martins2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Figuras de palavra** (operam sobre o sentido lexical):
+
+| Figura | Mecanismo | Exemplo |
+|---|---|---|
+| **Comparação** | semelhança **com** conectivo | "forte **como** um touro" |
+| **Metáfora** | semelhança **sem** conectivo | "ele **é** um touro" |
+| **Metonímia** | contiguidade (relação real) | "li **Machado**" |
+| **Sinédoque** | inclusão (parte–todo) | "mais **braços**" |
+| **Catacrese** | metáfora por falta de termo | "**pé** da mesa" |
+| **Antonomásia** | nome por característica | "o **Rei do Futebol**" |
+| **Sinestesia** | cruzamento de sentidos | "som **áspero**" |
+
+**Figuras de pensamento** (operam sobre a atitude do enunciador):
+
+| Figura | Mecanismo | Exemplo |
+|---|---|---|
+| **Ironia** | diz o contrário do que pensa | "Que **belo** trabalho!" |
+| **Eufemismo** | suaviza | "Ele **nos deixou**" |
+| **Disfemismo** | agrava | "**Bateu as botas**" |
+| **Hipérbole** | exagera | "**morrendo** de fome" |
+| **Litotes** | afirma negando o contrário | "**não é nenhum tolo**" |
+| **Antítese** | opostos **compatíveis** | "uns sobem, outros descem" |
+| **Paradoxo** | opostos **contraditórios** | "**silêncio ensurdecedor**" |
+| **Prosopopeia** | humaniza o não humano | "o vento **uivava**" |
+| **Gradação** | intensidade crescente | "cheguei, vi, venci" |
+| **Apóstrofe** | interpela enfaticamente | "**Ó Deus!**" |
+
+Em uma linha: **figura de palavra** = uma palavra no lugar de outra, por semelhança
+(metáfora) ou contiguidade (metonímia); **figura de pensamento** = um gesto do enunciador
+— exagerar, suavizar, opor, dizer o contrário.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Metáfora × comparação.** O critério é o **conectivo**: "como um touro" (comparação) ×
+  "é um touro" (metáfora). Não é questão de qualidade poética.
+- **Metáfora × metonímia.** Metáfora = **semelhança** ("ele é uma raposa"). Metonímia =
+  **relação real** ("li Machado" — não há semelhança entre autor e livro).
+- **Antítese × paradoxo.** Pergunte se há **contradição lógica**. Não há → antítese. Há →
+  paradoxo.
+- **Não reconhecer a catacrese.** "Pé da mesa" é figura, embora ninguém a perceba. É a
+  marca da catacrese: o apagamento.
+- **Achar que ironia é sarcasmo.** A ironia diz o contrário; o sarcasmo é a ironia com
+  **intenção de ferir**. Nem toda ironia é agressiva.
+- **Confundir prosopopeia com metáfora.** A prosopopeia exige traço **humano** atribuído a
+  não humano ("o vento uivava"). "Ele é um touro" humaniza nada — animaliza.
+- **Supor que figura é coisa de literatura.** "Estou morrendo de fome" é hipérbole. Você a
+  usou hoje.
+- **Eufemismo como neutro.** Pergunte sempre a quem a suavização serve: ao ouvinte
+  (cortesia) ou ao falante (encobrimento)?
+
+## ✍️ Exercícios
+
+**1.** Distinga e classifique: (a) "Ele é forte como um touro."; (b) "Ele é um touro."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Comparação (símile).** Há o **conectivo comparativo *como***, que mantém os dois
+elementos separados e explicita que se trata de uma aproximação: ele **se assemelha** a um
+touro, mas não é um.
+
+**(b) Metáfora.** **Não há conectivo**: a aproximação é implícita e opera por
+**identificação** — a frase afirma que ele *é* o touro, transferindo-lhe os atributos
+(força, robustez, talvez brutalidade).
+
+O critério é puramente **formal** (presença ou ausência do conectivo), mas o efeito difere:
+a comparação preserva a distância entre os termos; a metáfora a abole.
+:::
+
+**2.** Classifique e justifique: "Li Machado de Assis inteiro nas férias."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Metonímia**, do tipo **autor pela obra**.
+
+Justificativa: não se leu a *pessoa* Machado de Assis — leram-se seus **livros**. A
+substituição opera por **contiguidade**, isto é, por uma **relação real** entre os
+elementos: ele escreveu as obras.
+
+Por que **não** é metáfora: não há **nenhuma semelhança** entre um homem e um conjunto de
+livros. Metáfora exige similaridade; metonímia exige vínculo factual (autoria, posse,
+origem, causa, continência). Esse é o teste que separa as duas figuras mais confundidas do
+capítulo.
+:::
+
+**3.** (Estilo ENEM) Em "Preciso de mais braços na obra", a figura é:
+
+a) metáfora, por semelhança entre braço e trabalhador;
+b) sinédoque, tomando a parte pelo todo;
+c) catacrese, por falta de termo próprio;
+d) hipérbole, por exagero;
+e) prosopopeia, por personificação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Braços* designa **trabalhadores** — a **parte** (o membro) está pelo
+**todo** (a pessoa). Relação de **inclusão**, que caracteriza a **sinédoque** (subtipo de
+metonímia).
+
+As demais: **(a)** não há semelhança entre braço e trabalhador — há **inclusão**; **(c)** a
+catacrese exige **falta de termo próprio**, mas *trabalhador* existe e é corrente, logo não
+houve empréstimo por necessidade; **(d)** não há exagero — o número de braços não está
+inflado; **(e)** nada de não humano recebeu traço humano — ao contrário, um humano foi
+reduzido a uma parte de si.
+
+Observação: a escolha da figura **desumaniza** o trabalhador, reduzindo-o à sua força
+física. O efeito não é neutro, e é frequente no discurso sobre mão de obra.
+:::
+
+**4.** Explique a diferença entre antítese e paradoxo, com exemplos próprios.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Ambas opõem ideias; a diferença está na **compatibilidade lógica**.
+
+**Antítese** — os opostos convivem **sem contradição**, porque se aplicam a **referentes ou
+momentos diferentes**:
+
+- "Uns **choram**, outros **riem**." (pessoas distintas)
+- "Ontem era **pobre**; hoje é **rico**." (momentos distintos)
+
+Não há absurdo lógico algum: as duas afirmações podem ser literalmente verdadeiras.
+
+**Paradoxo** — os opostos se aplicam ao **mesmo referente, ao mesmo tempo**, gerando
+contradição aparente:
+
+- "Um **silêncio ensurdecedor**." (o mesmo silêncio ensurdece)
+- "É **ferida que dói e não se sente**." (Camões — a mesma ferida dói e não dói)
+
+Literalmente, é impossível — e é justamente a impossibilidade que **força a interpretação
+figurada** e produz o efeito.
+
+**Teste**: a frase é literalmente contraditória? Não → antítese. Sim → paradoxo.
+:::
+
+**5.** Identifique as figuras e comente o efeito: "Ele nos deixou depois de uma longa
+batalha contra a doença."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Duas figuras:
+
+1. **Eufemismo** — "**nos deixou**" por *morreu*. Suaviza o fato, evitando o verbo direto.
+2. **Metáfora** — "**batalha** contra a doença". A doença é tratada como inimigo e o
+   tratamento como guerra, sem conectivo comparativo.
+
+**Efeito combinado**: o eufemismo é aqui **cortesia** — protege o enlutado do impacto do
+termo cru, e é convenção do gênero (obituário, nota de pesar). A metáfora bélica dignifica
+o doente, apresentando-o como **combatente**, não como vítima passiva.
+
+Vale a observação crítica: a metáfora da "batalha" tem custo. Se morrer é "perder a
+batalha", o doente que morre **falhou** — o que é cruel e falso, já que a evolução da
+doença raramente depende do esforço de quem a tem. É um bom exemplo de como a metáfora
+**não é neutra**: ela carrega uma moldura que organiza o pensamento sobre o assunto.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Em 'O pé da mesa quebrou', há metáfora."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado** — ou, no mínimo, impreciso. A figura é a **catacrese**.
+
+A catacrese é uma metáfora **lexicalizada por falta de termo próprio**: a língua não
+dispunha de nome para a peça que sustenta o móvel e tomou emprestado *pé*, por analogia
+com o corpo. Diferentemente da metáfora viva, ela:
+
+- é a **única** designação disponível (não há alternativa);
+- não produz **efeito de sentido** algum — nenhum falante percebe imagem;
+- está **dicionarizada** e funciona hoje como **denotação** (@sec-cap-61).
+
+Chamá-la de metáfora ignora a distinção que as gramáticas fazem e que a questão cobra. Ela
+foi metáfora **na origem**; hoje é catacrese — figura apagada.
+:::
+
+**7.** Classifique as figuras do trecho: "A cidade acordou assustada. O vento uivava pelas
+ruas vazias, e o silêncio ensurdecedor tomava conta de tudo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Três figuras:
+
+1. **"A cidade acordou assustada"** — **prosopopeia** (personificação): atribui-se a uma
+   entidade inanimada (a cidade) ações e estados **humanos** (acordar, assustar-se). Há
+   também um traço de **metonímia** subjacente: "a cidade" está por "os habitantes da
+   cidade".
+2. **"O vento uivava"** — **prosopopeia**: *uivar* é ação de ser animado; atribuí-la ao
+   vento o anima.
+3. **"O silêncio ensurdecedor"** — **paradoxo** (mais precisamente, **oxímoro**, por serem
+   dois termos contíguos): o mesmo silêncio recebe a propriedade contraditória de
+   ensurdecer. Literalmente impossível — o silêncio é ausência de som e não pode
+   ensurdecer.
+
+**Efeito de conjunto**: as três constroem uma atmosfera de **inquietação**, animando o
+cenário e negando-lhe a normalidade. A cidade deixa de ser lugar e vira personagem.
+:::
+
+**8.** Analise o eufemismo: uma empresa anuncia que vai "desligar cinquenta
+colaboradores".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Há **dois eufemismos** encadeados:
+
+1. **"desligar"** por *demitir* — o verbo sugere uma operação técnica e neutra, como
+   desconectar um aparelho, apagando a decisão humana e suas consequências.
+2. **"colaboradores"** por *funcionários* / *empregados* — o termo sugere parceria
+   voluntária entre iguais, obscurecendo a relação de **subordinação** e o vínculo
+   empregatício que está justamente sendo rompido.
+
+**A quem a suavização serve?** Esta é a pergunta decisiva. Aqui, não ao demitido — para
+ele, o fato é idêntico, e chamá-lo de "colaborador desligado" não paga aluguel. A
+suavização serve **à empresa**: protege sua imagem, atenua a percepção pública do ato e
+reduz o desconforto de quem comunica.
+
+Trata-se, portanto, de eufemismo como **encobrimento**, não como cortesia — o oposto do
+caso do obituário ("ele nos deixou"), em que a suavização protege quem ouve. A mesma
+figura, dois usos eticamente distintos. É por isso que vale sempre perguntar de que lado
+está o eufemismo.
+:::
+
+**9.** (Estilo FUVEST) Em "Amor é fogo que arde sem se ver; é ferida que dói e não se
+sente" (Camões), identifique as figuras e explique o mecanismo do soneto.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Figuras identificadas:**
+
+1. **Metáforas** — "amor **é** fogo", "amor **é** ferida": identificação sem conectivo
+   comparativo. O amor recebe os atributos do fogo (arder, consumir) e da ferida (doer,
+   machucar).
+2. **Paradoxos** — "fogo que **arde sem se ver**" e "ferida que **dói e não se sente**":
+   contradição lógica aplicada ao mesmo referente. Fogo que arde é visível; ferida que dói
+   é sentida. Negar isso é logicamente impossível.
+
+**Mecanismo do soneto**: Camões constrói o poema inteiro por **acumulação de paradoxos**
+("é um contentamento descontente", "é dor que desatina sem doer"), todos definindo o amor
+por **atributos mutuamente excludentes**.
+
+O efeito é preciso e vale explicitar: o amor é apresentado como algo que **escapa à lógica
+e, portanto, à definição**. Cada paradoxo é uma tentativa de defini-lo que **fracassa
+deliberadamente** — e o acúmulo de fracassos é, ele próprio, a definição. O poema diz: o
+amor é aquilo que não se deixa dizer sem contradição.
+
+Note a articulação entre as duas figuras: as **metáforas** fornecem os campos (fogo,
+ferida); os **paradoxos** os desmontam. Uma constrói, o outro nega — e o soneto vive dessa
+tensão.
+:::
+
+**10.** Identifique as figuras nas frases cotidianas e comente o que isso revela: (a)
+"Estou morrendo de fome."; (b) "Passa o Bombril aí."; (c) "Que dia lindo!" (durante um
+temporal).
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Hipérbole.** Exagero intencional: ninguém morre por não ter almoçado. O falante
+amplifica a sensação para comunicar intensidade.
+
+**(b) Metonímia**, do tipo **marca pelo produto**: *Bombril* é a marca; o referente é a
+esponja de aço, de qualquer fabricante. Substituição por **contiguidade** comercial.
+(Outros casos: *Gillette*, *Band-Aid*, *Cotonete*, *Xerox*, *Maisena*.)
+
+**(c) Ironia.** Diz-se o contrário do que se pensa; o **contexto** (o temporal) é a marca
+que permite recuperar a intenção. Sem ele, a frase seria literal.
+
+**O que isso revela**: as três são figuras clássicas da retórica — catalogadas há dois mil
+anos — e as três aparecem em frases **absolutamente banais**, ditas sem nenhuma intenção
+estética por qualquer falante, escolarizado ou não.
+
+A conclusão desmonta a ideia escolar de que figura é ornamento literário: as figuras são
+**estruturais** ao funcionamento comum da língua. A literatura não as inventa — ela apenas
+as usa com **consciência e propósito**, o que é outra coisa.
+:::
+
+## 📚 Referências
+
+A classificação das figuras segue a tradição da NGB, tal como sistematizada por Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017] — a quem se devem também as
+divergências registradas quanto ao estatuto da sinédoque. O tratamento das figuras como
+recursos de **expressividade**, e não como ornamento, apoia-se em Martins [@martins2008],
+referência central do Volume 15 (@sec-cap-96); a discussão da metáfora como instrumento de
+cognição, e não de decoração, dialoga com Ilari [@ilari2001] e Ilari & Basso
+[@ilaribasso2006]. Para a conotação como fenômeno que estas figuras produzem, veja o
+@sec-cap-61; para a catacrese como metáfora lexicalizada, o mesmo capítulo; para a ironia
+na leitura, o @sec-cap-83. O próximo capítulo completa o inventário com as figuras de
+**sintaxe** e de **som**.
+
+::: {#refs}
 :::
