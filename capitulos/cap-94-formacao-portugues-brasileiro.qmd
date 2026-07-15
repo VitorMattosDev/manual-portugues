@@ -4,22 +4,1117 @@ title: "A formação do português brasileiro"
 
 # A formação do português brasileiro {#sec-cap-94}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 15 — História da Língua e Estilística.
+> "O português brasileiro não foi trazido pronto. Foi feito aqui — e por quem menos aparece nos
+> livros."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O @sec-cap-93 deixou o português clássico embarcando para a América. Este capítulo conta o que
+aconteceu depois do desembarque — e é, provavelmente, o capítulo mais disputado do manual.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A pergunta é simples de enunciar: **por que o PB é como é?** Por que perdeu os clíticos de 3ª
+pessoa? Por que preenche o sujeito? Por que a concordância varia como varia? O @sec-cap-93
+explicou o **conservadorismo** brasileiro pela cronologia — as inovações portuguesas vieram
+depois do navio. Mas isso explica só metade: não explica as inovações **brasileiras**, que são
+muitas e profundas.
+
+Aqui as respostas divergem, e divergem com veemência. Há uma tese que atribui o PB ao **contato**
+com línguas indígenas e africanas; outra que o atribui à **deriva** interna do próprio português.
+O debate é técnico, mas ninguém se engana sobre o que está em jogo: trata-se de decidir se a
+língua nacional foi feita **também** por índios e africanos, ou se eles apenas a receberam. É
+linguística e é história do Brasil, ao mesmo tempo.
+
+Este capítulo apresenta as duas teses com honestidade, e mostra por que a resposta madura não é
+escolher uma.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconstituir** a situação linguística do Brasil colonial e o papel da língua geral;
+- **Explicar** a transmissão linguística irregular e seus efeitos;
+- **Confrontar** as hipóteses do contato e da deriva, com seus argumentos;
+- **Identificar** os traços do PB que cada hipótese explica melhor;
+- **Descrever** a contribuição indígena e africana ao português brasileiro;
+- **Avaliar** criticamente os mitos sobre a formação do PB.
+
+## O Brasil colonial não falava português
+
+O primeiro fato a estabelecer contraria tudo o que se supõe.
+
+Durante os **dois primeiros séculos**, o português **não** era a língua majoritária do Brasil. Em
+vastas áreas, o que se falava era a **língua geral** — um tupi reelaborado no contato, veiculado
+pelos jesuítas e adotado como língua franca.
+
+**Havia duas línguas gerais:**
+
+| | **Língua geral paulista** | **Língua geral amazônica** (nheengatu) |
+|---|---|---|
+| Base | tupi de São Vicente | tupinambá |
+| Área | São Paulo, sertão, bandeiras | Amazônia, vale do rio Negro |
+| Destino | extinta no séc. XVIII | **sobrevive** — cooficial em São Gabriel da Cachoeira (@sec-cap-91) |
+
+**O quadro real da colônia** era, portanto, de **multilinguismo intenso**:
+
+- **português** — dos colonos, da administração;
+- **língua geral** — franca, doméstica, dos mamelucos e bandeirantes;
+- **~1.200 línguas indígenas** (@sec-cap-91);
+- **dezenas de línguas africanas** — sobretudo **banto** (quimbundo, quicongo, umbundo) e
+  **iorubá**/jeje.
+
+::: {.callout-important}
+## Os bandeirantes falavam tupi
+Este fato costuma provocar incredulidade, e é bem documentado.
+
+Em São Paulo, nos séculos XVI–XVII, a língua **do cotidiano** era a língua geral paulista.
+Falava-se português na igreja, no cartório e com a Coroa; falava-se tupi **em casa**, na rua, na
+roça e na bandeira. Muitos paulistas nascidos aqui **mal falavam** português — e o
+**bilinguismo** era a norma, não a exceção.
+
+**A razão é demográfica**: a colonização paulista fez-se em larga medida por **mamelucos** —
+filhos de pai português e mãe indígena. E a língua se aprende sobretudo **com a mãe**. O pai
+falava português; a casa falava tupi; a criança aprendia as duas, e usava a da mãe para viver.
+
+**O fim**: o **Diretório dos Índios** (1757, Pombal — @sec-cap-91) **proíbe** as línguas gerais e
+impõe o português. Em poucas gerações, a língua geral paulista **desaparece**. O nheengatu
+recua ao Amazonas, onde sobrevive.
+
+**Por que isso importa para este capítulo — três razões:**
+
+1. **O Brasil não foi monolíngue por natureza**: foi **feito** monolíngue, por decreto, contra
+   uma realidade que era outra (@sec-cap-91);
+2. **O português brasileiro formou-se num caldeirão multilíngue**, não numa transmissão limpa de
+   pais portugueses para filhos portugueses. Essa é a premissa de todo o debate que se segue;
+3. **A demografia é decisiva**: durante séculos, **a maioria dos falantes de português no Brasil
+   o falava como SEGUNDA língua** — e mal. Isso é o oposto da situação portuguesa, e é o que
+   torna o caso brasileiro interessante.
+:::
+
+## A transmissão linguística irregular
+
+Aqui está o conceito central do capítulo, e vale construí-lo com cuidado.
+
+**A transmissão normal**: crianças adquirem a língua dos pais, com **input abundante** e
+**contato constante** com falantes nativos. O resultado é uma língua transmitida **integralmente**
+— com toda a sua morfologia, inclusive as partes redundantes.
+
+**A transmissão irregular** [@lucchesi2009]: quando **adultos** aprendem uma língua como
+**segunda**, em condições **precárias** — sem escola, sem tempo, sem convívio próximo com
+nativos — e depois a **transmitem aos filhos** como língua materna.
+
+::: {#fig-transmissao}
+
+```{.tikz}
+%%| filename: transmissao
+%%| alt: Esquema comparando a transmissão linguística normal e a irregular. À esquerda, a transmissão normal: crianças recebem input abundante de falantes nativos, com contato constante, e o resultado é uma língua transmitida integralmente, com toda a morfologia preservada, inclusive as partes redundantes. É o caso de Portugal. À direita, a transmissão irregular: adultos aprendem a língua como segunda língua, em condições precárias, sem escola e sem convívio com nativos; produzem uma versão simplificada, com perda da morfologia menos audível e menos necessária; e transmitem essa versão aos filhos como língua materna. Os filhos a reanalisam e a regularizam, e o resultado é uma língua nova, nativa e completa, porém com gramática diferente da de origem. É o caso do Brasil. Ao centro, uma caixa destaca que a morfologia redundante é a primeira a cair, porque é a menos necessária: se o determinante já marca o plural, a marca no substantivo é dispensável. Uma nota final adverte que o resultado não é uma língua pobre nem defeituosa, mas uma gramática diferente, e completa.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=4pt, font=\scriptsize, text width=52mm},
+  s/.style={-{Stealth[length=4pt]}, line width=1pt, draw=manualgray},
+]
+  \node[font=\scriptsize\bfseries, text=manualgreen] at (-3.6,3.4) {TRANSMISSÃO NORMAL};
+  \node[font=\scriptsize\bfseries, text=manualred] at (3.6,3.4) {TRANSMISSÃO IRREGULAR};
+
+  \node[cx, draw=manualgreen, fill=manualgreen!10] (n1) at (-3.6,2.5)
+    {Crianças recebem \textbf{input abundante}\\de falantes \textbf{nativos}, em contato constante};
+  \node[cx, draw=manualgreen, fill=manualgreen!10] (n2) at (-3.6,0.9)
+    {Língua transmitida \textbf{integralmente}\\{\scriptsize toda a morfologia, inclusive a redundante}};
+  \node[cx, draw=manualgreen, fill=manualgreen!6] (n3) at (-3.6,-0.5)
+    {\textbf{Caso: PORTUGAL}};
+
+  \node[cx, draw=manualred, fill=manualred!10] (i1) at (3.6,2.5)
+    {\textbf{Adultos} aprendem como \textbf{2ª língua},\\em condições precárias: sem escola,\\sem convívio com nativos};
+  \node[cx, draw=manualred, fill=manualred!10] (i2) at (3.6,0.9)
+    {Produzem versão \textbf{simplificada}\\{\scriptsize cai a morfologia menos audível e menos necessária}};
+  \node[cx, draw=manualred, fill=manualred!10] (i3) at (3.6,-0.7)
+    {Transmitem aos \textbf{filhos} como língua \textbf{materna}\\{\scriptsize os filhos \textbf{reanalisam} e \textbf{regularizam}}};
+  \node[cx, draw=manualred, fill=manualred!6] (i4) at (3.6,-2.3)
+    {\textbf{Língua nova}: nativa, \textbf{completa} ---\\gramática \textbf{diferente} da de origem\\{\scriptsize \textbf{Caso: BRASIL}}};
+
+  \draw[s, draw=manualgreen] (n1) -- (n2);
+  \draw[s, draw=manualgreen] (n2) -- (n3);
+  \draw[s, draw=manualred] (i1) -- (i2);
+  \draw[s, draw=manualred] (i2) -- (i3);
+  \draw[s, draw=manualred] (i3) -- (i4);
+
+  \node[rounded corners=2pt, draw=manualblue, fill=manualblue!10, align=center,
+        font=\scriptsize, inner sep=4pt, text width=42mm] at (-3.6,-2.3)
+    {\textbf{O que cai primeiro:}\\a morfologia \textbf{redundante}.\\[2pt]
+     {\scriptsize Se ``\textbf{os}'' já marca o plural,\\a marca em ``menino'' é dispensável.}};
+
+  \node[rounded corners=2pt, draw=manualgray, fill=manualgray!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=100mm] at (0,-3.9)
+    {O resultado \textbf{não} é língua pobre nem defeituosa: é \textbf{outra gramática}, nativa e
+     completa.\\ Quem a fala não erra --- fala \textbf{outra} coisa.};
+\end{tikzpicture}
+```
+
+Transmissão normal × irregular. O que distingue os dois casos não é a qualidade do resultado, mas
+o caminho — e o caminho deixa marcas identificáveis na gramática.
+
+:::
+
+**O que acontece na transmissão irregular:**
+
+1. O adulto aprende **imperfeitamente** — e o que ele perde primeiro é a **morfologia redundante**
+   e pouco audível: as desinências, as concordâncias repetidas, os clíticos átonos;
+2. Ele transmite **essa versão** aos filhos;
+3. Os filhos a adquirem como **língua materna** — e a **reanalisam e regularizam**, porque é isso
+   que crianças fazem;
+4. O resultado é uma língua **nova**: nativa, completa, sistemática — e com **gramática diferente**
+   da de origem.
+
+::: {.callout-important}
+## O que cai primeiro, e por quê
+Não é aleatório o que se perde. Há uma lógica, e ela é o que dá força à hipótese.
+
+**Cai a morfologia REDUNDANTE** — a que repete informação já dada em outro lugar:
+
+- **plural no SN**: "**os** menino" — o *os* já marca o plural; a marca em *menino* é
+  **redundante**. E é a marca redundante que cai, não a informativa;
+- **concordância verbal**: "**nós** foi" — o *nós* já marca a pessoa; a desinência *-mos* é
+  redundante;
+- **clíticos de 3ª pessoa**: *o*, *a*, *lhe* — átonos, pouco audíveis, e substituíveis por formas
+  tônicas ("vi **ele**"), que são mais claras.
+
+**Não cai a informação.** E este é o ponto decisivo, que separa a hipótese séria da caricatura:
+
+Em "**os** menino", **a informação de plural está lá** — no artigo. Nada se perdeu para o
+ouvinte. O que se perdeu foi a **repetição** da informação.
+
+Ou seja: a transmissão irregular **não empobrece a língua** — ela **redistribui** a informação,
+eliminando redundância. É uma **reorganização**, não uma perda.
+
+**A comparação que fecha o argumento**: o **inglês** fez exatamente isso, e ninguém o chama de
+defeituoso. O inglês antigo tinha caso, gênero e um paradigma verbal completo; o inglês moderno
+marca a pessoa em **um** único lugar (*he speak**s***) e perdeu o resto — em boa parte por
+contato com o nórdico e com o francês normando.
+
+**O inglês é uma língua de transmissão irregular** — e é a língua franca do planeta. Se o
+processo produzisse línguas pobres, o inglês seria pobre.
+
+**A conclusão que o manual sublinha** (@sec-cap-91): "os menino" **não é erro** — é o resultado
+de um **processo histórico identificável**, com lógica própria, que produziu uma gramática
+diferente e completa. Quem fala assim não erra: fala **outra** coisa, e essa outra coisa tem
+nome, causa e literatura científica.
+:::
+
+## As duas hipóteses
+
+Estabelecido o mecanismo, vem a disputa: **quanto** ele explica?
+
+### A hipótese do contato (ou da crioulização prévia)
+
+**A tese** [@lucchesi2009]: o PB popular resulta de **transmissão linguística irregular** em massa,
+provocada pelo contato com línguas **indígenas** e **africanas**. Em alguns pontos, houve
+processos de **crioulização** ou quase.
+
+**Os argumentos:**
+
+1. **A demografia.** Foram trazidos ao Brasil cerca de **4,8 milhões** de africanos escravizados —
+   o maior fluxo do tráfico atlântico. Em vastas áreas e por longos períodos, os falantes de
+   português como **segunda língua** eram a **maioria**. A situação não tem paralelo em Portugal;
+2. **As condições da aquisição eram péssimas**: sem escola, sem tempo, sem convívio próximo com
+   nativos, com mistura deliberada de etnias para impedir a comunicação entre escravizados. É a
+   receita exata da transmissão irregular;
+3. **Os traços do PB popular são os que o contato prevê**: perda da morfologia redundante,
+   simplificação da concordância, perda dos clíticos;
+4. **A evidência dos falares afro-brasileiros isolados**: comunidades rurais de remanescentes de
+   quilombos, estudadas por Lucchesi, Baxter e Ribeiro, apresentam concordância **muito** mais
+   variável que o PB popular urbano — o que sugere um estágio anterior mais radical, depois
+   parcialmente "reaproximado" da norma.
+
+### A hipótese da deriva
+
+**A tese**: o PB resulta da **evolução interna** do português — tendências que já estavam no
+sistema e que aqui apenas se **aceleraram**. O contato teria sido um catalisador, não a causa.
+
+**Os argumentos:**
+
+1. **Os traços "brasileiros" existem em Portugal.** A perda de concordância, a próclise, o
+   preenchimento do sujeito ocorrem — em menor grau — no **português popular europeu**, que
+   **não** passou por contato africano;
+2. **A deriva românica.** O **francês** perdeu as distinções verbais audíveis e preenche o sujeito
+   obrigatoriamente. Não houve contato africano na França. É a **mesma** deriva;
+3. **A explicação sistêmica basta** (@sec-cap-89): o PB reduziu o paradigma verbal por causa de
+   *você* e *a gente* — mudanças **internas**, ocorridas também em Portugal —, e o preenchimento
+   do sujeito é **consequência** disso. Não é preciso invocar contato;
+4. **Faltam traços crioulos característicos.** O PB **não** tem as marcas típicas dos crioulos
+   plenos: não perdeu o gênero, não perdeu as flexões todas, não desenvolveu partículas de tempo
+   e aspecto pré-verbais. Se houvesse crioulização, deveriam ter ficado marcas.
+
+::: {.callout-important}
+## Por que a resposta madura não é escolher
+As duas hipóteses têm argumentos **bons** e **evidências reais**. Escolher uma e descartar a outra
+é o que a divulgação faz, e é errado.
+
+**O consenso possível — três proposições:**
+
+**1. Os dois fatores operaram.** A deriva **existe** e é demonstrável: os traços têm paralelo no
+português popular europeu e no francês, sem nenhum contato africano. **E** o contato **existiu** e
+foi maciço: 4,8 milhões de africanos, séculos de transmissão irregular. Não há por que supor que
+apenas um deles agiu.
+
+**2. O contato ACELEROU a deriva.** Esta é a síntese mais defensável, e concilia o que cada
+hipótese explica melhor. O português já **tendia** a certas mudanças — a redundância morfológica
+já era vulnerável. O contato encontrou essa tendência e a **empurrou**, porque a transmissão
+irregular ataca **exatamente** o que a deriva já erodia: a morfologia redundante.
+
+Não é coincidência que os dois processos mirem o mesmo alvo. É por isso que é difícil separá-los —
+e é por isso que a pergunta "qual dos dois?" pode ser mal formulada.
+
+**3. A intensidade é o dado brasileiro.** O PB popular vai **muito além** do português popular
+europeu na perda de concordância. A deriva sozinha explica a **direção**; ela não explica a
+**velocidade** nem o **grau**. Para isso, o contato é a explicação disponível — e é a única que
+tem 4,8 milhões de pessoas do lado.
+
+**Por que o debate é tão áspero** — e isto precisa ser dito:
+
+Porque **não é só sobre linguística**. Está em jogo se a língua nacional foi feita **também** por
+indígenas e africanos, ou se eles apenas a **receberam** de um português que se desenvolveu
+sozinho.
+
+E aqui é preciso separar duas coisas com rigor, porque a confusão entre elas envenena tudo:
+
+- **A pergunta técnica** — quanto cada fator pesou — é **legítima**, **empírica** e **em aberto**.
+  Defender a deriva não é racismo: é uma tese com evidência;
+- **A pergunta política** — quem fez o Brasil — **não depende** da resposta técnica. Africanos e
+  indígenas fizeram o país e sua língua **de qualquer modo**: o léxico é indiscutível, a demografia
+  é indiscutível, e a história é indiscutível.
+
+**A honestidade exige as duas coisas**: reconhecer que a questão técnica está **em aberto** — e não
+fingir que a evidência é mais conclusiva do que é, em nenhuma das direções — **e** reconhecer que
+o interesse pela questão nunca foi só técnico, e que a hipótese do contato foi, historicamente,
+resistida por razões que não eram científicas [@mattosesilva2004].
+:::
+
+## As contribuições
+
+Independentemente do debate acima — que é sobre **gramática** —, as contribuições **lexicais** são
+indiscutíveis e vastas.
+
+### Tupi e línguas indígenas
+
+| Campo | Palavras |
+|---|---|
+| **Flora** | *mandioca*, *abacaxi*, *caju*, *maracujá*, *jabuticaba*, *cipó*, *capim*, *taquara* |
+| **Fauna** | *tatu*, *jacaré*, *arara*, *tucano*, *piranha*, *jaguar*, *sucuri*, *capivara*, *urubu* |
+| **Alimentos** | *tapioca*, *pipoca*, *beiju*, *mingau*, *paçoca* |
+| **Topônimos** | *Ipanema* (água ruim), *Itaquera*, *Curitiba*, *Paraná*, *Piracicaba*, *Guanabara*, *Niterói* |
+| **Outros** | *peteca*, *cutucar*, *perereca*, *catapora*, *mirim*, *guri* |
+
+**A marca**: o tupi domina a **natureza** e a **geografia** — os nomes das coisas que os
+portugueses encontraram e não conheciam.
+
+### Línguas africanas
+
+| Campo | Palavras |
+|---|---|
+| **Culinária** | *quitanda*, *quiabo*, *dendê*, *acarajé*, *vatapá*, *fubá*, *jiló*, *cachaça* (disputada) |
+| **Religião** | *macumba*, *orixá*, *axé*, *candomblé*, *exu*, *iemanjá* |
+| **Música/dança** | *samba*, *maxixe*, *berimbau*, *cuíca*, *marimba*, *batuque* |
+| **Cotidiano** | *moleque*, *caçula*, *cafuné*, *bunda*, *cochilar*, *xingar*, *bagunça*, *muvuca*, *tanga* |
+| **Afetivos** | *dengo*, *catita*, *neca* |
+
+**A marca**, e ela é reveladora: o africano domina a **vida íntima e afetiva** — o corpo, o
+carinho, a comida de casa, a religião, a música, o insulto. Não são as palavras do dicionário
+cerimonioso; são as palavras que se usa **em casa** e **com quem se ama**.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O que a distribuição do léxico revela
+A comparação entre as duas listas não é curiosidade — é **evidência sociológica**.
+
+**O tupi** ocupa a **natureza** e a **geografia**: os nomes do que os portugueses encontraram e
+não sabiam nomear. É o léxico do **encontro** e da **descrição do território**.
+
+**O africano** ocupa a **casa** e o **corpo**: *cafuné*, *dengo*, *moleque*, *caçula*, *cochilar*,
+*bunda*, *fubá*, *quitanda*. É o léxico da **intimidade**.
+
+**Por que essa distribuição** — e a resposta é dura:
+
+Porque as mulheres africanas escravizadas **criavam as crianças da casa-grande**. Eram elas que
+faziam o cafuné, que ninavam, que cozinhavam, que xingavam, que estavam **presentes** na infância
+do menino branco. A palavra que se aprende no colo **fica** — e fica no registro mais íntimo.
+
+O léxico africano do português brasileiro é, em boa medida, o léxico da **primeira infância** de
+gerações de brasileiros de todas as cores. Está no lugar mais fundo da língua justamente porque
+foi aprendido no lugar mais fundo da vida.
+
+**A ironia que o dado expõe**: o mesmo Brasil que apagou institucionalmente as línguas africanas
+— que proibiu, dispersou e silenciou — fala, todos os dias e sem perceber, com as palavras que
+elas deixaram. E não nas margens do vocabulário: no centro afetivo dele. *Cafuné* não tem
+sinônimo. **Não há como fazer carinho em português sem uma palavra africana.**
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A história deste capítulo tem uma consequência que atravessa o manual inteiro.
+
+**O que a norma-padrão brasileira fez**: calcou-se, no séc. XIX, na **literatura portuguesa** da
+época [@faraco2008] — não na fala culta brasileira contemporânea, e muito menos no PB popular.
+
+**A consequência**: a norma brasileira descreve uma língua que **quase ninguém fala aqui**. Ela
+prescreve "vi-o" numa comunidade em que **todos** dizem "vi ele" — inclusive os que a prescrevem.
+
+**Por que isso é diferente do caso português**: em Portugal, a norma está **mais próxima** da fala
+culta real. Aqui, a distância é **enorme** (@sec-cap-90) — e essa distância é o resultado direto
+do que este capítulo contou: a fala mudou (por deriva, por contato, pelos dois) e a norma **não
+acompanhou**, porque olhava para o outro lado do Atlântico.
+
+**Duas conclusões erradas e simétricas:**
+
+- **"Logo, a norma é inútil e deve ser abandonada."** Não: ela tem valor social real, e o aluno
+  precisa dela (@sec-cap-91). Abandoná-la prejudica quem não a tem em casa;
+- **"Logo, os brasileiros falam mal."** Não: a distância não mede a qualidade da fala — mede o
+  **descolamento da norma**. Se a norma descreve uma língua que ninguém fala, o problema pode
+  estar nela.
+
+**A conclusão correta**: a norma brasileira é **historicamente descolada** do PB — e isso é um
+fato sobre a **norma**, não sobre os falantes. Reconhecê-lo permite duas coisas ao mesmo tempo:
+
+1. **Ensiná-la** com competência, porque ela vale socialmente **agora**;
+2. **Revisá-la** onde a distância for indefensável — e é o que as gramáticas descritivas
+   brasileiras vêm fazendo [@castilho2010; @perini2010], propondo uma norma que descreva o
+   português **culto brasileiro real**, e não um português de importação.
+
+**A síntese**: o PB tem gramática, história e causa. Quem o fala não erra — fala uma língua que
+foi feita aqui, por índios, africanos e portugueses, e que ainda espera uma norma à sua altura.
+:::
+
+## 📋 Quadro-resumo
+
+**O Brasil colonial NÃO falava português.** Dois primeiros séculos: a **língua geral** predominava
+em vastas áreas.
+
+| | **L. geral paulista** | **L. geral amazônica** (nheengatu) |
+|---|---|---|
+| Área | SP, sertão, bandeiras | Amazônia, rio Negro |
+| Destino | **extinta** (séc. XVIII) | **sobrevive** — cooficial em São Gabriel da Cachoeira |
+
+**Os bandeirantes falavam tupi** — português na igreja e no cartório; tupi **em casa**. Razão
+**demográfica**: colonização por **mamelucos**, e a língua se aprende com a **mãe**. Fim: o
+**Diretório dos Índios** (1757, Pombal) proibiu (@sec-cap-91).
+
+**TRANSMISSÃO LINGUÍSTICA IRREGULAR** [@lucchesi2009] — o conceito central:
+
+**Adultos** aprendem como **2ª língua**, em condições precárias → produzem versão **simplificada**
+→ **transmitem aos filhos** como língua **materna** → os filhos **reanalisam e regularizam** →
+**língua nova**, nativa e **completa**, com gramática **diferente**.
+
+**O que cai: a morfologia REDUNDANTE** — "**os** menino" (o *os* já marca), "**nós** foi" (o *nós*
+já marca), os clíticos átonos ("vi **ele**"). **A informação NÃO se perde** — está no artigo, no
+pronome. É **redistribuição**, não empobrecimento.
+
+**A comparação decisiva**: o **inglês** fez o mesmo (perdeu caso, gênero, paradigma; marca a
+pessoa em **um** lugar) — e é a língua franca do planeta. O processo **não** produz línguas pobres.
+
+**AS DUAS HIPÓTESES:**
+
+| | **CONTATO** [@lucchesi2009] | **DERIVA** |
+|---|---|---|
+| **Tese** | transmissão irregular em massa (indígenas, africanos) | evolução **interna** do português; contato foi catalisador |
+| **Argumentos** | **4,8 milhões** de africanos; falantes de 2ª língua eram **maioria**; condições péssimas de aquisição; traços = os previstos; falares afro-brasileiros **isolados** têm concordância muito mais variável | os traços existem no **português popular europeu** (sem contato africano); o **francês** fez o mesmo; a explicação **sistêmica** basta (*você*/*a gente* → paradigma reduzido → sujeito preenchido); **faltam** marcas crioulas típicas (gênero, partículas de TAM) |
+
+**A síntese defensável — três proposições:**
+
+1. **Os dois fatores operaram** — não há razão para supor só um;
+2. **O contato ACELEROU a deriva** — os dois miram o **mesmo alvo** (a morfologia redundante), e
+   por isso é difícil separá-los;
+3. **A deriva explica a DIREÇÃO; não explica a VELOCIDADE nem o GRAU.** O PB popular vai muito
+   além do português popular europeu.
+
+**Separar as duas perguntas**: a **técnica** (quanto cada fator pesou) é legítima, empírica e **em
+aberto**. A **política** (quem fez o Brasil) **não depende** dela — africanos e indígenas fizeram o
+país e sua língua de qualquer modo.
+
+**Contribuições lexicais:**
+
+| | Campos | Exemplos |
+|---|---|---|
+| **Tupi** | **natureza, geografia** | *mandioca*, *tatu*, *jacaré*, *pipoca*, *Ipanema*, *Curitiba* |
+| **Africanas** | **casa, corpo, afeto, religião, música** | *cafuné*, *dengo*, *moleque*, *caçula*, *cochilar*, *samba*, *quitanda*, *orixá* |
+
+**O que a distribuição revela**: o africano ocupa a **intimidade** porque as **mulheres africanas
+escravizadas criavam as crianças da casa-grande**. É o léxico da **primeira infância** de gerações
+de brasileiros. **Não há como fazer carinho em português sem uma palavra africana.**
+
+**A norma brasileira** calcou-se na **literatura portuguesa do séc. XIX** — descreve uma língua que
+quase ninguém fala aqui. É fato sobre a **norma**, não sobre os falantes.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que o Brasil colonial falava português.** Por **dois séculos**, a **língua geral**
+  predominava em vastas áreas.
+- **Achar que a língua geral era "língua indígena".** Era um **tupi reelaborado no contato**,
+  veiculado pelos jesuítas — língua **franca**, não a língua de um povo.
+- **Achar que a língua geral morreu sozinha.** Foi **proibida** pelo Diretório de 1757.
+- **Achar que transmissão irregular produz língua pobre.** Produz **outra gramática**, completa. O
+  **inglês** é o caso exemplar.
+- **Achar que "os menino" perde informação.** **Não perde**: o *os* marca o plural. Cai a
+  **redundância**, não a informação.
+- **Achar que o PB é crioulo.** **Não é.** Faltam as marcas típicas: gênero preservado, sem
+  partículas de TAM pré-verbais. A tese séria fala em transmissão **irregular**, não em crioulo
+  pleno.
+- **Escolher uma hipótese e descartar a outra.** As duas têm evidência. A síntese: o contato
+  **acelerou** a deriva.
+- **Achar que a deriva sozinha explica.** Explica a **direção**, não a **velocidade** nem o
+  **grau**.
+- **Achar que defender a deriva é racismo.** É uma **tese técnica com evidência**. Confundir a
+  pergunta técnica com a política envenena as duas.
+- **Achar que a contribuição africana é "algumas palavras exóticas".** É o **centro afetivo** do
+  léxico: *cafuné*, *dengo*, *caçula*, *cochilar*.
+- **Achar que a distância norma/fala prova que brasileiros falam mal.** Prova que a **norma** se
+  descolou — ela se calcou na literatura **portuguesa** do séc. XIX.
+
+## ✍️ Exercícios
+
+**1.** Descreva a situação linguística do Brasil colonial.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O fato que contraria o senso comum**: durante os **dois primeiros séculos**, o português **não**
+era a língua majoritária do Brasil.
+
+**O quadro real — multilinguismo intenso:**
+
+- **português** — dos colonos, da administração, da igreja e do cartório;
+- **língua geral** — franca e **doméstica**, dos mamelucos e bandeirantes;
+- **~1.200 línguas indígenas** (@sec-cap-91);
+- **dezenas de línguas africanas** — sobretudo **banto** (quimbundo, quicongo, umbundo) e
+  **iorubá**/jeje.
+
+**As duas línguas gerais:**
+
+| | **Paulista** | **Amazônica** (nheengatu) |
+|---|---|---|
+| Base | tupi de São Vicente | tupinambá |
+| Área | São Paulo, sertão, bandeiras | Amazônia, vale do rio Negro |
+| Destino | **extinta** no séc. XVIII | **sobrevive** — cooficial em São Gabriel da Cachoeira (2002) |
+
+**O caso paulista, que é o mais surpreendente**: em São Paulo, nos séculos XVI–XVII, a língua **do
+cotidiano** era a língua geral. Falava-se português na igreja e com a Coroa; falava-se tupi **em
+casa**, na rua, na roça e na bandeira. **Os bandeirantes falavam tupi**, e muitos paulistas
+nascidos aqui **mal falavam** português.
+
+**A razão é demográfica**: a colonização paulista fez-se em larga medida por **mamelucos** —
+filhos de pai português e mãe indígena. E a língua se aprende sobretudo **com a mãe**. O pai
+falava português; a casa falava tupi.
+
+**O fim**: o **Diretório dos Índios** (1757, Pombal) **proibiu** as línguas gerais e impôs o
+português. Em poucas gerações, a paulista desapareceu (@sec-cap-91).
+
+**Por que isso importa — três razões:**
+
+1. **O Brasil não foi monolíngue por natureza**: foi **feito** monolíngue, por decreto, contra uma
+   realidade que era outra;
+2. **O PB formou-se num caldeirão multilíngue** — não numa transmissão limpa de pais portugueses
+   para filhos portugueses. É a premissa de todo o debate sobre sua formação;
+3. **A demografia é decisiva**: por séculos, a **maioria** dos falantes de português no Brasil o
+   falava como **segunda língua**, e mal. É o oposto da situação portuguesa — e é o que torna o
+   caso brasileiro linguisticamente interessante.
+:::
+
+**2.** Explique a transmissão linguística irregular e o que ela produz.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A transmissão NORMAL**: crianças adquirem a língua dos pais, com **input abundante** e contato
+constante com falantes **nativos**. Resultado: língua transmitida **integralmente**, com toda a
+morfologia — inclusive as partes redundantes. É o caso de **Portugal**.
+
+**A transmissão IRREGULAR** [@lucchesi2009]: quando **adultos** aprendem uma língua como
+**segunda**, em condições **precárias** (sem escola, sem tempo, sem convívio próximo com nativos)
+e depois a **transmitem aos filhos** como língua materna.
+
+**As quatro etapas:**
+
+1. O adulto aprende **imperfeitamente** — perde primeiro a morfologia **redundante** e pouco
+   audível: desinências, concordâncias repetidas, clíticos átonos;
+2. Ele **transmite essa versão** aos filhos;
+3. Os filhos a adquirem como **língua materna** e a **reanalisam e regularizam** — porque é isso
+   que crianças fazem com qualquer input;
+4. Resultado: uma língua **nova** — nativa, completa, sistemática, com **gramática diferente** da
+   de origem.
+
+**O que cai, e por quê — a lógica:**
+
+Cai a morfologia **REDUNDANTE**, a que repete informação já dada:
+
+- "**os** menino" — o *os* já marca o plural; a marca em *menino* é **redundante**;
+- "**nós** foi" — o *nós* já marca a pessoa; o *-mos* é redundante;
+- clíticos de 3ª (*o*, *a*, *lhe*) — átonos, pouco audíveis, substituíveis por tônicos mais
+  claros ("vi **ele**").
+
+**O ponto decisivo — a informação NÃO se perde:**
+
+Em "os menino", a informação de plural **está lá**, no artigo. **Nada** se perdeu para o ouvinte.
+O que se perdeu foi a **repetição**.
+
+Portanto a transmissão irregular **não empobrece** a língua — ela **redistribui** a informação,
+eliminando redundância. É **reorganização**, não perda.
+
+**A comparação que fecha o argumento**: o **inglês** fez exatamente isso. O inglês antigo tinha
+caso, gênero e paradigma verbal completo; o moderno marca a pessoa em **um** único lugar (*he
+speaks*) e perdeu o resto — em boa parte por **contato** (nórdico, francês normando).
+
+**O inglês é uma língua de transmissão irregular — e é a língua franca do planeta.** Se o processo
+produzisse línguas pobres, o inglês seria pobre. Não é.
+
+**A conclusão** (@sec-cap-91): "os menino" **não é erro** — é o resultado de um **processo
+histórico identificável**, com lógica própria, que produziu uma gramática diferente e completa.
+Quem fala assim **fala outra coisa**, e essa outra coisa tem nome, causa e literatura científica.
+:::
+
+**3.** Confronte a hipótese do contato e a da deriva.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| | **CONTATO** [@lucchesi2009] | **DERIVA** |
+|---|---|---|
+| **Tese** | o PB popular resulta de **transmissão irregular em massa**, por contato com línguas indígenas e africanas | o PB resulta da **evolução interna** do português; o contato foi **catalisador**, não causa |
+
+**Argumentos do CONTATO:**
+
+1. **A demografia**: ~**4,8 milhões** de africanos escravizados — o maior fluxo do tráfico
+   atlântico. Em vastas áreas e por longos períodos, os falantes de português como **2ª língua**
+   eram **maioria**. Não há paralelo em Portugal;
+2. **As condições eram péssimas**: sem escola, sem tempo, sem convívio com nativos, com mistura
+   **deliberada** de etnias para impedir comunicação. É a receita exata da transmissão irregular;
+3. **Os traços são os previstos**: perda da morfologia redundante, simplificação da concordância,
+   perda dos clíticos;
+4. **Os falares afro-brasileiros isolados**: comunidades remanescentes de quilombos apresentam
+   concordância **muito** mais variável que o PB popular urbano — sugerindo um estágio anterior
+   mais radical, depois parcialmente reaproximado da norma.
+
+**Argumentos da DERIVA:**
+
+1. **Os traços existem em Portugal**: a perda de concordância, a próclise e o preenchimento do
+   sujeito ocorrem — em menor grau — no **português popular europeu**, que **não** passou por
+   contato africano;
+2. **A deriva românica**: o **francês** perdeu as distinções verbais audíveis e preenche o sujeito
+   obrigatoriamente. Sem contato africano. É a **mesma** deriva;
+3. **A explicação sistêmica basta** (@sec-cap-89): *você* e *a gente* reduziram o paradigma verbal
+   — mudanças **internas**, ocorridas também em Portugal —, e o preenchimento do sujeito é
+   **consequência** disso. Não é preciso invocar contato;
+4. **Faltam marcas crioulas**: o PB **não** perdeu o gênero, não perdeu todas as flexões, não
+   desenvolveu partículas de tempo/aspecto pré-verbais. Se houvesse crioulização, deveriam ter
+   ficado marcas.
+
+**A síntese defensável — três proposições:**
+
+**1. Os dois fatores operaram.** A deriva é demonstrável (paralelos no PE popular e no francês).
+O contato foi maciço (4,8 milhões, séculos de transmissão irregular). Não há razão para supor que
+só um agiu.
+
+**2. O contato ACELEROU a deriva.** O português já **tendia** a certas mudanças; a redundância
+morfológica já era vulnerável. O contato encontrou essa tendência e a **empurrou** — porque a
+transmissão irregular ataca **exatamente** o que a deriva já erodia: a morfologia redundante.
+
+**Não é coincidência que os dois mirem o mesmo alvo** — e é por isso que separá-los é difícil, e
+que a pergunta "qual dos dois?" pode ser mal formulada.
+
+**3. A deriva explica a DIREÇÃO; não explica a VELOCIDADE nem o GRAU.** O PB popular vai **muito
+além** do português popular europeu na perda de concordância. Para essa intensidade, o contato é
+a explicação disponível — e é a única que tem 4,8 milhões de pessoas do lado.
+:::
+
+**4.** Por que o debate sobre a formação do PB é tão áspero?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Porque não é só sobre linguística.**
+
+**O que está em jogo**: se a língua nacional foi feita **também** por indígenas e africanos, ou se
+eles apenas a **receberam** de um português que se desenvolveu sozinho. É uma pergunta sobre a
+**identidade do Brasil**, travestida de pergunta sobre concordância verbal.
+
+**As duas perguntas que é preciso separar** — e a confusão entre elas é o que envenena o debate:
+
+**1. A pergunta TÉCNICA** — quanto cada fator (contato × deriva) pesou na formação do PB?
+
+- É **legítima**, **empírica** e está **em aberto**;
+- Tem argumentos bons dos dois lados e evidência real dos dois lados;
+- **Defender a deriva não é racismo**: é sustentar uma tese com evidência — os traços existem no
+  PE popular, o francês fez o mesmo, a explicação sistêmica funciona;
+- E **defender o contato não é ideologia**: 4,8 milhões de africanos e séculos de transmissão
+  irregular são fatos, não retórica.
+
+**2. A pergunta POLÍTICA** — quem fez o Brasil e sua língua?
+
+- **Não depende** da resposta técnica;
+- Africanos e indígenas fizeram o país e sua língua **de qualquer modo**: o léxico é indiscutível
+  (*cafuné*, *samba*, *caçula*, *mandioca*, *tatu*), a demografia é indiscutível, a história é
+  indiscutível;
+- Mesmo que a **deriva** explicasse **toda** a gramática, o PB continuaria sendo obra de todos —
+  porque foi **falado** por todos.
+
+**Por que a confusão é destrutiva**: quem funde as duas perguntas produz dois erros simétricos:
+
+- Trata a tese da deriva como **negação** da contribuição africana — o que ela não é;
+- Ou trata a tese do contato como **militância** disfarçada de ciência — o que ela também não é.
+
+Nos dois casos, **a pergunta técnica deixa de ser respondida**, porque responder passa a ser
+tomar partido.
+
+**A honestidade exige as duas coisas ao mesmo tempo** [@mattosesilva2004]:
+
+1. **Reconhecer que a questão técnica está em aberto** — e não fingir que a evidência é mais
+   conclusiva do que é, **em nenhuma das direções**. Quem afirma ter certeza está indo além dos
+   dados;
+2. **Reconhecer que o interesse pela questão nunca foi só técnico** — e que a hipótese do contato
+   foi, historicamente, **resistida por razões que não eram científicas**. A ideia de que o
+   português brasileiro pudesse dever algo a africanos foi rejeitada, por muito tempo, com
+   argumentos que não eram sobre linguística.
+
+**A posição do manual**: apresentar as duas teses com seus melhores argumentos, sustentar a
+síntese (o contato acelerou a deriva) como a mais defensável — e **não** usar a linguística para
+resolver, por atalho, uma questão que é de história e de política.
+:::
+
+**5.** O que a distribuição do léxico africano e indígena revela?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A distribuição:**
+
+| | Campos ocupados | Exemplos |
+|---|---|---|
+| **Tupi** | **natureza, fauna, flora, geografia** | *mandioca*, *abacaxi*, *caju*, *tatu*, *jacaré*, *arara*, *piranha*, *pipoca*, *Ipanema*, *Curitiba*, *Paraná* |
+| **Africanas** | **casa, corpo, afeto, comida, religião, música** | *cafuné*, *dengo*, *moleque*, *caçula*, *cochilar*, *xingar*, *bunda*, *bagunça*, *fubá*, *quitanda*, *dendê*, *samba*, *orixá*, *axé* |
+
+**O que cada distribuição revela:**
+
+**O TUPI** ocupa o léxico do **encontro** e da **descrição do território**: os nomes do que os
+portugueses **encontraram e não sabiam nomear**. Diante de um animal desconhecido, adota-se o
+nome local — é a solução mais econômica (@sec-cap-67). É o vocabulário de quem **chega** e precisa
+nomear o mundo.
+
+**O AFRICANO** ocupa o léxico da **intimidade**: o corpo, o carinho, o sono, a comida de casa, a
+religião, a música, o insulto. **Não** são as palavras do dicionário cerimonioso — são as palavras
+que se usa **em casa** e **com quem se ama**.
+
+**Por que essa distribuição — e a resposta é dura:**
+
+Porque as **mulheres africanas escravizadas criavam as crianças da casa-grande**. Eram elas que
+faziam o cafuné, que ninavam, que cozinhavam, que xingavam, que estavam **presentes** na infância
+do menino branco.
+
+**A palavra que se aprende no colo fica** — e fica no registro mais **íntimo**, porque foi
+aprendida na situação mais íntima. O léxico africano do PB é, em boa medida, o léxico da
+**primeira infância** de gerações de brasileiros **de todas as cores**.
+
+Ele está no lugar mais fundo da língua **porque foi aprendido no lugar mais fundo da vida**.
+
+**A ironia que o dado expõe:**
+
+O mesmo Brasil que **apagou institucionalmente** as línguas africanas — que proibiu, dispersou
+etnias deliberadamente para impedir a comunicação, silenciou — fala, **todos os dias e sem
+perceber**, com as palavras que elas deixaram.
+
+E não nas margens do vocabulário: **no centro afetivo dele**. *Cafuné* não tem sinônimo em
+português. *Dengo* não tem. **Não há como fazer carinho em português sem usar uma palavra
+africana.**
+
+**A conclusão que a questão cobra**: a distribuição do léxico é **evidência sociológica** — ela
+registra **quem estava onde** e **fazendo o quê**. O vocabulário de uma língua é um documento
+histórico, e este documento diz que a intimidade brasileira foi construída por quem o Brasil
+oficial tentou apagar.
+:::
+
+**6.** O português brasileiro é um crioulo?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não** — e a resposta precisa ser cuidadosa, porque a pergunta mistura uma tese séria com uma
+caricatura.
+
+**O que é um crioulo**: uma língua **nova**, nascida de contato, adquirida como **língua materna**
+por uma geração que a recebeu de falantes de um pidgin. Crioulos são línguas **plenas** — nada
+neles é defeituoso —, mas têm **marcas estruturais** características.
+
+**Por que o PB não é crioulo — as marcas que faltam:**
+
+1. **O gênero está preservado.** Crioulos de base portuguesa tipicamente **perdem** o gênero
+   gramatical. O PB o mantém integralmente: *o menino*, *a menina*;
+2. **A flexão não desapareceu.** O PB reduziu o paradigma verbal (de seis para três formas), mas
+   **não** o eliminou. Crioulos tendem a eliminar a flexão verbal por completo;
+3. **Não há partículas de tempo/aspecto pré-verbais** — a marca mais característica dos crioulos
+   (o tipo *mi ta kanta*). O PB flexiona o verbo: *cantei*, *cantava*, *cantarei*;
+4. **O léxico e a sintaxe básica são plenamente portugueses.**
+
+**O que a tese séria realmente afirma** — e aqui está a distinção que a questão cobra:
+
+A hipótese de Lucchesi, Baxter e Ribeiro [@lucchesi2009] **não** diz que o PB é crioulo. Diz que
+o PB popular resultou de **transmissão linguística irregular** em massa — o que é **diferente**:
+
+| | **Crioulização** | **Transmissão irregular** |
+|---|---|---|
+| Ponto de partida | pidgin (língua **nenhuma** é nativa) | a língua-alvo, aprendida **imperfeitamente** |
+| Resultado | língua **nova**, estruturalmente distinta | a **mesma** língua, com gramática **alterada** |
+| Marcas | perda de gênero, partículas de TAM | perda da morfologia **redundante** |
+
+A tese fala em transmissão irregular **com traços de crioulização em alguns pontos** — sobretudo
+em comunidades isoladas —, não em crioulização geral.
+
+**Por que a distinção importa:**
+
+- **Contra os críticos da tese**: acusá-la de dizer que "o PB é crioulo" é atacar um espantalho.
+  Ela não diz isso, e nunca disse;
+- **Contra os entusiastas**: dizer que o PB é crioulo é ir **além da evidência** — as marcas
+  crioulas não estão lá, e isso é um dado.
+
+**A formulação correta**: o PB **não é crioulo**. É português, com uma **história de contato
+intenso** que deixou marcas — sobretudo na perda da morfologia redundante. A diferença entre "é
+crioulo" e "passou por transmissão irregular" não é detalhe terminológico: é a diferença entre uma
+afirmação falsa e uma tese defensável.
+
+**A nota que fecha**: existem crioulos de base portuguesa **de verdade** — o cabo-verdiano, o
+papiá kristang, o forro de São Tomé, o guineense (@sec-cap-95). Compará-los com o PB torna a
+diferença **imediatamente** visível: são línguas em que um brasileiro **não se vira**. No PB, ele
+está em casa.
+:::
+
+**7.** Explique por que "os menino" não representa perda de informação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A análise da construção:**
+
+> **os** menino**∅**
+
+A informação de **plural** está marcada — no **artigo** (*os*). O ouvinte recebe a informação
+**completa**: sabe que são vários meninos, sem nenhuma ambiguidade.
+
+**O que caiu**: não a informação, mas a **repetição** dela. Na norma-padrão, o plural é marcado
+**duas** vezes ("**os** menino**s**") — e a segunda marca é **redundante**, no sentido técnico:
+não acrescenta informação nenhuma.
+
+**A regra do PB popular** (@sec-cap-86) — e note que é uma **regra**, não ausência dela:
+
+Marca-se o plural no **primeiro** elemento do sintagma nominal, e a marcação nos seguintes é
+**variável**, condicionada por fatores identificáveis:
+
+- **posição**: marca-se muito mais no primeiro elemento;
+- **saliência fônica**: plurais irregulares (*mão/mãos*) marcam-se mais que os regulares;
+- **escolaridade** e **formalidade**: quanto maiores, mais marcação.
+
+É uma **regra variável** — "acontece com probabilidade X sob condições Y" —, não desleixo.
+
+**O princípio subjacente**: **economia**. Não marcar duas vezes o que já foi marcado uma. É um
+princípio funcional, e é o mesmo que opera na transmissão irregular: cai o redundante, fica o
+informativo.
+
+**A comparação que desarma a crítica:**
+
+Nenhuma língua marca **tudo** em **todo** lugar — e as que marcam menos não são piores:
+
+- **O inglês** marca a pessoa em **um** único lugar (*he speak**s***), e o plural **só** no
+  substantivo (*the boy**s***, sem marca no artigo). Pela lógica de quem condena "os menino", o
+  inglês seria duplamente defeituoso;
+- **O francês falado** perdeu quase todas as distinções verbais **audíveis**: *je parle*, *tu
+  parles*, *il parle*, *ils parlent* soam **idênticos**. A informação está no **pronome** —
+  exatamente como em "os menino" ela está no artigo;
+- **O próprio português** já faz isso: em "**dois** meninos", ninguém propõe marcar o plural em
+  *dois* mais alguma outra coisa. A informação basta uma vez.
+
+**A conclusão** (@sec-cap-91): "os menino" **não é erro de língua**. É:
+
+- **regular** — segue regra descrita e quantificada;
+- **econômico** — elimina redundância;
+- **informativamente completo** — nada se perde;
+- **paralelo ao que línguas de prestígio fazem** — inglês e francês fizeram o mesmo.
+
+**O que resta**: é **desvio da norma-padrão**, e tem **custo social real**. Isso é fato sobre a
+**sociedade**, não sobre a língua — e é por isso que se deve ensinar a norma (@sec-cap-88), sem
+mentir sobre o que a forma é.
+:::
+
+**8.** (Estilo Cebraspe — julgue C ou E)
+
+I. Durante os dois primeiros séculos da colonização, a língua geral predominava em vastas áreas do
+Brasil.
+II. O português brasileiro é classificado pelos especialistas como uma língua crioula.
+III. A transmissão linguística irregular produz línguas estruturalmente deficientes.
+IV. Palavras como *cafuné*, *caçula* e *cochilar* têm origem em línguas africanas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — CERTO.** Nos séculos XVI–XVII, a **língua geral** (paulista e amazônica) predominava em
+vastas áreas. Os **bandeirantes falavam tupi**: português na igreja e no cartório, tupi **em
+casa**. A razão é demográfica — colonização por **mamelucos**, e a língua se aprende com a **mãe**.
+A predominância só termina com o **Diretório dos Índios** (1757), que proibiu as línguas gerais.
+
+**II — ERRADO.** O PB **não** é crioulo, e faltam-lhe as marcas típicas: **mantém o gênero**
+(crioulos de base portuguesa tipicamente o perdem), **mantém a flexão verbal** (reduzida, não
+eliminada), **não tem partículas de tempo/aspecto pré-verbais**.
+
+A tese séria [@lucchesi2009] fala em **transmissão linguística irregular** — o que é **diferente**
+de crioulização: parte da língua-alvo aprendida imperfeitamente, não de um pidgin, e produz a
+**mesma** língua com gramática alterada, não uma língua nova. Atribuir a tese a "o PB é crioulo" é
+atacar um espantalho.
+
+**III — ERRADO**, e é o erro conceitual central do capítulo. A transmissão irregular produz
+**outra gramática** — nativa, completa, sistemática —, não uma língua deficiente. O que se perde é
+a morfologia **redundante**; **a informação não se perde** (em "os menino", o *os* marca o
+plural).
+
+**A prova decisiva**: o **inglês** passou por processo comparável (perdeu caso, gênero, paradigma
+verbal — em boa parte por contato com o nórdico e o francês normando) e é a **língua franca do
+planeta**. Se o processo produzisse línguas deficientes, o inglês seria deficiente.
+
+**IV — CERTO.** *Cafuné*, *caçula* e *cochilar* são de origem africana — como *moleque*, *dengo*,
+*xingar*, *bunda*, *bagunça*, *fubá*, *quitanda*, *samba*.
+
+E note o que a lista revela: são palavras da **intimidade** — corpo, carinho, sono, casa. Porque
+as **mulheres africanas escravizadas criavam as crianças da casa-grande**, e a palavra aprendida
+no colo fica no registro mais fundo. **Não há como fazer carinho em português sem uma palavra
+africana.**
+
+**Gabarito: C, E, E, C.**
+:::
+
+**9.** (Estilo ENEM) A perda dos clíticos de 3ª pessoa no PB ("vi ele" por "vi-o") pode ser
+explicada:
+
+a) pela preguiça dos falantes brasileiros;
+b) por fatores que incluem a deriva do português e a transmissão linguística irregular em
+   situação de contato;
+c) exclusivamente pela influência de línguas africanas;
+d) pela ausência de ensino de gramática nas escolas;
+e) pela corrupção da língua portuguesa no Brasil.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: b.**
+
+**Por que b está certa**: é a única alternativa que reconhece a **multicausalidade** e usa os
+conceitos corretos. Os clíticos átonos de 3ª pessoa (*o*, *a*, *lhe*) são **pouco audíveis** e
+**redundantes** — substituíveis por formas tônicas mais claras ("vi **ele**"). São, portanto:
+
+- **alvo da deriva**: o português já tendia a erodir a morfologia átona, e o PE popular também
+  apresenta o fenômeno, em menor grau;
+- **alvo da transmissão irregular**: é exatamente o tipo de material que se perde quando adultos
+  aprendem a língua em condições precárias.
+
+Os **dois** fatores miram o mesmo alvo — e a síntese defensável é que o **contato acelerou a
+deriva**.
+
+**Por que as outras erram:**
+
+**a)** "Preguiça" não é categoria linguística e não explica nada. Se fosse preguiça, seria
+**seletiva** de um modo inexplicável: o mesmo falante "preguiçoso" produz estruturas sintáticas
+complexíssimas sem esforço. Além disso, "vi ele" não é mais curto nem mais fácil que "vi-o" — é
+mais **longo**. A explicação nem sequer funciona nos seus próprios termos.
+
+**c)** "Exclusivamente" é o que mata a alternativa. Ignora a **deriva**, que tem evidência real: o
+fenômeno ocorre no **português popular europeu** (sem contato africano) e o **francês** fez algo
+comparável. Atribuir tudo ao contato é ir **além** da evidência — e é o erro simétrico ao de negar
+o contato.
+
+**d)** Inverte causa e efeito, e comete um anacronismo. O fenômeno é **secular** e antecede em
+muito qualquer discussão sobre currículo. Além disso, "vi ele" é dito por falantes **altamente
+escolarizados** em situação informal (@sec-cap-87) — logo, ensino de gramática não é a variável.
+
+**e)** "Corrupção" pressupõe que a mudança degrada. Não degrada: é o **modo de existir** das
+línguas (@sec-cap-92). Pela mesma lógica, o português seria corrupção do latim, e o latim do
+indo-europeu. **O argumento prova demais.**
+
+**O padrão** (@sec-cap-85): (a), (d) e (e) são versões do **senso comum prescritivista** — culpam
+o falante. (c) é o erro oposto — o exagero na direção "correta", que também falha por ignorar
+evidência. A resposta certa é a **descritiva e multicausal**: reconhece os dois fatores e não
+culpa ninguém.
+:::
+
+**10.** Por que a norma-padrão brasileira é tão distante do PB falado?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A causa histórica**: a norma-padrão brasileira calcou-se, no século XIX, em parte na
+**literatura portuguesa** da época [@faraco2008] — **não** na fala culta brasileira contemporânea,
+e muito menos no PB popular.
+
+**A consequência**: a norma brasileira prescreve uma língua que **quase ninguém fala aqui**. Ela
+manda escrever "vi-o" numa comunidade em que **todos** dizem "vi ele" — inclusive os professores
+que a ensinam e os gramáticos que a codificam.
+
+**Por que a distância é maior que em Portugal:**
+
+Em Portugal, a norma está **mais próxima** da fala culta real — ela se construiu a partir dela.
+Aqui, houve **dois afastamentos simultâneos**:
+
+1. **A fala mudou** — por deriva, por contato, pelos dois: perdeu clíticos, preencheu o sujeito,
+   reduziu o paradigma, variou a concordância;
+2. **A norma não acompanhou** — porque **olhava para o outro lado do Atlântico**. Enquanto o PB se
+   formava aqui, a norma se ancorava em Portugal.
+
+Resultado: uma distância **enorme** entre norma e fala (@sec-cap-90) — comparável, como o
+@sec-cap-89 mostrou, à distância entre PB e PE.
+
+**Duas conclusões erradas e simétricas:**
+
+- **"Logo, a norma é inútil e deve ser abandonada."** Não. Ela tem **valor social real**, e o aluno
+  precisa dela **agora** (@sec-cap-91). Abandoná-la prejudica sobretudo quem **não a tem em casa**
+  — o aluno pobre;
+- **"Logo, os brasileiros falam mal."** Não. A distância **não mede a qualidade da fala** — mede o
+  **descolamento da norma**. Se a norma descreve uma língua que ninguém fala, a hipótese de que o
+  problema esteja **nela** merece pelo menos consideração.
+
+**A conclusão correta**: a norma brasileira é **historicamente descolada** do PB. Isso é um fato
+sobre a **norma**, não sobre os falantes.
+
+**E reconhecê-lo permite duas coisas ao mesmo tempo:**
+
+1. **Ensiná-la** com competência — porque ela vale socialmente **agora**, independentemente de sua
+   genealogia;
+2. **Revisá-la** onde a distância for indefensável. É o que as gramáticas descritivas brasileiras
+   vêm fazendo [@castilho2010; @perini2010]: propor uma norma que descreva o **português culto
+   brasileiro real** — o que os brasileiros escolarizados de fato escrevem e falam — e não um
+   português de importação, congelado no século XIX.
+
+**A síntese**: o PB tem gramática, história e causa. Quem o fala **não erra** — fala uma língua que
+foi feita aqui, por índios, africanos e portugueses, e que ainda espera uma norma à sua altura.
+:::
+
+**11.** Analise: "As línguas africanas não influenciaram o português brasileiro; deixaram só
+algumas palavras exóticas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação erra duas vezes** — na descrição do léxico e na questão da gramática.
+
+**Erro 1 — "algumas palavras exóticas".**
+
+O léxico africano do PB **não é exótico nem marginal**. É o **centro afetivo** da língua:
+
+| Campo | Palavras |
+|---|---|
+| **Afeto e corpo** | *cafuné*, *dengo*, *bunda*, *cochilar*, *xingar* |
+| **Família** | *caçula*, *moleque* |
+| **Casa e comida** | *quitanda*, *fubá*, *quiabo*, *dendê*, *jiló* |
+| **Cotidiano** | *bagunça*, *muvuca*, *cutucar* |
+| **Música e religião** | *samba*, *berimbau*, *cuíca*, *macumba*, *orixá*, *axé* |
+
+**Estas não são palavras exóticas** — são palavras que o brasileiro usa **todos os dias, sem
+perceber que são africanas**. "Exótico" descreveria um item raro, culto, sentido como estrangeiro.
+*Caçula* e *cochilar* são o oposto: invisíveis de tão comuns.
+
+**O teste decisivo**: ***cafuné* não tem sinônimo em português.** *Dengo* não tem. **Não há como
+fazer carinho em português sem uma palavra africana.** Uma língua não guarda no seu núcleo
+afetivo palavras "exóticas" — guarda as palavras que aprendeu no colo.
+
+**E a explicação de por que é assim**: as **mulheres africanas escravizadas criavam as crianças da
+casa-grande**. Faziam o cafuné, ninavam, cozinhavam, xingavam. O léxico africano do PB é o léxico
+da **primeira infância** de gerações de brasileiros de todas as cores.
+
+**Erro 2 — "não influenciaram" (a gramática).**
+
+Aqui a afirmação **antecipa um veredito** numa questão que está **em aberto**:
+
+- A **hipótese do contato** [@lucchesi2009] sustenta que a transmissão irregular em massa —
+  provocada pela chegada de ~**4,8 milhões** de africanos, em condições péssimas de aquisição —
+  moldou o PB popular: a perda da morfologia redundante, a concordância variável, a perda dos
+  clíticos;
+- A **hipótese da deriva** sustenta que os traços vêm da evolução interna do português.
+
+**Nenhuma das duas está estabelecida**, e a síntese defensável é que o **contato acelerou a
+deriva**: a deriva explica a **direção**; não explica a **velocidade** nem o **grau** — e o PB
+popular vai **muito além** do português popular europeu.
+
+Ou seja: afirmar que as línguas africanas **não influenciaram** a gramática é tomar partido, com
+certeza que a evidência não autoriza, no lado que a evidência **menos** favorece.
+
+**A ressalva que a resposta honesta faz** (@sec-cap-94):
+
+Defender a **deriva** não é racismo — é uma tese técnica com evidência real, e a pergunta técnica é
+legítima. O problema da afirmação em análise **não** é defender a deriva; é:
+
+1. **Descrever mal o léxico** — chamar de exótico o que é central e cotidiano;
+2. **Afirmar certeza** onde há debate aberto;
+3. **Concluir daí a irrelevância** — o que não se segue nem sequer da hipótese da deriva. Mesmo
+   que a deriva explicasse **toda** a gramática, os africanos teriam feito a língua brasileira: eles
+   a **falaram**, a transmitiram e a povoaram de palavras que hoje dizem o que nenhuma outra diz.
+:::
+
+**12.** Como a formação do PB ilumina o preconceito linguístico?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A conexão é direta**: os traços do PB popular que mais sofrem estigma são **exatamente** os que
+este capítulo explicou historicamente.
+
+**Os traços e suas causas:**
+
+| Traço estigmatizado | O que de fato é |
+|---|---|
+| "os menino" | perda da morfologia **redundante** — a informação está no artigo |
+| "nós foi" | idem — a informação está no pronome |
+| "vi ele" | perda dos clíticos **átonos**, substituídos por formas tônicas mais claras |
+
+**Todos** resultam de um **processo histórico identificável**: deriva do português + transmissão
+linguística irregular em situação de contato maciço. Não são falhas: são o **resultado previsível**
+de uma história.
+
+**O que a explicação histórica desmonta — três coisas:**
+
+**1. A tese da preguiça/desleixo.** Não há preguiça: há um **processo** com lógica própria, que
+elimina redundância e preserva informação. E o processo tem **nome**, **causa** e **literatura
+científica**. Nenhuma explicação por caráter sobrevive ao fato de que o mesmo processo produziu o
+**inglês** — que ninguém acusa de preguiçoso.
+
+**2. A tese da ignorância.** O falante que diz "os menino" não desconhece a regra do plural — ele
+**aplica** uma regra diferente, com condicionamentos precisos (posição, saliência fônica,
+formalidade), que só a pesquisa quantitativa conseguiu descrever. É gramática mais complexa que a
+da norma, não mais simples.
+
+**3. A tese da corrupção.** Não há corrupção: há mudança, que é o modo de existir das línguas
+(@sec-cap-92). O português é latim mudado; o PB é português clássico mudado. Se mudança fosse
+corrupção, tudo seria corrupção.
+
+**A ironia central, que é o coração da resposta:**
+
+Os traços mais estigmatizados do PB são, em boa medida, o **legado linguístico** de indígenas e
+africanos — as pessoas que **construíram o país** e cujos descendentes são, hoje, os mais
+penalizados por falarem como falam.
+
+Ou seja: **o preconceito linguístico brasileiro recai sobre as marcas deixadas por quem foi
+escravizado** — e recai justamente sobre seus descendentes. A vítima histórica é punida duas
+vezes: primeiro pela escravidão, depois pela língua que a escravidão produziu.
+
+**E o mecanismo do @sec-cap-91 fica visível em estado puro:**
+
+- **Passo 1**: os traços correlacionam-se com grupos — **verdade**, e o capítulo explicou **por
+  quê**: a correlação é o rastro da história;
+- **Passo 3**: o **salto ilegítimo** — inferir inteligência e caráter;
+- **Passo 4**: a **naturalização** — "ele fala errado".
+
+O que o capítulo acrescenta: o passo 1 **não é misterioso**. A correlação existe porque a
+**história** a produziu. Quem diz "os menino" carrega, na boca, quatro séculos de transmissão
+irregular — e é punido por isso como se fosse falha pessoal.
+
+**A conclusão** (@sec-cap-91): saber a história **não** dispensa de ensinar a norma — o custo social
+é real e o aluno precisa da ferramenta **agora**. Mas torna **impossível** ensiná-la como quem
+corrige um defeito.
+
+**A diferença prática**, que é tudo:
+
+- "Você fala errado, corrija-se" → falso, humilhante, e ineficaz;
+- "Sua fala tem quatro séculos de história e uma gramática que a ciência levou décadas para
+  descrever. **E** existe uma norma, feita no séc. XIX com os olhos em Portugal, que vale muito
+  socialmente. Vamos aprendê-la também." → **verdadeiro**, e ensina melhor.
+:::
+
+## 📚 Referências
+
+A hipótese do contato e o conceito de transmissão linguística irregular seguem Lucchesi, Baxter e
+Ribeiro [@lucchesi2009]; a sócio-história do período colonial e a discussão equilibrada das
+hipóteses, Mattos e Silva [@mattosesilva2004]. Para a cronologia e o quadro europeu, ver Teyssier
+[@teyssier2007]; para a descrição do PB atual, Castilho [@castilho2010] e Perini [@perini2010]. A
+posição sobre a norma brasileira e sua construção é de Faraco [@faraco2008]; sobre o preconceito
+que recai sobre os traços aqui explicados, Bagno [@bagno2007]. O léxico apoia-se em Houaiss
+[@houaiss2009]; a análise estrutural herdada, em Câmara Jr. [@camarajr1975].
+
+O próximo capítulo amplia o mapa: a @sec-cap-95 trata da **lusofonia** — o português na África, na
+Ásia e no mundo, os crioulos de base portuguesa e a pergunta sobre o futuro de uma língua com
+oito países e dois centros de norma.
+
+::: {#refs}
 :::
