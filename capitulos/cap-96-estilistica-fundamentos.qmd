@@ -4,22 +4,1085 @@ title: "Estilística: fundamentos"
 
 # Estilística: fundamentos {#sec-cap-96}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 15 — História da Língua e Estilística.
+> "O estilo é a escolha — e escolher é dizer duas coisas: o que se disse e o que não se disse."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Os três volumes anteriores trataram do que a língua **é**: seu sistema, sua variação, sua
+história. Este capítulo abre a última seção do manual e muda a pergunta: **como a língua
+significa mais do que diz?**
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Comece por uma constatação. Estas duas frases têm o mesmo conteúdo:
+
+> O homem morreu.
+>
+> O velho partiu desta para melhor.
+
+Mesma informação: um ser humano do sexo masculino deixou de viver. E, no entanto, **não dizem a
+mesma coisa**. A segunda diz também: quem fala tem apreço, ou finge ter; a morte é assunto
+delicado; há um decoro em jogo. Nada disso está no conteúdo — está na **escolha**.
+
+A estilística é o estudo disso. E vale dizer logo o que ela **não** é: não é o estudo das figuras
+de linguagem, que os capítulos @sec-cap-65 e @sec-cap-66 já cobriram. As figuras são **material**
+da estilística, não o seu objeto. O objeto é a **expressividade** — e as figuras são apenas um dos
+lugares onde ela mora.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** estilística e distinguir a da língua da estilística literária;
+- **Explicar** o estilo como escolha entre alternativas e por que a escolha significa;
+- **Analisar** a expressividade nos níveis fônico, léxico, sintático e semântico;
+- **Aplicar** as noções de desvio, estranhamento e função poética;
+- **Criticar** a noção de "grau zero" da linguagem;
+- **Distinguir** estilo autoral, estilo de época e estilo de gênero.
+
+## O que é estilística
+
+**Definição**: o estudo da **expressividade** — de como as escolhas linguísticas produzem efeitos
+que ultrapassam o conteúdo informativo.
+
+A disciplina nasce no início do século XX e, desde o início, se divide em duas.
+
+::: {.callout-important}
+## As duas estilísticas
+| | **Estilística da LÍNGUA** | **Estilística LITERÁRIA** |
+|---|---|---|
+| **Fundador** | **Charles Bally** (discípulo de Saussure) | **Leo Spitzer** |
+| **Objeto** | os recursos expressivos **do sistema** | o estilo **individual** de um autor |
+| **Pergunta** | que recursos o português oferece a **qualquer** falante? | o que faz Rosa ser Rosa? |
+| **Método** | inventário e descrição | interpretação, o "círculo filológico" |
+| **Escopo** | a língua comum, cotidiana | a obra literária |
+
+**Bally** — a estilística da língua: ele estuda a **afetividade** inscrita no próprio sistema. Não
+se interessa por escritores: interessa-se pelo fato de que o português **oferece** a todos os
+falantes um diminutivo afetivo (*cafezinho*), uma ordem marcada ("**Lindo**, esse dia!"), um
+aumentativo pejorativo (*mulherão*, *narigão*). Esses recursos estão **na língua**, disponíveis, e
+qualquer falante os usa sem ser artista.
+
+**Spitzer** — a estilística literária: ele parte de um **detalhe** formal que o incomoda no texto,
+formula uma hipótese sobre o que ele revela do autor, e volta ao texto para testá-la. É o
+**círculo filológico**: do detalhe ao todo, do todo ao detalhe.
+
+**Por que a distinção importa** — e é o ponto que os manuais escolares perdem:
+
+A estilística **não é** um apêndice da literatura. **Todo** falante é estilista o dia inteiro:
+quem escolhe entre "morreu", "faleceu", "partiu", "bateu as botas" e "foi dessa pra melhor está
+fazendo estilística — está escolhendo um **efeito**, não uma informação.
+
+A literatura apenas faz isso **de propósito**, com mais consciência e mais insistência. A
+diferença é de **grau**, não de natureza. É a mesma relação que o @sec-cap-88 estabeleceu entre
+registro e competência: variar é o normal; fazê-lo bem é que é difícil.
+:::
+
+## O estilo é escolha
+
+Aqui está o princípio fundador, e ele tem uma consequência forte.
+
+**Se não houvesse alternativa, não haveria estilo.** O estilo existe porque a língua oferece
+**mais de um jeito** de dizer — e escolher um é, inevitavelmente, **não escolher** os outros.
+
+E é aqui que se articula com o @sec-cap-62: **não existe sinônimo perfeito**. Se existisse, a
+escolha entre dois sinônimos não significaria nada — e ela significa sempre.
+
+| Escolha | O que a escolha diz sobre quem escolhe |
+|---|---|
+| *morreu* | neutro, factual |
+| *faleceu* | formal, respeitoso, distante |
+| *partiu* | eufemístico, delicado |
+| *bateu as botas* | informal, irreverente, íntimo |
+| *foi dessa para melhor* | religioso, consolador |
+| *virou presunto* | brutal, jocoso — ou cínico |
+
+Note o essencial: **o fato é o mesmo**. O que varia é o **retrato de quem fala** e a **relação com
+o interlocutor** e com o morto.
+
+### Os dois eixos
+
+::: {#fig-eixos}
+
+```{.tikz}
+%%| filename: eixos
+%%| alt: Esquema dos dois eixos da linguagem segundo Jakobson. O eixo vertical é o paradigmático, ou eixo da seleção, e representa as alternativas disponíveis para uma mesma posição da frase: para o verbo, morreu, faleceu, partiu, bateu as botas; a relação entre elas é de escolha, e são alternativas que não estão no texto, mas estão na cabeça do falante. O eixo horizontal é o sintagmático, ou eixo da combinação, e representa a sequência efetivamente realizada: o velho faleceu ontem; a relação entre os elementos é de combinação, e é o que aparece no texto. Uma caixa central explica que escolher um item no eixo vertical significa não escolher os outros, e que o não dito continua significando por contraste. Outra caixa registra a função poética de Jakobson: ela consiste em projetar o eixo da seleção sobre o eixo da combinação, isto é, em fazer que as relações de equivalência, como rima, metro e paralelismo, passem a organizar a sequência. Uma nota final observa que o estilo existe porque há escolha, e que se não houvesse alternativa não haveria estilo.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  alt/.style={rounded corners=2pt, draw=manualblue, fill=manualblue!10, align=center, inner sep=3pt, font=\scriptsize, text width=26mm},
+  sin/.style={rounded corners=2pt, draw=manualred, fill=manualred!12, align=center, inner sep=3pt, font=\scriptsize, text width=20mm},
+]
+  % eixo sintagmático (horizontal)
+  \draw[-{Stealth[length=5pt]}, line width=1.4pt, draw=manualred] (-3.4,0) -- (5.4,0);
+  \node[font=\scriptsize\bfseries, text=manualred, anchor=west] at (5.5,0)
+    {\begin{tabular}{@{}l@{}}EIXO \textbf{SINTAGMÁTICO}\\{\scriptsize a \textbf{combinação}}\end{tabular}};
+
+  \node[sin] at (-2.4,0) {O velho};
+  \node[sin, draw=manualgreen, fill=manualgreen!14, line width=1pt] (v) at (0.2,0) {\textbf{faleceu}};
+  \node[sin] at (2.7,0) {ontem};
+
+  % eixo paradigmático (vertical)
+  \draw[-{Stealth[length=5pt]}, line width=1.4pt, draw=manualblue] (0.2,-0.6) -- (0.2,4.0);
+  \node[font=\scriptsize\bfseries, text=manualblue, anchor=south] at (0.2,4.05)
+    {EIXO \textbf{PARADIGMÁTICO} --- a \textbf{seleção}};
+
+  \node[alt] at (-2.6,1.1) {morreu};
+  \node[alt] at (-2.6,2.0) {partiu};
+  \node[alt] at (-2.6,2.9) {bateu as botas};
+  \foreach \y in {1.1,2.0,2.9}{\draw[densely dotted, draw=manualblue] (-1.3,\y) -- (0.05,\y);}
+
+  \node[rounded corners=2pt, draw=manualblue, fill=manualblue!6, align=left,
+        font=\scriptsize, inner sep=4pt, text width=44mm] at (3.4,2.3)
+    {As alternativas \textbf{não estão no texto} ---\\
+     estão na \textbf{cabeça} do falante.\\[2pt]
+     Escolher uma é \textbf{não escolher} as outras\\
+     --- e o \textbf{não dito} continua significando,\\por contraste.};
+
+  \node[rounded corners=2pt, draw=manualyellow, fill=manualyellow!16, align=center,
+        font=\scriptsize, inner sep=4pt, text width=94mm] at (0.8,-1.7)
+    {\textbf{FUNÇÃO POÉTICA} (Jakobson): projetar o eixo da \textbf{SELEÇÃO} sobre o da
+     \textbf{COMBINAÇÃO}.\\
+     {\scriptsize A equivalência (rima, metro, paralelismo) passa a \textbf{organizar a
+     sequência}.}};
+
+  \node[rounded corners=2pt, draw=manualgray, fill=manualgray!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=94mm] at (0.8,-2.9)
+    {O \textbf{estilo} existe porque há \textbf{escolha}.
+     Se não houvesse alternativa, não haveria estilo.};
+\end{tikzpicture}
+```
+
+Os dois eixos da linguagem. O estilo nasce no cruzamento: cada posição da cadeia é uma escolha
+entre alternativas ausentes, mas presentes por contraste.
+
+:::
+
+A distinção é de Saussure, e organiza tudo:
+
+- **Eixo paradigmático** (da **seleção**) — as **alternativas** para uma mesma posição: *morreu* /
+  *faleceu* / *partiu* / *bateu as botas*. Relação de **escolha**. As alternativas **não estão no
+  texto** — estão na competência do falante;
+- **Eixo sintagmático** (da **combinação**) — a **sequência realizada**: "O velho faleceu ontem".
+  Relação de **combinação**. É o que aparece.
+
+**A consequência estilística**, e é o que faz a disciplina existir: **o que não foi dito continua
+significando**. Ao escolher *faleceu*, o falante **rejeitou** *bateu as botas* — e essa rejeição é
+parte do sentido. O leitor percebe o decoro justamente **por contraste** com o que caberia ali e
+não foi usado.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## A função poética de Jakobson
+O @sec-cap-05 apresentou as seis funções da linguagem. Vale retomar a **poética** aqui, porque é
+a definição mais precisa que existe do fenômeno literário.
+
+**A formulação**: a função poética consiste em **projetar o eixo da seleção sobre o eixo da
+combinação**.
+
+**O que isso quer dizer, em português**: normalmente, os elementos de uma frase se relacionam por
+**combinação** (sintaxe) — cada um faz seu trabalho e segue adiante. Na função poética, eles
+passam a se relacionar também por **equivalência** — como se fossem alternativas paradigmáticas,
+mas **lado a lado** na cadeia.
+
+**As manifestações concretas**:
+
+- **rima** — equivalência **sonora** entre palavras em posições diferentes;
+- **metro** — equivalência **rítmica** entre versos;
+- **paralelismo** — equivalência **sintática** entre estruturas;
+- **aliteração** — equivalência **fônica** ao longo da cadeia.
+
+**Em todos, o mesmo mecanismo**: elementos que deveriam apenas **se combinar** passam a **se
+espelhar**.
+
+**O exemplo clássico**: *I like Ike* (slogan de Eisenhower). Os três monossílabos se **espelham**
+foneticamente — o /aɪ/ percorre os três, e *Ike* está contido em *like*. A frase diz apenas "gosto
+de Ike", mas a forma **encena** a adesão: o sujeito, o verbo e o objeto são feitos do mesmo som,
+como se gostar de Ike fosse a coisa mais natural do mundo. É por isso que gruda.
+
+**Em português**: "Em Brasília, brasileiro brasilia" — o paralelismo e a repetição do radical
+fazem a frase significar pela **forma**, não pelo conteúdo.
+
+**A precisão da definição**: ela **não** diz que poesia é bonita, emocionante ou profunda — juízos
+que não se verificam. Diz o que a poesia **faz** com a língua, e isso é **descritível e
+verificável**: procure equivalências onde deveria haver só combinação.
+
+**A ressalva de Jakobson, que quase sempre se esquece**: a função poética **não é exclusiva da
+poesia**. Ela está na **publicidade** ("Tomou Doril, a dor sumiu"), nos **slogans**, nos
+**provérbios** ("Quem casa quer casa"), nos **trocadilhos**, no nome das coisas. E, inversamente,
+um poema tem **todas** as outras funções. O que define a poesia é a função poética ser
+**dominante** — não ser a única.
+:::
+
+## Os níveis da expressividade
+
+A expressividade opera em **todos** os níveis da língua — os mesmos que o manual percorreu.
+
+### Nível fônico
+
+Os sons **significam**, e não só por convenção.
+
+- **Aliteração** — repetição de consoantes: "**V**ozes **v**eladas, **v**eludosas **v**ozes"
+  (Cruz e Sousa). O /v/ repetido **é** o veludo: a fricativa contínua e sonora encena a
+  suavidade;
+- **Assonância** — repetição de vogais;
+- **Onomatopeia** e **harmonia imitativa** — a cadeia sonora imita o referente: "O sino da
+  **m**inha aldeia" com suas nasais, ou o clássico "Tibi tantum tremulis..." de Vieira;
+- **Ritmo** — tema do @sec-cap-97.
+
+::: {.callout-important}
+## Cuidado com o simbolismo sonoro
+Aqui mora a maior armadilha da estilística escolar, e ela merece nome.
+
+**A afirmação corrente**: "o /i/ sugere agudeza e pequenez; o /u/ sugere escuridão e melancolia;
+o /r/ sugere aspereza".
+
+**O problema — e é fatal**: nada disso vale **fora do contexto**. Prova simples: */u/* está em
+*luto* e em *lúdico*; em *escuro* e em *puro*. */i/* está em *fino* e em *grito*, em *rir* e em
+*ira*.
+
+Se o som **em si** carregasse o sentido, essas palavras não poderiam significar coisas opostas. E
+outra prova: as palavras variam entre línguas. *Small* tem /ɔ/; *petit* tem /i/; ambas significam
+pequeno.
+
+**O que de fato acontece** — e a explicação é mais interessante que o mito:
+
+O som **não** carrega sentido sozinho. Ele **reforça** um sentido que o **léxico** já estabeleceu.
+Em "vozes veludosas", a suavidade está em **veludo** — a palavra. A repetição do /v/ **amplifica**
+o que a palavra já disse; ela não o cria.
+
+**O teste que resolve**: troque o léxico e mantenha o som. "**V**ozes **v**iolentas,
+**v**enenosas **v**ozes" tem a **mesma** aliteração em /v/ — e agora ela encena **violência**, não
+veludo. **O mesmo som, o efeito oposto.** Logo, o efeito não estava no som.
+
+**A formulação correta**: o simbolismo sonoro é **motivado pelo contexto**, não pelo som. A
+aliteração **destaca** e **coesiona** — ela chama atenção para um conjunto de palavras e as
+liga —, mas o **conteúdo** do efeito vem delas.
+
+**Por que isso importa para a prova**: a questão que pergunta "que efeito produz a aliteração em
+/v/?" espera que você diga o que o **poema** diz — não o que uma tabela de simbolismo sonoro
+manda. Quem decora "v = suavidade" erra assim que o poema falar de violência. **Leia o texto,
+não a tabela.**
+:::
+
+### Nível léxico
+
+- **Escolha do item** — o eixo paradigmático em ação: *morrer* × *falecer* × *bater as botas*;
+- **Conotação** (@sec-cap-61) — a carga afetiva que acompanha o item;
+- **Diminutivos e aumentativos** — o exemplo predileto de Bally, porque mostra a expressividade
+  **no sistema**:
+
+| Forma | Valor |
+|---|---|
+| *cafezinho* | **não** é um café pequeno — é afetivo, social, um convite |
+| *jeitinho* | não é um jeito pequeno — é uma **instituição nacional** |
+| *coitadinho* | pode ser **compaixão** ou **deboche** — só o contexto decide |
+| *mulherão* | não é uma mulher grande — é elogio (e objetificação) |
+| *livrinho* | pode ser afetivo ("meu livrinho") ou **desdém** ("aquele livrinho aí") |
+
+Note o que a tabela demonstra: o diminutivo português **raramente** indica tamanho. Ele indica
+**afeto**, **desdém**, **cortesia**, **atenuação** ("só um minutinho", "um probleminha"). O
+sistema **oferece** essa carga a todo falante — e é disso que Bally falava.
+
+### Nível sintático
+
+O que a sintaxe faz **além** de organizar:
+
+- **A ordem** — o português tem ordem relativamente livre, e **cada** ordem significa:
+  - "João chegou" — neutro;
+  - "Chegou João" — apresentativo, o sujeito é a novidade;
+  - "**João**, chegou?" — outra coisa;
+- **A inversão** e o **hipérbato** — o clássico "Cessem do sábio grego e do troiano / as
+  navegações grandes que fizeram" (Camões). A ordem marcada **retarda** a informação e cria
+  tensão;
+- **O comprimento do período** — períodos curtos aceleram e cortam; longos e subordinados
+  envolvem e demoram. **A sintaxe tem andamento**;
+- **A parataxe × hipotaxe** — coordenar é justapor sem hierarquizar; subordinar é hierarquizar. A
+  escolha **é** uma decisão sobre o pensamento (@sec-cap-43, @sec-cap-46);
+- **As repetições e paralelismos** (@sec-cap-66).
+
+### Nível semântico
+
+As **figuras** (@sec-cap-65, @sec-cap-66) — metáfora, metonímia, ironia, hipérbole. Aqui apenas se
+registra que elas são **material** da estilística, não seu objeto.
+
+## Desvio, estranhamento e o "grau zero"
+
+::: {.callout-important}
+## A crítica à noção de "grau zero"
+**A tese tradicional**: existe um **grau zero** da linguagem — neutro, transparente, sem estilo. O
+estilo seria o **desvio** em relação a esse grau zero.
+
+O modelo é sedutor e ainda governa o ensino. Mas **não funciona**.
+
+**Três problemas:**
+
+**1. O grau zero não existe.** Qual seria a formulação neutra? "O homem morreu"? Ela **também** é
+uma escolha: escolheu *homem* e não *sujeito*, *indivíduo*, *cara*, *velho*; escolheu *morreu* e
+não *faleceu*; escolheu essa ordem e não outra.
+
+**Toda formulação é escolhida.** Não há um degrau zero de onde se parta — há um **campo de
+alternativas**, e estar em qualquer ponto dele já é ter escolhido.
+
+**2. O "neutro" é o registro de alguém.** É o argumento do @sec-cap-87 e do @sec-cap-95, aplicado
+aqui: o que se chama de grau zero é, concretamente, o **registro formal escrito da norma culta**.
+Isso não é neutro — é o registro de **um grupo**, numa **situação**. Chamá-lo de zero é o mesmo
+gesto de "sotaque neutro": tomar a própria régua por ausência de régua.
+
+**3. Ele hierarquiza o que devia descrever.** Se o neutro é o zero, então o que dele se afasta é
+"desvio", "afetação", "excesso". Mas escrever "faleceu" não é desviar de nada — é escolher, como
+escolhe quem escreve "morreu".
+
+**A alternativa — em vez de zero e desvio, EXPECTATIVA e QUEBRA:**
+
+Não há grau zero, mas há **expectativa**: cada gênero, cada situação, cada contexto cria uma
+**previsão** sobre o que virá (@sec-cap-72, @sec-cap-88). E a expressividade nasce da **relação**
+com essa expectativa — confirmando-a ou quebrando-a.
+
+**Por que o modelo é melhor:**
+
+- é **relativo ao contexto**, não absoluto: "bateu as botas" é **quebra** num obituário e
+  **expectativa cumprida** numa conversa de bar. O mesmo item, dois valores;
+- **descreve** em vez de julgar: não há forma desviante — há forma **esperada** e **inesperada**
+  **naquele lugar**;
+- **explica o inverso**, que o modelo do grau zero não explica: a formalidade **excessiva** também
+  quebra a expectativa. "Vossa Senhoria comparecerá ao churrasco?" é tão marcado quanto um
+  palavrão na tese. **Não há um lado "neutro" para onde fugir.**
+
+**O estranhamento** (*ostranenie*) — o conceito dos **formalistas russos**: a arte existe para
+**desautomatizar** a percepção. Vemos o mundo por hábito, sem enxergar; a arte **quebra o hábito**
+e nos obriga a ver de novo.
+
+**A ligação com o capítulo**: a quebra de expectativa **é** o estranhamento. Quando Rosa escreve
+"o diabo na rua, no meio do redemoinho", ele nos obriga a ler devagar — e é lendo devagar que se
+vê. A dificuldade **não é defeito**: é o método.
+:::
+
+## Estilo de quem, estilo de quando
+
+Três coisas diferentes recebem o nome de "estilo", e confundi-las produz análises ruins:
+
+| | O que é | Exemplo |
+|---|---|---|
+| **Estilo autoral** | as escolhas **recorrentes** de um autor — sua marca | a sintaxe de Rosa; a frase curta de Graciliano |
+| **Estilo de época** | o que uma **geração** compartilha | o hipérbato barroco; a sonoridade simbolista |
+| **Estilo de gênero** | o que o **gênero** exige | a impessoalidade do artigo científico; a fórmula do ofício |
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A estilística obriga a uma revisão do que o manual vem dizendo sobre correção — e não na direção
+que se poderia esperar.
+
+**A pergunta**: se Guimarães Rosa viola a norma o tempo todo, ele escreve errado?
+
+**A resposta óbvia é "não, ele é artista"** — e ela é insuficiente, porque não explica **nada**.
+Vira licença: qualquer coisa se justifica dizendo "é literário".
+
+**A resposta boa exige três distinções:**
+
+**1. Violar por ignorância × violar por escolha.** Rosa **sabia** a norma — sabia-a
+excepcionalmente bem, e é por isso que podia operá-la. Quem **não** conhece a regra não a viola:
+**erra**, e o resultado não significa nada além do desconhecimento. **A transgressão só significa
+se o transgressor domina o que transgride** — e se o leitor também.
+
+**2. A violação precisa produzir efeito.** "Nonada. O diabo não há!" viola e **funciona**: cria
+uma voz, instala um mundo, faz o leitor ouvir alguém. Uma violação que não produz efeito nenhum é
+só ruído — e há muita má literatura provando isso.
+
+**3. O gênero autoriza.** É a chave: a **expectativa** (adiante) do gênero literário **inclui** a
+transgressão. Um romance **pode** inventar palavras — o leitor vai lá para isso. Um ofício, não —
+o leitor vai lá para outra coisa. **Não é que o artista tenha licença especial**: é que o gênero
+em que ele trabalha **prevê** a invenção como parte do contrato (@sec-cap-72).
+
+**A consequência para o aluno — e é aqui que o argumento pode ser mal usado:**
+
+"Se Rosa pôde, eu posso" é **falso**, e o motivo não é hierarquia — é **gênero e domínio**:
+
+- **na redação do ENEM**, o gênero é **dissertativo-argumentativo**, e ele **não** prevê invenção
+  lexical. Não é que o aluno não tenha talento — é que **o gênero não é esse**. Rosa reprovaria no
+  ENEM, e isso não diz nada contra Rosa nem a favor do ENEM: diz que são **coisas diferentes**;
+- **e o domínio vem primeiro**. Só se transgride com efeito o que se conhece. O caminho não é
+  imitar a liberdade de Rosa — é conquistar o domínio que a tornou possível.
+
+**A síntese**: a estilística **não** dissolve a norma; ela mostra que a norma é **um dos termos da
+relação**. Sem norma não há transgressão — há só ruído. **Rosa precisa da gramática que viola**,
+e é dela que extrai o efeito. Quem quiser escrever como Rosa comece onde ele começou: sabendo
+[@martins2008; @faraco2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Estilística** = estudo da **expressividade**: como as escolhas produzem efeitos **além do
+conteúdo**. As figuras (@sec-cap-65, @sec-cap-66) são **material** dela, não seu objeto.
+
+**As duas estilísticas:**
+
+| | **Da LÍNGUA** (Bally) | **LITERÁRIA** (Spitzer) |
+|---|---|---|
+| Objeto | recursos expressivos **do sistema** | estilo **individual** do autor |
+| Pergunta | que recursos o português dá a **todos**? | o que faz Rosa ser Rosa? |
+| Método | inventário | interpretação (**círculo filológico**) |
+
+**Todo falante é estilista.** Escolher entre "morreu/faleceu/bateu as botas" **é** estilística. A
+literatura faz isso **de propósito** — diferença de **grau**, não de natureza.
+
+**O ESTILO É ESCOLHA.** Se não houvesse alternativa, não haveria estilo. Articula-se com o
+@sec-cap-62: **não existe sinônimo perfeito**.
+
+**Os dois eixos** (Saussure): **paradigmático** = a **seleção** (as alternativas, que **não estão
+no texto**) · **sintagmático** = a **combinação** (a sequência realizada). **O não dito continua
+significando, por contraste.**
+
+**Função poética** (Jakobson): **projetar o eixo da SELEÇÃO sobre o da COMBINAÇÃO** — a
+equivalência (rima, metro, paralelismo, aliteração) passa a organizar a sequência. *I like Ike*.
+**Não é exclusiva da poesia** (publicidade, provérbios, slogans); num poema ela é **dominante**,
+não única.
+
+**Os níveis:**
+
+| Nível | Recursos |
+|---|---|
+| **Fônico** | aliteração, assonância, onomatopeia, harmonia imitativa, ritmo |
+| **Léxico** | escolha do item, conotação, **diminutivos/aumentativos** |
+| **Sintático** | ordem, inversão/hipérbato, comprimento do período, parataxe × hipotaxe |
+| **Semântico** | as figuras |
+
+**Cuidado com o simbolismo sonoro**: */u/* está em *luto* **e** em *lúdico*; */i/* em *fino* **e**
+em *ira*. O som **não** carrega sentido — **reforça** o que o **léxico** já estabeleceu. **O
+teste**: "vozes **violentas**, **venenosas** vozes" tem a **mesma** aliteração em /v/ e o efeito
+**oposto**. **Leia o texto, não a tabela.**
+
+**O diminutivo português raramente indica tamanho**: *cafezinho* (afeto), *jeitinho* (instituição),
+*coitadinho* (compaixão **ou** deboche), *mulherão* (elogio), "um minutinho" (atenuação).
+
+**CRÍTICA AO "GRAU ZERO"** — três problemas: (1) **não existe** — "o homem morreu" também é
+escolha; (2) o "neutro" é o **registro de alguém** (a norma culta escrita) — mesmo gesto do
+"sotaque neutro" (@sec-cap-87); (3) **hierarquiza** em vez de descrever.
+
+**A alternativa: EXPECTATIVA e QUEBRA.** Melhor porque é **relativa ao contexto** ("bateu as
+botas" é quebra no obituário e expectativa no bar), **descreve** em vez de julgar, e explica o
+inverso: **a formalidade excessiva também quebra** ("Vossa Senhoria comparecerá ao churrasco?").
+**Não há lado neutro para onde fugir.**
+
+**Estranhamento** (*ostranenie*, formalistas russos): a arte **desautomatiza** a percepção. A
+dificuldade **não é defeito** — é o método.
+
+**Três estilos**: **autoral** (marca do autor) · **de época** (a geração) · **de gênero** (o que o
+gênero exige).
+
+**Rosa escreve errado?** Três distinções: (1) violar por **escolha** ≠ por **ignorância** — a
+transgressão só significa se o transgressor **domina** o que transgride; (2) a violação precisa
+**produzir efeito**; (3) o **gênero autoriza** — o romance prevê a invenção; o ofício, não. **"Se
+Rosa pôde, eu posso" é falso**: o gênero da redação não é esse, e **o domínio vem primeiro**.
+**Rosa precisa da gramática que viola.**
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que estilística é o estudo das figuras.** As figuras são **material**; o objeto é a
+  **expressividade**.
+- **Achar que estilística é só para literatura.** **Todo** falante é estilista — a diferença é de
+  **grau**.
+- **Decorar tabelas de simbolismo sonoro.** */u/* está em *luto* **e** *lúdico*. O som **reforça**;
+  não **cria**.
+- **Achar que a aliteração em /v/ significa suavidade.** Significa o que o **léxico** disser:
+  "vozes violentas, venenosas" tem o efeito oposto.
+- **Achar que existe grau zero.** Toda formulação é **escolhida**. O "neutro" é o registro de
+  **alguém**.
+- **Achar que estilo é desvio.** É **relação com a expectativa** — e a formalidade excessiva
+  também a quebra.
+- **Achar que o diminutivo indica tamanho.** *Cafezinho* não é café pequeno. Indica **afeto**,
+  **desdém**, **atenuação**.
+- **Achar que a função poética é exclusiva da poesia.** Está na publicidade e nos provérbios. No
+  poema, é **dominante** — não única.
+- **Achar que a função poética significa "bonito".** Significa **projetar a seleção sobre a
+  combinação** — e isso é **verificável**.
+- **Achar que "Rosa é artista" explica alguma coisa.** Explica: ele **domina** o que viola, a
+  violação **produz efeito**, e o **gênero** a prevê.
+- **Concluir que "se Rosa pôde, eu posso".** O gênero da redação **não prevê** invenção. E o
+  domínio **vem primeiro**.
+- **Confundir estilo autoral, de época e de gênero.**
+
+## ✍️ Exercícios
+
+**1.** Defina estilística e distinga suas duas vertentes.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Definição**: o estudo da **expressividade** — de como as escolhas linguísticas produzem efeitos
+que **ultrapassam o conteúdo informativo**.
+
+**A demonstração**: "O homem morreu" e "O velho partiu desta para melhor" têm a **mesma
+informação** e **não dizem a mesma coisa**. A segunda diz também: quem fala tem apreço (ou finge);
+a morte é assunto delicado; há decoro em jogo. Nada disso está no conteúdo — está na **escolha**.
+
+**As duas vertentes:**
+
+| | **Estilística da LÍNGUA** | **Estilística LITERÁRIA** |
+|---|---|---|
+| **Fundador** | **Charles Bally** (discípulo de Saussure) | **Leo Spitzer** |
+| **Objeto** | os recursos expressivos **do sistema** | o estilo **individual** de um autor |
+| **Pergunta** | que recursos o português oferece a **qualquer** falante? | o que faz Rosa ser Rosa? |
+| **Método** | inventário e descrição | interpretação — o **círculo filológico** |
+| **Escopo** | a língua comum | a obra literária |
+
+**Bally** estuda a **afetividade inscrita no sistema**. Não se interessa por escritores: interessa-se
+pelo fato de que o português **oferece a todos** um diminutivo afetivo (*cafezinho*), uma ordem
+marcada, um aumentativo pejorativo (*narigão*). Os recursos estão **na língua**, e qualquer falante
+os usa sem ser artista.
+
+**Spitzer** parte de um **detalhe formal** que o incomoda no texto, formula uma hipótese sobre o
+que ele revela, e volta ao texto para testá-la — do detalhe ao todo, do todo ao detalhe. É o
+**círculo filológico**.
+
+**Por que a distinção importa** — o ponto que os manuais escolares perdem:
+
+A estilística **não é apêndice da literatura**. **Todo falante é estilista o dia inteiro**: quem
+escolhe entre "morreu", "faleceu" e "bateu as botas" está escolhendo um **efeito**, não uma
+informação.
+
+A literatura apenas faz isso **de propósito**, com mais consciência e insistência. A diferença é
+de **grau**, não de natureza — a mesma relação que o @sec-cap-88 estabeleceu entre variar o
+registro (que todos fazem) e fazê-lo bem (que é difícil).
+:::
+
+**2.** Explique o estilo como escolha e os dois eixos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O princípio**: **se não houvesse alternativa, não haveria estilo.** O estilo existe porque a
+língua oferece **mais de um jeito** de dizer — e escolher um é **não escolher** os outros.
+
+**A articulação com o @sec-cap-62**: **não existe sinônimo perfeito**. Se existisse, a escolha entre
+dois sinônimos não significaria nada — e ela significa **sempre**.
+
+| Escolha | O que diz sobre quem escolhe |
+|---|---|
+| *morreu* | neutro, factual |
+| *faleceu* | formal, respeitoso, distante |
+| *partiu* | eufemístico, delicado |
+| *bateu as botas* | informal, irreverente, íntimo |
+| *virou presunto* | brutal, jocoso — ou cínico |
+
+**O fato é o mesmo.** O que varia é o **retrato de quem fala** e a **relação** com o interlocutor e
+com o morto.
+
+**Os dois eixos** (Saussure):
+
+- **Eixo PARADIGMÁTICO** (da **seleção**) — as **alternativas** para uma mesma posição: *morreu* /
+  *faleceu* / *partiu*. Relação de **escolha**. **As alternativas não estão no texto** — estão na
+  competência do falante;
+- **Eixo SINTAGMÁTICO** (da **combinação**) — a **sequência realizada**: "O velho faleceu ontem".
+  Relação de **combinação**. É o que aparece.
+
+**A consequência estilística — e é o que faz a disciplina existir:**
+
+**O que NÃO foi dito continua significando.** Ao escolher *faleceu*, o falante **rejeitou** *bateu
+as botas* — e essa rejeição é **parte do sentido**. O leitor percebe o decoro justamente **por
+contraste** com o que **caberia ali e não foi usado**.
+
+É por isso que a análise estilística é sempre **comparativa**: para dizer o que uma escolha
+significa, é preciso perguntar **o que mais poderia estar ali**. Quem não reconstrói o paradigma
+não analisa — apenas parafraseia.
+
+**A conexão com Jakobson**: a **função poética** consiste justamente em **projetar o eixo da
+seleção sobre o da combinação** — fazer que elementos que deveriam apenas se **combinar** passem
+a **se espelhar** (rima, metro, paralelismo).
+:::
+
+**3.** Explique a função poética de Jakobson.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A formulação**: a função poética consiste em **projetar o eixo da seleção sobre o eixo da
+combinação**.
+
+**O que significa, em português**: normalmente, os elementos de uma frase se relacionam por
+**combinação** (sintaxe) — cada um faz seu trabalho e segue adiante. Na função poética, eles
+passam a se relacionar também por **equivalência** — como se fossem alternativas paradigmáticas,
+mas **lado a lado** na cadeia.
+
+**As manifestações concretas:**
+
+| Recurso | Que equivalência |
+|---|---|
+| **rima** | **sonora**, entre palavras em posições diferentes |
+| **metro** | **rítmica**, entre versos |
+| **paralelismo** | **sintática**, entre estruturas |
+| **aliteração** | **fônica**, ao longo da cadeia |
+
+**O mecanismo é o mesmo em todos**: elementos que deveriam apenas **se combinar** passam a **se
+espelhar**.
+
+**O exemplo clássico**: ***I like Ike*** (slogan de Eisenhower). Os três monossílabos se
+**espelham** foneticamente: o /aɪ/ percorre os três, e *Ike* está **contido** em *like*. A frase
+diz apenas "gosto de Ike" — mas a **forma encena a adesão**: sujeito, verbo e objeto são feitos do
+mesmo som, como se gostar de Ike fosse a coisa mais natural do mundo. É por isso que **gruda**.
+
+**A precisão da definição — e é o que a torna valiosa:**
+
+Ela **não** diz que poesia é bonita, emocionante ou profunda — juízos que **não se verificam** e
+que não distinguem nada. Diz o que a poesia **faz com a língua** — e isso é **descritível e
+verificável**: procure **equivalências onde deveria haver só combinação**.
+
+É uma definição **operacional**: dá um procedimento, não uma impressão.
+
+**A ressalva que quase sempre se esquece:**
+
+A função poética **não é exclusiva da poesia**. Está:
+
+- na **publicidade**: "Tomou Doril, a dor sumiu" — *Doril* e *a dor* se espelham;
+- nos **slogans**, nos **provérbios** ("Quem casa quer casa"), nos **trocadilhos**.
+
+E, inversamente, um **poema tem todas as outras funções** — referencial, emotiva, conativa. O que
+define a poesia é a função poética ser **DOMINANTE**, não ser a única (@sec-cap-05).
+
+**Por que a ressalva importa**: sem ela, cai-se em duas bobagens simétricas — achar que
+publicidade é poesia (porque tem função poética) ou que poesia não informa nada (porque tem função
+poética). **Dominância não é exclusividade.**
+:::
+
+**4.** Analise: "Vozes veladas, veludosas vozes" (Cruz e Sousa). Cuidado com o simbolismo sonoro.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O que há no verso:**
+
+1. **Aliteração** em /v/ — quatro ocorrências em quatro palavras;
+2. **Assonância** em /o/ e /e/;
+3. **Quiasmo** — *vozes* ... *vozes* emoldura o verso (estrutura ABBA);
+4. **Escolha lexical** — *veladas* (encobertas) e *veludosas* (neologismo derivado de *veludo*);
+5. **Sinestesia** — *veludosas* é **tátil**, aplicado a *vozes*, que é **auditivo**.
+
+**A análise ingênua** — a que a questão adverte contra: "o /v/ sugere suavidade, e por isso o verso
+é suave".
+
+**Por que está errada:**
+
+O /v/ **não** significa suavidade. Prova: */v/* está em *veludo* **e** em *violência*, em *voz*
+**e** em *veneno*. Se o som **em si** carregasse o sentido, essas palavras não poderiam
+significar coisas opostas.
+
+**O teste decisivo** — troque o léxico e mantenha o som:
+
+> "**V**ozes **v**iolentas, **v**enenosas **v**ozes"
+
+**Mesma** aliteração em /v/, **mesmo** número de ocorrências, **mesma** estrutura em quiasmo. E o
+efeito é **oposto**: agora encena violência.
+
+**Logo: o efeito não estava no som.**
+
+**A análise correta:**
+
+A suavidade está no **léxico** — em *veludo* e em *velado*. São **as palavras** que trazem o
+sentido: veludo é macio; velado é encoberto, atenuado, suave.
+
+O que a **aliteração** faz é:
+
+1. **destacar** — chama atenção para o conjunto, fazendo o leitor **ouvir** o verso em vez de
+   apenas lê-lo;
+2. **coesionar** — liga as quatro palavras numa unidade sonora, fazendo com que o sentido de uma
+   **contamine** as outras;
+3. **amplificar** — reforça o que o léxico já estabeleceu.
+
+E há mais: a **sinestesia** (*veludosas vozes*) faz o som virar **tato**, o que é o tema do
+Simbolismo — a correspondência entre os sentidos. O verso não descreve vozes suaves: ele **produz**
+a experiência de tocá-las.
+
+**A formulação correta**: o simbolismo sonoro é **motivado pelo contexto**, não pelo som. A
+aliteração **destaca e coesiona**; o **conteúdo** do efeito vem do **léxico**.
+
+**Para a prova**: a questão que pergunta "que efeito produz a aliteração?" espera que você diga o
+que o **poema** diz — não o que uma tabela manda. Quem decora "v = suavidade" erra assim que o
+poema falar de violência. **Leia o texto, não a tabela.**
+:::
+
+**5.** Critique a noção de "grau zero" da linguagem.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A tese tradicional**: existe um **grau zero** — linguagem neutra, transparente, sem estilo. O
+estilo seria o **desvio** em relação a ele.
+
+**Três problemas:**
+
+**1. O grau zero não existe.** Qual seria a formulação neutra de "alguém deixou de viver"? "O
+homem morreu"? Mas ela **também é escolha**: escolheu *homem* (e não *sujeito*, *indivíduo*,
+*cara*, *velho*); escolheu *morreu* (e não *faleceu*); escolheu essa ordem (e não "Morreu o
+homem").
+
+**Toda formulação é escolhida.** Não há degrau zero de onde se parta — há um **campo de
+alternativas**, e estar em **qualquer** ponto dele já é ter escolhido.
+
+**2. O "neutro" é o registro de alguém.** É o argumento do @sec-cap-87 e do @sec-cap-95, aplicado
+aqui: o que se chama de grau zero é, concretamente, **o registro formal escrito da norma culta**.
+Isso não é neutro — é o registro de **um grupo**, numa **situação**.
+
+Chamá-lo de zero é **o mesmo gesto** do "sotaque neutro": tomar a **própria régua** por **ausência
+de régua**. E o gesto tem a mesma função: naturalizar uma posição.
+
+**3. Ele hierarquiza o que devia descrever.** Se o neutro é o zero, o que dele se afasta vira
+"desvio", "afetação", "excesso" — termos **avaliativos** disfarçados de descritivos
+(@sec-cap-90). Mas escrever "faleceu" não é desviar de nada: é escolher, como escolhe quem
+escreve "morreu".
+
+**A alternativa: EXPECTATIVA e QUEBRA.**
+
+Não há grau zero, mas há **expectativa**: cada gênero, cada situação, cada contexto cria uma
+**previsão** sobre o que virá (@sec-cap-72, @sec-cap-88). A expressividade nasce da **relação** com
+essa expectativa — confirmando-a ou quebrando-a.
+
+**Por que o modelo é melhor — três razões:**
+
+1. **É relativo ao contexto**, não absoluto: "bateu as botas" é **quebra** num obituário e
+   **expectativa cumprida** numa conversa de bar. **O mesmo item, dois valores** — o que o modelo
+   do grau zero não consegue representar;
+2. **Descreve em vez de julgar**: não há forma "desviante" — há forma **esperada** e
+   **inesperada** **naquele lugar**;
+3. **Explica o inverso**, que é o argumento decisivo: **a formalidade excessiva também quebra a
+   expectativa**. "Vossa Senhoria comparecerá ao churrasco?" é tão marcado quanto um palavrão na
+   tese.
+
+Se o formal fosse o **zero**, ele nunca poderia ser marcado — e é. Logo, **não há um lado "neutro"
+para onde fugir**: há só posições, e cada uma significa em relação ao que se esperava.
+:::
+
+**6.** Explique o estranhamento e por que a dificuldade não é defeito.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O conceito** (*ostranenie*, dos **formalistas russos**): a arte existe para **desautomatizar a
+percepção**.
+
+**O diagnóstico**: vemos o mundo por **hábito**, sem enxergar. A automatização é econômica e
+necessária — não podemos reparar em tudo —, mas custa caro: as coisas **desaparecem** sob o hábito.
+Você não vê sua própria casa; você **reconhece** sua casa, que é diferente.
+
+**A função da arte**: **quebrar o hábito** e obrigar a **ver de novo**. Fazer a pedra ser pedra —
+não o conceito de pedra.
+
+**Como opera** — pela **quebra de expectativa**:
+
+- **dificultar a forma** — para retardar a percepção e forçar a atenção;
+- **desfamiliarizar** o familiar — descrever o comum como se fosse visto pela primeira vez;
+- **violar** o esperado — sintaxe, léxico, ordem.
+
+**Por que a dificuldade não é defeito** — o ponto da questão:
+
+Na comunicação **ordinária**, a dificuldade **é** defeito: o ofício deve ser lido rápido e sem
+tropeço, e todo obstáculo é falha (@sec-cap-78).
+
+Na arte, **inverte-se**: a dificuldade é **o método**. Se o texto fosse transparente, ele
+**escorregaria** — e escorregar é justamente o que a automatização faz. **Retardar a leitura é a
+condição de ver.**
+
+**O exemplo**: quando Rosa escreve "o diabo na rua, no meio do redemoinho", ele **nos obriga a ler
+devagar** — e é **lendo devagar** que se vê. A construção estranha não é enfeite nem obstáculo
+gratuito: é o que **produz** a percepção.
+
+**A conexão com o capítulo**: a quebra de expectativa **é** o estranhamento. O modelo
+expectativa/quebra (que substitui o do grau zero) explica exatamente isto — o efeito nasce da
+**relação** com o que se esperava, e a arte trabalha essa relação **deliberadamente**.
+
+**A ressalva necessária, que a boa resposta faz:**
+
+Isso **não** significa que "quanto mais difícil, melhor". A dificuldade é **meio**, não **fim**.
+Uma dificuldade que não produz percepção nenhuma é só **ruído** — e há muita má literatura provando
+isso: obscuridade que não ilumina nada, e que se protege da crítica alegando ser arte.
+
+**O critério**: a dificuldade **funcionou**? Fez ver alguma coisa que a formulação fácil não faria
+ver? Se sim, é estranhamento. Se não, é só difícil.
+:::
+
+**7.** Por que o diminutivo português raramente indica tamanho?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A observação**: o sufixo *-inho* é chamado de **diminutivo** — mas raramente diminui coisa
+alguma.
+
+| Forma | O que **não** é | O que é |
+|---|---|---|
+| *cafezinho* | um café pequeno | **afetivo**, social — um convite, uma cortesia |
+| *jeitinho* | um jeito pequeno | uma **instituição nacional** |
+| *coitadinho* | um coitado pequeno | **compaixão** ou **deboche** — só o contexto decide |
+| *minutinho* | um minuto pequeno | **atenuação** — "espere, por favor" |
+| *probleminha* | um problema pequeno | **atenuação** — frequentemente de um problema grande |
+| *livrinho* | um livro pequeno | **afeto** ("meu livrinho") ou **desdém** ("aquele livrinho aí") |
+
+**O que ele de fato faz — quatro valores:**
+
+1. **Afeto**: *amorzinho*, *filhinho*, *cafezinho*;
+2. **Desdém**: "aquele *doutorzinho*", "um *jornalzinho* qualquer";
+3. **Atenuação/cortesia**: "só um *minutinho*", "um *probleminha*", "uma *perguntinha*";
+4. **Intensificação** — e note o paradoxo: *cedinho* significa **muito** cedo; *rapidinho*
+   significa **muito** rápido; *sozinho* é mais só que só. **O "diminutivo" aumenta.**
+
+**Por que é assim:**
+
+Porque o valor de *-inho* **não é dimensional — é afetivo**. Ele marca a **atitude** do falante em
+relação ao referente, não o tamanho do referente. E a atitude pode ser **carinho** ou
+**desprezo** — o que explica a ambiguidade de *coitadinho*, que só o contexto resolve.
+
+**Por que é o exemplo predileto de Bally** — o ponto que a questão cobra:
+
+Porque demonstra a **expressividade inscrita no SISTEMA**. Não é um recurso de escritores: é um
+recurso que o **português oferece a todo falante**, gratuitamente, e que todos usam sem pensar.
+
+Quem oferece um "cafezinho" não está sendo poético — está usando um recurso **estilístico da
+língua**, disponível no sistema. **É a prova de que a estilística não é apêndice da literatura**:
+ela está no português de todo dia, e é impossível falar sem fazê-la.
+
+**A observação final**: o nome "diminutivo" é herança do **molde latino** (@sec-cap-93) — no latim,
+o sufixo de fato diminuía. A NGB manteve o rótulo, que descreve mal o português. É mais um caso
+em que a gramática de 1536 ainda aperta.
+:::
+
+**8.** Guimarães Rosa viola a norma o tempo todo. Ele escreve errado?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A resposta óbvia — "não, ele é artista" — é insuficiente**, porque não explica nada. Vira
+licença: qualquer coisa se justifica dizendo "é literário".
+
+**A resposta boa exige três distinções:**
+
+**1. Violar por ESCOLHA × violar por IGNORÂNCIA.**
+
+Rosa **sabia** a norma — sabia-a excepcionalmente bem, e é **por isso** que podia operá-la. Quem
+**não** conhece a regra **não a viola**: **erra**. E o resultado não significa nada além do
+desconhecimento.
+
+**A transgressão só significa se o transgressor domina o que transgride** — e se o **leitor**
+também. Uma violação que ninguém reconhece como violação não produz efeito nenhum: passa
+despercebida, ou parece descuido.
+
+**2. A violação precisa PRODUZIR EFEITO.**
+
+"Nonada. O diabo não há!" viola **e funciona**: cria uma voz, instala um mundo, faz o leitor
+**ouvir alguém**. O efeito é verificável — o leitor sabe imediatamente que entrou noutro lugar.
+
+Uma violação que **não** produz efeito é só **ruído** — e há muita má literatura provando isso.
+
+**3. O GÊNERO autoriza.**
+
+É a chave, e é o que dispensa qualquer apelo ao gênio: a **expectativa** do gênero literário
+**inclui** a transgressão. Um romance **pode** inventar palavras — **o leitor vai lá para isso**.
+Um ofício, não — o leitor vai lá para outra coisa (@sec-cap-72, @sec-cap-78).
+
+**Não é que o artista tenha licença especial**: é que **o gênero em que ele trabalha prevê a
+invenção como parte do contrato**.
+
+**A consequência para o aluno — e é aqui que o argumento pode ser mal usado:**
+
+**"Se Rosa pôde, eu posso" é FALSO** — e o motivo **não é hierarquia**, é **gênero e domínio**:
+
+- **Na redação do ENEM**, o gênero é **dissertativo-argumentativo**, e ele **não prevê** invenção
+  lexical. Não é que o aluno não tenha talento — **é que o gênero não é esse**. **Rosa reprovaria
+  no ENEM**, e isso não diz nada contra Rosa nem a favor do ENEM: diz que são **coisas
+  diferentes**;
+- **O domínio vem primeiro.** Só se transgride com efeito o que se conhece. O caminho não é
+  **imitar a liberdade** de Rosa — é **conquistar o domínio** que a tornou possível.
+
+**A síntese**: a estilística **não dissolve a norma** — mostra que a norma é **um dos termos da
+relação**. **Sem norma não há transgressão: há só ruído.**
+
+**Rosa precisa da gramática que viola**, e é **dela** que extrai o efeito. Quem quiser escrever
+como Rosa comece **onde ele começou**: sabendo [@martins2008; @faraco2008].
+:::
+
+**9.** (Estilo Cebraspe — julgue C ou E)
+
+I. A estilística da língua, de Bally, ocupa-se do estilo individual dos autores literários.
+II. A função poética consiste em projetar o eixo da seleção sobre o eixo da combinação.
+III. O fonema /u/ carrega intrinsecamente valor de melancolia e escuridão.
+IV. O diminutivo em "cafezinho" indica tamanho reduzido.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — ERRADO**, e o item **inverte** as duas vertentes. A estilística **de Bally** é a **da
+língua**: ocupa-se dos recursos expressivos **do sistema**, disponíveis a **qualquer** falante
+(diminutivos afetivos, ordem marcada, aumentativos pejorativos). Ele **não** se interessava por
+autores.
+
+Quem se ocupa do **estilo individual** de autores literários é **Spitzer**, na estilística
+**literária**, com o método do **círculo filológico**.
+
+**II — CERTO.** É a formulação exata de **Jakobson**. A função poética faz elementos que deveriam
+apenas **se combinar** passarem a **se espelhar** — por equivalência sonora (rima, aliteração),
+rítmica (metro) ou sintática (paralelismo). Exemplo: *I like Ike*.
+
+**A ressalva** (que o item não cobra, mas convém lembrar): ela **não é exclusiva da poesia** —
+está na publicidade e nos provérbios. No poema, é **dominante**, não única.
+
+**III — ERRADO**, e é a armadilha central do capítulo. Nenhum fonema carrega valor
+**intrinsecamente**.
+
+**A prova**: */u/* está em ***luto*** e em ***lúdico***; em ***escuro*** e em ***puro***. Se o som
+**em si** carregasse melancolia, essas palavras não poderiam significar coisas opostas.
+
+**O que acontece**: o som **reforça** o sentido que o **léxico** já estabeleceu — não o **cria**. O
+simbolismo sonoro é **motivado pelo contexto**. **Leia o texto, não a tabela.**
+
+**IV — ERRADO.** *Cafezinho* **não** é um café pequeno — pode até ser grande. O valor é
+**afetivo/social**: é um convite, uma cortesia, um gesto.
+
+O diminutivo português **raramente indica tamanho**. Indica **afeto** (*amorzinho*), **desdém**
+("aquele doutorzinho"), **atenuação** ("um minutinho", "um probleminha") — e às vezes até
+**intensifica**: *cedinho* é **muito** cedo; *rapidinho* é **muito** rápido.
+
+O rótulo "diminutivo" é herança do **molde latino** (@sec-cap-93), que descreve mal o português.
+
+**Gabarito: E, C, E, E.**
+:::
+
+**10.** (Estilo ENEM) A escolha entre "faleceu" e "bateu as botas" para o mesmo fato demonstra
+que:
+
+a) uma das formas está correta e a outra, errada;
+b) as formas são sinônimas perfeitas, sendo indiferente a escolha;
+c) a escolha entre alternativas produz efeitos de sentido, revelando a atitude do falante e a
+   relação com o interlocutor;
+d) apenas escritores fazem escolhas estilísticas;
+e) existe um grau zero da linguagem, do qual "bateu as botas" seria um desvio.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: c.**
+
+**Por que c está certa**: é o princípio fundador da estilística. **O fato é o mesmo** — alguém
+morreu. O que varia é o **retrato de quem fala** e a **relação** com o interlocutor e com o morto:
+
+- *faleceu* — formal, respeitoso, distante;
+- *bateu as botas* — informal, irreverente, íntimo.
+
+E note o mecanismo (o eixo paradigmático): ao escolher *faleceu*, o falante **rejeitou** *bateu as
+botas* — e **a rejeição é parte do sentido**. O leitor percebe o decoro **por contraste** com o que
+caberia ali e não foi usado. **O não dito continua significando.**
+
+**Por que as outras erram:**
+
+**a)** Falso. **Nenhuma é errada** — as duas são gramaticais e compreensíveis. O que existe é
+**adequação ao contexto** (@sec-cap-88): "bateu as botas" é **inadequado** num obituário e
+**perfeitamente adequado** num bar. Não é correção — é **adequação**, e ela depende da situação.
+
+**b)** Falso, e contradiz o @sec-cap-62: **não existe sinônimo perfeito**. Se existisse, a escolha
+**não significaria nada** — e ela significa sempre. A alternativa se autodestrói: se fosse
+indiferente, a pergunta da questão não teria objeto.
+
+**d)** Falso, e é o erro mais comum sobre a disciplina. **Todo falante é estilista** — quem escolhe
+entre "morreu", "faleceu" e "bateu as botas" está escolhendo um **efeito**. A literatura apenas
+faz isso **de propósito**, com mais consciência: diferença de **grau**, não de natureza.
+
+**e)** Falso — é a noção de **grau zero**, criticada no capítulo. **Não existe** formulação neutra:
+"o homem morreu" também é escolha (escolheu *homem* e não *cara*; *morreu* e não *faleceu*). E o
+que se chamaria de neutro seria o **registro formal escrito da norma culta** — o registro de
+**alguém**, não a ausência de registro. É o mesmo gesto do "sotaque neutro" (@sec-cap-87).
+
+**O padrão** (@sec-cap-85): (a) e (e) são versões do **prescritivismo** (uma forma é o certo/o
+zero); (b) e (d) **esvaziam** o fenômeno (não significa nada / não é comigo). A correta é a
+**descritiva**: reconhece que a escolha significa, e diz **o que** ela significa.
+:::
+
+**11.** Analise a expressividade da ordem: "Chegou João" × "João chegou".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**As duas frases têm os mesmos elementos e o mesmo conteúdo proposicional** — João realizou a ação
+de chegar. E **não são intercambiáveis**.
+
+**"João chegou"** — ordem **direta** (SV):
+
+- **João** é o **tópico** — aquilo de que se fala. Já é conhecido, já está em jogo;
+- **chegou** é o **comentário** — a informação nova;
+- **Contexto típico**: alguém pergunta "E o João?" / "Cadê o João?". Resposta: "João chegou";
+- **A estrutura informacional**: **dado** → **novo**.
+
+**"Chegou João"** — ordem **inversa** (VS):
+
+- **chegou** vem primeiro, e a chegada já está pressuposta ou é o cenário;
+- **João** é a **informação nova** — o foco recai sobre **quem**;
+- **Contextos típicos**:
+  - **apresentativo**: introduz João na cena — "Chegou João, chegou Maria, chegou todo mundo";
+  - **resposta a "quem chegou?"** — o foco é o sujeito;
+  - **narrativo**: cria expectativa e depois a resolve;
+- **A estrutura informacional**: **novo** em posição de destaque.
+
+**O princípio geral** — e é o que a questão cobra:
+
+**A ordem no português não é livre — é significativa.** O português tem ordem **relativamente**
+flexível (ao contrário do inglês), e essa flexibilidade **não é decorativa**: cada ordem
+**organiza a informação** de um jeito.
+
+A posição **final** tende a ser a de **foco** (a informação mais saliente); a **inicial**, a de
+**tópico**. Mudar a ordem é **mudar o que se destaca** — e, portanto, mudar o sentido, ainda que a
+proposição seja a mesma.
+
+**A conexão com o capítulo**: é o **eixo sintagmático** produzindo sentido. Não se escolheu uma
+**palavra** diferente — escolheu-se uma **combinação** diferente. Prova de que a expressividade
+não está só no léxico: **a sintaxe também escolhe**.
+
+**A extensão literária**: é o mesmo princípio do **hipérbato** — "Cessem do sábio grego e do
+troiano / as navegações grandes que fizeram" (Camões). A ordem marcada **retarda** a informação,
+cria **tensão** e obriga o leitor a **esperar** — o que é, ele próprio, um efeito (o
+estranhamento: retardar a percepção é a condição de perceber).
+
+**A nota que fecha**: e note que "Chegou João" **não é desvio** de "João chegou" (@sec-cap-96,
+crítica ao grau zero). Não há ordem "básica" da qual as outras se afastem — há **ordens**, cada
+uma adequada a uma estrutura informacional. Chamar uma de zero seria tomar um caso particular por
+ausência de escolha.
+:::
+
+**12.** Distinga estilo autoral, estilo de época e estilo de gênero.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| | O que é | Exemplos |
+|---|---|---|
+| **Estilo AUTORAL** | as escolhas **recorrentes** de um autor — sua **marca** individual | a sintaxe e os neologismos de **Rosa**; a frase curta e seca de **Graciliano**; a subordinação de **Machado**; a sintaxe fluida de **Clarice** |
+| **Estilo de ÉPOCA** | o que uma **geração** compartilha — as escolhas do período | o **hipérbato** e a antítese barrocos; a sonoridade e a sinestesia **simbolistas**; a coloquialidade **modernista** |
+| **Estilo de GÊNERO** | o que o **gênero** exige — as escolhas que o contrato impõe | a impessoalidade do **artigo científico**; a fórmula do **ofício**; a estrutura da **dissertação** do ENEM |
+
+**Por que confundi-los produz análises ruins** — o ponto da questão:
+
+**Erro 1 — atribuir ao autor o que é da época.** Dizer que "o hipérbato é característico de
+Gregório de Matos" é fraco: o hipérbato é característico **do Barroco**, e todos o usavam. O que
+é **dele** é o que ele faz de **diferente** dentro do repertório da época.
+
+**A pergunta correta**: não "que recursos ele usa?", mas "**o que ele faz com os recursos que
+todos usavam?**".
+
+**Erro 2 — atribuir ao autor o que é do gênero.** A impessoalidade de um artigo científico não é
+escolha estilística do pesquisador: é **exigência do gênero**. Analisar isso como marca autoral é
+confundir contrato com personalidade.
+
+**Erro 3 — não ver que os três operam JUNTOS.** E este é o ponto mais importante. Todo texto é,
+simultaneamente:
+
+- de um **gênero** (que impõe restrições);
+- de uma **época** (que oferece um repertório);
+- de um **autor** (que escolhe dentro do que a época e o gênero permitem).
+
+**O estilo autoral é o resíduo**: o que sobra depois de descontar o gênero e a época. É **por
+contraste** com o que era esperado naquele gênero, naquele momento, que a marca individual
+aparece.
+
+**A ligação com o modelo do capítulo** (expectativa/quebra): o **gênero** e a **época** **são** a
+expectativa; o **autor** é a **relação** que ele estabelece com ela — confirmando, ajustando ou
+quebrando.
+
+**O método que decorre**: para identificar o estilo autoral, pergunte sempre **o que mais poderia
+estar ali** — reconstrua o paradigma da época e do gênero, e veja o que o autor **rejeitou**. É a
+mesma lógica do eixo paradigmático: **o estilo está no que não foi escolhido**.
+:::
+
+## 📚 Referências
+
+A referência brasileira central em estilística é Martins [@martins2008], de quem se seguem a
+organização por níveis e boa parte dos exemplos. As funções da linguagem e a função poética foram
+apresentadas no @sec-cap-05; as figuras, nos @sec-cap-65 e @sec-cap-66; a conotação, no
+@sec-cap-61; a inexistência do sinônimo perfeito, no @sec-cap-62. Para a discussão sobre norma,
+transgressão e ensino, ver Faraco [@faraco2008]; para a análise sintática que sustenta a
+estilística da ordem, Perini [@perini2010] e Castilho [@castilho2010]. A análise do poema é
+desenvolvida por Candido [@candido1996].
+
+O próximo capítulo desce ao detalhe técnico do nível fônico: a @sec-cap-97 trata da
+**versificação** — métrica, rima e ritmo —, isto é, do lugar onde a função poética se torna
+mensurável.
+
+::: {#refs}
 :::
