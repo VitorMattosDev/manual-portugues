@@ -4,22 +4,503 @@ title: "Relações lexicais: sinonímia, antonímia, hiponímia"
 
 # Relações lexicais: sinonímia, antonímia, hiponímia {#sec-cap-62}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 10 — Semântica e Léxico.
+> "Nenhuma palavra significa sozinha: cada uma vale pelo que as outras não dizem."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O capítulo anterior tratou do significado de uma palavra **em contexto**. Este trata de
+algo diferente e complementar: das relações que as palavras mantêm **umas com as outras**
+dentro do léxico. Porque o léxico não é uma lista — é uma **rede**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Quando você hesita entre *casa*, *lar*, *residência* e *moradia*, não está escolhendo
+entre quatro etiquetas para o mesmo objeto: está navegando uma rede de proximidades e
+distâncias. *Lar* traz afeto que *residência* não traz; *residência* traz formalidade que
+*casa* não traz. Do mesmo modo, quando você entende que toda *rosa* é uma *flor* mas nem
+toda *flor* é uma *rosa*, está usando uma relação de inclusão que organiza silenciosamente
+boa parte do seu vocabulário.
+
+Este capítulo descreve as três relações mais produtivas dessa rede — **sinonímia**,
+**antonímia** e **hiponímia** — e uma tese que atravessa todas: a de que a **sinonímia
+perfeita praticamente não existe**, e é justamente por isso que a língua é um instrumento
+tão fino.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** sinonímia, antonímia, hiponímia e hiperonímia;
+- **Demonstrar** por que a sinonímia perfeita é rara e o que a bloqueia;
+- **Distinguir** os tipos de antonímia e reconhecer que ela não é uniforme;
+- **Organizar** campos lexicais em hierarquias de hiperônimos e hipônimos;
+- **Aplicar** as relações lexicais à coesão textual e à substituição vocabular;
+- **Avaliar** criticamente as "listas de sinônimos" de dicionários e provas.
+
+## A rede lexical
+
+Um falante adulto do português conhece dezenas de milhares de palavras. Elas não estão
+armazenadas em ordem alfabética — estão organizadas por **relações de sentido**. É por
+isso que, ao esquecer uma palavra, você recupera as vizinhas ("não é *mesa*... é aquela
+coisa de escrever... **escrivaninha**!"), e não as que rimam com ela.
+
+As três relações fundamentais dessa rede são:
+
+- **Sinonímia** — proximidade de sentido (*casa* / *residência*);
+- **Antonímia** — oposição de sentido (*alto* / *baixo*);
+- **Hiponímia** — inclusão de sentido (*rosa* está contida em *flor*).
+
+Elas se combinam. Um campo lexical típico tem uma hierarquia de inclusão, com feixes de
+quase-sinônimos em cada nível e eixos de oposição atravessando tudo.
+
+## Sinonímia: a proximidade que nunca é identidade
+
+**Sinônimos** são palavras de **sentido próximo**, intercambiáveis em **alguns** contextos.
+Note a formulação cautelosa — ela é o ponto do capítulo.
+
+### A sinonímia perfeita quase não existe
+
+A definição escolar diz "palavras de mesmo significado". Se isso fosse verdade, a língua
+seria um sistema absurdamente ineficiente: por que armazenar duas etiquetas idênticas?
+
+Na prática, quase todo par de sinônimos difere em pelo menos uma dimensão:
+
+- **Registro**: *morrer* / *falecer* / *bater as botas*. As três descrevem o mesmo evento
+  biológico. Nenhuma serve no lugar da outra: "Minha avó bateu as botas" num velório é uma
+  ofensa; "O gato faleceu" é cômico.
+- **Carga afetiva**: *casa* / *lar*. "Vendo lar de 3 quartos" soa errado num anúncio —
+  *lar* carrega afeto, e afeto não se vende por metro quadrado.
+- **Distribuição regional**: *mandioca* / *aipim* / *macaxeira* — o mesmo tubérculo, três
+  regiões (@sec-cap-87).
+- **Frequência e formalidade**: *comprar* / *adquirir*; *falar* / *proferir*.
+- **Colocação**: dizemos "trânsito **pesado**", não "trânsito **grave**"; mas "erro
+  **grave**", não "erro **pesado**". *Grave* e *pesado* são próximos, mas cada um tem seus
+  companheiros fixos.
+
+::: {.callout-important}
+## O teste da substituição
+Dois itens são sinônimos **naquele contexto** se a troca preserva o sentido, o registro e
+a aceitabilidade. Aplique o teste sempre em **frase**, nunca em lista:
+
+- "Comprei uma **casa**." → "Comprei uma **residência**." ✓ (aceitável, mais formal)
+- "Não há lugar como o **lar**." → "Não há lugar como a **residência**." ✗ (perde o afeto;
+  a frase morre)
+
+A conclusão é geral: **a sinonímia é sempre parcial e contextual**. Perguntar "X e Y são
+sinônimos?" sem frase é tão malformado quanto perguntar se uma palavra é conotativa
+(@sec-cap-61).
+:::
+
+### Por que a quase-sinonímia é útil
+
+Se a língua tolerasse sinônimos perfeitos, eles seriam desperdício. O que ela faz, em vez
+disso, é **especializar**: quando duas palavras concorrem, o uso as diferencia — uma
+migra para o formal, outra para o afetivo, uma para o técnico, outra para o cotidiano.
+É por isso que *falecer* não é apenas "*morrer* com gravata": é *morrer* dito com
+respeito, o que é outro ato de fala.
+
+Essa especialização dá ao escritor um instrumento de precisão fina — e é a razão de a
+substituição vocabular mecânica ("troque a palavra repetida por um sinônimo do
+dicionário") produzir tantos textos ruins.
+
+## Antonímia: a oposição que não é uniforme
+
+**Antônimos** são palavras de sentido **oposto**. Mas "oposto" esconde pelo menos três
+mecanismos diferentes — e as bancas exploram exatamente essa diferença.
+
+### Antônimos graduais (contrários)
+
+Admitem **graus** e um **meio-termo**. Negar um **não** afirma o outro.
+
+- *quente* / *frio* — há *morno*, *tépido*, *gelado*. "Não está quente" não significa "está
+  frio".
+- *alto* / *baixo*; *rico* / *pobre*; *grande* / *pequeno*.
+
+São escalares: aceitam *muito*, *pouco*, *mais*, comparativos.
+
+### Antônimos complementares (contraditórios)
+
+**Não** admitem meio-termo. Negar um **afirma** o outro.
+
+- *vivo* / *morto* — não há terceira opção. "Não está vivo" = "está morto".
+- *presente* / *ausente*; *par* / *ímpar*; *casado* / *solteiro* (no sentido jurídico).
+
+Não aceitam gradação: "muito morto" é um efeito de humor, não uso literal.
+
+### Antônimos recíprocos (conversos)
+
+Descrevem **a mesma relação vista de dois ângulos**. Um implica o outro.
+
+- *comprar* / *vender* — se eu compro de você, você vende para mim. O evento é **um só**.
+- *pai* / *filho*; *marido* / *esposa*; *dar* / *receber*; *empregador* / *empregado*.
+
+::: {.callout-tip}
+## Como distinguir os três na prova
+Aplique **dois testes**:
+
+1. **Teste da negação**: "Não é X" implica "é Y"? Se **sim** → complementares
+   (vivo/morto). Se **não** → graduais (quente/frio: "não é quente" pode ser morno).
+2. **Teste da perspectiva**: as duas palavras descrevem **o mesmo fato** visto de lados
+   opostos? Se sim → recíprocos (comprar/vender).
+
+O erro clássico é tratar tudo como gradual. "Vivo/morto" não admite meio-termo — e é isso
+que a questão quer ver você perceber.
+:::
+
+A antonímia também é **contextual**: o antônimo de *seco* é *molhado* (roupa), *úmido*
+(clima) ou *doce* (vinho), conforme o campo. Fora de contexto, a pergunta não se decide.
+
+## Hiponímia: a inclusão que organiza o léxico
+
+A **hiponímia** é a relação de **inclusão** entre sentidos.
+
+- **Hipônimo**: o termo **específico**, incluído (*rosa*).
+- **Hiperônimo**: o termo **geral**, que inclui (*flor*).
+- **Cohipônimos**: itens de mesmo nível sob um hiperônimo (*rosa*, *cravo*, *margarida*).
+
+A relação é **assimétrica** e **transitiva**:
+
+- Toda **rosa** é **flor**; nem toda flor é rosa. (assimetria)
+- Toda rosa é flor; toda flor é **vegetal** → toda rosa é vegetal. (transitividade)
+
+A @fig-hiponimia apresenta a hierarquia.
+
+::: {#fig-hiponimia}
+
+```{.tikz}
+%%| filename: hiponimia
+%%| alt: Hierarquia de hiponímia em três níveis. No topo, o hiperônimo mais geral, ser vivo. No nível intermediário, vegetal e animal, que são cohipônimos entre si e hiperônimos do nível abaixo. No nível inferior, sob vegetal, aparecem flor e árvore, e sob flor aparecem rosa, cravo e margarida, que são cohipônimos. Setas apontam de baixo para cima indicando a relação toda rosa é uma flor. Ao lado, a indicação de que a relação é assimétrica, pois nem toda flor é rosa, e transitiva.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  n/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, minimum width=17mm},
+  sup/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[n, draw=manualgray, fill=manualgray!12] (sv) at (0,3.2) {\textbf{ser vivo}};
+
+  \node[n, draw=manualgreen, fill=manualgreen!10] (veg) at (-2.2,2.0) {\textbf{vegetal}};
+  \node[n, draw=manualgray, fill=manualgray!6] (ani) at (2.2,2.0) {animal};
+
+  \node[n, draw=manualblue, fill=manualblue!10] (flo) at (-3.6,0.8) {\textbf{flor}};
+  \node[n, draw=manualgray, fill=manualgray!6] (arv) at (-0.9,0.8) {árvore};
+
+  \node[n, draw=manualred, fill=manualred!8] (ros) at (-5.0,-0.5) {rosa};
+  \node[n, draw=manualred, fill=manualred!8] (cra) at (-3.4,-0.5) {cravo};
+  \node[n, draw=manualred, fill=manualred!8, minimum width=20mm] (mar) at (-1.4,-0.5) {margarida};
+
+  \draw[sup] (veg) -- (sv);
+  \draw[sup] (ani) -- (sv);
+  \draw[sup] (flo) -- (veg);
+  \draw[sup] (arv) -- (veg);
+  \draw[sup] (ros) -- (flo);
+  \draw[sup] (cra) -- (flo);
+  \draw[sup] (mar) -- (flo);
+
+  \node[rounded corners=2pt, draw=manualblue, fill=manualblue!5, align=left,
+        font=\scriptsize, inner sep=5pt, text width=40mm, anchor=west] at (1.2,0.4)
+    {\textbf{hiperônimo} $=$ termo geral\\
+     \textbf{hipônimo} $=$ termo específico\\
+     \textbf{cohipônimos} $=$ mesmo nível\\[3pt]
+     \emph{assimétrica}: toda rosa é flor,\\ nem toda flor é rosa\\
+     \emph{transitiva}: rosa $\rightarrow$ flor $\rightarrow$ vegetal};
+
+  \node[font=\scriptsize\itshape, text=manualgray, anchor=south] at (-3.2,-1.3)
+    {as setas leem-se ``é um tipo de''};
+\end{tikzpicture}
+```
+
+Hierarquia de hiponímia. As setas leem-se "é um tipo de": a relação sobe do específico ao
+geral, é **assimétrica** e **transitiva**.
+:::
+
+### Para que serve a hiponímia
+
+Ela não é só taxonomia de botânica. É um **motor de coesão textual** (@sec-cap-69). Ao
+retomar um referente, substituímos o hipônimo pelo hiperônimo:
+
+> "Um **pit bull** atacou o carteiro. O **cão** foi apreendido. O **animal** será
+> avaliado."
+
+Cada retomada sobe um degrau na hierarquia e evita a repetição sem recorrer a sinônimo
+algum. Este é o mecanismo real por trás da maior parte das substituições bem-feitas — e
+não a consulta a lista de sinônimos.
+
+O movimento inverso, do geral ao específico, cria **efeito de precisão** ou **suspense**:
+"Havia um animal na sala. Um cão. Um pit bull."
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Meronímia: parte e todo
+Não confunda hiponímia com **meronímia**, a relação **parte–todo**: *roda* é **parte de**
+*carro*, não **um tipo de** carro. O teste é a frase: "roda **é um tipo de** carro" ✗ →
+não é hiponímia; "roda **é parte de** um carro" ✓ → meronímia. Já "sedã **é um tipo de**
+carro" ✓ → hiponímia. As bancas misturam as duas com frequência.
+:::
+
+## As relações no dicionário e na prova
+
+Dicionários de sinônimos listam itens **sem contexto** — e por isso induzem ao erro. Um
+verbete de *pesado* pode oferecer *grave*, *maçante*, *penoso*, *rigoroso*. Nenhum deles
+serve em todas as frases:
+
+- "trânsito pesado" → nem *grave*, nem *maçante*.
+- "filme pesado" → talvez *denso*, não *rigoroso*.
+- "erro grave" → não *pesado*.
+
+A lista é um ponto de partida para a **verificação em frase**, não uma tabela de trocas.
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A norma não legisla sobre relações lexicais: não há sinônimo "errado", há sinônimo
+**inadequado ao registro ou ao contexto**. O que ocorre — e vale registrar sem
+prescritivismo — é que a escola muitas vezes ensina a substituição vocabular como técnica
+de "enriquecimento", produzindo textos em que o aluno escreve *outrossim* e *destarte*
+sem controle de registro. O problema não é a palavra formal; é a **inconsistência** entre
+o item escolhido e o resto do texto. Vocabulário rico não é vocabulário raro: é
+vocabulário **preciso** (@sec-cap-80).
+:::
+
+## 📋 Quadro-resumo
+
+| Relação | Definição | Exemplo | Observação |
+|---|---|---|---|
+| **Sinonímia** | sentidos próximos | *casa* / *residência* | sempre **parcial** e contextual |
+| **Antonímia gradual** | oposição com meio-termo | *quente* / *frio* | negar um não afirma o outro |
+| **Antonímia complementar** | oposição sem meio-termo | *vivo* / *morto* | negar um **afirma** o outro |
+| **Antonímia recíproca** | mesma relação, dois ângulos | *comprar* / *vender* | um implica o outro |
+| **Hiponímia** | inclusão (específico ⊂ geral) | *rosa* ⊂ *flor* | assimétrica e transitiva |
+| **Hiperonímia** | inclusão (geral ⊃ específico) | *flor* ⊃ *rosa* | motor de coesão |
+| **Cohiponímia** | mesmo nível hierárquico | *rosa* / *cravo* | irmãos sob o hiperônimo |
+| **Meronímia** | parte–todo | *roda* / *carro* | **não** é hiponímia |
+
+Em uma linha: **sinonímia é proximidade parcial** (nunca identidade), **antonímia tem três
+mecanismos distintos** (gradual, complementar, recíproco) e **hiponímia é inclusão**, que
+sustenta a coesão por retomada.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **"Sinônimos têm o mesmo significado."** Têm significado **próximo**. Diferem em
+  registro, afeto, região ou colocação. A sinonímia perfeita é rara a ponto de ser
+  desprezível.
+- **Substituir por sinônimo de dicionário sem testar em frase.** "Trânsito grave" ✗. A
+  lista não sabe do contexto; você sabe.
+- **Tratar toda antonímia como gradual.** *Vivo*/*morto* é **complementar**: não há
+  meio-termo. Aplique o teste da negação.
+- **Confundir recíprocos com contrários.** *Comprar*/*vender* não são polos de uma escala:
+  são **o mesmo evento** visto de dois lados.
+- **Confundir hiponímia com meronímia.** *Roda* não é *um tipo de* carro; é **parte de**.
+- **Achar que o antônimo é fixo.** O antônimo de *seco* muda com o campo: *molhado*
+  (roupa), *úmido* (clima), *doce* (vinho).
+- **Inverter hipônimo e hiperônimo.** O **hiperônimo** é o **geral** (*flor*); o
+  **hipônimo**, o específico (*rosa*). O prefixo *hiper-* remete ao que está "acima" na
+  hierarquia.
+
+## ✍️ Exercícios
+
+**1.** Explique por que *casa* e *lar* não são sinônimos perfeitos, usando o teste da
+substituição.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Aplicando o teste em frases:
+
+- "Comprei uma **casa** nova." → "Comprei um **lar** novo." ✗ — soa estranho: *lar* não se
+  compra, porque não designa o imóvel, mas o vínculo afetivo construído nele.
+- "Não há lugar como o **lar**." → "Não há lugar como a **casa**." ✗ — a frase perde o
+  sentido do provérbio.
+
+A diferença é de **carga afetiva**: *casa* é referencial (o objeto arquitetônico); *lar*
+é afetivo (o espaço de pertencimento). Por isso um anúncio diz "vendo casa", nunca "vendo
+lar" — afeto não é atributo negociável do imóvel.
+
+Conclusão geral: a sinonímia é **parcial**. As duas palavras se aproximam em alguns
+contextos e divergem em outros, o que é a regra, não a exceção.
+:::
+
+**2.** Classifique a antonímia: (a) *vivo* / *morto*; (b) *quente* / *frio*; (c) *comprar*
+/ *vender*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Complementares (contraditórios).** Não há meio-termo: negar um afirma o outro ("não
+está vivo" = "está morto"). Não aceitam gradação literal.
+
+**(b) Graduais (contrários).** Admitem meio-termo (*morno*, *tépido*) e gradação ("muito
+quente", "mais frio"). Negar um **não** afirma o outro: "não está quente" pode significar
+"está morno".
+
+**(c) Recíprocos (conversos).** Descrevem **o mesmo evento** de perspectivas opostas: se
+eu compro de você, você necessariamente vende para mim. Há uma só transação, dois ângulos.
+:::
+
+**3.** Organize em hierarquia de hiponímia: *animal*, *poodle*, *cão*, *mamífero*,
+*ser vivo*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Do mais geral ao mais específico:
+
+**ser vivo** ⊃ **animal** ⊃ **mamífero** ⊃ **cão** ⊃ **poodle**
+
+Cada termo é **hipônimo** do que está à sua esquerda e **hiperônimo** do que está à sua
+direita. Assim, *cão* é hipônimo de *mamífero* e hiperônimo de *poodle* — o que mostra que
+os rótulos são **relacionais**, não absolutos: um mesmo item é hipônimo ou hiperônimo
+conforme o par considerado.
+
+Pela **transitividade**: todo poodle é cão, todo cão é mamífero → todo poodle é mamífero,
+e por extensão, todo poodle é ser vivo.
+:::
+
+**4.** (Estilo ENEM) No trecho "Um pit bull atacou o carteiro. O cão foi apreendido. O
+animal passará por avaliação", o encadeamento se sustenta por:
+
+a) sinonímia perfeita entre os três termos;
+b) hiperonímia progressiva, que retoma o referente em níveis mais gerais;
+c) meronímia entre as partes do referente;
+d) antonímia gradual;
+e) repetição vocabular.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Os três termos designam **o mesmo referente**, mas em níveis
+crescentes de generalidade: *pit bull* (hipônimo) → *cão* (hiperônimo de pit bull) →
+*animal* (hiperônimo de cão). Cada retomada **sobe um degrau** na hierarquia.
+
+Não é sinonímia (a): os termos não têm sentido próximo — *animal* é muito mais amplo que
+*pit bull*; o que os une é a **inclusão**, e o fato de apontarem para o mesmo indivíduo
+naquele texto. Não é meronímia (c): *cão* não é parte de *pit bull*. Não há oposição (d)
+nem repetição (e).
+
+Este é o mecanismo de coesão referencial mais produtivo da escrita — mais frequente e mais
+natural que a substituição por sinônimos (@sec-cap-69).
+:::
+
+**5.** Justifique: "roda" e "carro" **não** mantêm relação de hiponímia.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Aplique o **teste da frase**:
+
+- "Roda **é um tipo de** carro." ✗ — falso. Não há hiponímia.
+- "Roda **é parte de** um carro." ✓ — verdadeiro. A relação é de **meronímia** (parte–todo).
+
+Para comparação, um caso real de hiponímia: "Sedã **é um tipo de** carro" ✓.
+
+A distinção importa porque as duas relações se comportam de modo diferente na retomada
+textual. Um hiperônimo pode substituir o referente ("o pit bull... o animal"), mas um
+holônimo não substitui o merônimo: não se retoma "a roda" dizendo "o carro" — seria
+mudança de referente, não retomada.
+:::
+
+**6.** (Estilo FCC) Assinale o par em que a substituição é **inadequada** no contexto:
+
+a) "trânsito pesado" → "trânsito intenso";
+b) "erro grave" → "erro sério";
+c) "trânsito pesado" → "trânsito grave";
+d) "comprei uma casa" → "comprei uma residência";
+e) "filme pesado" → "filme denso".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Trânsito **grave**" viola uma restrição de **colocação**: *grave*
+combina com *erro*, *doença*, *crise*, *acusação* — não com *trânsito*. Embora *pesado* e
+*grave* sejam próximos em alguns contextos ("um clima pesado/grave"), cada um tem seus
+**companheiros fixos**, e a troca fora deles produz uma frase inaceitável.
+
+As demais funcionam: (a) *intenso* é a colocação natural; (b) *sério* e *grave* comutam
+com *erro*; (d) *residência* é aceitável, apenas mais formal; (e) *denso* é a colocação
+usual para filme.
+
+A questão ilustra a lição central: sinônimos só se validam **em frase**, porque a
+sinonímia é parcial e sensível à colocação.
+:::
+
+**7.** Determine o antônimo de *seco* em cada contexto e explique o que isso revela: (a)
+roupa seca; (b) clima seco; (c) vinho seco.
+
+::: {.callout-tip collapse="true"}
+## Solução
+- **(a) roupa seca** → antônimo: **molhada**.
+- **(b) clima seco** → antônimo: **úmido**.
+- **(c) vinho seco** → antônimo: **doce** (ou *suave*).
+
+O que isso revela: a **antonímia é contextual**, não uma propriedade fixa do item lexical.
+*Seco* não tem "um" antônimo — tem um antônimo **por campo semântico**, porque a própria
+palavra tem sentidos distintos em cada campo (é um caso de **polissemia**, tema do
+@sec-cap-63).
+
+Consequência prática: perguntar "qual o antônimo de *seco*?" sem contexto é uma pergunta
+malformada — pela mesma razão que "esta palavra é conotativa?" (@sec-cap-61) e "X e Y são
+sinônimos?" também são.
+:::
+
+**8.** (Estilo Cebraspe — Certo/Errado) Julgue: "Como *feliz* e *infeliz* são antônimos, a
+frase 'Ele não está feliz' equivale a 'Ele está infeliz'."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Feliz* e *infeliz* são antônimos **graduais**, e não complementares. Entre os
+dois polos existe uma vasta faixa intermediária: *indiferente*, *neutro*, *nem bem nem
+mal*, *tranquilo*.
+
+Por isso, negar um **não afirma** o outro: "ele não está feliz" é compatível com "ele está
+indiferente", que não é o mesmo que "ele está infeliz". A equivalência só valeria se a
+antonímia fosse **complementar** — como em *vivo*/*morto*, em que "não está vivo" de fato
+equivale a "está morto".
+
+O prefixo *in-* engana: sugere contradição lógica, mas a escala semântica não acompanha.
+:::
+
+**9.** Explique por que a especialização entre *morrer*, *falecer* e *bater as botas* é
+funcional para a língua.
+
+::: {.callout-tip collapse="true"}
+## Solução
+As três expressões descrevem o **mesmo evento biológico**, mas não são intercambiáveis
+porque diferem em **registro** e em **atitude do falante**:
+
+- ***falecer*** — formal, respeitoso: apropriado a obituário, velório, comunicado oficial.
+- ***morrer*** — neutro: serve na maior parte dos contextos.
+- ***bater as botas*** — coloquial, jocoso, por vezes desrespeitoso.
+
+A especialização é **funcional** porque a língua não precisa de três etiquetas para o
+mesmo conceito — precisa de três modos de **posicionar-se** diante dele. Dizer "minha avó
+faleceu" não é dizer "minha avó morreu" com roupa de gala: é praticar um **ato de fala**
+diferente, que expressa respeito e adequação ao luto. Usar "bateu as botas" num velório
+seria uma ofensa — o que prova que a diferença não é ornamental, mas semântica e
+pragmática.
+
+Regra geral: quando duas palavras concorrem pelo mesmo sentido, o uso as **diferencia** —
+uma migra para o formal, outra para o afetivo, outra para o técnico. É assim que a
+sinonímia perfeita se dissolve, e é isso que dá à língua sua precisão.
+:::
+
+**10.** Reescreva evitando a repetição, sem usar sinônimos — apenas hiperônimos: "A
+professora chegou. A professora abriu a janela. A professora começou a aula."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Reescrita possível: "A **professora** chegou. A **educadora** abriu a janela. A
+**mulher** começou a aula."
+
+Melhor ainda, combinando hiperonímia com **elipse** (o recurso mais natural em português):
+"A **professora** chegou, abriu a janela e começou a aula."
+
+Comentário: a subida na hierarquia (*professora* → *educadora* → *mulher*) funciona, mas
+tem limite — hiperônimos muito gerais soam artificiais ou até descorteses ("a humana
+começou a aula"). Em português, a **elipse do sujeito** costuma ser a solução mais
+econômica e natural, e a hiperonímia se reserva a distâncias textuais maiores, quando o
+referente precisa ser efetivamente reativado (@sec-cap-69).
+
+A lição: evitar repetição não é sinônimo de trocar palavras. É gerenciar referência.
+:::
+
+## 📚 Referências
+
+O tratamento das relações lexicais e a crítica à noção de sinonímia perfeita seguem Ilari
+[@ilari2001] e Ilari & Basso [@ilaribasso2006]; os registros de sentido e as listas de
+quase-sinônimos discutidas na seção final referem-se a obras como o Houaiss
+[@houaiss2009]. A aplicação da hiperonímia à retomada referencial e à coesão apoia-se em
+Koch [@koch2018coesao] e Koch [@koch2015texto], e será desenvolvida no @sec-cap-69. Para a
+variação regional invocada nos exemplos (*mandioca* / *aipim* / *macaxeira*), veja
+Bagno [@bagno2011] e o @sec-cap-87. O próximo capítulo trata dos casos em que uma forma
+abriga vários sentidos — ou vários sentidos disputam formas parecidas: polissemia,
+homonímia e paronímia.
+
+::: {#refs}
 :::
