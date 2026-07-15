@@ -4,22 +4,280 @@ title: "Fundamentos da pontuação"
 
 # Fundamentos da pontuação {#sec-cap-56}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 9 — Pontuação e Convenções.
+> "A pontuação é a respiração da escrita — mas, mais do que isso, é a sua sintaxe visível."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 9, dedicado à **pontuação**. Há um mito perigoso a desfazer logo de
+início: o de que "a vírgula marca a pausa da fala". Não é bem assim. A pontuação
+brasileira é, antes de tudo, **sintática**: os sinais organizam as relações entre os
+termos e as orações, separando ou ligando conforme a estrutura da frase. É por isso que
+"O aluno, estudou" está errado (separou sujeito de verbo) mesmo que se faça uma pausa
+ali ao falar. Compreender essa base sintática é o que transforma a pontuação de adivinhação
+em ciência.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo estabelece os **princípios gerais** da pontuação e apresenta os sinais
+maiores; os capítulos seguintes detalham a vírgula (@sec-cap-57), os demais sinais e a
+pontuação em textos reais. A base é sempre a mesma: a estrutura sintática que estudamos
+nos Volumes 6 e 7. Quem domina a sintaxe já tem meio caminho andado na pontuação.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** o princípio sintático (não meramente prosódico) da pontuação;
+- **Identificar** os sinais de pontuação e sua função geral;
+- **Distinguir** sinais de pausa (ponto, vírgula) de sinais melódicos e de discurso;
+- **Compreender** a regra de ouro: não separar termos ligados sintaticamente;
+- **Empregar** corretamente o ponto, o ponto de interrogação e o de exclamação;
+- **Evitar** os erros de pontuação mais graves.
+
+## Pontuação: sintaxe, não só pausa
+
+O mito da "pausa" leva a erros graves. A pontuação brasileira segue, sobretudo, a
+**estrutura sintática** da frase. A regra fundamental que dela decorre:
+
+::: {.callout-important}
+## A regra de ouro: não se separam termos que se ligam
+**Não se usa vírgula** entre termos que mantêm ligação sintática direta:
+
+- entre **sujeito e verbo**: ✘ "O aluno, chegou." → ✔ "O aluno chegou."
+- entre **verbo e complemento**: ✘ "Comprei, um livro." → ✔ "Comprei um livro."
+- entre **nome e complemento nominal/adjunto**: ✘ "Gosto, de música." → ✔ "Gosto de
+  música."
+
+Mesmo que se faça uma pausa ao ler, **não** se pontua entre esses termos essencialmente
+ligados. Este é o erro de pontuação mais grave e mais penalizado.
+:::
+
+Isso não significa que a pausa seja irrelevante — ela frequentemente coincide com a
+estrutura —, mas o **critério** é sintático. Quando a pausa e a sintaxe divergem, a
+sintaxe vence.
+
+## Os sinais de pontuação
+
+O português usa dez sinais principais, que a @fig-sinais-pontuacao agrupa por função.
+
+::: {#fig-sinais-pontuacao}
+
+```{.tikz}
+%%| filename: sinais-pontuacao
+%%| alt: Diagrama agrupando os sinais de pontuação por função. Sinais de pausa e separação: ponto, vírgula, ponto e vírgula. Sinais de entonação ou melodia: ponto de interrogação, ponto de exclamação, reticências. Sinais de isolamento ou inserção: dois-pontos, travessão, parênteses, aspas.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=52mm, minimum height=24mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{Pausa / separação}\\[3pt] • ponto (.)\\ • vírgula (,)\\ • ponto e vírgula (;)};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, right=5mm of a] (b) {\textbf{Entonação / melodia}\\[3pt] • ponto de interrogação (?)\\ • ponto de exclamação (!)\\ • reticências (...)};
+  \node[cx, draw=manualred, fill=manualred!8, below=4mm of a, text width=110mm] (c) {\textbf{Isolamento / inserção}: dois-pontos (:) · travessão (—) · parênteses ( ) · aspas (`` '')};
+\end{tikzpicture}
+```
+
+Os sinais de pontuação agrupados por função: pausa/separação (ponto, vírgula,
+ponto-e-vírgula), entonação (interrogação, exclamação, reticências) e isolamento/inserção
+(dois-pontos, travessão, parênteses, aspas).
+:::
+
+## O ponto final
+
+O **ponto (.)** marca o **fim** de uma frase declarativa e a maior pausa. Usa-se também:
+
+- em **abreviaturas**: *Sr.*, *etc.*, *pág.* (@sec-cap-20);
+- ao fim de períodos completos.
+
+Depois do ponto final, inicia-se nova frase com **maiúscula**.
+
+## O ponto de interrogação e o de exclamação
+
+- **Ponto de interrogação (?)**: encerra frases **interrogativas diretas** — "Você vem?".
+  **Não** se usa em interrogativas indiretas: "Perguntei se você vinha." (ponto final,
+  não interrogação).
+- **Ponto de exclamação (!)**: encerra frases **exclamativas**, imperativas enfáticas,
+  interjeições — "Que maravilha!", "Saia!", "Ai!".
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Interrogativa direta × indireta
+- **Direta**: pergunta-se literalmente → ponto de interrogação — "Onde você mora?".
+- **Indireta**: a pergunta é relatada, embutida numa oração → **ponto final** —
+  "Perguntei onde você mora." (Erro comum: pôr "?" na indireta.)
+:::
+
+## As reticências
+
+As **reticências (...)** indicam:
+
+- **suspensão/interrupção** do pensamento — "Eu queria dizer que...";
+- **hesitação** ou fala entrecortada — "Bem... talvez... não sei";
+- **supressão** em citações (às vezes entre colchetes: [...]);
+- **sentido implícito**, a ser completado pelo leitor.
+
+## Princípios de bom uso
+
+Alguns princípios gerais que os capítulos seguintes desenvolvem:
+
+- **Clareza acima de tudo**: a pontuação existe para tornar o texto compreensível; na
+  dúvida, opte pelo que facilita a leitura sem violar a sintaxe.
+- **Coerência**: mantenha o mesmo critério ao longo do texto.
+- **Economia**: pontue o necessário; excesso de vírgulas fragmenta o texto.
+- **A vírgula é sintática**: seu uso decorre da função dos termos, não do fôlego (tema do
+  @sec-cap-57).
+
+## 📋 Quadro-resumo
+
+| Sinal | Função principal | Exemplo |
+|---|---|---|
+| **Ponto (.)** | fim de frase declarativa; abreviaturas | "Chegou. / etc." |
+| **Interrogação (?)** | pergunta direta | "Vem?" |
+| **Exclamação (!)** | emoção, ordem enfática | "Cuidado!" |
+| **Reticências (...)** | suspensão, hesitação, supressão | "Eu ia dizer que..." |
+| **Vírgula (,)** | separa termos (sintaticamente) | ver @sec-cap-57 |
+| **Ponto e vírgula (;)** | pausa maior que a vírgula | ver @sec-cap-58 |
+
+Em uma linha: a pontuação é **sintática** (não mera pausa); sua regra de ouro é **não
+separar termos ligados** (sujeito–verbo, verbo–complemento); e cada sinal tem função
+própria — o ponto encerra, a interrogação pergunta (só direta), a exclamação emociona, as
+reticências suspendem.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Vírgula entre sujeito e verbo.** ✘ "O menino, correu." Nunca se separam sujeito e
+  verbo.
+- **Vírgula entre verbo e complemento.** ✘ "Gosto, de você." O complemento liga-se ao
+  verbo.
+- **"?" em interrogativa indireta.** "Perguntei se ele vinha." (ponto final, não
+  interrogação).
+- **Pontuar pela pausa, ignorando a sintaxe.** A pausa pode enganar; o critério é a
+  estrutura da frase.
+- **Excesso de reticências e exclamações.** Em texto formal, use-os com parcimônia; o
+  abuso enfraquece o efeito.
+
+## ✍️ Exercícios
+
+**1.** Explique por que a pontuação é considerada "sintática" e não apenas "prosódica".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o critério principal da pontuação é a **estrutura sintática** da frase (a função e
+a relação entre os termos), não a mera pausa da fala (prosódia). Por isso não se separa
+sujeito de verbo com vírgula, ainda que se faça uma pausa ao ler ("O aluno chegou", nunca
+"O aluno, chegou"). A pausa muitas vezes coincide com a sintaxe, mas, quando divergem, é a
+estrutura que determina o uso dos sinais.
+:::
+
+**2.** (Estilo ENEM) Assinale a frase corretamente pontuada:
+
+a) O professor, explicou a matéria;
+b) Gosto, muito de ler;
+c) Os alunos estudaram para a prova.
+d) Comprei, pão e leite;
+e) Ela disse, que viria.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Os alunos estudaram para a prova." está correta, sem vírgulas
+indevidas. As demais separam termos ligados sintaticamente: sujeito–verbo (a), verbo–
+adjunto/complemento (b, d), verbo–oração objetiva (e). Nenhuma dessas separações é
+permitida.
+:::
+
+**3.** Corrija a pontuação: "A menina que morava perto, brincava sempre, no quintal."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"A menina que morava perto brincava sempre no quintal." Remove-se a vírgula após "perto"
+(separava o sujeito "A menina que morava perto" do verbo "brincava") e a vírgula após
+"sempre" (separava o verbo de seu adjunto adverbial "no quintal"). Nenhum desses termos
+pode ser separado por vírgula.
+:::
+
+**4.** Pontue conforme o tipo de frase: (a) pergunta direta "Você viu isso"; (b) pergunta
+indireta "Quero saber se você viu isso".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Você viu isso**?**" — interrogativa **direta** → ponto de interrogação. (b) "Quero
+saber se você viu isso**.**" — interrogativa **indireta** (a pergunta está embutida na
+oração "se você viu isso") → **ponto final**, não interrogação.
+:::
+
+**5.** Explique três usos possíveis das reticências.
+
+::: {.callout-tip collapse="true"}
+## Solução
+As reticências podem indicar: (1) **suspensão/interrupção** do pensamento ou da frase —
+"Eu ia dizer que..."; (2) **hesitação** ou fala entrecortada — "Bem... não sei..."; (3)
+**supressão** de parte de uma citação — "O texto afirma que [...] a mudança é natural".
+Também podem sugerir um **sentido implícito** a ser completado pelo leitor.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que o ponto de interrogação está **mal**
+empregado:
+
+a) Onde fica a biblioteca?
+b) Você já almoçou?
+c) Gostaria de saber onde fica a saída?
+d) Que horas são?
+e) Ele vem hoje?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Gostaria de saber onde fica a saída" é uma interrogativa
+**indireta** (a pergunta está embutida na oração "onde fica a saída", subordinada a
+"gostaria de saber"), logo deve terminar com **ponto final**, não interrogação. As demais
+são interrogativas diretas, corretamente encerradas com "?".
+:::
+
+**7.** Por que "O candidato, que estudou muito, foi aprovado" está correto, mas "O
+candidato, foi aprovado" está errado?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Na primeira, as vírgulas isolam uma oração **adjetiva explicativa** ("que estudou muito"),
+inserida entre o sujeito e o verbo — isolamento permitido, pois delimita um termo
+acessório intercalado. Na segunda, a vírgula separa **diretamente** o sujeito ("O
+candidato") do verbo ("foi aprovado"), sem nada intercalado — separação **proibida**. A
+diferença: isolar um termo intercalado (permitido) × cortar a ligação sujeito–verbo
+(proibido).
+:::
+
+**8.** Classifique a função dos sinais em "Ela gritou: — Socorro!"
+
+::: {.callout-tip collapse="true"}
+## Solução
+Os **dois-pontos (:)** anunciam a fala que vem a seguir (introdução do discurso direto). O
+**travessão (—)** marca o início da fala de um personagem (discurso direto). O **ponto de
+exclamação (!)** encerra a fala exprimindo emoção/apelo (grito de socorro). Cada sinal tem
+função própria: anunciar, marcar a fala e exprimir a entonação.
+:::
+
+**9.** Reescreva sem os erros de pontuação: "Perguntei, se ela viria à festa?"
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Perguntei se ela viria à festa." Correções: (1) remove-se a vírgula após "Perguntei"
+(separava o verbo de sua oração objetiva "se ela viria"); (2) troca-se o ponto de
+interrogação por **ponto final**, pois se trata de interrogativa **indireta** (a pergunta
+está relatada, não feita diretamente).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "A vírgula deve ser usada sempre que há
+uma pausa na leitura da frase."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** A vírgula segue critério **sintático**, não prosódico: seu uso depende da
+função e da relação entre os termos, não da pausa da fala. Pode haver pausa na leitura sem
+que caiba vírgula (por exemplo, entre um sujeito longo e o verbo: "Os alunos da turma da
+manhã / chegaram" — não se pontua) e vírgula sem grande pausa. Pontuar "por pausa" leva a
+erros graves, como separar sujeito e verbo.
+:::
+
+## 📚 Referências
+
+Os princípios da pontuação e a função dos sinais seguem Bechara [@bechara2009] e Cunha &
+Cintra [@cunhacintra2017]; a base sintática da pontuação relaciona-se diretamente à análise
+dos Volumes 6 e 7. A pontuação como recurso de construção do sentido no texto é abordada
+por Koch & Elias [@koch2015texto]. A vírgula, o sinal mais complexo, é o tema do
+@sec-cap-57.
+
+::: {#refs}
 :::
