@@ -4,22 +4,551 @@ title: "Ambiguidade e pressuposição"
 
 # Ambiguidade e pressuposição {#sec-cap-64}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 10 — Semântica e Léxico.
+> "Toda pergunta carrega, escondida, uma afirmação que não se pediu para aceitar."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Este capítulo reúne dois fenômenos que parecem distantes, mas partilham um traço decisivo:
+ambos tratam do que uma frase diz **sem dizer**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A **ambiguidade** é a frase que diz **duas coisas** quando deveria dizer uma. A
+**pressuposição** é a frase que **dá por certa** uma informação que nunca chegou a
+afirmar. Em ambos os casos, o sentido excede o enunciado — e quem lê depressa não percebe.
+
+A relevância prática é grande e vai muito além da prova. Um contrato ambíguo gera litígio.
+Uma pergunta com pressuposto embutido — "Você já parou de fraudar a licitação?" — condena
+antes de qualquer resposta. Saber identificar essas estruturas é, ao mesmo tempo, uma
+técnica de escrita (para não cometê-las sem querer) e uma ferramenta de leitura crítica
+(para não engoli-las sem perceber).
+
+Este capítulo faz o trabalho **semântico**; o @sec-cap-82, no Volume 13, retomará o tema
+pelo ângulo da **interpretação de textos**.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** ambiguidade lexical de ambiguidade estrutural;
+- **Desfazer** ambiguidades por reescrita, pontuação ou reordenação;
+- **Diferenciar** o posto (o que se afirma) do pressuposto (o que se dá por certo);
+- **Aplicar** o teste da negação para identificar pressupostos;
+- **Reconhecer** os marcadores lexicais que disparam pressuposição;
+- **Analisar** criticamente o uso argumentativo do pressuposto em discursos reais.
+
+## Ambiguidade: quando a frase diz demais
+
+Há **ambiguidade** (ou **anfibologia**) quando um enunciado admite **mais de uma leitura**
+e o contexto não decide entre elas. O ponto importante é o segundo: potencialmente, quase
+toda frase é ambígua; efetivamente, só o é quando nada filtra as leituras concorrentes
+(@sec-cap-63).
+
+### Ambiguidade lexical
+
+Origina-se na **palavra**: um item polissêmico ou homônimo cujo sentido o contexto não
+seleciona.
+
+- "Vi o **banco** da praça." (móvel ou agência?)
+- "Ele não gostou da **manga**." (fruta ou parte da camisa?)
+- "O **ponto** estava errado." (sinal? parada? escore? costura?)
+
+A correção é simples: **especificar** — "vi o banco de madeira da praça" — ou trocar o
+item — "vi a agência da praça".
+
+### Ambiguidade estrutural
+
+Origina-se na **sintaxe**: as palavras são unívocas, mas se combinam de mais de um modo.
+É a mais interessante — e a mais cobrada.
+
+**Escopo do adjunto ou do adjetivo:**
+
+> "Vi o filho do vizinho **correndo**."
+> Quem corria — o filho ou eu?
+
+> "Encontrei o irmão de Maria **que mora em Lisboa**."
+> Quem mora em Lisboa — o irmão ou Maria?
+
+**Referência do pronome:**
+
+> "João disse a Pedro que **ele** havia errado."
+> Quem errou — João ou Pedro?
+
+> "Deixei o livro sobre a mesa e depois **a** vendi."
+> Vendi a mesa? O livro (com erro de gênero)?
+
+**Escopo da negação ou do quantificador:**
+
+> "Todos os alunos não fizeram a prova."
+> Nenhum fez? Ou alguns não fizeram?
+
+**Regência ou função sintática:**
+
+> "O ataque dos ingleses foi devastador."
+> Os ingleses atacaram (agente) ou foram atacados (paciente)?
+
+::: {.callout-important}
+## As três ferramentas para desfazer ambiguidade
+1. **Reordenar**: "Vi, correndo, o filho do vizinho" / "Vi o filho do vizinho, que corria".
+2. **Pontuar**: a vírgula distingue restritiva de explicativa e resolve o escopo da
+   adjetiva (@sec-cap-60).
+3. **Explicitar**: substituir o pronome pelo nome — "João disse a Pedro que **Pedro**
+   havia errado" — ou nomear o agente — "os ingleses atacaram devastadoramente".
+
+Regra de ouro da revisão (@sec-cap-80): se **você** precisou reler para entender, o leitor
+também precisará. Reescreva.
+:::
+
+### Defeito ou recurso?
+
+Como no capítulo anterior, o que decide não é a estrutura, mas o **gênero**:
+
+- **Defeito** — em contrato, edital, bula, laudo, questão de prova. Aqui a ambiguidade
+  custa dinheiro ou vida.
+- **Recurso** — em piada, charge, poesia, publicidade, manchete jocosa. Aqui a duplicidade
+  é o produto.
+
+Manchetes reais ilustram o acidente:
+
+> "Mulher é presa por matar marido com facada na delegacia."
+> (a facada foi na delegacia? a prisão? o marido estava na delegacia?)
+
+> "Cachorro de morador de rua é adotado por policial que estava doente."
+> (quem estava doente?)
+
+Ninguém quis fazer humor: quiseram economizar palavras e produziram duas leituras.
+
+## Pressuposição: quando a frase dá por certo
+
+Aqui entramos num terreno mais sutil. Considere:
+
+> "Pedro **parou de fumar**."
+
+O que essa frase **afirma**? Que Pedro não fuma mais. Mas o que ela **dá por certo**, sem
+afirmar? Que **Pedro fumava antes**. Essa segunda informação não foi asserida — foi
+**pressuposta**. Ela entra no texto pela porta dos fundos, sem passar pelo crivo do
+leitor.
+
+::: {.callout-important}
+## Posto × pressuposto
+- **Posto** (ou **asserido**): o que a frase **afirma** explicitamente. É o que se discute,
+  o que se pode contestar diretamente.
+- **Pressuposto**: o que a frase **assume como verdadeiro** para poder ser dita. Não se
+  afirma — apresenta-se como já sabido, já acordado, fora de discussão.
+
+Em "Pedro parou de fumar":
+
+- **Posto**: Pedro não fuma atualmente.
+- **Pressuposto**: Pedro fumava antes.
+:::
+
+### O teste da negação
+
+Como identificar um pressuposto com segurança? **Negue a frase.** O que **sobrevive** à
+negação é pressuposto; o que **desaparece** era posto.
+
+| Frase | Negação | Sobrevive? |
+|---|---|---|
+| "Pedro parou de fumar." | "Pedro **não** parou de fumar." | "Pedro fumava" → **sobrevive** = pressuposto |
+| | | "Pedro não fuma hoje" → **desaparece** = posto |
+
+Note a elegância do teste: tanto "Pedro parou de fumar" quanto "Pedro não parou de fumar"
+**assumem** que ele fumava. É por isso que o pressuposto é tão poderoso — ele resiste à
+negação, e portanto resiste à contestação mais óbvia.
+
+A @fig-posto-pressuposto representa a estrutura.
+
+::: {#fig-posto-pressuposto}
+
+```{.tikz}
+%%| filename: posto-pressuposto
+%%| alt: Esquema da frase Pedro parou de fumar dividida em duas camadas. A camada superior, visível, é o posto: Pedro não fuma atualmente, que é afirmado, discutível e desaparece sob negação. A camada inferior, submersa, é o pressuposto: Pedro fumava antes, que não é afirmado, é dado como certo e sobrevive à negação. Ao lado, o teste da negação mostra que ao negar a frase para Pedro não parou de fumar, o posto desaparece mas o pressuposto permanece intacto.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=5pt},
+]
+  \node[cx, draw=manualgray, fill=manualgray!12, text width=46mm, font=\small] (f) at (0,2.2)
+    {``Pedro \textbf{parou de fumar}.''};
+
+  % linha d'agua
+  \draw[dashed, thick, draw=manualblue] (-4.2,0.75) -- (4.2,0.75);
+  \node[font=\scriptsize\itshape, text=manualblue, anchor=east] at (4.2,1.0) {superfície do dito};
+
+  \node[cx, draw=manualgreen, fill=manualgreen!10, text width=52mm] (posto) at (0,1.35)
+    {\textbf{POSTO} {\scriptsize(asserido)}\\ \emph{Pedro não fuma atualmente}\\[2pt]
+     {\scriptsize afirmado · discutível · \textbf{cai} sob negação}};
+
+  \node[cx, draw=manualred, fill=manualred!10, text width=52mm, anchor=north] (pre) at (0,0.35)
+    {\textbf{PRESSUPOSTO}\\ \emph{Pedro fumava antes}\\[2pt]
+     {\scriptsize não afirmado · dado por certo · \textbf{sobrevive} à negação}};
+
+  % teste
+  \node[cx, draw=manualblue, fill=manualblue!6, text width=44mm, anchor=north, font=\scriptsize] (t) at (0,-1.6)
+    {\textbf{TESTE DA NEGAÇÃO}\\[3pt]
+     ``Pedro \textbf{não} parou de fumar.''\\[3pt]
+     posto $\rightarrow$ \textbf{desaparece}\\
+     pressuposto $\rightarrow$ \textbf{permanece}\\[2pt]
+     \emph{as duas versões assumem que ele fumava}};
+
+  \draw[-{Stealth[length=4pt]}, draw=manualgray] (f) -- (posto);
+  \draw[-{Stealth[length=4pt]}, draw=manualgray] (pre.south) -- (t.north);
+\end{tikzpicture}
+```
+
+A estrutura em duas camadas. O **posto** está na superfície e cai sob negação; o
+**pressuposto** fica submerso e sobrevive — que é exatamente o que o torna difícil de
+contestar.
+:::
+
+### Os gatilhos de pressuposição
+
+Certos itens lexicais e estruturas **disparam** pressupostos de modo previsível:
+
+- **Verbos aspectuais** (*parar de, começar a, continuar, deixar de, voltar a*): "Ele
+  **continua** desempregado" → pressupõe que já estava.
+- **Verbos factivos** (*saber, lamentar, descobrir, perceber, esquecer*): "Ela **lamenta**
+  que o projeto tenha falhado" → pressupõe que o projeto falhou.
+- **Advérbios** (*ainda, já, também, novamente*): "Ele **ainda** mora lá" → pressupõe que
+  morava.
+- **Orações adjetivas restritivas**: "Os deputados **que aceitaram propina** serão
+  julgados" → pressupõe que alguns aceitaram (@sec-cap-60).
+- **Artigo definido / posse**: "**O filho** dele chegou" → pressupõe que ele tem filho.
+- **Verbos iterativos** (*voltar a, repetir, de novo*): "Ele **voltou a** mentir" →
+  pressupõe que já mentira.
+- **Adjetivos e advérbios avaliativos**: "Ele resolveu o problema **até que** rápido" →
+  pressupõe expectativa contrária.
+
+### Pressuposto e subentendido
+
+Convém não confundir. Ambos são implícitos, mas se comportam de modo diferente:
+
+- **Pressuposto**: marcado **na língua**, por um gatilho identificável. É objetivo,
+  testável pela negação, e o falante **não pode negar** tê-lo veiculado — está lá.
+- **Subentendido** (implicatura): sugerido pelo **contexto**, sem marca formal. É
+  cancelável e o falante **pode negar** tê-lo dito.
+
+Compare:
+
+> "Pedro parou de beber." → **pressupõe** que bebia. Não há como o falante recuar: "eu
+> não disse que ele bebia" é falso — disse, pela porta dos fundos.
+
+> "Está frio aqui." → **subentende**, talvez, "feche a janela". Mas o falante pode recuar
+> sem contradição: "só constatei um fato, não pedi nada".
+
+Essa diferença — o pressuposto compromete, o subentendido não — é o que faz do pressuposto
+uma arma retórica tão eficaz. Ela será desenvolvida no @sec-cap-82.
+
+## A pressuposição como estratégia argumentativa
+
+Aqui o capítulo deixa de ser técnico e passa a ser cívico.
+
+Quem pressupõe **coloca a informação fora do debate**. Contestá-la exige um movimento
+extra, custoso e que soa defensivo — porque obriga o interlocutor a rejeitar a **moldura**
+da frase, não apenas seu conteúdo.
+
+**A pergunta capciosa** é o caso extremo:
+
+> "Você já parou de fraudar as licitações?"
+
+Ambas as respostas condenam: "sim" admite que fraudava; "não" admite que ainda frauda. A
+única saída é **recusar o pressuposto** — "eu nunca fraudei licitação alguma" —, o que
+exige perceber a armadilha e ter presença de espírito para desarmá-la. É uma técnica
+conhecida de interrogatório e de entrevista hostil.
+
+**No discurso político e publicitário**, os pressupostos fazem trabalho pesado:
+
+> "Vamos **resgatar** a qualidade do ensino." → pressupõe que a qualidade se perdeu.
+
+> "**Continuaremos** combatendo a corrupção." → pressupõe que já se combatia.
+
+> "Por que o governo **insiste** nesse erro?" → pressupõe que é erro e que há insistência.
+
+> "**Finalmente** um sabão em pó que limpa de verdade." → pressupõe que os outros não
+> limpam.
+
+Em nenhum desses casos a informação foi **afirmada**. Se contestada, o falante pode alegar
+que "nem disse isso". E, no entanto, disse — e o ouvinte, se não estiver atento,
+**aceitou**.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Não há aqui questão de norma: pressupor não é erro nem acerto — é um recurso **estrutural**
+da língua, disponível a todos os falantes, cultos ou não, e usado o tempo todo sem
+qualquer intenção manipuladora ("Já almoçou?" pressupõe que existe um almoço esperado). O
+que muda é o **grau de consciência**: quem reconhece o mecanismo escolhe quando usá-lo e
+percebe quando o usam sobre si.
+
+Vale registrar que a habilidade de detectar pressupostos correlaciona-se fortemente com
+**letramento crítico**, e não com domínio da norma-padrão. Um falante que diga "nós vai"
+pode desarmar uma pergunta capciosa com perfeição; um doutor pode engolir o pressuposto de
+uma manchete sem notar. São competências independentes — e a segunda, argumentavelmente,
+importa mais para a cidadania (@sec-cap-91).
+:::
+
+## 📋 Quadro-resumo
+
+| Conceito | Definição | Marca | Teste |
+|---|---|---|---|
+| **Ambiguidade lexical** | palavra com 2+ sentidos possíveis | item polissêmico/homônimo | o contexto seleciona? |
+| **Ambiguidade estrutural** | 2+ combinações sintáticas | escopo, pronome, adjunto | há 2 análises sintáticas? |
+| **Posto** | o que se **afirma** | o enunciado explícito | **cai** sob negação |
+| **Pressuposto** | o que se **dá por certo** | gatilho lexical | **sobrevive** à negação |
+| **Subentendido** | o que se **sugere** | nenhuma (contexto) | é **cancelável** |
+
+**Gatilhos de pressuposição**: aspectuais (*parar de, continuar, voltar a*), factivos
+(*saber, lamentar, descobrir*), advérbios (*ainda, já, também*), adjetivas restritivas,
+artigo definido, avaliativos.
+
+Em uma linha: a **ambiguidade** é a frase que diz **duas coisas**; o **pressuposto** é o
+que a frase diz **sem afirmar** — e sobrevive à negação, o que o torna difícil de
+contestar.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir ambiguidade lexical com estrutural.** A primeira está na **palavra**
+  (*banco*); a segunda, na **combinação** ("vi o filho do vizinho correndo").
+- **Achar que toda frase ambígua é erro.** Depende do gênero: erro no contrato, recurso na
+  charge.
+- **Confundir posto com pressuposto.** Aplique a **negação**: o que sobrevive é
+  pressuposto.
+- **Confundir pressuposto com subentendido.** O pressuposto tem **gatilho na língua** e
+  compromete o falante; o subentendido depende do contexto e é **cancelável**.
+- **Não perceber o pressuposto da adjetiva restritiva.** "Os alunos que colaram serão
+  punidos" **pressupõe** que houve cola. A explicativa não faria isso do mesmo modo
+  (@sec-cap-60).
+- **Responder a pergunta capciosa.** "Sim" e "não" aceitam o pressuposto. A saída é
+  **recusar a moldura**.
+- **Supor que detectar pressuposto é questão de norma culta.** É questão de **letramento
+  crítico** — competência independente do domínio da norma-padrão.
+
+## ✍️ Exercícios
+
+**1.** Identifique o tipo de ambiguidade e desfaça-a: "Vi o filho do vizinho correndo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Ambiguidade estrutural** (sintática), por **escopo do gerúndio**: *correndo* pode ligar-se
+a *filho* ou a *vi* (isto é, ao sujeito da oração).
+
+Duas leituras:
+
+1. **O filho corria** → "Vi o filho do vizinho, **que corria**." / "Vi o filho do vizinho
+   **enquanto ele corria**."
+2. **Eu corria** → "**Enquanto eu corria,** vi o filho do vizinho." / "Vi, **correndo**, o
+   filho do vizinho."
+
+As três ferramentas em ação: **reordenar** (deslocar o gerúndio), **pontuar** (isolar com
+vírgula) e **explicitar** (substituir o gerúndio por oração desenvolvida, com sujeito
+expresso). A terceira é a mais segura.
+:::
+
+**2.** Determine o posto e o pressuposto: "A empresa continua poluindo o rio."
+
+::: {.callout-tip collapse="true"}
+## Solução
+- **Posto** (afirmado): a empresa polui o rio **atualmente**.
+- **Pressuposto** (dado por certo): a empresa **já poluía antes**.
+
+O gatilho é o **verbo aspectual *continuar***, que exige a persistência de um estado
+anterior.
+
+**Teste da negação**: "A empresa **não** continua poluindo o rio." O posto desaparece (ela
+não polui hoje), mas o pressuposto **sobrevive intacto** — a frase negada continua
+assumindo que ela poluía antes. Só o pressuposto resiste, o que confirma a classificação.
+:::
+
+**3.** Explique por que "Você já parou de fraudar as licitações?" é uma pergunta capciosa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o gatilho aspectual ***parar de*** dispara o pressuposto **"você fraudava
+licitações"**, e esse pressuposto **não é afetado por nenhuma das respostas possíveis**:
+
+- **"Sim, parei"** → admite que fraudava (e deixou de fraudar).
+- **"Não, não parei"** → admite que fraudava (e continua fraudando).
+
+Ambas as respostas **aceitam a moldura** e, portanto, condenam. É a assinatura do
+pressuposto: ele sobrevive à negação, logo sobrevive à recusa mais óbvia.
+
+A única saída é **recusar o pressuposto em vez de responder à pergunta**: "Eu nunca
+fraudei licitação alguma — a pergunta parte de uma premissa falsa." Isso exige perceber a
+armadilha, o que a pressa de responder normalmente impede. Por isso a técnica é eficaz em
+interrogatórios e entrevistas hostis.
+:::
+
+**4.** (Estilo ENEM) Na manchete "Mulher é presa por matar marido com facada na
+delegacia", o problema decorre de:
+
+a) ambiguidade lexical, pela polissemia de *facada*;
+b) ambiguidade estrutural, pelo escopo indefinido do adjunto adverbial;
+c) erro de concordância verbal;
+d) pressuposição de culpa;
+e) uso conotativo de *presa*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O adjunto adverbial de lugar "**na delegacia**" pode ligar-se a três
+núcleos diferentes, gerando três leituras:
+
+1. a **prisão** ocorreu na delegacia;
+2. o **assassinato** ocorreu na delegacia;
+3. a **facada** foi desferida na delegacia (leitura próxima da 2).
+
+As palavras são todas unívocas — o problema está na **combinação sintática**, não no
+léxico, o que descarta (a). A solução seria reordenar: "Na delegacia, mulher é presa por
+matar marido com facada" (leitura 1) ou explicitar: "Mulher é presa por ter matado o
+marido a facadas dentro da delegacia" (leitura 2).
+
+O caso é típico do jornalismo: a compressão da manchete elimina justamente as palavras que
+fixariam o escopo.
+:::
+
+**5.** Aplique o teste da negação e identifique o pressuposto: "Ela lamenta que o projeto
+tenha sido cancelado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+- **Posto**: ela sente pesar.
+- **Pressuposto**: **o projeto foi cancelado**.
+
+O gatilho é o **verbo factivo *lamentar***. Verbos factivos (*saber, lamentar, descobrir,
+perceber, esquecer*) pressupõem a **verdade** de sua oração completiva.
+
+**Teste**: "Ela **não** lamenta que o projeto tenha sido cancelado." O posto cai (ela não
+sente pesar — talvez esteja aliviada), mas o cancelamento do projeto **permanece dado como
+certo**. Nas duas versões, o projeto foi cancelado.
+
+Compare com um verbo **não factivo**: "Ela **acha** que o projeto foi cancelado" — aqui
+não há pressuposto algum. O projeto pode não ter sido cancelado; ela apenas acredita que
+sim. É o traço de factividade que produz o pressuposto.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Em 'Ele voltou a mentir', a informação de
+que ele mentira antes constitui um subentendido."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Trata-se de um **pressuposto**, não de um subentendido.
+
+A distinção: o **pressuposto** tem **gatilho formal na língua** — aqui, a locução
+iterativa ***voltar a***, que exige uma ocorrência anterior. É objetivo, testável pela
+negação ("Ele **não** voltou a mentir" continua assumindo que ele mentira) e **compromete
+o falante**: ele não pode alegar "não foi isso que eu disse".
+
+O **subentendido** (implicatura) não tem marca formal, depende do contexto e é
+**cancelável** sem contradição — como em "Está frio aqui" para sugerir "feche a janela",
+que o falante pode negar ter pedido.
+
+Como há gatilho lexical e o implícito resiste à negação, o caso é de pressuposição.
+:::
+
+**7.** Analise os pressupostos do slogan: "Finalmente, um sabão em pó que limpa de
+verdade."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Há **dois gatilhos** operando em conjunto:
+
+1. **"Finalmente"** (advérbio) → pressupõe que **houve uma espera**, que o produto
+   demorou a existir e que sua ausência era sentida como falta.
+2. **Adjetiva restritiva "que limpa de verdade"** → pressupõe que existem sabões em pó que
+   **não** limpam de verdade. A restritiva delimita um subconjunto e, ao fazê-lo, afirma a
+   existência do complemento (@sec-cap-60).
+
+Combinados, os dois constroem a conclusão: **os concorrentes não funcionam**.
+
+O detalhe estratégico: essa conclusão **nunca é afirmada**. Se acusado de propaganda
+comparativa desleal, o anunciante pode alegar que não disse nada sobre os concorrentes — e
+literalmente não disse. Mas o consumidor **aceitou** a informação, porque pressupostos
+entram sem passar pelo crivo crítico. É a conotação (@sec-cap-61) e o pressuposto operando
+como escudos jurídicos simultâneos.
+:::
+
+**8.** Desfaça a ambiguidade de três modos distintos: "João disse a Pedro que ele havia
+errado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Ambiguidade estrutural** por **referência pronominal**: o pronome *ele* pode retomar
+*João* ou *Pedro*.
+
+Três reescritas:
+
+1. **Explicitar o nome**: "João disse a Pedro que **Pedro** havia errado." / "João disse a
+   Pedro que **João** havia errado."
+2. **Reestruturar com discurso direto**: "João disse a Pedro: '**Você** errou.'" /
+   "João disse a Pedro: '**Eu** errei.'"
+3. **Reordenar ou usar o reflexivo**: "João **admitiu a Pedro que errara**" (se o errado é
+   João) / "João **acusou Pedro de ter errado**" (se o errado é Pedro).
+
+A terceira é a melhor: a escolha lexical (*admitir* × *acusar*) elimina a ambiguidade sem
+repetir nomes e ainda ganha precisão sobre o ato de fala realizado.
+:::
+
+**9.** (Estilo FUVEST) Compare, quanto ao que pressupõem: (a) "Os deputados que receberam
+propina serão julgados."; (b) "Os deputados, que receberam propina, serão julgados."
+
+::: {.callout-tip collapse="true"}
+## Solução
+A vírgula muda o tipo de adjetiva e, com ele, o pressuposto.
+
+**(a) Restritiva** (sem vírgulas): delimita um **subconjunto**. Pressupõe que **alguns**
+deputados receberam propina e outros não; apenas os primeiros serão julgados. O
+pressuposto é a **existência do subconjunto** — a frase assume, sem afirmar, que houve
+propina.
+
+**(b) Explicativa** (entre vírgulas): informa sobre a **totalidade**. Pressupõe que
+**todos** os deputados referidos receberam propina, e todos serão julgados. A acusação é
+**coletiva**.
+
+O que o par ensina: a pontuação não é acessória à pressuposição — ela **determina** o
+pressuposto. Em (b), um par de vírgulas acusa uma categoria inteira sem que a frase o
+afirme. Num texto jornalístico, isso é potencialmente difamatório; e o autor poderia
+alegar que "não disse que todos receberam" — embora tenha dito, pela porta dos fundos
+(@sec-cap-60).
+:::
+
+**10.** Reescreva o trecho eliminando ambiguidades e explicitando os pressupostos: "O
+diretor voltou a criticar os funcionários que faltam às reuniões na sala dele."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Ambiguidades identificadas:**
+
+1. **"na sala dele"** — escopo indefinido: as reuniões ocorrem na sala? As críticas
+   ocorreram na sala? De quem é a sala — do diretor ou dos funcionários?
+2. **"dele"** — referência pronominal indefinida (diretor ou funcionário).
+
+**Pressupostos identificados:**
+
+1. ***voltar a*** (iterativo) → o diretor **já criticara antes**.
+2. **adjetiva restritiva "que faltam às reuniões"** → **alguns** funcionários faltam
+   (e outros não).
+
+**Reescrita possível, com tudo explícito:**
+
+"Na sala do diretor, ele **criticou novamente** os funcionários — **alguns dos quais têm
+faltado às reuniões**."
+
+Ou, mais direta e sem implícitos:
+
+"Alguns funcionários têm faltado às reuniões. O diretor já os criticara antes e, nesta
+segunda-feira, criticou-os outra vez, em sua sala."
+
+Comentário: a segunda versão **desfaz os pressupostos convertendo-os em postos** — a
+informação que antes entrava pela porta dos fundos passa a ser afirmada e, portanto, fica
+disponível para contestação. É exatamente esse o ganho da escrita explícita em gêneros que
+exigem precisão: nada de relevante fica submerso.
+:::
+
+## 📚 Referências
+
+O tratamento da ambiguidade e da distinção entre posto e pressuposto, bem como o teste da
+negação e o inventário de gatilhos, apoia-se em Ilari [@ilari2001] e Ilari & Basso
+[@ilaribasso2006]; a discussão dos implícitos, da implicatura e do funcionamento
+argumentativo do pressuposto segue Koch [@koch2015texto] e Marcuschi [@marcuschi2008].
+Para a ambiguidade lexical e seus mecanismos, veja o @sec-cap-63; para o papel da vírgula
+na determinação do pressuposto da adjetiva, o @sec-cap-60; para a técnica de reescrita, o
+@sec-cap-80. O tema retorna, pelo ângulo da leitura crítica, no @sec-cap-82, e a relação
+entre letramento crítico e cidadania é discutida no @sec-cap-91. Os próximos dois
+capítulos tratam das figuras de linguagem.
+
+::: {#refs}
 :::
