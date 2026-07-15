@@ -4,22 +4,278 @@ title: "Concordância nominal"
 
 # Concordância nominal {#sec-cap-51}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 8 — Sintaxe III: Concordância, Regência e Colocação.
+> "O adjetivo curva-se ao substantivo: em gênero e número, segue-o como uma sombra — mas
+> há palavras rebeldes."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Depois da concordância verbal (verbo × sujeito), estudamos a **concordância nominal**: a
+harmonização, em **gênero e número**, entre o substantivo e as palavras que a ele se
+referem — adjetivos, artigos, pronomes, numerais e particípios. A regra geral é simples:
+"os alunos **dedicados**", "as meninas **espertas**". A dificuldade está nos casos
+especiais — um adjetivo para vários substantivos, expressões como *é proibido*, *meio*,
+*anexo*, *obrigado* —, que são justamente os que caem em prova.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo apresenta a regra geral e organiza os **casos especiais**, muitos dos
+quais contrariam a intuição da fala. Saber que se diz "**meia** entrada" mas "ela está
+**meio** cansada", ou "é **proibida** a entrada" mas "é **proibido** entrada", separa
+quem domina a norma de quem apenas confia no ouvido.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** a regra geral da concordância nominal (gênero e número);
+- **Resolver** a concordância de um adjetivo com vários substantivos (e vice-versa);
+- **Empregar** corretamente *anexo*, *obrigado*, *mesmo*, *próprio*, *incluso*;
+- **Distinguir** *meio* adjetivo de *meio* advérbio;
+- **Aplicar** a regra de *é bom*, *é proibido*, *é necessário*;
+- **Reconhecer** as palavras invariáveis (*menos*, *alerta*, *pseudo*).
+
+## A regra geral
+
+**Regra geral**: o adjetivo (e artigos, pronomes, numerais, particípios) concorda em
+**gênero e número** com o substantivo a que se refere.
+
+- "O aluno **dedicado**" / "Os alunos **dedicados**" / "A aluna **dedicada**" / "As
+  alunas **dedicadas**".
+
+O desafio surge quando **um** adjetivo se refere a **vários** substantivos, ou **vários**
+adjetivos a **um** substantivo.
+
+## Um adjetivo, vários substantivos
+
+Quando um adjetivo (**posposto** ou **anteposto**) se refere a mais de um substantivo, a
+concordância varia conforme a posição, como mostra a @fig-concordancia-nominal.
+
+::: {#fig-concordancia-nominal}
+
+```{.tikz}
+%%| filename: concordancia-nominal
+%%| alt: Diagrama com as regras do adjetivo referido a vários substantivos. Adjetivo posposto (depois): concorda com o mais próximo, ou vai ao plural (masculino se houver gêneros diferentes). Exemplo: livro e revista antigos, ou livro e revista antiga. Adjetivo anteposto (antes): geralmente concorda com o mais próximo. Exemplo: velha mesa e armário.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=54mm, minimum height=32mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{Adjetivo POSPOSTO}\\{\scriptsize (depois dos substantivos)}\\[4pt] • concorda com o \textbf{mais próximo}\\ \emph{ou} vai ao \textbf{plural}\\ • gêneros diferentes no plural $\to$ \textbf{masculino}\\[3pt] {\scriptsize ``livro e revista \textbf{antiga}''\\ ``livro e revista \textbf{antigos}''}};
+  \node[cx, draw=manualred, fill=manualred!8, right=6mm of a] (b) {\textbf{Adjetivo ANTEPOSTO}\\{\scriptsize (antes dos substantivos)}\\[4pt] • em geral concorda com o \textbf{mais próximo}\\[3pt] {\scriptsize ``\textbf{velha} mesa e armário''\\ ``\textbf{belo} carro e casa''}};
+\end{tikzpicture}
+```
+
+Um adjetivo referido a vários substantivos: **posposto**, concorda com o mais próximo ou
+vai ao plural (masculino, se houver gêneros diferentes); **anteposto**, geralmente
+concorda com o mais próximo.
+:::
+
+- **Adjetivo posposto** (depois): concorda com o **mais próximo** ("livro e revista
+  **antiga**") **ou** vai ao **plural** ("livro e revista **antigos**" — masculino,
+  porque há gêneros diferentes).
+- **Adjetivo anteposto** (antes): em geral concorda com o **mais próximo** ("**velha**
+  mesa e cadeira"; "**belo** carro e casa").
+
+### Vários adjetivos, um substantivo
+
+Quando vários adjetivos qualificam um substantivo plural, há duas construções:
+
+- substantivo no **plural** + adjetivos no singular: "as línguas **portuguesa e
+  espanhola**";
+- substantivo no **singular** repetindo o artigo: "a língua **portuguesa** e a
+  **espanhola**".
+
+## Casos especiais (os campeões de prova)
+
+::: {.callout-important}
+## As palavras que variam (ou não)
+- **anexo, incluso, obrigado, mesmo, próprio, leso**: são **adjetivos** e **concordam** —
+  "Seguem **anexas** as fotos"; "**Inclusas** as taxas"; "Muito **obrigada**" (dito por
+  mulher); "Elas **mesmas** resolveram".
+- **em anexo**: locução **invariável** — "Enviei as fotos **em anexo**".
+- **meio**: como **numeral/adjetivo** (= metade), concorda — "**meia** entrada", "**meia**
+  hora"; como **advérbio** (= um pouco), é **invariável** — "Ela está **meio** cansada"
+  (não "meia cansada").
+- **bastante**: como **adjetivo** (= muitos), concorda — "**bastantes** livros"; como
+  **advérbio** (= muito), invariável — "Eles falaram **bastante**".
+- **só/sós**: como **adjetivo** (= sozinho), concorda — "Elas ficaram **sós**"; como
+  **advérbio** (= somente), invariável — "**Só** elas vieram".
+:::
+
+::: {.callout-important}
+## "É bom", "é proibido", "é necessário": a regra do artigo
+Essas expressões (verbo *ser* + adjetivo) concordam **conforme haja ou não determinante**
+antes do substantivo:
+
+- **Sem** artigo/determinante → **invariável** (masculino singular): "É **proibido**
+  entrada"; "Água é **bom** para a saúde"; "É **necessário** paciência".
+- **Com** artigo/determinante → **concorda**: "É **proibida** a entrada"; "A água é
+  **boa**"; "É **necessária** muita paciência".
+
+Regra prática: com determinante, o adjetivo concorda; sem determinante, fica no
+masculino singular.
+:::
+
+## Palavras sempre invariáveis
+
+Algumas palavras **nunca** variam, apesar da tentação:
+
+- **menos**: sempre invariável — "**menos** pessoas" (nunca "menas").
+- **alerta**: invariável — "Os soldados estão **alerta**".
+- **pseudo**: invariável — "**pseudo**-heroínas".
+- **salvo, exceto, tirante** (= exceção): invariáveis — "Todos vieram, **salvo** as
+  crianças".
+
+## 📋 Quadro-resumo
+
+| Caso | Regra | Exemplo |
+|---|---|---|
+| **Regra geral** | concorda em gênero e número | "alunos **dedicados**" |
+| **Adjetivo posposto, vários subst.** | mais próximo ou plural (masc. se gêneros dif.) | "livro e revista **antiga/antigos**" |
+| **anexo, obrigado, mesmo** | concordam (adjetivos) | "Seguem **anexas** as notas" |
+| **meio** | metade (concorda) × um pouco (invariável) | "**meia** hora" × "**meio** triste" |
+| **é proibido/bom** | sem artigo: invariável; com artigo: concorda | "é proibido entrada" × "é proibida a entrada" |
+| **menos, alerta** | invariáveis | "**menos** casas", "**alerta**" |
+
+Em uma linha: a concordância nominal harmoniza o adjetivo com o substantivo em **gênero e
+número**; nos casos especiais, atenção a *meio* (metade × um pouco), *anexo/obrigado*
+(concordam), *é proibido/bom* (concorda só com determinante) e às invariáveis
+(*menos*, *alerta*).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **"Ela está meia cansada".** *Meio* aqui é **advérbio** (= um pouco), invariável: "ela
+  está **meio** cansada".
+- **"Menas pessoas".** *Menos* é **sempre invariável**: "**menos** pessoas". "Menas" não
+  existe.
+- **"Muito obrigado" dito por mulher.** *Obrigado* concorda: mulher diz "muito
+  **obrigada**".
+- **"É proibida entrada".** Sem determinante, invariável: "é **proibido** entrada"; com
+  determinante: "é **proibida** a entrada".
+- **"Segue anexo as fotos".** *Anexo* concorda: "seguem **anexas** as fotos" (ou "em
+  anexo", invariável).
+
+## ✍️ Exercícios
+
+**1.** Faça a concordância: "Comprei uma bolsa e um sapato ___ (caro)."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Duas possibilidades corretas (adjetivo **posposto** a substantivos de gêneros diferentes):
+"uma bolsa e um sapato **caros**" (plural, **masculino** — porque há gêneros diferentes) ou
+"uma bolsa e um sapato **caro**" (concordando com o mais próximo, *sapato*, masculino
+singular). Ambas são aceitas pela norma.
+:::
+
+**2.** (Estilo ENEM) Assinale a concordância **correta**:
+
+a) Ela ficou meia nervosa;
+b) Seguem anexo os documentos;
+c) É proibida a entrada de estranhos;
+d) Comprei menas frutas hoje;
+e) Muito obrigado, disse a moça.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "É **proibida** a entrada": há o determinante *a* antes de *entrada*,
+então o adjetivo **concorda** (feminino singular). As demais erram: "meio nervosa" (a —
+advérbio invariável); "seguem **anexos**" (b — concorda); "**menos** frutas" (d — sempre
+invariável); "muito **obrigada**" (e — dito por mulher).
+:::
+
+**3.** Distinga o uso de *meio* em: (a) "Comi ___ (meio) maçã"; (b) "Ela está ___ (meio)
+triste".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Comi **meia** maçã" — *meio* como **numeral/adjetivo** (= metade), concorda com *maçã*
+(feminino) → **meia**. (b) "Ela está **meio** triste" — *meio* como **advérbio** (= um
+pouco), **invariável**, modificando o adjetivo *triste* → **meio** (nunca "meia triste").
+:::
+
+**4.** Complete: (a) "Seguem ___ (anexo) as certidões"; (b) "Enviei as fotos ___ (em
+anexo)".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Seguem **anexas** as certidões" — *anexo* é **adjetivo** e **concorda** com *certidões*
+(feminino plural). (b) "Enviei as fotos **em anexo**" — a locução *em anexo* é
+**invariável**, não muda. As duas formas ("anexas" adjetivo / "em anexo" locução) são
+corretas em suas construções.
+:::
+
+**5.** Faça a concordância de "é bom/necessário": (a) "___ necessário paciência"; (b)
+"___ necessária muita paciência".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "É **necessário** paciência" — **sem** determinante antes de *paciência*, o adjetivo
+fica **invariável** (masculino singular). (b) "É **necessária** muita paciência" — **com**
+o determinante *muita*, o adjetivo **concorda** com *paciência* (feminino) →
+**necessária**. A presença do determinante aciona a concordância.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa **incorreta**:
+
+a) Elas mesmas fizeram o trabalho;
+b) Bastantes alunos compareceram;
+c) Há menos vagas este ano;
+d) As tropas permaneceram alertas;
+e) Vão em anexo os comprovantes.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** O correto é "As tropas permaneceram **alerta**": *alerta* é
+**invariável** (não "alertas"). As demais estão corretas: "elas **mesmas**" (concorda),
+"**bastantes** alunos" (adjetivo = muitos, concorda), "**menos** vagas" (invariável), "**em
+anexo**" (locução invariável).
+:::
+
+**7.** Explique a diferença entre "só" adjetivo e "só" advérbio, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Como **adjetivo** (= sozinho, sós), *só* **concorda** em número: "Elas ficaram **sós**" (=
+sozinhas); "Ele estava **só**". Como **advérbio** (= somente, apenas), *só* é
+**invariável**: "**Só** elas vieram" (= somente elas); "Comprei **só** dois". Teste: se
+equivale a "sozinho", concorda; se equivale a "somente", não varia.
+:::
+
+**8.** Corrija: "As portas ficaram meio abertas e as janelas, meias fechadas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"As portas ficaram **meio** abertas e as janelas, **meio** fechadas." Em ambos os casos,
+*meio* é **advérbio** (= um pouco, parcialmente), modificando os adjetivos *abertas*/
+*fechadas*, e portanto **invariável**. "Meias fechadas" está errado — *meio* advérbio
+nunca varia.
+:::
+
+**9.** Faça a concordância de vários adjetivos com um substantivo: "Estudo as literaturas
+___ e ___ (brasileiro, português)."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Duas construções corretas: (1) substantivo no plural + adjetivos no singular — "as
+literaturas **brasileira e portuguesa**"; (2) repetindo o artigo, substantivo no singular
+— "a literatura **brasileira** e a **portuguesa**". Ambas exprimem que se trata de duas
+literaturas distintas.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Vão anexo os documentos', a
+concordância está correta."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Anexo* é **adjetivo** e deve **concordar** com *os documentos* (masculino
+plural): "Vão **anexos** os documentos". A forma "anexo" (singular) não concorda com o
+substantivo plural. Alternativamente, poder-se-ia usar a locução invariável: "Vão **em
+anexo** os documentos". Mas "vão anexo os documentos" está incorreto.
+:::
+
+## 📚 Referências
+
+As regras de concordância nominal, incluindo os casos especiais (*anexo*, *meio*, *é
+proibido*), seguem Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]. A variação
+entre norma e uso na concordância nominal do português brasileiro é discutida por Bagno
+[@bagno2011]. A regência — a relação entre verbos/nomes e seus complementos preposicionados
+— é o tema dos capítulos 52 e 53.
+
+::: {#refs}
 :::
