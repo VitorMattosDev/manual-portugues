@@ -99,13 +99,18 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 89 | Português brasileiro e português europeu | `capitulos/cap-89-pb-e-pe.qmd` | 14 | ✅ 2026-07-15 |
 | 90 | Oralidade e escrita | `capitulos/cap-90-oralidade-e-escrita.qmd` | 14 | ✅ 2026-07-15 |
 | 91 | Preconceito linguístico e política linguística | `capitulos/cap-91-preconceito-linguistico.qmd` | 14 | ✅ 2026-07-15 |
-| 92 | Do latim ao galego-português | `capitulos/cap-92-do-latim-ao-galego-portugues.qmd` | 15 | ⬜ |
-| 93 | O português arcaico e o português clássico | `capitulos/cap-93-portugues-arcaico-classico.qmd` | 15 | ⬜ |
-| 94 | A formação do português brasileiro | `capitulos/cap-94-formacao-portugues-brasileiro.qmd` | 15 | ⬜ |
-| 95 | A lusofonia: o português no mundo | `capitulos/cap-95-lusofonia.qmd` | 15 | ⬜ |
-| 96 | Estilística: fundamentos | `capitulos/cap-96-estilistica-fundamentos.qmd` | 15 | ⬜ |
-| 97 | Versificação: métrica, rima e ritmo | `capitulos/cap-97-versificacao.qmd` | 15 | ⬜ |
-| 98 | Noções de análise literária e estilo | `capitulos/cap-98-analise-literaria-estilo.qmd` | 15 | ⬜ |
+| 92 | Do latim ao galego-português | `capitulos/cap-92-do-latim-ao-galego-portugues.qmd` | 15 | ✅ 2026-07-15 |
+| 93 | O português arcaico e o português clássico | `capitulos/cap-93-portugues-arcaico-classico.qmd` | 15 | ✅ 2026-07-15 |
+| 94 | A formação do português brasileiro | `capitulos/cap-94-formacao-portugues-brasileiro.qmd` | 15 | ✅ 2026-07-15 |
+| 95 | A lusofonia: o português no mundo | `capitulos/cap-95-lusofonia.qmd` | 15 | ✅ 2026-07-15 |
+| 96 | Estilística: fundamentos | `capitulos/cap-96-estilistica-fundamentos.qmd` | 15 | ✅ 2026-07-15 |
+| 97 | Versificação: métrica, rima e ritmo | `capitulos/cap-97-versificacao.qmd` | 15 | ✅ 2026-07-15 |
+| 98 | Noções de análise literária e estilo | `capitulos/cap-98-analise-literaria-estilo.qmd` | 15 | ✅ 2026-07-15 |
+
+## Situação: MANUAL CONCLUÍDO ✅
+
+Todos os **98 capítulos** dos **15 volumes** estão concluídos (2026-07-15). As três fases foram
+fechadas na ordem prevista pela estratégia de fatia vertical.
 
 ## Progresso por fase
 
