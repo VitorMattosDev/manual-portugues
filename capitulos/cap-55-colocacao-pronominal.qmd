@@ -4,22 +4,291 @@ title: "Colocação pronominal"
 
 # Colocação pronominal {#sec-cap-55}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 8 — Sintaxe III: Concordância, Regência e Colocação.
+> "Antes, no meio ou depois do verbo: a posição do pronome átono é onde a norma culta
+> mais se distancia da fala brasileira."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o Volume 8 com a **colocação pronominal** — o estudo da **posição** dos pronomes
+oblíquos átonos (*me, te, se, o, a, lhe, nos, vos, os, as, lhes*) em relação ao verbo.
+São três posições possíveis: **próclise** (antes do verbo: "*me* diga"), **mesóclise** (no
+meio: "dir-*se*-ia") e **ênclise** (depois: "diga-*me*"). É, provavelmente, o ponto em que
+a norma-padrão mais diverge do português brasileiro falado — nós dizemos naturalmente "*me*
+empresta", que a norma clássica condena em início de frase.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo apresenta as regras da colocação segundo a norma-padrão, com foco nas
+**palavras atrativas** que exigem a próclise (o segredo de quase todas as questões), e
+faz a ponte, sem prescritivismo, com o uso real brasileiro. É um capítulo essencial para
+concursos e um ótimo exemplo da distinção norma culta × norma-padrão (@sec-cap-03).
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** próclise, mesóclise e ênclise;
+- **Reconhecer** as palavras atrativas que exigem próclise;
+- **Aplicar** as regras de colocação em locuções verbais;
+- **Empregar** a mesóclise nos tempos que a exigem;
+- **Relacionar** a norma-padrão ao uso brasileiro real;
+- **Corrigir** a colocação pronominal conforme a norma.
+
+## As três posições
+
+A @fig-colocacao apresenta as três posições do pronome átono.
+
+::: {#fig-colocacao}
+
+```{.tikz}
+%%| filename: colocacao
+%%| alt: Diagrama com as três posições do pronome oblíquo átono em relação ao verbo. Próclise: pronome antes do verbo, exemplo não me diga. Mesóclise: pronome no meio do verbo, exemplo dir-se-ia, só em futuro do presente e do pretérito. Ênclise: pronome depois do verbo, exemplo diga-me, posição padrão quando nada atrai.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, text width=42mm, minimum height=22mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{PRÓCLISE}\\{\scriptsize pronome \emph{antes} do verbo}\\[4pt] ``Não \textbf{me} diga.''\\ {\scriptsize (palavra atrativa exige)}};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, right=5mm of a] (b) {\textbf{MESÓCLISE}\\{\scriptsize pronome \emph{no meio} do verbo}\\[4pt] ``Dir-\textbf{se}-ia.''\\ {\scriptsize (só futuro pres./pret.)}};
+  \node[cx, draw=manualred, fill=manualred!8, right=5mm of b] (c) {\textbf{ÊNCLISE}\\{\scriptsize pronome \emph{depois} do verbo}\\[4pt] ``Diga-\textbf{me}.''\\ {\scriptsize (posição padrão)}};
+\end{tikzpicture}
+```
+
+As três posições do pronome oblíquo átono: **próclise** (antes, exigida por palavra
+atrativa), **mesóclise** (no meio, só no futuro) e **ênclise** (depois, a posição
+padrão).
+:::
+
+- **Próclise**: pronome **antes** do verbo — "*me* diga", "não *se* mova". Exigida por
+  uma **palavra atrativa**.
+- **Mesóclise**: pronome **no meio** do verbo — "dar-*se*-ia", "far-*me*-á". Só nos
+  futuros (do presente e do pretérito), quando não há atrativo.
+- **Ênclise**: pronome **depois** do verbo — "diga-*me*", "sentou-*se*". A posição
+  "padrão" quando nada exige próclise.
+
+## A próclise e as palavras atrativas
+
+A regra que resolve a maioria das questões: usa-se a **próclise** quando há, antes do
+verbo, uma **palavra atrativa**. As principais categorias:
+
+::: {.callout-important}
+## As palavras que atraem o pronome (próclise)
+1. **Advérbios**: "**Nunca** *me* disseram", "**Aqui** *se* trabalha bem". (Se houver
+   pausa/vírgula após o advérbio, a atração se desfaz.)
+2. **Palavras negativas** (não, nunca, jamais, ninguém, nada, nenhum): "**Não** *me*
+   toque", "**Ninguém** *o* viu".
+3. **Pronomes relativos** (que, quem, onde, o qual): "O livro **que** *me* deste".
+4. **Conjunções subordinativas** (que, se, quando, embora, porque): "Disse **que** *se*
+   arrependia", "**Quando** *te* vi".
+5. **Pronomes indefinidos e demonstrativos** (tudo, alguém, isto): "**Tudo** *se*
+   resolve", "**Isto** *me* preocupa".
+6. **Advérbios interrogativos e frases exclamativas/optativas**: "**Por que** *me*
+   chamaram?", "**Deus** *o* abençoe!".
+
+Regra de ouro: **palavra atrativa antes do verbo → próclise obrigatória** (na
+norma-padrão).
+:::
+
+## A mesóclise
+
+A **mesóclise** — o pronome encravado no meio do verbo — é hoje rara e formal, mas
+cobrada. Usa-se **apenas** com verbos no **futuro do presente** ou **futuro do
+pretérito**, **quando não há palavra atrativa** que exija a próclise:
+
+- "Convidá-lo-ei para a festa." (futuro do presente: convidar + o + ei)
+- "Far-se-ia justiça." (futuro do pretérito)
+
+**Mas**: se houver palavra atrativa, a próclise vence a mesóclise — "**Não** *o*
+convidarei" (não "não convidá-lo-ei"); "**Ninguém** *se* arrependeria".
+
+## A ênclise
+
+A **ênclise** (pronome depois) é a posição usada quando **nada** exige a próclise ou a
+mesóclise. É obrigatória em alguns casos:
+
+- **Verbo iniciando a oração**: "Diga-me a verdade" (não se inicia frase com próclise, na
+  norma clássica).
+- **Verbo no imperativo afirmativo**: "Sente-se!", "Cale-se!".
+- **Verbo no gerúndio** (sem preposição *em* nem atrativo): "Saiu, deixando-*me* só".
+- **Verbo no infinitivo impessoal** (em geral): "É bom conhecê-lo".
+
+## Colocação nas locuções verbais
+
+Nas locuções (auxiliar + principal), o pronome pode ligar-se ao **auxiliar** ou ao
+**principal**:
+
+- **Principal no infinitivo/gerúndio**: pronome pode vir depois do principal ou antes/
+  depois do auxiliar — "Vou dizer-*lhe*" / "Vou *lhe* dizer" / "*Lhe* vou dizer" (esta
+  mais formal). Com atrativo: "**Não** *lhe* vou dizer" / "**Não** vou dizer-*lhe*".
+- **Principal no particípio**: o pronome liga-se ao **auxiliar** — "Tinha-*me* dito" /
+  "**Não** *me* tinha dito" (nunca ao particípio: não "tinha dito-me").
+
+## Norma-padrão × uso brasileiro
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O "me dá" brasileiro
+O português brasileiro tem forte tendência à **próclise**, inclusive em início de frase —
+"*Me* empresta a caneta", "*Se* chama João" —, o que a norma-padrão clássica (baseada no
+português europeu) condena, exigindo ênclise ("Empresta-*me*", "Chama-*se*"). Essa é uma
+das divergências mais nítidas entre a **norma culta brasileira** real (que já aceita a
+próclise inicial em registro menos formal) e a **norma-padrão** das gramáticas
+(@sec-cap-03). Em prova e texto formal, siga a norma-padrão; mas saiba que "me dá" não é
+"erro" no sistema do PB — é a norma culta falada.
+:::
+
+## 📋 Quadro-resumo
+
+| Posição | Quando | Exemplo |
+|---|---|---|
+| **Próclise** | palavra atrativa antes do verbo | "Não *me* viu"; "que *se* foi" |
+| **Mesóclise** | futuro (pres./pret.) sem atrativo | "Dir-*se*-á"; "Far-*me*-ia" |
+| **Ênclise** | nada atrai; início de oração; imperativo afirm. | "Diga-*me*"; "Sente-*se*" |
+| **Locução (particípio)** | pronome no auxiliar | "Tinha-*me* dito" |
+
+Palavras atrativas (próclise): advérbios, negativas, relativos, conjunções
+subordinativas, indefinidos, demonstrativos, interrogativos.
+
+Em uma linha: a **próclise** (pronome antes) é exigida por **palavras atrativas**
+(negação, advérbio, relativo, conjunção subordinativa...); a **mesóclise** (no meio) só
+ocorre no **futuro** sem atrativo; a **ênclise** (depois) é o padrão e é obrigatória no
+início de oração e no imperativo afirmativo.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Ênclise onde há palavra atrativa.** "Não *me* diga" (próclise), não "não diga-me". A
+  negação atrai o pronome.
+- **Mesóclise com atrativo.** "**Não** *o* farei" (próclise), não "não fá-lo-ei". Atrativo
+  vence a mesóclise.
+- **Próclise em início de frase (na norma-padrão).** A norma pede ênclise: "Diga-*me*",
+  não "*Me* diga" (embora seja o uso brasileiro corrente).
+- **Pronome ligado ao particípio.** "Tinha-*me* dito" (no auxiliar), nunca "tinha
+  dito-*me*".
+- **Esquecer a ênclise do imperativo afirmativo.** "Sente-*se*", "Cale-*se*" — ênclise
+  obrigatória.
+
+## ✍️ Exercícios
+
+**1.** Classifique a colocação: (a) "Diga-me a verdade"; (b) "Não me diga nada"; (c)
+"Dir-se-ia que choveu".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **ênclise** (pronome *me* depois do verbo *diga*; verbo inicia a oração). (b)
+**próclise** (pronome *me* antes; atraído pela palavra negativa *não*). (c) **mesóclise**
+(pronome *se* no meio do verbo *dir-se-ia*, futuro do pretérito sem atrativo).
+:::
+
+**2.** (Estilo ENEM) Assinale a colocação pronominal de acordo com a norma-padrão:
+
+a) Me empresta o livro;
+b) Nunca digo-lhe mentiras;
+c) Ninguém se moveu;
+d) Convidá-lo-ei, mas não o farei (contraditório à parte);
+e) Tinha dito-me a verdade.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Ninguém **se** moveu": a palavra negativa/indefinida *ninguém* atrai
+o pronome → próclise correta. As demais erram: "**Empresta-me**" (início de frase, ênclise
+na norma); "nunca **lhe** digo" (advérbio negativo atrai); "tinha-**me** dito" (pronome no
+auxiliar). A (c) segue a norma-padrão.
+:::
+
+**3.** Corrija a colocação conforme a norma-padrão: "Quando vi-o, cumprimentei-lhe."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Quando **o** vi, cumprimentei-**o**." Correções: (1) "quando vi-o" → "quando **o** vi": a
+conjunção subordinativa *quando* é palavra atrativa → **próclise**. (2) "cumprimentei-lhe"
+→ "cumprimentei-**o**": *cumprimentar* é transitivo direto, exige o pronome *o* (não
+*lhe*); e, sem atrativo, mantém-se a ênclise. (Erro duplo: colocação e escolha do pronome.)
+:::
+
+**4.** Explique por que "Não se esqueça" tem próclise.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque há uma **palavra atrativa** antes do verbo: a **negação** *não*. Palavras
+negativas (não, nunca, jamais, ninguém, nada) atraem o pronome oblíquo para **antes** do
+verbo (próclise). Por isso "**Não** *se* esqueça", e não "não esqueça-se". Sem a negação,
+no imperativo afirmativo, seria ênclise: "Esqueça-se disso".
+:::
+
+**5.** Coloque o pronome corretamente na locução: "Eu ___ (haver de contar) tudo" (pronome
+*lhe*).
+
+::: {.callout-tip collapse="true"}
+## Solução
+Sem atrativo: "Eu **hei de contar-lhe** tudo" ou "Eu **hei de lhe contar** tudo" (o
+pronome liga-se ao verbo principal *contar*, no infinitivo, por ênclise, ou vem proclítico
+a ele). Com atrativo seria: "Não **lhe** hei de contar". Nas locuções com infinitivo, o
+pronome tem mobilidade, ligando-se ao auxiliar ou ao principal.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que a próclise é **obrigatória**:
+
+a) Entreguei-lhe o documento;
+b) Que Deus o proteja;
+c) Sentaram-se à mesa;
+d) Contar-te-ei a história;
+e) Levante-se agora.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Que Deus **o** proteja": a conjunção *que* (e o sentido optativo)
+atrai o pronome → próclise obrigatória. As demais são ênclises (a, c, e) ou mesóclise (d),
+corretas em seus contextos por não haver atrativo.
+:::
+
+**7.** Reescreva usando mesóclise: "Eu direi a verdade a ela" (com o pronome *lhe*).
+
+::: {.callout-tip collapse="true"}
+## Solução
+"**Dir-lhe-ei** a verdade." O verbo *dizer* no **futuro do presente** (direi), sem palavra
+atrativa e iniciando a oração, exige a **mesóclise**: o pronome *lhe* encrava-se no meio
+do verbo (dir- + lhe + -ei = dir-lhe-ei). Se houvesse atrativo: "Não **lhe** direi"
+(próclise).
+:::
+
+**8.** Distinga a colocação nas locuções com particípio × infinitivo, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Com **particípio**, o pronome liga-se ao **auxiliar**: "Tinha-**me** contado" / "Não
+**me** tinha contado" (nunca ao particípio: não "tinha contado-me"). Com **infinitivo**
+(ou gerúndio), o pronome tem **mobilidade**, podendo ligar-se ao auxiliar ou ao principal:
+"Vou contar-**lhe**" / "Vou **lhe** contar" / "**Lhe** vou contar". O particípio é mais
+rígido; o infinitivo, mais flexível.
+:::
+
+**9.** Comente, à luz da distinção norma culta × norma-padrão, a frase "Me empresta a
+caneta".
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Me empresta a caneta" apresenta **próclise em início de frase**, condenada pela
+**norma-padrão** clássica (que exigiria a ênclise: "Empresta-me a caneta"). No entanto, no
+**português brasileiro** real, a próclise inicial é a colocação **natural e corrente**,
+inclusive entre falantes cultos, em registro informal — é a norma culta falada, não um
+"erro" do sistema. Trata-se de um caso claro de divergência entre norma-padrão (das
+gramáticas) e norma culta brasileira (uso real). Em texto formal/prova, usa-se a ênclise;
+na fala, a próclise é legítima.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Jamais lhe direi a verdade', a
+próclise está corretamente empregada."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** "Jamais **lhe** direi a verdade": o advérbio **negativo** *jamais* é palavra
+atrativa e exige a **próclise** (pronome antes do verbo). A colocação está de acordo com a
+norma-padrão. Sem o atrativo, o futuro exigiria mesóclise ("Dir-lhe-ei"); com o *jamais*,
+a próclise vence.
+:::
+
+## 📚 Referências
+
+As regras de colocação pronominal seguem Bechara [@bechara2009] e Cunha & Cintra
+[@cunhacintra2017]; a divergência entre a norma-padrão e a colocação real do português
+brasileiro (a próclise generalizada) é discutida por Bagno [@bagno2011], Faraco
+[@faraco2008] e Castilho [@castilho2010], e ilustra bem a distinção do @sec-cap-03. Com
+este capítulo encerra-se o Volume 8; o Volume 9 trata da pontuação.
+
+::: {#refs}
 :::

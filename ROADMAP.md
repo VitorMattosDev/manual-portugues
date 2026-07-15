@@ -56,13 +56,13 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 46 | Orações subordinadas adverbiais | `capitulos/cap-46-subordinadas-adverbiais.qmd` | 7 | ✅ 2026-07-14 |
 | 47 | Orações reduzidas | `capitulos/cap-47-oracoes-reduzidas.qmd` | 7 | ✅ 2026-07-14 |
 | 48 | Análise sintática integral: método e prática | `capitulos/cap-48-analise-sintatica-integral.qmd` | 7 | ✅ 2026-07-14 |
-| 49 | Concordância verbal I: regra geral e casos frequentes | `capitulos/cap-49-concordancia-verbal-i.qmd` | 8 | ⬜ |
-| 50 | Concordância verbal II: casos especiais | `capitulos/cap-50-concordancia-verbal-ii.qmd` | 8 | ⬜ |
-| 51 | Concordância nominal | `capitulos/cap-51-concordancia-nominal.qmd` | 8 | ⬜ |
-| 52 | Regência verbal | `capitulos/cap-52-regencia-verbal.qmd` | 8 | ⬜ |
-| 53 | Regência nominal | `capitulos/cap-53-regencia-nominal.qmd` | 8 | ⬜ |
-| 54 | Crase | `capitulos/cap-54-crase.qmd` | 8 | ⬜ |
-| 55 | Colocação pronominal | `capitulos/cap-55-colocacao-pronominal.qmd` | 8 | ⬜ |
+| 49 | Concordância verbal I: regra geral e casos frequentes | `capitulos/cap-49-concordancia-verbal-i.qmd` | 8 | ✅ 2026-07-15 |
+| 50 | Concordância verbal II: casos especiais | `capitulos/cap-50-concordancia-verbal-ii.qmd` | 8 | ✅ 2026-07-15 |
+| 51 | Concordância nominal | `capitulos/cap-51-concordancia-nominal.qmd` | 8 | ✅ 2026-07-15 |
+| 52 | Regência verbal | `capitulos/cap-52-regencia-verbal.qmd` | 8 | ✅ 2026-07-15 |
+| 53 | Regência nominal | `capitulos/cap-53-regencia-nominal.qmd` | 8 | ✅ 2026-07-15 |
+| 54 | Crase | `capitulos/cap-54-crase.qmd` | 8 | ✅ 2026-07-15 |
+| 55 | Colocação pronominal | `capitulos/cap-55-colocacao-pronominal.qmd` | 8 | ✅ 2026-07-15 |
 | 56 | Fundamentos da pontuação | `capitulos/cap-56-fundamentos-pontuacao.qmd` | 9 | ⬜ |
 | 57 | A vírgula | `capitulos/cap-57-a-virgula.qmd` | 9 | ⬜ |
 | 58 | Ponto e vírgula, dois-pontos e ponto final | `capitulos/cap-58-ponto-virgula-dois-pontos.qmd` | 9 | ⬜ |
