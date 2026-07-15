@@ -4,22 +4,283 @@ title: "Concordância verbal I: regra geral e casos frequentes"
 
 # Concordância verbal I: regra geral e casos frequentes {#sec-cap-49}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 8 — Sintaxe III: Concordância, Regência e Colocação.
+> "O verbo é fiel ao seu sujeito: com ele concorda em número e pessoa, aconteça o que
+> acontecer."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 8, dedicado à **sintaxe de relação** — concordância, regência e
+colocação —, com a **concordância verbal**. A regra é aparentemente trivial: o verbo
+concorda com o sujeito em **número e pessoa**. "O aluno estuda" / "Os alunos estudam". Mas
+o diabo mora nos detalhes: sujeitos compostos, coletivos, expressões partitivas,
+porcentagens, o sujeito deslocado, o verbo *ser*... É nesses casos que se concentram os
+erros — e as questões de prova.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este primeiro capítulo estabelece a **regra geral** e trata dos **casos frequentes** de
+concordância verbal, que cobrem a maioria das situações. O @sec-cap-50 tratará dos casos
+especiais (verbos impessoais, partícula *se*, sujeito oracional). Dominar a concordância
+verbal é indispensável para a escrita culta e é um dos temas mais recorrentes em
+concursos.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** a regra geral: verbo concorda com o sujeito em número e pessoa;
+- **Concordar** o verbo com sujeito composto (antes e depois do verbo);
+- **Resolver** a concordância com coletivos e expressões partitivas;
+- **Empregar** a concordância com porcentagens e números;
+- **Reconhecer** a concordância com pessoas gramaticais diferentes;
+- **Evitar** os erros mais comuns de concordância verbal.
+
+## A regra geral
+
+A regra fundamental: **o verbo concorda com o sujeito em número (singular/plural) e
+pessoa (1ª/2ª/3ª)**. Achado o sujeito (@sec-cap-37), o verbo o acompanha.
+
+- "**Eu** estudo" (1ª sing.) / "**Nós** estudamos" (1ª pl.).
+- "**O menino** brinca" / "**Os meninos** brincam".
+
+O desafio, portanto, quase nunca está na regra em si, mas em **identificar corretamente o
+sujeito** — muitos erros de concordância são, na verdade, erros de identificação do
+sujeito.
+
+::: {.callout-important}
+## O sujeito deslocado e os "intrusos"
+Cuidado com termos que se interpõem entre sujeito e verbo, ou com o sujeito posposto:
+
+- "A caixa de bombons **estava** aberta." (sujeito: *a caixa*, singular — não "os
+  bombons").
+- "**Chegaram** os convidados." (sujeito posposto: *os convidados*, plural → verbo no
+  plural).
+- "Faz**em** falta **dez reais**"? Não: "Falt**am** dez reais" (sujeito: *dez reais*).
+
+Sempre pergunte "quem?/o quê?" ao verbo, ignorando os termos intermediários (adjuntos,
+complementos nominais).
+:::
+
+## Concordância com sujeito composto
+
+Sujeito com dois ou mais núcleos. A @fig-sujeito-composto resume os casos.
+
+::: {#fig-sujeito-composto}
+
+```{.tikz}
+%%| filename: sujeito-composto
+%%| alt: Diagrama com as regras de concordância do sujeito composto. Antes do verbo: verbo obrigatoriamente no plural, exemplo João e Maria chegaram. Depois do verbo: verbo pode ir ao plural ou concordar com o núcleo mais próximo, exemplo chegou/chegaram João e Maria. Núcleos sinônimos ou em gradação: pode ficar no singular. Ligados por ou/nem: conforme o sentido.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=54mm, minimum height=15mm, inner sep=5pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{Sujeito composto ANTES do verbo}\\ $\to$ verbo no \textbf{plural} (obrigatório)\\ {\scriptsize ``João e Maria \textbf{chegaram}.''}};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, right=5mm of a] (b) {\textbf{Sujeito composto DEPOIS do verbo}\\ $\to$ plural \emph{ou} concorda com o mais próximo\\ {\scriptsize ``\textbf{Chegou/Chegaram} João e Maria.''}};
+  \node[cx, draw=manualred, fill=manualred!8, below=4mm of a, text width=114mm] (c) {\textbf{Ligados por \emph{ou}/\emph{nem}}: plural (se soma/inclui todos) ou singular (se exclui/individualiza) — ``Nem a chuva nem o frio \textbf{o impediram}.''};
+\end{tikzpicture}
+```
+
+Concordância do sujeito composto: antes do verbo, plural obrigatório; depois do verbo,
+plural ou concordância com o núcleo mais próximo; com *ou*/*nem*, conforme o sentido.
+:::
+
+- **Sujeito composto antes do verbo**: verbo no **plural** — "João **e** Maria
+  **chegaram**".
+- **Sujeito composto depois do verbo**: verbo no **plural** OU concordando com o núcleo
+  **mais próximo** — "**Chegaram** João e Maria" / "**Chegou** João e Maria" (ambas
+  aceitas).
+- **Núcleos ligados por *ou* / *nem***: plural se a ideia soma/inclui todos; singular se
+  exclui/individualiza — "Nem João nem Pedro **faltaram**" (plural, ambos); "Pedro ou
+  João **será** o eleito" (singular, exclusão — só um).
+- **Pessoas gramaticais diferentes**: prevalece a de **menor número** (1ª > 2ª > 3ª) —
+  "Eu e ele **viajaremos**" (1ª + 3ª → 1ª pl.: *nós*); "Tu e ele **sois/são**" (2ª + 3ª →
+  2ª pl. *vós* ou, no uso, 3ª pl.).
+
+## Concordância com coletivos e partitivos
+
+- **Coletivo no singular**: verbo no **singular** — "O **rebanho pastava** no campo" (não
+  "pastavam"). O coletivo já expressa o conjunto.
+- **Expressão partitiva** (*a maioria de*, *parte de*, *grande número de* + plural): o
+  verbo pode ir ao **singular** (concordando com o núcleo *maioria/parte*) ou ao
+  **plural** (com o termo plural) — "A maioria dos alunos **passou**/**passaram**".
+  Ambas aceitas; o plural enfatiza os indivíduos.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Porcentagens e números
+- **Porcentagem + substantivo**: o verbo concorda com o **substantivo** (ou com o
+  número) — "**25% dos alunos** faltaram" (plural, com *alunos*); "**1% da turma**
+  faltou" (singular). Sem substantivo, concorda com o número: "**25% querem** mudança" /
+  "**1% quer**".
+- **Expressões de quantidade aproximada** (*cerca de*, *mais de*): concordam com o
+  numeral — "**Mais de mil pessoas** compareceram"; mas "**Mais de um** aluno **faltou**"
+  (singular, por *um*).
+:::
+
+## Casos que confundem
+
+- ***Um e outro*, *nem um nem outro***: verbo no singular ou plural — "Um e outro
+  **compareceu**/**compareceram**".
+- ***Um dos que***: geralmente **plural** — "Ele é um dos alunos que **mais estudam**"
+  (dos que estudam, plural). Uso tradicional; admite-se o singular por ênfase.
+- **Sujeito = pronome de tratamento**: 3ª pessoa — "Vossa Excelência **decidirá**".
+
+## 📋 Quadro-resumo
+
+| Caso | Concordância | Exemplo |
+|---|---|---|
+| **Regra geral** | número e pessoa do sujeito | "Os alunos **estudam**" |
+| **Composto antes do verbo** | plural | "João e Ana **vieram**" |
+| **Composto depois do verbo** | plural ou com o mais próximo | "**Chegou/Chegaram** Ana e João" |
+| **Pessoas diferentes** | menor número (1ª>2ª>3ª) | "Eu e ele **iremos**" |
+| **Coletivo singular** | singular | "O grupo **saiu**" |
+| **Partitivo (a maioria de)** | singular ou plural | "A maioria **votou/votaram**" |
+| **Porcentagem** | com o substantivo/número | "30% dos votos **foram**..." |
+
+Em uma linha: o verbo concorda com o **sujeito** em número e pessoa; com sujeito composto
+antes do verbo, **plural**; depois, plural ou com o mais próximo; com coletivo, singular;
+com partitivos e porcentagens, conforme o núcleo — e o segredo é **identificar bem o
+sujeito**.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Concordar com o termo intermediário, não com o sujeito.** "A caixa de bombons
+  **estava** (não *estavam*) na mesa" — sujeito é *a caixa*.
+- **Esquecer o sujeito posposto no plural.** "**Faltam** dez reais", "**Existem**
+  problemas" — sujeito plural depois do verbo.
+- **Pôr coletivo no plural.** "O rebanho **pastava**" (singular), não "pastavam".
+- **Errar as pessoas diferentes.** "Eu e você **faremos**" (1ª pl.), não "farão".
+- **Duvidar do partitivo.** "A maioria dos alunos **passou/passaram**": ambas corretas —
+  não marque como erro.
+
+## ✍️ Exercícios
+
+**1.** Corrija se necessário: "A cesta de frutas estavam sobre a mesa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"A cesta de frutas **estava** sobre a mesa." O sujeito é *a cesta* (singular), não *as
+frutas* (que é adjunto/complemento nominal, termo intermediário). O verbo concorda com o
+núcleo do sujeito: *cesta* → **estava** (singular). Erro clássico de concordar com o termo
+mais próximo em vez do sujeito.
+:::
+
+**2.** (Estilo ENEM) Assinale a concordância **correta**:
+
+a) Faltam dez dias para a viagem;
+b) Existe muitos problemas aqui;
+c) A maioria dos alunos faltou (considere errado);
+d) Chegou os convidados;
+e) O grupo saíram cedo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (a).** "**Faltam** dez dias": o sujeito *dez dias* (plural, posposto) exige
+verbo no plural. As demais erram: "**Existem** muitos problemas" (b); "A maioria dos alunos
+faltou" está **correta** (c — a questão a marcaria como certa também, mas a alternativa
+que é seguramente correta e sem ressalva é a "a"); "**Chegaram** os convidados" (d); "O
+grupo **saiu**" (e). A resposta segura é (a).
+:::
+
+**3.** Faça a concordância: (a) "Tu e ele ___ (viajar) amanhã"; (b) "Eu e vocês ___
+(resolver) isso".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Tu e ele **viajareis**" (2ª + 3ª → 2ª pessoa do plural, *vós*) — ou, no uso corrente,
+"viajarão" (3ª pl.). (b) "Eu e vocês **resolveremos**" (1ª + 3ª → 1ª pessoa do plural,
+*nós*: prevalece a 1ª). Regra: entre pessoas diferentes, prevalece a de menor número (1ª >
+2ª > 3ª).
+:::
+
+**4.** Concorde o verbo com o sujeito composto: (a) antes — "O cão e o gato ___ (dormir)";
+(b) depois — "___ (dormir) o cão e o gato".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "O cão e o gato **dormem**" — sujeito composto **antes** do verbo → plural obrigatório.
+(b) "**Dormem** o cão e o gato" (plural) ou "**Dorme** o cão e o gato" (concordando com o
+núcleo mais próximo, *o cão*) — sujeito composto **depois** do verbo admite as duas
+concordâncias.
+:::
+
+**5.** Resolva a concordância partitiva: "A maioria dos torcedores ___ (comemorar) o gol."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Ambas as formas são corretas: "A maioria dos torcedores **comemorou**" (singular,
+concordando com o núcleo *maioria*) ou "A maioria dos torcedores **comemoraram**" (plural,
+concordando com *torcedores*, enfatizando os indivíduos). Com expressões partitivas
+(*a maioria de*, *parte de*) seguidas de plural, a norma admite as duas concordâncias.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa **correta**:
+
+a) 30% da população aprovam a medida;
+b) 1% dos eleitores decidiu a eleição;
+c) Mais de um candidato se enfrentaram;
+d) Cerca de mil pessoas compareceu;
+e) Nem um nem outro resolveram o caso (única forma).
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "1% dos eleitores **decidiu**" (concordando com *1%*, singular — ou
+poderia com *eleitores*; ambas ocorrem, mas a forma dada é aceitável). As demais erram:
+"30% da população **aprova**" (singular, com população) ou "aprovam" (com o número); "Mais
+de um candidato **se enfrentou**" (singular, por *um* — salvo reciprocidade); "Cerca de mil
+pessoas **compareceram**" (plural); e "Nem um nem outro" admite singular **e** plural
+(*resolveu*/*resolveram*), não só plural.
+:::
+
+**7.** Corrija: "O bando de pássaros voavam para o sul."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"O bando de pássaros **voava** para o sul." O sujeito é o **coletivo** *o bando*
+(singular), e o verbo concorda com ele: *voava*. "De pássaros" é adjunto/complemento
+nominal, termo intermediário que não puxa o verbo para o plural. (Admite-se o plural
+apenas na chamada concordância atrativa/estilística, mas a norma prefere o singular com o
+coletivo.)
+:::
+
+**8.** Explique a concordância de "Ele é um dos que mais trabalham".
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ele é um **dos que** mais **trabalham**": o verbo vai ao **plural** porque o relativo
+*que* refere-se a *os* (dos alunos/das pessoas que trabalham) — ele é um, dentre os que
+trabalham (plural). A concordância se faz com o antecedente plural do relativo, não com
+*um*. Uso tradicional; alguns admitem o singular ("um dos que mais trabalha") por ênfase,
+mas a forma culta preferida é o plural.
+:::
+
+**9.** Faça a concordância com *ou*: (a) "Pedro ou Paulo ___ (ser) o presidente"; (b) "O
+frio ou o calor ___ (incomodar) os idosos".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Pedro ou Paulo **será** o presidente" — **singular**, pois *ou* aqui exclui (só um
+será presidente). (b) "O frio ou o calor **incomodam** os idosos" — **plural**, pois *ou*
+não exclui (ambos podem incomodar; a ideia inclui os dois). Com *ou*, a concordância
+depende de o conectivo excluir (singular) ou incluir (plural).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Fazem-se necessárias
+reformas', a concordância está correta."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** "**Fazem-se** necessárias reformas" — trata-se de construção com o sujeito
+*reformas* (plural): "reformas se fazem necessárias" = reformas são necessárias. O verbo
+*fazer* (aqui como quase-ligação/passiva pronominal) concorda com o sujeito plural
+*reformas* → *fazem*. E o predicativo *necessárias* também concorda (feminino plural). A
+concordância no plural está correta.
+:::
+
+## 📚 Referências
+
+As regras de concordância verbal seguem Bechara [@bechara2009] e Cunha & Cintra
+[@cunhacintra2017], com os casos de concordância facultativa (partitivos, sujeito
+composto posposto) bem detalhados nessas obras. A discussão sobre a concordância no
+português brasileiro real — incluindo a variação — está em Bagno [@bagno2011] e Castilho
+[@castilho2010]. Os casos especiais (verbos impessoais, partícula *se*) vêm no
+@sec-cap-50.
+
+::: {#refs}
 :::
