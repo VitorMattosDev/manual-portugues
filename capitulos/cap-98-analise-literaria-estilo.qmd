@@ -4,22 +4,1105 @@ title: "Noções de análise literária e estilo"
 
 # Noções de análise literária e estilo {#sec-cap-98}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 15 — História da Língua e Estilística.
+> "Analisar não é dizer o que o texto quer dizer. É mostrar como ele diz."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Chegamos ao último capítulo. Ele trata de como ler um texto literário **inteiro** — e, para
+isso, usa tudo o que os quinze volumes construíram: a fonologia do @sec-cap-07, a sintaxe do
+Volume 6, a semântica do Volume 10, a textualidade do Volume 11, a variação do Volume 14, a
+estilística do @sec-cap-96 e a métrica do @sec-cap-97.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Comecemos pelo que a análise **não** é, porque as duas confusões mais comuns são exatamente
+opostas — e igualmente destrutivas.
+
+**Não é adivinhar a intenção do autor.** "O que Machado quis dizer?" é uma pergunta que não tem
+resposta verificável: Machado morreu, não deixou gabarito, e — mesmo que tivesse deixado — o
+texto pode fazer coisas que ele não planejou.
+
+**Não é relatar a própria emoção.** "Este poema me emocionou" é um fato sobre você, não sobre o
+poema. Interessante para você; inútil para quem quer entender o texto.
+
+Entre os dois erros, há um caminho — e ele é ensinável. É disso que trata o capítulo.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** as três etapas da análise: descrever, interpretar e julgar;
+- **Separar** autor, narrador e eu lírico — e reconhecer por que a distinção é decisiva;
+- **Identificar** os tipos de foco narrativo e seus efeitos;
+- **Evitar** a falácia intencional e a falácia afetiva;
+- **Aplicar** um roteiro de análise a um texto literário;
+- **Sustentar** uma interpretação com evidência textual.
+
+## As três etapas
+
+::: {.callout-important}
+## Descrever, interpretar, julgar — e nesta ordem
+A análise ruim mistura as três; a boa as **separa** e as faz **na ordem**.
+
+**1. DESCREVER** — o que **está** no texto. Verificável, e sobre o que todos devem concordar.
+
+- Que forma? (soneto, verso livre, conto, crônica)
+- Que metro, que rimas? (@sec-cap-97)
+- Que tempo verbal domina? Que pessoa?
+- Quem narra? Que léxico? Que sintaxe?
+
+**Nesta etapa não se interpreta nada.** Se dois leitores discordam aqui, um deles **está errado**
+— e a contagem resolve.
+
+**2. INTERPRETAR** — o que o que está no texto **faz**. Argumentável, e sustentado por (1).
+
+- Por que este metro, e não outro?
+- O que a escolha deste narrador produz?
+- Que efeito a quebra na terceira estrofe gera?
+
+**Aqui há espaço para divergência** — mas não para qualquer coisa: cada afirmação precisa
+**apontar** para um dado da descrição.
+
+**3. JULGAR** — se o texto é bom. Opinativo, e **opcional**.
+
+- Funcionou? Vale a pena?
+
+**A regra de ouro**: a etapa **2 depende** da **1**; a **3 depende** das duas. E a maioria dos
+alunos **pula direto para a 3** — "achei chato" — sem passar pelas outras. É como criticar uma
+ponte sem olhar para ela.
+
+**Por que a ordem importa** — e é o ponto que faz a análise ser ensinável:
+
+**A descrição é o chão comum.** Ela impede a interpretação de virar invenção. Se você afirma que
+"o poema é angustiado", eu posso perguntar: **onde**? E você tem de me mostrar — nos verbos, no
+ritmo, no léxico, no corte dos versos. Se não puder mostrar, sua afirmação é sobre **você**, não
+sobre o poema.
+
+**A consequência liberadora**: nem toda interpretação vale. Existe interpretação **errada** — a
+que a descrição **contradiz**. Dizer que *Pneumotórax* é um poema esperançoso é **errado**, e não
+por questão de gosto: o texto **não sustenta**.
+
+**E a consequência oposta, igualmente importante**: dentro do que a descrição sustenta, há **mais
+de uma** leitura possível. O texto **restringe**; não determina. Análise não é decodificação de
+mensagem cifrada — é **argumentação sobre evidência**.
+:::
+
+## Autor, narrador, eu lírico
+
+::: {#fig-instancias}
+
+```{.tikz}
+%%| filename: instancias
+%%| alt: Esquema das três instâncias de um texto literário e da distinção entre elas. Fora do texto, à esquerda, está o autor empírico: a pessoa de carne e osso, que tem certidão de nascimento e biografia, e que escreveu o texto. Uma linha vertical tracejada separa o mundo de fora do texto e o interior do texto. Dentro do texto está o narrador, ou o eu lírico no caso da poesia: uma construção de linguagem, uma voz criada pelo texto, que não tem existência fora dele. Dentro do texto, mais adiante, estão as personagens, também construções. Uma seta indica que o autor cria o narrador, e que o narrador narra as personagens. Uma caixa de destaque adverte que o narrador não é o autor, mesmo quando se parecem, mesmo quando o narrador tem o nome do autor, e mesmo quando o texto é autobiográfico, porque o eu que se narra já é uma construção. Outra caixa registra as duas falácias: a falácia intencional, que consiste em buscar a intenção do autor, e a falácia afetiva, que consiste em confundir o efeito sobre o leitor com a propriedade do texto. Uma nota final indica que a única evidência disponível é o texto.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  inst/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, font=\scriptsize, text width=34mm},
+  s/.style={-{Stealth[length=5pt]}, line width=1pt, draw=manualgray},
+]
+  % fronteira
+  \draw[line width=1.4pt, densely dashed, draw=manualred] (-2.3,-2.0) -- (-2.3,2.6);
+  \node[font=\scriptsize\bfseries, text=manualred, rotate=90, anchor=south] at (-2.45,0.3)
+    {a fronteira do texto};
+
+  \node[font=\scriptsize\bfseries, text=manualgray] at (-4.6,2.4) {FORA do texto};
+  \node[font=\scriptsize\bfseries, text=manualblue] at (2.2,2.4) {DENTRO do texto};
+
+  \node[inst, draw=manualgray, fill=manualgray!14] (aut) at (-4.6,1.3)
+    {\textbf{AUTOR EMPÍRICO}\\{\scriptsize pessoa de carne e osso}\\{\scriptsize certidão, biografia}};
+
+  \node[inst, draw=manualblue, fill=manualblue!14] (nar) at (0.3,1.3)
+    {\textbf{NARRADOR}\\(ou \textbf{EU LÍRICO})\\{\scriptsize \emph{construção de linguagem}}\\{\scriptsize voz \textbf{criada} pelo texto}};
+
+  \node[inst, draw=manualgreen, fill=manualgreen!12] (per) at (4.6,1.3)
+    {\textbf{PERSONAGENS}\\{\scriptsize também \emph{construções}}};
+
+  \draw[s] (aut) -- node[above, font=\scriptsize] {cria} (nar);
+  \draw[s, draw=manualblue] (nar) -- node[above, font=\scriptsize] {narra} (per);
+
+  \node[rounded corners=3pt, draw=manualred, fill=manualred!12, align=left,
+        font=\scriptsize, inner sep=4pt, text width=94mm] at (0.4,-0.6)
+    {\textbf{O narrador NÃO é o autor} --- mesmo quando se parecem, mesmo quando tem o
+     \textbf{nome} do autor,\\ e mesmo quando o texto é \textbf{autobiográfico}: o \emph{eu} que se
+     narra \textbf{já é uma construção}.};
+
+  \node[rounded corners=2pt, draw=manualyellow, fill=manualyellow!14, align=left,
+        font=\scriptsize, inner sep=4pt, text width=44mm] at (-2.6,-2.4)
+    {\textbf{Falácia INTENCIONAL}\\{\scriptsize buscar a \emph{intenção do autor}}};
+  \node[rounded corners=2pt, draw=manualyellow, fill=manualyellow!14, align=left,
+        font=\scriptsize, inner sep=4pt, text width=44mm] at (3.4,-2.4)
+    {\textbf{Falácia AFETIVA}\\{\scriptsize confundir o \emph{efeito sobre mim}}\\{\scriptsize com a propriedade do texto}};
+
+  \node[rounded corners=2pt, draw=manualgray, fill=manualgray!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=94mm] at (0.4,-3.4)
+    {A \textbf{única} evidência disponível é o \textbf{texto}.};
+\end{tikzpicture}
+```
+
+As três instâncias e a fronteira do texto. A distinção entre autor e narrador é o fundamento da
+análise — e o erro mais comum na sua ausência.
+
+:::
+
+Esta é **a** distinção do capítulo, e a mais cobrada em prova.
+
+| Instância | O que é | Onde está |
+|---|---|---|
+| **Autor empírico** | a **pessoa** — certidão de nascimento, biografia, opiniões | **fora** do texto |
+| **Narrador** / **eu lírico** | a **voz** que o texto cria | **dentro** do texto |
+| **Personagem** | as figuras narradas | **dentro** do texto |
+
+::: {.callout-important}
+## Por que o narrador nunca é o autor
+**A regra**: o narrador é uma **construção de linguagem**. Não existe fora do texto. Não tem
+biografia, não tem opiniões próprias, não pode ser entrevistado.
+
+**Os três casos que parecem exceções — e não são:**
+
+**1. Quando o narrador se parece com o autor.** Machado era irônico e seus narradores são irônicos.
+Ainda assim: o narrador de *Brás Cubas* é um **defunto autor** que escreve do além-túmulo. Machado
+não era defunto quando escreveu. **A semelhança não é identidade.**
+
+**2. Quando o narrador tem o nome do autor.** Alguns textos fazem isso deliberadamente — e é um
+**recurso**, não uma confissão. O "Machado" que aparecesse num conto de Machado seria uma
+**personagem chamada Machado**, e a graça do procedimento está justamente em fazer o leitor
+confundir.
+
+**3. Quando o texto é autobiográfico.** E aqui está o caso mais fino: **mesmo na autobiografia**, o
+*eu* que se narra **já é uma construção**. Quem escreve suas memórias **seleciona**, **ordena**,
+**interpreta** e **omite** — e o resultado é uma **personagem** feita com material da própria vida.
+
+**A prova**: você já contou a mesma história duas vezes, para pessoas diferentes, e ela saiu
+diferente. Qual era a verdadeira? Nenhuma — as duas eram **versões**. O *eu* narrado nunca coincide
+com o *eu* que narra, quanto mais com o que viveu.
+
+**Por que a distinção importa na prática — três consequências:**
+
+1. **O narrador pode mentir.** Dom Casmurro narra que Capitu o traiu. **Isso não é um fato do
+   romance** — é o que **ele diz**. E o romance inteiro depende de o leitor perceber que **está
+   ouvindo um lado**. Quem confunde narrador com autor lê o livro errado: acha que Machado está
+   afirmando o adultério, quando o que Machado fez foi construir um narrador **interessado**;
+2. **O narrador pode ser desprezível sem que o autor seja.** Um romance narrado por um assassino
+   não é apologia do assassinato. Confundir os dois é o erro que produz censura;
+3. **O eu lírico pode não sentir nada.** O poeta pode escrever um poema de amor sem estar
+   apaixonado. Pessoa: "O poeta é um fingidor." Não é cinismo — é **descrição técnica** do ofício.
+
+**A regra prática para a prova**: nunca escreva "o autor sente", "o autor quis dizer". Escreva "**o
+eu lírico**", "**o narrador**", "**o texto**". Não é preciosismo terminológico: é a diferença entre
+analisar o **texto** e especular sobre uma **pessoa** que você não conhece.
+:::
+
+### As duas falácias
+
+| Falácia | O erro | Por que falha |
+|---|---|---|
+| **Intencional** | buscar a **intenção do autor** | ela é **inacessível** e **irrelevante** — o texto faz coisas que o autor não planejou, e o que ele planejou e não realizou não está lá |
+| **Afetiva** | confundir o **efeito sobre mim** com a **propriedade do texto** | "me emocionou" é fato sobre **você** — outro leitor não se emociona, e o texto é o mesmo |
+
+**O que sobra quando se descartam as duas**: **o texto**. É a única evidência disponível — e, para
+a análise, é suficiente.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## A crítica moderada às falácias
+Convém não exagerar, porque a versão radical das falácias também erra.
+
+**Sobre a intencional**: saber que Bandeira era **tuberculoso** ilumina *Pneumotórax*. Saber que
+Camões esteve na Índia ilumina *Os Lusíadas*. O **contexto** é informação legítima, e ignorá-lo é
+empobrecer.
+
+**A distinção que resolve**: o contexto é **hipótese**, não **prova**. Ele **sugere** onde olhar;
+não **substitui** a evidência textual.
+
+- **Uso correto**: "Bandeira era tuberculoso, o que **talvez explique** a recorrência da doença em
+  sua obra — **e**, de fato, o poema apresenta [evidência textual]";
+- **Uso incorreto**: "Bandeira era tuberculoso, **logo** o poema é sobre sua doença" — pulando a
+  evidência.
+
+**Sobre a afetiva**: a emoção **não é irrelevante** — ela é o **ponto de partida**. Você analisa um
+poema **porque** ele lhe fez algo. O erro não é sentir: é **parar** aí.
+
+**A conversão correta**: transforme a emoção em **pergunta**.
+
+- **Não**: "este poema é triste";
+- **Mas**: "este poema me pareceu triste — **o que**, nele, produz isso?" E então: os verbos no
+  passado, o léxico da perda, o ritmo arrastado, a rima em /o/.
+
+**A emoção vira dado quando você a explica pelo texto.** Aí ela deixa de ser confissão e vira
+análise.
+:::
+
+## O foco narrativo
+
+Na narrativa, a pergunta decisiva é: **quem vê e quem conta?**
+
+| Foco | Quem narra | O que sabe | Efeito |
+|---|---|---|---|
+| **1ª pessoa protagonista** | a personagem principal | só o que **ela** sabe | intimidade + **parcialidade** — não confie |
+| **1ª pessoa testemunha** | uma personagem secundária | só o que **observa** | distância, mas ainda parcial |
+| **3ª pessoa onisciente** | um narrador de fora | **tudo**, inclusive o interior | autoridade, panorama |
+| **3ª pessoa limitada** | de fora, mas **colado** numa personagem | só o que **ela** sabe | proximidade **sem** intimidade |
+| **3ª pessoa observador** | de fora, **câmera** | só o **exterior** | frieza, objetividade |
+
+::: {.callout-important}
+## O narrador não confiável — e por que Machado importa
+**A definição**: um narrador cujo relato o leitor tem razões para **duvidar**.
+
+**Como o texto sinaliza**: contradições internas, interesse do narrador no que conta, insistência
+excessiva, lacunas convenientes, protestos de imparcialidade.
+
+**O caso brasileiro exemplar**: **Dom Casmurro**.
+
+Bento Santiago narra que Capitu o traiu com Escobar. **O leitor desavisado lê isso como fato do
+romance** — e sai discutindo se Capitu traiu.
+
+**A leitura correta**: nada no romance **afirma** o adultério. O que existe é o **relato de Bento**
+— um homem **abandonado**, **amargo**, escrevendo **décadas depois**, com todo o interesse em
+justificar o que fez com a mulher e o filho. **A única testemunha é a parte interessada.**
+
+**E o romance dá as pistas**: Bento se contradiz, admite ser ciumento, constrói "provas" que são
+impressões (os olhos de ressaca, a semelhança do menino), e — o detalhe decisivo — **escreve o
+livro para se convencer**.
+
+**O que Machado fez**: transferiu ao **leitor** o papel de júri. E o romance é sobre **isso** — não
+sobre a traição, mas sobre **como se constrói uma acusação** e como a linguagem, na mão de quem
+tem interesse, fabrica certezas.
+
+**Por que isso é o coração do capítulo**: quem confunde narrador com autor **não consegue** ler
+*Dom Casmurro*. Acha que Machado está contando um adultério — quando o que ele construiu foi um
+**narrador**, e é o narrador que está sob julgamento.
+
+**A distinção autor/narrador não é tecnicismo escolar.** É o que permite ler o maior romance
+brasileiro.
+
+**E note a conexão com o Volume 14**: é o mesmo mecanismo do @sec-cap-91 — quem controla o relato
+controla a verdade aceita. Bento é a Bahia narrada por quem tinha interesse; a fala do sertanejo é
+narrada por quem tem interesse. **Analisar quem narra é uma competência política.**
+:::
+
+## Um roteiro
+
+**Para narrativa:**
+
+1. **Narrador** — quem conta? Que foco? **Confiável?**
+2. **Personagens** — planas ou redondas? Como são caracterizadas — pelo narrador ou pela própria
+   fala?
+3. **Tempo** — cronológico ou não? Quanto tempo passa? Que ritmo?
+4. **Espaço** — onde? O espaço **significa**?
+5. **Enredo** — que conflito? Como se resolve — ou não?
+6. **Linguagem** — que registro (@sec-cap-88)? Que variedade (@sec-cap-87)? Quem fala como, e o
+   que isso marca?
+
+**Para poesia:**
+
+1. **Eu lírico** — quem fala? Para quem? De que posição?
+2. **Forma** — que metro, que rimas, que estrofes (@sec-cap-97)?
+3. **Imagens** — que figuras (@sec-cap-65, @sec-cap-66)? Que campo semântico?
+4. **Som** — aliterações, ritmo — e **cuidado com o simbolismo sonoro** (@sec-cap-96);
+5. **Sintaxe** — ordem, cavalgamentos, cortes;
+6. **A relação forma/sentido** — a pergunta final: **a forma faz o quê?**
+
+## Uma análise demonstrada
+
+Tomemos *Pneumotórax*, de Manuel Bandeira. Um paciente tuberculoso consulta o médico; o poema
+termina assim:
+
+> — O senhor tem uma escavação no pulmão esquerdo e o pulmão direito infiltrado.
+>
+> — Então, doutor, não é possível tentar o pneumotórax?
+>
+> — Não. A única coisa a fazer é tocar um tango argentino.
+
+**1. DESCREVER** (o verificável):
+
+- **Forma**: verso **livre** (@sec-cap-97), sem metro nem rima. Nada de soneto, nada de decassílabo;
+- **Estrutura**: começa em **enumeração de sintomas**, passa a **diálogo** dramático;
+- **Registro**: o do médico é **técnico** ("escavação", "infiltrado"); o do paciente é
+  **coloquial** ("Então, doutor…");
+- **A última fala** rompe o registro médico: "tocar um tango argentino" não pertence ao campo
+  semântico da medicina;
+- **Léxico dominante**: doença — *febre*, *hemoptise*, *dispneia*, *tosse*.
+
+**2. INTERPRETAR** (o argumentável, ancorado em 1):
+
+- **A quebra de registro é a chave.** O médico fala como médico o poema inteiro — e na última fala
+  diz uma frase **absurda**. O leitor, treinado pelo texto a esperar diagnóstico, recebe **piada**;
+- **O que a quebra significa**: não há mais o que fazer. A medicina **esgotou-se** — e, esgotada,
+  só resta o gesto gratuito. O "tango argentino" **é** a sentença de morte, **dita como piada**;
+- **Por que verso livre**: porque o poema **imita a fala** — é um diálogo de consultório. Metro e
+  rima o tornariam artificial. **A forma livre é o que permite o efeito de real** — e o efeito de
+  real é o que torna o choque possível;
+- **Por que "tango argentino"**: é **específico** e **arbitrário**. Não é "ouvir música" — é um
+  tango, e **argentino**. A gratuidade do detalhe **é** o ponto: diante da morte, a especificidade
+  do mundo se torna **absurda**;
+- **O humor**: é o mecanismo do @sec-cap-83 — o riso que vem do **desamparo**. Ri-se e, no mesmo
+  gesto, entende-se que não há saída. **O humor não alivia: agrava.**
+
+**3. JULGAR** (opcional):
+
+O poema faz, em três linhas, o que uma novela faria em cinquenta páginas — e o faz **sem** dizer
+nenhuma palavra sobre morte, medo ou desespero. **Diz pela quebra.**
+
+::: {.callout-note}
+## O que a análise demonstrou
+Note o que **não** foi feito:
+
+- **não** se perguntou "o que Bandeira quis dizer" — ele que fale por si; o texto basta;
+- **não** se disse "que poema triste" e parou — a tristeza foi **explicada** pelo texto;
+- **não** se usou a biografia como **prova**. Bandeira era tuberculoso, sim — e essa informação
+  **sugeriu** onde olhar. Mas a análise **não depende** dela: um leitor que ignore a biografia
+  chega ao mesmo lugar, porque a evidência está **no poema**.
+
+E note o que **foi** feito: cada afirmação interpretativa **apontou** para um dado descritivo. "A
+quebra de registro é a chave" — **onde**? Na última fala. "O verso livre permite o efeito de real"
+— **como**? Porque imita a fala do consultório.
+
+**Isto é análise**: interpretação **ancorada** em descrição. Tudo o mais é impressão.
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Fechamos o manual onde ele começou — e a simetria não é acidente.
+
+**A pergunta**: como a análise literária se relaciona com tudo o que se disse sobre norma e
+variação?
+
+**Diretamente, e em três pontos:**
+
+**1. A variedade linguística na literatura é ESCOLHA, e significa** (@sec-cap-87). Quando um
+narrador culto reproduz a fala popular de uma personagem, **isso é um dado** — e a pergunta é
+sempre a mesma: **quem** fala assim no texto, **quem** narra, e o que a **diferença** entre os dois
+produz?
+
+- se só as personagens pobres têm marca de fala e o narrador é "neutro", o texto está
+  **hierarquizando** — mesmo que não queira;
+- se a marca é usada para **humor**, ri-se de quem? (@sec-cap-91);
+- se o narrador **adota** a variedade da personagem, ele se **alia** a ela.
+
+**2. Rosa e Bandeira violam a norma — e não erram** (@sec-cap-96). Porque **dominam** o que
+violam, porque a violação **produz efeito**, e porque o **gênero autoriza**. As três condições, não
+uma.
+
+**3. O aluno precisa da norma — e o argumento não muda aqui.** "Se Bandeira escreveu 'tocar um
+tango argentino' num poema, posso escrever qualquer coisa na redação" é **falso**: o gênero é
+outro (@sec-cap-72), e o domínio vem primeiro.
+
+**O que o manual sustentou, do primeiro capítulo ao último:**
+
+A língua é **sistema** (Volumes 1–10), é **texto** (11–13), é **social** (14) e é **histórica**
+(15). Nenhuma dessas dimensões cancela as outras.
+
+E a posição, repetida em todos os volumes sem uma exceção:
+
+> **Descrever com honestidade e ensinar a norma com competência.**
+>
+> Quem só descreve **abandona**. Quem só prescreve **humilha**.
+
+**A análise literária é a prova final dessa posição.** Ela exige as **duas** coisas ao mesmo tempo:
+
+- **rigor descritivo** — contar sílabas, identificar o foco narrativo, mapear o léxico. Sem
+  técnica, não há análise;
+- **honestidade interpretativa** — não inventar, não projetar, não confundir a própria emoção com
+  o texto. Sem evidência, não há argumento.
+
+**E é a mesma exigência que o manual fez desde o @sec-cap-01**: a língua merece ser **descrita**,
+não julgada — e **dominada**, não temida.
+
+**A última palavra é do leitor.** Este manual acaba aqui; a língua, não. Ela continuará mudando
+depois que você fechar este livro — e você continuará fazendo parte da mudança, queira ou não,
+saiba ou não. **A diferença que o estudo faz é saber** [@candido1996; @martins2008].
+:::
+
+## 📋 Quadro-resumo
+
+**A análise NÃO é**: adivinhar a **intenção do autor** (inacessível e irrelevante) nem relatar a
+**própria emoção** (fato sobre você, não sobre o texto).
+
+**AS TRÊS ETAPAS — nesta ordem:**
+
+| Etapa | O que é | Estatuto |
+|---|---|---|
+| **1. DESCREVER** | o que **está** no texto — forma, metro, tempo verbal, narrador, léxico | **verificável** — quem discorda **erra** |
+| **2. INTERPRETAR** | o que isso **faz** — por que este metro? que efeito? | **argumentável** — cada afirmação **aponta** para (1) |
+| **3. JULGAR** | é bom? | **opinativo** e **opcional** |
+
+**A regra de ouro**: 2 depende de 1; 3 depende das duas. **A maioria pula direto para a 3.**
+
+**A descrição é o chão comum** — impede a interpretação de virar invenção. Se você diz "o poema é
+angustiado", eu pergunto: **onde?** **Existe interpretação errada** — a que a descrição
+**contradiz**. Mas o texto **restringe**, não **determina**: análise é **argumentação sobre
+evidência**, não decodificação.
+
+**AS TRÊS INSTÂNCIAS:**
+
+| | O que é | Onde |
+|---|---|---|
+| **Autor empírico** | a **pessoa** — biografia, certidão | **fora** do texto |
+| **Narrador / eu lírico** | a **voz** que o texto **cria** | **dentro** |
+| **Personagem** | as figuras narradas | **dentro** |
+
+**O narrador NUNCA é o autor** — nem quando **se parecem**, nem quando tem o **nome** do autor,
+nem na **autobiografia** (o *eu* narrado **já é construção**: seleciona, ordena, omite).
+
+**As três consequências**: o narrador pode **mentir** (Dom Casmurro) · pode ser **desprezível** sem
+que o autor seja · o eu lírico pode **não sentir nada** ("O poeta é um fingidor" — Pessoa: não é
+cinismo, é **descrição técnica**).
+
+**Na prova**: nunca escreva "o autor sente/quis dizer". Escreva "**o eu lírico**", "**o
+narrador**", "**o texto**".
+
+**AS DUAS FALÁCIAS**: **intencional** (buscar a intenção) · **afetiva** (confundir o efeito sobre
+mim com propriedade do texto). **Sobra o texto** — a única evidência, e ela basta.
+
+**Mas com moderação**: o **contexto** é **hipótese**, não **prova** — **sugere onde olhar**, não
+substitui evidência. E a **emoção** é o **ponto de partida**: converta-a em **pergunta** — "me
+pareceu triste; **o que**, nele, produz isso?"
+
+**FOCO NARRATIVO:**
+
+| Foco | Sabe | Efeito |
+|---|---|---|
+| **1ª protagonista** | só o que ela sabe | intimidade + **parcialidade** |
+| **1ª testemunha** | só o que observa | distância, ainda parcial |
+| **3ª onisciente** | **tudo**, inclusive o interior | autoridade |
+| **3ª limitada** | só o que a personagem sabe | proximidade sem intimidade |
+| **3ª observador** | só o **exterior** | frieza, câmera |
+
+**NARRADOR NÃO CONFIÁVEL** — **Dom Casmurro**: nada no romance **afirma** o adultério. Há o
+**relato de Bento** — abandonado, amargo, escrevendo décadas depois, **com interesse**. **A única
+testemunha é a parte interessada.** Machado transferiu ao **leitor** o papel de **júri**. O romance
+é sobre **como se constrói uma acusação**. **Quem confunde narrador com autor não consegue ler o
+livro.**
+
+**Roteiro — narrativa**: narrador (foco? confiável?) · personagens · tempo · espaço · enredo ·
+linguagem (registro, variedade — **quem fala como**).
+
+**Roteiro — poesia**: eu lírico · forma (metro, rima) · imagens · som (**cuidado com o simbolismo
+sonoro**) · sintaxe · **a forma faz o quê?**
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir autor e narrador.** O erro **fundamental**. Nem na autobiografia coincidem.
+- **Escrever "o autor quis dizer".** Escreva "**o texto**", "**o narrador**", "**o eu lírico**".
+- **Achar que Capitu traiu é fato do romance.** É o que **Bento diz** — e ele é parte interessada.
+- **Pular para o julgamento.** "Achei chato" sem descrever nem interpretar. É criticar uma ponte
+  sem olhar para ela.
+- **Interpretar sem descrever.** Toda afirmação precisa **apontar** para um dado. "Onde?"
+- **Achar que toda interpretação vale.** **Existe interpretação errada** — a que a descrição
+  contradiz.
+- **Achar que só há uma interpretação.** O texto **restringe**; não **determina**.
+- **Usar a biografia como prova.** É **hipótese** — sugere onde olhar. "Bandeira era tuberculoso,
+  **logo**…" pula a evidência.
+- **Achar que a emoção é irrelevante.** É o **ponto de partida**. O erro é **parar** nela — converta
+  em pergunta.
+- **Achar que o eu lírico sente o que diz.** "O poeta é um fingidor."
+- **Achar que um narrador desprezível revela um autor desprezível.** É o erro que produz censura.
+- **Analisar a marca de fala sem perguntar quem narra.** Se só os pobres têm marca e o narrador é
+  "neutro", o texto **hierarquiza**.
+
+## ✍️ Exercícios
+
+**1.** Explique as três etapas da análise e por que a ordem importa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| Etapa | O que se faz | Estatuto |
+|---|---|---|
+| **1. DESCREVER** | o que **está** no texto: forma, metro, rimas, tempo verbal, pessoa, narrador, léxico, sintaxe | **verificável** — quem discorda **está errado**; a contagem resolve |
+| **2. INTERPRETAR** | o que o que está no texto **faz**: por que este metro? que efeito produz o narrador? | **argumentável** — há espaço para divergência, mas cada afirmação **aponta** para (1) |
+| **3. JULGAR** | o texto é bom? funcionou? | **opinativo** e **opcional** |
+
+**A regra**: a etapa **2 depende** da **1**; a **3 depende** das duas.
+
+**Por que a ordem importa — três razões:**
+
+**1. A descrição é o chão comum.** Ela **impede a interpretação de virar invenção**. Se você
+afirma que "o poema é angustiado", eu posso perguntar: **onde?** E você tem de **mostrar** — nos
+verbos, no ritmo, no léxico, no corte dos versos.
+
+**Se não puder mostrar, sua afirmação é sobre você, não sobre o poema.**
+
+**2. Existe interpretação errada** — e isso precisa ser dito, porque o relativismo escolar finge
+que não. A interpretação errada é a que a **descrição contradiz**. Dizer que *Pneumotórax* é um
+poema esperançoso é **errado**, e **não por questão de gosto**: o texto **não sustenta**.
+
+**3. Mas o texto restringe, não determina** — e esta é a outra metade. Dentro do que a descrição
+sustenta, há **mais de uma** leitura possível. Análise **não é decodificação** de mensagem cifrada:
+é **argumentação sobre evidência**. Duas leituras bem ancoradas podem divergir, e as duas serem
+boas.
+
+**O erro dominante**: a maioria dos alunos **pula direto para a 3** — "achei chato", "gostei". É
+**criticar uma ponte sem olhar para ela**.
+
+**A razão pedagógica de tudo isto**: as etapas 1 e 2 são **ensináveis**. Contar sílabas,
+identificar o foco narrativo, mapear campos semânticos — isso se aprende e se verifica. É o que
+torna a análise literária uma **disciplina**, e não uma conversa sobre gostos.
+:::
+
+**2.** Por que o narrador nunca é o autor?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A regra**: o narrador é uma **construção de linguagem**. **Não existe fora do texto**: não tem
+biografia, não tem opiniões próprias, não pode ser entrevistado.
+
+**Os três casos que parecem exceções — e não são:**
+
+**1. Quando o narrador se PARECE com o autor.** Machado era irônico; seus narradores são irônicos.
+Ainda assim: o narrador de *Brás Cubas* é um **defunto autor** que escreve do além-túmulo — e
+Machado **não era defunto** quando escreveu. **Semelhança não é identidade.**
+
+**2. Quando o narrador tem o NOME do autor.** É um **recurso**, não uma confissão. O "Machado" que
+aparecesse num conto de Machado seria uma **personagem chamada Machado** — e a graça do
+procedimento está justamente em fazer o leitor **confundir**.
+
+**3. Quando o texto é AUTOBIOGRÁFICO** — o caso mais fino. **Mesmo na autobiografia**, o *eu* que
+se narra **já é construção**. Quem escreve memórias **seleciona**, **ordena**, **interpreta** e
+**omite** — o resultado é uma **personagem** feita com material da própria vida.
+
+**A prova**: você já contou a mesma história duas vezes, a pessoas diferentes, e ela saiu
+diferente. **Qual era a verdadeira?** Nenhuma — eram **versões**. O *eu* narrado nunca coincide com
+o *eu* que narra, quanto mais com o que **viveu**.
+
+**As três consequências práticas:**
+
+1. **O narrador pode MENTIR.** Dom Casmurro narra que Capitu o traiu — **isso não é fato do
+   romance**, é o que **ele diz**. Quem confunde narrador com autor **lê o livro errado**;
+2. **O narrador pode ser desprezível sem que o autor seja.** Um romance narrado por um assassino
+   **não é apologia** do assassinato. Confundir os dois é o erro que produz **censura**;
+3. **O eu lírico pode não sentir nada.** O poeta pode escrever um poema de amor **sem estar
+   apaixonado**. Pessoa: "**O poeta é um fingidor**" — não é cinismo, é **descrição técnica** do
+   ofício.
+
+**A regra para a prova**: nunca escreva "o autor sente", "o autor quis dizer". Escreva "**o eu
+lírico**", "**o narrador**", "**o texto**".
+
+**Não é preciosismo**: é a diferença entre **analisar o texto** (que está aí, disponível) e
+**especular sobre uma pessoa** que você não conhece e que provavelmente está morta.
+:::
+
+**3.** Explique as duas falácias e suas versões moderadas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| Falácia | O erro | Por que falha |
+|---|---|---|
+| **INTENCIONAL** | buscar a **intenção do autor** | é **inacessível** (ele morreu, não deixou gabarito) e **irrelevante** (o texto faz coisas que ele não planejou; o que planejou e não realizou **não está lá**) |
+| **AFETIVA** | confundir o **efeito sobre mim** com a **propriedade do texto** | "me emocionou" é fato sobre **você** — outro leitor não se emociona, e **o texto é o mesmo** |
+
+**O que sobra**: **o texto**. É a única evidência disponível — e, para a análise, **basta**.
+
+**A versão moderada — porque o radicalismo também erra:**
+
+**Sobre a intencional**: saber que **Bandeira era tuberculoso** ilumina *Pneumotórax*. Saber que
+**Camões esteve na Índia** ilumina *Os Lusíadas*. O contexto é **informação legítima**, e ignorá-lo
+é **empobrecer**.
+
+**A distinção que resolve**: o contexto é **HIPÓTESE**, não **PROVA**. Ele **sugere onde olhar**;
+**não substitui** a evidência textual.
+
+- **Uso correto**: "Bandeira era tuberculoso, o que **talvez explique** a recorrência da doença na
+  obra — **e, de fato**, o poema apresenta [evidência textual]";
+- **Uso incorreto**: "Bandeira era tuberculoso, **LOGO** o poema é sobre sua doença" — **pulando** a
+  evidência.
+
+O "logo" é o erro. O contexto não conclui nada sozinho.
+
+**Sobre a afetiva**: a emoção **não é irrelevante** — é o **PONTO DE PARTIDA**. Você analisa um
+poema **porque** ele lhe fez algo. Ninguém analisa o que não o tocou.
+
+**O erro não é sentir: é PARAR aí.**
+
+**A conversão correta** — transforme a emoção em **pergunta**:
+
+- **Não**: "este poema é triste";
+- **Mas**: "este poema **me pareceu** triste — **o que**, nele, produz isso?" E então: os verbos no
+  passado, o léxico da perda, o ritmo arrastado, a rima em /o/.
+
+**A emoção vira dado quando você a explica pelo texto.** Aí ela deixa de ser **confissão** e vira
+**análise**.
+
+**A síntese**: as falácias não proíbem **usar** biografia e emoção — proíbem **substituir** o texto
+por elas. A biografia é onde a hipótese nasce; a emoção é onde a pergunta nasce. **O texto é onde
+as duas se verificam.**
+:::
+
+**4.** Analise o foco narrativo de *Dom Casmurro* e por que ele é o coração do romance.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O foco**: **1ª pessoa protagonista**. Bento Santiago narra a própria história, décadas depois
+dos fatos.
+
+**A consequência técnica**: um narrador de 1ª pessoa protagonista **só sabe o que ele sabe** e
+**só conta o que quer**. É o foco mais **íntimo** e o mais **parcial** — as duas coisas juntas, e
+não por acaso: a intimidade **é** o que produz a confiança que a parcialidade explora.
+
+**O que o romance narra**: que Capitu traiu Bento com Escobar.
+
+**O que o leitor desavisado faz**: lê isso como **fato do romance** — e sai discutindo se Capitu
+traiu.
+
+**A leitura correta — e é o ponto:**
+
+**Nada no romance AFIRMA o adultério.** O que existe é o **relato de Bento**:
+
+- um homem **abandonado**;
+- **amargo**;
+- escrevendo **décadas depois**;
+- **com todo o interesse** em justificar o que fez com a mulher e o filho.
+
+**A única testemunha é a parte interessada.**
+
+**E o romance dá as pistas**, para quem lê o narrador em vez de acreditar nele:
+
+- Bento **se contradiz**;
+- **admite** ser ciumento;
+- constrói "provas" que são **impressões** — os olhos de ressaca, a semelhança do menino;
+- e — o detalhe decisivo — **escreve o livro para se convencer**. Ele não está relatando uma
+  certeza: está **fabricando** uma.
+
+**O que Machado fez**: transferiu ao **LEITOR** o papel de **júri**. O romance não responde à
+pergunta — ele **a devolve**.
+
+**E o romance é sobre isso**: não sobre a traição, mas sobre **como se constrói uma acusação** — e
+sobre como a linguagem, na mão de quem tem interesse, **fabrica certezas**.
+
+**Por que é o coração do capítulo**: quem **confunde narrador com autor não consegue ler o
+livro**. Acha que Machado está **contando um adultério** — quando o que ele construiu foi um
+**narrador**, e **é o narrador que está sob julgamento**.
+
+**A distinção autor/narrador não é tecnicismo escolar**: é o que permite ler o maior romance
+brasileiro.
+
+**A conexão com o Volume 14** — e é o que a boa resposta alcança: é o **mesmo mecanismo** do
+@sec-cap-91. **Quem controla o relato controla a verdade aceita.** Capitu nunca fala por si — é
+narrada por quem tinha interesse em condená-la. Assim como a fala do sertanejo é narrada por quem
+tem interesse em ridicularizá-la.
+
+**Analisar quem narra é uma competência política**, não só literária.
+:::
+
+**5.** Aplique o roteiro de análise poética às três últimas linhas de *Pneumotórax*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+> — O senhor tem uma escavação no pulmão esquerdo e o pulmão direito infiltrado.
+> — Então, doutor, não é possível tentar o pneumotórax?
+> — Não. A única coisa a fazer é tocar um tango argentino.
+
+**1. DESCREVER** (o verificável):
+
+- **Forma**: verso **livre** — sem metro, sem rima (@sec-cap-97);
+- **Estrutura**: **diálogo** dramático, com travessões — o poema **encena** uma cena;
+- **Registro do médico**: **técnico** — "escavação", "infiltrado", "pneumotórax";
+- **Registro do paciente**: **coloquial** — "Então, doutor…";
+- **A última fala rompe o campo semântico**: "tocar um tango argentino" **não pertence** à
+  medicina;
+- **Léxico dominante no poema todo**: doença — *febre*, *hemoptise*, *dispneia*, *tosse*.
+
+**2. INTERPRETAR** (ancorado em 1):
+
+- **A quebra de registro é a chave.** O médico fala como médico o poema **inteiro** — e na última
+  fala diz algo **absurdo**. O leitor, **treinado pelo texto** a esperar diagnóstico, recebe
+  **piada**;
+- **O que a quebra significa**: **não há mais o que fazer**. A medicina **esgotou-se** — e,
+  esgotada, só resta o gesto **gratuito**. O "tango argentino" **é** a sentença de morte, **dita
+  como piada**;
+- **Por que verso livre**: porque o poema **imita a fala** — é um diálogo de consultório. Metro e
+  rima o tornariam **artificial**. **A forma livre é o que permite o efeito de real** — e o efeito
+  de real é o que **torna o choque possível**. Um soneto não conseguiria;
+- **Por que "tango argentino"**: é **específico** e **arbitrário**. Não é "ouvir música" — é um
+  **tango**, e **argentino**. **A gratuidade do detalhe é o ponto**: diante da morte, a
+  especificidade do mundo se torna **absurda**;
+- **O humor**: é o mecanismo do @sec-cap-83 — o riso que vem do **desamparo**. Ri-se e, **no mesmo
+  gesto**, entende-se que não há saída. **O humor não alivia: agrava.**
+
+**3. JULGAR** (opcional):
+
+O poema faz, em **três linhas**, o que uma novela faria em cinquenta páginas — e o faz **sem
+dizer nenhuma palavra** sobre morte, medo ou desespero. **Diz pela quebra.**
+
+**O que a análise NÃO fez** — e é o que a valida:
+
+- **não** perguntou "o que Bandeira quis dizer";
+- **não** disse "que poema triste" e parou;
+- **não** usou a biografia como **prova**. Bandeira era tuberculoso — a informação **sugeriu** onde
+  olhar, mas a análise **não depende** dela: um leitor que ignore a biografia **chega ao mesmo
+  lugar**, porque a evidência está **no poema**.
+
+**E o que fez**: cada afirmação interpretativa **apontou** para um dado descritivo. "A quebra é a
+chave" — **onde**? Na última fala. "O verso livre permite o efeito de real" — **como**? Imita a
+fala do consultório.
+
+**Isto é análise**: interpretação **ancorada** em descrição. Tudo o mais é impressão.
+:::
+
+**6.** Distinga os tipos de foco narrativo e seus efeitos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A pergunta decisiva na narrativa: **quem vê e quem conta?**
+
+| Foco | Quem narra | O que sabe | Efeito |
+|---|---|---|---|
+| **1ª pessoa protagonista** | a personagem **principal** | só o que **ela** sabe | **intimidade + parcialidade** — não confie |
+| **1ª pessoa testemunha** | personagem **secundária** | só o que **observa** | distância, mas **ainda parcial** |
+| **3ª pessoa onisciente** | narrador de **fora** | **tudo**, inclusive o interior das personagens | **autoridade**, panorama |
+| **3ª pessoa limitada** | de fora, mas **colado** numa personagem | só o que **ela** sabe | proximidade **sem** intimidade |
+| **3ª pessoa observador** | de fora, **câmera** | só o **exterior** | frieza, objetividade |
+
+**O que cada escolha produz — e é o que a questão cobra:**
+
+**A 1ª pessoa compra intimidade e paga com confiabilidade.** O leitor entra na cabeça de alguém —
+e, exatamente por isso, **só vê o que essa cabeça vê**. Toda narração em 1ª pessoa é **suspeita**
+por construção: o narrador tem interesse no que conta. *Dom Casmurro* explora isso até o fim.
+
+**A 3ª onisciente compra autoridade e paga com distância.** Um narrador que sabe tudo é
+**confiável** — mas o leitor está sempre **de fora**, recebendo informação, não vivendo. É a forma
+do romance realista do século XIX, e não por acaso: era uma literatura que queria **explicar** o
+mundo.
+
+**A 3ª limitada é a solução moderna**: dá a **proximidade** da 1ª pessoa (só se sabe o que a
+personagem sabe) **sem** a suspeita (não é ela que narra). É o foco dominante da ficção
+contemporânea.
+
+**A 3ª observador é a mais fria**: só o exterior, como uma câmera. Produz **objetividade
+aparente** — e a aparência é o efeito, porque a seleção do que a câmera mostra **já é
+interpretação**.
+
+**O princípio geral**: **não existe foco neutro**. Cada um **restringe** o que se pode saber, e a
+restrição **é** um recurso — não uma limitação. Escolher o foco é escolher o que o leitor **não**
+poderá saber, e é frequentemente aí que o romance acontece.
+
+**A regra de análise**: pergunte sempre **o que este foco IMPEDE o leitor de saber** — e por quê.
+Em *Dom Casmurro*, o foco impede o leitor de ouvir **Capitu**. Isso não é acaso: é o romance.
+:::
+
+**7.** "Este poema é triste." Analise a afirmação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é uma falácia afetiva** — mas não deve ser simplesmente descartada.
+
+**O problema**: "triste" é um efeito **sobre o leitor**, não uma propriedade **do texto**. Outro
+leitor pode não se entristecer, e **o texto é o mesmo**. A afirmação, como está, é um fato sobre
+**quem a diz**.
+
+**Por que não basta descartá-la** — e é aqui que a resposta madura se separa da radical:
+
+**A emoção não é irrelevante — é o PONTO DE PARTIDA.** Você analisa um poema **porque** ele lhe fez
+algo. Ninguém analisa o que não o tocou. Exigir que o leitor não sinta é exigir que ele não leia.
+
+**O erro não é sentir: é PARAR aí.**
+
+**A conversão correta — transforme a emoção em PERGUNTA:**
+
+| Não diga | Diga |
+|---|---|
+| "Este poema é triste." | "Este poema **me pareceu triste** — **o que, nele, produz isso?**" |
+
+**E então responda pelo texto:**
+
+- os **verbos** estão no passado? (o que passou não volta)
+- o **léxico** é o da perda — *ausência*, *nunca*, *restou*, *cinza*?
+- o **ritmo** é arrastado? Versos longos, muitas átonas?
+- as **rimas** são graves, em vogais fechadas?
+- há **cavalgamentos** que suspendem e não resolvem?
+- o **eu lírico** fala de que posição — depois do fato, sem esperança?
+
+**A emoção vira DADO quando você a explica pelo texto.** Aí ela deixa de ser **confissão** e vira
+**análise**.
+
+**A formulação final**: "este poema é triste" é uma **conclusão sem premissas**. A análise consiste
+em **fornecer as premissas** — e, ao fornecê-las, você descobre que a tristeza não é sua: está
+**construída** ali, por meios identificáveis, que funcionariam com qualquer leitor.
+
+**E o teste que fecha**: se você não conseguir apontar **nada** no texto que produza a tristeza,
+então a tristeza é **sua** — você a trouxe de casa. E isso também é um achado: significa que o
+poema tocou numa coisa que era sua. Só não é análise **do poema**.
+:::
+
+**8.** Um narrador é racista. Isso significa que o autor é racista?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não necessariamente** — e a confusão entre as duas coisas é o erro que produz **censura**.
+
+**O princípio**: o narrador é uma **construção**. Um romance narrado por um assassino **não é
+apologia** do assassinato; um romance narrado por um racista **não é** um romance racista.
+
+**Por que um autor faria isso**: para **expor** o racismo **por dentro**. Um narrador racista que
+não se sabe racista pode revelar o funcionamento do preconceito melhor que qualquer denúncia — o
+leitor **vê o mecanismo operando**, e vê-o de dentro, o que é bem mais desconfortável que ouvir
+uma condenação.
+
+É exatamente o procedimento de *Dom Casmurro*: Machado **não** condena Bento — deixa Bento falar,
+e é falando que Bento se **denuncia**.
+
+**Mas — e a resposta honesta precisa disto — a distinção NÃO é um álibi automático.**
+
+Dizer "é só o narrador" **não resolve** nada sozinho. É preciso perguntar: **o texto oferece
+meios de ler o narrador criticamente?**
+
+**Os sinais de que sim:**
+
+- o narrador **se contradiz**;
+- outras vozes no texto o **contestam**;
+- os fatos narrados **desmentem** as opiniões do narrador;
+- a estrutura produz **distância** — ironia, contraste, um final que não confirma o que ele
+  afirmou.
+
+**Os sinais de que não:**
+
+- o narrador é a **única** voz, e nada o contesta;
+- o texto **confirma** suas premissas — as personagens racializadas **de fato** se comportam como
+  ele diz;
+- não há **nenhum** sinal de distância entre a voz narrativa e o que ela afirma.
+
+**Nesse segundo caso**, a hipótese de que o racismo é **do texto** — e não só do narrador — fica
+**forte**. Não porque se descobriu a intenção do autor (isso continua inacessível), mas porque **o
+texto não construiu a distância**.
+
+**A formulação precisa:**
+
+> A questão **não** é "o autor era racista?" — isso é falácia intencional, e a resposta não está
+> disponível.
+>
+> A questão é: **o texto oferece meios de ler o narrador criticamente?**
+
+Esta pergunta **se responde com evidência textual** — que é a única que temos.
+
+**A consequência**: um texto pode ter um narrador racista e **não** ser racista (a distância está
+construída), e pode ter um narrador aparentemente neutro e **ser** racista (as premissas estão
+naturalizadas, e é justamente a naturalização que as torna eficazes — @sec-cap-91).
+
+**A ligação com o Volume 14**: é o mesmo mecanismo. O preconceito mais eficaz é o que **não se
+anuncia** — o que vem como descrição, como o "ele fala errado" do @sec-cap-91. Um narrador que
+declara seu racismo é menos perigoso que um que o pressupõe.
+:::
+
+**9.** (Estilo Cebraspe — julgue C ou E)
+
+I. O narrador de um romance em primeira pessoa deve ser identificado com o autor.
+II. Em *Dom Casmurro*, o adultério de Capitu é um fato estabelecido pelo romance.
+III. A falácia intencional consiste em buscar no texto a intenção do autor.
+IV. A descrição de um texto literário é verificável; a interpretação é argumentável.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — ERRADO**, e é o erro fundamental do capítulo. O narrador é uma **construção de linguagem**;
+o autor é uma **pessoa**. Não coincidem **nunca** — nem quando **se parecem**, nem quando o
+narrador tem o **nome** do autor, nem na **autobiografia** (onde o *eu* narrado já é construção:
+seleciona, ordena, omite).
+
+**A prova**: o narrador de *Brás Cubas* é um **defunto autor**. Machado não era defunto.
+
+**II — ERRADO.** **Nada no romance afirma o adultério.** O que existe é o **relato de Bento
+Santiago** — narrador de 1ª pessoa, **abandonado**, **amargo**, escrevendo **décadas depois**, com
+**todo o interesse** em justificar o que fez com a mulher e o filho.
+
+**A única testemunha é a parte interessada.** E o romance dá as pistas: Bento se contradiz, admite
+ser ciumento, constrói "provas" que são impressões, e escreve o livro **para se convencer**.
+Machado transferiu ao **leitor** o papel de **júri** — o romance é sobre **como se constrói uma
+acusação**.
+
+**III — CERTO.** É a definição. A falácia intencional consiste em tomar a **intenção do autor**
+como critério de interpretação. Falha por dois motivos: a intenção é **inacessível** (o autor
+morreu e não deixou gabarito) e **irrelevante** (o texto faz coisas que ele não planejou; e o que
+ele planejou e não realizou **não está lá**).
+
+**A moderação necessária**: o **contexto** biográfico é **hipótese** legítima — **sugere onde
+olhar** —, mas **não substitui** a evidência textual.
+
+**IV — CERTO.** É a distinção entre as duas primeiras etapas:
+
+- **DESCRIÇÃO** — **verificável**: quantas sílabas tem o verso, que tempo verbal domina, quem
+  narra. Se dois leitores discordam, **um está errado**;
+- **INTERPRETAÇÃO** — **argumentável**: o que a escolha **faz**. Há espaço para divergência — mas
+  **não para qualquer coisa**: cada afirmação precisa **apontar** para um dado da descrição.
+
+**Gabarito: E, E, C, C.**
+:::
+
+**10.** (Estilo ENEM) Num conto, apenas as personagens pobres têm sua fala marcada por traços de
+oralidade e desvios da norma; o narrador usa norma culta. Essa escolha:
+
+a) é neutra, pois reproduz a realidade linguística;
+b) é um dado significativo, que pode marcar hierarquia entre a voz narrativa e as personagens;
+c) demonstra que o autor é preconceituoso;
+d) prova que as personagens pobres falam uma língua deficiente;
+e) é irrelevante para a análise literária.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: b.**
+
+**Por que b está certa**: a marcação da fala é **uma escolha**, e escolhas **significam**
+(@sec-cap-96). Quando **só** as personagens pobres têm marca e o narrador é "neutro", o texto
+**constrói uma hierarquia**:
+
+- a norma culta do narrador aparece como **transparente**, natural, sem marca — o **grau zero**;
+- a fala das personagens aparece como **desvio** — marcada, particular, notável.
+
+**O efeito**: o narrador ocupa a posição de quem **não tem sotaque** (@sec-cap-87) — e essa
+posição **não existe**. Toda variedade é marcada; o que o texto fez foi **naturalizar uma** e
+**marcar as outras**.
+
+E note: a alternativa diz "**pode** marcar" — corretamente. É uma **hipótese a investigar**, não um
+veredito automático. Depende do que o texto faz com isso.
+
+**Por que as outras erram:**
+
+**a)** Falso, e é a alternativa mais tentadora. "Reproduzir a realidade" **não é neutro** — é uma
+**escolha de representação**. O narrador **também** poderia ter marca (e em muitos textos tem); a
+fala culta **também** é uma variedade. Escolher marcar **uma** e não a outra é **exatamente** o
+gesto do "sotaque neutro" (@sec-cap-87): tomar a própria régua por ausência de régua.
+
+**c)** Falso — é **falácia intencional**. A intenção do autor é **inacessível**, e a pergunta certa
+não é "o autor é preconceituoso?", mas **"o texto oferece meios de ler isso criticamente?"** — o
+que se responde com **evidência textual**. Um texto pode marcar a fala popular e **criticar** a
+hierarquia que a marca produz.
+
+**d)** Falso, e é a caricatura que o Volume 14 desmontou. **Nenhuma variedade é deficiente**
+(@sec-cap-86). A marca no texto registra **variação**, não **defeito**.
+
+**e)** Falso — é o oposto: a linguagem das personagens é **item do roteiro** de análise. **Quem
+fala como** e **quem narra** é uma das perguntas centrais, e frequentemente a mais reveladora.
+
+**O padrão** (@sec-cap-85): (a) e (e) **esvaziam** o dado ("é neutro", "não importa"); (c) e (d)
+são **excessos simétricos** — um julga o autor, o outro julga a língua. A correta é a que trata a
+escolha como **dado a analisar**: nem neutra, nem veredito.
+
+**A pergunta que a análise deve fazer**: **quem** fala assim, **quem** narra, e o que a
+**diferença** entre os dois produz? Se o narrador se **alia** à personagem, é uma coisa; se a
+**exibe**, é outra (@sec-cap-91).
+:::
+
+**11.** Existe interpretação errada?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Sim** — e é preciso dizê-lo, porque o relativismo escolar ("cada um interpreta como quiser")
+finge que não, e destrói a disciplina.
+
+**A interpretação errada é a que a DESCRIÇÃO CONTRADIZ.**
+
+**Os exemplos:**
+
+- Dizer que *Pneumotórax* é um poema **esperançoso** é **errado** — e **não por questão de gosto**.
+  O texto não sustenta: o léxico é o da doença, o diagnóstico é terminal, a última fala nega a
+  possibilidade de tratamento. **A evidência contradiz**;
+- Dizer que o poema está em **decassílabos** é errado — **conte**;
+- Dizer que *Dom Casmurro* **prova** o adultério é errado — **mostre onde**. Não há.
+
+**O critério**: toda afirmação interpretativa precisa **apontar** para um dado descritivo. Se não
+aponta, ou se o dado a **contradiz**, ela está errada.
+
+**MAS — e esta é a outra metade, igualmente importante:**
+
+**O texto RESTRINGE; não DETERMINA.**
+
+Dentro do que a descrição sustenta, há **mais de uma** leitura possível. **Duas interpretações bem
+ancoradas podem divergir, e as duas serem boas.** É por isso que se continua escrevendo sobre
+*Dom Casmurro* há 120 anos — e não porque ninguém tenha achado o gabarito.
+
+**A analogia útil — o direito**: o júri não decide "como quiser". Decide **dentro** do que a prova
+permite, e argumentando **a partir** dela. Duas defesas competentes podem sustentar teses
+diferentes com a mesma prova — e ainda assim há teses que a prova **exclui**.
+
+**Análise não é decodificação de mensagem cifrada** (não há uma resposta escondida a encontrar)
+**nem opinião livre** (nem tudo vale). É **argumentação sobre evidência**.
+
+**As duas posições erradas, simétricas:**
+
+| Posição | Erro |
+|---|---|
+| **"Só há uma leitura certa"** | trata o texto como **charada** com gabarito. Mas o texto **restringe**, não determina — e é a **pluralidade** controlada que o mantém vivo |
+| **"Cada um interpreta como quiser"** | trata o texto como **espelho**. Mas então **por que ler**? Se o texto não restringe nada, ele não diz nada — e a análise não tem objeto |
+
+**A posição correta**: o texto **restringe** o campo das leituras possíveis. Dentro desse campo, há
+liberdade e há **argumento**. Fora dele, há **erro**.
+
+**A consequência pedagógica** — e é o que fecha: é isso que torna a análise **ensinável**. Se tudo
+valesse, não haveria o que ensinar. Se só uma leitura valesse, não haveria o que discutir. É
+porque o texto **restringe sem determinar** que existe uma disciplina.
+:::
+
+**12.** Como a análise literária mobiliza o manual inteiro?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A análise literária é a prova final**: ela exige, ao mesmo tempo, todos os níveis que os quinze
+volumes construíram.
+
+**Os níveis, em ação:**
+
+| Volume | O que a análise usa |
+|---|---|
+| **2 (Fonologia)** | aliterações, ritmo, harmonia imitativa — e o **cuidado** com o simbolismo sonoro (@sec-cap-96) |
+| **4 (Morfologia)** | os **diminutivos** e sua carga afetiva; os neologismos de Rosa |
+| **6–7 (Sintaxe)** | a **ordem**, as inversões, o comprimento do período, parataxe × hipotaxe |
+| **9 (Pontuação)** | o travessão do diálogo, os cortes, o que a pontuação **não** diz |
+| **10 (Semântica)** | as **figuras**, a **conotação**, os campos semânticos |
+| **11 (Texto)** | a **coesão**, a **coerência**, o **gênero** |
+| **13 (Leitura)** | a **inferência**, o **implícito**, a **ironia** |
+| **14 (Variação)** | **quem fala como** no texto — e o que isso marca |
+| **15 (História/Estilística)** | o **estilo de época**, a **métrica**, a **função poética** |
+
+**Por que a análise é a prova final — e não só um capítulo a mais:**
+
+**Porque ela não deixa nenhum nível de fora.** Analisar *Pneumotórax* exigiu: reconhecer o **verso
+livre** (Vol. 15), identificar a quebra de **registro** (Vol. 14), perceber o **campo semântico**
+da medicina (Vol. 10), entender o mecanismo do **humor** (Vol. 13) e ver como o **gênero** autoriza
+tudo (Vol. 11).
+
+**Nenhuma dessas competências basta sozinha** — e é exatamente por isso que a análise só vem no
+fim.
+
+**O que o manual sustentou, do primeiro capítulo ao último:**
+
+A língua é **sistema** (Vol. 1–10), é **texto** (11–13), é **social** (14) e é **histórica** (15).
+**Nenhuma dessas dimensões cancela as outras** — e essa foi a aposta do livro: recusar as escolhas
+falsas entre gramática e uso, entre norma e variação, entre rigor e honestidade.
+
+**E a posição, repetida em todos os volumes sem uma exceção:**
+
+> **Descrever com honestidade e ensinar a norma com competência.**
+>
+> **Quem só descreve abandona. Quem só prescreve humilha.**
+
+**A análise literária é onde as duas exigências se encontram:**
+
+- **rigor descritivo** — contar sílabas, identificar o foco narrativo, mapear o léxico. **Sem
+  técnica, não há análise**;
+- **honestidade interpretativa** — não inventar, não projetar, não confundir a própria emoção com
+  o texto. **Sem evidência, não há argumento**.
+
+**É a mesma exigência do @sec-cap-01**: a língua merece ser **descrita**, não julgada — e
+**dominada**, não temida.
+
+**A última palavra:**
+
+Este manual acaba aqui; **a língua, não**. Ela continuará mudando depois que você fechar este
+livro — como mudou de *speclum* a *espelho* (@sec-cap-92), como está mudando de *ouro* a "oro"
+agora, enquanto você lê.
+
+**E você continuará fazendo parte da mudança, queira ou não, saiba ou não.**
+
+**A diferença que o estudo faz é saber** [@candido1996; @martins2008; @faraco2008].
+:::
+
+## 📚 Referências
+
+O modelo de análise aqui exposto deve-se a Candido [@candido1996], cujo *Estudo Analítico do
+Poema* fundamenta a insistência na inseparabilidade entre forma e sentido. A estilística que o
+enquadra é a de Martins [@martins2008]; a métrica, a de Goldstein [@goldstein2006]. A distinção
+entre autor e narrador e a crítica às falácias remontam à tradição formalista e ao *New
+Criticism*, aqui retomadas pela via da análise textual de Koch [@koch2015texto] e Marcuschi
+[@marcuschi2008]. A posição sobre norma, variação e ensino, que atravessa o manual, é de Faraco
+[@faraco2008] e Bagno [@bagno2011].
+
+Com este capítulo encerra-se o **Volume 15** e o **Manual de Língua Portuguesa**. O @sec-cap-01
+abriu perguntando o que é a linguagem; este fecha mostrando o que se pode fazer quando se sabe a
+resposta.
+
+Boa leitura — e boa escrita.
+
+::: {#refs}
 :::
