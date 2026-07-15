@@ -4,22 +4,581 @@ title: "Texto e textualidade"
 
 # Texto e textualidade {#sec-cap-68}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 11 — Linguística Textual.
+> "Um texto não é uma soma de frases, do mesmo modo que uma casa não é uma pilha de
+> tijolos."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Este capítulo abre o Volume 11 e, com ele, a **Fase 3** do manual. Houve aqui uma mudança
+de escala que vale tornar explícita.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Até agora, a maior unidade que analisamos foi o **período** (Volumes 6 e 7). A gramática
+tradicional para aí: ela descreve sons, palavras, orações e períodos, e considera o
+trabalho feito. Mas ninguém se comunica por períodos isolados. Comunicamo-nos por
+**textos** — e o texto tem propriedades que **nenhuma** análise de frases isoladas explica.
+
+Considere:
+
+> "Maria comprou um carro. O Brasil é o maior país da América do Sul. Amanhã choverá em
+> Lisboa."
+
+Três períodos impecáveis. Sujeito, predicado, concordância, regência, pontuação: tudo
+correto. E, no entanto, aquilo **não é um texto** — é uma lista. Falta-lhe algo que a
+gramática da frase não consegue nomear.
+
+Esse "algo" é o objeto deste volume. A disciplina que o estuda chama-se **linguística
+textual**, e sua tese fundadora é simples: o texto é a **unidade real** da comunicação, e
+tem regras próprias.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** texto como unidade de sentido, e não como extensão ou soma de frases;
+- **Explicar** o que é textualidade e por que ela não está apenas no texto;
+- **Descrever** os sete critérios de textualidade e o papel de cada um;
+- **Distinguir** os fatores centrados no texto dos centrados nos usuários;
+- **Reconhecer** o papel ativo do leitor na construção do sentido;
+- **Diagnosticar** por que um conjunto de frases corretas pode não constituir um texto.
+
+## O que é um texto
+
+Comecemos desfazendo três intuições equivocadas.
+
+**Texto não é questão de extensão.** Um texto pode ter uma palavra. A placa
+
+> **PARE**
+
+é um texto completo: tem autor, destinatário, propósito, situação e sentido pleno. Já um
+livro inteiro de frases desconexas não seria texto algum.
+
+**Texto não é questão de forma escrita.** Uma conversa telefônica é texto. Uma canção é
+texto. Um grito de "socorro!" é texto. A escrita é apenas uma das modalidades
+(@sec-cap-90).
+
+**Texto não é soma de frases.** É o que o exemplo da abertura mostra: correção gramatical
+frase a frase não produz texto.
+
+::: {.callout-important}
+## Definição
+**Texto** é toda **unidade de sentido** produzida numa **situação comunicativa**, que os
+interlocutores reconhecem como um todo coerente e com propósito.
+
+Três elementos, todos necessários:
+
+1. **unidade de sentido** — as partes se articulam, não se justapõem;
+2. **situação comunicativa** — há alguém falando com alguém, em algum contexto, para
+   alguma coisa;
+3. **reconhecimento** — os interlocutores o tomam como texto.
+
+Note a consequência do terceiro item: a textualidade **não é uma propriedade do objeto**.
+É uma propriedade da **relação** entre o objeto, seus usuários e a situação. Um mesmo
+conjunto de palavras pode ser texto numa situação e ruído em outra.
+:::
+
+## Textualidade: os sete critérios
+
+O que faz de uma sequência linguística um texto? A resposta mais influente é a de
+Beaugrande e Dressler, adotada e desenvolvida no Brasil por Koch [@koch2015texto]: um
+conjunto de **sete critérios** ou fatores de **textualidade**.
+
+Eles se dividem em dois grupos, e a divisão é o que importa entender.
+
+::: {#fig-textualidade}
+
+```{.tikz}
+%%| filename: textualidade
+%%| alt: Esquema dos sete critérios de textualidade organizados em dois grupos. À esquerda, centrados no texto: coesão, que é a articulação da superfície por elementos linguísticos, e coerência, que é a articulação do sentido e da lógica. À direita, centrados nos usuários, cinco critérios: intencionalidade, o que o autor pretende; aceitabilidade, a disposição do leitor em cooperar; situacionalidade, a adequação ao contexto; informatividade, o equilíbrio entre novo e conhecido; e intertextualidade, a relação com outros textos. No centro, a indicação de que o texto emerge da relação entre os dois grupos, e que a textualidade não está no papel, mas na relação entre texto, usuários e situação.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[cx, draw=manualgray, fill=manualgray!12, text width=30mm, font=\small] (t) at (0,0)
+    {\textbf{TEXTUALIDADE}\\{\scriptsize 7 critérios}};
+
+  %% centrados no texto
+  \node[cx, draw=manualblue, fill=manualblue!12, text width=28mm] (ct) at (-4.4,1.6)
+    {\textbf{CENTRADOS NO TEXTO}};
+  \node[cx, draw=manualblue, fill=manualblue!5, text width=30mm] (coe) at (-4.4,0.2)
+    {\textbf{coesão}\\ articulação da \emph{superfície}\\{\scriptsize pronomes, conectivos}};
+  \node[cx, draw=manualblue, fill=manualblue!5, text width=30mm] (cor) at (-4.4,-1.3)
+    {\textbf{coerência}\\ articulação do \emph{sentido}\\{\scriptsize lógica, continuidade}};
+  \draw[s] (t) -- (ct); \draw[s] (ct) -- (coe); \draw[s] (coe) -- (cor);
+
+  %% centrados nos usuarios
+  \node[cx, draw=manualred, fill=manualred!12, text width=30mm] (cu) at (4.6,1.6)
+    {\textbf{CENTRADOS NOS USUÁRIOS}};
+  \node[cx, draw=manualred, fill=manualred!5, text width=32mm] (i1) at (4.6,0.5)
+    {\textbf{intencionalidade} — o que o autor pretende};
+  \node[cx, draw=manualred, fill=manualred!5, text width=32mm] (i2) at (4.6,-0.4)
+    {\textbf{aceitabilidade} — o leitor coopera};
+  \node[cx, draw=manualred, fill=manualred!5, text width=32mm] (i3) at (4.6,-1.3)
+    {\textbf{situacionalidade} — adequação ao contexto};
+  \node[cx, draw=manualred, fill=manualred!5, text width=32mm] (i4) at (4.6,-2.2)
+    {\textbf{informatividade} — novo × conhecido};
+  \node[cx, draw=manualred, fill=manualred!5, text width=32mm] (i5) at (4.6,-3.1)
+    {\textbf{intertextualidade} — relação com outros textos};
+  \draw[s] (t) -- (cu); \draw[s] (cu) -- (i1);
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=54mm] at (-1.6,-3.1)
+    {A textualidade \textbf{não está no papel}:\\ está na \textbf{relação} entre texto,
+     usuários e situação.};
+\end{tikzpicture}
+```
+
+Os sete critérios de textualidade. Note a assimetria: apenas **dois** dependem do texto;
+**cinco** dependem de quem o usa e de onde.
+:::
+
+### Centrados no texto
+
+**1. Coesão** — a articulação da **superfície**: os elementos linguísticos que amarram as
+partes (pronomes, conectivos, repetições, elipses). É o tecido visível. Tema do
+@sec-cap-69.
+
+**2. Coerência** — a articulação do **sentido**: a possibilidade de construir, a partir do
+texto, um todo logicamente compatível e continuamente relevante. É o tecido invisível.
+Tema do @sec-cap-70.
+
+### Centrados nos usuários
+
+**3. Intencionalidade** — o **propósito** de quem produz. Todo texto quer algo: informar,
+convencer, comover, ordenar, cumprimentar. Sem intenção, há ruído.
+
+**4. Aceitabilidade** — a **disposição do receptor** em tratar aquilo como texto e
+cooperar na construção do sentido. É o critério mais subestimado, e o mais poderoso: o
+leitor **quer** entender e, por isso, preenche lacunas, tolera falhas, reconstrói o que
+falta.
+
+**5. Situacionalidade** — a **adequação ao contexto**. "PARE" é texto pleno numa placa de
+trânsito; a mesma palavra, gritada num velório, é outra coisa.
+
+**6. Informatividade** — o equilíbrio entre o **novo** e o **conhecido**. Texto totalmente
+previsível é entediante ("A água é molhada. O sol é quente."); texto totalmente imprevisível
+é incompreensível. A boa informatividade dosa.
+
+**7. Intertextualidade** — a relação com **outros textos**. Nenhum texto nasce do nada:
+todo texto responde, cita, imita, parodia ou pressupõe outros. Tema do @sec-cap-73.
+
+## O leitor não é passivo
+
+Vale desenvolver o critério da **aceitabilidade**, porque ele muda a compreensão do que é
+ler.
+
+Considere o diálogo:
+
+> — Você vem à festa?
+> — **Tenho prova amanhã.**
+
+Formalmente, a resposta **não responde**: não há "sim" nem "não". A conexão entre prova e
+festa não está dita em lugar algum. E, no entanto, ninguém tem a menor dificuldade em
+entender que a resposta é "não".
+
+Quem construiu essa resposta? **O leitor**. Ele supôs que provas exigem estudo, que estudar
+consome a noite, que a festa é à noite, e que a menção da prova é relevante justamente por
+isso. Nada disso está no texto — está no **conhecimento de mundo** que o leitor trouxe e no
+princípio de que o interlocutor **está cooperando**.
+
+::: {.callout-important}
+## A consequência prática
+O texto é um **conjunto de instruções**, não um pacote de sentido pronto. Ele não
+transporta significados: ele **orienta** o leitor a construí-los, contando com o que o
+leitor já sabe.
+
+Daí três corolários que atravessarão todo este volume:
+
+1. **O sentido não está no papel** — é construído na interação entre texto e leitor.
+2. **Escrever é prever o leitor** — o autor decide o que dizer e o que deixar implícito
+   com base no que supõe que o leitor sabe. Errar essa previsão é a causa mais comum de
+   texto ruim.
+3. **Ler é trabalhar** — o leitor não recebe; ele reconstrói. Por isso a mesma frase gera
+   leituras diferentes em leitores diferentes.
+:::
+
+## Por que aquelas três frases não formam um texto
+
+Retomemos o exemplo da abertura:
+
+> "Maria comprou um carro. O Brasil é o maior país da América do Sul. Amanhã choverá em
+> Lisboa."
+
+O diagnóstico agora é preciso:
+
+- **Coesão** — nula: nenhum elemento linguístico liga uma frase à outra. Nenhum pronome
+  retoma nada, nenhum conectivo relaciona nada.
+- **Coerência** — nula: não há **continuidade de sentido** nem **relevância** entre os
+  enunciados. Não se consegue construir um todo em que carro, extensão territorial e chuva
+  se articulem.
+- **Intencionalidade** — indeterminável: não se percebe propósito algum.
+- **Informatividade** — desregulada: informações novas demais e desconexas, sem ancoragem
+  no conhecido.
+
+Cada frase é gramatical. **Nenhuma gramática de frase detecta o problema** — porque o
+problema não está em nenhuma frase, e sim entre elas. É por isso que a linguística textual
+precisou existir.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## E se alguém *fizer* daquilo um texto?
+Um exercício revelador: dê aquelas três frases a um leitor e diga que são de um conto de
+Cortázar. Ele **vai** encontrar sentido. Suporá que Maria vai viajar, que o Brasil é o
+destino ou a origem, que a chuva em Lisboa é o que ela deixa para trás — construirá uma
+narrativa de partida.
+
+O que aconteceu? A **aceitabilidade** foi acionada: informado de que aquilo é literatura, o
+leitor decidiu cooperar e trabalhou para construir a coerência que o texto não oferecia.
+
+Isso confirma a tese central do capítulo: a textualidade **não é uma propriedade do
+objeto**. É um efeito da relação entre o objeto, o leitor e a situação — e, dentro de
+certos limites, um leitor disposto pode textualizar quase qualquer coisa. Poesia
+concreta, dadaísmo e vanguardas vivem exatamente dessa margem.
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Aqui a distinção do @sec-cap-03 aparece de um ângulo novo — e desconfortável para certa
+tradição escolar.
+
+Um texto pode ser **impecável na norma-padrão e péssimo como texto**: é o caso da redação
+sem um desvio gramatical sequer, mas sem articulação, sem propósito discernível e sem
+progressão — o famoso "texto que não diz nada, mas diz certo". Inversamente, um texto pode
+ter desvios de norma e ser **excelente como texto**: um relato oral de um falante não
+escolarizado pode ser coeso, coerente, informativo e altamente eficaz.
+
+A implicação avaliativa é séria. Corrigir uma redação contando apenas desvios de norma é
+avaliar a camada mais **superficial** do texto, ignorando as que de fato determinam se ele
+comunica. Não por acaso, as matrizes de correção do ENEM dedicam **quatro** de suas cinco
+competências a aspectos textuais e argumentativos, e apenas **uma** à norma
+(@sec-cap-77).
+
+Isso não desvaloriza a norma — ela importa, e este manual dedicou-lhe um volume inteiro.
+Mas convém saber o que ela é: uma **convenção da modalidade escrita formal**, não o que
+faz um texto ser texto.
+:::
+
+## 📋 Quadro-resumo
+
+**Definição**: texto é uma **unidade de sentido** produzida numa **situação comunicativa**
+e reconhecida como um todo pelos interlocutores. Não é definido por extensão, modalidade
+nem correção gramatical.
+
+**Os sete critérios de textualidade:**
+
+| Grupo | Critério | O que é |
+|---|---|---|
+| **Texto** | **Coesão** | articulação da superfície (pronomes, conectivos) |
+| | **Coerência** | articulação do sentido (lógica, continuidade) |
+| **Usuários** | **Intencionalidade** | o propósito de quem produz |
+| | **Aceitabilidade** | a cooperação de quem recebe |
+| | **Situacionalidade** | adequação ao contexto |
+| | **Informatividade** | equilíbrio entre novo e conhecido |
+| | **Intertextualidade** | relação com outros textos |
+
+Em uma linha: o texto não é soma de frases corretas — é **unidade de sentido em
+situação**; e a textualidade **não está no papel**, mas na **relação** entre o texto, quem
+o produz, quem o lê e o contexto.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Definir texto por extensão.** "PARE" é texto; mil frases desconexas não são.
+- **Definir texto por correção gramatical.** Três frases perfeitas e desconexas não formam
+  texto. A gramática da frase não enxerga o problema.
+- **Achar que texto é só escrito.** Conversa, canção e grito são textos.
+- **Confundir coesão com coerência.** Coesão é **superfície** (elementos visíveis);
+  coerência é **sentido**. Um texto pode ter uma sem a outra (@sec-cap-69, @sec-cap-70).
+- **Supor que o sentido está no texto.** O texto **orienta** a construção do sentido; quem
+  o constrói é o leitor, com seu conhecimento de mundo.
+- **Ignorar a aceitabilidade.** É ela que explica por que entendemos textos falhos — e por
+  que um leitor disposto textualiza quase tudo.
+- **Achar que informatividade é "quanto mais novo, melhor".** É **equilíbrio**: o
+  totalmente previsível entedia; o totalmente imprevisível não comunica.
+
+## ✍️ Exercícios
+
+**1.** Explique por que a sequência a seguir não constitui um texto: "Maria comprou um
+carro. O Brasil é o maior país da América do Sul. Amanhã choverá em Lisboa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Todas as três frases são **gramaticalmente impecáveis** — e é justamente esse o ponto: o
+problema não está em nenhuma delas, mas **entre** elas.
+
+Diagnóstico pelos critérios:
+
+- **Coesão nula**: não há um único elemento linguístico ligando as frases — nenhum pronome
+  retoma um referente anterior, nenhum conectivo estabelece relação.
+- **Coerência nula**: não há continuidade de sentido nem relevância recíproca. Não se
+  consegue construir um mundo em que a compra de um carro, a extensão do Brasil e a chuva
+  em Lisboa se articulem.
+- **Intencionalidade indeterminável**: não se percebe propósito.
+- **Informatividade desregulada**: só informação nova, sem ancoragem no conhecido.
+
+**A lição teórica**: nenhuma gramática de frase detecta esse problema, porque nenhuma frase
+tem problema. É exatamente essa lacuna que justifica a existência da **linguística
+textual** — há regras acima do período, e a gramática tradicional para antes delas.
+:::
+
+**2.** Justifique: a placa "PARE" é um texto?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Sim**, e plenamente. Ela satisfaz todos os requisitos da definição:
+
+- **Unidade de sentido**: comunica uma ordem completa, sem lacunas.
+- **Situação comunicativa**: há emissor (o órgão de trânsito), destinatário (o motorista),
+  contexto (o cruzamento) e propósito (evitar colisões).
+- **Reconhecimento**: os interlocutores a tomam como texto e agem conforme.
+
+Aplicando os sete critérios: há **intencionalidade** (ordenar), **aceitabilidade** (o
+motorista coopera), **situacionalidade** (a placa está no cruzamento — fora dele, não
+significaria), **informatividade** (baixa, mas adequada: excesso de novidade numa placa
+seria perigoso) e **intertextualidade** (dialoga com o código de trânsito inteiro).
+
+**O que o caso prova**: texto **não se define por extensão**. Uma palavra pode ser texto
+completo; um livro de frases desconexas não seria texto algum. O critério é a **unidade de
+sentido em situação**, não o número de palavras.
+:::
+
+**3.** No diálogo "— Você vem à festa? — Tenho prova amanhã", explique como se constrói o
+sentido.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Formalmente, a resposta **não responde**: não contém "sim" nem "não", e a relação entre
+prova e festa não está enunciada em lugar algum.
+
+O sentido ("não vou") é construído pelo **leitor/ouvinte**, que mobiliza:
+
+1. **Conhecimento de mundo**: provas exigem estudo; estudar consome tempo; festas ocorrem
+   à noite e consomem a mesma noite.
+2. **Princípio de cooperação**: o ouvinte assume que o interlocutor **está sendo
+   relevante** — se ele mencionou a prova, é porque ela tem a ver com a pergunta. Uma
+   resposta aleatória seria descortesia.
+3. **Inferência**: dessas premissas, deduz-se a recusa.
+
+**O que isso demonstra** (o critério da **aceitabilidade**): o texto funciona como
+**conjunto de instruções**, não como pacote de sentido pronto. Ele não transporta
+significado — **orienta** o interlocutor a construí-lo, contando com o que ele já sabe.
+
+**Corolário para quem escreve**: o autor pôde omitir tudo isso porque **previu** o que o
+leitor saberia. Errar essa previsão — omitir o que o leitor não sabe, ou explicar o que
+ele já sabe — é a causa mais comum de texto ruim.
+:::
+
+**4.** (Estilo ENEM) A textualidade, segundo a linguística textual, é:
+
+a) propriedade intrínseca do texto, verificável em sua superfície;
+b) resultado da relação entre texto, usuários e situação comunicativa;
+c) sinônimo de correção gramatical;
+d) característica exclusiva de textos escritos;
+e) determinada pela extensão do texto.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Dos sete critérios de textualidade, apenas **dois** (coesão e
+coerência) são centrados no texto; **cinco** (intencionalidade, aceitabilidade,
+situacionalidade, informatividade, intertextualidade) dependem dos **usuários** e da
+**situação**.
+
+Essa assimetria é a tese central do capítulo: a textualidade **não é uma propriedade do
+objeto**, mas um efeito de uma **relação**.
+
+As demais: **(a)** contradiz a assimetria — a maior parte dos critérios não está na
+superfície; **(c)** frases gramaticalmente perfeitas podem não formar texto, e textos com
+desvios de norma podem ser plenamente textuais; **(d)** conversas, canções e gritos são
+textos; **(e)** "PARE" é texto e mil frases desconexas não são.
+:::
+
+**5.** Explique o critério da informatividade com exemplos dos dois extremos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **informatividade** é o equilíbrio entre informação **nova** e **conhecida**. Ambos os
+extremos falham:
+
+**Previsível demais** (informatividade baixa): "A água é molhada. O sol é quente. O gelo é
+frio." Tudo verdadeiro, tudo já sabido — o texto **entedia** e não justifica a leitura. Não
+há razão para ter sido escrito.
+
+**Imprevisível demais** (informatividade alta): "O quantum decoerente retropropaga a
+assíntota holomórfica no fibrado tangente." Para um leigo, todas as informações são novas
+e não há **ancoragem** no conhecido — o texto **não comunica**, mesmo sendo gramatical.
+
+**O ponto de equilíbrio**: o bom texto ancora o novo no conhecido. É o que a divulgação
+científica faz bem — parte de algo familiar ("imagine uma cama elástica") para introduzir
+o desconhecido (a curvatura do espaço-tempo).
+
+**Observação importante**: a informatividade é **relativa ao leitor**, não ao texto. O
+mesmo artigo de física é trivial para um físico e opaco para um leigo. Isso reforça a tese
+do capítulo: nem esse critério está no papel.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Um texto gramaticalmente correto é,
+necessariamente, um texto coerente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Correção gramatical e coerência operam em **níveis diferentes** e são
+independentes.
+
+**Evidência direta**: "Maria comprou um carro. O Brasil é o maior país da América do Sul.
+Amanhã choverá em Lisboa." Três frases gramaticalmente perfeitas, zero coerência. A
+gramática opera **dentro** da frase; a coerência, **entre** as frases e no todo — e nenhuma
+análise sintática detecta a falha.
+
+**A recíproca também é falsa**, e é igualmente instrutiva: um relato oral com desvios de
+norma ("nós vai lá e pega os menino") pode ser perfeitamente **coerente**, coeso e eficaz.
+
+**Consequência avaliativa**: uma redação sem um único erro gramatical pode ser um texto
+ruim — sem articulação, sem propósito, sem progressão. É o "texto que não diz nada, mas diz
+certo". Não por acaso, as competências do ENEM dedicam **quatro** de cinco a aspectos
+textuais e apenas **uma** à norma (@sec-cap-77).
+:::
+
+**7.** Analise: uma receita de bolo publicada num livro de poesia continua sendo receita?
+
+::: {.callout-tip collapse="true"}
+## Solução
+A pergunta testa o critério da **situacionalidade** e, sobretudo, o da **aceitabilidade** —
+e a resposta é: **depende da leitura**, que é precisamente o ponto.
+
+**Como receita** (leitura instrucional): se o leitor a tomar pelo gênero que sua forma
+anuncia, ela permanece receita — texto injuntivo (@sec-cap-71), com propósito de instruir.
+
+**Como poema** (leitura estética): mas o **suporte** (um livro de poesia) e o **contrato de
+leitura** que ele estabelece instruem o leitor a buscar outra coisa. Ele passará a
+perceber ritmo nos imperativos ("bata as claras em neve"), imagens nos ingredientes,
+talvez metáfora na transformação pelo calor. E **encontrará** — porque decidiu cooperar
+nessa direção.
+
+**O que o caso demonstra**:
+
+1. O **suporte** e a **situação** participam da definição do gênero — não só a forma do
+   texto (@sec-cap-72).
+2. A **aceitabilidade** é decisiva: o leitor informado de que aquilo é poesia **trabalha**
+   para construir a leitura poética, exatamente como faria com as três frases desconexas
+   atribuídas a Cortázar.
+3. Confirma-se a tese central: a textualidade **não está no objeto**. O mesmo conjunto de
+   palavras é receita numa situação e poema em outra.
+
+Vale lembrar que a poesia concreta e as vanguardas exploraram deliberadamente essa margem
+— deslocar um texto de seu suporte habitual é, em si, um procedimento estético.
+:::
+
+**8.** Distinga os critérios centrados no texto dos centrados nos usuários, e explique a
+importância da assimetria.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Centrados no texto (2):**
+
+- **Coesão** — a articulação da **superfície**: pronomes, conectivos, repetições, elipses.
+  É verificável no papel.
+- **Coerência** — a articulação do **sentido**: continuidade, relevância, compatibilidade
+  lógica. Já é parcialmente dependente do leitor.
+
+**Centrados nos usuários (5):**
+
+- **Intencionalidade** — o propósito de quem produz.
+- **Aceitabilidade** — a cooperação de quem recebe.
+- **Situacionalidade** — a adequação ao contexto.
+- **Informatividade** — o equilíbrio novo/conhecido, relativo ao repertório do leitor.
+- **Intertextualidade** — a relação com outros textos conhecidos.
+
+**A importância da assimetria (5 × 2)**: ela desmonta a concepção mais difundida de texto —
+a de que o texto é um **recipiente** que contém sentido, e ler é **retirá-lo** de lá.
+
+Se cinco dos sete critérios dependem de quem usa e de onde, então o sentido **não está
+guardado no papel**: ele é **construído na interação**. Daí decorre tudo o que este volume
+desenvolverá: escrever é **prever o leitor**; ler é **trabalhar**, não receber; e o mesmo
+texto gera leituras diferentes em leitores diferentes — não por falha, mas por definição.
+:::
+
+**9.** (Estilo FUVEST) "O sentido não está no texto." Discuta a afirmação, indicando o que
+ela ganha e o que ela arrisca.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O que a afirmação acerta**: o texto não **transporta** sentido pronto; ele funciona como
+um **conjunto de instruções** que orienta o leitor a construí-lo, mobilizando conhecimento
+de mundo, inferências e o princípio de cooperação. O caso "— Você vem à festa? — Tenho
+prova amanhã" prova isso: a recusa não está em lugar algum do enunciado, e todos a
+entendem. Cinco dos sete critérios de textualidade dependem dos usuários e da situação, o
+que sustenta a tese.
+
+**O que ela arrisca**: levada ao extremo, a afirmação desliza para um **relativismo
+interpretativo** — a ideia de que o texto não restringe nada e que qualquer leitura é
+igualmente válida. Isso é falso e perigoso, por duas razões:
+
+1. **O texto impõe limites reais.** Ele oferece instruções, não um cheque em branco.
+   "Maria comprou um carro" não pode significar "choveu em Lisboa", por mais criativo que
+   seja o leitor. Há leituras **erradas** — as que contrariam as instruções do texto.
+2. **A leitura tem critérios públicos.** Uma interpretação se defende com **evidência
+   textual**. Se tudo valesse, não haveria como corrigir uma prova de interpretação, nem
+   como discordar de ninguém (@sec-cap-85).
+
+**A formulação precisa**: o sentido não está **apenas** no texto — ele é construído **na
+interação** entre as instruções do texto e o repertório do leitor, **dentro dos limites**
+que o texto estabelece. Nem o sentido está guardado no papel (objetivismo ingênuo), nem o
+leitor inventa o que quer (relativismo vazio).
+
+É a mesma estrutura de argumento que o manual adotou diante da norma no @sec-cap-03: nem
+prescritivismo, nem vale-tudo. A posição defensável costuma ser a que reconhece **duas**
+restrições operando ao mesmo tempo.
+:::
+
+**10.** Produza um exemplo de sequência de frases corretas que não constitua texto e outro
+de texto com desvios de norma que seja plenamente textual. Comente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Frases corretas que não formam texto:**
+
+> "O elefante é um mamífero. Pedro gosta de jazz. A raiz quadrada de 144 é 12. Ontem
+> comprei pão."
+
+Quatro períodos gramaticalmente impecáveis. Não há coesão (nenhum elemento liga as
+frases), não há coerência (nenhuma continuidade de sentido ou relevância recíproca), não se
+percebe intencionalidade. **Nenhuma gramática de frase detecta o problema** — porque não há
+problema em nenhuma frase.
+
+**(b) Texto com desvios de norma, plenamente textual:**
+
+> "Nós chegou lá de madrugada, né. Aí os home tava tudo esperando na porta. Ninguém falou
+> nada, mas todo mundo sabia o que ia acontecer. Aí eu peguei o menino pela mão e falei
+> pra ele: 'seja o que Deus quiser'."
+
+Há desvios claros da norma-padrão (concordância verbal e nominal: "nós chegou", "os home
+tava tudo"). E, no entanto, o texto é:
+
+- **coeso** — "aí" encadeia temporalmente; "ele" retoma "o menino"; "lá" e "na porta"
+  ancoram o espaço;
+- **coerente** — há progressão narrativa, tensão construída e desfecho;
+- **informativo** — dosa o novo e o pressuposto com precisão (o que "ia acontecer" fica
+  implícito, e funciona melhor assim);
+- **intencional** — narra e constrói suspense, com evidente controle.
+
+**Comentário**: os dois exemplos, juntos, demonstram que **correção gramatical e
+textualidade são independentes**. (a) tem norma e não é texto; (b) tem desvios e é texto
+excelente.
+
+A implicação é séria e vale enunciá-la sem rodeios: avaliar um texto contando apenas
+desvios de norma é medir sua camada mais **superficial**, ignorando as que determinam se
+ele comunica. A norma importa — é convenção da escrita formal e este manual dedicou-lhe um
+volume inteiro. Mas ela não é o que faz um texto ser texto (@sec-cap-03).
+:::
+
+## 📚 Referências
+
+A definição de texto como unidade de sentido em situação e os sete critérios de
+textualidade seguem Koch [@koch2015texto] e Koch [@koch2018coesao], que introduziram e
+desenvolveram no Brasil o quadro de Beaugrande e Dressler; a concepção do texto como
+conjunto de instruções e do leitor como coprodutor do sentido apoia-se também em Marcuschi
+[@marcuschi2008]. Para a distinção entre norma e uso retomada ao longo do capítulo, veja o
+@sec-cap-03, com Bagno [@bagno2011] e Faraco [@faraco2008]; para a oralidade como
+modalidade plenamente textual, o @sec-cap-90. Os dois critérios centrados no texto são
+desenvolvidos nos capítulos seguintes: a **coesão** no @sec-cap-69 e a **coerência** no
+@sec-cap-70; a **intertextualidade**, no @sec-cap-73; os **gêneros**, no @sec-cap-72.
+
+::: {#refs}
 :::
