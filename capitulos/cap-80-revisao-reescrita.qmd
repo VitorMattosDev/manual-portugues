@@ -4,22 +4,673 @@ title: "Revisão e reescrita"
 
 # Revisão e reescrita {#sec-cap-80}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 12 — Redação e Escrita.
+> "Não existe texto bem escrito. Existe texto bem reescrito."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o Volume 12 com a etapa que todos os capítulos anteriores pressupõem e que quase
+ninguém pratica: a **revisão**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Há uma razão para deixá-la por último e uma razão para não a tratar como apêndice. A razão
+para deixá-la por último é óbvia: só se revisa o que já existe. A razão para não a tratar
+como apêndice é menos óbvia e mais importante: **a revisão não é o acabamento da escrita —
+ela é a escrita**. O primeiro rascunho serve para descobrir o que você pensa; os seguintes,
+para fazer o leitor entender.
+
+A escola brasileira raramente ensina isso. Ensina-se a **produzir** texto — e a produção é
+avaliada como se o rascunho fosse o produto. O resultado é uma geração de escreventes que
+acredita que escrever bem é acertar de primeira, e que revisar é procurar erros de
+ortografia.
+
+Este capítulo propõe o contrário: revisar é uma operação **em camadas**, que começa pela
+arquitetura e só termina na vírgula — e a ordem importa, porque revisar a vírgula de um
+parágrafo que será cortado é desperdício.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** revisão de reescrita e de correção;
+- **Aplicar** a revisão em camadas, da estrutura à superfície;
+- **Executar** os testes diagnósticos: esqueleto, coluna vertebral, leitura em voz alta;
+- **Cortar** o excesso — a operação de maior retorno da revisão;
+- **Reconhecer** os obstáculos cognitivos da autorrevisão e como contorná-los;
+- **Adaptar** o método às condições reais (inclusive à prova, sem tempo).
+
+## Três operações diferentes
+
+::: {.callout-important}
+## Correção × revisão × reescrita
+- **Correção** — conserta a **superfície**: ortografia, concordância, pontuação. É a camada
+  mais fina e a única que a escola costuma ensinar. Não melhora o texto; apenas o
+  desengasga.
+- **Revisão** — reexamina o **texto** contra seu objetivo: a tese está clara? os argumentos
+  sustentam? o leitor vai entender? Pode resultar em cortes e reordenações.
+- **Reescrita** — **refaz**. Não é ajustar: é jogar fora e escrever de novo, muitas vezes
+  do zero, agora sabendo o que se quer dizer.
+
+Os três são necessários, mas **em ordem**: revisar antes de corrigir, reescrever antes de
+polir. Ajustar a vírgula de um parágrafo que será cortado é trabalho jogado fora — e é
+exatamente o que a maioria faz, porque a superfície é onde os problemas são visíveis.
+:::
+
+## A revisão em camadas
+
+A ordem é do **maior** para o **menor**. Cada camada pressupõe a anterior resolvida.
+
+::: {#fig-camadas-revisao}
+
+```{.tikz}
+%%| filename: camadas-revisao
+%%| alt: Esquema das cinco camadas de revisão dispostas verticalmente, do maior para o menor. Camada 1, arquitetura: pergunta se há tese e se cada parte a serve, usando o teste do esqueleto e da coluna vertebral; a intervenção típica é cortar ou reordenar parágrafos inteiros. Camada 2, parágrafo: pergunta se cada parágrafo tem uma ideia e se progride, usando o teste da ideia única; a intervenção é dividir, fundir ou desenvolver. Camada 3, articulação: pergunta se os conectivos nomeiam relações que existem e se as retomadas são inequívocas. Camada 4, frase: pergunta se há excesso, ambiguidade ou voz passiva desnecessária; a intervenção é cortar palavras. Camada 5, superfície: ortografia, concordância, pontuação e digitação. À direita, o alerta de que a ordem importa, porque revisar a vírgula de um parágrafo que será cortado é desperdício, e que a maioria começa pela camada 5 porque é onde os problemas são visíveis.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize, text width=60mm},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray, very thick},
+]
+  \node[cx, draw=manualred, fill=manualred!14] (c1) at (-2.2,2.6)
+    {\textbf{1. ARQUITETURA} {\scriptsize— o texto todo}\\
+     {\scriptsize Há \textbf{tese}? Cada parte a serve? A conclusão decorre?}\\
+     {\scriptsize \emph{testes}: esqueleto · coluna vertebral}\\
+     {\scriptsize \emph{intervenção}: \textbf{cortar/reordenar parágrafos}}};
+
+  \node[cx, draw=manualyellow, fill=manualyellow!14] (c2) at (-2.2,1.1)
+    {\textbf{2. PARÁGRAFO}\\
+     {\scriptsize Uma ideia por parágrafo? Progride ou repisa?}\\
+     {\scriptsize \emph{teste}: da ideia única}\\
+     {\scriptsize \emph{intervenção}: dividir · fundir · desenvolver}};
+
+  \node[cx, draw=manualgreen, fill=manualgreen!12] (c3) at (-2.2,-0.3)
+    {\textbf{3. ARTICULAÇÃO}\\
+     {\scriptsize Os conectivos nomeiam relações que \textbf{existem}?}\\
+     {\scriptsize As retomadas são inequívocas?}};
+
+  \node[cx, draw=manualblue, fill=manualblue!12] (c4) at (-2.2,-1.6)
+    {\textbf{4. FRASE}\\
+     {\scriptsize Há excesso? ambiguidade? passiva desnecessária?}\\
+     {\scriptsize \emph{intervenção}: \textbf{cortar palavras}}};
+
+  \node[cx, draw=manualgray, fill=manualgray!12] (c5) at (-2.2,-2.9)
+    {\textbf{5. SUPERFÍCIE}\\
+     {\scriptsize ortografia · concordância · pontuação · digitação}};
+
+  \draw[s] (c1)--(c2); \draw[s] (c2)--(c3); \draw[s] (c3)--(c4); \draw[s] (c4)--(c5);
+
+  \node[rounded corners=3pt, draw=manualred, fill=manualred!6, align=left,
+        font=\scriptsize, inner sep=5pt, text width=40mm] at (4.6,0.0)
+    {\textbf{A ORDEM IMPORTA}\\[4pt]
+     Revisar a vírgula de um parágrafo que será \textbf{cortado} é trabalho jogado fora.\\[4pt]
+     A maioria começa pela \textbf{camada 5} — porque é onde os problemas são
+     \textbf{visíveis}.\\[4pt]
+     Os problemas que \textbf{custam caro} estão na \textbf{camada 1} — e são invisíveis
+     na leitura linear.};
+\end{tikzpicture}
+```
+
+As cinco camadas, do maior para o menor. O erro quase universal é começar pela base — onde
+os defeitos saltam aos olhos — e nunca chegar ao topo, onde estão os que decidem se o texto
+funciona.
+:::
+
+### Camada 1 — Arquitetura
+
+As perguntas: **há tese?** cada parte a serve? a conclusão decorre? falta algo? sobra algo?
+
+Os testes (@sec-cap-74, @sec-cap-75):
+
+- **Teste do esqueleto** — copie só os tópicos frase, em sequência, e leia-os. Formam um
+  raciocínio? Progridem?
+- **Teste da coluna vertebral** — de cada parágrafo, pergunte "como isto sustenta a tese?".
+  Sem resposta em uma frase → corte.
+
+Esta camada é a que mais importa e a que quase ninguém revisa, porque seus defeitos são
+**invisíveis na leitura linear** (@sec-cap-70): lendo do começo ao fim, cada parágrafo faz
+sentido no momento em que é lido.
+
+### Camada 2 — Parágrafo
+
+**Teste da ideia única** (@sec-cap-74): "qual é a ideia deste parágrafo?" Se a resposta
+tiver "e também", divida. Se não houver resposta, corte.
+
+E o teste da progressão: de cada frase, "o que ela acrescenta que a anterior já não dizia?"
+
+### Camada 3 — Articulação
+
+Os conectivos **nomeiam relações que existem**? (@sec-cap-69) Um "portanto" que não conclui
+nada é pior que nenhum conectivo. As retomadas são inequívocas — algum "ele" pode apontar
+para dois referentes? (@sec-cap-64)
+
+### Camada 4 — Frase
+
+Aqui entra a operação de maior retorno da revisão inteira: **cortar**.
+
+### Camada 5 — Superfície
+
+Ortografia, concordância, regência, pontuação, digitação. Última, sempre.
+
+## Cortar: a operação essencial
+
+::: {.callout-important}
+## Se você só fizer uma coisa, faça esta
+**Corte 10% de qualquer texto e ele melhora.** Isso é verdade quase sem exceção, e a razão
+é simples: escrevemos o primeiro rascunho **pensando**, e o pensamento deixa rastro —
+hesitações, repetições, rodeios, aquecimento.
+
+O que cortar primeiro:
+
+| Cortar | Exemplo | Vira |
+|---|---|---|
+| **Metadiscurso** | "É importante ressaltar que a desigualdade..." | "A desigualdade..." |
+| **Advérbios de reforço** | "É **realmente muito** grave" | "É grave" |
+| **Redundâncias** | "**elo de ligação**", "**há anos atrás**" | "elo", "há anos" |
+| **Perífrases** | "**tem a capacidade de** fazer" | "pode fazer" |
+| **Frases de aquecimento** | "Desde os primórdios da humanidade..." | *(corte inteira)* |
+| **Adjetivos vagos** | "um problema **muito importante e sério**" | *(especifique ou corte)* |
+| **Passiva desnecessária** | "Foi realizada uma análise por nós" | "Analisamos" |
+
+Note que **nenhum** desses cortes perde informação. Todos perdem apenas **ruído**.
+:::
+
+**Exemplo de corte:**
+
+> "É importante ressaltar que, de certa forma, a questão da desigualdade social no Brasil é
+> realmente um problema muito grave que vem se arrastando desde os primórdios da nossa
+> história enquanto nação." *(33 palavras)*
+
+> "A desigualdade brasileira é grave e antiga." *(6 palavras)*
+
+Perdeu-se algo? Apenas o aquecimento. E ganhou-se: agora sobram 27 palavras para **dizer
+alguma coisa** — um dado, um mecanismo, uma tese.
+
+## Os obstáculos da autorrevisão
+
+Por que é tão difícil revisar o próprio texto? Não é falta de método: é um problema
+**cognitivo** real, e conhecê-lo ajuda a contorná-lo.
+
+::: {.callout-warning}
+## Você lê o que quis escrever
+O fenômeno: ao reler seu texto, você **não lê o que está na página** — lê o que pretendia
+pôr nela. Seu cérebro preenche automaticamente as lacunas, porque tem acesso à intenção que
+o leitor não terá.
+
+Consequências:
+
+1. **Você não vê o implícito.** O que ficou claro **na sua cabeça** parece claro no texto.
+   É a causa número um do texto obscuro (@sec-cap-70): não é ilogicidade, é **erro de
+   previsão do leitor**.
+2. **Você não vê a repetição.** Como já sabe o que vem, não sente o tédio.
+3. **Você não vê os erros de digitação.** O cérebro corrige silenciosamente.
+
+**Como contornar** — todas as técnicas fazem a mesma coisa: **estranhar o próprio texto**:
+
+- **Deixe descansar.** Algumas horas, um dia. O tempo apaga a memória da intenção, e você
+  passa a ler o que escreveu.
+- **Leia em voz alta.** O ouvido pega o que o olho perde: frases longas demais, cacofonia,
+  repetição, ritmo quebrado. Se você se perdeu ao ler, o leitor também se perderá.
+- **Mude o suporte.** Imprima, mude a fonte, leia no celular. A novidade visual quebra a
+  automatização.
+- **Leia de trás para frente** (frase a frase, da última para a primeira). Destrói o
+  contexto e força a ver cada frase isolada — excelente para a camada 5.
+- **Dê a outra pessoa.** O único método que resolve o problema na raiz: o outro **não sabe**
+  o que você quis dizer. É por isso que ele acha as falhas em cinco minutos.
+:::
+
+## Revisar na prova
+
+O método completo pressupõe tempo. A prova não dá. Adapte:
+
+::: {.callout-tip}
+## Os 5 minutos que valem a nota
+Reserve **5 minutos** ao final e faça, **nesta ordem**:
+
+1. **(2 min) Teste da coluna vertebral.** Leia só a tese e os tópicos frase. Cada parágrafo
+   sustenta a tese? A conclusão decorre? — É aqui que estão os pontos de C2 e C3
+   (@sec-cap-77), e é a única falha que você **não** consegue ver na leitura linear.
+2. **(1 min) Proposta de intervenção.** Confira os cinco elementos: agente, ação, meio,
+   finalidade, detalhamento. Cada um vale pontos concretos.
+3. **(2 min) Superfície.** Leia procurando **erro**, não sentido: concordância, acentuação,
+   pontuação.
+
+**Por que essa ordem**: os itens 1 e 2 valem centenas de pontos; o item 3 vale dezenas. Se o
+tempo acabar, acabou no lugar certo.
+
+**O que fazer se o teste 1 falhar** — e a resposta é desconfortável: se um parágrafo não
+sustenta a tese, é tarde para reescrevê-lo, mas **não** é tarde para **amarrá-lo**. Uma
+frase final ligando aquele parágrafo à tese pode salvar a coerência do conjunto
+(@sec-cap-75). Amarrar é mais barato que refazer.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Uma observação sobre o que a escola faz com este capítulo.
+
+O ensino tradicional de redação avalia o **produto** e ignora o **processo**: o aluno
+escreve, entrega, recebe uma nota e um texto rabiscado de vermelho — e passa ao tema
+seguinte. Ele nunca **reescreve**. O resultado é que ele aprende a **produzir rascunhos**
+cada vez mais rápido e nunca aprende a **fazer texto**, porque a operação que transforma
+rascunho em texto nunca foi praticada.
+
+Pior: como o vermelho aponta quase sempre desvios de **superfície** (camada 5), o aluno
+conclui que revisar **é** procurar erros de português — e nunca suspeita que existam as
+camadas 1 a 4, onde estão os problemas que de fato comprometem o texto.
+
+Nenhum escritor profissional trabalha assim. Jornalistas têm editores; acadêmicos têm
+pareceristas; escritores reescrevem dezenas de vezes. A ideia de que o texto bom sai de
+primeira é uma **ficção escolar** — e ela produz, previsivelmente, alunos que se julgam
+incapazes de escrever porque seu primeiro rascunho é ruim. O primeiro rascunho **é ruim para
+todo mundo**. A diferença está no que se faz depois.
+
+A prática que corrige isso é conhecida e barata: **reescrita com devolutiva**. Escrever,
+receber comentário sobre o **projeto do texto** (não sobre a vírgula), reescrever, comparar.
+Custa mais tempo do professor — e é a única forma de ensinar a operação que este capítulo
+descreve [@garcia2010; @faraco2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Três operações**: **correção** (superfície) · **revisão** (o texto contra seu objetivo) ·
+**reescrita** (refazer). Em ordem: revisar antes de corrigir.
+
+**As cinco camadas** (do maior para o menor):
+
+| Camada | Pergunta | Teste / intervenção |
+|---|---|---|
+| **1. Arquitetura** | há tese? cada parte a serve? | esqueleto · coluna vertebral → **cortar/reordenar** |
+| **2. Parágrafo** | uma ideia? progride? | teste da ideia única → dividir/desenvolver |
+| **3. Articulação** | os conectivos nomeiam relações reais? | conferir cada um |
+| **4. Frase** | há excesso? ambiguidade? | **cortar palavras** |
+| **5. Superfície** | ortografia, concordância, pontuação | por último |
+
+**Corte 10%** — e o texto melhora. Comece por: metadiscurso · advérbios de reforço ·
+redundâncias · perífrases · frases de aquecimento · passiva desnecessária.
+
+**O obstáculo**: você lê **o que quis escrever**. Contorne com: descansar · ler em voz alta
+· mudar o suporte · ler de trás para frente · **dar a outra pessoa**.
+
+**Na prova (5 min)**: coluna vertebral (2) → proposta de intervenção (1) → superfície (2).
+
+Em uma linha: **a revisão não é o acabamento da escrita — é a escrita**; e revisar é uma
+operação **em camadas**, que começa na arquitetura e só termina na vírgula.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Começar pela camada 5.** Corrigir a vírgula de um parágrafo que será cortado é trabalho
+  jogado fora.
+- **Confundir revisão com correção.** Achar erro de português não melhora o texto — apenas o
+  desengasga.
+- **Reler linearmente.** Isso **não** detecta falha de arquitetura: cada parágrafo faz
+  sentido no momento em que é lido (@sec-cap-70).
+- **Achar que você lê o que escreveu.** Você lê **o que quis escrever**. Precisa estranhar o
+  texto.
+- **Revisar imediatamente após escrever.** A memória da intenção ainda está fresca demais.
+  Deixe descansar.
+- **Não cortar.** 10% de qualquer texto é ruído. Cortar é a operação de maior retorno.
+- **Achar que texto bom sai de primeira.** Ficção escolar. O primeiro rascunho é ruim **para
+  todo mundo**.
+- **Na prova, gastar os 5 minutos finais só na gramática.** C2 e C3 valem mais que C1
+  (@sec-cap-77).
+
+## ✍️ Exercícios
+
+**1.** Distinga correção, revisão e reescrita.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Correção** — conserta a **superfície**: ortografia, acentuação, concordância, regência,
+pontuação, digitação. É a camada mais fina. Não **melhora** o texto: apenas remove
+obstáculos. Um texto sem tese continua sem tese depois de corrigido.
+
+**Revisão** — reexamina o **texto contra seu objetivo**: a tese está clara? os argumentos
+sustentam? há progressão? o leitor vai entender? Pode resultar em cortes, reordenações e
+acréscimos. É onde o texto de fato melhora.
+
+**Reescrita** — **refaz**. Não é ajustar o que existe: é jogar fora e escrever de novo, às
+vezes do zero — agora sabendo o que se quer dizer, o que no primeiro rascunho não se sabia.
+
+**A relação — o ponto do exercício**: os três são necessários, mas **em ordem**. Revisar
+antes de corrigir; reescrever antes de polir.
+
+**Por que a ordem importa**: ajustar a vírgula de um parágrafo que será **cortado** é
+trabalho jogado fora. E é exatamente o que a maioria faz — porque a superfície é onde os
+problemas são **visíveis**, enquanto os problemas de arquitetura são invisíveis na leitura
+linear.
+:::
+
+**2.** Explique por que a revisão deve ir da camada maior para a menor.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Por economia e por hierarquia de impacto.**
+
+**Economia**: cada camada pode **anular** o trabalho feito nas camadas menores. Se você
+polir a pontuação de um parágrafo (camada 5) e depois descobrir, na revisão de arquitetura
+(camada 1), que ele não sustenta a tese e precisa ser cortado, todo aquele polimento foi
+jogado fora. Trabalhar de cima para baixo garante que só se refine o que vai **ficar**.
+
+**Hierarquia de impacto**: os defeitos das camadas altas custam muito mais.
+
+| Defeito | Camada | Custo |
+|---|---|---|
+| texto sem tese | 1 | compromete tudo |
+| parágrafo que não sustenta | 1 | derruba a coerência global |
+| parágrafo com duas ideias | 2 | confunde |
+| conectivo invertido | 3 | afirma o contrário |
+| frase prolixa | 4 | cansa |
+| vírgula errada | 5 | arranha |
+
+**O que acontece na prática**: quase todo mundo começa pela camada 5 — porque é onde os
+problemas **saltam aos olhos** — e nunca chega à camada 1. O resultado é o texto
+gramaticalmente impecável e argumentativamente vazio, que é o produto mais comum da escola
+brasileira (@sec-cap-70).
+
+**A ironia**: as camadas 1 e 2 são invisíveis na leitura linear, que é como todo mundo
+revisa. É por isso que elas exigem **testes específicos** (esqueleto, coluna vertebral) em
+vez de simples releitura.
+:::
+
+**3.** Corte o excesso: "É importante ressaltar que, de certa forma, a questão da
+desigualdade social no Brasil é realmente um problema muito grave que vem se arrastando
+desde os primórdios da nossa história enquanto nação."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Versão cortada**: "A desigualdade brasileira é grave e antiga." *(33 → 6 palavras)*
+
+**O que foi cortado, e por quê:**
+
+| Trecho | Tipo | Por que sai |
+|---|---|---|
+| "É importante ressaltar que" | **metadiscurso** | anuncia que vai dizer, em vez de dizer |
+| "de certa forma" | **hedge vazio** | enfraquece sem qualificar nada |
+| "a questão da" | **perífrase** | "a questão da desigualdade" = "a desigualdade" |
+| "social" | **redundante** | desigualdade, sem qualificação, já é social |
+| "realmente" | **advérbio de reforço** | não reforça: sugere insegurança |
+| "muito" | **advérbio de reforço** | "muito grave" é mais fraco que "grave" |
+| "um problema" | **categorização óbvia** | ser grave já implica ser problema |
+| "que vem se arrastando desde os primórdios" | **aquecimento** | "antiga" diz o mesmo |
+| "enquanto nação" | **jargão vazio** | (e "enquanto" aí é uso condenado por *como*) |
+
+**Perdeu-se informação?** **Nenhuma.** As duas versões afirmam exatamente a mesma coisa: a
+desigualdade brasileira é grave e antiga.
+
+**Ganhou-se o quê?** **27 palavras** — que agora podem ser usadas para **dizer alguma
+coisa**: um dado, um mecanismo, uma tese. Numa redação de 30 linhas, isso é decisivo: a
+versão original gasta uma linha e meia com aquecimento; a cortada abre espaço para
+argumento.
+
+**O princípio**: o primeiro rascunho carrega o rastro do pensamento — hesitação, rodeio,
+aquecimento. Cortar não empobrece: remove ruído.
+:::
+
+**4.** (Estilo Cebraspe — Certo/Errado) Julgue: "Revisar um texto consiste em corrigir os
+erros gramaticais."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Isso é **correção**, que é apenas a **camada 5** — a mais fina de cinco.
+
+**As camadas que o enunciado ignora:**
+
+1. **Arquitetura** — há tese? cada parte a serve? a conclusão decorre?
+2. **Parágrafo** — uma ideia por parágrafo? progride ou repisa?
+3. **Articulação** — os conectivos nomeiam relações que existem?
+4. **Frase** — há excesso? ambiguidade?
+5. **Superfície** — ← *só isto o enunciado chama de revisão*
+
+**A evidência decisiva**: um texto pode ser **gramaticalmente impecável** e **péssimo** —
+sem tese, sem progressão, com conclusão que não decorre (@sec-cap-68, @sec-cap-70). Corrigir
+seus erros gramaticais (que não existem) não o melhoraria em nada. Logo, revisão ≠ correção.
+
+**Por que a crença é tão difundida**: porque é isso que a escola faz. O texto volta rabiscado
+de vermelho apontando concordância e acentuação — nunca apontando "seu terceiro parágrafo
+não sustenta sua tese". O aluno conclui, razoavelmente, que revisar **é** caçar erro de
+português.
+
+**O dano**: ele nunca suspeita que existam as camadas 1 a 4 — que são justamente onde estão
+os problemas que decidem se o texto funciona.
+:::
+
+**5.** Explique o fenômeno "você lê o que quis escrever" e três formas de contorná-lo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O fenômeno**: ao reler o próprio texto, você não lê **o que está na página** — lê **o que
+pretendia pôr nela**. Seu cérebro preenche as lacunas automaticamente, porque tem acesso à
+**intenção**, que o leitor não terá.
+
+**As três consequências:**
+
+1. **Você não vê o implícito.** O que ficou claro **na sua cabeça** parece claro no texto.
+   Esta é a causa número um do texto obscuro: não é ilogicidade — é **erro de previsão do
+   leitor** (@sec-cap-70). Você omitiu o que só você sabia.
+2. **Você não vê a repetição.** Como já sabe o que vem, não experimenta o tédio que o leitor
+   experimentará.
+3. **Você não vê a digitação.** O cérebro corrige "consturção" para "construção" sem avisar.
+
+**Formas de contornar** — todas fazem a mesma coisa: **estranhar o próprio texto**.
+
+1. **Deixe descansar.** Horas ou um dia. O tempo apaga a memória da intenção, e você passa a
+   ler o que **escreveu** em vez do que **quis escrever**. É a técnica mais eficaz e a mais
+   incompatível com prazos.
+2. **Leia em voz alta.** O ouvido pega o que o olho perde: frases longas demais, cacofonia,
+   repetição, ritmo quebrado. Se **você** se perde ao ler em voz alta, o leitor também se
+   perderá — o teste é implacável.
+3. **Dê a outra pessoa.** O único método que ataca o problema na **raiz**: o outro **não
+   sabe** o que você quis dizer, logo lê o que está lá. É por isso que ele encontra em cinco
+   minutos o que você não viu em cinco releituras.
+
+*(Outras: mudar o suporte — imprimir, trocar a fonte, ler no celular — e ler de trás para
+frente, frase a frase, o que destrói o contexto e é excelente para a camada 5.)*
+:::
+
+**6.** Aplique o teste do esqueleto a: parágrafo 1 — "a desigualdade é grave"; parágrafo 2 —
+"a desigualdade tem origens históricas"; parágrafo 3 — "a desigualdade prejudica o país";
+conclusão — "é preciso investir em educação".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Lendo o esqueleto em sequência**: "a desigualdade é grave → tem origens históricas →
+prejudica o país → investir em educação".
+
+**Diagnóstico:**
+
+1. **Falha de progressão entre 1 e 3.** "É grave" e "prejudica o país" dizem
+   **substancialmente a mesma coisa**: ambos afirmam que a desigualdade é ruim, com palavras
+   diferentes. O parágrafo 3 não avança sobre o 1 — o texto **gira em falso**
+   (@sec-cap-70).
+2. **Nenhuma tese.** Todos os três tópicos são **incontestáveis** (@sec-cap-75): ninguém
+   sustenta que a desigualdade seja boa, recente ou benéfica para o país. Sem proposição
+   contestável, não há o que argumentar — o texto **fala sobre** o tema em vez de defender
+   algo.
+3. **A conclusão não decorre.** O único parágrafo com conteúdo específico (o 2, sobre
+   origens históricas) não estabelece ponte alguma com **educação**. A conclusão responde a
+   outro texto.
+
+**O que o teste revelou**: o problema é de **arquitetura** (camada 1), não de frases. E note
+que **nenhuma releitura linear** o detectaria — cada parágrafo, isoladamente, pode estar bem
+escrito.
+
+**Esqueleto reescrito:**
+
+1. "A desigualdade brasileira é **resiliente**: atravessou regimes, planos e décadas sem se
+   desfazer." *(tese contestável — alguém pode dizer que ela caiu nos anos 2000)*
+2. "Sua origem é **fundiária**: a Lei de Terras de 1850 fechou o acesso à terra às vésperas
+   da abolição."
+3. "Essa exclusão inicial se **reproduz por herança**, o que torna a mobilidade mais
+   dependente da origem do que do mérito."
+4. "Conclusão: combatê-la exige **tributar patrimônio** — atacar o mecanismo, não os
+   sintomas."
+
+Agora o esqueleto **é** um argumento: cada tópico avança, e a conclusão **decorre** do
+mecanismo identificado em 3.
+:::
+
+**7.** Explique por que "corte 10% e o texto melhora".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o primeiro rascunho **carrega o rastro do pensamento**, e o rastro não interessa ao
+leitor.
+
+**O mecanismo**: quando escrevemos, estamos **descobrindo** o que pensamos. Esse processo
+deixa marcas no texto — aquecimento antes de chegar ao ponto, hesitações ("de certa forma",
+"talvez seja possível dizer"), reforços que compensam a insegurança ("realmente muito
+grave"), rodeios que ganham tempo enquanto a ideia se forma.
+
+Nada disso serve ao **leitor**, que não precisa acompanhar sua descoberta — precisa do
+resultado dela.
+
+**O que se corta primeiro:**
+
+| Categoria | Exemplo | Vira |
+|---|---|---|
+| metadiscurso | "É importante ressaltar que X" | "X" |
+| advérbio de reforço | "realmente muito grave" | "grave" |
+| redundância | "elo de ligação", "há anos atrás" | "elo", "há anos" |
+| perífrase | "tem a capacidade de fazer" | "pode fazer" |
+| aquecimento | "Desde os primórdios..." | *(corte inteiro)* |
+| passiva desnecessária | "foi realizada uma análise por nós" | "analisamos" |
+
+**A observação decisiva**: **nenhum** desses cortes perde informação. Todos perdem apenas
+**ruído**. É por isso que a regra funciona quase sem exceção — o material cortado não estava
+comunicando nada.
+
+**O ganho duplo**: (i) o texto fica mais fácil de ler; (ii) num texto com limite de espaço
+(30 linhas, 150 palavras de resumo, uma página de parecer), as palavras liberadas viram
+**espaço para dizer algo** — um dado, um mecanismo, um argumento.
+
+**O corolário incômodo**: se cortar 10% melhora, então 10% do que você escreveu não precisava
+existir. Isso vale para este parágrafo também.
+:::
+
+**8.** (Estilo FCC) Assinale a alternativa **correta** sobre a revisão textual:
+
+a) deve começar pela correção ortográfica;
+b) a releitura linear detecta falhas de coerência global;
+c) deve ir da arquitetura à superfície, pois camadas maiores podem anular o trabalho nas
+menores;
+d) o autor é o melhor revisor do próprio texto;
+e) revisão e correção são sinônimos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** A revisão vai do **maior para o menor** por duas razões: **economia**
+(polir um parágrafo que depois será cortado é trabalho jogado fora) e **impacto** (um texto
+sem tese é um problema muito maior que uma vírgula errada).
+
+As demais:
+
+- **(a)** ✗ — inverte a ordem. A ortografia é a **camada 5**, a última.
+- **(b)** ✗ — a releitura linear **não** detecta falha global: lendo do começo ao fim, cada
+  parágrafo faz sentido **no momento em que é lido**. É preciso o **teste do esqueleto**,
+  que remove o preenchimento e expõe o arranjo (@sec-cap-70, @sec-cap-74).
+- **(d)** ✗ — o autor é o **pior** revisor do próprio texto, porque lê **o que quis
+  escrever**: seu cérebro preenche as lacunas com a intenção, à qual o leitor não tem
+  acesso. Um terceiro encontra em cinco minutos o que o autor não viu em cinco releituras.
+- **(e)** ✗ — correção é **superfície**; revisão é o texto contra seu **objetivo**. Um texto
+  sem tese continua sem tese depois de corrigido.
+:::
+
+**9.** (Estilo FUVEST) Discuta: "não existe texto bem escrito, existe texto bem reescrito".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é verdadeira como descrição do ofício e perigosa se lida como fatalismo.**
+
+**Por que é verdadeira:**
+
+1. **O primeiro rascunho tem outra função.** Escrever é, em larga medida, **descobrir o que
+   se pensa** — o pensamento se organiza no ato de formulá-lo. Por isso o primeiro rascunho
+   é um instrumento de **pensamento**, não de **comunicação**: ele registra a descoberta,
+   com todo o rastro (aquecimento, hesitação, rodeio). Transformá-lo em texto **para o
+   leitor** é outra operação.
+2. **É como todo escritor profissional trabalha.** Jornalistas têm editores; acadêmicos têm
+   pareceristas; escritores reescrevem dezenas de vezes. Ninguém publica primeiro rascunho.
+   A ideia de que o texto bom sai pronto é uma **ficção escolar**, produzida por um sistema
+   que avalia o produto e nunca o processo.
+3. **O obstáculo cognitivo torna a reescrita necessária.** Você **lê o que quis escrever**;
+   só o distanciamento (tempo, voz alta, outro leitor) revela o que está de fato na página.
+   O texto não pode nascer bom porque, no momento de nascer, seu autor é incapaz de vê-lo.
+
+**O que ela ilumina, pedagogicamente**: o aluno que se julga incapaz de escrever porque seu
+primeiro rascunho é ruim está comparando **seu rascunho** com o **produto final** dos
+outros. O primeiro rascunho é ruim **para todo mundo** — inclusive para quem ele admira. A
+diferença está no que se faz depois. Esta é, provavelmente, a informação mais libertadora
+deste volume.
+
+**O risco da afirmação:**
+
+1. **Pode virar desculpa para não pensar antes.** Se tudo se resolve na reescrita, por que
+   planejar? Mas planejamento e reescrita não são substitutos: um esqueleto pensado
+   **reduz** a reescrita necessária, e um texto sem projeto pode ser irreparável — nenhuma
+   reescrita salva um texto que não sabe o que quer dizer.
+2. **Pode virar perfeccionismo paralisante.** Se nenhum texto está pronto, nenhum se
+   entrega. Em algum momento é preciso decidir que está bom o bastante — e essa decisão é
+   parte do ofício.
+3. **Ignora as condições reais.** Numa prova de 1 hora, não há reescrita: há 5 minutos de
+   revisão. O método precisa **caber** na situação (@sec-cap-77).
+
+**A formulação precisa**: não existe texto bem escrito **de primeira** — existe texto bem
+reescrito **dentro do tempo disponível**. A habilidade não é escrever certo já; é saber
+**onde intervir** com o tempo que se tem, o que é exatamente o que a revisão em camadas
+ensina.
+:::
+
+**10.** Descreva o que fazer nos 5 minutos finais de uma prova de redação, e justifique a
+ordem.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Os 5 minutos, nesta ordem:**
+
+**1. (2 min) Teste da coluna vertebral.** Leia **só** a tese e os tópicos frase de cada
+parágrafo. Pergunte: cada parágrafo sustenta a tese? A conclusão decorre do que foi
+argumentado? Há fuga ao tema?
+
+**2. (1 min) Proposta de intervenção.** Confira os cinco elementos: **agente** (quem),
+**ação** (o quê), **meio** (como), **finalidade** (para quê), **detalhamento**
+(especificação). E: respeita direitos humanos?
+
+**3. (2 min) Superfície.** Leia procurando **erro**, não sentido: concordância, acentuação,
+pontuação, palavra faltando.
+
+**A justificativa da ordem — pelo valor em pontos** (@sec-cap-77):
+
+| Item | Competência | Vale |
+|---|---|---|
+| coluna vertebral | C2 (tema) + C3 (projeto) | até **400** pontos — e a **fuga zera** |
+| proposta | C5 | até **200** pontos |
+| superfície | C1 | até **200**, mas desvios isolados custam **dezenas** |
+
+Se o tempo acabar no meio, ele acabou no lugar certo: você garantiu o que vale mais.
+
+**Por que o item 1 exige um teste específico**: porque a falha de arquitetura é **invisível
+na leitura linear** (@sec-cap-70). Reler o texto do começo ao fim **não** revela que o
+terceiro parágrafo não sustenta a tese — cada parágrafo faz sentido enquanto é lido. Só o
+esqueleto expõe o arranjo.
+
+**O que fazer se o teste 1 falhar** — e aqui está o conselho prático que mais salva nota: se
+um parágrafo não sustenta a tese, **é tarde para reescrevê-lo, mas não é tarde para
+amarrá-lo**. Acrescente uma frase final ligando aquele parágrafo à tese ("Esse quadro
+confirma que..."). A **amarração** (@sec-cap-75) custa 20 segundos e pode recuperar a
+coerência do conjunto. Refazer o parágrafo custaria 10 minutos que você não tem.
+
+**Regra geral**: na prova, revise **onde o retorno é maior**, não onde os problemas são mais
+fáceis de ver.
+:::
+
+## 📚 Referências
+
+A concepção da escrita como processo — e da revisão como parte constitutiva dele, e não como
+acabamento — segue Garcia [@garcia2010], referência clássica que já articulava escrever e
+pensar, e a discussão do ensino de redação em Faraco [@faraco2008]. Os testes diagnósticos
+apoiam-se nos conceitos desenvolvidos ao longo dos Volumes 11 e 12: a **progressão** e a
+**coerência global** em Koch [@koch2015texto] e Koch [@koch2018coesao] (@sec-cap-70); o
+**teste da ideia única** e o **teste do esqueleto** no @sec-cap-74; o **teste da coluna
+vertebral** no @sec-cap-75. Para a articulação e os conectivos revisados na camada 3, veja o
+@sec-cap-69; para a ambiguidade caçada na camada 4, o @sec-cap-64; para a adaptação do
+método às condições da prova, o @sec-cap-77. Com este capítulo encerra-se o Volume 12; o
+Volume 13 desloca o foco da produção para a **leitura** — estratégias, inferência e
+interpretação.
+
+::: {#refs}
 :::

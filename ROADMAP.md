@@ -81,13 +81,13 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 71 | Tipologia textual: narração, descrição, dissertação, injunção, exposição | `capitulos/cap-71-tipologia-textual.qmd` | 11 | ✅ 2026-07-15 |
 | 72 | Gêneros textuais | `capitulos/cap-72-generos-textuais.qmd` | 11 | ✅ 2026-07-15 |
 | 73 | Intertextualidade e paráfrase | `capitulos/cap-73-intertextualidade-parafrase.qmd` | 11 | ✅ 2026-07-15 |
-| 74 | O parágrafo: estrutura e desenvolvimento | `capitulos/cap-74-o-paragrafo.qmd` | 12 | ⬜ |
-| 75 | Dissertação argumentativa: estrutura | `capitulos/cap-75-dissertacao-argumentativa.qmd` | 12 | ⬜ |
-| 76 | Argumentação: tipos de argumento e falácias | `capitulos/cap-76-argumentacao-falacias.qmd` | 12 | ⬜ |
-| 77 | A redação do ENEM e de concursos | `capitulos/cap-77-redacao-enem-concursos.qmd` | 12 | ⬜ |
-| 78 | Redação técnica e oficial | `capitulos/cap-78-redacao-tecnica-oficial.qmd` | 12 | ⬜ |
-| 79 | Escrita acadêmica: resumo, resenha e artigo | `capitulos/cap-79-escrita-academica.qmd` | 12 | ⬜ |
-| 80 | Revisão e reescrita | `capitulos/cap-80-revisao-reescrita.qmd` | 12 | ⬜ |
+| 74 | O parágrafo: estrutura e desenvolvimento | `capitulos/cap-74-o-paragrafo.qmd` | 12 | ✅ 2026-07-15 |
+| 75 | Dissertação argumentativa: estrutura | `capitulos/cap-75-dissertacao-argumentativa.qmd` | 12 | ✅ 2026-07-15 |
+| 76 | Argumentação: tipos de argumento e falácias | `capitulos/cap-76-argumentacao-falacias.qmd` | 12 | ✅ 2026-07-15 |
+| 77 | A redação do ENEM e de concursos | `capitulos/cap-77-redacao-enem-concursos.qmd` | 12 | ✅ 2026-07-15 |
+| 78 | Redação técnica e oficial | `capitulos/cap-78-redacao-tecnica-oficial.qmd` | 12 | ✅ 2026-07-15 |
+| 79 | Escrita acadêmica: resumo, resenha e artigo | `capitulos/cap-79-escrita-academica.qmd` | 12 | ✅ 2026-07-15 |
+| 80 | Revisão e reescrita | `capitulos/cap-80-revisao-reescrita.qmd` | 12 | ✅ 2026-07-15 |
 | 81 | Estratégias de leitura | `capitulos/cap-81-estrategias-de-leitura.qmd` | 13 | ⬜ |
 | 82 | Inferência, pressuposto e subentendido | `capitulos/cap-82-inferencia-pressuposto-subentendido.qmd` | 13 | ⬜ |
 | 83 | Ironia, humor e implícitos | `capitulos/cap-83-ironia-humor-implicitos.qmd` | 13 | ⬜ |
