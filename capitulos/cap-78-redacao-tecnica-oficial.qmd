@@ -4,22 +4,663 @@ title: "Redação técnica e oficial"
 
 # Redação técnica e oficial {#sec-cap-78}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 12 — Redação e Escrita.
+> "O texto oficial não é escrito por uma pessoa para outra: é escrito pelo Estado para o
+> cidadão. Daí sua impessoalidade — e daí, também, sua obrigação de ser compreendido."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Este capítulo trata dos gêneros da **comunicação oficial e técnica**: o ofício, o parecer, o
+requerimento, a ata, o e-mail institucional. São gêneros de altíssima frequência na vida
+profissional brasileira e cobrados em praticamente todos os concursos públicos.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+E são gêneros com uma característica rara: eles têm um **manual normativo**. O **Manual de
+Redação da Presidência da República** [@brasil2018manual], hoje em sua 3ª edição (2018),
+define o padrão da administração pública federal — e é a fonte que as bancas cobram, quase
+sempre literalmente.
+
+Há aqui uma tensão que atravessará o capítulo, e vale enunciá-la desde já. O texto oficial
+persegue dois objetivos que frequentemente brigam: ser **formal e impessoal** (porque quem
+fala é o Estado, não o servidor) e ser **claro e compreensível** (porque o destinatário é o
+cidadão, que tem direito de entender o que o Estado lhe diz). A tradição brasileira resolveu
+essa tensão privilegiando o primeiro — e produziu o **juridiquês**, que cumpre a formalidade
+e trai a clareza. O MRPR, especialmente na 3ª edição, tenta corrigir a rota.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** os atributos da redação oficial definidos pelo MRPR;
+- **Estruturar** um documento no **padrão ofício**, com todas as suas partes;
+- **Empregar** corretamente os pronomes de tratamento e os fechos;
+- **Distinguir** os principais gêneros oficiais e suas funções;
+- **Reconhecer** o que mudou na 3ª edição do MRPR;
+- **Avaliar** criticamente o juridiquês e defender a linguagem clara.
+
+## Os atributos da redação oficial
+
+O MRPR define os atributos que o texto oficial deve ter [@brasil2018manual]:
+
+::: {.callout-important}
+## Os atributos, e o que cada um significa
+1. **Clareza** — permitir a compreensão imediata pelo leitor. Frases curtas, ordem direta,
+   termos conhecidos.
+2. **Precisão** — cada palavra com sentido unívoco; nada ambíguo (@sec-cap-64).
+3. **Objetividade** — ir direto ao ponto; nada de rodeios.
+4. **Concisão** — dizer o necessário com o mínimo de palavras. **Não** é secura: é ausência
+   de excesso.
+5. **Coesão e coerência** — o texto articulado e compreensível como todo (@sec-cap-69,
+   @sec-cap-70).
+6. **Impessoalidade** — quem comunica é o **serviço público**, não o indivíduo. Daí a 3ª
+   pessoa, a voz passiva e o sujeito indeterminado.
+7. **Formalidade e padronização** — registro formal e forma uniforme, para que qualquer
+   servidor produza e qualquer cidadão reconheça.
+8. **Uso da norma-padrão** — a modalidade adequada ao gênero.
+
+Note a ordem: **clareza vem primeiro**. Não é acidente. O MRPR é explícito ao afirmar que a
+comunicação oficial deve ser compreensível — e que a formalidade **não autoriza** a
+obscuridade.
+:::
+
+### Impessoalidade: o que é e o que não é
+
+A impessoalidade é o atributo mais mal compreendido, e vale precisá-lo.
+
+**O que é**: quem fala é o **Estado**. Por isso:
+
+- 3ª pessoa: "Solicita-se..." / "Este Ministério informa..."
+- ausência de marcas subjetivas: nada de "eu acho", "na minha opinião", "infelizmente";
+- ausência de tratamento afetivo: nada de "querido colega".
+
+**O que não é**: a impessoalidade **não** exige contorcionismo sintático nem vocabulário
+obscuro. "Solicito a Vossa Senhoria..." é perfeitamente impessoal e claro. Já
+"Cumpre-me, outrossim, esclarecer que, em relação ao pleito exarado, proceder-se-á à
+análise" é obscuro **sem ser** mais impessoal.
+
+Confundir impessoalidade com hermetismo é a raiz do juridiquês.
+
+## O padrão ofício
+
+A 3ª edição do MRPR fez uma simplificação importante: **unificou** os três antigos gêneros
+— **ofício**, **aviso** e **memorando** — num único, o **ofício**. Não existe mais
+"memorando" na redação oficial federal.
+
+::: {#fig-padrao-oficio}
+
+```{.tikz}
+%%| filename: padrao-oficio
+%%| alt: Esquema das partes do padrão ofício segundo o Manual de Redação da Presidência da República, terceira edição. De cima para baixo: cabeçalho com brasão e identificação do órgão; tipo e número do documento, no formato ofício número barra ano barra sigla; local e data por extenso, alinhados à direita; endereçamento com o destinatário e seu cargo; assunto, que deve ser uma síntese em negrito; vocativo, com Excelentíssimo Senhor ou Senhor seguido de cargo, terminando em vírgula; texto, com parágrafos numerados a partir do segundo; fecho, sendo Respeitosamente para autoridade superior e Atenciosamente para mesma hierarquia ou inferior; e por fim identificação do signatário, com nome e cargo, sem linha de assinatura. À direita, a nota de que a terceira edição unificou ofício, aviso e memorando em um único gênero, o ofício, e aboliu Digníssimo e Ilustríssimo.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  p/.style={rounded corners=2pt, draw, align=left, inner sep=4pt, font=\scriptsize, text width=62mm},
+  s/.style={-{Stealth[length=3.5pt]}, draw=manualgray},
+]
+  \node[p, draw=manualgray, fill=manualgray!10] (a) at (-2.2,3.4)
+    {\textbf{1. Cabeçalho} — brasão · identificação do órgão};
+  \node[p, draw=manualblue, fill=manualblue!8] (b) at (-2.2,2.6)
+    {\textbf{2. Tipo e número} — \emph{Ofício nº 12/2026/SEI-MEC}};
+  \node[p, draw=manualblue, fill=manualblue!8] (c) at (-2.2,1.8)
+    {\textbf{3. Local e data} — por extenso, à \emph{direita}};
+  \node[p, draw=manualblue, fill=manualblue!8] (d) at (-2.2,1.0)
+    {\textbf{4. Endereçamento} — destinatário + cargo};
+  \node[p, draw=manualgreen, fill=manualgreen!10] (e) at (-2.2,0.2)
+    {\textbf{5. Assunto} — síntese em \textbf{negrito}};
+  \node[p, draw=manualgreen, fill=manualgreen!10] (f) at (-2.2,-0.6)
+    {\textbf{6. Vocativo} — \emph{Senhor Ministro\textbf{,}} \quad{\scriptsize(vírgula!)}};
+  \node[p, draw=manualyellow, fill=manualyellow!10] (g) at (-2.2,-1.5)
+    {\textbf{7. Texto} — parágrafos \textbf{numerados} a partir do 2º};
+  \node[p, draw=manualred, fill=manualred!8] (h) at (-2.2,-2.5)
+    {\textbf{8. Fecho} — \emph{Respeitosamente} (superior)\\
+     \hspace*{11mm}\emph{Atenciosamente} (igual/inferior)};
+  \node[p, draw=manualred, fill=manualred!8] (i) at (-2.2,-3.5)
+    {\textbf{9. Signatário} — nome + cargo\\ {\scriptsize sem linha de assinatura}};
+
+  \draw[s] (a)--(b); \draw[s] (b)--(c); \draw[s] (c)--(d); \draw[s] (d)--(e);
+  \draw[s] (e)--(f); \draw[s] (f)--(g); \draw[s] (g)--(h); \draw[s] (h)--(i);
+
+  \node[rounded corners=3pt, draw=manualred, fill=manualred!6, align=left,
+        font=\scriptsize, inner sep=5pt, text width=40mm] at (4.6,0.4)
+    {\textbf{O QUE MUDOU NA 3ª EDIÇÃO (2018)}\\[4pt]
+     $\rightarrow$ \textbf{ofício}, \textbf{aviso} e \textbf{memorando}\\ unificados em
+     \textbf{um só}: o \textbf{ofício}\\[3pt]
+     $\rightarrow$ abolidos \emph{Digníssimo} (DD.)\\ e \emph{Ilustríssimo} (Ilmo.)\\[3pt]
+     $\rightarrow$ \emph{Doutor} não é pronome\\ de tratamento\\[3pt]
+     $\rightarrow$ ênfase na \textbf{clareza}};
+\end{tikzpicture}
+```
+
+As nove partes do padrão ofício e as mudanças da 3ª edição. A **numeração dos parágrafos**
+(a partir do segundo) e o **fecho** conforme a hierarquia são os detalhes que as bancas mais
+cobram.
+:::
+
+### Detalhes que as bancas cobram
+
+- **Vocativo termina em vírgula**: "Senhor Ministro**,**" — não dois-pontos.
+- **Parágrafos numerados a partir do segundo**. O primeiro não recebe número. Se o
+  documento tiver só um parágrafo, ele não é numerado.
+- **Fecho**: apenas **dois**, e a escolha depende da hierarquia:
+  - **Respeitosamente** — para autoridade **superior**, inclusive o Presidente.
+  - **Atenciosamente** — para autoridade de **mesma hierarquia ou inferior**.
+- **Identificação do signatário**: nome em maiúsculas e cargo, **sem** linha para
+  assinatura.
+
+## Pronomes de tratamento
+
+Tema clássico de concurso, e cheio de armadilhas.
+
+| Autoridade | Tratamento | Abreviatura | Vocativo |
+|---|---|---|---|
+| Presidente da República | Vossa Excelência | **não se abrevia** | Excelentíssimo Senhor Presidente da República, |
+| Ministros, senadores, deputados, governadores, juízes | Vossa Excelência | V. Exa. | Senhor Ministro, |
+| Demais autoridades e particulares | Vossa Senhoria | V. Sa. | Senhor Fulano, |
+| Reitores | Vossa Magnificência | V. Maga. | Magnífico Reitor, |
+| Papa | Vossa Santidade | V. S. | Santíssimo Padre, |
+
+::: {.callout-warning}
+## As três armadilhas clássicas
+**1. Concordância: 3ª pessoa, não 2ª.**
+Embora *Vossa Excelência* se dirija ao interlocutor, a concordância é de **3ª pessoa**:
+
+> "Vossa Excelência **designou** seu assessor." ✓
+> "Vossa Excelência **designaste teu** assessor." ✗
+
+**2. Vossa × Sua.**
+- **Vossa** Excelência — falando **com** a autoridade (ela é o destinatário).
+- **Sua** Excelência — falando **sobre** a autoridade (ela é referida, não destinatária).
+
+> "Informo a **Vossa** Excelência que **Sua** Excelência o Ministro da Fazenda estará
+> presente."
+
+**3. O gênero acompanha a pessoa, não o pronome.**
+*Vossa Excelência* é gramaticalmente feminino, mas os adjetivos concordam com o **sexo da
+autoridade**:
+
+> "Vossa Excelência está **atarefado**." (a um homem) ✓
+> "Vossa Excelência está **atarefada**." (a uma mulher) ✓
+
+É um caso de **silepse de gênero** (@sec-cap-66): concorda-se com a ideia, não com a forma.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O que a 3ª edição aboliu
+Cobrado com frequência, porque muita gente ainda usa:
+
+- **Digníssimo (DD.)** — **abolido**. A dignidade é pressuposta.
+- **Ilustríssimo (Ilmo.)** — **abolido**. Use apenas **Senhor**.
+- **Doutor** — **não é** pronome de tratamento: é título acadêmico. Só se usa para quem tem
+  doutorado. Para autoridades, use **Senhor**.
+
+A lógica das três abolições é a mesma: eliminar a bajulação ritual, que não informa e apenas
+infla o texto.
+:::
+
+## Os principais gêneros
+
+| Gênero | Função | Característica |
+|---|---|---|
+| **Ofício** | comunicação oficial (interna ou externa) | padrão ofício; unificou aviso e memorando |
+| **Exposição de motivos** | propor medida a Ministro/Presidente | fundamenta uma decisão |
+| **Mensagem** | comunicação entre Poderes | Executivo ↔ Legislativo |
+| **Parecer** | opinião técnica fundamentada | relatório + fundamentação + conclusão |
+| **Requerimento** | solicitação formal | do cidadão à administração |
+| **Ata** | registro de reunião | narração impessoal, sem rasuras, no pretérito |
+| **Relatório** | prestação de contas de atividade | exposição organizada |
+| **E-mail institucional** | comunicação ágil | **admite** menos formalidade; sem valor legal sem certificação |
+
+## O juridiquês e a linguagem clara
+
+Chegamos à tensão anunciada na abertura.
+
+Observe:
+
+> "Cumpre-me, outrossim, aduzir que, *in casu*, exsurge a necessidade de que o postulante
+> proceda à juntada dos documentos comprobatórios, sob pena de indeferimento *ab initio* do
+> pleito exarado, restando prejudicada a análise meritória."
+
+Tradução:
+
+> "Você precisa anexar os documentos até [data], ou o pedido será negado sem análise."
+
+O primeiro texto tem **41 palavras**; o segundo, **16**. O primeiro é incompreensível para
+o destinatário — que é justamente quem precisa anexar os documentos.
+
+::: {.callout-important}
+## Por que o juridiquês é um defeito, e não um estilo
+Três argumentos:
+
+1. **Viola os atributos do próprio MRPR.** O manual exige **clareza** em primeiro lugar. Um
+   texto que o destinatário não entende **falha** no critério oficial, por mais formal que
+   seja. Não se trata de gosto: é descumprimento de norma.
+
+2. **Confunde formalidade com hermetismo.** "Você precisa anexar os documentos até 20/03,
+   sob pena de indeferimento" é **formal, impessoal e claro** ao mesmo tempo. Os três
+   atributos são compatíveis — o juridiquês sacrifica um sem ganhar nos outros.
+
+3. **Produz exclusão.** Quando o Estado se comunica de modo que o cidadão não entende, ele
+   **transfere a ele o custo** de contratar quem traduza. O jargão vira **barreira de
+   acesso** — e o efeito recai sobre quem menos pode pagar por intérpretes.
+
+**A conexão com o @sec-cap-67**: a crítica ao estrangeirismo que exclui vale igualmente aqui.
+O problema nunca foi a **origem** da palavra (inglesa, latina), e sim sua **opacidade para o
+destinatário**. *Cash back* e *ab initio* excluem pelo mesmo mecanismo. A luta útil é pela
+**linguagem clara**, não pela pureza do léxico.
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Vale registrar por que o juridiquês persiste, apesar de o manual oficial o desautorizar.
+
+Ele **não** sobrevive por exigência técnica. Sobrevive por três razões sociológicas:
+
+1. **Marcador de pertencimento.** Escrever "exsurge a necessidade" sinaliza que se pertence
+   ao grupo. O jargão funciona como **senha de classe** — e abandoná-lo é, para muitos,
+   perder distinção.
+2. **Inércia institucional.** Modelos são copiados de documentos antigos, que copiaram
+   outros. Ninguém decide escrever assim: herda-se.
+3. **Proteção.** A obscuridade **esconde** a fragilidade do conteúdo. Um parecer confuso é
+   mais difícil de contestar que um parecer claro e errado. A opacidade é, às vezes,
+   estratégica.
+
+Há reação institucional real: o próprio MRPR, a Lei 14.129/2021 (Governo Digital), o
+movimento de **Linguagem Simples** em prefeituras e tribunais, e decisões do CNJ nesse
+sentido. O STF publica desde 2023 resumos em linguagem acessível de suas decisões.
+
+**A posição defensável**: escrever claro **não é** informalizar nem "simplificar" o conteúdo
+— é fazer o trabalho de tradução que o especialista deve ao cidadão. Precisão técnica e
+clareza **não** são opostos; o texto que sacrifica a clareza em nome da precisão quase
+sempre não ganhou precisão nenhuma [@brasil2018manual; @faraco2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Atributos da redação oficial** (MRPR): clareza · precisão · objetividade · concisão ·
+coesão e coerência · **impessoalidade** · formalidade e padronização · norma-padrão.
+
+**Padrão ofício** — 9 partes: cabeçalho · tipo e número · local e data · endereçamento ·
+**assunto** · **vocativo (com vírgula)** · texto (**parágrafos numerados a partir do 2º**) ·
+**fecho** · signatário.
+
+**Fechos** — só dois:
+
+| Fecho | Para quem |
+|---|---|
+| **Respeitosamente** | autoridade **superior** |
+| **Atenciosamente** | mesma hierarquia ou **inferior** |
+
+**Pronomes de tratamento**: Vossa Excelência (altas autoridades; **não se abrevia** para o
+Presidente) · Vossa Senhoria (demais) · Vossa Magnificência (reitores).
+
+**Três armadilhas**: concordância em **3ª pessoa** · **Vossa** (com) × **Sua** (sobre) ·
+gênero concorda com o **sexo da autoridade** (silepse).
+
+**Abolidos na 3ª edição**: Digníssimo · Ilustríssimo · *Doutor* como tratamento. E
+**memorando** e **aviso** foram unificados no **ofício**.
+
+Em uma linha: o texto oficial é **impessoal porque quem fala é o Estado** — e é **obrigado a
+ser claro porque quem lê é o cidadão**; o juridiquês falha no próprio manual que alega
+seguir.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Usar "memorando".** **Não existe mais** desde a 3ª edição (2018): foi unificado no
+  **ofício**.
+- **Vocativo com dois-pontos.** É **vírgula**: "Senhor Ministro**,**".
+- **Numerar o primeiro parágrafo.** A numeração começa no **segundo**.
+- **Concordar Vossa Excelência em 2ª pessoa.** É **3ª**: "Vossa Excelência **designou**", não
+  "designaste".
+- **Confundir Vossa com Sua.** **Vossa** = falo **com**; **Sua** = falo **sobre**.
+- **Abreviar Vossa Excelência para o Presidente.** **Não se abrevia**.
+- **Usar Ilustríssimo ou Digníssimo.** **Abolidos**. Use **Senhor**.
+- **Chamar de "Doutor" quem não tem doutorado.** Não é pronome de tratamento.
+- **Confundir impessoalidade com hermetismo.** "Solicito a Vossa Senhoria" é impessoal **e**
+  claro.
+- **Achar que juridiquês é formalidade.** É **descumprimento** do atributo de clareza.
+
+## ✍️ Exercícios
+
+**1.** Liste as partes do padrão ofício, na ordem.
+
+::: {.callout-tip collapse="true"}
+## Solução
+1. **Cabeçalho** — brasão e identificação do órgão.
+2. **Tipo e número do documento** — "Ofício nº 12/2026/SEI-MEC".
+3. **Local e data** — por extenso, alinhados à **direita**.
+4. **Endereçamento** — destinatário e cargo.
+5. **Assunto** — síntese do conteúdo, em **negrito**.
+6. **Vocativo** — "Senhor Ministro**,**" (com **vírgula**).
+7. **Texto** — parágrafos **numerados a partir do segundo**.
+8. **Fecho** — *Respeitosamente* ou *Atenciosamente*.
+9. **Identificação do signatário** — nome e cargo, **sem** linha de assinatura.
+
+**Os detalhes que as bancas mais cobram**: a **vírgula** no vocativo (não dois-pontos), a
+numeração **a partir do segundo** parágrafo (o primeiro nunca é numerado, e um documento de
+parágrafo único não tem numeração) e a **ausência** de linha para assinatura.
+:::
+
+**2.** Escolha o fecho: (a) ofício de um servidor ao Ministro; (b) ofício de um diretor a
+outro diretor de mesmo nível.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Respeitosamente.** O Ministro é autoridade **superior** ao servidor.
+
+**(b) Atenciosamente.** Diretores de **mesma hierarquia**.
+
+**A regra completa** — o MRPR prevê apenas **dois** fechos:
+
+| Fecho | Destinatário |
+|---|---|
+| **Respeitosamente** | autoridade **superior** (inclusive o Presidente da República) |
+| **Atenciosamente** | autoridade de **mesma hierarquia** ou **inferior** |
+
+**Nota**: fechos como "Cordialmente", "Saudações cordiais", "Sem mais para o momento,
+subscrevo-me" ou "Aproveito a oportunidade para renovar protestos de elevada estima e
+distinta consideração" **não** fazem parte do padrão oficial. O último, aliás, é exatamente
+o tipo de bajulação ritual que a 3ª edição procurou eliminar — junto com *Digníssimo* e
+*Ilustríssimo*.
+:::
+
+**3.** Corrija: "Vossa Excelência designaste teu assessor para a reunião."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Correção**: "Vossa Excelência **designou seu** assessor para a reunião."
+
+**Justificativa**: embora *Vossa Excelência* se dirija **ao interlocutor** (semanticamente,
+é uma 2ª pessoa), gramaticalmente é um **sintagma de 3ª pessoa** — o núcleo é o substantivo
+*Excelência*, não um pronome pessoal.
+
+Consequências:
+
+- **Verbo**: 3ª pessoa → "designou", não "designaste".
+- **Possessivo**: 3ª pessoa → "seu", não "teu".
+- **Pronome oblíquo**: "informo a Vossa Excelência que **lhe** cabe decidir", não "te cabe".
+
+**O mecanismo**: é o mesmo dos pronomes de tratamento em geral (*Vossa Senhoria*, *Vossa
+Magnificência*) e de expressões como *o senhor* / *a senhora* — todos se referem à 2ª pessoa
+do discurso e exigem concordância de 3ª (@sec-cap-30).
+
+**Erro relacionado**: misturar tratamentos numa mesma frase — "Vossa Excelência sabe que
+**você** decide". A oscilação entre 2ª e 3ª pessoa é uma das falhas mais comuns e mais
+penalizadas.
+:::
+
+**4.** (Estilo Cebraspe — Certo/Errado) Julgue: "O memorando é o documento adequado para
+comunicação entre unidades do mesmo órgão."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** O **memorando não existe mais** na redação oficial federal.
+
+A **3ª edição do MRPR (2018)** [@brasil2018manual] **unificou** os três antigos gêneros —
+**ofício**, **aviso** e **memorando** — num **único**: o **ofício**.
+
+**Antes da 3ª edição:**
+
+- **Aviso** — entre Ministros de Estado;
+- **Ofício** — entre órgãos, ou para particulares;
+- **Memorando** — comunicação **interna**, entre unidades do mesmo órgão.
+
+**Depois:** tudo é **ofício**, seja a comunicação interna ou externa, entre Ministros ou com
+o cidadão.
+
+**A lógica da unificação**: a distinção entre os três exigia que o servidor identificasse a
+hierarquia e o destino antes de escolher a forma — sem que isso trouxesse nenhum ganho
+comunicativo. Era **complexidade sem função**, e a simplificação está alinhada à ênfase da
+3ª edição na clareza e na padronização.
+
+**Atenção prática**: alguns órgãos estaduais e municipais ainda usam "memorando" em seus
+manuais próprios. A questão é sobre a **norma federal**, e nela o gênero foi extinto.
+:::
+
+**5.** Distinga "Vossa Excelência" de "Sua Excelência", com exemplo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A distinção é sobre **com quem se fala** × **de quem se fala**.
+
+- **Vossa Excelência** — usa-se ao falar **COM** a autoridade: ela é o **destinatário** do
+  documento.
+- **Sua Excelência** — usa-se ao falar **SOBRE** a autoridade: ela é **referida**, mas não é
+  quem lê.
+
+**Exemplo com os dois na mesma frase:**
+
+> "Informo a **Vossa** Excelência que **Sua** Excelência o Ministro da Fazenda estará
+> presente na reunião."
+
+Aqui o documento é endereçado a alguém (**Vossa**) e menciona um terceiro (**Sua**).
+
+**Mnemônico**: *Vossa* está para *você* (2ª pessoa do discurso, o interlocutor); *Sua* está
+para *ele/ela* (3ª pessoa, o referido). O mesmo vale para *Vossa Senhoria* × *Sua Senhoria*.
+
+**Erro típico de concurso**: usar "Sua Excelência" no vocativo ou no corpo de um ofício
+endereçado à própria autoridade — o que produz o efeito absurdo de falar da pessoa na
+terceira pessoa enquanto se fala com ela.
+:::
+
+**6.** Traduza para linguagem clara: "Cumpre-me aduzir que, in casu, exsurge a necessidade
+de que o postulante proceda à juntada dos documentos comprobatórios, sob pena de
+indeferimento ab initio do pleito exarado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Tradução:**
+
+> "Você precisa anexar os documentos comprobatórios até [data], ou seu pedido será negado
+> sem análise."
+
+**Ou, em registro mais formal e ainda claro:**
+
+> "Solicita-se a Vossa Senhoria o envio dos documentos comprobatórios até 20 de março de
+> 2026. Sem eles, o pedido será indeferido sem análise de mérito."
+
+**A conta**: o original tem **34 palavras**; a tradução, **16**. E o original é
+**incompreensível** para o destinatário — que é justamente quem precisa anexar os
+documentos.
+
+**O que se cortou, e por quê:**
+
+- *"Cumpre-me aduzir que"* — **metadiscurso**: anuncia que se vai dizer, em vez de dizer.
+- *"in casu"*, *"ab initio"* — latim decorativo. Não acrescentam precisão alguma; "neste
+  caso" e "de imediato" dizem o mesmo.
+- *"exsurge a necessidade de que o postulante proceda à juntada"* — quatro palavras
+  (*exsurge*, *postulante*, *proceda*, *juntada*) para dizer "você precisa anexar".
+- *"pleito exarado"* — "pedido".
+
+**A observação decisiva**: a versão clara **não perdeu precisão nenhuma**. Ela é igualmente
+formal, igualmente impessoal (na segunda versão) e igualmente exata — e é **compreensível**.
+Isso desmonta a defesa habitual do juridiquês ("é preciso ser técnico"): não havia
+tecnicidade a preservar. Havia ritual.
+
+E, pelos próprios critérios do MRPR, o original **falha**: viola clareza, objetividade e
+concisão — três dos oito atributos oficiais [@brasil2018manual].
+:::
+
+**7.** Explique por que o juridiquês é um defeito, e não um estilo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Três argumentos, em ordem de força:**
+
+**1. Viola a norma que alega seguir.** O MRPR [@brasil2018manual] lista a **clareza** como
+o primeiro atributo da redação oficial, ao lado de objetividade e concisão. Um texto que o
+destinatário não entende **descumpre o manual** — por mais formal que pareça. Não é questão
+de gosto ou de escola estilística: é descumprimento de norma. O juridiquês não é "o estilo
+oficial"; é o oposto do que o documento oficial prescreve.
+
+**2. Confunde formalidade com hermetismo.** A defesa habitual ("o texto oficial precisa ser
+formal") pressupõe que clareza e formalidade sejam opostas. Não são: "Solicita-se a Vossa
+Senhoria o envio dos documentos até 20/03, sob pena de indeferimento" é **formal, impessoal,
+preciso e claro** simultaneamente. O juridiquês sacrifica a clareza **sem ganhar** em
+formalidade ou precisão — é perda pura.
+
+**3. Produz exclusão.** Quando o Estado se comunica de modo incompreensível, **transfere ao
+cidadão** o custo de contratar quem traduza. O jargão vira **barreira de acesso a
+direitos** — e o efeito recai desproporcionalmente sobre quem não pode pagar advogado. Um
+edital, uma intimação ou uma notificação de benefício que o destinatário não entende não
+apenas comunica mal: **impede o exercício do direito** que anuncia.
+
+**Por que persiste, então?** Não por necessidade técnica, mas por razões sociológicas:
+funciona como **senha de pertencimento** (escrever "exsurge" sinaliza que se é do grupo);
+por **inércia** (modelos copiados de modelos); e por **proteção** (um parecer obscuro é mais
+difícil de contestar que um parecer claro e errado).
+
+**A conexão teórica**: é o mesmo mecanismo do estrangeirismo excludente (@sec-cap-67). O
+problema nunca foi a **origem** da palavra — *ab initio* e *cash back* excluem
+identicamente. O problema é a **opacidade para o destinatário**. A luta útil é pela
+**linguagem clara**, não pela pureza do léxico.
+:::
+
+**8.** (Estilo FCC) Assinale a alternativa **correta** quanto à redação oficial:
+
+a) O vocativo é seguido de dois-pontos;
+b) Todos os parágrafos do ofício devem ser numerados;
+c) Usa-se "Ilustríssimo Senhor" para autoridades sem tratamento específico;
+d) O fecho "Respeitosamente" destina-se a autoridades superiores;
+e) "Vossa Excelência" exige concordância em segunda pessoa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** *Respeitosamente* é o fecho para autoridades **superiores**;
+*Atenciosamente*, para mesma hierarquia ou inferior. São os **dois únicos** fechos previstos
+pelo MRPR.
+
+As demais:
+
+- **(a)** ✗ — o vocativo é seguido de **vírgula**: "Senhor Ministro**,**".
+- **(b)** ✗ — a numeração começa no **segundo** parágrafo; o primeiro nunca é numerado. E,
+  se o documento tiver parágrafo único, ele não recebe número.
+- **(c)** ✗ — *Ilustríssimo* foi **abolido** pela 3ª edição (2018), junto com *Digníssimo*.
+  Usa-se apenas **Senhor**.
+- **(e)** ✗ — *Vossa Excelência* exige concordância em **terceira** pessoa: "Vossa
+  Excelência **designou seu** assessor", não "designaste teu".
+
+**Nota sobre (c)**: a abolição de *Ilustríssimo* e *Digníssimo* segue a mesma lógica da
+unificação dos gêneros — eliminar a bajulação ritual, que não informa e infla o texto. É uma
+das mudanças mais cobradas, justamente porque muita gente ainda usa as formas antigas.
+:::
+
+**9.** Explique o atributo da impessoalidade e o que ele **não** significa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O que é**: na comunicação oficial, quem fala **não é o servidor** — é o **Estado**, o
+serviço público. O documento não expressa a pessoa que o redigiu, mas o órgão que ele
+representa. Daí decorrem:
+
+- **3ª pessoa e construções impessoais**: "Solicita-se...", "Este Ministério informa...";
+- **ausência de marcas subjetivas**: nada de "eu acho", "na minha opinião",
+  "infelizmente", "fiquei sabendo";
+- **ausência de tratamento afetivo**: nada de "querido colega", "um abraço";
+- **tratamento uniforme**: qualquer servidor produz o mesmo documento, e qualquer cidadão o
+  reconhece.
+
+**A razão de fundo**: é a impessoalidade **do próprio princípio constitucional** da
+administração pública (art. 37 da CF). O Estado não tem simpatias; ele trata todos
+igualmente. A linguagem reflete isso.
+
+**O que NÃO significa** — e aqui está a confusão que produz o juridiquês:
+
+1. **Não exige contorcionismo sintático.** "Solicito a Vossa Senhoria que envie os
+   documentos" é **perfeitamente impessoal** e perfeitamente claro. Não é preciso escrever
+   "cumpre-me solicitar que se proceda ao envio".
+2. **Não exige vocabulário obscuro.** *Ab initio*, *exsurge* e *pleito exarado* não são mais
+   impessoais que *de início*, *surge* e *pedido* — são apenas mais opacos.
+3. **Não proíbe frases curtas nem ordem direta.** Ao contrário: o MRPR **exige** clareza,
+   objetividade e concisão.
+
+**A síntese**: impessoalidade é sobre **quem fala** (o Estado, não o indivíduo). Não é sobre
+**como se fala** (de modo difícil). Confundir as duas coisas — supor que impessoal deve
+soar hermético — é exatamente a raiz do juridiquês, e é um erro que o próprio manual oficial
+desautoriza.
+:::
+
+**10.** Redija um ofício completo solicitando informações, com todas as partes do padrão.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível:
+
+---
+
+**[Brasão da República]**
+**MINISTÉRIO DA EDUCAÇÃO**
+**Secretaria de Educação Básica**
+
+Ofício nº 47/2026/SEB-MEC
+
+Brasília, 15 de julho de 2026.
+
+À Senhora
+Maria Souza
+Secretária de Educação do Estado do Pará
+Rua X, nº 100 — Belém/PA — CEP 66000-000
+
+**Assunto: Solicitação de dados sobre evasão escolar no ensino médio.**
+
+Senhora Secretária,
+
+Esta Secretaria está elaborando o Relatório Nacional de Permanência Escolar, previsto no
+Plano Nacional de Educação, e necessita de dados atualizados das redes estaduais.
+
+2. Solicita-se, portanto, o envio das taxas de abandono no ensino médio da rede estadual,
+referentes aos anos de 2023 a 2025, desagregadas por município e por turno.
+
+3. Os dados devem ser encaminhados até 30 de agosto de 2026, em formato aberto (CSV ou
+XLSX), para o endereço permanencia@mec.gov.br.
+
+4. Esta Secretaria permanece à disposição para esclarecimentos pelo telefone (61)
+2022-0000.
+
+Atenciosamente,
+
+**JOÃO PEREIRA**
+Secretário de Educação Básica
+
+---
+
+**Verificação das nove partes:**
+
+| Parte | Presente |
+|---|---|
+| 1. Cabeçalho | brasão + órgão ✓ |
+| 2. Tipo e número | Ofício nº 47/2026/SEB-MEC ✓ |
+| 3. Local e data | Brasília, 15 de julho de 2026 ✓ |
+| 4. Endereçamento | destinatária + cargo + endereço ✓ |
+| 5. Assunto | em negrito, sintético ✓ |
+| 6. Vocativo | "Senhora Secretária**,**" (vírgula) ✓ |
+| 7. Texto | 1º parágrafo **sem** número; 2 a 4 numerados ✓ |
+| 8. Fecho | **Atenciosamente** (mesma hierarquia) ✓ |
+| 9. Signatário | nome + cargo, sem linha ✓ |
+
+**Comentários:**
+
+- **Fecho**: "Atenciosamente" porque Secretário federal e Secretária estadual são
+  hierarquias equivalentes — não há subordinação.
+- **Tratamento**: "Senhora Secretária" (Vossa Senhoria), não "Excelentíssima" nem
+  "Ilustríssima" (abolido).
+- **Clareza**: cada parágrafo tem uma função (contexto → pedido → prazo e formato →
+  contato). O prazo e o formato estão **explícitos** — sem eles, o ofício geraria uma
+  segunda rodada de comunicação.
+- **Impessoalidade com clareza**: "Solicita-se" é impessoal, e a frase é direta. Não houve
+  necessidade de "cumpre-me solicitar que se digne Vossa Senhoria proceder ao envio".
+:::
+
+## 📚 Referências
+
+A norma de referência deste capítulo é o **Manual de Redação da Presidência da República**
+[@brasil2018manual], em sua 3ª edição (2018), que define os atributos da redação oficial, o
+padrão ofício, os pronomes de tratamento e os fechos — e que promoveu a unificação de
+ofício, aviso e memorando, além da abolição de *Digníssimo* e *Ilustríssimo*. Como a norma
+é atualizada periodicamente e as bancas cobram a edição vigente, recomenda-se consultar
+sempre a versão mais recente, disponível no portal da Casa Civil, bem como os manuais
+próprios de órgãos estaduais e municipais, que podem divergir do padrão federal. A crítica
+ao juridiquês e a defesa da linguagem clara apoiam-se em Faraco [@faraco2008] e Bagno
+[@bagno2011], e retomam o argumento do @sec-cap-67 sobre a opacidade como barreira de
+acesso; para a ambiguidade que a precisão oficial procura evitar, veja o @sec-cap-64; para a
+concordância dos pronomes de tratamento, os @sec-cap-30 e @sec-cap-66; para a noção de
+gênero que organiza o capítulo, o @sec-cap-72. O próximo capítulo trata dos gêneros da
+**escrita acadêmica**: resumo, resenha e artigo.
+
+::: {#refs}
 :::
