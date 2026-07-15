@@ -4,22 +4,646 @@ title: "Dissertação argumentativa: estrutura"
 
 # Dissertação argumentativa: estrutura {#sec-cap-75}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 12 — Redação e Escrita.
+> "Ter opinião é fácil. Sustentá-la contra um leitor que discorda é outra coisa — e é disso
+> que se trata."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O capítulo anterior tratou do parágrafo. Este escala a unidade: da ideia única ao **texto
+inteiro** organizado para **defender uma tese**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A dissertação argumentativa é o tipo textual (@sec-cap-71) mais cobrado na vida escolar e
+profissional brasileira — está no ENEM, nos vestibulares, nos concursos, no parecer
+técnico, no editorial, no artigo acadêmico. E é, de longe, o que mais gera texto ruim.
+
+A razão do fracasso raramente é gramatical. É estrutural, e quase sempre se resume a uma
+coisa: **o texto não tem tese**. Tem tema, tem opinião difusa, tem informação — mas não tem
+uma **proposição contestável** que o autor se comprometa a sustentar. Sem isso, não há o
+que argumentar, e o texto se resume a falar **sobre** o assunto.
+
+Este capítulo trata da **arquitetura**: o que é uma tese, como se estrutura o texto que a
+defende, e como cada parte serve ao conjunto. O @sec-cap-76 tratará dos **argumentos** que
+a sustentam, e o @sec-cap-77, das condições específicas da prova.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** tema, problema e tese;
+- **Formular** teses contestáveis, específicas e sustentáveis;
+- **Estruturar** a dissertação em introdução, desenvolvimento e conclusão;
+- **Redigir** introduções que apresentem problema e tese com economia;
+- **Encadear** argumentos com progressão, e não por justaposição;
+- **Diagnosticar** os defeitos estruturais mais comuns: texto sem tese, tese vaga,
+  conclusão que não decorre.
+
+## Tema, problema, tese: três coisas diferentes
+
+Esta é a confusão fundadora de quase toda redação ruim.
+
+::: {.callout-important}
+## As três categorias
+- **Tema** — o **assunto**. Um sintagma nominal, sem verbo, sem afirmação. Não se
+  discorda de um tema.
+  > "A desigualdade no Brasil"
+
+- **Problema** — a **pergunta** que o tema levanta. Já é um recorte, mas ainda não é uma
+  posição.
+  > "Por que a desigualdade brasileira persiste apesar do crescimento econômico?"
+
+- **Tese** — a **resposta** ao problema. Uma **proposição contestável** que o autor se
+  compromete a sustentar.
+  > "A desigualdade brasileira persiste porque se transmite por herança patrimonial, e não
+  > por falta de crescimento."
+
+**O teste da tese**: **alguém pode discordar disso?**
+
+- Se **não** (é fato, é consenso, é obviedade) → **não é tese**. "A desigualdade é um
+  problema" não é tese: ninguém defende que seja uma solução.
+- Se **sim** → é tese, e há o que argumentar.
+:::
+
+A maioria das redações escolares para no **tema**. O candidato escreve quatro parágrafos
+**sobre** a desigualdade — sua gravidade, suas manifestações, sua tristeza — sem jamais
+afirmar algo que alguém pudesse contestar. O texto não é incorreto; é **inerte**. Não há
+tese, logo não há argumentação, logo não há dissertação argumentativa — apenas exposição
+(@sec-cap-71) com tom indignado.
+
+### Como reconhecer uma tese fraca
+
+| Formulação | Problema | Correção |
+|---|---|---|
+| "A desigualdade é um problema grave." | **incontestável** — ninguém discorda | "A desigualdade persiste por herança, não por falta de crescimento." |
+| "É preciso combater a desigualdade." | **exortação**, não proposição | "Combater a desigualdade exige tributar patrimônio, não apenas renda." |
+| "A desigualdade tem várias causas." | **vaga** — não se compromete com nada | "A causa determinante da desigualdade brasileira é fundiária." |
+| "A educação é importante." | **incontestável e genérica** | "A expansão do acesso à escola não reduziu a desigualdade porque a qualidade permaneceu estratificada." |
+
+Note o padrão: a tese boa é **específica**, **contestável** e **arriscada** — ela se
+compromete com algo que exigirá defesa. É isso que dá ao texto uma razão para existir.
+
+## A estrutura da dissertação
+
+::: {#fig-dissertacao}
+
+```{.tikz}
+%%| filename: dissertacao
+%%| alt: Esquema da estrutura da dissertação argumentativa em três blocos verticais. Primeiro bloco, introdução, que contextualiza o tema brevemente, formula o problema e enuncia a tese, sendo a tese o elemento obrigatório. Segundo bloco, desenvolvimento, com dois ou três parágrafos, cada um sustentando a tese com um argumento diferente, e cada parágrafo tendo tópico frase, evidência e amarração de volta à tese. Terceiro bloco, conclusão, que retoma a tese já sustentada, sintetiza e, no caso do ENEM, propõe intervenção. À direita, o teste da coluna vertebral, indicando que se deve poder traçar uma linha da tese até cada argumento e até a conclusão, e que argumento que não sustenta a tese deve ser cortado.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[cx, draw=manualblue, fill=manualblue!12, text width=56mm] (i) at (-2.6,2.6)
+    {\centering\textbf{INTRODUÇÃO}\\[3pt]\raggedright
+     1. contextualiza o tema {\scriptsize(breve!)}\\
+     2. formula o \textbf{problema}\\
+     3. enuncia a \textbf{TESE} \quad{\scriptsize$\leftarrow$ obrigatório}};
+
+  \node[cx, draw=manualgreen, fill=manualgreen!10, text width=56mm] (d) at (-2.6,0.4)
+    {\centering\textbf{DESENVOLVIMENTO} {\scriptsize(2--3 parágrafos)}\\[3pt]\raggedright
+     cada parágrafo = \textbf{um argumento} que\\ sustenta a tese\\[2pt]
+     {\scriptsize cada um com: tópico frase $\rightarrow$ evidência $\rightarrow$
+      \textbf{amarração} de volta à tese}};
+
+  \node[cx, draw=manualgray, fill=manualgray!12, text width=56mm] (c) at (-2.6,-1.7)
+    {\centering\textbf{CONCLUSÃO}\\[3pt]\raggedright
+     retoma a tese — agora \emph{sustentada}\\
+     sintetiza · {\scriptsize(no ENEM: propõe intervenção)}};
+
+  \draw[s] (i) -- (d); \draw[s] (d) -- (c);
+
+  \node[cx, draw=manualred, fill=manualred!8, text width=42mm] at (4.8,0.6)
+    {\centering\textbf{TESTE DA COLUNA VERTEBRAL}\\[4pt]\raggedright
+     Trace uma linha da \textbf{tese} até:\\[2pt]
+     $\rightarrow$ cada argumento\\
+     $\rightarrow$ a conclusão\\[4pt]
+     {\scriptsize Argumento que \textbf{não} sustenta a tese: \textbf{corte}.}\\
+     {\scriptsize Conclusão que não decorre: \textbf{reescreva}.}};
+\end{tikzpicture}
+```
+
+A arquitetura da dissertação. Tudo converge para a **tese**: ela é enunciada na introdução,
+sustentada no desenvolvimento e retomada na conclusão.
+:::
+
+### A introdução
+
+Tem **três** trabalhos, e um deles é obrigatório.
+
+1. **Contextualizar** — situar o tema. **Brevemente.**
+2. **Formular o problema** — o recorte, a pergunta.
+3. **Enunciar a tese** — a resposta que será defendida. **Obrigatório.**
+
+::: {.callout-warning}
+## O vício da contextualização inflada
+O defeito mais comum das introduções escolares:
+
+> "Desde os primórdios da humanidade, o homem busca viver em sociedade. Nesse sentido,
+> desde a Grécia Antiga, filósofos como Platão e Aristóteles já discutiam a justiça. Assim,
+> na atual conjuntura da sociedade contemporânea hodierna, é notório que a desigualdade
+> ainda persiste."
+
+Três frases, zero informação. "Desde os primórdios", "na atual conjuntura", "é notório que"
+são **enchimento** — não contextualizam nada, apenas ocupam linhas e sinalizam que o
+candidato não tem o que dizer.
+
+Compare:
+
+> "O Brasil cresceu 250% em PIB per capita entre 1960 e 2020 e permanece entre os países
+> mais desiguais do mundo. Se o crescimento não distribuiu, é preciso perguntar o que
+> sustenta a concentração. **A resposta está na herança: a desigualdade brasileira se
+> transmite por patrimônio, e não por falta de dinamismo econômico.**"
+
+Três frases também. A primeira contextualiza **com dado**; a segunda formula o **problema**;
+a terceira enuncia a **tese**. Nada de enchimento.
+:::
+
+### O desenvolvimento
+
+Cada parágrafo sustenta a tese com **um argumento diferente**. A estrutura interna de cada
+um (@sec-cap-74):
+
+1. **Tópico frase** — enuncia o argumento;
+2. **Evidência** — dado, exemplo, autoridade, raciocínio (@sec-cap-76);
+3. **Amarração** — a frase que **liga o argumento de volta à tese**.
+
+A amarração é o passo que quase todo mundo pula — e é o que separa argumentação de
+enumeração:
+
+> "A Lei de Terras de 1850 condicionou o acesso à terra à compra, às vésperas da abolição.
+> Os libertos, sem recursos, ficaram estruturalmente impedidos de possuir terra. **Desde a
+> origem, portanto, o patrimônio — e não o trabalho — define quem ascende: é a herança, não
+> a falta de crescimento, que organiza a desigualdade brasileira.**"
+
+A última frase **conclui de volta à tese**. Sem ela, o parágrafo seria apenas informação
+histórica solta — verdadeira, interessante e argumentativamente inútil.
+
+### A conclusão
+
+Retoma a tese, agora **sustentada**, e fecha. Não introduz argumento novo.
+
+Os defeitos frequentes:
+
+- **Conclusão que não decorre** — o texto discutiu herança patrimonial e a conclusão propõe
+  investir em educação. Não há ponte.
+- **Conclusão que repete a introdução** — copiar a tese com sinônimos não é concluir. É
+  girar em falso (@sec-cap-70).
+- **Conclusão que enfraquece** — "é claro que o assunto é complexo e há muitas opiniões".
+  Depois de quatro parágrafos defendendo uma tese, recuar é desperdiçar o texto.
+
+::: {.callout-tip}
+## O teste da coluna vertebral
+Depois de escrever, faça isto:
+
+1. Sublinhe a **tese** na introdução.
+2. De **cada** parágrafo de desenvolvimento, pergunte: "**como isto sustenta a tese?**". Se
+   você não conseguir responder numa frase, o parágrafo **não pertence ao texto** — corte-o
+   ou reescreva-o.
+3. Da conclusão, pergunte: "**isto decorre do que foi argumentado?**". Se a conclusão
+   propõe algo que os argumentos não prepararam, ela é um enxerto.
+
+É o **teste do esqueleto** (@sec-cap-74) com foco na tese — e é o que detecta a falha de
+coerência global (@sec-cap-70) que a releitura linear esconde.
+:::
+
+## A contra-argumentação
+
+Um recurso que distingue o texto competente do texto ingênuo: **antecipar a objeção**.
+
+> "Poder-se-ia objetar que a expansão educacional das últimas décadas contradiz a tese —
+> afinal, o acesso à escola se universalizou. **Mas** a objeção confunde acesso com
+> qualidade: a escola pública que recebeu os filhos dos pobres não é a mesma que forma os
+> filhos dos ricos, e o diploma que ela entrega não abre as mesmas portas. A expansão
+> democratizou o prédio, não o destino."
+
+Por que funciona:
+
+1. **Demonstra domínio** — o autor conhece o outro lado.
+2. **Desarma o leitor cético** — que ia levantar exatamente aquilo.
+3. **Fortalece a tese** — sobreviver a uma objeção é mais persuasivo do que nunca ter sido
+   testado.
+
+O erro seria **levantar a objeção e não respondê-la** — aí o texto argumenta contra si.
+
+## A estrutura não é fórmula
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Vale ser franco sobre o estatuto do que este capítulo ensina.
+
+A estrutura "introdução com tese + 2 desenvolvimentos + conclusão" **não** é uma lei da
+argumentação. É a convenção do **gênero** "redação de vestibular" (@sec-cap-72), moldada
+por suas condições: 30 linhas, tempo escasso, corretor que lê centenas de textos, critérios
+públicos. Nessas condições, a previsibilidade estrutural é uma **vantagem**: o corretor
+encontra o que procura, e o candidato não gasta o escasso espaço reinventando a forma.
+
+Fora dali, a argumentação real é muito mais livre. Um ensaio pode adiar a tese até a última
+página; um artigo científico a coloca no resumo e a repete três vezes; um editorial a
+insinua sem enunciá-la. Montaigne, que inventou o ensaio, não usava tópico frase.
+
+**Duas conclusões práticas:**
+
+1. **Na prova, siga a convenção** — não porque seja a melhor escrita possível, mas porque é
+   a que funciona **naquelas condições de leitura**. É estratégia, não estética.
+2. **Não confunda o andaime com o prédio.** O que **não** é convencional, e vale para
+   qualquer argumentação em qualquer contexto: ter uma **tese contestável**, sustentá-la com
+   **evidência**, e **amarrar** cada argumento à tese. Isso não é fórmula escolar — é o que
+   argumentar significa.
+
+O aluno que aprende só o formato produz textos corretos e vazios. O que aprende a lógica
+por trás dele consegue escrever bem também onde o formato não se aplica [@garcia2010;
+@faraco2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Tema × problema × tese:**
+
+| | Definição | Exemplo |
+|---|---|---|
+| **Tema** | o assunto (sem verbo) | "A desigualdade no Brasil" |
+| **Problema** | a pergunta | "Por que persiste apesar do crescimento?" |
+| **Tese** | a resposta contestável | "Persiste por herança patrimonial, não por falta de crescimento." |
+
+**O teste da tese**: **alguém pode discordar?** Não → não é tese.
+
+**Estrutura:**
+
+| Parte | Função |
+|---|---|
+| **Introdução** | contextualiza (breve) + formula o problema + **enuncia a tese** |
+| **Desenvolvimento** | cada parágrafo = **um argumento**: tópico frase → evidência → **amarração** |
+| **Conclusão** | retoma a tese sustentada; **não** introduz argumento novo |
+
+**Teste da coluna vertebral**: de cada parágrafo, "como isto sustenta a tese?". Sem
+resposta em uma frase → corte.
+
+Em uma linha: **sem tese contestável não há dissertação argumentativa** — e o que separa
+argumentar de falar sobre o assunto é a **amarração** de cada argumento de volta à tese.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Texto sem tese.** Escrever **sobre** o tema não é defender uma posição. O erro mais
+  comum e mais grave.
+- **Tese incontestável.** "A desigualdade é um problema" não é tese — ninguém discorda.
+- **Tese como exortação.** "É preciso combater X" é apelo, não proposição sustentável.
+- **Contextualização inflada.** "Desde os primórdios da humanidade" ocupa linhas e não diz
+  nada.
+- **Argumento sem amarração.** Informação verdadeira que não volta à tese é enfeite.
+- **Conclusão que não decorre.** Discutir herança e concluir por educação é enxerto.
+- **Conclusão que recua.** "O assunto é complexo e há muitas opiniões" desperdiça o texto
+  inteiro.
+- **Levantar objeção e não respondê-la.** Isso argumenta **contra** você.
+- **Confundir a convenção do gênero com lei da argumentação.** O formato é estratégia de
+  prova; a tese e a amarração é que são universais.
+
+## ✍️ Exercícios
+
+**1.** Distinga tema, problema e tese, com exemplos sobre "violência urbana".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Tema** — o assunto, sem verbo, sem afirmação:
+> "A violência urbana no Brasil"
+
+Não se discorda de um tema. Ele apenas delimita o campo.
+
+**Problema** — a pergunta que o tema levanta; já é recorte, mas ainda não é posição:
+> "Por que a violência urbana brasileira se concentra em determinados territórios e
+> perfis?"
+
+**Tese** — a resposta contestável, que o autor se compromete a sustentar:
+> "A violência urbana brasileira não é um problema de segurança pública, mas a expressão
+> territorial da desigualdade: ela se concentra onde o Estado se ausentou em tudo, exceto
+> na polícia."
+
+**Aplicando o teste**: alguém pode discordar da tese? **Sim** — muita gente sustenta que o
+problema é de policiamento, legislação penal ou impunidade. Logo, é tese, e há o que
+argumentar.
+
+Compare com uma falsa tese: "A violência urbana é um problema grave" — ninguém defende que
+seja algo bom. Não há o que sustentar, logo não há dissertação.
+:::
+
+**2.** Avalie as teses e corrija as fracas: (a) "A educação é importante."; (b) "É preciso
+melhorar a saúde pública."; (c) "O SUS fracassou por subfinanciamento crônico, não por
+ineficiência de gestão."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) "A educação é importante."** — **Tese fraca**: incontestável e genérica. Ninguém
+sustenta que a educação seja irrelevante. Nada a defender.
+
+*Correção*: "A expansão do acesso à escola não reduziu a desigualdade brasileira porque a
+qualidade permaneceu estratificada — democratizou-se o prédio, não o destino."
+(Contestável: alguém pode argumentar que o acesso, por si, já produziu mobilidade.)
+
+**(b) "É preciso melhorar a saúde pública."** — **Tese fraca**: é **exortação**, não
+proposição. Não afirma nada sobre o mundo; apenas manifesta desejo consensual.
+
+*Correção*: "A crise do SUS decorre de subfinanciamento, e não de má gestão — o que torna a
+proposta de privatização um diagnóstico invertido." (Contestável e comprometida.)
+
+**(c) "O SUS fracassou por subfinanciamento crônico, não por ineficiência de gestão."** —
+**Tese boa**. Por quê:
+
+- **Contestável**: há quem sustente exatamente o contrário (que o problema é gestão).
+- **Específica**: aponta uma causa determinada e **exclui** outra explicitamente.
+- **Arriscada**: exige defesa com dados de financiamento e comparação internacional.
+- **Fértil**: já organiza o texto — cada parágrafo sustentará a causa afirmada ou refutará
+  a negada.
+
+O "não X, mas Y" é uma das formulações mais eficientes de tese, porque a negação já
+antecipa a objeção principal.
+:::
+
+**3.** Identifique os defeitos desta introdução: "Desde os primórdios da humanidade, o
+homem vive em sociedade. Nesse sentido, na atual conjuntura hodierna, é notório que a
+violência é um grande problema. Assim, é preciso discutir esse assunto."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Defeitos:**
+
+1. **Contextualização vazia**: "desde os primórdios da humanidade" não contextualiza nada —
+   serve a qualquer tema. Testar assim: a frase funcionaria numa redação sobre trânsito,
+   vacinas ou futebol? Se sim, é enchimento.
+2. **Pleonasmo e jargão vazio**: "atual conjuntura hodierna" — *atual* e *hodierna* são
+   sinônimos, e a expressão inteira nada acrescenta. "É notório que" sinaliza que o autor
+   não vai provar (afinal, se é notório...).
+3. **Ausência de problema**: não há pergunta, não há recorte. "A violência é um problema"
+   é o ponto de partida de todo mundo.
+4. **Ausência de tese**: "é preciso discutir esse assunto" é **metadiscurso** — o texto
+   anuncia que vai falar em vez de falar. Não há posição alguma.
+5. **Conectivos mentirosos**: "nesse sentido" e "assim" anunciam relações lógicas
+   (consequência, conclusão) que não existem entre as frases (@sec-cap-69).
+
+**Reescrita:**
+
+> "O Brasil registra cerca de 40 mil homicídios por ano — mais que muitos países em guerra.
+> As vítimas, porém, não se distribuem ao acaso: são majoritariamente jovens, negros e
+> moradores de periferia. **Essa concentração revela que a violência urbana não é um
+> problema de segurança pública, mas a expressão territorial da desigualdade.**"
+
+Três frases: dado que contextualiza → recorte que formula o problema → **tese**. Zero
+enchimento.
+:::
+
+**4.** (Estilo ENEM) Uma tese, na dissertação argumentativa, é:
+
+a) o assunto sobre o qual se escreve;
+b) uma proposição contestável que o autor se compromete a sustentar;
+c) a pergunta que orienta o texto;
+d) a conclusão do último parágrafo;
+e) um apelo à ação do leitor.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A tese é a **resposta ao problema**: uma proposição que afirma algo
+sobre o mundo, que **alguém poderia contestar**, e que o autor assume a responsabilidade de
+defender.
+
+O **teste**: alguém pode discordar? Se não, não é tese.
+
+As demais: **(a)** é o **tema** — sintagma nominal, sem afirmação ("a desigualdade no
+Brasil"); **(c)** é o **problema** — a pergunta que o tema levanta, ainda sem posição;
+**(d)** confunde a **posição** com sua **localização** — a tese é enunciada na
+**introdução** e apenas **retomada** na conclusão; **(e)** é **exortação** ("é preciso
+combater X"), que manifesta desejo em vez de afirmar algo sustentável — um dos defeitos
+mais comuns.
+:::
+
+**5.** Explique o que é a "amarração" e por que ela é decisiva.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Amarração** é a frase que, ao fim de cada parágrafo de desenvolvimento, **liga o argumento
+de volta à tese** — explicitando **como** aquilo que se acabou de expor sustenta a posição
+defendida.
+
+**Exemplo:**
+
+> "A Lei de Terras de 1850 condicionou o acesso à terra à compra, às vésperas da abolição.
+> Os libertos, sem recursos, ficaram estruturalmente impedidos de possuir terra.
+> **[amarração] Desde a origem, portanto, o patrimônio — e não o trabalho — define quem
+> ascende: é a herança, não a falta de crescimento, que organiza a desigualdade
+> brasileira.**"
+
+**Por que é decisiva**: sem ela, o parágrafo é **informação verdadeira e argumentativamente
+inútil**. O leitor fica com um fato histórico correto e sem saber o que fazer com ele. A
+amarração responde à pergunta "**e daí?**".
+
+**O que ela separa**: é exatamente a fronteira entre **argumentar** e **enumerar**. O texto
+sem amarração empilha informações relacionadas ao tema; o texto com amarração **usa** cada
+informação **a favor de uma posição**. O primeiro fala **sobre**; o segundo **defende**.
+
+**Por que é o passo mais pulado**: porque o autor já sabe como o argumento sustenta a tese —
+está óbvio **para ele**. Ele esquece que o leitor não tem acesso ao seu raciocínio, apenas
+ao texto. É o erro de previsão do leitor descrito no @sec-cap-70.
+
+**Regra prática**: ao terminar cada parágrafo, pergunte "**eu disse por que isto importa
+para a minha tese?**". Se a resposta for "está implícito", explicite.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "A estrutura introdução-desenvolvimento-
+conclusão é uma lei universal da argumentação."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** É uma **convenção de gênero** (@sec-cap-72), não uma lei.
+
+**Por que é convenção**: a estrutura em três blocos, com tese na introdução e 2 ou 3
+parágrafos de desenvolvimento, é moldada pelas condições do gênero "redação de vestibular"
+— 30 linhas, tempo escasso, corretor lendo centenas de textos com critérios públicos.
+Nessas condições, a **previsibilidade** é vantagem: o corretor encontra o que procura, e o
+candidato não gasta espaço reinventando a forma.
+
+**A argumentação real é mais livre:**
+
+- um **ensaio** pode adiar a tese até a última página, e o efeito de descoberta é parte do
+  gênero (Montaigne, que inventou o ensaio, não usava tópico frase);
+- um **artigo científico** põe a tese no resumo e a repete três vezes;
+- um **editorial** frequentemente a insinua sem enunciá-la;
+- um **poema** pode argumentar sem nenhuma dessas partes.
+
+**O que é universal**, e não convencional: ter uma **tese contestável**, sustentá-la com
+**evidência** e **amarrar** os argumentos a ela. Isso não é formato escolar — é o que
+argumentar **significa**, em qualquer gênero.
+
+**A distinção que importa**: não confundir o **andaime** (o formato de prova, útil e
+descartável) com o **prédio** (a lógica argumentativa, permanente). Quem aprende só o
+formato escreve textos corretos e vazios, e trava quando o formato não se aplica.
+:::
+
+**7.** Escreva um parágrafo de desenvolvimento completo (tópico frase + evidência +
+amarração) para a tese: "A desigualdade brasileira se transmite por herança patrimonial".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível:
+
+> **A herança concentra patrimônio porque a tributação brasileira quase não a alcança.** O
+> ITCMD — imposto sobre heranças e doações — tem alíquota máxima de 8% e é, na prática,
+> cobrado bem abaixo disso na maioria dos estados; a média da OCDE fica acima de 15%, e
+> países como Japão e Coreia do Sul chegam a 50%. Enquanto isso, o Brasil arrecada a maior
+> parte de sua receita sobre **consumo**, que pesa proporcionalmente mais sobre os pobres.
+> **O desenho tributário, portanto, não apenas deixa de corrigir a transmissão patrimonial:
+> ele a subsidia — o que confirma que a desigualdade brasileira se reproduz por herança, e
+> que isso é resultado de escolha política, não de fatalidade econômica.**
+
+**Análise:**
+
+1. **Tópico frase**: enuncia o argumento específico (tributação da herança) — não repete a
+   tese, mas aponta um mecanismo que a sustenta.
+2. **Evidência**: dados comparativos (alíquota brasileira × OCDE × Japão) + o contraste com
+   a tributação sobre consumo. Desenvolvimento por **dados** e **comparação**
+   (@sec-cap-74).
+3. **Amarração**: a última frase responde ao "e daí?" — liga o dado tributário de volta à
+   tese (a desigualdade se transmite por herança) **e** acrescenta um ganho argumentativo
+   (é escolha política, não fatalidade), que prepara a conclusão.
+
+**Teste da coluna vertebral**: "como isto sustenta a tese?" — "mostra que o Estado não taxa
+a transmissão patrimonial, logo ela se perpetua". Responde em uma frase. ✓
+:::
+
+**8.** Explique como funciona a contra-argumentação e por que fortalece o texto.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Como funciona**: o autor **levanta ele próprio** a objeção mais forte à sua tese e a
+**responde**.
+
+> "Poder-se-ia objetar que a expansão educacional das últimas décadas contradiz a tese —
+> afinal, o acesso à escola se universalizou. **Mas** a objeção confunde acesso com
+> qualidade: a escola que recebeu os filhos dos pobres não é a que forma os filhos dos
+> ricos, e o diploma que ela entrega não abre as mesmas portas. A expansão democratizou o
+> prédio, não o destino."
+
+**Por que fortalece:**
+
+1. **Demonstra domínio** — o autor conhece o outro lado, o que o credencia. Um texto que
+   ignora as objeções sugere que o autor não as conhece.
+2. **Desarma o leitor cético** — o leitor que discorda estava formulando exatamente aquela
+   objeção enquanto lia. Antecipá-la impede que ele descarte o texto e o obriga a
+   considerar a resposta.
+3. **Fortalece a tese por sobrevivência** — uma tese que resistiu a um ataque é mais
+   persuasiva do que uma que nunca foi testada. É a diferença entre "eu acho" e "eu
+   considerei as alternativas e ainda assim sustento".
+
+**O erro fatal**: levantar a objeção e **não respondê-la**. Aí o texto argumenta **contra
+si mesmo** e entrega ao leitor a razão para discordar. A contra-argumentação exige o
+movimento completo: objeção → refutação.
+
+**Cuidado adicional**: escolha a objeção **forte**. Refutar um espantalho (uma versão fraca
+e caricata da posição adversária) é pior que não contra-argumentar — sinaliza má-fé ou
+desconhecimento (@sec-cap-76).
+:::
+
+**9.** (Estilo FUVEST) Discuta: "a redação de vestibular ensina a argumentar ou a preencher
+um formulário?"
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A pergunta é boa porque a resposta honesta é: as duas coisas, e o problema está na
+proporção.**
+
+**O que há de legítimo no formato**: as condições do gênero (@sec-cap-72) justificam a
+convenção. Trinta linhas, tempo escasso, corretor lendo centenas de textos, necessidade de
+critérios públicos e comparáveis entre milhões de candidatos — nesse contexto, a
+previsibilidade estrutural **é racional**. Ela reduz o custo de leitura, torna a correção
+verificável e impede que a nota dependa do gosto do corretor. Um formato explícito é, em
+larga medida, uma **garantia de isonomia**.
+
+E o formato transporta coisas reais: exigir tese, exigir argumentos, exigir que se conclua
+são exigências **legítimas** de qualquer argumentação.
+
+**O que há de degradação**: o formato, ensinado sem sua lógica, vira **ritual**. O sintoma é
+conhecido: candidatos decoram repertórios ("segundo o filósofo Zygmunt Bauman, vivemos na
+modernidade líquida"), conectivos ("outrossim", "destarte"), e uma proposta de intervenção
+genérica encaixável em qualquer tema — e produzem textos **estruturalmente impecáveis e
+argumentativamente vazios**. O aluno aprendeu o andaime e nunca viu o prédio.
+
+Pior: o formato pode **premiar** o vazio. Um texto que cumpre o checklist com teses
+incontestáveis ("a desigualdade é um problema") pontua razoavelmente; um texto arriscado,
+com tese forte e estrutura heterodoxa, pode pontuar menos. O incentivo aponta para a
+segurança, não para o pensamento.
+
+**A posição defensável**: o problema não é o formato — é ensiná-lo **sem** a lógica que o
+justifica. Compare:
+
+- "Ponha a tese na introdução" → regra arbitrária, obedecida sem entender.
+- "O leitor precisa saber desde o início o que você vai defender, senão lê sem saber o que
+  procurar — e o corretor tem 3 minutos" → **razão**, que o aluno pode transferir a
+  qualquer contexto de escrita.
+
+O aluno que aprende só a primeira formulação trava fora da prova. O que aprende a segunda
+escreve bem também no e-mail, no relatório e no parecer — onde o formato não se aplica, mas
+a lógica sim.
+
+**Síntese**: a redação de vestibular ensina a argumentar **se** o formato for ensinado como
+**consequência** das condições de leitura, e não como mandamento. Ensinado como
+mandamento, ensina a preencher formulário — e produz exatamente os textos que ela própria
+depois lamenta [@faraco2008; @garcia2010].
+:::
+
+**10.** Aplique o teste da coluna vertebral a um texto com esta estrutura: tese — "a
+desigualdade se transmite por herança"; parágrafo 1 — a Lei de Terras de 1850; parágrafo 2
+— o Brasil tem uma cultura rica e diversa; conclusão — é preciso investir em educação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Aplicando o teste:**
+
+**Tese**: "A desigualdade brasileira se transmite por herança patrimonial."
+
+**Parágrafo 1 — Lei de Terras de 1850.** Pergunta: "como isto sustenta a tese?"
+> **Resposta**: "mostra que, desde a origem, o acesso à propriedade dependeu de patrimônio
+> prévio, e não de trabalho — o que instalou a transmissão hereditária como mecanismo."
+
+Responde em uma frase. **Sustenta a tese** ✓ — desde que a **amarração** esteja escrita, e
+não apenas implícita.
+
+**Parágrafo 2 — cultura rica e diversa.** Pergunta: "como isto sustenta a tese?"
+> **Resposta**: — nenhuma.
+
+Não há relação alguma entre diversidade cultural e transmissão patrimonial da desigualdade.
+**Corte o parágrafo.** É um caso clássico de "repertório encaixado à força": o candidato
+tinha um conteúdo memorizado e o inseriu onde não cabia. Viola a metarregra da **relação**
+(@sec-cap-70).
+
+**Conclusão — investir em educação.** Pergunta: "isto decorre do que foi argumentado?"
+> **Resposta**: **não**. O texto argumentou que o mecanismo é **patrimonial** (Lei de
+> Terras, herança). Concluir por **educação** é um **enxerto**: nenhum parágrafo estabeleceu
+> ponte entre escolaridade e transmissão de patrimônio. A conclusão responde a outro texto —
+> um que o candidato provavelmente havia decorado.
+
+**Diagnóstico geral**: o texto tem **um** parágrafo pertinente de três blocos. A falha é de
+**coerência global** (@sec-cap-70) — e note que uma releitura frase a frase não a detectaria:
+cada parágrafo, isoladamente, pode estar bem escrito.
+
+**Reestruturação:**
+
+- **Parágrafo 1**: Lei de Terras → origem da concentração (manter, com amarração explícita).
+- **Parágrafo 2** (substituir): a tributação que não alcança a herança (ITCMD de 8% × 15% da
+  OCDE) → o Estado subsidia a transmissão.
+- **Conclusão**: se o mecanismo é patrimonial, a intervenção precisa ser patrimonial —
+  tributação progressiva sobre herança e grandes fortunas, não apenas política educacional.
+
+Agora a conclusão **decorre**: ela ataca o mecanismo que os dois parágrafos identificaram.
+:::
+
+## 📚 Referências
+
+A estrutura da dissertação argumentativa, a distinção entre tema, problema e tese e a
+articulação entre parágrafos seguem Garcia [@garcia2010], referência clássica da redação em
+língua portuguesa, e a tradição escolar discutida por Faraco [@faraco2008]; a fundamentação
+da amarração e do teste da coluna vertebral na **coerência global** apoia-se em Koch
+[@koch2015texto] e Koch [@koch2018coesao]. O tratamento do formato como convenção de gênero
+— e a advertência contra confundi-lo com lei da argumentação — segue Marcuschi
+[@marcuschi2008] e o @sec-cap-72. Para a unidade do parágrafo e o teste do esqueleto, veja
+o @sec-cap-74; para a progressão e a coerência global, o @sec-cap-70; para os conectivos
+que sinalizam as relações argumentativas, o @sec-cap-69. Os **tipos de argumento** e as
+**falácias** que os corrompem são tema do @sec-cap-76; as condições específicas da prova,
+do @sec-cap-77.
+
+::: {#refs}
 :::
