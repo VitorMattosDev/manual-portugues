@@ -4,22 +4,755 @@ title: "Argumentação: tipos de argumento e falácias"
 
 # Argumentação: tipos de argumento e falácias {#sec-cap-76}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 12 — Redação e Escrita.
+> "Uma falácia não é um argumento ruim. É um argumento que **parece** bom — e é por isso que
+> funciona."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O capítulo anterior tratou da **arquitetura** da dissertação: tese, estrutura, amarração.
+Este trata do material que sustenta essa arquitetura: os **argumentos**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Um argumento é uma razão oferecida em apoio a uma tese. E nem todas as razões são iguais:
+algumas provam, outras apenas persuadem, e algumas parecem provar sem provar nada — são as
+**falácias**.
+
+A distinção importa por dois motivos. **Para escrever**, você precisa saber quais tipos de
+argumento tem à disposição e qual serve a cada situação. **Para ler**, precisa reconhecer
+quando estão tentando convencê-lo com um raciocínio quebrado — o que acontece o tempo todo,
+no debate político, na publicidade e nas redes.
+
+Uma advertência inicial: este capítulo trata de **argumentação retórica**, não de lógica
+formal. A diferença é importante. Na lógica formal, um argumento é válido ou inválido. Na
+argumentação real, os argumentos são **mais ou menos fortes**, e sua força depende do
+auditório, do contexto e do que já se aceita. Um argumento de autoridade é fraco na
+matemática e forte na medicina — e isso não é um defeito da retórica: é seu objeto.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Identificar** os principais tipos de argumento e escolher o adequado;
+- **Avaliar** a força de um argumento pelos critérios de pertinência e suficiência;
+- **Reconhecer** as falácias mais frequentes no debate público;
+- **Explicar** por que cada falácia falha — e não apenas nomeá-la;
+- **Construir** parágrafos argumentativos com evidência apropriada;
+- **Distinguir** argumento fraco de falácia, e crítica legítima de acusação de falácia.
+
+## Tipos de argumento
+
+### 1. Argumento de autoridade
+
+Invoca-se quem tem competência reconhecida no assunto.
+
+> "Como demonstra Marcuschi [@marcuschi2008], os gêneros são artefatos historicamente
+> construídos."
+
+**Quando é forte**: quando a autoridade é (i) **real**, (ii) **na área pertinente** e (iii)
+representa o **consenso** do campo. Citar um epidemiologista sobre epidemias é legítimo — é
+assim que o conhecimento especializado funciona.
+
+**Quando falha**: quando a autoridade é falsa, está fora de sua área, ou é minoritária
+apresentada como consenso. Um ator falando de vacinas não é autoridade; um físico premiado
+falando de economia, tampouco.
+
+::: {.callout-warning}
+## O vício escolar do repertório decorado
+Um sintoma reconhecível da redação de vestibular:
+
+> "Segundo o filósofo Zygmunt Bauman, vivemos na modernidade líquida. Dessa forma, a
+> desigualdade brasileira persiste."
+
+O problema não é citar Bauman — é que a citação **não sustenta nada**. Ela é decorativa: foi
+decorada previamente e encaixada à força, e a conclusão ("dessa forma") não decorre da
+premissa. É argumento de autoridade **vazio** — o nome do autor funciona como enfeite de
+erudição, não como razão.
+
+Teste: **retire a citação**. Se o parágrafo continua funcionando igual, ela não era
+argumento — era adorno.
+:::
+
+### 2. Argumento por evidência (dados)
+
+Apoia-se em fatos verificáveis, estatísticas, pesquisas.
+
+> "O ITCMD brasileiro tem alíquota máxima de 8%; a média da OCDE supera 15%, e o Japão
+> chega a 50%."
+
+**Quando é forte**: quando os dados são (i) de **fonte confiável**, (ii) **pertinentes** à
+tese e (iii) **suficientes** para o que se conclui.
+
+**Cuidado**: dado não fala sozinho. Ele precisa de **interpretação** — e é na interpretação
+que a argumentação acontece. "O Brasil tem 40 mil homicídios/ano" não é argumento; é
+informação. Torna-se argumento quando se diz **o que ela mostra**.
+
+### 3. Argumento por exemplificação
+
+Ilustra o geral com um caso concreto.
+
+> "Empréstimos se especializam em vez de substituir: *delivery* não matou *entrega* —
+> ocupou o nicho da comida por aplicativo."
+
+**Quando é forte**: quando o exemplo é **representativo** e há **vários**. Um exemplo
+ilustra; **não prova**.
+
+**Quando falha**: quando se generaliza a partir de um caso (ver "generalização
+apressada").
+
+### 4. Argumento por causa e consequência
+
+> "A Lei de Terras condicionou o acesso à terra à compra; os libertos, sem recursos,
+> ficaram impedidos de possuir terra; daí a concentração fundiária."
+
+**Cuidado**: correlação não é causa (ver "falsa causa"). Estabelecer causalidade exige mais
+que sucessão temporal.
+
+### 5. Argumento por comparação (analogia)
+
+> "Proibir palavras estrangeiras para proteger a língua é como proibir importações para
+> fortalecer a indústria: trata-se o sintoma e ignora-se a causa."
+
+**Quando é forte**: quando a semelhança é **relevante** ao ponto em discussão.
+
+**Quando falha**: quando os casos diferem justamente naquilo que importa (ver "falsa
+analogia").
+
+### 6. Argumento por princípio
+
+Invoca um valor ou norma aceita pelo auditório.
+
+> "Se todos são iguais perante a lei, não se justifica que o rendimento do capital seja
+> tributado abaixo do rendimento do trabalho."
+
+**Quando é forte**: quando o princípio é **partilhado** pelo auditório. É a chave: um
+argumento por princípio só funciona com quem aceita o princípio.
+
+### 7. Argumento por refutação (contra-argumentação)
+
+Antecipa e desarma a objeção (@sec-cap-75).
+
+## Avaliar a força de um argumento
+
+::: {.callout-important}
+## Os dois critérios
+Diante de qualquer argumento — seu ou alheio —, faça **duas** perguntas:
+
+1. **Pertinência**: isto **tem a ver** com a tese? Um dado verdadeiro sobre outro assunto
+   não sustenta nada.
+2. **Suficiência**: isto **basta** para o que se conclui? Um exemplo não prova uma regra;
+   uma correlação não estabelece uma causa.
+
+A maioria dos argumentos ruins falha na **suficiência**: são verdadeiros e insuficientes.
+Isso é importante porque significa que refutá-los **não** exige provar que são falsos —
+basta mostrar que não bastam.
+:::
+
+## As falácias
+
+**Falácia** é um raciocínio que **parece** válido e não é. Não é sinônimo de mentira: a
+falácia pode ter premissas verdadeiras e ainda assim não sustentar a conclusão. O problema
+está na **ligação**, não no conteúdo.
+
+::: {#fig-falacias}
+
+```{.tikz}
+%%| filename: falacias
+%%| alt: Esquema das falácias organizadas em três grupos. Primeiro grupo, falácias que atacam a pessoa: ad hominem, que ataca quem argumenta em vez do argumento; e espantalho, que distorce a posição adversária para refutar a versão fraca. Segundo grupo, falácias de apelo indevido: apelo à autoridade fora de área, apelo à maioria ou ad populum, apelo à emoção, e apelo à tradição. Terceiro grupo, falácias de raciocínio quebrado: generalização apressada, que conclui a regra de poucos casos; falsa causa, que confunde correlação com causalidade; falsa dicotomia, que apresenta duas opções como se fossem as únicas; petição de princípio, que pressupõe o que deveria provar; e derrapagem, que encadeia consequências sem justificar cada elo. Abaixo, a advertência de que a falácia não é mentira, pois pode ter premissas verdadeiras, e que o defeito está na ligação e não no conteúdo.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=4pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[rounded corners=3pt, draw=manualgray, fill=manualgray!14, align=center,
+        inner sep=5pt, text width=32mm] (f) at (0,2.6)
+    {\textbf{FALÁCIAS}\\{\scriptsize parecem válidas — não são}};
+
+  \node[cx, draw=manualred, fill=manualred!10, text width=42mm] (a) at (-4.8,0.9)
+    {\centering\textbf{ATACAM A PESSOA}\\[3pt]\raggedright
+     \textbf{ad hominem} — ataca quem\\ argumenta, não o argumento\\[2pt]
+     \textbf{espantalho} — distorce a posição\\ para refutar a versão fraca};
+
+  \node[cx, draw=manualyellow, fill=manualyellow!12, text width=42mm] (b) at (0,0.6)
+    {\centering\textbf{APELO INDEVIDO}\\[3pt]\raggedright
+     \textbf{autoridade} fora de área\\
+     \textbf{ad populum} — ``todos acham''\\
+     \textbf{emoção} — comove sem provar\\
+     \textbf{tradição} — ``sempre foi assim''};
+
+  \node[cx, draw=manualblue, fill=manualblue!10, text width=44mm] (c) at (4.9,0.5)
+    {\centering\textbf{RACIOCÍNIO QUEBRADO}\\[3pt]\raggedright
+     \textbf{generalização apressada} — regra\\ tirada de poucos casos\\[2pt]
+     \textbf{falsa causa} — correlação $\neq$ causa\\[2pt]
+     \textbf{falsa dicotomia} — só duas opções\\[2pt]
+     \textbf{petição de princípio} — pressupõe\\ o que deveria provar\\[2pt]
+     \textbf{derrapagem} — encadeia sem elos};
+
+  \draw[s] (f) -- (a); \draw[s] (f) -- (b); \draw[s] (f) -- (c);
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=80mm] at (0,-1.9)
+    {\textbf{Falácia não é mentira}: as premissas podem ser \emph{verdadeiras}.\\
+     O defeito está na \textbf{ligação} entre premissa e conclusão — não no conteúdo.};
+\end{tikzpicture}
+```
+
+As falácias agrupadas pelo mecanismo. Note o quadro inferior: o que define a falácia não é
+a falsidade do que se diz, mas a **quebra** entre o que se diz e o que se conclui.
+:::
+
+### Falácias que atacam a pessoa
+
+**Ad hominem** — ataca-se **quem** argumenta, não o argumento.
+
+> "Ele defende reforma tributária? Mas ele é rico, então não tem moral para falar disso."
+
+**Por que falha**: a validade de um argumento **não depende** de quem o enuncia. Um
+argumento correto proposto por um hipócrita continua correto. A hipocrisia do proponente é
+um fato sobre ele, não sobre a tese.
+
+*Ressalva honesta*: apontar **conflito de interesse** **não** é ad hominem — é pertinente
+avaliar a credibilidade de um estudo financiado pela indústria do tabaco. A diferença: o
+conflito de interesse justifica **checar melhor** as evidências; não justifica **descartar**
+a conclusão sem examiná-la.
+
+**Espantalho** — distorce-se a posição adversária, refutando uma versão fraca que ninguém
+defende.
+
+> "— Proponho revisar o currículo de história.
+> — Então você quer apagar o passado do Brasil!"
+
+**Por que falha**: refuta-se algo que o adversário não disse. É a falácia mais comum do
+debate público — e a mais tentadora, porque a versão caricata é sempre mais fácil de
+derrubar.
+
+### Falácias de apelo indevido
+
+**Ad populum** (apelo à maioria) — "todo mundo acha, logo é verdade".
+
+> "A maioria dos brasileiros é a favor da redução da maioridade penal, logo é a medida
+> correta."
+
+**Por que falha**: popularidade não é verdade. A maioria já achou que o Sol girava em torno
+da Terra. *Ressalva*: em questões **normativas** numa democracia, a preferência da maioria
+é um argumento **legítimo** sobre o que **fazer** — mas não sobre o que **é verdade**. "A
+maioria quer X" pode justificar politicamente X; não prova que X funcione.
+
+**Apelo à emoção** — comove-se em vez de provar.
+
+> "Se você fosse pai de uma vítima, não pensaria assim."
+
+**Por que falha**: a emoção do interlocutor não altera os fatos. *Ressalva*: emoção
+**não** é ilegítima na argumentação — apresentar o sofrimento real é informação pertinente.
+Vira falácia quando **substitui** a razão em vez de acompanhá-la.
+
+**Apelo à tradição** — "sempre foi assim, logo deve continuar".
+
+> "O português sempre teve mesóclise; abandoná-la seria empobrecer a língua."
+
+**Por que falha**: a antiguidade de uma prática não a justifica. A escravidão também
+"sempre foi assim".
+
+### Falácias de raciocínio quebrado
+
+**Generalização apressada** — conclui-se a regra a partir de poucos casos.
+
+> "Conheci dois nordestinos preguiçosos. Nordestino não gosta de trabalhar."
+
+**Por que falha**: a amostra é insuficiente e não aleatória. É o mecanismo lógico do
+**preconceito** (@sec-cap-91).
+
+**Falsa causa** (*post hoc*) — confunde-se sucessão com causalidade.
+
+> "Depois que o novo prefeito assumiu, a violência caiu. Logo, ele reduziu a violência."
+
+**Por que falha**: correlação não é causa. A queda pode dever-se a fatores demográficos,
+econômicos, a uma tendência já em curso, ou ao acaso. Estabelecer causalidade exige isolar
+a variável.
+
+**Falsa dicotomia** — apresentam-se duas opções como se fossem as únicas.
+
+> "Ou você apoia a intervenção militar, ou você é a favor do crime."
+
+**Por que falha**: o leque real de opções é maior. É a falácia preferida da polarização,
+porque força o interlocutor a escolher um lado num campo que o próprio enunciador desenhou.
+
+**Petição de princípio** (círculo vicioso) — pressupõe-se o que se deveria provar.
+
+> "A homeopatia funciona porque diluições altas têm efeito terapêutico." (mas é justamente
+> isso que estava em questão)
+
+**Derrapagem** (*slippery slope*) — encadeiam-se consequências catastróficas sem justificar
+cada elo.
+
+> "Se legalizarmos a maconha, logo legalizaremos a cocaína, e o país virará um caos."
+
+**Por que falha**: cada elo da cadeia precisa ser **demonstrado**, não presumido.
+
+::: {.callout-warning}
+## Cuidado: a falácia da falácia
+Um vício contemporâneo, comum nas redes: **acusar de falácia para não responder**.
+
+> "— Segundo os dados do IBGE, a renda dos 10% mais ricos...
+> — Isso é apelo à autoridade."
+
+Não é. Citar dados de um instituto de estatística **na sua área de competência** é
+exatamente como se deve argumentar.
+
+Dois erros a evitar:
+
+1. **Nomear a falácia não é refutar.** Dizer "isso é ad hominem" não responde ao argumento.
+   É preciso **mostrar** por que o raciocínio falha naquele caso.
+2. **Nem todo argumento fraco é falácia.** Um argumento pode ser **insuficiente** sem ser
+   falacioso. Confundir os dois transforma o debate num jogo de rotular, que é o oposto de
+   pensar.
+
+O objetivo de estudar falácias é **argumentar melhor**, não ganhar discussões com etiquetas.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Vale registrar um ponto que raramente se diz.
+
+A retórica não é lógica formal, e tratar toda persuasão como se devesse obedecer à lógica
+dedutiva é um erro de categoria. Na argumentação real, os argumentos são **mais ou menos
+fortes** conforme o **auditório**, e isso não é corrupção: é a natureza do empreendimento.
+
+Consequência incômoda: **argumentos legítimos e falácias partilham mecanismos**. O apelo à
+emoção é falácia quando substitui a razão e é **necessário** quando o assunto é sofrimento
+humano — descrever a fome sem comover seria uma falha de escrita, não uma virtude lógica. O
+argumento de autoridade é falacioso fora de área e é **como o conhecimento funciona** dentro
+dela: você não replica os experimentos, confia no consenso dos que replicaram.
+
+Isso significa que identificar falácia exige **julgamento**, não checklist. Não há algoritmo
+que separe o apelo emocional legítimo do manipulador — há análise do caso, do auditório e da
+função daquele apelo no texto.
+
+O que **não** é relativo: a exigência de que as premissas sejam verdadeiras, de que a
+conclusão decorra e de que a posição adversária seja representada com honestidade. Essas são
+condições mínimas do debate racional, e violá-las é o que distingue argumentar de manipular
+[@koch2015texto; @faraco2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Tipos de argumento:**
+
+| Tipo | Mecanismo | Cuidado |
+|---|---|---|
+| **Autoridade** | invoca competência reconhecida | precisa ser real, na área e consensual |
+| **Evidência/dados** | fatos verificáveis | dado não fala sozinho — interprete |
+| **Exemplificação** | ilustra o geral | exemplo ilustra, **não prova** |
+| **Causa/consequência** | estabelece nexo causal | correlação ≠ causa |
+| **Comparação/analogia** | aproxima casos | a semelhança precisa ser **relevante** |
+| **Princípio** | invoca valor partilhado | só funciona com quem aceita o princípio |
+| **Refutação** | antecipa e desarma objeção | escolha a objeção **forte** |
+
+**Os dois critérios de força**: **pertinência** (tem a ver?) e **suficiência** (basta?).
+
+**Falácias principais:**
+
+| Falácia | Mecanismo |
+|---|---|
+| **Ad hominem** | ataca quem argumenta, não o argumento |
+| **Espantalho** | distorce a posição para refutar versão fraca |
+| **Ad populum** | "todo mundo acha, logo é verdade" |
+| **Apelo à emoção** | comove **em vez de** provar |
+| **Apelo à tradição** | "sempre foi assim" |
+| **Generalização apressada** | regra tirada de poucos casos |
+| **Falsa causa** | confunde sucessão com causalidade |
+| **Falsa dicotomia** | só duas opções, quando há mais |
+| **Petição de princípio** | pressupõe o que deveria provar |
+| **Derrapagem** | encadeia catástrofes sem justificar elos |
+
+Em uma linha: **falácia não é mentira** — as premissas podem ser verdadeiras; o defeito está
+na **ligação** com a conclusão. E **nomear** uma falácia não a refuta: é preciso mostrar
+**por que** o raciocínio falha.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Repertório decorado como argumento.** Citar Bauman sem que a citação sustente a tese é
+  **adorno**. Teste: retire a citação — o parágrafo muda?
+- **Confundir dado com argumento.** "40 mil homicídios/ano" é informação. Vira argumento
+  quando você diz **o que ela mostra**.
+- **Achar que exemplo prova.** Exemplo **ilustra**. Provar exige representatividade e
+  quantidade.
+- **Confundir correlação com causa.** O clássico *post hoc*: veio depois, logo foi causado.
+- **Confundir conflito de interesse com ad hominem.** Apontar financiamento é legítimo;
+  descartar a conclusão sem examiná-la, não.
+- **Achar que apelo à emoção é sempre falácia.** É falácia quando **substitui** a razão; é
+  legítimo quando a acompanha.
+- **Acusar de falácia para não responder.** Nomear não é refutar. É preciso mostrar **onde**
+  o raciocínio quebra.
+- **Achar que todo argumento fraco é falácia.** Insuficiente ≠ falacioso.
+- **Refutar espantalho.** Derrubar a versão caricata do adversário não derruba a posição
+  dele.
+
+## ✍️ Exercícios
+
+**1.** Identifique a falácia e explique por que falha: "Ele defende a reforma tributária?
+Mas ele é rico, então não tem moral para falar disso."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Falácia: ad hominem** (ataque à pessoa), na variante **tu quoque** (acusação de
+hipocrisia).
+
+**Por que falha**: a validade de um argumento **não depende de quem o enuncia**. Se a
+reforma tributária é boa ou má, isso se decide examinando seus efeitos — não a renda de
+quem a propõe. Um argumento correto proposto por um hipócrita **continua correto**; a
+hipocrisia é um fato sobre a pessoa, não sobre a tese.
+
+Note o que a falácia consegue: ela **encerra o debate sem tocar no assunto**. Ninguém
+precisou analisar a proposta.
+
+**A ressalva importante**: apontar **conflito de interesse** **não** é ad hominem. Se o
+proponente lucra diretamente com a medida que defende, isso é informação **pertinente** —
+justifica **examinar as evidências com mais cuidado**.
+
+A diferença é precisa: o conflito de interesse justifica **checar melhor**; não justifica
+**descartar sem examinar**. No exemplo, "ele é rico" nem sequer estabelece conflito — se a
+reforma o taxa mais, o interesse dele apontaria no sentido **contrário** ao que defende, o
+que, se algo, reforça sua credibilidade.
+:::
+
+**2.** Classifique: "A maioria dos brasileiros apoia a redução da maioridade penal, logo é
+a medida correta."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Falácia: ad populum** (apelo à maioria).
+
+**Por que falha**: **popularidade não é verdade**. A maioria já acreditou que o Sol girava
+em torno da Terra, que sangrias curavam e que o tabaco fazia bem. O número de pessoas que
+sustenta uma proposição é irrelevante para sua correção **fática**: se a redução da
+maioridade penal reduz a criminalidade é uma questão **empírica**, que se resolve com dados
+de países que a adotaram — não com pesquisa de opinião.
+
+**A ressalva, que é o ponto sofisticado**: em questões **normativas** numa democracia, a
+preferência da maioria **é** um argumento legítimo sobre **o que fazer**. "A maioria quer X"
+pode justificar politicamente a adoção de X — é assim que a soberania popular funciona.
+
+A distinção decisiva:
+
+- **"A maioria quer X"** → argumento legítimo sobre a **legitimidade política** de X.
+- **"A maioria quer X, logo X funciona"** → **falácia**. A eficácia é questão de fato, e
+  fatos não se decidem por votação.
+
+O enunciado do exercício comete o segundo movimento: salta da preferência ("apoia") para a
+correção ("é a medida correta"), e essa passagem é a quebra.
+:::
+
+**3.** (Estilo ENEM) "— Proponho revisar o currículo de história. — Então você quer apagar o
+passado do Brasil!" A falácia é:
+
+a) ad hominem;
+b) espantalho;
+c) falsa causa;
+d) apelo à tradição;
+e) petição de princípio.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** **Espantalho** (*straw man*): a posição do interlocutor foi
+**distorcida** numa versão caricata — "revisar o currículo" virou "apagar o passado" — e é
+essa versão fraca que se refuta.
+
+**Por que falha**: refuta-se algo que o adversário **não disse**. Revisar um currículo pode
+significar reequilibrar ênfases, incluir perspectivas ausentes, atualizar a bibliografia —
+nada disso é "apagar o passado". O ataque acerta um alvo inventado, e a posição real
+permanece intocada.
+
+**Por que é tão comum**: a versão caricata é sempre **mais fácil de derrubar** que a real.
+E funciona retoricamente: para a plateia, parece que houve refutação.
+
+As demais: **(a)** não se atacou a **pessoa**, mas uma versão distorcida de sua **tese**;
+**(c)** não há alegação de causalidade; **(d)** não se invocou a antiguidade da prática
+(seria: "o currículo sempre foi assim, logo deve continuar"); **(e)** não há circularidade.
+
+**Como responder a um espantalho**: recuse a caricatura antes de argumentar — "não foi isso
+que eu disse; eu propus X, não Y". É o mesmo movimento de recusar o pressuposto de uma
+pergunta capciosa (@sec-cap-64).
+:::
+
+**4.** Distinga argumento de autoridade legítimo de falacioso, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Legítimo** — a autoridade é (i) **real**, (ii) **na área pertinente** e (iii) representa o
+**consenso** do campo:
+
+> "Segundo o consenso do IPCC, a elevação da temperatura global é causada por emissões
+> antrópicas."
+
+Por que funciona: ninguém pode replicar pessoalmente toda a climatologia. **Confiar no
+consenso de quem tem competência é como o conhecimento funciona** — não é preguiça
+intelectual, é divisão do trabalho epistêmico.
+
+**Falacioso** — falha em qualquer dos três requisitos:
+
+- **Fora de área**: "O físico ganhador do Nobel afirma que a economia deve ser
+  desregulada." — Nobel em física não credencia em economia.
+- **Autoridade falsa**: "O ator X afirma que vacinas causam autismo." — fama não é
+  competência.
+- **Minoria apresentada como consenso**: "Cientistas afirmam que o aquecimento é natural."
+  — alguns afirmam; a esmagadora maioria não. O plural indefinido esconde a proporção.
+
+**E o caso escolar**, que é o mais frequente:
+
+> "Segundo Zygmunt Bauman, vivemos na modernidade líquida. Dessa forma, a desigualdade
+> brasileira persiste."
+
+Aqui Bauman **é** autoridade real e na área — e ainda assim o argumento é vazio, porque a
+citação **não sustenta a conclusão**: nada em "modernidade líquida" implica a persistência
+da desigualdade brasileira. O conectivo "dessa forma" anuncia uma inferência inexistente
+(@sec-cap-69).
+
+**O teste**: **retire a citação**. Se o parágrafo funciona igual, ela era **adorno**, não
+argumento.
+:::
+
+**5.** Explique os dois critérios de força de um argumento e aplique a: "O Brasil tem 40 mil
+homicídios por ano, logo precisamos reduzir a maioridade penal."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Os dois critérios:**
+
+1. **Pertinência** — o argumento **tem a ver** com a tese?
+2. **Suficiência** — o argumento **basta** para o que se conclui?
+
+**Aplicando ao caso:**
+
+**Pertinência**: ✓ parcial. O número de homicídios **é** pertinente a uma discussão sobre
+política criminal — estabelece que há um problema a resolver.
+
+**Suficiência**: ✗ **falha completamente**. O dado não sustenta a conclusão específica, por
+várias razões:
+
+- **Não estabelece o vínculo com menores**: dos 40 mil homicídios, qual proporção é
+  cometida por adolescentes? (No Brasil, os dados apontam menos de 2%.) O dado geral não
+  diz nada sobre o grupo que a medida atinge.
+- **Não estabelece que a medida funcionaria**: mesmo que menores cometessem muitos
+  homicídios, seria preciso mostrar que reduzir a maioridade **diminui** o número — o que
+  exige evidência comparativa.
+- **Não exclui alternativas**: o mesmo dado sustentaria igualmente "precisamos de controle
+  de armas", "precisamos de política de drogas diferente" ou "precisamos reduzir a
+  desigualdade".
+
+**O diagnóstico geral, que é o ponto do exercício**: o argumento é **verdadeiro e
+insuficiente** — e essa é a falha mais comum da argumentação real. O dado é correto; a
+ponte até a conclusão não existe.
+
+**A consequência prática**: refutar esse argumento **não** exige negar o dado (o que seria
+falso e desnecessário). Basta mostrar que ele **não basta**. Isso é muito mais fácil — e é
+por isso que a suficiência é o critério mais útil na leitura crítica.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Toda falácia contém premissas falsas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Falácia **não é mentira**: o defeito está na **ligação** entre premissas e
+conclusão, não no conteúdo das premissas.
+
+**Exemplo com premissas todas verdadeiras:**
+
+> "Depois que o novo prefeito assumiu, a violência caiu 20%. Logo, ele reduziu a violência."
+
+Ambas as premissas podem ser **factualmente corretas**: o prefeito assumiu, e a violência
+caiu 20%. E o argumento é **falacioso** (**falsa causa**), porque a queda pode dever-se a
+fatores demográficos, à economia, a uma tendência já em curso antes da posse, ou ao acaso.
+A sucessão temporal não estabelece causalidade.
+
+**Outro exemplo:**
+
+> "A maioria dos brasileiros apoia a medida X." (verdadeiro) "Logo, X é correta."
+> (**ad populum**)
+
+A premissa é um fato verificável. A conclusão não decorre.
+
+**A distinção conceitual**:
+
+- **Premissa falsa** → o argumento é **incorreto** por conter erro factual (problema de
+  **verdade**).
+- **Falácia** → o argumento é **inválido** porque a conclusão não decorre (problema de
+  **inferência**).
+
+São falhas **independentes**: um argumento pode ter premissas verdadeiras e ser falacioso
+(os exemplos acima), ou ter premissas falsas e ser formalmente válido.
+
+**Por que isso importa na prática**: é exatamente o que torna as falácias **perigosas**.
+Elas não são detectáveis checando fatos — e por isso sobrevivem à checagem. É preciso
+examinar o **raciocínio**.
+:::
+
+**7.** Identifique as falácias no trecho: "Se legalizarmos a maconha, logo virá a cocaína, e
+o Brasil virará um narcoestado. Além disso, quem defende isso é usuário e quer só justificar
+o próprio vício. Ou você é contra as drogas, ou é a favor da destruição da juventude."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Três falácias em três frases** — um caso de laboratório.
+
+**1. "Se legalizarmos a maconha, logo virá a cocaína, e o Brasil virará um narcoestado."**
+→ **Derrapagem** (*slippery slope*).
+
+*Por que falha*: encadeiam-se consequências catastróficas **sem justificar nenhum elo**. Por
+que a legalização da maconha implicaria a da cocaína? Por que isso produziria um
+narcoestado? Cada passo precisa ser **demonstrado**, não presumido. E há contraevidência:
+países que legalizaram a maconha (Uruguai, Canadá, vários estados americanos) não
+legalizaram a cocaína nem se tornaram narcoestados — o que mostra que a cadeia não é
+necessária.
+
+**2. "Quem defende isso é usuário e quer justificar o próprio vício."**
+→ **Ad hominem** (variante circunstancial).
+
+*Por que falha*: ataca-se a **motivação** de quem argumenta, não o argumento. Mesmo que
+todos os defensores fossem usuários, isso não tornaria a política ruim — a tese se avalia
+por seus efeitos, não pela biografia de quem a sustenta. (Note que o oposto também vale:
+médicos e economistas que nunca usaram drogas defendem a legalização.)
+
+**3. "Ou você é contra as drogas, ou é a favor da destruição da juventude."**
+→ **Falsa dicotomia**.
+
+*Por que falha*: apresentam-se duas opções como se fossem as únicas, quando o leque real é
+muito maior — descriminalização sem legalização, regulação estatal, política de redução de
+danos, tratamento como questão de saúde pública. Além disso, a segunda alternativa é
+**também** um espantalho: ninguém defende "a destruição da juventude".
+
+**O que as três têm em comum**: nenhuma delas **discute a política de drogas**. Todas
+encerram o debate por outros meios — assustando, desqualificando o adversário ou forçando
+uma escolha falsa. É o perfil típico da retórica polarizada.
+:::
+
+**8.** Explique por que "nomear a falácia não é refutar".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o rótulo é um **diagnóstico**, não uma **demonstração**. Dizer "isso é ad hominem"
+apenas **classifica** o argumento; não mostra **onde** ele quebra nem por quê.
+
+**O que falta**: a refutação exige explicitar o mecanismo. Compare:
+
+- **Rótulo**: "Isso é falsa causa."
+- **Refutação**: "A violência já vinha caindo desde 2018, dois anos antes da posse do
+  prefeito, e caiu na mesma proporção em cidades vizinhas com outras gestões. A coincidência
+  temporal, portanto, não estabelece a causalidade."
+
+A segunda **mostra**; a primeira apenas **acusa**.
+
+**Por que o vício se espalhou**: nas redes, nomear falácias virou um jogo de status —
+identificar o latim ("ad hominem!", "ad populum!") sinaliza sofisticação e encerra a
+discussão sem custo. O resultado é um debate em que ninguém responde a ninguém: todos
+catalogam.
+
+**Os dois erros associados:**
+
+1. **Acusar de falácia para não responder.** "— Segundo o IBGE, a renda dos 10% mais
+   ricos... — Isso é apelo à autoridade." **Não é**: citar dados de um instituto de
+   estatística em sua área de competência é exatamente como se deve argumentar. O rótulo
+   foi usado para evitar o dado.
+2. **Achar que todo argumento fraco é falácia.** Um argumento pode ser **insuficiente** sem
+   ser falacioso. "Conheço um caso assim" é um argumento fraco por exemplificação — não é
+   generalização apressada, a menos que se conclua a regra a partir dele.
+
+**O propósito de estudar falácias**: argumentar **melhor** e ler **criticamente** — não
+ganhar discussões com etiquetas. O teste de que você entendeu uma falácia é conseguir
+**explicar** por que ela falha naquele caso concreto, sem usar o nome dela.
+:::
+
+**9.** (Estilo FUVEST) Discuta: o apelo à emoção é sempre uma falácia?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não. E entender por quê exige distinguir retórica de lógica formal.**
+
+**Quando é falácia**: quando a emoção **substitui** a razão, isto é, quando é oferecida
+**no lugar** da evidência que a tese exigiria.
+
+> "— A pena de morte não reduz a criminalidade; os dados comparativos mostram...
+> — Se você fosse pai de uma vítima, não pensaria assim."
+
+Aqui a emoção não **acrescenta** informação: ela **desloca** a discussão. A dor do pai é
+real e comovente, e não altera em nada se a pena de morte reduz ou não a criminalidade —
+que é a questão em pauta. A comoção foi usada para **encerrar** o exame, não para
+informá-lo.
+
+**Quando é legítimo**: quando a emoção **acompanha** a razão e é **pertinente** ao que está
+em discussão.
+
+> "A fome atingiu 33 milhões de brasileiros em 2022. Isso significa uma pessoa em cada seis
+> acordando sem saber se comerá. Não é um número — é uma criança contando o intervalo entre
+> as refeições."
+
+Aqui a emoção **não substitui** o dado: ela o **torna compreensível**. Estatísticas grandes
+anestesiam; a imagem concreta restitui a escala humana do que o número descreve. Descrever a
+fome sem comover seria uma **falha de escrita**, não uma virtude lógica — e seria também uma
+falha **informativa**, porque o leitor precisa apreender a gravidade, não só o algarismo.
+
+**O ponto teórico**: a argumentação retórica **não é** lógica formal, e tratá-la como se
+fosse é um erro de categoria. Aristóteles já distinguia *logos* (razão), *ethos*
+(credibilidade) e *pathos* (emoção) como os **três** pilares legítimos da persuasão. Numa
+deliberação sobre coisas humanas, ignorar o sofrimento não é neutralidade — é **omitir dados
+relevantes**.
+
+**A consequência incômoda**: não há **algoritmo** que separe o apelo emocional legítimo do
+manipulador. A distinção exige **julgamento** sobre o caso: a emoção é pertinente ao que se
+discute? Ela acompanha ou substitui a evidência? Ela informa ou impede o exame?
+
+**O que não é relativo**: as premissas devem ser verdadeiras, a conclusão deve decorrer, e a
+posição adversária deve ser representada com honestidade. Um apelo emocional construído
+sobre um caso **falso** ou usado para caricaturar o oponente é falacioso, por essas razões —
+não por ser emocional [@koch2015texto].
+:::
+
+**10.** Escreva um parágrafo argumentativo usando dois tipos de argumento e identifique-os.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível:
+
+> **A tributação brasileira agrava a desigualdade em vez de corrigi-la.** O ITCMD — imposto
+> sobre heranças — tem alíquota máxima de 8% e, na prática, é cobrado abaixo disso na
+> maioria dos estados; a média da OCDE supera 15%, e o Japão chega a 50%
+> [**argumento por evidência/dados**]. Enquanto isso, quase metade da arrecadação nacional
+> vem de tributos sobre consumo, que incidem igualmente sobre quem ganha um salário mínimo e
+> sobre quem ganha cem — de modo que o pobre entrega ao Estado uma fração maior do que
+> recebe. Se aceitamos que todos são iguais perante a lei, não se sustenta que o Estado
+> extraia proporcionalmente mais de quem tem menos, nem que deixe passar quase intacta a
+> transmissão de patrimônio entre gerações [**argumento por princípio**]. O desenho
+> tributário, portanto, não é neutro: ele escolhe um lado.
+
+**Argumentos identificados:**
+
+1. **Por evidência (dados)**: as alíquotas comparadas (Brasil 8% × OCDE 15% × Japão 50%) e
+   a composição da arrecadação. Fornecem a base **factual** — e note que os dados são
+   **interpretados**, não apenas depositados: o texto diz **o que eles mostram**.
+2. **Por princípio**: a invocação da igualdade perante a lei — valor **partilhado** pelo
+   auditório brasileiro (está na Constituição). Ele transforma o fato em **problema**: os
+   dados sozinhos apenas descreveriam; o princípio os torna uma **contradição** a ser
+   resolvida.
+
+**Por que a combinação funciona**: os dois tipos fazem trabalhos **complementares**. O dado
+estabelece **o que é**; o princípio estabelece **por que isso é inaceitável**. Dados sem
+princípio não geram conclusão normativa (é a velha distinção entre ser e dever-ser);
+princípio sem dados é retórica vazia.
+
+**A amarração** (@sec-cap-75) está na última frase, que volta à tese do tópico frase — o
+sistema não é neutro, logo agrava.
+:::
+
+## 📚 Referências
+
+Os tipos de argumento e a concepção da argumentação como atividade dirigida a um auditório —
+e não como lógica formal — remontam à Nova Retórica de Perelman e são retomados, na
+linguística textual brasileira, por Koch [@koch2015texto] e Koch [@koch2018coesao], que
+tratam também dos operadores argumentativos; a discussão do texto argumentativo escolar e
+de seus vícios apoia-se em Garcia [@garcia2010] e Faraco [@faraco2008]. Para os
+pressupostos e implícitos que sustentam boa parte das falácias — sobretudo a pergunta
+capciosa e a falsa dicotomia —, veja o @sec-cap-64; para a generalização apressada como
+mecanismo lógico do preconceito, o @sec-cap-91; para a estrutura que estes argumentos
+sustentam, o @sec-cap-75. As condições específicas da prova, incluindo o uso do repertório
+sociocultural, são tema do @sec-cap-77; a leitura crítica que estas ferramentas
+possibilitam, dos @sec-cap-82 e @sec-cap-85.
+
+::: {#refs}
 :::
