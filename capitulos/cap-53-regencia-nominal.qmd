@@ -4,22 +4,247 @@ title: "Regência nominal"
 
 # Regência nominal {#sec-cap-53}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 8 — Sintaxe III: Concordância, Regência e Colocação.
+> "Não só o verbo tem exigências: um substantivo, um adjetivo também pedem sua
+> preposição."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Assim como os verbos, muitos **nomes** — substantivos, adjetivos e advérbios — exigem uma
+**preposição** para se ligar a seu complemento (o **complemento nominal**, @sec-cap-40).
+Dizemos *acesso* **a**, *aversão* **a/por**, *capaz* **de**, *fiel* **a**, *ávido*
+**de/por**. A **regência nominal** estuda justamente essas exigências. Errá-las —
+"aversão **a** cobras" × "aversão **de** cobras" — é um deslize sutil, mas cobrado, e que
+compromete a precisão da escrita culta.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo, mais breve, organiza a regência dos nomes mais frequentes e mostra como
+ela se conecta à regência verbal (muitos nomes derivam de verbos e herdam sua
+preposição: *obediência* **a**, como *obedecer* **a**) e à crase (@sec-cap-54). Completa,
+assim, o estudo da regência.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** regência nominal e relacioná-la ao complemento nominal;
+- **Empregar** a preposição correta exigida por nomes frequentes;
+- **Reconhecer** a relação entre a regência nominal e a verbal (famílias de palavras);
+- **Distinguir** casos em que o nome admite mais de uma preposição;
+- **Relacionar** a regência nominal à crase;
+- **Corrigir** erros de regência nominal.
+
+## O que é regência nominal
+
+**Regência nominal** é a relação de dependência entre um **nome** (substantivo, adjetivo
+ou advérbio) e seu **complemento nominal**, mediada por uma **preposição** exigida pelo
+nome. Em "tenho **respeito aos** mais velhos", o substantivo *respeito* rege a preposição
+*a*.
+
+A regência nominal costuma **espelhar** a verbal na mesma família de palavras: se
+*obedecer* rege *a* (obedecer **a**), o substantivo *obediência* também (obediência
+**a**); se *aspirar* (almejar) rege *a*, o adjetivo/substantivo correspondente segue. Por
+isso, conhecer a regência verbal ajuda a deduzir a nominal.
+
+## Nomes e suas preposições
+
+A @fig-regencia-nominal reúne nomes frequentes agrupados pela preposição que regem.
+
+::: {#fig-regencia-nominal}
+
+```{.tikz}
+%%| filename: regencia-nominal
+%%| alt: Diagrama agrupando nomes pela preposição que regem. Com a: acesso, atenção, obediência, fiel, favorável, contrário, referente, anterior, posterior. Com de: capaz, certo, digno, ávido, ciente, dúvida, medo. Com em: hábil, perito, versado. Com por/com: aversão, respeito (por), compatível (com), contente (com).
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=52mm, minimum height=22mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{Regem \emph{A}}\\{\scriptsize acesso, atenção, obediência, alusão}\\ fiel, favorável, contrário, referente,\\ anterior, posterior, útil};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, right=5mm of a] (b) {\textbf{Regem \emph{DE}}\\{\scriptsize capaz, certo, digno, ávido,}\\ ciente, medo, dúvida, natural,\\ passível, isento};
+  \node[cx, draw=manualred, fill=manualred!8, below=4mm of a] (c) {\textbf{Regem \emph{EM}}\\{\scriptsize hábil, perito, versado,}\\ incluído, negligente};
+  \node[cx, draw=manualyellow, fill=manualyellow!14, below=4mm of b] (d) {\textbf{Regem \emph{POR / COM}}\\{\scriptsize aversão (a/por), respeito (a/por),}\\ compatível (com), contente (com),\\ satisfeito (com)};
+\end{tikzpicture}
+```
+
+Nomes frequentes agrupados pela preposição que regem: *a*, *de*, *em*, *por/com* — muitos
+espelham a regência do verbo da mesma família.
+:::
+
+**Regem *a***: acesso, atenção, obediência, alusão, respeito, fidelidade; *fiel*,
+*favorável*, *contrário*, *referente*, *relativo*, *anterior*, *posterior*, *útil*,
+*acessível*, *equivalente*.
+
+**Regem *de***: capacidade, certeza, dúvida, medo, necessidade; *capaz*, *certo*,
+*digno*, *ávido* (de/por), *ciente*, *natural*, *passível*, *isento*, *seguro*.
+
+**Regem *em***: habilidade, perícia; *hábil*, *perito*, *versado*, *negligente*,
+*incluído*.
+
+**Regem *com* / *por***: aversão (a/por), horror (a), respeito (a/por); *compatível*
+(com), *contente* (com), *satisfeito* (com), *implicante* (com).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Nomes com mais de uma regência
+Alguns nomes admitem **mais de uma** preposição, às vezes com nuance de sentido:
+
+- *aversão* **a**, **por** ou **para com**: "aversão **a/por** violência".
+- *ávido* **de** ou **por**: "ávido **de/por** poder".
+- *ansioso* **de**, **por** ou **para**: "ansioso **por/para** vencer".
+
+Nesses casos, mais de uma forma é aceita pela norma; a escolha é estilística.
+:::
+
+## Regência nominal e crase
+
+Como na verbal, a regência nominal determina a crase (@sec-cap-54): se o nome rege *a* e o
+complemento é feminino com artigo, há crase:
+
+- "Sou **favorável à** proposta" (favorável *a* + *a* proposta = *à*).
+- "Tenho **aversão à** violência" (aversão *a* + *a* violência = *à*).
+- "Fez **alusão à** obra" (alusão *a* + *a* obra = *à*).
+
+## 📋 Quadro-resumo
+
+| Preposição | Nomes (exemplos) |
+|---|---|
+| **a** | acesso, obediência, atenção, alusão; fiel, favorável, contrário, referente, anterior, útil |
+| **de** | certeza, medo, dúvida, capacidade; capaz, digno, ciente, natural, passível, isento |
+| **em** | perícia, habilidade; hábil, perito, versado, negligente |
+| **com/por** | aversão, respeito; compatível, contente, satisfeito, implicante |
+
+Em uma linha: a **regência nominal** define a preposição que os **nomes** exigem
+(*acesso a*, *capaz de*, *hábil em*, *compatível com*); ela costuma **espelhar** a
+regência do verbo da mesma família e determina a **crase** quando o nome rege *a* + termo
+feminino.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Trocar a preposição do nome.** *Aversão* rege *a/por* ("aversão **à/pela** injustiça"),
+  não *de*.
+- **"Preferência por" × "preferível a".** *Preferência* rege *por*; o adjetivo
+  *preferível* rege *a* ("preferível **a**").
+- **Esquecer que nome e verbo compartilham regência.** *Obedecer a* → *obediência a*;
+  *aspirar a* → *aspiração a*.
+- **"Fiel de" em vez de "fiel a".** *Fiel* rege *a*: "fiel **aos** princípios".
+- **Ignorar a crase da regência nominal.** "Favorável **à** medida", "alusão **à** obra"
+  — o nome que rege *a* + feminino gera crase.
+
+## ✍️ Exercícios
+
+**1.** Complete com a preposição correta: (a) "Tenho respeito ___ meus mestres"; (b)
+"Sou capaz ___ grandes feitos"; (c) "Ele é hábil ___ negociações".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "respeito **a** meus mestres" (*respeito* rege *a* — também *por*). (b) "capaz **de**
+grandes feitos" (*capaz* rege *de*). (c) "hábil **em** negociações" (*hábil* rege *em*).
+Cada nome exige sua preposição.
+:::
+
+**2.** (Estilo ENEM) Assinale a alternativa com regência nominal **correta**:
+
+a) Ele é favorável com a proposta;
+b) Tenho aversão de barulho;
+c) Sou fiel aos meus princípios;
+d) Ela está ávida em sucesso;
+e) É referente de nosso pedido.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "fiel **aos** meus princípios": *fiel* rege *a*. As demais erram:
+"favorável **à** proposta" (a); "aversão **a/por** barulho" (b); "ávida **de/por**
+sucesso" (d); "referente **a** nosso pedido" (e).
+:::
+
+**3.** Relacione a regência nominal à verbal: qual a preposição de *obediência* e de
+*aspiração* (no sentido de almejar)?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Ambas regem *a*, espelhando os verbos da mesma família: *obedecer* **a** → *obediência*
+**a** ("obediência **às** leis"); *aspirar* **a** (almejar) → *aspiração* **a**
+("aspiração **ao** cargo"). Conhecer a regência do verbo permite deduzir a do nome
+correspondente.
+:::
+
+**4.** Complete e justifique a crase: "Sou favorável ___ mudanças propostas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Sou favorável **às** mudanças propostas." O adjetivo *favorável* rege *a*, e "mudanças"
+é feminino plural com artigo (*as*): a preposição *a* + o artigo *as* = **às** (crase no
+plural). A regência nominal (favorável *a*) somada ao termo feminino determinado gera a
+crase.
+:::
+
+**5.** Corrija: "Ela tem verdadeiro horror de altura."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ela tem verdadeiro horror **a** (ou **à**) altura." O substantivo *horror* rege a
+preposição *a* (horror **a** algo), não *de*. Como "altura" é feminino, pode ocorrer
+crase: "horror **à** altura". A forma "horror de" não corresponde à regência culta do
+nome.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa **incorreta** quanto à regência nominal:
+
+a) Estou ciente de meus deveres;
+b) É digno de elogios;
+c) Mantém-se fiel à empresa;
+d) Ele é perito de armas;
+e) Isso é compatível com a lei.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (d).** O correto é "perito **em** armas": *perito* rege *em*, não *de*. As
+demais estão corretas: "ciente **de**", "digno **de**", "fiel **a**" (à empresa),
+"compatível **com**". Cada adjetivo exige sua preposição específica.
+:::
+
+**7.** Dê a regência de: (a) *acesso*; (b) *dúvida*; (c) *contente*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *acesso* rege **a**: "acesso **ao** prédio", "acesso **à** informação". (b) *dúvida*
+rege **de/sobre/em**: "dúvida **de/sobre** algo". (c) *contente* rege **com/de**:
+"contente **com** o resultado". As preposições variam conforme o nome.
+:::
+
+**8.** Reescreva com a preposição adequada: "Ele é acessível para todos e atento com os
+detalhes."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ele é acessível **a** todos e atento **aos** detalhes." *Acessível* rege *a* (acessível
+**a** alguém), e *atento* rege *a* (atento **a** algo), não *com*. A correção ajusta as
+preposições à regência culta desses adjetivos.
+:::
+
+**9.** Explique por que "aversão à injustiça" pode levar crase.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o substantivo *aversão* rege a preposição *a* (aversão **a** algo), e "injustiça"
+é palavra **feminina** que admite artigo *a*. A fusão da preposição *a* (exigida por
+*aversão*) com o artigo *a* (de *a injustiça*) resulta em **à** (crase): "aversão **à**
+injustiça". A regência nominal do nome *aversão* é a origem da crase.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'O documento é referente ao
+processo', a regência nominal está correta."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** O adjetivo *referente* rege a preposição *a*: "referente **ao** processo" (a +
+o = ao). A construção está de acordo com a norma culta. Erro seria usar outra preposição
+("referente **de/com** o processo"). A regência com *a* é a exigida por *referente*
+(assim como *relativo a*, *concernente a*).
+:::
+
+## 📚 Referências
+
+A regência nominal e a lista das preposições exigidas pelos nomes seguem Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017]; para a regência de nomes específicos,
+consulte-se o dicionário Houaiss [@houaiss2009] e dicionários de regência. A relação entre
+regência (verbal e nominal) e crase é o eixo do @sec-cap-54.
+
+::: {#refs}
 :::
