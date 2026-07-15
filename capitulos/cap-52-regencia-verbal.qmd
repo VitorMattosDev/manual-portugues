@@ -4,22 +4,291 @@ title: "Regência verbal"
 
 # Regência verbal {#sec-cap-52}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 8 — Sintaxe III: Concordância, Regência e Colocação.
+> "Cada verbo tem suas exigências: um pede *a*, outro *de*, outro nada — e trocar a
+> preposição pode trocar o sentido."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+**Regência** é o estudo das relações de **dependência** entre as palavras — mais
+especificamente, de qual **preposição** (ou nenhuma) um termo exige para se ligar ao seu
+complemento. A **regência verbal** trata da relação entre o **verbo** e seus objetos:
+*assistir* pede *a* ("assistir **ao** filme"), *gostar* pede *de* ("gostar **de**
+música"), *namorar* não pede preposição ("namorar alguém"). Errar a regência — dizer
+"assisti o filme" ou "namorar com alguém" — é um dos desvios mais cobrados na norma
+culta.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Mais interessante ainda: certos verbos **mudam de sentido** conforme a regência —
+*assistir a* (ver) × *assistir* (ajudar); *aspirar a* (almejar) × *aspirar* (sorver).
+Este capítulo organiza a regência dos verbos mais problemáticos, mostrando como a
+preposição carrega significado. É a base, também, para entender a crase (@sec-cap-54) e o
+uso dos pronomes relativos (@sec-cap-45).
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** regência verbal e relacioná-la à transitividade;
+- **Empregar** a regência culta dos verbos mais cobrados;
+- **Reconhecer** verbos que mudam de sentido conforme a regência;
+- **Distinguir** a regência da norma-padrão do uso coloquial;
+- **Relacionar** a regência à crase e ao pronome relativo;
+- **Corrigir** erros de regência frequentes.
+
+## O que é regência verbal
+
+**Regência verbal** é a relação entre o verbo (o termo **regente**) e seu complemento (o
+termo **regido**), incluindo a preposição que essa relação exige. Ela concretiza a
+**transitividade** (@sec-cap-39): dizer que um verbo é transitivo indireto é dizer que
+ele rege uma preposição.
+
+O ponto central: a regência da **norma culta** nem sempre coincide com o **uso
+coloquial**. Na fala, dizemos "cheguei **em** casa", "assisti **o** filme", "namorar
+**com** alguém"; a norma-padrão pede "cheguei **a** casa", "assisti **ao** filme",
+"namorar alguém". A prova cobra a regência culta.
+
+## Verbos que mudam de sentido conforme a regência
+
+O caso mais fascinante — e cobrado — da regência: o mesmo verbo tem **sentidos
+diferentes** conforme a preposição. A @fig-regencia-sentido reúne os principais.
+
+::: {#fig-regencia-sentido}
+
+```{.tikz}
+%%| filename: regencia-sentido
+%%| alt: Tabela de verbos que mudam de sentido conforme a regência. Assistir a: ver (assisti ao jogo); assistir (sem preposição): ajudar (o médico assiste o doente). Aspirar a: almejar (aspira ao cargo); aspirar: sorver (aspirar o ar). Visar a: almejar (visa ao lucro); visar: mirar/dar visto. Proceder a: realizar; proceder: ter fundamento. Implicar: acarretar (sem preposição, na norma).
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  h/.style={draw=manualgray, fill=manualblue!12, minimum height=6mm, align=center, font=\bfseries\scriptsize},
+  v/.style={draw=manualgray, fill=manualgreen!10, minimum height=8mm, align=center, font=\bfseries},
+  c/.style={draw=manualgray, minimum height=8mm, align=left, inner sep=3pt},
+]
+  \node[h, minimum width=20mm] at (0,0) {Verbo};
+  \node[h, minimum width=44mm] at (3.2,0) {Com preposição};
+  \node[h, minimum width=44mm] at (7.6,0) {Sem preposição (ou outra)};
+
+  \foreach \i/\vb/\a/\b in {
+    1/{assistir}/{\emph{a}: ver — ``assisti \textbf{ao} jogo''}/{ajudar — ``assiste \textbf{o} doente''},
+    2/{aspirar}/{\emph{a}: almejar — ``aspira \textbf{ao} cargo''}/{sorver — ``aspirar \textbf{o} ar''},
+    3/{visar}/{\emph{a}: almejar — ``visa \textbf{ao} lucro''}/{mirar/dar visto — ``visar o cheque''},
+    4/{proceder}/{\emph{a}: realizar — ``procedeu \textbf{à} leitura''}/{ter fundamento — ``a queixa procede''},
+    5/{querer}/{\emph{a}: estimar — ``quero \textbf{a} um amigo''}/{desejar — ``quero um café''}} {
+    \node[v, minimum width=20mm] at (0,-\i*0.78) {\vb};
+    \node[c, minimum width=44mm, text width=42mm] at (3.2,-\i*0.78) {\a};
+    \node[c, minimum width=44mm, text width=42mm] at (7.6,-\i*0.78) {\b};
+  }
+\end{tikzpicture}
+```
+
+Verbos cujo sentido muda com a regência: *assistir*, *aspirar*, *visar*, *proceder*,
+*querer* — a preposição (ou sua ausência) determina o significado.
+:::
+
+- **Assistir**: *a* = **ver, presenciar** ("assisti **ao** filme") × sem preposição =
+  **ajudar, prestar assistência** ("o médico assiste **o** paciente") × *a* = **caber,
+  pertencer** ("assiste **ao** réu o direito de defesa").
+- **Aspirar**: *a* = **almejar, desejar** ("aspira **ao** cargo") × sem preposição =
+  **sorver, respirar** ("aspirar **o** ar puro").
+- **Visar**: *a* = **almejar, ter em vista** ("visa **ao** sucesso") × sem preposição =
+  **mirar; apor visto** ("visar o alvo", "visar o cheque").
+- **Proceder**: *a* = **dar início, realizar** ("proceder **à** votação") × sem
+  preposição = **ter fundamento** ("a acusação procede") ou **originar-se** ("procede
+  **de** boa família").
+- **Querer**: sem preposição = **desejar** ("quero um livro") × *a* = **estimar, amar**
+  ("quero muito **a** meus pais").
+
+## Regência dos verbos mais cobrados
+
+Além dos que mudam de sentido, há verbos de regência fixa que a fala frequentemente
+altera:
+
+- **Chegar / ir**: regem *a* (não *em*) — "Cheguei **a** casa", "Fui **ao** cinema" (não
+  "cheguei **em** casa").
+- **Obedecer / desobedecer**: regem *a* — "Obedeço **às** leis".
+- **Namorar**: transitivo **direto** (sem preposição) — "Namora **a** vizinha" (não
+  "namorar **com**").
+- **Preferir**: *algo* **a** *algo* (não "do que", nem "mais que") — "Prefiro cinema **a**
+  teatro" (não "prefiro cinema do que teatro").
+- **Simpatizar / antipatizar**: regem *com*, mas **não** são pronominais — "Simpatizo
+  **com** ele" (não "me simpatizo").
+- **Implicar** (= acarretar): transitivo **direto** — "O erro implica **punição**" (não
+  "implica **em** punição", na norma).
+- **Esquecer / lembrar**: pronominais regem *de* ("esqueci-me **do** nome"); não
+  pronominais são diretos ("esqueci **o** nome").
+
+::: {.callout-important}
+## "Preferir": nada de "do que" nem "mais"
+Na norma culta, *preferir* rege objeto direto + objeto indireto com *a*, **sem**
+reforços:
+
+- ✔ "Prefiro café **a** chá."
+- ✘ "Prefiro café **do que** chá."
+- ✘ "Prefiro **mais** café **do que** chá."
+
+O verbo já contém a ideia de preferência (superioridade), dispensando "mais" e "do que".
+:::
+
+## Regência, crase e relativo
+
+A regência tem duas consequências práticas importantes:
+
+- **Crase** (@sec-cap-54): se um verbo rege *a* e o complemento é feminino com artigo,
+  ocorre crase — "Assisti **à** peça" (assistir *a* + *a* peça = *à*).
+- **Pronome relativo** (@sec-cap-45): a preposição da regência antecede o relativo — "O
+  filme **a que** assisti" (assistir *a*); "A meta **a que** aspiro" (aspirar *a*).
+
+## 📋 Quadro-resumo
+
+| Verbo | Regência culta | Sentido |
+|---|---|---|
+| **assistir** | a (ver) / — (ajudar) | "assisti **ao** filme" |
+| **aspirar** | a (almejar) / — (sorver) | "aspira **ao** posto" |
+| **visar** | a (almejar) / — (mirar) | "visa **ao** lucro" |
+| **chegar/ir** | a (não *em*) | "cheguei **a** casa" |
+| **obedecer** | a | "obedeço **às** regras" |
+| **namorar** | — (direto) | "namora **a** colega" |
+| **preferir** | algo **a** algo | "prefiro X **a** Y" |
+| **implicar** (acarretar) | — (direto) | "implica **mudanças**" |
+
+Em uma linha: a **regência verbal** define a preposição que cada verbo exige; certos
+verbos **mudam de sentido** com a regência (*assistir a* = ver × *assistir* = ajudar); e a
+norma culta muitas vezes diverge da fala (*chegar **a**, preferir X **a** Y, namorar*
+direto).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **"Assisti o filme".** Na norma, *assistir* (= ver) rege *a*: "assisti **ao** filme".
+- **"Cheguei em casa".** *Chegar* rege *a*: "cheguei **a** casa".
+- **"Prefiro X do que Y".** *Preferir* rege *a*: "prefiro X **a** Y" (sem "mais" nem "do
+  que").
+- **"Namorar com".** *Namorar* é transitivo direto: "namora **a** vizinha", sem *com*.
+- **"Implica em".** *Implicar* (= acarretar) é direto: "implica **punição**", não
+  "implica **em** punição".
+
+## ✍️ Exercícios
+
+**1.** Corrija a regência: "Ontem assisti o jogo e cheguei em casa tarde."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ontem assisti **ao** jogo e cheguei **a** casa tarde." *Assistir*, no sentido de "ver,
+presenciar", rege a preposição *a* ("assisti **ao** jogo"); *chegar* rege *a*, não *em*
+("cheguei **a** casa"). Ambas são divergências entre a fala coloquial e a norma culta.
+:::
+
+**2.** (Estilo ENEM) Assinale a frase com regência de acordo com a norma culta:
+
+a) Prefiro estudar do que trabalhar;
+b) Ele aspira o cargo de diretor;
+c) O candidato visa ao primeiro lugar;
+d) Assisti o documentário ontem;
+e) Namoro com a colega há um ano.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "visa **ao** primeiro lugar": *visar*, no sentido de "almejar", rege
+*a*. As demais erram: "prefiro estudar **a** trabalhar" (a); "aspira **ao** cargo" (b);
+"assisti **ao** documentário" (d); "namoro **a** colega" (e, sem *com*).
+:::
+
+**3.** Indique o sentido conforme a regência: (a) "Aspirava ao poder"; (b) "Aspirava o
+perfume".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Aspirava **ao** poder" — com a preposição *a*, *aspirar* significa **almejar,
+desejar** (desejava o poder). (b) "Aspirava **o** perfume" — sem preposição (transitivo
+direto), *aspirar* significa **sorver, respirar** (inalava o perfume). A regência
+distingue os dois sentidos do verbo.
+:::
+
+**4.** Reescreva na norma culta: "Prefiro muito mais viajar do que ficar em casa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Prefiro viajar **a** ficar em casa." O verbo *preferir* rege objeto direto (*viajar*) +
+objeto indireto com *a* (*a ficar em casa*), **sem** os reforços "muito mais" e "do que",
+que são redundantes (o próprio verbo já indica preferência). "Prefiro X **a** Y" é a
+construção culta.
+:::
+
+**5.** Complete com a preposição correta (ou nenhuma): (a) "O povo obedece ___ leis"; (b)
+"O erro implica ___ consequências graves".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "O povo obedece **às** leis" — *obedecer* rege *a* (a + as = às). (b) "O erro implica
+**consequências** graves" — *implicar*, no sentido de "acarretar", é transitivo **direto**
+na norma culta, **sem** preposição (não "implica **em** consequências").
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa com regência **incorreta**:
+
+a) A defesa procedeu à leitura dos autos;
+b) Simpatizo com aquela proposta;
+c) Esqueci-me do compromisso;
+d) O réu desobedeceu a ordem judicial;
+e) Ele visava um futuro melhor (sentido de almejar).
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (e).** No sentido de "almejar", *visar* rege *a*: "visava **a** um futuro
+melhor". A forma "visava um futuro" (direto) seria do sentido de "mirar/apor visto". As
+demais estão corretas: "procedeu **à** leitura" (realizar), "simpatizo **com**",
+"esqueci-**me do**" (pronominal), "desobedeceu **a**" (com crase seria "à ordem").
+:::
+
+**7.** Explique os dois sentidos de *assistir* com exemplos de regência.
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Assistir* tem sentidos distintos conforme a regência: (1) com *a* = **ver, presenciar** —
+"Assisti **ao** show" (vi o show); (2) sem preposição (transitivo direto) = **ajudar,
+prestar assistência** — "O enfermeiro assiste **os** pacientes" (cuida deles). Há ainda
+(3) com *a* = **caber, pertencer** — "Assiste **ao** cidadão o direito de votar". A
+preposição orienta o sentido.
+:::
+
+**8.** Corrija: "Ele me simpatizou logo que o conheci."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Eu simpatizei **com** ele logo que o conheci." O verbo *simpatizar* (e *antipatizar*)
+**não** é pronominal (não se usa "me simpatizar") e rege a preposição *com*. O correto é
+"simpatizar **com** alguém", com o sujeito sendo quem simpatiza. "Me simpatizou" é erro
+duplo (pronominalização indevida e sujeito trocado).
+:::
+
+**9.** Relacione a regência à crase: por que "Assisti à peça" leva crase, mas "Assisti o
+paciente" não?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Assisti **à** peça", *assistir* (= ver) rege a preposição *a*, e *peça* é feminino com
+artigo *a*: a fusão *a* (preposição) + *a* (artigo) = *à* (crase). Em "Assisti **o**
+paciente", *assistir* (= ajudar) é transitivo **direto**, **não** rege preposição, então
+não há *a* preposição para fundir-se — logo, sem crase (usa-se o artigo *o*). A crase
+depende da regência: só ocorre quando o verbo rege *a* e o complemento é feminino com
+artigo.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Os alunos visam a uma boa
+nota', a preposição está corretamente empregada."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** No sentido de "almejar, ter como objetivo", *visar* rege a preposição *a*:
+"visam **a** uma boa nota". A construção está de acordo com a norma culta. (Sem preposição,
+"visar" teria o sentido de "mirar" ou "apor visto", que não é o caso aqui.) Portanto, a
+regência com *a* está correta.
+:::
+
+## 📚 Referências
+
+A regência verbal e os verbos que mudam de sentido conforme a preposição seguem Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017], além de dicionários de regência; o
+dicionário Houaiss [@houaiss2009] registra a regência de cada verbo. A divergência entre a
+regência culta e o uso brasileiro real é analisada por Bagno [@bagno2011] e Castilho
+[@castilho2010]. A regência nominal, contraparte desta, vem no @sec-cap-53, e a crase, no
+@sec-cap-54.
+
+::: {#refs}
 :::
