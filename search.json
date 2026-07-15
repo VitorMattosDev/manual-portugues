@@ -4707,7 +4707,95 @@
     "href": "capitulos/cap-43-periodo-composto-coordenacao.html",
     "title": "44  Período composto por coordenação",
     "section": "",
-    "text": "45 Período composto por coordenação\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "45 Período composto por coordenação\nAbrimos o Volume 7, dedicado ao período composto — aquele formado por duas ou mais orações (Capítulo 38). Há duas maneiras de as orações se combinarem: por coordenação (orações independentes, no mesmo nível) ou por subordinação (uma oração depende de outra). Este capítulo trata da coordenação; os seguintes, da subordinação.\nNa coordenação, as orações são sintaticamente independentes: cada uma tem sentido próprio e nenhuma exerce função na outra. Ligam-se lado a lado, seja por conjunções coordenativas (orações sindéticas), seja apenas por pontuação (orações assindéticas). Reconhecer os tipos de oração coordenada e o valor de cada conectivo é essencial para a pontuação (Volume 9) e para a interpretação das relações lógicas do texto.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-43-periodo-composto-coordenacao.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-43-periodo-composto-coordenacao.html#objetivos-de-aprendizagem",
+    "title": "44  Período composto por coordenação",
+    "section": "45.1 🎯 Objetivos de aprendizagem",
+    "text": "45.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nDistinguir coordenação de subordinação;\nDiferenciar orações coordenadas assindéticas de sindéticas;\nClassificar as coordenadas sindéticas (aditiva, adversativa, alternativa, conclusiva, explicativa);\nReconhecer o valor lógico de cada conjunção coordenativa;\nPontuar corretamente o período composto por coordenação;\nAnalisar períodos coordenados.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-43-periodo-composto-coordenacao.html#coordenação-subordinação",
+    "href": "capitulos/cap-43-periodo-composto-coordenacao.html#coordenação-subordinação",
+    "title": "44  Período composto por coordenação",
+    "section": "45.2 Coordenação × subordinação",
+    "text": "45.2 Coordenação × subordinação\nA diferença fundamental entre os dois modos de combinar orações:\n\nCoordenação: as orações são independentes — estão no mesmo nível sintático, cada uma com sentido completo, sem que uma exerça função na outra. “Cheguei em casa / e descansei.” (duas orações independentes).\nSubordinação: uma oração (subordinada) depende de outra (principal), exercendo nela uma função (de sujeito, objeto, adjunto…). “Espero / que você venha.” (a segunda é objeto do verbo espero).\n\nTeste: se as orações podem existir separadamente, como frases autônomas, sem que uma seja “parte” da outra, é coordenação. Se uma completa ou modifica a outra, é subordinação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-43-periodo-composto-coordenacao.html#orações-coordenadas-assindéticas-e-sindéticas",
+    "href": "capitulos/cap-43-periodo-composto-coordenacao.html#orações-coordenadas-assindéticas-e-sindéticas",
+    "title": "44  Período composto por coordenação",
+    "section": "45.3 Orações coordenadas: assindéticas e sindéticas",
+    "text": "45.3 Orações coordenadas: assindéticas e sindéticas\nAs orações coordenadas dividem-se conforme haja ou não conjunção que as ligue:\n\nAssindéticas: ligadas sem conjunção, apenas por pontuação (vírgula, ponto-e-vírgula) — “Cheguei, vi, venci.” (três coordenadas assindéticas).\nSindéticas: ligadas por uma conjunção coordenativa — “Cheguei e venci.”\n\nAs sindéticas classificam-se pelo valor da conjunção, conforme a Figura 45.1.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 45.1: Os cinco tipos de oração coordenada sindética, com as conjunções típicas e o valor lógico de cada uma.\n\n\n\n\n45.3.1 Aditiva\nExprime soma, adição. Conjunções: e, nem (= e não), não só… mas também, bem como. “Ele trabalha e estuda”; “Não fala nem escuta”.\n\n\n45.3.2 Adversativa\nExprime oposição, contraste. Conjunções: mas, porém, contudo, todavia, entretanto, no entanto. “Estudou muito, mas não passou”; “É rico, porém infeliz”. (Vírgula antes da adversativa.)\n\n\n45.3.3 Alternativa\nExprime alternância, escolha, exclusão. Conjunções: ou, ou… ou, ora… ora, já… já, quer… quer. “Ou você estuda, ou trabalha”; “Ora ri, ora chora”.\n\n\n45.3.4 Conclusiva\nExprime conclusão, consequência. Conjunções: logo, portanto, por isso, pois (depois do verbo), assim. “Penso, logo existo”; “Estudou; portanto, passou”.\n\n\n45.3.5 Explicativa\nExprime explicação, justificativa (do que se disse antes). Conjunções: porque, pois (antes do verbo), que, porquanto. “Não saia, porque vai chover”; “Estude, pois o exame se aproxima”.\n\n\n\n\n\n\nImportantePois: conclusiva ou explicativa?\n\n\n\nPois muda de valor conforme a posição:\n\nAntes do verbo → explicativa (justifica): “Apresse-se, pois está tarde.”\nDepois do verbo → conclusiva (conclui): “Está tarde; deve-se, pois, ir embora.”\n\nJá a distinção explicativa × causal (subordinada) é sutil: a explicativa justifica um enunciado anterior (frequentemente uma ordem/opinião); a causal (subordinação) indica a causa real de um fato. Voltaremos a isso no Capítulo 48.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-43-periodo-composto-coordenacao.html#pontuação-na-coordenação",
+    "href": "capitulos/cap-43-periodo-composto-coordenacao.html#pontuação-na-coordenação",
+    "title": "44  Período composto por coordenação",
+    "section": "45.4 Pontuação na coordenação",
+    "text": "45.4 Pontuação na coordenação\nRegras práticas (detalhadas no Volume 9):\n\nCoordenadas assindéticas: separam-se por vírgula — “Vim, vi, venci”.\nAntes de conjunção adversativa (mas, porém) e conclusiva (logo, portanto): usa-se vírgula — “Estudou, mas faltou sorte”.\nAntes de e (aditiva): em geral sem vírgula, salvo quando os sujeitos são diferentes ou para efeito de sentido — “Ele entrou e sentou”; mas “Ele entrou, e todos se calaram”.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-43-periodo-composto-coordenacao.html#quadro-resumo",
+    "href": "capitulos/cap-43-periodo-composto-coordenacao.html#quadro-resumo",
+    "title": "44  Período composto por coordenação",
+    "section": "45.5 📋 Quadro-resumo",
+    "text": "45.5 📋 Quadro-resumo\n\n\n\n\n\n\n\n\n\nTipo\nValor\nConjunções\nExemplo\n\n\n\n\nAssindética\nligação sem conjunção\n(só pontuação)\n“Vim, vi, venci”\n\n\nAditiva\nsoma\ne, nem, mas também\n“Estuda e trabalha”\n\n\nAdversativa\noposição\nmas, porém, contudo\n“Estudou, mas falhou”\n\n\nAlternativa\nescolha\nou, ora…ora\n“Ou vai ou fica”\n\n\nConclusiva\nconclusão\nlogo, portanto, pois (após verbo)\n“Penso, logo existo”\n\n\nExplicativa\njustificativa\nporque, pois (antes do verbo)\n“Não vá, pois chove”\n\n\n\nEm uma linha: na coordenação, as orações são independentes; ligam-se sem conjunção (assindéticas) ou com conjunção (sindéticas: aditiva, adversativa, alternativa, conclusiva, explicativa), cada conectivo com seu valor lógico.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-43-periodo-composto-coordenacao.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-43-periodo-composto-coordenacao.html#pegadinhas-e-erros-comuns",
+    "title": "44  Período composto por coordenação",
+    "section": "45.6 ⚠️ Pegadinhas e erros comuns",
+    "text": "45.6 ⚠️ Pegadinhas e erros comuns\n\nConfundir coordenação com subordinação. Coordenadas são independentes (mesmo nível); subordinadas dependem de uma principal (exercem função nela).\nTrocar o valor de pois. Antes do verbo = explicativa; depois do verbo = conclusiva.\nClassificar mal a adversativa e a conclusiva. Mas/porém = oposição (adversativa); logo/portanto = conclusão (conclusiva). Não confundir.\nEsquecer a vírgula antes de mas. Adversativas e conclusivas vêm precedidas de vírgula: “Quis ir, mas não pôde”.\nAchar que toda oração com e dispensa vírgula. Com sujeitos diferentes ou mudança de sentido, usa-se vírgula antes de e.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-43-periodo-composto-coordenacao.html#exercícios",
+    "href": "capitulos/cap-43-periodo-composto-coordenacao.html#exercícios",
+    "title": "44  Período composto por coordenação",
+    "section": "45.7 ✍️ Exercícios",
+    "text": "45.7 ✍️ Exercícios\n1. Distinga coordenação de subordinação, com um exemplo de cada.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nNa coordenação, as orações são independentes, no mesmo nível, sem que uma exerça função na outra: “Cheguei e descansei” (duas orações autônomas). Na subordinação, uma oração depende de outra, exercendo função nela: “Espero que você venha” (a segunda é objeto de espero). O teste é a independência sintática: coordenadas podem existir separadas; a subordinada, não (fica sem função).\n\n\n\n2. (Estilo ENEM) Em “Estudou muito, mas não foi aprovado”, a segunda oração é coordenada sindética:\n\naditiva;\nadversativa;\nalternativa;\nconclusiva;\nexplicativa.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). A conjunção mas exprime oposição/contraste entre estudar muito e não ser aprovado → coordenada sindética adversativa. Note a vírgula antes de mas, típica das adversativas.\n\n\n\n3. Classifique as coordenadas sindéticas: (a) “Corra, pois está atrasado”; (b) “Penso, logo existo”; (c) “Ou aceita ou recusa”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\npois (antes do verbo) → explicativa (justifica a ordem “corra”). (b) logo → conclusiva (conclui a partir de “penso”). (c) ou… ou → alternativa (escolha excludente). Cada conjunção define o valor lógico.\n\n\n\n\n4. Identifique as orações coordenadas assindéticas em “Vim, vi, venci”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nSão três orações coordenadas assindéticas: “Vim” / “vi” / “venci”. Estão ligadas sem conjunção, apenas por vírgulas — daí “assindéticas” (do grego syndeton, “ligado por conjunção”, com o prefixo negativo a-). Cada uma é independente.\n\n\n\n5. Explique a diferença de valor de pois em “Volte, pois preciso de você” e “Preciso de você; volte, pois”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm “Volte, pois preciso de você”, pois vem antes do verbo (preciso) e é explicativo: justifica a ordem “volte”. Em “Preciso de você; volte, pois”, pois vem depois do verbo (volte) e é conclusivo: conclui/arremata a partir do que se disse (“já que preciso, então volte”). A posição em relação ao verbo determina o valor.\n\n\n\n6. (Estilo FCC) Assinale a alternativa em que a oração coordenada é conclusiva:\n\nTrabalha e economiza;\nQuer, mas não pode;\nPensou bem, portanto acertou;\nOu fica ou sai;\nApresse-se, porque é tarde.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). “portanto acertou” é coordenada conclusiva (portanto exprime conclusão a partir de “pensou bem”). As demais são aditiva (a), adversativa (b), alternativa (d) e explicativa (e).\n\n\n\n7. Pontue e classifique: “Ele não estudou não fez os exercícios não leu o livro.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Ele não estudou, não fez os exercícios, não leu o livro.” São três orações coordenadas assindéticas (ligadas sem conjunção, separadas por vírgulas). Não há conectivo entre elas — apenas justaposição pontuada, com valor de enumeração/adição.\n\n\n\n8. Reescreva unindo as orações por uma coordenada adversativa: “Ele é talentoso. Ele é preguiçoso.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Ele é talentoso, mas é preguiçoso.” (ou “…, porém é preguiçoso”; “…, contudo, é preguiçoso”). A conjunção adversativa (mas, porém, contudo) exprime o contraste entre as duas qualidades, unindo as orações independentes numa relação de oposição, com vírgula antes do conectivo.\n\n\n\n9. No período “Não só estudou como também trabalhou”, classifique a coordenada e explique o conectivo.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA segunda oração é coordenada sindética aditiva. O conectivo é a locução não só… como também (variante de não só… mas também), que exprime adição enfática: soma as duas ações (estudar e trabalhar), reforçando que ambas ocorreram. É uma aditiva de valor intensificado.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Na frase ‘Corri muito, logo cheguei cansado’, as duas orações estão em relação de subordinação.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. As orações estão em coordenação, não subordinação. “Corri muito” e “logo cheguei cansado” são independentes, ligadas pela conjunção coordenativa conclusiva logo (a segunda conclui a partir da primeira). Nenhuma exerce função sintática na outra — são coordenadas, uma assindética e outra sindética conclusiva.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-43-periodo-composto-coordenacao.html#referências",
+    "href": "capitulos/cap-43-periodo-composto-coordenacao.html#referências",
+    "title": "44  Período composto por coordenação",
+    "section": "45.8 📚 Referências",
+    "text": "45.8 📚 Referências\nA coordenação e a classificação das orações coordenadas seguem Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017); o valor lógico dos conectivos e sua relação com a coesão do texto são discutidos por Koch (Koch, 2018). A pontuação do período composto será detalhada no Volume 9. A subordinação — em que uma oração exerce função em outra — começa no Capítulo 46, com as orações substantivas.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.\n\n\nKOCH, Ingedore Grunfeld Villaça. A Coesão Textual. 23. ed. São Paulo: Contexto, 2018.",
     "crumbs": [
       "Volume 7 — Sintaxe II: Período Composto",
       "<span class='chapter-number'>44</span>  <span class='chapter-title'>Período composto por coordenação</span>"
@@ -4718,7 +4806,106 @@
     "href": "capitulos/cap-44-subordinadas-substantivas.html",
     "title": "45  Orações subordinadas substantivas",
     "section": "",
-    "text": "46 Orações subordinadas substantivas\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "46 Orações subordinadas substantivas\nEntramos na subordinação: aquela relação em que uma oração (a subordinada) exerce uma função sintática dentro de outra (a principal), como se fosse um único termo. As subordinadas substantivas são as que fazem o papel de um substantivo — podem ser sujeito, objeto, complemento nominal, predicativo ou aposto da oração principal. Em “Espero que você venha”, a oração destacada faz o papel de objeto direto do verbo espero (poderíamos substituí-la por “isso”: “Espero isso”).\nO segredo para reconhecê-las é justamente esse teste da substituição por um termo substantivo (isto/isso). Este capítulo mostra como identificar as substantivas, classificá-las pela função que exercem e distinguir o que conjunção integrante do que pronome relativo — distinção que separa as substantivas das adjetivas (Capítulo 47).",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html#objetivos-de-aprendizagem",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "46.1 🎯 Objetivos de aprendizagem",
+    "text": "46.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nReconhecer a oração subordinada substantiva pelo teste da substituição por “isto”;\nClassificar as substantivas pelas seis funções (subjetiva, objetiva direta, objetiva indireta, completiva nominal, predicativa, apositiva);\nIdentificar as conjunções integrantes (que, se);\nDistinguir substantivas desenvolvidas de reduzidas;\nDiferenciar o que integrante do que relativo;\nAnalisar períodos com orações substantivas.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html#o-que-são-as-subordinadas-substantivas",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html#o-que-são-as-subordinadas-substantivas",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "46.2 O que são as subordinadas substantivas",
+    "text": "46.2 O que são as subordinadas substantivas\nOração subordinada substantiva é aquela que exerce, na oração principal, uma função própria de substantivo. Vem, tipicamente, introduzida por uma conjunção integrante (que ou se), que apenas liga as orações, sem valor circunstancial nem função sintática própria.\nO teste decisivo: substitua a oração por isto/isso. Se couber, é substantiva — e a função que “isto” exerce é a função da oração.\n\n\n“Espero que você venha.” → “Espero isto.” → isto é objeto direto → oração objetiva direta.\n“É certo que ele mentiu.” → “Isto é certo.” → isto é sujeito → oração subjetiva.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html#as-seis-funções-substantivas",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html#as-seis-funções-substantivas",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "46.3 As seis funções substantivas",
+    "text": "46.3 As seis funções substantivas\nConforme a função que exercem, as substantivas classificam-se em seis tipos, resumidos na Figura 46.1.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 46.1: Os seis tipos de oração subordinada substantiva, definidos pela função que exercem na principal: subjetiva, objetiva direta, objetiva indireta, completiva nominal, predicativa e apositiva.\n\n\n\n\nSubjetiva: exerce a função de sujeito da principal — “Convém que todos participem” (“Isto convém”). Frequente após verbos impessoais e expressões como “é bom/necessário/certo que”, “convém que”, “consta que”.\nObjetiva direta: função de objeto direto — “Desejo que sejas feliz” (“Desejo isto”).\nObjetiva indireta: função de objeto indireto (com preposição) — “Lembro-me de que prometi ajudar” (“Lembro-me disto”).\nCompletiva nominal: função de complemento nominal (completa um nome, com preposição) — “Tenho a certeza de que ele virá” (“certeza disto”).\nPredicativa: função de predicativo do sujeito (após verbo de ligação) — “A verdade é que ninguém sabe” (“A verdade é isto”).\nApositiva: função de aposto (explica um termo, geralmente após dois-pontos) — “Só peço uma coisa: que sejas honesto”.\n\n\n\n\n\n\n\nImportanteObjetiva indireta × completiva nominal\n\n\n\nAmbas vêm com preposição (“de que”, “em que”) e confundem-se. A diferença está no termo completado:\n\nObjetiva indireta: completa um verbo (transitivo indireto) — “Preciso de que me ajudem” (o verbo precisar exige a oração).\nCompletiva nominal: completa um nome (substantivo/adjetivo) — “Tenho necessidade de que me ajudem” (o nome necessidade exige a oração).\n\nLocalize o que a oração completa: se um verbo, é objetiva indireta; se um nome, completiva nominal. É o mesmo critério do Capítulo 42, aplicado a orações.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html#desenvolvidas-reduzidas",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html#desenvolvidas-reduzidas",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "46.4 Desenvolvidas × reduzidas",
+    "text": "46.4 Desenvolvidas × reduzidas\nAs substantivas podem apresentar-se de duas formas:\n\nDesenvolvidas: introduzidas por conjunção integrante (que/se), com verbo em modo finito (indicativo/subjuntivo) — “Espero que ele venha”.\nReduzidas: sem conjunção, com o verbo numa forma nominal (infinitivo, gerúndio, particípio) — “Espero vê-lo em breve” (reduzida de infinitivo, = “espero que o veja”). Estudaremos as reduzidas em detalhe no Capítulo 49.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html#o-que-integrante-o-que-relativo",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html#o-que-integrante-o-que-relativo",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "46.5 O que integrante × o que relativo",
+    "text": "46.5 O que integrante × o que relativo\nDistinção que separa as substantivas (integrante) das adjetivas (relativo):\n\nConjunção integrante (que): apenas liga a oração substantiva à principal, sem função sintática nem antecedente. “Sei que ele mentiu” (= sei isto).\nPronome relativo (que): retoma um antecedente e exerce função na oração adjetiva. “O homem que mentiu” (que = o homem, sujeito de “mentiu”).\n\nTeste: se dá para trocar a oração por “isto”, o que é integrante (substantiva). Se o que retoma um substantivo anterior e pode ser trocado por “o qual”, é relativo (adjetiva — próximo capítulo).",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html#quadro-resumo",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html#quadro-resumo",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "46.6 📋 Quadro-resumo",
+    "text": "46.6 📋 Quadro-resumo\n\n\n\n\n\n\n\n\nTipo\nFunção\nExemplo\n\n\n\n\nSubjetiva\nsujeito\n“Convém que estudes”\n\n\nObjetiva direta\nobjeto direto\n“Quero que venhas”\n\n\nObjetiva indireta\nobjeto indireto\n“Preciso de que ajudes”\n\n\nCompletiva nominal\ncomplemento nominal\n“Certeza de que virás”\n\n\nPredicativa\npredicativo\n“A questão é que falta tempo”\n\n\nApositiva\naposto\n“Só peço isto: que fiques”\n\n\n\nEm uma linha: as subordinadas substantivas fazem o papel de um substantivo na principal (teste: cabe “isto”); classificam-se pela função — subjetiva, objetiva direta/ indireta, completiva nominal, predicativa, apositiva — e vêm com conjunção integrante (que/se), não relativo.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html#pegadinhas-e-erros-comuns",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "46.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "46.7 ⚠️ Pegadinhas e erros comuns\n\nConfundir que integrante com que relativo. Integrante: cabe “isto” (substantiva). Relativo: retoma antecedente, cabe “o qual” (adjetiva).\nTrocar objetiva indireta por completiva nominal. Verbo completado → objetiva indireta; nome completado → completiva nominal.\nNão reconhecer a subjetiva. Após “é bom/necessário/certo que”, “convém que”, “consta que”, a oração é sujeito (subjetiva), não objeto.\nAchar que toda oração com que é subordinada substantiva. Pode ser adjetiva (relativo) ou até coordenada explicativa (que = pois). O contexto decide.\nEsquecer o teste da substituição. Substituir por “isto” resolve a maioria dos casos e revela a função.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html#exercícios",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html#exercícios",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "46.8 ✍️ Exercícios",
+    "text": "46.8 ✍️ Exercícios\n1. Classifique a oração substantiva: “É necessário que todos colaborem.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“que todos colaborem” é oração subordinada substantiva subjetiva: exerce a função de sujeito da principal (“É necessário isto” — o quê é necessário? que todos colaborem). Após expressões impessoais como “é necessário que”, a substantiva é tipicamente subjetiva.\n\n\n\n2. (Estilo ENEM) Em “Todos sabiam que ele mentira”, a oração “que ele mentira” é:\n\nsubordinada adjetiva;\nsubordinada substantiva objetiva direta;\ncoordenada explicativa;\nsubordinada adverbial causal;\nsubordinada substantiva subjetiva.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). “que ele mentira” é objeto direto do verbo sabiam (“sabiam isto”) → subordinada substantiva objetiva direta. O que é conjunção integrante (não retoma antecedente), o que exclui a adjetiva; e a oração é objeto, não sujeito.\n\n\n\n3. Aplique o teste da substituição e classifique: “Duvido de que ele consiga.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nSubstituindo: “Duvido disto” — disto (de + isto) é objeto indireto do verbo duvidar (duvidar de algo). Logo, “de que ele consiga” é subordinada substantiva objetiva indireta. A preposição de e o fato de completar um verbo confirmam a classificação.\n\n\n\n4. Distinga objetiva indireta de completiva nominal: “Preciso de que me ouçam” × “Tenho necessidade de que me ouçam”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm “Preciso de que me ouçam”, a oração completa o verbo precisar (transitivo indireto) → objetiva indireta. Em “Tenho necessidade de que me ouçam”, a oração completa o nome necessidade (substantivo abstrato) → completiva nominal. O critério é o que a oração completa: verbo (objetiva indireta) × nome (completiva nominal).\n\n\n\n5. Identifique a oração predicativa: “A verdade é que ninguém compareceu.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“que ninguém compareceu” é subordinada substantiva predicativa: exerce a função de predicativo do sujeito (“A verdade”) por meio do verbo de ligação é. Teste: “A verdade é isto” — isto é predicativo. A oração predica algo do sujeito através do verbo de ligação.\n\n\n\n6. (Estilo FCC) Assinale o período com oração subordinada substantiva apositiva:\n\nQuero que você estude;\nÉ bom que descanses;\nSó desejo uma coisa: que sejas feliz;\nPreciso de que me ajudem;\nA questão é que falta tempo.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). “que sejas feliz” é apositiva: funciona como aposto do termo “uma coisa”, explicando-o (após os dois-pontos). As demais são objetiva direta (a), subjetiva (b), objetiva indireta (d) e predicativa (e).\n\n\n\n7. Diferencie o que em “Sei que ele chegou” e em “O homem que chegou é meu amigo”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm “Sei que ele chegou”, que é conjunção integrante: apenas liga a oração substantiva (objetiva direta) à principal, sem antecedente — cabe “isto” (“Sei isto”). Em “O homem que chegou é meu amigo”, que é pronome relativo: retoma o antecedente o homem e exerce função (sujeito de “chegou”) na oração adjetiva — cabe “o qual”. O primeiro introduz substantiva; o segundo, adjetiva.\n\n\n\n8. Reescreva a oração reduzida como desenvolvida: “Espero encontrá-lo amanhã.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nDesenvolvida: “Espero que o encontre amanhã”. A oração reduzida de infinitivo (“encontrá-lo”, forma nominal, sem conjunção) transforma-se em desenvolvida, com a conjunção integrante que e o verbo em modo finito (subjuntivo encontre). Ambas são substantivas objetivas diretas (“espero isto”).\n\n\n\n9. Classifique todas as orações do período: “Sei que estudaste, mas duvido de que tenhas terminado.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nSão quatro orações: (1) “Sei” — oração principal; (2) “que estudaste” — subordinada substantiva objetiva direta (objeto de sei); (3) “mas duvido” — coordenada sindética adversativa (em relação a “Sei”); (4) “de que tenhas terminado” — subordinada substantiva objetiva indireta (objeto de duvidar de). O período combina subordinação e coordenação.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Na frase ‘Consta que houve fraude’, a oração ‘que houve fraude’ exerce a função de objeto direto.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. A oração “que houve fraude” exerce a função de sujeito (subordinada substantiva subjetiva), não de objeto direto. Teste: “Isto consta” — isto é o sujeito do verbo constar (constar = ser sabido/registrado). Verbos como constar, convir, importar e expressões impessoais (“é certo que”) pedem substantiva subjetiva.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-44-subordinadas-substantivas.html#referências",
+    "href": "capitulos/cap-44-subordinadas-substantivas.html#referências",
+    "title": "45  Orações subordinadas substantivas",
+    "section": "46.9 📚 Referências",
+    "text": "46.9 📚 Referências\nAs orações subordinadas substantivas e sua classificação seguem Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017). A distinção entre o que integrante e o que relativo e a análise das completivas no português brasileiro estão em Castilho (Castilho, 2010) e Perini (Perini, 2010). As orações adjetivas, introduzidas pelos relativos, vêm no Capítulo 47; as reduzidas, no Capítulo 49.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.\n\n\nPERINI, Mário A. Gramática do Português Brasileiro. São Paulo: Parábola, 2010.",
     "crumbs": [
       "Volume 7 — Sintaxe II: Período Composto",
       "<span class='chapter-number'>45</span>  <span class='chapter-title'>Orações subordinadas substantivas</span>"
@@ -4729,7 +4916,106 @@
     "href": "capitulos/cap-45-subordinadas-adjetivas.html",
     "title": "46  Orações subordinadas adjetivas",
     "section": "",
-    "text": "47 Orações subordinadas adjetivas\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "47 Orações subordinadas adjetivas\nSe as substantivas fazem o papel de um substantivo, as subordinadas adjetivas fazem o papel de um adjetivo: caracterizam um substantivo (ou pronome) da oração principal. Em “O aluno que estuda passa”, a oração que estuda caracteriza o aluno, como faria o adjetivo estudioso (“o aluno estudioso”). São sempre introduzidas por um pronome relativo (que, o qual, cujo, onde, quem, quanto), que retoma um antecedente — daí a ligação estreita com o Capítulo 33.\nO ponto central — e uma das distinções mais importantes de toda a gramática — é a diferença entre a adjetiva restritiva (que restringe, sem vírgula) e a explicativa (que apenas explica, entre vírgulas). Essa diferença, marcada pela pontuação, muda completamente o sentido da frase, e é campeã de recorrência em provas de interpretação e de pontuação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html#objetivos-de-aprendizagem",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "47.1 🎯 Objetivos de aprendizagem",
+    "text": "47.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nReconhecer a oração adjetiva pelo pronome relativo e pelo antecedente;\nDistinguir a adjetiva restritiva da explicativa;\nCompreender o papel decisivo da vírgula na mudança de sentido;\nIdentificar o pronome relativo e sua função dentro da adjetiva;\nDiferenciar adjetivas desenvolvidas de reduzidas;\nAnalisar e pontuar períodos com orações adjetivas.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html#o-que-são-as-subordinadas-adjetivas",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html#o-que-são-as-subordinadas-adjetivas",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "47.2 O que são as subordinadas adjetivas",
+    "text": "47.2 O que são as subordinadas adjetivas\nOração subordinada adjetiva é aquela que exerce a função de um adjetivo, caracterizando um substantivo ou pronome (o antecedente) da oração principal. Vem sempre introduzida por um pronome relativo, que retoma o antecedente e exerce uma função sintática dentro da própria adjetiva.\n\n“Os livros que li neste ano foram excelentes.”\n\nAntecedente: os livros.\nPronome relativo: que (retoma os livros; é objeto direto de li).\nA oração que li neste ano caracteriza os livros (quais livros? os que li) — faz o papel de um adjetivo.\n\n\nNote que a adjetiva pode ser substituída, muitas vezes, por um adjetivo equivalente: “pessoas que trabalham” ≈ “pessoas trabalhadoras”.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html#restritiva-explicativa-a-distinção-chave",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html#restritiva-explicativa-a-distinção-chave",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "47.3 Restritiva × explicativa: a distinção-chave",
+    "text": "47.3 Restritiva × explicativa: a distinção-chave\nAs adjetivas dividem-se em dois tipos, e a diferença — marcada pela vírgula — é semanticamente decisiva. A Figura 47.1 ilustra.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 47.1: A mesma oração adjetiva muda de sentido conforme a vírgula: sem vírgula (restritiva), delimita um subgrupo; entre vírgulas (explicativa), acrescenta informação sobre todo o conjunto.\n\n\n\n\n47.3.1 Adjetiva restritiva\nRestringe, delimita o antecedente a um subconjunto — sem ela, o sentido seria mais amplo. Não vem isolada por vírgula. “As pessoas que mentem perdem a confiança” (só as que mentem, não todas as pessoas).\n\n\n47.3.2 Adjetiva explicativa\nExplica, acrescenta uma informação sobre o antecedente, sem restringi-lo — refere-se a todo o conjunto. Vem isolada por vírgulas (ou travessões). “Os homens, que são mortais, temem a morte” (todos os homens são mortais; a oração explica).\n\n\n\n\n\n\nImportanteA vírgula que muda tudo\n\n\n\nCompare, com o mesmo antecedente:\n\n“Os políticos que são corruptos deveriam ser presos.” (restritiva: só os corruptos — subentende que há políticos honestos).\n“Os políticos, que são corruptos, deveriam ser presos.” (explicativa: todos os políticos são corruptos — uma generalização).\n\nA segunda afirma que todos os políticos são corruptos; a primeira, apenas alguns. A vírgula, aqui, não é enfeite: ela altera radicalmente o que se afirma. Por isso a distinção é tão cobrada em interpretação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html#o-pronome-relativo-dentro-da-adjetiva",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html#o-pronome-relativo-dentro-da-adjetiva",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "47.4 O pronome relativo dentro da adjetiva",
+    "text": "47.4 O pronome relativo dentro da adjetiva\nToda adjetiva é introduzida por um relativo (Capítulo 33), que exerce uma função sintática dentro dela:\n\n“O livro que comprei” → que = objeto direto de comprei.\n“A casa onde moro” → onde = adjunto adverbial de lugar.\n“O autor cujo livro li” → cujo = adjunto adnominal (posse).\n“A pessoa a quem me refiro” → a quem = objeto indireto.\n\nIdentificar essa função interna é parte da análise sintática integral (Capítulo 50) e determina a regência (a preposição que acompanha o relativo).",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html#desenvolvidas-reduzidas",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html#desenvolvidas-reduzidas",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "47.5 Desenvolvidas × reduzidas",
+    "text": "47.5 Desenvolvidas × reduzidas\nAs adjetivas também podem ser:\n\nDesenvolvidas: com pronome relativo e verbo finito — “As pessoas que trabalham aqui”.\nReduzidas: sem relativo, com verbo em forma nominal (geralmente particípio ou infinitivo) — “As pessoas empregadas aqui” (reduzida de particípio, = “que estão empregadas”); “Há muito a fazer” (reduzida de infinitivo). Detalhe no Capítulo 49.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html#quadro-resumo",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html#quadro-resumo",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "47.6 📋 Quadro-resumo",
+    "text": "47.6 📋 Quadro-resumo\n\n\n\n\n\n\n\n\n\nTipo\nEfeito\nPontuação\nExemplo\n\n\n\n\nRestritiva\ndelimita a um subgrupo\nsem vírgula\n“Alunos que estudam passam”\n\n\nExplicativa\nacrescenta info a todo o conjunto\nentre vírgulas\n“Os alunos, que estudam, passam”\n\n\n\nSempre introduzidas por pronome relativo (que, o qual, cujo, onde, quem, quanto), que retoma um antecedente e tem função na adjetiva.\nEm uma linha: as subordinadas adjetivas caracterizam um antecedente (como um adjetivo), introduzidas por relativo; a restritiva (sem vírgula) delimita um subgrupo, a explicativa (entre vírgulas) acrescenta informação a todo o conjunto — e a vírgula muda o sentido.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html#pegadinhas-e-erros-comuns",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "47.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "47.7 ⚠️ Pegadinhas e erros comuns\n\nIgnorar o efeito da vírgula. “Os alunos que colaram foram punidos” (só os que colaram) × “Os alunos, que colaram, foram punidos” (todos colaram e foram punidos). Sentidos opostos.\nConfundir adjetiva com substantiva. Adjetiva: que é relativo (retoma antecedente, cabe “o qual”). Substantiva: que é integrante (cabe “isto”).\nPôr vírgula em restritiva. A restritiva não leva vírgula — separá-la a torna explicativa, mudando o sentido.\nNão identificar a função do relativo. Dentro da adjetiva, o relativo tem função (sujeito, objeto, adjunto), que determina a regência (a preposição).\nAchar que explicativa e restritiva são estilo livre. A escolha depende do que se quer dizer: restringir um subgrupo ou comentar todo o conjunto.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html#exercícios",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html#exercícios",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "47.8 ✍️ Exercícios",
+    "text": "47.8 ✍️ Exercícios\n1. Classifique a adjetiva e explique o sentido: “Os funcionários que faltaram serão advertidos.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“que faltaram” é adjetiva restritiva (sem vírgula): delimita os funcionários a um subgrupo — apenas os que faltaram serão advertidos, não todos. Subentende-se que há funcionários que não faltaram (e não serão advertidos). A ausência de vírgula é a marca da restrição.\n\n\n\n2. (Estilo ENEM) Compare: “Os brasileiros que gostam de futebol são milhões” e “Os brasileiros, que gostam de futebol, são apaixonados por esportes”. A diferença é:\n\ninexistente;\na primeira restringe (só alguns brasileiros); a segunda explica (todos os brasileiros gostam de futebol);\na primeira explica; a segunda restringe;\napenas de pontuação, sem efeito de sentido;\na segunda está errada.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). A primeira (sem vírgula, restritiva) refere-se apenas ao subgrupo dos brasileiros que gostam de futebol. A segunda (entre vírgulas, explicativa) generaliza: afirma que todos os brasileiros gostam de futebol, acrescentando essa informação. A vírgula muda o alcance da afirmação.\n\n\n\n3. Identifique o antecedente, o pronome relativo e sua função: “A cidade onde nasci fica no interior.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAntecedente: a cidade. Pronome relativo: onde (retoma a cidade, lugar físico). Função de onde dentro da adjetiva: adjunto adverbial de lugar (“nasci onde” = nasci naquele lugar). A oração “onde nasci” é adjetiva restritiva, caracterizando a cidade.\n\n\n\n4. Reescreva a adjetiva como adjetivo equivalente: “Pessoas que trabalham merecem respeito.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Pessoas trabalhadoras merecem respeito.” A oração adjetiva restritiva “que trabalham” equivale ao adjetivo trabalhadoras, que caracteriza pessoas do mesmo modo (delimitando o subgrupo). Isso ilustra o valor “adjetivo” dessas orações.\n\n\n\n5. Pontue conforme o sentido pedido e classifique: (a) restringir — “Os carros  têm defeito  foram recolhidos”; (b) explicar (todos) — mesmo enunciado.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nRestritiva (só os defeituosos): “Os carros que têm defeito foram recolhidos” (sem vírgula). (b) Explicativa (todos os carros têm defeito): “Os carros, que têm defeito, foram recolhidos” (entre vírgulas). Na primeira, só parte dos carros foi recolhida; na segunda, todos os carros têm defeito e foram recolhidos.\n\n\n\n\n6. (Estilo FCC) Na frase “Meu pai, que é médico, trabalha muito”, a oração adjetiva é:\n\nrestritiva, pois delimita qual pai;\nexplicativa, pois “meu pai” já é único e a oração apenas acrescenta informação;\nsubstantiva objetiva direta;\nadverbial causal;\ncoordenada explicativa.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). “que é médico” é adjetiva explicativa: como “meu pai” já é um ser único (não há vários pais a delimitar), a oração apenas acrescenta a informação de que ele é médico, entre vírgulas. Com antecedentes únicos, a adjetiva é necessariamente explicativa.\n\n\n\n7. Diferencie a oração adjetiva da substantiva em “Sei que ele mentiu” × “O homem que mentiu fugiu”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm “Sei que ele mentiu”, que é conjunção integrante e a oração é substantiva objetiva direta (cabe “isto”: “Sei isto”) — não há antecedente. Em “O homem que mentiu fugiu”, que é pronome relativo (retoma o antecedente o homem, funciona como sujeito de “mentiu”) e a oração é adjetiva restritiva, caracterizando o homem. A presença de antecedente e a possibilidade de trocar por “o qual” identificam a adjetiva.\n\n\n\n8. Identifique a função do relativo em cada adjetiva: (a) “o filme a que assisti”; (b) “o aluno cujas notas subiram”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\n“a que” → objeto indireto (assistir a algo; o relativo que, precedido da preposição a, é objeto indireto de assistir). (b) “cujas” → adjunto adnominal (posse: as notas do aluno). Cada relativo exerce uma função dentro da adjetiva, o que determina a regência.\n\n\n\n\n9. Transforme a reduzida em desenvolvida: “Há tarefas a cumprir.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nDesenvolvida: “Há tarefas que devem ser cumpridas” (ou “que se devem cumprir”). A adjetiva reduzida de infinitivo (“a cumprir”, forma nominal, sem relativo) transforma-se em desenvolvida, com o pronome relativo que e verbo finito. Ambas caracterizam tarefas (adjetiva restritiva).\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Na frase ‘Os candidatos que trapacearam foram desclassificados’, a inserção de vírgulas em torno de ‘que trapacearam’ não alteraria o sentido.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. A inserção de vírgulas alteraria o sentido. Sem vírgula (restritiva), a frase afirma que apenas alguns candidatos (os que trapacearam) foram desclassificados — subentende que houve candidatos honestos. Com vírgulas (explicativa: “Os candidatos, que trapacearam, foram desclassificados”), afirma-se que todos os candidatos trapacearam e foram desclassificados. A vírgula muda o alcance da afirmação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-45-subordinadas-adjetivas.html#referências",
+    "href": "capitulos/cap-45-subordinadas-adjetivas.html#referências",
+    "title": "46  Orações subordinadas adjetivas",
+    "section": "47.9 📚 Referências",
+    "text": "47.9 📚 Referências\nAs orações adjetivas, a distinção restritiva/explicativa e o papel do relativo seguem Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017); o efeito de sentido da pontuação nas adjetivas liga-se à coesão e à interpretação, tratadas por Koch (Koch, 2018) e Koch & Elias (Koch; Elias, 2015). As orações adverbiais, que exprimem circunstâncias, vêm no Capítulo 48; as reduzidas, no Capítulo 49.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.\n\n\nKOCH, Ingedore Grunfeld Villaça. A Coesão Textual. 23. ed. São Paulo: Contexto, 2018.\n\n\nKOCH, Ingedore Grunfeld Villaça; ELIAS, Vanda Maria. O Texto e a Construção dos Sentidos. São Paulo: Contexto, 2015.",
     "crumbs": [
       "Volume 7 — Sintaxe II: Período Composto",
       "<span class='chapter-number'>46</span>  <span class='chapter-title'>Orações subordinadas adjetivas</span>"
@@ -4740,7 +5026,106 @@
     "href": "capitulos/cap-46-subordinadas-adverbiais.html",
     "title": "47  Orações subordinadas adverbiais",
     "section": "",
-    "text": "48 Orações subordinadas adverbiais\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "48 Orações subordinadas adverbiais\nCompletamos a tríade da subordinação com as subordinadas adverbiais — aquelas que fazem o papel de um advérbio, exprimindo uma circunstância (tempo, causa, condição, concessão, finalidade…) em relação à oração principal. Se a adjetiva caracteriza um nome e a substantiva ocupa a posição de um substantivo, a adverbial diz quando, por que, sob que condição, apesar de quê acontece o fato da principal.\nSão as orações mais ligadas à lógica do texto: é por meio delas (e de suas conjunções) que se exprimem as relações de causa e efeito, condição e consequência, oposição e concessão que estruturam a argumentação (Volume 12). Reconhecê-las e distingui-las — sobretudo os pares que se confundem, como causa × explicação e concessão × adversidade — é essencial para a interpretação e para a redação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html#objetivos-de-aprendizagem",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "48.1 🎯 Objetivos de aprendizagem",
+    "text": "48.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nReconhecer a oração adverbial pela conjunção subordinativa e pela circunstância;\nClassificar as adverbiais nos nove tipos (causal, consecutiva, condicional, concessiva, comparativa, conformativa, final, proporcional, temporal);\nDistinguir pares que se confundem (causal × consecutiva; concessiva × condicional);\nIdentificar as conjunções típicas de cada tipo;\nDiferenciar adverbial desenvolvida de reduzida;\nAnalisar as relações lógicas expressas pelas adverbiais.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html#o-que-são-as-subordinadas-adverbiais",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html#o-que-são-as-subordinadas-adverbiais",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "48.2 O que são as subordinadas adverbiais",
+    "text": "48.2 O que são as subordinadas adverbiais\nOração subordinada adverbial é aquela que exerce a função de adjunto adverbial da principal, exprimindo uma circunstância. É introduzida por uma conjunção subordinativa adverbial (Capítulo 37), que indica o tipo de circunstância.\nEm “Quando cheguei, todos dormiam”, a oração quando cheguei exprime a circunstância de tempo em que se deu o fato da principal — como faria o advérbio “então” ou a locução “naquele momento”.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html#os-nove-tipos-de-adverbiais",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html#os-nove-tipos-de-adverbiais",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "48.3 Os nove tipos de adverbiais",
+    "text": "48.3 Os nove tipos de adverbiais\nA NGB reconhece nove tipos de adverbiais, organizados na Figura 48.1 por circunstância e conjunção.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 48.1: Os nove tipos de oração subordinada adverbial, com as conjunções típicas e a circunstância (sentido) que exprimem.\n\n\n\n\nCausal (causa): porque, já que, como, visto que, uma vez que — “Não saí porque chovia”.\nConsecutiva (consequência/resultado): tão/tanto/tal… que, de modo que — “Chovia tanto que a rua alagou”.\nCondicional (condição/hipótese): se, caso, contanto que, a menos que, salvo se — “Se estudares, passarás”.\nConcessiva (concessão — contraria uma expectativa sem impedir o fato): embora, ainda que, mesmo que, conquanto, por mais que — “Embora chovesse, saímos”.\nComparativa (comparação): como, (mais/menos/tão)… que/quanto, que nem — “Ele é forte como um touro”.\nConformativa (conformidade): conforme, segundo, como, consoante — “Fiz tudo conforme você mandou”.\nFinal (finalidade): para que, a fim de que, que — “Estudo para que consiga o emprego”.\nProporcional (proporção): à medida que, à proporção que, quanto mais… (mais) — “Quanto mais lia, mais aprendia”.\nTemporal (tempo): quando, enquanto, assim que, logo que, depois que, antes que, sempre que — “Assim que cheguei, liguei para você”.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html#pares-que-se-confundem",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html#pares-que-se-confundem",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "48.4 Pares que se confundem",
+    "text": "48.4 Pares que se confundem\nAlguns tipos causam dúvida constante:\n\n\n\n\n\n\nImportanteCausal × consecutiva: causa × resultado\n\n\n\n\nCausal: exprime a causa (o motivo) do fato da principal — “Faltei porque estava doente” (a doença é a causa da falta).\nConsecutiva: exprime a consequência (o resultado), normalmente com um intensificador (tão/tanto) na principal — “Estava tão doente que faltei” (a falta é a consequência da doença intensa).\n\nTeste: a causa explica o fato; a consequência resulta dele. E a consecutiva quase sempre tem tão/tanto/tal na principal.\n\n\n\n\n\n\n\n\nImportanteConcessiva × condicional × adversativa\n\n\n\n\nCondicional (se): apresenta uma condição para o fato — “Se chover, não saio” (a chuva condiciona o não sair).\nConcessiva (embora): apresenta um obstáculo que não impede o fato (quebra de expectativa) — “Embora chova, saio” (a chuva não impede a saída).\nA adversativa (mas, coordenada — Capítulo 45) é aparentada da concessiva: “Chove, mas saio”. A concessiva subordina (com embora); a adversativa coordena (com mas).\n\nChave: se condiciona; embora concede (contraria a expectativa); mas coordena opondo.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html#desenvolvidas-reduzidas",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html#desenvolvidas-reduzidas",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "48.5 Desenvolvidas × reduzidas",
+    "text": "48.5 Desenvolvidas × reduzidas\nAs adverbiais também têm as duas formas:\n\nDesenvolvidas: com conjunção e verbo finito — “Quando cheguei, chovia”.\nReduzidas: com verbo em forma nominal, sem conjunção — “Ao chegar, chovia” (reduzida de infinitivo, temporal); “Estudando, aprende-se” (reduzida de gerúndio, condicional/temporal); “Terminada a prova, saíram” (reduzida de particípio, temporal). Detalhe no Capítulo 49.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html#quadro-resumo",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html#quadro-resumo",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "48.6 📋 Quadro-resumo",
+    "text": "48.6 📋 Quadro-resumo\n\n\n\nTipo\nCircunstância\nConjunção típica\n\n\n\n\nCausal\ncausa\nporque, já que, como\n\n\nConsecutiva\nconsequência\ntão/tanto… que\n\n\nCondicional\ncondição\nse, caso, contanto que\n\n\nConcessiva\nconcessão\nembora, ainda que\n\n\nComparativa\ncomparação\ncomo, (mais) que\n\n\nConformativa\nconformidade\nconforme, segundo\n\n\nFinal\nfinalidade\npara que, a fim de que\n\n\nProporcional\nproporção\nà medida que, quanto mais\n\n\nTemporal\ntempo\nquando, enquanto, assim que\n\n\n\nEm uma linha: as subordinadas adverbiais exprimem circunstâncias (função de adjunto adverbial), em nove tipos definidos pela conjunção — com atenção aos pares que se confundem: causa × consequência (causal × consecutiva) e condição × concessão (condicional × concessiva).",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html#pegadinhas-e-erros-comuns",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "48.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "48.7 ⚠️ Pegadinhas e erros comuns\n\nConfundir causal e consecutiva. Causa (o motivo): “Faltei porque adoeci”. Consequência (o resultado, com tão/tanto): “Adoeci tanto que faltei”.\nConfundir condicional e concessiva. Se condiciona (“Se chover, fico”); embora concede, sem impedir (“Embora chova, saio”).\nTrocar concessiva por adversativa. Embora subordina (concessiva); mas coordena (adversativa) — relação lógica próxima, estrutura diferente.\nConfundir conformativa e comparativa com como. Como comparativo compara (“forte como um touro”); como conformativo indica conformidade (“fiz como mandaram”). O sentido decide.\nNão reconhecer as reduzidas. “Ao chegar”, “estudando”, “terminada a prova” são adverbiais reduzidas — sem conjunção, com verbo nominal.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html#exercícios",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html#exercícios",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "48.8 ✍️ Exercícios",
+    "text": "48.8 ✍️ Exercícios\n1. Classifique a adverbial: “Como estava cansado, dormi cedo.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Como estava cansado” é subordinada adverbial causal: exprime a causa de dormir cedo (o cansaço é o motivo). Aqui como tem valor causal (equivale a “porque”/“já que”), posicionado no início do período. A principal é “dormi cedo”.\n\n\n\n2. (Estilo ENEM) Em “Embora estivesse doente, foi trabalhar”, a oração destacada é:\n\ncausal;\ncondicional;\nconcessiva;\nconsecutiva;\ntemporal.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). “Embora estivesse doente” é adverbial concessiva: apresenta um obstáculo (a doença) que não impede o fato da principal (ir trabalhar) — quebra de expectativa. A conjunção embora é típica das concessivas.\n\n\n\n3. Classifique cada adverbial: (a) “Estudou tanto que passou”; (b) “Se estudares, passarás”; (c) “Chegou quando anoitecia”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\n“que passou” → consecutiva (consequência de estudar tanto; note o tanto na principal). (b) “Se estudares” → condicional (condição para passar). (c) “quando anoitecia” → temporal (o tempo em que chegou).\n\n\n\n\n4. Distinga causal de consecutiva: “Chorou porque estava triste” × “Estava tão triste que chorou”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm “Chorou porque estava triste”, a adverbial é causal: exprime a causa do choro (a tristeza é o motivo — explica por que chorou). Em “Estava tão triste que chorou”, a adverbial é consecutiva: exprime a consequência da tristeza intensa (o choro resulta dela), com o intensificador tão na principal. A causa explica; a consequência resulta.\n\n\n\n5. Identifique o tipo e a conjunção: “Fiz o trabalho conforme o professor orientou.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nTipo: adverbial conformativa (exprime conformidade — fez de acordo com a orientação). Conjunção: conforme (poderia ser segundo, como, consoante). A oração indica que a ação se realizou em conformidade com o que foi orientado.\n\n\n\n6. (Estilo FCC) Assinale o período com oração subordinada adverbial final:\n\nEstudo porque quero aprender;\nEstudo para que eu possa passar;\nEstudo, mas não decoro;\nQuando estudo, aprendo;\nEstudo tanto que me canso.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). “para que eu possa passar” é adverbial final (exprime a finalidade do estudo — o objetivo). As demais são causal (a), coordenada adversativa (c), temporal (d) e consecutiva (e). A conjunção para que é marca da final.\n\n\n\n7. Diferencie condicional de concessiva: “Se chover, ficamos em casa” × “Embora chova, sairemos”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nEm “Se chover, ficamos em casa”, a adverbial é condicional: a chuva é a condição que, ocorrendo, determina o ficar em casa. Em “Embora chova, sairemos”, a adverbial é concessiva: a chuva é um obstáculo que não impede a saída (contraria a expectativa). A condicional estabelece uma condição para o fato; a concessiva admite algo que poderia impedir o fato, mas não impede.\n\n\n\n8. Classifique a proporcional e explique: “À medida que envelhecia, ficava mais sábio.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“À medida que envelhecia” é adverbial proporcional: exprime uma proporção/ simultaneidade progressiva entre dois fatos — na proporção em que envelhecia, na mesma medida ficava mais sábio. As conjunções à medida que, à proporção que e a estrutura quanto mais… mais são típicas da proporcional.\n\n\n\n9. Transforme a reduzida em desenvolvida e classifique: “Ao chegar, cumprimentou todos.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nDesenvolvida: “Quando chegou, cumprimentou todos”. A reduzida de infinitivo “Ao chegar” (verbo em forma nominal, sem conjunção) converte-se em desenvolvida, com a conjunção temporal quando e verbo finito. É uma adverbial temporal (indica o tempo em que cumprimentou).\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “Na frase ‘Como não havia ninguém, saí’, a oração ‘Como não havia ninguém’ é adverbial comparativa.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nErrado. “Como não havia ninguém” é adverbial causal, não comparativa. Aqui como tem valor causal (equivale a “já que”/“porque”): a ausência de pessoas é a causa de sair. O como comparativo estabeleceria uma comparação (“forte como um touro”), o que não é o caso. A conjunção como pode ser causal, comparativa ou conformativa — o sentido decide.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-46-subordinadas-adverbiais.html#referências",
+    "href": "capitulos/cap-46-subordinadas-adverbiais.html#referências",
+    "title": "47  Orações subordinadas adverbiais",
+    "section": "48.9 📚 Referências",
+    "text": "48.9 📚 Referências\nAs orações adverbiais, sua classificação e os pares que se confundem seguem Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017). O valor lógico-argumentativo dos conectivos adverbiais (causa, condição, concessão) é central na coesão e na argumentação, tratadas por Koch (Koch, 2018) e retomadas no Volume 12. As orações reduzidas, que condensam as adverbiais, substantivas e adjetivas, são o tema do Capítulo 49.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.\n\n\nKOCH, Ingedore Grunfeld Villaça. A Coesão Textual. 23. ed. São Paulo: Contexto, 2018.",
     "crumbs": [
       "Volume 7 — Sintaxe II: Período Composto",
       "<span class='chapter-number'>47</span>  <span class='chapter-title'>Orações subordinadas adverbiais</span>"
@@ -4751,7 +5136,106 @@
     "href": "capitulos/cap-47-oracoes-reduzidas.html",
     "title": "48  Orações reduzidas",
     "section": "",
-    "text": "49 Orações reduzidas\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "49 Orações reduzidas\nNos três capítulos anteriores, estudamos as subordinadas em sua forma desenvolvida — com conjunção (ou relativo) e verbo em modo finito. Mas há uma forma mais enxuta de subordinar: a oração reduzida, que dispensa a conjunção e apresenta o verbo numa forma nominal (infinitivo, gerúndio ou particípio). “Ao chegar, cumprimentou todos” diz o mesmo que “Quando chegou, cumprimentou todos”, porém de modo mais condensado.\nEste capítulo unifica o que vimos: mostra como as substantivas, adjetivas e adverbiais podem apresentar-se reduzidas, ensina a classificá-las (pela forma nominal e pela função) e, sobretudo, a convertê-las em desenvolvidas — habilidade decisiva para determinar o tipo da oração, já que a reduzida não traz a conjunção que “entrega” a classificação. É também um recurso estilístico valioso para a redação, que ganha em concisão.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html#objetivos-de-aprendizagem",
+    "title": "48  Orações reduzidas",
+    "section": "49.1 🎯 Objetivos de aprendizagem",
+    "text": "49.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nReconhecer a oração reduzida pela forma nominal do verbo;\nClassificar as reduzidas por forma (infinitivo, gerúndio, particípio) e por função;\nConverter orações reduzidas em desenvolvidas e vice-versa;\nIdentificar o valor circunstancial das reduzidas adverbiais;\nEmpregar as reduzidas como recurso de concisão;\nAnalisar períodos com orações reduzidas.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html#o-que-é-uma-oração-reduzida",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html#o-que-é-uma-oração-reduzida",
+    "title": "48  Orações reduzidas",
+    "section": "49.2 O que é uma oração reduzida",
+    "text": "49.2 O que é uma oração reduzida\nOração reduzida é a subordinada que não é introduzida por conjunção ou pronome relativo e cujo verbo está numa forma nominal — infinitivo, gerúndio ou particípio. Ela “reduz” a oração desenvolvida, eliminando o conectivo e finitizando o verbo.\n\n\nDesenvolvida: “Quando terminei o trabalho, descansei.”\nReduzida: “Terminado o trabalho, descansei.” (reduzida de particípio)\n\nAmbas exprimem a mesma circunstância temporal; a reduzida é mais concisa.\n\nToda reduzida pode, em princípio, ser desenvolvida — e é justamente essa conversão que revela sua classificação (substantiva, adjetiva ou adverbial), pois a conjunção restaurada indica o tipo.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html#as-três-formas-das-reduzidas",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html#as-três-formas-das-reduzidas",
+    "title": "48  Orações reduzidas",
+    "section": "49.3 As três formas das reduzidas",
+    "text": "49.3 As três formas das reduzidas\nAs reduzidas classificam-se, primeiro, pela forma nominal do verbo, conforme a Figura 49.1.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 49.1: Os três tipos de oração reduzida, conforme a forma nominal do verbo — infinitivo, gerúndio e particípio —, cada um com a desenvolvida correspondente.\n\n\n\n\nReduzida de infinitivo (verbo em -r): “É bom viver” (= “que se viva”); “Ao sair, apague a luz” (= “quando saíres”).\nReduzida de gerúndio (verbo em -ndo): “Estudando, aprende-se” (= “se estudarmos”); “Saiu cantando” (= “enquanto cantava”).\nReduzida de particípio (verbo em -do): “Feito o trabalho, descansou” (= “depois que fez”); “Terminada a guerra, houve paz”.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html#reduzidas-substantivas-adjetivas-e-adverbiais",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html#reduzidas-substantivas-adjetivas-e-adverbiais",
+    "title": "48  Orações reduzidas",
+    "section": "49.4 Reduzidas substantivas, adjetivas e adverbiais",
+    "text": "49.4 Reduzidas substantivas, adjetivas e adverbiais\nAlém da forma, as reduzidas classificam-se pela função (como as desenvolvidas):\n\nSubstantivas reduzidas (geralmente de infinitivo): “É necessário agir” (= “que se aja” — subjetiva); “Quero vencer” (= “que eu vença” — objetiva direta).\nAdjetivas reduzidas (de infinitivo ou particípio): “Há contas a pagar” (= “que devem ser pagas”); “Homem acostumado ao trabalho” (= “que está acostumado”).\nAdverbiais reduzidas (de qualquer forma nominal): “Ao chegar, ligou” (temporal = “quando chegou”); “Estudando, passarás” (condicional = “se estudares”); “Terminada a prova, saíram” (temporal = “quando a prova terminou”).\n\n\n\n\n\n\n\nImportanteComo classificar uma reduzida: converta-a\n\n\n\nComo a reduzida não traz conjunção, o método é convertê-la em desenvolvida e observar a conjunção resultante:\n\n“Estudando muito, passou.” → converta: “Porque estudou muito” (causal) ou “Se estudasse muito” (condicional) — o contexto decide o valor.\n“Terminado o jogo, foram embora.” → “Quando terminou o jogo” (temporal).\n\nA forma nominal dá a forma (de infinitivo/gerúndio/particípio); a conversão revela a função (substantiva/adjetiva/adverbial e o subtipo).",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html#a-concisão-e-seus-riscos",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html#a-concisão-e-seus-riscos",
+    "title": "48  Orações reduzidas",
+    "section": "49.5 A concisão — e seus riscos",
+    "text": "49.5 A concisão — e seus riscos\nA reduzida é um recurso de concisão: diz o mesmo com menos palavras, e boa escrita a valoriza. Mas há um cuidado estilístico importante, sobretudo com o gerúndio:\n\n\n\n\n\n\nNotaO gerúndio mal empregado\n\n\n\nO gerúndio reduzido pode gerar ambiguidade ou o chamado “gerundismo”. Compare:\n\nAmbíguo: “Vi o menino saindo da escola.” (quem saía, eu ou o menino?)\n“Gerundismo” (a evitar): “Vou estar enviando o documento” (perífrase inútil; melhor: “Vou enviar” / “Enviarei”).\n\nA reduzida de gerúndio é ótima quando clara (“Saiu correndo”), mas exige atenção para não deixar o sujeito ambíguo nem alongar sem necessidade.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html#quadro-resumo",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html#quadro-resumo",
+    "title": "48  Orações reduzidas",
+    "section": "49.6 📋 Quadro-resumo",
+    "text": "49.6 📋 Quadro-resumo\n\n\n\n\n\n\n\n\n\nForma nominal\nMarca\nExemplo\nDesenvolvida\n\n\n\n\nInfinitivo\n-r\n“Ao sair, avise”\n“Quando saíres, avise”\n\n\nGerúndio\n-ndo\n“Estudando, aprende-se”\n“Se estudarmos, aprende-se”\n\n\nParticípio\n-do\n“Feita a tarefa, saiu”\n“Depois que fez a tarefa, saiu”\n\n\n\nFunções: substantivas (infinitivo), adjetivas (infinitivo/particípio), adverbiais (todas).\nEm uma linha: a oração reduzida subordina sem conjunção, com o verbo em forma nominal (infinitivo, gerúndio ou particípio); pode ser substantiva, adjetiva ou adverbial, e classifica-se convertendo-a em desenvolvida — um recurso de concisão a usar com cuidado (sobretudo o gerúndio).",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html#pegadinhas-e-erros-comuns",
+    "title": "48  Orações reduzidas",
+    "section": "49.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "49.7 ⚠️ Pegadinhas e erros comuns\n\nAchar que reduzida não pode ser classificada. Pode: converta-a em desenvolvida e observe a conjunção restaurada.\nConfundir a forma com a função. A forma é infinitivo/gerúndio/particípio; a função é substantiva/adjetiva/adverbial. São classificações independentes e complementares.\nDeixar o gerúndio ambíguo. “Vi a moça correndo” pode ter dois sujeitos — reescreva para clareza (“Vi a moça que corria” / “Enquanto eu corria, vi a moça”).\nCair no gerundismo. “Vou estar mandando” é perífrase inútil; prefira “Vou mandar”/ “Mandarei”.\nNão reconhecer a reduzida de particípio. “Terminada a aula”, “Feito o acordo” são reduzidas de particípio (valor temporal/causal), fáceis de passar despercebidas.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html#exercícios",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html#exercícios",
+    "title": "48  Orações reduzidas",
+    "section": "49.8 ✍️ Exercícios",
+    "text": "49.8 ✍️ Exercícios\n1. Identifique a forma nominal e classifique a reduzida: “Ao entrar na sala, todos se calaram.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nForma nominal: infinitivo (“entrar”, em -r), reduzida de infinitivo. Função: adverbial temporal (indica o tempo — “quando alguém entrou”). Convertendo em desenvolvida: “Quando (alguém) entrou na sala, todos se calaram”.\n\n\n\n2. (Estilo ENEM) A oração reduzida “Terminada a reunião, todos saíram” equivale, na forma desenvolvida, a:\n\nSe a reunião terminasse, todos sairiam;\nQuando a reunião terminou, todos saíram;\nEmbora a reunião terminasse, todos saíram;\nPara que a reunião terminasse, todos saíram;\nComo todos saíram, a reunião terminou.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). “Terminada a reunião” (reduzida de particípio) tem valor temporal e equivale a “Quando a reunião terminou”. As demais mudam o sentido (condicional, concessivo, final, causal invertido), que não corresponde ao valor temporal da reduzida.\n\n\n\n3. Classifique (forma e função): (a) “Estudando, aprende-se”; (b) “Há muito a fazer”; (c) “Quero vencer”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n\nreduzida de gerúndio, adverbial condicional (= “se estudarmos”). (b) reduzida de infinitivo, adjetiva (= “muito que se deve fazer”, caracteriza “muito”). (c) reduzida de infinitivo, substantiva objetiva direta (= “que eu vença”, objeto de quero).\n\n\n\n\n4. Converta em reduzida: “Quando cheguei em casa, encontrei todos dormindo.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nReduzida: “Ao chegar em casa, encontrei todos dormindo.” A oração desenvolvida temporal (“Quando cheguei”) converte-se em reduzida de infinitivo (“Ao chegar”), mais concisa, preservando o valor temporal. (Note que “dormindo” já é outra reduzida, de gerúndio, com valor adjetivo/predicativo.)\n\n\n\n5. Converta em desenvolvida e classifique: “Estudando muito, ele passou.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nDuas leituras possíveis conforme o contexto: causal — “Porque estudou muito, ele passou” (o estudo foi a causa); ou condicional/temporal — “Se estudasse muito, passaria” / “Enquanto estudava muito, passou”. No sentido mais provável (o estudo levou à aprovação), é adverbial causal. A reduzida de gerúndio admite mais de um valor, resolvido pelo contexto.\n\n\n\n6. (Estilo FCC) A oração reduzida em “Ele saiu sem se despedir” é:\n\nreduzida de gerúndio, temporal;\nreduzida de infinitivo, com valor adverbial;\nreduzida de particípio, causal;\ndesenvolvida condicional;\ncoordenada aditiva.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). “sem se despedir” é reduzida de infinitivo (despedir, em -r), com valor adverbial (de modo/concessivo, = “sem que se despedisse”). Não há gerúndio nem particípio, e a oração é subordinada reduzida, não coordenada.\n\n\n\n7. Reescreva evitando a ambiguidade do gerúndio: “Encontrei o professor saindo da biblioteca.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nA frase é ambígua (quem saía, eu ou o professor?). Desfazendo: se o professor saía — “Encontrei o professor que saía da biblioteca” (adjetiva) ou “Encontrei o professor quando ele saía da biblioteca”. Se eu saía — “Ao sair da biblioteca, encontrei o professor”. A reescrita explicita o sujeito do gerúndio, eliminando a dupla leitura.\n\n\n\n8. Identifique as reduzidas no período: “Terminado o expediente, saímos correndo para pegar o ônibus.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nHá duas reduzidas: (1) “Terminado o expediente” — reduzida de particípio, adverbial temporal (= “quando o expediente terminou”); (2) “correndo” — reduzida de gerúndio, adverbial de modo (= “de modo apressado”/“enquanto corríamos”). “para pegar o ônibus” é ainda uma reduzida de infinitivo com valor final.\n\n\n\n9. Explique por que “Vou estar enviando o relatório” deve ser evitado e como reescrevê-lo.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“Vou estar enviando” é um caso de gerundismo: usa uma perífrase (auxiliar + estar + gerúndio) desnecessária para exprimir uma ação futura simples, alongando sem acrescentar sentido. O ideal é a forma direta: “Vou enviar o relatório” ou “Enviarei o relatório”. Reserva-se o gerúndio para ações realmente em curso ou simultâneas, não para substituir o futuro simples.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “A oração ‘Feito o pagamento, a mercadoria será entregue’ é uma oração reduzida de particípio com valor condicional/ temporal.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCerto. “Feito o pagamento” é reduzida de particípio (feito, em -do), com valor adverbial condicional/temporal: equivale a “Depois que o pagamento for feito” (temporal) ou “Se o pagamento for feito” (condicional) a mercadoria será entregue. As reduzidas de particípio frequentemente exprimem esses valores, e a conversão em desenvolvida confirma a classificação.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-47-oracoes-reduzidas.html#referências",
+    "href": "capitulos/cap-47-oracoes-reduzidas.html#referências",
+    "title": "48  Orações reduzidas",
+    "section": "49.9 📚 Referências",
+    "text": "49.9 📚 Referências\nAs orações reduzidas, sua tipologia (por forma nominal e por função) e a conversão em desenvolvidas seguem Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017). As questões de concisão, ambiguidade do gerúndio e “gerundismo” são discutidas em manuais de redação e por Castilho (Castilho, 2010). A análise sintática integral, que reúne coordenação, subordinação e reduzidas, é o tema do Capítulo 50.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.",
     "crumbs": [
       "Volume 7 — Sintaxe II: Período Composto",
       "<span class='chapter-number'>48</span>  <span class='chapter-title'>Orações reduzidas</span>"
@@ -4762,7 +5246,106 @@
     "href": "capitulos/cap-48-analise-sintatica-integral.html",
     "title": "49  Análise sintática integral: método e prática",
     "section": "",
-    "text": "50 Análise sintática integral: método e prática\n\n\n\n\n\n\n\nNota\n\n\n\nCapítulo em preparação.",
+    "text": "50 Análise sintática integral: método e prática\nChegamos ao capítulo que integra tudo o que estudamos na sintaxe (Volumes 6 e 7). A análise sintática é a operação de identificar, numa frase, cada oração e cada termo, atribuindo-lhes sua função. Vimos as peças isoladamente — sujeito, predicado, objetos, adjuntos, orações coordenadas e subordinadas; agora aprendemos o método para analisá-las em conjunto, num período qualquer, por mais complexo que seja.\nEste capítulo não traz teoria nova: oferece um roteiro prático, passo a passo, e o aplica a exemplos progressivamente mais complexos. É um capítulo de método — o tipo de conteúdo que, dominado, transforma a análise sintática de um quebra-cabeça angustiante numa sequência ordenada de perguntas. Ao fim, você terá uma ferramenta para enfrentar qualquer período.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html#objetivos-de-aprendizagem",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html#objetivos-de-aprendizagem",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "50.1 🎯 Objetivos de aprendizagem",
+    "text": "50.1 🎯 Objetivos de aprendizagem\nAo final deste capítulo, você será capaz de:\n\nAplicar um roteiro sistemático de análise sintática;\nSegmentar um período em suas orações pelos verbos;\nClassificar cada oração (coordenada, subordinada e seu tipo);\nIdentificar a função de cada termo dentro de cada oração;\nIntegrar os conceitos dos volumes de sintaxe numa análise completa;\nResolver questões de análise sintática de bancas.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html#o-roteiro-da-análise",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html#o-roteiro-da-análise",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "50.2 O roteiro da análise",
+    "text": "50.2 O roteiro da análise\nA análise sintática segue uma ordem lógica, do maior para o menor. A Figura 50.1 apresenta os passos.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n \n \n \n \n \n \n\n\n\n\n\n\n\n\n\n\nFigura 50.1: O roteiro da análise sintática, do maior para o menor: das orações (pelos verbos) aos termos internos de cada uma (sujeito, predicado, complementos, adjuntos).\n\n\n\n\nConte os verbos (descontando locuções) para saber quantas orações há (Capítulo 38).\nClassifique o período: simples (uma oração) ou composto; se composto, veja se as orações são coordenadas (Capítulo 45) ou subordinadas (caps. 44–46), e de que tipo.\nEm cada oração, ache o verbo e, a partir dele, o sujeito (pergunte “quem?/ o quê?”) — Capítulo 39.\nClassifique o predicado (verbal, nominal, verbo-nominal) e ache os complementos (objeto direto, indireto, complemento nominal, agente da passiva) — caps. 38–40.\nIdentifique os termos acessórios (adjuntos adnominal e adverbial, aposto, vocativo, predicativos) — caps. 41–42.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html#análise-de-um-período-simples",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html#análise-de-um-período-simples",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "50.3 Análise de um período simples",
+    "text": "50.3 Análise de um período simples\nComecemos simples. “O velho pescador consertava as redes na praia.”\n\nVerbos: 1 (consertava) → 1 oração → período simples.\nSujeito: “quem consertava?” → o velho pescador (núcleo: pescador; adjuntos adnominais: o, velho). Sujeito simples.\nPredicado: “consertava as redes na praia” → núcleo consertava (verbo de ação) → predicado verbal.\nComplemento: consertava é VTD; objeto direto: as redes.\nAdjunto adverbial: na praia (lugar).",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html#análise-de-um-período-composto",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html#análise-de-um-período-composto",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "50.4 Análise de um período composto",
+    "text": "50.4 Análise de um período composto\nAgora um mais complexo. “Quando a chuva parou, as crianças, que estavam entediadas, saíram correndo para o quintal.”\n\nVerbos: parou, estavam, saíram, correndo (gerúndio — oração reduzida) → 4 orações → período composto (com subordinação).\n\nOração a oração:\n\n“Quando a chuva parou” → subordinada adverbial temporal (desenvolvida). Sujeito: a chuva; predicado verbal (parou, VI).\n“as crianças […] saíram correndo para o quintal” → oração principal. Sujeito: as crianças; predicado — saíram (ação) + correndo (adverbial reduzida de modo) + adjunto adverbial para o quintal (lugar/direção).\n“que estavam entediadas” → subordinada adjetiva explicativa (entre vírgulas; que = relativo, retoma as crianças). Dentro dela: que (sujeito), estavam (verbo de ligação), entediadas (predicativo do sujeito) → predicado nominal.\n“correndo” → subordinada adverbial reduzida de gerúndio (modo).\n\n\n\n\n\n\n\nImportanteDicas para não se perder\n\n\n\n\nSempre comece pelos verbos. Eles são o esqueleto: cada verbo (fora locuções) é uma oração.\nIdentifique as conjunções/relativos. Eles “entregam” o tipo da subordinada (quando = temporal; que + antecedente = adjetiva; que + “isto” = substantiva).\nAnalise cada oração como se fosse independente, achando seu sujeito e predicado.\nDeixe as reduzidas para o fim e converta-as mentalmente em desenvolvidas para classificá-las.\nCheque a pontuação: vírgulas em adjetivas (explicativa) e em adverbiais deslocadas dão pistas.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html#um-método-de-perguntas",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html#um-método-de-perguntas",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "50.5 Um método de perguntas",
+    "text": "50.5 Um método de perguntas\nNo fundo, toda a análise se resume a uma sequência de perguntas:\n\nQuantos verbos? → quantas orações.\nCada oração se liga à outra como igual (coordenação) ou dependente (subordinação)?\nQual o verbo? Quem pratica/de quem se declara? → sujeito.\nO verbo pede complemento? Com ou sem preposição? → OD/OI.\nO que sobra exprime circunstância, caracteriza um nome, explica um termo? → adjuntos, apostos, predicativos.\n\nFazer essas perguntas, na ordem, dissolve a complexidade aparente de qualquer período.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html#quadro-resumo",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html#quadro-resumo",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "50.6 📋 Quadro-resumo",
+    "text": "50.6 📋 Quadro-resumo\n\n\n\nPasso\nPergunta\nResultado\n\n\n\n\n1\nQuantos verbos?\nnúmero de orações\n\n\n2\nComo se ligam?\ncoordenação × subordinação (e tipos)\n\n\n3\nQual o verbo? Quem?\nsujeito\n\n\n4\nPede complemento?\nOD, OI, CN, agente da passiva\n\n\n5\nO que resta?\nadjuntos, aposto, vocativo, predicativo\n\n\n\nEm uma linha: analisa-se do maior ao menor — contar verbos (orações) → classificar o período (coordenação/subordinação) → em cada oração, achar verbo e sujeito → classificar predicado e complementos → identificar adjuntos, apostos e predicativos.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html#pegadinhas-e-erros-comuns",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html#pegadinhas-e-erros-comuns",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "50.7 ⚠️ Pegadinhas e erros comuns",
+    "text": "50.7 ⚠️ Pegadinhas e erros comuns\n\nAnalisar termos antes de segmentar as orações. Primeiro divida o período em orações (pelos verbos); só então analise dentro de cada uma.\nContar locução verbal como duas orações. “Vai viajar” = uma oração (um núcleo verbal).\nNão usar as conjunções como pistas. A conjunção/relativo revela o tipo da subordinada — não a ignore.\nEsquecer as reduzidas. Verbos em forma nominal (infinitivo, gerúndio, particípio) também formam orações — converta-as para classificar.\nConfundir sujeito posposto com objeto. “Faltam dez dias”: dez dias é sujeito (posposto), não objeto — cheque a concordância.",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html#exercícios",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html#exercícios",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "50.8 ✍️ Exercícios",
+    "text": "50.8 ✍️ Exercícios\n1. Analise o período simples: “As andorinhas voltaram cedo neste ano.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n1 verbo (voltaram) → 1 oração → período simples. Sujeito: as andorinhas (núcleo andorinhas; adjunto adnominal as), sujeito simples. Predicado: “voltaram cedo neste ano” → núcleo voltaram (verbo de ação, VI) → predicado verbal. Adjuntos adverbiais: cedo (tempo/modo) e neste ano (tempo).\n\n\n\n2. (Estilo ENEM) No período “Ele afirmou que viria, mas não apareceu”, há:\n\numa oração;\nduas orações coordenadas;\ntrês orações: uma principal, uma subordinada substantiva e uma coordenada;\ntrês orações subordinadas;\nduas orações subordinadas adjetivas.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (c). Três verbos (afirmou, viria, apareceu) → três orações: (1) “Ele afirmou” — principal; (2) “que viria” — subordinada substantiva objetiva direta (objeto de afirmou); (3) “mas não apareceu” — coordenada sindética adversativa. O período combina subordinação e coordenação.\n\n\n\n3. Segmente em orações e conte-as: “Se você estudar e praticar, terá sucesso quando fizer a prova.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nVerbos: estudar, praticar, terá, fizer → 4 orações: (1) “Se você estudar” — subordinada adverbial condicional; (2) “e praticar” — coordenada aditiva (à condicional); (3) “terá sucesso” — oração principal; (4) “quando fizer a prova” — subordinada adverbial temporal. Período composto por coordenação e subordinação.\n\n\n\n4. Analise a oração “O juiz considerou o réu culpado”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n1 oração (período simples). Sujeito: o juiz. Predicado: verbo-nominal — núcleos considerou (verbo de ação) e culpado (predicativo do objeto). Complemento: o réu = objeto direto de considerou. Culpado = predicativo do objeto (caracteriza o réu por meio do verbo).\n\n\n\n5. Classifique todas as orações: “Espero que você venha, porque preciso de ajuda.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nTrês orações: (1) “Espero” — principal; (2) “que você venha” — subordinada substantiva objetiva direta (objeto de espero; cabe “isto”); (3) “porque preciso de ajuda” — subordinada adverbial causal (a causa da espera/do pedido). Período composto por subordinação.\n\n\n\n6. (Estilo FCC) No período “A casa onde moro, que é antiga, precisa de reformas”, identifique corretamente as subordinadas:\n\nduas substantivas;\nduas adjetivas (uma restritiva e uma explicativa);\numa adjetiva e uma adverbial;\nduas adverbiais;\numa substantiva e uma adjetiva.\n\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nAlternativa (b). Há duas adjetivas: (1) “onde moro” — adjetiva restritiva (sem vírgula, delimita a casa; onde = relativo de lugar); (2) “que é antiga” — adjetiva explicativa (entre vírgulas, acrescenta informação; que = relativo). Ambas caracterizam o antecedente a casa. A oração principal é “A casa […] precisa de reformas”.\n\n\n\n7. Analise: “Terminada a aula, os alunos, cansados, foram para casa.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nVerbos: terminada (particípio — reduzida), foram → 2 orações. (1) “Terminada a aula” — subordinada adverbial temporal reduzida de particípio (= “quando a aula terminou”); sujeito: a aula. (2) “os alunos […] foram para casa” — oração principal; sujeito: os alunos; predicado verbal (foram, com adjunto adverbial para casa de lugar). Cansados = predicativo do sujeito (estado dos alunos) — na verdade, tornando o predicado verbo-nominal.\n\n\n\n8. Identifique a função de “de que ele venha” em “Tenho esperança de que ele venha”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\n“de que ele venha” é subordinada substantiva completiva nominal: completa o nome abstrato esperança (esperança de quê?), com a preposição de. Teste: “Tenho esperança disto” — disto é complemento nominal de esperança. Como completa um nome (não um verbo), é completiva nominal, não objetiva indireta.\n\n\n\n9. Faça a análise completa de “Os meninos brincavam alegremente no parque quando começou a chover”.\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nVerbos: brincavam, começou (a chover — locução com verbo impessoal) → 2 orações. (1) “Os meninos brincavam alegremente no parque” — oração principal; sujeito: os meninos; predicado verbal (brincavam); adjuntos adverbiais: alegremente (modo), no parque (lugar). (2) “quando começou a chover” — subordinada adverbial temporal; começou a chover é locução com verbo impessoal (chover), logo oração sem sujeito.\n\n\n\n10. (Estilo Cebraspe — Certo/Errado) Julgue: “No período ‘É provável que chova hoje’, a oração ‘que chova hoje’ é subordinada substantiva subjetiva.”\n\n\n\n\n\n\nDicaSolução\n\n\n\n\n\nCerto. “que chova hoje” exerce a função de sujeito da oração principal “É provável” → subordinada substantiva subjetiva. Teste: “Isto é provável” — isto é o sujeito. Após expressões impessoais como “é provável/certo/necessário que”, a substantiva é subjetiva. (Note que, dentro dela, chova é verbo impessoal — a oração “que chova hoje” é internamente sem sujeito, mas, como um todo, é sujeito da principal.)",
+    "crumbs": [
+      "Volume 7 — Sintaxe II: Período Composto",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
+    ]
+  },
+  {
+    "objectID": "capitulos/cap-48-analise-sintatica-integral.html#referências",
+    "href": "capitulos/cap-48-analise-sintatica-integral.html#referências",
+    "title": "49  Análise sintática integral: método e prática",
+    "section": "50.9 📚 Referências",
+    "text": "50.9 📚 Referências\nO método de análise sintática integra os conceitos de Bechara (Bechara, 2009) e Cunha & Cintra (Cunha; Cintra, 2017) apresentados nos Volumes 6 e 7. Abordagens que propõem análises alternativas — questionando categorias tradicionais — estão em Perini (Perini, 2010) e Castilho (Castilho, 2010). Com este capítulo encerra-se a sintaxe do período; o Volume 8 trata da sintaxe de relação — concordância, regência e colocação.\n\n\nBECHARA, Evanildo. Moderna Gramática Portuguesa. 37. ed. Rio de Janeiro: Nova Fronteira, 2009.\n\n\nCASTILHO, Ataliba Teixeira de. Nova Gramática do Português Brasileiro. São Paulo: Contexto, 2010.\n\n\nCUNHA, Celso; CINTRA, Luís F. Lindley. Nova Gramática do Português Contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2017.\n\n\nPERINI, Mário A. Gramática do Português Brasileiro. São Paulo: Parábola, 2010.",
     "crumbs": [
       "Volume 7 — Sintaxe II: Período Composto",
       "<span class='chapter-number'>49</span>  <span class='chapter-title'>Análise sintática integral: método e prática</span>"
