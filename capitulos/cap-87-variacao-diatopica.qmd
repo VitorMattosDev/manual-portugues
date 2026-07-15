@@ -4,22 +4,910 @@ title: "Variação diatópica: os falares do Brasil"
 
 # Variação diatópica: os falares do Brasil {#sec-cap-87}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 14 — Variação Linguística e Sociolinguística.
+> "O Brasil fala uma língua só — e não fala igual em lugar nenhum."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O @sec-cap-86 estabeleceu que a variação é **ordenada**. Este capítulo pega um dos quatro
+eixos — o **espaço** — e o percorre. É o eixo mais visível de todos: qualquer brasileiro
+identifica, em segundos, que o interlocutor "não é daqui", mesmo sem saber dizer por quê.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Essa percepção imediata merece atenção, porque ela é ao mesmo tempo **correta** e
+**enganosa**. Correta: as diferenças regionais existem, são sistemáticas e podem ser mapeadas.
+Enganosa: o ouvinte crê estar percebendo apenas o **lugar** do falante, quando está
+percebendo, misturados, o lugar, a classe, a escolaridade e a situação. O "sotaque" que se
+julga geográfico é quase sempre um feixe de coisas.
+
+Há ainda um segundo mal-entendido, mais teimoso. Quando um paulistano ouve um nordestino,
+tende a pensar: *ele* tem sotaque. Mas sotaque não é propriedade que alguns falantes têm e
+outros não — é uma **relação**. Todo falante tem sotaque; o seu próprio é apenas o que você
+não ouve, porque é a régua com que mede os outros. Não existe português brasileiro sem marca
+regional, e o capítulo inteiro decorre disso.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** variação diatópica, dialeto, falar e isoglossa;
+- **Reconstituir** a divisão dialetal do Brasil proposta por Nascentes e seus limites;
+- **Identificar** os principais traços fonéticos, lexicais e morfossintáticos regionais do PB;
+- **Explicar** por que o PB é dialetalmente mais homogêneo que línguas europeias;
+- **Distinguir** dialetologia de sociolinguística quanto a método e objeto;
+- **Criticar** a noção de "sotaque neutro" e o preconceito que ela carrega.
+
+## Dialeto, falar, isoglossa
+
+Comecemos pelo vocabulário, que na tradição brasileira é menos estável do que parece.
+
+- **Dialeto** — variedade de uma língua associada a uma **região**, com traços próprios de
+  pronúncia, léxico e gramática, mas **inteligível** para os falantes das demais variedades.
+- **Falar** — termo preferido pela dialetologia brasileira, justamente porque *dialeto*
+  carregava (e ainda carrega, no uso corrente) uma conotação pejorativa de "língua menor".
+  Nascentes falava em **falares**, não em dialetos, e a escolha era deliberada.
+- **Isoglossa** — a **linha** traçada num mapa separando as áreas em que ocorre um traço
+  daquelas em que não ocorre. Uma isoglossa para *macaxeira*, outra para o "r" retroflexo,
+  outra para "tu".
+
+::: {.callout-important}
+## Dialeto e língua: a fronteira não é linguística
+Uma pergunta que sempre aparece: se dialetos são variedades da mesma língua, **onde acaba o
+dialeto e começa a língua**?
+
+A resposta desconforta quem espera um critério técnico: **não há critério linguístico
+suficiente**. O candidato óbvio — a inteligibilidade mútua — falha nos dois sentidos:
+
+- **Falha por excesso**: o dinamarquês e o norueguês são mutuamente inteligíveis em larga
+  medida, e são contados como **línguas distintas**;
+- **Falha por falta**: os "dialetos" do chinês (mandarim, cantonês) são mutuamente
+  **ininteligíveis** na fala, e são contados como **dialetos** de uma língua só.
+
+O que decide, nos dois casos, não é a distância linguística — é a **fronteira política** e a
+**tradição escrita**. Daí a formulação célebre, atribuída a Max Weinreich: *uma língua é um
+dialeto com exército e marinha*.
+
+**A consequência para nós**: chamar o galego de língua ou de dialeto do português
+(@sec-cap-92) é uma decisão **política**, não uma descoberta. E chamar o falar caipira de
+"português errado" não é nem uma coisa nem outra — é só preconceito (@sec-cap-91).
+:::
+
+## Como se estuda: a dialetologia
+
+A **dialetologia** é a disciplina que descreve e mapeia a variação no espaço. É bem mais
+antiga que a sociolinguística — nasce na Europa do fim do século XIX — e tem método próprio.
+
+O produto característico é o **atlas linguístico**: um conjunto de mapas, cada um registrando
+a distribuição geográfica de um traço. Para montá-lo, aplica-se um **questionário**
+padronizado a informantes selecionados em cada localidade de uma rede de pontos.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Dialetologia × sociolinguística
+As duas estudam variação, mas com recortes diferentes — e a distinção é matéria frequente de
+prova.
+
+| | **Dialetologia** | **Sociolinguística** |
+|---|---|---|
+| **Eixo** | espaço (diatópico) | grupo e situação (diastrático/diafásico) |
+| **Informante clássico** | idoso, rural, pouco escolarizado, nativo do lugar | amostra estratificada por classe, idade, sexo, escolaridade |
+| **Produto** | atlas, mapas, isoglossas | regras variáveis, percentuais, probabilidades |
+| **Pergunta** | **onde** se diz o quê? | **quem** diz o quê, **quando**, e com que probabilidade? |
+| **Método** | questionário aplicado ponto a ponto | entrevista gravada, análise quantitativa |
+
+O informante clássico da dialetologia não era escolhido por acaso: buscava-se o falante
+**menos exposto** à escola e à mídia, para captar o falar local **conservado**. A
+sociolinguística inverte isso — quer justamente a amostra que represente a comunidade
+**inteira**, com toda a sua estratificação.
+
+**Hoje as duas convergem**: o ALiB (adiante) é um atlas que estratifica os informantes por
+idade, sexo e escolaridade, e trabalha também nas capitais. É dialetologia com método
+sociolinguístico — o que se chama **geossociolinguística**.
+:::
+
+### A dialetologia no Brasil: três fundadores e um atlas
+
+O estudo dos falares brasileiros tem marcos bem definidos:
+
+- **Amadeu Amaral**, *O Dialeto Caipira* (1920) [@amaral1920] — descreve o falar do interior
+  paulista e é a primeira descrição sistemática de um falar brasileiro. Amaral acreditava
+  estar registrando algo em vias de desaparecer; errou no prognóstico, acertou na descrição.
+- **Antenor Nascentes**, *O Linguajar Carioca* (1922; 2ª ed. 1953) [@nascentes1953] — além de
+  descrever o falar do Rio, propõe a **divisão dialetal do Brasil** que se tornaria canônica.
+- **Mário Marroquim**, *A Língua do Nordeste* (1934) — descreve os falares de Alagoas e
+  Pernambuco.
+- **ALiB — Atlas Linguístico do Brasil** [@cardoso2014] — projeto nacional iniciado em 1996,
+  com os dois primeiros volumes publicados em 2014. Rede de **250 localidades**, mais de 1.100
+  informantes, estratificados por idade, sexo e escolaridade. É o retrato mais completo que
+  temos.
+
+## A divisão de Nascentes
+
+A proposta de Nascentes [@nascentes1953] é a referência obrigatória — e a que aparece em
+prova. Ele separa o país em **dois grandes grupos**, subdivididos em **seis falares**, mais
+uma área que não classifica.
+
+::: {#fig-falares-brasil}
+
+```{.tikz}
+%%| filename: falares-brasil
+%%| alt: Mapa esquemático, não cartográfico, da divisão dos falares do Brasil proposta por Antenor Nascentes. O grupo do Norte, em azul, reúne o falar amazônico e o falar nordestino, e tem como traço definidor as vogais pretônicas abertas, como em pegar e coração pronunciados com e aberto e o aberto. O grupo do Sul, em vermelho, reúne o falar baiano, o falar fluminense, o falar mineiro e o falar sulista, e tem como traço definidor as vogais pretônicas fechadas. Uma linha divisória tracejada separa os dois grupos. Ao centro há uma área tracejada em cinza que Nascentes deixou sem classificação, chamada território incaracterístico, por ser de povoamento recente e de origens misturadas. Uma nota abaixo lembra que o esquema é didático e não cartográfico, e que as fronteiras reais não são linhas, mas faixas de transição, cada traço tendo a sua própria isoglossa.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  fal/.style={rounded corners=2pt, draw, align=center, inner sep=3pt, font=\scriptsize},
+  norte/.style={fal, draw=manualblue, fill=manualblue!12},
+  sul/.style={fal, draw=manualred, fill=manualred!10},
+  inc/.style={fal, draw=manualgray, fill=manualgray!12, densely dashed},
+  cx/.style={rounded corners=2pt, draw, align=left, font=\scriptsize, inner sep=4pt, text width=46mm},
+]
+  % contorno esquemático do país
+  \draw[draw=manualgray, rounded corners=14pt, fill=manualgray!4]
+    (-3.4,3.3) -- (3.2,3.0) -- (3.6,0.2) -- (1.8,-2.4) -- (0.2,-3.6)
+    -- (-1.9,-2.6) -- (-3.0,0.4) -- cycle;
+
+  % divisa Norte / Sul
+  \draw[very thick, draw=manualgreen, densely dashed] (-3.15,0.8) -- (3.5,1.15);
+  \node[font=\scriptsize, text=manualgreen, anchor=west] at (3.55,1.5) {divisa};
+
+  % --- grupo NORTE
+  \node[font=\scriptsize, text=manualblue] at (-1.7,3.0) {\textbf{grupo do NORTE}};
+  \node[norte] (ama) at (-1.6,2.3) {\textbf{AMAZÔNICO}};
+  \node[norte] (nor) at (1.9,2.2) {\textbf{NORDESTINO}};
+
+  % --- grupo SUL
+  \node[sul] (bai) at (2.2,0.2) {\textbf{BAIANO}};
+  \node[sul] (flu) at (1.9,-1.2) {\textbf{FLUMINENSE}};
+  \node[sul] (min) at (0.4,-0.6) {\textbf{MINEIRO}};
+  \node[sul] (sli) at (-0.2,-2.6) {\textbf{SULISTA}};
+  \node[inc] (inc) at (-1.7,-1.0) {território\\\textbf{incaracterístico}};
+
+  % legendas
+  \node[cx, draw=manualblue, fill=manualblue!8] at (-6.6,2.2)
+    {\textbf{NORTE} — pretônicas \textbf{abertas}\\
+     {\scriptsize \emph{pegar}, \emph{coração}: \emph{e} e \emph{o} \textbf{abertos}}};
+  \node[cx, draw=manualred, fill=manualred!8] at (-6.6,0.7)
+    {\textbf{SUL} — pretônicas \textbf{fechadas}\\
+     {\scriptsize \emph{pegar}, \emph{coração}: \emph{e} e \emph{o} \textbf{fechados}}};
+  \node[cx, draw=manualgray, fill=manualgray!8] at (-6.6,-1.1)
+    {\textbf{Incaracterístico} — povoamento\\recente, origens misturadas:\\Nascentes não classificou};
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=86mm] at (-1.4,-4.6)
+    {Esquema \textbf{didático}, não cartográfico. As fronteiras reais não são linhas:\\
+     são \textbf{faixas de transição}, e cada traço tem a sua própria isoglossa.};
+\end{tikzpicture}
+```
+
+A divisão dialetal do Brasil segundo Nascentes (1953): dois grupos, seis falares e um
+território incaracterístico. O critério primário é a qualidade das vogais pretônicas.
+
+:::
+
+O critério que Nascentes usa para a divisão maior é **fonético**: a qualidade das **vogais
+pretônicas** (as vogais átonas que vêm antes da sílaba tônica).
+
+| Grupo | Falares | Traço definidor | Exemplo |
+|---|---|---|---|
+| **Norte** | amazônico, nordestino | pretônicas **abertas** | *pegar* com [ɛ], *coração* com [ɔ] |
+| **Sul** | baiano, fluminense, mineiro, sulista | pretônicas **fechadas** | *pegar* com [e], *coração* com [o] |
+
+::: {.callout-note}
+## O "território incaracterístico"
+Nascentes deixou grande parte do Centro-Oeste e do interior sem classificar, chamando-a
+**território incaracterístico**. A razão: povoamento **recente** e por **origens misturadas**,
+sem tempo de sedimentar um falar próprio.
+
+**A expressão envelheceu mal**, e vale saber por quê. Ela sugere que o lugar não tem
+característica — o que é linguisticamente impossível: **todo** lugar tem um falar. O que
+faltava não era característica; era **descrição**, e a rede de pontos de Nascentes mal cobria
+a região.
+
+Hoje o ALiB descreve essas áreas, e Brasília — cidade fundada em 1960, com população vinda do
+país inteiro — tornou-se um laboratório: um falar **novo** se formando, à vista, a partir da
+mistura. É o oposto de "incaracterístico".
+:::
+
+::: {.callout-important}
+## Os limites da divisão de Nascentes — o que a prova cobra
+Saber a divisão é o mínimo; saber **criticá-la** é o que distingue uma boa resposta.
+
+1. **A base empírica é frágil.** Nascentes trabalhou em grande parte com dados **indiretos** —
+   literatura regional, relatos, sua própria intuição —, não com uma rede sistemática de
+   informantes.
+2. **Um traço só não faz um falar.** A divisão maior repousa essencialmente na abertura das
+   pretônicas. Outros traços recortam o país de maneiras **incompatíveis** com essa linha: o
+   "r" retroflexo, por exemplo, cobre uma área (interior paulista, Triângulo Mineiro, Goiás)
+   que atravessa a divisa Norte/Sul.
+3. **Fronteiras não são linhas.** São **faixas de transição**, largas, onde os traços se
+   misturam. Falantes de fronteira usam ora um, ora outro.
+4. **O país mudou.** Sessenta anos de urbanização, migração interna e televisão redesenharam o
+   mapa. O falar caipira de Amaral recuou; o nordestino se instalou em São Paulo.
+
+**Mas ela continua sendo ensinada** — e com razão. É a primeira tentativa de conjunto, é
+historicamente decisiva, e o eixo Norte/Sul que ela captou **existe**: a diferença de
+pretônicas é real e ainda hoje é o traço que melhor separa as duas metades do país.
+:::
+
+## Os traços: o que de fato varia
+
+A divisão de Nascentes é o mapa. Vejamos o território — os traços concretos, organizados pelos
+níveis de análise que o manual percorreu nos volumes anteriores.
+
+### Variação fonética — a mais perceptível
+
+É o nível em que o "sotaque" mora, e o mais resistente à escola.
+
+**O (r) em final de sílaba** — a variável mais estudada do PB. Em *porta*, *mar*, *cantar*:
+
+| Variante | Realização | Onde predomina |
+|---|---|---|
+| **Fricativa velar/uvular** | [x], [ʁ] — "o r carioca" | Rio de Janeiro, Nordeste, Norte |
+| **Tepe** | [ɾ] — vibrante simples | interior paulista, parte do Sul |
+| **Retroflexo** | [ɻ] — "o r caipira" | interior de SP, sul de MG, GO, MT |
+| **Zero** (apagamento) | *cantar* → "cantá" | **todo o país**, sobretudo no infinitivo |
+
+Note o último caso, que costuma surpreender: o apagamento do "r" final de **infinitivo** ("vou
+cantá", "pra comê") não é regional — é **geral** no PB falado, inclusive entre falantes
+escolarizados em situação informal. É variação **diastrática e diafásica**, não diatópica.
+
+**A palatalização de /t/ e /d/ antes de [i]** — *tia* → [ˈt͡ʃiɐ], *dia* → [ˈd͡ʒiɐ]:
+
+- **Palatalizam**: Rio, Minas, Nordeste, Norte, boa parte de São Paulo — a **maioria** do país;
+- **Não palatalizam**: Sul (RS, SC, parte do PR) e áreas do interior nordestino, onde se diz
+  [ˈtiɐ], [ˈdiɐ].
+
+Este é um caso instrutivo de traço **em expansão**: a palatalização vem ganhando terreno,
+inclusive em áreas tradicionalmente não palatalizantes, por prestígio da fala carioca e
+paulista da mídia.
+
+**O (s) em final de sílaba** — em *mesmo*, *pasta*, *dois*:
+
+- **Chiante** [ʃ], [ʒ] — "mêshmo", "pashta": Rio, Belém, Florianópolis, parte de Recife;
+- **Alveolar** [s], [z] — "mesmo", "pasta": São Paulo, Sul, Minas, a maior parte do país.
+
+O chiamento carioca tem uma explicação histórica saborosa: consolida-se após 1808, com a
+chegada da corte portuguesa ao Rio — é um traço **lisboeta** transplantado (@sec-cap-89).
+
+**As vogais pretônicas** — o critério de Nascentes:
+
+- *menino*: [e] no Sul, [ɛ] no Norte;
+- *coração*: [o] no Sul, [ɔ] no Norte.
+
+### Variação lexical — a mais divertida, e a mais superficial
+
+É o nível que rende as listas de internet, e o que os falantes mais notam. Também é o menos
+estruturante: um item de vocabulário se aprende num dia; um sistema fonológico, não.
+
+| Conceito | Variantes regionais |
+|---|---|
+| *Manihot esculenta* | **mandioca** (SP, Sul) · **aipim** (RJ, Sul) · **macaxeira** (NE, N) |
+| *Citrus reticulata* | **mexerica** (SP, MG) · **bergamota** (RS) · **tangerina** (RJ) · **mimosa** (interior) · **poncã** |
+| Semáforo | **sinal** (RJ) · **farol** (SP, BA) · **sinaleira** (RS, PR) · **semáforo** (formal) |
+| Pão francês | **pão francês** (SP) · **pão de sal** (MG, NE) · **cacetinho** (RS) · **pão careca** (parte do NE) |
+| Sanduíche de queijo e presunto | **misto-quente** (geral) · **bauru** (SP) · **americano** |
+| Fila | **fila** (geral) · **bicha** (uso antigo no Brasil, hoje evitado; corrente em Portugal) |
+
+::: {.callout-note}
+## O léxico regional e a prova
+Questões de ENEM e de concurso raramente cobram a lista ("o que é *cacetinho*?"). Cobram o
+**raciocínio**: dado um texto com marca regional, identificar **qual variedade** está
+representada e **por que** o autor a usou.
+
+E a resposta quase nunca é "para caracterizar a região". É para produzir um **efeito**:
+autenticidade, humor, distância crítica, denúncia. Guimarães Rosa não escreve o falar do
+sertão para documentá-lo — escreve para **construir um mundo** que só existe naquela língua.
+:::
+
+### Variação morfossintática — a mais reveladora
+
+É o nível que menos se percebe e mais diz, porque atinge a **gramática**, não o adorno.
+
+**(a) O sistema de tratamento — *tu* × *você***
+
+Talvez a variável morfossintática mais complexa do PB:
+
+| Área | Forma | Concordância |
+|---|---|---|
+| Sudeste (SP, MG, ES) | **você** | "você fala" |
+| Rio de Janeiro | *tu* **e** *você* (alternam) | "tu fala" (sem -s) |
+| Sul (RS) | **tu** | "tu fala" ~ "tu falas" (o -s varia, e é socialmente marcado) |
+| Norte/Nordeste (Belém, Maranhão) | **tu** | "tu falas" — a concordância **plena** é mais conservada |
+
+Note um detalhe: mesmo o paulista que só usa *você* diz "**Fala** a verdade!" — forma de **tu**
+—, e não "Fale a verdade!". Os paradigmas se misturaram, e o PB tem hoje um sistema
+**híbrido**.
+
+**(b) A concordância verbal com *nós* × *a gente***
+
+"Nós vamos" × "a gente vai" × "nós vai". A forma *a gente* — gramaticalmente 3ª pessoa, mas
+semanticamente 1ª plural — avança no país inteiro; é mudança **em curso**, não variação
+estável (@sec-cap-86).
+
+**(c) O gerúndio × o infinitivo preposicionado**
+
+"Estou **fazendo**" (Brasil, todo ele) × "Estou **a fazer**" (Portugal). É a diferença PB/PE
+mais citada — tema do @sec-cap-89 —, e **não** é variação interna ao Brasil: aqui o gerúndio é
+geral.
+
+**(d) O objeto direto anafórico**
+
+"Eu **o** vi" (norma-padrão) × "Eu vi **ele**" (PB falado geral) × "Eu vi ∅" (objeto nulo).
+Também não é regional: é **diastrático e diafásico**, e cobre o país todo.
+
+::: {.callout-important}
+## O erro clássico: tomar por diatópico o que é diastrático
+Este é o ponto que mais separa a resposta boa da medíocre, e vale fixar com força.
+
+Muitos traços que o senso comum atribui à **região** são, na verdade, de
+**classe/escolaridade** — e existem em todas as regiões:
+
+| Traço | O que o senso comum diz | O que é de fato |
+|---|---|---|
+| "nós **foi**" | "é do interior / do Nordeste" | **diastrático** — baixa escolaridade, em **todo** o país, inclusive na periferia de SP e do Rio |
+| "os **menino**" | "é do Norte" | **diastrático** — regra variável nacional (@sec-cap-86) |
+| "vou **cantá**" | "é do Sul / do interior" | **diafásico** — informalidade, em **todos** os falantes |
+| "eu vi **ele**" | "é de pouca escola" | **diastrático e diafásico** — praticamente **todos** os brasileiros dizem, inclusive doutores |
+| *macaxeira* | "é do Nordeste" | **diatópico de verdade** — este sim |
+| "r" retroflexo | "é do interior paulista" | **diatópico de verdade** — mas com carga **social** sobreposta |
+
+**A regra prática**: se o traço aparece em **todas** as regiões e varia conforme **quem fala**
+ou **quando fala**, não é diatópico. Só é diatópico o que se distribui por **território** — e
+mesmo esse, quase sempre, vem com carga social por cima. O "r" caipira é geográfico **e**
+estigmatizado; as duas coisas juntas.
+:::
+
+## Por que o Brasil é tão homogêneo
+
+Aqui está o fato que mais surpreende quem compara o Brasil à Europa, e que rende boas questões
+dissertativas.
+
+O Brasil tem 8,5 milhões de km² e mais de 200 milhões de falantes — e, apesar disso, um gaúcho
+e um paraense **se entendem sem esforço**. Compare-se com a Itália, que cabe 28 vezes no
+Brasil e onde os dialetos tradicionais do Norte e do Sul são mutuamente **ininteligíveis**. Ou
+com a Alemanha, ou com a China.
+
+Por que a diferença? Não há uma causa única; há um feixe:
+
+1. **Tempo curto.** Os dialetos europeus tiveram **mil e quinhentos anos** para divergir a
+   partir do latim (@sec-cap-92). O português está no Brasil há **cinco séculos** — pouco, em
+   escala linguística.
+2. **Origem comum e tardia.** O português chegou aqui já **relativamente unificado**, de uma
+   metrópole pequena e centralizada — ao contrário do latim, que se espalhou por um império e
+   se fragmentou com ele.
+3. **Mobilidade interna intensa.** Bandeiras, ciclos econômicos (cana, ouro, café, borracha) e
+   sobretudo as **migrações internas** do século XX — o êxodo nordestino para o Sudeste, a
+   marcha para o Centro-Oeste — misturaram continuamente as populações. Dialeto se forma com
+   **isolamento**; o Brasil teve pouco.
+4. **Escolarização e mídia nacionais.** Uma escola de currículo nacional e um rádio e uma
+   televisão de alcance continental, com norma de fala relativamente uniformizada, atuaram
+   como força **niveladora** ao longo do século XX.
+5. **A base comum não europeia.** As línguas indígenas e africanas em contato influenciaram o
+   PB de maneira relativamente **difusa** pelo território — pelo léxico, sobretudo —, em vez de
+   criar bolsões divergentes (@sec-cap-94).
+
+::: {.callout-note}
+## A homogeneidade é relativa — e o eixo real é outro
+Cuidado com o exagero na direção oposta. Dizer que o PB é homogêneo **no eixo geográfico** não
+é dizer que é homogêneo.
+
+O PB é **muito** heterogêneo — só que o eixo principal da heterogeneidade **não é o espaço**: é
+a **classe e a escolaridade**. A distância entre a fala de um doutor e a de um trabalhador não
+escolarizado **da mesma cidade** é maior, gramaticalmente, que a distância entre dois doutores
+de Porto Alegre e de Belém.
+
+Esse é um dos achados mais consistentes da sociolinguística brasileira, e sua consequência é
+política: a desigualdade linguística do Brasil **espelha** a desigualdade social. Não é o mapa
+que nos divide — é a estrutura de classes (@sec-cap-91) [@bagno2007].
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A questão inevitável deste capítulo: **existe um falar "correto"** — um que seja o português
+brasileiro legítimo, do qual os outros seriam desvios?
+
+**Não, e a evidência é interna.** A norma-padrão escrita brasileira (@sec-cap-03) é
+**supra-regional**: um texto formal de Manaus e um de Porto Alegre são, na escrita,
+praticamente indistinguíveis. Isso ocorre porque a norma-padrão é uma construção **escrita**,
+não o registro da fala de lugar nenhum.
+
+Não existe, portanto, uma **pronúncia** padrão nacional. Nenhuma norma oficial brasileira
+prescreve como pronunciar o "r" de *porta*, e todas as realizações — carioca, paulista,
+retroflexa — são igualmente aceitas na fala culta **de suas regiões**. Um locutor de Porto
+Alegre não fala como um do Rio, e nenhum dos dois está errado.
+
+**A ficção do "sotaque neutro"** merece ser desmontada com nome e sobrenome. O que a indústria
+da mídia chama de "neutro" é, concretamente, **o falar culto do eixo Rio–São Paulo** — que é
+tão regional quanto qualquer outro. Chamá-lo de neutro é um gesto de poder: consiste em tomar
+o próprio falar como a régua e todos os demais como desvio.
+
+**A posição do manual**, coerente com o @sec-cap-86: descrever com honestidade **e** ensinar a
+norma escrita com competência. O aluno tem direito à norma-padrão **escrita** — que é
+supra-regional e abre portas. E tem direito de **não** ter sua pronúncia corrigida, porque
+nesse plano não há nada a corrigir. Confundir as duas coisas — corrigir o sotaque em nome da
+gramática — é o preconceito linguístico em estado puro (@sec-cap-91) [@faraco2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Variação diatópica** = variação no **espaço**. Objeto da **dialetologia**; produto típico: o
+**atlas linguístico**.
+
+**Vocabulário**: **dialeto/falar** = variedade regional inteligível · **isoglossa** = linha que
+separa a área de um traço · a fronteira dialeto/língua é **política**, não linguística.
+
+**Divisão de Nascentes (1953)** — critério: vogais **pretônicas**:
+
+| Grupo | Falares | Pretônicas |
+|---|---|---|
+| **Norte** | amazônico · nordestino | **abertas** — *p[ɛ]gar* |
+| **Sul** | baiano · fluminense · mineiro · sulista | **fechadas** — *p[e]gar* |
+
+Mais o **território incaracterístico** (Centro-Oeste — expressão hoje criticada: todo lugar tem
+falar; o que faltava era descrição).
+
+**Traços principais:**
+
+| Nível | Variável | Variantes |
+|---|---|---|
+| Fonético | (r) final | [ʁ] carioca · [ɾ] tepe · [ɻ] retroflexo · zero |
+| Fonético | /t/, /d/ + [i] | [t͡ʃi]/[d͡ʒi] (maioria) · [ti]/[di] (Sul, sertão) |
+| Fonético | (s) final | [ʃ] chiante (RJ, Belém) · [s] (maioria) |
+| Lexical | mandioca | aipim · macaxeira |
+| Morfossintático | tratamento | você (SE) · tu (S, N, NE) · tu ~ você (RJ) |
+
+**Homogeneidade do PB** — cinco causas: tempo curto (5 séculos × 1.500 anos na Europa) · origem
+já unificada · mobilidade interna intensa · escola e mídia nacionais · influência difusa das
+línguas de contato.
+
+**O ponto decisivo**: o PB é homogêneo **no espaço** e muito heterogêneo na **classe**. O eixo
+real da variação brasileira é **social**, não geográfico.
+
+**Não existe sotaque neutro.** O "neutro" da mídia é o falar culto do eixo Rio–SP. A
+norma-padrão brasileira é **escrita** e supra-regional; não há pronúncia padrão nacional.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Tomar por diatópico o que é diastrático.** "Nós foi", "os menino", "eu vi ele" existem em
+  **todas** as regiões e variam por **escolaridade**. O erro mais cobrado do capítulo.
+- **Achar que "sotaque" é dos outros.** Todo falante tem. O seu é só o que você não ouve.
+- **Acreditar em "sotaque neutro".** Não existe. O que assim se chama é o falar culto Rio–SP.
+- **Inverter o critério de Nascentes.** **Norte** = pretônicas **abertas** ([ɛ], [ɔ]); **Sul** =
+  **fechadas** ([e], [o]). Cai invertido com frequência.
+- **Contar mal os falares.** São **seis** (2 do Norte + 4 do Sul), mais o território
+  incaracterístico — que **não** é um sétimo falar.
+- **Achar que o baiano é do grupo do Norte.** É do **Sul**. A divisão é linguística, não
+  político-administrativa.
+- **Achar que "incaracterístico" significa "sem falar".** Significa **não descrito** por
+  Nascentes. Todo lugar tem falar.
+- **Tratar isoglossas como fronteiras nítidas.** São **faixas** de transição, e cada traço tem a
+  sua — elas **não** coincidem.
+- **Confundir dialetologia com sociolinguística.** Espaço/atlas/informante rural idoso × grupo e
+  situação/regra variável/amostra estratificada.
+- **Achar que o "r" caipira é só geografia.** É geográfico **e** estigmatizado — as duas coisas.
+- **Achar que homogêneo = sem variação.** O PB é homogêneo no **espaço**, heterogêneo na
+  **classe**.
+- **Atribuir a Portugal o gerúndio.** É o contrário: "estou fazendo" é do Brasil; "estou a
+  fazer", de Portugal.
+
+## ✍️ Exercícios
+
+**1.** Defina variação diatópica e explique por que a dialetologia brasileira prefere "falar" a
+"dialeto".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Variação diatópica** é a variação linguística que se distribui no eixo do **espaço** — a que
+correlaciona formas linguísticas com a **procedência geográfica** do falante. É um dos quatro
+tipos do @sec-cap-86 (ao lado da diastrática, da diafásica e da diacrônica), e o mais
+imediatamente perceptível: qualquer falante identifica que o outro "não é daqui".
+
+**Por que "falar" e não "dialeto":**
+
+Tecnicamente, os dois termos designam o mesmo objeto — uma variedade regional de uma língua,
+mutuamente inteligível com as demais. A diferença é de **conotação**:
+
+- No uso corrente, **dialeto** carrega o sentido pejorativo de "língua menor", "língua
+  incompleta", "corruptela" — algo que não chegou a ser língua de verdade;
+- Esse sentido é **linguisticamente falso**: todo dialeto é um sistema completo, com gramática e
+  capacidade expressiva plena (@sec-cap-86);
+- Mas a conotação é socialmente real, e contamina a leitura.
+
+Nascentes [@nascentes1953] escolheu **falares** deliberadamente, e a tradição brasileira o
+seguiu. É uma escolha terminológica com função **antipreconceito**: evita que a descrição do
+falar do sertão seja lida como um diagnóstico de inferioridade (@sec-cap-91).
+:::
+
+**2.** Reconstitua a divisão de Nascentes: grupos, falares e critério.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Critério primário**: a qualidade das **vogais pretônicas** (as átonas anteriores à tônica).
+
+**Dois grupos, seis falares:**
+
+| Grupo | Falares | Pretônicas | Exemplo |
+|---|---|---|---|
+| **NORTE** | 1. amazônico · 2. nordestino | **abertas** | *p[ɛ]gar*, *c[ɔ]ração*, *m[ɛ]nino* |
+| **SUL** | 3. baiano · 4. fluminense · 5. mineiro · 6. sulista | **fechadas** | *p[e]gar*, *c[o]ração*, *m[e]nino* |
+
+Mais o **território incaracterístico** — grande parte do Centro-Oeste e do interior, que
+Nascentes **não classificou**, alegando povoamento recente e de origens misturadas, sem
+sedimentação de um falar próprio.
+
+**Três cuidados que a prova cobra:**
+
+1. São **seis** falares, não sete: o território incaracterístico **não** é um falar — é uma
+   **ausência de classificação**;
+2. **Norte = abertas, Sul = fechadas** — a inversão é o erro mais comum;
+3. O **baiano** pertence ao grupo do **Sul**, apesar de a Bahia ser Nordeste geográfico. A
+   divisão é **linguística**, não político-administrativa — e este é o ponto em que a maioria
+   erra.
+:::
+
+**3.** Critique a divisão de Nascentes. Ela ainda deve ser ensinada?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Quatro críticas consistentes:**
+
+1. **Base empírica frágil.** Nascentes trabalhou largamente com dados **indiretos** —
+   literatura regional, relatos, intuição — e não com uma rede sistemática de informantes
+   coletados em campo. É um trabalho de gabinete, no essencial.
+2. **Monotraço.** A divisão maior repousa quase só nas **pretônicas**. Um traço não faz um
+   falar: outros traços recortam o país de modos **incompatíveis** com essa linha. O "r"
+   retroflexo, por exemplo, cobre interior de SP, sul de MG, GO e MT — atravessando a divisa
+   Norte/Sul.
+3. **Fronteiras irrealistas.** Isoglossas não são linhas, são **faixas** de transição; e as
+   isoglossas de traços diferentes **não coincidem**. Um mapa de linhas nítidas é uma ficção
+   gráfica.
+4. **Datação.** O país mudou radicalmente desde 1953: urbanização, migrações internas maciças e
+   televisão nacional redesenharam a distribuição. O falar caipira recuou; o nordestino se
+   instalou em São Paulo.
+
+**Deve ser ensinada? Sim** — e a resposta madura explica por quê:
+
+- É a **primeira** tentativa de descrição de conjunto dos falares brasileiros, e nesse sentido é
+  um marco historiográfico incontornável;
+- O eixo que ela captou **existe**: a diferença de pretônicas é real, robusta, e ainda hoje é o
+  traço isolado que melhor separa as duas metades do país;
+- Ela é o **ponto de partida** contra o qual o ALiB [@cardoso2014] se define — não se entende a
+  dialetologia brasileira contemporânea sem ela.
+
+**A formulação correta**: ensina-se Nascentes como **hipótese histórica fundadora**, com seus
+limites explicitados — não como o mapa atual e definitivo do Brasil.
+:::
+
+**4.** Classifique cada traço como **diatópico** ou **diastrático/diafásico**, justificando: (a)
+"nós foi"; (b) *macaxeira*; (c) "vou cantá"; (d) o "r" retroflexo; (e) "eu vi ele".
+
+::: {.callout-tip collapse="true"}
+## Solução
+O critério de decisão: **se o traço aparece em todas as regiões e varia conforme quem fala ou
+quando fala, não é diatópico.**
+
+**(a) "nós foi" — DIASTRÁTICO.** Não é do Nordeste nem do interior: ocorre em **todo o país**,
+correlacionado à **baixa escolaridade**. Existe na periferia de São Paulo, no interior gaúcho e
+no sertão baiano igualmente. Atribuí-lo a uma região é transferir para o mapa um fato de
+**classe** — e é exatamente esse deslocamento que alimenta o preconceito (@sec-cap-91).
+
+**(b) *macaxeira* — DIATÓPICO.** Este sim. Distribui-se por **território** (Norte e Nordeste),
+concorrendo com *aipim* (RJ/Sul) e *mandioca* (SP/Sul). Um nordestino doutor diz *macaxeira*;
+um paulista sem escola diz *mandioca*. A escolaridade **não** prevê a forma — a origem prevê. É
+o teste decisivo.
+
+**(c) "vou cantá" — DIAFÁSICO.** O apagamento do "r" final de **infinitivo** é geral no PB
+falado, em **todas** as regiões e **todas** as classes. O que o condiciona é o **grau de
+formalidade**: o mesmo professor que diz "vou cantá" no bar diz "vou cantar" na aula. Varia com
+a **situação**, não com o lugar.
+
+**(d) O "r" retroflexo — DIATÓPICO** (com carga social sobreposta). Distribui-se por área bem
+delimitada: interior de SP, sul de MG, GO, MT. É genuinamente geográfico.
+
+**Mas** — e a resposta completa precisa disto — vem **estigmatizado**: é o "r caipira",
+associado ao rural e ao atraso. Ou seja, é diatópico **e** diastraticamente avaliado. Prova de
+que os eixos do @sec-cap-86 operam **simultaneamente**: a mesma forma é marcada no espaço e
+avaliada socialmente.
+
+**(e) "eu vi ele" — DIASTRÁTICO e DIAFÁSICO.** O pronome reto em função de objeto é a forma
+**majoritária** do PB falado, em todas as regiões — inclusive na fala de falantes altamente
+escolarizados em situação informal. O que varia é a **frequência** conforme escolaridade e
+formalidade, não a região.
+
+**A síntese**: dos cinco, só **dois** são de fato diatópicos — e um deles vem com carga social
+por cima. Os outros três são fatos de **classe** e de **situação** que o senso comum projeta no
+mapa.
+:::
+
+**5.** O Brasil é dialetalmente mais homogêneo que a Itália. Explique por quê e diga em que
+sentido essa afirmação é enganosa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O fato**: o Brasil tem 8,5 milhões de km² e um gaúcho entende um paraense sem esforço. A
+Itália cabe 28 vezes no Brasil, e seus dialetos tradicionais do Norte e do Sul são mutuamente
+**ininteligíveis**.
+
+**As causas da homogeneidade** — não há causa única, e sim um feixe:
+
+1. **Tempo curto.** Os romances europeus tiveram ~1.500 anos para divergir do latim; o
+   português está no Brasil há ~500. Pouco, em escala linguística.
+2. **Origem já unificada.** O português chegou aqui vindo de uma metrópole pequena e
+   centralizada, com norma já relativamente estabilizada — ao contrário do latim, que se
+   fragmentou junto com o império que o espalhou.
+3. **Mobilidade interna intensa.** Bandeiras, ciclos econômicos (cana, ouro, café, borracha) e
+   as migrações internas do século XX misturaram continuamente as populações. **Dialeto exige
+   isolamento**; o Brasil teve pouco.
+4. **Escola e mídia nacionais.** Currículo nacional e rádio/TV de alcance continental agiram
+   como força **niveladora** no século XX.
+5. **Contato difuso.** As línguas indígenas e africanas influenciaram o PB de modo espalhado
+   pelo território (sobretudo no léxico), sem criar bolsões divergentes (@sec-cap-94).
+
+**Em que sentido é enganosa** — o núcleo da questão:
+
+A afirmação só vale para o eixo **geográfico**. O PB é homogêneo **no espaço** e **fortemente
+heterogêneo na classe**.
+
+A distância gramatical entre a fala de um doutor e a de um trabalhador não escolarizado **da
+mesma cidade** é **maior** que a distância entre dois doutores de Porto Alegre e de Belém. É um
+dos achados mais sólidos da sociolinguística brasileira.
+
+**A consequência**, que a resposta deve alcançar: a desigualdade linguística brasileira
+**espelha** a desigualdade social. Dizer "o Brasil fala uma língua só" é verdade no mapa e falso
+na estrutura social — e o segundo plano é o que importa politicamente (@sec-cap-91)
+[@bagno2007].
+:::
+
+**6.** Distinga dialetologia de sociolinguística: objeto, informante, método e produto.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| | **Dialetologia** | **Sociolinguística** |
+|---|---|---|
+| **Eixo** | espaço (diatópico) | grupo e situação (diastrático/diafásico) |
+| **Pergunta** | **onde** se diz o quê? | **quem** diz o quê, **quando**, com que probabilidade? |
+| **Informante** | idoso, rural, pouco escolarizado, nativo do lugar | amostra **estratificada** (classe, idade, sexo, escolaridade) |
+| **Método** | questionário padronizado, ponto a ponto | entrevista gravada, análise **quantitativa** |
+| **Produto** | atlas, mapas, **isoglossas** | **regras variáveis**, percentuais, probabilidades |
+| **Nasce** | Europa, fim do séc. XIX | EUA, anos 1960 (Labov) [@labov2008] |
+
+**A lógica do informante clássico** — o ponto que rende a boa resposta: a dialetologia escolhia
+o falante **menos exposto** à escola e à mídia justamente para captar o falar local
+**conservado**, sem "contaminação" da norma. A sociolinguística **inverte** isso: quer a
+amostra que represente a comunidade **inteira**, com toda a estratificação — porque para ela a
+estratificação **é** o objeto, não um ruído.
+
+**A convergência atual**: o ALiB [@cardoso2014] é um atlas que estratifica informantes por
+idade, sexo e escolaridade, e inclui as capitais. É dialetologia com método sociolinguístico — a
+**geossociolinguística**. A oposição do quadro é didática; a prática contemporânea as combina.
+:::
+
+**7.** Explique o sistema de tratamento (*tu* × *você*) no PB e por que ele é considerado
+híbrido.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A distribuição regional:**
+
+| Área | Forma | Concordância |
+|---|---|---|
+| Sudeste (SP, MG, ES) | **você** | "você fala" |
+| Rio de Janeiro | *tu* **e** *você*, alternando | "tu **fala**" (sem -s) |
+| Sul (RS) | **tu** | "tu fala" ~ "tu falas" (o -s varia e é socialmente marcado) |
+| Norte/NE (Belém, Maranhão) | **tu** | "tu **falas**" — concordância plena mais conservada |
+
+**Por que é híbrido** — e aqui está o cerne:
+
+O *você* vem de ***vossa mercê***, que era uma forma de tratamento **nominal** de 3ª pessoa
+(como "Vossa Excelência"). Ao gramaticalizar-se em pronome de 2ª pessoa, ele **trouxe consigo a
+concordância de 3ª**: "você **fala**", não "você falas". Resultado: um pronome que é
+**semanticamente** 2ª pessoa e **gramaticalmente** 3ª.
+
+Isso desorganizou o paradigma inteiro, e o PB hoje **mistura** as duas séries:
+
+- **Sujeito**: *você* (SE) ou *tu* (S, N, NE);
+- **Imperativo**: "**Fala** a verdade!" — forma de **tu** — mesmo na boca de quem só usa *você*.
+  O paulista que jamais disse "tu" usa o imperativo de tu todo dia;
+- **Possessivo**: "**teu** carro" convive com "**seu** carro" no mesmo falante, às vezes na
+  mesma frase;
+- **Oblíquo**: "vou **te** ligar" (de *tu*) com sujeito *você* — "**você** sabe que eu vou **te**
+  ligar" é a frase brasileira típica, e mistura os dois paradigmas em cinco palavras.
+
+**A conclusão**: o PB não tem um sistema de tratamento de *tu* nem um de *você* — tem um sistema
+**novo**, montado com peças dos dois, cuja lógica não é a de nenhuma gramática normativa. É um
+exemplo exemplar de **mudança em curso** (@sec-cap-86) e de por que a descrição do PB não cabe
+no molde herdado (@sec-cap-89).
+:::
+
+**8.** Um candidato afirma: "Preciso perder meu sotaque nordestino para falar português
+correto." Analise a afirmação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A frase contém **três erros encadeados**, e a boa resposta os separa.
+
+**Erro 1 — supõe que existe pronúncia padrão nacional.** Não existe. A norma-padrão brasileira
+(@sec-cap-03) é uma construção **escrita** e **supra-regional**: um texto formal de Manaus e um
+de Porto Alegre são praticamente indistinguíveis. Nenhuma norma oficial prescreve como
+pronunciar o "r" de *porta*, e todas as realizações são aceitas na fala culta de suas regiões.
+Não há, portanto, a que "corrigir" o sotaque — falta o alvo.
+
+**Erro 2 — supõe que sotaque é dos outros.** Sotaque não é propriedade que alguns têm; é
+**relação**. O paulista tem tanto quanto o pernambucano; a diferença é que o dele é a régua com
+que mede. Um falante de Recife não tem "mais" sotaque que um de São Paulo — tem **outro**.
+
+**Erro 3 — confunde pronúncia com gramática.** O que a escola e o concurso legitimamente cobram
+é o domínio da norma-padrão **escrita** — concordância, regência, pontuação. Nada disso tem
+relação com a pronúncia das pretônicas. Um nordestino pode dominar a norma escrita perfeitamente
+**sem alterar uma vogal** da sua fala. As duas coisas são independentes.
+
+**A ficção do "sotaque neutro":** o que a mídia assim chama é, concretamente, **o falar culto do
+eixo Rio–São Paulo** — tão regional quanto qualquer outro. Chamá-lo de neutro é um gesto de
+**poder**: consiste em tomar o próprio falar como grau zero e todos os demais como desvio.
+
+**O que dizer ao candidato:**
+
+- Se o objetivo é **passar na prova**: estude a norma **escrita**. Seu sotaque não será
+  avaliado, porque a prova é escrita.
+- Se o objetivo é **evitar discriminação**: aí o problema é real, mas **não é seu** — é de quem
+  discrimina. A resposta correta é a denúncia do preconceito (@sec-cap-91), não a mutilação da
+  própria identidade linguística.
+- **A distinção final**: acrescentar a norma escrita ao repertório é **ganho**; apagar o sotaque
+  é **perda** — e perda sem contrapartida linguística nenhuma [@bagno2007; @faraco2008].
+:::
+
+**9.** Explique o que é uma isoglossa e por que mapas dialetais com fronteiras nítidas são
+enganosos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Isoglossa** é a linha traçada num mapa que separa a área em que ocorre um traço linguístico
+daquela em que ele não ocorre. Há uma isoglossa para *macaxeira*, outra para o "r" retroflexo,
+outra para "tu".
+
+**Por que os mapas de linhas nítidas enganam — três razões:**
+
+1. **A transição é gradual, não abrupta.** Não existe um ponto do mapa em que, dando um passo, se
+   sai de *mandioca* para *macaxeira*. Existem **faixas** de transição, largas, onde os falantes
+   usam ora uma forma, ora outra — inclusive o **mesmo** falante, conforme o interlocutor. A
+   linha é uma **convenção gráfica** que o cartógrafo impõe a um contínuo.
+2. **As isoglossas não coincidem entre si.** Cada traço tem a sua, e elas se **cruzam**. A
+   isoglossa do "r" retroflexo não acompanha a das pretônicas abertas, que não acompanha a de
+   *macaxeira*. Um mapa com uma linha só está exibindo **um** traço e sugerindo que ele
+   representa o conjunto — o que é falso. Quando várias isoglossas correm mais ou menos juntas,
+   fala-se em **feixe de isoglossas**, e só aí faz sentido postular uma fronteira dialetal — que
+   ainda assim é uma faixa.
+3. **Os traços têm distribuição social, não só espacial.** Dentro da mesma área, a forma varia
+   por escolaridade e situação. O mapa é bidimensional; a variação, não.
+
+**A formulação que sintetiza**: o mapa dialetal é um **modelo** — uma simplificação útil e
+deliberada. Confundi-lo com o território é o erro. Os falares não têm fronteira; têm
+**gradiente**.
+:::
+
+**10.** Guimarães Rosa, em *Grande Sertão: Veredas*, escreve o falar do sertão mineiro. Um aluno
+diz que ele fez isso "para documentar a variedade regional". Comente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é insuficiente e, no fundo, equivocada** — embora contenha um grão de verdade.
+
+**O grão de verdade**: Rosa de fato conhecia profundamente o falar sertanejo, anotava-o em
+cadernetas e o incorporou à obra com precisão de ouvido. Há material dialetal autêntico ali.
+
+**Por que é insuficiente:**
+
+1. **Documentar é tarefa da dialetologia, não da literatura.** Se o objetivo fosse registrar o
+   falar, o instrumento seria um atlas — questionário, rede de pontos, transcrição. Rosa não fez
+   isso; fez romance.
+2. **A língua de Rosa não é o falar do sertão.** É uma **construção**: mistura o falar sertanejo
+   com arcaísmos, neologismos inventados por ele, termos eruditos, empréstimos e estruturas
+   sintáticas que **nunca** existiram em sertão nenhum. Um sertanejo real não fala como Riobaldo.
+   Se a intenção fosse documental, o resultado seria um **fracasso** documental.
+3. **A função é estética e cognitiva.** A variedade regional é matéria-prima para **construir um
+   mundo** — uma visão de mundo que só existe naquela língua. O sertão de Rosa é inseparável do
+   modo como é dito; mudar a língua destruiria o objeto.
+
+**A generalização, que é o que a questão realmente cobra:** a variedade regional na literatura
+nunca está lá "para documentar". Está para produzir **efeito de sentido** — e cabe ao leitor
+identificar **qual**:
+
+- **autenticidade** e adesão (Rosa; Jorge Amado);
+- **humor** (a comédia baseada em sotaque, frequentemente às custas do falante);
+- **denúncia** e crítica social (o contraste entre a fala do patrão e a do empregado);
+- **distância** — quando o narrador culto reproduz a fala popular para marcar que **não** é dele,
+  o que pode revelar mais sobre o narrador que sobre o personagem.
+
+**O critério de leitura**: pergunte sempre **quem** fala assim no texto, **quem** narra, e o que
+a diferença entre os dois produz. É aí que a marca regional significa (@sec-cap-84,
+@sec-cap-85).
+:::
+
+**11.** (Estilo Cebraspe — julgue os itens como C ou E)
+
+I. O falar baiano, na divisão de Nascentes, integra o grupo do Norte.
+II. A palatalização de /t/ e /d/ diante de [i] ocorre em todo o território brasileiro.
+III. O apagamento do "r" final de infinitivo é traço diatópico do interior paulista.
+IV. Não há, no Brasil, uma norma de pronúncia padrão de âmbito nacional.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — ERRADO.** O falar **baiano** integra o grupo do **SUL**, junto com o fluminense, o mineiro
+e o sulista. A pegadinha explora a confusão entre divisão **linguística** e divisão
+**político-administrativa**: a Bahia é Nordeste geográfico, mas seu falar foi classificado por
+Nascentes no grupo do Sul (pretônicas fechadas). O grupo do **Norte** tem apenas **dois**
+falares: amazônico e nordestino.
+
+**II — ERRADO.** A palatalização é **majoritária**, mas **não** universal. Não ocorre (ou ocorre
+menos) no **Sul** (RS, SC, parte do PR) e em áreas do **interior nordestino**, onde se diz
+[ˈtiɐ] e [ˈdiɐ]. O quantificador "em todo o território" é o que torna o item falso — atenção a
+"todo", "sempre", "nunca" em itens de Cebraspe.
+
+**III — ERRADO.** O apagamento do "r" de infinitivo ("vou cantá") **não é diatópico**: é
+**diafásico** (e diastrático). Ocorre em **todas** as regiões e em **todas** as classes,
+condicionado pelo **grau de formalidade**. É o erro-padrão do capítulo: projetar no mapa o que é
+da situação.
+
+**IV — CERTO.** Não existe norma de pronúncia padrão nacional. A norma-padrão brasileira é
+**escrita** e supra-regional; nenhuma norma oficial prescreve a realização do "r" de *porta*, e
+todas as variantes regionais são aceitas na fala culta de suas áreas. O "sotaque neutro" da
+mídia é o falar culto do eixo Rio–SP, não um padrão oficial.
+
+**Gabarito: E, E, E, C.**
+:::
+
+**12.** (Estilo ENEM) Um programa humorístico caracteriza um personagem interiorano usando "r"
+retroflexo, "nós vai" e vocabulário rural. O efeito de humor se apoia:
+
+a) na incorreção gramatical intrínseca da fala do personagem;
+b) na associação socialmente construída entre traços linguísticos e atributos como atraso e
+   ingenuidade;
+c) na impossibilidade de compreensão dessa variedade pelo público urbano;
+d) na ausência de regras gramaticais na fala rural;
+e) na superioridade linguística da variedade culta urbana.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: b.**
+
+**Por que b está certa:** o humor não vem da língua — vem da **avaliação social** que recai sobre
+ela. O público ri porque compartilha um estereótipo pronto que associa aqueles traços
+(retroflexo, "nós vai", léxico rural) a atributos **não linguísticos**: atraso, ingenuidade,
+falta de instrução. A piada **depende** de o espectador já ter o estereótipo — sem ele, não há
+graça, só um personagem falando. Isso é exatamente o mecanismo do preconceito linguístico
+(@sec-cap-91): atribuir a **pessoas** as marcas que se leem em **formas**.
+
+**Por que as outras erram:**
+
+**a)** Não há incorreção **intrínseca**. "Nós vai" segue uma regra — a de não marcar a
+concordância redundante quando o sujeito já é explícito. É **outra** regra, não ausência de
+regra (@sec-cap-86). "Intrínseca" é a palavra que mata a alternativa: nada na forma é ruim em
+si; ruim é a avaliação.
+
+**c)** Falso de fato, e a alternativa se autodestrói: se o público **não** compreendesse, não
+haveria piada — não se ri do que não se entende. A compreensão é **condição** do humor.
+
+**d)** Falso, e é a caricatura clássica. Nenhuma variedade tem ausência de regras; isso não
+existe em língua natural. O falar rural tem gramática tão sistemática quanto a culta.
+
+**e)** Falso, e é justamente a **crença** que o humor mobiliza — não a sua explicação. A
+alternativa confunde o **objeto** com a **análise**: descrever o preconceito não é endossá-lo.
+Nenhuma variedade é linguisticamente superior; o prestígio é fato **social** (@sec-cap-86).
+
+**A chave da questão** — e o padrão de alternativa errada do @sec-cap-85: as alternativas (a),
+(d) e (e) são todas versões do **senso comum prescritivista**. O ENEM as oferece justamente
+porque são o que o candidato desavisado pensa. A resposta correta é sempre a que localiza o
+juízo no **social**, não na língua.
+:::
+
+## 📚 Referências
+
+Este capítulo apoia-se em Nascentes [@nascentes1953] para a divisão dialetal e em Amaral
+[@amaral1920] para a descrição fundadora do falar caipira. Os dados contemporâneos vêm do Atlas
+Linguístico do Brasil [@cardoso2014]. A descrição dos traços do PB segue Castilho [@castilho2010]
+e Ilari e Basso [@ilaribasso2006]; a discussão sobre homogeneidade dialetal e desigualdade
+social, Bagno [@bagno2007]; o método sociolinguístico, Labov [@labov2008]; e a posição sobre
+norma e ensino, Faraco [@faraco2008]. Sobre a formação histórica que explica a distribuição
+atual, ver Teyssier [@teyssier2007].
+
+O próximo capítulo desloca-se do **espaço** para os eixos **social** e **situacional**: a
+@sec-cap-88 trata da variação diastrática e diafásica — registro, estilo e a estratificação
+que, como este capítulo argumentou, é o verdadeiro eixo da variação brasileira.
+
+::: {#refs}
 :::
