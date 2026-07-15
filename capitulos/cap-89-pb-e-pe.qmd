@@ -4,22 +4,1010 @@ title: "Português brasileiro e português europeu"
 
 # Português brasileiro e português europeu {#sec-cap-89}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 14 — Variação Linguística e Sociolinguística.
+> "Duas normas, uma língua — e uma pergunta que não se responde só com linguística."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Os capítulos anteriores olharam para dentro do Brasil. Este olha para fora: o português é
+falado também em Portugal, e as duas variedades já não são a mesma coisa. Quanto divergiram? O
+suficiente para serem línguas distintas? A pergunta é frequente, apaixona os debates de
+internet — e, como veremos, está mal colocada de um modo instrutivo.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Comecemos pelo fato bruto. Um brasileiro que assiste a um filme português **precisa de
+legendas**, com frequência. O inverso é bem menos verdadeiro: o português entende o brasileiro
+com relativa facilidade, graças a décadas de novelas e de música brasileira em Portugal. Essa
+**assimetria** — a inteligibilidade que funciona melhor num sentido que no outro — já diz muito,
+e diz coisas que não são sobre gramática: são sobre fonologia e sobre exposição.
+
+Vale, desde já, uma advertência de método. As diferenças que este capítulo lista existem e são
+reais, mas a comparação que se costuma fazer é **enviesada**: contrapõe-se o PB **falado e
+informal** ao PE **escrito e formal**, e daí conclui-se que são línguas diferentes. Comparando
+como se deve — falado com falado, formal com formal —, a distância encolhe bastante. Não
+desaparece; encolhe.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Descrever** as principais diferenças fonológicas, sintáticas e lexicais entre PB e PE;
+- **Explicar** a assimetria de inteligibilidade e sua causa fonológica;
+- **Situar** historicamente a divergência e o papel do contato e da deriva;
+- **Avaliar** criticamente a tese de que PB e PE seriam línguas distintas;
+- **Distinguir** o que o Acordo Ortográfico de 1990 unificou do que não tocou;
+- **Reconhecer** as duas normas como legítimas, sem hierarquia entre elas.
+
+## A diferença que mais pesa: a fonologia
+
+Aqui está o coração da questão, e a explicação da assimetria.
+
+### O PE reduz as vogais átonas; o PB não
+
+Esta é **a** diferença estruturante, e quase tudo o mais decorre dela.
+
+O português europeu contemporâneo **reduz drasticamente** as vogais átonas — encurta-as,
+centraliza-as e, com frequência, **apaga-as**. O PB conserva as átonas muito mais plenas.
+
+| Palavra | PB | PE |
+|---|---|---|
+| *pergunta* | [peɾˈgũtɐ] — três sílabas nítidas | [pɾˈgũtɐ] — o *e* praticamente desaparece |
+| *telefone* | [teleˈfoni] | [tlˈfon] |
+| *padaria* | [padaˈɾiɐ] | [pdɐˈɾiɐ] |
+| *esperança* | [espeˈɾɐ̃sɐ] | [ʃpˈɾɐ̃sɐ] |
+
+O efeito acústico é enorme. O PE soa, ao ouvido brasileiro, "comido", "fechado", cheio de
+consoantes coladas — e é exatamente isso que ele é, foneticamente: as vogais que serviriam de
+apoio sumiram.
+
+::: {.callout-important}
+## A explicação da assimetria — por que nós precisamos de legenda e eles não
+Este é o ponto mais elegante do capítulo, e o que a boa resposta alcança.
+
+**Duas causas se somam, e é preciso as duas:**
+
+**1. A causa fonológica.** O PB conserva as vogais átonas; o PE as apaga. Isso torna a tarefa
+**assimétrica**:
+
+- O **português** ouvindo o brasileiro recebe um sinal com **mais** informação que o seu próprio
+  — todas as vogais estão lá, pronunciadas. É como receber uma versão expandida do que ele já
+  tem: nada foi retirado, e o excesso não atrapalha.
+- O **brasileiro** ouvindo o português recebe um sinal com **menos** informação — vogais que ele
+  espera não estão lá, e ele precisa **reconstruí-las** para reconhecer a palavra. É uma tarefa
+  cognitivamente mais cara, e falha com frequência.
+
+Ou seja: a dificuldade não é simétrica porque a **redução** não é simétrica. Quem apaga entende
+quem não apaga; o contrário custa.
+
+**2. A causa da exposição.** Portugal consome décadas de novela, música e cinema brasileiros; o
+Brasil praticamente não consome produção portuguesa. O ouvido português está **treinado** no
+sotaque brasileiro; o brasileiro não está treinado no português.
+
+**Por que as duas causas são necessárias**: a exposição sozinha não explicaria a assimetria —
+poderia haver muito contato nos dois sentidos e ainda assim dificuldade. E a fonologia sozinha
+tampouco: se o brasileiro fosse exposto ao PE desde a infância, reconstruiria as vogais
+automaticamente, como faz o próprio português. **As duas juntas** explicam: uma cria a
+dificuldade, a outra deixa de removê-la.
+
+**A prova de que é isto**: o brasileiro que passa alguns meses em Portugal para de precisar de
+legenda. O sinal não mudou — o treino mudou. Se a causa fosse "outra língua", nenhum treino de
+meses resolveria.
+:::
+
+### Outras diferenças fonológicas
+
+- **O (s) final**: chiante [ʃ] em PE (*os livros* → "ush livrush") — geral e obrigatório. No PB,
+  chiante só em algumas áreas (Rio, Belém — @sec-cap-87);
+- **O (l) final**: velarizado/consonântico em PE ([ɫ]: *mal*, *Brasil*); **vocalizado** em PB
+  (*mal* → "mau", *Brasil* → "Brasiu"). O brasileiro que diz "Brasiu" não está corrompendo nada:
+  está aplicando uma regra sua;
+- **O (r) inicial e forte**: uvular [ʁ] em ambos, hoje, com realizações distintas;
+- **A palatalização de /t/, /d/**: [t͡ʃi], [d͡ʒi] no PB majoritário (@sec-cap-87); **inexistente**
+  em PE, onde *tia* é [ˈtiɐ];
+- **O ritmo**: o PB tende ao ritmo **silábico** (sílabas mais isócronas, mais "cantado"); o PE ao
+  **acentual** (as átonas se comprimem entre os acentos). É a consequência rítmica da redução.
+
+## As diferenças sintáticas — as que realmente contam
+
+Se a fonologia explica a dificuldade de ouvir, é a **sintaxe** que sustenta a tese da
+divergência. E aqui as diferenças são mais profundas do que a lista folclórica sugere.
+
+### (a) A colocação pronominal
+
+A diferença mais sistemática, e já vista no @sec-cap-55:
+
+| | PB | PE |
+|---|---|---|
+| Padrão default | **próclise**: "**Me** dá um copo" | **ênclise**: "Dá-**me** um copo" |
+| Início de frase | próclise natural: "**Te** amo" | ênclise obrigatória: "Amo-**te**" |
+| Com auxiliar | "vou **te** ligar" | "vou ligar-**te**" / "vou-**te** ligar" |
+
+Note o que isso significa: o PB **generalizou a próclise**, inclusive em início de período — que
+a norma-padrão herdada de Portugal **proíbe**. A norma-padrão brasileira escrita ainda tenta
+sustentar a ênclise inicial, mas nenhum brasileiro fala assim, e a escrita informal já a
+abandonou.
+
+### (b) O objeto: clítico, pronome reto, ou nada
+
+| | PB falado | PE |
+|---|---|---|
+| Objeto direto de 3ª | "Eu vi **ele**" / "Eu vi ∅" | "**Vi-o**" |
+| Objeto indireto | "Dei o livro **pra ele**" | "**Dei-lhe** o livro" |
+
+O PB praticamente **perdeu os clíticos de 3ª pessoa** (*o*, *a*, *os*, *as*, *lhe*) na fala,
+substituindo-os pelo pronome reto ("vi ele"), por sintagma preposicionado ("pra ele") ou pelo
+**objeto nulo** ("Você viu o filme?" "Vi ∅"). O PE os conserva plenamente.
+
+Esta é uma diferença **gramatical de peso** — mexe no sistema pronominal inteiro, não num
+detalhe de uso.
+
+### (c) O gerúndio × o infinitivo preposicionado
+
+A diferença mais citada de todas:
+
+| PB | PE |
+|---|---|
+| "Estou **fazendo**" | "Estou **a fazer**" |
+| "Está **chovendo**" | "Está **a chover**" |
+
+**Atenção ao mito, que é matéria de prova**: costuma-se dizer que o gerúndio é uma "invenção
+brasileira" ou um "abrasileiramento". É o **contrário**. O gerúndio é a forma **conservadora**,
+herdada do português clássico (@sec-cap-93); Portugal é que **inovou**, generalizando a
+construção "a + infinitivo" a partir do século XVIII. O Brasil manteve o que era.
+
+E mais: o gerúndio **não desapareceu** do PE — sobrevive no português do **sul de Portugal** e,
+sobretudo, nas variedades africanas (@sec-cap-95). A construção "a + infinitivo" é a inovação de
+uma área, não a norma da língua.
+
+### (d) A posição dos clíticos com o infinitivo e o sujeito
+
+- **PE**: "para **eu** fazer" ~ "para **mim** fazer" (esta última, estigmatizada lá também);
+- **PB**: o sujeito de infinitivo é frequente e produtivo.
+
+### (e) O preenchimento do sujeito
+
+Uma diferença estrutural que a pesquisa dos últimos quarenta anos pôs no centro:
+
+| | PB | PE |
+|---|---|---|
+| Sujeito nulo | recuando | pleno |
+| "**Ele** disse que **ele** chegou" | natural | redundante — "Disse que chegou" |
+
+O PE é uma língua de **sujeito nulo** robusta: omite o pronome sujeito livremente, porque a
+desinência verbal o recupera. O PB vem **preenchendo** o sujeito cada vez mais — e a razão é
+sistêmica: como o PB reduziu o paradigma verbal (de seis formas para três ou quatro, com *você*
+e *a gente*), a desinência já não identifica a pessoa, e o pronome se torna **necessário**.
+
+Note a beleza do argumento: uma mudança **morfológica** (o paradigma encolheu) forçou uma
+mudança **sintática** (o sujeito precisa aparecer). É um dos melhores exemplos de que a
+gramática é um sistema, e não uma lista.
+
+### (f) O tratamento
+
+- **PE**: *tu* (íntimo) × *você* (intermediário, e **pode soar rude** com superiores) × *o
+  senhor* / tratamento pelo nome ou cargo ("O doutor deseja?");
+- **PB**: *você* generalizado (@sec-cap-87), tendo perdido a força de tratamento intermediário.
+
+**A armadilha prática**: o brasileiro que chama um português mais velho de "você" pode ofender
+sem saber. Em Portugal, *você* não é neutro — pode ser condescendente. É um falso amigo
+**pragmático**, não lexical: a palavra é a mesma, o valor social é outro. E é exatamente o tipo
+de diferença que não aparece em lista de vocabulário e causa mais estrago que qualquer
+"comboio/trem".
+
+## As diferenças lexicais — as mais visíveis, as menos importantes
+
+| Conceito | PB | PE |
+|---|---|---|
+| Trem | trem | **comboio** |
+| Ônibus | ônibus | **autocarro** |
+| Ponto de ônibus | ponto | **paragem** |
+| Celular | celular | **telemóvel** |
+| Xícara | xícara | **chávena** |
+| Geladeira | geladeira | **frigorífico** |
+| Banheiro | banheiro | **casa de banho** |
+| Terno | terno | **fato** |
+| Suco | suco | **sumo** |
+| Sorvete | sorvete | **gelado** |
+| Time | time | **equipa** |
+| Tela | tela | **ecrã** |
+| Mouse | mouse | **rato** |
+| Café da manhã | café da manhã | **pequeno-almoço** |
+
+**Os falsos amigos** — a categoria que rende as histórias:
+
+| Palavra | No Brasil | Em Portugal |
+|---|---|---|
+| *rapariga* | (pejorativo em parte do NE) | **moça**, palavra neutra e corrente |
+| *bicha* | (pejorativo) | **fila** |
+| *puto* | (ofensa) | **menino** |
+| *propina* | suborno | **mensalidade** escolar |
+| *durex* | fita adesiva | **preservativo** |
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Por que o léxico importa menos do que parece
+As listas circulam e divertem, mas convém dimensioná-las.
+
+**Três razões para não superestimar:**
+
+1. **O léxico é a camada mais superficial da língua.** Palavras se aprendem **individualmente** e
+   num dia. Um brasileiro aprende "comboio" na primeira vez que ouve e nunca mais erra. Sistema
+   fonológico e sintaxe, não: são **regras**, adquiridas cedo e resistentes.
+2. **O léxico varia igualmente **dentro** do Brasil.** A distância entre *mandioca* e
+   *macaxeira* (@sec-cap-87) é do mesmo tipo que a distância entre *trem* e *comboio*. Se
+   diferença lexical fizesse língua diferente, o Brasil teria várias.
+3. **A maior parte do léxico é comum.** As listas selecionam justamente as divergências — é o
+   viés do exemplo interessante. *Casa*, *água*, *comer*, *pensar*, *amor*, *dizer* e as outras
+   dezenas de milhares de palavras são as mesmas.
+
+**A moral**: o léxico é o que mais se **nota** e o que menos **estrutura**. Quem argumenta que
+PB e PE são línguas distintas apoiado em "comboio × trem" está usando o argumento mais fraco
+disponível. Os argumentos sérios são os **sintáticos** — clíticos, sujeito nulo, paradigma
+verbal.
+:::
+
+## Por que divergiram
+
+::: {#fig-pb-pe}
+
+```{.tikz}
+%%| filename: pb-pe
+%%| alt: Esquema da divergência entre o português brasileiro e o português europeu a partir de um tronco comum, o português clássico dos séculos dezesseis e dezessete. Do tronco partem dois ramos. O ramo do Brasil, à esquerda, é marcado por três forças: contato intenso com línguas indígenas e africanas, transmissão linguística irregular, e conservação de traços antigos como o gerúndio e as vogais átonas plenas. O ramo de Portugal, à direita, é marcado por três forças: contato reduzido, continuidade da tradição escrita, e inovações próprias como a redução das vogais átonas e a construção a mais infinitivo. Ao centro, entre os dois ramos, uma caixa registra que ambos são inovadores e conservadores, cada um à sua maneira, e que nenhum dos dois é o português puro ou original. Abaixo, uma nota adverte que a divergência é de cerca de cinco séculos, o que é pouco em escala linguística, e que as duas normas permanecem mutuamente inteligíveis.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  ram/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize, text width=52mm},
+  s/.style={-{Stealth[length=5pt]}, line width=1.1pt},
+]
+  \node[rounded corners=3pt, draw=manualgray, fill=manualgray!14, align=center,
+        inner sep=5pt, text width=54mm] (tronco) at (0,2.6)
+    {\textbf{PORTUGUÊS CLÁSSICO}\\{\scriptsize séc. XVI--XVII --- o tronco comum}};
+
+  \node[ram, draw=manualgreen, fill=manualgreen!10] (br) at (-4.2,-0.5)
+    {\textbf{BRASIL}\\[2pt]
+     {\scriptsize $\bullet$ contato intenso: línguas indígenas e africanas}\\
+     {\scriptsize $\bullet$ transmissão linguística \textbf{irregular}}\\
+     {\scriptsize $\bullet$ \textbf{conserva}: gerúndio, átonas plenas}};
+
+  \node[ram, draw=manualblue, fill=manualblue!10] (pt) at (4.2,-0.5)
+    {\textbf{PORTUGAL}\\[2pt]
+     {\scriptsize $\bullet$ contato reduzido}\\
+     {\scriptsize $\bullet$ continuidade da tradição escrita}\\
+     {\scriptsize $\bullet$ \textbf{inova}: reduz as átonas, cria ``a + infinitivo''}};
+
+  \draw[s, draw=manualgreen] (tronco) -- (br);
+  \draw[s, draw=manualblue] (tronco) -- (pt);
+
+  \node[rounded corners=3pt, draw=manualred, fill=manualred!10, align=center,
+        font=\scriptsize, inner sep=4pt, text width=44mm] at (0,-0.6)
+    {Os \textbf{dois} inovaram.\\Os \textbf{dois} conservaram.\\[2pt]
+     Nenhum é ``o português puro''.};
+
+  \node[rounded corners=2pt, draw=manualgray, fill=manualgray!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=96mm] at (0,-2.9)
+    {Divergência de $\approx$ \textbf{5 séculos} --- pouco, em escala linguística.\\
+     As duas normas seguem \textbf{mutuamente inteligíveis}: são \textbf{duas normas de uma língua}.};
+\end{tikzpicture}
+```
+
+A divergência PB/PE a partir do tronco comum. O ponto essencial: as duas variedades inovaram e
+conservaram, cada uma à sua maneira — nenhuma é o "português original".
+
+:::
+
+Três fatores explicam a divergência:
+
+1. **A deriva natural.** Duas comunidades separadas divergem, sempre, mesmo sem nenhum fator
+   externo. É o que aconteceu com o latim (@sec-cap-92). Cinco séculos de Atlântico bastam para
+   produzir diferença.
+2. **O contato — só no Brasil.** O PB se formou em contato maciço com línguas **indígenas** e
+   **africanas**, num regime de **transmissão linguística irregular**: milhões de adultos
+   aprendendo português como segunda língua, em condições precárias, e transmitindo aos filhos
+   uma versão reanalisada (@sec-cap-94). Portugal não passou por nada semelhante.
+3. **As inovações independentes de Portugal.** E aqui está o ponto que mais surpreende: várias
+   das diferenças **não** são inovações brasileiras — são inovações **portuguesas**. A redução
+   das átonas e o "a + infinitivo" são mudanças ocorridas em Portugal **depois** da colonização.
+
+::: {.callout-important}
+## O erro de perspectiva: quem se afastou de quem?
+O senso comum brasileiro supõe que Portugal guardou "o português de verdade" e o Brasil se
+afastou. É **falso**, e a demonstração é simples.
+
+**Traços em que o BRASIL é conservador** (mantém o clássico; Portugal inovou):
+
+- o **gerúndio** ("estou fazendo") — clássico. "Estou a fazer" é inovação portuguesa do séc.
+  XVIII;
+- as **vogais átonas plenas** — o clássico não reduzia como o PE moderno reduz. Quem mudou foi
+  Portugal;
+- a pronúncia de várias sequências e a preservação de itens lexicais que lá caíram em desuso.
+
+**Traços em que o BRASIL inovou** (Portugal manteve):
+
+- a perda dos **clíticos de 3ª pessoa** ("vi ele" por "vi-o");
+- o **preenchimento do sujeito**;
+- a redução do **paradigma verbal** (*você*, *a gente*);
+- a **próclise** generalizada.
+
+**A conclusão inescapável**: os **dois** inovaram, e em pontos diferentes. Nenhum dos dois é "o
+português original" — o português clássico não existe mais em lugar nenhum. São **dois
+descendentes** de um ancestral comum que ambos abandonaram.
+
+**Por que isso importa**: porque o argumento "os brasileiros falam errado, o certo é como em
+Portugal" (@sec-cap-91) supõe que Portugal é a referência conservada. Não é. Um português que
+diga "estou a fazer" está usando uma inovação de 250 anos; o brasileiro que diz "estou fazendo"
+está usando a forma de Camões. Nada disso torna um melhor que o outro — mas destrói o
+argumento.
+:::
+
+## Duas línguas? A pergunta e o que ela esconde
+
+A tese circula: PB e PE já seriam **línguas distintas**. Vale levá-la a sério antes de
+respondê-la.
+
+**Os argumentos a favor** — e alguns são bons:
+
+- as diferenças sintáticas são **profundas** e sistemáticas: clíticos, sujeito nulo, paradigma
+  verbal. Não são detalhes de uso;
+- a **inteligibilidade** é imperfeita e **assimétrica** — brasileiros precisam de legenda;
+- a distância PB/PE é, em vários parâmetros mensuráveis, **maior** que a distância entre línguas
+  reconhecidas como distintas (o espanhol e o galego; o dinamarquês e o norueguês);
+- o PB tem gramática própria, descrita por gramáticas próprias [@castilho2010; @perini2010], que
+  não são adaptações da portuguesa.
+
+**Os argumentos contra:**
+
+- a inteligibilidade, ainda que assimétrica, é **alta** — e melhora rapidamente com exposição, o
+  que sugere fonologia e treino, não sistema;
+- as duas normas **escritas** são muito próximas: um artigo acadêmico português é lido sem
+  esforço por brasileiros. A distância está sobretudo na **fala informal**;
+- há uma **tradição literária** e uma **ortografia** compartilhadas, e instituições comuns (a
+  CPLP, o Acordo);
+- boa parte da distância citada é a distância entre o PB **falado** e o PE **escrito** —
+  comparação enviesada (adiante).
+
+::: {.callout-important}
+## Por que a pergunta está mal colocada
+Aqui está a resposta do manual, e ela retoma o @sec-cap-87.
+
+**O critério não existe.** Como se viu, não há critério **linguístico** que separe língua de
+dialeto. A inteligibilidade falha nos dois sentidos: dinamarquês e norueguês se entendem e são
+línguas; mandarim e cantonês não se entendem e são "dialetos". O que decide é a **fronteira
+política** e a **tradição escrita** — "uma língua é um dialeto com exército e marinha".
+
+**Logo, a pergunta "são duas línguas?" não tem resposta linguística.** Ela tem resposta
+**política**, e a resposta política atual é: **não**, porque ambos os Estados, as instituições e
+os falantes assim decidiram — e mantêm ortografia comum, tradição comum e organismos comuns.
+Essa decisão poderia mudar amanhã sem que uma vírgula da gramática mudasse.
+
+**O viés metodológico que infla o debate** — e este é o ponto técnico decisivo:
+
+A comparação que se costuma fazer contrapõe o **PB falado e informal** ao **PE escrito e
+formal**. Isso é comparar coisas incomparáveis, e **infla** artificialmente a distância. Feita
+como se deve:
+
+- **PB escrito formal × PE escrito formal**: muito próximos — quase indistinguíveis;
+- **PB falado informal × PE falado informal**: aí sim, distantes — mas note que **dentro** do
+  Brasil a distância entre o falado informal e o escrito formal também é enorme (@sec-cap-90).
+
+**A formulação que o manual sustenta**: PB e PE são **duas normas** da **mesma** língua, em
+**divergência acelerada**, cuja separação futura é **possível** — e será decidida por história e
+política, não por linguística. Chamá-las hoje de duas línguas é antecipar um veredito que não
+nos cabe; chamá-las de "a mesma coisa" é negar diferenças reais e crescentes. A descrição
+honesta é a do meio [@castilho2010; @teyssier2007].
+:::
+
+::: {.callout-note}
+## O Acordo Ortográfico e o que ele não fez
+Como o @sec-cap-16 detalhou, o Acordo de 1990 unificou **a ortografia** — e **só** ela.
+
+**O que ele tocou**: acentuação, hífen, consoantes mudas (*ac*ç*ão* → *ação*, *ó*p*timo* →
+*ótimo*).
+
+**O que ele NÃO tocou** — e é a lista que importa:
+
+- a **pronúncia** — continua tão diferente quanto era. Escreve-se *ação* nos dois países e
+  pronuncia-se diferente;
+- o **léxico** — *comboio* e *trem* seguem intactos; o Acordo não impôs vocabulário;
+- a **sintaxe** — a colocação pronominal, os clíticos, o sujeito nulo: nada mudou;
+- as **duas normas** — continuam duas, e legítimas.
+
+**A confusão frequente, que vale desmontar**: muita gente supôs que o Acordo "unificaria a
+língua" ou que obrigaria brasileiros a escrever *pequeno-almoço*. Não. Ele padronizou **como se
+grafam** as palavras — não quais palavras se usam, nem como se pronunciam, nem como se combinam.
+
+**A ironia**: o Acordo unificou justamente a camada em que PB e PE **menos** divergiam (a
+ortografia já era 98% comum) e deixou intocadas as camadas em que divergem de fato. Isso não o
+torna inútil — a ortografia comum tem valor simbólico e prático real, sobretudo em organismos
+internacionais e no mercado editorial. Mas explica por que ele não aproximou as variedades, nem
+poderia.
+:::
+
+## 📋 Quadro-resumo
+
+**A diferença estruturante: as vogais átonas.** PE **reduz** e apaga (*telefone* → [tlˈfon]); PB
+**conserva** ([teleˈfoni]).
+
+**A assimetria de inteligibilidade** — brasileiro precisa de legenda, português não. **Duas
+causas somadas**: (1) **fonológica** — quem apaga entende quem não apaga; o inverso exige
+reconstruir vogais ausentes; (2) **exposição** — Portugal consome mídia brasileira há décadas; o
+inverso não. Prova: o brasileiro que mora em Portugal para de precisar de legenda.
+
+**Diferenças sintáticas — as que contam:**
+
+| Traço | PB | PE |
+|---|---|---|
+| Colocação | próclise: "Me dá" | ênclise: "Dá-me" |
+| Objeto de 3ª | "vi ele" / objeto nulo | clítico: "vi-o" |
+| Progressivo | gerúndio: "estou fazendo" | "a + inf.": "estou a fazer" |
+| Sujeito | preenchido, crescente | nulo, robusto |
+| Tratamento | *você* generalizado | *tu* × *você* (pode ser rude) × *o senhor* |
+
+**Léxico**: comboio/trem, autocarro/ônibus, telemóvel/celular, chávena/xícara. **Falsos amigos**:
+*rapariga*, *propina*, *bicha*, *puto*, *durex*. É a camada **mais visível** e **menos
+estruturante** — varia igualmente dentro do Brasil (*mandioca/macaxeira*).
+
+**Quem se afastou de quem** — os **dois**: Brasil **conserva** o gerúndio e as átonas plenas (é
+o clássico!); Portugal **inovou** com a redução e o "a + infinitivo" (séc. XVIII). Brasil
+**inovou** na perda dos clíticos, no sujeito preenchido, no paradigma verbal reduzido. **Nenhum
+dos dois é "o português puro"** — o clássico não existe mais em lugar nenhum.
+
+**A causalidade sistêmica**: o paradigma verbal encolheu (morfologia) → a desinência não
+identifica mais a pessoa → o sujeito precisa ser preenchido (sintaxe). Uma mudança puxou a
+outra.
+
+**Duas línguas?** A pergunta não tem resposta **linguística** — não existe critério (@sec-cap-87).
+Tem resposta **política**: hoje, não. **O viés que infla o debate**: comparar PB **falado
+informal** com PE **escrito formal**. Comparando certo, a distância encolhe. **A formulação
+correta**: duas **normas** de uma língua, em divergência acelerada, com separação futura
+possível.
+
+**Acordo de 1990**: unificou **só a ortografia**. Não tocou pronúncia, léxico, sintaxe nem as
+duas normas.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que o gerúndio é invenção brasileira.** É o **contrário**: é a forma **conservadora**,
+  do português clássico. "Estou a fazer" é a inovação **portuguesa** do séc. XVIII.
+- **Achar que Portugal conservou "o português puro".** Portugal inovou muito — a redução das
+  átonas é mudança **deles**. Os dois inovaram; nenhum é o original.
+- **Achar que o Acordo Ortográfico unificou a língua.** Unificou **só a ortografia**. Pronúncia,
+  léxico e sintaxe seguem intactos.
+- **Explicar a assimetria só pela exposição.** Faltaria a causa **fonológica**. E só pela
+  fonologia também falha. São **as duas**.
+- **Comparar PB falado com PE escrito.** É o viés que infla o debate. Compare falado com falado,
+  formal com formal.
+- **Achar que "comboio × trem" prova línguas distintas.** É o argumento **mais fraco**: o léxico
+  varia igualmente **dentro** do Brasil. Os argumentos sérios são **sintáticos**.
+- **Achar que a pergunta "são duas línguas?" tem resposta linguística.** Não tem critério. É
+  **política** (@sec-cap-87).
+- **Achar que *você* é neutro em Portugal.** Pode ser **rude**. É falso amigo **pragmático** — o
+  tipo que causa mais estrago que os lexicais.
+- **Achar que o PE é "mais correto".** São **duas normas**, ambas legítimas. Não há hierarquia.
+- **Achar que "Brasiu" é corrupção.** É a vocalização do (l), uma regra do PB — tão regra quanto
+  a velarização do PE.
+
+## ✍️ Exercícios
+
+**1.** Explique a assimetria de inteligibilidade entre PB e PE.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O fato**: o brasileiro frequentemente precisa de legenda para filme português; o português
+entende o brasileiro com facilidade.
+
+**Duas causas, e são necessárias as duas:**
+
+**1. A causa fonológica — a principal.** O PE **reduz e apaga** as vogais átonas (*telefone* →
+[tlˈfon], *pergunta* → [pɾˈgũtɐ]); o PB as **conserva** plenas. Isso torna a tarefa assimétrica:
+
+- O **português ouvindo o brasileiro** recebe um sinal com **mais** informação que o seu próprio:
+  todas as vogais estão pronunciadas. Nada foi retirado — é uma versão expandida do que ele já
+  tem, e o excesso não atrapalha;
+- O **brasileiro ouvindo o português** recebe um sinal com **menos** informação: vogais que ele
+  espera não estão lá, e ele precisa **reconstruí-las** para reconhecer a palavra. É
+  cognitivamente mais caro e falha com frequência.
+
+**2. A causa da exposição.** Portugal consome novela, música e cinema brasileiros há décadas; o
+Brasil quase não consome produção portuguesa. O ouvido português está **treinado**; o brasileiro
+não.
+
+**Por que as duas são necessárias:**
+
+- A **exposição sozinha** não bastaria: poderia haver muito contato nos dois sentidos e a
+  dificuldade fonológica persistiria em alguma medida;
+- A **fonologia sozinha** também não: se o brasileiro fosse exposto ao PE desde a infância,
+  reconstruiria as vogais automaticamente — como faz o próprio português, que não acha o PE
+  difícil.
+
+Uma causa **cria** a dificuldade; a outra **deixa de removê-la**.
+
+**A prova decisiva**: o brasileiro que passa alguns meses em Portugal **para de precisar de
+legenda**. O sinal não mudou — o treino mudou. Se a dificuldade se devesse a serem "línguas
+diferentes", nenhum treino de poucos meses resolveria. Isso mostra que se trata de **calibração
+perceptual**, não de sistema distinto.
+:::
+
+**2.** "O gerúndio é um abrasileiramento; o correto é 'estou a fazer'." Refute.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação inverte completamente a história.**
+
+**O gerúndio é a forma CONSERVADORA:**
+
+- "Estou fazendo" é a construção do **português clássico** (séc. XVI–XVII) — a língua de Camões
+  e de Vieira (@sec-cap-93);
+- O Brasil **manteve** o que recebeu. Não inventou nada;
+- Portugal é que **inovou**, generalizando "a + infinitivo" a partir do **século XVIII** — ou
+  seja, **depois** da colonização do Brasil. É uma novidade de cerca de 250 anos.
+
+**A evidência adicional, que fecha o argumento:**
+
+O gerúndio **não desapareceu** do mundo lusófono fora do Brasil:
+
+- sobrevive no português do **sul de Portugal** (Alentejo, Algarve);
+- é corrente nas variedades **africanas** — Angola, Moçambique (@sec-cap-95).
+
+Ou seja, "a + infinitivo" é a inovação de **uma área** (o centro-norte de Portugal, que impôs
+sua norma), não a forma da língua. O gerúndio é majoritário na lusofonia, se contarmos falantes.
+
+**A inversão completa**: o brasileiro que diz "estou fazendo" está usando a forma de **Camões**;
+o português que diz "estou a fazer" está usando uma inovação de 250 anos.
+
+**A ressalva honesta, que a resposta madura faz**: isso **não** torna o PB "mais correto". Cair
+nessa conclusão seria aceitar a premissa errada do adversário — a de que o mais antigo é o
+melhor. Não é: **antiguidade não é critério de correção**, e línguas mudam sem que isso as
+degrade (@sec-cap-86).
+
+**O que o argumento faz**: destrói a premissa de que Portugal conservou e o Brasil corrompeu. Os
+**dois** inovaram, em pontos diferentes. Nenhum é "o português original" — o clássico não existe
+mais em lugar nenhum. É esse o ponto, e não uma disputa sobre quem fala melhor.
+:::
+
+**3.** Liste e explique quatro diferenças sintáticas entre PB e PE.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**1. Colocação pronominal** (@sec-cap-55). PB: **próclise** default, inclusive em início de
+período ("**Me** dá um copo", "**Te** amo"). PE: **ênclise** default ("Dá-**me** um copo",
+"Amo-**te**"). O PB generalizou a próclise — inclusive onde a norma-padrão herdada a **proíbe**.
+Nenhum brasileiro fala com ênclise inicial.
+
+**2. Os clíticos de 3ª pessoa.** O PB praticamente **os perdeu** na fala, substituindo-os por:
+
+- pronome reto: "Eu vi **ele**";
+- sintagma preposicionado: "Dei o livro **pra ele**";
+- **objeto nulo**: "Você viu o filme?" — "Vi ∅".
+
+O PE conserva o sistema pleno: "Vi-**o**", "Dei-**lhe** o livro". Esta é uma diferença
+**gramatical de peso** — reorganiza o sistema pronominal inteiro.
+
+**3. O progressivo.** PB: **gerúndio** ("estou fazendo"). PE: **a + infinitivo** ("estou a
+fazer"). O PB é o **conservador** aqui; a inovação é portuguesa, do séc. XVIII.
+
+**4. O preenchimento do sujeito.** PE: língua de **sujeito nulo** robusta ("Disse que chegou").
+PB: **preenche** cada vez mais ("**Ele** disse que **ele** chegou").
+
+**A explicação sistêmica do 4** — é o que faz a boa resposta:
+
+O PB **reduziu o paradigma verbal**: de seis formas distintas para três ou quatro, com a entrada
+de *você* (3ª pessoa) e *a gente* (3ª pessoa). Resultado: a **desinência já não identifica** a
+pessoa — *fala* serve para *ele*, *você* e *a gente*. Sem a desinência informativa, o **pronome
+se torna necessário** para desambiguar.
+
+Uma mudança **morfológica** (o paradigma encolheu) **forçou** uma mudança **sintática** (o
+sujeito precisa aparecer). É um dos melhores exemplos de que a gramática é um **sistema**
+integrado, não uma lista de regras independentes — e é o tipo de argumento que sustenta
+seriamente a tese da divergência, ao contrário de "comboio × trem".
+:::
+
+**4.** Por que as diferenças lexicais importam menos do que o senso comum supõe?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Três razões:**
+
+**1. O léxico é a camada mais superficial.** Palavras se aprendem **individualmente** e num dia.
+Um brasileiro ouve "comboio" uma vez e nunca mais erra. Sistema fonológico e sintaxe são
+**regras** — adquiridas na infância, automáticas, resistentes. Reduzir vogais átonas como um
+português exige anos; aprender "autocarro" exige dez segundos.
+
+**2. O léxico varia igualmente dentro do Brasil.** A distância entre *mandioca* e *macaxeira*
+(@sec-cap-87) é do **mesmo tipo** que a distância entre *trem* e *comboio*. Se diferença lexical
+fizesse língua diferente, o Brasil teria várias — e ninguém sustenta isso. O argumento **prova
+demais**, e por isso não prova nada.
+
+**3. A maior parte do léxico é comum.** As listas selecionam exatamente as divergências — é o
+**viés do exemplo interessante**. *Casa*, *água*, *comer*, *pensar*, *amor*, *dizer*, *tempo*,
+*fazer* e dezenas de milhares de outras são idênticas. Uma lista de vinte diferenças esconde um
+vocabulário comum de dezenas de milhares.
+
+**A conclusão**: o léxico é o que mais se **nota** e o que menos **estrutura**. Quem defende que
+PB e PE são línguas distintas apoiado em "comboio × trem" está usando o argumento **mais fraco**
+disponível — e, ironicamente, enfraquecendo uma tese que tem argumentos melhores.
+
+**Os argumentos sérios são sintáticos**: a perda dos clíticos de 3ª, o preenchimento do sujeito,
+a redução do paradigma verbal, a próclise generalizada. Esses mexem no **sistema** — e são os
+que a discussão qualificada usa.
+
+**A ressalva**: há uma categoria lexical que **causa** problema real — os **falsos amigos**
+(*rapariga*, *propina*, *bicha*, *puto*, *durex*), e sobretudo os **pragmáticos**, como *você*,
+que em Portugal pode soar **rude**. Esses geram mal-entendidos concretos justamente porque o
+falante **não percebe** que há diferença. Mas nem isso é evidência de línguas distintas: é
+evidência de que a palavra igual pode ter valor social diferente.
+:::
+
+**5.** Explique por que a pergunta "PB e PE são duas línguas?" está mal colocada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Porque não existe critério linguístico para responder** (@sec-cap-87).
+
+**A demonstração**: o candidato óbvio — a **inteligibilidade mútua** — falha nos dois sentidos:
+
+- **por excesso**: dinamarquês e norueguês são amplamente inteligíveis entre si, e são contados
+  como **línguas distintas**;
+- **por falta**: mandarim e cantonês são mutuamente **ininteligíveis** na fala, e são contados
+  como **dialetos** de uma língua só.
+
+Se o critério fosse linguístico, esses casos seriam classificados ao contrário. O que decide é
+a **fronteira política** e a **tradição escrita** — "uma língua é um dialeto com exército e
+marinha".
+
+**Logo**: a pergunta tem resposta **política**, não linguística. E a resposta política **atual**
+é: **não são duas línguas** — porque os Estados, as instituições (CPLP), a ortografia comum e os
+próprios falantes assim sustentam. Note que essa resposta poderia mudar amanhã **sem que uma
+vírgula da gramática mudasse**. É esse o sinal de que a questão não é linguística.
+
+**O viés metodológico que infla o debate** — o ponto técnico:
+
+A comparação usual contrapõe o **PB falado e informal** ao **PE escrito e formal**. São coisas
+incomparáveis, e o resultado **infla** artificialmente a distância. Comparando corretamente:
+
+- **PB escrito formal × PE escrito formal**: muito próximos, quase indistinguíveis. Um artigo
+  acadêmico português é lido sem esforço no Brasil;
+- **PB falado informal × PE falado informal**: aí sim, distantes.
+
+E note o dado que desarma o argumento: **dentro do próprio Brasil**, a distância entre o falado
+informal e o escrito formal também é **enorme** (@sec-cap-90). Se essa distância não faz do
+Brasil um país bilíngue, ela não pode, sozinha, fazer de PB e PE duas línguas.
+
+**A formulação que o manual sustenta**: PB e PE são **duas normas da mesma língua**, em
+**divergência acelerada**, cuja separação futura é **possível** — e será decidida pela história e
+pela política, não pela linguística.
+
+- Chamá-las hoje de **duas línguas** é antecipar um veredito que não nos cabe dar;
+- Chamá-las de **"a mesma coisa"** é negar diferenças reais e crescentes.
+
+A descrição honesta é a do meio [@castilho2010; @teyssier2007].
+:::
+
+**6.** O Acordo Ortográfico de 1990 aproximou o PB do PE? Justifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não — e a razão é que ele opera numa camada que não é onde as variedades divergem.**
+
+**O que o Acordo fez** (@sec-cap-16): unificou **a ortografia**, e só ela. Acentuação, hífen,
+consoantes mudas (*acção* → *ação*, *óptimo* → *ótimo*).
+
+**O que ele NÃO fez:**
+
+- **pronúncia** — intocada. Escreve-se *ação* nos dois países e pronuncia-se diferente. As
+  vogais átonas continuam reduzidas lá e plenas aqui;
+- **léxico** — *comboio* e *trem* seguem firmes. O Acordo não impôs vocabulário a ninguém;
+- **sintaxe** — colocação pronominal, clíticos, sujeito nulo, gerúndio: **nada** mudou;
+- **as duas normas** — continuam duas, e ambas legítimas.
+
+**A confusão frequente**: muita gente supôs que o Acordo "unificaria a língua", ou que obrigaria
+brasileiros a escrever *pequeno-almoço* e portugueses a dizer "estou fazendo". Não: ele
+padronizou **como se grafam** as palavras — não **quais** palavras se usam, nem como se
+pronunciam, nem como se combinam.
+
+**A ironia, que é o núcleo da resposta**: o Acordo unificou justamente a camada em que PB e PE
+**menos** divergiam. A ortografia já era cerca de 98% comum antes dele — as diferenças se
+resumiam a um punhado de consoantes mudas e acentos. E deixou **intocadas** todas as camadas em
+que a divergência é real e crescente: fonologia e sintaxe.
+
+**Isso o torna inútil?** Não, e a resposta equilibrada diz por quê:
+
+- a ortografia comum tem valor **simbólico** (afirma a unidade da língua) e **prático** real:
+  documentos de organismos internacionais, mercado editorial, registro do português na ONU e na
+  UE;
+- padronizar **algo** é melhor que a duplicidade anterior, que obrigava a edições separadas.
+
+**Mas** ele não aproximou as variedades **nem poderia** — porque as variedades não divergem na
+grafia. Julgar o Acordo pelo critério "aproximou PB e PE?" é julgá-lo por um objetivo que ele
+nunca teve e não poderia ter.
+:::
+
+**7.** Explique a redução das vogais átonas no PE e suas consequências.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O fenômeno**: o PE contemporâneo **reduz drasticamente** as vogais átonas — encurta-as,
+centraliza-as e frequentemente **apaga-as**. O PB as conserva muito mais plenas.
+
+| Palavra | PB | PE |
+|---|---|---|
+| *pergunta* | [peɾˈgũtɐ] | [pɾˈgũtɐ] |
+| *telefone* | [teleˈfoni] | [tlˈfon] |
+| *padaria* | [padaˈɾiɐ] | [pdɐˈɾiɐ] |
+| *esperança* | [espeˈɾɐ̃sɐ] | [ʃpˈɾɐ̃sɐ] |
+
+**Quatro consequências:**
+
+**1. O efeito acústico.** O PE soa, ao ouvido brasileiro, "comido" e "fechado", cheio de
+consoantes coladas. E é literalmente isso: as vogais que serviriam de apoio **sumiram**,
+deixando encontros consonantais que o PB não tem.
+
+**2. O ritmo.** É a consequência sistêmica. O PE tornou-se de ritmo **acentual** — as átonas se
+comprimem entre os acentos, e os acentos tendem a se espaçar regularmente. O PB manteve o ritmo
+mais **silábico** — sílabas mais isócronas, o que produz a impressão de fala "cantada". A
+mudança rítmica **decorre** da redução: apagar átonas é o que permite comprimir.
+
+**3. A assimetria de inteligibilidade.** É a consequência mais importante. Quem **apaga** entende
+quem **não apaga** (recebe informação a mais); o inverso exige **reconstruir** vogais ausentes, o
+que é caro e falha. Daí a legenda.
+
+**4. A silabação diferente.** Sequências que no PB são duas sílabas viram uma no PE, com efeitos
+sobre a percepção da palavra inteira.
+
+**O ponto histórico decisivo, que a boa resposta acrescenta**: **essa redução é uma inovação
+PORTUGUESA**, consolidada após o século XVIII — ou seja, **depois** da colonização. O português
+clássico **não** reduzia como o PE moderno reduz.
+
+Portanto, neste traço, **o Brasil é o conservador** e Portugal é que mudou. Isso desmonta a
+intuição corrente de que Portugal guardou a língua e o Brasil a alterou: no traço fonológico
+**mais estruturante** de todos — o que responde pela dificuldade de nos entendermos —, quem se
+afastou do clássico foi **Portugal**.
+:::
+
+**8.** Um brasileiro em Lisboa chama um senhor de "você" e o senhor se ofende. Explique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O problema**: *você* **não tem o mesmo valor social** nas duas variedades. É um **falso amigo
+pragmático** — a palavra é idêntica, o valor é outro.
+
+**O sistema de tratamento no PB** (@sec-cap-87): *você* **generalizou-se** e tornou-se
+praticamente **neutro**. É o tratamento default para quase todo mundo — colegas, desconhecidos,
+professores, atendentes. Perdeu a força de tratamento intermediário e não marca distância nem
+intimidade em especial.
+
+**O sistema no PE**: *você* ocupa uma posição **intermediária e delicada**, num sistema de três
+níveis:
+
+- ***tu*** — íntimo (família, amigos, pares);
+- ***você*** — intermediário, **e pode soar condescendente ou rude** com superiores ou pessoas
+  mais velhas. É tratamento que um superior dirige a um inferior;
+- ***o senhor / a senhora***, ou o **tratamento pelo nome ou cargo** — o respeitoso. E note esta
+  peculiaridade portuguesa: usa-se o nome ou o cargo **em lugar** do pronome — "**O doutor**
+  deseja alguma coisa?", "**A dona Maria** já jantou?". A construção soa estranhíssima ao
+  brasileiro, mas é o modo cortês em Portugal.
+
+**O que aconteceu na cena**: o brasileiro usou *você* com o valor **brasileiro** (neutro,
+cortês). O senhor português recebeu-o com o valor **português** (intermediário, e vindo de um
+estranho mais jovem, **condescendente**). O brasileiro foi cortês na sua gramática e grosseiro
+na do interlocutor — **sem perceber**, e sem que nenhuma palavra tenha sido "errada".
+
+**O que ele deveria ter feito**: usar *o senhor*, ou o nome/cargo — "O senhor sabe onde fica...?"
+
+**Por que este caso é instrutivo** — e é o que a questão realmente cobra:
+
+Os falsos amigos **lexicais** (*rapariga*, *propina*) são conhecidos, circulam em listas, e o
+falante fica alerta. Os falsos amigos **pragmáticos** são muito mais perigosos justamente porque
+**invisíveis**: a palavra é a mesma, a frase é gramatical, nada sinaliza problema. O falante não
+tem como suspeitar.
+
+**A lição geral**: dominar uma variedade não é só saber suas palavras e regras — é saber o
+**valor social** de cada forma naquela comunidade. É por isso que a competência comunicativa
+(@sec-cap-88) não se reduz à gramática, e por que a diferença mais custosa entre PB e PE talvez
+não esteja em nenhuma lista de diferenças.
+:::
+
+**9.** (Estilo Cebraspe — julgue C ou E)
+
+I. A construção "estar a + infinitivo" é a forma conservadora, herdada do português clássico.
+II. O PB tende a preencher o sujeito pronominal mais que o PE.
+III. O Acordo Ortográfico de 1990 unificou a ortografia, a pronúncia e o léxico.
+IV. A redução das vogais átonas do PE é inovação posterior à colonização do Brasil.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — ERRADO.** É exatamente o **inverso**. O **gerúndio** ("estou fazendo") é a forma
+conservadora, do português clássico. "Estar a + infinitivo" é **inovação portuguesa**
+generalizada a partir do **século XVIII**. O item explora a intuição errada mais comum do
+capítulo — a de que Portugal conservou e o Brasil inovou.
+
+**II — CERTO.** O PE é língua de **sujeito nulo** robusta ("Disse que chegou"); o PB vem
+**preenchendo** cada vez mais ("Ele disse que ele chegou"). A causa é sistêmica: o PB reduziu o
+paradigma verbal (de seis formas para três/quatro, com *você* e *a gente*), a desinência deixou
+de identificar a pessoa, e o pronome tornou-se **necessário** para desambiguar. Aqui, o
+**inovador é o Brasil**.
+
+**III — ERRADO.** O Acordo unificou **apenas a ortografia** — acentuação, hífen, consoantes
+mudas. **Não** tocou pronúncia (as átonas continuam reduzidas em Portugal), **nem** léxico
+(*comboio* e *trem* seguem intactos), **nem** sintaxe. O item é a confusão popular clássica
+sobre o Acordo, transformada em pegadinha pela enumeração de três itens em que só o primeiro
+está certo.
+
+**IV — CERTO.** A redução drástica das átonas no PE consolida-se **após o século XVIII** — ou
+seja, **depois** da colonização. O português clássico não reduzia como o PE moderno. Neste traço
+— o fonologicamente **mais estruturante**, responsável pela assimetria de inteligibilidade — o
+**Brasil é o conservador** e Portugal foi quem mudou.
+
+**Gabarito: E, C, E, C.**
+
+**O padrão da questão**: os quatro itens giram em torno de **uma única** ideia — quem inovou em
+quê. Os itens I e IV testam a mesma intuição errada por ângulos opostos, e o II mostra que a
+resposta não é "o Brasil sempre conserva": o Brasil conserva no gerúndio e nas átonas, e inova
+no sujeito e nos clíticos. **Os dois inovaram, em pontos diferentes** — essa é a tese, e quem a
+tiver acerta os quatro.
+:::
+
+**10.** (Estilo ENEM) Sobre a relação entre PB e PE, é correto afirmar que:
+
+a) o PE representa a forma pura e original da língua, da qual o PB se afastou;
+b) PB e PE já constituem línguas distintas, dada a ininteligibilidade mútua;
+c) são duas normas da mesma língua, cada uma tendo inovado e conservado em pontos distintos;
+d) as diferenças se restringem ao léxico e à pronúncia, sendo a gramática idêntica;
+e) o Acordo Ortográfico de 1990 eliminou as diferenças entre as duas variedades.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: c.**
+
+**Por que c está certa**: é a formulação descritivamente honesta. PB e PE são **duas normas da
+mesma língua** (decisão política e institucional sustentada por ambos os Estados), e **cada uma
+inovou e conservou** em pontos diferentes:
+
+- **Brasil conserva**: gerúndio, vogais átonas plenas;
+- **Portugal inova**: redução das átonas, "a + infinitivo";
+- **Brasil inova**: perda dos clíticos de 3ª, sujeito preenchido, paradigma verbal reduzido,
+  próclise generalizada;
+- **Portugal conserva**: clíticos, sujeito nulo, paradigma pleno.
+
+**Por que as outras erram:**
+
+**a)** Falso, e é o mito central do capítulo. Portugal **não** conservou o original: a redução
+das átonas e o "a + infinitivo" são inovações **portuguesas** pós-coloniais. O português clássico
+**não existe mais em lugar nenhum** — os dois são descendentes que se afastaram do ancestral.
+
+**b)** Duplamente falso. Primeiro, a inteligibilidade **não** é nula — é **alta**, ainda que
+assimétrica, e melhora rapidamente com exposição (o brasileiro que mora em Portugal para de
+precisar de legenda). Segundo, e mais fundo: **não existe critério linguístico** que decida
+língua × dialeto (@sec-cap-87). A alternativa apresenta como fato consumado o que é questão
+**política** em aberto.
+
+**d)** Falso, e subestima justamente o que importa. As diferenças **gramaticais** são profundas
+e sistemáticas: colocação pronominal, perda dos clíticos de 3ª, preenchimento do sujeito,
+paradigma verbal. São esses — e não "comboio × trem" — os argumentos sérios da discussão.
+
+**e)** Falso. O Acordo unificou **só a ortografia** — e, ironicamente, a camada em que as duas
+variedades **menos** divergiam (já eram ~98% comuns na grafia). Pronúncia, léxico e sintaxe
+seguem intocados.
+
+**O padrão** (@sec-cap-85): (a) e (e) são versões do senso comum; (b) e (d) são os dois
+**exageros simétricos** — um infla a diferença até "outra língua", o outro a esvazia até "só
+sotaque e palavras". A correta é, como quase sempre nesse tipo de questão, a **descritiva e
+equilibrada** — a que não toma partido na disputa e descreve o que há.
+:::
+
+**11.** Por que se diz que a comparação usual entre PB e PE é metodologicamente enviesada?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O viés**: compara-se o **PB falado e informal** com o **PE escrito e formal**. São objetos de
+naturezas diferentes, e a comparação **infla artificialmente** a distância.
+
+**Como o viés se produz na prática:**
+
+- O brasileiro conhece o PE sobretudo por **textos** (livros, notícias, documentos) e por
+  produção **formal** — ou seja, o PE no seu registro mais monitorado;
+- E conhece o PB por **imersão total** — inclusive, e sobretudo, na fala mais espontânea e
+  informal, a que ele mesmo usa;
+- Resultado: contrapõe-se "vi ele" e "tô indo" a "vi-o" e "estou a ir". Mas "vi-o" **também**
+  existe na escrita formal brasileira, e o português informal **também** tem reduções e formas
+  que a norma dele condena.
+
+**A comparação correta — parear os registros:**
+
+| Comparação | Resultado |
+|---|---|
+| **PB escrito formal × PE escrito formal** | **Muito próximos**, quase indistinguíveis. Um artigo acadêmico português é lido sem esforço no Brasil |
+| **PB falado informal × PE falado informal** | **Distantes** — aí a diferença é real e grande |
+
+Ou seja: a distância existe, mas está concentrada na **fala informal** — e é bem menor do que a
+comparação enviesada sugere.
+
+**O dado que fecha o argumento** — e é o mais forte da resposta:
+
+**Dentro do próprio Brasil**, a distância entre o **falado informal** e o **escrito formal** é
+**enorme** (@sec-cap-90). "Cê tá indo?" e "Vossa Senhoria comparecerá?" são o mesmo idioma, e
+ninguém duvida disso.
+
+Se essa distância interna — que é grande — não faz do Brasil um país bilíngue, então ela **não
+pode**, sozinha, fazer de PB e PE duas línguas. O argumento que separaria PB de PE separaria
+igualmente o brasileiro do bar do brasileiro do ofício. Ele **prova demais**, e por isso não
+prova.
+
+**A conclusão**: a distância PB/PE é **real** e está **crescendo** — isso não se nega. Mas a
+percepção corrente a **superestima**, e a superestima por um erro de método identificável, não
+por má-fé. Corrigido o método, resta uma divergência séria, sobretudo sintática, que justifica
+falar em **duas normas** — e não em duas línguas [@castilho2010].
+:::
+
+**12.** Explique o mecanismo pelo qual a redução do paradigma verbal do PB levou ao
+preenchimento do sujeito.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Este é um dos melhores exemplos de **mudança encadeada** do português — uma alteração
+morfológica que **força** uma alteração sintática.
+
+**Passo 1 — o paradigma clássico tinha seis formas distintas:**
+
+| Pessoa | Forma |
+|---|---|
+| eu | fal**o** |
+| tu | fal**as** |
+| ele | fal**a** |
+| nós | fal**amos** |
+| vós | fal**ais** |
+| eles | fal**am** |
+
+Com seis desinências distintas, **a desinência sozinha identifica a pessoa**. "Falamos" só pode
+ser *nós*. Logo, o pronome é **redundante** — e o português clássico o omitia livremente:
+"Falamos com ele ontem". Era uma língua de **sujeito nulo** robusta, como o PE ainda é.
+
+**Passo 2 — o PB reduziu o paradigma.** Duas entradas o desmontaram:
+
+- ***você*** substituiu *tu* e trouxe consigo a concordância de **3ª pessoa** (@sec-cap-87);
+- ***a gente*** substituiu *nós* e também é **3ª pessoa**;
+- *vós* desapareceu.
+
+**O paradigma resultante do PB falado:**
+
+| Pessoa | Forma |
+|---|---|
+| eu | fal**o** |
+| você / ele / a gente | fal**a** |
+| vocês / eles | fal**am** |
+
+De seis formas para **três**.
+
+**Passo 3 — a consequência.** A desinência **deixou de identificar** a pessoa. A forma *fala*
+agora serve a **três** sujeitos distintos: *você*, *ele* e *a gente*. Ouvir "fala com ele" já
+não diz **quem** fala.
+
+**Passo 4 — a compensação sintática.** Se a morfologia não informa, **algo tem que informar** —
+e sobra o **pronome**. O sujeito, antes dispensável, torna-se **necessário**:
+
+- "**Você** fala", "**Ele** fala", "**A gente** fala" — o pronome é agora a **única** marca da
+  pessoa;
+- Daí o PB preencher o sujeito cada vez mais, e ir perdendo o sujeito nulo — em direção ao que
+  ocorre no inglês e no francês, línguas que passaram pelo mesmo processo.
+
+**Por que este exemplo é valioso** — e é o que a questão cobra:
+
+Mostra que a gramática é um **sistema integrado**, não uma lista de regras independentes. A
+mudança **não** foi "os brasileiros ficaram redundantes" ou "passaram a repetir pronome à toa" —
+foi uma **compensação funcional**: o sistema perdeu informação num módulo (morfologia) e a
+recuperou em outro (sintaxe). A informação sobre a pessoa **não se perdeu**; **mudou de lugar**.
+
+E note a implicação para o @sec-cap-86: isso é o oposto de "decadência". É um sistema
+**resolvendo um problema** que ele mesmo criou — o que línguas fazem o tempo todo, e a razão
+pela qual nunca degeneram.
+:::
+
+## 📚 Referências
+
+A comparação PB/PE segue Teyssier [@teyssier2007] para a perspectiva histórica e Castilho
+[@castilho2010] para a descrição do PB; a análise do sistema pronominal e do sujeito apoia-se
+em Perini [@perini2010] e Ilari e Basso [@ilaribasso2006]. Sobre a formação do PB em situação de
+contato, ver Câmara Jr. [@camarajr1975] e o @sec-cap-94. A discussão sobre norma, correção e
+hierarquia entre variedades retoma Faraco [@faraco2008] e Bagno [@bagno2011]; o Acordo
+Ortográfico de 1990 é tratado no @sec-cap-16.
+
+O próximo capítulo permanece no eixo das grandes oposições, mas volta-se para dentro: a
+@sec-cap-90 trata de **oralidade e escrita** — e mostrará que a distância entre o PB falado e o
+PB escrito é, ela própria, comparável à distância que este capítulo mediu entre continentes.
+
+::: {#refs}
 :::
