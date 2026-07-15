@@ -4,22 +4,922 @@ title: "Variação diastrática e diafásica: registro e estilo"
 
 # Variação diastrática e diafásica: registro e estilo {#sec-cap-88}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 14 — Variação Linguística e Sociolinguística.
+> "Diga-me como falas, e te direi quem és — e com quem estás falando."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O @sec-cap-87 fechou com uma tese forte: no Brasil, o eixo principal da variação **não é o
+espaço**. Este capítulo trata dos dois eixos que realmente organizam a heterogeneidade do PB —
+o **social** (diastrático) e o **situacional** (diafásico) — e da relação entre eles, que é
+mais interessante do que parece.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Os dois se distinguem por uma pergunta simples. A variação diastrática responde a **quem é o
+falante**: sua classe, escolaridade, idade, sexo, profissão. Coisas que ele **não escolhe** no
+momento de falar — ninguém decide, ao abrir a boca, quantos anos de escola teve. A variação
+diafásica responde a **qual é a situação**: com quem se fala, sobre o quê, onde, com que grau
+de formalidade. Coisas que **mudam a cada enunciado**, e sobre as quais o falante tem margem.
+
+A distinção parece limpa, e a maioria dos manuais para por aí. Mas o achado central da
+sociolinguística é justamente que **os dois eixos não são independentes** — eles se espelham,
+de um modo tão regular que se pode prever um a partir do outro. Entender por que é o ponto
+alto deste capítulo.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** variação diastrática de diafásica pelo critério do que varia;
+- **Descrever** os fatores sociais que condicionam a variação no PB e sua força relativa;
+- **Analisar** o contínuo de formalidade e os fatores que determinam o registro;
+- **Explicar** o paradoxo do observador e as técnicas para contorná-lo;
+- **Relacionar** estigma, prestígio e as noções de marcador, indicador e estereótipo;
+- **Aplicar** a noção de adequação em lugar da de correção na avaliação de textos.
+
+## Variação diastrática: quem fala
+
+A variação diastrática correlaciona formas linguísticas com a **posição social** do falante.
+Os fatores clássicos são cinco, e no Brasil eles **não** têm o mesmo peso.
+
+### Escolaridade — o fator mais forte no Brasil
+
+Esta é uma particularidade brasileira que vale fixar, porque contraria o modelo importado. Na
+sociolinguística americana clássica [@labov2008], o fator estruturante é a **classe social**.
+No Brasil, é a **escolaridade** — e a razão é histórica: num país com escolarização tardia,
+desigual e recente, os anos de escola funcionam como o melhor previsor isolado do
+comportamento linguístico, e discriminam mais que a renda.
+
+Um exemplo concreto. A marcação de plural no sintagma nominal (@sec-cap-86):
+
+| Escolaridade | "os meninos bonitos" (marcação plena) |
+|---|---|
+| Fundamental incompleto | baixa |
+| Médio | intermediária |
+| Superior | alta |
+
+A escala é **contínua e monotônica**: cada faixa de escolaridade marca mais que a anterior.
+Não há salto, não há grupo que "não marque" — há **gradiente**. Isso é característico da
+variação diastrática: ela quase nunca é categórica.
+
+### Classe social, renda e ocupação
+
+Correlacionam-se fortemente com a escolaridade — no Brasil, quase se confundem com ela. Onde
+se separam, é a escolaridade que costuma vencer: um empresário rico sem escola tende a falar
+mais próximo do trabalhador que do professor pobre.
+
+### Idade — e o que ela revela
+
+A idade é um fator peculiar, porque serve a **dois** propósitos distintos, e confundi-los é
+erro clássico:
+
+1. **Gradação etária** — a variação que acompanha a **fase da vida** e se repete a cada
+   geração. A gíria juvenil é o exemplo: cada geração tem a sua, e cada uma a abandona ao
+   envelhecer. O padrão se **repete**; a língua não muda.
+2. **Mudança em progresso** — quando os jovens usam uma forma que os velhos não usam, e
+   **continuam** a usar ao envelhecer. Aí a distribuição por idade é uma **fotografia da
+   mudança** (@sec-cap-86).
+
+::: {.callout-important}
+## O tempo aparente — a ideia mais engenhosa da sociolinguística
+Como estudar a mudança linguística sem esperar cinquenta anos?
+
+**A solução**: em vez de comparar 1970 com 2020 (o **tempo real**), compare, **hoje**, falantes
+de 20, 40, 60 e 80 anos. A hipótese é que a gramática de cada falante se estabiliza na
+adolescência e muda pouco depois. Então o falante de 80 anos é, aproximadamente, um **fóssil
+vivo** da língua de 1960.
+
+Se a forma nova cresce **regularmente** conforme a idade **diminui**, temos evidência de
+**mudança em progresso** — sem esperar nada.
+
+**A cautela indispensável**, que separa a boa resposta: o tempo aparente **não distingue
+sozinho** mudança de gradação etária. Os dois produzem o **mesmo** padrão numa fotografia:
+
+- Se os jovens dizem "mano" e os velhos não, pode ser **mudança** (e daqui a 40 anos todos
+  dirão) **ou** gradação etária (e esses jovens dirão "meu Deus" aos 60, como seus pais).
+
+**Como decidir**: é preciso um segundo dado — ou um **estudo de painel** (regravar os mesmos
+falantes anos depois), ou uma comparação com dados de **tempo real** de décadas atrás. O tempo
+aparente **levanta** a hipótese; ele não a confirma sozinho.
+:::
+
+### Sexo/gênero — e o padrão que surpreende
+
+Um dos achados mais replicados da sociolinguística mundial: em situação de variação **estável**,
+as mulheres usam **mais** as formas de prestígio que os homens da mesma classe e escolaridade.
+
+Cuidado com a explicação, porque é aqui que se erra feio. **Não** é uma diferença biológica nem
+uma essência de gênero. As explicações propostas são **sociais**:
+
+- as mulheres foram historicamente mais **cobradas** quanto ao comportamento, inclusive o
+  linguístico, e mais **penalizadas** pelo desvio;
+- tendo tido menos acesso a poder e status por outras vias (renda, cargo), o capital simbólico
+  da "boa fala" pesou relativamente mais;
+- as formas não padrão frequentemente carregam **prestígio encoberto** (adiante) associado à
+  masculinidade — dureza, rua, grupo.
+
+Note que o padrão **se inverte** quando a variante inovadora é a de prestígio: aí as mulheres
+tendem a **liderar** a mudança. Ou seja, a generalização real não é "mulheres são
+conservadoras" — é "mulheres são mais sensíveis à **avaliação** social da forma", o que produz
+conservadorismo num caso e vanguarda no outro.
+
+### Redes sociais
+
+Falantes de rede **densa** (todos se conhecem entre si) e **múltipla** (as mesmas pessoas são
+vizinhos, colegas e parentes) tendem a **conservar** as formas locais: a rede pressiona pela
+conformidade e recompensa a marca de pertencimento. Falantes de redes **frouxas**, com contatos
+diversificados, são os **vetores** da mudança — são eles que trazem a forma de fora.
+
+## Variação diafásica: a situação
+
+Passemos ao segundo eixo. Aqui, o falante é o **mesmo** — o que muda é a situação. E ele muda
+com ela, sempre, mesmo sem perceber.
+
+Nenhum falante tem **um** modo de falar. Todos têm um **repertório**, e transitam por ele o dia
+inteiro. O mesmo professor, no mesmo dia:
+
+- na aula: "Observem que o autor **estabelece** uma relação de causalidade";
+- no intervalo: "Cara, esse texto **é** meio complicado";
+- em casa: "Amor, **cadê** a chave?";
+- no futebol: "**Vai**, mano! **Chuta**!".
+
+Não há aí nenhuma incoerência. Há **competência**: saber variar conforme a situação é parte de
+saber a língua — e o falante que **não** varia (o que fala com o filho como fala na banca de
+tese) é o inadequado, não o outro.
+
+### O que determina o registro
+
+::: {#fig-registro}
+
+```{.tikz}
+%%| filename: registro
+%%| alt: Esquema do contínuo de formalidade e dos fatores que determinam o registro. Uma seta horizontal vai do polo informal, à esquerda, ao polo formal, à direita, com a indicação de que se trata de um contínuo e não de duas caixas. No polo informal, exemplos como cadê a chave e vai, mano, associados a interlocutor íntimo, situação privada, tema cotidiano e canal oral espontâneo. Numa posição intermediária, exemplos de conversa entre colegas. No polo formal, exemplos como o autor estabelece uma relação de causalidade, associados a interlocutor distante ou hierárquico, situação pública, tema técnico e canal escrito planejado. Abaixo da seta, quatro fatores que empurram o registro em direção ao polo formal: quem é o interlocutor, qual a situação, qual o tema e qual o canal. Uma nota final registra que o mesmo falante percorre todo o contínuo no mesmo dia, e que isso é competência e não incoerência.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=2pt, draw, align=center, inner sep=4pt, font=\scriptsize, text width=34mm},
+  fat/.style={rounded corners=2pt, draw=manualgray, fill=white, align=center, inner sep=3pt, font=\scriptsize, text width=26mm},
+]
+  % o contínuo
+  \draw[line width=2.2pt, draw=manualgray, -{Stealth[length=6pt]}] (-5.6,0) -- (5.8,0);
+  \node[font=\scriptsize\bfseries, text=manualgreen, anchor=south] at (-5.0,0.15) {INFORMAL};
+  \node[font=\scriptsize\bfseries, text=manualred, anchor=south] at (5.0,0.15) {FORMAL};
+
+  \node[cx, draw=manualgreen, fill=manualgreen!10] at (-4.2,1.5)
+    {\emph{``Cadê a chave?''}\\\emph{``Vai, mano!''}};
+  \node[cx, draw=manualyellow, fill=manualyellow!12] at (0.3,1.5)
+    {\emph{``Esse texto é meio}\\\emph{complicado''}};
+  \node[cx, draw=manualred, fill=manualred!10] at (4.4,1.7)
+    {\emph{``O autor estabelece uma}\\\emph{relação de causalidade''}};
+
+  % fatores
+  \node[fat, draw=manualblue] (f1) at (-4.3,-1.6) {\textbf{INTERLOCUTOR}\\{\scriptsize íntimo $\rightarrow$ distante}};
+  \node[fat, draw=manualblue] (f2) at (-1.4,-1.6) {\textbf{SITUAÇÃO}\\{\scriptsize privada $\rightarrow$ pública}};
+  \node[fat, draw=manualblue] (f3) at (1.5,-1.6) {\textbf{TEMA}\\{\scriptsize cotidiano $\rightarrow$ técnico}};
+  \node[fat, draw=manualblue] (f4) at (4.4,-1.6) {\textbf{CANAL}\\{\scriptsize oral $\rightarrow$ escrito planejado}};
+
+  \draw[-{Stealth[length=4pt]}, draw=manualblue] (f1) -- (-4.3,-0.15);
+  \draw[-{Stealth[length=4pt]}, draw=manualblue] (f2) -- (-1.4,-0.15);
+  \draw[-{Stealth[length=4pt]}, draw=manualblue] (f3) -- (1.5,-0.15);
+  \draw[-{Stealth[length=4pt]}, draw=manualblue] (f4) -- (4.4,-0.15);
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=94mm] at (0,-3.1)
+    {É um \textbf{contínuo}, não duas caixas. O \textbf{mesmo} falante percorre a linha inteira
+     no mesmo dia --- \\ e isso é \textbf{competência}, não incoerência. Os quatro fatores
+     atuam \textbf{juntos} e podem \textbf{conflitar}.};
+\end{tikzpicture}
+```
+
+O contínuo de formalidade e os quatro fatores que posicionam o falante nele. Formal e informal
+não são categorias, mas polos de uma escala gradual.
+
+:::
+
+Quatro fatores determinam onde, no contínuo, o falante se posiciona:
+
+| Fator | Pergunta | Empurra para o formal quando |
+|---|---|---|
+| **Interlocutor** | com quem falo? | é distante, superior, desconhecido, numeroso |
+| **Situação** | onde estou? | é pública, institucional, ritualizada |
+| **Tema** | do que falo? | é técnico, sério, abstrato |
+| **Canal** | como falo? | é escrito, planejado, permanente |
+
+E note o essencial: **os quatro atuam juntos e podem conflitar**. Uma mensagem de WhatsApp
+(canal informal) para o juiz (interlocutor formal) sobre um processo (tema técnico) coloca o
+falante numa posição desconfortável — e é exatamente aí que os falantes hesitam, se
+autocorrigem e erram o tom. A dificuldade não é ignorância; é **conflito de fatores**.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Registro, estilo, tom: a terminologia
+Os termos flutuam, e vale saber o que se está usando:
+
+- **Registro** — o mais comum na tradição brasileira para a variação diafásica: o grau de
+  formalidade da variedade escolhida (registro formal, informal, coloquial, técnico);
+- **Estilo** — o termo de Labov, praticamente sinônimo de registro no uso técnico, mas atenção:
+  em **estilística literária** (@sec-cap-96) *estilo* significa outra coisa — a marca autoral
+  individual;
+- **Grau de monitoramento** — a formulação laboviana mais precisa: quanta **atenção** o falante
+  presta à própria fala. É o que de fato varia; formalidade é a consequência.
+
+**A escala clássica de Labov**, do menos ao mais monitorado: fala espontânea < fala cuidada <
+leitura de texto < leitura de lista de palavras < leitura de pares mínimos. Quanto mais o
+falante presta atenção, mais formas de prestígio ele usa — e a curva é notavelmente regular.
+:::
+
+::: {.callout-important}
+## O paradoxo do observador
+Aqui está o problema metodológico central da sociolinguística, formulado por Labov
+[@labov2008], e um dos temas prediletos de prova.
+
+**O paradoxo**: para estudar como as pessoas falam quando **não** estão sendo observadas, é
+preciso **observá-las**. Mas o gravador é ele mesmo um fator diafásico — sua presença **eleva**
+o monitoramento e empurra o falante para o formal. Ou seja: **o instrumento de medida altera o
+objeto medido**.
+
+O dado mais valioso — a fala espontânea, vernacular — é justamente o **mais difícil** de
+obter, e por uma razão estrutural, não por falta de técnica.
+
+**As soluções, todas parciais:**
+
+1. **O módulo do perigo de morte** — a técnica clássica: perguntar ao informante sobre uma
+   situação em que quase morreu. A carga emocional da narrativa faz o falante **esquecer** o
+   gravador, e o vernáculo emerge;
+2. **Gravar em grupo** — na presença dos pares, a pressão da rede supera a do observador;
+3. **A fala fora da entrevista** — os momentos em que o informante se dirige a um terceiro, ou
+   fala antes/depois do que julga ser a gravação;
+4. **A observação anônima** — registrar fala pública sem interação (a célebre pesquisa de Labov
+   nas lojas de departamento de Nova York, em que ele perguntava onde ficava um setor do
+   **quarto** andar para eliciar "fourth floor" e ouvir o (r));
+5. **O pesquisador membro da comunidade** — reduz, sem anular, o efeito.
+
+**O ponto que a boa resposta alcança**: o paradoxo **não se resolve**, só se **atenua**. E ele
+não é um defeito da disciplina — é consequência direta da tese de que **toda** fala é situada.
+Se a variação diafásica existe, então não existe fala "sem situação" a ser capturada: o
+gravador não polui um dado puro; ele **cria uma situação a mais**. Reconhecer isso é o que
+torna a sociolinguística metodologicamente honesta.
+:::
+
+## Como os dois eixos se cruzam
+
+Chegamos ao ponto alto. Os dois eixos parecem independentes — um é sobre **quem**, o outro
+sobre **quando**. Mas a sociolinguística descobriu que eles são **espelhos**.
+
+::: {.callout-important}
+## O achado central: a variação diafásica reproduz a diastrática
+**A generalização** (uma das mais sólidas da disciplina): as formas que os grupos de **maior
+prestígio** usam mais são as mesmas que **todos** os grupos usam mais nas situações **mais
+formais**.
+
+Em outras palavras: **o eixo social e o eixo estilístico apontam na mesma direção**.
+
+**A evidência**: se plotarmos a frequência de uma variante de prestígio por classe **e** por
+estilo, obtemos um feixe de curvas **paralelas**:
+
+- **cada classe** aumenta a variante de prestígio conforme o estilo se formaliza (curva
+  ascendente);
+- **as classes não se cruzam** — a classe alta usa mais a forma de prestígio que a média em
+  **todos** os estilos, e a média mais que a baixa em **todos** os estilos.
+
+**Por que isso importa**, e é a interpretação que a questão dissertativa cobra: significa que
+falar formalmente é, essencialmente, falar **como os grupos de prestígio falam sempre**. O
+"formal" não é uma variedade neutra que paira acima da sociedade — é a variedade dos que têm
+poder, generalizada como norma para todos nas situações em que se avalia.
+
+**A consequência política**: a escola, ao ensinar o registro formal, está ensinando a fala dos
+grupos dominantes. Isso **não** é razão para não ensiná-la — o aluno precisa dela, e negá-la é
+abandoná-lo (@sec-cap-86). Mas é razão para ensiná-la **sem a mentira** de que ela é
+naturalmente melhor. Ela é socialmente **mais valiosa**, o que é outra coisa (@sec-cap-91).
+:::
+
+### Prestígio aberto e prestígio encoberto
+
+Se as formas de prestígio são melhores avaliadas, por que as não padrão **não desaparecem**?
+
+Esta é uma boa pergunta, e a resposta é um dos conceitos mais elegantes da disciplina:
+
+- **Prestígio aberto** (*overt*) — o prestígio que os falantes **declaram** ter. Se você
+  perguntar "qual é o jeito certo?", todos apontam a norma. É o prestígio que se **admite** em
+  público.
+- **Prestígio encoberto** (*covert*) — o prestígio que as formas **não padrão** têm, e que
+  ninguém declara. Elas sinalizam **pertencimento**, autenticidade, lealdade ao grupo, dureza,
+  masculinidade. É real, é forte — e é **invisível** aos questionários diretos.
+
+**É o prestígio encoberto que explica a persistência**. Se só houvesse o aberto, as formas não
+padrão teriam desaparecido há séculos — todos sabem qual é a "certa". Elas sobrevivem porque
+**valem** alguma coisa: usar a forma padrão o tempo todo, no grupo errado, custa caro. É ser
+"metido", "cheio de si", "de fora". O adolescente que fala como a gramática manda no meio dos
+amigos paga um preço social real — e ele sabe disso melhor que o professor.
+
+**Nota terminológica**: em Labov, *covert prestige* nomeia com precisão o valor positivo
+encoberto das variantes estigmatizadas. Não confundir com o simples estigma: o mesmo traço pode
+ter estigma aberto **e** prestígio encoberto **simultaneamente**, e é essa tensão que o mantém
+vivo.
+
+### Indicador, marcador e estereótipo
+
+A tipologia laboviana da consciência social das variantes — matéria de prova e boa ferramenta
+de análise:
+
+| Tipo | Varia por grupo? | Varia por estilo? | O falante percebe? | Exemplo no PB |
+|---|:---:|:---:|:---:|---|
+| **Indicador** | sim | **não** | não | detalhes fonéticos finos; a qualidade exata de uma vogal |
+| **Marcador** | sim | **sim** | vagamente | concordância verbal: "nós foi" — todos reduzem no formal |
+| **Estereótipo** | sim | sim | **sim, e comenta** | "nóis vai", o "r" caipira, "pobrema", "menas" |
+
+**A lógica da escala** — que é o que se cobra: à medida que uma variante se torna **consciente**,
+ela ganha variação estilística (o falante passa a evitá-la quando presta atenção) e, no limite,
+vira **estereótipo**: objeto de comentário explícito, de piada, de correção escolar. É o
+estágio em que a forma sai da gramática e entra no **folclore** — e frequentemente é o estágio
+que precede seu desaparecimento na fala monitorada, embora ela possa sobreviver
+indefinidamente no vernáculo.
+
+**O detalhe fino**: o estereótipo é frequentemente uma **caricatura**. "Nóis vai" é atribuído ao
+falante rural, mas ninguém diz exatamente isso o tempo todo — a forma estereotipada é uma
+**exageração** do traço real, congelada, que serve mais para marcar o outro que para descrevê-lo
+(@sec-cap-91).
+
+## Adequação, não correção
+
+Aqui a consequência prática de tudo o que veio antes, e o conceito que o manual vem preparando
+desde o @sec-cap-03.
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A pergunta que a variação diafásica **dissolve**: "esta frase está certa?"
+
+A pergunta está mal formulada, e a razão é técnica, não ideológica. Considere:
+
+> "Cadê a chave?"
+
+**Certo ou errado?** Depende — e não de gosto, mas de **fatos verificáveis** sobre a situação:
+
+- Dito ao cônjuge, em casa: **perfeitamente adequado**. A alternativa formal ("Onde se encontra
+  a chave?") seria **estranha**, e a estranheza é um dado — sinalizaria ironia, irritação ou
+  distanciamento deliberado;
+- Escrito num ofício: **inadequado**. Não porque a construção seja agramatical — é perfeita —,
+  mas porque **contraria a expectativa do gênero** (@sec-cap-72) e sinalizaria desrespeito ou
+  incompetência.
+
+**A reformulação correta**: em lugar de *certo × errado*, **adequado × inadequado** — e sempre
+**a quê**: a este interlocutor, nesta situação, neste gênero, neste canal.
+
+**O que se ganha com a troca:**
+
+1. **Precisão descritiva.** "Cadê" não é um erro; é uma forma do registro informal. Chamá-la de
+   erro descreve mal o objeto.
+2. **Poder explicativo.** A adequação explica por que o formal também pode falhar: "Onde se
+   encontra a chave?", dito ao cônjuge, é **inadequado** — e a noção de correção não daria conta
+   disso, porque a frase é impecável. **Formal não é sinônimo de bom**; é um dos polos, e usar o
+   polo errado é errar.
+3. **Honestidade sobre o ensino.** O objetivo passa a ser **ampliar o repertório** — dar ao
+   aluno o registro formal **além** do que ele já tem, e a capacidade de escolher entre eles.
+   Não substituir a fala dele.
+
+**O que NÃO se ganha — e aqui está o limite que o relativismo ignora:** a troca terminológica
+**não** elimina a avaliação social. Continua existindo o **custo** de usar o registro
+inadequado, e ele é real: quem escreve "cadê" no ofício **será** julgado. A noção de adequação
+descreve melhor o fenômeno, mas não protege ninguém das consequências.
+
+**Por isso a posição do manual** (a mesma do @sec-cap-86): ensinar a norma **com competência** e
+descrever o uso **com honestidade**. Dizer ao aluno "tanto faz" é mentir e prejudicá-lo. Dizer
+"seu jeito de falar é errado" é mentir e humilhá-lo. A verdade é a terceira: "seu jeito de falar
+tem gramática e serve perfeitamente onde você o usa; e existe **outro** jeito, que abre portas,
+e que você tem o direito de aprender também" [@faraco2008; @bagno2011].
+:::
+
+## 📋 Quadro-resumo
+
+**Os dois eixos:**
+
+| | **Diastrática** | **Diafásica** |
+|---|---|---|
+| **Varia com** | **quem** fala | **a situação** |
+| **Fatores** | escolaridade, classe, idade, sexo, rede | interlocutor, situação, tema, canal |
+| **O falante escolhe?** | não | sim (dentro do repertório) |
+| **Muda a cada enunciado?** | não | **sim** |
+
+**Fatores diastráticos** — **escolaridade é o mais forte no Brasil** (não a classe, como no
+modelo americano): escolarização tardia e desigual. Idade: distinguir **gradação etária**
+(repete a cada geração) de **mudança em progresso**. Sexo: mulheres usam mais as formas de
+prestígio na variação **estável**, e **lideram** quando a inovação é prestigiada — a
+generalização real é **sensibilidade à avaliação**, não conservadorismo. Rede densa conserva;
+rede frouxa inova.
+
+**Tempo aparente**: comparar faixas etárias **hoje** para inferir mudança. **Não distingue
+sozinho** mudança de gradação etária — precisa de painel ou de tempo real.
+
+**Registro** = grau de formalidade; a formulação precisa é **grau de monitoramento**. Quatro
+fatores: **interlocutor · situação · tema · canal** — atuam juntos e podem **conflitar**.
+
+**Paradoxo do observador**: para estudar a fala não observada é preciso observá-la; o gravador
+formaliza. Soluções parciais: perigo de morte, gravação em grupo, fala fora da entrevista,
+observação anônima. **Atenua-se, não se resolve** — e isso decorre da própria tese de que toda
+fala é situada.
+
+**O achado central**: a variação **diafásica reproduz** a diastrática. Curvas **paralelas**, que
+**não se cruzam**. Falar formalmente = falar como os grupos de prestígio falam **sempre**.
+
+**Prestígio aberto** (declarado, da norma) × **encoberto** (não declarado, das formas não
+padrão: pertencimento, autenticidade). O **encoberto** explica por que as não padrão não
+desaparecem.
+
+**Indicador** (grupo, sem estilo, inconsciente) → **marcador** (grupo + estilo, semiconsciente)
+→ **estereótipo** (consciente, comentado, caricatural).
+
+**Adequação, não correção**: sempre "adequado **a quê**". Formal ≠ bom — o formal na situação
+errada também falha. Mas a troca **não** anula o custo social do registro inadequado.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir os eixos.** Diastrática = **quem** (não muda ao longo do dia); diafásica =
+  **situação** (muda a cada enunciado). O teste: se o **mesmo** falante alterna, é diafásica.
+- **Achar que classe é o fator mais forte no Brasil.** É a **escolaridade**. O modelo americano
+  não se transplanta.
+- **Confundir gradação etária com mudança em progresso.** A gíria juvenil se repete a cada
+  geração; não é mudança.
+- **Achar que o tempo aparente prova mudança.** Ele **levanta** a hipótese; confirmar exige
+  painel ou tempo real.
+- **Explicar o padrão de sexo biologicamente.** É social. E ele **se inverte** quando a
+  inovação é prestigiada — o que sozinho refuta a explicação essencialista.
+- **Achar que o paradoxo do observador tem solução.** Só atenuação. E ele decorre da tese
+  central, não de má técnica.
+- **Achar que os eixos são independentes.** São **espelhos**: curvas paralelas.
+- **Esquecer o prestígio encoberto.** Sem ele, não se explica a persistência das formas
+  estigmatizadas.
+- **Achar que estereótipo = forma real.** É **caricatura** exagerada e congelada.
+- **Achar que "formal" = "bom".** "Onde se encontra a chave?", dito ao cônjuge, é **inadequado**.
+  O formal na situação errada erra.
+- **Achar que adequação = "tanto faz".** A troca descreve melhor, mas **não** elimina o custo
+  social. Quem escreve "cadê" no ofício será julgado.
+- **Achar que quem varia o registro é incoerente.** Variar é **competência**. Quem **não** varia
+  é o inadequado.
+
+## ✍️ Exercícios
+
+**1.** Distinga variação diastrática de diafásica e dê o teste que as separa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| | **Diastrática** | **Diafásica** |
+|---|---|---|
+| **Responde a** | **quem** é o falante? | **qual** é a situação? |
+| **Fatores** | escolaridade, classe, idade, sexo, rede | interlocutor, situação, tema, canal |
+| **O falante escolhe?** | **não** — ninguém decide quantos anos de escola teve | **sim**, dentro do seu repertório |
+| **Muda a cada enunciado?** | **não** — é relativamente estável na vida | **sim** — muda a cada situação |
+| **Exemplo** | "nós foi" (baixa escolaridade, em todo o país) | "cadê" × "onde está" (mesmo falante) |
+
+**O teste decisivo**: pergunte se o **mesmo falante** alterna entre as formas ao longo do dia.
+
+- **Alterna** → é **diafásica**. O professor diz "cadê a chave" em casa e "onde se encontra" no
+  ofício. É o mesmo falante, mesma escolaridade: só a situação mudou.
+- **Não alterna** (ou alterna só em frequência) → é **diastrática**. O falante de baixa
+  escolaridade não passa a marcar todos os plurais por estar numa entrevista — ele **aumenta a
+  frequência**, mas não muda de gramática.
+
+**O detalhe que a boa resposta acrescenta**: os dois eixos **não são independentes**. A
+variação diafásica **reproduz** a diastrática — as formas que os grupos de prestígio usam mais
+são as que **todos** usam mais no formal. A separação é analítica; na prática, os eixos se
+espelham.
+:::
+
+**2.** Por que a escolaridade é o fator diastrático mais forte no Brasil, e não a classe?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A constatação empírica**: nos estudos sociolinguísticos brasileiros, a **escolaridade** é o
+melhor previsor isolado do comportamento linguístico — discrimina mais que renda, ocupação ou
+classe.
+
+**Por que — a explicação histórica:**
+
+1. **Escolarização tardia, desigual e recente.** O Brasil universalizou o acesso ao fundamental
+   só no fim do século XX. Isso produziu uma população com dispersão **enorme** de anos de
+   escola — de zero a vinte —, e a variável tem, portanto, grande poder discriminante.
+2. **A escola é o principal canal de acesso à norma escrita.** A norma-padrão (@sec-cap-03) é
+   uma construção **escrita**, aprendida formalmente, não adquirida em casa. Quem passou pela
+   escola por mais tempo teve mais exposição — e a exposição é o que conta.
+3. **Onde escolaridade e classe divergem, a escolaridade vence.** O caso decisivo: um empresário
+   rico sem escola tende a falar mais próximo do trabalhador que do professor pobre. A renda não
+   prevê; os anos de escola preveem.
+
+**O contraste com o modelo importado** — e é isto que a questão cobra: na sociolinguística
+americana clássica [@labov2008], o fator estruturante é a **classe social**, medida por
+ocupação, renda e educação combinadas. Nos EUA, essas três correlacionam-se de modo mais
+estreito e a escolarização básica é antiga e mais uniforme, então a escolaridade sozinha
+discrimina pouco.
+
+**A lição metodológica**: o modelo **não se transplanta**. As variáveis sociais relevantes
+dependem da **estrutura social** de cada país, e importar o pacote americano sem adaptação é
+erro — a sociolinguística brasileira teve de descobrir suas próprias variáveis.
+:::
+
+**3.** Explique o tempo aparente, sua utilidade e sua limitação central.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O problema**: a mudança linguística leva décadas. Como estudá-la sem esperar cinquenta anos?
+
+**A solução — o tempo aparente**: em vez de comparar dados de 1970 com dados de 2020 (que seria
+o **tempo real**), comparam-se, **hoje**, falantes de faixas etárias diferentes: 20, 40, 60, 80
+anos.
+
+**O pressuposto que a sustenta**: a gramática de cada falante se estabiliza na **adolescência**
+e muda pouco depois. Logo, o falante de 80 anos é aproximadamente um **fóssil vivo** da língua
+de sessenta anos atrás.
+
+**A leitura**: se a forma nova cresce **regular e monotonicamente** conforme a idade
+**diminui**, isso é evidência de **mudança em progresso** — obtida numa única coleta.
+
+**A limitação central** — e é o que a questão realmente cobra: o tempo aparente **não distingue
+sozinho** mudança em progresso de **gradação etária**.
+
+Os dois fenômenos produzem **exatamente o mesmo padrão** numa fotografia. Se os jovens dizem
+"mano" e os velhos não, há duas leituras incompatíveis:
+
+- **Mudança em progresso**: esses jovens continuarão dizendo "mano" aos 60, e daqui a 40 anos
+  todos dirão;
+- **Gradação etária**: "mano" é próprio da **fase da vida**; esses jovens o abandonarão ao
+  envelhecer, como seus pais abandonaram a gíria deles. O padrão se **repete** a cada geração e
+  a língua **não muda**.
+
+A fotografia é a mesma; a interpretação, oposta.
+
+**Como decidir** — é preciso um segundo dado:
+
+- **Estudo de painel**: regravar **os mesmos** falantes 20 anos depois. Se mantiveram a forma, é
+  mudança; se a abandonaram, é gradação;
+- **Tempo real**: comparar com dados efetivamente coletados décadas atrás.
+
+**A formulação correta**: o tempo aparente **levanta** a hipótese de mudança; ele não a
+**confirma**. É um instrumento poderoso e barato, mas indiciário.
+:::
+
+**4.** Explique o paradoxo do observador e por que ele não se resolve.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O enunciado** [@labov2008]: para estudar como as pessoas falam quando **não** estão sendo
+observadas, é preciso **observá-las**.
+
+**O mecanismo**: o gravador e o pesquisador **são** fatores diafásicos. Sua presença eleva o
+**grau de monitoramento** e empurra o falante para o polo formal. Ou seja, **o instrumento de
+medida altera o objeto medido**. O dado mais valioso — o vernáculo, a fala espontânea — é
+justamente o mais difícil de obter.
+
+**As soluções, todas parciais:**
+
+1. **Módulo do perigo de morte** — perguntar sobre uma situação em que o informante quase
+   morreu. A carga emocional da narrativa faz o falante **esquecer** o gravador, e o vernáculo
+   emerge;
+2. **Gravação em grupo** — na presença dos pares, a pressão da rede supera a do observador;
+3. **Fala fora da entrevista** — os momentos em que o informante fala com um terceiro, ou
+   antes/depois do que julga ser a gravação;
+4. **Observação anônima** — registrar fala pública sem interação. O caso célebre: Labov nas
+   lojas de departamento de Nova York, perguntando onde ficava um setor do **quarto** andar para
+   eliciar "fourth floor" e ouvir a realização do (r);
+5. **Pesquisador membro da comunidade** — reduz, sem anular.
+
+**Por que não se resolve** — e aqui está a resposta profunda, que distingue a boa da mediana:
+
+O paradoxo **não é um defeito de técnica**; é **consequência lógica** da tese central da
+disciplina. Se **toda** fala é situada — se a variação diafásica existe —, então **não existe**
+uma fala "sem situação" esperando ser capturada. O gravador não **polui** um dado puro que
+existiria sem ele; ele **cria mais uma situação**, e o falante responde a ela como responderia a
+qualquer outra.
+
+Não há, portanto, um estado natural da língua a ser alcançado com técnica melhor. Só há
+situações — e o vernáculo é, ele também, a fala de **uma** situação (a mínima vigilância), não
+a fala fora de toda situação.
+
+**A conclusão**: atenua-se, não se resolve. E reconhecer isso é o que torna a sociolinguística
+metodologicamente **honesta**, em vez de ingênua.
+:::
+
+**5.** Explique o achado de que a variação diafásica "reproduz" a diastrática e sua consequência
+para o ensino.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O achado**: as formas que os grupos de **maior prestígio** usam mais são **exatamente** as
+mesmas que **todos** os grupos usam mais nas situações **mais formais**. Os dois eixos apontam
+na mesma direção.
+
+**A evidência gráfica**: plotando a frequência de uma variante de prestígio por classe **e** por
+estilo, obtém-se um feixe de curvas **paralelas**:
+
+- **cada** classe aumenta a variante de prestígio conforme o estilo se formaliza — todas as
+  curvas sobem;
+- as classes **não se cruzam** — a classe alta usa mais a forma de prestígio que a média em
+  **todos** os estilos, e a média mais que a baixa em **todos** os estilos.
+
+O paralelismo é o dado: significa que classe e estilo mexem no **mesmo** conjunto de formas, na
+**mesma** direção.
+
+**A interpretação**: falar formalmente é, essencialmente, falar **como os grupos de prestígio
+falam o tempo todo**. O registro formal não é uma variedade neutra pairando acima da sociedade —
+é a variedade dos que têm poder, generalizada como norma para todos nas situações em que se
+avalia.
+
+**A consequência para o ensino** — e é o que a questão cobra:
+
+Ao ensinar o registro formal, a escola está ensinando **a fala dos grupos dominantes**. Isso
+gera duas reações erradas e simétricas:
+
+- **A reação ingênua**: ensinar o formal como se fosse "o português correto", naturalmente
+  superior. É **falso** — e o aluno cuja fala é desqualificada aprende, junto com a gramática,
+  que ele próprio é inferior;
+- **A reação relativista**: recusar-se a ensinar o formal, porque é a língua do dominante. É
+  **abandono** — o aluno precisa dessa variedade para disputar posições, e negá-la é fechar-lhe a
+  porta em nome de uma pureza que não o alimenta.
+
+**A posição defensável**: ensinar o registro formal **com competência** e **sem a mentira** de
+que ele é naturalmente melhor. Ele é socialmente **mais valioso** — o que é um fato sobre a
+sociedade, não sobre a língua. O aluno tem direito a saber as duas coisas: a forma **e** o que
+ela é (@sec-cap-91) [@faraco2008].
+:::
+
+**6.** Se as formas de prestígio são melhor avaliadas, por que as não padrão não desaparecem?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A resposta**: por causa do **prestígio encoberto** (*covert prestige*).
+
+**A distinção:**
+
+- **Prestígio aberto** (*overt*) — o que os falantes **declaram**. Pergunte "qual é o jeito
+  certo?" e **todos**, inclusive quem não usa a forma padrão, apontam a norma. É o prestígio
+  que se admite em público, e é o que os questionários captam.
+- **Prestígio encoberto** (*covert*) — o valor positivo das formas **não padrão**, que ninguém
+  declara e que os questionários **não** captam. Elas sinalizam **pertencimento**,
+  autenticidade, lealdade ao grupo, dureza, masculinidade.
+
+**Por que ele explica a persistência** — o argumento:
+
+Se **só** existisse o prestígio aberto, as formas não padrão já teriam desaparecido: todos sabem
+qual é a "certa", e todos declaram preferi-la. A persistência seria um mistério — ou teria de ser
+atribuída a ignorância, que é a explicação prescritivista e é falsa (os falantes **sabem**).
+
+Elas sobrevivem porque **valem** alguma coisa. Usar a forma padrão o tempo todo, no grupo
+errado, **custa caro**: é ser "metido", "cheio de si", "de fora". O adolescente que fala como a
+gramática manda no meio dos amigos paga um preço social **real** — e ele calcula esse preço
+melhor que o professor que o corrige.
+
+**A formulação precisa**: há **duas** economias simbólicas operando ao mesmo tempo, e elas
+premiam formas **opostas**. O falante não é incoerente ao alternar — está respondendo a dois
+mercados. A norma paga na entrevista de emprego; o vernáculo paga na esquina. Quem só tem uma
+das duas moedas é o pobre.
+
+**O ponto fino**: o mesmo traço pode ter **estigma aberto** e **prestígio encoberto**
+simultaneamente. Não são traços diferentes em falantes diferentes — é a **mesma** forma,
+avaliada em dois registros de valor. É essa tensão que a mantém viva.
+:::
+
+**7.** Distinga indicador, marcador e estereótipo, com exemplos do PB.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A tipologia laboviana classifica as variantes pelo **grau de consciência social** que despertam:
+
+| Tipo | Varia por grupo? | Varia por estilo? | O falante percebe? | Exemplo no PB |
+|---|:---:|:---:|:---:|---|
+| **Indicador** | sim | **não** | não | detalhes fonéticos finos — a qualidade exata de uma vogal pretônica |
+| **Marcador** | sim | **sim** | vagamente | concordância verbal: "nós foi" — **todos** reduzem no formal |
+| **Estereótipo** | sim | sim | **sim, e comenta** | "nóis vai", o "r" caipira, "pobrema", "menas" |
+
+**A lógica da escala** — o que a questão cobra:
+
+O critério que separa **indicador** de **marcador** é a **variação estilística**. O indicador
+distingue grupos, mas o **mesmo** falante o usa igual em todo estilo — porque não tem
+consciência dele, e não se pode monitorar o que não se percebe. O marcador já entrou no radar:
+o falante o **evita** quando presta atenção, e por isso ele varia com o estilo.
+
+O **estereótipo** é o estágio final: a forma se torna objeto de **comentário explícito** — de
+piada, de imitação, de correção escolar. Sai da gramática e entra no **folclore**. É o único
+que os falantes conseguem **citar**: ninguém diz "aquele povo abre demais a pretônica", mas todo
+mundo sabe imitar "nóis vai".
+
+**O detalhe fino, que faz a diferença**: o estereótipo é uma **caricatura**. "Nóis vai" é
+atribuído ao falante rural, mas ninguém diz exatamente isso o tempo todo — a forma estereotipada
+é uma **exageração** do traço real, congelada e descolada do uso. Ela serve menos para descrever
+o outro que para **marcá-lo** (@sec-cap-91).
+
+**A trajetória típica**: indicador → marcador → estereótipo. Ganhar consciência é ganhar variação
+estilística. E o estereótipo frequentemente precede o recuo da forma na fala monitorada — embora
+possa sobreviver indefinidamente no vernáculo, sustentado pelo prestígio encoberto.
+:::
+
+**8.** "Cadê a chave?" está certo ou errado? Analise a pergunta.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A pergunta está mal formulada** — e a razão é técnica, não ideológica.
+
+**Por que não se pode responder**: falta a situação. A frase não é certa nem errada **em si**;
+ela é adequada ou inadequada **a alguma coisa**. Considere:
+
+- **Dita ao cônjuge, em casa**: perfeitamente **adequada**. E note o dado revelador — a
+  alternativa formal ("Onde se encontra a chave?") seria **estranha** nessa situação, e a
+  estranheza significaria algo: ironia, irritação, distanciamento deliberado. O formal, aqui,
+  **comunicaria mal**;
+- **Escrita num ofício**: **inadequada**. Não porque a construção seja agramatical — é perfeita,
+  e todo brasileiro a compreende — mas porque **contraria a expectativa do gênero**
+  (@sec-cap-72), e sinalizaria desrespeito ou incompetência.
+
+**A reformulação correta**: em vez de *certo × errado*, **adequado × inadequado** — e sempre
+**adequado a quê**: a este interlocutor, nesta situação, neste gênero, neste canal.
+
+**O que se ganha:**
+
+1. **Precisão descritiva.** "Cadê" não é erro; é forma do registro informal, com gramática
+   própria e uso perfeitamente regular;
+2. **Poder explicativo.** A adequação explica o caso que a correção **não** explica: por que
+   "Onde se encontra a chave?", dito ao cônjuge, também falha. A frase é impecável — logo, a
+   noção de correção não tem o que dizer. Só a adequação dá conta. **Formal não é sinônimo de
+   bom**: é um polo, e usar o polo errado é errar.
+
+**O que NÃO se ganha — o limite:**
+
+A troca terminológica **não elimina a avaliação social**. Continua havendo **custo** em usar o
+registro inadequado, e ele é real: quem escreve "cadê" no ofício **será julgado**, e a
+sociolinguística não o protege disso. Descrever melhor o fenômeno não desarma o fenômeno.
+
+**A conclusão**: por isso o manual sustenta as duas coisas ao mesmo tempo — descrever com
+honestidade **e** ensinar a norma com competência. A meta é o **trânsito** entre registros
+(@sec-cap-72): ter as duas moedas, e saber em que mercado gastar cada uma.
+:::
+
+**9.** Um aluno diz: "Meu professor fala 'cara' e 'né' no intervalo, mas exige norma culta na
+prova. Ele é incoerente." Comente.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O aluno está errado, e o erro é instrutivo**: ele confunde **variação diafásica** com
+**incoerência**.
+
+**O que o professor está fazendo:**
+
+Ele não tem **um** modo de falar — tem um **repertório**, e o percorre conforme a situação. No
+mesmo dia:
+
+- na aula (interlocutor institucional, tema técnico, situação pública): registro formal;
+- no intervalo (interlocutor próximo, tema cotidiano, situação privada): registro informal.
+
+Isso não é contradição. É **competência comunicativa**: saber variar conforme a situação **é
+parte** de saber a língua. Os quatro fatores mudaram — interlocutor, situação, tema e canal — e
+o registro acompanhou, como deve.
+
+**A inversão que a resposta madura faz**: o falante que **não** varia é que seria o problema. Um
+professor que falasse na mesa do bar como fala na banca de tese seria **inadequado** — e soaria
+ridículo ou hostil. A rigidez de registro não é virtude; é um déficit.
+
+**Onde há um grão de razão no aluno** — e a boa resposta reconhece isto:
+
+Se o professor apresenta a norma culta como "o jeito certo de falar" **e** fala "né" no
+intervalo, então ele está de fato em contradição — não na prática, mas no **discurso** sobre a
+prática. Ele desmente, com o próprio comportamento, o que afirma na aula. O aluno percebeu uma
+inconsistência real, mas localizou-a no lugar errado.
+
+**A saída**: o professor deve ensinar a norma como **registro formal escrito** — adequado à
+prova, ao ofício, ao artigo — e não como "o certo em oposição ao errado". Aí não há contradição
+nenhuma: ele exige na prova o registro que a prova pede, e usa no intervalo o registro que o
+intervalo pede. Exatamente como cobra que o aluno faça.
+
+**A moral**: a incoerência não está em variar — está em **negar que se varia** enquanto se
+varia (@sec-cap-91).
+:::
+
+**10.** (Estilo FCC) Sobre o prestígio encoberto, é correto afirmar:
+
+a) é o prestígio da norma-padrão, declarado pelos falantes em questionários;
+b) é o valor positivo das variantes não padrão, associado a pertencimento e identidade de
+   grupo, e não declarado abertamente;
+c) é o prestígio de que gozam as variedades rurais em relação às urbanas;
+d) é um fenômeno exclusivo das classes altas;
+e) é sinônimo de estigma linguístico.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: b.**
+
+**Por que b está certa**: o prestígio encoberto (*covert prestige*) é o valor positivo que as
+formas **não padrão** carregam — sinalizando pertencimento, autenticidade, lealdade ao grupo,
+identidade —, e que os falantes **não declaram** abertamente. É justamente ele que explica por
+que essas formas **não desaparecem**, apesar de todos reconhecerem a norma como "a certa".
+
+**Por que as outras erram:**
+
+**a)** Descreve o prestígio **aberto** (*overt*) — o declarado, o que os questionários captam. É
+exatamente o **oposto** do encoberto, e a alternativa existe para punir quem leu o conceito pela
+metade.
+
+**c)** Falso. O prestígio encoberto **não** é geográfico e **não** é propriedade das variedades
+rurais. Ele é o valor de grupo das formas não padrão **em qualquer** comunidade — inclusive
+urbanas, e notadamente na fala de jovens urbanos de periferia.
+
+**d)** Falso, e inverte o fenômeno. O prestígio encoberto opera **em todas** as classes, e é
+descrito sobretudo entre falantes de **classe trabalhadora** e em grupos masculinos — não nas
+altas com exclusividade.
+
+**e)** Falso, e é a pegadinha central da questão. **Estigma** é a avaliação **negativa** aberta
+de uma forma; **prestígio encoberto** é a avaliação **positiva** não declarada. São coisas
+opostas — mas, e aqui está o fino, **incidem sobre a mesma forma ao mesmo tempo**. "Nós foi"
+tem estigma aberto **e** prestígio encoberto: é ridicularizado em público e recompensado no
+grupo. É essa **tensão** que a mantém viva. Confundi-los é perder exatamente o que o conceito
+explica.
+:::
+
+**11.** (Estilo Cebraspe — julgue C ou E)
+
+I. A variação diafásica depende de fatores como escolaridade e classe social do falante.
+II. O paradoxo do observador decorre de limitações técnicas dos equipamentos de gravação.
+III. Em situação de variação estável, mulheres tendem a usar mais as variantes de prestígio.
+IV. As curvas de variação por classe e por estilo tendem a ser paralelas e a não se cruzar.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — ERRADO.** Escolaridade e classe são fatores **diastráticos** (dizem respeito a **quem** é
+o falante). A variação **diafásica** depende da **situação**: interlocutor, situação, tema e
+canal. O item troca os eixos — é a pegadinha mais simples e mais frequente do capítulo.
+
+**II — ERRADO.** O paradoxo **não é técnico**, e um gravador perfeito e invisível não o
+resolveria — porque o problema é a **presença do observador** e a consciência de estar sendo
+observado, não a qualidade do registro. Mais: o paradoxo decorre **logicamente** da tese de que
+toda fala é situada. Se não existe fala "sem situação", o gravador não polui um dado puro — ele
+**cria uma situação a mais**. É consequência da teoria, não falha do equipamento.
+
+**III — CERTO.** É um dos achados mais replicados da sociolinguística: em variação **estável**,
+mulheres usam mais as formas de prestígio que homens da mesma classe e escolaridade. Note a
+cláusula "variação estável" — ela é **essencial**: quando a inovação é prestigiada, as mulheres
+tendem a **liderar** a mudança, e o padrão se inverte. Sem a cláusula, o item seria errado.
+
+**IV — CERTO.** É o achado central sobre o cruzamento dos eixos: a variação diafásica
+**reproduz** a diastrática. Cada classe aumenta a variante de prestígio conforme o estilo se
+formaliza (curvas ascendentes), e as classes **não se cruzam** — a alta usa mais a forma de
+prestígio que a média em **todos** os estilos. O paralelismo indica que classe e estilo operam
+sobre as **mesmas** formas na **mesma** direção.
+
+**Gabarito: E, E, C, C.**
+:::
+
+**12.** Explique por que "adequação" descreve melhor que "correção" — e por que a troca não
+resolve o problema social.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Por que "adequação" descreve melhor — três razões:**
+
+1. **Precisão.** "Cadê a chave?" não é um erro: é uma forma regular do registro informal, com
+   gramática própria, compreendida por todos os brasileiros. Chamá-la de erro **descreve mal o
+   objeto** — atribui à forma um defeito que ela não tem.
+2. **Poder explicativo — o argumento decisivo.** A noção de correção não explica por que "Onde
+   se encontra a chave?", dito ao cônjuge em casa, **também falha**. A frase é impecável pela
+   norma; logo, quem só dispõe de "certo × errado" fica sem o que dizer. Só a **adequação** dá
+   conta: o registro formal, na situação errada, é tão inadequado quanto o informal na situação
+   errada. **Formal não é sinônimo de bom.**
+3. **Honestidade pedagógica.** Reformula o objetivo do ensino: **ampliar o repertório** — dar ao
+   aluno o registro formal **além** do que ele já tem — em vez de **substituir** a fala dele por
+   outra, o que é o que "corrigir" significa e o que o aluno corretamente percebe como agressão.
+
+**Por que a troca não resolve o problema social:**
+
+Aqui está o limite, e ignorá-lo é a marca do relativismo ingênuo.
+
+Trocar o vocabulário de análise **não muda a realidade analisada**. Continua havendo **custo
+real** em usar o registro inadequado:
+
+- quem escreve "cadê" num ofício **será** julgado incompetente;
+- quem diz "nós foi" numa entrevista de emprego **perderá** a vaga;
+- e nenhuma dessas consequências é atenuada pelo fato de a linguística ter demonstrado que a
+  forma tem gramática.
+
+**A distinção que organiza tudo**: a sociolinguística descreve a **língua**; o preconceito
+opera na **sociedade**. Descrever bem a primeira não desarma o segundo. A noção de adequação é
+uma correção **descritiva** — ela nos dá um retrato verdadeiro. Não é, nem pretende ser, uma
+solução **política**.
+
+**A consequência prática, que é a posição do manual**: por isso se sustentam as **duas** coisas
+ao mesmo tempo, sem que haja contradição entre elas —
+
+- **descrever com honestidade**: o aluno precisa saber que sua variedade tem gramática, que o
+  prestígio é fato social e que ninguém é linguisticamente inferior;
+- **ensinar a norma com competência**: porque o custo social existe **agora**, e ele precisa da
+  ferramenta **agora**, independentemente do que se ache do mundo que a exige.
+
+Quem só faz a primeira **abandona** o aluno numa sociedade que vai cobrá-lo. Quem só faz a
+segunda o **humilha** e mente para ele. A meta é o **trânsito** entre registros (@sec-cap-72) —
+mais ambicioso que qualquer das duas posturas isoladas [@faraco2008; @bagno2011].
+:::
+
+## 📚 Referências
+
+O arcabouço deste capítulo é laboviano [@labov2008]: o paradoxo do observador, a escala de
+monitoramento, a tipologia indicador/marcador/estereótipo e a noção de prestígio encoberto. A
+adaptação ao PB — com destaque para a primazia da escolaridade sobre a classe — segue Bagno
+[@bagno2007; @bagno2011] e a discussão de norma e ensino, Faraco [@faraco2008]. A descrição dos
+registros do PB apoia-se em Castilho [@castilho2010] e Ilari e Basso [@ilaribasso2006]; a
+articulação entre registro, gênero e adequação retoma Marcuschi [@marcuschi2008] e Koch
+[@koch2015texto].
+
+O próximo capítulo muda de escala: a @sec-cap-89 confronta o português brasileiro com o
+**europeu** — duas normas da mesma língua, e a pergunta, hoje incontornável, de quanto elas já
+divergiram.
+
+::: {#refs}
 :::
