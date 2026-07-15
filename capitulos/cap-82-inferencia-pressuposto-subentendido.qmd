@@ -4,22 +4,619 @@ title: "Inferência, pressuposto e subentendido"
 
 # Inferência, pressuposto e subentendido {#sec-cap-82}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 13 — Interpretação de Textos.
+> "O que um texto não diz costuma trabalhar mais do que o que ele diz — e cobra menos
+> caro."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O @sec-cap-64 tratou dos implícitos pelo ângulo **semântico**: o que é um pressuposto, como
+o teste da negação o identifica, que gatilhos o disparam. Este capítulo retoma o tema pelo
+ângulo da **leitura**: como o leitor **trabalha** com o que não está dito, e como distinguir
+o que ele **tem direito** de concluir do que ele apenas supôs.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A distinção importa muito, e não só na prova. A maior parte da manipulação discursiva não
+opera por mentira — opera por **implícito**. Mentir é arriscado: pode ser desmentido. Fazer
+o leitor concluir sozinho é seguro: ele não vai discordar de si mesmo, e o autor pode sempre
+alegar que "não disse isso".
+
+O objetivo aqui é dar-lhe as ferramentas para **auditar** o implícito: saber o que o texto
+te obrigou a aceitar (pressuposto), o que ele te sugeriu sem se comprometer (subentendido) e
+o que você concluiu por conta própria (inferência) — e, sobretudo, saber quando essa
+conclusão é **legítima** e quando é **extrapolação**.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** inferência, pressuposto e subentendido pelos critérios de marca e
+  cancelabilidade;
+- **Aplicar** o teste da negação e o teste do cancelamento;
+- **Diferenciar** inferência autorizada de extrapolação;
+- **Identificar** o uso estratégico do implícito no discurso público;
+- **Resolver** questões de prova que cobram implícitos;
+- **Reconhecer** por que a manipulação prefere o implícito à mentira.
+
+## Três coisas diferentes
+
+::: {.callout-important}
+## Os três conceitos, e o que os separa
+- **Pressuposto** — informação **dada por certa** pelo texto, marcada por um **gatilho
+  lexical**. O autor **não pode negar** tê-la veiculado. Sobrevive à negação.
+  > "Pedro **parou de** fumar." → pressupõe que ele fumava.
+
+- **Subentendido** (implicatura) — informação **sugerida** pelo contexto, **sem marca
+  formal**. O autor **pode negar** tê-la veiculado — é **cancelável**.
+  > "Está frio aqui." → sugere "feche a janela", mas o falante pode recuar: "só constatei um
+  > fato".
+
+- **Inferência** — conclusão que o **leitor** tira, combinando o texto com seu conhecimento
+  de mundo. Não é do texto: é **do leitor**.
+  > "Pedro chegou atrasado. O despertador não tocou." → o leitor infere a causalidade, que
+  > não está dita.
+
+**Os dois testes que os separam:**
+
+1. **Teste da negação** (identifica o **pressuposto**): negue a frase. O que **sobrevive** é
+   pressuposto. "Pedro **não** parou de fumar" continua assumindo que ele fumava.
+2. **Teste do cancelamento** (identifica o **subentendido**): o autor pode acrescentar "mas
+   não quis dizer isso" **sem se contradizer**? Se sim, é subentendido.
+   - "Está frio aqui — **mas não estou pedindo para fechar a janela**." ✓ coerente → era
+     subentendido.
+   - "Pedro parou de fumar — **mas ele nunca fumou**." ✗ contradição → era pressuposto.
+:::
+
+::: {#fig-implicitos}
+
+```{.tikz}
+%%| filename: implicitos
+%%| alt: Esquema comparando três formas de conteúdo não explícito. Primeira coluna, pressuposto: informação dada por certa, com gatilho lexical no texto, exemplo Pedro parou de fumar pressupõe que fumava; sobrevive à negação; o autor não pode negar ter veiculado, portanto compromete. Segunda coluna, subentendido ou implicatura: informação sugerida pelo contexto, sem marca formal, exemplo está frio aqui sugere feche a janela; é cancelável, pois o autor pode dizer que não quis dizer isso sem se contradizer; portanto não compromete. Terceira coluna, inferência: conclusão do leitor combinando o texto com o conhecimento de mundo, exemplo Pedro chegou atrasado, o despertador não tocou, e o leitor conclui a causalidade; a responsabilidade é do leitor, e é preciso distinguir inferência autorizada, apoiada em pista do texto, de extrapolação, que o texto não autoriza. Abaixo, o alerta de que a manipulação prefere o implícito à mentira, porque mentir pode ser desmentido, mas fazer o leitor concluir sozinho é seguro.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize, text width=42mm},
+]
+  \node[cx, draw=manualred, fill=manualred!12] (p) at (-4.8,1.4)
+    {\centering\textbf{PRESSUPOSTO}\\[3pt]\raggedright
+     dado por \textbf{certo}\\
+     \textbf{gatilho lexical} no texto\\[3pt]
+     {\scriptsize ``Pedro \textbf{parou de} fumar''\\ $\rightarrow$ ele fumava}\\[3pt]
+     \textbf{sobrevive} à negação\\
+     o autor \textbf{não pode negar}\\
+     $\Rightarrow$ \textbf{compromete}};
+
+  \node[cx, draw=manualyellow, fill=manualyellow!14] (s) at (0,1.4)
+    {\centering\textbf{SUBENTENDIDO}\\{\scriptsize(implicatura)}\\[3pt]\raggedright
+     \textbf{sugerido} pelo contexto\\
+     \textbf{sem} marca formal\\[3pt]
+     {\scriptsize ``Está frio aqui''\\ $\rightarrow$ feche a janela?}\\[3pt]
+     é \textbf{cancelável}\\
+     o autor \textbf{pode negar}\\
+     $\Rightarrow$ \textbf{não} compromete};
+
+  \node[cx, draw=manualblue, fill=manualblue!12] (i) at (4.8,1.4)
+    {\centering\textbf{INFERÊNCIA}\\[3pt]\raggedright
+     conclusão do \textbf{leitor}\\
+     texto $+$ conhecimento de mundo\\[3pt]
+     {\scriptsize ``Chegou atrasado.\\ O despertador não tocou.''\\ $\rightarrow$ causalidade}\\[3pt]
+     responsabilidade do \textbf{leitor}\\
+     \textbf{autorizada} (há pista) $\times$\\ \textbf{extrapolação} (não há)};
+
+  \node[rounded corners=2pt, draw=manualred, fill=manualred!6, align=center,
+        font=\scriptsize, inner sep=5pt, text width=94mm] at (0,-1.9)
+    {\textbf{A manipulação prefere o implícito à mentira.}\\
+     Mentir pode ser \textbf{desmentido}. Fazer o leitor concluir sozinho é \textbf{seguro}:
+     ele não discorda de si mesmo,\\ e o autor sempre pode alegar que ``não disse isso''.};
+\end{tikzpicture}
+```
+
+Os três tipos de conteúdo não explícito. A diferença decisiva está na **responsabilidade**:
+o pressuposto compromete o autor; o subentendido, não; a inferência é do leitor.
+:::
+
+## Inferência autorizada × extrapolação
+
+Este é o ponto mais útil do capítulo, e o que resolve a maior parte das questões de prova.
+
+Se o leitor **constrói** o sentido (@sec-cap-81), quando ele construiu **bem**?
+
+::: {.callout-important}
+## O critério
+- **Inferência autorizada** — há **pista no texto** que a sustenta. Outro leitor competente,
+  lendo o mesmo texto, chegaria à mesma conclusão. É **defensável com evidência**.
+- **Extrapolação** — o leitor **acrescentou** algo que o texto não autoriza. A conclusão vem
+  do repertório, do preconceito ou do desejo — não do texto.
+
+**Exemplo.** Texto: "O deputado votou contra o projeto de saneamento."
+
+| Conclusão | Tipo | Por quê |
+|---|---|---|
+| "O projeto foi votado." | **pressuposto** | gatilho: *votar contra* pressupõe a votação |
+| "O deputado não apoiou o projeto." | **inferência autorizada** | votar contra implica não apoiar |
+| "O deputado é contra o saneamento." | **extrapolação** | pode ter votado contra **aquele** projeto por outras razões (custo, redação, oportunidade) |
+| "O deputado é corrupto." | **extrapolação grosseira** | nada no texto sugere isso |
+
+A terceira linha é a mais instrutiva: ela **parece** razoável, e é justamente por isso que
+funciona como armadilha. Votar contra um projeto **não** equivale a ser contra o tema — a
+inferência salta de um voto específico para uma posição geral, e o texto não autoriza o
+salto.
+:::
+
+**Nas provas**, é exatamente essa distinção que se cobra. As alternativas erradas de uma
+questão de interpretação são, tipicamente:
+
+- **extrapolações plausíveis** (as mais perigosas — parecem certas);
+- afirmações **verdadeiras no mundo** mas **ausentes do texto**;
+- inversões sutis do que o texto diz.
+
+## Os implícitos no discurso público
+
+Aqui o capítulo deixa de ser técnico e vira ferramenta cívica.
+
+### Por que a manipulação prefere o implícito
+
+Compare duas estratégias para fazer o público acreditar que um governo fracassou:
+
+**Afirmar**: "O governo fracassou."
+→ **Contestável**. Pode-se pedir provas, apresentar dados contrários, refutar.
+
+**Pressupor**: "Vamos **resgatar** a economia."
+→ **Não contestável sem custo**. O verbo *resgatar* pressupõe que a economia está perdida.
+Quem quiser contestar precisa **rejeitar a moldura** ("a economia não está perdida"), o que
+soa defensivo e desloca o debate.
+
+A segunda é mais eficaz e mais segura. O falante **não afirmou** nada sobre o fracasso — e,
+se acusado, pode alegar que não disse. Mas o ouvinte **aceitou**.
+
+### O inventário
+
+| Estratégia | Exemplo | O que faz |
+|---|---|---|
+| **Pressuposto** | "Vamos resgatar a qualidade do ensino" | pressupõe que se perdeu |
+| **Pressuposto por adjetiva** | "Os políticos **que roubam** devem ser punidos" | pressupõe que há políticos que roubam (@sec-cap-60) |
+| **Pergunta capciosa** | "Você já parou de fraudar?" | condena em qualquer resposta (@sec-cap-64) |
+| **Retomada avaliativa** | "o manifestante... **o baderneiro**" | classifica sem afirmar (@sec-cap-69) |
+| **Subentendido** | "Não sou racista, **mas**..." | anuncia o que vai negar ter dito |
+| **Seleção do dito** | omitir o dado inconveniente | o não dito não é contestável |
+
+::: {.callout-tip}
+## Como se defender
+Diante de um texto persuasivo, faça **três perguntas**:
+
+1. **O que este texto está me obrigando a aceitar sem afirmar?** → caçe os **gatilhos**
+   (parar de, continuar, voltar a, resgatar, ainda, já, adjetivas restritivas, artigos
+   definidos).
+2. **O que ele me sugere sem se comprometer?** → identifique os **subentendidos** e note que
+   o autor pode negá-los.
+3. **O que eu concluí sozinho?** → e havia **pista** para isso, ou eu extrapolei?
+
+A terceira é a mais desconfortável, porque exige auditar a **própria** leitura. E é a mais
+necessária: boa parte do que "o texto disse" foi você quem pôs lá.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Uma observação que vale registrar, e que atravessa este volume.
+
+A capacidade de detectar implícitos — de perceber que "vamos resgatar a economia" pressupõe
+um diagnóstico não demonstrado — **não** tem relação com o domínio da norma-padrão. São
+competências **independentes**.
+
+Um falante que diga "nós vai" pode desarmar uma pergunta capciosa com perfeição, porque
+reconhece a armadilha. Um doutor pode engolir o pressuposto de uma manchete sem notar,
+porque nunca aprendeu a procurá-lo. A primeira competência é **letramento crítico**; a
+segunda é **etiqueta escrita**.
+
+O desconforto é que a escola brasileira dedica anos à segunda e quase nada à primeira. Ensina
+a não errar concordância — o que é útil e legítimo — e não ensina a perceber que uma pergunta
+carrega uma acusação embutida. Das duas, **qual importa mais para a cidadania?**
+
+Não se trata de abandonar a norma: trata-se de reconhecer o que ela é (convenção da escrita
+formal — @sec-cap-03) e o que ela **não** é (defesa contra manipulação). Quem confunde as
+duas coisas acredita estar formando cidadãos críticos ao corrigir crases [@bagno2011;
+@faraco2008; @koch2015texto].
+:::
+
+## 📋 Quadro-resumo
+
+| | **Pressuposto** | **Subentendido** | **Inferência** |
+|---|---|---|---|
+| **Origem** | o texto | o contexto | o **leitor** |
+| **Marca** | **gatilho lexical** | nenhuma | nenhuma |
+| **Teste** | **negação** (sobrevive) | **cancelamento** (é cancelável) | há pista? |
+| **Autor pode negar?** | **não** | **sim** | — |
+| **Compromete?** | **sim** | não | — |
+| **Exemplo** | "parou de fumar" → fumava | "está frio" → feche a janela | "atrasou / despertador" → causa |
+
+**Gatilhos de pressuposição**: aspectuais (*parar de, continuar, voltar a*) · factivos
+(*saber, lamentar, descobrir*) · advérbios (*ainda, já, também*) · adjetivas restritivas ·
+artigo definido · avaliativos (*resgatar, insistir, finalmente*).
+
+**Inferência autorizada × extrapolação**: há **pista no texto**? Se sim, autorizada (outro
+leitor competente chegaria lá). Se não, extrapolação.
+
+**As três perguntas de defesa**: o que me obrigam a aceitar? · o que me sugerem sem se
+comprometer? · o que eu concluí sozinho — e havia pista?
+
+Em uma linha: o **pressuposto compromete** o autor, o **subentendido não**, e a **inferência
+é do leitor** — e a manipulação prefere o implícito porque ele não pode ser desmentido.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir pressuposto com subentendido.** O pressuposto tem **gatilho** e **compromete**;
+  o subentendido é **cancelável**.
+- **Confundir inferência com o que o texto diz.** A causalidade de "atrasou / despertador"
+  **não está** no texto. É sua.
+- **Extrapolar e achar que inferiu.** "Votou contra o projeto" ≠ "é contra o tema". Peça a
+  **pista**.
+- **Achar que extrapolação implausível é o único erro.** As extrapolações **plausíveis** são
+  as perigosas — parecem certas.
+- **Responder a pergunta capciosa.** "Sim" e "não" aceitam o pressuposto. Recuse a moldura
+  (@sec-cap-64).
+- **Não auditar a própria leitura.** Boa parte do que "o texto disse" foi você quem pôs lá.
+- **Achar que detectar implícito é questão de norma culta.** É **letramento crítico** —
+  competência independente.
+- **Achar que o autor "não disse" quando pressupôs.** Disse, pela porta dos fundos. É a
+  diferença entre pressuposto e subentendido.
+
+## ✍️ Exercícios
+
+**1.** Distinga pressuposto, subentendido e inferência, com exemplos e testes.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Pressuposto** — informação **dada por certa**, marcada por **gatilho lexical**.
+> "Pedro **parou de** fumar." → pressupõe que ele fumava.
+
+*Teste da negação*: "Pedro **não** parou de fumar" — o pressuposto **sobrevive** (as duas
+versões assumem que ele fumava). O autor **não pode negar** tê-lo veiculado: **compromete**.
+
+**Subentendido** (implicatura) — informação **sugerida** pelo contexto, **sem marca formal**.
+> "Está frio aqui." → sugere "feche a janela".
+
+*Teste do cancelamento*: "Está frio aqui — **mas não estou pedindo para fechar a janela**"
+é **coerente**, sem contradição. Logo, era subentendido: o autor **pode negar**, e por isso
+**não compromete**.
+
+**Inferência** — conclusão do **leitor**, combinando texto e conhecimento de mundo.
+> "Pedro chegou atrasado. O despertador não tocou." → o leitor conclui a causalidade.
+
+Não há marca nem gatilho: o texto apenas justapõe dois fatos. A relação causal é **do
+leitor**, que supôs que Pedro usa despertador para acordar, que dormir demais atrasa etc.
+
+**O critério que os organiza**: a **responsabilidade**. O pressuposto é do **autor** e o
+compromete; o subentendido é do autor mas **cancelável**; a inferência é do **leitor**.
+
+**O teste do contraste**: "Pedro parou de fumar — **mas ele nunca fumou**" produz
+**contradição** ✗, o que confirma o pressuposto. O mesmo movimento com o subentendido não
+produz contradição alguma.
+:::
+
+**2.** Classifique cada conclusão a partir de "O deputado votou contra o projeto de
+saneamento": (a) o projeto foi votado; (b) o deputado não apoiou o projeto; (c) o deputado é
+contra o saneamento.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) "O projeto foi votado."** → **Pressuposto**.
+O gatilho é *votar contra*: só se pode votar contra algo que foi submetido a votação.
+
+*Teste da negação*: "O deputado **não** votou contra o projeto" — a existência da votação
+**sobrevive**. Logo, pressuposto.
+
+**(b) "O deputado não apoiou o projeto."** → **Inferência autorizada**.
+Votar contra implica não apoiar — a pista está no próprio texto, e **qualquer** leitor
+competente chegaria à mesma conclusão. É **defensável com evidência**.
+
+**(c) "O deputado é contra o saneamento."** → **Extrapolação**.
+
+E é a mais instrutiva das três, porque **parece razoável**. O salto ilegítimo: votar contra
+**aquele projeto específico** não equivale a ser contra **o tema**. O deputado pode ter
+votado contra por considerar o custo excessivo, a redação falha, o momento inadequado, ou
+por preferir um projeto alternativo. Nada no texto exclui essas possibilidades.
+
+A conclusão salta de **um voto específico** para **uma posição geral** — e o texto não
+autoriza o salto.
+
+**Por que isso importa em prova**: as alternativas erradas de questões de interpretação são,
+tipicamente, **extrapolações plausíveis** como (c). Elas parecem certas justamente porque a
+inferência é natural — e é por isso que a pergunta a fazer é sempre "**onde está a pista?**",
+não "isso faz sentido?".
+:::
+
+**3.** Aplique o teste do cancelamento: "Está frio aqui" e "Pedro parou de fumar".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O teste**: o autor pode acrescentar "mas não quis dizer isso" **sem se contradizer**? Se
+sim, era subentendido; se produz contradição, era pressuposto.
+
+**"Está frio aqui"** — implícito: *feche a janela*.
+
+> "Está frio aqui — **mas não estou pedindo para fechar a janela; só constatei um fato**."
+
+**Coerente**, sem contradição alguma. O implícito foi **cancelado** com sucesso. Logo, era
+**subentendido** (implicatura): sugerido pelo contexto, sem marca formal, e o falante **pode
+recuar** legitimamente.
+
+**"Pedro parou de fumar"** — implícito: *Pedro fumava*.
+
+> "Pedro parou de fumar — **mas ele nunca fumou**." ✗
+
+**Contradição** evidente. O implícito **não pode** ser cancelado. Logo, era **pressuposto**:
+o gatilho aspectual *parar de* o inscreveu no texto, e o falante **não pode** alegar que não
+o disse.
+
+**O que o par demonstra**: a diferença entre os dois não é de **grau de obviedade** — é
+**estrutural**. O pressuposto está **marcado na língua** (há um gatilho identificável); o
+subentendido depende inteiramente do contexto.
+
+**A consequência prática**: é exatamente isso que torna o pressuposto uma **arma retórica**
+superior. Quem pressupõe **compromete-se** com a informação e, ainda assim, não a
+**afirmou** — logo, não a submeteu ao crivo do leitor. O subentendido é mais seguro para o
+falante (cancelável), mas menos eficaz (mais fácil de recusar).
+:::
+
+**4.** (Estilo ENEM) Em "Vamos resgatar a qualidade do ensino", o verbo *resgatar*:
+
+a) afirma que a qualidade do ensino é boa;
+b) pressupõe que a qualidade do ensino se perdeu;
+c) subentende que o governo é competente;
+d) constitui inferência do leitor;
+e) não veicula conteúdo implícito.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** *Resgatar* é um gatilho: só se resgata o que se **perdeu**. O verbo
+**pressupõe** que a qualidade do ensino existiu e foi perdida.
+
+*Teste da negação*: "**Não** vamos resgatar a qualidade do ensino" — a perda **sobrevive**.
+Ambas as versões assumem que a qualidade se perdeu. Logo, pressuposto.
+
+As demais: **(a)** inverte — o verbo pressupõe o **contrário**; **(c)** não há gatilho nem
+contexto que sustente essa sugestão; **(d)** não é inferência do leitor: há **marca lexical**
+no texto (o verbo), o que caracteriza pressuposto; **(e)** é justamente o contrário — o
+enunciado veicula conteúdo implícito robusto.
+
+**Por que a estratégia é eficaz** — e é o que a questão realmente ensina: a frase **nunca
+afirma** que a qualidade do ensino caiu. Se contestado, o falante pode alegar que não disse
+tal coisa. E, no entanto, o ouvinte **aceitou** o diagnóstico — sem que ele tenha sido
+apresentado, fundamentado ou submetido a qualquer prova.
+
+Contestar exigiria **rejeitar a moldura** ("a qualidade não se perdeu"), o que soa defensivo
+e desloca o debate. É por isso que a manipulação prefere pressupor a afirmar.
+:::
+
+**5.** Explique por que a manipulação prefere o implícito à mentira.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Por três razões, todas relacionadas ao custo e ao risco.**
+
+**1. A mentira é contestável; o implícito, não.**
+"O governo fracassou" é uma **afirmação**: pode-se pedir provas, apresentar dados contrários,
+refutar ponto a ponto. Já "vamos **resgatar** a economia" pressupõe o fracasso **sem
+afirmá-lo** — e não há o que refutar, porque nada foi asserido.
+
+**2. Contestar o implícito é custoso e soa mal.**
+Quem quiser rejeitar o pressuposto precisa **rejeitar a moldura**: "a economia não está
+perdida". Isso desloca o debate, soa defensivo e coloca o contestador na posição de negar o
+óbvio. O custo retórico recai sobre quem resiste, não sobre quem manipulou.
+
+**3. O falante mantém a negação plausível.**
+Se acusado, pode alegar: "eu nunca disse que a economia fracassou". E, literalmente, **não
+disse** — apenas fez o ouvinte aceitar. É um álibi embutido.
+
+**A razão de fundo, e a mais importante**: o implícito **não passa pelo crivo crítico**. O
+leitor **examina** o que é afirmado — pesa, compara, duvida. O que é pressuposto entra pela
+porta dos fundos, como informação já acordada, e é **aceito sem exame**. Ninguém verifica
+aquilo que a frase trata como já sabido.
+
+**O corolário**: o leitor **não discorda de si mesmo**. Quando a conclusão é dele — quando
+ele a inferiu —, ele a defende como própria. Fazer o outro concluir é infinitamente mais
+eficaz do que dizer-lhe o que concluir.
+
+É por isso que a pergunta capciosa, a adjetiva restritiva e a retomada avaliativa são armas
+mais eficientes que a mentira — e por isso a defesa exige treino específico (@sec-cap-64).
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Em 'Ele continua desempregado', a
+informação de que ele já estava desempregado é uma inferência do leitor."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** É **pressuposto**, não inferência.
+
+**A distinção**: a **inferência** é conclusão do **leitor**, sem marca no texto. O
+**pressuposto** está **marcado na língua** por um **gatilho** identificável.
+
+Aqui há gatilho: o **verbo aspectual *continuar***, que exige a persistência de um estado
+anterior. A informação não vem do leitor — vem do **texto**.
+
+*Teste da negação*: "Ele **não** continua desempregado" — a informação de que ele estava
+desempregado **sobrevive intacta**. As duas versões a assumem. O que sobrevive à negação é
+pressuposto, por definição.
+
+*Teste do cancelamento*: "Ele continua desempregado — **mas nunca esteve desempregado**" ✗
+produz contradição. Logo, não é cancelável, logo não é subentendido nem inferência.
+
+**Contraste com uma inferência genuína**: "Pedro chegou atrasado. O despertador não tocou."
+A causalidade **não** tem gatilho — nenhuma palavra a inscreve. O leitor a constrói com seu
+conhecimento de mundo. **Isso** é inferência.
+
+**O erro do enunciado**: atribuir ao leitor o que o texto **inscreveu**. Note a consequência
+prática: se fosse inferência, o autor poderia alegar "não foi isso que eu disse". Como é
+pressuposto, ele **não pode** — o gatilho está lá, e ele o escolheu.
+:::
+
+**7.** Analise os implícitos: "Os políticos que roubam devem ser punidos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Pressuposto**: **existem** políticos que roubam.
+
+**O gatilho**: a **oração adjetiva restritiva** "que roubam" (sem vírgulas). Ela **delimita
+um subconjunto** — e, ao fazê-lo, **afirma a existência** desse subconjunto (@sec-cap-60).
+
+*Teste da negação*: "Os políticos que roubam **não** devem ser punidos" — a existência dos
+políticos que roubam **sobrevive**. Logo, pressuposto.
+
+**O contraste decisivo** — troque a pontuação:
+
+> "Os políticos**, que roubam,** devem ser punidos." (explicativa)
+
+Agora o pressuposto é **muito** mais forte e mais grave: **todos** os políticos roubam. A
+adjetiva explicativa atribui a característica à **totalidade** do antecedente. Um par de
+vírgulas transformou uma afirmação sobre alguns numa acusação coletiva.
+
+**Por que a versão restritiva é retoricamente eficaz**:
+
+1. **Não afirma** que há políticos ladrões — apenas trata isso como **já sabido**;
+2. Como não afirma, **não precisa provar**;
+3. É **inatacável**: quem contestar ("nem todo político rouba") parece estar defendendo
+   ladrões, porque a frase, tecnicamente, não acusou ninguém;
+4. O ouvinte **aceita** a premissa sem exame, já concentrado na conclusão (a punição), que
+   é consensual.
+
+**A lição**: a estrutura sintática **carrega conteúdo**. Escolher entre restritiva e
+explicativa não é decisão estilística — é decisão sobre **o que se dá por certo**, e num
+texto jornalístico ou jurídico pode ser a diferença entre informar e difamar.
+:::
+
+**8.** Distinga inferência autorizada de extrapolação, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Inferência autorizada** — há **pista no texto** que a sustenta. Outro leitor competente,
+lendo o mesmo texto, chegaria à mesma conclusão. É **defensável com evidência**.
+
+**Extrapolação** — o leitor **acrescentou** algo que o texto não autoriza. A conclusão vem do
+repertório, do preconceito ou do desejo — não do texto.
+
+**Exemplo trabalhado.** Texto: *"A empresa demitiu 200 funcionários após três trimestres de
+prejuízo."*
+
+| Conclusão | Tipo | Justificativa |
+|---|---|---|
+| "A empresa teve prejuízo." | **pressuposto** | gatilho: "após três trimestres de prejuízo" |
+| "As demissões vieram depois do prejuízo." | **inferência autorizada** | *após* estabelece a ordem temporal |
+| "O prejuízo **causou** as demissões." | **inferência autorizada** (fraca) | a justaposição sugere causalidade, mas o texto não a afirma — é a leitura natural, defensável |
+| "A empresa está mal administrada." | **extrapolação** | prejuízo pode decorrer de crise setorial, câmbio, pandemia |
+| "Os funcionários demitidos eram ineficientes." | **extrapolação grosseira** | nada no texto sugere |
+
+**O teste que separa**: pergunte "**onde está a pista?**" e tente **apontá-la com o dedo**.
+
+- Se você consegue apontar uma palavra, uma estrutura, um conectivo → inferência autorizada.
+- Se você só consegue dizer "mas é óbvio que..." → **extrapolação**.
+
+**Por que isso é decisivo em prova**: as alternativas erradas de questões de interpretação
+são, na maioria, **extrapolações plausíveis** — afirmações que **parecem** decorrer e não
+decorrem. Elas exploram exatamente a tendência do leitor a completar o texto com seu
+repertório (@sec-cap-81). O antídoto é sempre o mesmo: exigir a pista.
+:::
+
+**9.** (Estilo FUVEST) Discuta: "detectar implícitos é competência de cidadania".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é defensável, e o argumento é forte.**
+
+**Por que é competência de cidadania:**
+
+1. **A manipulação opera por implícito, não por mentira.** Mentir é arriscado — pode ser
+   checado e desmentido, e há custo reputacional. Pressupor é seguro: "vamos **resgatar** a
+   economia" implanta um diagnóstico sem afirmá-lo, e o falante mantém a negação plausível.
+   Um cidadão que só sabe checar **fatos afirmados** está desarmado contra a técnica mais
+   usada.
+2. **O implícito não passa pelo crivo.** O que é afirmado, examinamos. O que é pressuposto,
+   **aceitamos** — entra como informação já acordada. Detectar o gatilho é o único modo de
+   submetê-lo ao exame que ele evitou.
+3. **A pergunta capciosa é um instrumento de poder.** "Você já parou de fraudar?" condena em
+   qualquer resposta. Sem perceber a estrutura, o cidadão só pode escolher entre duas formas
+   de se incriminar (@sec-cap-64).
+4. **Aplica-se onde mais importa.** Contratos, propagandas, manchetes, discursos de
+   campanha, notificações de benefício — o implícito organiza tudo isso, e o custo de não
+   percebê-lo é material.
+
+**A parte incômoda, e que é o ponto do exercício**: essa competência **não tem relação** com
+o domínio da norma-padrão. São independentes. Um falante que diga "nós vai" pode desarmar
+uma pergunta capciosa com perfeição; um doutor pode engolir o pressuposto de uma manchete
+sem notar.
+
+E, no entanto, a escola brasileira dedica anos à norma e quase nada aos implícitos. Ensina a
+não errar crase — útil e legítimo — e não ensina a perceber que uma pergunta carrega uma
+acusação embutida. **Das duas, qual protege mais o cidadão?**
+
+**As objeções, e o que sobra delas:**
+
+- *"É relativista — leva a desconfiar de tudo."* Não: detectar implícito **não** é presumir
+  má-fé. É **auditar**. A maior parte dos implícitos é inocente e necessária — sem eles,
+  nenhum texto seria escrevível (@sec-cap-70). O que se ensina é a **notar**, não a
+  rejeitar.
+- *"É politicamente enviesado."* A técnica é **simétrica**: os mesmos gatilhos operam em
+  todos os discursos, de todos os lados. Ensinar a detectá-los não favorece posição alguma —
+  ao contrário, é o que permite avaliar cada uma pelos seus argumentos.
+
+**A conclusão defensável**: não se trata de abandonar a norma — trata-se de reconhecer o que
+ela é (convenção da escrita formal, @sec-cap-03) e o que ela **não** é (defesa contra
+manipulação). Quem confunde as duas acredita estar formando cidadãos críticos ao corrigir
+concordância [@koch2015texto; @bagno2011; @faraco2008].
+:::
+
+**10.** Audite os implícitos de um trecho publicitário ou político de sua escolha.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível — trecho analisado:
+
+> "**Finalmente**, um plano de saúde que **realmente** cuida de você. **Chega de** esperar
+> meses por uma consulta. Nossos clientes **continuam** conosco há mais de 10 anos. Por que
+> **ainda** aceitar menos?"
+
+**Auditoria:**
+
+| Elemento | Gatilho | Implícito | Tipo |
+|---|---|---|---|
+| "**Finalmente**" | advérbio | houve uma **espera**; não existia até agora | pressuposto |
+| "que **realmente** cuida" | adjetiva restritiva + *realmente* | existem planos que **não** cuidam de verdade | pressuposto |
+| "**Chega de** esperar meses" | aspectual | você **espera** meses hoje | pressuposto |
+| "**continuam** conosco" | aspectual | já estavam antes (= são fiéis) | pressuposto |
+| "**ainda** aceitar menos" | advérbio | você **vem aceitando** menos até agora | pressuposto |
+| "Por que ainda aceitar menos?" | pergunta retórica | pressupõe que o concorrente é "menos" | pressuposto + capciosa |
+
+**O que o anúncio nunca afirmou** — e é o ponto:
+
+- que os concorrentes são ruins;
+- que o cliente está sendo mal atendido;
+- que este plano é melhor que os outros.
+
+**E, no entanto, o leitor conclui as três coisas.** Todas entraram por pressuposição, sem
+passar pelo crivo crítico.
+
+**A blindagem jurídica**: acusado de propaganda comparativa desleal, o anunciante pode
+alegar — com razão literal — que **não disse nada** sobre os concorrentes. A conotação
+(@sec-cap-61) e o pressuposto (@sec-cap-64) operam juntos como escudos.
+
+**A pergunta capciosa final**: "Por que ainda aceitar menos?" pressupõe que (i) você aceita
+menos e (ii) o produto atual é inferior. Qualquer resposta — inclusive a hesitação — aceita
+a moldura. A única saída é recusá-la: "eu não estou aceitando menos".
+
+**Uma inferência × extrapolação**: "os clientes continuam há 10 anos" **autoriza** inferir
+retenção; **não autoriza** inferir satisfação (podem continuar por carência, custo de
+troca, ou porque a operadora é a única disponível na região). O anúncio conta com a
+extrapolação.
+:::
+
+## 📚 Referências
+
+A distinção entre pressuposto, subentendido e inferência, o teste da negação e o inventário
+de gatilhos apoiam-se em Ilari [@ilari2001] e Ilari & Basso [@ilaribasso2006]; o tratamento
+dos implícitos na leitura, da inferência como operação do leitor e do funcionamento
+argumentativo do pressuposto segue Koch [@koch2015texto], Koch [@koch2018coesao] e Marcuschi
+[@marcuschi2008]. Para o tratamento semântico dos implícitos e a pergunta capciosa, veja o
+@sec-cap-64; para o papel da vírgula na determinação do pressuposto da adjetiva, o
+@sec-cap-60; para as retomadas avaliativas, o @sec-cap-69; para a leitura como construção e
+o papel do repertório, o @sec-cap-81; para as falácias que exploram implícitos, o
+@sec-cap-76. A discussão sobre letramento crítico e cidadania dialoga com Bagno [@bagno2011]
+e Faraco [@faraco2008], e será retomada no @sec-cap-91. O próximo capítulo trata de um
+implícito particular e particularmente traiçoeiro: a **ironia**.
+
+::: {#refs}
 :::
