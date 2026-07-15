@@ -4,22 +4,1100 @@ title: "Do latim ao galego-português"
 
 # Do latim ao galego-português {#sec-cap-92}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 15 — História da Língua e Estilística.
+> "O português é o latim falado errado por muito tempo, com muita convicção."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 15, dedicado à **história da língua** e à **estilística**. E abrimos com a
+pergunta de origem: de onde veio o português?
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A resposta curta — "do latim" — é verdadeira e quase inútil, porque esconde tudo o que
+interessa. O latim não "virou" português por decreto nem por acidente. Ele foi falado,
+continuamente, por gerações de pessoas que nunca souberam estar mudando língua alguma. Cada uma
+delas falava como seus pais, com diferenças mínimas. Somadas mil e quinhentas vezes, essas
+diferenças mínimas produziram um idioma que um romano não entenderia.
+
+E aqui está a razão de este volume vir **depois** do Volume 14, e não antes. Tudo o que o
+@sec-cap-86 descreveu como variação do presente — a heterogeneidade ordenada, as regras
+variáveis, a mudança em progresso — é **exatamente** o mecanismo que produziu o português. A
+mudança não é um acontecimento do passado: é o que está acontecendo agora, e cujo resultado
+alguém, daqui a mil anos, chamará de outra língua.
+
+Há uma consequência incômoda nisso, e vale enunciá-la já: se o português é latim mal falado,
+então **o "erro" de ontem é a língua de hoje**. Cada traço que hoje nos parece nobre foi, um dia,
+o desleixo que os professores condenavam.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** latim clássico de latim vulgar e explicar por que a distinção importa;
+- **Reconstituir** a cronologia da romanização da Península Ibérica até o galego-português;
+- **Aplicar** as noções de substrato, superstrato e adstrato às camadas do léxico português;
+- **Descrever** as principais mudanças fonéticas do latim ao português e sua regularidade;
+- **Explicar** a formação do galego-português e a origem comum de português e galego;
+- **Relacionar** a mudança linguística histórica à variação sincrônica do Volume 14.
+
+## Latim clássico e latim vulgar
+
+Comecemos desfazendo o mal-entendido que atrapalha tudo.
+
+O português **não** vem do latim de Cícero. Vem do latim que ninguém escrevia.
+
+| | **Latim clássico** | **Latim vulgar** |
+|---|---|---|
+| O que é | a variedade **literária e escrita**, codificada | a variedade **falada**, cotidiana |
+| Quem usava | a elite letrada, em contexto formal | **todos** — inclusive a elite, em casa |
+| Onde sobreviveu | nos textos | **nas línguas românicas** |
+| Registro | monitorado, planejado (@sec-cap-88) | espontâneo |
+
+::: {.callout-important}
+## "Vulgar" não quer dizer vulgar
+A palavra engana, e o engano é a origem de metade dos erros sobre o assunto.
+
+**Vulgar** vem de *vulgus* — "o povo". Significa **do povo**, **corrente**, **cotidiano**. Não
+significa grosseiro, chulo nem defeituoso.
+
+**A relação correta entre os dois**, e é aqui que se erra: **o latim vulgar não é uma degradação
+do clássico**. Os dois são **contemporâneos** — coexistiram durante séculos, na mesma sociedade
+e frequentemente na **mesma pessoa**.
+
+Cícero escrevia em latim clássico e, em casa, falava latim vulgar. Não havia nisso contradição
+alguma: é **exatamente** o que o @sec-cap-88 descreveu como variação **diafásica**. O clássico
+era o polo formal e escrito; o vulgar, o informal e falado. Um mesmo falante, dois registros.
+
+**A prova documental**: temos textos que registram o latim vulgar sem querer — inscrições em
+paredes de Pompeia, cartas de soldados, a lista de "erros" do *Appendix Probi* (séc. III), um
+manual escolar que corrige formas populares e, ao corrigi-las, **as registra**:
+
+> "*speculum*, non *speclum*" — não diga "speclum", diga "speculum"
+
+Note o que isso significa. O professor romano condenava *speclum* como erro. Mas foi *speclum* —
+e não *speculum* — que virou o **espelho** do português, o *espejo* do espanhol, o *specchio* do
+italiano.
+
+**A lição, que é a do capítulo inteiro**: as línguas românicas descendem do que os professores
+romanos **corrigiam**. O erro de ontem é a língua de hoje. O *Appendix Probi* é, involuntariamente,
+a melhor lista de previsões corretas da história da linguística — só que com o sinal trocado.
+:::
+
+## A cronologia
+
+::: {#fig-linha-tempo-latim}
+
+```{.tikz}
+%%| filename: linha-tempo-latim
+%%| alt: Linha do tempo da história da língua portuguesa, do latim ao galego-português. Em 218 antes de Cristo, os romanos chegam à Península Ibérica na Segunda Guerra Púnica, e começa a romanização, com o latim vulgar levado por soldados e comerciantes, e não pelos poetas. Sobre a linha, a indicação do substrato pré-romano, com línguas celtas, lusitana e ibérica, que deixam poucas palavras. Em 409 depois de Cristo, chegam os povos germânicos, suevos e visigodos, constituindo o superstrato, que deixa palavras como guerra, roubar e branco. Em 711, chega a invasão árabe, constituindo o adstrato, que deixa cerca de mil palavras, quase todas com o artigo al aglutinado, como alface, algodão e alfaiate. Entre 711 e 1249 corre a Reconquista cristã, no sentido do norte para o sul. Em 1139, forma-se o Condado Portucalense e Portugal se torna independente. Entre os séculos doze e catorze, floresce o galego-português, língua comum da poesia trovadoresca de toda a Península. No século catorze ocorre a separação entre o galego e o português. Uma nota abaixo indica que são cerca de mil e quinhentos anos de mudança contínua, sem nenhum ponto em que o latim tenha virado português.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  ev/.style={rounded corners=2pt, draw, align=center, inner sep=3pt, font=\scriptsize, text width=27mm},
+  cam/.style={rounded corners=2pt, draw, align=left, inner sep=3pt, font=\scriptsize, text width=30mm},
+  t/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  % linha do tempo
+  \draw[line width=2.4pt, draw=manualgray, -{Stealth[length=7pt]}] (-6.6,0) -- (6.8,0);
+
+  \foreach \x/\a in {-6.0/218 a.C., -2.4/409, -0.6/711, 2.4/1139, 5.2/séc. XIV}{
+    \draw[line width=1pt, draw=manualgray] (\x,-0.16) -- (\x,0.16);
+    \node[font=\scriptsize\bfseries, anchor=north] at (\x,-0.24) {\a};
+  }
+
+  % eventos (acima)
+  \node[ev, draw=manualblue, fill=manualblue!10] at (-6.0,1.5)
+    {\textbf{Roma chega}\\{\scriptsize 2ª Guerra Púnica}\\{\scriptsize começa a romanização}};
+  \node[ev, draw=manualgreen, fill=manualgreen!10] at (-2.4,1.5)
+    {\textbf{Germânicos}\\{\scriptsize suevos, visigodos}\\{\scriptsize \emph{superstrato}}};
+  \node[ev, draw=manualyellow, fill=manualyellow!14] at (-0.4,2.7)
+    {\textbf{Árabes}\\{\scriptsize \emph{adstrato}}};
+  \node[ev, draw=manualred, fill=manualred!10] at (2.4,1.5)
+    {\textbf{Portugal}\\{\scriptsize Condado Portucalense}\\{\scriptsize independência}};
+  \node[ev, draw=manualred, fill=manualred!10] at (5.4,1.5)
+    {\textbf{separação}\\{\scriptsize galego $\neq$ português}};
+
+  % camadas (abaixo)
+  \node[cam, draw=manualgray, fill=manualgray!10] at (-5.4,-1.5)
+    {\textbf{SUBSTRATO} --- pré-romano\\{\scriptsize celta, lusitano, ibérico}\\{\scriptsize poucas palavras}};
+  \node[cam, draw=manualgreen, fill=manualgreen!8] at (-2.0,-1.5)
+    {\textbf{SUPERSTRATO} --- germânico\\{\scriptsize \emph{guerra}, \emph{roubar}, \emph{branco}}};
+  \node[cam, draw=manualyellow, fill=manualyellow!12] at (1.4,-1.5)
+    {\textbf{ADSTRATO} --- árabe\\{\scriptsize $\approx$1.000 palavras, quase todas}\\{\scriptsize com \emph{al-}: \emph{alface}, \emph{algodão}}};
+  \node[cam, draw=manualblue, fill=manualblue!8] at (4.9,-1.5)
+    {\textbf{GALEGO-PORTUGUÊS}\\{\scriptsize séc. XII--XIV: a língua}\\{\scriptsize da poesia trovadoresca}};
+
+  % reconquista
+  \draw[{Stealth[length=5pt]}-{Stealth[length=5pt]}, line width=1pt, draw=manualred]
+    (-0.6,0.75) -- (3.4,0.75);
+  \node[font=\scriptsize, text=manualred, anchor=south] at (1.4,0.8) {Reconquista (711--1249): \textbf{norte $\rightarrow$ sul}};
+
+  \node[rounded corners=2pt, draw=manualgray, fill=manualgray!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=104mm] at (0,-3.0)
+    {$\approx$ \textbf{1.500 anos} de mudança \textbf{contínua}. Não há nenhum ponto em que o latim
+     ``virou'' português ---\\ há gerações falando como os pais, com diferenças mínimas, somadas
+     mil e quinhentas vezes.};
+\end{tikzpicture}
+```
+
+Do latim ao galego-português: a cronologia e as três camadas de contato (substrato, superstrato,
+adstrato).
+
+:::
+
+### 218 a.C. — Roma chega
+
+Os romanos desembarcam na Península Ibérica durante a **Segunda Guerra Púnica** — não para
+colonizá-la, mas para cortar a retaguarda de Cartago. A conquista completa levaria dois séculos.
+
+**O detalhe que explica tudo**: o latim que chegou não foi levado por poetas. Foi levado por
+**soldados, comerciantes e administradores** — gente que falava o latim **vulgar**, corrente,
+cotidiano. O português descende da língua da caserna e do mercado, não da do Senado.
+
+E a romanização não foi imposta a ferro: foi, em larga medida, **adotada**. O latim era a língua
+da cidadania, do exército, do direito, do comércio — a língua que **valia**. Aprendê-la era
+ascender. É a mesma lógica de prestígio do @sec-cap-88, operando dois mil anos antes.
+
+### 409 d.C. — os germânicos
+
+Com o colapso do Império, povos germânicos entram na Península: **suevos** (que se fixam no
+noroeste — justamente a região onde nasceria o português) e **visigodos**, que dominariam o
+conjunto.
+
+**O ponto contraintuitivo**: eles **não** impuseram sua língua. Eram minoria militar e
+politicamente dominante, mas culturalmente **assimilados** — em poucas gerações, falavam latim.
+O resultado foi um **superstrato**: influência lexical, sem substituição.
+
+### 711 — os árabes
+
+Um exército muçulmano cruza Gibraltar e, em poucos anos, domina quase toda a Península. A
+presença durará, em algumas áreas, **quase 800 anos**.
+
+Também aqui **não houve substituição**: a população cristã continuou falando seus romances — os
+**moçárabes** —, agora com forte influência árabe. É um **adstrato**: duas línguas convivendo,
+lado a lado, com prestígio e trocas.
+
+### 711–1249 — a Reconquista
+
+Os reinos cristãos do **norte** avançam para o **sul**, em ondas seculares. E aqui está o fato
+que explica o mapa linguístico ibérico inteiro:
+
+::: {.callout-important}
+## Por que os romances ibéricos correm em faixas verticais
+Olhe um mapa das línguas da Península: galego-português a **oeste**, castelhano no **centro**,
+catalão a **leste** — três faixas, todas correndo **norte-sul**.
+
+Isso não é acaso. É a **fotografia da Reconquista**.
+
+Cada romance nasceu num núcleo do **norte** — pequenas áreas cristãs que sobraram após 711 — e
+foi **carregado para o sul** pela expansão militar e pelo repovoamento. A língua acompanhou o
+exército e o colono:
+
+- o romance da **Galiza** e das Astúrias desceu pelo oeste → **galego-português**;
+- o romance de **Castela** desceu pelo centro → **castelhano**;
+- o romance dos **condados catalães** desceu pelo leste → **catalão**.
+
+**As consequências, que são notáveis:**
+
+1. **As fronteiras linguísticas são verticais** porque a expansão foi vertical. Não há como
+   entender o mapa sem a história militar;
+2. **O sul é linguisticamente mais uniforme que o norte.** No norte, onde as línguas nasceram e
+   tiveram séculos para divergir localmente, há muito mais diversidade dialetal. No sul,
+   repovoado rapidamente por gente vinda do norte, o romance chegou já formado e relativamente
+   homogêneo. **É exatamente o argumento do @sec-cap-87 sobre o Brasil** — colonização recente
+   produz homogeneidade —, operando em escala ibérica;
+3. **O moçárabe desapareceu.** Os romances do sul, falados sob domínio árabe, foram **absorvidos**
+   pelos romances do norte que desciam. Não são os ancestrais do português — são as **vítimas**
+   dele.
+:::
+
+### 1139 — Portugal
+
+O **Condado Portucalense**, região entre o Minho e o Douro, torna-se independente do reino de
+Leão. Afonso Henriques é aclamado rei.
+
+**O detalhe decisivo**: o condado ficava ao **sul** do rio Minho; a **Galiza**, ao norte. E os
+dois lados do rio falavam **a mesma língua**. A fronteira que se criou em 1139 foi **política** —
+e só séculos depois se tornaria linguística.
+
+## O galego-português
+
+Entre os séculos **XII e XIV**, floresce o **galego-português**: a língua falada nos dois lados
+do Minho e, mais que isso, **a língua da poesia lírica de toda a Península**.
+
+O fato é notável e vale saborear: poetas **castelhanos** — inclusive o rei **Afonso X, o Sábio**,
+de Castela — escreviam suas cantigas em **galego-português**, embora falassem castelhano no
+cotidiano. Havia uma divisão de trabalho literária: castelhano para a prosa, galego-português
+para a **lírica**. Foi, por dois séculos, a língua poética de referência do ocidente ibérico.
+
+**O corpus** que sobreviveu:
+
+- **Cantigas de amor** — o eu lírico masculino, herança provençal;
+- **Cantigas de amigo** — o eu lírico **feminino**, tradição autóctone, e o que há de mais
+  original no conjunto;
+- **Cantigas de escárnio e maldizer** — a sátira;
+- **Cantigas de Santa Maria** — de Afonso X, religiosas.
+
+Um trecho, para ver a língua:
+
+> Ai flores, ai flores do verde pino,
+> se sabedes novas do meu amigo?
+> Ai Deus, e u é?
+>
+> — D. Dinis, rei de Portugal (séc. XIII–XIV)
+
+Note o que se lê **sem dicionário**: *flores*, *verde*, *pino* (pinho), *novas* (notícias),
+*amigo*, *Deus*. E o que já não se diz: *sabedes* (sabeis), *u* (onde, do latim *ubi*).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Português e galego: a mesma pergunta do @sec-cap-89
+Se galego e português eram **a mesma língua** no século XIII, são o quê hoje?
+
+**Os fatos:**
+
+- **Origem comum, indiscutível.** Não são línguas irmãs que se pareceram: eram **uma só**;
+- **A separação política** (1139) precedeu a linguística em séculos. Enquanto Portugal se
+  expandia para o sul e criava sua norma própria, a Galiza permanecia no reino de Castela — e o
+  galego passou a sofrer forte influência **castelhana**;
+- **Os Séculos Escuros** (XVI–XVIII): o galego praticamente desaparece da escrita, reduzido a
+  língua oral e rural, enquanto o português se tornava língua de império;
+- **Hoje**: o galego é **cooficial** na Galiza, tem norma escrita própria — e essa norma é
+  disputada.
+
+**A disputa, que é exemplar:**
+
+- Os **isolacionistas** defendem uma ortografia galega **aproximada do castelhano** (a norma
+  oficial atual), e tratam o galego como língua distinta;
+- Os **reintegracionistas** defendem uma ortografia **aproximada do português**, e tratam galego
+  e português como variedades da **mesma** língua.
+
+**O que decide?** Como no @sec-cap-87 e no @sec-cap-89: **não há critério linguístico**. A
+distância entre galego e português é **menor** que a distância entre PB e PE em vários
+parâmetros — e ninguém propõe que PB e PE sejam duas línguas com base nela.
+
+A questão é **política e identitária**: trata-se de decidir se a Galiza pertence ao mundo
+lusófono ou ao espanhol. E é uma decisão sobre **futuro**, não uma descoberta sobre o passado —
+sobre o passado não há dúvida nenhuma: eram a mesma língua, e o poema de D. Dinis é lido por
+galegos e portugueses como coisa sua.
+:::
+
+## As mudanças fonéticas
+
+Aqui está o que mais impressiona: as mudanças do latim ao português **não são aleatórias**. São
+**regulares** — aplicam-se a **todas** as palavras que preenchem a condição.
+
+### As principais
+
+**1. Queda das consoantes oclusivas surdas intervocálicas** — a mais produtiva:
+
+| Latim | → | Português | O que houve |
+|---|---|---|---|
+| *vita* | → | **vida** | t → d (sonorização) |
+| *lupu* | → | **lobo** | p → b |
+| *amicu* | → | **amigo** | c → g |
+| *rota* | → | **roda** | t → d |
+
+E, num segundo estágio, a queda completa:
+
+| *dolore* | → | **dor** | queda do -l- |
+| *colore* | → | **cor** | queda do -l- |
+| *lua* < *luna* | → | **lua** | queda do -n- |
+
+**2. Palatalização dos grupos iniciais PL-, CL-, FL-** — a marca registrada do português:
+
+| Latim | Português | Espanhol |
+|---|---|---|
+| *plicare* | **chegar** | *llegar* |
+| *clave* | **chave** | *llave* |
+| *flamma* | **chama** | *llama* |
+| *pluvia* | **chuva** | *lluvia* |
+| *plenu* | **cheio** | *lleno* |
+
+Note a beleza da regularidade: **todas** as palavras com PL-, CL-, FL- inicial fizeram a mesma
+coisa. E o espanhol, partindo do mesmo latim, fez **outra** coisa — mas também regular: todas
+viraram *ll-*.
+
+**3. Ditongação e monotongação:**
+
+- *petra* → **pedra**; *ferru* → **ferro**;
+- *aurum* → **ouro** → (PB) **oro** em muitas variedades — a monotongação continua **hoje**.
+
+**4. Síncope** (queda de vogal átona interna) — a mudança do *Appendix Probi*:
+
+| *speculum* | → | *speclu* | → | **espelho** |
+| *oculum* | → | *oclu* | → | **olho** |
+| *populu* | → | *poplu* | → | **povo** |
+
+::: {.callout-important}
+## A regularidade é o achado — e é o que faz da linguística uma ciência
+Não é detalhe técnico. É a descoberta que fundou a linguística moderna, no século XIX.
+
+**A observação**: as mudanças **não escolhem palavras**. Não é que *vita* virou *vida* por acaso
+e *rota* virou *roda* por outro acaso. **Toda** oclusiva surda intervocálica sonorizou, em
+**todas** as palavras que a tinham.
+
+**A formulação dos neogramáticos** (séc. XIX): *as leis fonéticas não têm exceção*. Onde a
+condição se cumpre, a mudança se aplica — cegamente, sem consultar o significado da palavra.
+
+**Por que isso é extraordinário**: significa que a mudança linguística é **previsível**. Dada uma
+palavra latina e as leis do português, pode-se **derivar** a forma portuguesa — e acertar. E,
+inversamente, pode-se **reconstruir** o ancestral a partir dos descendentes. É o que permitiu
+reconstruir o **indo-europeu**, uma língua de que não existe **um único texto**.
+
+**As aparentes exceções — e por que confirmam a regra:**
+
+1. **Os empréstimos eruditos.** *Ocular* não virou "olhar" porque **não estava lá** quando a lei
+   operou: foi reimportado do latim escrito, séculos depois, já com a mudança encerrada. Daí os
+   **dubletos**: *olho* (popular, herdado, mudado) e *ocular* (erudito, importado, intacto);
+   *chave* e *clavícula*; *cheio* e *pleno*; *chama* e *inflamável*. **A mesma raiz latina, dois
+   caminhos** — e a diferença entre eles **mede** exatamente o efeito das leis fonéticas;
+2. **A analogia.** Às vezes o falante **refaz** uma forma por pressão do paradigma, e o resultado
+   contraria a lei. Isso não é exceção à lei fonética: é **outra** força, identificável, agindo
+   depois.
+
+**A implicação que fecha o capítulo**: quando você diz *olho* e *ocular*, está pronunciando a
+**mesma** palavra latina em dois momentos da história. Uma passou por 1.500 anos de fala; a outra
+foi resgatada do papel e chegou intacta. A distância entre as duas **é** a história da língua,
+medida em som.
+:::
+
+## As camadas do léxico
+
+O vocabulário português é um **corte geológico**: cada camada corresponde a um contato.
+
+| Camada | O que é | Volume | Exemplos |
+|---|---|---|---|
+| **Substrato** | as línguas **anteriores** ao latim, absorvidas | pequeno | *barro*, *veiga*, *manteiga*, *cerveja*, *carvalho*, topônimos (*Braga*, *Coimbra*) |
+| **Fundo latino** | a base herdada | **~80%** | *pai*, *mãe*, *água*, *casa*, *comer*, *ver* |
+| **Superstrato** | germânico — dos **invasores** assimilados | ~1% | *guerra*, *roubar*, *branco*, *ganso*, *guarda*, *rico*, nomes (*Rodrigo*, *Fernando*, *Álvaro*) |
+| **Adstrato** | árabe — do **convívio** | ~1.000 palavras | *alface*, *algodão*, *alfaiate*, *açúcar*, *azeite*, *álcool*, *almofada*, *xadrez*, *oxalá* |
+| Posteriores | empréstimos (@sec-cap-67) | — | francês, inglês, tupi, africanas |
+
+::: {.callout-note}
+## Substrato, superstrato, adstrato — como não confundir
+A distinção cai em prova, e o critério é o **destino da língua de contato**:
+
+| | O que acontece com a língua de contato | Exemplo ibérico |
+|---|---|---|
+| **SUBSTRATO** | Ela **desaparece**, absorvida pela que chega — mas deixa marcas | celta, lusitano, ibérico → absorvidos pelo latim |
+| **SUPERSTRATO** | Ela **chega por cima** (conquista) mas **também desaparece** — os falantes se assimilam | germânico → os visigodos passaram a falar latim |
+| **ADSTRATO** | As duas **convivem** lado a lado, sem que nenhuma elimine a outra | árabe e romance, séculos de vizinhança |
+
+**O truque para não errar** — pense em **quem venceu**:
+
+- **Substrato**: estava **embaixo** (antes, e perdeu). A língua **local** morreu;
+- **Superstrato**: veio **por cima** (conquistou) **e mesmo assim perdeu** a língua. É o caso
+  contraintuitivo: os germânicos **venceram militarmente** e **perderam linguisticamente**;
+- **Adstrato**: ficou **ao lado**. Ninguém morreu (por contato — o moçárabe morreu por outra
+  razão: foi absorvido pelos romances do norte na Reconquista).
+
+**A moral que o caso germânico ensina**: **dominação política não garante imposição linguística**.
+Os visigodos governaram a Península por três séculos e adotaram a língua dos governados — porque
+o latim tinha o prestígio, a escrita, a Igreja e o direito. Prestígio venceu poder militar.
+
+**O contraste que ilumina**: compare com o **Diretório dos Índios** (@sec-cap-91), em que a
+imposição **funcionou**. A diferença não é o poder militar — é que Pombal tinha escola,
+administração e Igreja operando junto, e os visigodos não tinham nada disso na sua língua. **A
+língua se impõe pelas instituições, não pelas armas.**
+
+**A marca reconhecível do árabe**: o artigo **al-** aglutinado. *Alface*, *algodão*, *alfaiate*,
+*almofada*, *alfândega*, *álcool*, *algarismo*, *alicate*. Os falantes romances tomaram o artigo
+árabe como **parte da palavra** — sinal de que não sabiam árabe, e de que os empréstimos entraram
+pela **fala**, não pela escrita.
+:::
+
+## 📋 Quadro-resumo
+
+**O português vem do LATIM VULGAR** — *vulgar* = **do povo** (*vulgus*), **não** grosseiro. O
+clássico e o vulgar eram **contemporâneos**: variação **diafásica** (@sec-cap-88), não degradação.
+Cícero escrevia clássico e falava vulgar.
+
+***Appendix Probi*** (séc. III): lista de "erros" — "*speculum*, non *speclum*". As românicas
+descendem do que os professores **corrigiam**. **O erro de ontem é a língua de hoje.**
+
+**Cronologia:**
+
+| Data | Evento | Camada |
+|---|---|---|
+| **218 a.C.** | Roma chega (2ª Guerra Púnica) — latim de **soldados e comerciantes** | — |
+| pré-romano | celta, lusitano, ibérico | **SUBSTRATO** |
+| **409** | germânicos (suevos, visigodos) — **não** impuseram a língua | **SUPERSTRATO** |
+| **711** | árabes — **não** substituíram; convívio | **ADSTRATO** |
+| **711–1249** | **Reconquista**: norte → sul | — |
+| **1139** | Condado Portucalense — Portugal independente | — |
+| **séc. XII–XIV** | **galego-português** — a língua da lírica de **toda** a Península | — |
+| **séc. XIV** | separação galego × português | — |
+
+**Por que os romances ibéricos correm em faixas VERTICAIS**: cada um nasceu num núcleo do
+**norte** e desceu com a Reconquista. Galiza → **galego-português** (oeste); Castela →
+**castelhano** (centro); condados catalães → **catalão** (leste). O **sul é mais homogêneo** —
+mesmo argumento do @sec-cap-87. O **moçárabe** foi absorvido.
+
+**Galego-português**: até **Afonso X de Castela** escrevia suas cantigas nele. Gêneros: cantigas
+de **amor** · de **amigo** (eu lírico feminino, autóctone) · de **escárnio/maldizer** · de **Santa
+Maria**.
+
+**Galego × português hoje**: origem **comum** e indiscutível; separação **política** (1139)
+precedeu a linguística. Isolacionistas × **reintegracionistas**. Sem critério linguístico
+(@sec-cap-89) — é decisão **política**.
+
+**Mudanças fonéticas — REGULARES:**
+
+| Mudança | Exemplos |
+|---|---|
+| Sonorização das oclusivas intervocálicas | *vita* → **vida**, *lupu* → **lobo**, *amicu* → **amigo** |
+| Queda de -l-, -n- | *dolore* → **dor**, *luna* → **lua** |
+| **Palatalização de PL-, CL-, FL-** | *plicare* → **chegar**, *clave* → **chave**, *flamma* → **chama** |
+| Síncope | *speculum* → *speclu* → **espelho**, *oculum* → **olho** |
+
+**"As leis fonéticas não têm exceção"** (neogramáticos): a mudança **não escolhe palavras** — é
+cega. Por isso a mudança é **previsível** e o indo-europeu pôde ser **reconstruído** sem textos.
+
+**Os DUBLETOS provam a regra**: *olho* (popular, herdado) × *ocular* (erudito, reimportado
+**depois** da lei); *chave* × *clavícula*; *cheio* × *pleno*. Mesma raiz, dois caminhos — a
+diferença **mede** o efeito das leis.
+
+**Camadas do léxico**: substrato (a local **morre**) · fundo latino (**~80%**) · superstrato (o
+invasor **conquista e perde** a língua) · adstrato (**convivem**). Marca do árabe: **al-**
+aglutinado (*alface*, *algodão*) — sinal de entrada pela **fala**.
+
+**A lição do superstrato**: **dominação militar não impõe língua**. Os visigodos venceram e
+adotaram o latim. A língua se impõe pelas **instituições** (contraste: o Diretório de 1757,
+@sec-cap-91).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que "vulgar" significa grosseiro.** Significa **do povo** (*vulgus*).
+- **Achar que o vulgar é degradação do clássico.** São **contemporâneos** — variação de registro.
+  Cícero fazia os dois.
+- **Achar que o português vem do latim de Cícero.** Vem do latim **falado**, de soldados e
+  comerciantes.
+- **Achar que o *Appendix Probi* mostra decadência.** Mostra o **futuro**: as formas condenadas
+  venceram.
+- **Inverter substrato e superstrato.** Substrato = estava **antes** (embaixo). Superstrato = veio
+  **por cima**, conquistando — **e perdeu a língua assim mesmo**.
+- **Achar que os germânicos impuseram sua língua.** **Não.** Assimilaram-se e adotaram o latim.
+- **Achar que os árabes impuseram o árabe.** **Não.** Adstrato — convivência. Os cristãos
+  seguiram falando romance (moçárabe).
+- **Achar que o moçárabe é o ancestral do português.** É o contrário: foi **absorvido** pelos
+  romances do norte.
+- **Achar que as faixas verticais do mapa ibérico são acaso.** São a **Reconquista** (norte →
+  sul).
+- **Achar que galego é dialeto do espanhol.** É a **mesma origem** do português — eram uma só
+  língua no séc. XIII.
+- **Achar que as mudanças fonéticas são aleatórias.** São **regulares** — "as leis fonéticas não
+  têm exceção".
+- **Achar que os dubletos são exceções.** **Confirmam** a regra: o erudito entrou **depois** que a
+  lei parou de operar.
+
+## ✍️ Exercícios
+
+**1.** Distinga latim clássico de latim vulgar e explique por que o português vem do segundo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| | **Latim clássico** | **Latim vulgar** |
+|---|---|---|
+| O que é | variedade **literária e escrita**, codificada | variedade **falada**, cotidiana |
+| Quem usava | a elite letrada, em contexto formal | **todos**, inclusive a elite, em casa |
+| Sobreviveu | nos **textos** | nas **línguas românicas** |
+
+**"Vulgar" NÃO significa grosseiro.** Vem de *vulgus*, "o povo": significa **do povo**,
+**corrente**, **cotidiano**.
+
+**A relação entre os dois — o ponto que se erra:**
+
+O vulgar **não é degradação** do clássico. Os dois eram **contemporâneos**: coexistiram séculos,
+na mesma sociedade e frequentemente na **mesma pessoa**. Cícero **escrevia** em latim clássico e
+**falava**, em casa, latim vulgar.
+
+Isso é **exatamente** o que o @sec-cap-88 descreve como variação **diafásica**: o clássico era o
+polo formal e escrito; o vulgar, o informal e falado. Um falante, dois registros — como o
+professor brasileiro que escreve "solicito a Vossa Senhoria" e diz "cadê a chave" (@sec-cap-90).
+
+**Por que o português vem do vulgar:**
+
+Porque **línguas se transmitem pela fala**, não pela escrita. As crianças adquiriram a língua
+ouvindo os pais — e os pais falavam **vulgar**. O clássico era um artefato escolar, aprendido
+por poucos, que ninguém tinha como língua materna.
+
+Além disso, o latim que **chegou** à Península não foi levado por poetas: foi levado por
+**soldados, comerciantes e administradores**. O português descende da língua da caserna e do
+mercado.
+
+**A prova documental** — o *Appendix Probi* (séc. III), manual escolar que corrige formas
+populares e, ao corrigi-las, **as registra**:
+
+> "*speculum*, non *speclum*"
+
+O professor romano condenava *speclum*. Mas foi **speclu** — a forma condenada — que virou
+**espelho** (port.), *espejo* (esp.), *specchio* (it.). As línguas românicas descendem do que os
+professores **corrigiam**.
+
+**A lição**: o erro de ontem é a língua de hoje. E, por simetria, o "erro" de hoje pode ser a
+língua de amanhã — o que dá ao @sec-cap-91 uma perspectiva de 1.500 anos.
+:::
+
+**2.** Explique por que as línguas românicas ibéricas se distribuem em faixas verticais.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O fato**: galego-português a **oeste**, castelhano no **centro**, catalão a **leste** — três
+faixas correndo **norte-sul**.
+
+**A causa: a Reconquista (711–1249).**
+
+Após a invasão árabe de 711, restaram no **extremo norte** da Península pequenos núcleos
+cristãos. Cada um tinha seu romance local. Ao longo de cinco séculos, esses núcleos avançaram
+para o **sul**, reconquistando território — e **levaram sua língua junto**, pelo exército e pelo
+repovoamento:
+
+- o romance da **Galiza/Astúrias** desceu pelo **oeste** → **galego-português**;
+- o romance de **Castela** desceu pelo **centro** → **castelhano**;
+- o romance dos **condados catalães** desceu pelo **leste** → **catalão**.
+
+A língua acompanhou a linha de avanço. Como o avanço foi **vertical**, as fronteiras linguísticas
+ficaram **verticais**.
+
+**Três consequências:**
+
+**1. O mapa é a fotografia da história militar.** Não há como explicar as faixas sem a
+Reconquista — nenhuma barreira geográfica as justifica.
+
+**2. O sul é mais homogêneo que o norte.** No **norte**, onde as línguas nasceram, houve séculos
+para divergir localmente: há muito mais diversidade dialetal. No **sul**, repovoado rapidamente
+por gente vinda do norte, o romance chegou **já formado** e relativamente uniforme.
+
+**É exatamente o argumento do @sec-cap-87 sobre o Brasil**: colonização recente e rápida produz
+homogeneidade; tempo e isolamento produzem diversidade. O mesmo princípio, em escalas diferentes
+— e é isso que faz dele um princípio.
+
+**3. O moçárabe desapareceu.** Os romances falados no sul sob domínio árabe foram **absorvidos**
+pelos romances do norte que desciam. Eles **não** são os ancestrais do português — são as suas
+**vítimas**. É um erro comum supor que o português do sul de Portugal descenda do moçárabe local:
+descende do romance do noroeste, que chegou com os conquistadores.
+
+**A nota final**: o português é, nesse sentido, uma língua **do noroeste** que colonizou o resto
+de Portugal — antes de colonizar o Brasil.
+:::
+
+**3.** Distinga substrato, superstrato e adstrato, com exemplos ibéricos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O critério é o destino da língua de contato:**
+
+| | O que acontece com a língua de contato | Exemplo ibérico | Marcas no português |
+|---|---|---|---|
+| **SUBSTRATO** | Ela **desaparece**, absorvida pela que chega | celta, lusitano, ibérico → absorvidos pelo **latim** | *barro*, *veiga*, *manteiga*, *cerveja*, *carvalho*; topônimos: *Braga*, *Coimbra* |
+| **SUPERSTRATO** | Ela **chega por cima** (conquista) e **também desaparece** — os falantes se assimilam | **germânico** (suevos, visigodos) | *guerra*, *roubar*, *branco*, *ganso*, *guarda*, *rico*; nomes: *Rodrigo*, *Fernando*, *Álvaro* |
+| **ADSTRATO** | As duas **convivem** lado a lado | **árabe** e romance, séculos de vizinhança | ~1.000 palavras: *alface*, *algodão*, *açúcar*, *azeite*, *álcool*, *xadrez*, *oxalá* |
+
+**O truque para não errar** — pense em **quem venceu**:
+
+- **Substrato**: estava **embaixo** — antes, e perdeu;
+- **Superstrato**: veio **por cima** — conquistou **e mesmo assim perdeu a língua**. É o caso
+  contraintuitivo;
+- **Adstrato**: ficou **ao lado** — ninguém eliminou ninguém por contato.
+
+**A lição do caso germânico** — e é o que a boa resposta destaca:
+
+**Dominação política não garante imposição linguística.** Os visigodos **governaram** a Península
+por três séculos — e **adotaram** a língua dos governados. Venceram militarmente e perderam
+linguisticamente.
+
+**Por quê**: porque o latim tinha o **prestígio**, a **escrita**, a **Igreja** e o **direito**. Os
+germânicos tinham as armas e nada mais. É a mesma lógica de prestígio do @sec-cap-88, operando
+em escala de séculos.
+
+**O contraste que ilumina**: compare com o **Diretório dos Índios** (1757, @sec-cap-91), em que a
+imposição do português **funcionou**. A diferença não foi o poder militar — Pombal tinha
+**escola, administração e Igreja** operando na língua imposta; os visigodos não tinham nada
+disso. **A língua se impõe pelas instituições, não pelas armas.**
+
+**A marca do árabe**: o artigo **al-** aglutinado (*alface*, *algodão*, *alfaiate*, *almofada*,
+*alfândega*, *álcool*, *algarismo*). Os falantes tomaram o artigo árabe como **parte da
+palavra** — sinal de que **não sabiam árabe** e de que os empréstimos entraram pela **fala**, não
+pela escrita.
+:::
+
+**4.** Explique a regularidade das mudanças fonéticas e por que os dubletos a confirmam.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A observação fundadora**: as mudanças do latim ao português **não escolhem palavras**. Não é
+que *vita* virou *vida* por um acaso e *rota* virou *roda* por outro. **Toda** oclusiva surda
+intervocálica sonorizou, em **todas** as palavras que a continham:
+
+*vita* → **vida** · *lupu* → **lobo** · *amicu* → **amigo** · *rota* → **roda**
+
+O mesmo com a palatalização de PL-, CL-, FL-: **todas** as palavras a sofreram —
+*plicare* → **chegar**, *clave* → **chave**, *flamma* → **chama**, *plenu* → **cheio**. E o
+espanhol, partindo do mesmo latim, fez **outra** coisa, mas também **regularmente**: todas
+viraram *ll-* (*llegar*, *llave*, *llama*, *lleno*).
+
+**A formulação dos neogramáticos** (séc. XIX): ***as leis fonéticas não têm exceção***. Onde a
+condição se cumpre, a mudança se aplica — **cegamente**, sem consultar o significado nem a
+frequência da palavra.
+
+**Por que isso é extraordinário:**
+
+1. **A mudança é previsível.** Dada uma palavra latina e as leis do português, pode-se **derivar**
+   a forma portuguesa e **acertar**;
+2. **A mudança é reversível.** Pode-se **reconstruir** o ancestral a partir dos descendentes — foi
+   assim que se reconstruiu o **indo-europeu**, língua de que não existe **um único texto**.
+
+É essa regularidade que fez da linguística histórica uma **ciência** no século XIX: ela tem leis,
+faz previsões, e as previsões se verificam.
+
+**Como os dubletos confirmam a regra** — o núcleo da questão:
+
+Um **dubleto** é um par de palavras da **mesma raiz latina** que entrou no português por **dois
+caminhos**:
+
+| Popular (herdado) | Erudito (reimportado) | Latim |
+|---|---|---|
+| **olho** | **ocular** | *oculu* |
+| **chave** | **clavícula** | *clave* |
+| **cheio** | **pleno** | *plenu* |
+| **chama** | **inflamável** | *flamma* |
+| **povo** | **popular** | *populu* |
+
+**A aparente objeção**: se as leis não têm exceção, por que *ocular* não virou "olhar"? Por que
+*clavícula* não virou "chavícula"?
+
+**A resposta, que é decisiva**: porque essas palavras **não estavam lá** quando a lei operou.
+Elas foram **reimportadas do latim escrito** séculos depois, por via **erudita** — quando a
+mudança já havia **encerrado**. Uma lei fonética opera durante um período e depois **para**; o
+que chega depois não é atingido.
+
+**Por que isso confirma em vez de refutar:**
+
+O par *olho* / *ocular* é uma **medição**. As duas palavras têm a mesma origem; uma passou por
+1.500 anos de transmissão oral, a outra foi resgatada do papel e chegou **intacta**. A **diferença
+entre as duas mede exatamente o efeito das leis fonéticas** — é um experimento controlado que a
+história fez sozinha.
+
+Se as leis fossem irregulares, os dubletos não formariam padrão. Formam: **todo** popular sofreu
+**todas** as leis do seu período; **todo** erudito escapou de **todas**. A regularidade aparece
+duas vezes.
+
+**A imagem final**: quando você diz *olho* e *ocular*, está pronunciando a **mesma palavra
+latina** em dois momentos da história.
+:::
+
+**5.** O que foi o galego-português e por que sua existência é notável?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O que foi**: a língua falada nos dois lados do rio **Minho** — no norte de Portugal e na Galiza
+— entre os séculos **XII e XIV**. E, mais que isso: **a língua da poesia lírica de toda a
+Península Ibérica**.
+
+**Por que é notável** — o fato que surpreende:
+
+Poetas **castelhanos** escreviam suas cantigas em **galego-português**, embora falassem
+castelhano no cotidiano. Inclusive o rei **Afonso X, o Sábio, de Castela**, autor das *Cantigas
+de Santa Maria* — em galego-português.
+
+Havia uma **divisão de trabalho literária**: castelhano para a **prosa**, galego-português para a
+**lírica**. Por dois séculos, o galego-português foi a língua poética de referência do ocidente
+ibérico — o equivalente ao que o provençal foi para o resto da Europa.
+
+Note o que isso significa: uma língua de uma região pequena e periférica tornou-se **língua
+literária supranacional**, adotada por quem não a falava. Prestígio literário e prestígio
+político são coisas distintas (@sec-cap-88) — e aqui correram em direções opostas.
+
+**O corpus:**
+
+| Gênero | O que é |
+|---|---|
+| **Cantigas de amor** | eu lírico **masculino**; herança **provençal** |
+| **Cantigas de amigo** | eu lírico **feminino**; tradição **autóctone** — o que há de mais original |
+| **Cantigas de escárnio e maldizer** | a **sátira** |
+| **Cantigas de Santa Maria** | de **Afonso X**; religiosas |
+
+**Um exemplo** (D. Dinis, rei de Portugal, séc. XIII–XIV):
+
+> Ai flores, ai flores do verde pino,
+> se sabedes novas do meu amigo?
+> Ai Deus, e u é?
+
+**O que se lê sem dicionário**: *flores*, *verde*, *pino* (pinho), *novas* (notícias), *amigo*,
+*Deus*. **O que já não se diz**: *sabedes* (sabeis), *u* (onde — do latim *ubi*).
+
+**A relevância para o capítulo**: o poema é lido **sem esforço** por um brasileiro de hoje, 700
+anos depois. Isso mostra que a mudança linguística, embora contínua, é **lenta** — e que o
+português tem uma continuidade documentada rara. E mostra também por que a pergunta "galego e
+português são a mesma língua?" não tem resposta simples: este poema é património **dos dois**, e
+nenhum dos dois pode reclamá-lo com exclusividade.
+:::
+
+**6.** Português e galego: mesma língua ou línguas distintas?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A resposta**: a pergunta não tem resposta **linguística** — é a mesma situação do @sec-cap-87 e
+do @sec-cap-89.
+
+**Os fatos, sobre os quais não há disputa:**
+
+1. **Origem comum, indiscutível.** Não são línguas irmãs que por acaso se parecem: **eram uma
+   só** no século XIII. O poema de D. Dinis é património dos dois;
+2. **A separação política precedeu a linguística.** Em **1139**, o Condado Portucalense (ao **sul**
+   do Minho) torna-se independente; a Galiza (ao **norte**) permanece no reino de Leão e depois
+   de Castela. **A mesma língua ficou dos dois lados de uma fronteira nova**;
+3. **Os caminhos divergiram**: Portugal expandiu-se para o sul, criou norma própria e tornou-se
+   língua de império. O galego passou a sofrer forte influência **castelhana** e, nos **Séculos
+   Escuros** (XVI–XVIII), praticamente desapareceu da escrita — reduzido a língua oral e rural;
+4. **Hoje**: o galego é **cooficial** na Galiza e tem norma escrita própria — **disputada**.
+
+**A disputa, que é exemplar:**
+
+| | Ortografia | Tese |
+|---|---|---|
+| **Isolacionistas** | aproximada do **castelhano** (norma oficial atual) | galego é **língua distinta** |
+| **Reintegracionistas** | aproximada do **português** | galego e português são variedades da **mesma** língua |
+
+**O que decide?** Não há critério linguístico (@sec-cap-87): a inteligibilidade falha nos dois
+sentidos, e o que separa língua de dialeto é **fronteira política** e **tradição escrita** — "uma
+língua é um dialeto com exército e marinha".
+
+**O argumento decisivo, que a boa resposta traz**: a distância entre **galego e português** é, em
+vários parâmetros, **menor** que a distância entre **PB e PE** (@sec-cap-89). E ninguém propõe
+que PB e PE sejam duas línguas com base nessa distância.
+
+Ou seja: **o critério da distância, aplicado com coerência, daria o resultado oposto ao que se
+alega**. Se galego é outra língua por estar distante do português, então o PB também é. Quem
+sustenta uma coisa e nega a outra não está usando um critério — está usando uma preferência.
+
+**A natureza real da questão**: trata-se de decidir se a Galiza pertence ao mundo **lusófono** ou
+ao **espanhol**. É uma decisão **política e identitária**, sobre o **futuro** — não uma descoberta
+sobre o passado.
+
+**Sobre o passado não há dúvida nenhuma**: eram a mesma língua, e a poesia trovadoresca é lida
+por galegos e portugueses como coisa sua.
+
+**A posição honesta**: reconhecer a origem comum como **fato**, e a classificação atual como
+**escolha** — de galegos, e de mais ninguém.
+:::
+
+**7.** Explique as principais mudanças fonéticas do latim ao português, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**1. Sonorização das oclusivas surdas intervocálicas** — a mais produtiva. Entre vogais, /p, t, k/
+sonorizam em /b, d, g/:
+
+| Latim | Português |
+|---|---|
+| *vi**t**a* | vi**d**a |
+| *lu**p**u* | lo**b**o |
+| *ami**c**u* | ami**g**o |
+| *ro**t**a* | ro**d**a |
+
+**2. Queda de consoantes intervocálicas** (-l-, -n-) — um estágio além:
+
+| *do**l**ore* | **dor** |
+| *co**l**ore* | **cor** |
+| *lu**n**a* | **lua** |
+| *pe**r**sona* → *pessoa* | **pessoa** |
+
+Note *lua*: caiu o -n-, e a vogal nasalizou e depois desnasalizou. É a queda que explica por que
+o português tem tantos hiatos que o espanhol não tem (*lua* × *luna*, *dor* × *dolor*).
+
+**3. Palatalização dos grupos iniciais PL-, CL-, FL-** — **a marca registrada do português**:
+
+| Latim | Português | Espanhol |
+|---|---|---|
+| *plicare* | **chegar** | *llegar* |
+| *clave* | **chave** | *llave* |
+| *flamma* | **chama** | *llama* |
+| *pluvia* | **chuva** | *lluvia* |
+| *plenu* | **cheio** | *lleno* |
+
+Este é o exemplo mais elegante da regularidade: **todas** as palavras com esses grupos fizeram a
+mesma coisa. E o espanhol, do mesmo latim, fez **outra** coisa — mas também **regularmente**.
+Duas leis diferentes, ambas sem exceção. É por isso que se pode **prever** a forma espanhola a
+partir da portuguesa.
+
+**4. Síncope** — queda de vogal átona interna. É a mudança do *Appendix Probi*:
+
+| *speculum* → *specl**u*** | **espelho** |
+| *oculum* → *ocl**u*** | **olho** |
+| *populu* → *popl**u*** | **povo** |
+
+Lembre: *speclum* era o **erro** que o professor romano condenava. Venceu.
+
+**5. Ditongação e monotongação:**
+
+- *petra* → **pedra**; *ferru* → **ferro**;
+- *aurum* → **ouro** → e, no PB falado de hoje, **"oro"**. A monotongação **continua operando**.
+
+**O ponto que fecha a resposta**: o item 5 mostra que essas leis **não são história antiga**. A
+monotongação de *ouro* → "oro", de *beijo* → "bejo", de *caixa* → "caxa" está acontecendo **agora**,
+no PB, com a mesma regularidade e o mesmo estigma que *speclum* teve. Daqui a mil anos, alguém
+listará "oro" como a forma normal e "ouro" como arcaísmo — e o processo terá sido idêntico
+(@sec-cap-86).
+:::
+
+**8.** Analise: "*speculum*, non *speclum*" (*Appendix Probi*, séc. III). O que a frase ensina?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O que é**: o *Appendix Probi* é um manual escolar do século III que lista **correções** — a
+forma certa à esquerda, o "erro" popular à direita. É, essencialmente, uma lista de "não diga X,
+diga Y".
+
+**A ironia central**: foi ***speclum*** — a forma **condenada** — que sobreviveu:
+
+| Latim "correto" | Forma "errada" | Resultado |
+|---|---|---|
+| *speculum* | *speclum* | **espelho** (port.), *espejo* (esp.), *specchio* (it.) |
+| *oculum* | *oclum* | **olho**, *ojo*, *occhio* |
+| *auris* | *oricla* | **orelha**, *oreja*, *orecchio* |
+
+**Nenhuma** das formas "corretas" deixou descendente popular. **Todas** as formas condenadas
+viraram as línguas românicas.
+
+**O que a frase ensina — quatro coisas:**
+
+**1. O erro de ontem é a língua de hoje.** As línguas românicas descendem **exatamente** do que os
+professores romanos corrigiam. O "desleixo" venceu; a forma "correta" morreu no papel.
+
+**2. A correção prescritiva não detém a mudança.** O professor romano estava certo sobre a norma
+do seu tempo e **completamente impotente** sobre o futuro. Séculos de correção não salvaram
+*speculum*. Isso não é um argumento contra ensinar a norma (@sec-cap-91) — é um argumento contra
+a ilusão de que a norma **controla** a língua.
+
+**3. O documento vale pelo avesso.** O *Appendix* é uma das melhores fontes sobre o latim vulgar
+justamente porque **registra o que queria eliminar**. Ao condenar *speclum*, o autor **prova** que
+*speclum* existia e era comum — ninguém condena o que ninguém diz. É evidência **involuntária**, e
+por isso mesmo confiável.
+
+**4. A perspectiva de 1.800 anos sobre o presente.** Este é o ponto que a boa resposta alcança.
+
+O professor romano diante de *speclum* está na **mesma posição** do professor brasileiro diante
+de "os menino" ou de "oro" (por *ouro*). Ele:
+
+- vê uma forma que a norma condena;
+- corrige-a com convicção;
+- e está, sem saber, **olhando para o futuro da língua**.
+
+**A conclusão que o capítulo tira**: isso **não** significa que a norma seja inútil ou que não se
+deva ensiná-la. O *Appendix Probi* tinha uma função real na sua sociedade, e o professor
+brasileiro também tem (@sec-cap-91). Significa que a norma é um **retrato do prestígio de um
+momento**, não uma descrição do que a língua **é** — e muito menos do que ela **será**.
+
+**A frase que sintetiza**: a lista de erros de uma época é o dicionário da época seguinte.
+:::
+
+**9.** (Estilo Cebraspe — julgue C ou E)
+
+I. O português descende do latim clássico, língua da literatura romana.
+II. Os visigodos, ao dominarem a Península, impuseram sua língua germânica aos habitantes.
+III. O artigo *al-* aglutinado em *alface* e *algodão* indica origem árabe.
+IV. Galego e português constituíam uma única língua nos séculos XII e XIII.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — ERRADO.** O português descende do **latim VULGAR** — a variedade **falada**, cotidiana,
+levada à Península por **soldados, comerciantes e administradores**. O latim **clássico** era a
+variedade **literária e escrita**, e sobreviveu **nos textos**, não nas línguas. Línguas se
+transmitem pela **fala**: as crianças aprendiam ouvindo os pais, e os pais falavam vulgar.
+
+**II — ERRADO**, e é o caso contraintuitivo do capítulo. Os visigodos **não** impuseram sua
+língua: **assimilaram-se** e passaram a falar **latim**. Deixaram apenas um **superstrato**
+lexical (*guerra*, *roubar*, *branco*, *Rodrigo*).
+
+**Por quê**: o latim tinha o **prestígio**, a **escrita**, a **Igreja** e o **direito**; os
+germânicos tinham apenas as armas. **Dominação militar não impõe língua** — a língua se impõe
+pelas **instituições** (contraste com o Diretório de 1757, @sec-cap-91, onde havia escola e
+administração operando junto).
+
+**III — CERTO.** O **al-** é o **artigo definido árabe**, aglutinado à palavra: *alface*,
+*algodão*, *alfaiate*, *almofada*, *alfândega*, *álcool*, *algarismo*, *alicate*.
+
+E o detalhe que a aglutinação revela: os falantes romances tomaram o artigo como **parte da
+palavra** — o que mostra que **não sabiam árabe** e que os empréstimos entraram pela **fala**, não
+pela escrita. Quem soubesse árabe teria separado o artigo.
+
+**IV — CERTO.** Galego e português eram **uma única língua** — o **galego-português** —, falada
+nos dois lados do rio Minho. Era a língua da **lírica trovadoresca de toda a Península**: até
+**Afonso X de Castela** escrevia suas cantigas nela. A separação **política** (1139) precedeu a
+linguística em séculos.
+
+**Gabarito: E, E, C, C.**
+
+**O padrão**: I e II punem as duas intuições erradas mais comuns — "vem do latim dos livros" e "o
+conquistador impõe a língua". Ambas supõem que a língua segue o **poder formal**; a história
+mostra que segue a **transmissão** (I) e as **instituições** (II).
+:::
+
+**10.** Explique os dubletos *olho*/*ocular* e *chave*/*clavícula*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O que é um dubleto**: um par de palavras da **mesma raiz latina** que entrou no português por
+**dois caminhos distintos**.
+
+| Popular (herdado) | Erudito (reimportado) | Latim | O que aconteceu |
+|---|---|---|---|
+| **olho** | **ocular** | *oculu* | síncope (*oclu*) + palatalização |
+| **chave** | **clavícula** | *clave* | palatalização de CL- |
+| **cheio** | **pleno** | *plenu* | palatalização de PL- |
+| **chama** | **inflamável** | *flamma* | palatalização de FL- |
+| **povo** | **popular** | *populu* | síncope (*poplu*) |
+| **areia** | **arena** | *arena* | queda do -n- |
+
+**Os dois caminhos:**
+
+- **A via popular (hereditária)**: a palavra **nunca deixou de ser falada**. Passou por
+  transmissão oral ininterrupta de geração em geração, durante ~1.500 anos, e **sofreu todas as
+  leis fonéticas** do período — síncope, palatalização, sonorização. Chegou ao português
+  **transformada**: *oculu* → *oclu* → **olho**;
+- **A via erudita**: a palavra **saiu de uso** e foi **reimportada do latim escrito**, séculos
+  depois — pela ciência, pela Igreja, pelo direito, pela escola. Chegou **quando as leis já
+  haviam parado de operar**, e por isso chegou **quase intacta**: *oculu* → **ocular**.
+
+**Por que confirmam a regra em vez de refutá-la** — o núcleo da questão:
+
+A objeção ingênua seria: "se as leis não têm exceção, por que *ocular* não virou 'olhar'?"
+
+A resposta: porque **as leis fonéticas operam durante um período e depois param**. *Ocular* não
+escapou da lei — ela **não estava lá** quando a lei operou. Chegou depois do fechamento.
+
+**E o padrão confirma duplamente**: **todo** popular sofreu **todas** as leis do seu período;
+**todo** erudito escapou de **todas**. Se as leis fossem irregulares, os dubletos não formariam
+esse padrão limpo. Formam.
+
+**Por que os dubletos são preciosos** — e é a melhor parte:
+
+Eles são um **experimento controlado que a história fez sozinha**. As duas palavras têm a **mesma
+origem**; uma passou por 1.500 anos de fala, a outra foi resgatada do papel. A **diferença entre
+elas mede exatamente o efeito das leis fonéticas** — como um grupo de controle num experimento.
+
+**A imagem final**: quando você diz *olho* e *ocular* na mesma frase, está pronunciando a **mesma
+palavra latina** em **dois momentos da história** — uma que viveu, outra que foi congelada.
+:::
+
+**11.** Como a história do latim ao português ilumina o que o Volume 14 descreveu?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A tese**: a mudança histórica e a variação sincrônica **não são fenômenos diferentes** — são o
+**mesmo** fenômeno, visto em escalas de tempo diferentes.
+
+**Os paralelos, um a um:**
+
+**1. Latim clássico × vulgar = variação diafásica** (@sec-cap-88). Não eram duas línguas nem uma
+degradação da outra: eram **registros** de uma mesma língua, coexistindo na mesma pessoa. Cícero
+escrevia clássico e falava vulgar — como o professor brasileiro escreve "solicito a Vossa
+Senhoria" e diz "cadê a chave" (@sec-cap-90). **A distância latim clássico/vulgar é a distância
+PB escrito/falado.**
+
+**2. O *Appendix Probi* = o preconceito linguístico de hoje** (@sec-cap-91). O professor romano
+que condenava *speclum* estava na **mesma posição** do professor que hoje condena "os menino" ou
+"oro" (por *ouro*). E estava, sem saber, **olhando para o futuro da língua**. Toda norma é o
+retrato do prestígio de **um momento**.
+
+**3. As leis fonéticas = as regras variáveis** (@sec-cap-86). O que hoje observamos como **regra
+variável** — a monotongação de *ouro* → "oro", operando com probabilidade X sob condições Y — é
+uma lei fonética **em curso**. Vista de dentro, é variação; vista de mil anos de distância, será
+uma lei sem exceção. **A diferença é o observador, não o fenômeno.**
+
+**4. A Reconquista = a colonização do Brasil** (@sec-cap-87). Os romances ibéricos correm em
+faixas verticais e o **sul é mais homogêneo** que o norte, porque foi repovoado rápido, por gente
+vinda de um só lugar. É **exatamente** o argumento sobre a homogeneidade do PB: colonização
+recente produz uniformidade; tempo e isolamento produzem diversidade. **O mesmo princípio em duas
+escalas** — e é isso que o torna um princípio.
+
+**5. O superstrato germânico = a política linguística** (@sec-cap-91). Os visigodos venceram
+militarmente e **perderam** a língua, porque o latim tinha as instituições. Pombal impôs o
+português e **venceu**, porque tinha escola, Igreja e administração. **A língua se impõe pelas
+instituições, não pelas armas** — e as duas metades da lição estão separadas por mil anos.
+
+**6. Galego × português = PB × PE** (@sec-cap-89). A mesma pergunta, o mesmo não-critério, a mesma
+resposta: é decisão **política**, não descoberta linguística. E o argumento decisivo é o mesmo: a
+distância galego/português é **menor** que PB/PE — o critério aplicado com coerência dá o
+resultado oposto ao alegado.
+
+**A conclusão, que é a tese do capítulo:**
+
+**A mudança linguística não é um acontecimento do passado.** É o que está acontecendo **agora**.
+Cada geração fala como a anterior, com diferenças mínimas — e ninguém percebe estar mudando língua
+nenhuma. Somadas 1.500 vezes, essas diferenças produziram o português a partir do latim.
+
+**A implicação incômoda**: as formas que hoje condenamos são candidatas a **serem a língua**. Não
+sabemos quais vencerão — o *Appendix Probi* também não sabia. Mas sabemos que **algumas
+vencerão**, porque sempre venceram.
+
+**E a implicação que NÃO se segue** (@sec-cap-91): isso não torna o ensino da norma inútil nem
+"tanto faz". A norma tem função **agora**, na sociedade **atual**, e o aluno precisa dela **agora**.
+Saber que ela mudará em mil anos não muda nada sobre a entrevista de emprego de amanhã. O que a
+história oferece é **humildade** sobre a natureza da norma — não licença para não ensiná-la.
+:::
+
+**12.** (Estilo ENEM) A forma *speclum*, condenada como erro no *Appendix Probi* (séc. III),
+originou o português *espelho*. Esse fato ilustra que:
+
+a) o latim entrou em decadência por influência das massas incultas;
+b) a mudança linguística é imprevisível e caótica, sem regularidade alguma;
+c) as formas condenadas pela norma de uma época podem tornar-se a língua da época seguinte;
+d) os gramáticos romanos eram incompetentes em sua análise da língua;
+e) o português é uma corruptela do latim, e por isso inferior a ele.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: c.**
+
+**Por que c está certa**: é exatamente o que o caso demonstra. *Speclum* era condenado no século
+III e virou **espelho** — assim como *oclum* virou **olho** e *oricla* virou **orelha**. **Nenhuma**
+das formas "corretas" do *Appendix* deixou descendente popular; **todas** as condenadas viraram as
+línguas românicas. A norma de uma época é um **retrato do prestígio daquele momento**, não uma
+previsão do futuro da língua.
+
+**Por que as outras erram:**
+
+**a)** Falso, e é a **caricatura decadentista**. Não houve decadência: houve **mudança**. O latim
+não "piorou" — transformou-se em espanhol, português, francês, italiano, romeno, todas línguas
+plenas com literaturas extraordinárias. Chamar isso de decadência é como chamar o crescimento de
+uma criança de deformação. E "massas incultas" já denuncia a alternativa: atribui a mudança a um
+grupo social, quando **toda** a população mudou junto, Cícero incluído (@sec-cap-91).
+
+**b)** Falso, e inverte o achado central. A mudança é **notavelmente regular**: "as leis
+fonéticas não têm exceção". **Toda** oclusiva intervocálica sonorizou; **todos** os grupos PL-,
+CL-, FL- palatalizaram. É essa regularidade que permite **prever** formas e **reconstruir** o
+indo-europeu sem nenhum texto. A mudança é o **oposto** de caótica — e é justamente isso que fez
+da linguística uma ciência.
+
+**d)** Falso e injusto. Os gramáticos romanos estavam **corretos** sobre a norma do seu tempo:
+*speculum* **era** a forma prestigiada, e eles a descreveram bem. Eles não erraram na análise —
+apenas não tinham como saber o futuro, e **ninguém tem**. Aliás, o *Appendix* é hoje uma **fonte
+preciosa** justamente por ser competente: ao registrar o que condenava, documentou o latim vulgar
+melhor que qualquer texto literário.
+
+**e)** Falso duas vezes. Primeiro, "corruptela" pressupõe que o latim era um estado **puro** de
+que se decaiu — e não há estado puro: o latim também veio de mudança, do indo-europeu.
+Segundo, e mais grave: **não há critério para "inferior"** entre línguas (@sec-cap-86). Nenhuma
+língua é inferior a outra, e a ideia de que a língua-mãe é superior à filha não tem nenhum
+conteúdo verificável.
+
+**O padrão** (@sec-cap-85): (a), (d) e (e) são as três faces do **decadentismo** — a crença de que
+a língua degenera. (b) é o erro oposto — achar que sem norma há caos. A correta é a **descritiva**:
+nem decadência nem caos, mas **mudança regular**, em que o prestígio de hoje não prevê a língua de
+amanhã.
+:::
+
+## 📚 Referências
+
+A referência central deste capítulo é Teyssier [@teyssier2007], cuja *História da Língua
+Portuguesa* organiza a cronologia aqui seguida. Câmara Jr. [@camarajr1975; @camarajr1970] fornece
+a análise das mudanças fonéticas e da estrutura herdada. Para o léxico e as camadas de contato,
+ver Houaiss [@houaiss2009]; para a relação entre mudança histórica e variação, Castilho
+[@castilho2010] e Ilari e Basso [@ilaribasso2006]. A articulação com o preconceito e a política
+linguística retoma Bagno [@bagno2007] e Faraco [@faraco2008]; o mecanismo geral da mudança foi
+estabelecido no @sec-cap-86.
+
+O próximo capítulo continua a história: a @sec-cap-93 acompanha o **português arcaico** e o
+**português clássico** — da consolidação da língua nacional à expansão marítima e à fixação da
+norma que o Brasil herdaria.
+
+::: {#refs}
 :::
