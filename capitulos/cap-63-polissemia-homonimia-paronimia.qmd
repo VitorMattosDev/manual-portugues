@@ -4,22 +4,489 @@ title: "Polissemia, homonímia e paronímia"
 
 # Polissemia, homonímia e paronímia {#sec-cap-63}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 10 — Semântica e Léxico.
+> "Se cada sentido exigisse uma palavra própria, nenhuma memória humana daria conta da
+> língua."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O capítulo anterior olhou para as relações **entre** palavras diferentes. Este olha para
+um fato aparentemente incômodo: **a mesma forma serve a vários sentidos**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+*Manga* é fruta e é parte da camisa. *Banco* é assento e é instituição financeira.
+*Ponto* é sinal gráfico, parada de ônibus, unidade de escore, ponto de costura e ponto do
+teatro. Se a língua fosse projetada por um engenheiro, isso seria um defeito — ambiguidade
+gratuita. Mas não é defeito: é **economia**. Um sistema com uma forma para cada sentido
+exigiria um léxico impossível de memorizar.
+
+O preço dessa economia é a ambiguidade potencial — que o **contexto**, quase sempre,
+resolve sem que ninguém perceba. Este capítulo distingue três fenômenos que a intuição
+costuma embaralhar: a **polissemia** (uma palavra, sentidos relacionados), a **homonímia**
+(palavras diferentes que colidiram na forma) e a **paronímia** (palavras parecidas, mas
+não iguais — a que mais derruba candidato em prova).
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** polissemia de homonímia pelo critério da relação entre os sentidos;
+- **Classificar** os homônimos em homógrafos, homófonos e perfeitos;
+- **Reconhecer** parônimos e empregar corretamente os pares mais cobrados;
+- **Explicar** como o contexto desfaz a ambiguidade lexical;
+- **Analisar** o uso intencional da duplicidade em humor e publicidade;
+- **Diagnosticar** os erros de paronímia mais frequentes na escrita formal.
+
+## Polissemia: uma palavra, muitos sentidos
+
+A **polissemia** ocorre quando **uma mesma palavra** apresenta **vários sentidos
+relacionados entre si**, derivados de um núcleo comum por extensão metafórica ou
+metonímica.
+
+Tome **cabeça**:
+
+- "Bati a **cabeça** na porta." (parte do corpo — sentido nuclear)
+- "Ele é a **cabeça** da organização." (líder — quem dirige, como a cabeça dirige o corpo)
+- "Não tenho **cabeça** para isso hoje." (capacidade mental)
+- "A **cabeça** do prego entortou." (extremidade superior, por analogia de forma)
+- "Contamos por **cabeça**." (indivíduo — metonímia: a parte pelo todo)
+
+São cinco sentidos, mas **um único item lexical**: todos irradiam do mesmo núcleo. Você
+consegue reconstruir o caminho de um ao outro, e é isso que caracteriza a polissemia. No
+dicionário, esses sentidos aparecem **num só verbete**, numerados.
+
+A polissemia é a regra, não a exceção: quanto mais frequente uma palavra, mais sentidos
+ela acumula. *Dar*, *ver*, *pegar*, *ponto*, *linha* e *casa* têm dezenas cada.
+
+## Homonímia: formas iguais, palavras diferentes
+
+A **homonímia** ocorre quando **palavras diferentes**, de **origens distintas**, vieram a
+ter a **mesma forma**. Não há relação de sentido entre elas — a coincidência é histórica,
+um acidente.
+
+O par clássico é **manga**:
+
+- *manga* (fruta) — do concani/malaiala *manga*, via línguas da Índia.
+- *manga* (da camisa) — do latim *manica*, "o que cobre a mão".
+
+Não há núcleo comum a reconstruir: a fruta não é uma extensão metafórica da manga da
+camisa, nem vice-versa. Duas palavras distintas colidiram na pronúncia. No dicionário,
+recebem **verbetes separados**, numerados: manga¹, manga².
+
+### Os três tipos de homônimo
+
+::: {.callout-important}
+## Homógrafos, homófonos e perfeitos
+- **Homógrafos** — mesma **grafia**, pronúncia diferente:
+  *gosto* (/ˈgostu/, substantivo) × *gosto* (/ˈgɔstu/, verbo); *colher* (/koˈʎeɾ/, verbo) ×
+  *colher* (/kuˈʎɛɾ/, substantivo); *sede* (/ˈsedʒi/, local) × *sede* (/ˈsɛdʒi/, vontade de
+  beber).
+- **Homófonos** — mesmo **som**, grafia diferente: *cela* / *sela*; *concerto* / *conserto*;
+  *cessão* / *sessão* / *seção*; *acender* / *ascender*.
+- **Perfeitos** — mesma **grafia e mesmo som**: *manga* (fruta) / *manga* (camisa);
+  *banco* (assento) / *banco* (instituição); *rio* (curso d'água) / *rio* (verbo *rir*).
+
+Mnemônico: *homó**grafo*** remete a **escrita** (grafia igual); *homó**fono*** remete a
+**som** (fone igual). Os **perfeitos** empatam nos dois.
+:::
+
+### O critério que separa polissemia de homonímia
+
+A pergunta decisiva é: **os sentidos são relacionados?**
+
+- **Sim, há núcleo comum** → **polissemia** (uma palavra, vários sentidos).
+- **Não, a coincidência é acidental** → **homonímia** (palavras distintas).
+
+*Cabeça* (do corpo) e *cabeça* (do prego) partilham a ideia de extremidade superior →
+polissemia. *Manga* (fruta) e *manga* (camisa) não partilham nada → homonímia.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Uma fronteira menos nítida do que parece
+Convém honestidade aqui: o critério não é sempre decidível. A relação entre sentidos pode
+ter existido e se apagado, ou pode ser reconstruída por etimologia que o falante comum
+desconhece. *Banco* (assento) e *banco* (instituição) parecem homônimos perfeitos — mas
+há uma ligação histórica real: os cambistas medievais operavam sobre **bancos**, e a
+instituição herdou o nome do móvel.
+
+Ou seja: pela etimologia, é polissemia; pela intuição do falante, é homonímia. As
+gramáticas escolares tratam o par como homonímia, e é isso que a prova cobra — mas vale
+saber que a fronteira é **gradual e histórica**, não uma linha rígida. O mesmo já se viu
+entre denotação e conotação (@sec-cap-61): a diacronia atravessa as classificações
+sincrônicas.
+:::
+
+## Paronímia: o mesmo que engana
+
+A **paronímia** ocorre entre palavras **parecidas** — mas **não idênticas** — na grafia e
+na pronúncia, e de **sentidos diferentes**. É a fonte mais produtiva de erro na escrita
+formal, e a campeã de questões de concurso.
+
+Diferentemente dos homônimos, os parônimos **não se confundem no sistema**: são formas
+distintas. Confundem-se apenas na **cabeça do escrevente distraído**.
+
+Os pares que mais aparecem:
+
+| Parônimos | Sentidos |
+|---|---|
+| **eminente** / **iminente** | ilustre, notável / prestes a acontecer |
+| **tráfego** / **tráfico** | trânsito de veículos / comércio ilícito |
+| **descrição** / **discrição** | ato de descrever / reserva, sensatez |
+| **infligir** / **infringir** | aplicar (pena) / violar (regra) |
+| **ratificar** / **retificar** | confirmar / corrigir |
+| **deferir** / **diferir** | conceder / adiar; ser diferente |
+| **flagrante** / **fragrante** | evidente, em flagrante / perfumado |
+| **mandato** / **mandado** | período de exercício / ordem judicial |
+| **comprimento** / **cumprimento** | extensão / saudação; ato de cumprir |
+| **absolver** / **absorver** | inocentar / sorver, embeber |
+| **emergir** / **imergir** | vir à tona / mergulhar |
+| **vultoso** / **vultuoso** | de grande vulto / inchado (rosto) |
+
+::: {.callout-tip}
+## Como não errar os campeões
+- **eminente / iminente**: **e**minente = **e**levado (pessoa ilustre). **i**minente =
+  **i**mediato (vai acontecer). "O **eminente** jurista alertou para o perigo
+  **iminente**."
+- **infligir / infringir**: infli**g**ir = apli**c**ar castigo. Infrin**g**ir = tem **r**
+  de **r**egra violada. "Quem **infringe** a lei pode ter uma multa **infligida**."
+- **ratificar / retificar**: **ra**tificar = **ra**tifica, confirma (pense em "ratificado
+  o acordo"). **Re**tificar = **re**faz, corrige.
+- **mandato / mandado**: manda**to** = tempo de manda**to** do políti**co**. Manda**do** =
+  ordem dada, particípio de *mandar* ("foi mandado").
+- **tráfego / tráfico**: tráfe**g**o de veículos (pense em "engarrafamento"). Tráfi**c**o
+  = **c**rime.
+:::
+
+A @fig-polissemia-homonimia sintetiza a distinção entre os três fenômenos.
+
+::: {#fig-polissemia-homonimia}
+
+```{.tikz}
+%%| filename: polissemia-homonimia
+%%| alt: Esquema comparando três fenômenos. Primeiro, polissemia: uma única palavra com um núcleo de sentido do qual irradiam vários sentidos relacionados, exemplo cabeça do corpo, cabeça líder, cabeça do prego, com um único verbete no dicionário. Segundo, homonímia: duas palavras de origens diferentes que colidiram na mesma forma, exemplo manga do latim manica e manga do concani, sem relação de sentido, com dois verbetes separados. Terceiro, paronímia: duas palavras de formas apenas parecidas e sentidos diferentes, exemplo eminente e iminente, que não se confundem no sistema, apenas na escrita distraída.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=5pt},
+  s/.style={-{Stealth[length=3.5pt]}, draw=manualgray},
+]
+  %% ---- POLISSEMIA
+  \node[cx, draw=manualblue, fill=manualblue!12, text width=20mm] (nuc) at (0,0)
+    {\textbf{cabeça}\\{\scriptsize núcleo}};
+  \node[cx, draw=manualblue, fill=manualblue!4, font=\scriptsize, text width=17mm] (p1) at (-2.1,1.3) {do corpo};
+  \node[cx, draw=manualblue, fill=manualblue!4, font=\scriptsize, text width=17mm] (p2) at (2.1,1.3) {líder};
+  \node[cx, draw=manualblue, fill=manualblue!4, font=\scriptsize, text width=17mm] (p3) at (-2.1,-1.3) {do prego};
+  \node[cx, draw=manualblue, fill=manualblue!4, font=\scriptsize, text width=17mm] (p4) at (2.1,-1.3) {por cabeça};
+  \draw[s] (nuc) -- (p1); \draw[s] (nuc) -- (p2);
+  \draw[s] (nuc) -- (p3); \draw[s] (nuc) -- (p4);
+  \node[font=\bfseries, text=manualblue, anchor=south] at (0,2.1) {POLISSEMIA};
+  \node[font=\scriptsize\itshape, text=manualgray, anchor=north, text width=44mm, align=center] at (0,-2.0)
+    {1 palavra · sentidos \textbf{relacionados}\\ 1 verbete no dicionário};
+
+  %% ---- HOMONIMIA
+  \node[cx, draw=manualred, fill=manualred!4, font=\scriptsize, text width=22mm] (h1) at (6.4,1.3)
+    {\emph{manica} (lat.)\\ manga da camisa};
+  \node[cx, draw=manualred, fill=manualred!4, font=\scriptsize, text width=22mm] (h2) at (6.4,-1.3)
+    {\emph{manga} (concani)\\ a fruta};
+  \node[cx, draw=manualred, fill=manualred!12, text width=17mm] (hf) at (6.4,0) {\textbf{manga}\\{\scriptsize forma}};
+  \draw[s] (h1) -- (hf); \draw[s] (h2) -- (hf);
+  \node[font=\bfseries, text=manualred, anchor=south] at (6.4,2.1) {HOMONÍMIA};
+  \node[font=\scriptsize\itshape, text=manualgray, anchor=north, text width=44mm, align=center] at (6.4,-2.0)
+    {2 palavras · \textbf{sem} relação de sentido\\ 2 verbetes separados};
+
+  %% ---- PARONIMIA
+  \node[cx, draw=manualgreen, fill=manualgreen!8, font=\scriptsize, text width=24mm] (pa1) at (11.6,0.7)
+    {\textbf{eminente}\\ ilustre};
+  \node[cx, draw=manualgreen, fill=manualgreen!8, font=\scriptsize, text width=24mm] (pa2) at (11.6,-0.7)
+    {\textbf{iminente}\\ prestes a ocorrer};
+  \node[font=\bfseries, text=manualgreen, anchor=south] at (11.6,2.1) {PARONÍMIA};
+  \node[font=\scriptsize\itshape, text=manualgray, anchor=north, text width=42mm, align=center] at (11.6,-2.0)
+    {formas apenas \textbf{parecidas}\\ confundem-se só na escrita};
+\end{tikzpicture}
+```
+
+Os três fenômenos. Na **polissemia**, os sentidos irradiam de um núcleo; na
+**homonímia**, duas palavras distintas colidem numa forma; na **paronímia**, as formas
+nem sequer coincidem — apenas se parecem.
+:::
+
+## O contexto resolve (quase sempre)
+
+Se a polissemia e a homonímia são tão abundantes, por que raramente nos confundimos?
+Porque o **contexto** filtra os sentidos incompatíveis antes que a consciência os note.
+
+Em "Sentei no banco e esperei", ninguém cogita a instituição financeira. Em "O banco
+aprovou meu empréstimo", ninguém cogita o assento. O verbo, o artigo, a situação — tudo
+conspira para selecionar um sentido e descartar o resto. A ambiguidade é **potencial**,
+não **efetiva**.
+
+Ela só se torna efetiva quando o contexto **não** desfaz a duplicidade:
+
+> "Vi o banco da praça." (móvel? agência?)
+
+E aí temos duas possibilidades: ou é um **defeito** (a corrigir, se o gênero exige
+precisão), ou é um **recurso** (a explorar, se o gênero admite jogo). Este é o tema do
+próximo capítulo (@sec-cap-64).
+
+### A duplicidade como recurso
+
+O humor e a publicidade vivem de forçar duas leituras simultâneas:
+
+- **Trocadilho por homonímia**: "Ele foi ao banco e sentou-se no gerente." O humor nasce
+  de acionar os dois *bancos*.
+- **Trocadilho por polissemia**: um anúncio de banco que diz "Aqui, seu dinheiro tem
+  **peso**" joga com *peso* (importância / grandeza física / moeda).
+- **Trocadilho por paronímia**: "Não é hora de **imergir**, é hora de **emergir**."
+
+Nesses casos, a ambiguidade não é falha de redação — é o próprio ponto do texto. O que
+determina se a duplicidade é erro ou recurso é, mais uma vez, o **gênero** (@sec-cap-61):
+inaceitável numa bula, celebrada numa charge.
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Polissemia e homonímia são **fatos do sistema** — não estão sujeitas a correção: ninguém
+"erra" ao usar *banco* nos dois sentidos. Já a **paronímia** é diferente: trocar
+*infligir* por *infringir* é, sim, um desvio, porque são duas palavras distintas com
+sentidos incompatíveis, e a troca produz uma frase que não diz o que se pretendia.
+
+Vale notar, porém, que a maior parte das confusões de parônimos ocorre com palavras de
+**registro formal e baixa frequência** (*deferir*, *vultoso*, *retificar*) — itens que o
+falante encontra quase só na escrita burocrática. Não é ignorância da língua: é pouca
+convivência com um vocabulário específico. A solução é exposição e consulta ao dicionário
+[@houaiss2009], não constrangimento.
+:::
+
+## 📋 Quadro-resumo
+
+| Fenômeno | Formas | Sentidos | Dicionário | Exemplo |
+|---|---|---|---|---|
+| **Polissemia** | 1 palavra | vários, **relacionados** | 1 verbete | *cabeça* (corpo/líder/prego) |
+| **Homonímia** | 2+ palavras | **sem** relação | verbetes separados | *manga* (fruta/camisa) |
+| — **homógrafos** | grafia igual, som ≠ | — | — | *gosto* (subst./verbo) |
+| — **homófonos** | som igual, grafia ≠ | — | — | *cela* / *sela* |
+| — **perfeitos** | grafia e som iguais | — | — | *banco* (assento/agência) |
+| **Paronímia** | formas **parecidas** | diferentes | verbetes separados | *eminente* / *iminente* |
+
+Em uma linha: **polissemia** = sentidos que irradiam de um núcleo; **homonímia** =
+palavras distintas que colidiram na forma; **paronímia** = formas que apenas se parecem —
+e é a única das três em que existe **erro** a evitar.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir polissemia com homonímia.** O critério é a **relação entre os sentidos**:
+  há núcleo comum (polissemia) ou não (homonímia)?
+- **Confundir homônimo com parônimo.** Homônimos são **iguais** (na grafia, no som ou em
+  ambos); parônimos são apenas **parecidos**. *Cela*/*sela* = homófonos. *Eminente*/
+  *iminente* = parônimos.
+- **Trocar *infligir* por *infringir*.** "A lei foi infringida; a multa, infligida."
+- **Trocar *tráfego* por *tráfico*.** "O **tráfego** estava lento" (veículos) × "**tráfico**
+  de drogas" (crime).
+- **Trocar *mandato* por *mandado*.** "O **mandato** do senador" (período) × "**mandado**
+  de prisão" (ordem judicial).
+- **Achar que ambiguidade lexical é sempre defeito.** Depende do gênero: erro na bula,
+  recurso na charge.
+- **Esquecer os homógrafos na leitura em voz alta.** *Gosto*, *colher*, *sede*, *jogo*
+  mudam de timbre conforme a classe.
+
+## ✍️ Exercícios
+
+**1.** Classifique e justifique: (a) *cabeça* (do corpo) / *cabeça* (do prego); (b)
+*manga* (fruta) / *manga* (camisa).
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Polissemia.** Os dois sentidos são **relacionados**: partilham o núcleo "extremidade
+superior, parte que encima". A cabeça do prego chama-se assim por **analogia de forma e
+posição** com a cabeça humana. Como se pode reconstruir o caminho de um sentido ao outro,
+trata-se de **uma única palavra** com sentidos estendidos — e o dicionário os reúne num só
+verbete.
+
+**(b) Homonímia** (perfeita: mesma grafia e mesmo som). Não há **nenhuma** relação de
+sentido: a fruta não é extensão metafórica da peça de roupa. A coincidência é um
+**acidente histórico** — *manga* (camisa) vem do latim *manica* ("o que cobre a mão"),
+enquanto *manga* (fruta) entrou por línguas da Índia. São **duas palavras distintas** que
+vieram a soar igual, e o dicionário lhes dá verbetes separados: manga¹, manga².
+:::
+
+**2.** Classifique os homônimos: (a) *cela* / *sela*; (b) *gosto* (subst.) / *gosto*
+(verbo); (c) *rio* (água) / *rio* (verbo *rir*).
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Homófonos.** Mesmo **som** (/ˈsɛlɐ/), **grafias diferentes**: *cela* (cômodo de
+prisão ou convento) × *sela* (arreio do cavalo; ou verbo *selar*).
+
+**(b) Homógrafos.** Mesma **grafia**, **pronúncias diferentes**: *gosto* substantivo tem
+vogal fechada (/ˈgostu/); *gosto* verbo tem vogal aberta (/ˈgɔstu/). "Eu **gosto** (/ɔ/)
+do **gosto** (/o/) desta comida."
+
+**(c) Homônimos perfeitos.** Mesma **grafia** e mesmo **som** (/ˈʁiu/): o curso d'água e a
+1ª pessoa de *rir*. "Eu **rio** quando vejo o **rio**."
+:::
+
+**3.** Complete corretamente: "O ___ jurista alertou para o perigo ___." (*eminente* /
+*iminente*)
+
+::: {.callout-tip collapse="true"}
+## Solução
+"O **eminente** jurista alertou para o perigo **iminente**."
+
+- ***eminente*** = ilustre, notável, de destaque → qualifica o **jurista** (uma pessoa
+  respeitada). Mnemônico: **e**minente = **e**levado.
+- ***iminente*** = prestes a acontecer, na iminência → qualifica o **perigo** (algo que
+  está para ocorrer). Mnemônico: **i**minente = **i**mediato.
+
+São **parônimos**: as formas se parecem (diferem numa vogal), mas os sentidos são
+incompatíveis. Trocá-los produziria absurdos: "o iminente jurista" sugeriria um jurista
+prestes a acontecer.
+:::
+
+**4.** (Estilo FCC) Assinale a frase **correta**:
+
+a) O réu infligiu a lei e foi punido;
+b) O tráfego de drogas aumentou na região;
+c) É preciso ratificar o erro no documento;
+d) O mandato de prisão foi expedido ontem;
+e) A pena foi infligida ao condenado por infringir o regulamento.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (e).** "A pena foi **infligida** (= aplicada) ao condenado por **infringir**
+(= violar) o regulamento." Ambos os parônimos estão corretamente empregados.
+
+As demais: **(a)** "infligiu a lei" ✗ → o correto é **infringiu** (violou) a lei; **(b)**
+"tráfego de drogas" ✗ → **tráfico** (comércio ilícito); *tráfego* é de veículos; **(c)**
+"ratificar o erro" ✗ → **retificar** (corrigir); *ratificar* é confirmar — ratificar um
+erro seria confirmá-lo, o oposto do pretendido; **(d)** "mandato de prisão" ✗ →
+**mandado** (ordem judicial); *mandato* é período de exercício de cargo.
+:::
+
+**5.** Explique por que o contexto quase sempre desfaz a ambiguidade de *banco*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque os elementos que cercam a palavra **selecionam** um dos sentidos e **descartam** os
+incompatíveis, antes mesmo que a consciência registre a duplicidade.
+
+- "**Sentei no** banco **e esperei**" — o verbo *sentar* exige um suporte físico; a
+  instituição financeira é incompatível com a ação e nem chega a ser cogitada.
+- "O banco **aprovou meu empréstimo**" — *aprovar empréstimo* exige um agente
+  institucional; o móvel é descartado.
+
+Ou seja: a ambiguidade da homonímia é **potencial**, não **efetiva**. Ela só se atualiza
+quando o contexto é insuficiente para filtrar — "Vi o banco da praça" —, e mesmo aí o
+conhecimento de mundo costuma ajudar.
+
+É por isso que a economia do sistema (poucas formas, muitos sentidos) não gera o caos
+comunicativo que se poderia prever: o custo da ambiguidade é pago pelo contexto, de graça.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "As palavras *cela* e *sela* são
+homônimas perfeitas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** *Cela* e *sela* são **homófonas**, não homônimas perfeitas.
+
+Homônimos **perfeitos** exigem coincidência **de grafia e de som** — como *manga*/*manga*
+ou *rio*/*rio*. No par *cela*/*sela*, o **som** coincide (/ˈsɛlɐ/), mas a **grafia
+difere** (*c* × *s*). Coincidência apenas sonora define os **homófonos**.
+
+O erro do enunciado está em tomar o hiperônimo ("homônimas") com o especificador errado
+("perfeitas"): elas são homônimas em sentido amplo, mas do subtipo **homófono**.
+:::
+
+**7.** Analise o humor: "Ele foi ao banco e sentou-se no gerente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+O humor nasce da exploração intencional da **homonímia perfeita** de *banco*.
+
+Mecanismo: a primeira ocorrência ("foi ao **banco**") ativa o sentido de **instituição
+financeira** — leitura natural, selecionada pelo contexto. A segunda oração
+("sentou-se no gerente") força retroativamente o sentido de **assento**, criando a imagem
+absurda de alguém sentado sobre uma pessoa.
+
+O efeito cômico depende da **quebra de expectativa**: o leitor já havia descartado o
+sentido de móvel, e a frase o reintroduz quando não cabe mais. É o mesmo mecanismo do
+trocadilho publicitário — a diferença é o gênero, que aqui autoriza (e busca) a
+duplicidade que uma bula proibiria.
+:::
+
+**8.** Distinga, com exemplos próprios, homônimos de parônimos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O critério é o **grau de coincidência entre as formas**.
+
+**Homônimos** — as formas **coincidem**, no som, na grafia ou em ambos:
+
+- *seção* / *cessão* / *sessão* — homófonos (mesmo som /ˈsɛsɐ̃w̃/, grafias distintas).
+- *jogo* substantivo (/ˈʒogu/) / *jogo* verbo (/ˈʒɔgu/) — homógrafos.
+- *canto* (ângulo) / *canto* (música) — perfeitos.
+
+**Parônimos** — as formas apenas **se parecem**, sem coincidir:
+
+- *absolver* (inocentar) / *absorver* (sorver) — diferem em duas letras.
+- *emergir* (vir à tona) / *imergir* (mergulhar) — diferem na vogal inicial e são
+  **antônimos**, o que agrava a confusão.
+- *comprimento* (extensão) / *cumprimento* (saudação).
+
+Consequência prática: os homônimos não geram erro de escrita quando são perfeitos (a forma
+é a mesma); os **homófonos** e os **parônimos**, sim — e são a matéria-prima das questões
+de ortografia e vocabulário.
+:::
+
+**9.** (Estilo FUVEST) Explique por que *banco* (assento) e *banco* (instituição)
+constituem um caso instrutivo para a fronteira entre polissemia e homonímia.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o par recebe **classificações diferentes conforme o critério adotado**.
+
+Pela **intuição sincrônica** do falante contemporâneo, não há relação alguma entre um
+móvel e uma instituição financeira: os sentidos parecem completamente desconexos, e o par
+se comporta como **homonímia perfeita**. É assim que as gramáticas escolares o tratam, e é
+essa a resposta esperada em prova.
+
+Pela **etimologia**, porém, há uma ligação **real**: os cambistas medievais operavam
+sentados a **bancos** nas praças, e a instituição herdou o nome do móvel sobre o qual o
+negócio se fazia (uma **metonímia** — o lugar pela atividade). Sob esse critério, seria
+**polissemia**, com um núcleo comum apagado pelo tempo.
+
+O que o caso ensina: a fronteira entre polissemia e homonímia é **gradual e histórica**,
+não uma linha rígida. A polissemia de ontem, quando o elo se apaga da consciência dos
+falantes, torna-se a homonímia de hoje — movimento simétrico ao que se viu entre conotação
+e denotação (@sec-cap-61). Classificações sincrônicas são sempre atravessadas pela
+diacronia.
+:::
+
+**10.** Corrija os parônimos: "O senador teve seu mandado cassado após infligir a
+legislação eleitoral; a decisão ratificou o erro apontado pela defesa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"O senador teve seu **mandato** cassado após **infringir** a legislação eleitoral; a
+decisão **retificou** o erro apontado pela defesa."
+
+Três correções:
+
+1. **mandado → mandato**: cassa-se o **mandato** (o período de exercício do cargo
+   eletivo). *Mandado* é ordem judicial (mandado de prisão, de busca).
+2. **infligir → infringir**: **infringe-se** (viola-se) a legislação. *Infligir* é
+   **aplicar** uma pena — quem inflige é a autoridade, não o infrator.
+3. **ratificou → retificou**: *ratificar* é **confirmar**; o texto diz que a decisão
+   corrigiu o erro, logo o verbo é **retificar**. Note que manter "ratificou" inverteria o
+   sentido: a decisão teria **confirmado** o erro, o oposto do pretendido.
+
+O trecho é típico do registro jurídico-burocrático — exatamente o terreno em que os
+parônimos de baixa frequência mais derrubam quem escreve.
+:::
+
+## 📚 Referências
+
+A distinção entre polissemia e homonímia, bem como o critério da relação entre sentidos e
+seu caráter gradual, segue Ilari [@ilari2001] e Ilari & Basso [@ilaribasso2006]; os
+registros de verbetes, timbres e etimologias apoiam-se no Houaiss [@houaiss2009]. A
+classificação dos homônimos e as listas de parônimos seguem Bechara [@bechara2009] e Cunha
+& Cintra [@cunhacintra2017]. Para os timbres que distinguem os homógrafos, veja o
+@sec-cap-12; para o tratamento da ambiguidade como defeito ou recurso, o @sec-cap-64, a
+seguir, que aprofunda o tema junto com a pressuposição.
+
+::: {#refs}
 :::
