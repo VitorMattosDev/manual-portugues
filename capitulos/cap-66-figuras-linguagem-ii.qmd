@@ -4,22 +4,599 @@ title: "Figuras de linguagem II: figuras de sintaxe e de som"
 
 # Figuras de linguagem II: figuras de sintaxe e de som {#sec-cap-66}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 10 — Semântica e Léxico.
+> "Também se significa pela ordem das palavras — e até pelo barulho que elas fazem."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O capítulo anterior tratou das figuras que operam sobre o **sentido** (figuras de palavra)
+e sobre a **atitude** do enunciador (figuras de pensamento). Restam duas famílias, e ambas
+mostram que a expressividade não depende apenas do que as palavras significam.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+As **figuras de sintaxe** (ou de construção) operam sobre a **estrutura** da frase: a
+ordem, a omissão, a repetição, a quebra. Elas não mudam o sentido dos itens — mudam o
+**arranjo**, e o arranjo significa.
+
+As **figuras de som** operam sobre o **significante** (@sec-cap-01): a matéria fônica da
+língua. São as que mais aproximam o texto da música — e as únicas em que o **som**, e não
+o sentido, faz o trabalho.
+
+Há aqui uma questão de fundo que vale antecipar: várias figuras de sintaxe coincidem, na
+forma, com aquilo que a gramática normativa chama de **erro**. O pleonasmo é vício quando
+redundante e figura quando enfático; o anacoluto é quebra de estrutura tanto no poema
+quanto na redação mal escrita. A diferença não está na estrutura — está na
+**intencionalidade e no controle**. Voltaremos a isso.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Identificar** elipse, zeugma, pleonasmo, hipérbato, anacoluto e silepse;
+- **Distinguir** as figuras de repetição: anáfora, polissíndeto, assíndeto;
+- **Reconhecer** aliteração, assonância, onomatopeia e paronomásia;
+- **Explicar** o efeito produzido por cada arranjo sintático ou sonoro;
+- **Diferenciar** figura de vício, com base na intencionalidade e no controle;
+- **Analisar** o funcionamento conjunto das figuras em textos poéticos e cotidianos.
+
+## Figuras de sintaxe
+
+### Elipse
+
+**Omissão** de um termo **facilmente recuperável** pelo contexto, sem que tenha aparecido
+antes.
+
+- "Na sala, apenas quatro ou cinco convidados." (omite-se *havia*)
+- "**Comprei** o livro ontem." (omite-se o sujeito *eu* — a elipse mais comum do
+  português)
+
+O português brasileiro é uma língua de **sujeito nulo**: a desinência verbal já informa a
+pessoa, e o pronome é dispensável. Por isso a elipse do sujeito é tão banal que nem
+percebemos — mas é, tecnicamente, uma figura.
+
+### Zeugma
+
+**Elipse de um termo já mencionado antes** — tipicamente, um verbo que não se repete.
+
+- "Ele prefere cinema; ela, **teatro**." (omite-se *prefere*)
+- "Eu bebo café; você, **chá**." (omite-se *bebo* → *bebe*)
+
+Note a marca da zeugma na escrita: a **vírgula** que sinaliza a omissão (@sec-cap-57).
+
+::: {.callout-important}
+## Elipse × zeugma
+A distinção é simples e as bancas a exploram:
+
+- **Elipse** — o termo omitido **nunca apareceu**; recupera-se pelo contexto ou pela
+  morfologia. "Na sala, cinco convidados" → *havia* não foi dito antes.
+- **Zeugma** — o termo omitido **já apareceu antes** e não se repete. "Ele prefere cinema;
+  ela, teatro" → *prefere* está na primeira oração.
+
+Mnemônico: a zeugma é uma elipse **por repetição evitada**. Se você consegue apontar onde
+o termo apareceu, é zeugma.
+:::
+
+### Pleonasmo
+
+**Redundância** intencional, para **reforço**.
+
+- "Vi **com estes olhos** que a terra há de comer."
+- "**A mim**, não **me** engana." (o pronome duplicado enfatiza)
+- "Morrerás **morte vil**." (Herculano)
+
+### Hipérbato (inversão)
+
+Alteração da **ordem direta** dos termos.
+
+- "**Dos filhos deste solo és mãe gentil**, Pátria amada, Brasil." (Hino Nacional)
+  Ordem direta: "Pátria amada, Brasil, és mãe gentil dos filhos deste solo."
+- "**De tudo ao meu amor serei atento**." (Vinicius de Moraes)
+
+O Hino Nacional é o campeão nacional de hipérbatos — e a razão de tantos brasileiros o
+cantarem sem entender.
+
+### Anacoluto
+
+**Quebra** da estrutura sintática: uma construção é iniciada e **abandonada**, e a frase
+segue por outro caminho. O termo inicial fica **solto**, sem função sintática.
+
+- "**Eu**, parece que a sorte não me sorri." (o *eu* fica sem função — não é sujeito de
+  *parece*)
+- "**Essa gente**, você não pode confiar neles."
+- "**A vida**, a gente nunca sabe o que vem por aí."
+
+O anacoluto é **frequentíssimo na fala** — todos nós o produzimos ao reformular o
+pensamento no meio da frase. Na escrita literária, é recurso de oralidade; na escrita
+formal, é falha de planejamento.
+
+### Silepse
+
+Concordância com a **ideia**, não com a forma (@sec-cap-49, @sec-cap-51).
+
+- **De gênero**: "**Vossa Excelência** parece **preocupado**." (forma feminina, ideia
+  masculina)
+- **De número**: "**A multidão** gritava; **estavam** furiosos." (forma singular, ideia
+  plural)
+- **De pessoa**: "**Os brasileiros somos** otimistas." (forma 3ª pessoa, ideia 1ª — o
+  falante se inclui)
+
+### As figuras de repetição
+
+**Anáfora** — repetição de palavra(s) no **início** de versos ou períodos sucessivos:
+
+> "**Se** a alma não é pequena. **Se** o mundo não é grande. **Se** tudo cabe num
+> instante."
+
+**Polissíndeto** — repetição **enfática** da conjunção (tipicamente *e*):
+
+> "**E** ria, **e** chorava, **e** gritava, **e** corria."
+
+Efeito: acúmulo, simultaneidade, agitação. A vírgula antes do *e* é aqui legítima
+(@sec-cap-60).
+
+**Assíndeto** — **ausência** de conjunção onde ela caberia:
+
+> "Cheguei, vi, venci."
+
+Efeito: rapidez, secura, sucessão veloz. Compare com o polissíndeto: o assíndeto acelera,
+o polissíndeto acumula.
+
+**Anadiplose** — a palavra que **termina** um segmento **inicia** o seguinte:
+
+> "Ele voltou para casa. **Casa** que já não era sua."
+
+A @fig-sintaxe-som organiza as duas famílias.
+
+::: {#fig-sintaxe-som}
+
+```{.tikz}
+%%| filename: sintaxe-som
+%%| alt: Esquema com duas famílias de figuras. À esquerda, figuras de sintaxe, que operam sobre a estrutura da frase, subdivididas em três grupos: omissão, com elipse e zeugma; ordem e quebra, com hipérbato, anacoluto e silepse; repetição, com anáfora, polissíndeto, assíndeto e pleonasmo. À direita, figuras de som, que operam sobre o significante, com aliteração de consoantes, assonância de vogais, onomatopeia que imita o ruído e paronomásia com palavras parecidas. Abaixo, a indicação de que a sintaxe significa pelo arranjo e o som significa pela matéria fônica.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=4pt},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  %% ---- SINTAXE
+  \node[cx, draw=manualblue, fill=manualblue!12, text width=30mm] (sx) at (-3.4,2.6)
+    {\textbf{FIGURAS DE SINTAXE}\\{\scriptsize operam sobre a \emph{estrutura}}};
+
+  \node[cx, draw=manualblue, fill=manualblue!6, font=\scriptsize, text width=30mm] (om) at (-6.6,0.9)
+    {\textbf{omissão}\\ elipse · zeugma};
+  \node[cx, draw=manualblue, fill=manualblue!6, font=\scriptsize, text width=30mm] (or) at (-3.4,0.9)
+    {\textbf{ordem / quebra}\\ hipérbato · anacoluto\\ silepse};
+  \node[cx, draw=manualblue, fill=manualblue!6, font=\scriptsize, text width=30mm] (rp) at (-0.2,0.9)
+    {\textbf{repetição}\\ anáfora · polissíndeto\\ assíndeto · pleonasmo};
+
+  \draw[s] (sx) -- (om); \draw[s] (sx) -- (or); \draw[s] (sx) -- (rp);
+
+  \node[cx, draw=manualblue, fill=manualblue!3, font=\scriptsize, text width=28mm] at (-6.6,-0.9)
+    {``ela, \textbf{teatro}''\\{\scriptsize verbo omitido}};
+  \node[cx, draw=manualblue, fill=manualblue!3, font=\scriptsize, text width=28mm] at (-3.4,-0.9)
+    {``\textbf{Dos filhos deste solo}\\ és mãe gentil''};
+  \node[cx, draw=manualblue, fill=manualblue!3, font=\scriptsize, text width=28mm] at (-0.2,-0.9)
+    {``\textbf{e} ria, \textbf{e} chorava''};
+
+  %% ---- SOM
+  \node[cx, draw=manualred, fill=manualred!12, text width=30mm] (so) at (4.4,2.6)
+    {\textbf{FIGURAS DE SOM}\\{\scriptsize operam sobre o \emph{significante}}};
+
+  \node[cx, draw=manualred, fill=manualred!6, font=\scriptsize, text width=32mm] (al) at (4.4,1.0)
+    {\textbf{aliteração} — consoantes\\ ``\textbf{v}ozes \textbf{v}eladas, \textbf{v}eludosas''};
+  \node[cx, draw=manualred, fill=manualred!6, font=\scriptsize, text width=32mm] (as) at (4.4,-0.2)
+    {\textbf{assonância} — vogais\\ ``sou um mulato n\textbf{a}t\textbf{o}''};
+  \node[cx, draw=manualred, fill=manualred!6, font=\scriptsize, text width=32mm] (on) at (4.4,-1.4)
+    {\textbf{onomatopeia} — imita\\ ``o \textbf{tique-taque} do relógio''};
+  \node[cx, draw=manualred, fill=manualred!6, font=\scriptsize, text width=32mm] (pn) at (4.4,-2.6)
+    {\textbf{paronomásia} — parecidas\\ ``\textbf{conhecer} / \textbf{concordar}''};
+
+  \draw[s] (so) -- (al);
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=64mm] at (-3.4,-2.4)
+    {a \textbf{sintaxe} significa pelo \textbf{arranjo};\\ o \textbf{som}, pela própria matéria fônica};
+\end{tikzpicture}
+```
+
+As duas famílias restantes. As figuras de **sintaxe** significam pelo **arranjo** dos
+termos; as de **som**, pela **matéria fônica** do significante.
+:::
+
+## Figuras de som
+
+### Aliteração
+
+Repetição de **sons consonantais**.
+
+> "**V**ozes **v**eladas, **v**eludosas **v**ozes, **v**olúpias dos **v**iolões, **v**ozes
+> **v**eladas." (Cruz e Sousa)
+
+O /v/ repetido — fricativo, contínuo, suave — **imita** o que descreve: a suavidade
+aveludada das vozes. O som faz o trabalho semântico.
+
+### Assonância
+
+Repetição de **sons vocálicos**.
+
+> "Sou um mul**a**to n**a**to, no sentido l**a**to." (Mário de Andrade)
+
+### Onomatopeia
+
+Palavra que **imita** um ruído.
+
+- "O **tique-taque** do relógio."
+- "**Zumbia** a abelha; **rangia** a porta."
+- "**Cocoricó**", "**miau**", "**tchibum**", "**bum**".
 
 ::: {.callout-note}
-Capítulo em preparação.
+## A onomatopeia é convencional, não natural
+Um detalhe revelador: se a onomatopeia fosse imitação pura da realidade, seria igual em
+todas as línguas. Não é. O galo faz **cocoricó** em português, *cock-a-doodle-doo* em
+inglês, *kikeriki* em alemão, *ko-ke-kok-ko* em japonês. O mesmo galo.
+
+Isso confirma a **arbitrariedade do signo** (@sec-cap-01) mesmo onde ela pareceria
+suspensa: a onomatopeia é uma imitação **filtrada pelo sistema fonológico** de cada língua
+— só se pode imitar com os sons que a língua tem. É imitação convencionalizada, não
+decalque do mundo.
+:::
+
+### Paronomásia
+
+Aproximação de palavras **parecidas no som** e diferentes no sentido — os parônimos do
+@sec-cap-63, usados de propósito.
+
+- "**Conhecer** não é **concordar**."
+- "Quem **casa** quer **casa**." (aqui, homônimos)
+- "**Ou isto ou aquilo**" (Cecília Meireles) — o jogo sonoro estrutura o poema.
+
+É a figura do trocadilho, do slogan e do título de jornal.
+
+## Figura ou vício? A questão da intencionalidade
+
+Chegamos ao ponto teoricamente mais interessante do capítulo — e ao mais mal resolvido nos
+manuais escolares.
+
+Várias figuras de sintaxe são, **formalmente**, idênticas àquilo que a gramática normativa
+condena:
+
+| Estrutura | Como **figura** | Como **vício** |
+|---|---|---|
+| Redundância | **pleonasmo**: "Vi com estes olhos" | **pleonasmo vicioso**: "subir para cima" |
+| Quebra sintática | **anacoluto**: recurso de oralidade | **anacoluto**: frase mal planejada |
+| Repetição sonora | **aliteração**: "vozes veludosas" | **cacofonia**: "por cada" |
+| Inversão | **hipérbato**: "Dos filhos deste solo" | **obscuridade**: frase ilegível |
+
+A pergunta inevitável: se a estrutura é a mesma, o que distingue?
+
+A resposta tradicional é **a intenção**: figura é o desvio **proposital**; vício é o
+**acidental**. A resposta é correta, mas insuficiente — porque a intenção não é observável
+no texto, e ninguém pode auditar a cabeça de quem escreveu.
+
+::: {.callout-important}
+## Um critério mais honesto
+Em vez de perguntar "houve intenção?", pergunte **duas** coisas verificáveis:
+
+1. **Há efeito de sentido recuperável?** A aliteração de Cruz e Sousa **imita** a
+   suavidade que descreve — o desvio **faz** algo. "Por cada" não faz nada: só produz um
+   ruído indesejado ("porcada").
+2. **Há controle demonstrável?** O desvio é **sistemático** e integrado ao resto do texto,
+   ou é isolado e destoante? Camões acumula paradoxos ao longo de um soneto inteiro; a
+   redação com um anacoluto perdido no meio de um parágrafo formal não demonstra projeto
+   algum.
+
+Esse critério é melhor porque é **textual**, não psicológico. E ele explica o caso-limite:
+um desvio acidental que, por acaso, produz efeito e se integra ao texto **funciona** como
+figura, independentemente do que o autor pretendia. O texto é o que está na página.
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Vale registrar um desconforto legítimo desta seção. Quando um poeta consagrado quebra a
+sintaxe, chamamos de **anacoluto** e admiramos; quando um estudante quebra a mesma
+sintaxe, chamamos de **erro** e descontamos pontos. A estrutura é idêntica.
+
+Não se trata de negar a diferença — ela existe, e o critério acima procura torná-la
+verificável em vez de arbitrária. Mas convém reconhecer que a distinção figura/vício
+carrega um componente de **autoridade e prestígio** do falante, e não apenas de análise
+linguística [@bagno2011]. Guimarães Rosa "inventa"; o falante do interior "erra" — usando,
+às vezes, a mesma construção.
+
+O manejo honesto disso é duplo: em prova e em texto formal, siga a norma, porque é ela que
+está sendo avaliada; mas não confunda a **convenção do gênero** com uma verdade sobre a
+língua. O anacoluto da fala não é deficiência cognitiva — é a sintaxe da oralidade
+(@sec-cap-90), que planeja em tempo real e por isso reformula.
+:::
+
+## 📋 Quadro-resumo
+
+**Figuras de sintaxe** (operam sobre a estrutura):
+
+| Figura | Mecanismo | Exemplo |
+|---|---|---|
+| **Elipse** | omite termo **não** mencionado | "Na sala, cinco convidados." |
+| **Zeugma** | omite termo **já** mencionado | "Ele prefere cinema; ela, teatro." |
+| **Pleonasmo** | redundância enfática | "Vi **com estes olhos**." |
+| **Hipérbato** | inverte a ordem direta | "**Dos filhos deste solo** és mãe gentil." |
+| **Anacoluto** | quebra e abandona a estrutura | "**Eu**, parece que a sorte não me sorri." |
+| **Silepse** | concorda com a **ideia** | "**Os brasileiros somos** otimistas." |
+| **Anáfora** | repete no **início** | "**Se** a alma... **Se** o mundo..." |
+| **Polissíndeto** | repete a conjunção | "**E** ria, **e** chorava." |
+| **Assíndeto** | suprime a conjunção | "Cheguei, vi, venci." |
+
+**Figuras de som** (operam sobre o significante):
+
+| Figura | Mecanismo | Exemplo |
+|---|---|---|
+| **Aliteração** | repete **consoantes** | "**V**ozes **v**eladas, **v**eludosas" |
+| **Assonância** | repete **vogais** | "mul**a**to n**a**to... l**a**to" |
+| **Onomatopeia** | imita ruído | "**tique-taque**" |
+| **Paronomásia** | palavras parecidas | "**conhecer** ≠ **concordar**" |
+
+Em uma linha: as figuras de **sintaxe** significam pelo **arranjo** (omissão, ordem,
+repetição); as de **som**, pela **matéria fônica** — e a fronteira entre figura e vício
+está no **efeito recuperável** e no **controle demonstrável**, não na intenção declarada.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Elipse × zeugma.** O termo omitido **já apareceu**? → zeugma. **Nunca apareceu**? →
+  elipse.
+- **Polissíndeto × assíndeto.** *Poli-* = **muitas** conjunções ("e ria, e chorava").
+  *A-* = **sem** conjunção ("cheguei, vi, venci"). O prefixo entrega a resposta.
+- **Anáfora (figura) × anáfora (coesão).** Em estilística, é **repetição no início**. Em
+  linguística textual (@sec-cap-69), é **retomada de referente**. Mesmo nome, conceitos
+  distintos — atenção ao contexto da questão.
+- **Confundir anacoluto com erro puro.** É figura quando há efeito e controle; é falha
+  quando é acidente isolado num texto que pede planejamento.
+- **Pleonasmo sempre vicioso.** "Vi com estes olhos" é **figura**. "Subir para cima" é
+  **vício**. O critério é o reforço expressivo.
+- **Achar que a onomatopeia copia a realidade.** Ela é **convencional**: o mesmo galo faz
+  *cocoricó* e *cock-a-doodle-doo*.
+- **Silepse como erro de concordância.** É concordância com a **ideia** — legítima e
+  prevista pelas gramáticas (@sec-cap-49).
+- **Aliteração só com a mesma letra.** O critério é o **som**, não a grafia: *casa* e
+  *cedo* não aliteram (/k/ × /s/).
+
+## ✍️ Exercícios
+
+**1.** Distinga: (a) "Na sala, apenas cinco convidados."; (b) "Ele prefere cinema; ela,
+teatro."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Elipse.** Omite-se o verbo *havia* ("Na sala, **havia** apenas cinco convidados"),
+que **não apareceu antes** no texto. O leitor o recupera pelo contexto e pela estrutura,
+não por retomada.
+
+**(b) Zeugma.** Omite-se o verbo *prefere* ("ela **prefere** teatro"), que **já apareceu**
+na primeira oração. A omissão evita a repetição de um termo disponível no próprio período.
+
+Note a **vírgula** em (b): ela é a marca gráfica da zeugma, sinalizando a ausência do verbo
+(@sec-cap-57). É uma das pistas mais confiáveis para identificar a figura na escrita.
+:::
+
+**2.** Classifique e explique o efeito: "E ria, e chorava, e gritava, e corria."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Polissíndeto**: repetição enfática da conjunção aditiva *e* entre todos os elementos
+coordenados, onde a norma pediria apenas um *e* antes do último ("ria, chorava, gritava e
+corria").
+
+**Efeito**: **acúmulo e simultaneidade**. Cada *e* adiciona uma camada sem fechar a série,
+criando a impressão de que as ações se sobrepõem e se multiplicam, sem hierarquia nem
+fim. Sugere agitação, descontrole, transbordamento emocional.
+
+**Contraste instrutivo**: o **assíndeto** ("ria, chorava, gritava, corria") produziria o
+efeito **oposto** — rapidez, secura, sucessão veloz. As mesmas quatro ações, dois efeitos
+contrários, apenas pela presença ou ausência das conjunções. É a prova de que o
+**arranjo** significa.
+
+Observação de pontuação: a vírgula antes do *e* é aqui **legítima** — o polissíndeto é um
+dos três casos que a autorizam (@sec-cap-60).
+:::
+
+**3.** Identifique a figura no Hino Nacional: "Dos filhos deste solo és mãe gentil, Pátria
+amada, Brasil."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Hipérbato** (inversão): a ordem dos termos foi profundamente alterada em relação à ordem
+direta.
+
+**Ordem direta**: "Pátria amada, Brasil, és mãe gentil dos filhos deste solo."
+
+O complemento nominal "dos filhos deste solo" foi antecipado ao predicativo "mãe gentil",
+e o vocativo ("Pátria amada, Brasil") foi deslocado para o fim.
+
+**Efeito**: solenidade e ênfase — a inversão confere ao verso um tom elevado, arcaizante,
+e destaca "dos filhos deste solo" pela posição inicial. O custo é a **inteligibilidade**:
+o Hino Nacional acumula tantos hipérbatos que boa parte dos brasileiros o canta sem
+compreender a sintaxe, apenas reconhecendo a sequência sonora.
+
+O caso ilustra a troca fundamental do hipérbato: ganha-se ênfase e ritmo, perde-se clareza
+— o que é aceitável na poesia e catastrófico num edital.
+:::
+
+**4.** (Estilo ENEM) Em "Vozes veladas, veludosas vozes" (Cruz e Sousa), o recurso é:
+
+a) assonância, pela repetição de vogais;
+b) aliteração, pela repetição de consoantes;
+c) onomatopeia, por imitar um ruído;
+d) anáfora, pela repetição no início dos versos;
+e) paronomásia, por aproximar palavras parecidas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Há **aliteração** pela repetição insistente da consoante **/v/** em
+*vozes, veladas, veludosas, vozes* (e, no verso seguinte, *volúpias, violões*).
+
+O que torna o exemplo célebre não é a repetição em si, mas sua **motivação**: /v/ é uma
+consoante **fricativa** — contínua, suave, sem interrupção do fluxo de ar (@sec-cap-08). O
+som **imita** aquilo que o verso descreve: a suavidade aveludada e contínua das vozes. A
+forma sonora e o sentido convergem.
+
+As demais: **(a)** há também assonância, mas não é o recurso dominante nem o que a questão
+destaca; **(c)** não há imitação de ruído específico; **(d)** a repetição não está no
+início de versos sucessivos; **(e)** as palavras não são parônimos — partilham um som, não
+uma forma global parecida.
+:::
+
+**5.** Explique a silepse: "Os brasileiros somos otimistas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Silepse de pessoa**: o sujeito "os brasileiros" está na **3ª pessoa** do plural, e a
+concordância formal exigiria "os brasileiros **são** otimistas". O verbo, porém, aparece na
+**1ª pessoa** do plural (*somos*).
+
+**Por que ocorre**: o falante **se inclui** no grupo referido. A concordância se faz com a
+**ideia** ("nós, brasileiros, somos") e não com a forma gramatical do sujeito.
+
+**Não é erro**: é figura prevista e legitimada pelas gramáticas (@sec-cap-49,
+@sec-cap-51), e produz um efeito preciso — **aproximação e pertencimento**. Compare: "os
+brasileiros são otimistas" soa como observação **externa**, de quem descreve os
+brasileiros de fora; "os brasileiros somos otimistas" soa como declaração **de dentro**,
+de quem fala como membro. A diferença de uma desinência muda o lugar de fala.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Em 'Vi com estes olhos que a terra há de
+comer', há pleonasmo vicioso, que deve ser corrigido."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Há pleonasmo, mas **não vicioso** — trata-se de pleonasmo **enfático**, isto é,
+**figura de linguagem**.
+
+A redundância é evidente: só se pode ver **com os olhos**, e "com estes olhos" nada
+acrescenta em informação. Mas acrescenta em **expressividade**: reforça o **testemunho
+ocular**, a certeza de quem viu pessoalmente, e o demonstrativo *estes* ancora a afirmação
+no corpo do falante, tornando-a mais enfática e dramática. Há **efeito de sentido
+recuperável** — o critério que separa figura de vício.
+
+Compare com o **pleonasmo vicioso**: "subir **para cima**", "entrar **para dentro**", "elo
+**de ligação**", "há **anos atrás**". Nesses, a redundância **não faz nada**: não enfatiza,
+não dramatiza, apenas ocupa espaço.
+
+Portanto, não há o que corrigir: a construção é consagrada e o reforço é o ponto.
+:::
+
+**7.** Classifique as figuras e comente: "Cheguei, vi, venci."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Duas figuras operando juntas:
+
+1. **Assíndeto** — ausência das conjunções que a ordem esperada pediria ("cheguei, vi
+   **e** venci"). As orações coordenadas se justapõem apenas por vírgulas.
+2. **Gradação** (clímax) — as três ações estão em ordem de **intensidade crescente**:
+   chegar (deslocamento) → ver (percepção) → vencer (ação decisiva). Cada verbo é mais
+   consequente que o anterior.
+
+**Efeito conjunto**: **rapidez e inevitabilidade**. O assíndeto suprime as pausas
+articulatórias, e a frase dispara sem respiro; a gradação garante que a velocidade tenha
+direção — culmina na vitória. A célebre frase atribuída a César comunica que a conquista
+foi tão veloz quanto a enumeração: sem esforço, sem obstáculo, sem intervalo entre chegar
+e vencer.
+
+Teste do contraste: "Cheguei, e vi, e venci" (polissíndeto) tornaria a mesma sequência
+**lenta e acumulativa**, destruindo o efeito. A supressão é o que produz o sentido.
+:::
+
+**8.** Identifique a figura e explique por que ela é comum na fala: "Eu, parece que a sorte
+não me sorri."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Anacoluto** (quebra sintática): o pronome *eu* inicia uma construção que é **abandonada**.
+A frase segue por outro caminho ("parece que a sorte não me sorri"), cujo sujeito é a
+oração "que a sorte não me sorri" — e o *eu* inicial fica **sem função sintática alguma**,
+solto no período.
+
+**Por que é comum na fala**: a oralidade é **planejada em tempo real** (@sec-cap-90). O
+falante começa a frase com um tópico em mente ("eu...") e, enquanto fala, reformula a
+estrutura — mas o que já foi dito não pode ser apagado, como se apagaria num rascunho. O
+anacoluto é, portanto, o **rastro visível da reformulação**, e não um defeito cognitivo.
+
+Note que a construção é perfeitamente **compreensível**: o *eu* funciona como **tópico**
+(aquilo de que se vai falar), papel que muitas línguas marcam gramaticalmente. O português
+falado tem forte tendência à estrutura de tópico — "essa gente, você não pode confiar
+neles" —, o que faz do anacoluto menos um acidente e mais um traço sistemático da
+oralidade.
+
+Na escrita formal, contudo, ele destoa: o texto escrito permite planejamento e revisão, e
+por isso o gênero espera que a estrutura iniciada se complete (@sec-cap-80).
+:::
+
+**9.** (Estilo FUVEST) Discuta o critério que distingue figura de vício, considerando que
+ambos podem ter a mesma estrutura.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O problema é real: **estruturalmente**, figura e vício podem ser idênticos. O pleonasmo
+enfático ("vi com estes olhos") e o vicioso ("subir para cima") são ambos redundâncias; o
+anacoluto de Guimarães Rosa e o de uma redação mal planejada são ambos quebras sintáticas.
+
+**A resposta tradicional** — figura é o desvio **intencional**, vício é o **acidental** —
+está correta, mas é **insuficiente**: a intenção não é observável no texto, e ninguém pode
+auditar a mente de quem escreveu. O critério, assim formulado, é inverificável.
+
+**Um critério mais honesto** substitui a pergunta psicológica por duas perguntas
+**textuais**:
+
+1. **Há efeito de sentido recuperável?** A aliteração de Cruz e Sousa **imita** a suavidade
+   que descreve; o desvio **faz** algo. "Por cada" (cacofonia) não faz nada — só produz
+   ruído indesejado.
+2. **Há controle demonstrável?** O desvio é **sistemático** e integrado ao projeto do
+   texto, ou é isolado e destoante? Camões acumula paradoxos por um soneto inteiro; um
+   anacoluto perdido num parágrafo formal não demonstra projeto.
+
+**Vantagem**: o critério é verificável na página, e resolve o caso-limite — um desvio
+acidental que produza efeito e se integre ao texto **funciona** como figura,
+independentemente da intenção. O texto é o que está escrito.
+
+**Ressalva crítica necessária**: convém reconhecer que a distinção carrega também um
+componente de **prestígio**. Quando Rosa quebra a sintaxe, chamamos de invenção; quando um
+falante do interior usa a mesma construção, chamamos de erro [@bagno2011]. O critério
+textual mitiga esse viés, mas não o elimina — e ter consciência dele é parte de estudar
+estilística com honestidade.
+:::
+
+**10.** Analise as figuras de som e seu efeito: "O tique-taque do relógio ecoava no
+silêncio; nada, nada acontecia."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Figuras identificadas:**
+
+1. **"Tique-taque"** — **onomatopeia**: a palavra imita o ruído do relógio. Vale notar que
+   a imitação é **convencional**, filtrada pelo sistema fonológico do português (em inglês
+   seria *tick-tock*, em japonês *kachi-kachi*) — o que confirma a arbitrariedade do signo
+   mesmo onde ela pareceria suspensa (@sec-cap-01).
+2. **"nada, nada"** — **repetição** (epizeuxe, ou geminação): a duplicação imediata
+   intensifica a negação e sugere a monotonia do tempo que não passa.
+3. **Aliteração em /t/ e /k/** — os sons **oclusivos** de *tique-taque* e *relógio ecoava*
+   são secos, interrompidos, marcados. Contrastam com as fricativas e a nasal de
+   *silêncio*.
+
+**Efeito de conjunto**: o contraste fônico **encena** o sentido. Os oclusivos do
+tique-taque **perfuram** o silêncio descrito, exatamente como o som real de um relógio faz
+num quarto vazio — e o leitor **ouve** isso, não apenas o compreende. A repetição de
+"nada" fecha o quadro: tempo que avança audivelmente enquanto nada acontece, que é a
+definição do tédio ou da espera angustiada.
+
+A lição do capítulo: aqui o significado não vem do sentido das palavras, mas da **matéria
+fônica** delas. As figuras de som são o lugar onde o significante trabalha sozinho.
+:::
+
+## 📚 Referências
+
+A classificação das figuras de sintaxe e de som segue a tradição da NGB, sistematizada por
+Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]; o tratamento das figuras como
+recursos de **expressividade**, bem como a discussão da fronteira entre figura e vício,
+apoia-se em Martins [@martins2008], que será a referência central do @sec-cap-96. A
+ressalva crítica sobre o componente de prestígio na distinção figura/vício segue Bagno
+[@bagno2011] e Faraco [@faraco2008]. Para a sintaxe da oralidade que explica o anacoluto,
+veja Castilho [@castilho2010], Marcuschi [@marcuschi2008] e o @sec-cap-90; para a silepse,
+os @sec-cap-49 e @sec-cap-51; para a arbitrariedade do signo invocada a propósito da
+onomatopeia, o @sec-cap-01. Com este capítulo encerra-se o tratamento das figuras; o
+próximo — último do Volume 10 — trata do léxico português, seus empréstimos e neologismos.
+
+::: {#refs}
 :::
