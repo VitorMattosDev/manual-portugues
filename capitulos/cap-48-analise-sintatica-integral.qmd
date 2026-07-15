@@ -4,22 +4,287 @@ title: "Análise sintática integral: método e prática"
 
 # Análise sintática integral: método e prática {#sec-cap-48}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 7 — Sintaxe II: Período Composto.
+> "Analisar uma frase é desmontá-la como um relojoeiro desmonta um relógio: cada peça
+> tem seu lugar e sua função."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Chegamos ao capítulo que **integra** tudo o que estudamos na sintaxe (Volumes 6 e 7). A
+**análise sintática** é a operação de identificar, numa frase, cada oração e cada termo,
+atribuindo-lhes sua função. Vimos as peças isoladamente — sujeito, predicado, objetos,
+adjuntos, orações coordenadas e subordinadas; agora aprendemos o **método** para
+analisá-las em conjunto, num período qualquer, por mais complexo que seja.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo não traz teoria nova: oferece um **roteiro prático**, passo a passo, e o
+aplica a exemplos progressivamente mais complexos. É um capítulo de **método** — o tipo
+de conteúdo que, dominado, transforma a análise sintática de um quebra-cabeça angustiante
+numa sequência ordenada de perguntas. Ao fim, você terá uma ferramenta para enfrentar
+qualquer período.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** um roteiro sistemático de análise sintática;
+- **Segmentar** um período em suas orações pelos verbos;
+- **Classificar** cada oração (coordenada, subordinada e seu tipo);
+- **Identificar** a função de cada termo dentro de cada oração;
+- **Integrar** os conceitos dos volumes de sintaxe numa análise completa;
+- **Resolver** questões de análise sintática de bancas.
+
+## O roteiro da análise
+
+A análise sintática segue uma ordem lógica, do maior para o menor. A @fig-roteiro-sintaxe
+apresenta os passos.
+
+::: {#fig-roteiro-sintaxe}
+
+```{.tikz}
+%%| filename: roteiro-sintaxe
+%%| alt: Fluxograma vertical com cinco passos da análise sintática, ligados por setas. Passo 1: contar os verbos para achar as orações. Passo 2: classificar o período (simples ou composto; coordenação ou subordinação). Passo 3: em cada oração, achar o verbo e o sujeito. Passo 4: classificar o predicado e identificar complementos. Passo 5: identificar adjuntos, apostos e a função de cada termo.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  p/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=left, text width=88mm, minimum height=9mm, inner sep=5pt},
+  fl/.style={-{Stealth[length=2.4mm]}, manualgray, very thick},
+]
+  \node[p] (a) at (0,0) {\textbf{1.} Conte os \textbf{verbos} $\to$ identifique as \textbf{orações}};
+  \node[p, below=4mm of a] (b) {\textbf{2.} Classifique o \textbf{período}: simples/composto; coordenação/subordinação};
+  \node[p, below=4mm of b] (c) {\textbf{3.} Em cada oração: ache o \textbf{verbo} e o \textbf{sujeito} (``quem?/o quê?'')};
+  \node[p, below=4mm of c] (d) {\textbf{4.} Classifique o \textbf{predicado} e ache os \textbf{complementos} (OD, OI, CN...)};
+  \node[p, below=4mm of d] (e) {\textbf{5.} Identifique \textbf{adjuntos}, \textbf{apostos}, \textbf{predicativos} — a função de cada termo};
+  \draw[fl] (a) -- (b); \draw[fl] (b) -- (c); \draw[fl] (c) -- (d); \draw[fl] (d) -- (e);
+\end{tikzpicture}
+```
+
+O roteiro da análise sintática, do maior para o menor: das orações (pelos verbos) aos
+termos internos de cada uma (sujeito, predicado, complementos, adjuntos).
+:::
+
+1. **Conte os verbos** (descontando locuções) para saber quantas **orações** há
+   (@sec-cap-36).
+2. **Classifique o período**: simples (uma oração) ou composto; se composto, veja se as
+   orações são coordenadas (@sec-cap-43) ou subordinadas (caps. 44–46), e de que tipo.
+3. **Em cada oração**, ache o **verbo** e, a partir dele, o **sujeito** (pergunte "quem?/
+   o quê?") — @sec-cap-37.
+4. **Classifique o predicado** (verbal, nominal, verbo-nominal) e ache os **complementos**
+   (objeto direto, indireto, complemento nominal, agente da passiva) — caps. 38–40.
+5. **Identifique os termos acessórios** (adjuntos adnominal e adverbial, aposto,
+   vocativo, predicativos) — caps. 41–42.
+
+## Análise de um período simples
+
+Comecemos simples. **"O velho pescador consertava as redes na praia."**
+
+- **Verbos**: 1 (*consertava*) → **1 oração** → período **simples**.
+- **Sujeito**: "quem consertava?" → *o velho pescador* (núcleo: *pescador*; adjuntos
+  adnominais: *o*, *velho*). Sujeito **simples**.
+- **Predicado**: "consertava as redes na praia" → núcleo *consertava* (verbo de ação) →
+  predicado **verbal**.
+- **Complemento**: *consertava* é VTD; **objeto direto**: *as redes*.
+- **Adjunto adverbial**: *na praia* (lugar).
+
+## Análise de um período composto
+
+Agora um mais complexo. **"Quando a chuva parou, as crianças, que estavam entediadas,
+saíram correndo para o quintal."**
+
+- **Verbos**: *parou*, *estavam*, *saíram*, *correndo* (gerúndio — oração reduzida) → **4
+  orações** → período **composto** (com subordinação).
+
+Oração a oração:
+
+1. "**Quando a chuva parou**" → subordinada adverbial **temporal** (desenvolvida).
+   Sujeito: *a chuva*; predicado verbal (*parou*, VI).
+2. "**as crianças [...] saíram correndo para o quintal**" → **oração principal**.
+   Sujeito: *as crianças*; predicado — *saíram* (ação) + *correndo* (adverbial reduzida
+   de modo) + adjunto adverbial *para o quintal* (lugar/direção).
+3. "**que estavam entediadas**" → subordinada **adjetiva explicativa** (entre vírgulas;
+   *que* = relativo, retoma *as crianças*). Dentro dela: *que* (sujeito), *estavam*
+   (verbo de ligação), *entediadas* (predicativo do sujeito) → predicado **nominal**.
+4. "**correndo**" → subordinada adverbial **reduzida de gerúndio** (modo).
+
+::: {.callout-important}
+## Dicas para não se perder
+- **Sempre comece pelos verbos.** Eles são o esqueleto: cada verbo (fora locuções) é uma
+  oração.
+- **Identifique as conjunções/relativos.** Eles "entregam" o tipo da subordinada
+  (*quando* = temporal; *que* + antecedente = adjetiva; *que* + "isto" = substantiva).
+- **Analise cada oração como se fosse independente**, achando seu sujeito e predicado.
+- **Deixe as reduzidas para o fim** e converta-as mentalmente em desenvolvidas para
+  classificá-las.
+- **Cheque a pontuação**: vírgulas em adjetivas (explicativa) e em adverbiais deslocadas
+  dão pistas.
+:::
+
+## Um método de perguntas
+
+No fundo, toda a análise se resume a uma sequência de **perguntas**:
+
+- Quantos verbos? → quantas orações.
+- Cada oração se liga à outra como igual (coordenação) ou dependente (subordinação)?
+- Qual o verbo? Quem pratica/de quem se declara? → sujeito.
+- O verbo pede complemento? Com ou sem preposição? → OD/OI.
+- O que sobra exprime circunstância, caracteriza um nome, explica um termo? → adjuntos,
+  apostos, predicativos.
+
+Fazer essas perguntas, na ordem, dissolve a complexidade aparente de qualquer período.
+
+## 📋 Quadro-resumo
+
+| Passo | Pergunta | Resultado |
+|---|---|---|
+| 1 | Quantos verbos? | número de orações |
+| 2 | Como se ligam? | coordenação × subordinação (e tipos) |
+| 3 | Qual o verbo? Quem? | sujeito |
+| 4 | Pede complemento? | OD, OI, CN, agente da passiva |
+| 5 | O que resta? | adjuntos, aposto, vocativo, predicativo |
+
+Em uma linha: analisa-se do **maior ao menor** — contar verbos (orações) → classificar o
+período (coordenação/subordinação) → em cada oração, achar verbo e sujeito → classificar
+predicado e complementos → identificar adjuntos, apostos e predicativos.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Analisar termos antes de segmentar as orações.** Primeiro divida o período em orações
+  (pelos verbos); só então analise dentro de cada uma.
+- **Contar locução verbal como duas orações.** "Vai viajar" = uma oração (um núcleo
+  verbal).
+- **Não usar as conjunções como pistas.** A conjunção/relativo revela o tipo da
+  subordinada — não a ignore.
+- **Esquecer as reduzidas.** Verbos em forma nominal (infinitivo, gerúndio, particípio)
+  também formam orações — converta-as para classificar.
+- **Confundir sujeito posposto com objeto.** "Faltam **dez dias**": *dez dias* é sujeito
+  (posposto), não objeto — cheque a concordância.
+
+## ✍️ Exercícios
+
+**1.** Analise o período simples: "As andorinhas voltaram cedo neste ano."
+
+::: {.callout-tip collapse="true"}
+## Solução
+1 verbo (*voltaram*) → 1 oração → período **simples**. **Sujeito**: *as andorinhas*
+(núcleo *andorinhas*; adjunto adnominal *as*), sujeito simples. **Predicado**: "voltaram
+cedo neste ano" → núcleo *voltaram* (verbo de ação, VI) → predicado **verbal**.
+**Adjuntos adverbiais**: *cedo* (tempo/modo) e *neste ano* (tempo).
+:::
+
+**2.** (Estilo ENEM) No período "Ele afirmou que viria, mas não apareceu", há:
+
+a) uma oração;
+b) duas orações coordenadas;
+c) três orações: uma principal, uma subordinada substantiva e uma coordenada;
+d) três orações subordinadas;
+e) duas orações subordinadas adjetivas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** Três verbos (*afirmou*, *viria*, *apareceu*) → três orações: (1) "Ele
+afirmou" — principal; (2) "que viria" — subordinada substantiva objetiva direta (objeto de
+*afirmou*); (3) "mas não apareceu" — coordenada sindética adversativa. O período combina
+subordinação e coordenação.
+:::
+
+**3.** Segmente em orações e conte-as: "Se você estudar e praticar, terá sucesso quando
+fizer a prova."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Verbos: *estudar*, *praticar*, *terá*, *fizer* → **4 orações**: (1) "Se você estudar" —
+subordinada adverbial condicional; (2) "e praticar" — coordenada aditiva (à condicional);
+(3) "terá sucesso" — oração principal; (4) "quando fizer a prova" — subordinada adverbial
+temporal. Período composto por coordenação e subordinação.
+:::
+
+**4.** Analise a oração "O juiz considerou o réu culpado".
+
+::: {.callout-tip collapse="true"}
+## Solução
+1 oração (período simples). **Sujeito**: *o juiz*. **Predicado**: **verbo-nominal** —
+núcleos *considerou* (verbo de ação) e *culpado* (predicativo do **objeto**).
+**Complemento**: *o réu* = objeto direto de *considerou*. *Culpado* = predicativo do
+objeto (caracteriza *o réu* por meio do verbo).
+:::
+
+**5.** Classifique todas as orações: "Espero que você venha, porque preciso de ajuda."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Três orações: (1) "Espero" — principal; (2) "que você venha" — subordinada substantiva
+**objetiva direta** (objeto de *espero*; cabe "isto"); (3) "porque preciso de ajuda" —
+subordinada adverbial **causal** (a causa da espera/do pedido). Período composto por
+subordinação.
+:::
+
+**6.** (Estilo FCC) No período "A casa onde moro, que é antiga, precisa de reformas",
+identifique corretamente as subordinadas:
+
+a) duas substantivas;
+b) duas adjetivas (uma restritiva e uma explicativa);
+c) uma adjetiva e uma adverbial;
+d) duas adverbiais;
+e) uma substantiva e uma adjetiva.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Há duas adjetivas: (1) "onde moro" — adjetiva **restritiva** (sem
+vírgula, delimita a casa; *onde* = relativo de lugar); (2) "que é antiga" — adjetiva
+**explicativa** (entre vírgulas, acrescenta informação; *que* = relativo). Ambas
+caracterizam o antecedente *a casa*. A oração principal é "A casa [...] precisa de
+reformas".
+:::
+
+**7.** Analise: "Terminada a aula, os alunos, cansados, foram para casa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Verbos: *terminada* (particípio — reduzida), *foram* → 2 orações. (1) "Terminada a aula" —
+subordinada adverbial **temporal reduzida de particípio** (= "quando a aula terminou");
+sujeito: *a aula*. (2) "os alunos [...] foram para casa" — oração principal; sujeito: *os
+alunos*; predicado verbal (*foram*, com adjunto adverbial *para casa* de lugar).
+*Cansados* = predicativo do sujeito (estado dos alunos) — na verdade, tornando o predicado
+**verbo-nominal**.
+:::
+
+**8.** Identifique a função de "de que ele venha" em "Tenho esperança de que ele venha".
+
+::: {.callout-tip collapse="true"}
+## Solução
+"de que ele venha" é subordinada substantiva **completiva nominal**: completa o nome
+abstrato *esperança* (esperança **de quê?**), com a preposição *de*. Teste: "Tenho
+esperança **disto**" — *disto* é complemento nominal de *esperança*. Como completa um
+**nome** (não um verbo), é completiva nominal, não objetiva indireta.
+:::
+
+**9.** Faça a análise completa de "Os meninos brincavam alegremente no parque quando
+começou a chover".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Verbos: *brincavam*, *começou* (a chover — locução com verbo impessoal) → 2 orações. (1)
+"Os meninos brincavam alegremente no parque" — oração **principal**; sujeito: *os
+meninos*; predicado **verbal** (*brincavam*); adjuntos adverbiais: *alegremente* (modo),
+*no parque* (lugar). (2) "quando começou a chover" — subordinada adverbial **temporal**;
+*começou a chover* é locução com verbo impessoal (*chover*), logo **oração sem sujeito**.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "No período 'É provável que chova hoje',
+a oração 'que chova hoje' é subordinada substantiva subjetiva."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** "que chova hoje" exerce a função de **sujeito** da oração principal "É
+provável" → subordinada substantiva **subjetiva**. Teste: "**Isto** é provável" — *isto*
+é o sujeito. Após expressões impessoais como "é provável/certo/necessário que", a
+substantiva é subjetiva. (Note que, dentro dela, *chova* é verbo impessoal — a oração "que
+chova hoje" é internamente sem sujeito, mas, como um todo, é sujeito da principal.)
+:::
+
+## 📚 Referências
+
+O método de análise sintática integra os conceitos de Bechara [@bechara2009] e Cunha &
+Cintra [@cunhacintra2017] apresentados nos Volumes 6 e 7. Abordagens que propõem análises
+alternativas — questionando categorias tradicionais — estão em Perini [@perini2010] e
+Castilho [@castilho2010]. Com este capítulo encerra-se a sintaxe do período; o Volume 8
+trata da sintaxe de relação — concordância, regência e colocação.
+
+::: {#refs}
 :::

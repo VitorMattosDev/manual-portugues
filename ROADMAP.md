@@ -50,12 +50,12 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 40 | Complemento nominal e agente da passiva | `capitulos/cap-40-complemento-nominal-agente-passiva.qmd` | 6 | ✅ 2026-07-14 |
 | 41 | Adjunto adnominal e adjunto adverbial | `capitulos/cap-41-adjunto-adnominal-adverbial.qmd` | 6 | ✅ 2026-07-14 |
 | 42 | Aposto e vocativo | `capitulos/cap-42-aposto-vocativo.qmd` | 6 | ✅ 2026-07-14 |
-| 43 | Período composto por coordenação | `capitulos/cap-43-periodo-composto-coordenacao.qmd` | 7 | ⬜ |
-| 44 | Orações subordinadas substantivas | `capitulos/cap-44-subordinadas-substantivas.qmd` | 7 | ⬜ |
-| 45 | Orações subordinadas adjetivas | `capitulos/cap-45-subordinadas-adjetivas.qmd` | 7 | ⬜ |
-| 46 | Orações subordinadas adverbiais | `capitulos/cap-46-subordinadas-adverbiais.qmd` | 7 | ⬜ |
-| 47 | Orações reduzidas | `capitulos/cap-47-oracoes-reduzidas.qmd` | 7 | ⬜ |
-| 48 | Análise sintática integral: método e prática | `capitulos/cap-48-analise-sintatica-integral.qmd` | 7 | ⬜ |
+| 43 | Período composto por coordenação | `capitulos/cap-43-periodo-composto-coordenacao.qmd` | 7 | ✅ 2026-07-14 |
+| 44 | Orações subordinadas substantivas | `capitulos/cap-44-subordinadas-substantivas.qmd` | 7 | ✅ 2026-07-14 |
+| 45 | Orações subordinadas adjetivas | `capitulos/cap-45-subordinadas-adjetivas.qmd` | 7 | ✅ 2026-07-14 |
+| 46 | Orações subordinadas adverbiais | `capitulos/cap-46-subordinadas-adverbiais.qmd` | 7 | ✅ 2026-07-14 |
+| 47 | Orações reduzidas | `capitulos/cap-47-oracoes-reduzidas.qmd` | 7 | ✅ 2026-07-14 |
+| 48 | Análise sintática integral: método e prática | `capitulos/cap-48-analise-sintatica-integral.qmd` | 7 | ✅ 2026-07-14 |
 | 49 | Concordância verbal I: regra geral e casos frequentes | `capitulos/cap-49-concordancia-verbal-i.qmd` | 8 | ⬜ |
 | 50 | Concordância verbal II: casos especiais | `capitulos/cap-50-concordancia-verbal-ii.qmd` | 8 | ⬜ |
 | 51 | Concordância nominal | `capitulos/cap-51-concordancia-nominal.qmd` | 8 | ⬜ |
