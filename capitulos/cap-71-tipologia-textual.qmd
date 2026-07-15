@@ -4,22 +4,669 @@ title: "Tipologia textual: narração, descrição, dissertação, injunção, e
 
 # Tipologia textual: narração, descrição, dissertação, injunção, exposição {#sec-cap-71}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 11 — Linguística Textual.
+> "Tipos são cinco e cabem numa tabela. Gêneros são milhares e mudam enquanto você conta."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Depois de estudar o que faz de um texto um texto (@sec-cap-68) e como ele se articula
+(@sec-cap-69, @sec-cap-70), passamos a uma pergunta de classificação: **que espécies de
+texto existem?**
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Há duas respostas, e confundi-las é o erro mais comum de todo este volume. A primeira é a
+**tipologia textual** — um conjunto **fechado** e pequeno de modos de organizar o discurso,
+definidos por traços linguísticos. A segunda é a **classificação por gêneros** — um
+conjunto **aberto** e enorme de práticas sociais de linguagem. Este capítulo trata da
+primeira; o @sec-cap-72, da segunda.
+
+A distinção importa muito mais do que parece. Quando alguém diz "a redação do ENEM é um
+gênero dissertativo-argumentativo", está misturando as duas coisas — e a mistura tem
+consequências práticas para quem escreve.
+
+Comecemos por uma constatação que orienta todo o capítulo: **quase nenhum texto real é de
+um tipo só**.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** tipo textual de gênero textual, e explicar por que a confusão é frequente;
+- **Caracterizar** os cinco tipos por seus traços linguísticos, não por intuição;
+- **Identificar** o tipo **predominante** e as sequências secundárias em textos reais;
+- **Reconhecer** que os textos são tipologicamente **híbridos**;
+- **Relacionar** cada tipo aos recursos gramaticais que o realizam;
+- **Aplicar** a análise tipológica à produção da redação escolar.
+
+## Tipo × gênero: a distinção fundamental
+
+::: {.callout-important}
+## As duas categorias
+**Tipo textual** — modo de **organizar o discurso**, definido por **traços linguísticos**
+internos (tempos verbais, classes de palavras, estruturas). É uma categoria da
+**linguística**.
+
+- Conjunto **fechado**: são **cinco** (narração, descrição, dissertação/argumentação,
+  injunção, exposição).
+- **Universal e estável**: os mesmos cinco valem para qualquer língua e qualquer época.
+- Reconhece-se **na estrutura**: verbos no pretérito perfeito + sequência temporal =
+  narração, esteja isso num romance ou num boletim de ocorrência.
+
+**Gênero textual** — prática **social** de linguagem, definida por sua **função** numa
+situação e por convenções compartilhadas. É uma categoria **sócio-histórica**.
+
+- Conjunto **aberto e infinito**: receita, bula, tuíte, sermão, boletim de ocorrência,
+  laudo, meme, edital, currículo...
+- **Histórico e mutável**: nascem e morrem. O telegrama morreu; o *stories* nasceu.
+- Reconhece-se **pela função e pela situação**, não só pela forma.
+:::
+
+A relação entre os dois: **um gênero mobiliza tipos**. A receita (gênero) usa injunção
+("bata as claras") e descrição ("massa homogênea"). O romance (gênero) usa narração,
+descrição e diálogo. O gênero é a **prática**; o tipo é o **material** de que ela se serve.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O erro escolar mais comum
+Dizer que "a redação do ENEM é um **gênero** dissertativo-argumentativo" mistura as duas
+categorias.
+
+Precisando: *dissertativo-argumentativo* é o **tipo** (o modo de organizar); o **gênero** é
+"redação de vestibular" — uma prática social bem definida, com destinatário específico (o
+corretor), situação (a prova), extensão (30 linhas), convenções (proposta de intervenção) e
+critérios de avaliação públicos.
+
+Por que a precisão importa: o candidato que domina o **tipo** sabe argumentar; o que domina
+o **gênero** sabe argumentar **naquelas condições** — e é isso que a prova avalia
+(@sec-cap-77). Confundi-los explica muita redação bem escrita e mal pontuada.
+:::
+
+## Os cinco tipos
+
+### 1. Narração
+
+**Conta fatos** em **sucessão temporal**, com personagens que agem.
+
+**Traços linguísticos:**
+
+- **Verbos de ação** no **pretérito perfeito** (o tempo da narrativa: *chegou*, *viu*,
+  *saiu*), com o **imperfeito** para cenário e hábito (*era*, *estava*, *costumava*);
+- **Marcadores temporais**: *então*, *depois*, *quando*, *no dia seguinte*, *aí*;
+- **Progressão temporal**: a ordem dos verbos é a ordem dos fatos;
+- Presença de **personagens** e **transformação de estado** (algo muda entre o início e o
+  fim).
+
+> "**Chegou** em casa às sete. **Tirou** o casaco, **serviu-se** de água e **sentou-se**.
+> **Só então percebeu** que a porta dos fundos **estava** aberta."
+
+**Gêneros que o mobilizam**: romance, conto, notícia, piada, relato, boletim de ocorrência,
+depoimento, biografia.
+
+### 2. Descrição
+
+**Caracteriza** seres, objetos, lugares ou estados — **sem progressão temporal**. O tempo
+está **parado**.
+
+**Traços linguísticos:**
+
+- **Verbos de estado** (*ser*, *estar*, *parecer*, *ter*) no **presente** ou no
+  **imperfeito**;
+- Abundância de **adjetivos** e **adjuntos adnominais**;
+- **Marcadores espaciais**: *ao fundo*, *à direita*, *sobre*, *em torno*;
+- **Simultaneidade**: os traços coexistem; a ordem é arbitrária.
+
+> "A sala **era** ampla e **tinha** pé-direito alto. Ao fundo, uma janela **dava** para o
+> quintal. Sobre a mesa **havia** três livros empilhados e um copo vazio."
+
+**Teste decisivo** — o **teste da ordem**: numa descrição, você pode **trocar as frases de
+lugar** sem alterar o sentido (a janela e a mesa coexistem, tanto faz qual se mencione
+antes). Numa narração, **não pode**: trocar "chegou" e "sentou-se" muda os fatos.
+
+**Gêneros**: anúncio classificado, laudo, retrato literário, cardápio, catálogo, ficha
+técnica.
+
+### 3. Dissertação (exposição × argumentação)
+
+**Discute ideias**, no plano das abstrações. Aqui é preciso um cuidado terminológico que as
+gramáticas resolvem de modos diferentes.
+
+A tradição escolar brasileira costuma separar:
+
+- **Dissertação expositiva** — **expõe** um assunto, sem defender tese. Objetivo:
+  **informar**. É a **exposição** propriamente dita.
+- **Dissertação argumentativa** — **defende uma tese**, com argumentos, visando à adesão do
+  leitor. Objetivo: **convencer**.
+
+Muitos autores tratam **exposição** e **argumentação** como **dois tipos distintos** — e é
+essa a divisão que este capítulo adota, seguindo o título proposto: cinco tipos, com
+exposição e argumentação separadas.
+
+**Traços linguísticos da argumentação:**
+
+- **Presente do indicativo** com valor **atemporal** (verdades gerais: "a desigualdade
+  **produz** violência");
+- **Substantivos abstratos** e **nominalizações**: *desigualdade*, *desenvolvimento*,
+  *precarização*;
+- **Conectivos lógicos** densos: *portanto*, *no entanto*, *uma vez que*, *por
+  conseguinte*;
+- **Operadores argumentativos**: *é evidente que*, *convém notar*, *ainda que*, *sobretudo*;
+- **Impessoalidade** (3ª pessoa, voz passiva, sujeito indeterminado).
+
+> "A desigualdade **não é** um acidente do desenvolvimento brasileiro: **é** seu
+> mecanismo. **Uma vez que** a concentração de renda **se reproduz** por herança, **conclui-se
+> que** a mobilidade social **depende** menos do mérito do que da origem."
+
+**Gêneros**: artigo de opinião, editorial, ensaio, redação de vestibular, parecer, tese.
+
+### 4. Exposição
+
+**Apresenta** informação organizada, **sem** defender tese. Difere da argumentação pelo
+**propósito**: informar, não convencer.
+
+**Traços**: presente atemporal, terceira pessoa, definições, classificações, exemplos,
+ausência de operadores de adesão.
+
+> "Os mamíferos **dividem-se** em três grupos: monotremados, marsupiais e placentários. Os
+> primeiros **põem** ovos; os segundos **completam** o desenvolvimento em bolsa; os
+> terceiros **desenvolvem** placenta."
+
+**Gêneros**: verbete de enciclopédia, artigo de divulgação, manual, aula expositiva,
+relatório, este capítulo que você está lendo.
+
+### 5. Injunção
+
+**Instrui** o leitor a **fazer** algo. Prescreve comportamento.
+
+**Traços linguísticos:**
+
+- **Imperativo** ("**bata** as claras", "**não ultrapasse**") ou **infinitivo** ("**bater**
+  as claras") ou **futuro do presente** com valor de obrigação ("o contratante **pagará**");
+- **Segunda pessoa** (real ou implícita) — há um destinatário a ser dirigido;
+- **Sequência ordenada de ações** a executar;
+- Verbos de **ação**, no início dos períodos.
+
+> "**Preaqueça** o forno a 180°C. **Bata** as claras em neve. **Acrescente** o açúcar aos
+> poucos e **misture** delicadamente."
+
+**Gêneros**: receita, bula, manual de instruções, edital, lei, regulamento, tutorial, placa
+de trânsito.
+
+::: {#fig-tipos}
+
+```{.tikz}
+%%| filename: tipos-textuais
+%%| alt: Tabela esquemática dos cinco tipos textuais com seus traços definidores. Narração: conta fatos em sucessão temporal, verbos de ação no pretérito perfeito, marcadores temporais, tempo que avança. Descrição: caracteriza seres e lugares, verbos de estado, adjetivos, marcadores espaciais, tempo parado. Exposição: apresenta informação para informar, presente atemporal, definições e classificações. Argumentação: defende tese para convencer, presente atemporal, conectivos lógicos, operadores argumentativos. Injunção: instrui a fazer, imperativo e infinitivo, segunda pessoa, sequência de ações. Abaixo, a advertência central de que quase nenhum texto real é de um tipo só, e que se deve falar em tipo predominante e sequências secundárias.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  t/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, text width=30mm, font=\scriptsize},
+  d/.style={align=left, inner sep=4pt, text width=52mm, font=\scriptsize},
+]
+  \node[t, draw=manualblue, fill=manualblue!12] (n) at (-3.4,2.6)
+    {\textbf{NARRAÇÃO}\\ conta \emph{fatos}};
+  \node[d, anchor=west] at (-1.8,2.6)
+    {pret.\ perfeito · marcadores temporais\\ \textbf{tempo avança} — ``chegou, viu, saiu''};
+
+  \node[t, draw=manualgreen, fill=manualgreen!12] (d) at (-3.4,1.2)
+    {\textbf{DESCRIÇÃO}\\ caracteriza \emph{seres}};
+  \node[d, anchor=west] at (-1.8,1.2)
+    {verbos de estado · adjetivos · espaço\\ \textbf{tempo parado} — ``a sala era ampla''};
+
+  \node[t, draw=manualgray, fill=manualgray!14] (e) at (-3.4,-0.2)
+    {\textbf{EXPOSIÇÃO}\\ \emph{informa}};
+  \node[d, anchor=west] at (-1.8,-0.2)
+    {presente atemporal · definições\\ classificações — ``dividem-se em três''};
+
+  \node[t, draw=manualred, fill=manualred!12] (a) at (-3.4,-1.6)
+    {\textbf{ARGUMENTAÇÃO}\\ \emph{convence}};
+  \node[d, anchor=west] at (-1.8,-1.6)
+    {conectivos lógicos · operadores\\ tese + argumentos — ``conclui-se que''};
+
+  \node[t, draw=manualyellow, fill=manualyellow!14] (i) at (-3.4,-3.0)
+    {\textbf{INJUNÇÃO}\\ \emph{instrui a fazer}};
+  \node[d, anchor=west] at (-1.8,-3.0)
+    {imperativo/infinitivo · 2\textsuperscript{a} pessoa\\ sequência de ações — ``bata as claras''};
+
+  \node[rounded corners=2pt, draw=manualred, fill=manualred!8, align=center,
+        font=\scriptsize, inner sep=5pt, text width=80mm] at (0,-4.4)
+    {\textbf{Quase nenhum texto real é de um tipo só.}\\
+     Fale sempre em \textbf{tipo predominante} + \emph{sequências secundárias}.};
+\end{tikzpicture}
+```
+
+Os cinco tipos e seus traços definidores. A classificação é feita pela **estrutura
+linguística**, não pela intuição — e o quadro inferior registra a ressalva mais importante
+do capítulo.
+:::
+
+## Os textos são híbridos
+
+Esta é a lição central, e a que a escola mais frequentemente perde.
+
+Pergunte-se: uma **receita de bolo** é de que tipo?
+
+> "Este bolo **é** macio e **leva** poucos ingredientes. [**descrição**]
+> **Preaqueça** o forno. **Bata** as claras em neve. [**injunção**]
+> Quando a massa **estiver** homogênea, **acrescente** o chocolate. [**injunção** +
+> descrição]
+> Minha avó **fazia** este bolo todo domingo, e a casa inteira **ficava** com cheiro de
+> chocolate. [**narração**]"
+
+Três tipos, um texto. E, no entanto, ninguém hesita em dizer que aquilo é uma receita —
+porque **receita é gênero**, e o gênero comporta vários tipos.
+
+::: {.callout-important}
+## Como classificar corretamente
+Nunca pergunte "**qual** o tipo deste texto?". Pergunte:
+
+1. **Qual o tipo predominante?** — o que organiza o texto e serve a seu propósito central.
+2. **Que sequências secundárias** aparecem, e **a serviço de quê**?
+
+Numa **notícia** (gênero), o tipo predominante é a **narração**, com sequências
+**descritivas** (caracterizar os envolvidos) e às vezes **expositivas** (dar contexto).
+
+Num **artigo de opinião** (gênero), predomina a **argumentação**, com sequências
+**narrativas** (o exemplo, o caso ilustrativo) e **expositivas** (os dados).
+
+A formulação correta é sempre relativa: "predominantemente argumentativo, com sequências
+narrativas a serviço da exemplificação".
+:::
+
+### Por que a narração aparece dentro da argumentação
+
+Vale destacar esse caso, porque é o mais útil para a redação.
+
+Quando um artigo de opinião conta um caso ("Em 2019, uma família de Minas perdeu a casa
+numa enchente previsível..."), ele **não deixa de ser argumentativo**. A narração está
+**a serviço** da tese: é um **argumento por exemplificação** (@sec-cap-76). O tipo
+predominante continua sendo a argumentação, porque o **propósito** do texto é convencer, e
+a narrativa é instrumento.
+
+Isso desfaz um medo comum do candidato: "posso contar uma história na redação do ENEM?".
+Pode — desde que a história **argumente**. O erro não é narrar; é narrar **em vez de**
+argumentar.
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Uma observação sobre o estatuto desta classificação.
+
+Os cinco tipos não são **fatos da natureza**: são uma **grade analítica** útil, construída
+pela tradição escolar e pela linguística de texto. Autores diferentes contam tipos
+diferentes — alguns fundem exposição e argumentação em "dissertação"; outros acrescentam o
+"tipo dialogal" (a conversa); Marcuschi [@marcuschi2008] trabalha com **sequências
+tipológicas**, e não com tipos de texto, justamente porque **texto inteiro de um tipo só
+quase não existe**.
+
+Isso não invalida a grade — ela descreve traços reais e é boa ferramenta de análise e de
+produção. Mas convém saber o que se está usando: uma **classificação instrumental**, não
+uma taxonomia natural. Em prova, use a divisão que a banca adota (em geral, a escolar de
+cinco tipos); em análise séria, fale em **sequências predominantes**, que é mais preciso e
+mais honesto.
+:::
+
+## 📋 Quadro-resumo
+
+| Tipo | Propósito | Traços linguísticos | Tempo | Gêneros típicos |
+|---|---|---|---|---|
+| **Narração** | contar fatos | pret. perfeito, marcadores temporais, personagens | **avança** | conto, notícia, relato, piada |
+| **Descrição** | caracterizar | verbos de estado, adjetivos, marcadores espaciais | **parado** | anúncio, laudo, retrato |
+| **Exposição** | informar | presente atemporal, definições, classificações | atemporal | verbete, manual, aula |
+| **Argumentação** | convencer | conectivos lógicos, operadores, tese | atemporal | editorial, ensaio, redação |
+| **Injunção** | instruir a fazer | imperativo/infinitivo, 2ª pessoa, sequência | futuro/atemporal | receita, bula, lei, tutorial |
+
+**Tipo × gênero:**
+
+| | **Tipo** | **Gênero** |
+|---|---|---|
+| Natureza | linguística | sócio-histórica |
+| Conjunto | **fechado** (5) | **aberto** (infinito) |
+| Estabilidade | universal, estável | histórico, mutável |
+| Definido por | traços internos | função e situação |
+
+Em uma linha: **tipos são cinco e se reconhecem na estrutura; gêneros são infinitos e se
+reconhecem na função** — e todo texto real é **híbrido**, com um tipo predominante e
+sequências secundárias a seu serviço.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir tipo com gênero.** "Gênero dissertativo-argumentativo" ✗ — é **tipo**. O
+  gênero é "redação de vestibular".
+- **Perguntar "qual o tipo deste texto?".** Pergunte pelo **predominante** e pelas
+  **sequências**. Texto puro de um tipo só quase não existe.
+- **Achar que narrar na redação é erro.** Não é — desde que a narração **argumente** (seja
+  exemplo a serviço da tese). O erro é narrar **em vez de** argumentar.
+- **Classificar pela intuição.** O critério é **linguístico**: tempos verbais, classes,
+  marcadores. "Parece uma história" não é análise.
+- **Confundir descrição com narração.** Aplique o **teste da ordem**: se pode trocar as
+  frases de lugar, é descrição; se não pode, é narração.
+- **Confundir exposição com argumentação.** O critério é o **propósito**: informar ×
+  convencer. Ambas usam presente atemporal.
+- **Achar que a injunção só existe em receita.** Lei, edital, bula e placa de trânsito são
+  injuntivos.
+- **Tomar os cinco tipos como fato natural.** É uma **grade analítica** — útil, mas
+  construída. Autores divergem.
+
+## ✍️ Exercícios
+
+**1.** Classifique o tipo predominante e justifique pelos traços linguísticos: "Chegou em
+casa às sete. Tirou o casaco, serviu-se de água e sentou-se. Só então percebeu que a porta
+dos fundos estava aberta."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Narração.** Justificativa pelos **traços linguísticos** (não pela intuição):
+
+1. **Verbos de ação no pretérito perfeito**: *chegou*, *tirou*, *serviu-se*, *sentou-se*,
+   *percebeu* — o tempo por excelência da narrativa.
+2. **Progressão temporal**: a ordem dos verbos **é** a ordem dos fatos. Há um antes e um
+   depois.
+3. **Marcador temporal**: "só **então**" articula a sequência.
+4. **Transformação de estado**: algo muda entre o início (rotina tranquila) e o fim
+   (descoberta inquietante).
+5. **Personagem** que age (sujeito elíptico).
+
+**Sequência secundária**: "a porta dos fundos **estava** aberta" é **descritiva** (verbo de
+estado, imperfeito) — mas está **a serviço** da narrativa, fornecendo o dado que produz a
+virada.
+
+**Teste da ordem**: não se pode trocar as frases de lugar ("sentou-se, chegou em casa,
+tirou o casaco") sem destruir os fatos. Logo, narração, não descrição.
+:::
+
+**2.** Explique a diferença entre tipo e gênero textual, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Tipo textual** — modo de **organizar o discurso**, definido por **traços linguísticos**
+internos. Categoria da **linguística**.
+
+- Conjunto **fechado**: cinco (narração, descrição, exposição, argumentação, injunção).
+- **Universal e estável**: valem para qualquer língua e época.
+- Reconhece-se **na estrutura**: pretérito perfeito + sequência temporal = narração,
+  esteja isso num romance de 1880 ou num boletim de ocorrência de ontem.
+
+**Gênero textual** — prática **social** de linguagem, definida pela **função** numa
+situação. Categoria **sócio-histórica**.
+
+- Conjunto **aberto e infinito**: receita, bula, tuíte, sermão, edital, meme, currículo...
+- **Histórico e mutável**: nascem e morrem (o telegrama morreu; o *stories* nasceu).
+- Reconhece-se **pela função e pela situação**.
+
+**A relação**: um **gênero mobiliza tipos**. A receita (gênero) usa injunção ("bata as
+claras"), descrição ("massa homogênea") e às vezes narração ("minha avó fazia..."). O
+gênero é a **prática**; o tipo é o **material**.
+
+**O erro comum**: "a redação do ENEM é um gênero dissertativo-argumentativo" mistura tudo.
+*Dissertativo-argumentativo* é o **tipo**; o **gênero** é "redação de vestibular", com
+destinatário (o corretor), extensão (30 linhas), convenções (proposta de intervenção) e
+critérios públicos (@sec-cap-72, @sec-cap-77).
+:::
+
+**3.** Aplique o teste da ordem para distinguir: (a) "A sala era ampla. Ao fundo, uma
+janela. Sobre a mesa, três livros."; (b) "Chegou. Sentou-se. Pediu água."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Descrição.** As frases **podem ser trocadas de lugar** sem alteração de sentido:
+"Sobre a mesa, três livros. A sala era ampla. Ao fundo, uma janela." Continua descrevendo a
+mesma sala.
+
+**Por quê**: os traços descritos **coexistem** — a amplitude, a janela e os livros são
+simultâneos. O tempo está **parado**. A ordem de menção é escolha do autor, não fato do
+mundo. Traços confirmatórios: verbos de estado (*era*, elipses de *havia*), marcadores
+**espaciais** (*ao fundo*, *sobre a mesa*).
+
+**(b) Narração.** As frases **não podem** ser trocadas: "Pediu água. Chegou. Sentou-se."
+descreve outros fatos — e absurdos (pedir água antes de chegar).
+
+**Por quê**: as ações se **sucedem** no tempo. A ordem dos verbos **é** a ordem dos
+acontecimentos. O tempo **avança**. Traço confirmatório: pretérito perfeito de verbos de
+ação.
+
+**O teste em uma frase**: se a ordem é **arbitrária**, é descrição (simultaneidade); se é
+**necessária**, é narração (sucessão).
+:::
+
+**4.** (Estilo ENEM) Uma receita de bolo é um texto:
+
+a) exclusivamente injuntivo;
+b) do gênero injuntivo;
+c) do gênero receita, predominantemente injuntivo, com sequências descritivas;
+d) exclusivamente descritivo;
+e) narrativo, pois apresenta ações em sequência.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** A formulação é a única que respeita as duas distinções do capítulo.
+
+- **Receita é gênero** (prática social: instruir alguém a preparar um alimento, com
+  convenções próprias — lista de ingredientes, modo de preparo, rendimento).
+- O **tipo predominante** é a **injunção** (imperativos: "bata", "acrescente",
+  "preaqueça"), pois o propósito é fazer o leitor **agir**.
+- Há **sequências descritivas** ("massa homogênea", "claras em neve", "bolo macio"), que
+  caracterizam estados a atingir.
+- Pode haver ainda sequências **narrativas** ("minha avó fazia este bolo todo domingo").
+
+As demais: **(a)** e **(d)** ignoram o hibridismo — nenhum texto real é de um tipo só;
+**(b)** confunde as categorias: injuntivo é **tipo**, não gênero; **(e)** confunde
+**sequência de instruções** (o leitor deve executar, no futuro) com **sucessão de fatos**
+(alguém executou, no passado). O teste: os verbos estão no **imperativo**, não no pretérito
+perfeito — ninguém está contando o que aconteceu.
+:::
+
+**5.** Explique por que uma narração pode aparecer dentro de um texto argumentativo sem
+descaracterizá-lo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o tipo predominante é determinado pelo **propósito global** do texto, não pela
+presença pontual de sequências de outro tipo.
+
+Quando um artigo de opinião conta um caso — "Em 2019, uma família de Minas perdeu a casa
+numa enchente previsível; o laudo apontava risco havia três anos" —, a narração está **a
+serviço da tese**: funciona como **argumento por exemplificação** (@sec-cap-76), tornando
+concreto e memorável um ponto abstrato ("o poder público negligencia laudos técnicos").
+
+O texto continua **predominantemente argumentativo** porque:
+
+1. seu **propósito** é convencer, não contar;
+2. a narrativa é **instrumento**, não fim — ela conclui numa asserção;
+3. a estrutura global é de **tese + argumentos**, e a história ocupa a posição de um
+   argumento.
+
+**A consequência prática** (e é a que importa ao candidato): "posso contar uma história na
+redação do ENEM?" — **pode**, e frequentemente deve, pois o exemplo concreto fortalece a
+argumentação. O erro não é **narrar**; é narrar **em vez de** argumentar, isto é, deixar a
+história solta, sem que dela se extraia nada.
+
+Regra prática: toda narrativa numa redação argumentativa precisa ser seguida da pergunta
+"**e daí?**" — e o texto precisa respondê-la.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Todo texto pertence a um único tipo
+textual."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Textos reais são tipologicamente **híbridos** — quase nenhum é de um tipo só.
+
+**Exemplo**: uma receita mobiliza **injunção** ("bata as claras"), **descrição** ("massa
+homogênea") e, não raro, **narração** ("minha avó fazia este bolo todo domingo"). Um artigo
+de opinião mobiliza **argumentação** (predominante), **narração** (o caso ilustrativo) e
+**exposição** (os dados). Uma notícia mobiliza **narração** (predominante) e **descrição**
+(caracterizar os envolvidos).
+
+**A formulação correta**: fala-se em **tipo predominante** + **sequências secundárias**, e
+sempre relativamente ao propósito. "Predominantemente argumentativo, com sequências
+narrativas a serviço da exemplificação."
+
+**Nota teórica**: é exatamente por causa desse hibridismo que Marcuschi [@marcuschi2008]
+prefere falar em **sequências tipológicas** em vez de tipos **de texto** — a unidade
+tipológica não é o texto inteiro, mas o trecho. A grade dos cinco tipos é uma ferramenta
+analítica útil, não uma taxonomia natural em que cada texto ocuparia uma gaveta.
+:::
+
+**7.** Identifique os tipos presentes e o predominante: "Este bolo é macio. Preaqueça o
+forno a 180°C. Bata as claras em neve. Minha avó fazia este bolo todo domingo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Três tipos** em quatro períodos:
+
+1. **"Este bolo é macio"** — **descrição**: verbo de estado (*é*), adjetivo (*macio*),
+   caracterização, tempo parado.
+2. **"Preaqueça o forno" / "Bata as claras"** — **injunção**: imperativos, segunda pessoa
+   implícita, sequência de ações a executar.
+3. **"Minha avó fazia este bolo todo domingo"** — **narração**: pretérito imperfeito de
+   verbo de ação com valor **habitual/iterativo**, personagem, marcador temporal (*todo
+   domingo*).
+
+**Tipo predominante**: **injunção**. O propósito do texto é **fazer o leitor agir** —
+preparar o bolo. A descrição serve para caracterizar o resultado esperado (motivando e
+orientando), e a narração cumpre função **afetiva** (criar vínculo, sugerir tradição e
+confiabilidade da receita).
+
+**Gênero**: **receita** — e o gênero é o que permite reconhecer o texto imediatamente,
+apesar da mistura de tipos. Ninguém hesita ao classificá-lo, porque o gênero é uma prática
+social reconhecível, não uma soma de traços.
+
+Note que a sequência narrativa final é típica de um **subgênero** contemporâneo: a receita
+de blog, que mistura instrução e memória pessoal — evidência de que gêneros são históricos
+e mutáveis (@sec-cap-72).
+:::
+
+**8.** Distinga exposição de argumentação, com exemplos próprios.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Ambas discutem ideias no plano abstrato e usam **presente atemporal** e **terceira pessoa**
+— por isso se confundem. A diferença é o **propósito**.
+
+**Exposição** — **informa**, sem defender tese:
+
+> "Os mamíferos dividem-se em três grupos: monotremados, marsupiais e placentários. Os
+> primeiros põem ovos; os segundos completam o desenvolvimento em bolsa; os terceiros
+> desenvolvem placenta."
+
+Traços: definições, classificações, exemplos. **Ausência de operadores de adesão**. Não há
+nada a discordar — só a aprender.
+
+**Argumentação** — **convence**, defendendo tese:
+
+> "A divisão tradicional dos mamíferos em três grupos, **embora** didaticamente cômoda,
+> **obscurece** a diversidade dos marsupiais. **É preciso reconhecer que** essa
+> simplificação **prejudica** a compreensão da evolução dos mamíferos australianos."
+
+Traços: **operadores argumentativos** (*embora*, *é preciso reconhecer que*), **conectivos
+lógicos** densos, verbos de **avaliação** (*obscurece*, *prejudica*), e sobretudo uma
+**tese contestável** — alguém pode discordar.
+
+**O teste decisivo**: pergunte "**é possível discordar disso?**". Se não (é informação), é
+exposição. Se sim (é posição), é argumentação.
+
+**Nota**: muitos manuais fundem as duas sob "dissertação", distinguindo dissertação
+**expositiva** e **argumentativa**. Em prova, use a divisão da banca.
+:::
+
+**9.** (Estilo FUVEST) Discuta o estatuto teórico da classificação em cinco tipos: ela
+descreve fatos da língua ou é uma construção analítica?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A resposta honesta é: as duas coisas, em medidas diferentes** — e a pergunta é boa porque
+expõe o estatuto de toda classificação linguística.
+
+**O que há de real (fatos da língua):**
+
+Os **traços** que a grade mobiliza são objetivos e verificáveis. É um fato que o pretérito
+perfeito de verbos de ação, somado a marcadores temporais, produz progressão narrativa. É
+um fato que verbos de estado e adjetivos produzem caracterização estática. Esses feixes de
+traços **coocorrem** sistematicamente e podem ser medidos em corpus. A grade não foi
+inventada do nada.
+
+**O que há de construção:**
+
+1. **O número cinco é arbitrário.** Autores divergem: alguns fundem exposição e
+   argumentação em "dissertação" (chegando a quatro); outros acrescentam o **tipo dialogal**
+   (a conversa, com turnos), chegando a seis. A tradição escolar brasileira estabilizou
+   cinco por conveniência didática, não por descoberta.
+2. **A unidade está errada.** O rótulo "tipo **de texto**" sugere que textos inteiros
+   pertencem a tipos — e praticamente nenhum pertence. Por isso Marcuschi [@marcuschi2008]
+   propõe falar em **sequências tipológicas**: a unidade real é o **trecho**, não o texto.
+   A grade nomeia bem os trechos e mal os textos.
+3. **As fronteiras são graduais.** Exposição e argumentação partilham quase todos os
+   traços formais; separam-se pelo **propósito**, que não é um traço linguístico, mas
+   pragmático. Isto é: um dos cinco tipos não se distingue de outro por critério interno —
+   o que enfraquece a homogeneidade da grade.
+
+**Conclusão**: é uma **classificação instrumental** ancorada em fatos reais — útil para
+analisar e, sobretudo, para **produzir** texto (saber que a argumentação pede conectivos
+lógicos densos é conselho acionável). Mas não é uma taxonomia natural, como a tabela
+periódica, em que cada objeto ocupa uma casa e só uma.
+
+**Corolário prático**: em prova, use a grade da banca (em geral, a escolar de cinco). Em
+análise séria, fale em **sequências predominantes** — é mais preciso e mais honesto. Saber
+a diferença entre as duas atitudes é, ela própria, parte do que se espera de quem estudou o
+assunto.
+:::
+
+**10.** Analise tipologicamente uma notícia de jornal e um editorial sobre o mesmo fato.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível (o exercício admite variação; o que importa é o método).
+
+**Fato**: enchente destrói casas numa cidade do interior.
+
+**NOTÍCIA** — gênero: notícia; tipo predominante: **narração**.
+
+> "Uma enchente atingiu o município de X na madrugada de terça-feira. As águas subiram
+> cerca de dois metros e destruíram 40 casas. A Defesa Civil registrou 200 desabrigados. O
+> prefeito decretou estado de emergência."
+
+- **Narração** (predominante): pretérito perfeito (*atingiu*, *subiram*, *destruíram*,
+  *decretou*), progressão temporal, marcador (*na madrugada de terça*).
+- **Sequências descritivas**: "cerca de dois metros", "40 casas", "200 desabrigados" —
+  caracterizam a cena.
+- **Propósito**: **informar** o que aconteceu. Sem tese.
+
+**EDITORIAL** — gênero: editorial; tipo predominante: **argumentação**.
+
+> "A enchente de X **não foi** um desastre natural: **foi** um desastre político. **Uma vez
+> que** o laudo da Defesa Civil apontava o risco desde 2021 e nada foi feito, **conclui-se
+> que** houve omissão. Na madrugada de terça, 40 famílias pagaram por essa omissão.
+> **É urgente que** se apurem responsabilidades."
+
+- **Argumentação** (predominante): presente atemporal com valor de tese (*não foi... foi*),
+  conectivos lógicos (*uma vez que*, *conclui-se que*), operadores (*é urgente que*),
+  substantivos abstratos (*omissão*, *responsabilidades*).
+- **Sequência narrativa** ("na madrugada de terça, 40 famílias pagaram") — **a serviço da
+  tese**: é o exemplo que concretiza a acusação (@sec-cap-76).
+- **Propósito**: **convencer** de que houve omissão. Há tese contestável.
+
+**Comparação — o que a análise revela:**
+
+| | Notícia | Editorial |
+|---|---|---|
+| **Gênero** | notícia | editorial |
+| **Tipo predominante** | narração | argumentação |
+| **Propósito** | informar | convencer |
+| **Tese** | ausente | "foi desastre político" |
+| **Narração** | é o texto | é um argumento |
+
+**A lição**: os **mesmos fatos**, os **mesmos dados**, e dois textos tipologicamente
+distintos — porque os **propósitos** e os **gêneros** diferem. Note ainda que a notícia
+"neutra" também faz escolhas (o que contar, em que ordem, com que verbos), e o editorial as
+torna explícitas. É a distinção entre denotação e conotação (@sec-cap-61) reaparecendo no
+nível do texto inteiro.
+:::
+
+## 📚 Referências
+
+A distinção entre tipo e gênero textual, a crítica à noção de "tipo de texto" e a proposta
+de trabalhar com **sequências tipológicas** seguem Marcuschi [@marcuschi2008], referência
+central deste capítulo e do @sec-cap-72; a caracterização dos tipos por traços linguísticos
+e sua articulação com a textualidade apoia-se em Koch [@koch2015texto] e Koch
+[@koch2018coesao]. Para os tempos verbais que definem cada tipo, veja os @sec-cap-33 e
+@sec-cap-34; para os conectivos que sustentam a argumentação, o @sec-cap-69; para os tipos
+de argumento invocados a propósito da narração exemplificativa, o @sec-cap-76. O próximo
+capítulo desenvolve a segunda categoria — os **gêneros textuais** —, e o @sec-cap-77 aplica
+tudo isso ao gênero "redação de vestibular".
+
+::: {#refs}
 :::
