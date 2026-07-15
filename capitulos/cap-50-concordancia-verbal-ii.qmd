@@ -4,22 +4,294 @@ title: "Concordância verbal II: casos especiais"
 
 # Concordância verbal II: casos especiais {#sec-cap-50}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 8 — Sintaxe III: Concordância, Regência e Colocação.
+> "Há verbos que não têm sujeito, e há um pequeno *se* que muda tudo: é aqui que a
+> concordância se torna arte."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Vistos a regra geral e os casos frequentes (@sec-cap-49), enfrentamos agora os **casos
+especiais** de concordância verbal — aqueles que mais derrubam candidatos, porque fogem à
+intuição. Trata-se sobretudo dos **verbos impessoais** (que não têm sujeito e ficam no
+singular), da traiçoeira **partícula *se*** (que ora apassiva, ora indetermina), e do
+**verbo *ser***, que muitas vezes concorda com o predicativo, não com o sujeito.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Estes são os pontos em que a concordância exige análise, não apenas ouvido: dizer
+"**Houve** muitos casos" (e não "houveram"), "Aluga**m**-se casas" (e não "aluga-se"),
+"São vinte reais" — tudo isso contraria a fala espontânea e precisa ser compreendido. É o
+capítulo que fecha a concordância verbal com os casos de maior peso em concursos.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Empregar** os verbos impessoais no singular (*haver*, *fazer*, fenômenos);
+- **Distinguir** a partícula apassivadora do índice de indeterminação do sujeito;
+- **Concordar** corretamente as construções com *se*;
+- **Resolver** a concordância do verbo *ser* (com o predicativo, tempo, quantidade);
+- **Aplicar** a concordância a sujeitos oracionais e ao infinitivo;
+- **Evitar** os erros clássicos ("houveram", "vende-se casas").
+
+## Verbos impessoais: sempre no singular
+
+Como vimos no @sec-cap-37, os verbos **impessoais** não têm sujeito e ficam
+**invariavelmente na 3ª pessoa do singular**. Os principais casos, revisitados na
+concordância:
+
+- **Haver = existir/acontecer**: "**Havia** muitas pessoas" (não "haviam"); "**Houve**
+  problemas" (não "houveram"). *Haver* impessoal **nunca** vai ao plural.
+- **Fazer/haver/ir = tempo decorrido**: "**Faz** dez anos que não o vejo" (não "fazem");
+  "**Há** dois meses que espero".
+- **Fazer = fenômeno/clima**: "**Faz** dias quentes" (não "fazem").
+- **Fenômenos da natureza**: "**Choveu** granizos"; "**Amanheceu**".
+
+::: {.callout-important}
+## O erro "houveram" e a locução
+O erro mais famoso: pluralizar *haver* existencial. E atenção à **locução verbal**: como
+a impessoalidade se transmite ao auxiliar, também ele fica no singular:
+
+- ✔ "**Deve haver** falhas." / ✘ "Devem haver falhas."
+- ✔ "**Vai fazer** dez anos." / ✘ "Vão fazer dez anos."
+- ✔ "Pode **haver** exceções." / ✘ "Podem haver exceções."
+
+Já o verbo *existir* (que **não** é impessoal) **concorda** normalmente: "**Existem**
+falhas" (aqui, *falhas* é sujeito). Cuidado: *haver* = singular; *existir* = concorda.
+:::
+
+## A partícula *se*: apassivadora × indeterminadora
+
+O pequeno *se* é uma das maiores fontes de erro de concordância. Ele tem dois usos
+sintáticos distintos, que exigem concordâncias diferentes, conforme a @fig-particula-se.
+
+::: {#fig-particula-se}
+
+```{.tikz}
+%%| filename: particula-se
+%%| alt: Diagrama comparando os dois usos da partícula se na concordância. Partícula apassivadora, com verbo transitivo direto: o verbo concorda com o sujeito paciente, exemplo vendem-se casas (casas é sujeito, plural). Índice de indeterminação do sujeito, com verbo intransitivo ou transitivo indireto: o verbo fica sempre no singular, exemplo precisa-se de vendedores.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=54mm, minimum height=30mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{Partícula APASSIVADORA}\\{\scriptsize verbo transitivo \emph{direto} + se}\\[4pt] $\to$ verbo concorda com o \textbf{sujeito paciente}\\[3pt] ``\textbf{Vendem}-se casas.''\\ {\scriptsize (casas = sujeito, plural)}\\ ``\textbf{Aluga}-se \textbf{sala}.'' (singular)};
+  \node[cx, draw=manualred, fill=manualred!8, right=6mm of a] (b) {\textbf{ÍNDICE de INDETERMINAÇÃO}\\{\scriptsize verbo \emph{intransitivo}/\emph{trans. indireto} + se}\\[4pt] $\to$ verbo \textbf{sempre no singular}\\[3pt] ``\textbf{Precisa}-se de vendedores.''\\ ``\textbf{Vive}-se bem aqui.''};
+\end{tikzpicture}
+```
+
+Os dois usos do *se*: apassivador (com verbo transitivo direto, o verbo concorda com o
+sujeito paciente) × índice de indeterminação (com VI/VTI, o verbo fica no singular).
+:::
+
+### Partícula apassivadora (VTD + se)
+
+Com **verbo transitivo direto**, o *se* é **apassivador**: a construção equivale a uma
+passiva, e o verbo **concorda com o sujeito** (o termo que sofre a ação):
+
+- "**Vendem-se** casas" (= casas são vendidas; *casas* = sujeito, plural → verbo plural).
+- "**Aluga-se** sala" (= sala é alugada; singular).
+- "**Consertam-se** relógios" (plural).
+
+O erro clássico: "vende-**se** casas" (verbo no singular com sujeito plural). Como "casas"
+é o sujeito, o correto é "vende**m**-se casas".
+
+### Índice de indeterminação do sujeito (VI/VTI + se)
+
+Com **verbo intransitivo, transitivo indireto ou de ligação**, o *se* **indetermina** o
+sujeito, e o verbo fica **sempre no singular** (3ª pessoa):
+
+- "**Precisa-se** de vendedores" (VTI: precisar *de*; singular, mesmo com "vendedores"
+  plural — pois "de vendedores" é objeto indireto, não sujeito).
+- "**Vive-se** bem aqui" (VI).
+- "**É-se** feliz na juventude" (VL).
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O teste do *se*: há sujeito paciente?
+- Se o verbo é **VTD** e há um termo que poderia ser sujeito de uma passiva → *se*
+  apassivador → **concorda**: "Alugam-se **casas**" (casas são alugadas).
+- Se o verbo é **VTI/VI/VL** e o termo vem com preposição (ou não há termo) → *se*
+  indeterminador → **singular**: "Precisa-se **de** casas" (não se pode dizer "casas são
+  precisadas").
+
+A preposição após o verbo é a grande pista: com preposição → indeterminação (singular);
+sem preposição, com objeto direto → passiva (concorda).
+:::
+
+## A concordância do verbo *ser*
+
+O verbo *ser* é peculiar: frequentemente concorda com o **predicativo**, não com o
+sujeito. Casos principais:
+
+- **Tempo, hora, distância**: concorda com a expressão numérica — "**São** duas horas";
+  "**É** uma hora"; "**São** dez quilômetros até lá".
+- **Sujeito = pronome (isto/tudo/o) + predicativo plural**: concorda com o **predicativo**
+  — "Tudo **são** flores"; "Isso **são** ilusões"; "O resto **são** detalhes".
+- **Datas**: "Hoje **são** 15 de março" / "Hoje **é** dia 15" (ambas ocorrem).
+- **Quantia/preço com "é/são"**: "**São** vinte reais"; "**É** um real".
+- **Pessoa + ser + pessoa**: prevalece a pessoa (o pronome pessoal) — "O problema **sou**
+  eu"; "Os culpados **somos** nós".
+
+## Concordância com sujeito oracional e infinitivo
+
+- **Sujeito oracional** (uma oração como sujeito): verbo no **singular** — "**Convém**
+  que todos participem"; "**É** importante estudar" (o sujeito é a oração inteira).
+- **Verbos + infinitivo**: em "É proibido entrada" × "É proibida a entrada" — sem artigo,
+  fica invariável ("é proibido entrada"); com artigo/determinante, concorda ("é
+  proibida a entrada").
+
+## 📋 Quadro-resumo
+
+| Caso | Concordância | Exemplo |
+|---|---|---|
+| **Haver (existir)** | singular sempre | "**Havia** erros"; "**Deve haver**" |
+| **Fazer (tempo/clima)** | singular sempre | "**Faz** anos"; "**Faz** dias quentes" |
+| **VTD + se (apassivador)** | concorda com o sujeito | "Vende**m**-se casas" |
+| **VI/VTI + se (indeterm.)** | singular sempre | "Precisa-se de..." |
+| **Ser (tempo/quantia)** | com a expressão numérica | "**São** duas horas" |
+| **Ser + predicativo plural** | com o predicativo | "Tudo **são** flores" |
+| **Sujeito oracional** | singular | "**Convém** que venham" |
+
+Em uma linha: **verbos impessoais** (*haver* = existir, *fazer* de tempo) ficam sempre no
+**singular**; o *se* **apassivador** (VTD) faz o verbo **concordar** ("vendem-se casas"),
+o *se* **indeterminador** (VTI/VI) mantém o **singular** ("precisa-se de"); e o verbo
+*ser* muitas vezes concorda com o **predicativo**.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **"Houveram", "haviam" (= existir).** Erro grave: *haver* existencial é **sempre
+  singular** — "**Houve** casos", "**Havia** pessoas", "**Deve haver** falhas".
+- **"Vende-se casas".** Com VTD + *se* (apassivador), o verbo concorda: "vende**m**-se
+  casas".
+- **"Precisam-se de funcionários".** Com VTI + *se* (indeterminador), fica no singular:
+  "**precisa-se** de funcionários".
+- **"É uma hora" × "são duas horas".** *Ser* de tempo concorda com o número: singular só
+  no "uma hora".
+- **Pluralizar o auxiliar da locução impessoal.** "**Vai fazer** dez anos" (não "vão
+  fazer"), "**pode haver**" (não "podem haver").
+
+## ✍️ Exercícios
+
+**1.** Corrija: "Houveram muitos problemas na reunião."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"**Houve** muitos problemas na reunião." O verbo *haver*, no sentido de "existir/
+acontecer", é **impessoal** e fica **sempre no singular**, independentemente do
+complemento ("muitos problemas" é objeto, não sujeito). "Houveram" é erro clássico.
+(Poderia usar *existir*, que concorda: "**Existiram** muitos problemas".)
+:::
+
+**2.** (Estilo ENEM) Assinale a concordância **correta**:
+
+a) Aluga-se casas na praia;
+b) Alugam-se casas na praia;
+c) Precisam-se de pedreiros;
+d) Houveram atrasos;
+e) Fazem cinco anos que parti.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Aluga**m**-se casas": VTD + *se* apassivador → o verbo concorda com
+o sujeito *casas* (plural). As demais erram: "aluga-se casas" (a) deveria ser plural;
+"precisa-se de pedreiros" (c — VTI, singular); "**houve** atrasos" (d); "**faz** cinco
+anos" (e — *fazer* de tempo, singular).
+:::
+
+**3.** Complete com o verbo *haver* ou *existir* na forma correta: (a) "___ (haver) dez
+alunos na sala"; (b) "___ (existir) dez alunos na sala".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "**Havia**/Há dez alunos na sala" — *haver* impessoal, **singular** (dez alunos é
+objeto). (b) "**Existiam**/Existem dez alunos na sala" — *existir* **concorda** com o
+sujeito *dez alunos* (plural). A diferença crucial: *haver* fica no singular; *existir*
+concorda.
+:::
+
+**4.** Classifique o *se* e faça a concordância: (a) "___ (consertar-se) sapatos"; (b)
+"___ (precisar-se) de ajuda".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "**Consertam-se** sapatos" — *se* **apassivador** (VTD *consertar*); concorda com o
+sujeito *sapatos* (plural). (b) "**Precisa-se** de ajuda" — *se* **índice de
+indeterminação do sujeito** (VTI *precisar de*); verbo **sempre no singular**.
+:::
+
+**5.** Faça a concordância do verbo *ser*: (a) "Agora ___ três horas"; (b) "Tudo ___
+alegria na festa".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Agora **são** três horas" — *ser* de tempo concorda com a expressão numérica *três
+horas* (plural). (b) "Tudo **é** alegria" — aqui o predicativo *alegria* é singular, então
+o verbo fica no singular. (Se o predicativo fosse plural: "Tudo **são** flores" — concorda
+com o predicativo plural.)
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa **incorreta**:
+
+a) Deve haver soluções;
+b) Vão fazer dez anos que ele partiu;
+c) Precisa-se de professores;
+d) Vendem-se apartamentos;
+e) São vinte reais.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O correto é "**Vai fazer** dez anos" — *fazer* de tempo decorrido é
+impessoal, e o auxiliar da locução (*ir*) também fica no **singular**. As demais estão
+corretas: "deve haver" (impessoal singular), "precisa-se de" (indeterminação singular),
+"vendem-se apartamentos" (apassivador, concorda) e "são vinte reais" (ser de quantia,
+plural).
+:::
+
+**7.** Explique por que "Vive-se bem no campo" tem o verbo no singular.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque *viver* é **verbo intransitivo** e o *se* funciona como **índice de indeterminação
+do sujeito**: não se sabe/diz quem vive, e o verbo fica **sempre na 3ª pessoa do
+singular** ("vive-se"). Não há sujeito paciente (não se pode "apassivar" *viver*), logo o
+*se* não é apassivador. Com VI/VTI + *se*, o verbo permanece no singular.
+:::
+
+**8.** Corrija, se necessário: "Fazem dois anos que não chove por aqui."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"**Faz** dois anos que não chove por aqui." O verbo *fazer*, indicando **tempo
+decorrido**, é **impessoal** e fica no **singular** ("faz dois anos"), não concordando com
+"dois anos". (E "chove" já está correto, impessoal.) "Fazem" é erro por falsa
+concordância.
+:::
+
+**9.** Faça a concordância do verbo *ser* com pessoa: "Os responsáveis pelo erro ___ (ser)
+nós."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Os responsáveis pelo erro **somos** nós." Quando o verbo *ser* liga um sujeito a um
+**pronome pessoal**, prevalece a concordância com a **pessoa** (o pronome): *nós* → 1ª
+pessoa do plural → **somos**. O mesmo em "O culpado **sou** eu", "Os vencedores **sois**
+vós".
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Trata-se de questões
+delicadas', o verbo deveria estar no plural: 'Tratam-se de questões delicadas'."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** "**Trata-se** de questões delicadas" está **correto** no singular. O verbo
+*tratar* aqui é **transitivo indireto** (tratar **de**), e o *se* é **índice de
+indeterminação do sujeito**, o que exige o verbo **sempre no singular**. "De questões
+delicadas" é objeto indireto (com preposição), não sujeito — por isso não puxa o verbo
+para o plural. "Tratam-se de" é erro comum.
+:::
+
+## 📚 Referências
+
+Os casos especiais de concordância — verbos impessoais, partícula *se*, verbo *ser* —
+seguem Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017], referências para a
+norma culta cobrada em concursos. A tensão entre a norma e o uso real (por exemplo,
+"vende-se casas" na fala) é discutida por Bagno [@bagno2011] e Faraco [@faraco2008]. A
+concordância nominal, contraparte dessa, vem no @sec-cap-51.
+
+::: {#refs}
 :::
