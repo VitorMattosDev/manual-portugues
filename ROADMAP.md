@@ -93,12 +93,12 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 83 | Ironia, humor e implícitos | `capitulos/cap-83-ironia-humor-implicitos.qmd` | 13 | ✅ 2026-07-15 |
 | 84 | Leitura de textos multimodais: charge, tirinha, infográfico | `capitulos/cap-84-textos-multimodais.qmd` | 13 | ✅ 2026-07-15 |
 | 85 | Questões de interpretação: método de resolução | `capitulos/cap-85-questoes-interpretacao-metodo.qmd` | 13 | ✅ 2026-07-15 |
-| 86 | Sociolinguística: fundamentos | `capitulos/cap-86-sociolinguistica-fundamentos.qmd` | 14 | ⬜ |
-| 87 | Variação diatópica: os falares do Brasil | `capitulos/cap-87-variacao-diatopica.qmd` | 14 | ⬜ |
-| 88 | Variação diastrática e diafásica: registro e estilo | `capitulos/cap-88-variacao-diastratica-diafasica.qmd` | 14 | ⬜ |
-| 89 | Português brasileiro e português europeu | `capitulos/cap-89-pb-e-pe.qmd` | 14 | ⬜ |
-| 90 | Oralidade e escrita | `capitulos/cap-90-oralidade-e-escrita.qmd` | 14 | ⬜ |
-| 91 | Preconceito linguístico e política linguística | `capitulos/cap-91-preconceito-linguistico.qmd` | 14 | ⬜ |
+| 86 | Sociolinguística: fundamentos | `capitulos/cap-86-sociolinguistica-fundamentos.qmd` | 14 | ✅ 2026-07-15 |
+| 87 | Variação diatópica: os falares do Brasil | `capitulos/cap-87-variacao-diatopica.qmd` | 14 | ✅ 2026-07-15 |
+| 88 | Variação diastrática e diafásica: registro e estilo | `capitulos/cap-88-variacao-diastratica-diafasica.qmd` | 14 | ✅ 2026-07-15 |
+| 89 | Português brasileiro e português europeu | `capitulos/cap-89-pb-e-pe.qmd` | 14 | ✅ 2026-07-15 |
+| 90 | Oralidade e escrita | `capitulos/cap-90-oralidade-e-escrita.qmd` | 14 | ✅ 2026-07-15 |
+| 91 | Preconceito linguístico e política linguística | `capitulos/cap-91-preconceito-linguistico.qmd` | 14 | ✅ 2026-07-15 |
 | 92 | Do latim ao galego-português | `capitulos/cap-92-do-latim-ao-galego-portugues.qmd` | 15 | ⬜ |
 | 93 | O português arcaico e o português clássico | `capitulos/cap-93-portugues-arcaico-classico.qmd` | 15 | ⬜ |
 | 94 | A formação do português brasileiro | `capitulos/cap-94-formacao-portugues-brasileiro.qmd` | 15 | ⬜ |
