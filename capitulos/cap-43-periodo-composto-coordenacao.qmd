@@ -4,22 +4,282 @@ title: "Período composto por coordenação"
 
 # Período composto por coordenação {#sec-cap-43}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 7 — Sintaxe II: Período Composto.
+> "Coordenar é alinhar orações lado a lado, como iguais — nenhuma serve à outra."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 7, dedicado ao **período composto** — aquele formado por duas ou mais
+orações (@sec-cap-36). Há duas maneiras de as orações se combinarem: por **coordenação**
+(orações independentes, no mesmo nível) ou por **subordinação** (uma oração depende de
+outra). Este capítulo trata da **coordenação**; os seguintes, da subordinação.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Na coordenação, as orações são **sintaticamente independentes**: cada uma tem sentido
+próprio e nenhuma exerce função na outra. Ligam-se lado a lado, seja por conjunções
+coordenativas (orações **sindéticas**), seja apenas por pontuação (orações
+**assindéticas**). Reconhecer os tipos de oração coordenada e o valor de cada conectivo é
+essencial para a pontuação (Volume 9) e para a interpretação das relações lógicas do
+texto.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** coordenação de subordinação;
+- **Diferenciar** orações coordenadas assindéticas de sindéticas;
+- **Classificar** as coordenadas sindéticas (aditiva, adversativa, alternativa,
+  conclusiva, explicativa);
+- **Reconhecer** o valor lógico de cada conjunção coordenativa;
+- **Pontuar** corretamente o período composto por coordenação;
+- **Analisar** períodos coordenados.
+
+## Coordenação × subordinação
+
+A diferença fundamental entre os dois modos de combinar orações:
+
+- **Coordenação**: as orações são **independentes** — estão no mesmo nível sintático,
+  cada uma com sentido completo, sem que uma exerça função na outra. "Cheguei em casa /
+  e descansei." (duas orações independentes).
+- **Subordinação**: uma oração (subordinada) **depende** de outra (principal),
+  exercendo nela uma função (de sujeito, objeto, adjunto...). "Espero / que você
+  venha." (a segunda é objeto do verbo *espero*).
+
+Teste: se as orações podem existir separadamente, como frases autônomas, sem que uma
+seja "parte" da outra, é coordenação. Se uma completa ou modifica a outra, é
+subordinação.
+
+## Orações coordenadas: assindéticas e sindéticas
+
+As orações coordenadas dividem-se conforme haja ou não conjunção que as ligue:
+
+- **Assindéticas**: ligadas **sem** conjunção, apenas por pontuação (vírgula,
+  ponto-e-vírgula) — "Cheguei, vi, venci." (três coordenadas assindéticas).
+- **Sindéticas**: ligadas **por** uma conjunção coordenativa — "Cheguei **e** venci."
+
+As sindéticas classificam-se pelo valor da conjunção, conforme a @fig-coordenadas.
+
+::: {#fig-coordenadas}
+
+```{.tikz}
+%%| filename: coordenadas
+%%| alt: Diagrama com os cinco tipos de oração coordenada sindética, cada um numa caixa com conjunções típicas e um exemplo. Aditiva (soma): e, nem — estudou e passou. Adversativa (oposição): mas, porém — estudou, mas não passou. Alternativa (escolha): ou, ora ora — ou estuda ou trabalha. Conclusiva (conclusão): logo, portanto — estudou, logo passou. Explicativa (justificativa): pois, porque — estude, pois é importante.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=left, text width=52mm, minimum height=13mm, inner sep=5pt, anchor=north},
+]
+  \node[cx] (a) at (0,0) {\textbf{Aditiva} (soma): \emph{e, nem, mas também}\\{\scriptsize ``Estudou \textbf{e} passou.''}};
+  \node[cx, right=5mm of a] (b) {\textbf{Adversativa} (oposição): \emph{mas, porém, contudo}\\{\scriptsize ``Estudou, \textbf{mas} não passou.''}};
+  \node[cx, below=4mm of a] (c) {\textbf{Alternativa} (escolha): \emph{ou, ora...ora}\\{\scriptsize ``\textbf{Ou} estuda \textbf{ou} trabalha.''}};
+  \node[cx, below=4mm of b] (d) {\textbf{Conclusiva} (conclusão): \emph{logo, portanto}\\{\scriptsize ``Estudou, \textbf{logo} passou.''}};
+  \node[cx, below=27mm of a, text width=110mm] (e) {\textbf{Explicativa} (justificativa): \emph{pois, porque, que} — ``Estude, \textbf{pois} é importante.''};
+\end{tikzpicture}
+```
+
+Os cinco tipos de oração coordenada sindética, com as conjunções típicas e o valor
+lógico de cada uma.
+:::
+
+### Aditiva
+
+Exprime **soma, adição**. Conjunções: *e*, *nem* (= e não), *não só... mas também*,
+*bem como*. "Ele trabalha **e** estuda"; "Não fala **nem** escuta".
+
+### Adversativa
+
+Exprime **oposição, contraste**. Conjunções: *mas*, *porém*, *contudo*, *todavia*,
+*entretanto*, *no entanto*. "Estudou muito, **mas** não passou"; "É rico, **porém**
+infeliz". (Vírgula **antes** da adversativa.)
+
+### Alternativa
+
+Exprime **alternância, escolha, exclusão**. Conjunções: *ou*, *ou... ou*, *ora... ora*,
+*já... já*, *quer... quer*. "**Ou** você estuda, **ou** trabalha"; "**Ora** ri, **ora**
+chora".
+
+### Conclusiva
+
+Exprime **conclusão, consequência**. Conjunções: *logo*, *portanto*, *por isso*, *pois*
+(depois do verbo), *assim*. "Penso, **logo** existo"; "Estudou; **portanto**, passou".
+
+### Explicativa
+
+Exprime **explicação, justificativa** (do que se disse antes). Conjunções: *porque*,
+*pois* (antes do verbo), *que*, *porquanto*. "Não saia, **porque** vai chover"; "Estude,
+**pois** o exame se aproxima".
+
+::: {.callout-important}
+## *Pois*: conclusiva ou explicativa?
+*Pois* muda de valor conforme a posição:
+
+- **Antes** do verbo → **explicativa** (justifica): "Apresse-se, **pois** está tarde."
+- **Depois** do verbo → **conclusiva** (conclui): "Está tarde; deve-se, **pois**, ir
+  embora."
+
+Já a distinção **explicativa × causal** (subordinada) é sutil: a explicativa justifica um
+enunciado anterior (frequentemente uma ordem/opinião); a causal (subordinação) indica a
+causa real de um fato. Voltaremos a isso no @sec-cap-46.
+:::
+
+## Pontuação na coordenação
+
+Regras práticas (detalhadas no Volume 9):
+
+- Coordenadas **assindéticas**: separam-se por **vírgula** — "Vim, vi, venci".
+- Antes de conjunção **adversativa** (*mas*, *porém*) e **conclusiva** (*logo*,
+  *portanto*): usa-se **vírgula** — "Estudou, mas faltou sorte".
+- Antes de *e* (aditiva): em geral **sem** vírgula, salvo quando os sujeitos são
+  diferentes ou para efeito de sentido — "Ele entrou e sentou"; mas "Ele entrou, e todos
+  se calaram".
+
+## 📋 Quadro-resumo
+
+| Tipo | Valor | Conjunções | Exemplo |
+|---|---|---|---|
+| **Assindética** | ligação sem conjunção | (só pontuação) | "Vim, vi, venci" |
+| **Aditiva** | soma | e, nem, mas também | "Estuda **e** trabalha" |
+| **Adversativa** | oposição | mas, porém, contudo | "Estudou, **mas** falhou" |
+| **Alternativa** | escolha | ou, ora...ora | "**Ou** vai **ou** fica" |
+| **Conclusiva** | conclusão | logo, portanto, pois (após verbo) | "Penso, **logo** existo" |
+| **Explicativa** | justificativa | porque, pois (antes do verbo) | "Não vá, **pois** chove" |
+
+Em uma linha: na **coordenação**, as orações são independentes; ligam-se sem conjunção
+(**assindéticas**) ou com conjunção (**sindéticas**: aditiva, adversativa, alternativa,
+conclusiva, explicativa), cada conectivo com seu valor lógico.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir coordenação com subordinação.** Coordenadas são independentes (mesmo
+  nível); subordinadas dependem de uma principal (exercem função nela).
+- **Trocar o valor de *pois*.** Antes do verbo = explicativa; depois do verbo =
+  conclusiva.
+- **Classificar mal a adversativa e a conclusiva.** *Mas/porém* = oposição
+  (adversativa); *logo/portanto* = conclusão (conclusiva). Não confundir.
+- **Esquecer a vírgula antes de *mas*.** Adversativas e conclusivas vêm precedidas de
+  vírgula: "Quis ir, **mas** não pôde".
+- **Achar que toda oração com *e* dispensa vírgula.** Com sujeitos diferentes ou mudança
+  de sentido, usa-se vírgula antes de *e*.
+
+## ✍️ Exercícios
+
+**1.** Distinga coordenação de subordinação, com um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Na **coordenação**, as orações são **independentes**, no mesmo nível, sem que uma exerça
+função na outra: "Cheguei **e** descansei" (duas orações autônomas). Na **subordinação**,
+uma oração **depende** de outra, exercendo função nela: "Espero **que você venha**" (a
+segunda é objeto de *espero*). O teste é a independência sintática: coordenadas podem
+existir separadas; a subordinada, não (fica sem função).
+:::
+
+**2.** (Estilo ENEM) Em "Estudou muito, mas não foi aprovado", a segunda oração é
+coordenada sindética:
+
+a) aditiva;
+b) adversativa;
+c) alternativa;
+d) conclusiva;
+e) explicativa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A conjunção *mas* exprime **oposição/contraste** entre estudar muito
+e não ser aprovado → coordenada sindética **adversativa**. Note a vírgula antes de *mas*,
+típica das adversativas.
+:::
+
+**3.** Classifique as coordenadas sindéticas: (a) "Corra, **pois** está atrasado"; (b)
+"Penso, **logo** existo"; (c) "**Ou** aceita **ou** recusa".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) *pois* (antes do verbo) → **explicativa** (justifica a ordem "corra"). (b) *logo* →
+**conclusiva** (conclui a partir de "penso"). (c) *ou... ou* → **alternativa** (escolha
+excludente). Cada conjunção define o valor lógico.
+:::
+
+**4.** Identifique as orações coordenadas assindéticas em "Vim, vi, venci".
+
+::: {.callout-tip collapse="true"}
+## Solução
+São três orações coordenadas **assindéticas**: "Vim" / "vi" / "venci". Estão ligadas
+**sem conjunção**, apenas por vírgulas — daí "assindéticas" (do grego *syndeton*,
+"ligado por conjunção", com o prefixo negativo *a-*). Cada uma é independente.
+:::
+
+**5.** Explique a diferença de valor de *pois* em "Volte, pois preciso de você" e
+"Preciso de você; volte, pois".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Volte, **pois** preciso de você", *pois* vem **antes** do verbo (*preciso*) e é
+**explicativo**: justifica a ordem "volte". Em "Preciso de você; volte, **pois**", *pois*
+vem **depois** do verbo (*volte*) e é **conclusivo**: conclui/arremata a partir do que
+se disse ("já que preciso, então volte"). A posição em relação ao verbo determina o valor.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que a oração coordenada é **conclusiva**:
+
+a) Trabalha e economiza;
+b) Quer, mas não pode;
+c) Pensou bem, portanto acertou;
+d) Ou fica ou sai;
+e) Apresse-se, porque é tarde.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "portanto acertou" é coordenada **conclusiva** (*portanto* exprime
+conclusão a partir de "pensou bem"). As demais são aditiva (a), adversativa (b),
+alternativa (d) e explicativa (e).
+:::
+
+**7.** Pontue e classifique: "Ele não estudou não fez os exercícios não leu o livro."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ele não estudou, não fez os exercícios, não leu o livro." São três orações coordenadas
+**assindéticas** (ligadas sem conjunção, separadas por **vírgulas**). Não há conectivo
+entre elas — apenas justaposição pontuada, com valor de enumeração/adição.
+:::
+
+**8.** Reescreva unindo as orações por uma coordenada adversativa: "Ele é talentoso. Ele
+é preguiçoso."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ele é talentoso, **mas** é preguiçoso." (ou "..., **porém** é preguiçoso"; "..., **contudo**,
+é preguiçoso"). A conjunção adversativa (*mas*, *porém*, *contudo*) exprime o **contraste**
+entre as duas qualidades, unindo as orações independentes numa relação de oposição, com
+vírgula antes do conectivo.
+:::
+
+**9.** No período "Não só estudou como também trabalhou", classifique a coordenada e
+explique o conectivo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A segunda oração é coordenada sindética **aditiva**. O conectivo é a locução *não só...
+como também* (variante de *não só... mas também*), que exprime **adição enfática**: soma
+as duas ações (estudar e trabalhar), reforçando que ambas ocorreram. É uma aditiva de
+valor intensificado.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Corri muito, logo cheguei
+cansado', as duas orações estão em relação de subordinação."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** As orações estão em **coordenação**, não subordinação. "Corri muito" e "logo
+cheguei cansado" são **independentes**, ligadas pela conjunção coordenativa **conclusiva**
+*logo* (a segunda conclui a partir da primeira). Nenhuma exerce função sintática na
+outra — são coordenadas, uma assindética e outra sindética conclusiva.
+:::
+
+## 📚 Referências
+
+A coordenação e a classificação das orações coordenadas seguem Bechara [@bechara2009] e
+Cunha & Cintra [@cunhacintra2017]; o valor lógico dos conectivos e sua relação com a
+coesão do texto são discutidos por Koch [@koch2018coesao]. A pontuação do período
+composto será detalhada no Volume 9. A subordinação — em que uma oração exerce função em
+outra — começa no @sec-cap-44, com as orações substantivas.
+
+::: {#refs}
 :::
