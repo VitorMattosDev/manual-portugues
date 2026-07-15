@@ -4,22 +4,284 @@ title: "Orações subordinadas substantivas"
 
 # Orações subordinadas substantivas {#sec-cap-44}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 7 — Sintaxe II: Período Composto.
+> "Uma oração inteira pode fazer o papel de um simples substantivo — e é aí que a sintaxe
+> fica interessante."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Entramos na **subordinação**: aquela relação em que uma oração (a **subordinada**)
+**exerce uma função sintática** dentro de outra (a **principal**), como se fosse um único
+termo. As **subordinadas substantivas** são as que fazem o papel de um **substantivo** —
+podem ser sujeito, objeto, complemento nominal, predicativo ou aposto da oração
+principal. Em "Espero **que você venha**", a oração destacada faz o papel de objeto
+direto do verbo *espero* (poderíamos substituí-la por "isso": "Espero isso").
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+O segredo para reconhecê-las é justamente esse teste da **substituição por um termo
+substantivo** (isto/isso). Este capítulo mostra como identificar as substantivas,
+classificá-las pela função que exercem e distinguir o *que* conjunção integrante do *que*
+pronome relativo — distinção que separa as substantivas das adjetivas (@sec-cap-45).
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** a oração subordinada substantiva pelo teste da substituição por "isto";
+- **Classificar** as substantivas pelas seis funções (subjetiva, objetiva direta,
+  objetiva indireta, completiva nominal, predicativa, apositiva);
+- **Identificar** as conjunções integrantes (*que*, *se*);
+- **Distinguir** substantivas desenvolvidas de reduzidas;
+- **Diferenciar** o *que* integrante do *que* relativo;
+- **Analisar** períodos com orações substantivas.
+
+## O que são as subordinadas substantivas
+
+**Oração subordinada substantiva** é aquela que exerce, na oração principal, uma **função
+própria de substantivo**. Vem, tipicamente, introduzida por uma **conjunção integrante**
+(*que* ou *se*), que apenas liga as orações, sem valor circunstancial nem função
+sintática própria.
+
+O **teste decisivo**: substitua a oração por **isto/isso**. Se couber, é substantiva —
+e a função que "isto" exerce é a função da oração.
+
+::: {.exemplo}
+- "Espero **que você venha**." → "Espero **isto**." → *isto* é objeto direto → oração
+  **objetiva direta**.
+- "É certo **que ele mentiu**." → "**Isto** é certo." → *isto* é sujeito → oração
+  **subjetiva**.
+:::
+
+## As seis funções substantivas
+
+Conforme a função que exercem, as substantivas classificam-se em seis tipos, resumidos
+na @fig-substantivas.
+
+::: {#fig-substantivas}
+
+```{.tikz}
+%%| filename: substantivas
+%%| alt: Diagrama com os seis tipos de oração subordinada substantiva, cada um com a função e um exemplo. Subjetiva: função de sujeito — é bom que estudes. Objetiva direta: objeto direto — quero que venhas. Objetiva indireta: objeto indireto — preciso de que me ajudes. Completiva nominal: complemento nominal — tenho certeza de que virás. Predicativa: predicativo — meu desejo é que sejas feliz. Apositiva: aposto — só quero isto: que sejas honesto.
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  cx/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=left, text width=54mm, minimum height=11mm, inner sep=4pt, anchor=north},
+]
+  \node[cx] (a) at (0,0) {\textbf{Subjetiva} (sujeito)\\{\scriptsize ``É bom \emph{que estudes}.''}};
+  \node[cx, below=2.5mm of a] (b) {\textbf{Objetiva direta} (obj. direto)\\{\scriptsize ``Quero \emph{que venhas}.''}};
+  \node[cx, below=2.5mm of b] (c) {\textbf{Objetiva indireta} (obj. indireto)\\{\scriptsize ``Preciso \emph{de que me ajudes}.''}};
+  \node[cx, right=5mm of a] (d) {\textbf{Completiva nominal} (compl. nominal)\\{\scriptsize ``Tenho certeza \emph{de que virás}.''}};
+  \node[cx, below=2.5mm of d] (e) {\textbf{Predicativa} (predicativo)\\{\scriptsize ``Meu desejo é \emph{que sejas feliz}.''}};
+  \node[cx, below=2.5mm of e] (f) {\textbf{Apositiva} (aposto)\\{\scriptsize ``Só quero isto: \emph{que sejas honesto}.''}};
+\end{tikzpicture}
+```
+
+Os seis tipos de oração subordinada substantiva, definidos pela função que exercem na
+principal: subjetiva, objetiva direta, objetiva indireta, completiva nominal, predicativa
+e apositiva.
+:::
+
+- **Subjetiva**: exerce a função de **sujeito** da principal — "Convém **que todos
+  participem**" ("**Isto** convém"). Frequente após verbos impessoais e expressões como
+  "é bom/necessário/certo que", "convém que", "consta que".
+- **Objetiva direta**: função de **objeto direto** — "Desejo **que sejas feliz**"
+  ("Desejo **isto**").
+- **Objetiva indireta**: função de **objeto indireto** (com preposição) — "Lembro-me
+  **de que prometi ajudar**" ("Lembro-me **disto**").
+- **Completiva nominal**: função de **complemento nominal** (completa um nome, com
+  preposição) — "Tenho a **certeza** **de que ele virá**" ("certeza **disto**").
+- **Predicativa**: função de **predicativo do sujeito** (após verbo de ligação) — "A
+  verdade é **que ninguém sabe**" ("A verdade é **isto**").
+- **Apositiva**: função de **aposto** (explica um termo, geralmente após dois-pontos) —
+  "Só peço uma coisa: **que sejas honesto**".
+
+::: {.callout-important}
+## Objetiva indireta × completiva nominal
+Ambas vêm com preposição ("de que", "em que") e confundem-se. A diferença está no termo
+completado:
+
+- **Objetiva indireta**: completa um **verbo** (transitivo indireto) — "Preciso **de que
+  me ajudem**" (o verbo *precisar* exige a oração).
+- **Completiva nominal**: completa um **nome** (substantivo/adjetivo) — "Tenho
+  **necessidade de que me ajudem**" (o nome *necessidade* exige a oração).
+
+Localize o que a oração completa: se um verbo, é objetiva indireta; se um nome, completiva
+nominal. É o mesmo critério do @sec-cap-40, aplicado a orações.
+:::
+
+## Desenvolvidas × reduzidas
+
+As substantivas podem apresentar-se de duas formas:
+
+- **Desenvolvidas**: introduzidas por conjunção integrante (*que*/*se*), com verbo em
+  modo finito (indicativo/subjuntivo) — "Espero **que ele venha**".
+- **Reduzidas**: sem conjunção, com o verbo numa **forma nominal** (infinitivo,
+  gerúndio, particípio) — "Espero **vê-lo em breve**" (reduzida de infinitivo, = "espero
+  que o veja"). Estudaremos as reduzidas em detalhe no @sec-cap-47.
+
+## O *que* integrante × o *que* relativo
+
+Distinção que separa as substantivas (integrante) das adjetivas (relativo):
+
+- **Conjunção integrante** (*que*): apenas **liga** a oração substantiva à principal, sem
+  função sintática nem antecedente. "Sei **que** ele mentiu" (= sei **isto**).
+- **Pronome relativo** (*que*): retoma um **antecedente** e exerce função na oração
+  adjetiva. "O homem **que** mentiu" (*que* = o homem, sujeito de "mentiu").
+
+Teste: se dá para trocar a oração por "isto", o *que* é integrante (substantiva). Se o
+*que* retoma um substantivo anterior e pode ser trocado por "o qual", é relativo
+(adjetiva — próximo capítulo).
+
+## 📋 Quadro-resumo
+
+| Tipo | Função | Exemplo |
+|---|---|---|
+| **Subjetiva** | sujeito | "Convém **que estudes**" |
+| **Objetiva direta** | objeto direto | "Quero **que venhas**" |
+| **Objetiva indireta** | objeto indireto | "Preciso **de que ajudes**" |
+| **Completiva nominal** | complemento nominal | "Certeza **de que virás**" |
+| **Predicativa** | predicativo | "A questão é **que falta tempo**" |
+| **Apositiva** | aposto | "Só peço isto: **que fiques**" |
+
+Em uma linha: as **subordinadas substantivas** fazem o papel de um substantivo na
+principal (teste: cabe "isto"); classificam-se pela função — subjetiva, objetiva direta/
+indireta, completiva nominal, predicativa, apositiva — e vêm com **conjunção integrante**
+(*que*/*se*), não relativo.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir *que* integrante com *que* relativo.** Integrante: cabe "isto" (substantiva).
+  Relativo: retoma antecedente, cabe "o qual" (adjetiva).
+- **Trocar objetiva indireta por completiva nominal.** Verbo completado → objetiva
+  indireta; nome completado → completiva nominal.
+- **Não reconhecer a subjetiva.** Após "é bom/necessário/certo que", "convém que",
+  "consta que", a oração é **sujeito** (subjetiva), não objeto.
+- **Achar que toda oração com *que* é subordinada substantiva.** Pode ser adjetiva
+  (relativo) ou até coordenada explicativa (*que* = pois). O contexto decide.
+- **Esquecer o teste da substituição.** Substituir por "isto" resolve a maioria dos
+  casos e revela a função.
+
+## ✍️ Exercícios
+
+**1.** Classifique a oração substantiva: "É necessário que todos colaborem."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"que todos colaborem" é oração subordinada substantiva **subjetiva**: exerce a função de
+**sujeito** da principal ("É necessário **isto**" — o quê é necessário? que todos
+colaborem). Após expressões impessoais como "é necessário que", a substantiva é
+tipicamente subjetiva.
+:::
+
+**2.** (Estilo ENEM) Em "Todos sabiam que ele mentira", a oração "que ele mentira" é:
+
+a) subordinada adjetiva;
+b) subordinada substantiva objetiva direta;
+c) coordenada explicativa;
+d) subordinada adverbial causal;
+e) subordinada substantiva subjetiva.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "que ele mentira" é objeto direto do verbo *sabiam* ("sabiam
+**isto**") → subordinada substantiva **objetiva direta**. O *que* é conjunção integrante
+(não retoma antecedente), o que exclui a adjetiva; e a oração é objeto, não sujeito.
+:::
+
+**3.** Aplique o teste da substituição e classifique: "Duvido de que ele consiga."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Substituindo: "Duvido **disto**" — *disto* (de + isto) é **objeto indireto** do verbo
+*duvidar* (duvidar **de** algo). Logo, "de que ele consiga" é subordinada substantiva
+**objetiva indireta**. A preposição *de* e o fato de completar um **verbo** confirmam a
+classificação.
+:::
+
+**4.** Distinga objetiva indireta de completiva nominal: "Preciso de que me ouçam" ×
+"Tenho necessidade de que me ouçam".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Preciso **de que me ouçam**", a oração completa o **verbo** *precisar* (transitivo
+indireto) → **objetiva indireta**. Em "Tenho necessidade **de que me ouçam**", a oração
+completa o **nome** *necessidade* (substantivo abstrato) → **completiva nominal**. O
+critério é o que a oração completa: verbo (objetiva indireta) × nome (completiva
+nominal).
+:::
+
+**5.** Identifique a oração predicativa: "A verdade é que ninguém compareceu."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"que ninguém compareceu" é subordinada substantiva **predicativa**: exerce a função de
+**predicativo do sujeito** ("A verdade") por meio do verbo de ligação *é*. Teste: "A
+verdade é **isto**" — *isto* é predicativo. A oração predica algo do sujeito através do
+verbo de ligação.
+:::
+
+**6.** (Estilo FCC) Assinale o período com oração subordinada substantiva **apositiva**:
+
+a) Quero que você estude;
+b) É bom que descanses;
+c) Só desejo uma coisa: que sejas feliz;
+d) Preciso de que me ajudem;
+e) A questão é que falta tempo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "que sejas feliz" é **apositiva**: funciona como **aposto** do termo
+"uma coisa", explicando-o (após os dois-pontos). As demais são objetiva direta (a),
+subjetiva (b), objetiva indireta (d) e predicativa (e).
+:::
+
+**7.** Diferencie o *que* em "Sei que ele chegou" e em "O homem que chegou é meu amigo".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Sei **que** ele chegou", *que* é **conjunção integrante**: apenas liga a oração
+substantiva (objetiva direta) à principal, sem antecedente — cabe "isto" ("Sei isto"). Em
+"O homem **que** chegou é meu amigo", *que* é **pronome relativo**: retoma o antecedente
+*o homem* e exerce função (sujeito de "chegou") na oração adjetiva — cabe "o qual". O
+primeiro introduz substantiva; o segundo, adjetiva.
+:::
+
+**8.** Reescreva a oração reduzida como desenvolvida: "Espero encontrá-lo amanhã."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Desenvolvida: "Espero **que o encontre amanhã**". A oração reduzida de infinitivo
+("encontrá-lo", forma nominal, sem conjunção) transforma-se em desenvolvida, com a
+conjunção integrante *que* e o verbo em modo finito (subjuntivo *encontre*). Ambas são
+substantivas objetivas diretas ("espero isto").
+:::
+
+**9.** Classifique todas as orações do período: "Sei que estudaste, mas duvido de que
+tenhas terminado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+São quatro orações: (1) "Sei" — oração principal; (2) "que estudaste" — subordinada
+substantiva **objetiva direta** (objeto de *sei*); (3) "mas duvido" — coordenada
+sindética **adversativa** (em relação a "Sei"); (4) "de que tenhas terminado" —
+subordinada substantiva **objetiva indireta** (objeto de *duvidar de*). O período combina
+subordinação e coordenação.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Consta que houve fraude', a
+oração 'que houve fraude' exerce a função de objeto direto."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** A oração "que houve fraude" exerce a função de **sujeito** (subordinada
+substantiva **subjetiva**), não de objeto direto. Teste: "**Isto** consta" — *isto* é o
+sujeito do verbo *constar* (constar = ser sabido/registrado). Verbos como *constar*,
+*convir*, *importar* e expressões impessoais ("é certo que") pedem substantiva subjetiva.
+:::
+
+## 📚 Referências
+
+As orações subordinadas substantivas e sua classificação seguem Bechara [@bechara2009] e
+Cunha & Cintra [@cunhacintra2017]. A distinção entre o *que* integrante e o *que* relativo
+e a análise das completivas no português brasileiro estão em Castilho [@castilho2010] e
+Perini [@perini2010]. As orações adjetivas, introduzidas pelos relativos, vêm no
+@sec-cap-45; as reduzidas, no @sec-cap-47.
+
+::: {#refs}
 :::
