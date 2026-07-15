@@ -4,22 +4,283 @@ title: "Orações reduzidas"
 
 # Orações reduzidas {#sec-cap-47}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 7 — Sintaxe II: Período Composto.
+> "Dizer mais com menos: a oração reduzida condensa, sem conjunção, o que a desenvolvida
+> explicita."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Nos três capítulos anteriores, estudamos as subordinadas em sua forma **desenvolvida** —
+com conjunção (ou relativo) e verbo em modo finito. Mas há uma forma mais **enxuta** de
+subordinar: a **oração reduzida**, que dispensa a conjunção e apresenta o verbo numa
+**forma nominal** (infinitivo, gerúndio ou particípio). "**Ao chegar**, cumprimentou
+todos" diz o mesmo que "**Quando chegou**, cumprimentou todos", porém de modo mais
+condensado.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo unifica o que vimos: mostra como as substantivas, adjetivas e adverbiais
+podem apresentar-se reduzidas, ensina a **classificá-las** (pela forma nominal e pela
+função) e, sobretudo, a **convertê-las** em desenvolvidas — habilidade decisiva para
+determinar o tipo da oração, já que a reduzida não traz a conjunção que "entrega" a
+classificação. É também um recurso estilístico valioso para a redação, que ganha em
+concisão.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** a oração reduzida pela forma nominal do verbo;
+- **Classificar** as reduzidas por forma (infinitivo, gerúndio, particípio) e por função;
+- **Converter** orações reduzidas em desenvolvidas e vice-versa;
+- **Identificar** o valor circunstancial das reduzidas adverbiais;
+- **Empregar** as reduzidas como recurso de concisão;
+- **Analisar** períodos com orações reduzidas.
+
+## O que é uma oração reduzida
+
+**Oração reduzida** é a subordinada que **não** é introduzida por conjunção ou pronome
+relativo e cujo verbo está numa **forma nominal** — infinitivo, gerúndio ou particípio.
+Ela "reduz" a oração desenvolvida, eliminando o conectivo e finitizando o verbo.
+
+::: {.exemplo}
+- Desenvolvida: "**Quando terminei** o trabalho, descansei."
+- Reduzida: "**Terminado** o trabalho, descansei." (reduzida de particípio)
+
+Ambas exprimem a mesma circunstância temporal; a reduzida é mais concisa.
+:::
+
+Toda reduzida pode, em princípio, ser **desenvolvida** — e é justamente essa conversão
+que revela sua classificação (substantiva, adjetiva ou adverbial), pois a conjunção
+restaurada indica o tipo.
+
+## As três formas das reduzidas
+
+As reduzidas classificam-se, primeiro, pela **forma nominal** do verbo, conforme a
+@fig-reduzidas.
+
+::: {#fig-reduzidas}
+
+```{.tikz}
+%%| filename: reduzidas
+%%| alt: Diagrama com os três tipos de oração reduzida pela forma nominal do verbo, cada um com exemplo e a desenvolvida correspondente. Reduzida de infinitivo: "É preciso estudar" igual a "É preciso que se estude". Reduzida de gerúndio: "Estudando, aprende-se" igual a "Se estudarmos, aprendemos". Reduzida de particípio: "Terminada a aula, saíram" igual a "Quando a aula terminou, saíram".
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=left, text width=52mm, minimum height=18mm, inner sep=5pt, anchor=north},
+]
+  \node[cx] (a) at (0,0) {\textbf{de INFINITIVO}\\{\scriptsize verbo em \emph{-r}}\\ ``É preciso \textbf{estudar}.''\\ {\scriptsize = ``que se estude''}};
+  \node[cx, right=5mm of a] (b) {\textbf{de GERÚNDIO}\\{\scriptsize verbo em \emph{-ndo}}\\ ``\textbf{Estudando}, aprende-se.''\\ {\scriptsize = ``Se estudarmos...''}};
+  \node[cx, below=4mm of a, text width=52mm] (c) {\textbf{de PARTICÍPIO}\\{\scriptsize verbo em \emph{-do}}\\ ``\textbf{Terminada} a aula, saíram.''\\ {\scriptsize = ``Quando a aula terminou...''}};
+\end{tikzpicture}
+```
+
+Os três tipos de oração reduzida, conforme a forma nominal do verbo — infinitivo,
+gerúndio e particípio —, cada um com a desenvolvida correspondente.
+:::
+
+- **Reduzida de infinitivo** (verbo em *-r*): "É bom **viver**" (= "que se viva"); "Ao
+  **sair**, apague a luz" (= "quando saíres").
+- **Reduzida de gerúndio** (verbo em *-ndo*): "**Estudando**, aprende-se" (= "se
+  estudarmos"); "Saiu **cantando**" (= "enquanto cantava").
+- **Reduzida de particípio** (verbo em *-do*): "**Feito** o trabalho, descansou" (=
+  "depois que fez"); "**Terminada** a guerra, houve paz".
+
+## Reduzidas substantivas, adjetivas e adverbiais
+
+Além da forma, as reduzidas classificam-se pela **função** (como as desenvolvidas):
+
+- **Substantivas reduzidas** (geralmente de infinitivo): "É necessário **agir**" (=
+  "que se aja" — subjetiva); "Quero **vencer**" (= "que eu vença" — objetiva direta).
+- **Adjetivas reduzidas** (de infinitivo ou particípio): "Há contas **a pagar**" (= "que
+  devem ser pagas"); "Homem **acostumado ao trabalho**" (= "que está acostumado").
+- **Adverbiais reduzidas** (de qualquer forma nominal): "**Ao chegar**, ligou" (temporal
+  = "quando chegou"); "**Estudando**, passarás" (condicional = "se estudares");
+  "**Terminada a prova**, saíram" (temporal = "quando a prova terminou").
+
+::: {.callout-important}
+## Como classificar uma reduzida: converta-a
+Como a reduzida não traz conjunção, o método é **convertê-la em desenvolvida** e observar
+a conjunção resultante:
+
+- "**Estudando** muito, passou." → converta: "**Porque** estudou muito" (causal) ou "**Se**
+  estudasse muito" (condicional) — o contexto decide o valor.
+- "**Terminado** o jogo, foram embora." → "**Quando** terminou o jogo" (temporal).
+
+A forma nominal dá a **forma** (de infinitivo/gerúndio/particípio); a conversão revela a
+**função** (substantiva/adjetiva/adverbial e o subtipo).
+:::
+
+## A concisão — e seus riscos
+
+A reduzida é um recurso de **concisão**: diz o mesmo com menos palavras, e boa escrita a
+valoriza. Mas há um cuidado estilístico importante, sobretudo com o gerúndio:
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O gerúndio mal empregado
+O gerúndio reduzido pode gerar ambiguidade ou o chamado "gerundismo". Compare:
+
+- Ambíguo: "Vi o menino **saindo** da escola." (quem saía, eu ou o menino?)
+- "Gerundismo" (a evitar): "Vou **estar enviando** o documento" (perífrase inútil; melhor:
+  "Vou enviar" / "Enviarei").
+
+A reduzida de gerúndio é ótima quando clara ("Saiu **correndo**"), mas exige atenção
+para não deixar o sujeito ambíguo nem alongar sem necessidade.
+:::
+
+## 📋 Quadro-resumo
+
+| Forma nominal | Marca | Exemplo | Desenvolvida |
+|---|---|---|---|
+| **Infinitivo** | *-r* | "Ao **sair**, avise" | "Quando saíres, avise" |
+| **Gerúndio** | *-ndo* | "**Estudando**, aprende-se" | "Se estudarmos, aprende-se" |
+| **Particípio** | *-do* | "**Feita** a tarefa, saiu" | "Depois que fez a tarefa, saiu" |
+
+Funções: substantivas (infinitivo), adjetivas (infinitivo/particípio), adverbiais
+(todas).
+
+Em uma linha: a **oração reduzida** subordina sem conjunção, com o verbo em forma nominal
+(infinitivo, gerúndio ou particípio); pode ser substantiva, adjetiva ou adverbial, e
+classifica-se **convertendo-a** em desenvolvida — um recurso de concisão a usar com
+cuidado (sobretudo o gerúndio).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que reduzida não pode ser classificada.** Pode: **converta-a** em desenvolvida
+  e observe a conjunção restaurada.
+- **Confundir a forma com a função.** A forma é infinitivo/gerúndio/particípio; a função
+  é substantiva/adjetiva/adverbial. São classificações independentes e complementares.
+- **Deixar o gerúndio ambíguo.** "Vi a moça correndo" pode ter dois sujeitos — reescreva
+  para clareza ("Vi a moça que corria" / "Enquanto eu corria, vi a moça").
+- **Cair no gerundismo.** "Vou estar mandando" é perífrase inútil; prefira "Vou mandar"/
+  "Mandarei".
+- **Não reconhecer a reduzida de particípio.** "Terminada a aula", "Feito o acordo" são
+  reduzidas de particípio (valor temporal/causal), fáceis de passar despercebidas.
+
+## ✍️ Exercícios
+
+**1.** Identifique a forma nominal e classifique a reduzida: "Ao entrar na sala, todos se
+calaram."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Forma nominal: **infinitivo** ("entrar", em *-r*), reduzida **de infinitivo**. Função:
+adverbial **temporal** (indica o tempo — "quando alguém entrou"). Convertendo em
+desenvolvida: "**Quando** (alguém) entrou na sala, todos se calaram".
+:::
+
+**2.** (Estilo ENEM) A oração reduzida "Terminada a reunião, todos saíram" equivale, na
+forma desenvolvida, a:
+
+a) Se a reunião terminasse, todos sairiam;
+b) Quando a reunião terminou, todos saíram;
+c) Embora a reunião terminasse, todos saíram;
+d) Para que a reunião terminasse, todos saíram;
+e) Como todos saíram, a reunião terminou.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Terminada a reunião" (reduzida de particípio) tem valor **temporal**
+e equivale a "**Quando** a reunião terminou". As demais mudam o sentido (condicional,
+concessivo, final, causal invertido), que não corresponde ao valor temporal da reduzida.
+:::
+
+**3.** Classifique (forma e função): (a) "Estudando, aprende-se"; (b) "Há muito a fazer";
+(c) "Quero vencer".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) reduzida de **gerúndio**, adverbial **condicional** (= "se estudarmos"). (b) reduzida
+de **infinitivo**, **adjetiva** (= "muito que se deve fazer", caracteriza "muito"). (c)
+reduzida de **infinitivo**, **substantiva objetiva direta** (= "que eu vença", objeto de
+*quero*).
+:::
+
+**4.** Converta em reduzida: "Quando cheguei em casa, encontrei todos dormindo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Reduzida: "**Ao chegar** em casa, encontrei todos dormindo." A oração desenvolvida
+temporal ("Quando cheguei") converte-se em reduzida de **infinitivo** ("Ao chegar"),
+mais concisa, preservando o valor temporal. (Note que "dormindo" já é outra reduzida, de
+gerúndio, com valor adjetivo/predicativo.)
+:::
+
+**5.** Converta em desenvolvida e classifique: "Estudando muito, ele passou."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Duas leituras possíveis conforme o contexto: **causal** — "**Porque** estudou muito, ele
+passou" (o estudo foi a causa); ou **condicional/temporal** — "**Se** estudasse muito,
+passaria" / "**Enquanto** estudava muito, passou". No sentido mais provável (o estudo
+levou à aprovação), é adverbial **causal**. A reduzida de gerúndio admite mais de um valor,
+resolvido pelo contexto.
+:::
+
+**6.** (Estilo FCC) A oração reduzida em "Ele saiu sem se despedir" é:
+
+a) reduzida de gerúndio, temporal;
+b) reduzida de infinitivo, com valor adverbial;
+c) reduzida de particípio, causal;
+d) desenvolvida condicional;
+e) coordenada aditiva.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "sem se despedir" é reduzida de **infinitivo** (*despedir*, em *-r*),
+com valor **adverbial** (de modo/concessivo, = "sem que se despedisse"). Não há gerúndio
+nem particípio, e a oração é subordinada reduzida, não coordenada.
+:::
+
+**7.** Reescreva evitando a ambiguidade do gerúndio: "Encontrei o professor saindo da
+biblioteca."
+
+::: {.callout-tip collapse="true"}
+## Solução
+A frase é ambígua (quem saía, eu ou o professor?). Desfazendo: se o professor saía —
+"Encontrei o professor **que saía** da biblioteca" (adjetiva) ou "Encontrei o professor
+**quando ele saía** da biblioteca". Se eu saía — "**Ao sair** da biblioteca, encontrei o
+professor". A reescrita explicita o sujeito do gerúndio, eliminando a dupla leitura.
+:::
+
+**8.** Identifique as reduzidas no período: "Terminado o expediente, saímos correndo para
+pegar o ônibus."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Há duas reduzidas: (1) "**Terminado o expediente**" — reduzida de **particípio**,
+adverbial temporal (= "quando o expediente terminou"); (2) "**correndo**" — reduzida de
+**gerúndio**, adverbial de modo (= "de modo apressado"/"enquanto corríamos"). "para pegar
+o ônibus" é ainda uma reduzida de infinitivo com valor final.
+:::
+
+**9.** Explique por que "Vou estar enviando o relatório" deve ser evitado e como
+reescrevê-lo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Vou estar enviando" é um caso de **gerundismo**: usa uma perífrase (auxiliar + estar +
+gerúndio) desnecessária para exprimir uma ação futura simples, alongando sem acrescentar
+sentido. O ideal é a forma direta: "**Vou enviar** o relatório" ou "**Enviarei** o
+relatório". Reserva-se o gerúndio para ações realmente em curso ou simultâneas, não para
+substituir o futuro simples.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "A oração 'Feito o pagamento, a
+mercadoria será entregue' é uma oração reduzida de particípio com valor condicional/
+temporal."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Certo.** "Feito o pagamento" é reduzida de **particípio** (*feito*, em *-do*), com valor
+adverbial **condicional/temporal**: equivale a "**Depois que** o pagamento for feito"
+(temporal) ou "**Se** o pagamento for feito" (condicional) a mercadoria será entregue. As
+reduzidas de particípio frequentemente exprimem esses valores, e a conversão em
+desenvolvida confirma a classificação.
+:::
+
+## 📚 Referências
+
+As orações reduzidas, sua tipologia (por forma nominal e por função) e a conversão em
+desenvolvidas seguem Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]. As
+questões de concisão, ambiguidade do gerúndio e "gerundismo" são discutidas em manuais de
+redação e por Castilho [@castilho2010]. A análise sintática integral, que reúne
+coordenação, subordinação e reduzidas, é o tema do @sec-cap-48.
+
+::: {#refs}
 :::
