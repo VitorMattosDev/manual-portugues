@@ -4,22 +4,668 @@ title: "A redação do ENEM e de concursos"
 
 # A redação do ENEM e de concursos {#sec-cap-77}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 12 — Redação e Escrita.
+> "A prova não avalia se você escreve bem. Avalia se você escreve bem **naquelas
+> condições** — e são coisas diferentes."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Os dois capítulos anteriores trataram da **arquitetura** da dissertação (@sec-cap-75) e dos
+**argumentos** que a sustentam (@sec-cap-76). Este trata do **gênero** em que tudo isso será
+julgado: a redação de prova.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+E vale começar pela distinção que organiza o capítulo, herdada do @sec-cap-72: "redação do
+ENEM" **não** é um tipo textual — é um **gênero**, com situação de produção muito
+particular. Você escreve em 30 linhas, sob pressão de tempo, sobre um tema que não escolheu,
+para um leitor que não conhece, que lerá seu texto em poucos minutos, ao lado de outros
+milhares, aplicando **critérios públicos**.
+
+Cada um desses elementos molda o que funciona. E é por isso que a pergunta certa não é "como
+escrever bem?", mas "**o que este gênero recompensa?**" — pergunta que, longe de ser
+cínica, é a única honesta: os critérios estão publicados, e ignorá-los não é integridade
+artística, é desinformação.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Descrever** as cinco competências do ENEM e o que cada uma avalia;
+- **Interpretar** a proposta e os textos motivadores sem copiá-los;
+- **Empregar** repertório sociocultural de modo produtivo, e não decorativo;
+- **Redigir** proposta de intervenção completa, com os cinco elementos;
+- **Identificar** as situações que zeram a redação;
+- **Adaptar** a estratégia às bancas de concurso, que diferem do ENEM.
+
+## O gênero e suas condições
+
+| Condição | Consequência prática |
+|---|---|
+| **30 linhas** | não há espaço para contextualização inflada nem para tese tardia |
+| **~1h de escrita** (na prática) | o planejamento precisa ser rápido e a estrutura, previsível |
+| **Tema imposto** | o repertório precisa ser **flexível**, não decorado para um tema |
+| **Corretor anônimo, ~3 min por texto** | clareza imediata vence sutileza |
+| **Critérios públicos** | o jogo tem regras escritas — leia-as |
+| **Dois corretores independentes** | a nota premia o que é **verificável**, não o gosto |
+
+::: {.callout-important}
+## A implicação central
+Como a correção é feita por **critérios explícitos** e por **dois corretores independentes**,
+o que pontua é o que é **objetivamente identificável**. Um texto brilhante mas heterodoxo
+depende de o corretor **perceber** o brilho em três minutos; um texto competente e
+previsível **entrega o que a grade procura**.
+
+Isso não é elogio à mediocridade — é descrição do gênero. E é reversível: **dentro** da
+estrutura previsível, você pode ser tão bom quanto quiser. A previsibilidade é do
+**esqueleto**, não do pensamento.
+:::
+
+## As cinco competências
+
+O ENEM avalia cinco competências, cada uma de 0 a 200 pontos (total: 1000). Vale notar a
+proporção, porque ela desmente a intuição escolar: **apenas uma** trata de gramática.
+
+::: {#fig-competencias}
+
+```{.tikz}
+%%| filename: competencias
+%%| alt: Esquema das cinco competências da redação do ENEM, cada uma valendo 200 pontos. Competência 1: domínio da norma-padrão da escrita, a única que trata de gramática. Competência 2: compreender a proposta e aplicar conceitos das várias áreas, aplicando o tipo dissertativo-argumentativo, é onde se avalia o repertório e onde mora a fuga ao tema. Competência 3: selecionar e organizar informações e argumentos em defesa de um ponto de vista, é a competência do projeto de texto e da tese. Competência 4: conhecimento dos mecanismos linguísticos de coesão. Competência 5: elaborar proposta de intervenção respeitando os direitos humanos, exigindo cinco elementos: agente, ação, meio, finalidade e detalhamento. Abaixo, a observação de que quatro das cinco competências avaliam aspectos textuais e argumentativos, e apenas uma avalia norma.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize, text width=74mm},
+]
+  \node[cx, draw=manualgray, fill=manualgray!12] (c1) at (0,2.6)
+    {\textbf{C1 — Norma-padrão da escrita} \hfill \textbf{200 pts}\\
+     {\scriptsize ortografia · concordância · regência · pontuação}\\
+     {\scriptsize \emph{a única competência sobre gramática}}};
+
+  \node[cx, draw=manualblue, fill=manualblue!10] (c2) at (0,1.3)
+    {\textbf{C2 — Compreender a proposta} \hfill \textbf{200 pts}\\
+     {\scriptsize aplicar conceitos de várias áreas · tipo dissertativo-argumentativo}\\
+     {\scriptsize \textbf{repertório} · aqui mora a \textbf{fuga ao tema}}};
+
+  \node[cx, draw=manualgreen, fill=manualgreen!10] (c3) at (0,0.0)
+    {\textbf{C3 — Selecionar e organizar argumentos} \hfill \textbf{200 pts}\\
+     {\scriptsize em defesa de um ponto de vista}\\
+     {\scriptsize \textbf{projeto de texto} · \textbf{tese} · autoria}};
+
+  \node[cx, draw=manualyellow, fill=manualyellow!12] (c4) at (0,-1.3)
+    {\textbf{C4 — Mecanismos linguísticos de coesão} \hfill \textbf{200 pts}\\
+     {\scriptsize conectivos · retomadas · articulação entre parágrafos}};
+
+  \node[cx, draw=manualred, fill=manualred!10] (c5) at (0,-2.6)
+    {\textbf{C5 — Proposta de intervenção} \hfill \textbf{200 pts}\\
+     {\scriptsize respeitando os direitos humanos}\\
+     {\scriptsize \textbf{5 elementos}: agente · ação · meio · finalidade · detalhamento}};
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=76mm] at (0,-4.0)
+    {\textbf{4 das 5} competências avaliam aspectos \textbf{textuais e argumentativos}.\\
+     Apenas \textbf{1} avalia norma — e ela vale os mesmos 200 pontos que as outras.};
+\end{tikzpicture}
+```
+
+As cinco competências e seus pesos. A proporção confirma a tese do @sec-cap-68: a norma é
+**uma camada** do texto, não o que faz o texto funcionar.
+:::
+
+### C1 — Norma-padrão
+
+Ortografia, acentuação, concordância, regência, pontuação, colocação (Volumes 3, 8 e 9). É
+a competência mais **estudada** e a menos **decisiva** — vale o mesmo que as outras quatro,
+e desvios isolados custam pouco. Escrever "menas" não zera nada; escrever sem tese, sim.
+
+### C2 — Compreender a proposta
+
+Duas coisas: **não fugir ao tema** e mobilizar **repertório** de outras áreas.
+
+É onde mora o risco mais grave. **Fuga ao tema zera a redação** — e note que um texto pode
+ser perfeitamente coerente e ainda assim fugir: coerência sobre o assunto errado
+(@sec-cap-70).
+
+### C3 — Selecionar e organizar argumentos
+
+É a competência do **projeto de texto** e da **autoria**. Aqui se avalia se há tese, se os
+argumentos a sustentam e se há progressão (@sec-cap-75). É, na prática, a competência que
+mais separa o texto vivo do texto de fórmula.
+
+### C4 — Coesão
+
+Conectivos, retomadas, articulação (@sec-cap-69). **Cuidado**: avalia-se o uso **adequado e
+diversificado**, não a quantidade. Encher de "outrossim" e "destarte" não pontua — e pode
+prejudicar, se os conectivos sinalizarem relações inexistentes.
+
+### C5 — Proposta de intervenção
+
+Exige **cinco elementos**, e a ausência de qualquer um custa pontos:
+
+| Elemento | Pergunta | Exemplo |
+|---|---|---|
+| **Agente** | **quem** faz? | "O Ministério da Educação" |
+| **Ação** | faz **o quê**? | "deve criar um programa de formação continuada" |
+| **Meio** | **como**? | "por meio de parcerias com universidades federais" |
+| **Finalidade** | **para quê**? | "a fim de qualificar o ensino nas redes municipais" |
+| **Detalhamento** | **especificação** de qualquer um dos anteriores | "priorizando os municípios com menor IDEB" |
+
+E o requisito absoluto: **respeitar os direitos humanos**. Proposta que viole direitos
+humanos **zera a competência 5** — e propostas de tortura, pena de morte, extermínio ou
+discriminação zeram a redação inteira.
+
+::: {.callout-warning}
+## O que zera a redação
+São situações objetivas, e vale conhecê-las com precisão:
+
+- **Fuga total ao tema**;
+- **Não obedecer ao tipo dissertativo-argumentativo** (escrever um poema, uma narrativa);
+- **Menos de 8 linhas** (texto insuficiente);
+- **Cópia dos textos motivadores** sem produção própria;
+- **Desrespeito aos direitos humanos**;
+- **Parte deliberadamente desconectada** do tema;
+- **Fere direitos humanos** na proposta de intervenção (zera a redação, não só a C5);
+- Impropérios, desenhos, assinatura identificadora.
+
+Note que **quase nenhuma** delas é gramatical. Você não zera por errar português — zera por
+não cumprir o **gênero**.
+:::
+
+## O repertório: produtivo × decorativo
+
+Este é o ponto em que mais candidatos desperdiçam esforço.
+
+A C2 pede "aplicar conceitos das várias áreas de conhecimento". Isso virou, na indústria dos
+cursinhos, a prática de **decorar citações encaixáveis**:
+
+> "Segundo o filósofo Zygmunt Bauman, vivemos na modernidade líquida. Dessa forma, a
+> desigualdade brasileira persiste."
+
+O problema (já visto no @sec-cap-76): a citação **não sustenta nada**. Poderia ser trocada
+por qualquer outra, ou removida, sem que o parágrafo mudasse.
+
+::: {.callout-tip}
+## O teste do repertório
+**Retire a menção e releia o parágrafo.**
+
+- Se o parágrafo **muda** — se perde uma razão, uma evidência, um passo do raciocínio — o
+  repertório era **produtivo**. ✓
+- Se o parágrafo **continua igual** — o repertório era **decorativo**. Ele ocupou linhas e
+  não trabalhou.
+
+**Exemplo produtivo:**
+
+> "A Lei de Terras de 1850 condicionou o acesso à terra à compra, três décadas antes da
+> abolição. Quando a Lei Áurea chegou, os libertos encontraram um país em que toda a terra
+> já tinha dono — e nenhum meio de comprá-la. A exclusão não foi omissão: foi **projeto**,
+> escrito em lei com trinta e oito anos de antecedência."
+
+Aqui o repertório (história do Brasil) **é** o argumento. Retire-o e não sobra parágrafo.
+Note que ele não precisou de nome de filósofo: repertório é **conhecimento mobilizado**, não
+citação célebre.
+:::
+
+**Repertórios que funcionam**: dados (IBGE, Atlas da Violência, IDEB), episódios históricos
+pertinentes, legislação (Constituição, ECA, LDB), conceitos de outras disciplinas usados de
+fato, obras culturais **quando analisadas**, e não apenas nomeadas.
+
+## Os textos motivadores
+
+Servem para **delimitar o tema** e oferecer pontos de partida. Não são fonte a copiar.
+
+- **Leia-os** — eles definem o recorte. Ignorá-los aumenta o risco de fuga.
+- **Não os copie** — cópia sem produção própria zera.
+- **Não os parafraseie servilmente** — o texto que só reorganiza os motivadores não tem
+  autoria (C3).
+- **Use-os como interlocutores** — concorde, discorde, complemente. O melhor uso é
+  **discordar de um deles com fundamento**.
+
+## Concursos: o que muda
+
+Nem toda banca é o ENEM, e aplicar a fórmula do ENEM num concurso é erro frequente.
+
+| | **ENEM** | **Concursos (Cebraspe, FCC, FGV)** |
+|---|---|---|
+| **Extensão** | 30 linhas | varia (20 a 60) |
+| **Proposta de intervenção** | **obrigatória** (C5) | em geral **não** exigida |
+| **Repertório externo** | valorizado | frequentemente **irrelevante** |
+| **Foco** | projeto de texto + cidadania | **domínio técnico** e **norma** |
+| **Peso da norma** | 1/5 | frequentemente **alto**, com desconto por erro |
+| **Gênero** | dissertativo-argumentativo | pode ser parecer, ofício, relatório (@sec-cap-78) |
+| **Tema** | social amplo | frequentemente **técnico** da área |
+
+::: {.callout-important}
+## O erro clássico do concurseiro
+Escrever a redação do ENEM num concurso do Cebraspe: contextualização histórica, citação de
+Bauman, proposta de intervenção com agente e meio.
+
+O resultado é ruim, porque a banca **não pediu nada disso** e frequentemente **desconta**
+por prolixidade. Muitas bancas de concurso avaliam **objetividade** e penalizam
+enchimento — o oposto do que o cursinho de ENEM treinou.
+
+**A regra geral**: **leia o edital e o espelho de correção**. Cada banca publica seus
+critérios. Escrever sem lê-los é escrever para um leitor imaginário — o erro de previsão do
+@sec-cap-70, em sua forma mais cara.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Convém encerrar com honestidade sobre o que este capítulo é.
+
+Ele ensina a **cumprir um gênero avaliativo** — o que é legítimo e útil: os critérios são
+públicos, a prova define acesso à universidade, e deixar o candidato no escuro sobre as
+regras não é nobreza, é desserviço.
+
+Mas vale reconhecer as tensões:
+
+1. **O formato pode premiar o vazio.** Um texto que cumpre o checklist com teses
+   incontestáveis pontua razoavelmente; um texto arriscado, com tese forte e estrutura
+   heterodoxa, pode pontuar menos. O incentivo aponta para a segurança.
+2. **A C5 embute uma concepção discutível.** Exigir que todo texto termine propondo uma
+   solução estatal viável em 5 linhas ensina que todo problema social tem solução técnica
+   simples — o que é falso, e é uma tese política apresentada como critério neutro.
+3. **O repertório vira mercadoria.** A exigência de "conceitos de várias áreas" produziu uma
+   indústria de citações encaixáveis, que é o oposto de conhecimento mobilizado.
+
+Nada disso é razão para não aprender o gênero — é razão para saber **o que se está
+aprendendo**. A redação do ENEM não mede sua capacidade de escrever; mede sua capacidade de
+escrever **naquele gênero, naquelas condições**. São competências relacionadas, não
+idênticas.
+
+O aluno que entende isso faz duas coisas ao mesmo tempo: cumpre o gênero para passar **e**
+sabe que a boa escrita, fora dali, é outra coisa — mais livre, mais difícil e mais
+interessante [@faraco2008; @marcuschi2008].
+:::
+
+## 📋 Quadro-resumo
+
+**As cinco competências** (200 pontos cada):
+
+| | Avalia | Chave |
+|---|---|---|
+| **C1** | norma-padrão | a **única** sobre gramática |
+| **C2** | compreensão da proposta + repertório | **fuga ao tema zera** |
+| **C3** | seleção e organização de argumentos | **tese** e projeto de texto |
+| **C4** | coesão | uso **adequado**, não abundante |
+| **C5** | proposta de intervenção | **5 elementos** + direitos humanos |
+
+**Os cinco elementos da proposta**: **agente** (quem) · **ação** (o quê) · **meio** (como) ·
+**finalidade** (para quê) · **detalhamento** (especificação).
+
+**Zeram a redação**: fuga total ao tema · não ser dissertativo-argumentativo · menos de 8
+linhas · cópia dos motivadores · desrespeito aos direitos humanos · parte desconectada.
+
+**Teste do repertório**: retire a menção — o parágrafo muda? Se não, era **decorativo**.
+
+**Concursos**: em geral **sem** proposta de intervenção, **sem** repertório externo, com
+foco em **objetividade** e **norma**. **Leia o edital.**
+
+Em uma linha: a redação de prova é um **gênero**, não um tipo — e o que ela recompensa é
+determinado por suas **condições de produção e leitura**, que estão publicadas.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que gramática é o que mais pesa.** É **1 de 5** competências. Você não zera por
+  errar português.
+- **Repertório decorado.** Se a citação pode ser retirada sem que o parágrafo mude, ela não
+  é argumento.
+- **Fugir ao tema achando que está coerente.** Um texto pode ser impecável **sobre outro
+  assunto** — e zerar.
+- **Copiar os motivadores.** Zera. Parafraseá-los servilmente não zera, mas destrói a C3.
+- **Proposta incompleta.** Faltar agente, meio ou detalhamento custa pontos. Verifique os
+  cinco.
+- **Proposta que fere direitos humanos.** Zera a redação inteira — não só a C5.
+- **Encher de conectivos.** A C4 avalia **adequação**, não quantidade (@sec-cap-69).
+- **Escrever redação de ENEM em concurso.** Muitas bancas **descontam** por prolixidade e
+  não pedem intervenção. Leia o edital.
+- **Contextualização inflada.** "Desde os primórdios" gasta 3 das 30 linhas dizendo nada.
+
+## ✍️ Exercícios
+
+**1.** Liste as cinco competências e explique o que cada uma avalia.
+
+::: {.callout-tip collapse="true"}
+## Solução
+- **C1 — Domínio da norma-padrão da escrita.** Ortografia, acentuação, concordância,
+  regência, pontuação, colocação. É a **única** competência gramatical.
+- **C2 — Compreender a proposta e aplicar conceitos de várias áreas.** Avalia se o texto
+  trata **do tema proposto** (fuga zera) e se mobiliza **repertório** de outras áreas de
+  conhecimento.
+- **C3 — Selecionar, relacionar e organizar informações e argumentos em defesa de um ponto
+  de vista.** É a competência do **projeto de texto**, da **tese** e da **autoria**.
+- **C4 — Conhecimento dos mecanismos linguísticos de coesão.** Conectivos, retomadas,
+  articulação — avaliados pela **adequação e diversidade**, não pela quantidade.
+- **C5 — Elaborar proposta de intervenção respeitando os direitos humanos.** Exige cinco
+  elementos: agente, ação, meio, finalidade e detalhamento.
+
+**A observação que importa**: cada uma vale **200 pontos**. Logo, **quatro das cinco** (C2 a
+C5) avaliam aspectos **textuais e argumentativos**, e apenas **uma** avalia norma.
+
+Isso desmente a intuição escolar de que redação é "prova de gramática" — e confirma a tese
+do @sec-cap-68: a norma é **uma camada** do texto, não o que faz o texto funcionar.
+:::
+
+**2.** Aplique o teste do repertório: "Segundo o filósofo Zygmunt Bauman, vivemos na
+modernidade líquida. Dessa forma, a desigualdade brasileira persiste."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Aplicando o teste — retire a menção:**
+
+> "A desigualdade brasileira persiste."
+
+**O parágrafo mudou?** Não. Continua afirmando exatamente a mesma coisa, com a mesma (nula)
+sustentação. Logo, o repertório era **decorativo**.
+
+**O diagnóstico completo:**
+
+1. **A citação não sustenta a conclusão.** Nada em "modernidade líquida" — conceito sobre a
+   fluidez dos vínculos e instituições na contemporaneidade — implica que a desigualdade
+   **brasileira** persista. Não há passo lógico entre uma coisa e outra.
+2. **O conectivo mente.** "Dessa forma" anuncia uma **consequência** que não existe
+   (@sec-cap-69). É sinalização apontando para o vazio.
+3. **É intercambiável.** Troque Bauman por Foucault, Arendt ou Kant, e o parágrafo funciona
+   igual — o que prova que o nome é **enfeite de erudição**, não razão.
+
+**O que seria produtivo**: mobilizar Bauman só se o conceito **fizesse trabalho**. Por
+exemplo, discutindo por que políticas sociais de longo prazo perdem apoio numa sociedade que
+Bauman descreveu como incapaz de sustentar compromissos duradouros — aí o conceito seria uma
+**premissa**, e retirá-lo destruiria o argumento.
+
+**A lição**: repertório é **conhecimento mobilizado**, não citação célebre. Um dado do IBGE
+bem interpretado vale mais que dez filósofos decorados.
+:::
+
+**3.** Identifique os cinco elementos: "O Ministério da Educação deve criar um programa de
+formação continuada, por meio de parcerias com universidades federais, a fim de qualificar o
+ensino nas redes municipais, priorizando os municípios com menor IDEB."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Os cinco elementos estão **todos** presentes:
+
+| Elemento | Trecho | Pergunta respondida |
+|---|---|---|
+| **Agente** | "O Ministério da Educação" | **quem** faz? |
+| **Ação** | "deve criar um programa de formação continuada" | faz **o quê**? |
+| **Meio** | "por meio de parcerias com universidades federais" | **como**? |
+| **Finalidade** | "a fim de qualificar o ensino nas redes municipais" | **para quê**? |
+| **Detalhamento** | "priorizando os municípios com menor IDEB" | **especificação** |
+
+**Por que a proposta é boa:**
+
+1. O **agente** é específico e **competente** para a ação — o MEC de fato pode criar
+   programas de formação. (Erro comum: atribuir a ação a "a sociedade" ou "todos nós", que
+   não são agentes com capacidade de agir.)
+2. O **meio** é **viável**: as universidades federais existem e já fazem extensão.
+3. O **detalhamento** qualifica a ação com um critério **operacional** (o IDEB), o que
+   demonstra conhecimento e torna a proposta executável.
+4. **Respeita os direitos humanos** — requisito absoluto.
+
+**Nota**: o detalhamento pode incidir sobre **qualquer** dos outros quatro elementos. Aqui
+ele detalha a ação (quais municípios primeiro), mas poderia detalhar o meio ("por meio de
+parcerias... com bolsas custeadas pelo FNDE") ou a finalidade.
+:::
+
+**4.** (Estilo ENEM) Zera a redação do ENEM:
+
+a) errar a concordância verbal três vezes;
+b) fugir totalmente ao tema proposto;
+c) usar poucos conectivos;
+d) escrever 25 linhas em vez de 30;
+e) apresentar proposta de intervenção incompleta.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A **fuga total ao tema** é uma das situações objetivas que zeram a
+redação.
+
+E vale notar o que a torna traiçoeira: um texto pode ser **perfeitamente coerente,
+bem-escrito e argumentado** — e ainda assim zerar, por ser coerente **sobre o assunto
+errado** (@sec-cap-70). A qualidade não protege contra a fuga.
+
+As demais **não zeram**, apenas descontam:
+
+- **(a)** desvios de concordância afetam a **C1**, que vale 200 de 1000. Três erros custam
+  alguns pontos, não a nota.
+- **(c)** afeta a **C4**, e note que o inverso (encher de conectivos) também prejudica — o
+  critério é **adequação**, não quantidade.
+- **(d)** 25 linhas é perfeitamente aceitável. O limite que zera é **menos de 8 linhas**
+  (texto insuficiente).
+- **(e)** proposta incompleta reduz a **C5**, sem zerar a redação. O que **zera** é a
+  proposta que **fere os direitos humanos**.
+
+**A lição geral**: quase nenhuma das situações que zeram é **gramatical**. Você não zera por
+errar português — zera por **não cumprir o gênero** (fuga, tipo textual errado, cópia,
+violação de direitos humanos).
+:::
+
+**5.** Explique por que um texto coerente pode fugir ao tema.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque **coerência** e **pertinência ao tema** são propriedades **diferentes**.
+
+A coerência é a possibilidade de construir, a partir do texto, um todo de sentido contínuo,
+progressivo, não contraditório e relevante **internamente** (@sec-cap-70). Um texto pode
+satisfazer as quatro metarregras com perfeição — e ser sobre **outra coisa**.
+
+**Exemplo**: tema "Desafios da mobilidade urbana no Brasil". O candidato escreve quatro
+parágrafos impecáveis sobre **desigualdade social** — com tese, argumentos, dados, coesão e
+conclusão. O texto é excelente **como texto** e **fuga ao tema**, porque não trata de
+mobilidade.
+
+**Por que acontece com bons candidatos**: ironicamente, quem tem repertório é mais
+suscetível. O candidato reconhece uma conexão real (mobilidade tem a ver com desigualdade),
+começa a escrever pela conexão e **desliza** — o texto vai ficando cada vez melhor **sobre o
+tema vizinho**. A qualidade do texto mascara o desvio.
+
+**Como se protege:**
+
+1. **Leia os motivadores** — eles **delimitam o recorte** oficial.
+2. Escreva o tema **literalmente** no rascunho e verifique se a tese o responde.
+3. **Teste da coluna vertebral** (@sec-cap-75): de cada parágrafo, pergunte "isto trata do
+   tema **proposto**?" — não "isto é interessante?".
+4. Se usar um tema vizinho, ele deve estar **a serviço** do proposto: mobilidade **como
+   expressão** da desigualdade, não desigualdade em geral.
+
+**A lição**: a C2 avalia se você respondeu à **pergunta que foi feita**. Responder bem a
+outra pergunta zera.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na redação do ENEM, a competência
+gramatical é a mais importante."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** A competência gramatical (**C1**) é **uma** das cinco, e cada uma vale
+exatamente **200 pontos**. Não há hierarquia de peso.
+
+**A proporção real**: **quatro** das cinco competências avaliam aspectos **textuais e
+argumentativos** — compreensão da proposta e repertório (C2), projeto de texto e tese (C3),
+coesão (C4), proposta de intervenção (C5). Apenas **uma** avalia norma.
+
+**A evidência decisiva**: as situações que **zeram** a redação são, quase todas, **não
+gramaticais** — fuga ao tema, não ser dissertativo-argumentativo, menos de 8 linhas, cópia
+dos motivadores, desrespeito aos direitos humanos. Você **não zera por errar português**.
+
+Um texto com dez desvios de concordância e projeto argumentativo sólido pontua bem mais que
+um texto impecável na norma e sem tese — porque o primeiro perde pontos em **uma**
+competência e o segundo, em **três** (C2, C3 e possivelmente C5).
+
+**Por que a crença persiste**: porque a escola brasileira tradicionalmente **avalia** o que
+é rápido de verificar. Contar desvios de norma leva segundos; avaliar se há projeto de texto
+exige ler e reconstruir o raciocínio (@sec-cap-70). O ENEM, ao dedicar 4/5 das competências
+ao texto, tenta corrigir esse desequilíbrio — e a crença de que "redação é gramática"
+sobrevive apesar da grade, não por causa dela.
+:::
+
+**7.** Reescreva a proposta tornando-a completa: "É preciso que a sociedade combata o
+problema."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Diagnóstico da proposta original** — falha em **todos** os cinco elementos:
+
+- **Agente**: "a sociedade" não é agente — é uma abstração sem capacidade de agir. Quem, na
+  sociedade? Com que poder?
+- **Ação**: "combata" é vago. Combater **como**? Fazendo o quê?
+- **Meio**: ausente.
+- **Finalidade**: ausente (ou circular: combater para combater).
+- **Detalhamento**: ausente.
+
+Além disso, "o problema" não especifica qual.
+
+**Reescrita completa** (supondo tema sobre evasão escolar):
+
+> "O **Ministério da Educação**, em articulação com as secretarias estaduais, **deve
+> implementar um sistema de busca ativa de estudantes evadidos**, **por meio do cruzamento
+> dos dados de frequência escolar com os cadastros do Bolsa Família e do SUS**, **a fim de
+> identificar e reintegrar os alunos antes da evasão se consolidar** — **priorizando as
+> escolas cujas taxas de abandono superem a média estadual e destinando assistentes sociais
+> às unidades com maior incidência**."
+
+**Verificação dos cinco:**
+
+| Elemento | Trecho |
+|---|---|
+| **Agente** | Ministério da Educação + secretarias estaduais |
+| **Ação** | implementar sistema de busca ativa |
+| **Meio** | cruzamento de dados (frequência × Bolsa Família × SUS) |
+| **Finalidade** | identificar e reintegrar antes da evasão se consolidar |
+| **Detalhamento** | priorização por taxa de abandono + assistentes sociais |
+
+**Respeita direitos humanos**: ✓
+
+**O princípio**: o agente precisa ter **competência real** para a ação, e o meio precisa ser
+**viável**. Propostas com agentes fantasmas ("a sociedade", "todos nós", "a mídia") sinalizam
+que o candidato não sabe como o Estado funciona.
+:::
+
+**8.** Explique o uso adequado dos textos motivadores.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Os motivadores servem para **delimitar o tema** e oferecer pontos de partida. Não são fonte
+a copiar nem conteúdo a reorganizar.
+
+**Os quatro usos, do pior ao melhor:**
+
+1. **Copiar** ✗ — **zera** a redação (cópia sem produção própria). É a pior opção
+   possível.
+2. **Parafrasear servilmente** ✗ — não zera, mas destrói a **C3**: um texto que só
+   reorganiza os motivadores não tem **autoria** nem projeto próprio. O corretor reconhece
+   imediatamente — ele leu os motivadores centenas de vezes.
+3. **Ignorar** ✗ — arriscado: os motivadores **definem o recorte oficial** do tema. Ignorá-los
+   aumenta muito o risco de **fuga** (C2), que zera.
+4. **Usar como interlocutores** ✓ — concordar, discordar, complementar, tensionar. O melhor
+   uso é **discordar de um deles com fundamento**:
+
+> "O texto motivador II atribui a evasão à falta de interesse dos jovens. Os dados do Censo
+> Escolar, porém, mostram que 40% dos que abandonam o fazem por necessidade de trabalhar —
+> o que desloca a explicação do desinteresse individual para a **necessidade econômica**, e
+> muda inteiramente o tipo de intervenção necessária."
+
+**Por que o último é superior**: demonstra (i) que você **leu** os motivadores, (ii) que tem
+**repertório próprio** para confrontá-los, (iii) que exerce **autoria** — pontuando em C2 e
+C3 ao mesmo tempo.
+
+**A regra prática**: leia todos, use-os para fixar o recorte, e trate-os como
+**interlocutores em um debate**, não como material a ser reciclado.
+:::
+
+**9.** (Estilo FUVEST) Discuta a competência 5 (proposta de intervenção): o que ela avalia e
+o que ela pressupõe?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O que ela avalia** — e o que há de legítimo nisso:
+
+A C5 exige que o candidato proponha uma solução com cinco elementos (agente, ação, meio,
+finalidade, detalhamento), respeitando os direitos humanos. Ela avalia capacidades reais e
+valiosas:
+
+1. **Conhecimento de como o Estado funciona** — saber que o MEC pode criar programas e que
+   "a sociedade" não é agente exige repertório cívico genuíno.
+2. **Passagem do diagnóstico à ação** — não basta descrever o problema; é preciso pensar o
+   que fazer, que é o que se espera de um cidadão.
+3. **Compromisso com os direitos humanos** — num país onde propostas de extermínio circulam
+   no debate público, exigir esse piso não é neutro nem é pouco.
+
+**O que ela pressupõe** — e aqui está a discussão:
+
+1. **Que todo problema social tem solução técnica formulável em cinco linhas.** Isso é
+   falso. Há problemas cuja solução é disputada, lenta, contraditória ou desconhecida — e o
+   formato obriga o candidato a fingir que sabe. Um texto que concluísse "este problema não
+   tem solução simples, e propostas fáceis costumam agravá-lo" seria **intelectualmente
+   mais honesto** e pontuaria **menos**.
+2. **Que a solução é estatal e de cima para baixo.** O molde privilegia "o Ministério deve
+   criar um programa" e desfavorece soluções por mobilização social, mudança cultural de
+   longo prazo ou transformação econômica estrutural. É uma **concepção política** — a de
+   que problemas sociais se resolvem por política pública setorial — apresentada como
+   **critério técnico neutro**.
+3. **Que propor é melhor que analisar.** Um ensaio de Sérgio Buarque ou Celso Furtado
+   zeraria a C5 — eles diagnosticam e não propõem programa com agente e meio. A grade
+   recompensa um gênero muito específico de escrita cívica.
+
+**A tensão prática**: a C5 é a competência que mais produz **fórmula**, porque é a mais
+mecanizável. Cursinhos ensinam propostas genéricas encaixáveis em qualquer tema ("o MEC deve
+promover campanhas educativas por meio da mídia a fim de conscientizar") — o oposto do
+pensamento que a competência supostamente avalia.
+
+**A posição defensável**: a C5 é **defensável como critério de prova** — é objetiva,
+verificável, isonômica e ensina algo real sobre o Estado — **e** carrega uma tese política
+implícita. Aprenda a cumpri-la (a prova define seu acesso à universidade, e isso é sério),
+mas saiba que "resolver o problema em cinco linhas" é uma **convenção de gênero**, não uma
+descrição de como problemas sociais se resolvem. Confundir as duas coisas é o que produz
+cidadãos que acham que basta uma campanha educativa [@faraco2008; @marcuschi2008].
+:::
+
+**10.** Compare a estratégia para o ENEM e para um concurso do Cebraspe.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| | **ENEM** | **Cebraspe (concurso)** |
+|---|---|---|
+| **Gênero** | dissertativo-argumentativo | pode ser parecer, ofício, relatório, dissertação técnica |
+| **Extensão** | 30 linhas | varia (20 a 60), com limite rígido |
+| **Tema** | social amplo | frequentemente **técnico da área** |
+| **Proposta de intervenção** | **obrigatória** (C5) | em geral **não** exigida |
+| **Repertório externo** | valorizado (C2) | frequentemente **irrelevante** ou penalizado |
+| **Peso da norma** | 1/5 | **alto**, com desconto por erro |
+| **Critério dominante** | projeto de texto + cidadania | **domínio técnico** + **objetividade** |
+| **Correção** | 5 competências, 0–200 cada | espelho com quesitos + desconto de erros |
+
+**Estratégia ENEM**: tese na introdução, dois desenvolvimentos com repertório produtivo,
+proposta com os cinco elementos, respeito aos direitos humanos, coesão diversificada.
+
+**Estratégia Cebraspe**: responder **exatamente** o que o comando pede, com **objetividade
+máxima**, domínio do conteúdo técnico e norma impecável. Nada de contextualização, nada de
+citação de filósofo, nada de proposta de intervenção — **a menos que o comando peça**.
+
+**O erro clássico**: escrever a redação do ENEM num concurso. O candidato treinado em
+cursinho abre com "Desde os primórdios da humanidade", cita Bauman e termina propondo que o
+MEC crie um programa. O resultado é ruim por duas razões: a banca **não pediu** nada disso, e
+muitos espelhos **descontam por prolixidade** — o enchimento que o ENEM tolera, o concurso
+pune.
+
+**A causa do erro**: aplicar a convenção de um gênero a outro (@sec-cap-72). São gêneros
+**diferentes**, com situações de produção diferentes: o ENEM avalia um cidadão que ingressa
+na universidade; o concurso avalia um servidor que produzirá pareceres. A escrita esperada
+não é a mesma.
+
+**A regra que resolve tudo**: **leia o edital e o espelho de correção**. Cada banca publica
+seus critérios. Escrever sem lê-los é escrever para um leitor **imaginário** — o erro de
+previsão do @sec-cap-70, na sua forma mais cara.
+:::
+
+## 📚 Referências
+
+Os critérios de avaliação e as competências discutidas neste capítulo constam da *Cartilha
+do Participante — Redação no ENEM*, publicada anualmente pelo INEP, que é a fonte oficial e
+deve ser consultada na edição vigente; o mesmo vale para os editais e espelhos de correção
+das bancas de concurso. A análise da redação de vestibular como **gênero**, com situação de
+produção específica, segue Marcuschi [@marcuschi2008] e o @sec-cap-72; a discussão crítica
+do texto escolar, de seus vícios e de seus incentivos apoia-se em Faraco [@faraco2008] e
+Garcia [@garcia2010]. Para a estrutura da dissertação e o teste da coluna vertebral, veja o
+@sec-cap-75; para os tipos de argumento e o repertório produtivo, o @sec-cap-76; para a
+coesão avaliada na C4, o @sec-cap-69; para a coerência e a fuga ao tema, o @sec-cap-70. Os
+gêneros da escrita oficial e técnica, cobrados em muitos concursos, são tema do
+@sec-cap-78.
+
+::: {#refs}
 :::
