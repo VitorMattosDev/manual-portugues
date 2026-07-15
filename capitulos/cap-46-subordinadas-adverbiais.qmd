@@ -4,22 +4,302 @@ title: "Orações subordinadas adverbiais"
 
 # Orações subordinadas adverbiais {#sec-cap-46}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 7 — Sintaxe II: Período Composto.
+> "Quando, porque, se, embora, para que: pequenas palavras que carregam relações de
+> causa, tempo, condição — a lógica inteira do pensamento."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Completamos a tríade da subordinação com as **subordinadas adverbiais** — aquelas que
+fazem o papel de um **advérbio**, exprimindo uma **circunstância** (tempo, causa,
+condição, concessão, finalidade...) em relação à oração principal. Se a adjetiva
+caracteriza um nome e a substantiva ocupa a posição de um substantivo, a adverbial diz
+*quando*, *por que*, *sob que condição*, *apesar de quê* acontece o fato da principal.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+São as orações mais ligadas à **lógica do texto**: é por meio delas (e de suas
+conjunções) que se exprimem as relações de causa e efeito, condição e consequência,
+oposição e concessão que estruturam a argumentação (Volume 12). Reconhecê-las e
+distingui-las — sobretudo os pares que se confundem, como causa × explicação e concessão
+× adversidade — é essencial para a interpretação e para a redação.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** a oração adverbial pela conjunção subordinativa e pela circunstância;
+- **Classificar** as adverbiais nos nove tipos (causal, consecutiva, condicional,
+  concessiva, comparativa, conformativa, final, proporcional, temporal);
+- **Distinguir** pares que se confundem (causal × consecutiva; concessiva × condicional);
+- **Identificar** as conjunções típicas de cada tipo;
+- **Diferenciar** adverbial desenvolvida de reduzida;
+- **Analisar** as relações lógicas expressas pelas adverbiais.
+
+## O que são as subordinadas adverbiais
+
+**Oração subordinada adverbial** é aquela que exerce a função de **adjunto adverbial** da
+principal, exprimindo uma **circunstância**. É introduzida por uma **conjunção
+subordinativa adverbial** (@sec-cap-35), que indica o tipo de circunstância.
+
+Em "**Quando cheguei**, todos dormiam", a oração *quando cheguei* exprime a circunstância
+de **tempo** em que se deu o fato da principal — como faria o advérbio "então" ou a
+locução "naquele momento".
+
+## Os nove tipos de adverbiais
+
+A NGB reconhece nove tipos de adverbiais, organizados na @fig-adverbiais por circunstância
+e conjunção.
+
+::: {#fig-adverbiais}
+
+```{.tikz}
+%%| filename: adverbiais
+%%| alt: Tabela com os nove tipos de oração subordinada adverbial, cada um com a circunstância, as conjunções típicas e um exemplo. Causal (porque, já que), consecutiva (tão que), condicional (se, caso), concessiva (embora, ainda que), comparativa (como, que nem), conformativa (conforme, segundo), final (para que, a fim de que), proporcional (à medida que), temporal (quando, enquanto).
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  h/.style={draw=manualgray, fill=manualblue!12, minimum height=6mm, align=center, font=\bfseries\scriptsize},
+  c/.style={draw=manualgray, minimum height=6mm, align=left, inner sep=3pt},
+  t/.style={draw=manualgray, fill=manualgreen!10, minimum height=6mm, align=center, font=\bfseries\scriptsize},
+]
+  \node[h, minimum width=22mm] at (0,0) {Tipo};
+  \node[h, minimum width=40mm] at (3.1,0) {Conjunções};
+  \node[h, minimum width=40mm] at (7.1,0) {Sentido};
+
+  \foreach \i/\tp/\cj/\st in {
+    1/{Causal}/{porque, já que, como}/{causa},
+    2/{Consecutiva}/{tão... que, de modo que}/{consequência},
+    3/{Condicional}/{se, caso, contanto que}/{condição},
+    4/{Concessiva}/{embora, ainda que}/{concessão/quebra de expectativa},
+    5/{Comparativa}/{como, (mais) que}/{comparação},
+    6/{Conformativa}/{conforme, segundo}/{conformidade},
+    7/{Final}/{para que, a fim de que}/{finalidade},
+    8/{Proporcional}/{à medida que, quanto mais}/{proporção},
+    9/{Temporal}/{quando, enquanto, assim que}/{tempo}} {
+    \node[t, minimum width=22mm] at (0,-\i*0.62) {\tp};
+    \node[c, minimum width=40mm, text width=38mm] at (3.1,-\i*0.62) {\cj};
+    \node[c, minimum width=40mm, text width=38mm] at (7.1,-\i*0.62) {\st};
+  }
+\end{tikzpicture}
+```
+
+Os nove tipos de oração subordinada adverbial, com as conjunções típicas e a
+circunstância (sentido) que exprimem.
+:::
+
+- **Causal** (causa): *porque*, *já que*, *como*, *visto que*, *uma vez que* — "Não saí
+  **porque chovia**".
+- **Consecutiva** (consequência/resultado): *tão/tanto/tal... que*, *de modo que* —
+  "Chovia **tanto que a rua alagou**".
+- **Condicional** (condição/hipótese): *se*, *caso*, *contanto que*, *a menos que*,
+  *salvo se* — "**Se estudares**, passarás".
+- **Concessiva** (concessão — contraria uma expectativa sem impedir o fato): *embora*,
+  *ainda que*, *mesmo que*, *conquanto*, *por mais que* — "**Embora chovesse**, saímos".
+- **Comparativa** (comparação): *como*, *(mais/menos/tão)... que/quanto*, *que nem* —
+  "Ele é forte **como um touro**".
+- **Conformativa** (conformidade): *conforme*, *segundo*, *como*, *consoante* — "Fiz
+  tudo **conforme você mandou**".
+- **Final** (finalidade): *para que*, *a fim de que*, *que* — "Estudo **para que consiga
+  o emprego**".
+- **Proporcional** (proporção): *à medida que*, *à proporção que*, *quanto mais...
+  (mais)* — "**Quanto mais lia, mais aprendia**".
+- **Temporal** (tempo): *quando*, *enquanto*, *assim que*, *logo que*, *depois que*,
+  *antes que*, *sempre que* — "**Assim que cheguei**, liguei para você".
+
+## Pares que se confundem
+
+Alguns tipos causam dúvida constante:
+
+::: {.callout-important}
+## Causal × consecutiva: causa × resultado
+- **Causal**: exprime a **causa** (o motivo) do fato da principal — "Faltei **porque
+  estava doente**" (a doença é a causa da falta).
+- **Consecutiva**: exprime a **consequência** (o resultado), normalmente com um
+  intensificador (*tão/tanto*) na principal — "Estava **tão** doente **que faltei**" (a
+  falta é a consequência da doença intensa).
+
+Teste: a causa **explica** o fato; a consequência **resulta** dele. E a consecutiva quase
+sempre tem *tão/tanto/tal* na principal.
+:::
+
+::: {.callout-important}
+## Concessiva × condicional × adversativa
+- **Condicional** (*se*): apresenta uma **condição** para o fato — "**Se chover**, não
+  saio" (a chuva condiciona o não sair).
+- **Concessiva** (*embora*): apresenta um obstáculo que **não impede** o fato (quebra de
+  expectativa) — "**Embora chova**, saio" (a chuva não impede a saída).
+- A **adversativa** (*mas*, coordenada — @sec-cap-43) é aparentada da concessiva:
+  "Chove, **mas** saio". A concessiva subordina (com *embora*); a adversativa coordena
+  (com *mas*).
+
+Chave: *se* condiciona; *embora* concede (contraria a expectativa); *mas* coordena
+opondo.
+:::
+
+## Desenvolvidas × reduzidas
+
+As adverbiais também têm as duas formas:
+
+- **Desenvolvidas**: com conjunção e verbo finito — "**Quando cheguei**, chovia".
+- **Reduzidas**: com verbo em forma nominal, sem conjunção — "**Ao chegar**, chovia"
+  (reduzida de infinitivo, temporal); "**Estudando**, aprende-se" (reduzida de gerúndio,
+  condicional/temporal); "**Terminada a prova**, saíram" (reduzida de particípio,
+  temporal). Detalhe no @sec-cap-47.
+
+## 📋 Quadro-resumo
+
+| Tipo | Circunstância | Conjunção típica |
+|---|---|---|
+| **Causal** | causa | porque, já que, como |
+| **Consecutiva** | consequência | tão/tanto... que |
+| **Condicional** | condição | se, caso, contanto que |
+| **Concessiva** | concessão | embora, ainda que |
+| **Comparativa** | comparação | como, (mais) que |
+| **Conformativa** | conformidade | conforme, segundo |
+| **Final** | finalidade | para que, a fim de que |
+| **Proporcional** | proporção | à medida que, quanto mais |
+| **Temporal** | tempo | quando, enquanto, assim que |
+
+Em uma linha: as **subordinadas adverbiais** exprimem circunstâncias (função de adjunto
+adverbial), em nove tipos definidos pela conjunção — com atenção aos pares que se
+confundem: causa × consequência (causal × consecutiva) e condição × concessão
+(condicional × concessiva).
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir causal e consecutiva.** Causa (o motivo): "Faltei **porque** adoeci".
+  Consequência (o resultado, com *tão/tanto*): "Adoeci **tanto que** faltei".
+- **Confundir condicional e concessiva.** *Se* condiciona ("**Se** chover, fico"); *embora*
+  concede, sem impedir ("**Embora** chova, saio").
+- **Trocar concessiva por adversativa.** *Embora* subordina (concessiva); *mas* coordena
+  (adversativa) — relação lógica próxima, estrutura diferente.
+- **Confundir conformativa e comparativa com *como*.** *Como* comparativo compara
+  ("forte **como** um touro"); *como* conformativo indica conformidade ("fiz **como**
+  mandaram"). O sentido decide.
+- **Não reconhecer as reduzidas.** "Ao chegar", "estudando", "terminada a prova" são
+  adverbiais reduzidas — sem conjunção, com verbo nominal.
+
+## ✍️ Exercícios
+
+**1.** Classifique a adverbial: "Como estava cansado, dormi cedo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Como estava cansado" é subordinada adverbial **causal**: exprime a **causa** de dormir
+cedo (o cansaço é o motivo). Aqui *como* tem valor causal (equivale a "porque"/"já que"),
+posicionado no início do período. A principal é "dormi cedo".
+:::
+
+**2.** (Estilo ENEM) Em "Embora estivesse doente, foi trabalhar", a oração destacada é:
+
+a) causal;
+b) condicional;
+c) concessiva;
+d) consecutiva;
+e) temporal.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Embora estivesse doente" é adverbial **concessiva**: apresenta um
+obstáculo (a doença) que **não impede** o fato da principal (ir trabalhar) — quebra de
+expectativa. A conjunção *embora* é típica das concessivas.
+:::
+
+**3.** Classifique cada adverbial: (a) "Estudou **tanto que passou**"; (b) "**Se
+estudares**, passarás"; (c) "Chegou **quando** anoitecia".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "que passou" → **consecutiva** (consequência de estudar tanto; note o *tanto* na
+principal). (b) "Se estudares" → **condicional** (condição para passar). (c) "quando
+anoitecia" → **temporal** (o tempo em que chegou).
+:::
+
+**4.** Distinga causal de consecutiva: "Chorou porque estava triste" × "Estava tão triste
+que chorou".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Chorou **porque estava triste**", a adverbial é **causal**: exprime a **causa** do
+choro (a tristeza é o motivo — explica por que chorou). Em "Estava **tão** triste **que
+chorou**", a adverbial é **consecutiva**: exprime a **consequência** da tristeza intensa
+(o choro resulta dela), com o intensificador *tão* na principal. A causa explica; a
+consequência resulta.
+:::
+
+**5.** Identifique o tipo e a conjunção: "Fiz o trabalho conforme o professor orientou."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Tipo: adverbial **conformativa** (exprime **conformidade** — fez de acordo com a
+orientação). Conjunção: *conforme* (poderia ser *segundo*, *como*, *consoante*). A oração
+indica que a ação se realizou em conformidade com o que foi orientado.
+:::
+
+**6.** (Estilo FCC) Assinale o período com oração subordinada adverbial **final**:
+
+a) Estudo porque quero aprender;
+b) Estudo para que eu possa passar;
+c) Estudo, mas não decoro;
+d) Quando estudo, aprendo;
+e) Estudo tanto que me canso.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "para que eu possa passar" é adverbial **final** (exprime a
+**finalidade** do estudo — o objetivo). As demais são causal (a), coordenada adversativa
+(c), temporal (d) e consecutiva (e). A conjunção *para que* é marca da final.
+:::
+
+**7.** Diferencie condicional de concessiva: "Se chover, ficamos em casa" × "Embora
+chova, sairemos".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "**Se** chover, ficamos em casa", a adverbial é **condicional**: a chuva é a
+**condição** que, ocorrendo, determina o ficar em casa. Em "**Embora** chova, sairemos", a
+adverbial é **concessiva**: a chuva é um obstáculo que **não impede** a saída (contraria
+a expectativa). A condicional estabelece uma condição para o fato; a concessiva admite
+algo que poderia impedir o fato, mas não impede.
+:::
+
+**8.** Classifique a proporcional e explique: "À medida que envelhecia, ficava mais
+sábio."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"À medida que envelhecia" é adverbial **proporcional**: exprime uma **proporção**/
+simultaneidade progressiva entre dois fatos — na proporção em que envelhecia, na mesma
+medida ficava mais sábio. As conjunções *à medida que*, *à proporção que* e a estrutura
+*quanto mais... mais* são típicas da proporcional.
+:::
+
+**9.** Transforme a reduzida em desenvolvida e classifique: "Ao chegar, cumprimentou
+todos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Desenvolvida: "**Quando chegou**, cumprimentou todos". A reduzida de infinitivo "Ao
+chegar" (verbo em forma nominal, sem conjunção) converte-se em desenvolvida, com a
+conjunção temporal *quando* e verbo finito. É uma adverbial **temporal** (indica o tempo
+em que cumprimentou).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Como não havia ninguém, saí',
+a oração 'Como não havia ninguém' é adverbial comparativa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** "Como não havia ninguém" é adverbial **causal**, não comparativa. Aqui *como*
+tem valor **causal** (equivale a "já que"/"porque"): a ausência de pessoas é a **causa**
+de sair. O *como* comparativo estabeleceria uma comparação ("forte **como** um touro"), o
+que não é o caso. A conjunção *como* pode ser causal, comparativa ou conformativa — o
+sentido decide.
+:::
+
+## 📚 Referências
+
+As orações adverbiais, sua classificação e os pares que se confundem seguem Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017]. O valor lógico-argumentativo dos
+conectivos adverbiais (causa, condição, concessão) é central na coesão e na argumentação,
+tratadas por Koch [@koch2018coesao] e retomadas no Volume 12. As orações reduzidas, que
+condensam as adverbiais, substantivas e adjetivas, são o tema do @sec-cap-47.
+
+::: {#refs}
 :::
