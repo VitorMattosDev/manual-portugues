@@ -4,22 +4,631 @@ title: "O parágrafo: estrutura e desenvolvimento"
 
 # O parágrafo: estrutura e desenvolvimento {#sec-cap-74}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 12 — Redação e Escrita.
+> "Um parágrafo é uma ideia que respira. Duas ideias no mesmo parágrafo sufocam as duas."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 12, dedicado à **produção** de texto. Os volumes anteriores descreveram a
+língua; este ensina a **usá-la** para escrever — e começa pela unidade que organiza tudo o
+que vem depois: o **parágrafo**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Há uma razão para começar por aqui. O parágrafo é a menor unidade que já tem **projeto**:
+ele não apenas junta frases (isso é coesão), mas as junta **em torno de uma ideia**. Quem
+domina o parágrafo domina, em miniatura, a arquitetura da dissertação inteira — porque a
+dissertação é, estruturalmente, um parágrafo grande: tem tese, desenvolvimento e fecho,
+como cada parágrafo tem.
+
+E há uma razão prática: a maior parte das redações ruins não é ruim por erro de gramática.
+É ruim porque os parágrafos não têm **uma** ideia — têm três misturadas, ou nenhuma.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** o parágrafo como unidade de ideia, e não de extensão;
+- **Identificar** e **redigir** o tópico frase;
+- **Aplicar** os principais modos de desenvolvimento do parágrafo;
+- **Avaliar** a unidade de um parágrafo pelo teste da ideia única;
+- **Articular** parágrafos entre si, garantindo progressão;
+- **Diagnosticar** os defeitos mais comuns: parágrafo sem tópico, com duas ideias, sem
+  desenvolvimento.
+
+## O que é um parágrafo
+
+**Parágrafo** é uma unidade de texto que desenvolve **uma** ideia central. O recuo (ou a
+linha em branco) é apenas o **sinal gráfico** dessa unidade — não a define.
+
+Note o paralelo com o @sec-cap-68: assim como o texto não se define por extensão, o
+parágrafo também não. Ele pode ter uma frase ou quinze. O que o define é a **unidade de
+ideia**.
+
+::: {.callout-important}
+## O teste da ideia única
+Diante de qualquer parágrafo, faça a pergunta:
+
+> **"Qual é a ideia deste parágrafo?"**
+
+- Se você responde em **uma frase** → o parágrafo tem unidade. ✓
+- Se você precisa de **"ele fala disso, disso e daquilo"** → há mais de uma ideia. **Divida.**
+- Se você **não consegue** responder → não há ideia. **Reescreva ou corte.**
+
+Este é o teste mais útil deste capítulo, e você deve aplicá-lo a cada parágrafo de cada
+redação que escrever.
+:::
+
+## O tópico frase
+
+O **tópico frase** é a frase que **enuncia a ideia central** do parágrafo. É o contrato: ele
+diz ao leitor o que vem, e o resto do parágrafo cumpre a promessa.
+
+> "**A desigualdade brasileira tem raízes fundiárias.** A Lei de Terras de 1850 tornou o
+> acesso à terra dependente de compra, justamente quando a abolição se aproximava. O
+> resultado foi que os libertos, sem recursos, ficaram estruturalmente impedidos de possuir
+> terra. A concentração fundiária que daí resultou atravessou o século XX praticamente
+> intacta."
+
+O tópico frase (em negrito) anuncia; as três frases seguintes **sustentam**. O leitor sabe
+desde a primeira linha aonde o parágrafo vai.
+
+### Onde colocar
+
+- **No início** (o mais comum e o mais recomendado em texto argumentativo) — dedutivo:
+  anuncia e depois sustenta. Facilita a leitura e a correção.
+- **No fim** — indutivo: acumula evidências e conclui. Cria efeito de descoberta, mas exige
+  do leitor mais paciência.
+- **No meio** — raro; usa-se quando se abre com contexto e se fecha com desdobramento.
+- **Implícito** — sem frase que o enuncie. Frequente na narração e na descrição, arriscado
+  na argumentação.
+
+::: {.callout-tip}
+## Para a redação de vestibular: tópico frase no início, sempre
+Recomendação prática, e vale ser franco sobre a razão: o corretor lê **centenas** de
+redações em pouco tempo. Um parágrafo que anuncia sua ideia na primeira linha é
+**imediatamente** compreendido; um que a esconde exige releitura — e releitura, nas
+condições reais da correção, muitas vezes não acontece.
+
+Isso não é uma verdade sobre a boa escrita — é uma verdade sobre o **gênero** "redação de
+vestibular" e suas condições de leitura (@sec-cap-72). Num ensaio literário, esconder a
+tese pode ser elegante. Na prova, é risco desnecessário.
+:::
+
+## Modos de desenvolvimento
+
+Anunciada a ideia, é preciso **desenvolvê-la**. Aqui está a diferença entre o texto que
+avança e o que gira em falso (@sec-cap-70).
+
+Os modos mais produtivos:
+
+### 1. Por exemplificação
+
+Enuncia-se o geral e ilustra-se com casos concretos.
+
+> "Empréstimos raramente substituem palavras existentes: eles se especializam. *Delivery*
+> não matou *entrega* — ocupou o nicho da comida por aplicativo. *Show* não matou
+> *espetáculo* — dividiu com ele o campo musical."
+
+### 2. Por causa e consequência
+
+> "A concentração fundiária produziu êxodo rural. Sem terra, milhões migraram para as
+> cidades entre 1950 e 1980. As periferias urbanas que hoje conhecemos são, em larga
+> medida, o endereço final dessa expulsão."
+
+### 3. Por comparação e contraste
+
+> "A fala planeja em tempo real; a escrita permite revisão. Daí que o anacoluto seja normal
+> numa e destoante na outra: quem fala não pode apagar o que já disse; quem escreve pode."
+
+### 4. Por definição
+
+> "Chama-se catacrese a metáfora lexicalizada por falta de termo próprio. Diferentemente da
+> metáfora viva, ela não produz efeito de sentido: ninguém percebe imagem alguma ao dizer
+> 'pé da mesa'."
+
+### 5. Por dados e evidências
+
+> "A desigualdade brasileira é resiliente. O índice de Gini praticamente não se moveu entre
+> 1960 e 1990. Mesmo o período de queda, entre 2001 e 2014, reduziu-o de 0,59 para 0,51 —
+> um avanço real, mas insuficiente para tirar o país da faixa dos mais desiguais do mundo."
+
+### 6. Por autoridade
+
+> "Como demonstra Marcuschi [@marcuschi2008], os gêneros são artefatos culturais
+> historicamente construídos — o que explica por que o telegrama morreu e o tuíte nasceu."
+
+### 7. Por divisão ou enumeração
+
+> "A coesão referencial opera por quatro mecanismos: substituição pronominal, substituição
+> lexical, elipse e repetição."
+
+::: {.callout-important}
+## O que não é desenvolvimento
+**Repetir a ideia com outras palavras não desenvolve nada.** É a falha de **progressão** do
+@sec-cap-70, e é o defeito mais comum da redação escolar:
+
+> "A violência urbana é grave. A criminalidade nas cidades preocupa. É séria a questão da
+> violência nos centros urbanos." ✗
+
+Três frases, uma ideia, zero avanço. O parágrafo tem unidade — e não tem desenvolvimento.
+
+**O teste**: de cada frase do parágrafo, pergunte "**o que ela acrescenta** que a anterior
+já não dizia?". Se a resposta for "nada", corte-a ou substitua-a por algo que acrescente.
+:::
+
+## A estrutura completa
+
+::: {#fig-paragrafo}
+
+```{.tikz}
+%%| filename: paragrafo
+%%| alt: Esquema da estrutura de um parágrafo em três partes verticais. No topo, tópico frase, que enuncia a ideia central e funciona como contrato com o leitor, com o exemplo a desigualdade brasileira tem raízes fundiárias. No meio, desenvolvimento, que cumpre a promessa do tópico, com sete modos possíveis listados: exemplificação, causa e consequência, comparação e contraste, definição, dados e evidências, autoridade, e divisão ou enumeração. Na base, fecho ou conclusão, opcional, que sintetiza ou faz a transição para o próximo parágrafo. À direita, os dois testes fundamentais: o teste da ideia única, que pergunta qual é a ideia deste parágrafo, e deve ser respondível em uma frase; e o teste da progressão, que pergunta o que cada frase acrescenta que a anterior não dizia.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=5pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[cx, draw=manualblue, fill=manualblue!14, text width=54mm] (t) at (-2.4,2.4)
+    {\textbf{TÓPICO FRASE}\\ enuncia a \emph{ideia central} — é o \textbf{contrato}\\[3pt]
+     {\scriptsize ``A desigualdade brasileira tem raízes fundiárias.''}};
+
+  \node[cx, draw=manualgreen, fill=manualgreen!10, text width=54mm, align=left] (d) at (-2.4,0.4)
+    {\hfill\textbf{DESENVOLVIMENTO}\hfill\null\\ \centering\emph{cumpre a promessa do tópico}\\[3pt]
+     \raggedright
+     1. exemplificação \quad 2. causa/consequência\\
+     3. comparação/contraste \quad 4. definição\\
+     5. dados e evidências \quad 6. autoridade\\
+     7. divisão/enumeração};
+
+  \node[cx, draw=manualgray, fill=manualgray!10, text width=54mm] (f) at (-2.4,-1.5)
+    {\textbf{FECHO} {\scriptsize(opcional)}\\ sintetiza ou faz a \emph{transição}};
+
+  \draw[s] (t) -- (d); \draw[s] (d) -- (f);
+
+  %% testes
+  \node[cx, draw=manualred, fill=manualred!8, text width=44mm, align=left] at (4.6,1.4)
+    {\textbf{OS DOIS TESTES}\\[4pt]
+     \textbf{1. Ideia única}\\ {\scriptsize ``Qual é a ideia deste parágrafo?''}\\
+     {\scriptsize Respondeu em \emph{uma} frase? $\checkmark$}\\
+     {\scriptsize ``Fala disso e daquilo''? \textbf{Divida.}}\\[4pt]
+     \textbf{2. Progressão}\\ {\scriptsize ``O que esta frase acrescenta}\\
+     {\scriptsize que a anterior não dizia?''}\\
+     {\scriptsize ``Nada''? \textbf{Corte.}}};
+\end{tikzpicture}
+```
+
+A arquitetura do parágrafo e os dois testes que a validam. O **tópico frase** é uma
+promessa; o **desenvolvimento** a cumpre.
+:::
+
+## Articulação entre parágrafos
+
+Um texto não é uma pilha de parágrafos bons — é uma **sequência** deles. A passagem de um
+para outro precisa ser visível.
+
+**Recursos de articulação:**
+
+- **Conectivo no início do parágrafo**: "**No entanto**, essa explicação é insuficiente..."
+- **Retomada do parágrafo anterior**: "**Essa concentração fundiária** produziu, por sua
+  vez..."
+- **Anúncio do que vem**: "**Um segundo fator** agrava o quadro..."
+- **Pergunta de transição**: "**Mas por que isso persiste?**"
+
+::: {.callout-tip}
+## O teste do esqueleto
+Uma técnica de revisão poderosa (@sec-cap-80): copie **apenas os tópicos frase** de todos
+os parágrafos, em sequência, e leia-os isolados.
+
+O resultado deve ser um **resumo coerente** do seu texto, com progressão visível. Se os
+tópicos frase, lidos juntos, não formam um raciocínio — se repetem, se não se conectam, se
+não chegam a lugar nenhum —, o problema é de **coerência global** (@sec-cap-70), e nenhum
+ajuste local vai resolver.
+
+É o teste que revela o que a releitura frase a frase esconde.
+:::
+
+## Extensão: quanto deve ter um parágrafo?
+
+A pergunta é inevitável, e a resposta honesta é: **depende do gênero**.
+
+- **Redação de vestibular** — 4 a 8 linhas por parágrafo, tipicamente 4 ou 5 parágrafos em
+  30 linhas. É uma **convenção do gênero**, não uma regra da língua.
+- **Texto jornalístico** — parágrafos curtos, 2 a 4 linhas. A leitura em coluna estreita e
+  em tela pede blocos pequenos.
+- **Texto acadêmico** — parágrafos longos, 10 a 20 linhas, porque cada um desenvolve um
+  argumento completo.
+- **Literatura** — livre. Há parágrafos de uma palavra e de dez páginas.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Vale desmontar duas "regras" que a escola ensina como se fossem gramática:
+
+**"Todo parágrafo precisa de tópico frase explícito."** Falso — é uma **convenção didática**
+útil para o texto argumentativo escolar, mas a narração e a descrição frequentemente
+dispensam tópico frase, e bons ensaístas o omitem de propósito. A regra é boa **para
+aprender** e para a prova; não é uma lei da escrita.
+
+**"Parágrafo precisa ter no mínimo três frases."** Falso, e sem qualquer fundamento. Um
+parágrafo de uma frase pode ser o mais eficaz do texto — sobretudo para dar ênfase depois de
+um bloco longo. Jornalistas fazem isso o tempo todo.
+
+O que é **verdadeiro** em ambos os casos: nas condições do gênero "redação de vestibular"
+(@sec-cap-72) — corretor com pouco tempo, 30 linhas, critérios explícitos —, tópico frase
+explícito e parágrafos de 4 a 8 linhas **funcionam melhor**, porque reduzem o custo de
+leitura. Siga a convenção na prova, mas saiba que está seguindo uma **convenção de gênero**,
+e não descobrindo uma verdade sobre a língua. Fora dali, a decisão é sua — e depende do
+leitor que você previu (@sec-cap-70).
+:::
+
+## 📋 Quadro-resumo
+
+**Definição**: parágrafo é a unidade que desenvolve **uma** ideia central. O recuo é sinal
+gráfico, não definição. Não se define por extensão.
+
+**Estrutura**: **tópico frase** (enuncia a ideia — o contrato) + **desenvolvimento** (cumpre
+a promessa) + **fecho** (opcional: sintetiza ou faz transição).
+
+**Sete modos de desenvolvimento**: exemplificação · causa e consequência · comparação e
+contraste · definição · dados e evidências · autoridade · divisão e enumeração.
+
+**Os dois testes:**
+
+| Teste | Pergunta | Se falhar |
+|---|---|---|
+| **Ideia única** | "Qual é a ideia deste parágrafo?" | responde em 1 frase? ✓ / "disso e daquilo"? **divida** / não responde? **reescreva** |
+| **Progressão** | "O que esta frase acrescenta?" | "nada"? **corte** |
+
+**Teste do esqueleto** (revisão): leia só os tópicos frase em sequência — devem formar um
+resumo coerente do texto.
+
+Em uma linha: **um parágrafo, uma ideia**; o tópico frase **promete** e o desenvolvimento
+**cumpre** — e repetir a ideia com outras palavras não é desenvolver.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Parágrafo com duas ideias.** Se você precisa de "e também" para resumi-lo, **divida**.
+- **Parágrafo sem ideia.** Se você não consegue dizer qual é, o leitor também não. Corte ou
+  reescreva.
+- **Confundir repetição com desenvolvimento.** Dizer a mesma coisa com sinônimos é girar em
+  falso (@sec-cap-70).
+- **Definir parágrafo por extensão.** "Mínimo três frases" é invenção escolar. Um parágrafo
+  de uma frase pode ser o melhor do texto.
+- **Tópico frase escondido na prova.** Não é erro de escrita, mas é **risco de gênero**: o
+  corretor tem pouco tempo.
+- **Parágrafos sem articulação.** Bons parágrafos empilhados não formam texto. Marque a
+  transição.
+- **Achar que as regras escolares são gramática.** São **convenções de gênero** — úteis na
+  prova, não universais.
+- **Revisar só frase a frase.** Isso não detecta falha global. Use o **teste do esqueleto**.
+
+## ✍️ Exercícios
+
+**1.** Aplique o teste da ideia única: "A desigualdade brasileira tem raízes fundiárias. A
+Lei de Terras de 1850 condicionou o acesso à terra à compra. Os libertos, sem recursos,
+ficaram impedidos de possuir terra. Além disso, o Brasil tem uma culinária muito rica, com
+influências indígenas e africanas."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O parágrafo falha no teste.** A resposta à pergunta "qual é a ideia?" seria: "ele fala
+das raízes fundiárias da desigualdade **e também** da culinária brasileira" — o "e também"
+denuncia a falha.
+
+**Diagnóstico**: as três primeiras frases têm unidade perfeita — o tópico frase ("a
+desigualdade tem raízes fundiárias") é sustentado por desenvolvimento **por causa e
+consequência** (Lei de Terras → impedimento dos libertos). A quarta frase introduz um
+assunto **inteiramente alheio**.
+
+**Além do problema de unidade**, há falha de **relação** (@sec-cap-70): a culinária não é
+relevante para a desigualdade fundiária. E o conectivo "além disso" **agrava**, ao anunciar
+um acréscimo na mesma direção que não se concretiza — o conectivo mente sobre a relação
+(@sec-cap-69).
+
+**Correção**: **cortar** a última frase. Se a culinária for relevante para o texto (o que é
+improvável), ela precisa de parágrafo próprio, com tópico frase próprio e uma ponte
+argumentativa que justifique sua presença.
+:::
+
+**2.** Identifique o tópico frase e o modo de desenvolvimento: "Empréstimos raramente
+substituem palavras existentes: eles se especializam. *Delivery* não matou *entrega* —
+ocupou o nicho da comida por aplicativo. *Show* não matou *espetáculo* — dividiu com ele o
+campo musical."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Tópico frase**: "Empréstimos raramente substituem palavras existentes: eles se
+especializam." Está no **início** (estrutura dedutiva) e enuncia a ideia central com
+precisão — inclusive antecipando o mecanismo (*especialização*), o que torna o contrato mais
+específico.
+
+**Modo de desenvolvimento**: **exemplificação**. As duas frases seguintes ilustram o geral
+com casos concretos (*delivery*/*entrega*; *show*/*espetáculo*), e cada exemplo **cumpre** o
+que o tópico prometeu: mostra a não substituição **e** o nicho específico ocupado.
+
+**Por que funciona**:
+
+1. O tópico frase é uma **tese contestável** — alguém poderia afirmar o contrário —, o que
+   dá razão para o parágrafo existir.
+2. Os exemplos **progridem** (@sec-cap-70): cada um acrescenta um caso novo, não repete o
+   anterior com outras palavras.
+3. Há **paralelismo** entre os exemplos ("não matou X — ocupou/dividiu Y"), o que reforça a
+   generalização: dois casos, mesmo padrão.
+4. O parágrafo tem **unidade**: a resposta ao teste cabe numa frase.
+:::
+
+**3.** Explique o teste do esqueleto e para que serve.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O procedimento**: copie **apenas os tópicos frase** de todos os parágrafos, em sequência,
+e leia-os isolados, sem o resto do texto.
+
+**O resultado esperado**: um **resumo coerente** do texto, com progressão visível — cada
+tópico deve avançar sobre o anterior e o conjunto deve chegar a algum lugar.
+
+**Para que serve**: detectar falhas de **coerência global** (@sec-cap-70), que a revisão
+frase a frase **não enxerga**.
+
+**Por que é necessário**: o quadro clínico mais comum da redação escolar é **coerência local
+impecável, coerência global ausente** — cada parágrafo funciona isoladamente, mas o conjunto
+não vai a lugar nenhum: a introdução anuncia a tese A, o desenvolvimento discute B, a
+conclusão propõe solução para C.
+
+Reler o texto **linearmente** não revela isso, porque a cada momento você está imerso no
+parágrafo atual e ele faz sentido. O esqueleto **remove** o preenchimento e expõe o
+**arranjo** — e é aí que a incoerência aparece.
+
+**Diagnósticos que o teste revela**:
+
+- tópicos que **repetem** entre si → falha de progressão;
+- tópicos que **não se conectam** → falta de articulação;
+- tópicos que **não chegam** à conclusão anunciada → o texto não cumpre a introdução;
+- parágrafo **sem tópico identificável** → parágrafo sem ideia.
+
+É uma das técnicas mais eficazes de revisão (@sec-cap-80).
+:::
+
+**4.** (Estilo ENEM) O tópico frase de um parágrafo:
+
+a) deve sempre ter no mínimo três orações;
+b) enuncia a ideia central que o parágrafo desenvolverá;
+c) deve vir obrigatoriamente no fim do parágrafo;
+d) é sinônimo de conclusão;
+e) é dispensável em qualquer gênero.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O tópico frase **enuncia a ideia central** do parágrafo — é o
+**contrato** com o leitor: anuncia o que vem, e o desenvolvimento cumpre a promessa.
+
+As demais: **(a)** invenção sem fundamento — o tópico frase é frequentemente **uma** oração
+curta, e a "regra das três orações" não existe; **(c)** a posição mais comum e mais
+recomendada em texto argumentativo é o **início** (estrutura dedutiva), embora o fim
+(indutiva) e o meio sejam possíveis; **(d)** confunde-o com o **fecho** — o tópico **abre**
+e anuncia, a conclusão **fecha** e sintetiza; **(e)** exagera na direção oposta: embora
+narração e descrição frequentemente dispensem tópico frase explícito, ele é praticamente
+indispensável no texto argumentativo escolar, dadas as condições de leitura do gênero
+(@sec-cap-72).
+:::
+
+**5.** Diagnostique e corrija: "A violência urbana é grave. A criminalidade nas cidades
+preocupa. É séria a questão da violência nos centros urbanos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Diagnóstico**: o parágrafo tem **unidade** (uma só ideia: a violência urbana é grave) e
+**zero desenvolvimento**. É a falha de **progressão** (@sec-cap-70): as três frases dizem a
+**mesma** proposição, variando apenas o vocabulário.
+
+**O teste da progressão**: "o que a segunda frase acrescenta que a primeira já não dizia?"
+— **nada**. Idem para a terceira. Logo, cortem-se ou substituam-se.
+
+**Correção** (desenvolvendo por **dados** e **causa/consequência**):
+
+> "A violência urbana brasileira é grave — e desigualmente distribuída. Segundo o Atlas da
+> Violência, as taxas de homicídio nas periferias das capitais chegam a ser dez vezes
+> maiores que nos bairros centrais das mesmas cidades. As vítimas são majoritariamente
+> jovens, negros e do sexo masculino. Essa concentração revela que o fenômeno não é
+> aleatório: ele acompanha marcadores sociais definidos, o que desloca a discussão do campo
+> da segurança pública para o das desigualdades estruturais."
+
+**O que mudou**: o tópico frase ganhou uma **especificação** contestável ("desigualmente
+distribuída"), que dá ao parágrafo algo a **provar**. Depois, cada frase acrescenta: dados
+(onde) → perfil (quem) → interpretação (o que isso significa) → tese (para onde vai a
+discussão).
+
+**O princípio**: desenvolver é **qualificar, exemplificar, problematizar, concluir** — cada
+frase respondendo a "e daí?". Não é dizer a mesma coisa com sinônimos.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Um parágrafo deve ter, no mínimo, três
+frases."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Não há **nenhum** fundamento linguístico para essa regra — é invenção escolar.
+
+O parágrafo se define pela **unidade de ideia**, não pela extensão. Um parágrafo de **uma
+frase** pode ser perfeitamente válido e, às vezes, o mais eficaz do texto — sobretudo para
+dar **ênfase** depois de um bloco longo:
+
+> "[...] e foi assim que, durante trinta anos, o laudo permaneceu na gaveta enquanto as
+> chuvas se repetiam e os alertas se acumulavam sem resposta.
+>
+> **Ninguém foi punido.**"
+
+O parágrafo de três palavras é o mais forte do trecho — justamente porque é curto e
+isolado. Jornalistas e ensaístas usam o recurso constantemente.
+
+**O que é verdadeiro por trás da regra falsa**: nas condições do gênero "redação de
+vestibular" (@sec-cap-72) — 30 linhas, corretor com pouco tempo —, parágrafos de 4 a 8
+linhas funcionam melhor, e um parágrafo de uma frase pode parecer desenvolvimento
+insuficiente. Mas isso é **convenção de gênero**, não regra da língua. A escola erra ao
+apresentar a segunda coisa como se fosse a primeira.
+:::
+
+**7.** Reescreva o parágrafo dividindo-o adequadamente: "A intertextualidade é condição de
+todo texto. Todo texto responde a outros, cita, alude, contesta. A paráfrase preserva o
+sentido e muda a forma, enquanto a paródia subverte o sentido imitando a forma. O plágio
+ocorre quando se apresenta como seu o que é de outro, seja a palavra, seja a ideia."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Diagnóstico**: o parágrafo abriga **três ideias distintas**, cada uma merecendo
+desenvolvimento próprio. O teste da ideia única falha: "ele fala da intertextualidade, **e
+também** da paráfrase × paródia, **e também** do plágio."
+
+**Reescrita em três parágrafos:**
+
+> **A intertextualidade é condição de todo texto, não recurso opcional.** Todo texto
+> responde a outros: cita, alude, contesta, retoma ou pressupõe — com ou sem consciência de
+> quem escreve. Mesmo uma frase aparentemente isolada dialoga com os textos que a
+> antecederam e com o gênero que a moldou.
+>
+> **Entre as formas de retomada, duas se opõem pela direção do sentido.** A paráfrase
+> preserva o sentido e muda a forma: é reformulação confirmatória, que serve ao original. A
+> paródia faz o inverso — imita a forma para subverter o sentido, usando o molde do texto
+> contra ele próprio.
+>
+> **A fronteira problemática não está entre essas formas, mas entre elas e o plágio.**
+> Plagia-se ao apresentar como seu o que é de outro — sejam as palavras, seja a ideia. O
+> critério não é o grau de alteração do texto, mas a questão de quem leva o crédito.
+
+**O que se ganhou**: cada parágrafo tem agora **tópico frase explícito** (em negrito) e
+espaço para desenvolver. E os três se **articulam**: "Entre as formas de retomada" retoma o
+parágrafo 1; "A fronteira problemática não está entre essas formas" retoma o 2 e anuncia o
+3. O texto progride em vez de amontoar.
+:::
+
+**8.** Escreva um parágrafo com tópico frase e desenvolvimento por contraste sobre fala e
+escrita.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível:
+
+> **A diferença fundamental entre fala e escrita não está na correção, mas nas condições de
+> planejamento.** Quem fala planeja em tempo real, diante do interlocutor, e não pode apagar
+> o que já disse — daí as reformulações, os anacolutos e as retomadas que povoam a
+> conversa mais culta. Quem escreve dispõe de tempo, rascunho e tecla de deletar, e por
+> isso pode entregar um texto em que o planejamento não deixou rastro. O resultado é que
+> construções normais na fala destoam na escrita, e vice-versa: um texto acadêmico que
+> reproduzisse as hesitações da conversa seria ilegível, mas uma fala que reproduzisse a
+> sintaxe de um texto acadêmico seria insuportável. Não há aqui uma modalidade superior e
+> outra deficiente — há duas tecnologias de linguagem operando sob restrições diferentes.
+
+**Análise da resposta:**
+
+- **Tópico frase** (início): enuncia a ideia central e é **contestável** — nega uma
+  explicação corrente (correção) e propõe outra (planejamento), o que dá ao parágrafo algo
+  a provar.
+- **Desenvolvimento por contraste**: fala × escrita, em paralelismo sistemático — planeja
+  em tempo real × dispõe de tempo; não pode apagar × pode deletar; deixa rastro × não deixa.
+- **Progressão**: cada frase acrescenta (mecanismo → consequência → simetria dos efeitos →
+  conclusão avaliativa).
+- **Fecho**: a última frase sintetiza e neutraliza a hierarquia, respondendo à pergunta que
+  o contraste levanta.
+
+O tema é desenvolvido no @sec-cap-90.
+:::
+
+**9.** (Estilo FUVEST) Discuta: "todo parágrafo precisa de tópico frase".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é falsa como regra universal e verdadeira como convenção de gênero.** A
+distinção é o ponto.
+
+**Por que é falsa em geral:**
+
+1. **A narração e a descrição frequentemente dispensam tópico frase.** Um parágrafo de
+   romance que descreve uma sala não anuncia "esta sala era ampla e mal iluminada" — ele
+   simplesmente descreve, e a unidade emerge do referente comum, não de uma frase-contrato.
+2. **Bons ensaístas o omitem de propósito.** A construção **indutiva** — acumular
+   evidências e revelar a ideia no fim — produz efeito de descoberta que o tópico inicial
+   destruiria. Em texto literário ou ensaístico, anunciar tudo na primeira linha pode ser
+   uma perda.
+3. **O tópico frase pode ser implícito** sem prejuízo: o parágrafo tem ideia única, mas
+   nenhuma frase a enuncia isoladamente. A unidade existe; a etiqueta, não.
+
+**Por que é verdadeira no gênero escolar/vestibular:**
+
+As condições de leitura do gênero (@sec-cap-72) mudam o cálculo. O corretor lê **centenas**
+de redações sob pressão de tempo. Um parágrafo que anuncia sua ideia na primeira linha é
+**imediatamente** compreendido e avaliado; um que a esconde exige releitura — e a releitura,
+nas condições reais, frequentemente não acontece. O custo do risco é assimétrico: esconder
+a tese pode render elegância que ninguém notará, ou confusão que custará pontos.
+
+**A síntese**: a regra é um **conselho de gênero**, excelente para aprender e para a prova,
+e apresentado pela escola como se fosse uma lei da escrita. Confundir as duas coisas produz
+dois danos: o aluno que acha que está aprendendo gramática quando aprende etiqueta, e o
+aluno que, ao descobrir bons textos sem tópico frase, conclui que a escola mentiu sobre
+tudo.
+
+**A formulação honesta**: "na redação de vestibular, use tópico frase explícito no início —
+não porque seja a única boa escrita, mas porque é o que funciona **naquelas condições de
+leitura**". Saber **por que** se segue uma convenção é o que separa quem a domina de quem a
+obedece.
+:::
+
+**10.** Aplique o teste do esqueleto a um texto de cinco parágrafos que você tenha escrito e
+comente o resultado.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível — demonstração do método com um exemplo construído.
+
+**Esqueleto extraído** (só os tópicos frase) de uma redação sobre desigualdade:
+
+1. "A desigualdade brasileira é um problema grave."
+2. "A desigualdade brasileira tem origens históricas."
+3. "A desigualdade prejudica o desenvolvimento do país."
+4. "É preciso combater a desigualdade."
+5. "Portanto, o Estado deve investir em educação."
+
+**Diagnóstico:**
+
+- **Falha de progressão** entre 1 e 3: ambos dizem "a desigualdade é ruim", com palavras
+  diferentes. O parágrafo 3 não avança sobre o 1.
+- **O parágrafo 4 não tem ideia própria**: "é preciso combater" é uma **exortação**, não uma
+  tese — não há o que desenvolver ali. É parágrafo de enchimento.
+- **Salto entre 4 e 5**: a conclusão (educação) surge sem que o texto tenha argumentado que
+  a educação seja a via — o parágrafo 2 falava de origens **fundiárias**, e nada as conecta
+  à solução educacional. A conclusão não decorre.
+- **Único parágrafo com desenvolvimento real**: o 2.
+
+**Reescrita do esqueleto:**
+
+1. "A desigualdade brasileira é resiliente: atravessou regimes, planos e décadas sem se
+   desfazer."
+2. "Sua origem é fundiária: a Lei de Terras de 1850 fechou o acesso à terra às vésperas da
+   abolição."
+3. "Essa exclusão inicial se reproduz por herança, o que torna a mobilidade social mais
+   dependente da origem do que do mérito."
+4. "As políticas focalizadas atenuaram os sintomas sem tocar o mecanismo de transmissão."
+5. "Combater a desigualdade exige, portanto, atacar a herança — via tributação progressiva
+   sobre patrimônio."
+
+**O que mudou**: agora o esqueleto **é** um argumento. Cada tópico avança sobre o anterior
+(resiliência → origem → mecanismo → falha das soluções atuais → proposta), e a conclusão
+**decorre** do diagnóstico — ela ataca a herança porque o parágrafo 3 identificou a herança
+como o mecanismo.
+
+**A lição**: o teste do esqueleto revelou que o problema não era de frases, mas de
+**arquitetura** — e nenhuma revisão frase a frase o teria detectado (@sec-cap-70,
+@sec-cap-80).
+:::
+
+## 📚 Referências
+
+A estrutura do parágrafo em tópico frase e desenvolvimento, bem como os modos de
+desenvolvimento, segue Garcia [@garcia2010] — referência clássica da redação em língua
+portuguesa — e a tradição escolar brasileira retomada por Faraco [@faraco2008]; a
+articulação do parágrafo com os critérios de
+textualidade — sobretudo a **progressão**, que fundamenta o teste da ideia única e o teste
+do esqueleto — apoia-se em Koch [@koch2015texto] e Koch [@koch2018coesao]. O tratamento das
+"regras" do parágrafo como convenções de gênero, e não como leis da língua, segue Marcuschi
+[@marcuschi2008] e o @sec-cap-72. Para a progressão e a coerência global, veja o
+@sec-cap-70; para a coesão que articula os parágrafos, o @sec-cap-69; para a revisão, o
+@sec-cap-80. Os capítulos seguintes escalam a unidade: do parágrafo à **dissertação
+argumentativa** (@sec-cap-75) e daí aos gêneros específicos da escrita formal.
+
+::: {#refs}
 :::
