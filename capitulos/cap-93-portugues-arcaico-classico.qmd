@@ -4,22 +4,1035 @@ title: "O português arcaico e o português clássico"
 
 # O português arcaico e o português clássico {#sec-cap-93}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 15 — História da Língua e Estilística.
+> "Mudam-se os tempos, mudam-se as vontades" — e muda-se a língua com que se diz isso.
+>
+> — Camões, séc. XVI
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O @sec-cap-92 deixou a língua no século XIV, no momento em que o galego-português se cinde. Este
+capítulo acompanha os quatro séculos seguintes: a consolidação de uma língua **nacional**, sua
+primeira gramática, seu apogeu literário — e a fixação da norma que o Brasil herdaria.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Há uma razão prática para o brasileiro estudar isso, e vale enunciá-la logo. **O português que
+veio para o Brasil foi o clássico.** Tudo o que o @sec-cap-89 apresentou como "conservadorismo
+brasileiro" — o gerúndio, as vogais átonas plenas — é herança **deste** período. Quando você diz
+"estou fazendo", está falando o português de Camões. Este capítulo mostra qual era esse
+português, e por que Portugal se afastou dele e nós não.
+
+E há uma segunda razão, menos óbvia. É neste período que aparece, pela primeira vez, a ideia de
+que a língua **deve** ser fixada — que existe um jeito certo, e que alguém deve escrevê-lo. A
+norma-padrão não é natural nem eterna: ela tem **data de nascimento**, e a data é 1536. Saber
+disso muda o modo de encará-la (@sec-cap-91).
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Periodizar** a história do português e justificar os cortes;
+- **Descrever** os traços do português arcaico e o que se perdeu desde então;
+- **Explicar** a reorganização do sistema de sibilantes e suas consequências ortográficas;
+- **Situar** as primeiras gramáticas e o nascimento da ideia de norma;
+- **Relacionar** o português clássico ao PB atual e explicar o "conservadorismo brasileiro";
+- **Ler** um texto de português arcaico identificando as diferenças.
+
+## A periodização
+
+::: {#fig-periodizacao}
+
+```{.tikz}
+%%| filename: periodizacao
+%%| alt: Linha do tempo com a periodização da história da língua portuguesa em três grandes fases. Primeira fase, o português arcaico, do século doze ao século dezesseis, subdividida em trovadoresco, do século doze ao catorze, com as cantigas e o galego-português, e comum ou pré-clássico, do século catorze ao dezesseis, com a prosa e as crônicas. Segunda fase, o português clássico ou moderno, do século dezesseis ao dezoito, marcada por Camões, pelas primeiras gramáticas, pela expansão marítima e pela colonização do Brasil. Terceira fase, o português contemporâneo, do século dezoito até hoje, quando ocorre a divergência entre o português brasileiro e o europeu. Marcos assinalados: em 1516 o Cancioneiro Geral de Garcia de Resende, tomado como fim convencional do arcaico; em 1536 a primeira gramática da língua, de Fernão de Oliveira; em 1572 Os Lusíadas de Camões; em 1500 o descobrimento do Brasil. Uma seta destaca que o português levado ao Brasil foi o clássico, o que explica o conservadorismo brasileiro. Uma nota final adverte que os cortes são convenções didáticas e que a mudança é contínua, sem nenhuma data em que a língua tenha mudado de fase.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  fase/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, font=\scriptsize},
+  mk/.style={rounded corners=2pt, draw=manualgray, fill=white, align=center, inner sep=2pt, font=\scriptsize, text width=24mm},
+]
+  % faixa das fases
+  \node[fase, draw=manualblue, fill=manualblue!12, text width=44mm, minimum height=13mm] (arc) at (-4.3,0)
+    {\textbf{PORTUGUÊS ARCAICO}\\{\scriptsize séc. \textbf{XII--XVI}}};
+  \node[fase, draw=manualred, fill=manualred!12, text width=38mm, minimum height=13mm] (cla) at (0.6,0)
+    {\textbf{CLÁSSICO} (ou moderno)\\{\scriptsize séc. \textbf{XVI--XVIII}}};
+  \node[fase, draw=manualgreen, fill=manualgreen!12, text width=38mm, minimum height=13mm] (con) at (5.1,0)
+    {\textbf{CONTEMPORÂNEO}\\{\scriptsize séc. \textbf{XVIII}--hoje}};
+
+  % subdivisões do arcaico
+  \node[fase, draw=manualblue, fill=manualblue!6, text width=21mm] (tro) at (-5.8,-1.5)
+    {\textbf{trovadoresco}\\{\scriptsize XII--XIV}\\{\scriptsize cantigas}};
+  \node[fase, draw=manualblue, fill=manualblue!6, text width=21mm] (com) at (-2.8,-1.5)
+    {\textbf{comum} / pré-clássico\\{\scriptsize XIV--XVI}\\{\scriptsize prosa, crônicas}};
+  \draw[-{Stealth[length=3pt]}, draw=manualblue] (arc) -- (tro);
+  \draw[-{Stealth[length=3pt]}, draw=manualblue] (arc) -- (com);
+
+  % marcos acima
+  \node[mk] (m1) at (-1.9,2.6) {\textbf{1516}\\{\scriptsize \emph{Cancioneiro Geral}}\\{\scriptsize fim do arcaico}};
+  \node[mk] (m2) at (0.9,2.6) {\textbf{1536}\\{\scriptsize 1ª gramática}\\{\scriptsize Fernão de Oliveira}};
+  \node[mk] (m3) at (3.7,2.6) {\textbf{1572}\\{\scriptsize \emph{Os Lusíadas}}};
+  \node[mk, draw=manualgreen] (m0) at (-4.7,2.6) {\textbf{1500}\\{\scriptsize Brasil}};
+  \foreach \n in {m0,m1,m2,m3}{\draw[-{Stealth[length=3pt]}, draw=manualgray] (\n) -- ++(0,-1.4);}
+
+  % destaque Brasil
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!10, align=center,
+        font=\scriptsize, inner sep=4pt, text width=54mm] (br) at (0.4,-2.9)
+    {O português levado ao \textbf{Brasil} foi o \textbf{CLÁSSICO}.\\
+     {\scriptsize Daí o ``conservadorismo brasileiro'': gerúndio, átonas plenas.}};
+  \draw[-{Stealth[length=4pt]}, line width=1pt, draw=manualgreen] (cla) -- (br);
+
+  \node[rounded corners=2pt, draw=manualgray, fill=manualgray!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=100mm] at (0,-4.2)
+    {Os cortes são \textbf{convenções didáticas}. A mudança é \textbf{contínua}: não há data em que
+     a língua mudou de fase ---\\ escolhem-se marcos porque é preciso escolher algum.};
+\end{tikzpicture}
+```
+
+A periodização da história do português. Os marcos são convenções: a mudança é contínua, e as
+datas apenas organizam a exposição.
+
+:::
+
+| Fase | Período | Marcas |
+|---|---|---|
+| **Arcaico** | séc. XII–XVI | *trovadoresco* (XII–XIV): as cantigas · *comum/pré-clássico* (XIV–XVI): a prosa |
+| **Clássico** (ou moderno) | séc. XVI–XVIII | Camões, as gramáticas, a expansão, a colonização do Brasil |
+| **Contemporâneo** | séc. XVIII–hoje | a divergência PB × PE |
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Sobre as datas: convenções, não fatos
+O fim do arcaico é fixado convencionalmente em **1516**, com a publicação do *Cancioneiro Geral*
+de Garcia de Resende. Mas é preciso entender o que essa data **é** e o que ela **não é**.
+
+**Ela não é** o momento em que a língua mudou. Ninguém acordou em 1517 falando português
+clássico. A mudança é **contínua** e imperceptível a quem a vive (@sec-cap-92) — é o mesmo
+processo que hoje transforma *ouro* em "oro" sem que ninguém note.
+
+**Ela é** um marco **editorial** conveniente: o *Cancioneiro* encerra a tradição poética
+medieval, e por volta dessa época várias mudanças já se haviam consolidado. Escolhe-se uma data
+porque é preciso escolher alguma.
+
+**Por que a advertência importa**: porque a periodização, tomada ao pé da letra, reintroduz pela
+porta dos fundos a ideia de que línguas têm **estados** distintos e saltam entre eles. Não têm e
+não saltam. As fases são **nossas**, não da língua — instrumentos de exposição, como as eras
+geológicas. A rocha não sabe que mudou de era.
+:::
+
+## O português arcaico
+
+### O que se lê e o que não se lê
+
+Um texto do século XIII (*Cantiga de amigo*, Martin Codax):
+
+> Ondas do mar de Vigo,
+> se vistes meu amigo?
+> E ai Deus, se verrá cedo?
+
+Um brasileiro lê isso **quase todo**. *Ondas*, *mar*, *Vigo*, *vistes*, *amigo*, *Deus*, *cedo* —
+tudo transparente. Só *verrá* (virá) exige nota.
+
+Setecentos e cinquenta anos, e o texto é legível. Isso é notável, e diz algo sobre o ritmo da
+mudança: ela é **lenta**. Compare-se com o inglês, cujos textos do mesmo período são
+**ilegíveis** para um falante atual sem treino específico.
+
+### Os traços do arcaico
+
+**1. Os hiatos hoje desfeitos.** A queda do -n- e do -l- intervocálicos (@sec-cap-92) produziu
+hiatos que depois se resolveram:
+
+| Latim | Arcaico | Moderno |
+|---|---|---|
+| *bona* | **bõa** | boa |
+| *luna* | **lũa** | lua |
+| *manu* | **mão** | mão |
+| *dolore* | **door** | dor |
+| *colore* | **coor** | cor |
+| *generale* | **geeral** | geral |
+
+Note *door* → *dor* e *geeral* → *geral*: as vogais iguais em hiato **fundiram-se**. É por isso
+que o português tem tantos monossílabos onde o espanhol tem duas sílabas (*dor* × *dolor*).
+
+**2. As formas verbais em -des:**
+
+| Arcaico | Moderno |
+|---|---|
+| *sabe**des*** | sabeis |
+| *ama**des*** | amais |
+| *have**des*** | haveis |
+
+O -d- intervocálico caiu, e o hiato se resolveu: *sabedes* → *sabees* → *sabeis*. **A mesma lei
+do @sec-cap-92**, operando dentro do próprio português — a prova de que as leis fonéticas não
+pararam no latim.
+
+**3. O léxico perdido:**
+
+| Arcaico | Hoje |
+|---|---|
+| *u* (< lat. *ubi*) | onde |
+| *ca* | porque, do que |
+| *maravedi* | (moeda) |
+| *coita* | aflição, sofrimento |
+| *cuidar* | pensar (hoje só "tomar conta") |
+| *filhar* | tomar, pegar |
+
+Note ***cuidar***: sobreviveu, mas **mudou de sentido**. No arcaico significava **pensar** — e o
+sentido antigo ainda respira em "**cuidado**" (aquilo em que se pensa) e em "descuidado". Mudança
+semântica, não morte lexical (@sec-cap-63).
+
+### O sistema de sibilantes: a grande reorganização
+
+Esta é **a** mudança do período — e a que explica a ortografia portuguesa inteira.
+
+O português arcaico tinha **quatro** sibilantes distintas, e todas se opunham:
+
+| Grafia | Como era | Exemplo |
+|---|---|---|
+| **ç, c** | africada **surda** — como um "ts" | *ca**ç**a* |
+| **z** | africada **sonora** — como um "dz" | *fa**z**er* |
+| **ss, s-** | fricativa **surda** ápico-alveolar | *pa**ss**o* |
+| **s** intervocálico | fricativa **sonora** ápico-alveolar | *ca**s**a* |
+
+Ou seja: *caça* e *cassa*, *coser* e *cozer*, *paço* e *passo* eram **palavras diferentes**, com
+pronúncias diferentes. A ortografia não era arbitrária — ela **registrava** distinções reais.
+
+::: {.callout-important}
+## Por que a ortografia portuguesa parece caprichosa — e não é
+Aqui está a explicação de uma das queixas mais frequentes do estudante: por que *caça* com **ç** e
+*cassa* com **ss**, se soam igual? Por que *coser* e *cozer*?
+
+**A resposta**: **elas não soavam igual.** A ortografia foi fixada quando as distinções
+**existiam**. Ela é um retrato fiel da pronúncia do século XV.
+
+**O que aconteceu depois:**
+
+1. **As africadas perderam a oclusão**: *ç* [ts] → [s]; *z* [dz] → [z]. Deixaram de ser africadas
+   e viraram fricativas;
+2. **Isso as fez colidir** com as fricativas que já existiam: *ç* passou a soar como *ss*; *z*
+   passou a soar como *s* intervocálico;
+3. **Resultado no PB**: de **quatro** sibilantes, restaram **duas** — /s/ e /z/. As oposições
+   *caça*/*cassa* e *paço*/*passo* **desapareceram** da fala e sobrevivem **só na escrita**.
+
+**A ironia**: a ortografia continuou registrando uma distinção que a fala abandonou. Por isso ela
+parece caprichosa — mas o capricho não é dela: é do **tempo**. Ela está certa sobre o século XV e
+desatualizada sobre o século XXI.
+
+**A consequência prática, que todo estudante conhece**: é por isso que se **decora** a grafia de
+*caça* e *cassa*. Não há regra a deduzir da fala, porque a fala não distingue mais. Onde a
+ortografia é fonológica, ela se aprende ouvindo; onde é **histórica**, só resta a memória — e o
+dicionário (@sec-cap-15).
+
+**O que sobreviveu, e onde**: em algumas variedades do **norte de Portugal**, a distinção
+ápico-alveolar **ainda existe** — o *s* de *casa* é diferente do *z*. É um **fóssil vivo** do
+sistema arcaico, e uma prova a mais de que a ortografia não inventou nada.
+:::
+
+## O português clássico
+
+### 1536: a língua ganha uma gramática
+
+Em **1536**, Fernão de Oliveira publica a **Gramática da Linguagem Portuguesa** — a **primeira**
+gramática do português. Quatro anos depois, em **1540**, João de Barros publica a sua.
+
+O fato parece menor e é enorme. Vale entender o que ele significa.
+
+::: {.callout-important}
+## O que significa uma língua ganhar gramática
+Até 1536, o português **existia** — era falado por milhões, tinha literatura de três séculos,
+era língua de um reino. Mas não tinha **gramática**, e isso não era um esquecimento: era uma
+**hierarquia**.
+
+**A ideia vigente**: só o **latim** (e o grego) tinha gramática, porque só ele tinha **regras**.
+As línguas vulgares eram consideradas caóticas, instáveis, indignas de descrição. Estudar
+gramática **era** estudar latim — a palavra era praticamente sinônimo.
+
+**O que Oliveira e Barros fizeram**: aplicaram ao português o aparato descritivo do latim, e com
+isso afirmaram — o gesto é político antes de ser técnico — que **o português também tem
+regras**. Que é língua de verdade, digna de análise e de ensino.
+
+**O contexto que explica a data**: não é coincidência que isso ocorra no século XVI. É o momento
+da **expansão marítima** e da consolidação dos Estados nacionais. Barros diz explicitamente que
+a língua deve acompanhar as armas — que o império precisa de um idioma à sua altura. A gramática
+é um **instrumento de Estado**, e ele não faz segredo disso.
+
+E o movimento é europeu, não português: Nebrija fizera a do castelhano em **1492** — no ano da
+viagem de Colombo, e a dedicatória à rainha diz que "a língua é companheira do império". A
+coincidência de datas não é acaso.
+
+**As três consequências que interessam ao manual:**
+
+1. **A norma-padrão tem data de nascimento**: 1536. Ela não é natural, não é eterna, não estava
+   lá desde sempre. Foi **feita**, por pessoas com nome, num contexto identificável, para fins
+   declarados (@sec-cap-91);
+2. **Ela nasceu com o molde errado.** Descreveu-se o português com as **categorias do latim** —
+   uma língua de estrutura diferente. Daí boa parte das inadequações que a NGB herdou e que
+   Perini e Castilho denunciam até hoje: casos que o português não tem, tempos verbais forçados
+   em moldes latinos, classes que não encaixam;
+3. **Descrever e prescrever nasceram grudados.** Oliveira e Barros não separavam as duas coisas —
+   descreviam o uso da elite **e**, ao descrevê-lo, o consagravam como o correto. A confusão que
+   o @sec-cap-02 desfaz e que o caso do livro didático (@sec-cap-91) mostrou ainda viva tem
+   **quinhentos anos** e uma certidão de nascimento.
+:::
+
+### A língua da expansão
+
+O século XVI é o do **maior enriquecimento lexical** da história do português. As naus voltavam
+com coisas que não tinham nome:
+
+| Origem | Palavras |
+|---|---|
+| **Ásia** | *chá*, *leque*, *biombo*, *bambu*, *manga*, *catana*, *pagode*, *mandarim* |
+| **África** | *cachimbo*, *banana*, *inhame* |
+| **Brasil** (tupi) | *abacaxi*, *mandioca*, *tatu*, *jacaré*, *tapioca*, *pipoca* |
+
+E o inverso: o português **exportou** palavras para o mundo inteiro. *Pão*, *sabão*, *obrigado* e
+*arigatō* — a etimologia japonesa é disputada, mas *pan* (pão) e *tempurá* são certos —, e
+dezenas de itens no malaio, no suaíli, no bengali. Foi a primeira **língua franca global** do
+comércio marítimo.
+
+### Camões e a fixação
+
+Em **1572**, Camões publica *Os Lusíadas*. E aqui vale uma nota sobre o que a obra **faz** com a
+língua.
+
+O prestígio de uma língua depende, em boa medida, de ela ter uma obra que a **justifique**. O
+italiano tem Dante; o inglês, Shakespeare; o castelhano, Cervantes. Camões cumpre essa função
+para o português: depois dele, ninguém precisa argumentar que a língua serve para a alta
+literatura — o argumento está feito, em dez cantos.
+
+**O que se lê em Camões, e como**: o texto de 1572 é lido por um brasileiro de hoje com
+dificuldade **de vocabulário e de sintaxe poética**, não de língua. Compare com o inglês de
+Shakespeare (1600), que exige edição anotada para o próprio inglês. O português mudou **menos**
+nesses quatro séculos — e uma das razões é justamente a fixação normativa iniciada em 1536.
+
+## O clássico e o Brasil
+
+Chegamos ao ponto que interessa mais diretamente ao leitor brasileiro.
+
+::: {.callout-important}
+## Por que o Brasil é conservador: a resposta está aqui
+O @sec-cap-89 afirmou que o Brasil **conserva** traços que Portugal perdeu, e prometeu a
+explicação. Ei-la.
+
+**O fato cronológico**: a colonização do Brasil ocorre a partir de **1500**, e o povoamento
+efetivo ao longo dos séculos **XVI–XVIII**. Ou seja: **o português transportado para cá foi o
+CLÁSSICO**.
+
+**O que estava no navio:**
+
+- **o gerúndio** — "estou fazendo". A construção normal do clássico. Camões usa;
+- **as vogais átonas plenas** — o clássico **não** reduzia;
+- **o sistema de sibilantes já simplificando**, mas com a distribuição que o PB herdou;
+- **a próclise razoavelmente livre** — a ênclise obrigatória do PE é posterior;
+- o *tu* ainda vigoroso, e o *vossa mercê* em plena gramaticalização.
+
+**O que aconteceu DEPOIS que o navio partiu — em Portugal:**
+
+- **a redução drástica das átonas** — consolidada no **séc. XVIII**;
+- **a generalização de "a + infinitivo"** — a partir do **séc. XVIII**;
+- **a fixação da ênclise** como default.
+
+**A conclusão**: essas mudanças são **posteriores** à colonização. Elas **não vieram** para cá
+simplesmente porque **ainda não existiam** quando a língua atravessou o Atlântico. Não houve
+resistência brasileira nem apego ao passado: houve **separação no tempo**.
+
+**A imagem que esclarece**: o português brasileiro é um **instantâneo** do português clássico —
+que depois seguiu seu próprio caminho, mas a partir de **outro ponto de partida** que o europeu.
+Não somos um desvio do português atual de Portugal; somos um **irmão** dele, que saiu de casa
+antes.
+
+**A consequência para o @sec-cap-91**: o mito "brasileiro não sabe português, quem sabe é
+Portugal" fica **historicamente insustentável**. Quem se afastou do clássico, nos traços mais
+audíveis, foi **Portugal**. O brasileiro que diz "estou fazendo" está mais perto de Camões que o
+português que diz "estou a fazer".
+
+**E a ressalva que impede a inversão** (@sec-cap-89): isso **não** torna o PB "mais correto".
+Antiguidade não é critério de correção, e o PB inovou fortemente em outros pontos — perdeu os
+clíticos, preencheu o sujeito, reduziu o paradigma verbal. **Os dois inovaram, em pontos
+diferentes.** O argumento não serve para inverter a hierarquia: serve para **destruí-la**.
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A história deste capítulo tem uma consequência direta sobre como encarar a norma — e ela é mais
+sutil que "a norma é arbitrária".
+
+**Três fatos estabelecidos:**
+
+1. **A norma tem data**: 1536. Foi **construída**, por pessoas identificáveis, num contexto
+   identificável (expansão, Estado nacional), com fins declarados;
+2. **Ela nasceu com o molde do latim** — categorias de outra língua, aplicadas ao português. Boa
+   parte das inadequações que Perini [@perini2010] e Castilho [@castilho2010] apontam remonta a
+   essa escolha fundadora;
+3. **A norma-padrão brasileira** foi calcada, no séc. XIX, em parte na **literatura portuguesa**
+   da época — nem sequer na fala culta brasileira contemporânea [@faraco2008].
+
+**O que NÃO se segue** — e o manual insiste, porque é o erro previsível:
+
+**Não se segue que a norma seja dispensável.** Todas as normas de todas as línguas são
+construções históricas — inclusive as do inglês e do francês. **Ser construída não é defeito**: é
+o modo de existir de qualquer padrão. O sistema métrico é convenção; a data do Ano Novo é
+convenção; nem por isso se propõe aboli-los.
+
+**O que se segue:**
+
+- **Humildade sobre o estatuto da norma.** Ela é um **artefato útil**, não uma descoberta sobre a
+  natureza da língua. Quem a apresenta como lei natural está errado sobre a história — e é essa
+  apresentação, não a norma, que o manual combate (@sec-cap-91);
+- **Abertura para revisá-la.** Se foi feita por pessoas, pode ser refeita por pessoas. As
+  gramáticas descritivas contemporâneas fazem exatamente isso: propõem categorias que descrevam
+  o **português**, não o latim;
+- **Firmeza para ensiná-la.** Justamente porque é artefato **socialmente valioso**, o aluno tem
+  direito a ela — e o professor, o dever de ensiná-la bem.
+
+**A síntese**: saber que a norma foi feita em 1536, com o molde errado, para servir a um império,
+**não a invalida**. Torna-a **compreensível** — e, sobretudo, ensinável sem mentira. É a diferença
+entre "isto é assim porque é certo" e "isto é assim porque foi decidido, e vale a pena saber
+usá-lo". A segunda frase é verdadeira, e ensina melhor.
+:::
+
+## 📋 Quadro-resumo
+
+**Periodização** (cortes = **convenções didáticas**; a mudança é **contínua**):
+
+| Fase | Período | Marcas |
+|---|---|---|
+| **Arcaico** | XII–XVI | *trovadoresco* (XII–XIV): cantigas · *comum/pré-clássico* (XIV–XVI): prosa |
+| **Clássico** (moderno) | XVI–XVIII | Camões, gramáticas, expansão, **colonização do Brasil** |
+| **Contemporâneo** | XVIII–hoje | divergência PB × PE |
+
+Fim do arcaico: **1516**, *Cancioneiro Geral* de Garcia de Resende — marco **editorial**, não
+linguístico.
+
+**Traços do arcaico**: hiatos hoje desfeitos (*bõa* → boa, *door* → dor, *geeral* → geral) ·
+formas em **-des** (*sabedes* → sabeis, pela **mesma lei** do @sec-cap-92) · léxico perdido (*u* =
+onde, *ca* = porque, *coita* = aflição, *cuidar* = **pensar** — sobrevive em "cuidado").
+
+**O sistema de sibilantes** — a grande mudança:
+
+| Arcaico: **4** sibilantes | Hoje (PB): **2** |
+|---|---|
+| **ç** [ts] africada surda — *caça* | → /s/ |
+| **z** [dz] africada sonora — *fazer* | → /z/ |
+| **ss** fricativa surda — *cassa* | → /s/ |
+| **s** fricativa sonora — *casa* | → /z/ |
+
+*Caça* ≠ *cassa*, *paço* ≠ *passo*, *coser* ≠ *cozer* eram **palavras diferentes**. As africadas
+perderam a oclusão e **colidiram** com as fricativas. **A ortografia não é caprichosa** — ela é um
+retrato fiel do **séc. XV**. Por isso se **decora**: onde a ortografia é **histórica**, a fala não
+ajuda (@sec-cap-15).
+
+**1536 — Fernão de Oliveira, 1ª gramática** (1540, João de Barros; Nebrija fizera a do castelhano
+em **1492**). O que significa: afirmar que **o português TEM regras** — até então, "gramática" era
+sinônimo de **latim**. Instrumento de **Estado**: "a língua é companheira do império".
+
+**Três consequências**: (1) a norma tem **data de nascimento** — não é natural nem eterna; (2)
+nasceu com o **molde do latim** — daí as inadequações da NGB; (3) **descrever e prescrever
+nasceram grudados** — a confusão do @sec-cap-91 tem **500 anos**.
+
+**Séc. XVI**: maior enriquecimento lexical (*chá*, *leque*, *biombo*, *bambu* da Ásia; *abacaxi*,
+*tatu*, *pipoca* do tupi) e a **primeira língua franca global**. **1572**: *Os Lusíadas* —
+justifica a língua para a alta literatura.
+
+**O CLÁSSICO E O BRASIL** — a resposta prometida no @sec-cap-89:
+
+O português levado ao Brasil (séc. XVI–XVIII) foi o **CLÁSSICO**. Estava no navio: **gerúndio**,
+**átonas plenas**, próclise livre. Ficou em Portugal, **depois** que o navio partiu (séc. XVIII):
+**redução das átonas**, **"a + infinitivo"**, ênclise fixa.
+
+**Logo**: as mudanças portuguesas não vieram porque **ainda não existiam**. O PB é um
+**instantâneo do clássico** que seguiu caminho próprio. Não somos desvio do PE — somos **irmão**
+dele. **Mas os dois inovaram**: o PB perdeu clíticos, preencheu o sujeito, reduziu o paradigma.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Tomar as datas por fatos.** São **convenções**. Ninguém acordou em 1517 falando clássico.
+- **Achar que a ortografia é caprichosa.** Ela retrata o **séc. XV**, quando *caça* e *cassa*
+  **soavam diferente**.
+- **Achar que *caça*/*cassa* sempre foram homófonas.** Eram **palavras distintas**, com pronúncias
+  distintas.
+- **Achar que o português sempre teve gramática.** A primeira é de **1536**. Antes, "gramática"
+  significava **latim**.
+- **Achar que a norma é natural ou eterna.** Tem **data**, **autores** e **finalidade**.
+- **Concluir que, por ser construída, a norma é dispensável.** **Todas** as normas são
+  construções. Ser artefato não é defeito.
+- **Achar que "cuidar" sempre significou "tomar conta".** No arcaico era **pensar** — e sobrevive
+  em "**cuidado**".
+- **Achar que o gerúndio brasileiro é inovação.** É **clássico**. Estava no navio (@sec-cap-89).
+- **Achar que Portugal conservou e o Brasil mudou.** A redução das átonas e o "a + infinitivo" são
+  **posteriores** à colonização — inovações **portuguesas**.
+- **Concluir que o PB é "mais correto".** Antiguidade **não** é critério. **Os dois** inovaram.
+- **Achar que as leis fonéticas pararam no latim.** *Sabedes* → *sabeis* é a **mesma** lei,
+  operando dentro do português.
+
+## ✍️ Exercícios
+
+**1.** Apresente a periodização do português e explique o estatuto das datas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| Fase | Período | Subdivisões / Marcas |
+|---|---|---|
+| **Arcaico** | séc. **XII–XVI** | **trovadoresco** (XII–XIV): as cantigas, o galego-português · **comum** ou pré-clássico (XIV–XVI): a prosa, as crônicas |
+| **Clássico** (ou moderno) | séc. **XVI–XVIII** | Camões, as primeiras gramáticas, a expansão marítima, a **colonização do Brasil** |
+| **Contemporâneo** | séc. **XVIII**–hoje | a divergência PB × PE |
+
+**Marcos convencionais**: **1516** (*Cancioneiro Geral*, de Garcia de Resende) para o fim do
+arcaico; **1536** (1ª gramática) e **1572** (*Os Lusíadas*) dentro do clássico.
+
+**O estatuto das datas — o que a questão realmente cobra:**
+
+**O que elas NÃO são**: momentos em que a língua mudou. Ninguém acordou em 1517 falando português
+clássico. A mudança linguística é **contínua** e **imperceptível** a quem a vive (@sec-cap-92) —
+cada geração fala como a anterior, com diferenças mínimas.
+
+**O que elas SÃO**: marcos **editoriais e culturais** convenientes. O *Cancioneiro Geral* encerra
+a tradição poética medieval, e por volta dessa época várias mudanças já se haviam consolidado.
+Escolhe-se uma data porque **é preciso escolher alguma** para organizar a exposição.
+
+**Por que a advertência importa** — o ponto que distingue a boa resposta:
+
+A periodização, tomada ao pé da letra, **reintroduz** a ideia de que línguas têm **estados**
+distintos e **saltam** entre eles. Não têm e não saltam. As fases são **nossas**, não da língua —
+instrumentos de exposição, como as eras geológicas: a rocha não sabe que mudou de era.
+
+E há uma consequência sobre o presente: se a mudança é contínua, então **estamos, agora, no meio
+de uma fase** que alguém, daqui a séculos, delimitará com uma data qualquer. As mudanças que o
+Volume 14 descreveu — o sujeito preenchendo-se, *a gente* avançando, o "oro" por *ouro* — são o
+material de que a próxima periodização será feita.
+:::
+
+**2.** Explique o sistema de sibilantes do português arcaico e o que ele esclarece.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O sistema arcaico tinha QUATRO sibilantes**, todas em oposição:
+
+| Grafia | Realização | Exemplo |
+|---|---|---|
+| **ç, c** | africada **surda** ("ts") | *ca**ç**a* |
+| **z** | africada **sonora** ("dz") | *fa**z**er* |
+| **ss, s-** | fricativa **surda** ápico-alveolar | *pa**ss**o* |
+| **s** intervocálico | fricativa **sonora** ápico-alveolar | *ca**s**a* |
+
+**Portanto**: *caça* ≠ *cassa*; *paço* ≠ *passo*; *coser* ≠ *cozer*. Eram **palavras diferentes**,
+com **pronúncias diferentes**. Os pares que hoje são homófonos eram, então, distinguidos ao
+ouvido.
+
+**A mudança, em dois passos:**
+
+1. **As africadas perderam a oclusão**: *ç* [ts] → [s]; *z* [dz] → [z]. Deixaram de ser africadas
+   e viraram fricativas;
+2. **Isso as fez COLIDIR** com as fricativas que já existiam: *ç* passou a soar como *ss*; *z*
+   passou a soar como *s* intervocálico.
+
+**Resultado no PB**: de **quatro** sibilantes, restaram **duas** — /s/ e /z/. As oposições
+desapareceram da **fala** e sobrevivem **só na escrita**.
+
+**O que isso esclarece — e é o ponto da questão:**
+
+**A ortografia portuguesa não é caprichosa.** Ela foi fixada **quando as distinções existiam**, e
+é um **retrato fiel da pronúncia do século XV**. Não inventou nada; registrou.
+
+**A ironia**: ela continuou registrando uma distinção que a fala abandonou. Por isso **parece**
+arbitrária — mas o capricho não é dela: é do **tempo**. Ela está **certa** sobre o século XV e
+**desatualizada** sobre o XXI.
+
+**A consequência prática**, que todo estudante vive: é por isso que se **decora** a grafia de
+*caça* e *cassa*. Não há regra a deduzir da fala, porque a fala não distingue mais. Onde a
+ortografia é **fonológica**, aprende-se ouvindo; onde é **histórica**, só resta a memória
+(@sec-cap-15).
+
+**A prova de que o sistema existiu**: em algumas variedades do **norte de Portugal**, a distinção
+ápico-alveolar **ainda existe** — o *s* de *casa* difere do *z*. É um **fóssil vivo** do sistema
+arcaico. A ortografia não estava imaginando distinções: elas estavam lá, e em parte ainda estão.
+:::
+
+**3.** O que significa o português ter ganhado uma gramática em 1536?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Os fatos**: em **1536**, Fernão de Oliveira publica a **Gramática da Linguagem Portuguesa** — a
+primeira do português. Em **1540**, João de Barros publica a sua. Antes disso, o português
+**não tinha gramática**.
+
+**Por que isso não era um esquecimento — era uma HIERARQUIA:**
+
+A ideia vigente era que **só o latim** (e o grego) tinha gramática, porque só ele tinha
+**regras**. As línguas vulgares eram tidas por caóticas, instáveis, indignas de descrição.
+Estudar gramática **era** estudar latim — a palavra era praticamente sinônimo.
+
+**O que Oliveira e Barros fizeram**: aplicaram ao português o aparato descritivo do latim e, com
+isso, **afirmaram** — o gesto é político antes de técnico — que **o português também tem
+regras**. Que é língua de verdade, digna de análise e de ensino.
+
+**O contexto que explica a data**: é o século da **expansão marítima** e dos Estados nacionais.
+Barros diz **explicitamente** que a língua deve acompanhar as armas — o império precisa de um
+idioma à sua altura. A gramática é um **instrumento de Estado**, sem disfarce.
+
+E é um movimento europeu: **Nebrija** fizera a do castelhano em **1492** — no ano de Colombo —, e
+sua dedicatória à rainha diz que "a língua é companheira do império". A coincidência de datas
+não é acaso: gramáticas nascem quando línguas viram projeto político.
+
+**As três consequências que importam:**
+
+**1. A norma-padrão tem data de nascimento.** Ela **não** é natural, **não** é eterna, **não**
+estava lá desde sempre. Foi **feita** — por pessoas com nome, num contexto identificável, para
+fins declarados (@sec-cap-91). Quem a apresenta como lei natural está errado sobre a história.
+
+**2. Ela nasceu com o molde errado.** Descreveu-se o português com as **categorias do latim** —
+língua de estrutura diferente. Daí boa parte das inadequações que a NGB herdou e que Perini
+[@perini2010] e Castilho [@castilho2010] denunciam: casos que o português não tem, tempos
+forçados em moldes latinos, classes que não encaixam. **O molde de 1536 ainda aperta.**
+
+**3. Descrever e prescrever nasceram grudados.** Oliveira e Barros não separavam as duas coisas:
+descreviam o uso da elite **e**, ao descrevê-lo, o **consagravam** como o correto. A confusão que
+o @sec-cap-02 desfaz — e que o caso do livro didático de 2011 (@sec-cap-91) mostrou vivíssima —
+tem **quinhentos anos** e uma certidão de nascimento.
+
+**A ressalva** (@sec-cap-91): nada disso **invalida** a norma. Todas as normas de todas as
+línguas são construções históricas. Ser artefato não é defeito — é o modo de existir de qualquer
+padrão.
+:::
+
+**4.** Por que o Brasil conserva o gerúndio e as vogais átonas plenas?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A resposta em uma frase**: porque **o português levado ao Brasil foi o CLÁSSICO**, e as
+inovações portuguesas são **posteriores** ao navio.
+
+**A cronologia, que é todo o argumento:**
+
+- **1500–1800**: colonização e povoamento efetivo do Brasil. O português transportado é o
+  **clássico** (séc. XVI–XVIII);
+- **O que estava no navio**: o **gerúndio** ("estou fazendo" — Camões usa), as **vogais átonas
+  plenas** (o clássico **não** reduzia), a próclise razoavelmente livre, o *tu* vigoroso, o
+  *vossa mercê* em gramaticalização;
+- **O que aconteceu DEPOIS, em Portugal**: a **redução drástica das átonas** (consolidada no
+  **séc. XVIII**), a generalização de **"a + infinitivo"** (a partir do **séc. XVIII**), a fixação
+  da **ênclise**.
+
+**A conclusão**: essas mudanças **não vieram** para o Brasil porque **ainda não existiam** quando
+a língua atravessou o Atlântico.
+
+**O ponto que a boa resposta enfatiza**: **não houve conservadorismo brasileiro** no sentido de
+resistência, apego ao passado ou esforço de preservação. Ninguém aqui decidiu manter nada. Houve
+**separação no tempo** — e o resto é aritmética.
+
+**A imagem que esclarece**: o PB é um **instantâneo** do português clássico, que depois seguiu
+caminho **próprio**, mas a partir de **outro ponto de partida** que o europeu. Não somos um desvio
+do português atual de Portugal — somos um **irmão** dele, que saiu de casa antes e teve outra
+vida.
+
+**A consequência para o @sec-cap-91**: o mito "brasileiro não sabe português, quem sabe é
+Portugal" torna-se **historicamente insustentável**. Nos traços mais audíveis — os que causam a
+dificuldade de nos entendermos —, quem se afastou do clássico foi **Portugal**. O brasileiro que
+diz "estou fazendo" está mais perto de Camões que o português que diz "estou a fazer".
+
+**A ressalva indispensável** (@sec-cap-89), sem a qual a resposta fica pela metade:
+
+Isso **não** torna o PB "mais correto". Cair nisso seria aceitar a premissa errada do adversário
+— a de que o mais antigo é o melhor. **Antiguidade não é critério de correção** (@sec-cap-86).
+
+E o PB **inovou fortemente** em outros pontos: perdeu os clíticos de 3ª ("vi ele"), passou a
+preencher o sujeito, reduziu o paradigma verbal, generalizou a próclise. **Os dois inovaram, em
+pontos diferentes.**
+
+O argumento histórico não serve para **inverter** a hierarquia — serve para **destruí-la**. Não há
+um português melhor: há duas normas, ambas legítimas, ambas com 500 anos de mudança nas costas.
+:::
+
+**5.** Leia e analise: "Ondas do mar de Vigo, / se vistes meu amigo? / E ai Deus, se verrá cedo?"
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O texto**: cantiga de amigo de **Martin Codax**, séc. XIII — português arcaico, fase
+**trovadoresca**.
+
+**O que se lê sem dificuldade** — quase tudo: *ondas*, *mar*, *Vigo*, *vistes*, *meu*, *amigo*,
+*Deus*, *cedo*. Um brasileiro de hoje entende o poema **na primeira leitura**.
+
+**O que exige nota:**
+
+- ***verrá*** = **virá**. Forma antiga do futuro de *vir*, com assimilação (*venirá* → *verrá*).
+  A forma moderna *virá* resultou de outra evolução do mesmo étimo;
+- ***se*** aqui não é condicional: introduz **interrogativa indireta** — "(dizei-me) se vistes". É
+  sintaxe, não léxico.
+
+**O gênero**: **cantiga de amigo** — eu lírico **feminino** (a moça pergunta pelo *amigo*, isto é,
+o namorado), tradição **autóctone** galego-portuguesa, não provençal. Note os traços típicos:
+apóstrofe à natureza (as ondas), o paralelismo, o refrão ("E ai Deus"), a espera.
+
+**A análise que a questão pede — o que o texto ensina:**
+
+**1. A mudança é LENTA.** Setecentos e cinquenta anos, e o texto é legível **sem tradução**. Isso
+é notável e mensurável: compare-se com o **inglês** do mesmo período, **ilegível** para um falante
+atual sem treino específico. O português mudou consideravelmente **menos** — e uma das razões é a
+fixação normativa iniciada em 1536.
+
+**2. O léxico básico é o mais estável.** As palavras que sobreviveram intactas são as do
+**fundo latino** de alta frequência: *mar*, *ver*, *amigo*, *Deus*, *onda*. As que caíram tendem
+a ser as de frequência menor ou substituíveis (*u* → onde, *ca* → porque).
+
+**3. A morfologia verbal é o que mais mudou.** *Verrá* → *virá*; *vistes* mantém-se, mas o
+paradigma em torno dele se reorganizou por completo (@sec-cap-89). É onde a distância se
+concentra.
+
+**4. Este texto é património compartilhado.** Vigo é na **Galiza**; Martin Codax era galego; a
+língua era o **galego-português** (@sec-cap-92). O poema é lido como coisa própria por galegos e
+portugueses — e é exatamente por isso que a pergunta "galego e português são a mesma língua?" não
+tem resposta simples. Sobre o passado não há dúvida: **eram uma só**.
+:::
+
+**6.** Explique *sabedes* → *sabeis* e o que a mudança demonstra.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A mudança, em três etapas:**
+
+| Etapa | Forma | O que houve |
+|---|---|---|
+| 1 | *sabe**d**es* | forma arcaica, com -d- intervocálico |
+| 2 | *sabees* | **queda do -d- intervocálico** |
+| 3 | **sabeis** | resolução do hiato: as vogais em contato geram ditongo |
+
+O mesmo com *amades* → *amaes* → **amais**; *havedes* → *havees* → **haveis**; *fazedes* → **fazeis**.
+
+**O que a mudança demonstra — e é o ponto da questão:**
+
+**1. As leis fonéticas NÃO pararam no latim.** A queda da oclusiva intervocálica é **exatamente**
+a mesma lei que fez *vita* → *vida* e *lupu* → *lobo* (@sec-cap-92). Ela continuou operando
+**dentro do próprio português**, séculos depois — sobre material que já era português.
+
+Isso refuta a imagem ingênua de que houve um "período de mudanças" (do latim ao português) e
+depois a língua se estabilizou. Não há tal corte: a mesma máquina seguiu funcionando.
+
+**2. A regularidade se confirma.** Não foi só *sabedes*: **todas** as formas de 2ª pessoa do
+plural em **-des** sofreram a mesma coisa, em bloco. A lei não escolheu palavras.
+
+**3. A resolução do hiato é a segunda lei.** A queda do -d- **criou** um hiato (*sabees*), e o
+hiato foi então resolvido — por ditongação (*sabeis*) ou por fusão (*door* → **dor**, *geeral* →
+**geral**). Duas leis **encadeadas**: uma cria o problema, a outra o resolve. É o mesmo padrão do
+@sec-cap-89, em que a redução do paradigma verbal criou um problema que o preenchimento do sujeito
+resolveu.
+
+**4. E a mudança continua HOJE.** O PB falado faz, agora, o mesmo tipo de coisa:
+
+- *para* → "pra"; *você* → "cê"; *está* → "tá";
+- a monotongação: *ouro* → "oro", *caixa* → "caxa".
+
+São **queda e resolução de hiato**, os mesmos processos, com a mesma regularidade — e com o mesmo
+estigma que *speclum* teve no século III (@sec-cap-92).
+
+**A conclusão**: *sabeis* é o resultado de uma mudança que, no século XIV, alguém certamente
+condenou como desleixo. Hoje *sabeis* é a forma **erudita**, quase cerimoniosa. **O relaxamento
+de ontem é o rigor de hoje** — e não há razão para supor que "cê" e "pra" tenham destino
+diferente.
+:::
+
+**7.** Por que a ortografia portuguesa distingue *caça* de *cassa* se soam igual?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Porque elas NÃO soavam igual quando a ortografia foi fixada.**
+
+**No português arcaico**, o sistema tinha **quatro** sibilantes distintas:
+
+| Grafia | Realização | Palavra |
+|---|---|---|
+| **ç** | africada surda ("ts") | *ca**ç**a* (de caçar) |
+| **ss** | fricativa surda | *ca**ss**a* (tecido; ou de cassar) |
+| **z** | africada sonora ("dz") | *co**z**er* (cozinhar) |
+| **s** | fricativa sonora | *co**s**er* (costurar) |
+
+*Caça* e *cassa* eram **palavras diferentes com pronúncias diferentes** — tão distintas quanto
+*pato* e *bato*. A ortografia **registrava** uma distinção **real**. Não era capricho: era
+**fonética**.
+
+**O que aconteceu:**
+
+1. As **africadas perderam a oclusão**: *ç* [ts] → [s]; *z* [dz] → [z];
+2. Com isso, **colidiram** com as fricativas existentes: *ç* passou a soar como *ss*; *z* como
+   *s* intervocálico;
+3. De **quatro** sibilantes, restaram **duas** (/s/ e /z/) no PB. As oposições sumiram da **fala**.
+
+**A ironia**: a ortografia **não acompanhou**. Continuou registrando uma distinção que a fala
+abandonou.
+
+**A resposta à pergunta, portanto**: a ortografia não distingue *caça* de *cassa* arbitrariamente
+— ela é um **retrato fiel da pronúncia do século XV**, que a fala deixou para trás. Ela está
+**certa** sobre o século XV e **desatualizada** sobre o XXI. O capricho não é dela; é do **tempo**.
+
+**A consequência prática:**
+
+É por isso que essas grafias se **decoram**. Não há regra a deduzir da fala, porque a fala não
+distingue mais. E é a diferença entre dois tipos de ortografia (@sec-cap-15):
+
+- **fonológica** — aprende-se **ouvindo** (escrevo *pato* com p porque ouço /p/);
+- **histórica** — só resta a **memória** e o dicionário (escrevo *caça* com ç porque no séc. XV
+  soava [ts]).
+
+**O que sobrevive**: em variedades do **norte de Portugal**, a distinção ápico-alveolar **ainda
+existe** — o *s* de *casa* difere do *z*. É um **fóssil vivo**, e a prova de que a ortografia não
+inventou distinção nenhuma.
+
+**A generalização**: toda ortografia conservadora é um **retrato de uma pronúncia passada**. O
+inglês é o caso extremo — *knight* já teve o /k/ e o /gh/ pronunciados. Quando a ortografia
+parece absurda, quase sempre ela está sendo **fiel** a alguém que morreu há muito tempo.
+:::
+
+**8.** (Estilo Cebraspe — julgue C ou E)
+
+I. A primeira gramática da língua portuguesa é de Fernão de Oliveira, de 1536.
+II. O gerúndio ("estou fazendo") é inovação do português brasileiro, posterior à colonização.
+III. No português arcaico, *paço* e *passo* eram homófonos.
+IV. A periodização em arcaico, clássico e contemporâneo corresponde a mudanças abruptas da língua.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — CERTO.** Fernão de Oliveira publica a **Gramática da Linguagem Portuguesa** em **1536** — a
+primeira do português. João de Barros publica a sua em **1540**. (Para comparação: Nebrija fizera
+a do castelhano em **1492**.) Até então, "gramática" era praticamente sinônimo de **latim**: as
+línguas vulgares eram tidas por indignas de descrição.
+
+**II — ERRADO**, e é o inverso exato. O **gerúndio é CONSERVADOR**: é a construção do português
+**clássico**, usada por Camões, e foi o que veio no navio. A inovação é **portuguesa** — o "a +
+infinitivo" generaliza-se em Portugal a partir do **séc. XVIII**, **depois** da colonização.
+Portanto o gerúndio não é inovação **nem** brasileira **nem** posterior: é herança clássica
+(@sec-cap-89).
+
+**III — ERRADO.** No arcaico, *paço* e *passo* eram **palavras distintas com pronúncias
+distintas**: *ç* era africada surda ("ts") e *ss* era fricativa surda. Tornaram-se homófonas
+**depois**, quando as africadas perderam a oclusão e colidiram com as fricativas. O item inverte
+a cronologia: a homofonia é **moderna**, não arcaica — e é exatamente por isso que a ortografia
+as distingue.
+
+**IV — ERRADO.** A periodização é **convenção didática**. A mudança linguística é **contínua** e
+imperceptível a quem a vive: ninguém acordou em 1517 falando clássico. As fases são **nossas**,
+não da língua — instrumentos de exposição, como as eras geológicas. Escolhem-se marcos (1516, o
+*Cancioneiro Geral*) porque é preciso escolher **algum**, não porque algo tenha acontecido
+naquele ano.
+
+**Gabarito: C, E, E, E.**
+
+Apenas I é verdadeiro. Os itens II, III e IV são todos falsos: II inverte quem inovou; III
+inverte a cronologia da homofonia; IV toma convenção por fato.
+
+**O padrão**: os três itens falsos compartilham um mesmo vício — supõem que **o passado se parece
+com o presente**. Supõem que o gerúndio sempre foi "coisa nossa", que *paço*/*passo* sempre foram
+homófonos, que as fases da língua são reais. Em história da língua, a intuição projetada para
+trás quase sempre erra.
+:::
+
+**9.** Analise a afirmação: "A norma-padrão foi construída, logo é arbitrária e dispensável."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A premissa é verdadeira; a conclusão não se segue.** É preciso separar as duas coisas.
+
+**A premissa — verdadeira, e demonstrável:**
+
+1. **A norma tem data**: 1536 (Fernão de Oliveira). Foi **feita**, por pessoas identificáveis, num
+   contexto identificável (expansão marítima, Estado nacional), com fins **declarados** — Barros
+   diz que a língua deve acompanhar as armas;
+2. **Nasceu com o molde do latim** — categorias de outra língua aplicadas ao português. Daí as
+   inadequações que Perini [@perini2010] e Castilho [@castilho2010] apontam até hoje;
+3. **A norma-padrão brasileira** foi calcada, no séc. XIX, em parte na **literatura portuguesa** da
+   época — nem sequer na fala culta brasileira contemporânea [@faraco2008].
+
+Tudo isso é **história documentada**, não acusação.
+
+**Por que a conclusão NÃO se segue — três razões:**
+
+**1. "Construído" não implica "arbitrário".** A norma foi construída **com base em algo** — o uso
+da elite letrada de um período. Não foi sorteada. Há motivação, ainda que a motivação seja
+social e não linguística.
+
+**2. "Construído" não implica "dispensável".** **Todas** as normas de **todas** as línguas são
+construções históricas — inclusive as do inglês, do francês, do alemão. Se ser construída
+tornasse uma norma dispensável, **nenhuma língua** poderia ter norma.
+
+**A analogia que fecha**: o **sistema métrico** é convenção arbitrária — o metro poderia ter outro
+tamanho. A **data do Ano Novo** é convenção. O **teclado QWERTY** é convenção, e má. Ninguém
+propõe aboli-los, porque a utilidade de um padrão **não depende** de ele ser natural: depende de
+ser **compartilhado**.
+
+**3. A norma tem valor social real** (@sec-cap-91). Ela abre portas. Chamá-la de dispensável é
+dispensar o aluno de uma ferramenta que ele **precisa** — e, na prática, dispensar sobretudo o
+aluno **pobre**, já que o rico a aprende em casa de qualquer modo.
+
+**O que DE FATO se segue da premissa — três coisas:**
+
+- **Humildade sobre o estatuto da norma.** Ela é **artefato útil**, não descoberta sobre a
+  natureza da língua. Quem a apresenta como lei natural está errado **sobre a história** — e é
+  essa apresentação, não a norma, que o manual combate;
+- **Abertura para revisá-la.** Se foi feita por pessoas, pode ser refeita. As gramáticas
+  descritivas contemporâneas fazem exatamente isso: propõem categorias que descrevam o
+  **português**, não o latim;
+- **Firmeza para ensiná-la.** Justamente **porque** é artefato socialmente valioso, o aluno tem
+  direito a ela.
+
+**A síntese**: saber que a norma foi feita em 1536, com o molde errado, para servir a um império,
+**não a invalida** — torna-a **compreensível**, e ensinável **sem mentira**. É a diferença entre
+"isto é assim porque é certo" e "isto é assim porque foi decidido, e vale a pena saber usá-lo".
+A segunda frase é verdadeira **e** ensina melhor.
+:::
+
+**10.** Por que o século XVI é o de maior enriquecimento lexical do português?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A causa**: a **expansão marítima**. As naus voltavam com coisas que **não tinham nome** — e cada
+coisa nova exigia uma palavra.
+
+**As camadas que entram:**
+
+| Origem | Palavras |
+|---|---|
+| **Ásia** | *chá*, *leque*, *biombo*, *bambu*, *manga*, *catana*, *pagode*, *mandarim*, *chávena* |
+| **África** | *cachimbo*, *banana*, *inhame* |
+| **Brasil** (tupi) | *abacaxi*, *mandioca*, *tatu*, *jacaré*, *tapioca*, *pipoca*, *caju* |
+
+**O mecanismo** (@sec-cap-67): o empréstimo é a solução **mais econômica** para nomear o novo.
+Diante de uma planta desconhecida, é mais simples adotar o nome local que inventar um composto
+descritivo. É o que toda língua faz, sempre.
+
+**O movimento inverso — e é o que a boa resposta acrescenta:**
+
+O português também **exportou**. Foi a **primeira língua franca global** do comércio marítimo, e
+deixou palavras em dezenas de idiomas: no japonês (*pan* < pão; *tempurá*), no malaio, no suaíli,
+no bengali, no indonésio. Durante mais de um século, quem quisesse comerciar no Índico
+**precisava** de português.
+
+Note o que isso significa para o @sec-cap-91: a língua que hoje se teme "invadida" pelo inglês foi,
+ela própria, a invasora lexical de meio mundo. Nenhuma das línguas que receberam palavras
+portuguesas se degradou por isso — nem o japonês nem o suaíli.
+
+**Por que o século XVI e não outro:**
+
+1. **A quantidade de contato é inédita.** Nenhum período anterior pôs falantes de português em
+   contato simultâneo com Ásia, África e América;
+2. **O contato é comercial e direto**, não erudito. As palavras entram pela **fala**, dos
+   marinheiros e comerciantes — e por isso se **adaptam** rapidamente à fonologia portuguesa;
+3. **A imprensa fixa e difunde.** O que entrava era registrado e espalhado, em vez de ficar
+   restrito a um porto.
+
+**A observação final, que conecta ao capítulo**: o mesmo século que **abre** o léxico ao mundo é o
+que **fecha** a gramática numa norma (1536). As duas coisas não são contraditórias — são o mesmo
+movimento. Um império precisa de uma língua **que dê conta do mundo novo** (léxico aberto) **e**
+que seja **estável e ensinável** (gramática fixa). Barros queria as duas, e disse por quê.
+:::
+
+**11.** (Estilo ENEM) Um estudante afirma: "O português de Camões é o português correto; o nosso é
+uma corruptela." Analise.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação contém três erros encadeados**, e vale separá-los.
+
+**Erro 1 — supõe que o mais antigo é o mais correto.**
+
+Não há critério que sustente isso. Se antiguidade fosse critério, o **latim** seria mais correto
+que o português de Camões — e o **indo-europeu**, mais correto que o latim. O argumento, levado a
+sério, condena **todas** as línguas existentes, inclusive a de Camões. **Prova demais, logo não
+prova** (@sec-cap-86).
+
+**Erro 2 — supõe que a mudança é corrupção.**
+
+Não é. A mudança é o **modo de existir** das línguas: elas não têm outra opção. O português de
+Camões era, ele próprio, o resultado de 1.500 anos de mudança a partir do latim — e o latim de
+1.500 anos de mudança a partir do indo-europeu. Se mudança fosse corrupção, **tudo** seria
+corrupção e a palavra perderia sentido.
+
+E note a ironia (@sec-cap-92): o português de Camões descende diretamente do que os professores
+romanos **condenavam** como erro. *Speclum* — o "erro" — virou *espelho*, que Camões usa sem
+constrangimento. O português "correto" do estudante é feito dos erros de outra época.
+
+**Erro 3 — supõe que "o nosso" se afastou e "o de Camões" ficou.**
+
+Este é o erro **factual**, e o mais interessante. **Ninguém ficou.** O português de Camões
+**não existe mais em lugar nenhum** — nem no Brasil nem em Portugal. Os dois se afastaram dele,
+por caminhos diferentes:
+
+| | Conserva o clássico | Inovou |
+|---|---|---|
+| **Brasil** | gerúndio, vogais átonas plenas | perdeu clíticos ("vi ele"), preencheu o sujeito, reduziu o paradigma verbal |
+| **Portugal** | clíticos, sujeito nulo, paradigma pleno | **reduziu as átonas**, criou "a + infinitivo", fixou a ênclise |
+
+**A ironia decisiva**: nos traços **mais audíveis** — os que respondem pela dificuldade de nos
+entendermos —, quem se afastou de Camões foi **Portugal**. O brasileiro que diz "estou fazendo"
+está usando a forma de Camões; o português que diz "estou a fazer" usa uma novidade do séc. XVIII
+(@sec-cap-89, @sec-cap-93).
+
+**A conclusão correta — e a ressalva que a completa:**
+
+Não existe "o português correto" a que se comparar. Existem **duas normas contemporâneas**, ambas
+descendentes do clássico, ambas inovadoras, ambas conservadoras — em pontos **diferentes**.
+
+**E a ressalva importa**: o argumento **não** serve para dizer que o PB é mais correto por ser
+mais conservador. Isso seria aceitar a premissa errada do estudante — a de que antiguidade é
+critério. Serve para mostrar que a premissa **não funciona nem a favor de quem a usa**: aplicada
+com coerência, ela dá o resultado oposto ao pretendido.
+
+**O que dizer ao estudante**: seu português não é corruptela de nada. É o que aconteceu com o
+português de Camões deste lado do Atlântico — e do outro lado aconteceu outra coisa, igualmente
+distante do original.
+:::
+
+**12.** Explique a relação entre a fixação da norma (1536) e a estabilidade do português.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O fato a explicar**: o português mudou **menos**, nos últimos quatro séculos, que outras línguas
+europeias. *Os Lusíadas* (1572) é lido por um brasileiro com dificuldade de **vocabulário e
+sintaxe poética** — não de língua. O inglês de Shakespeare (1600) exige **edição anotada** para o
+próprio inglês. E o texto de Martin Codax (séc. XIII) ainda é legível.
+
+**A explicação — três fatores que se somam:**
+
+**1. A fixação normativa (1536 em diante).** A partir de Oliveira e Barros, existe um **padrão
+escrito codificado**, ensinado na escola, que serve de **âncora**. A escrita passa a mudar muito
+mais devagar que a fala, e puxa a fala culta consigo.
+
+**2. A imprensa.** Multiplica textos idênticos e cria uma **referência estável e compartilhada**.
+Antes, cada cópia manuscrita podia diferir; depois, mil exemplares dizem a mesma coisa da mesma
+maneira.
+
+**3. A escolarização.** Cada geração aprende a norma **por ensino explícito**, e não só por
+transmissão oral — o que retarda a deriva na modalidade escrita.
+
+**O mecanismo preciso**, e é aqui que a resposta precisa ser cuidadosa:
+
+A norma **não impede a mudança** — isso seria impossível, e a prova é que o PB mudou muito desde
+1500 (@sec-cap-89). O que ela faz é **desacelerar a modalidade escrita** e mantê-la ancorada.
+
+Resultado: a **distância entre fala e escrita aumenta**, em vez de a língua parar. É exatamente o
+que o @sec-cap-90 descreve no PB de hoje — "cê tá indo" × "Vossa Senhoria comparecerá". A norma
+não segurou a fala; ela segurou **o texto**, e a fala foi embora sozinha.
+
+**A comparação que ilumina**: o inglês **não** teve fixação normativa comparável no século XVI —
+não houve academia, nem gramática de Estado, nem ortografia decretada. Resultado: mudou mais
+rápido, e a ortografia atual é um retrato caótico de várias épocas ao mesmo tempo. O francês, ao
+contrário, teve a **Académie** (1635) e apresenta estabilidade comparável à do português.
+
+**A nuance necessária**, sem a qual a resposta vira propaganda da norma:
+
+A estabilidade **não é mérito** da língua nem virtude a comemorar. É um **efeito** de instituições
+— escrita, imprensa, escola, Estado. E tem **custo**: quanto mais a norma escrita se ancora, mais
+ela se distancia da fala real, e maior o esforço para aprendê-la (@sec-cap-90).
+
+Uma língua estável na escrita e móvel na fala é uma língua em que a escola tem **muito** trabalho
+— e em que quem não vai à escola paga **caro** (@sec-cap-91). A estabilidade do português é
+confortável para quem lê Camões e cara para quem precisa escrever um ofício.
+:::
+
+## 📚 Referências
+
+A periodização e a cronologia seguem Teyssier [@teyssier2007]; a análise das mudanças fonéticas e
+do sistema de sibilantes, Câmara Jr. [@camarajr1975; @camarajr1970]. Sobre a história da norma e
+sua construção, a referência é Faraco [@faraco2008]; sobre as inadequações do molde latino na
+descrição do português, Perini [@perini2010] e Castilho [@castilho2010]. Para o léxico da
+expansão, ver Houaiss [@houaiss2009].
+
+O próximo capítulo traz a história para este lado do Atlântico: a @sec-cap-94 trata da **formação
+do português brasileiro** — o contato com as línguas indígenas e africanas, a transmissão
+linguística irregular e a pergunta de por que o PB é como é.
+
+::: {#refs}
 :::
