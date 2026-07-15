@@ -4,22 +4,288 @@ title: "Orações subordinadas adjetivas"
 
 # Orações subordinadas adjetivas {#sec-cap-45}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 7 — Sintaxe II: Período Composto.
+> "A vírgula decide: sem ela, a oração restringe; com ela, apenas explica — e o sentido
+> muda por inteiro."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Se as substantivas fazem o papel de um substantivo, as **subordinadas adjetivas** fazem o
+papel de um **adjetivo**: caracterizam um substantivo (ou pronome) da oração principal.
+Em "O aluno **que estuda** passa", a oração *que estuda* caracteriza *o aluno*, como
+faria o adjetivo *estudioso* ("o aluno estudioso"). São sempre introduzidas por um
+**pronome relativo** (*que, o qual, cujo, onde, quem, quanto*), que retoma um
+**antecedente** — daí a ligação estreita com o @sec-cap-31.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+O ponto central — e uma das distinções mais importantes de toda a gramática — é a
+diferença entre a adjetiva **restritiva** (que restringe, sem vírgula) e a
+**explicativa** (que apenas explica, entre vírgulas). Essa diferença, marcada pela
+pontuação, muda completamente o sentido da frase, e é campeã de recorrência em provas de
+interpretação e de pontuação.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Reconhecer** a oração adjetiva pelo pronome relativo e pelo antecedente;
+- **Distinguir** a adjetiva restritiva da explicativa;
+- **Compreender** o papel decisivo da vírgula na mudança de sentido;
+- **Identificar** o pronome relativo e sua função dentro da adjetiva;
+- **Diferenciar** adjetivas desenvolvidas de reduzidas;
+- **Analisar** e pontuar períodos com orações adjetivas.
+
+## O que são as subordinadas adjetivas
+
+**Oração subordinada adjetiva** é aquela que exerce a função de um **adjetivo**,
+caracterizando um substantivo ou pronome (o **antecedente**) da oração principal. Vem
+sempre introduzida por um **pronome relativo**, que retoma o antecedente e exerce uma
+função sintática dentro da própria adjetiva.
+
+::: {.exemplo}
+"Os livros **que li neste ano** foram excelentes."
+
+- Antecedente: *os livros*.
+- Pronome relativo: *que* (retoma *os livros*; é objeto direto de *li*).
+- A oração *que li neste ano* caracteriza *os livros* (quais livros? os que li) — faz o
+  papel de um adjetivo.
+:::
+
+Note que a adjetiva pode ser substituída, muitas vezes, por um adjetivo equivalente:
+"pessoas **que trabalham**" ≈ "pessoas **trabalhadoras**".
+
+## Restritiva × explicativa: a distinção-chave
+
+As adjetivas dividem-se em dois tipos, e a diferença — marcada pela **vírgula** — é
+semanticamente decisiva. A @fig-adjetivas ilustra.
+
+::: {#fig-adjetivas}
+
+```{.tikz}
+%%| filename: adjetivas
+%%| alt: Diagrama comparando os dois tipos de oração adjetiva com o mesmo exemplo. Restritiva, sem vírgula: "Os alunos que estudaram passaram" — só um grupo de alunos (os que estudaram) passou; restringe. Explicativa, entre vírgulas: "Os alunos, que estudaram, passaram" — todos os alunos passaram, e acrescenta-se que todos estudaram; explica. Setas destacam a presença ou ausência da vírgula.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, text width=54mm, minimum height=34mm, inner sep=6pt, anchor=north},
+]
+  \node[cx, draw=manualblue, fill=manualblue!8] (a) at (0,0) {\textbf{RESTRITIVA} (sem vírgula)\\[3pt] ``Os alunos \textbf{que estudaram} passaram.''\\[4pt] {\scriptsize $\to$ só \emph{parte} dos alunos (os que estudaram) passou\\ $\to$ \textbf{restringe} o conjunto}};
+  \node[cx, draw=manualred, fill=manualred!8, right=6mm of a] (b) {\textbf{EXPLICATIVA} (entre vírgulas)\\[3pt] ``Os alunos, \textbf{que estudaram}, passaram.''\\[4pt] {\scriptsize $\to$ \emph{todos} os alunos passaram\\ $\to$ acrescenta que todos estudaram (\textbf{explica})}};
+\end{tikzpicture}
+```
+
+A mesma oração adjetiva muda de sentido conforme a vírgula: sem vírgula (**restritiva**),
+delimita um subgrupo; entre vírgulas (**explicativa**), acrescenta informação sobre todo
+o conjunto.
+:::
+
+### Adjetiva restritiva
+
+**Restringe, delimita** o antecedente a um subconjunto — sem ela, o sentido seria mais
+amplo. **Não** vem isolada por vírgula. "As pessoas **que mentem** perdem a confiança"
+(só as que mentem, não todas as pessoas).
+
+### Adjetiva explicativa
+
+**Explica, acrescenta** uma informação sobre o antecedente, sem restringi-lo — refere-se
+a **todo** o conjunto. Vem **isolada por vírgulas** (ou travessões). "Os homens, **que
+são mortais**, temem a morte" (todos os homens são mortais; a oração explica).
+
+::: {.callout-important}
+## A vírgula que muda tudo
+Compare, com o mesmo antecedente:
+
+- "Os políticos **que são corruptos** deveriam ser presos." (restritiva: só os corruptos
+  — subentende que há políticos honestos).
+- "Os políticos, **que são corruptos**, deveriam ser presos." (explicativa: **todos** os
+  políticos são corruptos — uma generalização).
+
+A segunda afirma que **todos** os políticos são corruptos; a primeira, apenas alguns. A
+vírgula, aqui, não é enfeite: ela altera radicalmente o que se afirma. Por isso a
+distinção é tão cobrada em interpretação.
+:::
+
+## O pronome relativo dentro da adjetiva
+
+Toda adjetiva é introduzida por um relativo (@sec-cap-31), que exerce uma **função
+sintática** dentro dela:
+
+- "O livro **que** comprei" → *que* = objeto direto de *comprei*.
+- "A casa **onde** moro" → *onde* = adjunto adverbial de lugar.
+- "O autor **cujo** livro li" → *cujo* = adjunto adnominal (posse).
+- "A pessoa **a quem** me refiro" → *a quem* = objeto indireto.
+
+Identificar essa função interna é parte da análise sintática integral (@sec-cap-48) e
+determina a regência (a preposição que acompanha o relativo).
+
+## Desenvolvidas × reduzidas
+
+As adjetivas também podem ser:
+
+- **Desenvolvidas**: com pronome relativo e verbo finito — "As pessoas **que trabalham**
+  aqui".
+- **Reduzidas**: sem relativo, com verbo em forma nominal (geralmente particípio ou
+  infinitivo) — "As pessoas **empregadas aqui**" (reduzida de particípio, = "que estão
+  empregadas"); "Há muito **a fazer**" (reduzida de infinitivo). Detalhe no @sec-cap-47.
+
+## 📋 Quadro-resumo
+
+| Tipo | Efeito | Pontuação | Exemplo |
+|---|---|---|---|
+| **Restritiva** | delimita a um subgrupo | **sem** vírgula | "Alunos **que estudam** passam" |
+| **Explicativa** | acrescenta info a todo o conjunto | **entre vírgulas** | "Os alunos, **que estudam**, passam" |
+
+Sempre introduzidas por **pronome relativo** (*que, o qual, cujo, onde, quem, quanto*),
+que retoma um antecedente e tem função na adjetiva.
+
+Em uma linha: as **subordinadas adjetivas** caracterizam um antecedente (como um
+adjetivo), introduzidas por relativo; a **restritiva** (sem vírgula) delimita um
+subgrupo, a **explicativa** (entre vírgulas) acrescenta informação a todo o conjunto — e
+a vírgula muda o sentido.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Ignorar o efeito da vírgula.** "Os alunos que colaram foram punidos" (só os que
+  colaram) × "Os alunos, que colaram, foram punidos" (todos colaram e foram punidos).
+  Sentidos opostos.
+- **Confundir adjetiva com substantiva.** Adjetiva: *que* é **relativo** (retoma
+  antecedente, cabe "o qual"). Substantiva: *que* é **integrante** (cabe "isto").
+- **Pôr vírgula em restritiva.** A restritiva **não** leva vírgula — separá-la a torna
+  explicativa, mudando o sentido.
+- **Não identificar a função do relativo.** Dentro da adjetiva, o relativo tem função
+  (sujeito, objeto, adjunto), que determina a regência (a preposição).
+- **Achar que explicativa e restritiva são estilo livre.** A escolha depende do que se
+  quer dizer: restringir um subgrupo ou comentar todo o conjunto.
+
+## ✍️ Exercícios
+
+**1.** Classifique a adjetiva e explique o sentido: "Os funcionários que faltaram serão
+advertidos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"que faltaram" é adjetiva **restritiva** (sem vírgula): **delimita** os funcionários a um
+subgrupo — apenas os que faltaram serão advertidos, não todos. Subentende-se que há
+funcionários que não faltaram (e não serão advertidos). A ausência de vírgula é a marca
+da restrição.
+:::
+
+**2.** (Estilo ENEM) Compare: "Os brasileiros que gostam de futebol são milhões" e "Os
+brasileiros, que gostam de futebol, são apaixonados por esportes". A diferença é:
+
+a) inexistente;
+b) a primeira restringe (só alguns brasileiros); a segunda explica (todos os brasileiros
+   gostam de futebol);
+c) a primeira explica; a segunda restringe;
+d) apenas de pontuação, sem efeito de sentido;
+e) a segunda está errada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A primeira (sem vírgula, **restritiva**) refere-se apenas ao
+subgrupo dos brasileiros que gostam de futebol. A segunda (entre vírgulas, **explicativa**)
+generaliza: afirma que **todos** os brasileiros gostam de futebol, acrescentando essa
+informação. A vírgula muda o alcance da afirmação.
+:::
+
+**3.** Identifique o antecedente, o pronome relativo e sua função: "A cidade onde nasci
+fica no interior."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Antecedente: *a cidade*. Pronome relativo: *onde* (retoma *a cidade*, lugar físico).
+Função de *onde* dentro da adjetiva: **adjunto adverbial de lugar** ("nasci **onde**" =
+nasci naquele lugar). A oração "onde nasci" é adjetiva restritiva, caracterizando *a
+cidade*.
+:::
+
+**4.** Reescreva a adjetiva como adjetivo equivalente: "Pessoas que trabalham merecem
+respeito."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Pessoas **trabalhadoras** merecem respeito." A oração adjetiva restritiva "que
+trabalham" equivale ao adjetivo *trabalhadoras*, que caracteriza *pessoas* do mesmo modo
+(delimitando o subgrupo). Isso ilustra o valor "adjetivo" dessas orações.
+:::
+
+**5.** Pontue conforme o sentido pedido e classifique: (a) restringir — "Os carros ___
+têm defeito ___ foram recolhidos"; (b) explicar (todos) — mesmo enunciado.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Restritiva** (só os defeituosos): "Os carros **que têm defeito** foram recolhidos"
+(sem vírgula). (b) **Explicativa** (todos os carros têm defeito): "Os carros, **que têm
+defeito**, foram recolhidos" (entre vírgulas). Na primeira, só parte dos carros foi
+recolhida; na segunda, todos os carros têm defeito e foram recolhidos.
+:::
+
+**6.** (Estilo FCC) Na frase "Meu pai, que é médico, trabalha muito", a oração adjetiva
+é:
+
+a) restritiva, pois delimita qual pai;
+b) explicativa, pois "meu pai" já é único e a oração apenas acrescenta informação;
+c) substantiva objetiva direta;
+d) adverbial causal;
+e) coordenada explicativa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "que é médico" é adjetiva **explicativa**: como "meu pai" já é um ser
+único (não há vários pais a delimitar), a oração apenas **acrescenta** a informação de que
+ele é médico, entre vírgulas. Com antecedentes únicos, a adjetiva é necessariamente
+explicativa.
+:::
+
+**7.** Diferencie a oração adjetiva da substantiva em "Sei que ele mentiu" × "O homem que
+mentiu fugiu".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Sei **que ele mentiu**", *que* é conjunção **integrante** e a oração é **substantiva**
+objetiva direta (cabe "isto": "Sei isto") — não há antecedente. Em "O homem **que mentiu**
+fugiu", *que* é pronome **relativo** (retoma o antecedente *o homem*, funciona como
+sujeito de "mentiu") e a oração é **adjetiva** restritiva, caracterizando *o homem*. A
+presença de antecedente e a possibilidade de trocar por "o qual" identificam a adjetiva.
+:::
+
+**8.** Identifique a função do relativo em cada adjetiva: (a) "o filme a que assisti"; (b)
+"o aluno cujas notas subiram".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "a que" → **objeto indireto** (assistir **a** algo; o relativo *que*, precedido da
+preposição *a*, é objeto indireto de *assistir*). (b) "cujas" → **adjunto adnominal**
+(posse: as notas *do* aluno). Cada relativo exerce uma função dentro da adjetiva, o que
+determina a regência.
+:::
+
+**9.** Transforme a reduzida em desenvolvida: "Há tarefas a cumprir."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Desenvolvida: "Há tarefas **que devem ser cumpridas**" (ou "que se devem cumprir"). A
+adjetiva reduzida de infinitivo ("a cumprir", forma nominal, sem relativo) transforma-se
+em desenvolvida, com o pronome relativo *que* e verbo finito. Ambas caracterizam
+*tarefas* (adjetiva restritiva).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Os candidatos que trapacearam
+foram desclassificados', a inserção de vírgulas em torno de 'que trapacearam' não
+alteraria o sentido."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** A inserção de vírgulas **alteraria** o sentido. Sem vírgula (restritiva), a
+frase afirma que apenas **alguns** candidatos (os que trapacearam) foram desclassificados
+— subentende que houve candidatos honestos. Com vírgulas (explicativa: "Os candidatos, que
+trapacearam, foram desclassificados"), afirma-se que **todos** os candidatos trapacearam
+e foram desclassificados. A vírgula muda o alcance da afirmação.
+:::
+
+## 📚 Referências
+
+As orações adjetivas, a distinção restritiva/explicativa e o papel do relativo seguem
+Bechara [@bechara2009] e Cunha & Cintra [@cunhacintra2017]; o efeito de sentido da
+pontuação nas adjetivas liga-se à coesão e à interpretação, tratadas por Koch
+[@koch2018coesao] e Koch & Elias [@koch2015texto]. As orações adverbiais, que exprimem
+circunstâncias, vêm no @sec-cap-46; as reduzidas, no @sec-cap-47.
+
+::: {#refs}
 :::
