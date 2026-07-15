@@ -88,11 +88,11 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 78 | Redação técnica e oficial | `capitulos/cap-78-redacao-tecnica-oficial.qmd` | 12 | ✅ 2026-07-15 |
 | 79 | Escrita acadêmica: resumo, resenha e artigo | `capitulos/cap-79-escrita-academica.qmd` | 12 | ✅ 2026-07-15 |
 | 80 | Revisão e reescrita | `capitulos/cap-80-revisao-reescrita.qmd` | 12 | ✅ 2026-07-15 |
-| 81 | Estratégias de leitura | `capitulos/cap-81-estrategias-de-leitura.qmd` | 13 | ⬜ |
-| 82 | Inferência, pressuposto e subentendido | `capitulos/cap-82-inferencia-pressuposto-subentendido.qmd` | 13 | ⬜ |
-| 83 | Ironia, humor e implícitos | `capitulos/cap-83-ironia-humor-implicitos.qmd` | 13 | ⬜ |
-| 84 | Leitura de textos multimodais: charge, tirinha, infográfico | `capitulos/cap-84-textos-multimodais.qmd` | 13 | ⬜ |
-| 85 | Questões de interpretação: método de resolução | `capitulos/cap-85-questoes-interpretacao-metodo.qmd` | 13 | ⬜ |
+| 81 | Estratégias de leitura | `capitulos/cap-81-estrategias-de-leitura.qmd` | 13 | ✅ 2026-07-15 |
+| 82 | Inferência, pressuposto e subentendido | `capitulos/cap-82-inferencia-pressuposto-subentendido.qmd` | 13 | ✅ 2026-07-15 |
+| 83 | Ironia, humor e implícitos | `capitulos/cap-83-ironia-humor-implicitos.qmd` | 13 | ✅ 2026-07-15 |
+| 84 | Leitura de textos multimodais: charge, tirinha, infográfico | `capitulos/cap-84-textos-multimodais.qmd` | 13 | ✅ 2026-07-15 |
+| 85 | Questões de interpretação: método de resolução | `capitulos/cap-85-questoes-interpretacao-metodo.qmd` | 13 | ✅ 2026-07-15 |
 | 86 | Sociolinguística: fundamentos | `capitulos/cap-86-sociolinguistica-fundamentos.qmd` | 14 | ⬜ |
 | 87 | Variação diatópica: os falares do Brasil | `capitulos/cap-87-variacao-diatopica.qmd` | 14 | ⬜ |
 | 88 | Variação diastrática e diafásica: registro e estilo | `capitulos/cap-88-variacao-diastratica-diafasica.qmd` | 14 | ⬜ |
