@@ -4,22 +4,309 @@ title: "Crase"
 
 # Crase {#sec-cap-54}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 8 — Sintaxe III: Concordância, Regência e Colocação.
+> "A crase não é um bicho de sete cabeças: é apenas o encontro de dois *a* — e um método
+> simples resolve quase tudo."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Poucos temas causam tanto pavor quanto a **crase**. E, no entanto, ela obedece a uma
+lógica clara: crase é a **fusão de dois *a*** — a preposição *a* com o artigo *a(s)*, ou
+com o *a* de *aquele/aquela/aquilo*, ou com o *a* do pronome relativo *a qual*. O acento
+grave (`à`) apenas sinaliza essa fusão. Dominar a crase é, no fundo, dominar dois
+conceitos que já estudamos — a **regência** (que fornece a preposição *a*) e o **artigo**
+(que fornece o outro *a*).
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo apresenta um **método** de decisão para a crase, as regras práticas, os
+casos especiais (nomes de lugar, horas, locuções) e os macetes que resolvem a maioria das
+questões. Com regência (caps. 52–53) já estudada, temos tudo para desmistificar a crase
+de uma vez.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Compreender** a crase como fusão da preposição *a* com o artigo *a(s)* ou com *a* de
+  *aquele/aquilo*;
+- **Aplicar** um método de decisão para identificar a crase;
+- **Usar** os macetes práticos (troca por masculino, por "para a");
+- **Empregar** a crase em nomes de lugar, horas e locuções;
+- **Reconhecer** os casos em que a crase é proibida;
+- **Resolver** questões de crase com segurança.
+
+## O que é a crase
+
+**Crase** (do grego *krásis*, "fusão") é a **contração de dois sons vocálicos idênticos**
+— no caso, dois *a*. Os principais encontros:
+
+- **preposição *a* + artigo *a(s)***: "Vou **a** + **a** escola" = "Vou **à** escola".
+- **preposição *a* + *a* de *aquele/aquela/aquilo***: "Refiro-me **a** + **aquilo**" =
+  "Refiro-me **àquilo**".
+- **preposição *a* + *a* do relativo *a qual/as quais***: "A pessoa **à qual** me
+  refiro".
+
+O acento grave (`à`) marca a fusão. Portanto, para haver crase, precisam existir os
+**dois** *a*: a preposição (exigida pela regência) **e** o artigo (ou o *a* de
+*aquele*/relativo).
+
+## O método de decisão
+
+A @fig-metodo-crase apresenta o método que resolve a maioria dos casos.
+
+::: {#fig-metodo-crase}
+
+```{.tikz}
+%%| filename: metodo-crase
+%%| alt: Fluxograma de decisão para a crase. Pergunta 1: o termo regente exige a preposição a? Se não, não há crase. Se sim, pergunta 2: a palavra seguinte (feminina) admite o artigo a? Se não, não há crase. Se sim, há crase (à). Ao lado, dois macetes: trocar a palavra feminina por masculina (se aparece "ao", há crase) e trocar por "para a" (se cabe "para a", há crase).
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  q/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=center, text width=46mm, minimum height=11mm, inner sep=4pt},
+  r/.style={rounded corners=3pt, thick, align=center, text width=30mm, minimum height=9mm, inner sep=3pt},
+  fl/.style={-{Stealth[length=2.4mm]}, manualgray, thick},
+]
+  \node[q] (q1) at (0,4) {\textbf{1.} O regente exige a preposição \emph{a}? (regência)};
+  \node[q, below=8mm of q1] (q2) {\textbf{2.} A palavra feminina admite o artigo \emph{a}?};
+  \node[r, draw=manualred, fill=manualred!8, right=8mm of q1] (n1) {\textbf{não} $\to$ sem crase};
+  \node[r, draw=manualred, fill=manualred!8, right=8mm of q2] (n2) {\textbf{não} $\to$ sem crase};
+  \node[r, draw=manualgreen, fill=manualgreen!8, below=8mm of q2] (sim) {\textbf{sim + sim} $\to$ \textbf{há crase (à)}};
+
+  \draw[fl] (q1) -- node[right,font=\scriptsize]{sim} (q2);
+  \draw[fl] (q1) -- (n1);
+  \draw[fl] (q2) -- node[right,font=\scriptsize]{sim} (sim);
+  \draw[fl] (q2) -- (n2);
+
+  \node[r, draw=manualyellow, fill=manualyellow!14, below=6mm of sim, text width=90mm, align=left] (mac) {\textbf{Macetes:} (a) troque o termo feminino por um masculino — se surge ``\textbf{ao}'', há crase; (b) se cabe ``\textbf{para a}'', há crase.};
+\end{tikzpicture}
+```
+
+O método da crase: só há crase quando (1) o termo regente exige a preposição *a* **e** (2)
+a palavra seguinte admite o artigo *a*. Dois macetes confirmam: a troca por masculino
+("ao") e a substituição por "para a".
+:::
+
+**Passo 1 — Há preposição *a*?** Verifique a regência: o verbo/nome pede *a*? "Assistir
+**a**", "referente **a**", "ir **a**". Se não há preposição *a*, **não** há crase.
+
+**Passo 2 — Há artigo *a*?** A palavra seguinte é feminina e admite o artigo *a*? "a
+escola", "a reunião". Se a palavra não admite artigo (nomes masculinos, verbos, a maioria
+dos pronomes), **não** há crase.
+
+Só quando as **duas** respostas são "sim" ocorre a crase.
+
+::: {.callout-important}
+## Os dois macetes infalíveis
+1. **Troca pelo masculino**: substitua a palavra feminina por um equivalente masculino.
+   Se aparecer "**ao**", havia crase; se aparecer só "**o**" ou "a", não.
+   - "Vou **à** escola" → "Vou **ao** colégio" → surgiu "ao" → **tem crase**.
+   - "Vou **a** cavalo" → "Vou **a** pé" → só "a" → **sem crase**.
+2. **Substituição por "para a"**: se couber "para a" no lugar de "à", há crase (indica
+   preposição + artigo).
+   - "Refiro-me **à** diretora" → "Refiro-me... " (regência de *referir-se a*) → tem
+     crase.
+:::
+
+## Casos especiais
+
+### Nomes de lugar
+
+Depende de o lugar admitir artigo. Teste: "**Volto da**..." (tem artigo → crase) ×
+"**Volto de**..." (sem artigo → sem crase):
+
+- "Vou **a** Roma" (volto **de** Roma → sem artigo → **sem crase**).
+- "Vou **à** Bahia" (volto **da** Bahia → com artigo → **com crase**).
+- Com determinante, sempre crase: "Vou **à** Roma dos Césares".
+
+### Horas
+
+Nas horas determinadas, **há crase**: "Cheguei **às** oito horas", "**À** uma hora". Mas:
+"Cheguei **a** partir de..." (locução), "de segunda **a** sexta" (sem artigo, sem crase).
+
+### Locuções (crase obrigatória)
+
+Locuções **femininas** de tempo, lugar, modo levam crase por convenção: **à** noite, **à**
+tarde, **às** vezes, **à** vista, **à** direita, **à** esquerda, **à** toa, **à** medida
+que, **à** proporção que, **à** moda de.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## "À moda de" implícito
+Expressões como "bife **à** milanesa", "frango **à** passarinho" têm crase porque
+subentendem "**à moda de**" (à moda milanesa) — uma locução feminina. Mesmo diante de nome
+masculino: "gol **à** Pelé" (à moda de Pelé).
+:::
+
+## Quando a crase é PROIBIDA
+
+Casos em que **nunca** há crase (não há artigo *a* ou não há preposição):
+
+- **antes de palavra masculina**: "andar **a** cavalo", "pagar **a** prazo" (salvo "à
+  moda de" implícito).
+- **antes de verbo**: "Começou **a** chover", "Estou disposto **a** ajudar".
+- **antes da maioria dos pronomes**: "Refiro-me **a** você", "Falei **a** ela", "Não
+  aludi **a** ninguém" (mas: *àquele*, *à qual* têm crase).
+- **antes de palavra no plural com *a* singular**: "Refiro-me **a** pessoas" (a
+  preposição sem artigo, generalizando) × "Refiro-me **às** pessoas" (com artigo).
+- **entre palavras repetidas**: "cara **a** cara", "gota **a** gota", "dia **a** dia".
+
+::: {.callout-important}
+## Crase facultativa
+Há crase **facultativa** (tanto faz) em três casos:
+1. antes de **nomes próprios femininos** de pessoas: "Referi-me **a/à** Maria".
+2. antes de **pronomes possessivos femininos**: "Referi-me **a/à** minha amiga".
+3. depois de **até**: "Fui **até a/à** porta".
+:::
+
+## 📋 Quadro-resumo
+
+| Situação | Crase? | Exemplo |
+|---|---|---|
+| Verbo/nome rege *a* + fem. com artigo | **sim** | "Assisti **à** peça" |
+| *a* + *aquele/aquela/aquilo* | **sim** | "Refiro-me **àquilo**" |
+| Locuções femininas | **sim** | "**à** noite", "**às** vezes" |
+| Horas determinadas | **sim** | "**às** oito" |
+| Antes de masculino | **não** | "**a** cavalo" |
+| Antes de verbo | **não** | "**a** chover" |
+| Antes de pronome (geral) | **não** | "**a** você" |
+| Nomes próprios fem., possessivos, após *até* | **facultativa** | "**a/à** Maria" |
+
+Em uma linha: a **crase** é a fusão da preposição *a* com o artigo *a(s)* (ou o *a* de
+*aquele/a qual*); só ocorre quando **a regência exige *a*** e **a palavra admite artigo
+*a***, confirmando-se pelos macetes (troca por masculino → "ao"; "para a").
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Crase antes de verbo ou masculino.** "Começou **a** chover", "**a** cavalo" — nunca
+  crase (não há artigo *a*).
+- **Crase antes de pronome.** "Refiro-me **a** você/ela" — sem crase (mas *àquele*,
+  *à qual* têm).
+- **Esquecer a crase nas locuções.** "**à** noite", "**às** vezes", "**à** vista" — crase
+  obrigatória.
+- **Errar nomes de lugar.** "Vou **a** Roma" (sem artigo) × "Vou **à** Bahia" (com
+  artigo). Teste: "volto de/da".
+- **Não ver a crase de "à moda de".** "bife **à** milanesa", "gol **à** Pelé" — crase pelo
+  "à moda de" implícito, mesmo com masculino.
+
+## ✍️ Exercícios
+
+**1.** Explique, em uma frase, o que é a crase e qual acento a marca.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Crase é a **fusão de dois *a*** — a preposição *a* com o artigo *a(s)*, ou com o *a* de
+*aquele/aquela/aquilo* ou do relativo *a qual* —, marcada pelo **acento grave** (`à`). Só
+ocorre quando existem, ao mesmo tempo, a preposição *a* (exigida pela regência) e o
+artigo *a* (admitido pela palavra seguinte).
+:::
+
+**2.** (Estilo ENEM) Assinale a frase em que a crase está **corretamente** empregada:
+
+a) Vou à cavalo até a fazenda;
+b) Refiro-me à você;
+c) Assisti à peça de teatro;
+d) Começou à chover cedo;
+e) Cheguei a Bahia ontem.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Assisti **à** peça": *assistir* (ver) rege *a*, e *peça* é feminino
+com artigo → crase. As demais erram: "**a** cavalo" (masculino, a — a); "**a** você"
+(pronome, sem crase); "**a** chover" (verbo, sem crase); "**à** Bahia" (nome de lugar com
+artigo → deveria ter crase em "e").
+:::
+
+**3.** Use o macete da troca por masculino para decidir: (a) "Vou ___ escola"; (b) "Vou
+___ pé".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Vou **à** escola" → troca: "Vou **ao** colégio" → surgiu "ao" → **tem crase**. (b)
+"Vou **a** pé" → troca: "Vou **a** cavalo" → só "a" (masculino, sem artigo) → **sem
+crase**. O aparecimento de "ao" no masculino confirma a crase.
+:::
+
+**4.** Decida a crase nos nomes de lugar: (a) "Viajei ___ Paris"; (b) "Viajei ___ Bahia."
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Viajei **a** Paris" — teste: "voltei **de** Paris" (sem artigo) → **sem crase**. (b)
+"Viajei **à** Bahia" — teste: "voltei **da** Bahia" (com artigo) → **com crase**. O teste
+"voltar de/da" revela se o nome de lugar admite artigo.
+:::
+
+**5.** Justifique a crase (ou sua ausência): (a) "Refiro-me àquele fato"; (b) "Refiro-me a
+este fato".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Refiro-me **àquele** fato" — **com crase**: a preposição *a* (exigida por *referir-se
+a*) funde-se com o *a* inicial de *aquele* → *àquele*. (b) "Refiro-me **a** este fato" —
+**sem crase**: o pronome *este* não começa com *a*, então não há fusão possível (há
+apenas a preposição *a*, sem outro *a* com que se fundir).
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que a crase é **facultativa**:
+
+a) Vou à praia;
+b) Referi-me à Ana;
+c) Cheguei às nove horas;
+d) Ando à toa;
+e) Assisti à ópera.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Antes de **nome próprio feminino de pessoa** ("Ana"), a crase é
+**facultativa**: "Referi-me **a/à** Ana". As demais têm crase **obrigatória**: "à praia"
+(regência de *ir a* + artigo), "às nove horas" (horas), "à toa" (locução), "à ópera"
+(assistir a + artigo).
+:::
+
+**7.** Corrija, se necessário: "Ficamos frente a frente e conversamos até a madrugada."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ficamos frente **a** frente e conversamos até **a/à** madrugada." "Frente **a** frente"
+**não** leva crase (palavras repetidas, expressão sem artigo). "Até **a** madrugada" tem
+crase **facultativa** depois de *até* ("até **a**" ou "até **à**" — ambas aceitas). A
+frase original está essencialmente correta; a única observação é a facultatividade após
+*até*.
+:::
+
+**8.** Explique a crase em "Comemos bife à parmegiana".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Há crase porque a expressão subentende "**à moda de**": "bife **à** (moda) parmegiana". A
+locução "à moda de" é feminina e leva crase, e a elipse de "moda de" mantém o acento
+grave. Por isso a crase ocorre mesmo diante de palavra que, sozinha, não a justificaria —
+inclusive antes de nomes masculinos ("frango **à** Pelé" = à moda de Pelé).
+:::
+
+**9.** Decida a crase: (a) "Entreguei o documento ___ secretária"; (b) "Entreguei o
+documento ___ ela".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Entreguei o documento **à** secretária" — *entregar algo **a** alguém* (preposição
+*a*) + *a* secretária (feminino com artigo) → **crase**. (b) "Entreguei o documento **a**
+ela" — antes do pronome pessoal *ela* **não** há crase (o pronome não admite artigo *a*),
+apenas a preposição *a*. Pronome pessoal bloqueia a crase.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Estou disposto à colaborar', a
+crase está corretamente empregada."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Não há crase antes de **verbo**: "colaborar" é verbo no infinitivo, que não
+admite artigo *a*. O correto é "Estou disposto **a** colaborar" (apenas a preposição *a*,
+sem crase). A crase exige um artigo *a* para fundir-se com a preposição, e verbos nunca
+levam artigo.
+:::
+
+## 📚 Referências
+
+As regras de crase, seus casos especiais e facultativos seguem Bechara [@bechara2009] e
+Cunha & Cintra [@cunhacintra2017]; a crase depende diretamente da regência (caps. 52–53) e
+do emprego do artigo (@sec-cap-28). Uma exposição didática do método de decisão e a
+discussão sobre a variação no uso estão em Bagno [@bagno2011]. A colocação pronominal, que
+fecha o Volume 8, vem no @sec-cap-55.
+
+::: {#refs}
 :::
