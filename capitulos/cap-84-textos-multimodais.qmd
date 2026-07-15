@@ -4,22 +4,665 @@ title: "Leitura de textos multimodais: charge, tirinha, infográfico"
 
 # Leitura de textos multimodais: charge, tirinha, infográfico {#sec-cap-84}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 13 — Interpretação de Textos.
+> "Numa boa charge, a imagem não ilustra o texto e o texto não legenda a imagem: os dois
+> dizem coisas diferentes, e o sentido nasce do atrito."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Este capítulo trata dos textos que significam por **mais de um modo** ao mesmo tempo:
+palavra, imagem, cor, layout, tipografia, som. São os textos **multimodais** — e eles são a
+regra, não a exceção.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Vale começar desfazendo uma ideia. A escola trata a multimodalidade como uma novidade
+digital: os "novos textos" da internet, com seus memes e infográficos. É falso em duas
+direções. Para trás: o manuscrito medieval iluminado, a charge do século XIX, o cartaz de
+guerra, a placa de trânsito — todos multimodais. Para os lados: **este** manual é
+multimodal, com suas figuras, seus emojis de seção e seus quadros coloridos que sinalizam
+tipos de conteúdo antes que você leia uma palavra.
+
+O que a era digital fez não foi inventar a multimodalidade — foi **baratear** a produção de
+imagem a ponto de tornar o texto puramente verbal a exceção.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Sobre os exemplos deste capítulo
+Charges e tirinhas reais são obras protegidas e não podem ser reproduzidas aqui. Este
+capítulo trabalha, portanto, com **descrições verbais detalhadas** de charges (indicando o
+que se veria) e com **esquemas** que representam os mecanismos. É uma limitação real: você
+verá o **funcionamento** descrito, não a obra.
+
+A compensação está a seu alcance: aplique o método deste capítulo às charges do jornal de
+hoje. É o único jeito de aprender de verdade — e é gratuito.
+:::
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** multimodalidade e reconhecê-la em textos antigos e novos;
+- **Identificar** os modos semióticos e o que cada um faz;
+- **Analisar** as relações entre texto e imagem: redundância, complementaridade, contradição;
+- **Ler** charges, tirinhas e cartuns, mobilizando os conceitos dos volumes anteriores;
+- **Avaliar** criticamente infográficos e gráficos, inclusive os enganosos;
+- **Reconhecer** o papel do repertório na leitura multimodal.
+
+## Os modos semióticos
+
+Um texto multimodal combina **modos** — sistemas de significação com recursos próprios:
+
+| Modo | Recursos | O que faz bem |
+|---|---|---|
+| **Verbal** | palavras, sintaxe | **precisão**, negação, abstração, tempo |
+| **Visual** | imagem, forma, traço | **simultaneidade**, concretude, emoção |
+| **Cor** | matiz, saturação | valor, alerta, categoria, clima |
+| **Layout** | posição, tamanho, ordem | **hierarquia**, percurso de leitura |
+| **Tipografia** | fonte, peso, corpo | ênfase, registro, "voz" |
+
+::: {.callout-important}
+## Cada modo faz o que o outro não faz
+Esta é a chave do capítulo, e explica por que a combinação é tão produtiva.
+
+**O verbal** consegue coisas que a imagem **não consegue**:
+
+- **Negar**. Desenhe "não há crise". Impossível: qualquer desenho de crise **mostra** a
+  crise. A negação é um recurso exclusivamente verbal — por isso as placas precisam da barra
+  vermelha, que é uma convenção **arbitrária**, não uma imagem.
+- **Abstrair**. Desenhe "justiça" sem recorrer a um símbolo convencionado (a balança).
+- **Marcar tempo e modo**. Desenhe "teria chovido".
+
+**O visual** consegue coisas que a palavra **não consegue**:
+
+- **Simultaneidade**. Uma imagem entrega dezenas de informações **de uma vez**; o texto é
+  forçosamente linear.
+- **Concretude imediata**. "Uma criança magra" exige leitura; a foto atinge antes.
+- **Não dizer explicitamente**. A imagem **sugere** sem afirmar — e, por isso, não pode ser
+  cobrada como afirmação (@sec-cap-82).
+
+**A consequência**: a multimodalidade não é decoração. É **divisão de trabalho semiótico** —
+cada modo faz aquilo em que é bom.
+:::
+
+## As três relações entre texto e imagem
+
+::: {#fig-multimodal}
+
+```{.tikz}
+%%| filename: multimodal
+%%| alt: Esquema das três relações possíveis entre texto e imagem. Primeira, redundância: texto e imagem dizem a mesma coisa, como uma foto de cachorro com a legenda um cachorro; é o caso mais pobre, pois um dos modos é desperdiçado, embora seja útil em manual de instruções e acessibilidade. Segunda, complementaridade: cada modo acrescenta o que o outro não tem, como uma foto de manifestação com legenda informando o número de participantes; é o caso mais comum, presente em jornalismo e infográfico. Terceira, contradição: texto e imagem se contradizem deliberadamente, como um político dizendo mais uma entrega diante de uma obra abandonada; produz ironia e é o mecanismo da charge. Abaixo, a indicação de que na contradição o sentido não está no texto nem na imagem, mas no atrito entre os dois, e que o leitor precisa construí-lo.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize, text width=44mm},
+]
+  \node[cx, draw=manualgray, fill=manualgray!10] (r) at (-4.9,1.3)
+    {\centering\textbf{1. REDUNDÂNCIA}\\{\scriptsize texto $=$ imagem}\\[4pt]\raggedright
+     {\scriptsize \emph{foto de cachorro} $+$ ``um cachorro''}\\[4pt]
+     $\rightarrow$ um dos modos é \textbf{desperdiçado}\\
+     {\scriptsize \emph{útil em}: manual de instruções,\\ acessibilidade}};
+
+  \node[cx, draw=manualblue, fill=manualblue!10] (c) at (0,1.3)
+    {\centering\textbf{2. COMPLEMENTARIDADE}\\{\scriptsize texto $+$ imagem}\\[4pt]\raggedright
+     {\scriptsize \emph{foto de manifestação} $+$ ``200 mil pessoas''}\\[4pt]
+     $\rightarrow$ cada modo acrescenta o que\\ o outro \textbf{não tem}\\
+     {\scriptsize \emph{o caso mais comum}: jornalismo,\\ infográfico}};
+
+  \node[cx, draw=manualred, fill=manualred!12] (x) at (4.9,1.3)
+    {\centering\textbf{3. CONTRADIÇÃO}\\{\scriptsize texto $\neq$ imagem}\\[4pt]\raggedright
+     {\scriptsize \emph{obra abandonada} $+$ ``Mais uma entrega!''}\\[4pt]
+     $\rightarrow$ produz \textbf{ironia}\\
+     {\scriptsize \emph{o mecanismo da} \textbf{charge}}};
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=5pt, text width=92mm] at (0,-1.5)
+    {Na \textbf{contradição}, o sentido não está no texto \emph{nem} na imagem:\\
+     está no \textbf{atrito} entre os dois — e é o \textbf{leitor} quem o constrói.};
+\end{tikzpicture}
+```
+
+As três relações. A **contradição** é a mais produtiva e a mais exigente: nenhum dos modos
+contém o sentido, que emerge do choque entre eles.
+:::
+
+### 1. Redundância — texto = imagem
+
+Ambos dizem o mesmo: foto de um cachorro + legenda "um cachorro".
+
+É o caso mais **pobre**: um dos modos foi desperdiçado. Mas tem usos legítimos — manual de
+instruções (a redundância reduz erro), material infantil, e sobretudo **acessibilidade** (o
+texto alternativo de uma imagem **deve** ser redundante com ela, para quem não a vê).
+
+### 2. Complementaridade — texto + imagem
+
+Cada modo acrescenta o que o outro não tem: foto de uma multidão + legenda "200 mil pessoas
+protestam contra a reforma".
+
+A foto entrega **a escala e o clima**; o texto entrega **o número, a causa e a data** — que
+a foto não conseguiria dizer. É o caso mais **comum**: jornalismo, infográfico, manual,
+este manual.
+
+### 3. Contradição — texto ≠ imagem
+
+Os modos se **contradizem deliberadamente**, e o atrito produz o sentido.
+
+> Charge: um político sorridente corta uma fita diante de um prédio com tapumes e mato alto.
+> Legenda: "**Mais uma entrega para a população!**"
+
+O texto afirma entrega; a imagem mostra abandono. **Nenhum dos dois** contém a crítica — ela
+nasce do **choque**, e é o leitor quem a constrói (@sec-cap-81).
+
+Este é o mecanismo central da **charge**, e é por isso que ela é ironia por construção
+(@sec-cap-83).
+
+## A charge
+
+**Charge** = crítica de um **fato específico e datado**, geralmente político, com humor.
+
+**Como ler — o método:**
+
+1. **Identifique o fato** — a charge é datada e pressupõe a notícia. Sem isso, é opaca.
+2. **Leia a imagem** — quem são os personagens? que símbolos aparecem? que expressões?
+3. **Leia o texto** — legenda, balões, placas.
+4. **Determine a relação** — os dois se complementam ou se **contradizem**?
+5. **Identifique a crítica** — que tese a charge sustenta **sem afirmar**?
+6. **Procure a intertextualidade** — que obra, frase ou script cultural está sendo citado?
+
+::: {.callout-tip}
+## Charge, cartum, tirinha, caricatura: as distinções
+Cobradas com frequência:
+
+| Gênero | Objeto | Temporalidade |
+|---|---|---|
+| **Charge** | fato **específico e datado** | perde sentido com o tempo |
+| **Cartum** | situação **geral** da condição humana | atemporal |
+| **Tirinha** | narrativa curta em quadros | pode ser qualquer um |
+| **Caricatura** | **pessoa** (traços exagerados) | não precisa de narrativa |
+
+**O teste**: se a peça precisa da notícia de ontem, é **charge**. Se funciona daqui a
+cinquenta anos, é **cartum**. Uma charge sobre uma CPI de 2005 é hoje ininteligível; um
+cartum sobre a burocracia é eterno.
+:::
+
+## O infográfico e os gráficos enganosos
+
+O infográfico combina texto, imagem e **dados**. Sua promessa é tornar visível o que uma
+tabela esconde.
+
+Mas há uma armadilha específica, e ela é grave: **o gráfico parece objetivo**. Ele tem cara
+de matemática — e por isso o leitor baixa a guarda. Enquanto uma frase persuasiva é
+examinada, um gráfico é **aceito**.
+
+::: {.callout-warning}
+## Como um gráfico mente sem mentir
+Nenhuma das técnicas abaixo falsifica dados. Todas manipulam a **apresentação** — e são
+extremamente eficazes:
+
+1. **Eixo truncado** — o eixo Y não começa em zero. Uma variação de 2% vira uma montanha.
+   É a técnica mais comum, e frequentemente legítima em séries longas — o que a torna difícil
+   de acusar.
+2. **Escala manipulada** — comprimir ou esticar o eixo X transforma uma tendência suave em
+   colapso, ou vice-versa.
+3. **Área × altura** — dobrar a **altura** de um ícone quadruplica sua **área**. O olho lê a
+   área, não a altura, e percebe 4× onde o dado diz 2×.
+4. **Recorte temporal** — escolher o intervalo que sustenta a tese e omitir o resto. O dado
+   é verdadeiro; a série, seletiva.
+5. **Correlação apresentada como causa** — dois eixos que sobem juntos sugerem causalidade
+   que ninguém afirmou (@sec-cap-76).
+6. **Cores conotativas** — vermelho para o adversário, azul para o próprio (@sec-cap-61).
+7. **Omissão da fonte, da amostra ou da margem de erro** — o não dito não é contestável
+   (@sec-cap-82).
+
+**As perguntas de defesa**: o eixo começa em zero? qual o intervalo, e por que este? qual a
+fonte? o que **não** está no gráfico?
+:::
+
+Note que todas essas técnicas são o **equivalente visual** do que o @sec-cap-82 descreveu no
+verbal: elas não **afirmam** — fazem o leitor **concluir**. E, como no verbal, a conclusão do
+leitor é a mais eficaz, porque ele não discorda de si mesmo.
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Duas observações.
+
+**1. A multimodalidade não é novidade, e não é degradação.** É comum ouvir que "os jovens
+não leem mais, só veem imagem" — como se a imagem fosse uma forma inferior ou preguiçosa de
+significar. O argumento não se sustenta: ler uma charge exige **mais** competências que ler
+um parágrafo (@sec-cap-83) — repertório do fato, reconhecimento de símbolos,
+intertextualidade, ironia, articulação entre modos. É leitura **mais** difícil, não menos.
+
+O que existe é uma **hierarquia cultural** herdada, que trata o verbal escrito como sério e o
+visual como acessório — hierarquia que a própria história desmente (o manuscrito iluminado, a
+charge do XIX) e que a escola reproduz ao ensinar "interpretação de **texto**" como se imagem
+não fosse texto.
+
+**2. O letramento visual é uma lacuna real, e cara.** A escola ensina a desconfiar de um
+argumento verbal ("qual a fonte?") e quase não ensina a desconfiar de um **gráfico**. E, no
+entanto, o gráfico é hoje o principal veículo de persuasão quantitativa — em campanhas,
+propagandas, relatórios corporativos e desinformação.
+
+Um cidadão que sabe pedir a fonte de uma afirmação e não sabe perguntar se o eixo Y começa em
+zero está **desarmado** justamente onde a manipulação é mais eficaz — porque o gráfico tem
+cara de objetividade [@marcuschi2008; @koch2015texto].
+:::
+
+## 📋 Quadro-resumo
+
+**Multimodalidade** = significar por **mais de um modo** simultaneamente. **Não** é novidade
+digital: manuscrito iluminado, charge do XIX, placa de trânsito.
+
+**Os modos**: verbal (precisão, **negação**, abstração) · visual (simultaneidade,
+concretude) · cor · layout (hierarquia) · tipografia.
+
+**Divisão de trabalho**: a imagem **não nega** ("desenhe 'não há crise'"); o texto **não é
+simultâneo**.
+
+**As três relações:**
+
+| Relação | Texto × imagem | Onde |
+|---|---|---|
+| **Redundância** | dizem o mesmo | manual, acessibilidade |
+| **Complementaridade** | cada um acrescenta | jornalismo, infográfico |
+| **Contradição** | se opõem | **charge** — produz ironia |
+
+**Charge × cartum**: charge = fato **datado** (envelhece); cartum = situação **geral**
+(atemporal).
+
+**Gráficos enganosos**: eixo truncado · escala manipulada · área × altura · recorte temporal
+· correlação como causa · cores conotativas · omissão de fonte.
+
+Em uma linha: na **contradição**, o sentido não está no texto **nem** na imagem — está no
+**atrito**, e quem o constrói é o leitor.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que multimodalidade é novidade digital.** O manuscrito iluminado e a charge do XIX
+  são multimodais.
+- **Achar que a imagem "ilustra" o texto.** Na charge, ela o **contradiz** — e é daí que
+  vem o sentido.
+- **Confundir charge com cartum.** Charge = fato **datado**; cartum = situação **geral**. O
+  teste: funciona daqui a 50 anos?
+- **Ler só o texto da charge.** Metade do sentido está na imagem, e frequentemente a metade
+  que critica.
+- **Achar que gráfico é objetivo.** Ele tem cara de matemática — e é por isso que engana bem.
+- **Não checar o eixo Y.** Truncar o eixo é a técnica mais comum e mais eficaz.
+- **Confundir área com altura.** Dobrar a altura de um ícone **quadruplica** a área. O olho
+  lê a área.
+- **Achar que "ver imagem" é ler menos.** Ler charge exige **mais** competências que ler um
+  parágrafo.
+
+## ✍️ Exercícios
+
+**1.** Explique por que a imagem não consegue negar, e o que isso revela sobre a divisão de
+trabalho entre os modos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Faça o teste**: desenhe "**não há crise**".
+
+Qualquer tentativa fracassa. Se você desenhar uma cena próspera, ela mostra prosperidade —
+não a **negação** da crise. Se desenhar uma crise com um X vermelho por cima, você recorreu a
+uma **convenção arbitrária** (o X), que é um signo quase-verbal, não uma imagem.
+
+**Por quê**: a negação é uma **operação lógica**, não uma coisa do mundo. Imagens mostram
+**o que é**; não têm como mostrar **o que não é**. Não existe a imagem de uma ausência —
+existe a imagem de outra coisa.
+
+**A prova social disso**: as placas de trânsito precisaram **inventar** a barra vermelha
+diagonal para negar. Ela não é uma imagem do proibido — é uma **convenção** que teve de ser
+aprendida, exatamente como uma palavra. A imagem sozinha não dava conta.
+
+**O que isso revela — a divisão de trabalho semiótico:**
+
+| O **verbal** faz | O **visual** faz |
+|---|---|
+| **negar** ("não há crise") | **simultaneidade** (dezenas de dados de uma vez) |
+| **abstrair** ("justiça") | **concretude** (a foto atinge antes da leitura) |
+| **marcar tempo/modo** ("teria chovido") | **sugerir sem afirmar** (não pode ser cobrado) |
+| precisão, quantificação | emoção, escala, clima |
+
+**A conclusão**: a multimodalidade não é **decoração** — é **divisão de trabalho**. Cada modo
+faz aquilo em que é bom, e a combinação consegue o que nenhum dos dois conseguiria sozinho.
+:::
+
+**2.** Classifique a relação texto-imagem: (a) foto de cachorro + "um cachorro"; (b) foto de
+multidão + "200 mil protestam"; (c) obra abandonada + "Mais uma entrega!".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Redundância.** Texto e imagem dizem **a mesma coisa**. Um dos modos foi desperdiçado —
+é o caso mais pobre.
+
+*Mas tem usos legítimos*: manual de instruções (a redundância **reduz erro**), material
+infantil, e sobretudo **acessibilidade** — o texto alternativo de uma imagem **deve** ser
+redundante com ela, porque quem não a vê depende inteiramente dele.
+
+**(b) Complementaridade.** Cada modo acrescenta o que o outro **não tem**:
+
+- a **foto** entrega escala, clima, densidade, expressões — coisas que o texto levaria
+  parágrafos para aproximar;
+- o **texto** entrega o número exato (200 mil), a causa e a data — coisas que a foto **não
+  consegue** dizer (uma foto não sabe contar nem datar).
+
+É o caso mais **comum**: jornalismo, infográfico, manual, este manual.
+
+**(c) Contradição.** O texto afirma **entrega**; a imagem mostra **abandono**. Os dois se
+opõem deliberadamente.
+
+**O ponto crucial**: **nenhum dos dois contém a crítica**. O texto sozinho é um anúncio
+oficial; a imagem sozinha é um prédio inacabado. A crítica nasce do **atrito** — e é o
+**leitor** quem a constrói (@sec-cap-81).
+
+É o mecanismo central da **charge**, e a razão de ela ser ironia por construção
+(@sec-cap-83): a incompatibilidade entre os modos **é** a pista que dispara a inversão.
+:::
+
+**3.** Distinga charge de cartum, com o teste apropriado.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Charge** — crítica de um **fato específico e datado**, quase sempre político, ligado à
+notícia do dia.
+
+**Cartum** — crítica de uma situação **geral** da condição humana, sem vínculo com fato
+específico.
+
+**O teste da temporalidade**: **a peça funciona daqui a 50 anos?**
+
+- Se **não** — precisa da notícia de ontem para fazer sentido → **charge**.
+- Se **sim** — trata de algo permanente → **cartum**.
+
+**Exemplos:**
+
+- Uma charge sobre uma CPI específica de 2005 é hoje **ininteligível**: o leitor não sabe
+  quem eram os personagens nem o que se apurava. Ela **envelheceu**, e isso não é defeito —
+  é a natureza do gênero.
+- Um cartum sobre a burocracia (um cidadão numa fila que dá a volta no quarteirão, com uma
+  placa "senha 4.782") é **eterno**: funcionava em 1950 e funciona hoje.
+
+**A consequência para a leitura**: a charge exige **repertório do fato** — sem acompanhar a
+notícia, ela é opaca, e o problema é de **acesso à informação**, não de capacidade de leitura
+(@sec-cap-81). O cartum exige apenas repertório **cultural geral**.
+
+**Os gêneros vizinhos:**
+
+- **Tirinha** — narrativa curta em quadros; pode ser charge ou cartum quanto ao objeto.
+- **Caricatura** — retrato de **pessoa**, com traços exagerados; não precisa de narrativa nem
+  de crítica a fato.
+:::
+
+**4.** (Estilo ENEM) Na charge em que um político corta a fita de uma obra abandonada sob a
+legenda "Mais uma entrega!", o efeito crítico decorre:
+
+a) da redundância entre texto e imagem;
+b) da contradição entre o texto e a imagem, que produz ironia;
+c) da ausência de texto verbal;
+d) exclusivamente da caricatura do político;
+e) da complementaridade, em que o texto informa o que a imagem não mostra.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O texto afirma **entrega**; a imagem mostra **abandono** (tapumes, mato).
+A **contradição** entre os modos é deliberada e produz **ironia** (@sec-cap-83): o dito é o
+inverso do pretendido, e a **pista** que autoriza a inversão é justamente a incompatibilidade
+com o que a imagem mostra.
+
+As demais:
+
+- **(a)** redundância seria texto e imagem dizendo **o mesmo** — o oposto do que ocorre.
+- **(c)** há texto verbal (a legenda), e ele é essencial: sem ele, a imagem seria apenas um
+  registro de obra inacabada, sem crítica.
+- **(d)** a caricatura **contribui**, mas não é a fonte do efeito — o mesmo político desenhado
+  realisticamente produziria a mesma ironia.
+- **(e)** complementaridade seria o texto **acrescentando** informação compatível ("obra
+  parada há 6 anos"). Aqui ele **contradiz**.
+
+**O que a questão realmente testa**: perceber que **nenhum dos dois modos contém a crítica**.
+O texto sozinho é um anúncio; a imagem sozinha é um prédio. A crítica emerge do **atrito** —
+e é o leitor quem a constrói.
+
+E note o ganho estratégico: a charge **nunca afirma** que o político mente. Por isso é
+juridicamente mais segura que um editorial — o implícito não pode ser processado
+(@sec-cap-82).
+:::
+
+**5.** Liste as técnicas pelas quais um gráfico engana sem falsificar dados.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Nenhuma das técnicas abaixo falsifica dados.** Todas manipulam a **apresentação**:
+
+1. **Eixo truncado** — o eixo Y não começa em zero. Uma variação de 2% vira uma montanha.
+   É a mais comum — e frequentemente **legítima** em séries longas, o que a torna difícil de
+   acusar e fácil de abusar.
+2. **Escala manipulada** — comprimir ou esticar o eixo X transforma tendência suave em
+   colapso, ou vice-versa.
+3. **Área × altura** — dobrar a **altura** de um ícone **quadruplica** sua **área**. O olho
+   lê a área e percebe 4× onde o dado diz 2×.
+4. **Recorte temporal** — escolher o intervalo que sustenta a tese. O dado é verdadeiro; a
+   **série** é seletiva. (Começar a série no pior ano do adversário é clássico.)
+5. **Correlação apresentada como causa** — dois eixos que sobem juntos sugerem causalidade
+   que ninguém afirmou (@sec-cap-76).
+6. **Cores conotativas** — vermelho para o adversário, azul para o próprio; verde para
+   "bom" (@sec-cap-61).
+7. **Omissão** de fonte, amostra, metodologia ou margem de erro — o não dito não é
+   contestável (@sec-cap-82).
+
+**As quatro perguntas de defesa:**
+
+1. **O eixo Y começa em zero?**
+2. **Qual o intervalo — e por que este?**
+3. **Qual a fonte, a amostra, a margem de erro?**
+4. **O que não está aqui?**
+
+**O ponto teórico**: todas essas técnicas são o **equivalente visual** do implícito verbal
+(@sec-cap-82). Elas não **afirmam** nada falso — fazem o leitor **concluir**. E, como no
+verbal, a conclusão do leitor é a mais eficaz, porque **ele não discorda de si mesmo**.
+
+**Por que funcionam tão bem**: o gráfico tem **cara de matemática**. O leitor examina uma
+frase persuasiva e **aceita** um gráfico — baixa a guarda exatamente onde deveria levantá-la.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "A multimodalidade é um fenômeno próprio dos
+textos digitais."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** A multimodalidade é **muito anterior** ao digital.
+
+**Exemplos históricos:**
+
+- **Manuscritos medievais iluminados** — texto, ilustração, cor e ouro articulados na mesma
+  página, com hierarquia visual deliberada (a capitular indicava início de seção antes que se
+  lesse uma palavra).
+- **Charges do século XIX** — no Brasil, Ângelo Agostini já articulava imagem e texto com
+  crítica política nas décadas de 1860–70.
+- **Cartazes de guerra**, **placas de trânsito**, **mapas**, **partituras**, **cédulas de
+  dinheiro**, **rótulos**.
+- **Livros didáticos** de qualquer época — inclusive **este manual**, com suas figuras,
+  emojis de seção e quadros coloridos que sinalizam tipo de conteúdo antes da leitura.
+
+**O que o digital de fato fez**: **baratear** radicalmente a produção e a circulação de
+imagem — a ponto de tornar o texto **puramente verbal** a exceção, e não a regra. Mudou a
+**escala** e o **custo**, não a natureza do fenômeno.
+
+**Por que o erro é comum**: porque a escola trata a multimodalidade como "os novos textos da
+internet", o que reflete uma **hierarquia cultural** herdada — o verbal escrito é sério, o
+visual é acessório. A história desmente essa hierarquia, e a prática também: o infográfico de
+um relatório do Banco Central não é menos sério que seu texto.
+:::
+
+**7.** Explique por que "ler uma charge exige mais competências que ler um parágrafo".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a charge **acumula** camadas que o parágrafo não tem, e todas precisam ser processadas
+em poucos segundos.
+
+**O que a leitura de uma charge exige:**
+
+| Competência | Por quê |
+|---|---|
+| **Repertório do fato** | a charge é datada e pressupõe a notícia; sem ela, é opaca (@sec-cap-81) |
+| **Reconhecimento de símbolos** | balança = justiça; cifrão = dinheiro; convenções culturais |
+| **Leitura de caricatura** | identificar a pessoa pelos traços exagerados |
+| **Articulação entre modos** | perceber que texto e imagem se **contradizem** (e não se ilustram) |
+| **Ironia** | fazer a inversão sem que ninguém avise (@sec-cap-83) |
+| **Intertextualidade** | reconhecer a paródia, a alusão, o script citado (@sec-cap-73) |
+| **Inferência** | construir a crítica, que **não está** afirmada em lugar algum (@sec-cap-82) |
+| **Gênero** | saber que é charge (crítica), não notícia (informação) — @sec-cap-72 |
+
+**A comparação**: um parágrafo argumentativo bem escrito **anuncia** sua tese (tópico frase)
+e a **sustenta** explicitamente. A charge **não afirma nada** — ela mostra, contradiz e
+espera. Todo o trabalho de construção fica com o leitor.
+
+**A conclusão que desmonta o senso comum**: a queixa de que "os jovens não leem mais, só veem
+imagem" trata o visual como forma **preguiçosa** de significar. É o contrário: ler imagem
+criticamente é **mais** difícil, não menos.
+
+**A ressalva honesta**: isso **não** significa que quem consome imagem esteja
+automaticamente exercendo essas competências. Ver uma charge e rir do desenho não é lê-la. A
+diferença entre ver e ler é a mesma entre decodificar e compreender (@sec-cap-81) — e é
+justamente essa competência que a escola não ensina, porque ensina "interpretação de
+**texto**" como se imagem não fosse texto.
+:::
+
+**8.** Analise a relação texto-imagem num infográfico de vacinação e diga que perguntas fazer.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Infográfico hipotético**: mapa do Brasil com estados coloridos por cobertura vacinal, uma
+linha do tempo 2015–2025 e ícones de seringa cujo tamanho indica doses aplicadas.
+
+**Relação texto-imagem**: predominantemente **complementaridade**.
+
+- O **mapa** entrega **simultaneidade e distribuição espacial** — de relance você vê que o
+  Norte está pior que o Sul, o que uma tabela de 27 linhas esconderia.
+- O **texto** (números, legendas, fonte) entrega **precisão** — 68,4%, e não "pouco".
+- A **cor** entrega **categoria e alerta** — vermelho = abaixo da meta.
+- O **layout** entrega **hierarquia** — o que está grande e no topo é o que importa.
+
+Cada modo faz o que o outro não faz.
+
+**As perguntas a fazer** (@sec-cap-82 aplicado ao visual):
+
+1. **O eixo Y da linha do tempo começa em zero?** Se não, uma queda de 3 pontos parece
+   colapso.
+2. **Por que 2015–2025?** O recorte foi escolhido. O que aconteceria se começasse em 2010?
+3. **Os ícones variam em altura ou em área?** Se a seringa "dobrou de tamanho", ela
+   quadruplicou a área — e o olho lê a área.
+4. **Qual a fonte?** Ministério da Saúde, OMS, ou a assessoria de quem publicou?
+5. **Cobertura de quê?** Todas as vacinas? Uma? A média esconde o quê?
+6. **As faixas de cor são equidistantes?** Faixas desiguais podem pintar de vermelho um
+   estado que está a 1 ponto da meta.
+7. **O que não está aqui?** Margem de erro, denominador (percentual de qual população?),
+   estados sem dado.
+
+**O princípio geral**: um infográfico é um **argumento** (@sec-cap-76), não um espelho dos
+dados. Alguém escolheu o recorte, a escala, as cores e o que omitir. Que ele pareça
+matemática é exatamente o que o torna eficaz — e o que exige a guarda alta.
+:::
+
+**9.** (Estilo FUVEST) Discuta: "a escola ensina a desconfiar de argumentos e não ensina a
+desconfiar de gráficos".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é verdadeira, e a lacuna é grave e assimétrica.**
+
+**O que a escola ensina**: diante de um argumento **verbal**, o aluno é treinado a perguntar
+"qual a fonte?", "isso é opinião ou fato?", "que evidência sustenta?". Há décadas de
+tradição pedagógica nisso — e o Volume 13 deste manual é parte dela.
+
+**O que a escola não ensina**: diante de um **gráfico**, quase ninguém foi treinado a
+perguntar "o eixo Y começa em zero?", "por que este intervalo?", "isto é área ou altura?".
+O gráfico é **aceito**.
+
+**Por que a lacuna é especialmente grave — três razões:**
+
+1. **O gráfico desarma a crítica.** Ele tem **cara de matemática**, e matemática não opina. O
+   leitor baixa a guarda **exatamente** onde deveria levantá-la. Uma frase persuasiva
+   convida ao exame; um gráfico convida à aceitação.
+2. **É onde a manipulação mais opera hoje.** Campanhas eleitorais, relatórios corporativos,
+   propaganda de medicamento, desinformação em rede — todos migraram para o visual
+   quantitativo, porque ele convence mais e é menos contestado.
+3. **As técnicas não são detectáveis por checagem de fatos.** Truncar o eixo **não falsifica
+   dado algum**. Uma agência de *fact-checking* que verifique os números encontrará tudo
+   correto — e o gráfico continuará enganando. É o equivalente visual do **pressuposto**
+   (@sec-cap-82): não afirma nada falso; faz o leitor **concluir**.
+
+**A causa da lacuna**: a **hierarquia cultural** que trata o verbal escrito como sério e o
+visual como acessório ou decorativo. A escola ensina "interpretação de **texto**" — e imagem,
+implicitamente, não é texto. O resultado é que se dedica um ano a figuras de linguagem e
+nenhuma aula a escalas de gráfico.
+
+**O que a correção exigiria**: reconhecer que o **letramento visual** é letramento — não
+extensão dele. As mesmas perguntas críticas (qual a fonte? o que foi omitido? quem ganha com
+esta leitura?) aplicam-se, com técnicas próprias.
+
+**A síntese**: um cidadão que sabe pedir a fonte de uma afirmação e não sabe perguntar se o
+eixo começa em zero está **desarmado justamente onde a manipulação é mais eficaz** — e
+acredita estar protegido, o que é pior [@marcuschi2008; @koch2015texto].
+:::
+
+**10.** Descreva uma charge que você tenha visto recentemente e analise-a pelo método do
+capítulo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível — o exercício pede a **aplicação do método**, e o valor está nele.
+(Aplique-o a uma charge real do jornal de hoje.)
+
+**Charge descrita**: um homem de terno, sorridente, entrega uma cesta básica minúscula a uma
+família visivelmente faminta. Atrás dele, um caminhão gigante com o logo de uma empresa
+descarrega sacas num galpão. Legenda: "**Responsabilidade social.**"
+
+**Aplicando o método:**
+
+**1. Identifique o fato** — campanhas de doação empresarial durante crise de fome; o debate
+sobre filantropia corporativa × tributação.
+
+**2. Leia a imagem** — contraste de **escala**: cesta minúscula × caminhão gigante. Contraste
+de **postura**: o executivo sorri para fora do quadro (posa para foto); a família olha para a
+cesta. O galpão sugere que há muito mais estocado.
+
+**3. Leia o texto** — "Responsabilidade social" é o jargão corporativo, reproduzido sem
+aspas.
+
+**4. Determine a relação** — **contradição**. O texto elogia; a imagem denuncia a
+desproporção. Nenhum dos dois contém a crítica.
+
+**5. Identifique a crítica** — a tese sustentada **sem ser afirmada**: a filantropia
+corporativa é **desproporcional** ao que se retém, e serve mais à **imagem** de quem doa do
+que a quem recebe. O sorriso para fora do quadro é a pista: ele posa.
+
+**6. Procure a intertextualidade** — o script da "foto da doação", onipresente no marketing
+corporativo; e o jargão "responsabilidade social", citado ironicamente (@sec-cap-73).
+
+**Mecanismos adicionais:**
+
+- **Ironia** (@sec-cap-83): "responsabilidade social" diz o inverso do pretendido; a pista é a
+  incompatibilidade com a imagem.
+- **Metonímia** (@sec-cap-65): o executivo representa a classe empresarial; a cesta, toda a
+  filantropia.
+- **Hipérbole visual**: a desproporção cesta/caminhão é exagerada para tornar visível a
+  desproporção real.
+- **Repertório exigido**: conhecer o debate sobre tributação × filantropia (@sec-cap-81).
+
+**Gênero**: **charge** (fato datado, crítica política) — não cartum, porque depende do debate
+atual. Embora, note-se, esta charge específica esteja perto do cartum: a desproporção da
+filantropia é um tema **permanente**, e ela funcionaria daqui a 30 anos. É um caso de
+fronteira, o que é comum e não é defeito.
+:::
+
+## 📚 Referências
+
+A concepção da multimodalidade como articulação de modos semióticos, e dos gêneros
+multimodais como práticas sociais historicamente situadas, segue Marcuschi [@marcuschi2008],
+referência central deste capítulo, e o @sec-cap-72; a leitura como construção que integra
+pistas de vários modos apoia-se em Koch [@koch2015texto] e Koch [@koch2018coesao], e no
+@sec-cap-81. Para a ironia que a contradição texto-imagem produz, veja o @sec-cap-83; para o
+implícito que a charge mobiliza e para o equivalente visual do pressuposto nos gráficos
+enganosos, o @sec-cap-82; para a conotação das cores e as figuras visuais, os @sec-cap-61 e
+@sec-cap-65; para a intertextualidade das paródias, o @sec-cap-73; para a correlação
+apresentada como causa, o @sec-cap-76. A discussão sobre letramento visual e desigualdade de
+acesso dialoga com Bagno [@bagno2011] e Faraco [@faraco2008]. O próximo capítulo — último do
+Volume 13 — sistematiza tudo isto num **método de resolução** de questões de interpretação.
+
+::: {#refs}
 :::
