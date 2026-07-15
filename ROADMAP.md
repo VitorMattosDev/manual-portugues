@@ -68,13 +68,13 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 58 | Ponto e vírgula, dois-pontos e ponto final | `capitulos/cap-58-ponto-virgula-dois-pontos.qmd` | 9 | ✅ 2026-07-15 |
 | 59 | Aspas, travessão, parênteses e reticências | `capitulos/cap-59-aspas-travessao-parenteses.qmd` | 9 | ✅ 2026-07-15 |
 | 60 | Pontuação no período composto e em textos reais | `capitulos/cap-60-pontuacao-periodo-composto.qmd` | 9 | ✅ 2026-07-15 |
-| 61 | Significado: denotação e conotação | `capitulos/cap-61-denotacao-conotacao.qmd` | 10 | ⬜ |
-| 62 | Relações lexicais: sinonímia, antonímia, hiponímia | `capitulos/cap-62-relacoes-lexicais.qmd` | 10 | ⬜ |
-| 63 | Polissemia, homonímia e paronímia | `capitulos/cap-63-polissemia-homonimia-paronimia.qmd` | 10 | ⬜ |
-| 64 | Ambiguidade e pressuposição | `capitulos/cap-64-ambiguidade-pressuposicao.qmd` | 10 | ⬜ |
-| 65 | Figuras de linguagem I: figuras de palavra e de pensamento | `capitulos/cap-65-figuras-linguagem-i.qmd` | 10 | ⬜ |
-| 66 | Figuras de linguagem II: figuras de sintaxe e de som | `capitulos/cap-66-figuras-linguagem-ii.qmd` | 10 | ⬜ |
-| 67 | O léxico do português: empréstimos e neologismos | `capitulos/cap-67-lexico-emprestimos-neologismos.qmd` | 10 | ⬜ |
+| 61 | Significado: denotação e conotação | `capitulos/cap-61-denotacao-conotacao.qmd` | 10 | ✅ 2026-07-15 |
+| 62 | Relações lexicais: sinonímia, antonímia, hiponímia | `capitulos/cap-62-relacoes-lexicais.qmd` | 10 | ✅ 2026-07-15 |
+| 63 | Polissemia, homonímia e paronímia | `capitulos/cap-63-polissemia-homonimia-paronimia.qmd` | 10 | ✅ 2026-07-15 |
+| 64 | Ambiguidade e pressuposição | `capitulos/cap-64-ambiguidade-pressuposicao.qmd` | 10 | ✅ 2026-07-15 |
+| 65 | Figuras de linguagem I: figuras de palavra e de pensamento | `capitulos/cap-65-figuras-linguagem-i.qmd` | 10 | ✅ 2026-07-15 |
+| 66 | Figuras de linguagem II: figuras de sintaxe e de som | `capitulos/cap-66-figuras-linguagem-ii.qmd` | 10 | ✅ 2026-07-15 |
+| 67 | O léxico do português: empréstimos e neologismos | `capitulos/cap-67-lexico-emprestimos-neologismos.qmd` | 10 | ✅ 2026-07-15 |
 | 68 | Texto e textualidade | `capitulos/cap-68-texto-e-textualidade.qmd` | 11 | ⬜ |
 | 69 | Coesão referencial e sequencial | `capitulos/cap-69-coesao.qmd` | 11 | ⬜ |
 | 70 | Coerência textual | `capitulos/cap-70-coerencia-textual.qmd` | 11 | ⬜ |

@@ -4,22 +4,609 @@ title: "O léxico do português: empréstimos e neologismos"
 
 # O léxico do português: empréstimos e neologismos {#sec-cap-67}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 10 — Semântica e Léxico.
+> "Nenhuma língua se contaminou até a morte por palavra estrangeira. Línguas morrem quando
+> deixam de ser faladas — não quando falam demais."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o Volume 10 olhando para o léxico não como um inventário, mas como um
+**organismo**: algo que nasce, cresce, importa, exporta, inventa e esquece. O português
+que você fala tem palavras tupis, africanas, árabes, francesas, inglesas e japonesas —
+todas plenamente portuguesas hoje, todas estrangeiras um dia.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo trata de **como** o léxico se renova: pelo **empréstimo** (importação de
+itens de outras línguas) e pelo **neologismo** (criação de itens novos). E trata também
+de uma polêmica que reaparece a cada geração: a de que os estrangeirismos estariam
+"destruindo" o português. Você verá que essa acusação tem quinhentos anos, que o
+português a sobreviveu com folga, e que os argumentos contra o inglês de hoje são
+literalmente os mesmos que se usaram contra o francês de ontem — e contra o tupi antes
+disso.
+
+Isso não significa que não haja nada a discutir. Significa que a discussão precisa ser
+melhor.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Descrever** as camadas históricas que formaram o léxico português;
+- **Classificar** os empréstimos quanto à origem e ao grau de adaptação;
+- **Distinguir** estrangeirismo de empréstimo já integrado;
+- **Identificar** os processos de formação de neologismos no português brasileiro;
+- **Avaliar** criticamente o purismo linguístico e seus argumentos;
+- **Reconhecer** o papel dos dicionários na consagração dos itens novos.
+
+## O léxico como sedimento histórico
+
+O léxico de uma língua é um **registro arqueológico** de tudo o que aconteceu com seus
+falantes. Cada camada corresponde a um contato, uma conquista, uma moda, uma tecnologia.
+
+O português tem, no mínimo, estas camadas (o tema é desenvolvido nos @sec-cap-92 a
+@sec-cap-94):
+
+- **Base latina** (a esmagadora maioria): *água*, *pai*, *casa*, *ver*, *terra*.
+- **Substrato pré-romano** (ibérico, celta): *barro*, *carvalho*, *cerveja*, *manteiga*.
+- **Germânico** (séc. V–VIII): *guerra*, *guardar*, *branco*, *rico*, *roupa*, *ganso*.
+- **Árabe** (séc. VIII–XV — cerca de 1.000 itens, marcados pelo artigo *al-*): *açúcar*,
+  *azeite*, *almofada*, *alface*, *álgebra*, *alfândega*, *azulejo*, *até*, *oxalá*.
+- **Tupi** (a partir do séc. XVI, no Brasil): *abacaxi*, *mandioca*, *tatu*, *jacaré*,
+  *pipoca*, *caatinga*, *Ipanema*, *Curitiba*, *peteca*, *mingau*.
+- **Africano** (banto e iorubá, via escravização): *samba*, *quilombo*, *moleque*,
+  *cafuné*, *dendê*, *fubá*, *caçula*, *bunda*, *xingar*, *acarajé*, *senzala*.
+- **Francês** (séc. XVIII–XIX, prestígio cultural): *abajur*, *bufê*, *chique*, *garagem*,
+  *menu*, *toalete*, *chofer*, *maiô*, *boné*.
+- **Inglês** (séc. XX–XXI, tecnologia e economia): *futebol*, *sanduíche*, *clube*,
+  *estresse*, *site*, *deletar*, *mouse*, *marketing*.
+- **Italiano, japonês, outros**: *pizza*, *macarrão*, *tchau*; *quimono*, *karaokê*,
+  *sushi*, *mangá*.
+
+Note algo importante nessa lista: você provavelmente não percebeu que *cerveja*, *guerra*,
+*açúcar*, *pipoca* e *samba* eram empréstimos. Elas são **portuguesíssimas** — e é
+exatamente esse o destino normal de um empréstimo bem-sucedido: **desaparecer como
+estrangeiro**.
+
+## Empréstimos: como uma palavra vira portuguesa
+
+### Estrangeirismo × empréstimo
+
+A distinção é de **grau de integração**, e vale a pena preservá-la:
+
+- **Estrangeirismo** — o item ainda é **sentido como estrangeiro**: mantém grafia e/ou
+  pronúncia da língua de origem, e costuma aparecer em itálico ou aspas. *Delivery*,
+  *feedback*, *marketing*, *know-how*, *coffee break*.
+- **Empréstimo** — o item já foi **integrado**: adaptou-se à fonologia e à ortografia do
+  português, e ninguém o percebe como estranho. *Futebol* (< *football*), *sanduíche* (<
+  *sandwich*), *abajur* (< *abat-jour*), *estresse* (< *stress*), *xampu* (< *shampoo*).
+
+A fronteira é **móvel**, e é a mesma história de sempre (@sec-cap-61, @sec-cap-63): o
+estrangeirismo de ontem é o empréstimo de hoje. *Futebol* foi escrito *foot-ball*, em
+itálico, com ar de novidade britânica. Hoje é tão português quanto *pão*.
+
+### Como o português adapta
+
+Um empréstimo não entra intacto: ele passa pelo **filtro do sistema** — e observar esse
+filtro é observar a gramática do português trabalhando.
+
+- **Adaptação fonológica**: o português não admite certas sequências, e as desfaz.
+  *Stress* → *estresse* (o /s/ + consoante inicial ganha um *e* protético — pela mesma
+  razão que dizemos *espaguete*, *esporte*, *estilo*). *Club* → *clube* (a oclusiva final
+  ganha vogal de apoio — o português evita terminar sílaba em /b/).
+- **Adaptação ortográfica**: *shampoo* → *xampu*; *football* → *futebol*; *jeep* → *jipe*.
+- **Adaptação morfológica** — a mais reveladora: o item importado passa a **flexionar e
+  derivar** como palavra portuguesa. *Deletar* ganha conjugação completa (*deleto*,
+  *deletei*, *deletaria*); *escanear* segue o mesmo caminho; *tuitar* gera *tuitada*,
+  *retuitar*. *Printar*, *linkar*, *upar*, *lacrar*, *shippar*.
+
+::: {.callout-important}
+## O argumento decisivo contra o pânico
+Repare no que a adaptação morfológica demonstra. Quando o português pega *delete* e produz
+*deletávamos*, ele não está sendo **invadido** — está **anexando**. A raiz é inglesa, mas
+a desinência de 1ª pessoa do plural do pretérito imperfeito da 1ª conjugação é
+puríssimamente portuguesa, herdada do latim.
+
+Ou seja: a **gramática** — o núcleo duro da língua — permanece intacta e faz o trabalho.
+Empréstimo lexical é a coisa mais superficial que pode acontecer a um idioma. Línguas
+mudam de gramática, e isso leva séculos; palavras entram e saem o tempo todo, sem
+consequência estrutural.
+
+O inglês é o caso definitivo: importou tanto do francês normando que perto de 60% do seu
+léxico é de origem latina/românica. Continua sendo uma língua germânica, porque sua
+**gramática** não mudou. Ninguém sustenta que o inglês tenha morrido de contaminação.
+:::
+
+A @fig-lexico-camadas apresenta as camadas do léxico e o percurso da adaptação.
+
+::: {#fig-lexico-camadas}
+
+```{.tikz}
+%%| filename: lexico-camadas
+%%| alt: Figura em duas partes. À esquerda, camadas históricas do léxico português empilhadas: base latina majoritária, substrato pré-romano, germânico, árabe, tupi, africano, francês e inglês, cada uma com exemplos. À direita, o percurso de adaptação de um empréstimo em quatro etapas: primeiro entra como estrangeirismo mantendo grafia estrangeira, como stress e football; segundo sofre adaptação fonológica e ortográfica, virando estresse e futebol; terceiro sofre adaptação morfológica, passando a flexionar e derivar como palavra portuguesa, como deletar e deletávamos; quarto é dicionarizado e deixa de ser percebido como estrangeiro. Abaixo, a observação de que a gramática permanece intacta e que o empréstimo é lexical, não estrutural.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cam/.style={draw, align=center, inner sep=3pt, text width=44mm, font=\scriptsize, minimum height=6mm},
+  et/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, text width=42mm, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  %% ---- camadas
+  \node[font=\bfseries\small, text=manualblue] at (-3.4,3.5) {CAMADAS DO LÉXICO};
+  \node[cam, draw=manualblue, fill=manualblue!22] at (-3.4,2.9) {\textbf{inglês} — \emph{site, futebol, estresse}};
+  \node[cam, draw=manualblue, fill=manualblue!19] at (-3.4,2.3) {\textbf{francês} — \emph{abajur, chique, garagem}};
+  \node[cam, draw=manualblue, fill=manualblue!16] at (-3.4,1.7) {\textbf{africano} — \emph{samba, cafuné, fubá}};
+  \node[cam, draw=manualblue, fill=manualblue!13] at (-3.4,1.1) {\textbf{tupi} — \emph{abacaxi, pipoca, tatu}};
+  \node[cam, draw=manualblue, fill=manualblue!10] at (-3.4,0.5) {\textbf{árabe} — \emph{açúcar, almofada, oxalá}};
+  \node[cam, draw=manualblue, fill=manualblue!7] at (-3.4,-0.1) {\textbf{germânico} — \emph{guerra, branco, roupa}};
+  \node[cam, draw=manualblue, fill=manualblue!5] at (-3.4,-0.7) {\textbf{pré-romano} — \emph{barro, cerveja}};
+  \node[cam, draw=manualblue, fill=manualblue!3, minimum height=11mm] at (-3.4,-1.6)
+    {\textbf{BASE LATINA}\\ \emph{água, pai, casa, ver, terra}\\ {\scriptsize(a esmagadora maioria)}};
+
+  %% ---- percurso
+  \node[font=\bfseries\small, text=manualred] at (4.0,3.5) {PERCURSO DE UM EMPRÉSTIMO};
+  \node[et, draw=manualred, fill=manualred!10] (e1) at (4.0,2.7)
+    {\textbf{1. estrangeirismo}\\ grafia estrangeira · \emph{stress, football}};
+  \node[et, draw=manualred, fill=manualred!8] (e2) at (4.0,1.4)
+    {\textbf{2. adaptação fonológica/ortográfica}\\ \emph{estresse, futebol}};
+  \node[et, draw=manualred, fill=manualred!6] (e3) at (4.0,0.1)
+    {\textbf{3. adaptação morfológica}\\ flexiona e deriva: \emph{deletávamos}};
+  \node[et, draw=manualgreen, fill=manualgreen!10] (e4) at (4.0,-1.2)
+    {\textbf{4. dicionarização}\\ deixa de ser sentido como estrangeiro};
+
+  \draw[s] (e1) -- (e2); \draw[s] (e2) -- (e3); \draw[s] (e3) -- (e4);
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=48mm] at (4.0,-2.6)
+    {A \textbf{gramática} permanece intacta.\\ O empréstimo é \textbf{lexical}, não estrutural.};
+\end{tikzpicture}
+```
+
+À esquerda, o léxico como **sedimento histórico**; à direita, o percurso pelo qual um item
+estrangeiro se torna português — e o ponto que o purismo costuma ignorar.
+:::
+
+## Neologismos: a língua inventando
+
+**Neologismo** é toda palavra ou acepção **nova** na língua. Nem todo neologismo é
+empréstimo: a maior parte é produzida pelos processos que você já estudou no Volume 4
+(@sec-cap-23, @sec-cap-24).
+
+### Neologismos de forma
+
+Palavras novas, criadas por processos internos:
+
+- **Derivação** — o processo mais produtivo: *bolsonarismo*, *petista*, *lulismo*,
+  *empoderamento*, *sororidade*, *desmatamento*, *viralizar*, *presencial* → *presencialidade*.
+- **Composição** — *beija-flor*, *guarda-chuva*; e, mais recentes, *bicicletário*,
+  *fake news* (composto importado), *home office*.
+- **Sigla e acronímia** — *ONG*, *PIB*, *BO*, *EAD*, *CPF*; e as que viraram palavras
+  comuns: *aids*, *radar*, *laser*.
+- **Truncamento (redução)** — *refri*, *delega*, *japa*, *bel* (< beleza), *vc*, *blz*.
+- **Onomatopeia e expressividade** — *tchutchuca*, *zap* (< WhatsApp), *tilt*.
+- **Cruzamento (blend)** — *portunhol* (português + espanhol), *showmício* (show +
+  comício), *brunch*, *forrobodó*.
+
+### Neologismos de sentido
+
+A palavra já existe; o que é novo é a **acepção**. É o processo mais silencioso e talvez o
+mais produtivo:
+
+- ***Mouse*** — o roedor virou dispositivo.
+- ***Janela***, ***área de trabalho***, ***nuvem***, ***vírus***, ***pasta***, ***lixeira***
+  — o vocabulário da informática é quase todo metafórico (@sec-cap-65).
+- ***Curtir*** — de "aproveitar" a "clicar em aprovação".
+- ***Postar*** — de "colocar em posto" a "publicar em rede".
+- ***Lacrar***, ***crush***, ***mico***, ***tóxico***, ***cringe*** — gírias que ganharam
+  acepção estável.
+
+Note a economia do processo: em vez de criar formas novas (que exigiriam memorização), a
+língua **reaproveita** formas existentes por extensão metafórica. É a conotação virando
+denotação, exatamente como no @sec-cap-61.
+
+### O que decide se um neologismo "pega"
+
+A maior parte dos neologismos **morre**. Sobrevivem os que:
+
+1. **preenchem uma lacuna real** (havia coisa sem nome: *selfie*, *drone*, *lockdown*);
+2. **são morfologicamente bem-formados** (encaixam nos moldes: *viralizar* soa possível;
+   *viralizamento* menos);
+3. **têm difusão social** (uso por muitos falantes, em muitos contextos);
+4. **sobrevivem à moda** (a maioria das gírias não passa deste filtro).
+
+A **dicionarização** [@houaiss2009] é a consagração final, mas é sempre **posterior** ao
+uso: o dicionário **registra**, não autoriza. Uma palavra não passa a existir quando entra
+no Houaiss — ela entra no Houaiss porque já existia o bastante para ser registrada.
+
+## O purismo e seus argumentos
+
+Aqui o capítulo precisa tomar posição — e explicar por quê.
+
+A cada geração, alguém anuncia que a língua está sendo destruída por palavras estrangeiras.
+No século XIX, o inimigo era o **francês**; hoje é o **inglês**. Em 1999, o então deputado
+Aldo Rebelo apresentou um projeto de lei para restringir o uso de estrangeirismos no
+Brasil — proposta amplamente criticada pelos linguistas [@faraco2008] e nunca aprovada em
+sua forma original.
+
+Os argumentos puristas, e o que a evidência diz sobre eles:
+
+::: {.callout-warning}
+## Quatro argumentos e suas respostas
+**1. "Os estrangeirismos descaracterizam a língua."**
+Se fosse verdade, o português já teria sido descaracterizado pelo árabe (*açúcar*,
+*almofada*), pelo tupi (*abacaxi*, *pipoca*), pelo africano (*samba*, *cafuné*) e pelo
+francês (*abajur*, *chique*). Essas palavras hoje soam maximamente portuguesas. O
+argumento só parece forte quando aplicado à camada mais recente — a que ainda não teve
+tempo de se naturalizar.
+
+**2. "Vão substituir as palavras portuguesas."**
+Empréstimos raramente substituem: eles **especializam** (@sec-cap-62). *Delivery* não
+matou *entrega* — convive com ela, num nicho (comida, aplicativo). *Show* não matou
+*espetáculo*. Quando duas formas concorrem, o uso as diferencia; é o que a língua sempre
+faz.
+
+**3. "Isso é submissão cultural."**
+Aqui há um grão de verdade que merece ser reconhecido: o fluxo de empréstimos **é**
+assimétrico e segue o poder econômico. Importamos do inglês porque a tecnologia e o
+capital vêm de lá. Isso é um fato **sobre a geopolítica**, e é legítimo incomodar-se com
+ele. Mas o remédio não é lexical: proibir *delivery* não altera a balança comercial. E
+note que o Brasil **exporta** léxico quando tem o que exportar — *samba*, *capoeira*,
+*açaí*, *favela* e *caipirinha* circulam mundo afora.
+
+**4. "É elitismo às avessas: quem não sabe inglês é excluído."**
+Este é o argumento **sério**, e o único que a linguística endossa parcialmente. Um contrato
+bancário cheio de *cash back*, *fee* e *chargeback* de fato **exclui** quem não domina o
+inglês, e isso é um problema real de **acessibilidade**. Mas note que o problema não é o
+estrangeirismo em si — é o **jargão opaco**, que também se produz em português castiço
+("proceder-se-á à excussão da garantia fiduciária"). A luta útil é pela **linguagem
+clara** (@sec-cap-78), não contra palavras estrangeiras.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+A posição defensável, e a que este manual adota, não é "vale tudo" nem "proíba-se":
+
+- **Não há perigo estrutural.** A gramática do português não é afetada por empréstimos
+  lexicais, e a história prova isso à exaustão [@teyssier2007].
+- **Há questão de adequação.** Usar *feedback* numa reunião é normal; usar num edital
+  público que precisa ser compreendido por todos é **inadequado ao gênero** — não por ser
+  inglês, mas por ser opaco ao destinatário.
+- **Há questão de acesso.** Quando o estrangeirismo funciona como **senha de classe**
+  (quem sabe, entra; quem não sabe, fica de fora), o problema é real — mas é um problema de
+  **exclusão**, não de pureza linguística (@sec-cap-91).
+
+Em síntese: o critério não é a **origem** da palavra, é o **efeito sobre o leitor**.
+Pergunte sempre "meu destinatário entende?", nunca "esta palavra é nossa?".
+:::
+
+## 📋 Quadro-resumo
+
+**Camadas do léxico português:**
+
+| Camada | Período | Exemplos |
+|---|---|---|
+| **Latina** (base) | origem | *água, pai, casa, ver* |
+| **Pré-romana** | substrato | *barro, cerveja, manteiga* |
+| **Germânica** | séc. V–VIII | *guerra, branco, roupa* |
+| **Árabe** | séc. VIII–XV | *açúcar, almofada, oxalá* |
+| **Tupi** | séc. XVI+ | *abacaxi, pipoca, tatu* |
+| **Africana** | séc. XVI–XIX | *samba, cafuné, fubá* |
+| **Francesa** | séc. XVIII–XIX | *abajur, chique, garagem* |
+| **Inglesa** | séc. XX–XXI | *futebol, site, estresse* |
+
+**Empréstimo × estrangeirismo:**
+
+| | **Estrangeirismo** | **Empréstimo** |
+|---|---|---|
+| Percepção | sentido como **estrangeiro** | **naturalizado** |
+| Forma | grafia/pronúncia originais | adaptado ao português |
+| Marca gráfica | itálico/aspas | nenhuma |
+| Exemplo | *delivery*, *feedback* | *futebol*, *abajur*, *xampu* |
+
+**Neologismos**: de **forma** (derivação, composição, sigla, truncamento, cruzamento) e de
+**sentido** (nova acepção: *mouse*, *janela*, *curtir*).
+
+Em uma linha: o léxico é a parte **mais permeável** da língua — e por isso a menos
+ameaçadora; a **gramática**, que é o núcleo, não se empresta.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que empréstimo é doença.** *Açúcar*, *samba*, *guerra* e *pipoca* são
+  empréstimos. Você não os percebe porque venceram o filtro do tempo.
+- **Confundir estrangeirismo com empréstimo.** O critério é a **integração**: *delivery*
+  (estrangeirismo) × *futebol* (empréstimo). E a fronteira **se move**.
+- **Supor que neologismo = palavra estrangeira.** A maioria é criada **internamente**:
+  *empoderamento*, *viralizar*, *bolsonarismo*, *sororidade*.
+- **Esquecer os neologismos de sentido.** *Mouse*, *janela*, *nuvem*, *curtir* — as
+  palavras são velhas; as acepções, novas.
+- **Achar que o dicionário autoriza.** Ele **registra** o que o uso consagrou. A ordem é
+  uso → dicionário, nunca o contrário.
+- **Confundir o problema real.** O estrangeirismo é problema quando **exclui o
+  destinatário** — o que também acontece com jargão em português castiço. A questão é
+  clareza, não origem.
+- **Tomar a assimetria como argumento linguístico.** Que importemos mais do que exportamos
+  é fato **geopolítico**, não linguístico. Proibir palavras não corrige balança comercial.
+
+## ✍️ Exercícios
+
+**1.** Identifique a origem: *açúcar*, *abacaxi*, *samba*, *guerra*, *abajur*, *futebol*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+- ***açúcar*** — **árabe** (*as-sukkar*). Como muitos arabismos, entrou com o artigo
+  aglutinado — o mesmo *al-/a-* de *almofada*, *alface*, *algodão*, *alfândega*.
+- ***abacaxi*** — **tupi** (*ïbá* "fruto" + *katí* "cheiroso").
+- ***samba*** — **africano**, de origem banto (provavelmente *semba*).
+- ***guerra*** — **germânica** (*werra*), da camada dos séculos V–VIII.
+- ***abajur*** — **francês** (*abat-jour*, "abate-luz"), da camada de prestígio cultural do
+  séc. XIX.
+- ***futebol*** — **inglês** (*football*), séc. XX.
+
+**O que a lista demonstra**: nenhuma dessas palavras é sentida hoje como estrangeira — são
+todas portuguesíssimas. E, no entanto, **todas** foram empréstimos. Esse é o destino normal
+do empréstimo bem-sucedido: **desaparecer como estrangeiro**. É por isso que o purismo
+sempre parece plausível quando olha para a camada mais recente e ridículo quando olha para
+as antigas.
+:::
+
+**2.** Explique o que a adaptação de *stress* → *estresse* revela sobre a fonologia do
+português.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Revela que o português **não admite** sílaba iniciada por /s/ + consoante (o chamado
+*s-impuro*). Diante dessa sequência, o sistema insere uma **vogal protética** — um /e/ de
+apoio no início.
+
+O mesmo mecanismo produz: *sport* → **e**sporte; *spaghetti* → **e**spaguete; *style* →
+**e**stilo; *school* → **e**scola (do latim *schola*); *Spain* → **E**spanha.
+
+Note que a restrição é **antiga e sistemática**: ela já operava na passagem do latim ao
+português, o que mostra que não se trata de uma reação ao inglês, mas de uma **regra
+estrutural** do idioma, ativa há mais de mil anos.
+
+**A conclusão que importa**: o empréstimo não entra intacto — ele passa pelo **filtro do
+sistema**. Quem manda é a fonologia do português, não a da língua doadora. Longe de ser
+sinal de invasão, a adaptação é prova de que a língua receptora está **no comando**.
+:::
+
+**3.** Classifique os neologismos: *bolsonarismo*, *portunhol*, *EAD*, *refri*, *lacrar*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+- ***bolsonarismo*** — **derivação sufixal**: nome próprio + sufixo *-ismo* (doutrina,
+  movimento). Mesmo molde de *lulismo*, *petismo*, *getulismo*.
+- ***portunhol*** — **cruzamento** (blend, palavra-valise): **portu**guês + espa**nhol**,
+  com fusão dos segmentos. Como *showmício* (show + comício).
+- ***EAD*** — **sigla**: Educação a Distância. Lê-se soletrando as letras.
+- ***refri*** — **truncamento** (redução): *refrigerante* → *refri*. Como *delega*,
+  *japa*, *bel*.
+- ***lacrar*** — **neologismo de sentido**: a forma já existia (lacrar = selar com lacre);
+  o que é novo é a **acepção** ("arrasar, dar uma resposta definitiva"), por extensão
+  metafórica.
+
+**Observação**: apenas o último é neologismo semântico; os quatro primeiros são de
+**forma**. E note que **nenhum dos cinco é empréstimo** — todos foram criados por
+processos internos do português (@sec-cap-23, @sec-cap-24). É a evidência contra a ideia de
+que renovar o léxico signifique importar.
+:::
+
+**4.** (Estilo ENEM) A adaptação de *delete* em "deletávamos os arquivos" demonstra que:
+
+a) a língua portuguesa está sendo descaracterizada pelo inglês;
+b) o empréstimo é lexical, e a gramática do português permanece operante;
+c) trata-se de estrangeirismo não integrado;
+d) houve neologismo de sentido;
+e) a palavra deveria ser substituída por *apagávamos*.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A forma *deletávamos* é a prova mais eloquente do contrário do que o
+purismo teme.
+
+Decomponha: a **raiz** (*delet-*) é inglesa, mas tudo o mais é português — a **vogal
+temática** da 1ª conjugação (*-a-*), a **desinência modo-temporal** do pretérito imperfeito
+(*-va-*) e a **desinência número-pessoal** de 1ª pessoa do plural (*-mos*), todas herdadas
+do latim (@sec-cap-22, @sec-cap-32).
+
+Ou seja: o português **anexou** a raiz e a submeteu à sua morfologia. Quem está no comando
+é a gramática portuguesa. Empréstimo lexical é o fenômeno **mais superficial** que pode
+ocorrer a uma língua; gramática não se empresta assim.
+
+As demais: **(a)** contradiz a evidência da própria frase; **(c)** ao contrário — a
+flexão completa prova **integração** avançada, não estrangeirismo; **(d)** não é neologismo
+de sentido, pois a forma é nova em português, e não uma acepção nova de forma existente;
+**(e)** *deletar* e *apagar* já se **especializaram** (deleta-se arquivo; apaga-se
+lousa) — a substituição empobreceria a distinção.
+:::
+
+**5.** Distinga estrangeirismo de empréstimo, com exemplos, e explique por que a fronteira
+é móvel.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Estrangeirismo** — ainda **sentido como estrangeiro**: mantém grafia e/ou pronúncia
+originais, costuma vir em itálico ou aspas. *Delivery*, *feedback*, *know-how*, *coffee
+break*, *marketing*.
+
+**Empréstimo** — já **integrado**: adaptou-se à fonologia e à ortografia do português, e
+não é percebido como estranho. *Futebol*, *sanduíche*, *abajur*, *xampu*, *estresse*,
+*jipe*.
+
+**Por que a fronteira é móvel**: porque a integração é um **processo histórico**, não um
+estado. *Futebol* já foi *foot-ball* — escrito em itálico, com ar de novidade britânica, e
+provavelmente considerado uma ameaça por alguém em 1900. Hoje é tão português quanto
+*pão*. *Estresse* fez o mesmo caminho em poucas décadas.
+
+O corolário é o que interessa: **todo empréstimo foi um estrangeirismo**, e alguns dos
+estrangeirismos de hoje serão os empréstimos de amanhã. Isso torna o purismo estruturalmente
+míope — ele condena a camada recente com argumentos que, se fossem válidos, teriam
+condenado *açúcar*, *samba* e *guerra*.
+
+É o mesmo movimento já observado entre conotação e denotação (@sec-cap-61) e entre
+polissemia e homonímia (@sec-cap-63): a diacronia atravessa as classificações sincrônicas.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "A entrada de estrangeirismos ameaça a
+estrutura da língua portuguesa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Estrangeirismos afetam o **léxico**, que é o componente mais **permeável** e
+**superficial** de uma língua. A **estrutura** — a fonologia, a morfologia e a sintaxe —
+não é transmitida por empréstimo lexical.
+
+**Evidência interna**: o português já absorveu milhares de itens do árabe, do tupi, do
+africano e do francês sem que sua gramática mudasse. *Açúcar* e *samba* não alteraram uma
+regra sequer.
+
+**Evidência externa, decisiva**: o **inglês** importou tanto do francês normando que cerca
+de 60% de seu léxico é de origem latina/românica. Continua sendo uma língua **germânica** —
+porque sua gramática não mudou. Nenhum linguista sustenta que o inglês tenha morrido de
+contaminação; ele apenas ficou mais rico em vocabulário.
+
+**Evidência do próprio processo**: quando o português produz *deletávamos*, ele impõe sua
+morfologia à raiz importada. A língua receptora está **no comando**, não sob ataque.
+
+Ressalva honesta: há questões **legítimas** ligadas a estrangeirismos — exclusão de quem
+não domina o inglês, opacidade em documentos públicos, assimetria geopolítica do fluxo.
+Mas nenhuma delas é uma ameaça **estrutural**, e é isso que o enunciado afirma.
+:::
+
+**7.** Analise criticamente: "O uso de *delivery* deveria ser proibido, pois já temos
+*entrega*."
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação falha em três níveis.
+
+**1. Descritivamente, é falsa.** *Delivery* não substituiu *entrega* — **especializou-se**.
+Dizemos "pedi um delivery" (comida, aplicativo, contexto urbano específico), mas "a
+entrega do sofá está atrasada", "entrega de documentos", "entrega em domicílio". As duas
+formas convivem em nichos distintos. É exatamente o que a língua faz quando duas formas
+concorrem: diferencia-as (@sec-cap-62). Empréstimos **raramente** matam palavras; eles
+ocupam espaços vagos ou criam distinções novas.
+
+**2. Praticamente, é inexequível.** Não há mecanismo pelo qual uma proibição legal altere
+o uso espontâneo. A tentativa mais conhecida no Brasil — o projeto de lei contra
+estrangeirismos de 1999 — foi amplamente criticada pelos linguistas [@faraco2008] e nunca
+prosperou em sua forma original. Línguas não obedecem a decreto.
+
+**3. Estrategicamente, erra o alvo.** Existe um problema real na vizinhança: o
+estrangeirismo que **exclui o destinatário** — um contrato bancário cheio de *cash back*,
+*fee* e *chargeback* de fato prejudica quem não sabe inglês. Mas note que o mesmo dano é
+produzido por jargão em **português castiço** ("proceder-se-á à excussão da garantia
+fiduciária"). Logo, o problema não é a **origem** da palavra: é a **opacidade** para o
+leitor.
+
+**Conclusão**: a luta útil é pela **linguagem clara** (@sec-cap-78), com o critério "meu
+destinatário entende?" — não pela pureza do léxico, com o critério "esta palavra é nossa?".
+O primeiro protege pessoas; o segundo protege uma abstração.
+:::
+
+**8.** Explique por que *mouse*, *janela* e *nuvem* são neologismos, embora sejam palavras
+antigas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+São **neologismos de sentido** (semânticos): as **formas** são antigas, mas as **acepções**
+são novas.
+
+- ***mouse*** — o roedor (empréstimo do inglês) passou a designar o dispositivo apontador,
+  por **semelhança de forma** (corpo pequeno, cabo como cauda). Metáfora (@sec-cap-65).
+- ***janela*** — a abertura na parede passou a designar a moldura retangular na tela, por
+  semelhança **funcional** (enquadra uma visão de algo).
+- ***nuvem*** — a formação atmosférica passou a designar o armazenamento remoto, por
+  semelhança **abstrata** (algo difuso, distante, não localizável).
+
+**Por que a língua faz isso**: por **economia**. Criar formas inteiramente novas exigiria
+memorização; reaproveitar formas existentes por extensão metafórica aproveita associações
+que o falante já tem. É mais barato cognitivamente.
+
+**Observação teórica**: os três exemplos são, no momento da criação, **conotação** — a
+nuvem computacional não é literalmente uma nuvem. Mas já se **dicionarizaram** e hoje
+funcionam como **denotação**: ninguém pensa em meteorologia ao salvar um arquivo na nuvem.
+É a lexicalização em tempo real, o mesmo processo que produziu *pé da mesa* séculos atrás
+(@sec-cap-61).
+
+Note também que o vocabulário inteiro da informática segue esse molde: *pasta*, *arquivo*,
+*área de trabalho*, *lixeira*, *vírus*, *menu*, *navegar*, *teia*. A metáfora não é
+enfeite — é o modo como nomeamos o desconhecido a partir do conhecido.
+:::
+
+**9.** (Estilo FUVEST) Discuta o argumento de que os estrangeirismos representam
+"submissão cultural".
+
+::: {.callout-tip collapse="true"}
+## Solução
+O argumento tem um **grão de verdade** e uma **conclusão equivocada**. Convém separá-los.
+
+**O que há de verdadeiro**: o fluxo de empréstimos **é assimétrico** e acompanha o poder
+econômico e tecnológico. Importamos do inglês porque a tecnologia digital, o mercado
+financeiro e a indústria cultural dominantes são anglófonos. No século XIX, importávamos
+do **francês** pela mesma razão — Paris era o centro do prestígio cultural. A direção dos
+empréstimos é, de fato, um **mapa do poder**, e incomodar-se com isso é legítimo.
+
+**Onde o argumento erra**:
+
+1. **Confunde sintoma com doença.** A assimetria é um fato **geopolítico**, não
+   linguístico. Proibir *delivery* não altera a balança comercial nem cria uma indústria
+   de tecnologia nacional. Trata-se o termômetro, não a febre.
+2. **Ignora que o fluxo se inverte quando há o que exportar.** O Brasil **exporta** léxico
+   sempre que produz algo que o mundo quer nomear: *samba*, *bossa nova*, *capoeira*,
+   *açaí*, *favela*, *caipirinha*, *jiu-jitsu (brasileiro)*. A língua não é
+   estruturalmente submissa — a economia é.
+3. **Trata a língua como território.** A metáfora da "invasão" pressupõe que o léxico seja
+   um espaço finito a defender. Mas o léxico não tem fronteira nem capacidade máxima:
+   receber *delivery* não expulsa *entrega*.
+4. **Erra o alvo político.** Se a preocupação é com dominação cultural, os instrumentos
+   relevantes são políticas de fomento à produção nacional, educação e soberania
+   tecnológica — não listas de palavras proibidas.
+
+**O argumento que resta de pé**: quando o estrangeirismo funciona como **senha de classe**
+— quem sabe inglês entende o contrato, quem não sabe assina no escuro —, há um problema
+real e sério. Mas ele é de **exclusão e acesso** (@sec-cap-91), não de pureza; e a solução
+é a **linguagem clara** (@sec-cap-78), que também combate o jargão em português castiço.
+
+**Síntese**: o critério defensável não é a **origem** da palavra, é o **efeito sobre o
+destinatário** [@faraco2008; @bagno2011].
+:::
+
+**10.** Liste cinco neologismos surgidos na última década no português brasileiro,
+classifique-os e avalie a chance de sobrevivência de cada um.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível (o exercício admite variação; o que importa é a análise):
+
+| Neologismo | Processo | Chance de sobreviver |
+|---|---|---|
+| **lockdown** | empréstimo (inglês) | **Média-baixa** — preencheu lacuna real em 2020, mas está atrelado a um evento datado. Tende a virar item histórico, como *racionamento*. |
+| **live** (transmissão) | empréstimo + neologismo de sentido | **Alta** — nomeia prática consolidada, já flexiona (*fazer uma live*, *lives*), e a lacuna persiste. |
+| **cringe** | empréstimo (inglês) | **Baixa** — gíria geracional, fortemente marcada por moda. Sofre do "filtro da moda": raramente sobrevive à geração que a criou. |
+| **lacrar** | neologismo de sentido | **Média** — a acepção pegou, mas já mostra desgaste e carga irônica, o que costuma preceder o abandono. |
+| **empoderamento** | derivação (*poder* + *-mento*) | **Alta** — morfologicamente bem-formado, preenche lacuna conceitual real, tem difusão ampla (acadêmica, jornalística, cotidiana) e já está dicionarizado. |
+
+**Critérios aplicados** (os quatro do capítulo): preenche lacuna real? é morfologicamente
+bem-formado? tem difusão social ampla? sobrevive à moda?
+
+**Comentário**: note que os candidatos mais fortes (*empoderamento*, *live*) são os que
+nomeiam algo **duradouro** e se **integraram morfologicamente**; os mais frágeis (*cringe*,
+*lacrar*) dependem de **identidade geracional**, que muda por definição a cada geração.
+
+A maior parte dos neologismos **morre** — e isso é normal e saudável. A língua testa
+muitas hipóteses e conserva poucas. A dicionarização [@houaiss2009] vem sempre **depois**,
+registrando o que o uso já consagrou: o dicionário é notário, não legislador.
+:::
+
+## 📚 Referências
+
+As camadas históricas do léxico português seguem Teyssier [@teyssier2007] e Câmara Jr.
+[@camarajr1975], e serão retomadas nos @sec-cap-92 a @sec-cap-94; a formação do léxico
+brasileiro, com as contribuições tupi e africanas, apoia-se em Castilho [@castilho2010] e
+Ilari & Basso [@ilaribasso2006]. Os processos de formação de neologismos foram
+sistematizados nos @sec-cap-23 e @sec-cap-24, com base em Bechara [@bechara2009] e Cunha &
+Cintra [@cunhacintra2017]; a dicionarização como registro **posterior** ao uso é discutida
+a propósito do Houaiss [@houaiss2009]. A crítica ao purismo linguístico e ao projeto de lei
+contra estrangeirismos segue Faraco [@faraco2008] e Bagno [@bagno2011; @bagno2007], e será
+aprofundada no @sec-cap-91; a defesa da linguagem clara como alternativa ao purismo
+antecipa o @sec-cap-78. Com este capítulo encerra-se o Volume 10 e a **Fase 2** do manual;
+o Volume 11 abre a Fase 3, tratando do texto e da textualidade.
+
+::: {#refs}
 :::
