@@ -4,22 +4,592 @@ title: "Coerência textual"
 
 # Coerência textual {#sec-cap-70}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 11 — Linguística Textual.
+> "A coerência não se lê no texto: constrói-se com ele."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Este capítulo trata do segundo critério centrado no texto — e do mais difícil de todos,
+porque é o menos visível. A **coesão** (@sec-cap-69) você aponta com o dedo: está ali, nos
+pronomes e conectivos. A **coerência** não está em lugar nenhum. E, no entanto, é ela que
+decide se o texto funciona.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+O @sec-cap-69 encerrou com a tese de que coesão e coerência são independentes. Aqui
+desenvolvemos a segunda metade dessa tese e enfrentamos a pergunta que ela deixa em
+aberto: se a coerência não está na superfície, **onde** está?
+
+A resposta curta, que o capítulo vai qualificar: ela **não está** — ela **acontece**. A
+coerência é o resultado de uma operação bem-sucedida de construção de sentido, feita pelo
+leitor a partir das instruções do texto. Não é um traço do objeto; é um **efeito** que se
+produz ou não se produz.
+
+Isso tem uma consequência prática que talvez incomode: um mesmo texto pode ser coerente
+para um leitor e incoerente para outro — sem que nenhum dos dois esteja errado.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** coerência como construção de sentido, e não como propriedade da superfície;
+- **Aplicar** as quatro metarregras: repetição, progressão, não contradição e relação;
+- **Distinguir** coerência local de coerência global;
+- **Explicar** o papel do conhecimento de mundo e da inferência na leitura;
+- **Diagnosticar** os tipos de incoerência mais frequentes na redação;
+- **Reconhecer** que a coerência depende do leitor — e o que isso implica para quem
+  escreve.
+
+## O que é coerência
+
+**Coerência** é a possibilidade de construir, a partir de um texto, um **todo de sentido**
+— um mundo mentalmente compatível, contínuo e relevante.
+
+Note os termos da definição: *possibilidade*, *construir*. A coerência não é algo que o
+texto **tem**; é algo que o leitor **consegue fazer** com ele. Se conseguiu, houve
+coerência. Se não conseguiu, não houve.
+
+Isso explica o fenômeno que a definição escolar não explica: por que um artigo de física
+quântica é coerente para o físico e incoerente para você. O texto é o mesmo. O que muda é
+o **repertório** de quem lê — e, portanto, a possibilidade de construir o todo.
+
+::: {.callout-important}
+## Coesão × coerência: a síntese
+| | **Coesão** | **Coerência** |
+|---|---|---|
+| **Onde está** | na **superfície** (visível) | no **sentido** (construído) |
+| **Realizada por** | pronomes, conectivos, elipses | inferência + conhecimento de mundo |
+| **Verificável** | sim, apontando no texto | não diretamente; testa-se pela leitura |
+| **Depende do leitor** | pouco | **inteiramente** |
+| **Sem a outra** | "Maria comprou um carro. **Portanto**, o Brasil é grande." (coeso, incoerente) | "Cheguei. Vi. Venci." (coerente, sem conectivos) |
+
+A relação entre as duas: a coesão **ajuda** a construir a coerência, sinalizando as
+relações pretendidas. Mas sinalizar não é criar — e não sinalizar não impede que o leitor
+infira.
+:::
+
+## As quatro metarregras
+
+Como saber se um texto permite construir um todo de sentido? Charolles propôs quatro
+condições — as **metarregras da coerência**, adotadas por Koch [@koch2015texto]. Um texto
+coerente satisfaz as quatro.
+
+::: {#fig-metarregras}
+
+```{.tikz}
+%%| filename: metarregras
+%%| alt: Esquema das quatro metarregras da coerência dispostas em torno de um núcleo central. Núcleo: coerência, a construção de um todo de sentido. Primeira metarregra, repetição ou continuidade: o texto deve retomar elementos, mantendo do que se fala; sua violação produz um texto que muda de assunto a cada frase. Segunda, progressão: o texto deve acrescentar informação nova; sua violação produz um texto que gira em falso, repetindo a mesma ideia. Terceira, não contradição: o texto não pode afirmar e negar o mesmo; sua violação produz contradição interna. Quarta, relação: os fatos devem ser relevantes entre si no mundo construído; sua violação produz frases desconexas. Abaixo, a indicação de que continuidade e progressão formam uma tensão: sem continuidade não há texto, sem progressão não há razão para o texto existir.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=5pt, font=\scriptsize, text width=42mm},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[rounded corners=3pt, draw=manualgray, fill=manualgray!14, align=center,
+        inner sep=5pt, text width=30mm] (n) at (0,0)
+    {\textbf{COERÊNCIA}\\{\scriptsize construir um \emph{todo} de sentido}};
+
+  \node[cx, draw=manualblue, fill=manualblue!8] (m1) at (-3.6,2.0)
+    {\textbf{1. REPETIÇÃO}\\{\scriptsize (continuidade)}\\ retomar elementos\\[2pt]
+     \emph{violação}: muda de assunto\\ a cada frase};
+  \node[cx, draw=manualgreen, fill=manualgreen!8] (m2) at (3.6,2.0)
+    {\textbf{2. PROGRESSÃO}\\ acrescentar o \emph{novo}\\[2pt]
+     \emph{violação}: gira em falso,\\ repete a mesma ideia};
+  \node[cx, draw=manualred, fill=manualred!8] (m3) at (-3.6,-2.0)
+    {\textbf{3. NÃO CONTRADIÇÃO}\\ não afirmar e negar\\ o mesmo\\[2pt]
+     \emph{violação}: contradição interna};
+  \node[cx, draw=manualyellow, fill=manualyellow!8] (m4) at (3.6,-2.0)
+    {\textbf{4. RELAÇÃO}\\ os fatos devem ser\\ \emph{relevantes} entre si\\[2pt]
+     \emph{violação}: frases desconexas};
+
+  \draw[s] (n) -- (m1); \draw[s] (n) -- (m2);
+  \draw[s] (n) -- (m3); \draw[s] (n) -- (m4);
+
+  \draw[{Stealth[length=4pt]}-{Stealth[length=4pt]}, thick, draw=manualgray, dashed] (m1) -- (m2);
+  \node[font=\scriptsize\itshape, text=manualgray, anchor=south] at (0,2.5) {tensão produtiva};
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=64mm] at (0,-3.6)
+    {Sem \textbf{continuidade} não há texto;\\ sem \textbf{progressão} não há razão para o texto existir.};
+\end{tikzpicture}
+```
+
+As quatro metarregras. Note a **tensão** entre as duas primeiras: o texto precisa repetir
+para manter-se sobre o mesmo assunto **e** avançar para dizer algo.
+:::
+
+### 1. Repetição (continuidade)
+
+O texto deve **retomar** elementos, mantendo os referentes e o assunto. É o que a coesão
+referencial realiza (@sec-cap-69).
+
+**Violação**: "Maria comprou um carro. O Brasil é grande. Choverá em Lisboa." — nada
+retorna, nada continua. Cada frase abre um assunto novo.
+
+### 2. Progressão
+
+O texto deve **acrescentar** informação. Não basta continuar: é preciso avançar.
+
+**Violação**: "O desemprego é um problema grave. É muito sério o problema do desemprego. O
+desemprego preocupa por sua gravidade. Trata-se de uma questão séria."
+
+Quatro períodos, uma única ideia dita quatro vezes. Há continuidade perfeita — e o texto
+**gira em falso**. É a falha mais comum na redação de vestibular, e a mais mal
+diagnosticada: o candidato pensa que está desenvolvendo, quando está apenas parafraseando.
+
+::: {.callout-tip}
+## A tensão entre continuidade e progressão
+As duas primeiras metarregras **puxam em direções opostas**, e é dessa tensão que nasce o
+bom texto:
+
+- Só **continuidade** → o texto repisa, não sai do lugar (o exemplo do desemprego).
+- Só **progressão** → o texto muda de assunto sem parar, não constrói nada.
+- **Ambas** → o texto **avança sobre o mesmo assunto**. É isso que se quer.
+
+Teste prático para sua redação: pegue cada parágrafo e pergunte "o que este parágrafo diz
+que o anterior **já não dizia**?". Se a resposta for "nada de novo", há falha de
+progressão — e nenhum conectivo vai salvá-lo.
+:::
+
+### 3. Não contradição
+
+O texto não pode **afirmar e negar** o mesmo, nem contrariar o mundo que ele próprio
+construiu.
+
+**Violação**: "João é filho único. Seu irmão mora em Recife." — o texto se autodestrói.
+
+Note que a contradição pode ser **interna** (contra o próprio texto, como acima) ou
+**externa** (contra o conhecimento de mundo: "Ele nasceu em 1990 e lutou na Segunda
+Guerra").
+
+### 4. Relação
+
+Os fatos precisam ser **relevantes entre si** no mundo construído pelo texto. Não basta que
+não se contradigam: é preciso que **tenham a ver**.
+
+**Violação**: "Maria é dentista. A raiz quadrada de 144 é 12." — não há contradição alguma;
+as duas afirmações são verdadeiras e compatíveis. E, no entanto, não formam texto, porque
+nada as relaciona.
+
+## Coerência local e global
+
+A distinção é útil para diagnosticar redações.
+
+- **Coerência local** — entre partes **próximas**: frases vizinhas, dentro do parágrafo. É
+  a que a coesão mais ajuda a sustentar.
+- **Coerência global** — do **texto inteiro**: o todo tem um projeto? Todos os parágrafos
+  servem à mesma tese? A conclusão decorre do desenvolvimento?
+
+O caso clínico mais comum na redação escolar: **coerência local impecável, coerência global
+ausente**. Cada parágrafo, lido isoladamente, funciona. Lidos em conjunto, não vão a lugar
+nenhum — a introdução anuncia uma tese, o desenvolvimento discute outra, a conclusão propõe
+uma terceira.
+
+É por isso que reler a própria redação **frase a frase** não detecta o problema. É preciso
+lê-la **inteira**, perguntando: "que tese este texto defende, e cada parte a serve?"
+(@sec-cap-75).
+
+## O leitor faz metade do trabalho
+
+Retomemos a tese do @sec-cap-68 com um exemplo mais forte:
+
+> "Pedro chegou atrasado ao trabalho. O despertador não tocou."
+
+Não há conectivo. A relação **causal** entre as duas frases não está dita em lugar algum.
+E todo leitor a constrói instantaneamente: o despertador falhou, **por isso** ele dormiu
+demais, **por isso** chegou atrasado.
+
+Quanta informação o leitor acrescentou? Muita: que Pedro usa despertador para acordar; que
+acordar tarde atrasa; que trabalho tem hora. Nada disso está no texto — está no **mundo**
+que o leitor conhece.
+
+::: {.callout-important}
+## A coerência é uma construção, não uma leitura
+Isso reconfigura o que significa escrever bem. Se o leitor constrói metade, então:
+
+1. **Escrever é calibrar o implícito.** O bom autor deixa de fora o que o leitor vai
+   inferir sozinho e explicita o que ele não tem como saber. Explicar demais entedia;
+   explicar de menos perde o leitor. A dificuldade é que essa calibragem depende de **quem
+   é o leitor**, e o autor precisa imaginá-lo.
+
+2. **Não existe texto coerente "em si".** Existe texto coerente **para um público**. Um
+   manual de medicina é coerente para médicos; o mesmo texto é ruído para leigos — e o
+   defeito não é do texto nem do leigo, mas do descompasso.
+
+3. **A incoerência costuma ser um erro de previsão.** Boa parte dos textos ruins não é
+   ilógica: é escrita para um leitor que não existe — em geral, para o próprio autor, que
+   já sabe tudo o que omitiu.
+:::
+
+## Tipos de incoerência na redação
+
+Reunindo o que vimos, os diagnósticos mais frequentes:
+
+| Falha | Metarregra violada | Sintoma |
+|---|---|---|
+| **Texto gira em falso** | progressão | parafraseia a mesma ideia em todos os parágrafos |
+| **Salto temático** | repetição/relação | muda de assunto sem transição |
+| **Contradição interna** | não contradição | defende A no 2º parágrafo e não-A no 3º |
+| **Conclusão não decorre** | relação (global) | a proposta não responde ao problema discutido |
+| **Fuga ao tema** | relação (global) | o texto é coerente, mas sobre outra coisa |
+| **Excesso de implícito** | — (erro de previsão) | o autor supõe conhecimento que o leitor não tem |
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Vale insistir num ponto que o @sec-cap-68 abriu, porque ele reaparece aqui com força.
+
+A **coerência é independente da norma**. Um relato oral em variedade estigmatizada ("nós
+chegou lá, aí os home tava tudo esperando") pode satisfazer as quatro metarregras com
+perfeição: retoma referentes, progride, não se contradiz e mantém relevância. É um texto
+**coerente**. Inversamente, uma redação sem um desvio gramatical pode violar as quatro.
+
+Isso tem uma implicação incômoda para a avaliação escolar. Detectar incoerência exige
+**ler o texto inteiro e reconstruir seu projeto** — trabalho lento e interpretativo.
+Detectar desvios de norma exige apenas **varrer a superfície** — trabalho rápido e
+mecânico. Não é difícil entender por que a segunda prática predomina, nem por que ela
+produz alunos que aprendem a não errar em vez de aprender a dizer algo.
+
+A resposta séria não é abandonar a norma — é reconhecer que ela avalia **uma camada**, e
+que as competências que fazem um texto funcionar estão em outra. As matrizes do ENEM
+tentam corrigir esse desequilíbrio dedicando quatro das cinco competências a aspectos
+textuais e argumentativos (@sec-cap-77) — o que é, ele próprio, um argumento a favor da
+tese deste capítulo [@koch2015texto; @marcuschi2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Definição**: coerência é a **possibilidade de construir**, a partir do texto, um todo de
+sentido contínuo, progressivo, não contraditório e relevante. Não está no texto: **acontece**
+na interação com o leitor.
+
+**As quatro metarregras:**
+
+| Metarregra | Exige | Violação |
+|---|---|---|
+| **Repetição** | retomar elementos | muda de assunto a cada frase |
+| **Progressão** | acrescentar o novo | gira em falso |
+| **Não contradição** | não afirmar e negar o mesmo | "filho único... seu irmão" |
+| **Relação** | relevância recíproca | "Maria é dentista. 144 tem raiz 12." |
+
+**Local × global**: local = entre frases vizinhas; global = do texto inteiro (a tese se
+sustenta?).
+
+Em uma linha: coesão é **superfície**, coerência é **sentido**; a coerência depende do
+**leitor** e de seu conhecimento de mundo — e por isso escrever bem é, sobretudo, **prever
+quem vai ler**.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir coerência com coesão.** Coeso ≠ coerente. Conectivo não cria relação: só a
+  sinaliza.
+- **Achar que coerência está no texto.** Está na **construção** que o leitor faz. Por isso
+  o mesmo texto é coerente para uns e não para outros.
+- **Confundir progressão com repetição de ideia.** Dizer a mesma coisa com outras palavras
+  em quatro parágrafos **não é** desenvolver — é girar em falso.
+- **Reler a redação frase a frase.** Isso detecta falha **local**. A falha **global** só
+  aparece na leitura do todo.
+- **Supor que texto coerente é texto na norma.** São independentes: o relato oral pode ser
+  coerente; a redação impecável pode não ser.
+- **Esquecer a contradição externa.** Contrariar o mundo ("nasceu em 1990 e lutou na
+  Segunda Guerra") também é incoerência.
+- **Explicar demais.** Excesso de explícito entedia e sugere que o autor não confia no
+  leitor. A calibragem é o ofício.
+
+## ✍️ Exercícios
+
+**1.** Identifique a metarregra violada: "O desemprego é grave. É muito sério o problema do
+desemprego. A gravidade do desemprego preocupa."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Violação da metarregra da **progressão**.
+
+O texto satisfaz plenamente a **repetição/continuidade** — todos os períodos falam do mesmo
+assunto (o desemprego), com retomadas bem-feitas. E, no entanto, **não avança**: a mesma
+proposição ("o desemprego é um problema sério") é enunciada três vezes, apenas com
+sinônimos e reordenações.
+
+**Por que é grave**: o texto não dá ao leitor nenhuma razão para continuar lendo — o
+terceiro período não lhe oferece nada que o primeiro já não tivesse dado.
+
+**Por que é frequente**: é a falha mais comum da redação de vestibular, e a mais mal
+diagnosticada. O candidato **acredita** estar desenvolvendo, quando está parafraseando.
+Como há continuidade e coesão, o texto "parece" bem escrito — e o vazio só aparece quando
+se pergunta o que cada parágrafo acrescentou.
+
+**Teste**: pergunte de cada parágrafo "o que ele diz que o anterior já não dizia?". Se a
+resposta for "nada", há falha de progressão.
+:::
+
+**2.** Explique por que "Cheguei. Vi. Venci." é coerente, apesar de não ter conectivos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a coerência **não depende da coesão explícita** — ela se constrói na interação entre
+o texto e o **conhecimento de mundo** do leitor.
+
+O texto não declara nenhuma relação: não há "e", "depois", "então" ou "por isso". Mas o
+leitor **infere** duas camadas:
+
+1. **Sequência temporal**: as ações ocorreram nessa ordem (chegar antes de ver, ver antes de
+   vencer).
+2. **Encadeamento causal**: chegar possibilitou ver; ver possibilitou vencer.
+
+**De onde vem essa informação?** Do leitor. Ele sabe que verbos de ação em sequência,
+sem marca em contrário, tendem a ler-se cronologicamente; e sabe, do mundo, que é preciso
+estar presente para observar e observar para agir.
+
+**As quatro metarregras estão satisfeitas**: há continuidade (o mesmo sujeito elíptico
+atravessa as três orações), progressão (cada verbo acrescenta uma etapa), não contradição e
+relação (as ações são mutuamente relevantes).
+
+**A lição**: coesão é **nem necessária nem suficiente** para a coerência. Aqui o
+**assíndeto** (@sec-cap-66) é até mais eficaz que os conectivos, pois sugere rapidez e
+inevitabilidade — exatamente o efeito pretendido.
+:::
+
+**3.** Diagnostique: "João é filho único. Seu irmão mora em Recife."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Violação da metarregra da **não contradição**, do tipo **interna**.
+
+O texto **destrói o mundo que ele próprio construiu**: a primeira frase estabelece que João
+não tem irmãos (é isso que *filho único* significa); a segunda pressupõe que tem
+(@sec-cap-64 — o possessivo *seu irmão* pressupõe a existência do referente). As duas
+afirmações não podem ser simultaneamente verdadeiras.
+
+**Note a tentativa de coesão**: o possessivo *seu* retoma *João* corretamente — a coesão
+referencial está impecável. Mais uma demonstração de que coesão não garante coerência.
+
+**Contraste com a contradição externa**: aqui o texto contraria **a si mesmo**. Em "Ele
+nasceu em 1990 e lutou na Segunda Guerra", o texto é internamente consistente, mas contraria
+o **conhecimento de mundo** do leitor (a guerra terminou em 1945). Ambas são incoerências,
+mas a segunda depende do repertório de quem lê — um leitor que ignorasse as datas da guerra
+não perceberia falha alguma. É a tese do capítulo em ação.
+:::
+
+**4.** (Estilo ENEM) A coerência textual, para a linguística textual, é:
+
+a) propriedade da superfície, garantida pelos conectivos;
+b) construção de sentido que depende do texto e do conhecimento do leitor;
+c) sinônimo de correção gramatical;
+d) resultado automático da coesão bem empregada;
+e) característica exclusiva de textos longos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A coerência é a **possibilidade de construir** um todo de sentido a
+partir das instruções do texto, mobilizando conhecimento de mundo e inferência. Ela não
+está no papel: **acontece** na interação.
+
+A evidência é o exemplo "Pedro chegou atrasado. O despertador não tocou": a relação causal
+não está no texto, e todo leitor a constrói — porque sabe o que é despertador, o que é
+acordar tarde e o que é horário de trabalho.
+
+As demais: **(a)** confunde coerência com coesão — o conectivo **sinaliza** a relação, não
+a cria; **(c)** norma e coerência são independentes (relato oral coerente × redação correta
+e incoerente); **(d)** é falso, e "Maria comprou um carro. Portanto, o Brasil é grande" é o
+contraexemplo — texto coeso e absurdo; **(e)** "PARE" é texto coerente com uma palavra
+(@sec-cap-68).
+:::
+
+**5.** Distinga coerência local de global, e explique por que a distinção importa na
+correção de redações.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Coerência local** — entre partes **próximas**: frases vizinhas, dentro de um parágrafo. É
+a que a coesão mais sustenta.
+
+**Coerência global** — do **texto inteiro**: há um projeto? Todos os parágrafos servem à
+mesma tese? A conclusão decorre do desenvolvimento?
+
+**Por que importa na correção**: o quadro clínico mais frequente da redação escolar é
+**coerência local impecável, coerência global ausente**. Cada parágrafo, lido isoladamente,
+funciona perfeitamente — tem tópico frase, exemplos, articulação. Lidos em conjunto, não
+vão a lugar nenhum: a introdução anuncia a tese A, o desenvolvimento discute B, a conclusão
+propõe solução para C.
+
+**A consequência prática, que é o ponto**: reler a própria redação **frase a frase** — que
+é como quase todo estudante revisa — **não detecta** essa falha. A revisão local só enxerga
+problemas locais. É preciso ler o texto **inteiro**, de uma vez, perguntando: "que tese
+este texto defende? cada parágrafo a serve? a conclusão responde à introdução?"
+(@sec-cap-75, @sec-cap-80).
+
+É também por isso que a fuga ao tema é tão traiçoeira: o texto pode ser **perfeitamente
+coerente** — só que sobre outro assunto.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Um texto coeso é necessariamente
+coerente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Coesão e coerência são **independentes**, e a coesão não é suficiente para a
+coerência.
+
+**Contraexemplo**: "Maria comprou um carro. **Portanto**, o Brasil é o maior país da
+América do Sul. **Contudo**, amanhã choverá em Lisboa."
+
+A coesão está presente: há conectivos de conclusão (*portanto*) e de oposição (*contudo*),
+formalmente bem colocados. E o texto é **absurdo** — pior do que seria sem eles, porque os
+conectivos **prometem** relações lógicas inexistentes. "Portanto" anuncia uma conclusão que
+não se segue de premissa alguma.
+
+**Por quê**: a coesão amarra a **superfície**; a coerência exige que se possa construir um
+**todo de sentido**. Sinalizar uma relação não a cria — apenas denuncia sua ausência com
+mais estardalhaço.
+
+**A recíproca também é falsa**: "Cheguei. Vi. Venci." é coerente **sem** um único conectivo.
+Logo, a coesão é **nem necessária nem suficiente** para a coerência.
+:::
+
+**7.** Explique quanta informação o leitor acrescenta em: "Pedro chegou atrasado ao
+trabalho. O despertador não tocou."
+
+::: {.callout-tip collapse="true"}
+## Solução
+O texto declara **dois fatos** e **nenhuma relação** entre eles. Não há conectivo. E todo
+leitor constrói instantaneamente a cadeia causal: o despertador falhou → Pedro dormiu além
+da hora → chegou atrasado.
+
+**Inventário do que o leitor acrescentou** — nada disso está no texto:
+
+1. que Pedro usa despertador **para acordar**;
+2. que despertadores servem para interromper o sono em hora determinada;
+3. que, sem esse alarme, tende-se a dormir mais;
+4. que o trabalho tem **hora de início** fixa;
+5. que dormir além da hora **causa** atraso;
+6. que a segunda frase é **relevante** para a primeira (princípio de cooperação) — e não
+   uma observação aleatória sobre o despertador.
+
+**A conclusão**: o leitor forneceu praticamente toda a estrutura causal; o texto forneceu
+apenas dois pontos e a confiança de que estavam ligados.
+
+**O que isso implica para quem escreve**: o autor **pôde** omitir tudo isso porque previu
+corretamente o repertório do leitor. Escrever bem é **calibrar o implícito** — deixar de
+fora o que será inferido, explicitar o que não tem como sê-lo. Explicar os seis itens acima
+seria insultuoso e ilegível.
+
+Note ainda que a inferência é **cultural**: um leitor de uma sociedade sem relógios e sem
+jornada fixa não construiria essa cadeia. A coerência depende do repertório — e o
+repertório é histórico.
+:::
+
+**8.** Reescreva corrigindo a falha de progressão: "A violência urbana é um problema sério.
+A criminalidade nas cidades preocupa muito. É grave a questão da violência nos centros
+urbanos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Diagnóstico**: falha de **progressão**. Os três períodos enunciam a **mesma** proposição
+("a violência urbana é séria"), variando apenas o vocabulário. Há continuidade perfeita e
+avanço zero.
+
+**Reescrita possível:**
+
+> "A violência urbana é um problema sério no Brasil. Segundo o Atlas da Violência, as
+> capitais concentram taxas de homicídio muito superiores às das cidades pequenas, e as
+> vítimas são majoritariamente jovens, negros e do sexo masculino. Essa concentração sugere
+> que o fenômeno não é aleatório: ele acompanha marcadores sociais bem definidos, o que
+> desloca a discussão do campo da segurança pública para o das desigualdades estruturais."
+
+**O que mudou**: cada período agora **acrescenta** — o primeiro afirma o problema; o
+segundo o **qualifica** com dados (onde, quem); o terceiro **interpreta** os dados e
+propõe uma tese (o problema é social, não apenas policial), abrindo o desenvolvimento.
+
+**O princípio**: progredir não é dizer a mesma coisa com outras palavras — é **qualificar,
+exemplificar, problematizar, concluir**. Cada movimento precisa responder à pergunta "e
+daí?".
+:::
+
+**9.** (Estilo FUVEST) "Não existe texto coerente em si." Discuta.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O que a afirmação acerta**: a coerência não é uma propriedade do objeto, mas o resultado
+de uma **construção** bem-sucedida — e essa construção depende do repertório de quem lê.
+
+Evidências:
+
+1. **O mesmo texto varia com o leitor.** Um artigo de física quântica é coerente para o
+   físico e ruído para o leigo. O texto não mudou; mudou a possibilidade de construir o
+   todo.
+2. **A contradição externa depende do repertório.** "Nasceu em 1990 e lutou na Segunda
+   Guerra" só é incoerente para quem sabe quando foi a guerra.
+3. **O leitor fornece a maior parte das relações.** Em "Pedro chegou atrasado. O despertador
+   não tocou", a causalidade inteira é do leitor.
+4. **Cinco dos sete critérios de textualidade** dependem dos usuários e da situação
+   (@sec-cap-68).
+
+**O que a afirmação arrisca**: levada ao extremo, dissolve-se em **relativismo** — se nada é
+coerente em si, nenhum texto poderia ser criticado, e "está incoerente" viraria sempre
+"você não soube ler". Isso é falso, por duas razões:
+
+1. **O texto restringe.** Ele oferece instruções, não um cheque em branco. "João é filho
+   único. Seu irmão mora em Recife" é incoerente para **qualquer** leitor competente,
+   porque a contradição é **interna** — nenhum repertório a desfaz.
+2. **Há um leitor previsto.** Todo texto se dirige a um público, e a coerência se avalia
+   **em relação a ele**. Um manual de medicina não é incoerente por ser opaco a leigos: ele
+   não foi escrito para leigos. Já uma bula opaca ao paciente **é** defeituosa, porque
+   errou o leitor que ela própria escolheu.
+
+**A formulação precisa**: não existe texto coerente **em abstrato**, mas existe texto
+coerente **para o público a que se destina** — e o autor responde por essa calibragem. A
+incoerência quase nunca é ilogicidade: é **erro de previsão do leitor**, o que a torna
+responsabilidade de quem escreve, não desculpa.
+
+É a mesma estrutura de argumento do @sec-cap-03 e do @sec-cap-68: nem objetivismo ingênuo
+(o sentido está no papel), nem relativismo vazio (cada um lê o que quer). Duas restrições
+operam ao mesmo tempo [@koch2015texto].
+:::
+
+**10.** Diagnostique todas as falhas de coerência: "A educação é fundamental. O Brasil
+investe pouco em educação. Portanto, o país tem uma das melhores redes de ensino do mundo.
+Além disso, a educação não importa tanto assim. Conclui-se que é preciso investir mais em
+saúde."
+
+::: {.callout-tip collapse="true"}
+## Solução
+O trecho viola **todas as quatro metarregras** — um caso de laboratório.
+
+**1. Não contradição** (duas violações):
+   - "A educação é **fundamental**" × "a educação **não importa** tanto assim" — o texto
+     afirma e nega a mesma tese.
+   - "investe **pouco**" × "tem uma das **melhores** redes do mundo" — incompatível, dado o
+     próprio nexo causal que o texto propõe.
+
+**2. Relação** (violação do conectivo e da lógica): "Portanto" anuncia uma **conclusão** que
+não decorre — investir pouco não conclui excelência; se algo, conclui o contrário. O
+conectivo sinaliza uma relação inexistente, agravando a falha (@sec-cap-69).
+
+**3. Relação/progressão**: "Além disso" anuncia **acréscimo** na mesma direção, mas o que
+vem é uma **contradição** da tese inicial. O conectivo mente sobre a relação.
+
+**4. Coerência global**: a conclusão ("investir mais em **saúde**") **não responde** ao
+problema discutido (educação). O texto discute A e conclui sobre B — é fuga ao tema no
+próprio fecho.
+
+**Observação metodológica**: note que a **coesão está toda lá** — "portanto", "além disso",
+"conclui-se", retomadas corretas de "educação" e "país". Nenhum pronome ambíguo, nenhum
+conectivo mal colocado gramaticalmente.
+
+E o texto é **completamente incoerente**. É a demonstração final da tese do capítulo:
+amarrar a superfície não constrói sentido. Pior — aqui os conectivos **agravam**, porque
+cada um afirma um raciocínio que o texto não executa. Um leitor atento não vê um texto
+articulado: vê um texto que **anuncia** articulações inexistentes, o que denuncia a falha
+com mais clareza do que a simples justaposição faria.
+:::
+
+## 📚 Referências
+
+A definição de coerência como construção de sentido, as quatro metarregras (repetição,
+progressão, não contradição e relação, formuladas originalmente por Charolles) e a
+distinção entre coerência local e global seguem Koch [@koch2015texto] e Koch
+[@koch2018coesao]; o papel do conhecimento de mundo, da inferência e do princípio de
+cooperação na construção da coerência apoia-se também em Marcuschi [@marcuschi2008]. Para
+os sete critérios de textualidade e a tese de que o sentido se constrói na interação, veja
+o @sec-cap-68; para os mecanismos de coesão e a independência entre coesão e coerência, o
+@sec-cap-69; para a pressuposição invocada no diagnóstico da contradição interna, o
+@sec-cap-64. A aplicação destes conceitos à revisão do próprio texto é tema do
+@sec-cap-80, e à redação argumentativa, dos @sec-cap-75 e @sec-cap-77. O próximo capítulo
+trata da tipologia textual.
+
+::: {#refs}
 :::
