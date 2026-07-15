@@ -4,22 +4,659 @@ title: "Estratégias de leitura"
 
 # Estratégias de leitura {#sec-cap-81}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 13 — Interpretação de Textos.
+> "Ler não é decodificar. Decodificar é o que o analfabeto funcional faz — e ele passa os
+> olhos por todas as letras."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos o Volume 13, dedicado à **leitura**. Os dois volumes anteriores trataram do texto
+(11) e de sua produção (12); este trata da outra ponta — a **recepção**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+E convém começar desfazendo a intuição mais difundida sobre o assunto: a de que ler é
+**extrair** informação do texto, como quem tira água de um poço. Se fosse assim, ler seria
+uma habilidade única, e quem soubesse ler saberia ler qualquer coisa. Não é o que acontece:
+você lê com desenvoltura um artigo sobre sua área e trava diante de um laudo médico, embora
+todas as palavras estejam em português.
+
+O @sec-cap-68 já deu a explicação: o sentido **não está no texto** — é construído na
+interação entre as instruções do texto e o repertório do leitor. Este capítulo desenvolve
+as consequências práticas disso. Se ler é construir, então há **modos** de construir — e
+alguns funcionam melhor que outros. É a isso que se chama **estratégias de leitura**.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Explicar** a leitura como construção, e não como extração de sentido;
+- **Distinguir** os processamentos ascendente, descendente e interativo;
+- **Selecionar** a estratégia adequada ao objetivo: *skimming*, *scanning*, leitura
+  analítica;
+- **Aplicar** as operações do leitor proficiente: antecipar, monitorar, inferir;
+- **Reconhecer** o papel do repertório e das pistas do texto;
+- **Diagnosticar** as falhas de leitura mais comuns e suas causas.
+
+## Ler é construir
+
+Considere:
+
+> "O menino viu o homem com o telescópio."
+
+Quem tinha o telescópio? O texto **não decide** — e você, ao ler, decidiu. Provavelmente
+supôs que era o menino, porque "ver com telescópio" é uma cena mais frequente que "homem
+carregando telescópio". Você trouxe uma **probabilidade do mundo** e a projetou sobre a
+frase.
+
+Isso acontece o tempo todo, em toda leitura, e não apenas em frases ambíguas. Ler é um
+processo de **construção de hipóteses**: o leitor antecipa, testa, confirma ou corrige — e
+o texto funciona como um **conjunto de instruções** que guia (mas não determina) esse
+processo.
+
+::: {.callout-important}
+## Os três modelos de processamento
+- **Ascendente** (*bottom-up*) — do **texto** para o leitor: decodifica-se letra → palavra →
+  frase → sentido. O leitor é receptor passivo.
+  *Onde falha*: não explica por que entendemos textos com erros de digitação, nem por que o
+  mesmo texto é claro para uns e opaco para outros.
+
+- **Descendente** (*top-down*) — do **leitor** para o texto: o repertório e as expectativas
+  guiam a leitura, e o texto apenas confirma.
+  *Onde falha*: não explica como o texto nos **surpreende** ou nos faz mudar de ideia. Se
+  só víssemos o que esperamos, ninguém aprenderia nada lendo.
+
+- **Interativo** — os dois **simultaneamente**, em mão dupla. O leitor projeta hipóteses a
+  partir do repertório **e** o texto as confirma ou refuta. É o modelo aceito
+  [@koch2015texto].
+
+A consequência: **ler é negociar**. Nem o texto manda sozinho (senão todos leríamos igual),
+nem o leitor manda sozinho (senão nunca aprenderíamos nada).
+:::
+
+## As estratégias, por objetivo
+
+Aqui está a lição mais imediatamente útil: **não existe "ler bem" em abstrato**. Existe ler
+**para** alguma coisa — e o objetivo determina a estratégia.
+
+::: {#fig-estrategias}
+
+```{.tikz}
+%%| filename: estrategias-leitura
+%%| alt: Esquema em duas partes. Acima, os três modelos de processamento: ascendente, que vai do texto ao leitor por decodificação e falha por não explicar a variação entre leitores; descendente, que vai do leitor ao texto por expectativa e falha por não explicar a surpresa; e interativo, que combina os dois em mão dupla e é o modelo aceito. Abaixo, as estratégias por objetivo, em três colunas. Skimming, ou leitura de sobrevoo, serve para captar o tema geral, é rápida, lendo títulos, primeiras frases de parágrafo e conclusão, e responde à pergunta vale a pena ler isto. Scanning, ou leitura de busca, serve para localizar informação específica, varrendo o texto atrás de uma palavra-chave sem ler o resto. Leitura analítica serve para compreender e avaliar, é lenta, com anotação, reconstrução do argumento e questionamento, e responde à pergunta o que este texto sustenta e se sustenta bem.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=4pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  %% modelos
+  \node[font=\bfseries\small, text=manualblue] at (0,3.4) {MODELOS DE PROCESSAMENTO};
+  \node[cx, draw=manualgray, fill=manualgray!8, text width=36mm] (m1) at (-4.4,2.6)
+    {\textbf{ascendente} {\scriptsize(\emph{bottom-up})}\\ texto $\rightarrow$ leitor · decodifica\\
+     {\scriptsize\emph{falha}: não explica a variação}};
+  \node[cx, draw=manualgray, fill=manualgray!8, text width=36mm] (m2) at (0,2.6)
+    {\textbf{descendente} {\scriptsize(\emph{top-down})}\\ leitor $\rightarrow$ texto · espera\\
+     {\scriptsize\emph{falha}: não explica a surpresa}};
+  \node[cx, draw=manualgreen, fill=manualgreen!12, text width=36mm] (m3) at (4.4,2.6)
+    {\textbf{interativo} $\leftrightarrow$\\ os dois, em \textbf{mão dupla}\\
+     {\scriptsize\emph{o modelo aceito}}};
+
+  %% estrategias
+  \node[font=\bfseries\small, text=manualred] at (0,0.9) {ESTRATÉGIAS — o \emph{objetivo} decide};
+
+  \node[cx, draw=manualblue, fill=manualblue!10, text width=38mm] (e1) at (-4.4,-0.6)
+    {\textbf{SKIMMING} {\scriptsize(sobrevoo)}\\[2pt]
+     \emph{objetivo}: captar o tema geral\\
+     \emph{como}: títulos · 1ª frase de cada\\ parágrafo · conclusão\\
+     \emph{pergunta}: \textbf{vale a pena ler isto?}};
+
+  \node[cx, draw=manualyellow, fill=manualyellow!12, text width=38mm] (e2) at (0,-0.6)
+    {\textbf{SCANNING} {\scriptsize(busca)}\\[2pt]
+     \emph{objetivo}: localizar informação\\ específica\\
+     \emph{como}: varre atrás de uma\\ palavra-chave · \textbf{não lê} o resto\\
+     \emph{pergunta}: \textbf{onde está X?}};
+
+  \node[cx, draw=manualred, fill=manualred!10, text width=38mm] (e3) at (4.4,-0.6)
+    {\textbf{ANALÍTICA}\\[2pt]
+     \emph{objetivo}: compreender e avaliar\\
+     \emph{como}: lenta · anota · reconstrói\\ o argumento · questiona\\
+     \emph{pergunta}: \textbf{o que sustenta,}\\ \textbf{e sustenta bem?}};
+\end{tikzpicture}
+```
+
+Os modelos de processamento e as estratégias. Note que a estratégia não se escolhe pelo
+texto, mas pelo **objetivo** de quem lê — o mesmo artigo pede *skimming* numa triagem e
+leitura analítica numa resenha.
+:::
+
+### *Skimming* — leitura de sobrevoo
+
+**Objetivo**: captar o tema e a estrutura geral, rapidamente.
+
+**Como**: leia o título, o resumo, as primeiras frases de cada parágrafo (os tópicos frase —
+@sec-cap-74), os subtítulos e a conclusão. Ignore o resto.
+
+**Quando**: triagem — decidir **se** vale a pena ler; revisão do que já se leu; visão geral
+antes da leitura detalhada.
+
+**A pergunta que responde**: *vale a pena ler isto?*
+
+### *Scanning* — leitura de busca
+
+**Objetivo**: localizar uma informação **específica**.
+
+**Como**: varra o texto procurando a palavra-chave, o número, o nome. Não leia o resto —
+seus olhos procuram uma forma, não um sentido.
+
+**Quando**: consultar um edital, achar uma data, localizar um dado numa tabela, encontrar o
+trecho a que a questão se refere.
+
+**A pergunta que responde**: *onde está X?*
+
+### Leitura analítica
+
+**Objetivo**: compreender profundamente e **avaliar**.
+
+**Como**: devagar, com anotação, reconstruindo o argumento (@sec-cap-75), questionando.
+
+**Quando**: estudar, resenhar (@sec-cap-79), preparar uma discussão.
+
+**A pergunta que responde**: *o que este texto sustenta, e sustenta bem?*
+
+## O que faz o leitor proficiente
+
+Três operações, e a terceira é a que mais falta.
+
+### 1. Antecipar
+
+O leitor proficiente **prevê** o que vem, a partir do gênero, do título, do suporte, do
+autor. Ao ver "Ofício nº 47/2026", ele já sabe a estrutura que encontrará (@sec-cap-78);
+ao ver uma manchete, já sabe que o lide virá a seguir.
+
+Antecipar **acelera** a leitura, porque grande parte do texto apenas **confirma** a hipótese
+— e o que confirma pode ser lido depressa. A atenção se concentra no que **surpreende**.
+
+### 2. Inferir
+
+Preencher o que o texto não diz. Já visto no @sec-cap-70: em "Pedro chegou atrasado. O
+despertador não tocou", a causalidade inteira é do leitor. O @sec-cap-82 desenvolverá isso.
+
+### 3. Monitorar
+
+Esta é a operação decisiva — e a que separa o leitor proficiente do leitor que "passa os
+olhos".
+
+::: {.callout-important}
+## Monitorar: perceber que não entendeu
+O leitor proficiente **verifica continuamente** se está entendendo. Quando percebe que
+perdeu o fio, ele **para** e age: relê, volta ao parágrafo anterior, consulta uma palavra,
+reconstrói o raciocínio.
+
+O leitor fraco **não percebe**. Ele continua lendo — os olhos passam por todas as palavras,
+a página vira, e ele chega ao fim sem ter entendido, **sem ter notado** que não entendeu.
+
+Esta é a diferença entre **compreensão** e **decodificação**, e é a raiz do chamado
+**analfabetismo funcional**: a pessoa lê todas as palavras e não constrói o sentido — e,
+crucialmente, não tem como saber disso, porque a experiência de decodificar sem entender
+**se parece** com ler.
+
+**O sintoma que você pode testar em si mesmo**: chegar ao fim de uma página e não conseguir
+dizer o que ela dizia. Todo mundo já passou por isso — a diferença é que o leitor proficiente
+**nota** e volta.
+
+**A pergunta de monitoramento**: a cada parágrafo, "eu conseguiria explicar isto a alguém?"
+Se não, pare. Não adianta continuar: as páginas seguintes dependem desta.
+:::
+
+## O repertório
+
+Se ler é construir, e a construção usa o que o leitor sabe, então **repertório é condição de
+leitura** — não enfeite erudito.
+
+Isso explica fenômenos cotidianos:
+
+- Você lê seu campo com facilidade e trava num laudo médico, embora as palavras sejam
+  portuguesas. Falta **conhecimento de mundo** da área, não vocabulário.
+- Uma paródia de "Canção do Exílio" é um poema estranho para quem não leu Gonçalves Dias
+  (@sec-cap-73). A camada intertextual **exige** o repertório.
+- Uma charge sobre política nacional é opaca para um estrangeiro, mesmo traduzida.
+
+::: {.callout-warning}
+## A consequência desigual
+Aqui há uma implicação social que não se costuma dizer.
+
+Se a compreensão depende do repertório, e o repertório se acumula com **exposição** (livros
+em casa, viagens, conversas, escola de qualidade, tempo livre), então a **capacidade de
+ler** é desigualmente distribuída — e a desigualdade **se reproduz**: quem lê mais entende
+mais, e quem entende mais lê mais.
+
+Isso significa que "o aluno não sabe interpretar" é frequentemente um diagnóstico **errado**.
+Ele decodifica bem e não tem o repertório que o texto pressupõe — o que é um problema de
+**acesso**, não de capacidade. E a solução não é "aula de interpretação": é **exposição
+sistemática a textos**, com mediação.
+
+Vale a comparação com o @sec-cap-64: detectar pressupostos correlaciona-se com **letramento
+crítico**, não com domínio da norma. São competências independentes — e a que a escola menos
+ensina é a que mais importa para a cidadania (@sec-cap-91).
+:::
+
+## As pistas do texto
+
+O leitor constrói, mas **não inventa**: o texto oferece **pistas** que restringem as
+leituras possíveis (@sec-cap-70). Reconhecê-las é parte da técnica.
+
+| Pista | O que informa |
+|---|---|
+| **Gênero e suporte** | que tipo de leitura se espera (@sec-cap-72) |
+| **Título e subtítulos** | o tema e a estrutura |
+| **Tópicos frase** | o argumento de cada parágrafo (@sec-cap-74) |
+| **Conectivos** | as relações lógicas pretendidas (@sec-cap-69) |
+| **Marcadores de opinião** | onde o autor se posiciona |
+| **Retomadas** | como o autor **classifica** os referentes (@sec-cap-69) |
+| **Tempos verbais** | o tipo textual em jogo (@sec-cap-71) |
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Uma observação sobre o que a escola chama de "interpretação de texto".
+
+O ensino tradicional trata a leitura como **extração**: as perguntas são "o que o autor
+quis dizer?" e "segundo o texto, o que é X?" — e há **uma** resposta certa, que está lá,
+escondida como um tesouro. O aluno bem-sucedido é o que localiza (*scanning*), não o que
+compreende.
+
+O problema é duplo. Primeiro, **falseia** o que é ler: o sentido não está guardado no papel
+(@sec-cap-68). Segundo, **não ensina** a operação difícil — monitorar, inferir, avaliar.
+Treina-se a localizar, e depois se lamenta que o aluno "não interpreta".
+
+Mas há um erro simétrico a evitar, e ele é comum na reação ao primeiro: concluir que "cada
+um entende como quer". Isso é falso. O texto **restringe**: "Maria comprou um carro" não
+pode significar "choveu em Lisboa", e há leituras **erradas** — as que contrariam as pistas.
+Uma interpretação se defende com **evidência textual**, e é por isso que se pode corrigir
+uma prova de interpretação (@sec-cap-85).
+
+**A posição defensável**: nem o sentido está pronto no texto (objetivismo ingênuo), nem o
+leitor inventa o que quer (relativismo vazio). Ler é **construir dentro dos limites que o
+texto estabelece** — e a competência está em construir **bem**, com o que o texto autoriza
+[@koch2015texto; @marcuschi2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Ler é construir**, não extrair. Modelos:
+
+| Modelo | Direção | Falha |
+|---|---|---|
+| **Ascendente** | texto → leitor | não explica a variação entre leitores |
+| **Descendente** | leitor → texto | não explica a surpresa |
+| **Interativo** | mão dupla | — *(o modelo aceito)* |
+
+**Estratégias — o objetivo decide:**
+
+| Estratégia | Objetivo | Pergunta |
+|---|---|---|
+| ***Skimming*** | tema geral, rápido | vale a pena ler isto? |
+| ***Scanning*** | informação específica | onde está X? |
+| **Analítica** | compreender e avaliar | o que sustenta, e sustenta bem? |
+
+**As três operações do leitor proficiente**: **antecipar** · **inferir** · **monitorar**.
+
+**Monitorar** é a decisiva: perceber que **não** entendeu e parar. O leitor fraco não
+percebe — e é isso que distingue compreensão de decodificação.
+
+**Repertório é condição de leitura**, não enfeite — e por isso a capacidade de ler é
+desigualmente distribuída.
+
+Em uma linha: o sentido **não está no texto**, mas o texto **restringe** — ler é construir
+**dentro dos limites** que ele estabelece.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que ler é decodificar.** Passar os olhos por todas as letras não é ler. O
+  analfabeto funcional decodifica perfeitamente.
+- **Ler tudo do mesmo jeito.** A estratégia depende do **objetivo**: triagem pede
+  *skimming*; consulta pede *scanning*; estudo pede leitura analítica.
+- **Não monitorar.** Continuar lendo depois de perder o fio. Se você não consegue explicar o
+  parágrafo, **pare** — os seguintes dependem dele.
+- **Achar que repertório é enfeite.** É **condição** de leitura. Sem Gonçalves Dias, a
+  paródia de Oswald é um poema estranho.
+- **Confundir falta de repertório com incapacidade.** "Não sabe interpretar" é
+  frequentemente "não tem o repertório que o texto pressupõe" — problema de **acesso**.
+- **Achar que o sentido está no texto.** Ele é **construído**; o texto oferece instruções.
+- **Achar que cada um entende como quer.** O texto **restringe**. Há leituras erradas — as
+  que contrariam as pistas.
+- **Ler sem objetivo.** Se você não sabe o que procura, não sabe quando achou.
+
+## ✍️ Exercícios
+
+**1.** Explique por que "ler é construir, não extrair", usando "O menino viu o homem com o
+telescópio".
+
+::: {.callout-tip collapse="true"}
+## Solução
+A frase é **estruturalmente ambígua** (@sec-cap-64): o adjunto "com o telescópio" pode
+ligar-se a *viu* (o menino usava o telescópio) ou a *o homem* (o homem carregava o
+telescópio).
+
+**O texto não decide.** Ambas as análises sintáticas são legítimas, e nada na frase
+seleciona uma delas.
+
+**E, no entanto, você decidiu.** Ao ler, você provavelmente entendeu que o **menino** tinha
+o telescópio — não porque a frase o diga, mas porque você trouxe uma **probabilidade do
+mundo**: "ver com telescópio" é uma cena mais frequente e mais coerente que "homem
+carregando telescópio pela rua".
+
+**A conclusão**: o sentido que você obteve **não estava no texto**. Foi **construído** por
+você, combinando as instruções da frase com seu conhecimento de mundo. Se o sentido
+estivesse guardado no papel, a frase teria um significado só, e ninguém precisaria decidir
+nada.
+
+**A generalização**: isso não acontece só em frases ambíguas — acontece **em toda leitura**.
+A ambiguidade apenas **torna visível** um processo que normalmente é invisível, porque as
+pistas costumam bastar para que a construção seja rápida e unânime.
+:::
+
+**2.** Distinga os três modelos de processamento e explique por que o interativo prevalece.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Ascendente** (*bottom-up*) — do **texto** para o leitor: decodifica-se letra → palavra →
+frase → sentido, cumulativamente. O leitor é receptor passivo.
+
+*Onde falha*: não explica por que entendemos textos com erros de digitação (se a decodificação
+fosse tudo, um erro travaria a leitura); nem por que o **mesmo** texto é transparente para um
+médico e opaco para um leigo, com as mesmas letras.
+
+**Descendente** (*top-down*) — do **leitor** para o texto: o repertório e as expectativas
+guiam, e o texto apenas confirma.
+
+*Onde falha*: não explica como o texto nos **surpreende**, nos contraria ou nos faz mudar de
+ideia. Se só víssemos o que já esperávamos, **ninguém aprenderia nada lendo** — o que é
+empiricamente falso.
+
+**Interativo** — os dois **simultaneamente**, em mão dupla: o leitor projeta hipóteses a
+partir do repertório **e** o texto as confirma ou refuta, continuamente.
+
+**Por que prevalece**: porque é o único que dá conta dos **dois** fatos incontornáveis:
+
+1. leitores diferentes constroem sentidos diferentes do mesmo texto (o texto não determina
+   sozinho);
+2. o texto pode nos ensinar, surpreender e corrigir (o leitor não determina sozinho).
+
+**A consequência**: **ler é negociar**. Nem o texto manda sozinho (senão todos leríamos
+igual), nem o leitor manda sozinho (senão nunca aprenderíamos nada) [@koch2015texto].
+:::
+
+**3.** Que estratégia usar: (a) decidir se um artigo interessa; (b) achar a data de uma
+prova num edital; (c) preparar uma resenha?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) *Skimming*** (leitura de sobrevoo). Objetivo: captar tema e estrutura rapidamente para
+decidir **se** vale a pena ler.
+
+*Como*: título → resumo → subtítulos → primeira frase de cada parágrafo (os tópicos frase —
+@sec-cap-74) → conclusão. Ignore o resto. Em 2 minutos você sabe do que trata, qual a tese e
+se serve ao seu propósito.
+
+**(b) *Scanning*** (leitura de busca). Objetivo: localizar uma informação **específica**.
+
+*Como*: varra o edital procurando a **forma** — números, "data", "aplicação", o formato
+dd/mm/aaaa. Seus olhos procuram um padrão visual, não um sentido. Não leia o resto: ler o
+edital inteiro para achar uma data é desperdício.
+
+**(c) Leitura analítica.** Objetivo: compreender profundamente e **avaliar** — porque a
+resenha exige síntese **e** juízo fundamentado (@sec-cap-79).
+
+*Como*: devagar, com anotação, reconstruindo o argumento (qual a tese? que argumentos a
+sustentam? a conclusão decorre?), questionando, identificando critérios para a avaliação.
+
+**A lição geral**: **não existe "ler bem" em abstrato**. Existe ler **para** alguma coisa. O
+mesmo artigo pede *skimming* numa triagem bibliográfica e leitura analítica numa resenha —
+e usar a estratégia errada é ineficiente nos dois sentidos (ler tudo quando bastava
+sobrevoar; sobrevoar quando era preciso analisar).
+:::
+
+**4.** (Estilo ENEM) O modelo interativo de leitura sustenta que:
+
+a) o sentido está no texto e o leitor o extrai;
+b) o leitor projeta seu repertório e o texto apenas confirma;
+c) o sentido é construído na interação entre as instruções do texto e o repertório do
+leitor;
+d) qualquer interpretação é válida;
+e) ler é decodificar signos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** O modelo interativo sustenta que o sentido emerge da **negociação** em
+mão dupla: o leitor projeta hipóteses a partir de seu repertório, e o texto as confirma ou
+refuta.
+
+As demais:
+
+- **(a)** descreve o modelo **ascendente** (e o objetivismo ingênuo). Falha por não explicar
+  a variação entre leitores.
+- **(b)** descreve o modelo **descendente**. Falha por não explicar a surpresa e o
+  aprendizado.
+- **(d)** é o **relativismo vazio** — e não decorre do modelo interativo. O texto
+  **restringe**: "Maria comprou um carro" não pode significar "choveu em Lisboa". Há
+  leituras **erradas**, e é por isso que se pode corrigir uma prova de interpretação.
+- **(e)** confunde ler com **decodificar**. O analfabeto funcional decodifica perfeitamente
+  e não constrói sentido.
+
+**A distinção que a questão testa**: dizer que o sentido não está pronto no texto **não** é
+dizer que cada um entende o que quer. São duas teses diferentes, e (d) é a caricatura de (c).
+:::
+
+**5.** Explique o que é "monitorar" e por que é a operação decisiva.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Monitorar** é **verificar continuamente se está entendendo** — e agir quando não está.
+
+**O leitor proficiente** percebe que perdeu o fio e **para**: relê, volta ao parágrafo
+anterior, consulta uma palavra, reconstrói o raciocínio antes de prosseguir.
+
+**O leitor fraco não percebe.** Ele continua: os olhos passam por todas as palavras, a página
+vira, e ele chega ao fim **sem ter entendido e sem ter notado** que não entendeu.
+
+**Por que é a operação decisiva** — três razões:
+
+1. **É o que distingue compreensão de decodificação.** Decodificar sem monitorar é o que
+   caracteriza o **analfabetismo funcional**: a pessoa lê todas as palavras e não constrói o
+   sentido.
+2. **A falha é invisível para quem a comete.** E aqui está o núcleo do problema: a
+   experiência de decodificar sem entender **se parece** com a de ler. Não há alarme. Quem
+   não monitora não tem como saber que não entendeu — o que torna a falha
+   autoperpetuante.
+3. **O erro se acumula.** Textos são cumulativos: o parágrafo 5 pressupõe o 4. Continuar
+   depois de perder o fio garante que **nada** do que vem depois será compreendido.
+
+**O sintoma que você pode testar em si mesmo**: chegar ao fim de uma página e não conseguir
+dizer o que ela dizia. Todo mundo já passou por isso — a diferença é que o leitor proficiente
+**nota e volta**.
+
+**A técnica**: a cada parágrafo (ou seção), pergunte-se "**eu conseguiria explicar isto a
+alguém?**". Se a resposta for não, pare. Não adianta continuar.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Um leitor que decodifica todas as palavras
+de um texto compreendeu-o."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** **Decodificar não é compreender.**
+
+**A decodificação** é a conversão de sinais gráficos em palavras: reconhecer que aquele
+conjunto de letras é "desigualdade". É condição **necessária** e absolutamente
+**insuficiente**.
+
+**A compreensão** exige **construir sentido** — o que envolve inferir o que não foi dito
+(@sec-cap-82), mobilizar conhecimento de mundo, reconstruir as relações entre as partes e
+integrar tudo num todo coerente (@sec-cap-70).
+
+**A evidência decisiva** é o **analfabetismo funcional**: milhões de brasileiros decodificam
+todas as palavras de uma bula, de um contrato ou de uma notícia — e não compreendem o que
+leram. Não é problema de vista nem de vocabulário isolado: é que a construção não acontece.
+
+**Um teste simples**: leia em voz alta um parágrafo de um artigo de física quântica. Você
+decodificará **todas** as palavras — todas estão em português, e você as pronunciará
+corretamente. E não compreenderá nada, porque falta o **repertório** que o texto pressupõe.
+A decodificação foi perfeita; a compreensão, zero.
+
+**O que a distinção implica para o ensino**: alfabetizar (ensinar a decodificar) e
+**letrar** (formar quem constrói sentido) são objetivos diferentes, e o segundo não decorre
+automaticamente do primeiro.
+:::
+
+**7.** Explique por que um mesmo texto pode ser claro para um leitor e opaco para outro.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a compreensão depende do **repertório**, e o texto **conta** com ele.
+
+**O mecanismo**: todo texto omite deliberadamente o que supõe que o leitor já sabe — é assim
+que a escrita é possível (@sec-cap-70). Um artigo de cardiologia não define "isquemia"
+porque seus leitores sabem. Essa omissão é uma **aposta** sobre o repertório do
+destinatário.
+
+Quando a aposta acerta, o texto é claro. Quando erra, o texto é opaco — **sem que nada nele
+tenha mudado**.
+
+**Exemplos:**
+
+- Você lê seu campo com facilidade e trava num laudo médico, embora todas as palavras sejam
+  portuguesas. Falta o **conhecimento de mundo** da área.
+- Uma paródia de "Canção do Exílio" é um poema estranho para quem não leu Gonçalves Dias — a
+  camada intertextual **exige** o repertório (@sec-cap-73).
+- Uma charge sobre a política brasileira é opaca para um estrangeiro, **mesmo traduzida**.
+
+**A implicação para quem escreve** (@sec-cap-70): não existe texto claro **em abstrato** —
+existe texto claro **para um público**. Um manual de medicina não é defeituoso por ser opaco
+a leigos: não foi escrito para leigos. Mas uma **bula** opaca ao paciente **é** defeituosa,
+porque errou o leitor que ela própria escolheu.
+
+**A implicação social**: se ler depende do repertório, e o repertório se acumula por
+**exposição** (livros em casa, escola de qualidade, tempo), então a capacidade de ler é
+**desigualmente distribuída** — e se reproduz. É por isso que "o aluno não sabe interpretar"
+é frequentemente um diagnóstico errado: ele não tem o repertório que o texto pressupõe, o
+que é problema de **acesso**, não de capacidade.
+:::
+
+**8.** Liste as pistas que o texto oferece ao leitor e o que cada uma informa.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| Pista | O que informa |
+|---|---|
+| **Gênero e suporte** | que tipo de leitura se espera, que estrutura antecipar, com que propósito o texto foi feito (@sec-cap-72) |
+| **Título e subtítulos** | o tema e a arquitetura — permitem *skimming* eficaz |
+| **Tópicos frase** | o argumento de cada parágrafo; lidos em sequência, dão o esqueleto (@sec-cap-74) |
+| **Conectivos** | as relações lógicas **pretendidas** — causa, oposição, conclusão (@sec-cap-69) |
+| **Marcadores de opinião** | onde o autor se posiciona ("é evidente que", "infelizmente") |
+| **Retomadas** | como o autor **classifica** os referentes — "o manifestante" × "o baderneiro" (@sec-cap-69) |
+| **Tempos verbais** | o tipo textual em jogo: pretérito perfeito → narração; presente atemporal → argumentação (@sec-cap-71) |
+| **Pressupostos** | o que o autor dá por certo sem afirmar (@sec-cap-64) |
+
+**A função das pistas — o ponto do exercício**: elas são o que impede o relativismo. O leitor
+**constrói**, mas **não inventa**: as pistas **restringem** as leituras possíveis.
+
+Isso torna a interpretação **discutível com evidência**: se alguém sustenta que o autor
+defende X, é possível apontar o conectivo, a retomada avaliativa ou o marcador de opinião que
+confirmam ou refutam a leitura. É exatamente por isso que se pode **corrigir** uma prova de
+interpretação (@sec-cap-85) — e a correção não é arbitrária.
+:::
+
+**9.** (Estilo FUVEST) Discuta: se o sentido não está no texto, qualquer interpretação é
+válida?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não. E confundir as duas teses é o erro mais comum na recepção da linguística textual.**
+
+**A premissa é verdadeira**: o sentido não está **guardado** no texto. Ele é construído na
+interação, e cinco dos sete critérios de textualidade dependem dos usuários e da situação
+(@sec-cap-68). O leitor fornece boa parte das relações — em "Pedro chegou atrasado. O
+despertador não tocou", a causalidade inteira é dele.
+
+**A conclusão não decorre**, por duas razões:
+
+**1. O texto restringe.** Ele oferece **instruções**, não um cheque em branco. "Maria comprou
+um carro" não pode significar "choveu em Lisboa", por mais criativo que seja o leitor. As
+**pistas** — conectivos, retomadas, tempos verbais, gênero — delimitam o campo do
+construível. Há leituras **erradas**: as que contrariam as instruções.
+
+**2. A interpretação tem critérios públicos.** Uma leitura se **defende com evidência
+textual**. Se alguém sustenta que o autor defende X, é possível apontar o trecho que confirma
+ou refuta. Se tudo valesse, não haveria como corrigir uma prova de interpretação, discordar
+de ninguém, nem ensinar a ler.
+
+**A analogia útil**: uma partitura não contém a música (é preciso alguém tocar), e nem por
+isso qualquer execução é válida. O intérprete **constrói** — dentro do que a partitura
+autoriza. Ele pode variar o andamento; não pode trocar as notas.
+
+**Onde a tese relativista tem um ponto**: há textos **deliberadamente abertos** — poesia,
+vanguardas — que ampliam muito o campo do construível. E há leituras **legítimas e
+divergentes** do mesmo texto, o que não é falha: é a natureza do objeto. Mas "várias
+leituras legítimas" é diferente de "todas as leituras legítimas".
+
+**A formulação precisa**: o sentido não está **apenas** no texto — é construído na interação,
+**dentro dos limites** que o texto estabelece. Nem objetivismo ingênuo (o sentido está no
+papel), nem relativismo vazio (cada um lê o que quer). A competência do leitor está em
+construir **bem**, com o que o texto autoriza — e em **justificar** sua leitura.
+
+É a mesma estrutura de argumento do @sec-cap-03 (norma) e do @sec-cap-70 (coerência): a
+posição defensável reconhece **duas** restrições operando ao mesmo tempo.
+:::
+
+**10.** Analise o próprio processo: descreva como você leria um edital de concurso de 40
+páginas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível — o valor está em **combinar estratégias conforme o objetivo muda**.
+
+**Fase 1 — *Skimming* (5 min).** Objetivo: mapear a estrutura.
+Leia o sumário, os títulos das seções e o primeiro parágrafo de cada uma. Saída: um mapa
+mental de onde está cada coisa (requisitos, cronograma, conteúdo programático, critérios de
+correção, recursos).
+
+**Fase 2 — Leitura analítica seletiva (30 min).** Objetivo: compreender o que me afeta.
+Leia **integralmente** apenas: requisitos do cargo (posso concorrer?), conteúdo
+programático (o que estudar?), critérios de correção da discursiva (@sec-cap-77 — o que a
+banca recompensa?), critérios de desempate. Aqui é preciso monitorar: se não entendi uma
+regra de pontuação, releio — a página seguinte pode depender dela.
+
+**Fase 3 — *Scanning* (contínuo, ao longo de meses).** Objetivo: consultar pontos
+específicos.
+Voltar ao edital para achar datas, valores, prazos de recurso. Varredura pela forma, sem
+reler o entorno.
+
+**Fase 4 — Releitura analítica (véspera).** Objetivo: conferir o operacional.
+Reler o dia, o horário, o local, os documentos exigidos, os itens proibidos.
+
+**Por que não ler as 40 páginas de ponta a ponta**: seria **ineficiente** e, paradoxalmente,
+**pior**. A atenção é finita: distribuída uniformemente por 40 páginas, ela fica rala
+justamente nas seções que decidem a aprovação. A leitura estratégica **concentra** o esforço
+onde o retorno é maior.
+
+**As pistas que o gênero oferece** (@sec-cap-72): o edital é gênero **injuntivo**
+(@sec-cap-71) e altamente padronizado — a estrutura é previsível, o que permite antecipar
+onde cada informação estará e ir direto. Conhecer o gênero **acelera** a leitura.
+
+**Onde monitorar com rigor**: nos critérios de correção e nos requisitos. Uma leitura
+apressada de "não serão aceitos recursos fora do prazo" custa o concurso.
+:::
+
+## 📚 Referências
+
+A concepção da leitura como construção, os modelos de processamento (ascendente,
+descendente e interativo) e o papel do conhecimento prévio seguem Koch [@koch2015texto] e
+Koch [@koch2018coesao]; o tratamento da leitura como prática social situada, dependente do
+gênero e do suporte, apoia-se em Marcuschi [@marcuschi2008] e no @sec-cap-72. Para a
+textualidade como relação, e não propriedade, veja o @sec-cap-68; para a coerência construída
+pelo leitor e a calibragem do implícito, o @sec-cap-70; para as pistas de retomada e
+conectivo, o @sec-cap-69; para os pressupostos, o @sec-cap-64. A discussão sobre repertório,
+letramento e desigualdade de acesso dialoga com Bagno [@bagno2011] e Faraco [@faraco2008], e
+será retomada no @sec-cap-91. Os capítulos seguintes desenvolvem as operações aqui
+apresentadas: a **inferência** no @sec-cap-82, os **implícitos e a ironia** no @sec-cap-83, a
+leitura **multimodal** no @sec-cap-84 e o **método de resolução de questões** no
+@sec-cap-85.
+
+::: {#refs}
 :::
