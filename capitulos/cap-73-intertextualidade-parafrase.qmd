@@ -4,22 +4,677 @@ title: "Intertextualidade e paráfrase"
 
 # Intertextualidade e paráfrase {#sec-cap-73}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 11 — Linguística Textual.
+> "Todo texto é um tecido de citações — algumas declaradas, a maioria esquecida."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o Volume 11 com o sétimo critério de textualidade (@sec-cap-68) e com uma
+propriedade que reorganiza tudo o que vimos: **nenhum texto nasce do nada**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Todo texto responde a outros textos, cita, imita, parodia, retoma, contesta ou pressupõe.
+Quando você escreve uma redação de vestibular, está respondendo aos textos motivadores, ao
+que já leu sobre o tema, ao gênero "redação" que herdou e às expectativas do corretor. Nada
+disso é opcional — é a condição de possibilidade do texto.
+
+Este capítulo trata dessa propriedade — a **intertextualidade** — e de uma operação que
+dela decorre e que você usará a vida inteira: a **paráfrase**, isto é, dizer com suas
+palavras o que outro disse com as dele. Parece simples. Não é: entre a paráfrase competente
+e o plágio há uma fronteira que muita gente cruza sem perceber, e entre a paráfrase e a
+citação há uma escolha que muda o efeito do texto.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** intertextualidade e explicar por que é condição de todo texto;
+- **Distinguir** os tipos de intertextualidade: explícita e implícita;
+- **Reconhecer** citação, alusão, paráfrase, paródia, epígrafe e pastiche;
+- **Diferenciar** paráfrase de paródia pelo critério da direção do sentido;
+- **Produzir** paráfrases competentes, preservando o sentido e mudando a forma;
+- **Identificar** a fronteira entre paráfrase legítima e plágio.
+
+## Intertextualidade: a condição de todo texto
+
+**Intertextualidade** é a relação que um texto mantém com **outros textos** — anteriores,
+contemporâneos ou mesmo posteriores (quando um texto antecipa respostas).
+
+A tese, formulada por Bakhtin e desenvolvida na linguística textual [@koch2015texto], é
+forte: a intertextualidade não é um recurso que alguns textos usam. É uma **condição** que
+todos os textos cumprem, queiram ou não.
+
+Considere esta frase, aparentemente inocente:
+
+> "O aquecimento global é o maior desafio do século."
+
+Ela responde a: textos científicos que estabeleceram o fenômeno; textos negacionistas que o
+contestam (e contra os quais ela se posiciona ao afirmar categoricamente); textos que
+elegeram outros desafios (a desigualdade, as pandemias) e com os quais ela disputa; ao
+próprio gênero em que se insere. A frase é uma **resposta** — mesmo que quem a escreveu não
+tivesse consciência disso.
+
+::: {.callout-important}
+## Duas consequências da tese
+1. **Originalidade absoluta não existe.** Todo texto é feito de outros. Isso não desvaloriza
+   a criação — **redefine-a**: criar não é inventar do nada (impossível), é **combinar,
+   deslocar, contestar** de modo novo. Guimarães Rosa não inventou o português: recombinou-o.
+
+2. **Ler é reconhecer.** A leitura depende do **repertório**: quem não conhece o texto-fonte
+   perde a camada intertextual. Uma paródia de "Canção do Exílio" é apenas um poema estranho
+   para quem não leu Gonçalves Dias. É por isso que o repertório não é enfeite erudito — é
+   **condição de leitura** (@sec-cap-81).
+:::
+
+## Explícita × implícita
+
+A distinção fundamental é sobre a **marcação**: o texto-fonte é identificado ou não?
+
+### Intertextualidade explícita
+
+A fonte é **declarada**. O leitor não precisa reconhecê-la — o texto a entrega.
+
+- **Citação** — reprodução literal, com aspas e fonte: Marcuschi afirma que os gêneros são
+  "artefatos culturais construídos historicamente" [@marcuschi2008].
+- **Referência** — menção declarada à fonte, sem reprodução literal: "Como mostra Koch, a
+  coerência não está no texto."
+- **Epígrafe** — citação na abertura, que orienta a leitura (como as que abrem cada
+  capítulo deste manual).
+- **Resumo/resenha** — o gênero inteiro é uma retomada declarada de outro texto
+  (@sec-cap-79).
+
+### Intertextualidade implícita
+
+A fonte **não** é declarada. O texto **conta** que o leitor a reconheça — e, se ele não
+reconhecer, a camada se perde.
+
+- **Alusão** — menção indireta que pressupõe o repertório: "Ele lavou as mãos" (alusão a
+  Pilatos); "aquilo foi o canto do cisne dele".
+- **Paródia** — retomada que **subverte** o sentido original.
+- **Paráfrase** — retomada que **preserva** o sentido, mudando a forma.
+- **Pastiche** — imitação do **estilo** de outro, sem intenção crítica (diferentemente da
+  paródia).
+- **Provérbios, clichês, bordões** — intertextualidade tão difusa que a fonte se perdeu.
+
+::: {.callout-warning}
+## A implícita não declarada pode virar plágio
+Atenção à zona de risco: a intertextualidade implícita é **legítima** quando o texto
+**conta** com o reconhecimento — a paródia quer que você reconheça o original; é disso que
+ela vive.
+
+Ela vira **plágio** quando o autor **conta com o não reconhecimento**, isto é, quando
+apresenta como seu o que é de outro. A diferença não está na forma — está na **intenção e
+no efeito**: a paródia expõe a fonte; o plágio a esconde.
+
+Voltaremos a isso na seção sobre paráfrase.
+:::
+
+## Paráfrase × paródia: a distinção central
+
+Ambas retomam um texto anterior. Diferem na **direção do sentido**.
+
+::: {.callout-important}
+## O critério
+- **Paráfrase** — **preserva** o sentido, muda a forma. É reformulação **confirmatória**:
+  diz o mesmo, de outro jeito. (*Para* = "ao lado de" + *frásis* = "dizer" → dizer ao lado.)
+- **Paródia** — **subverte** o sentido, imitando a forma. É reformulação **contestatória**:
+  usa o molde do original **contra** ele. (*Para* = "contra" + *ode* = "canto" → canto
+  contra.)
+
+O mesmo prefixo grego, dois valores opostos — e é essa ambivalência que causa a confusão.
+Guarde: paráfrase **concorda**, paródia **discorda**.
+:::
+
+O par clássico da literatura brasileira ilustra isso perfeitamente.
+
+**Original** — Gonçalves Dias, "Canção do Exílio" (1843):
+
+> "Minha terra tem palmeiras
+> Onde canta o Sabiá;
+> As aves que aqui gorjeiam,
+> Não gorjeiam como lá."
+
+**Paráfrase** — preservaria o sentido (exaltação nostálgica da pátria) mudando as palavras:
+
+> "Em meu país há coqueiros / onde o pássaro entoa seu canto; / os pássaros daqui cantam, /
+> mas não com aquele encanto."
+
+Nada de novo se diz: apenas se rediz. A paráfrase **serve** ao original.
+
+**Paródia** — Oswald de Andrade, "Canto de regresso à pátria" (1925):
+
+> "Minha terra tem palmares
+> Onde gorjeia o mar
+> Os passarinhos daqui
+> Não cantam como os de lá."
+
+Oswald mantém o **molde** (a estrutura sintática, o ritmo, o paralelismo "aqui/lá") e o
+usa **contra** o ufanismo romântico: "palmeiras" vira "**palmares**" — e a troca de uma
+letra substitui a paisagem idílica pelo quilombo, isto é, pela **escravidão** que o
+romantismo omitia. O canto ufanista é convertido em denúncia. A forma é reverente; o
+sentido, demolidor.
+
+::: {#fig-intertextualidade}
+
+```{.tikz}
+%%| filename: intertextualidade
+%%| alt: Esquema da intertextualidade dividido em dois ramos. Ramo esquerdo, explícita, em que a fonte é declarada e o leitor não precisa reconhecê-la: citação com aspas e fonte, referência, epígrafe, resumo e resenha. Ramo direito, implícita, em que a fonte não é declarada e o texto conta com o reconhecimento do leitor: alusão, paráfrase, paródia, pastiche e provérbios. Abaixo, o contraste central entre paráfrase e paródia: paráfrase preserva o sentido e muda a forma, é confirmatória, exemplo em meu país há coqueiros; paródia subverte o sentido e imita a forma, é contestatória, exemplo minha terra tem palmares de Oswald de Andrade. No rodapé, o alerta de que a intertextualidade implícita vira plágio quando o autor conta com o não reconhecimento da fonte.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[cx, draw=manualgray, fill=manualgray!14, text width=34mm, font=\small] (i) at (0,3.0)
+    {\textbf{INTERTEXTUALIDADE}\\{\scriptsize todo texto responde a outros}};
+
+  \node[cx, draw=manualblue, fill=manualblue!12, text width=38mm] (ex) at (-3.6,1.6)
+    {\textbf{EXPLÍCITA}\\ fonte \textbf{declarada}\\{\scriptsize o leitor não precisa reconhecer}};
+  \node[cx, draw=manualred, fill=manualred!12, text width=38mm] (im) at (3.6,1.6)
+    {\textbf{IMPLÍCITA}\\ fonte \textbf{não} declarada\\{\scriptsize conta com o reconhecimento}};
+  \draw[s] (i) -- (ex); \draw[s] (i) -- (im);
+
+  \node[cx, draw=manualblue, fill=manualblue!4, text width=38mm] (ex2) at (-3.6,0.2)
+    {citação · referência\\ epígrafe · resumo · resenha};
+  \node[cx, draw=manualred, fill=manualred!4, text width=38mm] (im2) at (3.6,0.2)
+    {alusão · \textbf{paráfrase} · \textbf{paródia}\\ pastiche · provérbios};
+  \draw[s] (ex) -- (ex2); \draw[s] (im) -- (im2);
+
+  %% contraste central
+  \node[cx, draw=manualgreen, fill=manualgreen!10, text width=44mm, align=left] (pf) at (-3.0,-1.8)
+    {\textbf{PARÁFRASE}\\ \emph{para} = ``ao lado de''\\[2pt]
+     \textbf{preserva} o sentido\\ muda a forma · \textbf{confirmatória}\\[3pt]
+     {\scriptsize ``Em meu país há coqueiros...''}};
+  \node[cx, draw=manualyellow, fill=manualyellow!12, text width=44mm, align=left] (pd) at (3.0,-1.8)
+    {\textbf{PARÓDIA}\\ \emph{para} = ``contra''\\[2pt]
+     \textbf{subverte} o sentido\\ imita a forma · \textbf{contestatória}\\[3pt]
+     {\scriptsize ``Minha terra tem \textbf{palmares}''}};
+
+  \draw[s] (im2) -- (pf); \draw[s] (im2) -- (pd);
+
+  \node[rounded corners=2pt, draw=manualred, fill=manualred!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=80mm] at (0,-3.6)
+    {\textbf{Vira plágio} quando o autor conta com o \textbf{não} reconhecimento —\\
+     isto é, quando apresenta como seu o que é de outro.};
+\end{tikzpicture}
+```
+
+Os dois ramos da intertextualidade e o contraste central. O mesmo prefixo grego *para-*
+significa "ao lado de" na **paráfrase** (que concorda) e "contra" na **paródia** (que
+subverte).
+:::
+
+## A paráfrase competente
+
+A paráfrase é a operação mais **utilitária** deste volume. Você a usará na resenha, no
+resumo, no trabalho acadêmico, na prova discursiva e na redação — sempre que precisar
+mobilizar o que outro disse sem copiá-lo.
+
+E é aqui que a maioria erra.
+
+### O que a paráfrase não é
+
+**Não é trocar palavras por sinônimos.** Este é o erro mais comum e o mais grave:
+
+> **Original**: "A coerência não é propriedade do texto, mas efeito de sua interação com o
+> leitor."
+> **Falsa paráfrase**: "A coerência não é característica do texto, porém consequência de sua
+> interação com o leitor." ✗
+
+Trocaram-se três palavras. A **estrutura sintática é idêntica**. Isso não é paráfrase: é
+**cópia disfarçada** — e, num trabalho acadêmico, é plágio, ainda que a fonte seja citada,
+porque o texto sugere reformulação que não houve.
+
+Note por que o erro é natural: é o mesmo vício do @sec-cap-62 (substituir por sinônimo de
+dicionário sem entender o contexto). A raiz do problema é **não ter compreendido** o
+original — quem não entendeu só pode trocar palavras, porque não tem o sentido para
+reconstruir.
+
+### O que a paráfrase é
+
+**Reconstruir o sentido com estrutura própria.** O procedimento:
+
+::: {.callout-tip}
+## O método em quatro passos
+1. **Leia** o original até entendê-lo de verdade.
+2. **Feche o texto.** (Este passo é o segredo — e o que quase ninguém faz.)
+3. **Escreva** o que você entendeu, com suas palavras e sua estrutura.
+4. **Compare** com o original: o sentido está preservado? A forma está diferente? Se as
+   duas respostas forem sim, a paráfrase é boa.
+
+O passo 2 é decisivo porque **impede** a cópia estrutural. Com o original à vista, você
+inevitavelmente segue sua sintaxe. Sem ele, você é obrigado a reconstruir a partir do
+**sentido** — que é exatamente o que se pede.
+
+Corolário útil: se você **não consegue** fazer o passo 3, não entendeu o original. A
+paráfrase é, por isso, um excelente **teste de compreensão** (@sec-cap-79).
+:::
+
+Aplicando ao exemplo:
+
+> **Original**: "A coerência não é propriedade do texto, mas efeito de sua interação com o
+> leitor."
+> **Paráfrase boa**: "Segundo Koch, um texto não *contém* coerência: ela emerge quando
+> alguém o lê, e depende tanto de quem lê quanto do que está escrito." ✓
+
+A estrutura mudou completamente (dividiu-se em duas orações, inverteu-se a ordem,
+introduziu-se um agente). O sentido permaneceu. E a fonte foi declarada.
+
+### Paráfrase × citação: quando usar cada uma
+
+| Use **citação** quando | Use **paráfrase** quando |
+|---|---|
+| a **formulação exata** importa (definição técnica, lei, verso) | o **conteúdo** importa, não as palavras |
+| a autoridade da voz reforça o argumento | o original é longo ou prolixo |
+| você vai **analisar** as palavras do autor | você precisa **integrar** a ideia ao seu texto |
+| o trecho é curto e memorável | você quer demonstrar que **entendeu** |
+
+Regra prática para trabalho acadêmico: **parafraseie por padrão, cite por exceção**. Texto
+cheio de citações sugere que o autor não digeriu as fontes — apenas as empilhou.
+
+## A fronteira do plágio
+
+Vale ser explícito, porque a fronteira é menos óbvia do que parece.
+
+| Situação | Fonte citada? | Estrutura própria? | Veredito |
+|---|---|---|---|
+| Cópia literal com aspas e fonte | sim | — | **Citação** ✓ |
+| Cópia literal **sem** aspas | sim | não | **Plágio** ✗ |
+| Cópia literal sem aspas e sem fonte | não | não | **Plágio** ✗ |
+| Sinônimos trocados, sintaxe do original | sim | **não** | **Plágio** ✗ (o mais comum) |
+| Reconstrução própria, fonte citada | sim | sim | **Paráfrase** ✓ |
+| Reconstrução própria, **sem** fonte | **não** | sim | **Plágio de ideia** ✗ |
+
+Note as duas linhas que surpreendem:
+
+- **Trocar sinônimos mantendo a sintaxe é plágio, mesmo citando a fonte.** Porque o texto
+  apresenta como reformulação o que é cópia.
+- **Parafrasear bem sem citar a fonte também é plágio.** Porque a **ideia** é de outro,
+  mesmo que as palavras sejam suas.
+
+O critério que unifica tudo: **plágio é apresentar como seu o que é de outro** — sejam as
+palavras, seja a ideia.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Um contraste que vale registrar, e que costuma gerar injustiça.
+
+As normas rigorosas de citação e atribuição são **convenções do domínio acadêmico** —
+historicamente recentes (consolidaram-se no século XX) e culturalmente específicas. Elas
+não são universais nem naturais.
+
+Na **cultura oral**, na **tradição popular** e em boa parte da produção cultural, a
+retomada sem atribuição é a **regra**, e não constitui falta: quem canta uma quadra
+popular, conta uma piada ou usa um provérbio não cita fonte — nem precisa. O repente, o
+cordel, o samba de roda e o meme funcionam por **recombinação coletiva**, e a autoria
+individual é secundária ou irrelevante. Shakespeare copiava enredos inteiros sem
+constrangimento, porque a convenção de seu tempo era outra.
+
+Isso **não** relativiza a exigência acadêmica: no domínio acadêmico, a atribuição é
+funcional — permite verificar, rastrear e discutir; sem ela, o conhecimento não se
+acumula. A regra faz sentido **ali**.
+
+Mas explica um fenômeno real: muitos estudantes plagiam **sem intenção de fraudar**, por
+não terem sido socializados na convenção — vêm de práticas de linguagem em que recombinar
+é normal e elogiável. O tratamento adequado disso é **ensinar a convenção**, explicando sua
+razão de ser, e não presumir má-fé [@marcuschi2008; @faraco2008]. É, mais uma vez, questão
+de **repertório de gêneros** (@sec-cap-72), não de caráter.
+:::
+
+## 📋 Quadro-resumo
+
+**Intertextualidade**: relação de um texto com outros. É **condição** de todo texto, não
+recurso opcional.
+
+| Tipo | Fonte declarada? | Formas |
+|---|---|---|
+| **Explícita** | **sim** | citação, referência, epígrafe, resumo, resenha |
+| **Implícita** | **não** | alusão, paráfrase, paródia, pastiche, provérbio |
+
+**Paráfrase × paródia:**
+
+| | **Paráfrase** | **Paródia** |
+|---|---|---|
+| *para-* significa | "ao lado de" | "contra" |
+| Sentido | **preserva** | **subverte** |
+| Forma | muda | imita |
+| Atitude | confirmatória | contestatória |
+| Exemplo | "Em meu país há coqueiros" | "Minha terra tem **palmares**" |
+
+**Método da paráfrase**: leia → **feche o texto** → escreva com suas palavras → compare.
+
+**Plágio**: apresentar como seu o que é de outro — palavras **ou** ideia. Trocar sinônimos
+mantendo a sintaxe **é plágio**, mesmo citando a fonte.
+
+Em uma linha: **nenhum texto nasce do nada**; a **paráfrase** concorda e a **paródia**
+subverte; e a fronteira do plágio não está nas palavras, mas em **quem leva o crédito**.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir paráfrase com paródia.** Paráfrase **preserva** o sentido; paródia o
+  **subverte**. O prefixo *para-* engana: significa "ao lado" numa e "contra" na outra.
+- **Parafrasear trocando sinônimos.** Se a **sintaxe** é a do original, é cópia — mesmo
+  citando a fonte. **Feche o texto** antes de escrever.
+- **Achar que citar a fonte imuniza.** Não imuniza contra a cópia **estrutural**.
+- **Achar que reescrever com palavras próprias dispensa a fonte.** A **ideia** continua
+  sendo de outro. É plágio de ideia.
+- **Achar que intertextualidade é recurso literário.** É **condição** de todo texto,
+  inclusive do e-mail que você mandou hoje.
+- **Perder a camada implícita.** Sem repertório, a alusão e a paródia se apagam — a paródia
+  de Oswald vira poema estranho.
+- **Encher o trabalho de citações.** Sugere que você empilhou fontes sem digeri-las.
+  **Parafraseie por padrão, cite por exceção.**
+- **Confundir pastiche com paródia.** O pastiche **imita o estilo** sem crítica; a paródia
+  imita **para subverter**.
+
+## ✍️ Exercícios
+
+**1.** Distinga paráfrase de paródia, explicando o critério.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Ambas retomam um texto anterior; diferem na **direção do sentido**.
+
+**Paráfrase** — **preserva** o sentido e muda a forma. É reformulação **confirmatória**:
+diz o mesmo, de outro jeito. Etimologia: *para* ("ao lado de") + *frásis* ("dizer") →
+"dizer ao lado". **Serve** ao original.
+
+**Paródia** — **subverte** o sentido, imitando a forma. É reformulação **contestatória**:
+usa o molde do original **contra** ele. Etimologia: *para* ("contra") + *ode* ("canto") →
+"canto contra". **Ataca** o original.
+
+**A fonte da confusão**: o mesmo prefixo grego *para-* tem os dois valores — "ao lado de" e
+"contra". Guarde a síntese: **paráfrase concorda, paródia discorda**.
+
+**Teste prático**: pergunte se o novo texto **serve** ao original (parafraseia) ou o **usa
+contra si mesmo** (parodia).
+:::
+
+**2.** Analise: "Minha terra tem palmares / Onde gorjeia o mar" (Oswald de Andrade), em
+relação a "Minha terra tem palmeiras / Onde canta o Sabiá" (Gonçalves Dias).
+
+::: {.callout-tip collapse="true"}
+## Solução
+É **paródia** — intertextualidade implícita que subverte o sentido mantendo a forma.
+
+**O que Oswald preserva**: a estrutura sintática ("Minha terra tem X / Onde Y"), o ritmo
+(redondilha maior), o paralelismo aqui/lá e o reconhecimento imediato do original — o poema
+mais célebre do romantismo brasileiro.
+
+**O que Oswald subverte**: a troca de **uma letra** ("palm**eir**as" → "palm**ar**es")
+substitui a **paisagem idílica** pelo **quilombo** — isto é, pela **escravidão** que o
+ufanismo romântico omitia. "Onde gorjeia o mar" desloca o verbo do sabiá para o mar,
+quebrando a naturalidade da imagem e sinalizando que algo está fora do lugar.
+
+**O efeito**: o canto de exaltação da pátria é convertido em **denúncia**. A forma é
+reverente; o sentido, demolidor. Oswald não rejeita Gonçalves Dias de fora — ocupa seu
+poema por dentro e o faz dizer o contrário.
+
+**Por que é paródia e não paráfrase**: uma paráfrase preservaria a exaltação nostálgica
+("Em meu país há coqueiros / onde o pássaro entoa seu canto"). Oswald faz o oposto: usa o
+prestígio do original **contra** o projeto ideológico que ele representava — o que é o
+programa do Modernismo de 22.
+
+**Nota sobre leitura**: quem não conhece "Canção do Exílio" lê apenas um poema estranho
+sobre palmares e mar. A camada intertextual **exige repertório** — prova de que repertório
+não é erudição decorativa, mas condição de leitura (@sec-cap-81).
+:::
+
+**3.** Avalie a paráfrase: **Original** — "A coerência não é propriedade do texto, mas
+efeito de sua interação com o leitor." **Paráfrase** — "A coerência não é característica do
+texto, porém consequência de sua interação com o leitor."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Paráfrase ruim** — na verdade, **cópia disfarçada**.
+
+**O problema**: trocaram-se apenas **três palavras** (*propriedade* → *característica*,
+*mas* → *porém*, *efeito* → *consequência*). A **estrutura sintática é idêntica**: mesma
+ordem, mesma construção "não é X, mas Y", mesmo sujeito, mesmo complemento.
+
+**Por que isso é grave**: em trabalho acadêmico, isso é **plágio** — mesmo que a fonte seja
+citada. O texto **apresenta como reformulação** o que é cópia com maquiagem. Citar a fonte
+não imuniza contra a cópia **estrutural**.
+
+**A raiz do erro**: é o mesmo vício do @sec-cap-62 — trocar por sinônimo de dicionário sem
+reconstruir. E revela algo: quem só troca palavras **não entendeu** o original. Quem
+entendeu tem o **sentido** na cabeça e pode reconstruí-lo de qualquer jeito.
+
+**Paráfrase boa:**
+
+> "Segundo Koch, um texto não **contém** coerência: ela **emerge** quando alguém o lê, e
+> depende tanto de quem lê quanto do que está escrito."
+
+Aqui a estrutura mudou de fato — dividiu-se em duas orações, inverteu-se a ordem,
+introduziu-se um agente ("alguém"), acrescentou-se a dupla dependência. O sentido
+permaneceu e a fonte foi declarada.
+
+**O método que teria evitado o erro**: **feche o texto** antes de escrever. Com o original à
+vista, é quase impossível não seguir sua sintaxe.
+:::
+
+**4.** (Estilo ENEM) A intertextualidade, para a linguística textual:
+
+a) é recurso exclusivo da literatura;
+b) é condição de todo texto, que sempre responde a outros;
+c) ocorre apenas quando a fonte é citada;
+d) equivale a plágio;
+e) é sinônimo de paráfrase.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A intertextualidade é **condição** — não recurso opcional. Todo texto
+responde a outros: cita, alude, contesta, retoma ou pressupõe, com ou sem consciência do
+autor.
+
+Mesmo uma frase aparentemente isolada ("O aquecimento global é o maior desafio do século")
+responde aos textos científicos que estabeleceram o fenômeno, aos negacionistas que o
+contestam, aos que elegeram outros desafios, e ao gênero em que se insere.
+
+As demais: **(a)** a intertextualidade opera em qualquer texto, do e-mail ao laudo; **(c)**
+confunde a categoria com apenas um de seus ramos — a **explícita**; a **implícita** (alusão,
+paródia, provérbio) não declara fonte e nem por isso deixa de ser intertextualidade;
+**(d)** o plágio é um **caso particular ilegítimo** — a intertextualidade em si é legítima e
+inevitável; **(e)** a paráfrase é apenas **uma** das formas de intertextualidade implícita.
+:::
+
+**5.** Explique por que "feche o texto" é o passo decisivo do método de paráfrase.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque é o passo que **impede a cópia estrutural** — o erro mais comum e mais difícil de
+evitar.
+
+**O mecanismo**: com o original **à vista**, você inevitavelmente segue sua sintaxe. A
+estrutura do outro fica na frente dos olhos e ocupa o lugar onde deveria estar a sua. O
+resultado é a troca de sinônimos sobre um esqueleto alheio — que é plágio.
+
+Ao **fechar o texto**, você fica apenas com o **sentido** na memória. E o sentido não tem
+sintaxe: para escrevê-lo, você é **obrigado** a construir uma estrutura própria. É
+exatamente o que a paráfrase pede.
+
+**O corolário valioso** — a paráfrase como **teste de compreensão**: se, com o texto
+fechado, você **não consegue** reescrever a ideia, então você **não a entendeu**. Só
+reconheceu as palavras.
+
+Isso faz da paráfrase uma ferramenta de estudo, e não só de escrita: ela **diagnostica** a
+compreensão. Quem entendeu pode dizer de vários jeitos; quem não entendeu só pode repetir
+de um (@sec-cap-79).
+
+**Método completo**: leia até entender → **feche o texto** → escreva com suas palavras →
+compare (sentido preservado? forma diferente?).
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Reescrever um trecho com palavras próprias
+dispensa a citação da fonte."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** É **plágio de ideia**.
+
+**O raciocínio**: a paráfrase muda as **palavras**, mas o **conteúdo** continua sendo de
+outro. Se você apresenta essa ideia sem atribuição, está reivindicando autoria de algo que
+não criou — que é a definição de plágio.
+
+**O critério unificador**: plágio é **apresentar como seu o que é de outro** — sejam as
+**palavras** (cópia), seja a **ideia** (paráfrase não atribuída). As duas linhas
+surpreendentes da tabela do capítulo:
+
+- **Trocar sinônimos mantendo a sintaxe é plágio, mesmo citando a fonte** — porque
+  apresenta como reformulação o que é cópia.
+- **Parafrasear bem sem citar a fonte também é plágio** — porque a ideia é de outro.
+
+**A forma correta**: paráfrase **com** atribuição — "Segundo Koch, a coerência emerge na
+leitura..." ou "...como demonstra Marcuschi [@marcuschi2008]".
+
+**Ressalva de contexto**: a exigência de atribuição é uma convenção do **domínio
+acadêmico** — funcional ali (permite verificar e rastrear), mas não universal. Na cultura
+oral, no cordel e no meme, recombinar sem citar é a regra e não é falta. Isso não
+relativiza a norma acadêmica, mas explica por que tantos estudantes a violam **sem
+intenção de fraudar**: é questão de repertório de gêneros (@sec-cap-72), não de caráter.
+:::
+
+**7.** Classifique as intertextualidades: (a) "Ele lavou as mãos e deixou o problema para os
+outros."; (b) uma epígrafe de Drummond abrindo um artigo; (c) um resumo de um livro.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Alusão** — intertextualidade **implícita**. "Lavar as mãos" remete a **Pôncio
+Pilatos** (Evangelho de Mateus), que lavou as mãos para se eximir da responsabilidade pela
+condenação de Cristo. A fonte **não é declarada**: o texto **conta** com o reconhecimento
+do leitor. Quem não conhece o episódio lê apenas uma referência à higiene — e a camada de
+sentido (a covardia moral de quem se exime) se perde.
+
+**(b) Epígrafe** — intertextualidade **explícita**. A citação vem **declarada** (com autor
+e, em geral, obra), na abertura do texto, e cumpre a função de **orientar a leitura**,
+antecipando o tom ou a tese. O leitor não precisa reconhecer Drummond de memória: o texto o
+identifica. (São epígrafes as citações que abrem cada capítulo deste manual.)
+
+**(c) Resumo** — intertextualidade **explícita**, e num caso extremo: o **gênero inteiro**
+existe como retomada declarada de outro texto. Não há resumo sem original, e a relação é
+sua razão de ser. É também um exercício sistemático de **paráfrase**: preserva o sentido,
+condensa e muda a forma (@sec-cap-79).
+
+**Síntese**: (a) implícita, depende do repertório; (b) e (c) explícitas, autossuficientes.
+:::
+
+**8.** Produza uma paráfrase competente de: "Os gêneros textuais são artefatos culturais
+construídos historicamente pelo ser humano" (Marcuschi).
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Aplicando o método**: ler → fechar o texto → escrever → comparar.
+
+**Paráfrase possível:**
+
+> "Para Marcuschi [@marcuschi2008], os gêneros não são categorias naturais nem universais:
+> foram **criados** pelas sociedades ao longo do tempo, em resposta a necessidades
+> concretas de comunicação — e é por isso que mudam quando as práticas sociais mudam."
+
+**Por que funciona:**
+
+1. **Estrutura totalmente diferente**: o original é uma definição em uma oração ("X são
+   Y"); a paráfrase abre com uma **negação** ("não são naturais nem universais"), depois
+   afirma, depois **explica a consequência**. Nenhum traço da sintaxe original sobreviveu.
+2. **Sentido preservado e explicitado**: "artefato cultural" foi desdobrado em "criados
+   pelas sociedades"; "construídos historicamente" em "ao longo do tempo" + a consequência
+   ("mudam quando as práticas mudam"), que estava implícita.
+3. **Fonte declarada**: "Para Marcuschi" + referência.
+
+**Contraste com a falsa paráfrase:**
+
+> "Os gêneros textuais são objetos culturais elaborados historicamente pelo homem." ✗
+
+Trocou *artefatos* → *objetos*, *construídos* → *elaborados*, *ser humano* → *homem*.
+Sintaxe idêntica. É cópia com maquiagem — plágio, ainda que a fonte fosse citada.
+
+**Nota**: a boa paráfrase frequentemente fica **mais longa** que o original, porque
+explicita o que estava condensado. Isso é sinal de compreensão, não de prolixidade — e é
+por isso que ela funciona como teste: quem entendeu pode desdobrar.
+:::
+
+**9.** (Estilo FUVEST) Discuta: "a originalidade absoluta não existe".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é verdadeira e, bem entendida, não é niilista — é libertadora.**
+
+**O argumento a favor**: todo texto é feito de outros. Você escreve numa **língua** que não
+inventou, num **gênero** que herdou (@sec-cap-72), sobre temas que outros já trataram,
+respondendo a textos que leu — e a muitos que esqueceu que leu. Bakhtin formula isso como
+**dialogismo**: todo enunciado é um elo numa cadeia de enunciados, e responde a anteriores
+enquanto antecipa réplicas. Não há primeiro texto, nem texto isolado.
+
+Até as rupturas confirmam a regra: Oswald só pôde parodiar Gonçalves Dias **porque**
+Gonçalves Dias existia; a vanguarda depende da convenção que rompe. Guimarães Rosa não
+inventou o português — **recombinou-o**, com o sertão, o arcaico e o neologismo.
+
+**O que a tese redefine, e não destrói**: ela **não** diz que criar é impossível ou que
+tudo é cópia. Diz que criar **não é** inventar do nada — operação que ninguém jamais
+realizou. Criar é **combinar, deslocar, tensionar e contestar** de modo novo. A
+originalidade não está na **origem** (todo material é herdado), mas no **arranjo**.
+
+**O risco da tese**: levada ao extremo, dissolve a **autoria** e serve de desculpa para o
+plágio ("se tudo é intertexto, copiar é legítimo"). O argumento é falacioso: reconhecer que
+todo texto usa material alheio não elimina a diferença entre **transformar** (paródia,
+paráfrase, alusão — que produzem algo novo e expõem a fonte) e **apropriar-se**
+(plágio — que esconde a fonte e reivindica o crédito). A intertextualidade é sobre o
+**material**; o plágio é sobre o **crédito**. São perguntas diferentes.
+
+**Nota histórica**: a própria noção de autoria individual é **datada** — consolidou-se com
+a imprensa, o direito autoral e o Romantismo. Shakespeare copiava enredos inteiros sem
+constrangimento algum, porque a convenção de seu tempo valorizava a **execução**, não a
+invenção do argumento. Isso relativiza a autoria como **construção histórica**, mas não
+autoriza violar a convenção vigente no domínio em que se está atuando.
+
+**Síntese**: originalidade absoluta não existe; originalidade **relativa** — o arranjo novo
+de material herdado — é a única que jamais existiu, e é suficiente.
+:::
+
+**10.** Analise a fronteira entre paráfrase legítima e plágio, com exemplos de cada
+situação.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Original de referência**: "A coerência não é propriedade do texto, mas efeito de sua
+interação com o leitor." (Koch)
+
+| Situação | Fonte? | Estrutura própria? | Veredito |
+|---|---|---|---|
+| "Koch afirma que 'a coerência não é propriedade do texto, mas efeito de sua interação com o leitor' [@koch2015texto]." | sim | — | **Citação** ✓ |
+| "A coerência não é propriedade do texto, mas efeito de sua interação com o leitor [@koch2015texto]." (sem aspas) | sim | não | **Plágio** ✗ |
+| "A coerência não é propriedade do texto, mas efeito de sua interação com o leitor." (nada) | não | não | **Plágio** ✗ |
+| "A coerência não é característica do texto, porém consequência de sua interação com o leitor [@koch2015texto]." | sim | **não** | **Plágio** ✗ |
+| "Segundo Koch [@koch2015texto], um texto não contém coerência: ela emerge quando alguém o lê." | sim | sim | **Paráfrase** ✓ |
+| "Um texto não contém coerência: ela emerge quando alguém o lê." | **não** | sim | **Plágio de ideia** ✗ |
+
+**As duas linhas que surpreendem, e que são o ponto:**
+
+1. **Linha 4** — trocar sinônimos mantendo a sintaxe é **plágio, mesmo citando a fonte**.
+   Por quê? Porque o texto **apresenta como reformulação** o que é cópia. A citação da fonte
+   cobre a **ideia**, não a **forma** copiada. Se as palavras são (quase) as do autor, elas
+   precisam de **aspas**.
+2. **Linha 6** — parafrasear bem **sem** citar é plágio de **ideia**. As palavras são suas,
+   mas o pensamento não. Você está reivindicando autoria do que não criou.
+
+**O critério que unifica tudo**: **plágio é apresentar como seu o que é de outro** — as
+palavras, a ideia, ou ambas. A pergunta não é "mudei bastante?", é "**quem leva o
+crédito?**".
+
+**Regra prática segura**: para as palavras, use **aspas**; para a ideia, use **atribuição**;
+e faça as duas coisas sempre que qualquer uma das duas não for sua.
+:::
+
+## 📚 Referências
+
+A concepção de intertextualidade como condição de todo texto — e não como recurso —, os
+tipos explícito e implícito e a articulação com os demais critérios de textualidade seguem
+Koch [@koch2015texto] e Koch [@koch2018coesao], que desenvolvem no Brasil o dialogismo de
+Bakhtin; o tratamento dos gêneros como práticas historicamente construídas, invocado a
+propósito das convenções de citação, segue Marcuschi [@marcuschi2008]. A distinção entre
+paráfrase e paródia e o tratamento estilístico das retomadas apoiam-se em Martins
+[@martins2008]. A ressalva sobre o caráter histórico e culturalmente específico das normas
+de atribuição dialoga com Faraco [@faraco2008]. Para os sete critérios de textualidade,
+veja o @sec-cap-68; para a distinção entre tipo e gênero, os @sec-cap-71 e @sec-cap-72;
+para a paráfrase como técnica de estudo e de escrita acadêmica, o @sec-cap-79; para o papel
+do repertório na leitura, o @sec-cap-81. Com este capítulo encerra-se o Volume 11; o Volume
+12 trata da produção de texto — do parágrafo à redação de concursos.
+
+::: {#refs}
 :::

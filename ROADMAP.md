@@ -75,12 +75,12 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 65 | Figuras de linguagem I: figuras de palavra e de pensamento | `capitulos/cap-65-figuras-linguagem-i.qmd` | 10 | ✅ 2026-07-15 |
 | 66 | Figuras de linguagem II: figuras de sintaxe e de som | `capitulos/cap-66-figuras-linguagem-ii.qmd` | 10 | ✅ 2026-07-15 |
 | 67 | O léxico do português: empréstimos e neologismos | `capitulos/cap-67-lexico-emprestimos-neologismos.qmd` | 10 | ✅ 2026-07-15 |
-| 68 | Texto e textualidade | `capitulos/cap-68-texto-e-textualidade.qmd` | 11 | ⬜ |
-| 69 | Coesão referencial e sequencial | `capitulos/cap-69-coesao.qmd` | 11 | ⬜ |
-| 70 | Coerência textual | `capitulos/cap-70-coerencia-textual.qmd` | 11 | ⬜ |
-| 71 | Tipologia textual: narração, descrição, dissertação, injunção, exposição | `capitulos/cap-71-tipologia-textual.qmd` | 11 | ⬜ |
-| 72 | Gêneros textuais | `capitulos/cap-72-generos-textuais.qmd` | 11 | ⬜ |
-| 73 | Intertextualidade e paráfrase | `capitulos/cap-73-intertextualidade-parafrase.qmd` | 11 | ⬜ |
+| 68 | Texto e textualidade | `capitulos/cap-68-texto-e-textualidade.qmd` | 11 | ✅ 2026-07-15 |
+| 69 | Coesão referencial e sequencial | `capitulos/cap-69-coesao.qmd` | 11 | ✅ 2026-07-15 |
+| 70 | Coerência textual | `capitulos/cap-70-coerencia-textual.qmd` | 11 | ✅ 2026-07-15 |
+| 71 | Tipologia textual: narração, descrição, dissertação, injunção, exposição | `capitulos/cap-71-tipologia-textual.qmd` | 11 | ✅ 2026-07-15 |
+| 72 | Gêneros textuais | `capitulos/cap-72-generos-textuais.qmd` | 11 | ✅ 2026-07-15 |
+| 73 | Intertextualidade e paráfrase | `capitulos/cap-73-intertextualidade-parafrase.qmd` | 11 | ✅ 2026-07-15 |
 | 74 | O parágrafo: estrutura e desenvolvimento | `capitulos/cap-74-o-paragrafo.qmd` | 12 | ⬜ |
 | 75 | Dissertação argumentativa: estrutura | `capitulos/cap-75-dissertacao-argumentativa.qmd` | 12 | ⬜ |
 | 76 | Argumentação: tipos de argumento e falácias | `capitulos/cap-76-argumentacao-falacias.qmd` | 12 | ⬜ |
