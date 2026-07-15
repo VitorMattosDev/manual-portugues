@@ -4,22 +4,657 @@ title: "Ironia, humor e implícitos"
 
 # Ironia, humor e implícitos {#sec-cap-83}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 13 — Interpretação de Textos.
+> "A ironia é o único enunciado que só funciona se o ouvinte souber que não é para
+> acreditar nele."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Este capítulo trata de um caso-limite dos implícitos: aquele em que o texto diz **o
+contrário** do que pretende — e conta que você perceba.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A ironia é um fenômeno notável, e vale pausar sobre o que ela tem de estranho. Todo o resto
+da comunicação funciona por **cooperação**: você diz o que quer dizer, e eu entendo o que
+você disse. A ironia rompe isso deliberadamente: o falante afirma X **contando** que o
+ouvinte entenda não-X. É uma aposta — e uma aposta que pode **falhar**.
+
+Quando falha, os danos são reais: a ironia não percebida vira mentira, ofensa ou
+constrangimento. É por isso que ela é o teste mais severo de leitura que existe: exige que o
+leitor perceba, **sem que ninguém avise**, que deve inverter o sentido do que leu.
+
+Este capítulo pergunta: **como** o leitor percebe? Que pistas o texto oferece? E por que o
+humor — que opera pelos mesmos mecanismos — é um dos melhores instrumentos para estudar a
+língua?
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** ironia e explicar por que ela exige contexto compartilhado;
+- **Identificar** as pistas que sinalizam a ironia num texto escrito;
+- **Distinguir** ironia, sarcasmo, humor e cinismo;
+- **Explicar** os mecanismos linguísticos do humor: quebra de expectativa e ambiguidade;
+- **Analisar** charges, tirinhas e piadas mobilizando os conceitos dos volumes anteriores;
+- **Reconhecer** por que a ironia fracassa e quais são os riscos disso.
+
+## A ironia
+
+**Ironia** é dizer o **contrário** do que se pretende, de modo que o interlocutor **recupere**
+a intenção real.
+
+> "Que **belíssimo** trabalho!" (diante de um desastre)
+> "**Adorei** ficar três horas na fila."
+> "Ele é **generosíssimo** — nunca pagou uma conta na vida."
+
+A estrutura tem três camadas:
+
+1. **O dito** — "que belíssimo trabalho";
+2. **O pretendido** — "que trabalho horrível";
+3. **A pista** — algo que permite ao ouvinte fazer a inversão.
+
+Sem a terceira camada, não há ironia: há **mentira** ou **mal-entendido**.
+
+::: {.callout-important}
+## Por que a ironia é frágil
+Ela depende inteiramente de **contexto compartilhado**. Se o ouvinte não sabe que o trabalho
+foi um desastre, "que belíssimo trabalho" é apenas um elogio — e a ironia **não aconteceu**.
+
+Note a consequência: a ironia não é uma propriedade da **frase**. É um **efeito** que só
+existe se a inversão for feita. Uma frase irônica que ninguém percebeu não é irônica: é
+falsa. É a tese do @sec-cap-68 em sua forma mais radical — o sentido não está no texto, e
+aqui a distância entre o dito e o pretendido é **máxima**.
+
+**Por que fracassa mais na escrita**: falta a **entonação**, que é a pista mais confiável na
+fala. Por isso a internet **inventou marcadores** — "/s", "kkk", emojis, itálico exagerado —
+para reconstruir artificialmente o que a voz fornecia de graça. A criação desses marcadores
+é um caso de laboratório de como um gênero novo resolve um problema técnico (@sec-cap-72).
+:::
+
+## As pistas da ironia na escrita
+
+Se a entonação não está disponível, o que sinaliza? Quatro tipos de pista:
+
+::: {#fig-ironia}
+
+```{.tikz}
+%%| filename: ironia
+%%| alt: Esquema em duas partes. À esquerda, a estrutura da ironia em três camadas: o dito, que é que belíssimo trabalho; o pretendido, que é que trabalho horrível, sendo o inverso; e a pista, que permite a inversão. Abaixo, o alerta de que sem a pista não há ironia, e sim mentira ou mal-entendido. À direita, os quatro tipos de pista disponíveis na escrita. Primeira, incompatibilidade com os fatos: o elogio contradiz a situação conhecida, sendo a pista mais forte. Segunda, exagero: superlativos e intensificadores implausíveis, como generosíssimo. Terceira, marcas gráficas: aspas de distanciamento, itálico, e na internet barra s, kkk e emojis. Quarta, contradição interna: a própria frase se desmente, como em generosíssimo, nunca pagou uma conta. Abaixo, a observação de que na fala a entonação basta e que a escrita precisou inventar substitutos.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  %% estrutura
+  \node[cx, draw=manualblue, fill=manualblue!12, text width=40mm] (d) at (-4.6,2.4)
+    {\centering\textbf{1. O DITO}\\[2pt]\raggedright
+     {\scriptsize ``Que \textbf{belíssimo} trabalho!''}};
+  \node[cx, draw=manualred, fill=manualred!12, text width=40mm] (p) at (-4.6,1.2)
+    {\centering\textbf{2. O PRETENDIDO}\\[2pt]\raggedright
+     {\scriptsize ``Que trabalho horrível'' — o \textbf{inverso}}};
+  \node[cx, draw=manualgreen, fill=manualgreen!12, text width=40mm] (t) at (-4.6,0.0)
+    {\centering\textbf{3. A PISTA}\\[2pt]\raggedright
+     {\scriptsize permite ao ouvinte fazer a \textbf{inversão}}};
+  \draw[s] (d)--(p); \draw[s] (p)--(t);
+
+  \node[rounded corners=2pt, draw=manualred, fill=manualred!6, align=center,
+        font=\scriptsize, inner sep=4pt, text width=40mm] at (-4.6,-1.4)
+    {\textbf{Sem a pista, não há ironia}:\\ há \textbf{mentira} ou mal-entendido.};
+
+  %% pistas
+  \node[font=\bfseries\small, text=manualred] at (3.4,3.2) {AS PISTAS NA ESCRITA};
+
+  \node[cx, draw=manualyellow, fill=manualyellow!12, text width=48mm] (i1) at (3.4,2.3)
+    {\textbf{1. Incompatibilidade com os fatos}\\
+     {\scriptsize o elogio contradiz a situação conhecida — \emph{a pista mais forte}}};
+  \node[cx, draw=manualyellow, fill=manualyellow!12, text width=48mm] (i2) at (3.4,1.2)
+    {\textbf{2. Exagero}\\
+     {\scriptsize superlativos implausíveis: ``generos\textbf{íssimo}''}};
+  \node[cx, draw=manualyellow, fill=manualyellow!12, text width=48mm] (i3) at (3.4,0.1)
+    {\textbf{3. Marcas gráficas}\\
+     {\scriptsize aspas de distanciamento · itálico · ``/s'' · ``kkk'' · emojis}};
+  \node[cx, draw=manualyellow, fill=manualyellow!12, text width=48mm] (i4) at (3.4,-1.0)
+    {\textbf{4. Contradição interna}\\
+     {\scriptsize ``generosíssimo — nunca pagou uma conta''}};
+
+  \node[rounded corners=2pt, draw=manualblue, fill=manualblue!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=48mm] at (3.4,-2.3)
+    {Na \textbf{fala}, a entonação basta.\\ A \textbf{escrita} teve de \emph{inventar}
+     substitutos.};
+\end{tikzpicture}
+```
+
+A estrutura da ironia e as pistas que a sinalizam na escrita. A ausência de entonação
+explica por que a ironia escrita fracassa tanto — e por que a internet inventou marcadores
+explícitos.
+:::
+
+**1. Incompatibilidade com os fatos** (a mais forte) — o enunciado contradiz o que se sabe da
+situação. "Que dia lindo!", durante um temporal.
+
+**2. Exagero** — superlativos e intensificadores implausíveis. "Ele é **generosíssimo**",
+"**adorei** ficar três horas na fila".
+
+**3. Marcas gráficas** — aspas de distanciamento ("o 'especialista' opinou"), itálico e, na
+internet, marcadores explícitos: "/s", "kkk", emojis.
+
+**4. Contradição interna** — a própria frase se desmente: "Ele é generosíssimo — nunca pagou
+uma conta na vida."
+
+## Ironia, sarcasmo, humor, cinismo
+
+Termos que a conversa cotidiana confunde e a prova distingue.
+
+| | Definição | Traço |
+|---|---|---|
+| **Ironia** | diz o contrário do pretendido | pode ser **afetuosa** ou crítica |
+| **Sarcasmo** | ironia com **intenção de ferir** | agressivo, dirigido a alguém |
+| **Humor** | provoca riso | pode ou não usar ironia |
+| **Cinismo** | descrença nos valores alheios | atitude, não figura |
+
+::: {.callout-warning}
+## Nem toda ironia é sarcasmo
+A confusão mais comum. **Sarcasmo é ironia agressiva** — dirigida a alguém, com intenção de
+ferir. Mas há ironia **afetuosa**:
+
+> (ao amigo que tropeça) "Que **elegância**!"
+
+Ninguém foi ferido: a ironia aqui cria **cumplicidade**, porque partilhar o implícito é
+partilhar um contexto. É por isso que a ironia funciona entre íntimos e fracassa entre
+estranhos — ela **pressupõe** o que se tem em comum.
+
+E nem toda ironia é humorística: a **ironia trágica** de Machado de Assis não faz rir; faz
+ver.
+:::
+
+## Os mecanismos do humor
+
+O humor opera por **quebra de expectativa** — e, quase sempre, mobilizando os fenômenos que
+este manual descreveu.
+
+### 1. Ambiguidade lexical (homonímia/polissemia)
+
+> "Ele foi ao **banco** e sentou-se no gerente."
+
+A primeira ocorrência ativa "instituição"; a segunda força "assento". O riso vem da
+**reativação** de um sentido que o leitor já havia descartado (@sec-cap-63).
+
+### 2. Ambiguidade estrutural
+
+> "Vende-se casa para senhora **de madeira**."
+
+O adjunto pode ligar-se a *casa* (correto) ou a *senhora* (absurdo) — @sec-cap-64.
+
+### 3. Quebra de pressuposto
+
+> "— Você parou de bater na sua mulher?
+> — Eu nunca bati.
+> — Ah, então **começou agora**?"
+
+O humor nasce da **recusa da recusa**: o interlocutor rejeita o pressuposto e o outro
+reinstala outro (@sec-cap-64).
+
+### 4. Quebra de máxima conversacional
+
+> "— Você sabe que horas são?
+> — **Sei.**" *(e não diz)*
+
+A resposta é literalmente correta e **viola a cooperação** — o riso vem de tratar uma
+pergunta indireta como literal.
+
+### 5. Anticlímax
+
+Uma gradação (@sec-cap-65) que despenca:
+
+> "Perdi meu emprego, minha casa, minha família — e o carregador do celular."
+
+### 6. Paronomásia e trocadilho
+
+> "Quem **casa** quer **casa**." (@sec-cap-66)
+
+::: {.callout-tip}
+## Por que a charge é um ótimo objeto de prova
+A charge (e a tirinha) concentra, em poucos quadros, quase tudo o que este manual tratou:
+
+- **conotação** e **figuras** (@sec-cap-61, @sec-cap-65);
+- **ambiguidade** e **pressuposto** (@sec-cap-64);
+- **ironia** e **implícitos** (este capítulo);
+- **intertextualidade** — quase sempre há paródia ou alusão (@sec-cap-73);
+- **multimodalidade** — texto e imagem se articulam (@sec-cap-84);
+- **repertório** — sem conhecer o fato noticiado, a charge é opaca (@sec-cap-81).
+
+Por isso ela é onipresente no ENEM: uma boa charge testa **seis competências ao mesmo
+tempo**, em dez segundos de leitura.
+:::
+
+## Quando a ironia fracassa
+
+Vale tratar disso com seriedade, porque não é um problema apenas técnico.
+
+**Os modos de fracasso:**
+
+1. **Falta de contexto compartilhado** — o leitor não sabe que o trabalho foi um desastre.
+   Resultado: lê como elogio.
+2. **Falta de entonação** (escrita) — o resultado é o mal-entendido crônico da internet.
+3. **Descontextualização** — o print circula sem o contexto. Ironias viram declarações
+   sérias, e pessoas perdem empregos por isso.
+4. **Poe's Law** — em ambientes polarizados, uma paródia de posição extrema é
+   **indistinguível** da posição real, porque a realidade já é extrema o bastante. A ironia
+   deixa de ter contra o que se destacar.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Um ponto que merece cuidado.
+
+Diante da ironia fracassada, é comum o diagnóstico: "as pessoas não sabem mais interpretar".
+O diagnóstico é **em parte injusto** e, sobretudo, **incompleto**.
+
+A ironia é o enunciado **estruturalmente mais frágil** que existe: depende de contexto
+compartilhado, de entonação (ausente na escrita) e de repertório comum. Quando esses três
+faltam — e a comunicação em rede, com público indeterminado e circulação descontextualizada,
+faz os três faltarem —, o fracasso é **previsível**, e a responsabilidade é ao menos tão
+do emissor quanto do receptor (@sec-cap-70: escrever é prever o leitor).
+
+Além disso, a ironia é **socialmente seletiva**: ela pressupõe repertório partilhado, e
+partilhar repertório é uma condição de classe, geração e grupo. A ironia que funciona entre
+íntimos falha entre estranhos — não por incompetência de ninguém, mas porque falta o comum
+que ela exige.
+
+Vale registrar também o uso **defensivo** do rótulo: "era ironia" tornou-se um recurso para
+recuar de declarações mal recebidas. Aqui a ferramenta deste volume é útil: uma ironia
+**genuína** tem **pistas** identificáveis no texto (@sec-cap-82). Quem alega ironia
+retroativamente, sem pista alguma, está **cancelando** um subentendido — o que só funciona se
+ele era, de fato, cancelável [@marcuschi2008; @koch2015texto].
+:::
+
+## 📋 Quadro-resumo
+
+**Ironia** = dizer o **contrário** do pretendido, com **pista** que permita a inversão.
+
+**As três camadas**: o **dito** · o **pretendido** (inverso) · a **pista**. Sem a terceira,
+não há ironia — há mentira.
+
+**As quatro pistas na escrita**: incompatibilidade com os fatos (a mais forte) · exagero ·
+marcas gráficas (aspas, itálico, "/s") · contradição interna.
+
+**Distinções:**
+
+| | Definição |
+|---|---|
+| **Ironia** | contrário do pretendido; pode ser **afetuosa** |
+| **Sarcasmo** | ironia com **intenção de ferir** |
+| **Humor** | provoca riso; pode não usar ironia |
+| **Cinismo** | descrença; atitude, não figura |
+
+**Mecanismos do humor**: ambiguidade lexical · ambiguidade estrutural · quebra de
+pressuposto · quebra de máxima conversacional · anticlímax · paronomásia.
+
+**Por que fracassa**: falta de contexto · ausência de entonação · descontextualização · Poe's
+Law.
+
+Em uma linha: a ironia **não é propriedade da frase** — é um **efeito** que só existe se a
+inversão for feita; e ela é o enunciado mais frágil da língua, porque exige o **comum**.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir ironia com sarcasmo.** Sarcasmo é ironia **agressiva**. Há ironia afetuosa —
+  "que elegância!" ao amigo que tropeça.
+- **Achar que toda ironia faz rir.** A **ironia trágica** de Machado não faz rir: faz ver.
+- **Achar que a ironia está na frase.** Está no **efeito**. Ironia não percebida não é
+  ironia — é mentira.
+- **Ignorar as pistas.** A ironia escrita **tem** marcas: exagero, incompatibilidade, aspas,
+  contradição interna. Procure-as.
+- **Culpar só o leitor pelo fracasso.** Escrever é **prever o leitor** (@sec-cap-70). Ironia
+  sem pista é falha do emissor.
+- **Alegar ironia retroativamente.** Ironia genuína tem pista **no texto**. Sem pista, é
+  cancelamento de subentendido (@sec-cap-82).
+- **Ler charge sem repertório.** Sem o fato noticiado, a charge é opaca — e o problema é de
+  **acesso**, não de capacidade (@sec-cap-81).
+
+## ✍️ Exercícios
+
+**1.** Explique as três camadas da ironia em "Que dia lindo!", dito durante um temporal.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**1. O dito**: "Que dia lindo!" — literalmente, um elogio ao tempo.
+
+**2. O pretendido**: "Que dia horrível" — o **inverso** exato do dito.
+
+**3. A pista**: a **incompatibilidade com os fatos** — está caindo um temporal, e o ouvinte
+sabe disso. É a pista mais forte que existe, porque o enunciado literal seria **falso** de
+modo evidente para ambos.
+
+**O mecanismo**: diante de um enunciado que não pode ser literalmente verdadeiro (e cuja
+falsidade o falante obviamente conhece), o ouvinte **descarta** a leitura literal e busca
+outra. A inversão é a hipótese mais econômica.
+
+**O ponto crucial**: se o ouvinte **não soubesse** do temporal — se estivesse num porão sem
+janelas, digamos — a frase seria apenas um comentário sobre o tempo, e **a ironia não teria
+acontecido**. Ela existiria na intenção do falante e não no mundo.
+
+Isso confirma a tese: a ironia **não é propriedade da frase** — é um **efeito** que só se
+realiza se a inversão for feita. Uma ironia não percebida não é uma ironia mal-sucedida; é
+uma **mentira**, do ponto de vista de quem ouviu.
+:::
+
+**2.** Distinga ironia de sarcasmo, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Ironia** — dizer o contrário do pretendido. É o **mecanismo**, e pode ter qualquer carga
+afetiva.
+
+**Sarcasmo** — ironia com **intenção de ferir**. É um **subtipo**: toda ironia sarcástica é
+irônica; nem toda ironia é sarcástica.
+
+**Exemplos:**
+
+- **Ironia afetuosa** — (ao amigo que tropeça) "Que **elegância**!"
+  Ninguém foi ferido. A ironia aqui cria **cumplicidade**: partilhar o implícito é partilhar
+  um contexto, e isso aproxima.
+- **Ironia crítica sem agressão pessoal** — "O Brasil, esse país que **resolveu** a
+  desigualdade."
+  Critica um estado de coisas, não uma pessoa.
+- **Sarcasmo** — (ao colega que errou publicamente) "Parabéns, **gênio**. Brilhante como
+  sempre."
+  Dirigido a alguém, com intenção de humilhar.
+
+**A relação**: sarcasmo ⊂ ironia. A diferença não está no **mecanismo** (ambos invertem),
+mas na **intenção** e no **alvo**.
+
+**Duas notas adicionais**:
+
+1. **Nem toda ironia faz rir**. A **ironia trágica** de Machado de Assis não é cômica: é
+   lucidez amarga. Em *Memórias Póstumas*, "não tive filhos, não transmiti a nenhuma criatura
+   o legado da nossa miséria" é irônico e devastador.
+2. **Nem todo humor é irônico**: um trocadilho ou um anticlímax fazem rir sem inverter
+   sentido algum.
+:::
+
+**3.** Identifique o mecanismo do humor: "Ele foi ao banco e sentou-se no gerente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Mecanismo: ambiguidade lexical por homonímia perfeita** (@sec-cap-63), explorada como
+**quebra de expectativa**.
+
+**Como funciona, passo a passo:**
+
+1. "**Foi ao banco**" ativa, pelo contexto, o sentido de **instituição financeira**. O
+   leitor **descarta** automaticamente o sentido de "assento" — nem chega a considerá-lo.
+2. "**Sentou-se no gerente**" força **retroativamente** o outro sentido, criando a imagem
+   absurda de alguém sentado sobre uma pessoa.
+3. O riso nasce da **reativação** de um sentido que já havia sido eliminado — o leitor
+   precisa voltar atrás e reprocessar.
+
+**O ponto teórico**: o humor explora exatamente o mecanismo que normalmente **impede** a
+ambiguidade. O contexto seleciona um sentido e descarta os outros de modo tão eficiente que
+nem percebemos a duplicidade (@sec-cap-63). A piada **usa** essa eficiência contra o leitor:
+ela o faz descartar com confiança e depois demonstra que ele descartou errado.
+
+**Por que a ordem importa**: se a frase fosse "Ele sentou-se no gerente do banco", não haveria
+piada — a estrutura precisa **estabelecer** a expectativa antes de quebrá-la. O humor é um
+fenômeno **sequencial**.
+
+**Nota**: *banco* (assento) e *banco* (instituição) são tratados como homônimos perfeitos
+pelas gramáticas escolares, embora haja um elo etimológico real — os cambistas medievais
+operavam sobre bancos (@sec-cap-63).
+:::
+
+**4.** (Estilo ENEM) A ironia, para ser bem-sucedida, depende:
+
+a) apenas da entonação do falante;
+b) de contexto compartilhado que permita ao interlocutor recuperar a intenção;
+c) da intenção de ferir o interlocutor;
+d) do uso de superlativos;
+e) exclusivamente de marcas gráficas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** A ironia depende de **contexto compartilhado**: sem que o interlocutor
+saiba o suficiente para perceber a incompatibilidade entre o dito e a situação, a inversão
+não acontece — e a ironia não existe.
+
+As demais:
+
+- **(a)** a entonação é **uma** pista, e a mais confiável **na fala** — mas a ironia escrita
+  funciona sem ela, com outras pistas (incompatibilidade, exagero, aspas, contradição
+  interna).
+- **(c)** confunde ironia com **sarcasmo**. Há ironia **afetuosa** ("que elegância!" ao
+  amigo que tropeça), que não fere ninguém.
+- **(d)** o exagero é **uma** pista possível, não uma condição.
+- **(e)** as marcas gráficas ("/s", aspas, itálico) são **substitutos** inventados para
+  compensar a ausência de entonação — úteis, mas nem necessários nem suficientes.
+
+**O que a questão testa**: perceber que a ironia é um fenômeno **pragmático**, não formal.
+Nenhuma propriedade da frase a garante — o que a garante é a **relação** entre a frase, a
+situação e o repertório partilhado. É a tese do @sec-cap-68 na sua forma mais extrema: aqui,
+a distância entre o dito e o pretendido é máxima, e é o leitor quem a percorre.
+:::
+
+**5.** Explique por que a ironia fracassa mais na escrita.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Porque falta a entonação** — a pista mais confiável e mais automática que a fala oferece.
+
+**Na fala**, o falante dispõe de recursos que sinalizam a inversão sem custo algum: a
+entonação arrastada, a ênfase exagerada, a pausa, o olhar, o sorriso. O ouvinte não precisa
+raciocinar: **ouve** que aquilo é irônico.
+
+**Na escrita**, nada disso existe. Restam apenas pistas que exigem **inferência ativa**:
+incompatibilidade com os fatos, exagero, contradição interna, marcas gráficas. Todas são
+mais frágeis — e todas dependem de o leitor ter o contexto.
+
+**Agravantes específicos da comunicação escrita em rede:**
+
+1. **Público indeterminado** — na conversa, você sabe quem ouve e ajusta. Num post, escreve
+   para milhares de desconhecidos, com repertórios que você não pode prever (@sec-cap-70:
+   escrever é prever o leitor — e aqui a previsão é impossível).
+2. **Descontextualização** — o print circula sem o entorno. A ironia dependia do contexto, e
+   o contexto ficou para trás.
+3. **Poe's Law** — em ambientes polarizados, a paródia de uma posição extrema torna-se
+   **indistinguível** da posição real, porque a realidade já é extrema o bastante. A ironia
+   perde o pano de fundo contra o qual se destacaria.
+
+**A resposta que a escrita encontrou**: **inventar marcadores** — "/s", "kkk", "rs", emojis,
+itálico exagerado, aspas de distanciamento. É um caso de laboratório de adaptação de gênero
+(@sec-cap-72): surgiu uma condição nova (ironia escrita, público amplo), e a prática criou
+uma solução técnica para o problema que a voz resolvia de graça.
+
+**A implicação**: a ironia escrita mal-sucedida não é necessariamente falha do leitor. É,
+frequentemente, **falha de previsão do emissor** — que usou uma ferramenta frágil sem
+fornecer as pistas que ela exige.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Toda ironia é sarcasmo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** O **sarcasmo é um subtipo** da ironia — aquele que tem **intenção de ferir**.
+Toda ironia sarcástica é irônica, mas **nem toda ironia é sarcástica**.
+
+**Contraexemplos:**
+
+1. **Ironia afetuosa** — (ao amigo que tropeça) "Que **elegância**!" Não há intenção de
+   ferir; ao contrário, a ironia cria **cumplicidade**. Partilhar o implícito é partilhar um
+   contexto — é isso que a torna íntima.
+2. **Ironia crítica sem alvo pessoal** — "O Brasil, esse país que **resolveu** a
+   desigualdade." Critica um estado de coisas, não humilha ninguém.
+3. **Ironia trágica** — em Machado de Assis, "não tive filhos, não transmiti a nenhuma
+   criatura o legado da nossa miséria". Não fere e não faz rir: **faz ver**.
+4. **Ironia socrática** — fingir ignorância para expor a fragilidade do argumento alheio. É
+   método, não agressão.
+
+**A relação correta**: sarcasmo ⊂ ironia. O que os distingue **não é o mecanismo** (ambos
+invertem o sentido), mas a **intenção** e o **alvo**.
+
+**Por que a confusão é comum**: no uso cotidiano, "ironia" e "sarcasmo" viraram sinônimos —
+provavelmente porque a ironia agressiva é a mais **visível**. Mas a distinção é padrão nas
+gramáticas e nas provas.
+:::
+
+**7.** Analise o mecanismo: "— Você sabe que horas são? — Sei."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Mecanismo: quebra de máxima conversacional** — tratar uma **pergunta indireta** como
+**literal**.
+
+**Como funciona:**
+
+1. "Você sabe que horas são?" é, **formalmente**, uma pergunta sobre o **conhecimento** do
+   interlocutor — admite "sim" ou "não".
+2. Mas, na prática, é um **pedido indireto**: "diga-me as horas". Todos os falantes
+   reconhecem isso automaticamente, pelo **princípio de cooperação** (@sec-cap-68) — ninguém
+   pergunta se você sabe as horas por curiosidade epistemológica.
+3. A resposta "**Sei**" é **literalmente correta** e **conversacionalmente absurda**:
+   responde à forma e ignora a função.
+
+**O riso vem de**: a exposição repentina de uma convenção **invisível**. Ninguém nota que
+"você sabe que horas são?" é um pedido — até que alguém finja não notar. A piada torna
+visível o **acordo tácito** que sustenta toda conversa.
+
+**O parentesco com a ironia**: ambas exploram a distância entre o **dito** e o
+**pretendido**. A ironia inverte o sentido; esta piada **congela** o sentido literal quando
+todos esperavam o pragmático. As duas dependem de o interlocutor conhecer a convenção — quem
+não a conhecesse não veria graça alguma.
+
+**Outros exemplos do mesmo mecanismo**: "— Pode me passar o sal? — Posso." / "— Tem horas? —
+Tenho." / (placa: "Não pise na grama") "— Eu pulei."
+:::
+
+**8.** Explique por que a charge é um objeto de prova tão produtivo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque ela **concentra, em poucos quadros, quase tudo** o que se estuda em língua portuguesa
+— e testa várias competências ao mesmo tempo, em dez segundos de leitura.
+
+**O que uma charge tipicamente mobiliza:**
+
+| Fenômeno | Onde aparece |
+|---|---|
+| **Conotação** e **figuras** | metáforas visuais, personificação (@sec-cap-61, @sec-cap-65) |
+| **Ambiguidade** e **pressuposto** | o texto diz menos do que sugere (@sec-cap-64) |
+| **Ironia** e implícitos | quase sempre presente (este capítulo) |
+| **Intertextualidade** | paródia de obra, alusão a fato ou frase célebre (@sec-cap-73) |
+| **Multimodalidade** | texto e imagem se **articulam**, não se repetem (@sec-cap-84) |
+| **Repertório** | sem o fato noticiado, a charge é **opaca** (@sec-cap-81) |
+| **Gênero** | função crítica, suporte jornalístico, convenções próprias (@sec-cap-72) |
+
+**Por que é eficiente como item de avaliação**: uma boa charge testa **seis ou sete
+competências simultaneamente**, com um estímulo curto — o que é ideal numa prova com tempo
+limitado. Não por acaso, é onipresente no ENEM.
+
+**A ressalva importante**: justamente por depender tanto de **repertório**, a charge é um
+item socialmente **seletivo**. Quem não acompanhou a notícia da semana não tem como
+interpretá-la — e o que a prova mede, nesse caso, não é capacidade de leitura, mas **acesso à
+informação** (@sec-cap-81). A boa questão fornece o contexto necessário; a ruim pressupõe que
+todos leem jornal.
+:::
+
+**9.** (Estilo FUVEST) Discuta: "a ironia é socialmente seletiva".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é verdadeira, e a razão é estrutural — não acidental.**
+
+**Por que a ironia é seletiva:**
+
+1. **Ela pressupõe o comum.** A ironia só funciona se o interlocutor **partilhar** o contexto
+   necessário para fazer a inversão. "Que belíssimo trabalho" exige saber que o trabalho foi
+   um desastre. Sem o comum, não há ironia — há elogio.
+2. **O comum é distribuído desigualmente.** Repertório cultural, referências geracionais,
+   conhecimento de fatos, familiaridade com um gênero — tudo isso depende de exposição, e a
+   exposição depende de classe, escolaridade, geração e grupo (@sec-cap-81).
+3. **Logo, a ironia inclui e exclui.** Quem capta pertence; quem não capta fica de fora — e
+   frequentemente **sem saber** que ficou, o que é o mais eficiente dos mecanismos de
+   exclusão.
+
+**A dimensão social explícita**: a ironia é uma **senha**. Ela funciona entre íntimos porque
+íntimos partilham contexto; falha entre estranhos pelo mesmo motivo. Isso a torna um marcador
+de **pertencimento a um grupo** — e explica por que a ironia é tão valorizada em certos meios
+(a crônica, o jornalismo cultural, o Twitter de nicho): dominá-la sinaliza que se está
+dentro.
+
+**O paralelo com o juridiquês** (@sec-cap-78) é instrutivo, e é o ponto mais interessante da
+discussão: ambos operam por **opacidade seletiva** — quem tem a chave entra, quem não tem
+fica de fora. Mas há uma diferença moral relevante: o juridiquês é opaco onde a **clareza é
+obrigatória** (o Estado deve ser entendido pelo cidadão); a ironia é opaca em gêneros que a
+**autorizam**. A crônica pode ser irônica; a bula, não.
+
+**A parte injusta do diagnóstico corrente**: dizer que "as pessoas não sabem mais
+interpretar ironia" é, em parte, culpar o receptor por uma falha **estrutural** do emissor.
+A ironia é o enunciado **mais frágil** da língua — depende de contexto, entonação e
+repertório comum. Quando a comunicação em rede faz os três faltarem (público indeterminado,
+escrita sem voz, circulação descontextualizada), o fracasso é **previsível**. E escrever é
+prever o leitor (@sec-cap-70).
+
+**A conclusão defensável**: a ironia é legítima e valiosa — mas quem a usa assume o risco de
+não ser compreendido, e esse risco é **maior** quanto menos comum houver. Usá-la com público
+amplo e desconhecido, sem pistas, não é sofisticação: é erro de cálculo.
+:::
+
+**10.** Analise uma charge ou tirinha, identificando todos os mecanismos em jogo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível — charge descrita (o exercício admite qualquer charge; o valor está no
+método):
+
+> **Quadro único**: um político de terno, sorridente, corta uma fita inaugural diante de um
+> hospital. A placa diz "**HOSPITAL MUNICIPAL — INAUGURADO EM 2019, 2021, 2023 e 2025**".
+> Ao fundo, o prédio tem tapumes e mato alto. Legenda: "**Mais uma entrega para a
+> população!**"
+
+**Mecanismos identificados:**
+
+1. **Ironia** — "Mais uma **entrega** para a população" diz o contrário do pretendido. A
+   **pista** é a incompatibilidade com os fatos representados: nada foi entregue, o prédio
+   está em obras. É a pista mais forte (incompatibilidade), reforçada por (4).
+
+2. **Pressuposto** — "**Mais uma**" pressupõe que houve entregas anteriores; a placa
+   pressupõe que houve inaugurações anteriores. O gatilho *mais uma* opera como os aspectuais
+   do @sec-cap-64.
+
+3. **Humor por acumulação e anticlímax** — as quatro datas na placa constroem uma gradação
+   absurda (@sec-cap-65). A repetição da inauguração **é** a piada.
+
+4. **Contradição interna** — o texto ("entrega") e a imagem (tapumes, mato) se **contradizem**
+   deliberadamente. Esta é a articulação **multimodal**: texto e imagem não se repetem —
+   **brigam**, e a briga produz o sentido (@sec-cap-84).
+
+5. **Intertextualidade** — o gesto de cortar a fita é um **script** cultural reconhecível; a
+   charge o cita para subvertê-lo (@sec-cap-73). Alude também ao gênero "cobertura
+   jornalística de inauguração".
+
+6. **Metonímia** — o político representa a classe política; a fita representa o ritual
+   inteiro (@sec-cap-65).
+
+7. **Repertório exigido** — o leitor precisa conhecer a prática de reinaugurar obras
+   inacabadas em anos eleitorais. Sem isso, a charge é apenas estranha (@sec-cap-81).
+
+**A crítica construída**: a charge **não afirma** que o político é desonesto — nunca diz
+isso. Ela **mostra** e deixa o leitor concluir (@sec-cap-82: inferência autorizada, pois há
+pistas abundantes). É por isso que a charge é eficaz e juridicamente mais segura que um
+editorial: o implícito não pode ser processado.
+
+**Verificação do método**: note que **sete** conceitos de cinco capítulos diferentes foram
+mobilizados por uma imagem de dez segundos. É exatamente isso que torna a charge um objeto de
+prova tão produtivo.
+:::
+
+## 📚 Referências
+
+O tratamento da ironia e dos implícitos como fenômenos **pragmáticos**, dependentes do
+contexto e do princípio de cooperação, segue Koch [@koch2015texto] e Marcuschi
+[@marcuschi2008]; a ironia como figura de pensamento e os mecanismos estilísticos do humor
+apoiam-se em Martins [@martins2008] e nos @sec-cap-65 e @sec-cap-66. Para a distinção entre
+pressuposto, subentendido e inferência, mobilizada na análise da ironia, veja o @sec-cap-82;
+para os implícitos em sua dimensão semântica, o @sec-cap-64; para a ambiguidade lexical que
+sustenta o trocadilho, o @sec-cap-63; para a intertextualidade da paródia, o @sec-cap-73;
+para o papel do repertório e a seletividade social da leitura, o @sec-cap-81, com Bagno
+[@bagno2011] e Faraco [@faraco2008]. O próximo capítulo desenvolve a **multimodalidade** —
+a articulação entre texto e imagem que a charge exemplifica.
+
+::: {#refs}
 :::
