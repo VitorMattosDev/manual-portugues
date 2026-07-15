@@ -4,22 +4,418 @@ title: "Significado: denotação e conotação"
 
 # Significado: denotação e conotação {#sec-cap-61}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 10 — Semântica e Léxico.
+> "As palavras não têm sentido; são as pessoas que têm sentido para as palavras."
+> — atribuído a I. A. Richards
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Abrimos aqui o Volume 10, dedicado ao **significado**. Depois de percorrer os sons
+(Volume 2), as letras (Volume 3), a estrutura das palavras (Volume 4), as classes (Volume
+5), a sintaxe (Volumes 6 e 7), a norma (Volume 8) e a pontuação (Volume 9), chegamos
+àquilo que motiva toda a máquina: as línguas existem para **significar**.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+E o significado, ao contrário do que a intuição sugere, não é uma etiqueta colada na
+palavra. Considere a palavra *cobra*. Em "A cobra picou o menino", ela designa um réptil.
+Em "Aquele advogado é uma cobra", não há réptil algum — há competência, astúcia, talvez
+perigo. A palavra é a mesma; o sentido, não. Este capítulo trata exatamente dessa
+diferença, que a tradição nomeia com dois termos: **denotação** e **conotação**.
+
+Você verá, porém, que a oposição entre as duas é menos uma parede do que uma **escala** —
+e que o que decide de que lado uma palavra cai não é a palavra, mas o **contexto**.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** denotação e conotação e distingui-las com precisão;
+- **Identificar** o emprego denotativo ou conotativo em textos autênticos;
+- **Explicar** por que o contexto, e não a palavra isolada, determina o sentido;
+- **Reconhecer** a conotação como fenômeno gradual, e não como categoria estanque;
+- **Relacionar** os dois empregos aos gêneros textuais em que predominam;
+- **Analisar** os efeitos de sentido produzidos pela escolha conotativa.
+
+## O significado não está na palavra
+
+Retome o **signo linguístico** do @sec-cap-01: a união de um **significante** (a imagem
+acústica, /ˈkɔbɾɐ/) e um **significado** (o conceito). A tentação é imaginar que a cada
+significante corresponde um significado fixo, arquivado no dicionário, e que usar bem a
+língua é recuperar essa etiqueta.
+
+Não é assim que funciona. O dicionário registra o significado **estabilizado pelo uso**
+— um ponto de partida, não um limite. Quando dizemos "aquele advogado é uma cobra", não
+consultamos nenhuma etiqueta: acionamos uma **associação cultural** (a cobra como animal
+astuto, silencioso, perigoso) e a projetamos sobre uma pessoa. O sentido emerge do
+encontro entre a palavra e a situação.
+
+É essa dupla possibilidade que os termos *denotação* e *conotação* nomeiam.
+
+## Denotação: o sentido de dicionário
+
+A **denotação** é o emprego da palavra em seu sentido **literal**, **objetivo**,
+**referencial** — aquele que o dicionário registra e sobre o qual os falantes da
+comunidade concordam com facilidade.
+
+- "A **cobra** picou o menino." (réptil)
+- "O **pé** dele está machucado." (parte do corpo)
+- "A **temperatura** caiu para 15 graus." (grandeza física)
+
+Características do emprego denotativo:
+
+- **Referencial**: aponta para um objeto ou estado do mundo.
+- **Estável**: varia pouco de falante para falante.
+- **Monossêmico no contexto**: tende a admitir uma leitura só.
+- **Verificável**: em geral, pode ser confrontado com os fatos.
+
+É o emprego dominante nos gêneros que precisam de **precisão**: o texto científico, o
+laudo, a bula, o relatório técnico, o edital. Não por acaso, são gêneros em que a
+ambiguidade é um defeito.
+
+## Conotação: o sentido que se agrega
+
+A **conotação** é o emprego da palavra em sentido **figurado**, **subjetivo**,
+**associativo** — o significado que se **acrescenta** ao literal por associação cultural,
+afetiva ou contextual.
+
+- "Aquele advogado é uma **cobra**." (astuto, perigoso)
+- "Ela é o **pé** do negócio." (base, sustentação)
+- "A conversa entre eles estava **fria**." (distante, sem afeto)
+
+Características do emprego conotativo:
+
+- **Associativo**: mobiliza valores que a cultura atribui ao referente.
+- **Contextual**: depende da situação para ser recuperado.
+- **Plurissignificativo**: admite mais de uma leitura, e isso pode ser proposital.
+- **Afetivo/avaliativo**: costuma carregar juízo de valor.
+
+Predomina nos gêneros que buscam **efeito**: a poesia, a canção, a publicidade, a crônica,
+o discurso político.
+
+::: {.callout-important}
+## A conotação não é "erro" nem "enfeite"
+Um equívoco comum trata a conotação como um desvio decorativo do sentido "verdadeiro". Não
+é. A conotação é um **recurso central** do funcionamento da língua — e, na maior parte da
+comunicação cotidiana, é a regra, não a exceção. Quando você diz "estou morrendo de fome",
+"esse preço é um assalto" ou "ele perdeu a cabeça", está conotando, sem nenhuma intenção
+literária. A linguagem figurada é ordinária, não extraordinária.
+:::
+
+## Um contínuo, não uma parede
+
+A @fig-denotacao-conotacao apresenta a relação entre os dois empregos como o que ela de
+fato é: uma **escala**.
+
+::: {#fig-denotacao-conotacao}
+
+```{.tikz}
+%%| filename: denotacao-conotacao
+%%| alt: Escala horizontal da denotação à conotação. No extremo esquerdo, polo denotativo, sentido literal, referencial e estável, com gêneros como laudo, bula e artigo científico. No centro, zona intermediária de metáforas já lexicalizadas, como pé da mesa e braço do rio, que são figuradas na origem mas dicionarizadas pelo uso. No extremo direito, polo conotativo, sentido figurado, associativo e afetivo, com gêneros como poesia, publicidade e crônica. Abaixo, a indicação de que o contexto é o que determina a posição na escala.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  polo/.style={rounded corners=3pt, draw, align=center, inner sep=5pt, text width=34mm},
+]
+  \draw[{Stealth[length=5pt]}-{Stealth[length=5pt]}, very thick, draw=manualgray] (-5.4,0) -- (5.4,0);
+
+  \node[polo, draw=manualblue, fill=manualblue!8, anchor=north] (d) at (-3.8,-0.5)
+    {\textbf{DENOTAÇÃO}\\{\scriptsize literal · referencial · estável}\\[3pt]
+     ``A \textbf{cobra} picou.''\\[2pt]{\scriptsize laudo · bula · artigo}};
+
+  \node[polo, draw=manualgray, fill=manualgray!8, anchor=north, text width=38mm] (m) at (0,-0.5)
+    {\textbf{zona intermediária}\\{\scriptsize metáforas lexicalizadas}\\[3pt]
+     ``o \textbf{pé} da mesa''\\[2pt]{\scriptsize figuradas na origem,\\ dicionarizadas pelo uso}};
+
+  \node[polo, draw=manualred, fill=manualred!8, anchor=north] (c) at (3.8,-0.5)
+    {\textbf{CONOTAÇÃO}\\{\scriptsize figurado · associativo · afetivo}\\[3pt]
+     ``Ele é uma \textbf{cobra}.''\\[2pt]{\scriptsize poesia · publicidade · crônica}};
+
+  \node[anchor=south, font=\scriptsize\itshape, text=manualgray] at (0,0.15)
+    {a mesma palavra percorre a escala};
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, anchor=north,
+        text width=76mm, align=center, font=\scriptsize, inner sep=4pt] at (0,-3.6)
+    {\textbf{O contexto} — não a palavra isolada — \textbf{determina a posição na escala.}};
+\end{tikzpicture}
+```
+
+Denotação e conotação como polos de um **contínuo**. Entre eles está a vasta zona das
+metáforas já lexicalizadas, que revelam a conotação de ontem convertida em denotação de
+hoje.
+:::
+
+A zona intermediária é a mais instrutiva. Expressões como **pé da mesa**, **braço do
+rio**, **boca do túnel** ou **perna da calça** foram, um dia, metáforas vivas: alguém
+projetou o corpo humano sobre um objeto. Hoje estão dicionarizadas — são o modo **normal**
+de nomear essas partes, e nenhum falante percebe figura alguma. A conotação, repetida o
+bastante, **vira** denotação.
+
+Isso mostra que a distinção não classifica **palavras**, mas **usos** — e que a fronteira
+se desloca ao longo da história da língua.
+
+## O contexto é quem decide
+
+Daqui decorre a consequência prática mais importante do capítulo, e a que as bancas
+cobram: **nenhuma palavra é, em si, denotativa ou conotativa**. Observe:
+
+| Frase | Emprego |
+|---|---|
+| "O **gelo** derreteu no copo." | denotativo (água sólida) |
+| "Ela me tratou com **gelo**." | conotativo (frieza, indiferença) |
+| "Ele quebrou o **braço**." | denotativo (membro) |
+| "Ele é o **braço** direito do chefe." | conotativo (auxiliar) |
+
+A palavra *gelo* não "é" conotativa. Ela é **empregada** conotativamente na segunda frase.
+Perguntar "esta palavra é denotativa ou conotativa?" fora de contexto é uma pergunta
+malformada — e, quando aparece em prova, o que se pede é sempre o emprego **naquele**
+contexto.
+
+::: {.callout-tip}
+## Teste prático
+Pergunte-se: **o referente literal está em jogo?**
+
+Em "ela me tratou com gelo", há água congelada na cena? Não. Logo, o sentido é
+**conotativo**. Em "o gelo derreteu no copo", há. Logo, **denotativo**.
+
+Cuidado com o falso atalho "se é metáfora, é conotação": a metáfora lexicalizada ("pé da
+mesa") é figurada na origem, mas o referente literal *está* em jogo — é assim que se chama
+aquela parte do móvel, sem nenhum efeito de sentido.
+:::
+
+## Denotação, conotação e gêneros
+
+A escolha entre os dois empregos não é livre: ela é **regulada pelo gênero** (@sec-cap-72,
+no Volume 11).
+
+- **Científico/técnico** — denotação obrigatória. Uma bula que dissesse "tome este remédio
+  e voe" seria um perigo. O gênero exige monossemia.
+- **Jornalístico** — predominantemente denotativo no lide e na notícia; conotativo no
+  título, na crônica e no editorial, onde há avaliação. Compare "Prefeito é acusado de
+  desvio" (notícia) com "Prefeito mete a mão no caixa" (título de opinião).
+- **Publicitário** — conotação estratégica. "Este carro é um **tanque**" vende segurança
+  sem afirmar nada verificável — e, por isso mesmo, sem poder ser processado por
+  propaganda enganosa. A conotação protege o anunciante.
+- **Literário** — conotação como matéria-prima. Em "Meu coração é um balde despejado"
+  (Álvaro de Campos), não há balde; há um estado de espírito construído pela imagem.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Aqui não há disputa entre norma e uso: denotação e conotação não são níveis de correção,
+e nenhuma gramática "proíbe" conotar. O que existe é **adequação ao gênero**. Um mesmo
+falante, culto, escreve um laudo estritamente denotativo pela manhã e manda uma mensagem
+cheia de hipérboles à tarde ("tô morrendo de sono") — e acerta nas duas vezes. Julgar a
+conotação cotidiana como "imprecisão" é confundir registro com erro, do mesmo modo que se
+faz com a variação (@sec-cap-03).
+:::
+
+## 📋 Quadro-resumo
+
+| | **Denotação** | **Conotação** |
+|---|---|---|
+| **Sentido** | literal, próprio | figurado, associativo |
+| **Referência** | objetiva, ao mundo | subjetiva, a valores |
+| **Estabilidade** | dicionarizada | contextual |
+| **Leituras** | tende à monossemia | plurissignificativa |
+| **Carga** | neutra | afetiva/avaliativa |
+| **Gêneros típicos** | laudo, bula, artigo | poesia, publicidade, crônica |
+| **Exemplo** | "A cobra picou." | "Ele é uma cobra." |
+
+Em uma linha: **denotação é o sentido que o dicionário registra; conotação é o sentido que
+o contexto agrega** — e é o **contexto**, nunca a palavra isolada, que decide qual dos
+dois está em jogo.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **"Esta palavra é conotativa."** Não existe palavra conotativa fora de contexto. Existe
+  **emprego** conotativo. A questão sempre pergunta pelo uso naquela frase.
+- **Confundir conotação com mentira ou imprecisão.** "Ele é uma cobra" não é falso; é
+  figurado. Só seria falso se se pretendesse literal.
+- **Achar que conotação só existe na literatura.** A maior parte da conotação é cotidiana
+  e banal: "morrendo de fome", "um assalto", "perdeu a cabeça".
+- **Tratar metáfora lexicalizada como conotação viva.** "Pé da mesa" é hoje o nome
+  denotativo da peça. A figura morreu de tanto ser usada.
+- **Supor que denotação é "melhor" ou mais culta.** Cada uma é adequada a seu gênero. Um
+  poema todo denotativo fracassa tanto quanto uma bula toda conotativa.
+- **Esquecer que a fronteira se move.** O que hoje é conotativo pode dicionarizar-se
+  amanhã. A distinção é sincrônica.
+
+## ✍️ Exercícios
+
+**1.** Classifique o emprego de *fogo* em cada frase: (a) "O fogo destruiu a casa."; (b)
+"Havia fogo no olhar dela."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**(a) Denotativo.** *Fogo* designa o fenômeno físico da combustão — o referente literal
+está em jogo, e a afirmação é verificável.
+
+**(b) Conotativo.** Não há combustão alguma no olhar; a palavra aciona associações
+culturais do fogo (intensidade, paixão, ardor) e as projeta sobre uma expressão facial. O
+referente literal está ausente.
+:::
+
+**2.** Explique por que a pergunta "a palavra *gelo* é denotativa ou conotativa?" está mal
+formulada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque denotação e conotação não classificam **palavras**, mas **empregos**. Fora de
+contexto, *gelo* não é nem uma coisa nem outra: é apenas um item do léxico. Em "o gelo
+derreteu", o emprego é denotativo; em "ela me tratou com gelo", é conotativo. A mesma
+palavra ocupa posições diferentes na escala conforme o contexto. A pergunta só se torna
+respondível quando acompanhada de uma frase — e é assim que as bancas a formulam.
+:::
+
+**3.** (Estilo ENEM) O slogan "Este carro é um tanque" explora:
+
+a) a denotação, ao comparar dimensões;
+b) a conotação, associando o veículo a robustez e proteção;
+c) um erro de concordância nominal;
+d) a polissemia do verbo *ser*;
+e) a ambiguidade sintática.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O carro não é literalmente um veículo militar blindado — não há
+referente literal em jogo. O slogan aciona as **associações culturais** de *tanque*
+(resistência, blindagem, invulnerabilidade) e as transfere ao automóvel, construindo uma
+imagem de segurança.
+
+Note o detalhe estratégico: por ser conotativa, a afirmação **não é verificável** e, por
+isso, não configura propaganda enganosa — ninguém pode exigir que o carro resista a um
+míssil. A conotação, aqui, é também um escudo jurídico.
+:::
+
+**4.** Identifique o emprego e justifique: "O braço do rio secou."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Trata-se de uma **metáfora lexicalizada**, hoje de emprego **denotativo**. *Braço do rio*
+é o nome dicionarizado de uma ramificação fluvial — é assim que geógrafos e falantes
+comuns designam a coisa, sem nenhuma intenção de figura.
+
+A expressão nasceu conotativa (projeção do corpo humano sobre a paisagem), mas o uso
+repetido a **dicionarizou**. Ela ocupa hoje a zona intermediária da escala (veja a
+@fig-denotacao-conotacao), demonstrando que a conotação de ontem se converte na denotação
+de hoje.
+:::
+
+**5.** Reescreva denotativamente: "Depois da reunião, o clima na sala estava pesado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Uma reescrita possível: "Depois da reunião, **havia tensão e desconforto entre as pessoas
+na sala**."
+
+*Clima* (que não se refere a condições meteorológicas) e *pesado* (que não se refere a
+massa) são ambos conotativos: projetam sensações físicas sobre um estado emocional
+coletivo. A reescrita denotativa nomeia diretamente o estado, sem a imagem.
+
+Observe o custo: a versão denotativa é mais **precisa**, mas perde a **economia** e a
+força expressiva do original. Essa troca é exatamente o que a escolha entre os dois
+empregos coloca em jogo.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "O emprego conotativo é próprio da
+literatura e configura imprecisão vocabular nos demais gêneros."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado**, por duas razões independentes.
+
+Primeiro, o emprego conotativo **não é próprio da literatura**: é onipresente na fala
+cotidiana ("morrendo de fome", "perdeu a cabeça", "um assalto"), na publicidade, no
+jornalismo opinativo e no discurso político.
+
+Segundo, **não configura imprecisão**: a conotação é um recurso legítimo cuja adequação
+depende do **gênero**. É inadequada numa bula, onde a monossemia é exigida; é plenamente
+adequada — e às vezes obrigatória — numa crônica ou num anúncio. Confundir inadequação de
+registro com erro é o mesmo equívoco que se comete ao julgar a variação linguística
+(@sec-cap-03).
+:::
+
+**7.** Analise os efeitos de sentido: "Prefeito é acusado de desvio" × "Prefeito mete a
+mão no caixa".
+
+::: {.callout-tip collapse="true"}
+## Solução
+A **primeira** é **denotativa** e típica da **notícia**: *acusado* e *desvio* são termos
+técnicos, referenciais, que registram um fato processual sem emitir juízo. Preserva a
+presunção de inocência — alguém foi acusado, o que não significa que seja culpado.
+
+A **segunda** é **conotativa** e típica do **título opinativo**: "meter a mão no caixa" é
+expressão idiomática que **pressupõe a culpa** e a apresenta como consumada, com carga
+avaliativa e coloquial. Não há mão nem caixa literais.
+
+O efeito: a primeira informa; a segunda **condena**. A escolha entre os empregos é aqui
+uma escolha editorial — e, potencialmente, jurídica.
+:::
+
+**8.** Explique, com exemplo próprio, a afirmação: "a conotação de ontem é a denotação de
+hoje".
+
+::: {.callout-tip collapse="true"}
+## Solução
+A frase descreve a **lexicalização**: uma metáfora, repetida até se banalizar, perde o
+caráter figurado e passa a ser o nome literal da coisa.
+
+Exemplo: **"navegar"**. Originalmente denotava deslocar-se sobre a água em embarcação.
+Quando surgiu a internet, "navegar na rede" era uma metáfora viva — projetava a viagem
+marítima sobre a exploração de páginas. Hoje, "navegar na internet" é o modo **normal** e
+dicionarizado de nomear a atividade: ninguém percebe barco algum. A conotação
+dicionarizou-se.
+
+Outros exemplos: *mouse* (rato), *janela* (do sistema), *vírus* (de computador), *pé* da
+mesa. O fenômeno mostra que a fronteira entre denotação e conotação é **histórica e
+móvel** — a distinção só opera sincronicamente.
+:::
+
+**9.** (Estilo FUVEST) No verso "Meu coração é um balde despejado" (Álvaro de Campos),
+identifique o mecanismo semântico e explique por que a leitura denotativa é impossível.
+
+::: {.callout-tip collapse="true"}
+## Solução
+O mecanismo é a **conotação** por via de **metáfora**: atribui-se ao *coração* — já ele
+próprio empregado conotativamente, como sede dos afetos, e não como órgão muscular — a
+imagem de um *balde despejado*, isto é, esvaziado de uma só vez, virado, sem conteúdo.
+
+A leitura denotativa é impossível porque geraria **contradição referencial**: um coração
+não é um balde, e um órgão não pode ser despejado. Diante da impossibilidade literal, o
+leitor é **obrigado** a buscar a leitura figurada — e é justamente esse bloqueio do
+sentido literal que aciona a interpretação poética.
+
+O efeito construído: esvaziamento súbito e total, exaustão afetiva, sensação de vazio após
+a perda — sentidos que a paráfrase denotativa ("estou emocionalmente esgotado") enuncia,
+mas não faz **sentir**.
+:::
+
+**10.** Construa um par de frases com a palavra *porta*, uma denotativa e outra conotativa,
+e justifique cada emprego.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível:
+
+**Denotativa** — "Feche a **porta** da sala, por favor." A palavra designa o objeto
+físico, a peça que veda uma abertura. O referente literal está em jogo e a afirmação é
+verificável: há uma porta ali.
+
+**Conotativa** — "A bolsa de estudos foi a **porta** que ele encontrou para sair da
+pobreza." Não há objeto físico algum; a palavra aciona as associações culturais de *porta*
+(passagem, acesso, oportunidade, transição entre dois estados) e as projeta sobre um
+recurso abstrato.
+
+Justificativa geral: a mesma palavra ocupa posições diferentes na escala conforme o
+contexto — o que confirma que denotação e conotação classificam **empregos**, não itens do
+léxico.
+:::
+
+## 📚 Referências
+
+A distinção entre denotação e conotação, bem como o tratamento do significado como
+fenômeno contextual, apoia-se em Ilari [@ilari2001] e Ilari & Basso [@ilaribasso2006]; o
+significado dicionarizado que serve de referência ao emprego denotativo é o registrado em
+obras como o Houaiss [@houaiss2009]. A discussão da adequação ao gênero e do sentido como
+construção situada segue Koch [@koch2015texto] e Marcuschi [@marcuschi2008]. Para o signo
+linguístico retomado na abertura, veja o @sec-cap-01; para a distinção entre inadequação
+de registro e erro, o @sec-cap-03. O próximo capítulo trata das relações que as palavras
+mantêm entre si no léxico: sinonímia, antonímia e hiponímia.
+
+::: {#refs}
 :::
