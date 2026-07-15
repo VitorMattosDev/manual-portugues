@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -883,7 +903,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#sec-cap-71" id="toc-sec-cap-71" class="nav-link active" data-scroll-target="#sec-cap-71"><span class="header-section-number">73</span> Tipologia textual: narração, descrição, dissertação, injunção, exposição</a></li>
+  <li><a href="#sec-cap-71" id="toc-sec-cap-71" class="nav-link active" data-scroll-target="#sec-cap-71"><span class="header-section-number">73</span> Tipologia textual: narração, descrição, dissertação, injunção, exposição</a>
+  <ul class="collapse">
+  <li><a href="#objetivos-de-aprendizagem" id="toc-objetivos-de-aprendizagem" class="nav-link" data-scroll-target="#objetivos-de-aprendizagem"><span class="header-section-number">73.1</span> 🎯 Objetivos de aprendizagem</a></li>
+  <li><a href="#tipo-gênero-a-distinção-fundamental" id="toc-tipo-gênero-a-distinção-fundamental" class="nav-link" data-scroll-target="#tipo-gênero-a-distinção-fundamental"><span class="header-section-number">73.2</span> Tipo × gênero: a distinção fundamental</a></li>
+  <li><a href="#os-cinco-tipos" id="toc-os-cinco-tipos" class="nav-link" data-scroll-target="#os-cinco-tipos"><span class="header-section-number">73.3</span> Os cinco tipos</a>
+  <ul class="collapse">
+  <li><a href="#narração" id="toc-narração" class="nav-link" data-scroll-target="#narração"><span class="header-section-number">73.3.1</span> 1. Narração</a></li>
+  <li><a href="#descrição" id="toc-descrição" class="nav-link" data-scroll-target="#descrição"><span class="header-section-number">73.3.2</span> 2. Descrição</a></li>
+  <li><a href="#dissertação-exposição-argumentação" id="toc-dissertação-exposição-argumentação" class="nav-link" data-scroll-target="#dissertação-exposição-argumentação"><span class="header-section-number">73.3.3</span> 3. Dissertação (exposição × argumentação)</a></li>
+  <li><a href="#exposição" id="toc-exposição" class="nav-link" data-scroll-target="#exposição"><span class="header-section-number">73.3.4</span> 4. Exposição</a></li>
+  <li><a href="#injunção" id="toc-injunção" class="nav-link" data-scroll-target="#injunção"><span class="header-section-number">73.3.5</span> 5. Injunção</a></li>
+  </ul></li>
+  <li><a href="#os-textos-são-híbridos" id="toc-os-textos-são-híbridos" class="nav-link" data-scroll-target="#os-textos-são-híbridos"><span class="header-section-number">73.4</span> Os textos são híbridos</a>
+  <ul class="collapse">
+  <li><a href="#por-que-a-narração-aparece-dentro-da-argumentação" id="toc-por-que-a-narração-aparece-dentro-da-argumentação" class="nav-link" data-scroll-target="#por-que-a-narração-aparece-dentro-da-argumentação"><span class="header-section-number">73.4.1</span> Por que a narração aparece dentro da argumentação</a></li>
+  </ul></li>
+  <li><a href="#quadro-resumo" id="toc-quadro-resumo" class="nav-link" data-scroll-target="#quadro-resumo"><span class="header-section-number">73.5</span> 📋 Quadro-resumo</a></li>
+  <li><a href="#pegadinhas-e-erros-comuns" id="toc-pegadinhas-e-erros-comuns" class="nav-link" data-scroll-target="#pegadinhas-e-erros-comuns"><span class="header-section-number">73.6</span> ⚠️ Pegadinhas e erros comuns</a></li>
+  <li><a href="#exercícios" id="toc-exercícios" class="nav-link" data-scroll-target="#exercícios"><span class="header-section-number">73.7</span> ✍️ Exercícios</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências"><span class="header-section-number">73.8</span> 📚 Referências</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/vitormattosdev/manual-portugues/edit/main/capitulos/cap-71-tipologia-textual.qmd" class="toc-action"><i class="bi bi-github"></i>Editar essa página</a></li><li><a href="https://github.com/vitormattosdev/manual-portugues/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -911,36 +951,1397 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="sec-cap-71" class="level1" data-number="73">
 <h1 data-number="73"><span class="header-section-number">73</span> Tipologia textual: narração, descrição, dissertação, injunção, exposição</h1>
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 11 — Linguística Textual.
-
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
-
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+<blockquote class="blockquote">
+<p>“Tipos são cinco e cabem numa tabela. Gêneros são milhares e mudam enquanto você conta.”</p>
+</blockquote>
+<p>Depois de estudar o que faz de um texto um texto (<a href="cap-68-texto-e-textualidade.html" class="quarto-xref"><span>Capítulo 70</span></a>) e como ele se articula (<a href="cap-69-coesao.html" class="quarto-xref"><span>Capítulo 71</span></a>, <a href="cap-70-coerencia-textual.html" class="quarto-xref"><span>Capítulo 72</span></a>), passamos a uma pergunta de classificação: <strong>que espécies de texto existem?</strong></p>
+<p>Há duas respostas, e confundi-las é o erro mais comum de todo este volume. A primeira é a <strong>tipologia textual</strong> — um conjunto <strong>fechado</strong> e pequeno de modos de organizar o discurso, definidos por traços linguísticos. A segunda é a <strong>classificação por gêneros</strong> — um conjunto <strong>aberto</strong> e enorme de práticas sociais de linguagem. Este capítulo trata da primeira; o <a href="cap-72-generos-textuais.html" class="quarto-xref"><span>Capítulo 74</span></a>, da segunda.</p>
+<p>A distinção importa muito mais do que parece. Quando alguém diz “a redação do ENEM é um gênero dissertativo-argumentativo”, está misturando as duas coisas — e a mistura tem consequências práticas para quem escreve.</p>
+<p>Comecemos por uma constatação que orienta todo o capítulo: <strong>quase nenhum texto real é de um tipo só</strong>.</p>
+<section id="objetivos-de-aprendizagem" class="level2" data-number="73.1">
+<h2 data-number="73.1" class="anchored" data-anchor-id="objetivos-de-aprendizagem"><span class="header-section-number">73.1</span> 🎯 Objetivos de aprendizagem</h2>
+<p>Ao final deste capítulo, você será capaz de:</p>
+<ul>
+<li><strong>Distinguir</strong> tipo textual de gênero textual, e explicar por que a confusão é frequente;</li>
+<li><strong>Caracterizar</strong> os cinco tipos por seus traços linguísticos, não por intuição;</li>
+<li><strong>Identificar</strong> o tipo <strong>predominante</strong> e as sequências secundárias em textos reais;</li>
+<li><strong>Reconhecer</strong> que os textos são tipologicamente <strong>híbridos</strong>;</li>
+<li><strong>Relacionar</strong> cada tipo aos recursos gramaticais que o realizam;</li>
+<li><strong>Aplicar</strong> a análise tipológica à produção da redação escolar.</li>
+</ul>
+</section>
+<section id="tipo-gênero-a-distinção-fundamental" class="level2" data-number="73.2">
+<h2 data-number="73.2" class="anchored" data-anchor-id="tipo-gênero-a-distinção-fundamental"><span class="header-section-number">73.2</span> Tipo × gênero: a distinção fundamental</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>As duas categorias
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Tipo textual</strong> — modo de <strong>organizar o discurso</strong>, definido por <strong>traços linguísticos</strong> internos (tempos verbais, classes de palavras, estruturas). É uma categoria da <strong>linguística</strong>.</p>
+<ul>
+<li>Conjunto <strong>fechado</strong>: são <strong>cinco</strong> (narração, descrição, dissertação/argumentação, injunção, exposição).</li>
+<li><strong>Universal e estável</strong>: os mesmos cinco valem para qualquer língua e qualquer época.</li>
+<li>Reconhece-se <strong>na estrutura</strong>: verbos no pretérito perfeito + sequência temporal = narração, esteja isso num romance ou num boletim de ocorrência.</li>
+</ul>
+<p><strong>Gênero textual</strong> — prática <strong>social</strong> de linguagem, definida por sua <strong>função</strong> numa situação e por convenções compartilhadas. É uma categoria <strong>sócio-histórica</strong>.</p>
+<ul>
+<li>Conjunto <strong>aberto e infinito</strong>: receita, bula, tuíte, sermão, boletim de ocorrência, laudo, meme, edital, currículo…</li>
+<li><strong>Histórico e mutável</strong>: nascem e morrem. O telegrama morreu; o <em>stories</em> nasceu.</li>
+<li>Reconhece-se <strong>pela função e pela situação</strong>, não só pela forma.</li>
+</ul>
+</div>
+</div>
+<p>A relação entre os dois: <strong>um gênero mobiliza tipos</strong>. A receita (gênero) usa injunção (“bata as claras”) e descrição (“massa homogênea”). O romance (gênero) usa narração, descrição e diálogo. O gênero é a <strong>prática</strong>; o tipo é o <strong>material</strong> de que ela se serve.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
+<span class="screen-reader-only">Nota</span>O erro escolar mais comum
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Capítulo em preparação.</p>
+<p>Dizer que “a redação do ENEM é um <strong>gênero</strong> dissertativo-argumentativo” mistura as duas categorias.</p>
+<p>Precisando: <em>dissertativo-argumentativo</em> é o <strong>tipo</strong> (o modo de organizar); o <strong>gênero</strong> é “redação de vestibular” — uma prática social bem definida, com destinatário específico (o corretor), situação (a prova), extensão (30 linhas), convenções (proposta de intervenção) e critérios de avaliação públicos.</p>
+<p>Por que a precisão importa: o candidato que domina o <strong>tipo</strong> sabe argumentar; o que domina o <strong>gênero</strong> sabe argumentar <strong>naquelas condições</strong> — e é isso que a prova avalia (<a href="cap-77-redacao-enem-concursos.html" class="quarto-xref"><span>Capítulo 79</span></a>). Confundi-los explica muita redação bem escrita e mal pontuada.</p>
+</div>
+</div>
+</section>
+<section id="os-cinco-tipos" class="level2" data-number="73.3">
+<h2 data-number="73.3" class="anchored" data-anchor-id="os-cinco-tipos"><span class="header-section-number">73.3</span> Os cinco tipos</h2>
+<section id="narração" class="level3" data-number="73.3.1">
+<h3 data-number="73.3.1" class="anchored" data-anchor-id="narração"><span class="header-section-number">73.3.1</span> 1. Narração</h3>
+<p><strong>Conta fatos</strong> em <strong>sucessão temporal</strong>, com personagens que agem.</p>
+<p><strong>Traços linguísticos:</strong></p>
+<ul>
+<li><strong>Verbos de ação</strong> no <strong>pretérito perfeito</strong> (o tempo da narrativa: <em>chegou</em>, <em>viu</em>, <em>saiu</em>), com o <strong>imperfeito</strong> para cenário e hábito (<em>era</em>, <em>estava</em>, <em>costumava</em>);</li>
+<li><strong>Marcadores temporais</strong>: <em>então</em>, <em>depois</em>, <em>quando</em>, <em>no dia seguinte</em>, <em>aí</em>;</li>
+<li><strong>Progressão temporal</strong>: a ordem dos verbos é a ordem dos fatos;</li>
+<li>Presença de <strong>personagens</strong> e <strong>transformação de estado</strong> (algo muda entre o início e o fim).</li>
+</ul>
+<blockquote class="blockquote">
+<p>“<strong>Chegou</strong> em casa às sete. <strong>Tirou</strong> o casaco, <strong>serviu-se</strong> de água e <strong>sentou-se</strong>. <strong>Só então percebeu</strong> que a porta dos fundos <strong>estava</strong> aberta.”</p>
+</blockquote>
+<p><strong>Gêneros que o mobilizam</strong>: romance, conto, notícia, piada, relato, boletim de ocorrência, depoimento, biografia.</p>
+</section>
+<section id="descrição" class="level3" data-number="73.3.2">
+<h3 data-number="73.3.2" class="anchored" data-anchor-id="descrição"><span class="header-section-number">73.3.2</span> 2. Descrição</h3>
+<p><strong>Caracteriza</strong> seres, objetos, lugares ou estados — <strong>sem progressão temporal</strong>. O tempo está <strong>parado</strong>.</p>
+<p><strong>Traços linguísticos:</strong></p>
+<ul>
+<li><strong>Verbos de estado</strong> (<em>ser</em>, <em>estar</em>, <em>parecer</em>, <em>ter</em>) no <strong>presente</strong> ou no <strong>imperfeito</strong>;</li>
+<li>Abundância de <strong>adjetivos</strong> e <strong>adjuntos adnominais</strong>;</li>
+<li><strong>Marcadores espaciais</strong>: <em>ao fundo</em>, <em>à direita</em>, <em>sobre</em>, <em>em torno</em>;</li>
+<li><strong>Simultaneidade</strong>: os traços coexistem; a ordem é arbitrária.</li>
+</ul>
+<blockquote class="blockquote">
+<p>“A sala <strong>era</strong> ampla e <strong>tinha</strong> pé-direito alto. Ao fundo, uma janela <strong>dava</strong> para o quintal. Sobre a mesa <strong>havia</strong> três livros empilhados e um copo vazio.”</p>
+</blockquote>
+<p><strong>Teste decisivo</strong> — o <strong>teste da ordem</strong>: numa descrição, você pode <strong>trocar as frases de lugar</strong> sem alterar o sentido (a janela e a mesa coexistem, tanto faz qual se mencione antes). Numa narração, <strong>não pode</strong>: trocar “chegou” e “sentou-se” muda os fatos.</p>
+<p><strong>Gêneros</strong>: anúncio classificado, laudo, retrato literário, cardápio, catálogo, ficha técnica.</p>
+</section>
+<section id="dissertação-exposição-argumentação" class="level3" data-number="73.3.3">
+<h3 data-number="73.3.3" class="anchored" data-anchor-id="dissertação-exposição-argumentação"><span class="header-section-number">73.3.3</span> 3. Dissertação (exposição × argumentação)</h3>
+<p><strong>Discute ideias</strong>, no plano das abstrações. Aqui é preciso um cuidado terminológico que as gramáticas resolvem de modos diferentes.</p>
+<p>A tradição escolar brasileira costuma separar:</p>
+<ul>
+<li><strong>Dissertação expositiva</strong> — <strong>expõe</strong> um assunto, sem defender tese. Objetivo: <strong>informar</strong>. É a <strong>exposição</strong> propriamente dita.</li>
+<li><strong>Dissertação argumentativa</strong> — <strong>defende uma tese</strong>, com argumentos, visando à adesão do leitor. Objetivo: <strong>convencer</strong>.</li>
+</ul>
+<p>Muitos autores tratam <strong>exposição</strong> e <strong>argumentação</strong> como <strong>dois tipos distintos</strong> — e é essa a divisão que este capítulo adota, seguindo o título proposto: cinco tipos, com exposição e argumentação separadas.</p>
+<p><strong>Traços linguísticos da argumentação:</strong></p>
+<ul>
+<li><strong>Presente do indicativo</strong> com valor <strong>atemporal</strong> (verdades gerais: “a desigualdade <strong>produz</strong> violência”);</li>
+<li><strong>Substantivos abstratos</strong> e <strong>nominalizações</strong>: <em>desigualdade</em>, <em>desenvolvimento</em>, <em>precarização</em>;</li>
+<li><strong>Conectivos lógicos</strong> densos: <em>portanto</em>, <em>no entanto</em>, <em>uma vez que</em>, <em>por conseguinte</em>;</li>
+<li><strong>Operadores argumentativos</strong>: <em>é evidente que</em>, <em>convém notar</em>, <em>ainda que</em>, <em>sobretudo</em>;</li>
+<li><strong>Impessoalidade</strong> (3ª pessoa, voz passiva, sujeito indeterminado).</li>
+</ul>
+<blockquote class="blockquote">
+<p>“A desigualdade <strong>não é</strong> um acidente do desenvolvimento brasileiro: <strong>é</strong> seu mecanismo. <strong>Uma vez que</strong> a concentração de renda <strong>se reproduz</strong> por herança, <strong>conclui-se que</strong> a mobilidade social <strong>depende</strong> menos do mérito do que da origem.”</p>
+</blockquote>
+<p><strong>Gêneros</strong>: artigo de opinião, editorial, ensaio, redação de vestibular, parecer, tese.</p>
+</section>
+<section id="exposição" class="level3" data-number="73.3.4">
+<h3 data-number="73.3.4" class="anchored" data-anchor-id="exposição"><span class="header-section-number">73.3.4</span> 4. Exposição</h3>
+<p><strong>Apresenta</strong> informação organizada, <strong>sem</strong> defender tese. Difere da argumentação pelo <strong>propósito</strong>: informar, não convencer.</p>
+<p><strong>Traços</strong>: presente atemporal, terceira pessoa, definições, classificações, exemplos, ausência de operadores de adesão.</p>
+<blockquote class="blockquote">
+<p>“Os mamíferos <strong>dividem-se</strong> em três grupos: monotremados, marsupiais e placentários. Os primeiros <strong>põem</strong> ovos; os segundos <strong>completam</strong> o desenvolvimento em bolsa; os terceiros <strong>desenvolvem</strong> placenta.”</p>
+</blockquote>
+<p><strong>Gêneros</strong>: verbete de enciclopédia, artigo de divulgação, manual, aula expositiva, relatório, este capítulo que você está lendo.</p>
+</section>
+<section id="injunção" class="level3" data-number="73.3.5">
+<h3 data-number="73.3.5" class="anchored" data-anchor-id="injunção"><span class="header-section-number">73.3.5</span> 5. Injunção</h3>
+<p><strong>Instrui</strong> o leitor a <strong>fazer</strong> algo. Prescreve comportamento.</p>
+<p><strong>Traços linguísticos:</strong></p>
+<ul>
+<li><strong>Imperativo</strong> (“<strong>bata</strong> as claras”, “<strong>não ultrapasse</strong>”) ou <strong>infinitivo</strong> (“<strong>bater</strong> as claras”) ou <strong>futuro do presente</strong> com valor de obrigação (“o contratante <strong>pagará</strong>”);</li>
+<li><strong>Segunda pessoa</strong> (real ou implícita) — há um destinatário a ser dirigido;</li>
+<li><strong>Sequência ordenada de ações</strong> a executar;</li>
+<li>Verbos de <strong>ação</strong>, no início dos períodos.</li>
+</ul>
+<blockquote class="blockquote">
+<p>“<strong>Preaqueça</strong> o forno a 180°C. <strong>Bata</strong> as claras em neve. <strong>Acrescente</strong> o açúcar aos poucos e <strong>misture</strong> delicadamente.”</p>
+</blockquote>
+<p><strong>Gêneros</strong>: receita, bula, manual de instruções, edital, lei, regulamento, tutorial, placa de trânsito.</p>
+<div id="fig-tipos" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tipos-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="262.644374pt" height="223.797978pt" viewbox="-68.014948 -68.014946 262.644374 223.797978">
+<defs>
+<path id="tz_tipos_textuais_g0-183" d="M.934496-2.036364C.81594-1.959651 .718306-1.8132 .718306-1.694645C.718306-1.499377 .934496-1.290162 1.12279-1.290162S1.527273-1.499377 1.527273-1.694645C1.527273-1.882939 1.311083-2.099128 1.12279-2.099128C1.073973-2.099128 .990286-2.071233 .934496-2.036364Z"></path>
+<path id="tz_tipos_textuais_g1-19" d="M4.100623-4.365629C4.198257-4.428394 4.281943-4.491158 4.281943-4.623661C4.281943-4.770112 4.163387-4.853798 4.05878-4.853798C3.961146-4.853798 3.884433-4.791034 3.856538-4.763138L2.705853-3.765878C2.636115-3.703113 2.622167-3.696139 2.622167-3.654296S2.684932-3.486924 2.768618-3.486924C2.789539-3.486924 2.810461-3.486924 2.880199-3.535741L4.100623-4.365629Z"></path>
+<path id="tz_tipos_textuais_g1-94" d="M3.396264-4.756164C3.347447-4.811955 3.326526-4.839851 3.284682-4.839851C3.249813-4.839851 3.20797-4.811955 3.180075-4.791034L2.099128-3.975093C2.02939-3.926276 2.015442-3.905355 2.015442-3.856538C2.015442-3.828643 2.064259-3.696139 2.161893-3.696139C2.189788-3.696139 2.196762-3.696139 2.252553-3.737983L3.214944-4.414446L3.807721-3.765878C3.828643-3.737983 3.884433-3.689166 3.926276-3.689166C3.975093-3.689166 4.107597-3.7868 4.107597-3.863512C4.107597-3.898381 4.100623-3.898381 4.044832-3.96812L3.396264-4.756164Z"></path>
+<path id="tz_tipos_textuais_g1-97" d="M3.814695-2.587298C3.84259-2.691905 3.84259-2.705853 3.84259-2.733748C3.84259-2.887173 3.731009-2.942964 3.626401-2.942964C3.396264-2.942964 3.326526-2.705853 3.319552-2.684932C3.145205-2.970859 2.887173-3.075467 2.636115-3.075467C1.785305-3.075467 .899626-2.092154 .899626-1.073973C.899626-.327771 1.373848 .069738 1.889913 .069738C2.336239 .069738 2.705853-.258032 2.84533-.404483C2.93599-.069738 3.263761 .069738 3.514819 .069738C3.731009 .069738 3.912329-.034869 4.065753-.285928C4.233126-.557908 4.33076-.976339 4.33076-.99726C4.33076-1.08792 4.2401-1.08792 4.184309-1.08792C4.05878-1.08792 4.051806-1.073973 4.009963-.899626C3.912329-.536986 3.793773-.125529 3.535741-.125529C3.340473-.125529 3.312578-.334745 3.312578-.4533S3.312578-.585803 3.354421-.746202L3.814695-2.587298ZM2.887173-.948443C2.831382-.732254 2.677958-.564882 2.517559-.411457C2.231631-.160399 2.015442-.125529 1.910834-.125529C1.590037-.125529 1.429639-.425405 1.429639-.788045C1.429639-1.080946 1.603985-1.84807 1.799253-2.224658C2.022416-2.636115 2.357161-2.880199 2.636115-2.880199C3.110336-2.880199 3.200996-2.273474 3.200996-2.203736C3.200996-2.182814 3.194022-2.154919 3.180075-2.106102L2.887173-.948443Z"></path>
+<path id="tz_tipos_textuais_g1-99" d="M3.382316-2.629141C3.180075-2.57335 3.110336-2.405978 3.110336-2.287422C3.110336-2.175841 3.187049-2.057285 3.361395-2.057285C3.47995-2.057285 3.710087-2.133998 3.710087-2.468742C3.710087-2.922042 3.221918-3.075467 2.838356-3.075467C1.862017-3.075467 .9066-2.12005 .9066-1.129763C.9066-.474222 1.345953 .069738 2.12005 .069738C3.242839 .069738 3.772852-.585803 3.772852-.676463C3.772852-.732254 3.675218-.843836 3.612453-.843836C3.577584-.843836 3.556663-.822914 3.507846-.767123C3.082441-.258032 2.475716-.125529 2.127024-.125529S1.457534-.327771 1.457534-.892653C1.457534-1.220423 1.610959-1.959651 1.931756-2.364134C2.21071-2.719801 2.545455-2.880199 2.84533-2.880199C2.963885-2.880199 3.263761-2.84533 3.382316-2.629141Z"></path>
+<path id="tz_tipos_textuais_g1-100" d="M4.33076-4.637609C4.337733-4.665504 4.351681-4.714321 4.351681-4.742217C4.351681-4.846824 4.2401-4.839851 4.163387-4.832877L3.410212-4.770112C3.319552-4.763138 3.228892-4.756164 3.228892-4.609714C3.228892-4.51208 3.319552-4.51208 3.410212-4.51208C3.744956-4.51208 3.744956-4.463263 3.744956-4.400498C3.744956-4.379577 3.744956-4.365629 3.717061-4.267995L3.326526-2.684932C3.166127-2.929016 2.929016-3.075467 2.636115-3.075467C1.785305-3.075467 .899626-2.092154 .899626-1.073973C.899626-.327771 1.373848 .069738 1.889913 .069738C2.336239 .069738 2.705853-.258032 2.84533-.404483C2.93599-.069738 3.263761 .069738 3.514819 .069738C3.731009 .069738 3.912329-.034869 4.065753-.285928C4.233126-.557908 4.33076-.976339 4.33076-.99726C4.33076-1.08792 4.2401-1.08792 4.184309-1.08792C4.05878-1.08792 4.051806-1.073973 4.009963-.899626C3.912329-.536986 3.793773-.125529 3.535741-.125529C3.340473-.125529 3.312578-.334745 3.312578-.4533S3.347447-.718306 3.354421-.739228L4.33076-4.637609ZM2.887173-.948443C2.831382-.732254 2.677958-.564882 2.517559-.411457C2.231631-.160399 2.015442-.125529 1.910834-.125529C1.590037-.125529 1.429639-.425405 1.429639-.788045C1.429639-1.080946 1.603985-1.84807 1.799253-2.224658C2.022416-2.636115 2.357161-2.880199 2.636115-2.880199C3.110336-2.880199 3.200996-2.273474 3.200996-2.203736C3.200996-2.182814 3.194022-2.154919 3.180075-2.106102L2.887173-.948443Z"></path>
+<path id="tz_tipos_textuais_g1-101" d="M2.001494-1.590037C2.30137-1.590037 3.675218-1.590037 3.675218-2.461768C3.675218-2.838356 3.319552-3.075467 2.831382-3.075467C2.050311-3.075467 .941469-2.447821 .941469-1.220423C.941469-.488169 1.373848 .069738 2.127024 .069738C3.235866 .069738 3.772852-.585803 3.772852-.676463C3.772852-.732254 3.675218-.843836 3.612453-.843836C3.577584-.843836 3.556663-.822914 3.507846-.767123C3.082441-.258032 2.475716-.125529 2.127024-.125529C1.673724-.125529 1.478456-.509091 1.478456-.948443C1.478456-1.164633 1.520299-1.380822 1.569116-1.590037H2.001494ZM1.624907-1.785305C1.93873-2.866252 2.747696-2.880199 2.831382-2.880199C3.124284-2.880199 3.340473-2.719801 3.340473-2.468742C3.340473-1.785305 2.224658-1.785305 1.952677-1.785305H1.624907Z"></path>
+<path id="tz_tipos_textuais_g1-102" d="M2.154919-2.75467H2.810461C2.93599-2.75467 3.02665-2.75467 3.02665-2.908095C3.02665-3.005729 2.929016-3.005729 2.824408-3.005729H2.203736C2.280448-3.466002 2.364134-3.891407 2.399004-4.037858C2.468742-4.379577 2.538481-4.714321 2.817435-4.714321C2.929016-4.714321 3.040598-4.686426 3.124284-4.616687C2.991781-4.560897 2.901121-4.435367 2.901121-4.29589C2.901121-4.093649 3.068493-4.05878 3.145205-4.05878C3.347447-4.05878 3.500872-4.226152 3.500872-4.442341C3.500872-4.742217 3.180075-4.909589 2.817435-4.909589C2.057285-4.909589 1.896887-4.086675 1.855044-3.870486L1.687671-3.005729H1.157659C1.03213-3.005729 .948443-3.005729 .948443-2.852304C.948443-2.75467 1.03213-2.75467 1.143711-2.75467H1.638854L1.185554-.278954C.9066 1.227397 .704359 1.227397 .550934 1.227397C.523039 1.227397 .376588 1.227397 .258032 1.12279C.481196 1.03213 .481196 .836862 .481196 .808966C.481196 .606725 .313823 .571856 .237111 .571856C.034869 .571856-.118555 .739228-.118555 .955417C-.118555 1.26924 .223163 1.422665 .54396 1.422665C1.21345 1.422665 1.48543 .530012 1.57609 .195268C1.638854-.041843 1.701619-.278954 1.743462-.516065L2.154919-2.75467Z"></path>
+<path id="tz_tipos_textuais_g1-105" d="M2.489664-4.344707C2.489664-4.491158 2.385056-4.588792 2.245579-4.588792C2.050311-4.588792 1.896887-4.407472 1.896887-4.254047C1.896887-4.128518 1.980573-4.009963 2.147945-4.009963C2.322291-4.009963 2.489664-4.177335 2.489664-4.344707ZM1.471482-1.72254C1.422665-1.590037 1.297136-1.26924 1.227397-1.073973C1.157659-.892653 1.060025-.641594 1.060025-.516065C1.060025-.195268 1.311083 .069738 1.680697 .069738C2.378082 .069738 2.691905-.885679 2.691905-.99726C2.691905-1.08792 2.601245-1.08792 2.545455-1.08792C2.419925-1.08792 2.412951-1.066999 2.378082-.941469C2.287422-.606725 2.057285-.125529 1.701619-.125529C1.534247-.125529 1.534247-.292902 1.534247-.36264C1.534247-.530012 1.652802-.829888 1.743462-1.053051C1.820174-1.26924 2.168867-2.154919 2.203736-2.259527C2.245579-2.378082 2.245579-2.399004 2.245579-2.489664C2.245579-2.803487 2.001494-3.075467 1.617933-3.075467C.934496-3.075467 .613699-2.133998 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.136737-2.817435 1.471482-2.880199 1.597011-2.880199C1.680697-2.880199 1.771357-2.859278 1.771357-2.643088C1.771357-2.489664 1.715567-2.350187 1.659776-2.203736L1.471482-1.72254Z"></path>
+<path id="tz_tipos_textuais_g1-109" d="M3.228892-.613699C3.187049-.460274 3.11731-.18132 3.11731-.139477C3.11731 .013948 3.228892 .069738 3.333499 .069738C3.57061 .069738 3.619427-.139477 3.647323-.244085C3.675218-.36264 3.765878-.711333 3.807721-.864757C3.828643-.969365 3.898381-1.234371 3.919303-1.338979C3.940224-1.408717 4.030884-1.75741 4.037858-1.806227C4.051806-1.84807 4.261021-2.308344 4.546949-2.57335C4.756164-2.761644 5.000249-2.880199 5.279203-2.880199C5.6-2.880199 5.676712-2.636115 5.676712-2.405978C5.676712-1.994521 5.348941-1.150685 5.230386-.829888C5.160648-.655542 5.160648-.606725 5.160648-.516065C5.160648-.139477 5.460523 .069738 5.78132 .069738C6.478705 .069738 6.792528-.885679 6.792528-.99726C6.792528-1.08792 6.701868-1.08792 6.646077-1.08792C6.520548-1.08792 6.513574-1.066999 6.478705-.941469C6.360149-.509091 6.109091-.125529 5.802242-.125529C5.704608-.125529 5.627895-.174346 5.627895-.36264C5.627895-.516065 5.69066-.669489 5.746451-.829888C5.87198-1.157659 6.164882-1.917808 6.164882-2.30137C6.164882-2.84533 5.788294-3.075467 5.307098-3.075467C4.770112-3.075467 4.400498-2.775592 4.11457-2.405978C4.051806-2.984807 3.577584-3.075467 3.256787-3.075467C2.636115-3.075467 2.280448-2.657036 2.12005-2.475716C2.078207-2.915068 1.701619-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.412951 1.534247-2.057285 1.478456-1.8132L1.283188-1.060025C1.262267-.955417 1.192528-.690411 1.164633-.585803C1.129763-.432379 1.066999-.188294 1.066999-.139477C1.066999 .013948 1.17858 .069738 1.283188 .069738C1.520299 .069738 1.569116-.139477 1.597011-.244085C1.624907-.36264 1.715567-.711333 1.75741-.864757C1.862017-1.297136 1.966625-1.729514 1.987547-1.806227C1.987547-1.8132 2.217684-2.343213 2.531507-2.608219C2.629141-2.684932 2.866252-2.880199 3.235866-2.880199C3.563636-2.880199 3.633375-2.622167 3.633375-2.399004C3.633375-2.238605 3.584558-2.050311 3.542715-1.868991C3.500872-1.72254 3.410212-1.352927 3.375342-1.199502L3.228892-.613699Z"></path>
+<path id="tz_tipos_textuais_g1-110" d="M2.12005-2.48269C2.071233-2.908095 1.708593-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.412951 1.534247-2.057285 1.478456-1.8132L1.283188-1.060025C1.262267-.955417 1.192528-.690411 1.164633-.585803C1.129763-.432379 1.066999-.188294 1.066999-.139477C1.066999 .013948 1.17858 .069738 1.283188 .069738C1.520299 .069738 1.569116-.139477 1.597011-.244085C1.624907-.36264 1.715567-.711333 1.75741-.864757C1.778331-.969365 1.84807-1.234371 1.868991-1.338979C1.889913-1.408717 1.980573-1.75741 1.987547-1.806227C2.001494-1.84807 2.21071-2.308344 2.496638-2.57335C2.705853-2.761644 2.949938-2.880199 3.228892-2.880199C3.549689-2.880199 3.626401-2.636115 3.626401-2.405978C3.626401-1.994521 3.29863-1.150685 3.180075-.829888C3.110336-.655542 3.110336-.606725 3.110336-.516065C3.110336-.139477 3.410212 .069738 3.731009 .069738C4.428394 .069738 4.742217-.885679 4.742217-.99726C4.742217-1.08792 4.651557-1.08792 4.595766-1.08792C4.470237-1.08792 4.463263-1.066999 4.428394-.941469C4.309838-.509091 4.05878-.125529 3.75193-.125529C3.654296-.125529 3.577584-.174346 3.577584-.36264C3.577584-.516065 3.640349-.669489 3.696139-.829888C3.821669-1.157659 4.11457-1.917808 4.11457-2.30137C4.11457-2.84533 3.737983-3.075467 3.256787-3.075467C2.705853-3.075467 2.329265-2.747696 2.12005-2.48269Z"></path>
+<path id="tz_tipos_textuais_g1-111" d="M4.037858-1.875965C4.037858-2.552428 3.563636-3.075467 2.84533-3.075467C1.84807-3.075467 .9066-2.106102 .9066-1.129763C.9066-.418431 1.408717 .069738 2.099128 .069738C3.096389 .069738 4.037858-.9066 4.037858-1.875965ZM2.106102-.125529C1.910834-.125529 1.457534-.223163 1.457534-.892653C1.457534-1.199502 1.597011-1.931756 1.931756-2.364134C2.175841-2.691905 2.531507-2.880199 2.838356-2.880199C3.082441-2.880199 3.486924-2.733748 3.486924-2.113076C3.486924-1.875965 3.382316-1.206476 3.082441-.732254C2.866252-.397509 2.475716-.125529 2.106102-.125529Z"></path>
+<path id="tz_tipos_textuais_g1-113" d="M3.884433-2.887173C3.898381-2.929016 3.905355-2.956912 3.905355-2.977833C3.905355-3.033624 3.856538-3.075467 3.807721-3.075467C3.731009-3.075467 3.459029-2.838356 3.347447-2.643088C3.180075-2.929016 2.922042-3.075467 2.629141-3.075467C1.792279-3.075467 .899626-2.092154 .899626-1.073973C.899626-.334745 1.3599 .069738 1.889913 .069738C2.315318 .069738 2.677958-.251059 2.719801-.285928C2.691905-.188294 2.510585 .536986 2.468742 .732254C2.378082 1.080946 2.371108 1.094894 1.93873 1.101868C1.84807 1.101868 1.75741 1.101868 1.75741 1.248319C1.75741 1.311083 1.792279 1.352927 1.862017 1.352927C2.085181 1.352927 2.343213 1.325031 2.57335 1.325031C2.810461 1.325031 3.075467 1.352927 3.29863 1.352927C3.340473 1.352927 3.438107 1.352927 3.438107 1.199502C3.438107 1.101868 3.354421 1.101868 3.256787 1.101868C3.103362 1.101868 2.922042 1.101868 2.922042 1.018182C2.922042 .990286 2.93599 .9066 2.93599 .899626L3.884433-2.887173ZM2.887173-.941469C2.831382-.72528 2.364134-.125529 1.903861-.125529C1.57609-.125529 1.429639-.446326 1.429639-.781071C1.429639-1.073973 1.590037-1.799253 1.792279-2.196762C2.001494-2.629141 2.350187-2.880199 2.629141-2.880199C3.110336-2.880199 3.194022-2.259527 3.194022-2.203736C3.194022-2.175841 3.187049-2.168867 3.173101-2.099128L2.887173-.941469Z"></path>
+<path id="tz_tipos_textuais_g1-114" d="M1.862017-1.297136C1.896887-1.45056 1.93873-1.597011 1.973599-1.750436C2.015442-1.917808 2.092154-2.217684 2.399004-2.566376C2.538481-2.726775 2.740722-2.880199 3.047572-2.880199C3.124284-2.880199 3.361395-2.873225 3.521793-2.761644C3.375342-2.691905 3.312578-2.566376 3.312578-2.447821C3.312578-2.252553 3.466002-2.21071 3.556663-2.21071C3.689166-2.21071 3.905355-2.308344 3.905355-2.594271C3.905355-2.949938 3.472976-3.075467 3.061519-3.075467C2.873225-3.075467 2.496638-3.061519 2.099128-2.601245C1.987547-2.984807 1.624907-3.075467 1.429639-3.075467C1.129763-3.075467 .976339-2.880199 .871731-2.705853C.72528-2.475716 .613699-2.050311 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.885679-1.917808 .892653-1.924782 .941469-2.12005C1.060025-2.601245 1.192528-2.880199 1.408717-2.880199S1.624907-2.629141 1.624907-2.545455C1.624907-2.412951 1.534247-2.057285 1.478456-1.8132L1.283188-1.060025C1.262267-.955417 1.192528-.690411 1.164633-.585803C1.129763-.432379 1.066999-.188294 1.066999-.139477C1.066999 .013948 1.17858 .069738 1.283188 .069738C1.436613 .069738 1.527273-.041843 1.555168-.097634C1.57609-.146451 1.638854-.397509 1.673724-.54396L1.862017-1.297136Z"></path>
+<path id="tz_tipos_textuais_g1-115" d="M2.991781-2.594271C2.956912-2.580324 2.775592-2.48269 2.775592-2.30137C2.775592-2.21071 2.824408-2.092154 2.998755-2.092154C3.082441-2.092154 3.305604-2.133998 3.305604-2.468742C3.305604-2.915068 2.831382-3.075467 2.426899-3.075467C1.429639-3.075467 1.199502-2.322291 1.199502-2.050311C1.199502-1.48543 1.750436-1.380822 2.008468-1.332005C2.336239-1.26924 2.726775-1.199502 2.726775-.843836C2.726775-.655542 2.552428-.125529 1.715567-.125529C1.499377-.125529 1.094894-.167372 .948443-.467248C1.192528-.530012 1.234371-.732254 1.234371-.808966C1.234371-.941469 1.136737-1.039103 .990286-1.039103C.801993-1.039103 .627646-.899626 .627646-.606725C.627646-.188294 1.060025 .069738 1.701619 .069738C2.894147 .069738 3.166127-.774097 3.166127-1.08792C3.166127-1.297136 3.075467-1.492403 2.908095-1.638854C2.705853-1.806227 2.531507-1.841096 2.154919-1.910834C1.945704-1.952677 1.638854-2.008468 1.638854-2.294396C1.638854-2.419925 1.75741-2.880199 2.419925-2.880199C2.580324-2.880199 2.880199-2.84533 2.991781-2.594271Z"></path>
+<path id="tz_tipos_textuais_g1-116" d="M2.022416-2.75467H2.712827C2.838356-2.75467 2.922042-2.75467 2.922042-2.908095C2.922042-3.005729 2.838356-3.005729 2.726775-3.005729H2.085181L2.336239-4.009963C2.364134-4.107597 2.364134-4.121544 2.364134-4.14944C2.364134-4.274969 2.266501-4.358655 2.140971-4.358655C1.903861-4.358655 1.84807-4.128518 1.834122-4.065753L1.569116-3.005729H.878705C.753176-3.005729 .669489-3.005729 .669489-2.852304C.669489-2.75467 .753176-2.75467 .864757-2.75467H1.506351L1.025156-.822914C.990286-.683437 .990286-.63462 .990286-.585803C.990286-.153425 1.332005 .069738 1.694645 .069738C2.447821 .069738 2.894147-.892653 2.894147-1.004234C2.894147-1.08792 2.803487-1.08792 2.75467-1.08792C2.643088-1.08792 2.636115-1.073973 2.594271-.976339C2.266501-.237111 1.903861-.125529 1.715567-.125529C1.478456-.125529 1.478456-.383562 1.478456-.4533C1.478456-.571856 1.513325-.718306 1.520299-.739228L2.022416-2.75467Z"></path>
+<path id="tz_tipos_textuais_g1-117" d="M4.051806-2.712827C4.065753-2.775592 4.072727-2.782565 4.072727-2.796513C4.072727-2.901121 3.996015-3.005729 3.849564-3.005729C3.626401-3.005729 3.556663-2.803487 3.535741-2.705853L3.082441-.878705C3.033624-.676463 2.705853-.125529 2.217684-.125529C1.896887-.125529 1.75741-.36264 1.75741-.690411C1.75741-1.08792 1.980573-1.66675 2.168867-2.147945C2.217684-2.280448 2.245579-2.357161 2.245579-2.489664C2.245579-2.838356 1.966625-3.075467 1.624907-3.075467C.934496-3.075467 .613699-2.127024 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.12279-2.768618 1.436613-2.880199 1.603985-2.880199C1.72254-2.880199 1.778331-2.803487 1.778331-2.650062C1.778331-2.489664 1.729514-2.378082 1.603985-2.043337C1.352927-1.387796 1.26924-1.066999 1.26924-.795019C1.26924-.097634 1.799253 .069738 2.189788 .069738C2.622167 .069738 2.866252-.167372 3.068493-.369614C3.180075-.027895 3.514819 .069738 3.724035 .069738C3.940224 .069738 4.121544-.034869 4.274969-.285928C4.442341-.557908 4.539975-.976339 4.539975-.99726C4.539975-1.08792 4.449315-1.08792 4.393524-1.08792C4.267995-1.08792 4.261021-1.073973 4.219178-.899626C4.121544-.536986 4.002989-.125529 3.744956-.125529C3.549689-.125529 3.521793-.334745 3.521793-.4533S3.521793-.585803 3.563636-.746202L4.051806-2.712827Z"></path>
+<path id="tz_tipos_textuais_g1-118" d="M3.891407-2.538481C3.891407-3.061519 3.612453-3.082441 3.563636-3.082441C3.382316-3.082441 3.200996-2.901121 3.200996-2.726775C3.200996-2.629141 3.256787-2.580324 3.291656-2.538481C3.431133-2.399004 3.493898-2.217684 3.493898-2.015442C3.493898-1.736488 3.110336-.125529 2.30137-.125529C2.036364-.125529 1.764384-.251059 1.764384-.732254C1.764384-1.115816 1.987547-1.687671 2.182814-2.182814C2.245579-2.357161 2.245579-2.426899 2.245579-2.489664C2.245579-2.838356 1.966625-3.075467 1.624907-3.075467C.934496-3.075467 .613699-2.127024 .613699-2.008468C.613699-1.917808 .704359-1.917808 .760149-1.917808C.843836-1.917808 .885679-1.917808 .9066-2.008468C1.12279-2.768618 1.436613-2.880199 1.603985-2.880199C1.72254-2.880199 1.778331-2.803487 1.778331-2.650062C1.778331-2.489664 1.729514-2.378082 1.603985-2.043337C1.276214-1.192528 1.276214-.983313 1.276214-.822914C1.276214-.083686 1.868991 .069738 2.280448 .069738C3.445081 .069738 3.891407-2.036364 3.891407-2.538481Z"></path>
+<path id="tz_tipos_textuais_g1-122" d="M1.318057-.620672C1.520299-.857783 1.945704-1.21345 2.245579-1.464508C3.563636-2.580324 3.66127-2.970859 3.66127-2.991781C3.66127-3.075467 3.584558-3.075467 3.514819-3.075467C3.410212-3.075467 3.403238-3.075467 3.347447-2.977833C3.131258-2.636115 3.040598-2.580324 2.908095-2.580324C2.75467-2.580324 2.657036-2.677958 2.538481-2.796513C2.39203-2.949938 2.259527-3.075467 2.022416-3.075467C1.457534-3.075467 1.08792-2.461768 1.08792-2.259527C1.08792-2.175841 1.17858-2.175841 1.234371-2.175841C1.325031-2.175841 1.352927-2.182814 1.380822-2.252553C1.506351-2.559402 1.882939-2.566376 1.952677-2.566376C2.099128-2.566376 2.259527-2.524533 2.440847-2.468742C2.677958-2.399004 2.75467-2.39203 2.873225-2.385056C2.594271-2.099128 2.531507-2.02939 1.910834-1.513325C1.764384-1.380822 1.415691-1.094894 1.150685-.822914C.836862-.509091 .530012-.09066 .530012-.013948C.530012 .069738 .606725 .069738 .676463 .069738C.781071 .069738 .781071 .062765 .829888-.013948C.934496-.167372 1.150685-.425405 1.408717-.425405C1.548194-.425405 1.624907-.376588 1.764384-.230137C1.959651-.041843 2.078207 .069738 2.315318 .069738C3.047572 .069738 3.514819-.774097 3.514819-1.011208C3.514819-1.101868 3.431133-1.101868 3.368369-1.101868C3.249813-1.101868 3.242839-1.080946 3.214944-.99726C3.082441-.620672 2.684932-.439352 2.385056-.439352C2.224658-.439352 2.071233-.488169 1.896887-.536986C1.617933-.620672 1.548194-.620672 1.318057-.620672Z"></path>
+<path id="tz_tipos_textuais_g2-19" d="M3.277709-4.02391C3.375342-4.065753 3.57061-4.177335 3.57061-4.42142C3.57061-4.609714 3.403238-4.902615 3.110336-4.902615C2.949938-4.902615 2.852304-4.818929 2.817435-4.78406L1.862017-3.856538L2.113076-3.493898L3.277709-4.02391Z"></path>
+<path id="tz_tipos_textuais_g2-24" d="M2.698879 .083686H1.8132V.425405C2.064259 .425405 2.552428 .439352 2.552428 .760149C2.552428 1.108842 1.659776 1.108842 1.380822 1.108842H1.066999V1.429639H1.506351C3.305604 1.429639 3.438107 1.018182 3.438107 .760149C3.438107 .292902 2.970859 .188294 2.698879 .146451V.083686Z"></path>
+<path id="tz_tipos_textuais_g2-46" d="M1.834122-.564882C1.834122-.899626 1.562142-1.136737 1.26924-1.136737C.934496-1.136737 .697385-.864757 .697385-.571856C.697385-.237111 .969365 0 1.262267 0C1.597011 0 1.834122-.27198 1.834122-.564882Z"></path>
+<path id="tz_tipos_textuais_g2-65" d="M3.758904-4.714321C3.668244-4.909589 3.584558-4.909589 3.375342-4.909589C3.159153-4.909589 3.075467-4.909589 2.984807-4.714321L1.108842-.516065C1.066999-.432379 1.060025-.425405 .885679-.404483C.753176-.390535 .683437-.390535 .564882-.390535H.355666V0C.383562 0 .913574-.027895 1.227397-.027895C1.534247-.027895 2.182814 0 2.217684 0V-.390535C2.196762-.390535 1.617933-.390535 1.617933-.446326C1.617933-.4533 1.645828-.509091 1.652802-.523039L2.02939-1.366874H4.156413L4.595766-.390535H3.96812V0C4.33076-.027895 4.867746-.027895 5.23736-.027895C5.669738-.027895 6.290411-.006974 6.388045 0V-.390535H5.697634L3.758904-4.714321ZM3.089415-3.737983L3.982067-1.75741H2.203736L3.089415-3.737983Z"></path>
+<path id="tz_tipos_textuais_g2-67" d="M5.96264-4.644583C5.96264-4.78406 5.96264-4.867746 5.802242-4.867746C5.718555-4.867746 5.704608-4.860772 5.634869-4.798007L5.167621-4.393524C4.47721-4.867746 3.814695-4.867746 3.605479-4.867746C1.583064-4.867746 .523039-3.731009 .523039-2.39203C.523039-1.073973 1.555168 .083686 3.612453 .083686C5.049066 .083686 5.96264-.72528 5.96264-1.590037C5.96264-1.764384 5.885928-1.764384 5.739477-1.764384C5.641843-1.764384 5.530262-1.764384 5.523288-1.645828C5.460523-.578829 4.393524-.306849 3.7868-.306849C3.214944-.306849 2.57335-.446326 2.154919-.857783C1.75741-1.255293 1.659776-1.841096 1.659776-2.39203C1.659776-3.054545 1.799253-3.66127 2.273474-4.030884C2.75467-4.400498 3.340473-4.47721 3.772852-4.47721C4.672478-4.47721 5.314072-3.863512 5.453549-3.138232C5.488418-2.949938 5.488418-2.93599 5.69066-2.93599H5.739477C5.941719-2.93599 5.96264-2.956912 5.96264-3.159153V-4.644583Z"></path>
+<path id="tz_tipos_textuais_g2-68" d="M.397509-4.78406V-4.393524H1.143711V-.390535H.397509V0H3.668244C5.202491 0 6.339228-.885679 6.339228-2.357161C6.339228-3.814695 5.251308-4.78406 3.66127-4.78406H.397509ZM2.147945-.390535V-4.393524H3.368369C5.251308-4.393524 5.251308-2.991781 5.251308-2.357161C5.251308-1.729514 5.251308-.390535 3.375342-.390535H2.147945Z"></path>
+<path id="tz_tipos_textuais_g2-69" d="M5.6-1.875965H5.160648C4.972354-.878705 4.672478-.390535 3.472976-.390535H2.196762V-2.259527H2.657036C3.249813-2.259527 3.452055-2.099128 3.452055-1.492403H3.891407V-3.417186H3.452055C3.452055-2.817435 3.256787-2.650062 2.657036-2.650062H2.196762V-4.344707H3.403238C4.379577-4.344707 4.777086-4.072727 4.916563-3.068493H5.355915L5.118804-4.735243H.397509V-4.344707H1.143711V-.390535H.397509V0H5.244334L5.6-1.875965Z"></path>
+<path id="tz_tipos_textuais_g2-71" d="M5.969614-1.527273H6.590286V-1.917808C6.485679-1.910834 5.837111-1.889913 5.404732-1.889913C5.125778-1.889913 4.839851-1.896887 4.553923-1.896887C4.351681-1.896887 4.002989-1.903861 3.800747-1.917808V-1.527273H4.916563V-.878705C4.916563-.697385 4.916563-.306849 3.870486-.306849C3.556663-.306849 2.789539-.334745 2.238605-.801993C1.910834-1.080946 1.659776-1.520299 1.659776-2.399004C1.659776-3.103362 1.820174-3.612453 2.189788-3.961146C2.650062-4.38655 3.340473-4.47721 3.772852-4.47721C4.553923-4.47721 5.293151-4.002989 5.467497-3.103362C5.495392-2.956912 5.502366-2.93599 5.697634-2.93599H5.746451C5.948692-2.93599 5.969614-2.956912 5.969614-3.159153V-4.644583C5.969614-4.78406 5.969614-4.867746 5.809215-4.867746C5.725529-4.867746 5.711582-4.860772 5.641843-4.798007L5.174595-4.393524C4.470237-4.867746 3.828643-4.867746 3.605479-4.867746C1.590037-4.867746 .523039-3.737983 .523039-2.39203C.523039-1.26924 1.325031 .083686 3.668244 .083686C4.044832 .083686 4.853798 .069738 5.209465-.292902C5.369863-.18132 5.788294 0 5.844085 0C5.969614 0 5.969614-.118555 5.969614-.223163V-1.527273Z"></path>
+<path id="tz_tipos_textuais_g2-73" d="M2.196762-4.393524H2.984807V-4.78406C2.636115-4.756164 2.043337-4.756164 1.673724-4.756164S.704359-4.756164 .355666-4.78406V-4.393524H1.143711V-.390535H.355666V0C.704359-.027895 1.297136-.027895 1.66675-.027895S2.636115-.027895 2.984807 0V-.390535H2.196762V-4.393524Z"></path>
+<path id="tz_tipos_textuais_g2-74" d="M3.486924-4.393524H4.044832V-4.78406C4.016936-4.78406 3.249813-4.756164 2.949938-4.756164C2.698879-4.756164 2.440847-4.763138 2.182814-4.763138C1.994521-4.763138 1.701619-4.770112 1.513325-4.78406V-4.393524H2.48269V-1.053051C2.48269-.899626 2.48269-.237111 1.72254-.237111C1.694645-.237111 1.39477-.237111 1.157659-.334745C1.311083-.446326 1.387796-.599751 1.387796-.795019C1.387796-1.17858 1.08792-1.366874 .822914-1.366874C.530012-1.366874 .251059-1.157659 .251059-.795019C.251059-.265006 .753176 .083686 1.750436 .083686C2.831382 .083686 3.486924-.355666 3.486924-1.046077V-4.393524Z"></path>
+<path id="tz_tipos_textuais_g2-77" d="M4.233126-.871731L2.39203-4.588792C2.294396-4.78406 2.189788-4.78406 2.043337-4.78406H.439352V-4.393524H1.185554V-.564882C1.185554-.4533 1.17858-.446326 1.164633-.432379C1.101868-.390535 .753176-.390535 .669489-.390535H.439352V0C.530012-.006974 1.164633-.027895 1.429639-.027895S2.364134 0 2.419925 0V-.390535H2.189788C2.085181-.390535 1.945704-.397509 1.841096-.404483C1.680697-.418431 1.673724-.425405 1.673724-.564882V-4.274969H1.680697L3.703113-.195268C3.75193-.097634 3.814695 0 3.996015 0C4.05878 0 4.198257 0 4.288917-.188294L6.360149-4.372603H6.367123V-.390535H5.620922V0C5.739477-.006974 6.513574-.027895 6.827397-.027895C7.210959-.027895 7.943213-.006974 8.026899 0V-.390535H7.280697V-4.393524H8.026899V-4.78406H6.422914C6.290411-4.78406 6.164882-4.78406 6.074222-4.595766L4.233126-.871731Z"></path>
+<path id="tz_tipos_textuais_g2-78" d="M2.280448-4.6934C2.196762-4.78406 2.182814-4.78406 2.036364-4.78406H.397509V-4.393524H1.143711V-.564882C1.143711-.4533 1.136737-.446326 1.12279-.432379C1.060025-.390535 .711333-.390535 .627646-.390535H.397509V0C.488169-.006974 1.12279-.027895 1.387796-.027895S2.322291 0 2.378082 0V-.390535H2.147945C2.043337-.390535 1.903861-.397509 1.799253-.404483C1.638854-.418431 1.63188-.425405 1.63188-.564882V-4.051806L5.355915-.083686C5.432628 0 5.453549 0 5.593026 0C5.802242 0 5.837111-.034869 5.837111-.244085V-4.219178C5.837111-4.33076 5.844085-4.337733 5.858032-4.351681C5.920797-4.393524 6.269489-4.393524 6.353176-4.393524H6.583313V-4.78406C6.492653-4.777086 5.858032-4.756164 5.593026-4.756164S4.658531-4.78406 4.60274-4.78406V-4.393524H4.832877C4.937484-4.393524 5.076961-4.38655 5.181569-4.379577C5.341968-4.365629 5.348941-4.358655 5.348941-4.219178V-1.422665L2.280448-4.6934Z"></path>
+<path id="tz_tipos_textuais_g2-79" d="M6.220672-2.364134C6.220672-3.731009 5.251308-4.867746 3.375342-4.867746C1.457534-4.867746 .523039-3.703113 .523039-2.364134C.523039-1.011208 1.499377 .083686 3.368369 .083686C5.279203 .083686 6.220672-1.039103 6.220672-2.364134ZM3.368369-.285928C2.93599-.285928 2.371108-.432379 2.008468-.955417C1.687671-1.429639 1.659776-2.085181 1.659776-2.468742C1.659776-2.93599 1.701619-3.500872 2.050311-3.947198C2.343213-4.309838 2.824408-4.51208 3.368369-4.51208C5.083935-4.51208 5.083935-2.894147 5.083935-2.468742C5.083935-1.93873 5.021171-1.408717 4.749191-.976339C4.428394-.481196 3.884433-.285928 3.368369-.285928Z"></path>
+<path id="tz_tipos_textuais_g2-80" d="M2.196762-2.036364H3.556663C4.832877-2.036364 5.6-2.629141 5.6-3.396264C5.6-4.156413 4.853798-4.78406 3.556663-4.78406H.397509V-4.393524H1.143711V-.390535H.397509V0C.557908-.013948 1.555168-.027895 1.66675-.027895C1.820174-.027895 2.789539-.013948 2.942964 0V-.390535H2.196762V-2.036364ZM3.319552-4.393524C4.463263-4.393524 4.463263-3.84259 4.463263-3.396264C4.463263-2.942964 4.463263-2.39203 3.305604-2.39203H2.147945V-4.393524H3.319552Z"></path>
+<path id="tz_tipos_textuais_g2-81" d="M4.665504-.132503C5.941719-.613699 6.220672-1.673724 6.220672-2.364134C6.220672-3.731009 5.251308-4.867746 3.375342-4.867746C1.457534-4.867746 .523039-3.703113 .523039-2.364134C.523039-1.011208 1.499377 .083686 3.368369 .083686C3.535741 .083686 3.807721 .076712 4.093649 .020922C4.29589 .697385 4.505106 1.352927 5.202491 1.352927C5.913823 1.352927 6.269489 .592777 6.269489 .048817C6.269489 0 6.269489-.153425 6.116065-.153425C5.983562-.153425 5.969614-.034869 5.96264 .013948C5.941719 .139477 5.802242 .216189 5.348941 .216189C5.160648 .216189 4.937484 .216189 4.665504-.132503ZM2.601245-.418431C1.659776-.81594 1.610959-1.834122 1.610959-2.364134C1.610959-2.657036 1.624907-3.361395 1.959651-3.835616C2.364134-4.400498 2.956912-4.51208 3.368369-4.51208C3.849564-4.51208 4.428394-4.351681 4.791034-3.828643C5.097883-3.368369 5.132752-2.761644 5.132752-2.364134C5.132752-1.8132 5.069988-.955417 4.344707-.523039C4.086675-.81594 3.821669-1.115816 3.368369-1.115816C2.963885-1.115816 2.594271-.892653 2.594271-.523039C2.594271-.460274 2.594271-.446326 2.601245-.418431ZM3.947198-.348692C3.905355-.334745 3.66127-.27198 3.375342-.27198C3.291656-.27198 2.915068-.27198 2.915068-.523039C2.915068-.718306 3.187049-.795019 3.368369-.795019C3.619427-.795019 3.800747-.676463 3.947198-.348692Z"></path>
+<path id="tz_tipos_textuais_g2-82" d="M4.393524-2.364134C4.777086-2.48269 5.544209-2.796513 5.544209-3.472976C5.544209-4.226152 4.637609-4.78406 3.256787-4.78406H.397509V-4.393524H1.143711V-.390535H.397509V0C.564882-.013948 1.583064-.027895 1.645828-.027895C1.66675-.027895 2.705853-.013948 2.894147 0V-.390535H2.147945V-2.231631H3.11731C3.249813-2.231631 3.542715-2.231631 3.828643-2.001494C4.079701-1.806227 4.079701-1.638854 4.079701-1.136737C4.079701-.578829 4.079701 .083686 5.69066 .083686C6.520548 .083686 6.63213-.536986 6.63213-.690411C6.63213-.864757 6.5066-.864757 6.408966-.864757S6.206725-.864757 6.192777-.704359C6.157908-.327771 5.913823-.237111 5.760399-.237111C5.307098-.237111 5.244334-.690411 5.174595-1.234371C5.104857-1.701619 5.049066-2.12005 4.393524-2.364134ZM3.159153-2.552428H2.147945V-4.393524H3.187049C4.309838-4.393524 4.407472-3.926276 4.407472-3.472976C4.407472-3.033624 4.316812-2.552428 3.159153-2.552428Z"></path>
+<path id="tz_tipos_textuais_g2-83" d="M1.994521-3.110336C1.48543-3.20797 1.234371-3.500872 1.234371-3.800747C1.234371-4.093649 1.443587-4.51208 2.259527-4.51208C2.859278-4.51208 3.605479-4.302864 3.772852-3.396264C3.807721-3.214944 3.807721-3.194022 4.002989-3.194022C4.20523-3.194022 4.226152-3.214944 4.226152-3.417186V-4.644583C4.226152-4.78406 4.226152-4.867746 4.065753-4.867746C3.989041-4.867746 3.975093-4.867746 3.884433-4.777086L3.647323-4.553923C3.591532-4.498132 3.584558-4.498132 3.577584-4.498132S3.563636-4.498132 3.521793-4.533001C3.124284-4.798007 2.657036-4.867746 2.259527-4.867746C.99726-4.867746 .523039-4.11457 .523039-3.466002C.523039-3.096389 .683437-2.796513 .892653-2.580324C1.26924-2.203736 1.603985-2.133998 2.475716-1.966625C2.677958-1.931756 3.019676-1.868991 3.075467-1.855044C3.417186-1.764384 3.765878-1.499377 3.765878-1.094894C3.765878-1.018182 3.765878-.306849 2.712827-.306849C2.489664-.306849 1.959651-.327771 1.534247-.530012C1.046077-.774097 .976339-1.171606 .962391-1.408717C.955417-1.548194 .948443-1.590037 .746202-1.590037S.523039-1.569116 .523039-1.366874V-.139477C.523039 0 .523039 .083686 .683437 .083686C.767123 .083686 .781071 .076712 .829888 .034869C.9066-.034869 1.080946-.216189 1.157659-.278954C1.638854 .020922 2.238605 .083686 2.719801 .083686C4.037858 .083686 4.47721-.746202 4.47721-1.415691C4.47721-2.217684 3.807721-2.75467 3.138232-2.887173L1.994521-3.110336Z"></path>
+<path id="tz_tipos_textuais_g2-84" d="M5.732503-4.6934H.516065L.348692-3.02665H.788045C.864757-3.7868 .962391-4.302864 1.973599-4.302864H2.601245V-.390535H1.54122V0C1.72254-.013948 2.106102-.020922 2.294396-.020922C2.57335-.020922 2.852304-.027895 3.124284-.027895C3.410212-.027895 3.696139-.020922 3.982067-.020922C4.184309-.020922 4.51208-.013948 4.714321 0V-.390535H3.654296V-4.302864H4.274969C5.286177-4.302864 5.383811-3.793773 5.460523-3.02665H5.899875L5.732503-4.6934Z"></path>
+<path id="tz_tipos_textuais_g2-85" d="M5.718555-4.219178C5.718555-4.33076 5.725529-4.337733 5.739477-4.351681C5.802242-4.393524 6.150934-4.393524 6.23462-4.393524H6.464757V-4.78406C6.374097-4.777086 5.739477-4.756164 5.474471-4.756164C5.202491-4.756164 4.546949-4.78406 4.47721-4.78406V-4.393524H4.707347C4.811955-4.393524 4.951432-4.38655 5.05604-4.379577C5.216438-4.365629 5.223412-4.358655 5.223412-4.219178V-1.63188C5.223412-.599751 4.379577-.306849 3.584558-.306849C2.280448-.306849 2.196762-1.101868 2.196762-1.590037V-4.393524H2.942964V-4.78406C2.782565-4.770112 1.785305-4.756164 1.673724-4.756164C1.520299-4.756164 .550934-4.770112 .397509-4.78406V-4.393524H1.143711V-1.610959C1.143711-.739228 1.889913 .083686 3.556663 .083686C5.118804 .083686 5.718555-.795019 5.718555-1.603985V-4.219178Z"></path>
+<path id="tz_tipos_textuais_g2-88" d="M3.7868-2.719801L5.111831-4.274969C5.188543-4.351681 5.195517-4.358655 5.397758-4.379577C5.50934-4.38655 5.662765-4.393524 5.774346-4.393524H6.039352V-4.78406C5.969614-4.78406 5.432628-4.756164 5.076961-4.756164C4.679452-4.756164 4.016936-4.78406 3.947198-4.78406V-4.393524C4.128518-4.393524 4.309838-4.393524 4.519054-4.344707L3.466002-3.103362L2.405978-4.393524H2.908095V-4.78406C2.559402-4.756164 1.966625-4.756164 1.597011-4.756164C1.164633-4.756164 .54396-4.777086 .446326-4.78406V-4.393524H1.157659L2.838356-2.364134L1.255293-.509091C1.17858-.425405 1.171606-.418431 .969365-.404483C.857783-.397509 .711333-.390535 .599751-.390535H.327771V0C.383562 0 .969365-.027895 1.297136-.027895C1.694645-.027895 2.357161 0 2.426899 0V-.390535C2.245579-.390535 2.057285-.390535 1.855044-.439352L3.159153-1.973599L4.463263-.390535H3.961146V0C4.309838-.027895 4.895641-.027895 5.265255-.027895C5.704608-.027895 6.318306-.006974 6.422914 0V-.390535H5.711582L3.7868-2.719801Z"></path>
+<path id="tz_tipos_textuais_g2-97" d="M3.682192-2.057285C3.682192-2.629141 3.221918-3.159153 1.966625-3.159153C1.562142-3.159153 .585803-3.159153 .585803-2.468742C.585803-2.161893 .808966-1.980573 1.066999-1.980573C1.373848-1.980573 1.555168-2.196762 1.555168-2.461768C1.555168-2.615193 1.492403-2.719801 1.471482-2.740722C1.457534-2.761644 1.45056-2.775592 1.45056-2.789539C1.45056-2.824408 1.896887-2.838356 1.945704-2.838356C2.433873-2.838356 2.796513-2.643088 2.796513-2.050311V-1.862017C2.454795-1.862017 .285928-1.834122 .285928-.801993C.285928-.153425 1.053051 .041843 1.750436 .041843C2.489664 .041843 2.817435-.292902 2.93599-.474222C2.93599-.174346 3.124284 0 3.696139 0H4.107597C4.2401 0 4.351681 0 4.351681-.195268S4.247073-.390535 4.100623-.390535C3.682192-.390535 3.682192-.446326 3.682192-.606725V-2.057285ZM2.796513-.955417C2.796513-.808966 2.796513-.606725 2.524533-.439352C2.259527-.278954 1.931756-.278954 1.889913-.278954C1.499377-.278954 1.164633-.495143 1.164633-.808966C1.164633-1.380822 2.099128-1.569116 2.796513-1.590037V-.955417Z"></path>
+<path id="tz_tipos_textuais_g2-99" d="M3.731009-.795019C3.731009-.920548 3.612453-.920548 3.507846-.920548C3.347447-.920548 3.333499-.913574 3.284682-.808966C3.180075-.578829 2.956912-.313823 2.419925-.313823C1.297136-.313823 1.297136-1.290162 1.297136-1.57609C1.297136-2.099128 1.380822-2.803487 2.315318-2.803487C2.357161-2.803487 2.75467-2.796513 2.75467-2.768618C2.75467-2.75467 2.747696-2.747696 2.740722-2.740722C2.726775-2.719801 2.66401-2.615193 2.66401-2.461768C2.66401-2.175841 2.873225-1.980573 3.145205-1.980573C3.431133-1.980573 3.633375-2.175841 3.633375-2.468742C3.633375-3.138232 2.698879-3.159153 2.294396-3.159153C.739228-3.159153 .327771-2.196762 .327771-1.548194C.327771-.732254 .934496 .041843 2.252553 .041843C2.594271 .041843 2.949938-.013948 3.228892-.174346C3.626401-.411457 3.731009-.753176 3.731009-.795019Z"></path>
+<path id="tz_tipos_textuais_g2-100" d="M2.84533-4.78406V-4.393524C3.256787-4.393524 3.312578-4.393524 3.312578-4.121544V-2.84533C2.880199-3.110336 2.489664-3.138232 2.259527-3.138232C1.011208-3.138232 .327771-2.426899 .327771-1.54122C.327771-.676463 .976339 .041843 2.168867 .041843C2.615193 .041843 2.984807-.097634 3.263761-.292902V.041843L4.616687 0V-.390535C4.20523-.390535 4.14944-.390535 4.14944-.662516V-4.839851L2.84533-4.78406ZM3.263761-.808966C3.103362-.578829 2.761644-.278954 2.252553-.278954C1.297136-.278954 1.297136-1.115816 1.297136-1.527273C1.297136-1.959651 1.297136-2.817435 2.343213-2.817435C2.929016-2.817435 3.242839-2.426899 3.263761-2.399004V-.808966Z"></path>
+<path id="tz_tipos_textuais_g2-101" d="M3.598506-1.45056C3.744956-1.45056 3.84259-1.45056 3.84259-1.659776C3.84259-1.862017 3.793773-2.385056 3.459029-2.726775C3.082441-3.103362 2.566376-3.159153 2.182814-3.159153C.892653-3.159153 .278954-2.39203 .278954-1.569116C.278954-.739228 .920548 .041843 2.30137 .041843C2.552428 .041843 2.956912 .013948 3.305604-.174346C3.717061-.390535 3.84259-.72528 3.84259-.795019C3.84259-.948443 3.689166-.948443 3.619427-.948443C3.493898-.948443 3.459029-.941469 3.403238-.829888C3.152179-.313823 2.517559-.313823 2.399004-.313823C1.297136-.313823 1.262267-1.129763 1.248319-1.45056H3.598506ZM1.248319-1.743462C1.255293-2.015442 1.290162-2.838356 2.189788-2.838356S3.138232-2.043337 3.152179-1.743462H1.248319Z"></path>
+<path id="tz_tipos_textuais_g2-104" d="M4.267995-2.099128C4.267995-2.956912 3.717061-3.138232 3.075467-3.138232C2.30137-3.138232 1.910834-2.719801 1.750436-2.48269V-4.839851L.446326-4.78406V-4.393524C.857783-4.393524 .913574-4.393524 .913574-4.121544V-.390535H.446326V0C.4533 0 1.018182-.027895 1.352927-.027895C1.694645-.027895 2.259527 0 2.266501 0V-.390535H1.799253V-1.736488C1.799253-2.545455 2.524533-2.817435 2.942964-2.817435C3.249813-2.817435 3.382316-2.657036 3.382316-2.154919V-.390535H2.915068V0C2.922042 0 3.486924-.027895 3.821669-.027895C4.163387-.027895 4.728269 0 4.735243 0V-.390535H4.267995V-2.099128Z"></path>
+<path id="tz_tipos_textuais_g2-105" d="M1.827148-4.274969C1.827148-4.609714 1.555168-4.846824 1.262267-4.846824C.927522-4.846824 .690411-4.574844 .690411-4.281943C.690411-3.947198 .962391-3.710087 1.255293-3.710087C1.590037-3.710087 1.827148-3.982067 1.827148-4.274969ZM.488169-3.082441V-2.691905C.885679-2.691905 .934496-2.691905 .934496-2.419925V-.390535H.467248V0C.481196 0 1.03213-.027895 1.345953-.027895C1.63188-.027895 1.910834-.020922 2.196762 0V-.390535H1.771357V-3.138232L.488169-3.082441Z"></path>
+<path id="tz_tipos_textuais_g2-108" d="M1.771357-4.839851L.467248-4.78406V-4.393524C.878705-4.393524 .934496-4.393524 .934496-4.121544V-.390535H.467248V0C.488169 0 1.03213-.027895 1.352927-.027895C1.694645-.027895 2.217684 0 2.238605 0V-.390535H1.771357V-4.839851Z"></path>
+<path id="tz_tipos_textuais_g2-109" d="M6.750685-2.099128C6.750685-2.970859 6.171856-3.138232 5.558157-3.138232C4.888667-3.138232 4.463263-2.824408 4.233126-2.48269C4.05878-3.089415 3.459029-3.138232 3.082441-3.138232C2.245579-3.138232 1.84807-2.650062 1.708593-2.412951V-3.138232L.446326-3.082441V-2.691905C.857783-2.691905 .913574-2.691905 .913574-2.419925V-.390535H.446326V0C.4533 0 1.018182-.027895 1.352927-.027895C1.694645-.027895 2.259527 0 2.266501 0V-.390535H1.799253V-1.736488C1.799253-2.559402 2.545455-2.817435 2.942964-2.817435C3.256787-2.817435 3.38929-2.66401 3.38929-2.147945V-.390535H2.922042V0C2.929016 0 3.493898-.027895 3.828643-.027895C4.170361-.027895 4.735243 0 4.742217 0V-.390535H4.274969V-1.736488C4.274969-2.559402 5.021171-2.817435 5.41868-2.817435C5.732503-2.817435 5.865006-2.66401 5.865006-2.147945V-.390535H5.397758V0C5.404732 0 5.969614-.027895 6.304359-.027895C6.646077-.027895 7.210959 0 7.217933 0V-.390535H6.750685V-2.099128Z"></path>
+<path id="tz_tipos_textuais_g2-110" d="M4.267995-2.099128C4.267995-2.956912 3.717061-3.138232 3.075467-3.138232C2.231631-3.138232 1.841096-2.636115 1.708593-2.412951V-3.138232L.446326-3.082441V-2.691905C.857783-2.691905 .913574-2.691905 .913574-2.419925V-.390535H.446326V0C.4533 0 1.018182-.027895 1.352927-.027895C1.694645-.027895 2.259527 0 2.266501 0V-.390535H1.799253V-1.736488C1.799253-2.545455 2.524533-2.817435 2.942964-2.817435C3.249813-2.817435 3.382316-2.657036 3.382316-2.154919V-.390535H2.915068V0C2.922042 0 3.486924-.027895 3.821669-.027895C4.163387-.027895 4.728269 0 4.735243 0V-.390535H4.267995V-2.099128Z"></path>
+<path id="tz_tipos_textuais_g2-111" d="M4.226152-1.520299C4.226152-2.350187 3.619427-3.159153 2.252553-3.159153C.871731-3.159153 .278954-2.343213 .278954-1.520299C.278954-.704359 .899626 .041843 2.252553 .041843C3.612453 .041843 4.226152-.711333 4.226152-1.520299ZM2.252553-.313823C1.248319-.313823 1.248319-1.004234 1.248319-1.603985C1.248319-2.161893 1.248319-2.838356 2.252553-2.838356S3.256787-2.161893 3.256787-1.603985C3.256787-1.004234 3.256787-.313823 2.252553-.313823Z"></path>
+<path id="tz_tipos_textuais_g2-112" d="M2.203736 .962391H1.736488V-.258032C1.910834-.139477 2.252553 .041843 2.740722 .041843C3.940224 .041843 4.672478-.63462 4.672478-1.555168C4.672478-2.399004 4.065753-3.138232 2.880199-3.138232C2.517559-3.138232 2.092154-3.068493 1.687671-2.817435V-3.138232L.383562-3.082441V-2.691905C.502117-2.691905 .641594-2.691905 .732254-2.677958C.850809-2.657036 .850809-2.580324 .850809-2.447821V.962391H.383562V1.352927C.390535 1.352927 .955417 1.325031 1.290162 1.325031C1.63188 1.325031 2.196762 1.352927 2.203736 1.352927V.962391ZM1.736488-2.231631C1.736488-2.364134 1.743462-2.371108 1.841096-2.461768C2.175841-2.75467 2.587298-2.782565 2.733748-2.782565C3.326526-2.782565 3.703113-2.308344 3.703113-1.555168C3.703113-.648568 3.180075-.278954 2.650062-.278954S1.820174-.655542 1.736488-.774097V-2.231631Z"></path>
+<path id="tz_tipos_textuais_g2-114" d="M1.687671-1.464508C1.687671-2.092154 1.973599-2.782565 2.601245-2.817435C2.594271-2.810461 2.503611-2.691905 2.503611-2.517559C2.503611-2.245579 2.698879-2.043337 2.977833-2.043337S3.452055-2.245579 3.452055-2.517559C3.452055-2.901121 3.061519-3.138232 2.629141-3.138232C2.127024-3.138232 1.792279-2.803487 1.603985-2.371108H1.597011V-3.138232L.383562-3.082441V-2.691905C.795019-2.691905 .850809-2.691905 .850809-2.419925V-.390535H.383562V0C.411457 0 .948443-.027895 1.276214-.027895C1.548194-.027895 2.224658 0 2.273474 0V-.390535H1.687671V-1.464508Z"></path>
+<path id="tz_tipos_textuais_g2-115" d="M3.012702-2.93599C3.012702-3.075467 3.012702-3.159153 2.84533-3.159153C2.796513-3.159153 2.775592-3.159153 2.66401-3.103362C2.650062-3.096389 2.559402-3.054545 2.531507-3.054545C2.524533-3.054545 2.510585-3.054545 2.48269-3.068493C2.196762-3.159153 1.903861-3.159153 1.75741-3.159153C1.555168-3.159153 1.129763-3.159153 .781071-2.970859C.383562-2.747696 .327771-2.385056 .327771-2.224658C.327771-1.471482 1.248319-1.332005 1.736488-1.255293C2.161893-1.192528 2.670984-1.115816 2.670984-.753176C2.670984-.278954 1.980573-.278954 1.8132-.278954C1.150685-.278954 .9066-.578829 .774097-.955417C.732254-1.073973 .72528-1.08792 .550934-1.08792C.348692-1.08792 .327771-1.066999 .327771-.864757V-.18132C.327771-.041843 .327771 .041843 .488169 .041843C.550934 .041843 .564882 .041843 .711333-.048817C.753176-.069738 .864757-.132503 .9066-.160399C1.26924 .041843 1.645828 .041843 1.806227 .041843C2.036364 .041843 3.235866 .041843 3.235866-.990286C3.235866-1.311083 3.068493-1.534247 2.908095-1.66675C2.580324-1.93873 2.280448-1.987547 1.701619-2.078207C1.30411-2.140971 .892653-2.203736 .892653-2.48269C.892653-2.873225 1.590037-2.873225 1.736488-2.873225C2.524533-2.873225 2.552428-2.552428 2.57335-2.385056C2.587298-2.245579 2.629141-2.231631 2.789539-2.231631C2.991781-2.231631 3.012702-2.252553 3.012702-2.454795V-2.93599Z"></path>
+<path id="tz_tipos_textuais_g2-116" d="M1.708593-2.705853H2.84533V-3.096389H1.708593V-4.428394H1.26924C1.262267-3.779826 .934496-3.047572 .195268-3.02665V-2.705853H.822914V-.843836C.822914-.153425 1.387796 .041843 1.994521 .041843C2.545455 .041843 2.991781-.278954 2.991781-.843836V-1.206476H2.552428V-.871731C2.552428-.390535 2.259527-.313823 2.12005-.313823C1.715567-.313823 1.708593-.655542 1.708593-.843836V-2.705853Z"></path>
+<path id="tz_tipos_textuais_g2-117" d="M2.915068-3.082441V-2.691905C3.326526-2.691905 3.382316-2.691905 3.382316-2.419925V-1.129763C3.382316-.550934 2.93599-.278954 2.405978-.278954C1.806227-.278954 1.799253-.432379 1.799253-.767123V-3.138232L.446326-3.082441V-2.691905C.857783-2.691905 .913574-2.691905 .913574-2.419925V-.843836C.913574-.034869 1.687671 .041843 2.287422 .041843C2.517559 .041843 3.033624 .041843 3.431133-.4533V.041843L4.735243 0V-.390535C4.323786-.390535 4.267995-.390535 4.267995-.662516V-3.138232L2.915068-3.082441Z"></path>
+<path id="tz_tipos_textuais_g2-118" d="M3.996015-2.587298C4.044832-2.677958 4.051806-2.684932 4.198257-2.698879C4.281943-2.705853 4.456289-2.705853 4.505106-2.705853V-3.096389C4.288917-3.082441 4.142466-3.068493 3.919303-3.068493C3.710087-3.068493 3.438107-3.075467 3.228892-3.096389V-2.705853C3.410212-2.705853 3.452055-2.691905 3.535741-2.66401L2.601245-.829888L1.645828-2.705853H1.973599V-3.096389C1.673724-3.082441 1.366874-3.068493 1.066999-3.068493C.795019-3.068493 .523039-3.075467 .251059-3.096389V-2.705853H.704359L2.008468-.153425C2.099128 .027895 2.168867 .041843 2.378082 .041843S2.650062 .027895 2.747696-.153425L3.996015-2.587298Z"></path>
+<path id="tz_tipos_textuais_g2-120" d="M2.75467-1.687671L3.717061-2.657036C3.884433-2.705853 4.065753-2.705853 4.365629-2.705853V-3.096389C4.142466-3.075467 3.912329-3.068493 3.689166-3.068493C3.452055-3.068493 2.970859-3.089415 2.915068-3.096389V-2.705853C3.005729-2.705853 3.054545-2.691905 3.103362-2.66401L2.447821-2.001494L1.771357-2.705853H1.959651V-3.096389C1.917808-3.096389 1.366874-3.068493 1.073973-3.068493C.808966-3.068493 .550934-3.075467 .285928-3.096389V-2.705853H.808966L1.952677-1.513325L.948443-.502117C.857783-.418431 .850809-.411457 .63462-.397509C.523039-.390535 .278954-.390535 .244085-.390535V0C.467248-.020922 .697385-.027895 .920548-.027895C1.108842-.027895 1.603985-.006974 1.694645 0V-.390535C1.583064-.390535 1.555168-.404483 1.506351-.439352L2.259527-1.192528L3.033624-.390535H2.852304V0C2.859278 0 3.417186-.027895 3.737983-.027895C3.996015-.027895 4.261021-.020922 4.519054 0V-.390535H4.002989L2.75467-1.687671Z"></path>
+<path id="tz_tipos_textuais_g2-126" d="M3.507846-4.839851C3.38929-4.721295 3.159153-4.533001 2.873225-4.533001C2.705853-4.533001 2.566376-4.581818 2.315318-4.6934C2.147945-4.770112 1.980573-4.839851 1.792279-4.839851C1.48543-4.839851 1.373848-4.735243 .774097-4.14944L.99726-3.919303C1.115816-4.037858 1.345953-4.226152 1.63188-4.226152C1.799253-4.226152 1.93873-4.177335 2.189788-4.065753C2.357161-3.989041 2.524533-3.919303 2.712827-3.919303C3.019676-3.919303 3.131258-4.02391 3.731009-4.609714L3.507846-4.839851Z"></path>
+<path id="tz_tipos_textuais_g3-12" d="M2.719801-3.02665C2.643088-3.019676 2.608219-3.019676 2.594271-3.012702S2.566376-3.005729 2.468742-3.005729H1.3599V-3.765878C1.3599-4.456289 2.078207-4.714321 2.559402-4.714321C2.796513-4.714321 3.033624-4.665504 3.214944-4.519054C2.963885-4.463263 2.942964-4.267995 2.942964-4.184309C2.942964-3.96812 3.11731-3.84259 3.284682-3.84259C3.410212-3.84259 3.626401-3.926276 3.626401-4.198257C3.626401-4.581818 3.235866-4.909589 2.587298-4.909589C1.862017-4.909589 .864757-4.581818 .864757-3.772852V-3.005729H.265006V-2.75467H.864757V-.550934C.864757-.251059 .795019-.251059 .341719-.251059V0C.355666 0 .843836-.027895 1.12279-.027895C1.387796-.027895 1.645828-.020922 1.910834 0V-.251059C1.457534-.251059 1.387796-.251059 1.387796-.550934V-2.75467H2.775592C3.061519-2.75467 3.11731-2.684932 3.11731-2.378082V-.550934C3.11731-.251059 3.047572-.251059 2.594271-.251059V0C2.608219 0 3.096389-.027895 3.375342-.027895C3.640349-.027895 3.898381-.020922 4.163387 0V-.251059C3.710087-.251059 3.640349-.251059 3.640349-.550934V-3.089415L2.719801-3.02665Z"></path>
+<path id="tz_tipos_textuais_g3-19" d="M1.799253-3.528767C2.343213-3.926276 2.768618-4.219178 2.901121-4.323786C3.012702-4.400498 3.075467-4.449315 3.075467-4.581818S2.956912-4.867746 2.789539-4.867746C2.677958-4.867746 2.622167-4.804981 2.552428-4.728269L1.638854-3.710087L1.799253-3.528767Z"></path>
+<path id="tz_tipos_textuais_g3-24" d="M2.259527 .139477H1.708593V.481196C2.175841 .488169 2.350187 .662516 2.350187 .850809C2.350187 1.12279 1.987547 1.227397 1.311083 1.227397H1.060025V1.422665H1.401743C1.408717 1.422665 1.966625 1.422665 2.322291 1.345953C2.608219 1.283188 2.901121 1.164633 2.901121 .850809C2.901121 .571856 2.691905 .390535 2.259527 .320797V.139477Z"></path>
+<path id="tz_tipos_textuais_g3-34" d="M1.025156-4.170361C1.025156-3.947198 1.025156-3.375342 .474222-2.887173C.425405-2.84533 .411457-2.824408 .411457-2.789539C.411457-2.747696 .460274-2.684932 .509091-2.684932C.592777-2.684932 1.220423-3.221918 1.220423-4.079701C1.220423-4.491158 1.053051-4.839851 .711333-4.839851C.446326-4.839851 .313823-4.630635 .313823-4.442341C.313823-4.247073 .439352-4.037858 .718306-4.037858C.913574-4.037858 .976339-4.107597 1.025156-4.170361ZM2.524533-4.170361C2.524533-3.947198 2.524533-3.375342 1.973599-2.887173C1.924782-2.84533 1.910834-2.824408 1.910834-2.789539C1.910834-2.747696 1.959651-2.684932 2.008468-2.684932C2.092154-2.684932 2.719801-3.221918 2.719801-4.079701C2.719801-4.491158 2.552428-4.839851 2.21071-4.839851C1.945704-4.839851 1.8132-4.630635 1.8132-4.442341C1.8132-4.247073 1.93873-4.037858 2.217684-4.037858C2.412951-4.037858 2.475716-4.107597 2.524533-4.170361Z"></path>
+<path id="tz_tipos_textuais_g3-43" d="M3.228892-1.57609H5.362889C5.453549-1.57609 5.620922-1.57609 5.620922-1.743462C5.620922-1.917808 5.460523-1.917808 5.362889-1.917808H3.228892V-4.05878C3.228892-4.14944 3.228892-4.316812 3.061519-4.316812C2.887173-4.316812 2.887173-4.156413 2.887173-4.05878V-1.917808H.746202C.655542-1.917808 .488169-1.917808 .488169-1.750436C.488169-1.57609 .648568-1.57609 .746202-1.57609H2.887173V.564882C2.887173 .655542 2.887173 .822914 3.054545 .822914C3.228892 .822914 3.228892 .662516 3.228892 .564882V-1.57609Z"></path>
+<path id="tz_tipos_textuais_g3-44" d="M1.415691-.111582C1.415691 .083686 1.415691 .669489 .871731 1.164633C.843836 1.192528 .822914 1.21345 .822914 1.248319C.822914 1.290162 .871731 1.352927 .920548 1.352927C1.011208 1.352927 1.610959 .801993 1.610959-.041843C1.610959-.460274 1.45056-.801993 1.12279-.801993C.878705-.801993 .72528-.613699 .72528-.397509C.72528-.230137 .836862 0 1.129763 0C1.30411 0 1.408717-.104608 1.415691-.111582Z"></path>
+<path id="tz_tipos_textuais_g3-45" d="M2.189788-1.262267V-1.736488H.139477V-1.262267H2.189788Z"></path>
+<path id="tz_tipos_textuais_g3-46" d="M1.527273-.397509C1.527273-.641594 1.332005-.801993 1.129763-.801993C.885679-.801993 .72528-.606725 .72528-.404483C.72528-.160399 .920548 0 1.12279 0C1.366874 0 1.527273-.195268 1.527273-.397509Z"></path>
+<path id="tz_tipos_textuais_g3-47" d="M3.438107-4.930511C3.472976-5.014197 3.472976-5.042092 3.472976-5.05604C3.472976-5.174595 3.375342-5.230386 3.305604-5.230386C3.187049-5.230386 3.152179-5.1467 3.11731-5.05604L.523039 1.443587C.488169 1.527273 .488169 1.555168 .488169 1.569116C.488169 1.687671 .585803 1.743462 .655542 1.743462C.774097 1.743462 .808966 1.659776 .843836 1.569116L3.438107-4.930511Z"></path>
+<path id="tz_tipos_textuais_g3-50" d="M3.521793-1.26924H3.284682C3.263761-1.115816 3.194022-.704359 3.103362-.63462C3.047572-.592777 2.510585-.592777 2.412951-.592777H1.129763C1.862017-1.241345 2.106102-1.436613 2.524533-1.764384C3.040598-2.175841 3.521793-2.608219 3.521793-3.270735C3.521793-4.11457 2.782565-4.630635 1.889913-4.630635C1.025156-4.630635 .439352-4.02391 .439352-3.382316C.439352-3.02665 .739228-2.991781 .808966-2.991781C.976339-2.991781 1.17858-3.110336 1.17858-3.361395C1.17858-3.486924 1.129763-3.731009 .767123-3.731009C.983313-4.226152 1.457534-4.379577 1.785305-4.379577C2.48269-4.379577 2.84533-3.835616 2.84533-3.270735C2.84533-2.66401 2.412951-2.182814 2.189788-1.931756L.509091-.27198C.439352-.209215 .439352-.195268 .439352 0H3.312578L3.521793-1.26924Z"></path>
+<path id="tz_tipos_textuais_g3-70" d="M4.546949-4.735243H.390535V-4.484184H.557908C1.094894-4.484184 1.108842-4.414446 1.108842-4.170361V-.564882C1.108842-.327771 1.094894-.251059 .557908-.251059H.390535V0C.397509 0 1.185554-.027895 1.45056-.027895C1.736488-.027895 2.566376-.006974 2.670984 0V-.251059H2.426899C1.771357-.251059 1.771357-.341719 1.771357-.571856V-2.245579H2.447821C3.145205-2.245579 3.242839-2.036364 3.242839-1.429639H3.47995V-3.312578H3.242839C3.242839-2.712827 3.145205-2.496638 2.447821-2.496638H1.771357V-4.212204C1.771357-4.428394 1.778331-4.484184 2.106102-4.484184H3.082441C4.20523-4.484184 4.393524-4.107597 4.519054-3.131258H4.756164L4.546949-4.735243Z"></path>
+<path id="tz_tipos_textuais_g3-92" d="M1.436613-3.354421C1.436613-3.577584 1.436613-4.14944 1.987547-4.637609C2.036364-4.679452 2.050311-4.700374 2.050311-4.735243C2.050311-4.777086 2.001494-4.839851 1.952677-4.839851C1.868991-4.839851 1.241345-4.302864 1.241345-3.445081C1.241345-3.033624 1.408717-2.684932 1.750436-2.684932C2.015442-2.684932 2.147945-2.894147 2.147945-3.082441C2.147945-3.277709 2.022416-3.486924 1.743462-3.486924C1.548194-3.486924 1.48543-3.417186 1.436613-3.354421ZM2.93599-3.354421C2.93599-3.577584 2.93599-4.14944 3.486924-4.637609C3.535741-4.679452 3.549689-4.700374 3.549689-4.735243C3.549689-4.777086 3.500872-4.839851 3.452055-4.839851C3.368369-4.839851 2.740722-4.302864 2.740722-3.445081C2.740722-3.033624 2.908095-2.684932 3.249813-2.684932C3.514819-2.684932 3.647323-2.894147 3.647323-3.082441C3.647323-3.277709 3.521793-3.486924 3.242839-3.486924C3.047572-3.486924 2.984807-3.417186 2.93599-3.354421Z"></path>
+<path id="tz_tipos_textuais_g3-94" d="M1.980573-4.839851L.941469-3.912329L1.094894-3.731009L1.980573-4.42142L2.866252-3.731009L3.019676-3.912329L1.980573-4.839851Z"></path>
+<path id="tz_tipos_textuais_g3-97" d="M3.110336-1.868991C3.110336-2.238605 3.110336-2.503611 2.789539-2.761644C2.503611-2.998755 2.168867-3.110336 1.75741-3.110336C1.094894-3.110336 .627646-2.859278 .627646-2.433873C.627646-2.21071 .781071-2.092154 .962391-2.092154C1.150685-2.092154 1.290162-2.231631 1.290162-2.419925C1.290162-2.538481 1.234371-2.684932 1.046077-2.740722C1.297136-2.915068 1.701619-2.915068 1.743462-2.915068C2.133998-2.915068 2.559402-2.657036 2.559402-2.071233V-1.855044C2.175841-1.841096 1.715567-1.820174 1.206476-1.63188C.578829-1.401743 .383562-1.018182 .383562-.704359C.383562-.104608 1.108842 .069738 1.603985 .069738C2.161893 .069738 2.489664-.244085 2.636115-.516065C2.66401-.230137 2.852304 .034869 3.173101 .034869C3.187049 .034869 3.863512 .034869 3.863512-.627646V-1.011208H3.626401V-.63462C3.626401-.564882 3.626401-.230137 3.368369-.230137S3.110336-.557908 3.110336-.648568V-1.868991ZM2.559402-.983313C2.559402-.313823 1.973599-.125529 1.659776-.125529C1.30411-.125529 .969365-.36264 .969365-.704359C.969365-1.08792 1.30411-1.624907 2.559402-1.673724V-.983313Z"></path>
+<path id="tz_tipos_textuais_g3-98" d="M1.387796-4.839851L.341719-4.763138V-4.51208C.81594-4.51208 .864757-4.456289 .864757-4.107597V0H1.101868L1.345953-.425405C1.610959-.076712 1.994521 .069738 2.364134 .069738C3.284682 .069738 4.072727-.620672 4.072727-1.506351C4.072727-2.357161 3.354421-3.075467 2.440847-3.075467C2.022416-3.075467 1.638854-2.908095 1.387796-2.657036V-4.839851ZM1.415691-2.336239C1.610959-2.657036 1.987547-2.880199 2.405978-2.880199C2.796513-2.880199 3.075467-2.657036 3.214944-2.447821C3.354421-2.245579 3.438107-1.973599 3.438107-1.513325C3.438107-1.352927 3.438107-.829888 3.152179-.502117C2.873225-.188294 2.531507-.125529 2.329265-.125529C1.771357-.125529 1.492403-.564882 1.415691-.711333V-2.336239Z"></path>
+<path id="tz_tipos_textuais_g3-99" d="M2.712827-2.782565C2.587298-2.726775 2.517559-2.615193 2.517559-2.475716C2.517559-2.287422 2.650062-2.147945 2.84533-2.147945C3.033624-2.147945 3.180075-2.266501 3.180075-2.489664C3.180075-3.110336 2.21071-3.110336 2.015442-3.110336C.969365-3.110336 .320797-2.308344 .320797-1.506351C.320797-.627646 1.066999 .069738 1.980573 .069738C3.019676 .069738 3.263761-.753176 3.263761-.836862S3.173101-.920548 3.145205-.920548C3.054545-.920548 3.047572-.899626 3.012702-.801993C2.859278-.369614 2.489664-.153425 2.064259-.153425C1.583064-.153425 .955417-.509091 .955417-1.513325C.955417-2.399004 1.387796-2.887173 2.036364-2.887173C2.127024-2.887173 2.461768-2.887173 2.712827-2.782565Z"></path>
+<path id="tz_tipos_textuais_g3-100" d="M2.48269-4.763138V-4.51208C2.949938-4.51208 3.005729-4.463263 3.005729-4.121544V-2.677958C2.747696-2.929016 2.412951-3.075467 2.02939-3.075467C1.101868-3.075467 .320797-2.378082 .320797-1.499377C.320797-.627646 1.060025 .069738 1.945704 .069738C2.517559 .069738 2.859278-.237111 2.977833-.36264V.069738L4.051806 0V-.251059C3.584558-.251059 3.528767-.299875 3.528767-.641594V-4.839851L2.48269-4.763138ZM2.977833-.732254C2.796513-.404483 2.440847-.125529 1.987547-.125529C1.597011-.125529 1.318057-.355666 1.17858-.557908C1.039103-.767123 .955417-1.046077 .955417-1.492403C.955417-1.652802 .955417-2.175841 1.241345-2.503611C1.520299-2.817435 1.862017-2.880199 2.064259-2.880199C2.399004-2.880199 2.698879-2.726775 2.894147-2.475716C2.977833-2.364134 2.977833-2.357161 2.977833-2.224658V-.732254Z"></path>
+<path id="tz_tipos_textuais_g3-101" d="M3.068493-1.590037C3.214944-1.590037 3.263761-1.590037 3.263761-1.743462C3.263761-2.357161 2.922042-3.110336 1.882939-3.110336C.969365-3.110336 .27198-2.385056 .27198-1.527273C.27198-.641594 1.046077 .069738 1.973599 .069738C2.915068 .069738 3.263761-.683437 3.263761-.836862C3.263761-.864757 3.249813-.934496 3.145205-.934496C3.054545-.934496 3.040598-.892653 3.019676-.822914C2.803487-.258032 2.273474-.153425 2.022416-.153425C1.694645-.153425 1.380822-.299875 1.171606-.564882C.913574-.892653 .9066-1.318057 .9066-1.590037H3.068493ZM.913574-1.771357C.990286-2.75467 1.617933-2.915068 1.882939-2.915068C2.740722-2.915068 2.768618-1.945704 2.775592-1.771357H.913574Z"></path>
+<path id="tz_tipos_textuais_g3-102" d="M1.436613-2.75467H2.308344V-3.005729H1.408717V-3.7868C1.408717-4.42142 1.785305-4.714321 2.085181-4.714321C2.147945-4.714321 2.217684-4.700374 2.287422-4.679452C2.189788-4.623661 2.133998-4.51208 2.133998-4.400498C2.133998-4.212204 2.266501-4.079701 2.454795-4.079701S2.775592-4.212204 2.775592-4.400498C2.775592-4.700374 2.475716-4.909589 2.092154-4.909589C1.54122-4.909589 .913574-4.519054 .913574-3.7868V-3.005729H.313823V-2.75467H.913574V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.425405 0 .899626-.027895 1.185554-.027895C1.48543-.027895 1.792279-.013948 2.092154 0V-.251059H1.952677C1.436613-.251059 1.436613-.327771 1.436613-.564882V-2.75467Z"></path>
+<path id="tz_tipos_textuais_g3-103" d="M1.004234-1.241345C1.108842-1.17858 1.3599-1.025156 1.764384-1.025156C2.48269-1.025156 3.005729-1.506351 3.005729-2.050311C3.005729-2.322291 2.880199-2.538481 2.712827-2.719801C3.02665-2.942964 3.29863-2.949938 3.417186-2.949938C3.38929-2.922042 3.354421-2.894147 3.354421-2.782565C3.354421-2.643088 3.459029-2.559402 3.577584-2.559402C3.675218-2.559402 3.800747-2.629141 3.800747-2.789539S3.668244-3.145205 3.38929-3.145205C3.284682-3.145205 2.908095-3.124284 2.580324-2.824408C2.371108-2.977833 2.078207-3.075467 1.771357-3.075467C1.053051-3.075467 .530012-2.594271 .530012-2.050311C.530012-1.778331 .669489-1.527273 .864757-1.345953C.808966-1.283188 .655542-1.053051 .655542-.781071C.655542-.690411 .676463-.36264 .948443-.160399C.63462-.055791 .27198 .174346 .27198 .536986C.27198 1.046077 1.039103 1.429639 1.980573 1.429639C2.866252 1.429639 3.689166 1.080946 3.689166 .523039C3.689166 .313823 3.605479-.062765 3.221918-.27198C2.810461-.488169 2.399004-.488169 1.72254-.488169C1.569116-.488169 1.318057-.488169 1.262267-.495143C1.039103-.54396 .913574-.753176 .913574-.955417C.913574-1.129763 .962391-1.185554 1.004234-1.241345ZM1.771357-1.234371C1.08792-1.234371 1.08792-1.903861 1.08792-2.050311C1.08792-2.161893 1.08792-2.440847 1.227397-2.622167C1.325031-2.740722 1.513325-2.866252 1.764384-2.866252C2.447821-2.866252 2.447821-2.196762 2.447821-2.050311C2.447821-1.93873 2.447821-1.659776 2.308344-1.478456C2.21071-1.3599 2.022416-1.234371 1.771357-1.234371ZM1.771357-.020922C2.39203-.020922 3.263761-.020922 3.263761 .530012C3.263761 .899626 2.712827 1.220423 1.980573 1.220423S.697385 .892653 .697385 .530012C.697385 .285928 .920548-.013948 1.366874-.020922H1.771357Z"></path>
+<path id="tz_tipos_textuais_g3-104" d="M3.591532-2.113076C3.591532-2.719801 3.291656-3.075467 2.545455-3.075467C1.924782-3.075467 1.583064-2.705853 1.429639-2.440847H1.422665V-4.839851L.376588-4.763138V-4.51208C.843836-4.51208 .899626-4.463263 .899626-4.121544V-.550934C.899626-.251059 .829888-.251059 .376588-.251059V0C.390535 0 .878705-.027895 1.171606-.027895C1.429639-.027895 1.910834-.006974 1.973599 0V-.251059C1.520299-.251059 1.45056-.251059 1.45056-.550934V-1.806227C1.45056-2.538481 2.02939-2.880199 2.489664-2.880199C2.977833-2.880199 3.040598-2.496638 3.040598-2.140971V-.550934C3.040598-.251059 2.970859-.251059 2.517559-.251059V0C2.531507 0 3.019676-.027895 3.312578-.027895C3.57061-.027895 4.051806-.006974 4.11457 0V-.251059C3.66127-.251059 3.591532-.251059 3.591532-.550934V-2.113076Z"></path>
+<path id="tz_tipos_textuais_g3-105" d="M1.471482-4.302864C1.471482-4.505106 1.30411-4.700374 1.066999-4.700374C.857783-4.700374 .669489-4.533001 .669489-4.302864C.669489-4.051806 .871731-3.898381 1.066999-3.898381C1.290162-3.898381 1.471482-4.072727 1.471482-4.302864ZM.411457-2.998755V-2.747696C.850809-2.747696 .913574-2.705853 .913574-2.364134V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.404483 0 .892653-.027895 1.171606-.027895C1.415691-.027895 1.66675-.020922 1.910834 0V-.251059C1.506351-.251059 1.436613-.251059 1.436613-.54396V-3.075467L.411457-2.998755Z"></path>
+<path id="tz_tipos_textuais_g3-106" d="M1.694645-4.29589C1.694645-4.539975 1.499377-4.700374 1.297136-4.700374C1.053051-4.700374 .892653-4.505106 .892653-4.302864C.892653-4.05878 1.08792-3.898381 1.290162-3.898381C1.534247-3.898381 1.694645-4.093649 1.694645-4.29589ZM.592777-2.998755V-2.747696C1.108842-2.747696 1.171606-2.698879 1.171606-2.357161V.334745C1.171606 .599751 1.115816 1.227397 .648568 1.227397C.627646 1.227397 .460274 1.227397 .299875 1.157659C.313823 1.150685 .474222 1.066999 .474222 .857783C.474222 .669489 .334745 .530012 .146451 .530012C-.055791 .530012-.188294 .669489-.188294 .864757C-.188294 1.241345 .230137 1.422665 .655542 1.422665C1.220423 1.422665 1.694645 .983313 1.694645 .320797V-3.075467L.592777-2.998755Z"></path>
+<path id="tz_tipos_textuais_g3-108" d="M1.436613-4.839851L.390535-4.763138V-4.51208C.857783-4.51208 .913574-4.463263 .913574-4.121544V-.550934C.913574-.251059 .843836-.251059 .390535-.251059V0C.404483 0 .892653-.027895 1.171606-.027895C1.436613-.027895 1.694645-.020922 1.959651 0V-.251059C1.506351-.251059 1.436613-.251059 1.436613-.550934V-4.839851Z"></path>
+<path id="tz_tipos_textuais_g3-109" d="M5.732503-2.113076C5.732503-2.719801 5.432628-3.075467 4.686426-3.075467C4.135492-3.075467 3.758904-2.775592 3.57061-2.426899C3.431133-2.922042 3.054545-3.075467 2.545455-3.075467C1.973599-3.075467 1.603985-2.761644 1.408717-2.399004H1.401743V-3.075467L.376588-2.998755V-2.747696C.843836-2.747696 .899626-2.698879 .899626-2.357161V-.550934C.899626-.251059 .829888-.251059 .376588-.251059V0C.390535 0 .878705-.027895 1.171606-.027895C1.429639-.027895 1.910834-.006974 1.973599 0V-.251059C1.520299-.251059 1.45056-.251059 1.45056-.550934V-1.806227C1.45056-2.538481 2.02939-2.880199 2.489664-2.880199C2.977833-2.880199 3.040598-2.496638 3.040598-2.140971V-.550934C3.040598-.251059 2.970859-.251059 2.517559-.251059V0C2.531507 0 3.019676-.027895 3.312578-.027895C3.57061-.027895 4.051806-.006974 4.11457 0V-.251059C3.66127-.251059 3.591532-.251059 3.591532-.550934V-1.806227C3.591532-2.538481 4.170361-2.880199 4.630635-2.880199C5.118804-2.880199 5.181569-2.496638 5.181569-2.140971V-.550934C5.181569-.251059 5.111831-.251059 4.658531-.251059V0C4.672478 0 5.160648-.027895 5.453549-.027895C5.711582-.027895 6.192777-.006974 6.255542 0V-.251059C5.802242-.251059 5.732503-.251059 5.732503-.550934V-2.113076Z"></path>
+<path id="tz_tipos_textuais_g3-110" d="M3.591532-2.113076C3.591532-2.719801 3.291656-3.075467 2.545455-3.075467C1.973599-3.075467 1.603985-2.761644 1.408717-2.399004H1.401743V-3.075467L.376588-2.998755V-2.747696C.843836-2.747696 .899626-2.698879 .899626-2.357161V-.550934C.899626-.251059 .829888-.251059 .376588-.251059V0C.390535 0 .878705-.027895 1.171606-.027895C1.429639-.027895 1.910834-.006974 1.973599 0V-.251059C1.520299-.251059 1.45056-.251059 1.45056-.550934V-1.806227C1.45056-2.538481 2.02939-2.880199 2.489664-2.880199C2.977833-2.880199 3.040598-2.496638 3.040598-2.140971V-.550934C3.040598-.251059 2.970859-.251059 2.517559-.251059V0C2.531507 0 3.019676-.027895 3.312578-.027895C3.57061-.027895 4.051806-.006974 4.11457 0V-.251059C3.66127-.251059 3.591532-.251059 3.591532-.550934V-2.113076Z"></path>
+<path id="tz_tipos_textuais_g3-111" d="M3.689166-1.48543C3.689166-2.357161 2.942964-3.110336 1.980573-3.110336S.27198-2.357161 .27198-1.48543C.27198-.620672 1.039103 .069738 1.980573 .069738S3.689166-.620672 3.689166-1.48543ZM1.980573-.153425C1.72254-.153425 1.345953-.237111 1.115816-.578829C.927522-.864757 .9066-1.227397 .9066-1.548194C.9066-1.84807 .913574-2.259527 1.157659-2.559402C1.332005-2.761644 1.624907-2.915068 1.980573-2.915068C2.39203-2.915068 2.684932-2.719801 2.838356-2.503611C3.033624-2.231631 3.054545-1.882939 3.054545-1.548194S3.033624-.843836 2.831382-.557908C2.643088-.292902 2.322291-.153425 1.980573-.153425Z"></path>
+<path id="tz_tipos_textuais_g3-112" d="M1.93873 1.101868C1.48543 1.101868 1.415691 1.101868 1.415691 .801993V-.334745C1.45056-.299875 1.778331 .069738 2.364134 .069738C3.284682 .069738 4.072727-.620672 4.072727-1.506351C4.072727-2.364134 3.361395-3.075467 2.475716-3.075467C2.078207-3.075467 1.673724-2.929016 1.387796-2.650062V-3.075467L.341719-2.998755V-2.747696C.829888-2.747696 .864757-2.712827 .864757-2.419925V.801993C.864757 1.101868 .795019 1.101868 .341719 1.101868V1.352927C.355666 1.352927 .843836 1.325031 1.136737 1.325031C1.39477 1.325031 1.875965 1.345953 1.93873 1.352927V1.101868ZM1.415691-2.322291C1.624907-2.670984 2.02939-2.852304 2.399004-2.852304C2.984807-2.852304 3.438107-2.238605 3.438107-1.506351C3.438107-.711333 2.915068-.125529 2.322291-.125529C1.708593-.125529 1.436613-.662516 1.415691-.704359V-2.322291Z"></path>
+<path id="tz_tipos_textuais_g3-113" d="M3.528767-3.075467H3.319552L3.068493-2.468742C2.852304-2.803487 2.503611-3.075467 2.008468-3.075467C1.108842-3.075467 .320797-2.39203 .320797-1.499377C.320797-.627646 1.066999 .069738 1.945704 .069738C2.503611 .069738 2.803487-.230137 2.977833-.404483V.801993C2.977833 1.101868 2.908095 1.101868 2.454795 1.101868V1.352927C2.468742 1.352927 2.956912 1.325031 3.249813 1.325031C3.507846 1.325031 3.989041 1.345953 4.051806 1.352927V1.101868C3.598506 1.101868 3.528767 1.101868 3.528767 .801993V-3.075467ZM3.005729-1.004234C3.005729-.878705 3.005729-.850809 2.901121-.669489C2.691905-.327771 2.343213-.125529 1.987547-.125529C1.408717-.125529 .955417-.753176 .955417-1.492403C.955417-2.308344 1.506351-2.852304 2.064259-2.852304C2.650062-2.852304 3.005729-2.280448 3.005729-1.889913V-1.004234Z"></path>
+<path id="tz_tipos_textuais_g3-114" d="M1.387796-1.590037C1.387796-2.175841 1.659776-2.880199 2.322291-2.880199C2.259527-2.831382 2.203736-2.740722 2.203736-2.629141C2.203736-2.399004 2.385056-2.308344 2.517559-2.308344C2.684932-2.308344 2.838356-2.419925 2.838356-2.629141C2.838356-2.866252 2.615193-3.075467 2.287422-3.075467C1.93873-3.075467 1.555168-2.859278 1.345953-2.329265H1.338979V-3.075467L.341719-2.998755V-2.747696C.808966-2.747696 .864757-2.698879 .864757-2.357161V-.550934C.864757-.251059 .795019-.251059 .341719-.251059V0C.376588 0 .850809-.027895 1.136737-.027895C1.436613-.027895 1.743462-.013948 2.043337 0V-.251059H1.903861C1.387796-.251059 1.387796-.327771 1.387796-.564882V-1.590037Z"></path>
+<path id="tz_tipos_textuais_g3-115" d="M2.643088-2.929016C2.643088-3.047572 2.643088-3.110336 2.545455-3.110336C2.510585-3.110336 2.496638-3.110336 2.405978-3.02665C2.39203-3.019676 2.322291-2.956912 2.280448-2.922042C2.071233-3.068493 1.806227-3.110336 1.548194-3.110336C.550934-3.110336 .313823-2.587298 .313823-2.238605C.313823-2.015442 .411457-1.834122 .578829-1.694645C.843836-1.464508 1.108842-1.415691 1.54122-1.345953C1.889913-1.283188 2.454795-1.185554 2.454795-.718306C2.454795-.446326 2.266501-.125529 1.597011-.125529S.683437-.564882 .557908-1.039103C.536986-1.129763 .530012-1.157659 .432379-1.157659C.313823-1.157659 .313823-1.108842 .313823-.969365V-.111582C.313823 .006974 .313823 .069738 .411457 .069738C.474222 .069738 .606725-.076712 .746202-.230137C1.053051 .055791 1.429639 .069738 1.597011 .069738C2.503611 .069738 2.838356-.418431 2.838356-.913574C2.838356-1.17858 2.719801-1.387796 2.538481-1.555168C2.273474-1.799253 1.952677-1.855044 1.708593-1.896887C1.150685-1.994521 .697385-2.078207 .697385-2.447821C.697385-2.670984 .885679-2.942964 1.548194-2.942964C2.357161-2.942964 2.39203-2.378082 2.405978-2.175841C2.412951-2.099128 2.496638-2.099128 2.524533-2.099128C2.643088-2.099128 2.643088-2.147945 2.643088-2.280448V-2.929016Z"></path>
+<path id="tz_tipos_textuais_g3-116" d="M1.401743-2.75467H2.489664V-3.005729H1.401743V-4.288917H1.164633C1.157659-3.66127 .871731-2.970859 .202242-2.949938V-2.75467H.850809V-.871731C.850809-.09066 1.436613 .069738 1.827148 .069738C2.294396 .069738 2.615193-.327771 2.615193-.878705V-1.262267H2.378082V-.885679C2.378082-.411457 2.154919-.153425 1.882939-.153425C1.401743-.153425 1.401743-.739228 1.401743-.864757V-2.75467Z"></path>
+<path id="tz_tipos_textuais_g3-117" d="M2.517559-2.998755V-2.747696C2.984807-2.747696 3.040598-2.698879 3.040598-2.357161V-1.164633C3.040598-.550934 2.643088-.125529 2.113076-.125529C1.478456-.125529 1.45056-.425405 1.45056-.781071V-3.075467L.376588-2.998755V-2.747696C.899626-2.747696 .899626-2.726775 .899626-2.106102V-1.060025C.899626-.578829 .899626 .069738 2.064259 .069738C2.217684 .069738 2.726775 .069738 3.061519-.516065H3.068493V.069738L4.11457 0V-.251059C3.647323-.251059 3.591532-.299875 3.591532-.641594V-3.075467L2.517559-2.998755Z"></path>
+<path id="tz_tipos_textuais_g3-118" d="M3.305604-2.322291C3.500872-2.747696 3.849564-2.75467 3.961146-2.75467V-3.005729C3.7868-2.991781 3.605479-2.977833 3.431133-2.977833C3.242839-2.977833 2.984807-2.984807 2.796513-3.005729V-2.75467C3.089415-2.740722 3.089415-2.510585 3.089415-2.489664C3.089415-2.454795 3.082441-2.385056 3.033624-2.287422L2.245579-.564882L1.380822-2.461768C1.380822-2.468742 1.338979-2.545455 1.338979-2.594271C1.338979-2.75467 1.57609-2.75467 1.694645-2.75467V-3.005729C1.680697-3.005729 1.185554-2.977833 .899626-2.977833C.690411-2.977833 .418431-2.984807 .216189-3.005729V-2.75467C.599751-2.75467 .683437-2.740722 .788045-2.503611L1.889913-.076712C1.924782 .006974 1.966625 .069738 2.085181 .069738C2.217684 .069738 2.245579 .006974 2.280448-.069738L3.305604-2.322291Z"></path>
+<path id="tz_tipos_textuais_g3-122" d="M3.075467-2.761644C3.124284-2.824408 3.138232-2.84533 3.138232-2.894147C3.138232-3.005729 3.054545-3.005729 2.942964-3.005729H.460274L.376588-1.841096H.613699C.662516-2.57335 .822914-2.810461 1.617933-2.810461H2.440847L.334745-.265006C.27198-.188294 .27198-.160399 .27198-.125529C.27198 0 .341719 0 .467248 0H3.033624L3.159153-1.352927H2.922042C2.852304-.536986 2.705853-.223163 1.834122-.223163H.976339L3.075467-2.761644Z"></path>
+<path id="tz_tipos_textuais_g3-124" d="M7.824658-1.75741V-1.952677H.111582V-1.75741H7.824658Z"></path>
+<path id="tz_tipos_textuais_g3-126" d="M3.124284-4.6934C2.922042-4.47721 2.719801-4.372603 2.524533-4.372603C2.343213-4.372603 2.133998-4.47721 2.078207-4.51208C1.827148-4.630635 1.680697-4.6934 1.527273-4.6934C1.241345-4.6934 1.136737-4.581818 .697385-4.135492L.836862-3.996015C1.039103-4.212204 1.241345-4.316812 1.436613-4.316812C1.617933-4.316812 1.827148-4.212204 1.882939-4.177335C2.133998-4.05878 2.280448-3.996015 2.433873-3.996015C2.719801-3.996015 2.824408-4.107597 3.263761-4.553923L3.124284-4.6934Z"></path>
+<path id="tz_tipos_textuais_g4-97" d="M2.60523-1.479452C2.60523-1.957659 2.102117-2.231631 1.484433-2.231631C1.180573-2.231631 .60274-2.216687 .60274-1.793275C.60274-1.608966 .742217-1.524284 .86675-1.524284C1.001245-1.524284 1.13076-1.618929 1.13076-1.788294C1.13076-1.907846 1.061021-1.982565 1.016189-2.012453C1.180573-2.067248 1.419676-2.067248 1.474471-2.067248C1.897883-2.067248 2.161893-1.833126 2.161893-1.474471V-1.344956C1.678705-1.32005 1.409714-1.305106 1.026152-1.17061C.697385-1.05604 .408468-.846824 .408468-.523039C.408468-.054795 .986301 .054795 1.384807 .054795C1.768369 .054795 2.067248-.099626 2.221669-.353674C2.241594-.179328 2.356164 .029888 2.610212 .029888C2.645081 .029888 3.212951 .029888 3.212951-.448319V-.722291H3.003736V-.458281C3.003736-.408468 3.003736-.18929 2.804483-.18929S2.60523-.408468 2.60523-.458281V-1.479452ZM2.161893-.707347C2.161893-.159402 1.564134-.109589 1.439601-.109589C1.145704-.109589 .86675-.26401 .86675-.523039C.86675-.687422 .971357-1.145704 2.161893-1.195517V-.707347Z"></path>
+</defs>
+<g id="tz_tipos_textuais_page1">
+<g stroke-miterlimit="10" transform="translate(76.06303,18.793751)scale(0.996264,-0.996264)">
+<g fill="#000" stroke="#000">
+<g stroke-width="0.4">
+<g stroke="#2780e3">
+<g fill="#e5f0fc">
+<g stroke="#2780e3">
+<g fill="#e5f0fc">
+<path d="M-52.06003 86.93423H-141.41827C-143.07515 86.93423-144.41827 85.59111-144.41827 83.93423V64.02036C-144.41827 62.36348-143.07515 61.02036-141.41827 61.02036H-52.06003C-50.40315 61.02036-49.06003 62.36348-49.06003 64.02036V83.93423C-49.06003 85.59111-50.40315 86.93423-52.06003 86.93423ZM-144.41827 61.02036"></path>
+</g>
+</g>
+<g transform="translate(-139.41827,75.38145)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g2-78"></use>
+<use x="83.050712" y="18.793751" href="#tz_tipos_textuais_g2-65"></use>
+<use x="89.800395" y="18.793751" href="#tz_tipos_textuais_g2-82"></use>
+<use x="96.494731" y="18.793751" href="#tz_tipos_textuais_g2-82"></use>
+<use x="103.189067" y="18.793751" href="#tz_tipos_textuais_g2-65"></use>
+<use x="109.93875" y="18.793751" href="#tz_tipos_textuais_g2-67"></use>
+<use x="111.177179" y="18.793751" href="#tz_tipos_textuais_g2-24"></use>
+<use x="117.551864" y="17.10839" href="#tz_tipos_textuais_g2-126"></use>
+<use x="116.433834" y="18.793751" href="#tz_tipos_textuais_g2-65"></use>
+<use x="123.183517" y="18.793751" href="#tz_tipos_textuais_g2-79"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="79.605322" y="26.763863" href="#tz_tipos_textuais_g3-111"></use>
+<use x="83.576562" y="26.763863" href="#tz_tipos_textuais_g3-110"></use>
+<use x="87.76227" y="26.763863" href="#tz_tipos_textuais_g3-116"></use>
+<use x="90.875613" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="97.494046" y="26.763863" href="#tz_tipos_textuais_g1-102"></use>
+<use x="100.062238" y="26.763863" href="#tz_tipos_textuais_g1-97"></use>
+<use x="104.268737" y="26.763863" href="#tz_tipos_textuais_g1-116"></use>
+<use x="107.041706" y="26.763863" href="#tz_tipos_textuais_g1-111"></use>
+<use x="111.248204" y="26.763863" href="#tz_tipos_textuais_g1-115"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-47.01501,76.2273)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g3-112"></use>
+<use x="80.463219" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="83.576562" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="87.118854" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="90.232197" y="18.793751" href="#tz_tipos_textuais_g3-46"></use>
+<use x="95.134836" y="18.793751" href="#tz_tipos_textuais_g3-112"></use>
+<use x="99.749492" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="103.291784" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="106.405127" y="18.793751" href="#tz_tipos_textuais_g3-102"></use>
+<use x="108.875053" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="112.417345" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="114.672791" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="117.786134" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="124.404567" y="18.793751" href="#tz_tipos_textuais_g0-183"></use>
+<use x="129.30664" y="18.793751" href="#tz_tipos_textuais_g3-109"></use>
+<use x="135.851573" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="139.822813" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="142.936156" y="18.793751" href="#tz_tipos_textuais_g3-99"></use>
+<use x="146.478448" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="150.449689" y="18.793751" href="#tz_tipos_textuais_g3-100"></use>
+<use x="154.849878" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="158.821118" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="161.934461" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="165.476753" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="171.280187" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="174.39353" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="177.935821" y="18.793751" href="#tz_tipos_textuais_g3-109"></use>
+<use x="184.480754" y="18.793751" href="#tz_tipos_textuais_g3-112"></use>
+<use x="189.09541" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="193.06665" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="196.179994" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="200.151234" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="202.40668" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g2-116"></use>
+<use x="79.585922" y="26.763863" href="#tz_tipos_textuais_g2-101"></use>
+<use x="83.71696" y="26.763863" href="#tz_tipos_textuais_g2-109"></use>
+<use x="91.202772" y="26.763863" href="#tz_tipos_textuais_g2-112"></use>
+<use x="96.459428" y="26.763863" href="#tz_tipos_textuais_g2-111"></use>
+<use x="103.620246" y="26.763863" href="#tz_tipos_textuais_g2-97"></use>
+<use x="107.762337" y="26.763863" href="#tz_tipos_textuais_g2-118"></use>
+<use x="112.028278" y="26.763863" href="#tz_tipos_textuais_g2-97"></use>
+<use x="116.418052" y="26.763863" href="#tz_tipos_textuais_g2-110"></use>
+<use x="121.427041" y="26.763863" href="#tz_tipos_textuais_g2-24"></use>
+<use x="121.427054" y="26.763863" href="#tz_tipos_textuais_g2-99"></use>
+<use x="125.445309" y="26.763863" href="#tz_tipos_textuais_g2-97"></use>
+<use x="132.482275" y="26.763863" href="#tz_tipos_textuais_g3-124"></use>
+<use x="143.071943" y="26.763863" href="#tz_tipos_textuais_g3-92"></use>
+<use x="147.043183" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="150.370993" y="26.763863" href="#tz_tipos_textuais_g3-104"></use>
+<use x="154.771182" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="158.313474" y="26.763863" href="#tz_tipos_textuais_g3-103"></use>
+<use x="162.284714" y="26.763863" href="#tz_tipos_textuais_g3-111"></use>
+<use x="166.255955" y="26.763863" href="#tz_tipos_textuais_g3-117"></use>
+<use x="170.656144" y="26.763863" href="#tz_tipos_textuais_g3-44"></use>
+<use x="175.558782" y="26.763863" href="#tz_tipos_textuais_g3-118"></use>
+<use x="179.744504" y="26.763863" href="#tz_tipos_textuais_g3-105"></use>
+<use x="181.99995" y="26.763863" href="#tz_tipos_textuais_g3-117"></use>
+<use x="186.400139" y="26.763863" href="#tz_tipos_textuais_g3-44"></use>
+<use x="191.302777" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="194.459018" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="198.430258" y="26.763863" href="#tz_tipos_textuais_g3-105"></use>
+<use x="200.685704" y="26.763863" href="#tz_tipos_textuais_g3-117"></use>
+<use x="205.085893" y="26.763863" href="#tz_tipos_textuais_g3-34"></use>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#3fb618">
+<g fill="#e8f7e4">
+<g stroke="#3fb618">
+<g fill="#e8f7e4">
+<path d="M-52.06003 46.41959H-141.41827C-143.07515 46.41959-144.41827 45.07646-144.41827 43.41959V24.86682C-144.41827 23.20995-143.07515 21.86682-141.41827 21.86682H-52.06003C-50.40315 21.86682-49.06003 23.20995-49.06003 24.86682V43.41959C-49.06003 45.07646-50.40315 46.41959-52.06003 46.41959ZM-144.41827 21.86682"></path>
+</g>
+</g>
+<g transform="translate(-139.41827,34.86682)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g2-68"></use>
+<use x="82.933093" y="18.793751" href="#tz_tipos_textuais_g2-69"></use>
+<use x="88.822112" y="18.793751" href="#tz_tipos_textuais_g2-83"></use>
+<use x="93.831101" y="18.793751" href="#tz_tipos_textuais_g2-67"></use>
+<use x="100.326186" y="18.793751" href="#tz_tipos_textuais_g2-82"></use>
+<use x="107.020521" y="18.793751" href="#tz_tipos_textuais_g2-73"></use>
+<use x="110.363529" y="18.793751" href="#tz_tipos_textuais_g2-67"></use>
+<use x="111.601958" y="18.793751" href="#tz_tipos_textuais_g2-24"></use>
+<use x="117.976643" y="17.10839" href="#tz_tipos_textuais_g2-126"></use>
+<use x="116.858612" y="18.793751" href="#tz_tipos_textuais_g2-65"></use>
+<use x="123.608296" y="18.793751" href="#tz_tipos_textuais_g2-79"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="79.605322" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="83.576562" y="26.763863" href="#tz_tipos_textuais_g3-114"></use>
+<use x="86.689906" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="90.661146" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="94.203438" y="26.763863" href="#tz_tipos_textuais_g3-116"></use>
+<use x="97.316781" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="100.859073" y="26.763863" href="#tz_tipos_textuais_g3-114"></use>
+<use x="103.972416" y="26.763863" href="#tz_tipos_textuais_g3-105"></use>
+<use x="106.227861" y="26.763863" href="#tz_tipos_textuais_g3-122"></use>
+<use x="109.770153" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="116.388586" y="26.763863" href="#tz_tipos_textuais_g1-115"></use>
+<use x="119.775922" y="26.763863" href="#tz_tipos_textuais_g1-101"></use>
+<use x="123.572839" y="26.763863" href="#tz_tipos_textuais_g1-114"></use>
+<use x="126.652994" y="26.763863" href="#tz_tipos_textuais_g1-101"></use>
+<use x="130.449911" y="26.763863" href="#tz_tipos_textuais_g1-115"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-47.01501,36.3932)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g3-118"></use>
+<use x="80.03427" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="83.576562" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="86.689905" y="18.793751" href="#tz_tipos_textuais_g3-98"></use>
+<use x="91.304561" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="95.275801" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="101.079234" y="18.793751" href="#tz_tipos_textuais_g3-100"></use>
+<use x="105.479424" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="111.668908" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="115.2112" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="118.36744" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="121.480784" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="125.452024" y="18.793751" href="#tz_tipos_textuais_g3-100"></use>
+<use x="129.852213" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="136.470646" y="18.793751" href="#tz_tipos_textuais_g0-183"></use>
+<use x="141.37272" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="145.34396" y="18.793751" href="#tz_tipos_textuais_g3-100"></use>
+<use x="149.744149" y="18.793751" href="#tz_tipos_textuais_g3-106"></use>
+<use x="152.214076" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="155.756368" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="158.869711" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="161.125157" y="18.793751" href="#tz_tipos_textuais_g3-118"></use>
+<use x="165.096396" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="169.067636" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="174.87107" y="18.793751" href="#tz_tipos_textuais_g0-183"></use>
+<use x="179.773143" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="183.315435" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="186.471675" y="18.793751" href="#tz_tipos_textuais_g3-112"></use>
+<use x="190.871865" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="194.843105" y="18.793751" href="#tz_tipos_textuais_g3-24"></use>
+<use x="194.843108" y="18.793751" href="#tz_tipos_textuais_g3-99"></use>
+<use x="198.3854" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g2-116"></use>
+<use x="79.585922" y="26.763863" href="#tz_tipos_textuais_g2-101"></use>
+<use x="83.71696" y="26.763863" href="#tz_tipos_textuais_g2-109"></use>
+<use x="91.202772" y="26.763863" href="#tz_tipos_textuais_g2-112"></use>
+<use x="96.459428" y="26.763863" href="#tz_tipos_textuais_g2-111"></use>
+<use x="103.620246" y="26.763863" href="#tz_tipos_textuais_g2-112"></use>
+<use x="108.629234" y="26.763863" href="#tz_tipos_textuais_g2-97"></use>
+<use x="113.019008" y="26.763863" href="#tz_tipos_textuais_g2-114"></use>
+<use x="116.746697" y="26.763863" href="#tz_tipos_textuais_g2-97"></use>
+<use x="121.136471" y="26.763863" href="#tz_tipos_textuais_g2-100"></use>
+<use x="126.145459" y="26.763863" href="#tz_tipos_textuais_g2-111"></use>
+<use x="133.306277" y="26.763863" href="#tz_tipos_textuais_g3-124"></use>
+<use x="143.895944" y="26.763863" href="#tz_tipos_textuais_g3-92"></use>
+<use x="147.867184" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="154.485617" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="157.641858" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="161.613099" y="26.763863" href="#tz_tipos_textuais_g3-108"></use>
+<use x="163.868544" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="170.486978" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="174.029269" y="26.763863" href="#tz_tipos_textuais_g3-114"></use>
+<use x="177.142612" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="183.761046" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="187.732286" y="26.763863" href="#tz_tipos_textuais_g3-109"></use>
+<use x="194.277219" y="26.763863" href="#tz_tipos_textuais_g3-112"></use>
+<use x="198.677408" y="26.763863" href="#tz_tipos_textuais_g3-108"></use>
+<use x="200.932854" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="204.904094" y="26.763863" href="#tz_tipos_textuais_g3-34"></use>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#6c757d">
+<g fill="#ebeced">
+<g stroke="#6c757d">
+<g fill="#ebeced">
+<path d="M-52.06003 7.26648H-141.41827C-143.07515 7.26648-144.41827 5.92336-144.41827 4.26648V-15.6474C-144.41827-17.30428-143.07515-18.6474-141.41827-18.6474H-52.06003C-50.40315-18.6474-49.06003-17.30428-49.06003-15.6474V4.26648C-49.06003 5.92336-50.40315 7.26648-52.06003 7.26648ZM-144.41827-18.6474"></path>
+</g>
+</g>
+<g transform="translate(-139.41827,-4.2863)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g2-69"></use>
+<use x="81.95205" y="18.793751" href="#tz_tipos_textuais_g2-88"></use>
+<use x="88.701733" y="18.793751" href="#tz_tipos_textuais_g2-80"></use>
+<use x="94.828751" y="18.793751" href="#tz_tipos_textuais_g2-79"></use>
+<use x="101.581201" y="18.793751" href="#tz_tipos_textuais_g2-83"></use>
+<use x="106.590189" y="18.793751" href="#tz_tipos_textuais_g2-73"></use>
+<use x="109.933197" y="18.793751" href="#tz_tipos_textuais_g2-67"></use>
+<use x="111.171626" y="18.793751" href="#tz_tipos_textuais_g2-24"></use>
+<use x="117.546311" y="17.10839" href="#tz_tipos_textuais_g2-126"></use>
+<use x="116.42828" y="18.793751" href="#tz_tipos_textuais_g2-65"></use>
+<use x="123.177964" y="18.793751" href="#tz_tipos_textuais_g2-79"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g1-105"></use>
+<use x="78.631202" y="26.763863" href="#tz_tipos_textuais_g1-110"></use>
+<use x="83.247282" y="26.763863" href="#tz_tipos_textuais_g1-102"></use>
+<use x="85.815474" y="26.763863" href="#tz_tipos_textuais_g1-111"></use>
+<use x="90.021973" y="26.763863" href="#tz_tipos_textuais_g1-114"></use>
+<use x="93.51171" y="26.763863" href="#tz_tipos_textuais_g1-109"></use>
+<use x="100.175698" y="26.763863" href="#tz_tipos_textuais_g1-97"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-47.01501,-3.52551)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g3-112"></use>
+<use x="80.463219" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="83.576562" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="87.118854" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="90.275095" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="93.817387" y="18.793751" href="#tz_tipos_textuais_g3-110"></use>
+<use x="98.003094" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="101.116437" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="107.305922" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="111.277162" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="114.390505" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="117.932797" y="18.793751" href="#tz_tipos_textuais_g3-109"></use>
+<use x="124.477729" y="18.793751" href="#tz_tipos_textuais_g3-112"></use>
+<use x="129.092385" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="133.063626" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="136.176969" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="140.148209" y="18.793751" href="#tz_tipos_textuais_g3-108"></use>
+<use x="145.050848" y="18.793751" href="#tz_tipos_textuais_g0-183"></use>
+<use x="149.952921" y="18.793751" href="#tz_tipos_textuais_g3-100"></use>
+<use x="154.35311" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="157.895402" y="18.793751" href="#tz_tipos_textuais_g3-12"></use>
+<use x="162.406287" y="18.793751" href="#tz_tipos_textuais_g3-110"></use>
+<use x="166.806476" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="169.061922" y="18.793751" href="#tz_tipos_textuais_g3-24"></use>
+<use x="169.061924" y="18.793751" href="#tz_tipos_textuais_g3-99"></use>
+<use x="172.604216" y="18.793751" href="#tz_tipos_textuais_g3-126"></use>
+<use x="172.604219" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="176.57546" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="180.117751" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="79.605322" y="26.763863" href="#tz_tipos_textuais_g3-108"></use>
+<use x="81.860768" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="85.832008" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="88.988249" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="92.144489" y="26.763863" href="#tz_tipos_textuais_g3-105"></use>
+<use x="94.399935" y="26.763863" href="#tz_tipos_textuais_g3-12"></use>
+<use x="98.91082" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="102.453112" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="106.424352" y="26.763863" href="#tz_tipos_textuais_g3-24"></use>
+<use x="106.424355" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="109.966647" y="26.763863" href="#tz_tipos_textuais_g3-126"></use>
+<use x="109.96665" y="26.763863" href="#tz_tipos_textuais_g3-111"></use>
+<use x="113.93789" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="117.480182" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="123.283615" y="26.763863" href="#tz_tipos_textuais_g3-124"></use>
+<use x="133.873282" y="26.763863" href="#tz_tipos_textuais_g3-92"></use>
+<use x="137.844523" y="26.763863" href="#tz_tipos_textuais_g3-100"></use>
+<use x="142.244712" y="26.763863" href="#tz_tipos_textuais_g3-105"></use>
+<use x="144.500158" y="26.763863" href="#tz_tipos_textuais_g3-118"></use>
+<use x="148.685879" y="26.763863" href="#tz_tipos_textuais_g3-105"></use>
+<use x="150.941325" y="26.763863" href="#tz_tipos_textuais_g3-100"></use>
+<use x="155.341514" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="158.883806" y="26.763863" href="#tz_tipos_textuais_g3-109"></use>
+<use x="165.428738" y="26.763863" href="#tz_tipos_textuais_g3-45"></use>
+<use x="168.113133" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="171.269373" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="177.458858" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="181.00115" y="26.763863" href="#tz_tipos_textuais_g3-109"></use>
+<use x="190.193275" y="26.763863" href="#tz_tipos_textuais_g3-116"></use>
+<use x="193.306618" y="26.763863" href="#tz_tipos_textuais_g3-114"></use>
+<use x="196.205479" y="26.763863" href="#tz_tipos_textuais_g3-94"></use>
+<use x="196.419964" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="199.962256" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="203.118496" y="26.763863" href="#tz_tipos_textuais_g3-34"></use>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#d7433b">
+<g fill="#fbe9e8">
+<g stroke="#d7433b">
+<g fill="#fbe9e8">
+<path d="M-52.06003-33.24817H-141.41827C-143.07515-33.24817-144.41827-34.5913-144.41827-36.24817V-54.80093C-144.41827-56.45781-143.07515-57.80093-141.41827-57.80093H-52.06003C-50.40315-57.80093-49.06003-56.45781-49.06003-54.80093V-36.24817C-49.06003-34.5913-50.40315-33.24817-52.06003-33.24817ZM-144.41827-57.80093"></path>
+</g>
+</g>
+<g transform="translate(-139.41827,-44.80093)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g2-65"></use>
+<use x="82.812714" y="18.793751" href="#tz_tipos_textuais_g2-82"></use>
+<use x="89.259367" y="18.793751" href="#tz_tipos_textuais_g2-71"></use>
+<use x="96.313463" y="18.793751" href="#tz_tipos_textuais_g2-85"></use>
+<use x="103.182143" y="18.793751" href="#tz_tipos_textuais_g2-77"></use>
+<use x="111.655921" y="18.793751" href="#tz_tipos_textuais_g2-69"></use>
+<use x="117.54494" y="18.793751" href="#tz_tipos_textuais_g2-78"></use>
+<use x="124.532622" y="18.793751" href="#tz_tipos_textuais_g2-84"></use>
+<use x="130.046661" y="18.793751" href="#tz_tipos_textuais_g2-65"></use>
+<use x="136.796345" y="18.793751" href="#tz_tipos_textuais_g2-67"></use>
+<use x="138.034773" y="18.793751" href="#tz_tipos_textuais_g2-24"></use>
+<use x="144.409458" y="17.10839" href="#tz_tipos_textuais_g2-126"></use>
+<use x="143.291428" y="18.793751" href="#tz_tipos_textuais_g2-65"></use>
+<use x="150.041111" y="18.793751" href="#tz_tipos_textuais_g2-79"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g1-99"></use>
+<use x="79.450365" y="26.763863" href="#tz_tipos_textuais_g1-111"></use>
+<use x="83.656864" y="26.763863" href="#tz_tipos_textuais_g1-110"></use>
+<use x="88.272944" y="26.763863" href="#tz_tipos_textuais_g1-118"></use>
+<use x="92.069861" y="26.763863" href="#tz_tipos_textuais_g1-101"></use>
+<use x="95.866778" y="26.763863" href="#tz_tipos_textuais_g1-110"></use>
+<use x="100.482858" y="26.763863" href="#tz_tipos_textuais_g1-99"></use>
+<use x="103.870193" y="26.763863" href="#tz_tipos_textuais_g1-101"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-47.01501,-43.27455)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g3-99"></use>
+<use x="79.605322" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="83.576562" y="18.793751" href="#tz_tipos_textuais_g3-110"></use>
+<use x="87.976752" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="91.519043" y="18.793751" href="#tz_tipos_textuais_g3-99"></use>
+<use x="95.061335" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="98.174678" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="100.430124" y="18.793751" href="#tz_tipos_textuais_g3-118"></use>
+<use x="104.401364" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="108.372604" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="114.176037" y="18.793751" href="#tz_tipos_textuais_g3-108"></use>
+<use x="116.431483" y="18.793751" href="#tz_tipos_textuais_g3-19"></use>
+<use x="116.431486" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="120.402726" y="18.793751" href="#tz_tipos_textuais_g3-103"></use>
+<use x="124.373967" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="126.629413" y="18.793751" href="#tz_tipos_textuais_g3-99"></use>
+<use x="130.171704" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="134.142945" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="139.946378" y="18.793751" href="#tz_tipos_textuais_g0-183"></use>
+<use x="144.848451" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="148.819692" y="18.793751" href="#tz_tipos_textuais_g3-112"></use>
+<use x="153.434348" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="156.976639" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="160.089983" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="164.061223" y="18.793751" href="#tz_tipos_textuais_g3-100"></use>
+<use x="168.461412" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="172.432653" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="175.545996" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="179.088288" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g3-116"></use>
+<use x="79.176373" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="82.718665" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="85.874906" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="92.06439" y="26.763863" href="#tz_tipos_textuais_g3-43"></use>
+<use x="100.827567" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="104.798807" y="26.763863" href="#tz_tipos_textuais_g3-114"></use>
+<use x="107.912151" y="26.763863" href="#tz_tipos_textuais_g3-103"></use>
+<use x="111.883391" y="26.763863" href="#tz_tipos_textuais_g3-117"></use>
+<use x="116.28358" y="26.763863" href="#tz_tipos_textuais_g3-109"></use>
+<use x="122.828513" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="126.370805" y="26.763863" href="#tz_tipos_textuais_g3-110"></use>
+<use x="130.556512" y="26.763863" href="#tz_tipos_textuais_g3-116"></use>
+<use x="133.669855" y="26.763863" href="#tz_tipos_textuais_g3-111"></use>
+<use x="137.641095" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="143.444529" y="26.763863" href="#tz_tipos_textuais_g3-124"></use>
+<use x="154.034196" y="26.763863" href="#tz_tipos_textuais_g3-92"></use>
+<use x="158.005436" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="161.547728" y="26.763863" href="#tz_tipos_textuais_g3-111"></use>
+<use x="165.518969" y="26.763863" href="#tz_tipos_textuais_g3-110"></use>
+<use x="169.919158" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="173.461449" y="26.763863" href="#tz_tipos_textuais_g3-108"></use>
+<use x="175.716895" y="26.763863" href="#tz_tipos_textuais_g3-117"></use>
+<use x="180.117084" y="26.763863" href="#tz_tipos_textuais_g3-105"></use>
+<use x="182.37253" y="26.763863" href="#tz_tipos_textuais_g3-45"></use>
+<use x="185.056924" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="188.213165" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="194.40265" y="26.763863" href="#tz_tipos_textuais_g3-113"></use>
+<use x="198.588351" y="26.763863" href="#tz_tipos_textuais_g3-117"></use>
+<use x="202.98854" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="206.530832" y="26.763863" href="#tz_tipos_textuais_g3-34"></use>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#ff7518">
+<g fill="#ffecdf">
+<g stroke="#ff7518">
+<g fill="#ffecdf">
+<path d="M-52.06003-72.40129H-141.41827C-143.07515-72.40129-144.41827-73.74442-144.41827-75.40129V-95.31517C-144.41827-96.97205-143.07515-98.31517-141.41827-98.31517H-52.06003C-50.40315-98.31517-49.06003-96.97205-49.06003-95.31517V-75.40129C-49.06003-73.74442-50.40315-72.40129-52.06003-72.40129ZM-144.41827-98.31517"></path>
+</g>
+</g>
+<g transform="translate(-139.41827,-83.95407)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g2-73"></use>
+<use x="79.406038" y="18.793751" href="#tz_tipos_textuais_g2-78"></use>
+<use x="86.39372" y="18.793751" href="#tz_tipos_textuais_g2-74"></use>
+<use x="91.034641" y="18.793751" href="#tz_tipos_textuais_g2-85"></use>
+<use x="97.90332" y="18.793751" href="#tz_tipos_textuais_g2-78"></use>
+<use x="104.891002" y="18.793751" href="#tz_tipos_textuais_g2-67"></use>
+<use x="106.12943" y="18.793751" href="#tz_tipos_textuais_g2-24"></use>
+<use x="112.504115" y="17.10839" href="#tz_tipos_textuais_g2-126"></use>
+<use x="111.386085" y="18.793751" href="#tz_tipos_textuais_g2-65"></use>
+<use x="118.135768" y="18.793751" href="#tz_tipos_textuais_g2-79"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g1-105"></use>
+<use x="78.631202" y="26.763863" href="#tz_tipos_textuais_g1-110"></use>
+<use x="83.247282" y="26.763863" href="#tz_tipos_textuais_g1-115"></use>
+<use x="86.634618" y="26.763863" href="#tz_tipos_textuais_g1-116"></use>
+<use x="89.407587" y="26.763863" href="#tz_tipos_textuais_g1-114"></use>
+<use x="92.897324" y="26.763863" href="#tz_tipos_textuais_g1-117"></use>
+<use x="97.30862" y="26.763863" href="#tz_tipos_textuais_g1-105"></use>
+<use x="102.523985" y="26.763863" href="#tz_tipos_textuais_g1-97"></use>
+<use x="109.377676" y="26.763863" href="#tz_tipos_textuais_g1-102"></use>
+<use x="111.945868" y="26.763863" href="#tz_tipos_textuais_g1-97"></use>
+<use x="116.152367" y="26.763863" href="#tz_tipos_textuais_g1-122"></use>
+<use x="119.539722" y="26.763863" href="#tz_tipos_textuais_g1-101"></use>
+<use x="123.336639" y="26.763863" href="#tz_tipos_textuais_g1-114"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(-47.01501,-83.30269)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="76.06303" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="78.318476" y="18.793751" href="#tz_tipos_textuais_g3-109"></use>
+<use x="84.863409" y="18.793751" href="#tz_tipos_textuais_g3-112"></use>
+<use x="89.478064" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="93.020356" y="18.793751" href="#tz_tipos_textuais_g3-114"></use>
+<use x="96.133699" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="100.10494" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="103.218283" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="105.473729" y="18.793751" href="#tz_tipos_textuais_g3-118"></use>
+<use x="109.444968" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="113.416209" y="18.793751" href="#tz_tipos_textuais_g3-47"></use>
+<use x="117.387449" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="119.642895" y="18.793751" href="#tz_tipos_textuais_g3-110"></use>
+<use x="124.043084" y="18.793751" href="#tz_tipos_textuais_g3-12"></use>
+<use x="128.553969" y="18.793751" href="#tz_tipos_textuais_g3-110"></use>
+<use x="132.954158" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="135.209604" y="18.793751" href="#tz_tipos_textuais_g3-116"></use>
+<use x="138.322947" y="18.793751" href="#tz_tipos_textuais_g3-105"></use>
+<use x="140.578392" y="18.793751" href="#tz_tipos_textuais_g3-118"></use>
+<use x="144.549632" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="151.168065" y="18.793751" href="#tz_tipos_textuais_g0-183"></use>
+<use x="156.070138" y="18.793751" href="#tz_tipos_textuais_g3-50"></use>
+<g fill="black">
+<use x="160.041379" y="15.787233" href="#tz_tipos_textuais_g4-97"></use>
+</g>
+<use x="166.576823" y="18.793751" href="#tz_tipos_textuais_g3-112"></use>
+<use x="171.191478" y="18.793751" href="#tz_tipos_textuais_g3-101"></use>
+<use x="174.73377" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="177.890011" y="18.793751" href="#tz_tipos_textuais_g3-115"></use>
+<use x="181.046251" y="18.793751" href="#tz_tipos_textuais_g3-111"></use>
+<use x="185.017492" y="18.793751" href="#tz_tipos_textuais_g3-97"></use>
+<use x="76.06303" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="79.219271" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="82.761563" y="26.763863" href="#tz_tipos_textuais_g3-113"></use>
+<use x="86.947264" y="26.763863" href="#tz_tipos_textuais_g3-117"></use>
+<use x="91.132971" y="26.763863" href="#tz_tipos_textuais_g3-94"></use>
+<use x="91.347456" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="94.889748" y="26.763863" href="#tz_tipos_textuais_g3-110"></use>
+<use x="99.289937" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="102.832229" y="26.763863" href="#tz_tipos_textuais_g3-105"></use>
+<use x="105.087675" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="111.706108" y="26.763863" href="#tz_tipos_textuais_g3-100"></use>
+<use x="116.106297" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="122.295782" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="126.267022" y="26.763863" href="#tz_tipos_textuais_g3-24"></use>
+<use x="126.267025" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="129.809317" y="26.763863" href="#tz_tipos_textuais_g3-126"></use>
+<use x="129.809319" y="26.763863" href="#tz_tipos_textuais_g3-111"></use>
+<use x="133.78056" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="137.322852" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="143.126285" y="26.763863" href="#tz_tipos_textuais_g3-124"></use>
+<use x="153.715952" y="26.763863" href="#tz_tipos_textuais_g3-92"></use>
+<use x="157.687193" y="26.763863" href="#tz_tipos_textuais_g3-98"></use>
+<use x="162.087382" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="166.058622" y="26.763863" href="#tz_tipos_textuais_g3-116"></use>
+<use x="169.171965" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="175.790399" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="179.761639" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="185.565072" y="26.763863" href="#tz_tipos_textuais_g3-99"></use>
+<use x="189.107364" y="26.763863" href="#tz_tipos_textuais_g3-108"></use>
+<use x="191.36281" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="195.33405" y="26.763863" href="#tz_tipos_textuais_g3-114"></use>
+<use x="198.447394" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="202.418634" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="205.574875" y="26.763863" href="#tz_tipos_textuais_g3-34"></use>
+</g>
+</g>
+</g>
+</g>
+<g stroke="#d7433b">
+<g fill="#fcf0f0">
+<g stroke="#d7433b">
+<g fill="#fcf0f0">
+<path d="M116.81102-113.0808H-116.81102C-117.9156-113.0808-118.81102-113.97621-118.81102-115.0808V-135.303C-118.81102-136.40758-117.9156-137.303-116.81102-137.303H116.81102C117.9156-137.303 118.81102-136.40758 118.81102-135.303V-115.0808C118.81102-113.97621 117.9156-113.0808 116.81102-113.0808ZM-118.81102-137.303"></path>
+</g>
+</g>
+<g transform="translate(-113.81102,-122.9419)">
+<g stroke="none" transform="scale(-1.00375,1.00375)translate(76.06303,18.793751)scale(-1,-1)">
+<g fill="#000">
+<g stroke="none">
+<use x="107.509331" y="18.793751" href="#tz_tipos_textuais_g2-81"></use>
+<use x="114.261781" y="18.793751" href="#tz_tipos_textuais_g2-117"></use>
+<use x="119.270769" y="18.793751" href="#tz_tipos_textuais_g2-97"></use>
+<use x="123.660543" y="18.793751" href="#tz_tipos_textuais_g2-115"></use>
+<use x="127.232977" y="18.793751" href="#tz_tipos_textuais_g2-101"></use>
+<use x="134.011208" y="18.793751" href="#tz_tipos_textuais_g2-110"></use>
+<use x="139.020196" y="18.793751" href="#tz_tipos_textuais_g2-101"></use>
+<use x="143.151235" y="18.793751" href="#tz_tipos_textuais_g2-110"></use>
+<use x="148.160223" y="18.793751" href="#tz_tipos_textuais_g2-104"></use>
+<use x="152.921529" y="18.793751" href="#tz_tipos_textuais_g2-117"></use>
+<use x="157.930517" y="18.793751" href="#tz_tipos_textuais_g2-109"></use>
+<use x="168.063522" y="18.793751" href="#tz_tipos_textuais_g2-116"></use>
+<use x="171.586413" y="18.793751" href="#tz_tipos_textuais_g2-101"></use>
+<use x="175.717452" y="18.793751" href="#tz_tipos_textuais_g2-120"></use>
+<use x="180.478758" y="18.793751" href="#tz_tipos_textuais_g2-116"></use>
+<use x="184.00165" y="18.793751" href="#tz_tipos_textuais_g2-111"></use>
+<use x="191.162468" y="18.793751" href="#tz_tipos_textuais_g2-114"></use>
+<use x="194.890156" y="18.793751" href="#tz_tipos_textuais_g2-101"></use>
+<use x="199.021195" y="18.793751" href="#tz_tipos_textuais_g2-97"></use>
+<use x="203.410969" y="18.793751" href="#tz_tipos_textuais_g2-108"></use>
+<use x="208.399021" y="18.793751" href="#tz_tipos_textuais_g2-19"></use>
+<use x="208.590323" y="18.793751" href="#tz_tipos_textuais_g2-101"></use>
+<use x="215.368554" y="18.793751" href="#tz_tipos_textuais_g2-100"></use>
+<use x="220.377543" y="18.793751" href="#tz_tipos_textuais_g2-101"></use>
+<use x="227.155774" y="18.793751" href="#tz_tipos_textuais_g2-117"></use>
+<use x="232.164763" y="18.793751" href="#tz_tipos_textuais_g2-109"></use>
+<use x="242.297767" y="18.793751" href="#tz_tipos_textuais_g2-116"></use>
+<use x="245.820659" y="18.793751" href="#tz_tipos_textuais_g2-105"></use>
+<use x="248.352817" y="18.793751" href="#tz_tipos_textuais_g2-112"></use>
+<use x="253.609472" y="18.793751" href="#tz_tipos_textuais_g2-111"></use>
+<use x="260.77029" y="18.793751" href="#tz_tipos_textuais_g2-115"></use>
+<use x="264.342723" y="18.793751" href="#tz_tipos_textuais_g2-19"></use>
+<use x="264.342726" y="18.793751" href="#tz_tipos_textuais_g2-111"></use>
+<use x="268.856351" y="18.793751" href="#tz_tipos_textuais_g2-46"></use>
+<use x="77.138815" y="26.763863" href="#tz_tipos_textuais_g3-70"></use>
+<use x="81.635865" y="26.763863" href="#tz_tipos_textuais_g3-97"></use>
+<use x="85.607105" y="26.763863" href="#tz_tipos_textuais_g3-108"></use>
+<use x="87.862551" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="94.052036" y="26.763863" href="#tz_tipos_textuais_g3-115"></use>
+<use x="97.208276" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="100.750568" y="26.763863" href="#tz_tipos_textuais_g3-109"></use>
+<use x="107.295501" y="26.763863" href="#tz_tipos_textuais_g3-112"></use>
+<use x="111.69569" y="26.763863" href="#tz_tipos_textuais_g3-114"></use>
+<use x="114.809033" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="120.998517" y="26.763863" href="#tz_tipos_textuais_g3-101"></use>
+<use x="124.540809" y="26.763863" href="#tz_tipos_textuais_g3-109"></use>
+<use x="133.732935" y="26.763863" href="#tz_tipos_textuais_g2-116"></use>
+<use x="137.255826" y="26.763863" href="#tz_tipos_textuais_g2-105"></use>
+<use x="139.787984" y="26.763863" href="#tz_tipos_textuais_g2-112"></use>
+<use x="145.04464" y="26.763863" href="#tz_tipos_textuais_g2-111"></use>
+<use x="152.205457" y="26.763863" href="#tz_tipos_textuais_g2-112"></use>
+<use x="157.214446" y="26.763863" href="#tz_tipos_textuais_g2-114"></use>
+<use x="160.942135" y="26.763863" href="#tz_tipos_textuais_g2-101"></use>
+<use x="165.073173" y="26.763863" href="#tz_tipos_textuais_g2-100"></use>
+<use x="170.082162" y="26.763863" href="#tz_tipos_textuais_g2-111"></use>
+<use x="174.595787" y="26.763863" href="#tz_tipos_textuais_g2-109"></use>
+<use x="182.081598" y="26.763863" href="#tz_tipos_textuais_g2-105"></use>
+<use x="184.613756" y="26.763863" href="#tz_tipos_textuais_g2-110"></use>
+<use x="189.622745" y="26.763863" href="#tz_tipos_textuais_g2-97"></use>
+<use x="194.012519" y="26.763863" href="#tz_tipos_textuais_g2-110"></use>
+<use x="198.773824" y="26.763863" href="#tz_tipos_textuais_g2-116"></use>
+<use x="202.296716" y="26.763863" href="#tz_tipos_textuais_g2-101"></use>
+<use x="209.074947" y="26.763863" href="#tz_tipos_textuais_g3-43"></use>
+<use x="217.838124" y="26.763863" href="#tz_tipos_textuais_g1-115"></use>
+<use x="221.225459" y="26.763863" href="#tz_tipos_textuais_g1-101"></use>
+<use x="224.612794" y="26.763863" href="#tz_tipos_textuais_g1-113"></use>
+<use x="228.409711" y="26.763863" href="#tz_tipos_textuais_g1-117"></use>
+<use x="232.616209" y="26.763863" href="#tz_tipos_textuais_g1-94"></use>
+<use x="232.821021" y="26.763863" href="#tz_tipos_textuais_g1-101"></use>
+<use x="236.617937" y="26.763863" href="#tz_tipos_textuais_g1-110"></use>
+<use x="241.234018" y="26.763863" href="#tz_tipos_textuais_g1-99"></use>
+<use x="245.030934" y="26.763863" href="#tz_tipos_textuais_g1-105"></use>
+<use x="247.599107" y="26.763863" href="#tz_tipos_textuais_g1-97"></use>
+<use x="251.805605" y="26.763863" href="#tz_tipos_textuais_g1-115"></use>
+<use x="257.840133" y="26.763863" href="#tz_tipos_textuais_g1-115"></use>
+<use x="261.227468" y="26.763863" href="#tz_tipos_textuais_g1-101"></use>
+<use x="264.614804" y="26.763863" href="#tz_tipos_textuais_g1-99"></use>
+<use x="268.41172" y="26.763863" href="#tz_tipos_textuais_g1-117"></use>
+<use x="272.823016" y="26.763863" href="#tz_tipos_textuais_g1-110"></use>
+<use x="277.439097" y="26.763863" href="#tz_tipos_textuais_g1-100"></use>
+<use x="281.645595" y="26.763863" href="#tz_tipos_textuais_g1-19"></use>
+<use x="281.645608" y="26.763863" href="#tz_tipos_textuais_g1-97"></use>
+<use x="285.852107" y="26.763863" href="#tz_tipos_textuais_g1-114"></use>
+<use x="289.341844" y="26.763863" href="#tz_tipos_textuais_g1-105"></use>
+<use x="291.910016" y="26.763863" href="#tz_tipos_textuais_g1-97"></use>
+<use x="296.116515" y="26.763863" href="#tz_tipos_textuais_g1-115"></use>
+<use x="299.50385" y="26.763863" href="#tz_tipos_textuais_g3-46"></use>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tipos-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;73.1: Os cinco tipos e seus traços definidores. A classificação é feita pela <strong>estrutura linguística</strong>, não pela intuição — e o quadro inferior registra a ressalva mais importante do capítulo.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="os-textos-são-híbridos" class="level2" data-number="73.4">
+<h2 data-number="73.4" class="anchored" data-anchor-id="os-textos-são-híbridos"><span class="header-section-number">73.4</span> Os textos são híbridos</h2>
+<p>Esta é a lição central, e a que a escola mais frequentemente perde.</p>
+<p>Pergunte-se: uma <strong>receita de bolo</strong> é de que tipo?</p>
+<blockquote class="blockquote">
+<p>“Este bolo <strong>é</strong> macio e <strong>leva</strong> poucos ingredientes. [<strong>descrição</strong>] <strong>Preaqueça</strong> o forno. <strong>Bata</strong> as claras em neve. [<strong>injunção</strong>] Quando a massa <strong>estiver</strong> homogênea, <strong>acrescente</strong> o chocolate. [<strong>injunção</strong> + descrição] Minha avó <strong>fazia</strong> este bolo todo domingo, e a casa inteira <strong>ficava</strong> com cheiro de chocolate. [<strong>narração</strong>]”</p>
+</blockquote>
+<p>Três tipos, um texto. E, no entanto, ninguém hesita em dizer que aquilo é uma receita — porque <strong>receita é gênero</strong>, e o gênero comporta vários tipos.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Como classificar corretamente
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nunca pergunte “<strong>qual</strong> o tipo deste texto?”. Pergunte:</p>
+<ol type="1">
+<li><strong>Qual o tipo predominante?</strong> — o que organiza o texto e serve a seu propósito central.</li>
+<li><strong>Que sequências secundárias</strong> aparecem, e <strong>a serviço de quê</strong>?</li>
+</ol>
+<p>Numa <strong>notícia</strong> (gênero), o tipo predominante é a <strong>narração</strong>, com sequências <strong>descritivas</strong> (caracterizar os envolvidos) e às vezes <strong>expositivas</strong> (dar contexto).</p>
+<p>Num <strong>artigo de opinião</strong> (gênero), predomina a <strong>argumentação</strong>, com sequências <strong>narrativas</strong> (o exemplo, o caso ilustrativo) e <strong>expositivas</strong> (os dados).</p>
+<p>A formulação correta é sempre relativa: “predominantemente argumentativo, com sequências narrativas a serviço da exemplificação”.</p>
+</div>
+</div>
+<section id="por-que-a-narração-aparece-dentro-da-argumentação" class="level3" data-number="73.4.1">
+<h3 data-number="73.4.1" class="anchored" data-anchor-id="por-que-a-narração-aparece-dentro-da-argumentação"><span class="header-section-number">73.4.1</span> Por que a narração aparece dentro da argumentação</h3>
+<p>Vale destacar esse caso, porque é o mais útil para a redação.</p>
+<p>Quando um artigo de opinião conta um caso (“Em 2019, uma família de Minas perdeu a casa numa enchente previsível…”), ele <strong>não deixa de ser argumentativo</strong>. A narração está <strong>a serviço</strong> da tese: é um <strong>argumento por exemplificação</strong> (<a href="cap-76-argumentacao-falacias.html" class="quarto-xref"><span>Capítulo 78</span></a>). O tipo predominante continua sendo a argumentação, porque o <strong>propósito</strong> do texto é convencer, e a narrativa é instrumento.</p>
+<p>Isso desfaz um medo comum do candidato: “posso contar uma história na redação do ENEM?”. Pode — desde que a história <strong>argumente</strong>. O erro não é narrar; é narrar <strong>em vez de</strong> argumentar.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Norma-padrão × uso real
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Uma observação sobre o estatuto desta classificação.</p>
+<p>Os cinco tipos não são <strong>fatos da natureza</strong>: são uma <strong>grade analítica</strong> útil, construída pela tradição escolar e pela linguística de texto. Autores diferentes contam tipos diferentes — alguns fundem exposição e argumentação em “dissertação”; outros acrescentam o “tipo dialogal” (a conversa); Marcuschi <span class="citation" data-cites="marcuschi2008">(<a href="cap-01-linguagem-lingua-fala.html#ref-marcuschi2008" role="doc-biblioref">Marcuschi, 2008</a>)</span> trabalha com <strong>sequências tipológicas</strong>, e não com tipos de texto, justamente porque <strong>texto inteiro de um tipo só quase não existe</strong>.</p>
+<p>Isso não invalida a grade — ela descreve traços reais e é boa ferramenta de análise e de produção. Mas convém saber o que se está usando: uma <strong>classificação instrumental</strong>, não uma taxonomia natural. Em prova, use a divisão que a banca adota (em geral, a escolar de cinco tipos); em análise séria, fale em <strong>sequências predominantes</strong>, que é mais preciso e mais honesto.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="quadro-resumo" class="level2" data-number="73.5">
+<h2 data-number="73.5" class="anchored" data-anchor-id="quadro-resumo"><span class="header-section-number">73.5</span> 📋 Quadro-resumo</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo</th>
+<th>Propósito</th>
+<th>Traços linguísticos</th>
+<th>Tempo</th>
+<th>Gêneros típicos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Narração</strong></td>
+<td>contar fatos</td>
+<td>pret. perfeito, marcadores temporais, personagens</td>
+<td><strong>avança</strong></td>
+<td>conto, notícia, relato, piada</td>
+</tr>
+<tr class="even">
+<td><strong>Descrição</strong></td>
+<td>caracterizar</td>
+<td>verbos de estado, adjetivos, marcadores espaciais</td>
+<td><strong>parado</strong></td>
+<td>anúncio, laudo, retrato</td>
+</tr>
+<tr class="odd">
+<td><strong>Exposição</strong></td>
+<td>informar</td>
+<td>presente atemporal, definições, classificações</td>
+<td>atemporal</td>
+<td>verbete, manual, aula</td>
+</tr>
+<tr class="even">
+<td><strong>Argumentação</strong></td>
+<td>convencer</td>
+<td>conectivos lógicos, operadores, tese</td>
+<td>atemporal</td>
+<td>editorial, ensaio, redação</td>
+</tr>
+<tr class="odd">
+<td><strong>Injunção</strong></td>
+<td>instruir a fazer</td>
+<td>imperativo/infinitivo, 2ª pessoa, sequência</td>
+<td>futuro/atemporal</td>
+<td>receita, bula, lei, tutorial</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Tipo × gênero:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Tipo</strong></th>
+<th><strong>Gênero</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Natureza</td>
+<td>linguística</td>
+<td>sócio-histórica</td>
+</tr>
+<tr class="even">
+<td>Conjunto</td>
+<td><strong>fechado</strong> (5)</td>
+<td><strong>aberto</strong> (infinito)</td>
+</tr>
+<tr class="odd">
+<td>Estabilidade</td>
+<td>universal, estável</td>
+<td>histórico, mutável</td>
+</tr>
+<tr class="even">
+<td>Definido por</td>
+<td>traços internos</td>
+<td>função e situação</td>
+</tr>
+</tbody>
+</table>
+<p>Em uma linha: <strong>tipos são cinco e se reconhecem na estrutura; gêneros são infinitos e se reconhecem na função</strong> — e todo texto real é <strong>híbrido</strong>, com um tipo predominante e sequências secundárias a seu serviço.</p>
+</section>
+<section id="pegadinhas-e-erros-comuns" class="level2" data-number="73.6">
+<h2 data-number="73.6" class="anchored" data-anchor-id="pegadinhas-e-erros-comuns"><span class="header-section-number">73.6</span> ⚠️ Pegadinhas e erros comuns</h2>
+<ul>
+<li><strong>Confundir tipo com gênero.</strong> “Gênero dissertativo-argumentativo” ✗ — é <strong>tipo</strong>. O gênero é “redação de vestibular”.</li>
+<li><strong>Perguntar “qual o tipo deste texto?”.</strong> Pergunte pelo <strong>predominante</strong> e pelas <strong>sequências</strong>. Texto puro de um tipo só quase não existe.</li>
+<li><strong>Achar que narrar na redação é erro.</strong> Não é — desde que a narração <strong>argumente</strong> (seja exemplo a serviço da tese). O erro é narrar <strong>em vez de</strong> argumentar.</li>
+<li><strong>Classificar pela intuição.</strong> O critério é <strong>linguístico</strong>: tempos verbais, classes, marcadores. “Parece uma história” não é análise.</li>
+<li><strong>Confundir descrição com narração.</strong> Aplique o <strong>teste da ordem</strong>: se pode trocar as frases de lugar, é descrição; se não pode, é narração.</li>
+<li><strong>Confundir exposição com argumentação.</strong> O critério é o <strong>propósito</strong>: informar × convencer. Ambas usam presente atemporal.</li>
+<li><strong>Achar que a injunção só existe em receita.</strong> Lei, edital, bula e placa de trânsito são injuntivos.</li>
+<li><strong>Tomar os cinco tipos como fato natural.</strong> É uma <strong>grade analítica</strong> — útil, mas construída. Autores divergem.</li>
+</ul>
+</section>
+<section id="exercícios" class="level2" data-number="73.7">
+<h2 data-number="73.7" class="anchored" data-anchor-id="exercícios"><span class="header-section-number">73.7</span> ✍️ Exercícios</h2>
+<p><strong>1.</strong> Classifique o tipo predominante e justifique pelos traços linguísticos: “Chegou em casa às sete. Tirou o casaco, serviu-se de água e sentou-se. Só então percebeu que a porta dos fundos estava aberta.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Narração.</strong> Justificativa pelos <strong>traços linguísticos</strong> (não pela intuição):</p>
+<ol type="1">
+<li><strong>Verbos de ação no pretérito perfeito</strong>: <em>chegou</em>, <em>tirou</em>, <em>serviu-se</em>, <em>sentou-se</em>, <em>percebeu</em> — o tempo por excelência da narrativa.</li>
+<li><strong>Progressão temporal</strong>: a ordem dos verbos <strong>é</strong> a ordem dos fatos. Há um antes e um depois.</li>
+<li><strong>Marcador temporal</strong>: “só <strong>então</strong>” articula a sequência.</li>
+<li><strong>Transformação de estado</strong>: algo muda entre o início (rotina tranquila) e o fim (descoberta inquietante).</li>
+<li><strong>Personagem</strong> que age (sujeito elíptico).</li>
+</ol>
+<p><strong>Sequência secundária</strong>: “a porta dos fundos <strong>estava</strong> aberta” é <strong>descritiva</strong> (verbo de estado, imperfeito) — mas está <strong>a serviço</strong> da narrativa, fornecendo o dado que produz a virada.</p>
+<p><strong>Teste da ordem</strong>: não se pode trocar as frases de lugar (“sentou-se, chegou em casa, tirou o casaco”) sem destruir os fatos. Logo, narração, não descrição.</p>
+</div>
+</div>
+</div>
+<p><strong>2.</strong> Explique a diferença entre tipo e gênero textual, com exemplos.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Tipo textual</strong> — modo de <strong>organizar o discurso</strong>, definido por <strong>traços linguísticos</strong> internos. Categoria da <strong>linguística</strong>.</p>
+<ul>
+<li>Conjunto <strong>fechado</strong>: cinco (narração, descrição, exposição, argumentação, injunção).</li>
+<li><strong>Universal e estável</strong>: valem para qualquer língua e época.</li>
+<li>Reconhece-se <strong>na estrutura</strong>: pretérito perfeito + sequência temporal = narração, esteja isso num romance de 1880 ou num boletim de ocorrência de ontem.</li>
+</ul>
+<p><strong>Gênero textual</strong> — prática <strong>social</strong> de linguagem, definida pela <strong>função</strong> numa situação. Categoria <strong>sócio-histórica</strong>.</p>
+<ul>
+<li>Conjunto <strong>aberto e infinito</strong>: receita, bula, tuíte, sermão, edital, meme, currículo…</li>
+<li><strong>Histórico e mutável</strong>: nascem e morrem (o telegrama morreu; o <em>stories</em> nasceu).</li>
+<li>Reconhece-se <strong>pela função e pela situação</strong>.</li>
+</ul>
+<p><strong>A relação</strong>: um <strong>gênero mobiliza tipos</strong>. A receita (gênero) usa injunção (“bata as claras”), descrição (“massa homogênea”) e às vezes narração (“minha avó fazia…”). O gênero é a <strong>prática</strong>; o tipo é o <strong>material</strong>.</p>
+<p><strong>O erro comum</strong>: “a redação do ENEM é um gênero dissertativo-argumentativo” mistura tudo. <em>Dissertativo-argumentativo</em> é o <strong>tipo</strong>; o <strong>gênero</strong> é “redação de vestibular”, com destinatário (o corretor), extensão (30 linhas), convenções (proposta de intervenção) e critérios públicos (<a href="cap-72-generos-textuais.html" class="quarto-xref"><span>Capítulo 74</span></a>, <a href="cap-77-redacao-enem-concursos.html" class="quarto-xref"><span>Capítulo 79</span></a>).</p>
+</div>
+</div>
+</div>
+<p><strong>3.</strong> Aplique o teste da ordem para distinguir: (a) “A sala era ampla. Ao fundo, uma janela. Sobre a mesa, três livros.”; (b) “Chegou. Sentou-se. Pediu água.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>(a) Descrição.</strong> As frases <strong>podem ser trocadas de lugar</strong> sem alteração de sentido: “Sobre a mesa, três livros. A sala era ampla. Ao fundo, uma janela.” Continua descrevendo a mesma sala.</p>
+<p><strong>Por quê</strong>: os traços descritos <strong>coexistem</strong> — a amplitude, a janela e os livros são simultâneos. O tempo está <strong>parado</strong>. A ordem de menção é escolha do autor, não fato do mundo. Traços confirmatórios: verbos de estado (<em>era</em>, elipses de <em>havia</em>), marcadores <strong>espaciais</strong> (<em>ao fundo</em>, <em>sobre a mesa</em>).</p>
+<p><strong>(b) Narração.</strong> As frases <strong>não podem</strong> ser trocadas: “Pediu água. Chegou. Sentou-se.” descreve outros fatos — e absurdos (pedir água antes de chegar).</p>
+<p><strong>Por quê</strong>: as ações se <strong>sucedem</strong> no tempo. A ordem dos verbos <strong>é</strong> a ordem dos acontecimentos. O tempo <strong>avança</strong>. Traço confirmatório: pretérito perfeito de verbos de ação.</p>
+<p><strong>O teste em uma frase</strong>: se a ordem é <strong>arbitrária</strong>, é descrição (simultaneidade); se é <strong>necessária</strong>, é narração (sucessão).</p>
+</div>
+</div>
+</div>
+<p><strong>4.</strong> (Estilo ENEM) Uma receita de bolo é um texto:</p>
+<ol type="a">
+<li>exclusivamente injuntivo;</li>
+<li>do gênero injuntivo;</li>
+<li>do gênero receita, predominantemente injuntivo, com sequências descritivas;</li>
+<li>exclusivamente descritivo;</li>
+<li>narrativo, pois apresenta ações em sequência.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Alternativa (c).</strong> A formulação é a única que respeita as duas distinções do capítulo.</p>
+<ul>
+<li><strong>Receita é gênero</strong> (prática social: instruir alguém a preparar um alimento, com convenções próprias — lista de ingredientes, modo de preparo, rendimento).</li>
+<li>O <strong>tipo predominante</strong> é a <strong>injunção</strong> (imperativos: “bata”, “acrescente”, “preaqueça”), pois o propósito é fazer o leitor <strong>agir</strong>.</li>
+<li>Há <strong>sequências descritivas</strong> (“massa homogênea”, “claras em neve”, “bolo macio”), que caracterizam estados a atingir.</li>
+<li>Pode haver ainda sequências <strong>narrativas</strong> (“minha avó fazia este bolo todo domingo”).</li>
+</ul>
+<p>As demais: <strong>(a)</strong> e <strong>(d)</strong> ignoram o hibridismo — nenhum texto real é de um tipo só; <strong>(b)</strong> confunde as categorias: injuntivo é <strong>tipo</strong>, não gênero; <strong>(e)</strong> confunde <strong>sequência de instruções</strong> (o leitor deve executar, no futuro) com <strong>sucessão de fatos</strong> (alguém executou, no passado). O teste: os verbos estão no <strong>imperativo</strong>, não no pretérito perfeito — ninguém está contando o que aconteceu.</p>
+</div>
+</div>
+</div>
+<p><strong>5.</strong> Explique por que uma narração pode aparecer dentro de um texto argumentativo sem descaracterizá-lo.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Porque o tipo predominante é determinado pelo <strong>propósito global</strong> do texto, não pela presença pontual de sequências de outro tipo.</p>
+<p>Quando um artigo de opinião conta um caso — “Em 2019, uma família de Minas perdeu a casa numa enchente previsível; o laudo apontava risco havia três anos” —, a narração está <strong>a serviço da tese</strong>: funciona como <strong>argumento por exemplificação</strong> (<a href="cap-76-argumentacao-falacias.html" class="quarto-xref"><span>Capítulo 78</span></a>), tornando concreto e memorável um ponto abstrato (“o poder público negligencia laudos técnicos”).</p>
+<p>O texto continua <strong>predominantemente argumentativo</strong> porque:</p>
+<ol type="1">
+<li>seu <strong>propósito</strong> é convencer, não contar;</li>
+<li>a narrativa é <strong>instrumento</strong>, não fim — ela conclui numa asserção;</li>
+<li>a estrutura global é de <strong>tese + argumentos</strong>, e a história ocupa a posição de um argumento.</li>
+</ol>
+<p><strong>A consequência prática</strong> (e é a que importa ao candidato): “posso contar uma história na redação do ENEM?” — <strong>pode</strong>, e frequentemente deve, pois o exemplo concreto fortalece a argumentação. O erro não é <strong>narrar</strong>; é narrar <strong>em vez de</strong> argumentar, isto é, deixar a história solta, sem que dela se extraia nada.</p>
+<p>Regra prática: toda narrativa numa redação argumentativa precisa ser seguida da pergunta “<strong>e daí?</strong>” — e o texto precisa respondê-la.</p>
+</div>
+</div>
+</div>
+<p><strong>6.</strong> (Estilo Cebraspe — Certo/Errado) Julgue: “Todo texto pertence a um único tipo textual.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Errado.</strong> Textos reais são tipologicamente <strong>híbridos</strong> — quase nenhum é de um tipo só.</p>
+<p><strong>Exemplo</strong>: uma receita mobiliza <strong>injunção</strong> (“bata as claras”), <strong>descrição</strong> (“massa homogênea”) e, não raro, <strong>narração</strong> (“minha avó fazia este bolo todo domingo”). Um artigo de opinião mobiliza <strong>argumentação</strong> (predominante), <strong>narração</strong> (o caso ilustrativo) e <strong>exposição</strong> (os dados). Uma notícia mobiliza <strong>narração</strong> (predominante) e <strong>descrição</strong> (caracterizar os envolvidos).</p>
+<p><strong>A formulação correta</strong>: fala-se em <strong>tipo predominante</strong> + <strong>sequências secundárias</strong>, e sempre relativamente ao propósito. “Predominantemente argumentativo, com sequências narrativas a serviço da exemplificação.”</p>
+<p><strong>Nota teórica</strong>: é exatamente por causa desse hibridismo que Marcuschi <span class="citation" data-cites="marcuschi2008">(<a href="cap-01-linguagem-lingua-fala.html#ref-marcuschi2008" role="doc-biblioref">Marcuschi, 2008</a>)</span> prefere falar em <strong>sequências tipológicas</strong> em vez de tipos <strong>de texto</strong> — a unidade tipológica não é o texto inteiro, mas o trecho. A grade dos cinco tipos é uma ferramenta analítica útil, não uma taxonomia natural em que cada texto ocuparia uma gaveta.</p>
+</div>
+</div>
+</div>
+<p><strong>7.</strong> Identifique os tipos presentes e o predominante: “Este bolo é macio. Preaqueça o forno a 180°C. Bata as claras em neve. Minha avó fazia este bolo todo domingo.”</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Três tipos</strong> em quatro períodos:</p>
+<ol type="1">
+<li><strong>“Este bolo é macio”</strong> — <strong>descrição</strong>: verbo de estado (<em>é</em>), adjetivo (<em>macio</em>), caracterização, tempo parado.</li>
+<li><strong>“Preaqueça o forno” / “Bata as claras”</strong> — <strong>injunção</strong>: imperativos, segunda pessoa implícita, sequência de ações a executar.</li>
+<li><strong>“Minha avó fazia este bolo todo domingo”</strong> — <strong>narração</strong>: pretérito imperfeito de verbo de ação com valor <strong>habitual/iterativo</strong>, personagem, marcador temporal (<em>todo domingo</em>).</li>
+</ol>
+<p><strong>Tipo predominante</strong>: <strong>injunção</strong>. O propósito do texto é <strong>fazer o leitor agir</strong> — preparar o bolo. A descrição serve para caracterizar o resultado esperado (motivando e orientando), e a narração cumpre função <strong>afetiva</strong> (criar vínculo, sugerir tradição e confiabilidade da receita).</p>
+<p><strong>Gênero</strong>: <strong>receita</strong> — e o gênero é o que permite reconhecer o texto imediatamente, apesar da mistura de tipos. Ninguém hesita ao classificá-lo, porque o gênero é uma prática social reconhecível, não uma soma de traços.</p>
+<p>Note que a sequência narrativa final é típica de um <strong>subgênero</strong> contemporâneo: a receita de blog, que mistura instrução e memória pessoal — evidência de que gêneros são históricos e mutáveis (<a href="cap-72-generos-textuais.html" class="quarto-xref"><span>Capítulo 74</span></a>).</p>
+</div>
+</div>
+</div>
+<p><strong>8.</strong> Distinga exposição de argumentação, com exemplos próprios.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Ambas discutem ideias no plano abstrato e usam <strong>presente atemporal</strong> e <strong>terceira pessoa</strong> — por isso se confundem. A diferença é o <strong>propósito</strong>.</p>
+<p><strong>Exposição</strong> — <strong>informa</strong>, sem defender tese:</p>
+<blockquote class="blockquote">
+<p>“Os mamíferos dividem-se em três grupos: monotremados, marsupiais e placentários. Os primeiros põem ovos; os segundos completam o desenvolvimento em bolsa; os terceiros desenvolvem placenta.”</p>
+</blockquote>
+<p>Traços: definições, classificações, exemplos. <strong>Ausência de operadores de adesão</strong>. Não há nada a discordar — só a aprender.</p>
+<p><strong>Argumentação</strong> — <strong>convence</strong>, defendendo tese:</p>
+<blockquote class="blockquote">
+<p>“A divisão tradicional dos mamíferos em três grupos, <strong>embora</strong> didaticamente cômoda, <strong>obscurece</strong> a diversidade dos marsupiais. <strong>É preciso reconhecer que</strong> essa simplificação <strong>prejudica</strong> a compreensão da evolução dos mamíferos australianos.”</p>
+</blockquote>
+<p>Traços: <strong>operadores argumentativos</strong> (<em>embora</em>, <em>é preciso reconhecer que</em>), <strong>conectivos lógicos</strong> densos, verbos de <strong>avaliação</strong> (<em>obscurece</em>, <em>prejudica</em>), e sobretudo uma <strong>tese contestável</strong> — alguém pode discordar.</p>
+<p><strong>O teste decisivo</strong>: pergunte “<strong>é possível discordar disso?</strong>”. Se não (é informação), é exposição. Se sim (é posição), é argumentação.</p>
+<p><strong>Nota</strong>: muitos manuais fundem as duas sob “dissertação”, distinguindo dissertação <strong>expositiva</strong> e <strong>argumentativa</strong>. Em prova, use a divisão da banca.</p>
+</div>
+</div>
+</div>
+<p><strong>9.</strong> (Estilo FUVEST) Discuta o estatuto teórico da classificação em cinco tipos: ela descreve fatos da língua ou é uma construção analítica?</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>A resposta honesta é: as duas coisas, em medidas diferentes</strong> — e a pergunta é boa porque expõe o estatuto de toda classificação linguística.</p>
+<p><strong>O que há de real (fatos da língua):</strong></p>
+<p>Os <strong>traços</strong> que a grade mobiliza são objetivos e verificáveis. É um fato que o pretérito perfeito de verbos de ação, somado a marcadores temporais, produz progressão narrativa. É um fato que verbos de estado e adjetivos produzem caracterização estática. Esses feixes de traços <strong>coocorrem</strong> sistematicamente e podem ser medidos em corpus. A grade não foi inventada do nada.</p>
+<p><strong>O que há de construção:</strong></p>
+<ol type="1">
+<li><strong>O número cinco é arbitrário.</strong> Autores divergem: alguns fundem exposição e argumentação em “dissertação” (chegando a quatro); outros acrescentam o <strong>tipo dialogal</strong> (a conversa, com turnos), chegando a seis. A tradição escolar brasileira estabilizou cinco por conveniência didática, não por descoberta.</li>
+<li><strong>A unidade está errada.</strong> O rótulo “tipo <strong>de texto</strong>” sugere que textos inteiros pertencem a tipos — e praticamente nenhum pertence. Por isso Marcuschi <span class="citation" data-cites="marcuschi2008">(<a href="cap-01-linguagem-lingua-fala.html#ref-marcuschi2008" role="doc-biblioref">Marcuschi, 2008</a>)</span> propõe falar em <strong>sequências tipológicas</strong>: a unidade real é o <strong>trecho</strong>, não o texto. A grade nomeia bem os trechos e mal os textos.</li>
+<li><strong>As fronteiras são graduais.</strong> Exposição e argumentação partilham quase todos os traços formais; separam-se pelo <strong>propósito</strong>, que não é um traço linguístico, mas pragmático. Isto é: um dos cinco tipos não se distingue de outro por critério interno — o que enfraquece a homogeneidade da grade.</li>
+</ol>
+<p><strong>Conclusão</strong>: é uma <strong>classificação instrumental</strong> ancorada em fatos reais — útil para analisar e, sobretudo, para <strong>produzir</strong> texto (saber que a argumentação pede conectivos lógicos densos é conselho acionável). Mas não é uma taxonomia natural, como a tabela periódica, em que cada objeto ocupa uma casa e só uma.</p>
+<p><strong>Corolário prático</strong>: em prova, use a grade da banca (em geral, a escolar de cinco). Em análise séria, fale em <strong>sequências predominantes</strong> — é mais preciso e mais honesto. Saber a diferença entre as duas atitudes é, ela própria, parte do que se espera de quem estudou o assunto.</p>
+</div>
+</div>
+</div>
+<p><strong>10.</strong> Analise tipologicamente uma notícia de jornal e um editorial sobre o mesmo fato.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Solução
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Resposta possível (o exercício admite variação; o que importa é o método).</p>
+<p><strong>Fato</strong>: enchente destrói casas numa cidade do interior.</p>
+<p><strong>NOTÍCIA</strong> — gênero: notícia; tipo predominante: <strong>narração</strong>.</p>
+<blockquote class="blockquote">
+<p>“Uma enchente atingiu o município de X na madrugada de terça-feira. As águas subiram cerca de dois metros e destruíram 40 casas. A Defesa Civil registrou 200 desabrigados. O prefeito decretou estado de emergência.”</p>
+</blockquote>
+<ul>
+<li><strong>Narração</strong> (predominante): pretérito perfeito (<em>atingiu</em>, <em>subiram</em>, <em>destruíram</em>, <em>decretou</em>), progressão temporal, marcador (<em>na madrugada de terça</em>).</li>
+<li><strong>Sequências descritivas</strong>: “cerca de dois metros”, “40 casas”, “200 desabrigados” — caracterizam a cena.</li>
+<li><strong>Propósito</strong>: <strong>informar</strong> o que aconteceu. Sem tese.</li>
+</ul>
+<p><strong>EDITORIAL</strong> — gênero: editorial; tipo predominante: <strong>argumentação</strong>.</p>
+<blockquote class="blockquote">
+<p>“A enchente de X <strong>não foi</strong> um desastre natural: <strong>foi</strong> um desastre político. <strong>Uma vez que</strong> o laudo da Defesa Civil apontava o risco desde 2021 e nada foi feito, <strong>conclui-se que</strong> houve omissão. Na madrugada de terça, 40 famílias pagaram por essa omissão. <strong>É urgente que</strong> se apurem responsabilidades.”</p>
+</blockquote>
+<ul>
+<li><strong>Argumentação</strong> (predominante): presente atemporal com valor de tese (<em>não foi… foi</em>), conectivos lógicos (<em>uma vez que</em>, <em>conclui-se que</em>), operadores (<em>é urgente que</em>), substantivos abstratos (<em>omissão</em>, <em>responsabilidades</em>).</li>
+<li><strong>Sequência narrativa</strong> (“na madrugada de terça, 40 famílias pagaram”) — <strong>a serviço da tese</strong>: é o exemplo que concretiza a acusação (<a href="cap-76-argumentacao-falacias.html" class="quarto-xref"><span>Capítulo 78</span></a>).</li>
+<li><strong>Propósito</strong>: <strong>convencer</strong> de que houve omissão. Há tese contestável.</li>
+</ul>
+<p><strong>Comparação — o que a análise revela:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>Notícia</th>
+<th>Editorial</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Gênero</strong></td>
+<td>notícia</td>
+<td>editorial</td>
+</tr>
+<tr class="even">
+<td><strong>Tipo predominante</strong></td>
+<td>narração</td>
+<td>argumentação</td>
+</tr>
+<tr class="odd">
+<td><strong>Propósito</strong></td>
+<td>informar</td>
+<td>convencer</td>
+</tr>
+<tr class="even">
+<td><strong>Tese</strong></td>
+<td>ausente</td>
+<td>“foi desastre político”</td>
+</tr>
+<tr class="odd">
+<td><strong>Narração</strong></td>
+<td>é o texto</td>
+<td>é um argumento</td>
+</tr>
+</tbody>
+</table>
+<p><strong>A lição</strong>: os <strong>mesmos fatos</strong>, os <strong>mesmos dados</strong>, e dois textos tipologicamente distintos — porque os <strong>propósitos</strong> e os <strong>gêneros</strong> diferem. Note ainda que a notícia “neutra” também faz escolhas (o que contar, em que ordem, com que verbos), e o editorial as torna explícitas. É a distinção entre denotação e conotação (<a href="cap-61-denotacao-conotacao.html" class="quarto-xref"><span>Capítulo 63</span></a>) reaparecendo no nível do texto inteiro.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="referências" class="level2" data-number="73.8">
+<h2 data-number="73.8" class="anchored" data-anchor-id="referências"><span class="header-section-number">73.8</span> 📚 Referências</h2>
+<p>A distinção entre tipo e gênero textual, a crítica à noção de “tipo de texto” e a proposta de trabalhar com <strong>sequências tipológicas</strong> seguem Marcuschi <span class="citation" data-cites="marcuschi2008">(<a href="cap-01-linguagem-lingua-fala.html#ref-marcuschi2008" role="doc-biblioref">Marcuschi, 2008</a>)</span>, referência central deste capítulo e do <a href="cap-72-generos-textuais.html" class="quarto-xref"><span>Capítulo 74</span></a>; a caracterização dos tipos por traços linguísticos e sua articulação com a textualidade apoia-se em Koch <span class="citation" data-cites="koch2015texto">(<a href="cap-01-linguagem-lingua-fala.html#ref-koch2015texto" role="doc-biblioref">Koch; Elias, 2015</a>)</span> e Koch <span class="citation" data-cites="koch2018coesao">(<a href="cap-01-linguagem-lingua-fala.html#ref-koch2018coesao" role="doc-biblioref">Koch, 2018</a>)</span>. Para os tempos verbais que definem cada tipo, veja os <a href="cap-33-verbo-ii-tempos-modos-aspecto.html" class="quarto-xref"><span>Capítulo 35</span></a> e <a href="cap-34-verbo-iii-vozes-irregulares-defectivos.html" class="quarto-xref"><span>Capítulo 36</span></a>; para os conectivos que sustentam a argumentação, o <a href="cap-69-coesao.html" class="quarto-xref"><span>Capítulo 71</span></a>; para os tipos de argumento invocados a propósito da narração exemplificativa, o <a href="cap-76-argumentacao-falacias.html" class="quarto-xref"><span>Capítulo 78</span></a>. O próximo capítulo desenvolve a segunda categoria — os <strong>gêneros textuais</strong> —, e o <a href="cap-77-redacao-enem-concursos.html" class="quarto-xref"><span>Capítulo 79</span></a> aplica tudo isso ao gênero “redação de vestibular”.</p>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-koch2018coesao" class="csl-entry" role="listitem">
+KOCH, Ingedore Grunfeld Villaça. <strong>A Coesão Textual</strong>. 23. ed. São Paulo: Contexto, 2018.
+</div>
+<div id="ref-koch2015texto" class="csl-entry" role="listitem">
+KOCH, Ingedore Grunfeld Villaça; ELIAS, Vanda Maria. <strong>O Texto e a Construção dos Sentidos</strong>. São Paulo: Contexto, 2015.
+</div>
+<div id="ref-marcuschi2008" class="csl-entry" role="listitem">
+MARCUSCHI, Luiz Antônio. <strong>Produção Textual, Análise de Gêneros e Compreensão</strong>. São Paulo: Parábola, 2008.
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
