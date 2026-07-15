@@ -4,22 +4,296 @@ title: "A vírgula"
 
 # A vírgula {#sec-cap-57}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 9 — Pontuação e Convenções.
+> "Uma vírgula pode condenar ou salvar: 'Não, espere' é o oposto de 'Não espere'."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+A **vírgula** é o sinal de pontuação mais usado, mais versátil e mais temido. Ela separa,
+isola, ordena — e um deslize seu pode mudar o sentido de uma frase inteira. Vimos no
+@sec-cap-56 que a pontuação é sintática; agora aplicamos esse princípio ao sinal-rei,
+organizando **quando se usa** e **quando se proíbe** a vírgula. A boa notícia: por trás da
+aparente miríade de regras, há poucos princípios, todos ligados à estrutura da frase que
+já estudamos.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Este capítulo separa os dois grandes empregos da vírgula — **dentro da oração** (entre
+termos) e **entre orações** (no período composto) —, com foco nos casos mais cobrados: a
+enumeração, o adjunto adverbial deslocado, o aposto, o vocativo, e a temida distinção
+restritiva × explicativa (@sec-cap-45). É, na prática, o capítulo mais aplicável de todo o
+volume.
 
-::: {.callout-note}
-Capítulo em preparação.
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** a vírgula na enumeração e em termos coordenados;
+- **Isolar** com vírgula o vocativo, o aposto e o adjunto adverbial deslocado;
+- **Empregar** a vírgula entre orações coordenadas e subordinadas;
+- **Distinguir** os casos em que a vírgula é obrigatória, facultativa ou proibida;
+- **Perceber** como a vírgula muda o sentido;
+- **Corrigir** erros de vírgula em textos.
+
+## A vírgula dentro da oração
+
+Dentro de uma mesma oração, a vírgula é usada para:
+
+### Separar elementos de uma enumeração
+
+Termos de mesma função em série separam-se por vírgula; antes do **e** final, em geral,
+**não** se usa vírgula: "Comprei **pão, leite, ovos e café**".
+
+### Isolar o vocativo
+
+O vocativo (@sec-cap-42) vem sempre isolado: "**Maria**, venha aqui"; "Escute, **meu
+filho**".
+
+### Isolar o aposto explicativo
+
+"Drummond, **poeta mineiro**, escreveu...". (O aposto especificativo, sem vírgula: "o
+poeta Drummond".)
+
+### Isolar o adjunto adverbial deslocado
+
+Adjuntos adverbiais **deslocados** para o início (ou intercalados) costumam ser isolados,
+sobretudo se longos: "**Naquela manhã fria**, saímos cedo"; "Saímos, **então**, cedo". Um
+adjunto breve no início pode dispensar a vírgula ("Ontem choveu").
+
+### Marcar a omissão de um termo (zeugma)
+
+A vírgula pode marcar a **elipse** de um verbo já mencionado: "Uns preferem o mar; outros,
+a montanha" (a vírgula substitui o verbo *preferem*).
+
+### Isolar elementos explicativos, corretivos ou expletivos
+
+Expressões como *isto é*, *ou seja*, *por exemplo*, *aliás*, *contudo*, *no entanto*,
+*porém* (deslocada) vêm entre vírgulas: "Ele, **aliás**, nem veio"; "Estava cansado; não
+desistiu, **porém**".
+
+## A vírgula entre orações
+
+No período composto, a vírgula organiza a relação entre as orações:
+
+::: {.callout-important}
+## Vírgula na coordenação e na subordinação
+**Coordenação** (@sec-cap-43):
+
+- coordenadas **assindéticas**: separam-se por vírgula — "Vim, vi, venci".
+- antes de **adversativas** (*mas*, *porém*) e **conclusivas** (*logo*, *portanto*):
+  vírgula — "Estudou, **mas** falhou".
+- antes de *e* (aditiva): geralmente **sem** vírgula, salvo sujeitos diferentes ou ênfase.
+
+**Subordinação** (caps. 44–46):
+
+- **adjetivas explicativas**: entre vírgulas — "Os alunos, **que estudaram**, passaram".
+- **adjetivas restritivas**: **sem** vírgula — "Os alunos **que estudaram** passaram".
+- **adverbiais deslocadas** (antes da principal): vírgula — "**Quando cheguei**, chovia".
+- **substantivas**: em geral **não** se separam da principal por vírgula — "Espero que
+  venha" (sem vírgula antes de "que").
+:::
+
+A @fig-virgula-oracoes resume o essencial.
+
+::: {#fig-virgula-oracoes}
+
+```{.tikz}
+%%| filename: virgula-oracoes
+%%| alt: Diagrama com os casos de vírgula entre orações. Coordenadas assindéticas: vírgula. Antes de mas, porém, logo, portanto: vírgula. Antes de e aditivo: em geral sem vírgula. Adjetiva explicativa: entre vírgulas. Adjetiva restritiva: sem vírgula. Adverbial deslocada: vírgula. Substantiva: sem vírgula.
+
+\begin{tikzpicture}[
+  font=\scriptsize,
+  s/.style={rounded corners=2pt, draw=manualgreen, fill=manualgreen!10, align=left, text width=52mm, minimum height=7mm, inner sep=3pt},
+  n/.style={rounded corners=2pt, draw=manualred, fill=manualred!10, align=left, text width=52mm, minimum height=7mm, inner sep=3pt},
+]
+  \node[s] (a) at (0,0) {\textbf{COM vírgula:} coordenadas assindéticas};
+  \node[s, below=1.5mm of a] (b) {\textbf{COM:} antes de \emph{mas, porém, logo, portanto}};
+  \node[s, below=1.5mm of b] (c) {\textbf{COM:} adjetiva \emph{explicativa} (entre vírgulas)};
+  \node[s, below=1.5mm of c] (d) {\textbf{COM:} adverbial \emph{deslocada} (antes da principal)};
+  \node[n, right=6mm of a] (e) {\textbf{SEM vírgula:} antes de \emph{e} aditivo (regra geral)};
+  \node[n, below=1.5mm of e] (f) {\textbf{SEM:} adjetiva \emph{restritiva}};
+  \node[n, below=1.5mm of f] (g) {\textbf{SEM:} oração \emph{substantiva} + principal};
+  \node[n, below=1.5mm of g] (h) {\textbf{SEM:} sujeito $\times$ verbo $\times$ complemento};
+\end{tikzpicture}
+```
+
+Síntese da vírgula entre orações: usa-se nas assindéticas, antes de adversativas/
+conclusivas, nas adjetivas explicativas e adverbiais deslocadas; dispensa-se antes de *e*
+aditivo, nas restritivas, nas substantivas e entre termos essenciais.
+:::
+
+## A vírgula que muda o sentido
+
+O caso mais célebre: a vírgula pode inverter o significado.
+
+::: {.exemplo}
+- "Não espere." (uma ordem: não espere) × "Não, espere." (peça para esperar: não [saia],
+  espere).
+- "Vamos perder, nada foi resolvido." × "Vamos perder nada? Foi resolvido."
+- "Isso só, ele resolve." × "Isso, só ele resolve."
+- Clássico: "Se o homem soubesse o valor que tem a mulher, andaria de quatro à sua
+  procura." — deslocar a vírgula muda tudo.
+:::
+
+Nas adjetivas, como vimos, a vírgula distingue restringir (sem vírgula) de explicar (entre
+vírgulas) — "Os políticos que são corruptos..." × "Os políticos, que são corruptos,...".
+
+## 📋 Quadro-resumo
+
+| Emprego | Vírgula? | Exemplo |
+|---|---|---|
+| Enumeração | sim (não antes do *e* final) | "pão, leite e café" |
+| Vocativo | isola | "Ana, venha" |
+| Aposto explicativo | isola | "Drummond, poeta,..." |
+| Adjunto adverbial deslocado | isola (se longo) | "Naquela manhã, saí" |
+| Coordenadas assindéticas | sim | "Vim, vi, venci" |
+| Antes de *mas/porém/logo* | sim | "Quis, mas não pôde" |
+| Antes de *e* aditivo | em geral não | "entrou e sentou" |
+| Adjetiva explicativa | isola | "os alunos, que..., " |
+| Adjetiva restritiva | não | "os alunos que..." |
+| Sujeito–verbo–complemento | **proibida** | "O aluno chegou" |
+
+Em uma linha: a **vírgula** separa e isola conforme a **sintaxe** — enumerações, vocativos,
+apostos, adjuntos deslocados, coordenadas e subordinadas deslocadas/explicativas —, sendo
+**proibida** entre termos essenciais ligados, e podendo **mudar o sentido** da frase.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Vírgula entre sujeito e verbo / verbo e complemento.** Proibida: "O aluno chegou",
+  "Gosto de você".
+- **Vírgula na adjetiva restritiva.** "Alunos que colaram foram punidos" (sem vírgula —
+  só os que colaram). A vírgula a tornaria explicativa (todos colaram).
+- **Vírgula antes de todo *e*.** Em geral não se usa antes do *e* aditivo; use só com
+  sujeitos diferentes ou mudança de sentido.
+- **Esquecer de isolar o adjunto adverbial deslocado longo.** "Depois de muito esforço,
+  venceu" (com vírgula).
+- **Não isolar apostos e vocativos.** "Maria, venha"; "Drummond, poeta, escreveu".
+
+## ✍️ Exercícios
+
+**1.** Pontue a enumeração: "Trouxe frutas legumes verduras e cereais."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Trouxe frutas, legumes, verduras e cereais." Os elementos da enumeração separam-se por
+vírgula, mas **não** se usa vírgula antes do *e* final (que liga o último elemento). Os
+três primeiros itens levam vírgula; o último vem ligado por *e*, sem vírgula.
+:::
+
+**2.** (Estilo ENEM) Assinale a frase corretamente pontuada:
+
+a) Meu irmão, chegou de viagem ontem;
+b) Ontem, meu irmão chegou de viagem;
+c) Meu irmão chegou, de viagem ontem;
+d) Meu irmão chegou de viagem, ontem à noite (considere ok);
+e) Meu irmão, chegou, de viagem;
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Ontem, meu irmão chegou de viagem": o adjunto adverbial deslocado
+para o início ("Ontem") pode ser isolado por vírgula, e o restante fica sem separações
+indevidas. As demais separam sujeito de verbo (a, e) ou verbo de complemento/adjunto (c),
+o que é proibido.
+:::
+
+**3.** Isole corretamente o vocativo e o aposto: "Rapazes o professor Drummond poeta
+mineiro chegou."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Rapazes, o professor Drummond, poeta mineiro, chegou." Isola-se o **vocativo** *Rapazes*
+(por vírgula) e o **aposto explicativo** *poeta mineiro* (entre vírgulas). Note que
+"Drummond" após "professor" é aposto especificativo, sem vírgula. O sujeito ("o professor
+Drummond...") liga-se diretamente ao verbo "chegou", sem vírgula entre eles.
+:::
+
+**4.** Explique por que "Estudou muito, mas não passou" leva vírgula, e "Estudou e passou"
+não.
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Estudou muito, **mas** não passou" leva vírgula porque antes de conjunção **adversativa**
+(*mas*, *porém*) usa-se vírgula, marcando o contraste entre as orações coordenadas.
+"Estudou **e** passou" **não** leva vírgula porque antes do *e* **aditivo** (com o mesmo
+sujeito, sem mudança de sentido) a vírgula é dispensada. A regra difere conforme o tipo de
+conjunção coordenativa.
+:::
+
+**5.** Pontue conforme o sentido: (a) restritivo — "Os funcionários que faltaram serão
+demitidos"; (b) explicativo — mesmo enunciado.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **Restritivo** (só os que faltaram): "Os funcionários **que faltaram** serão
+demitidos" (sem vírgula). (b) **Explicativo** (todos faltaram): "Os funcionários, **que
+faltaram**, serão demitidos" (entre vírgulas). Sem vírgula, delimita-se um subgrupo; com
+vírgulas, afirma-se que todos faltaram.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que a vírgula está **incorretamente**
+empregada:
+
+a) Depois da chuva, o sol apareceu;
+b) João, o síndico, avisou os moradores;
+c) O gerente, aprovou o projeto;
+d) Vim, vi, venci;
+e) Ela estudou, mas não passou.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "O gerente, aprovou o projeto" separa indevidamente o **sujeito** ("O
+gerente") do **verbo** ("aprovou") — separação proibida. As demais estão corretas: adjunto
+deslocado (a), aposto (b), coordenadas assindéticas (d) e adversativa (e).
+:::
+
+**7.** Use a vírgula para marcar a omissão do verbo (zeugma): "Ele gosta de futebol e ela
+gosta de vôlei."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ele gosta de futebol; ela, de vôlei." A vírgula após "ela" marca a **omissão** (zeugma)
+do verbo "gosta", já mencionado. A construção fica mais concisa: em vez de repetir o
+verbo, a vírgula assinala sua elipse. (Usa-se ponto e vírgula entre as duas orações para
+maior clareza.)
+:::
+
+**8.** Explique a mudança de sentido: "Não, espere" × "Não espere".
+
+::: {.callout-tip collapse="true"}
+## Solução
+"**Não, espere**" (com vírgula): a vírgula isola o "Não" como resposta/negação
+independente, e "espere" é uma ordem para aguardar — ou seja, *peça-se* para esperar
+("não [faça isso], espere"). "**Não espere**" (sem vírgula): "não" nega diretamente o
+verbo "espere", resultando em uma ordem para **não** aguardar. A presença da vírgula
+inverte completamente o sentido.
+:::
+
+**9.** Pontue o período com oração adverbial deslocada: "Assim que terminou a prova os
+alunos saíram."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Assim que terminou a prova, os alunos saíram." A oração subordinada adverbial temporal
+("Assim que terminou a prova"), **deslocada** para antes da principal, é separada por
+vírgula. Se viesse depois, a vírgula seria dispensável: "Os alunos saíram assim que
+terminou a prova".
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Os livros, que estão na
+estante, são antigos', as vírgulas indicam que se fala de apenas alguns livros
+específicos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** As vírgulas tornam a oração adjetiva **explicativa**, o que indica que se fala
+de **todos** os livros (todos estão na estante e todos são antigos) — a oração apenas
+acrescenta a informação. Para restringir a "apenas alguns livros específicos" (só os que
+estão na estante), a adjetiva deveria ser **restritiva**, **sem** vírgulas: "Os livros que
+estão na estante são antigos". A pontuação, portanto, indica o oposto do afirmado.
+:::
+
+## 📚 Referências
+
+Os empregos da vírgula, dentro da oração e entre orações, seguem Bechara [@bechara2009] e
+Cunha & Cintra [@cunhacintra2017], apoiando-se na análise sintática dos Volumes 6 e 7. O
+efeito da vírgula na construção e na ambiguidade do sentido é discutido por Koch & Elias
+[@koch2015texto]. Os demais sinais — ponto e vírgula, dois-pontos, ponto final — vêm no
+@sec-cap-58.
+
+::: {#refs}
 :::
