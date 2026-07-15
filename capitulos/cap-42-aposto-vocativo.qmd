@@ -4,22 +4,281 @@ title: "Aposto e vocativo"
 
 # Aposto e vocativo {#sec-cap-42}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 6 — Sintaxe I: Termos da Oração.
+> "Um explica; o outro chama. Ambos vivem entre vírgulas, à margem da estrutura básica."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o Volume 6 com dois termos que se assemelham na forma (frequentemente isolados
+por vírgulas) mas diferem radicalmente na função: o **aposto** e o **vocativo**. O
+**aposto** é um termo que **explica, especifica ou resume** outro, referindo-se a ele
+("Machado de Assis, **o maior escritor brasileiro**, nasceu no Rio"). O **vocativo**, ao
+contrário, **chama, invoca** o interlocutor, colocando-o fora da estrutura sintática da
+oração ("**Maria**, venha aqui!").
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Distinguir os dois — e não confundir o aposto com outros termos, nem o vocativo com o
+sujeito — é o último passo antes da análise sintática integral. Ambos têm ainda forte
+ligação com a **pontuação** (Volume 9), pois seu isolamento por vírgulas é tema de
+provas de redação e de reescrita.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Definir** aposto e reconhecer seus tipos;
+- **Distinguir** o aposto do adjunto adnominal e do predicativo;
+- **Definir** vocativo e reconhecê-lo como termo à parte da oração;
+- **Diferenciar** aposto de vocativo;
+- **Pontuar** corretamente aposto e vocativo;
+- **Analisar** orações identificando esses termos.
+
+## O aposto
+
+**Aposto** é o termo que se junta a outro (um substantivo ou pronome) para
+**explicá-lo, especificá-lo, resumi-lo ou enumerá-lo**, referindo-se a ele. Tem valor
+substantivo e, em geral, vem isolado por vírgulas, travessões ou dois-pontos.
+
+Em "Camões, **autor de *Os Lusíadas***, é o maior poeta português", o aposto *autor de
+Os Lusíadas* explica quem é Camões. O aposto e o termo a que se refere designam o **mesmo
+ser** — é essa co-referência que o define.
+
+Os principais **tipos de aposto**, na @fig-tipos-aposto:
+
+::: {#fig-tipos-aposto}
+
+```{.tikz}
+%%| filename: tipos-aposto
+%%| alt: Diagrama com cinco tipos de aposto, cada um numa caixa com definição e exemplo. Explicativo: esclarece, entre vírgulas — Brasília, capital do Brasil. Especificativo: individualiza, sem vírgula — o rio Amazonas. Enumerativo: lista — trouxe tudo: livros, canetas e cadernos. Resumidor: resume — livros, canetas, cadernos, tudo estava na mochila. Distributivo: distribui elementos anteriores.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=left, text width=52mm, minimum height=13mm, inner sep=5pt, anchor=north},
+]
+  \node[cx] (a) at (0,0) {\textbf{Explicativo}: esclarece (entre vírgulas)\\{\scriptsize ``Brasília, \emph{capital do Brasil}, ...''}};
+  \node[cx, right=5mm of a] (b) {\textbf{Especificativo}: individualiza (sem vírgula)\\{\scriptsize ``o rio \emph{Amazonas}''}};
+  \node[cx, below=4mm of a] (c) {\textbf{Enumerativo}: lista elementos\\{\scriptsize ``Trouxe tudo: \emph{livros, canetas, cadernos}''}};
+  \node[cx, below=4mm of b] (d) {\textbf{Resumidor}: resume os anteriores\\{\scriptsize ``Livros, canetas, cadernos: \emph{tudo} na mochila''}};
+\end{tikzpicture}
+```
+
+Os principais tipos de aposto: explicativo (entre vírgulas), especificativo (sem
+vírgula), enumerativo (lista) e resumidor (recolhe os elementos anteriores).
+:::
+
+- **Explicativo**: esclarece o termo, isolado por vírgulas/travessões — "São Paulo, **a
+  maior cidade do país**, cresce sem parar".
+- **Especificativo**: individualiza, sem vírgula, unindo-se ao nome genérico — "o mês
+  **de maio**", "o rio **Amazonas**", "a rua **Augusta**".
+- **Enumerativo**: enumera os elementos de um termo anterior, muitas vezes após
+  dois-pontos — "Comprei três coisas: **pão, leite e ovos**".
+- **Resumidor** (ou recapitulativo): resume, com uma palavra (geralmente um pronome
+  indefinido), termos anteriores — "Livros, cadernos, canetas, **tudo** estava lá".
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Aposto × predicativo × adjunto
+- **Aposto**: tem valor **substantivo**, é co-referente ao termo (designa o mesmo ser):
+  "Pedro, **o médico**, chegou" (Pedro = o médico).
+- **Predicativo**: atribui qualidade **por meio do verbo**: "Pedro é **médico**"
+  (predica).
+- **Adjunto adnominal**: caracteriza o nome, sem co-referência plena e geralmente com
+  valor adjetivo: "o médico **competente**".
+
+Teste do aposto: pode-se, em geral, substituir o termo pelo aposto sem quebrar a
+frase ("O médico chegou").
+:::
+
+## O vocativo
+
+**Vocativo** é o termo que serve para **chamar, invocar ou interpelar** o interlocutor
+(a quem se dirige a fala). Ao contrário de todos os termos vistos até aqui, o vocativo
+**não pertence à estrutura sintática** da oração — não se liga ao sujeito nem ao
+predicado; fica à parte, isolado por vírgulas.
+
+- "**Maria**, venha aqui." (chama Maria)
+- "Tem cuidado, **meu filho**."
+- "Ó **Deus**, ajudai-nos!" (pode vir precedido da interjeição *ó*)
+
+O vocativo relaciona-se com a **função conativa** da linguagem (@sec-cap-05), pois se
+volta para o receptor. Vem sempre marcado por pausa (vírgula na escrita, entonação na
+fala).
+
+::: {.callout-important}
+## Vocativo × sujeito × aposto: não confundir
+Distinções cruciais:
+
+- **Vocativo** *chama* o interlocutor, está **fora** da oração, sempre com vírgula:
+  "**João**, você viu isso?" (chama João).
+- **Sujeito**: *pratica/sofre* a ação, integra a oração, **sem** vírgula que o separe do
+  verbo: "**João** viu isso." (João é quem viu).
+- **Aposto**: *explica* outro termo, co-referente: "João, **meu vizinho**, viu isso."
+  (meu vizinho = João).
+
+Repare: "**João**, viu isso?" (vocativo, chamamento) × "**João** viu isso." (sujeito). A
+vírgula e a função — chamar × praticar — fazem toda a diferença.
+:::
+
+## A pontuação de aposto e vocativo
+
+Ambos costumam vir **isolados por vírgulas** (ou travessões/dois-pontos), o que os liga
+diretamente ao estudo da pontuação:
+
+- **Aposto explicativo**: entre vírgulas — "Drummond, **poeta mineiro**, escreveu...".
+- **Aposto enumerativo/resumidor**: com dois-pontos — "Trouxe tudo: **caneta, papel e
+  régua**".
+- **Aposto especificativo**: **sem** vírgula — "o poeta **Drummond**".
+- **Vocativo**: sempre isolado por vírgula(s) — "**Senhores**, atenção" / "Atenção,
+  **senhores**".
+
+Retomaremos essas regras de pontuação no Volume 9.
+
+## 📋 Quadro-resumo
+
+| Termo | Função | Relação com a oração | Pontuação |
+|---|---|---|---|
+| **Aposto explicativo** | explica um termo | integra a oração (refere-se a um termo) | entre vírgulas |
+| **Aposto especificativo** | individualiza | idem | sem vírgula |
+| **Aposto enumerativo** | enumera | idem | após dois-pontos |
+| **Vocativo** | chama o interlocutor | **fora** da estrutura sintática | isolado por vírgula |
+
+Em uma linha: o **aposto** explica, especifica, enumera ou resume um termo (co-referente
+a ele, dentro da oração); o **vocativo** chama o interlocutor (fora da estrutura
+sintática) — e ambos costumam vir isolados por vírgulas.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir vocativo com sujeito.** "**João**, viu isso?" (vocativo, chama) × "**João**
+  viu isso" (sujeito, pratica). A vírgula e a função distinguem.
+- **Confundir aposto explicativo com predicativo.** O aposto tem valor substantivo e é
+  co-referente ("Pedro, **o médico**"); o predicativo predica via verbo ("Pedro é
+  médico").
+- **Pôr vírgula no aposto especificativo.** "o rio **Amazonas**", "o mês **de maio**" —
+  **sem** vírgula. Só o explicativo é isolado.
+- **Achar que o vocativo integra a oração.** O vocativo está **fora** da estrutura
+  sintática; não é sujeito, objeto nem complemento — é um chamamento.
+- **Esquecer os dois-pontos do aposto enumerativo.** "Comprei três coisas: pão, leite e
+  ovos" — a enumeração-aposto vem após dois-pontos.
+
+## ✍️ Exercícios
+
+**1.** Identifique o aposto e seu tipo: "Salvador, primeira capital do Brasil, é uma
+cidade histórica."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Aposto: "**primeira capital do Brasil**". É **aposto explicativo** (esclarece,
+acrescenta informação sobre *Salvador*), isolado por vírgulas. Refere-se a *Salvador*
+(co-referência: Salvador = a primeira capital), com valor substantivo.
+:::
+
+**2.** (Estilo ENEM) Em "Ana, traga o livro", a palavra "Ana" é:
+
+a) sujeito, pois pratica a ação;
+b) vocativo, pois chama o interlocutor;
+c) aposto explicativo;
+d) objeto direto;
+e) predicativo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Ana" é **vocativo**: chama/interpela a pessoa a quem se dirige a
+ordem, ficando **fora** da estrutura sintática e isolada por vírgula. Não é sujeito
+(quem "traz" é o interlocutor a quem se manda, sujeito oculto *tu/você*), nem aposto (não
+explica outro termo).
+:::
+
+**3.** Classifique o tipo de aposto: (a) "o poeta Drummond"; (b) "Trouxe frutas: maçã,
+pera e uva"; (c) "Brasília, capital do país, é planejada".
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) "Drummond" → aposto **especificativo** (individualiza o nome genérico *poeta*, sem
+vírgula). (b) "maçã, pera e uva" → aposto **enumerativo** (enumera as frutas, após
+dois-pontos). (c) "capital do país" → aposto **explicativo** (esclarece *Brasília*, entre
+vírgulas).
+:::
+
+**4.** Distinga vocativo de sujeito em: "Professor, o senhor corrigiu a prova?"
+
+::: {.callout-tip collapse="true"}
+## Solução
+*Professor* = **vocativo** (chama/interpela o interlocutor, isolado por vírgula, fora da
+estrutura sintática). *O senhor* = **sujeito** (pratica a ação de corrigir; é de quem se
+declara ter corrigido a prova). A mesma pessoa é chamada (vocativo) e referida como
+sujeito, mas por termos distintos: "Professor" chama; "o senhor" é o sujeito.
+:::
+
+**5.** Explique a diferença entre "Pedro, o médico, chegou" e "Pedro é médico".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em "Pedro, **o médico**, chegou", *o médico* é **aposto explicativo**: tem valor
+substantivo, é co-referente a *Pedro* (Pedro = o médico) e vem isolado por vírgulas,
+apenas acrescentando informação. Em "Pedro **é médico**", *médico* é **predicativo do
+sujeito**: atribui a qualidade/condição a Pedro **por meio do verbo de ligação** *é*
+(predicado nominal). Um explica (aposto); o outro predica via verbo (predicativo).
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que há **vocativo**:
+
+a) O diretor, homem justo, decidiu bem;
+b) Meus amigos, cheguemos a um acordo;
+c) A cidade de Recife é linda;
+d) Comprei tudo: pão, leite e café;
+e) O escritor Machado morreu em 1908.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Meus amigos" é **vocativo**: chama/interpela os interlocutores,
+isolado por vírgula, fora da estrutura sintática. As demais contêm apostos (explicativo
+em a, especificativo em c e e, enumerativo em d), não vocativos.
+:::
+
+**7.** Pontue corretamente e identifique o termo: "Meninos parem com essa bagunça."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"**Meninos**, parem com essa bagunça." *Meninos* é **vocativo** (chama os interlocutores),
+e deve vir **isolado por vírgula**. Sem a vírgula, a frase fica gramaticalmente
+incorreta na pontuação, pois o vocativo precisa ser separado do resto da oração.
+:::
+
+**8.** Reescreva transformando o predicativo em aposto: "Fernando Pessoa foi um grande
+poeta."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Exemplo: "Fernando Pessoa, **um grande poeta**, marcou a literatura portuguesa." O termo
+"um grande poeta", que era predicativo (ligado pelo verbo *foi*), passa a **aposto
+explicativo** — co-referente a *Fernando Pessoa*, isolado por vírgulas, acrescentando a
+informação sem o verbo de ligação. Muda-se a estrutura, preservando a informação.
+:::
+
+**9.** Identifique o aposto resumidor: "A honestidade, a coragem, a bondade — virtudes,
+tudo isso ele tinha."
+
+::: {.callout-tip collapse="true"}
+## Solução
+O aposto **resumidor** (recapitulativo) é "**tudo isso**": ele resume/recolhe os termos
+anteriores (a honestidade, a coragem, a bondade, as virtudes) numa expressão sintética
+(*tudo isso*), geralmente um pronome. (O termo "virtudes" funciona como aposto
+resumidor parcial também.) O resumidor recapitula uma enumeração anterior.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Na frase 'Rapazes, a prova começará
+às oito', o termo 'Rapazes' exerce a função de sujeito da oração."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** "Rapazes" é **vocativo**, não sujeito: chama/interpela os interlocutores e
+está **fora** da estrutura sintática da oração (isolado por vírgula). O **sujeito** da
+oração é "a prova" (é ela que começará às oito). O vocativo nunca é sujeito — não
+pratica nem sofre a ação, apenas invoca a quem se fala.
+:::
+
+## 📚 Referências
+
+O aposto e o vocativo, seus tipos e sua pontuação seguem Bechara [@bechara2009] e Cunha
+& Cintra [@cunhacintra2017]; as regras de pontuação correspondentes são retomadas no
+Volume 9. A função interpelativa do vocativo liga-se à função conativa da linguagem
+(@sec-cap-05). Com este capítulo completam-se os termos da oração; o Volume 7 passa ao
+período composto. A análise sintática integral, que reúne tudo, virá no @sec-cap-48.
+
+::: {#refs}
 :::

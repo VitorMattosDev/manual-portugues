@@ -43,13 +43,13 @@ Legenda de status: ⬜ pendente · 🔟 em andamento · ✅ concluído.
 | 33 | Verbo II: tempos, modos e aspecto | `capitulos/cap-33-verbo-ii-tempos-modos-aspecto.qmd` | 5 | ✅ 2026-07-14 |
 | 34 | Verbo III: vozes verbais, irregulares e defectivos | `capitulos/cap-34-verbo-iii-vozes-irregulares-defectivos.qmd` | 5 | ✅ 2026-07-14 |
 | 35 | Advérbio, preposição, conjunção e interjeição | `capitulos/cap-35-adverbio-preposicao-conjuncao-interjeicao.qmd` | 5 | ✅ 2026-07-14 |
-| 36 | Frase, oração e período | `capitulos/cap-36-frase-oracao-periodo.qmd` | 6 | ⬜ |
-| 37 | Sujeito e seus tipos | `capitulos/cap-37-sujeito-e-tipos.qmd` | 6 | ⬜ |
-| 38 | Predicado: verbal, nominal e verbo-nominal | `capitulos/cap-38-predicado.qmd` | 6 | ⬜ |
-| 39 | Complementos verbais: objeto direto e objeto indireto | `capitulos/cap-39-complementos-verbais.qmd` | 6 | ⬜ |
-| 40 | Complemento nominal e agente da passiva | `capitulos/cap-40-complemento-nominal-agente-passiva.qmd` | 6 | ⬜ |
-| 41 | Adjunto adnominal e adjunto adverbial | `capitulos/cap-41-adjunto-adnominal-adverbial.qmd` | 6 | ⬜ |
-| 42 | Aposto e vocativo | `capitulos/cap-42-aposto-vocativo.qmd` | 6 | ⬜ |
+| 36 | Frase, oração e período | `capitulos/cap-36-frase-oracao-periodo.qmd` | 6 | ✅ 2026-07-14 |
+| 37 | Sujeito e seus tipos | `capitulos/cap-37-sujeito-e-tipos.qmd` | 6 | ✅ 2026-07-14 |
+| 38 | Predicado: verbal, nominal e verbo-nominal | `capitulos/cap-38-predicado.qmd` | 6 | ✅ 2026-07-14 |
+| 39 | Complementos verbais: objeto direto e objeto indireto | `capitulos/cap-39-complementos-verbais.qmd` | 6 | ✅ 2026-07-14 |
+| 40 | Complemento nominal e agente da passiva | `capitulos/cap-40-complemento-nominal-agente-passiva.qmd` | 6 | ✅ 2026-07-14 |
+| 41 | Adjunto adnominal e adjunto adverbial | `capitulos/cap-41-adjunto-adnominal-adverbial.qmd` | 6 | ✅ 2026-07-14 |
+| 42 | Aposto e vocativo | `capitulos/cap-42-aposto-vocativo.qmd` | 6 | ✅ 2026-07-14 |
 | 43 | Período composto por coordenação | `capitulos/cap-43-periodo-composto-coordenacao.qmd` | 7 | ⬜ |
 | 44 | Orações subordinadas substantivas | `capitulos/cap-44-subordinadas-substantivas.qmd` | 7 | ⬜ |
 | 45 | Orações subordinadas adjetivas | `capitulos/cap-45-subordinadas-adjetivas.qmd` | 7 | ⬜ |
