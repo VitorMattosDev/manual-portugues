@@ -4,22 +4,285 @@ title: "Aspas, travessão, parênteses e reticências"
 
 # Aspas, travessão, parênteses e reticências {#sec-cap-59}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 9 — Pontuação e Convenções.
+> "Há sinais que não separam nem pausam: eles inserem, destacam, dão voz a outra voz."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Completamos o inventário dos sinais com quatro que têm função de **isolamento, destaque e
+inserção**: as **aspas** (que destacam ou citam), o **travessão** (que insere ou dá voz),
+os **parênteses** (que intercalam) e as **reticências** (que suspendem). Diferentemente da
+vírgula e do ponto, esses sinais não organizam a estrutura básica da oração: eles
+acrescentam **camadas** ao texto — a voz de outro (citação), um comentário à parte, uma
+fala de personagem, uma suspensão de sentido.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Estes sinais são especialmente importantes na escrita de textos que dialogam com outros
+textos (citações), na narrativa (diálogos) e na argumentação (ressalvas e comentários).
+Dominá-los é essencial para a redação acadêmica (Volume 12) e para a interpretação de
+textos literários e jornalísticos. Com este capítulo, encerra-se o inventário; o
+@sec-cap-60 aplica tudo a textos reais.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Empregar** as aspas para citações, destaques e sentidos especiais;
+- **Usar** o travessão no diálogo e na inserção de termos;
+- **Aplicar** os parênteses para intercalar comentários e informações acessórias;
+- **Distinguir** travessão, parênteses e vírgula na inserção;
+- **Reconhecer** os efeitos de sentido das reticências;
+- **Combinar** esses sinais na pontuação de discursos e citações.
+
+## As aspas
+
+As **aspas (" ")** servem para **destacar** ou **marcar uma voz alheia**. Usos
+principais:
+
+- **Citações literais**: reproduzir palavras exatas de alguém — Segundo Saussure, "a
+  língua é um sistema".
+- **Destaque de palavras ou expressões**: gírias, estrangeirismos, neologismos, títulos
+  curtos — Usou a palavra "bacana"; leu o conto "A cartomante".
+- **Sentido especial, irônico ou figurado**: marcar que a palavra não deve ser tomada ao
+  pé da letra — O "amigo" traiu-o na primeira oportunidade (ironia).
+- **Realce de termo em análise**: quando se fala **sobre** a palavra — A palavra "casa"
+  tem quatro fonemas.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Aspas dentro de aspas
+Quando há uma citação **dentro** de outra, usam-se aspas simples (' ') internamente: Ele
+disse: "Ela gritou 'socorro' e correu". As aspas duplas delimitam a citação maior; as
+simples, a citação interna.
+:::
+
+## O travessão
+
+O **travessão (—)** — mais longo que o hífen — tem dois grandes empregos:
+
+- **Marcar a fala no discurso direto** (diálogos): cada fala de um personagem começa com
+  travessão — "— Vou embora — disse ele". Um segundo travessão isola o comentário do
+  narrador.
+- **Inserir/isolar um termo ou comentário**, com efeito mais enfático que a vírgula ou os
+  parênteses: "A verdade — todos sabem — não pode ser escondida"; "Ele trouxe tudo —
+  livros, cadernos, canetas".
+
+A @fig-travessao-parenteses compara os três recursos de inserção.
+
+::: {#fig-travessao-parenteses}
+
+```{.tikz}
+%%| filename: travessao-parenteses
+%%| alt: Diagrama comparando três recursos de inserção de um comentário intercalado, do menos ao mais separado. Vírgulas: inserção leve, integrada ao texto, exemplo "Ana, minha vizinha, chegou". Travessões: inserção enfática, destacada, exemplo "Ana — minha vizinha — chegou". Parênteses: inserção acessória, à margem, exemplo "Ana (minha vizinha) chegou".
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, text width=38mm, minimum height=22mm, inner sep=5pt, anchor=north},
+]
+  \node[cx, draw=manualgreen, fill=manualgreen!8] (a) at (0,0) {\textbf{Vírgulas}\\{\scriptsize inserção leve, integrada}\\[4pt] ``Ana, minha vizinha, chegou.''};
+  \node[cx, draw=manualblue, fill=manualblue!8, right=4mm of a] (b) {\textbf{Travessões}\\{\scriptsize inserção enfática, destacada}\\[4pt] ``Ana --- minha vizinha --- chegou.''};
+  \node[cx, draw=manualred, fill=manualred!8, right=4mm of b] (c) {\textbf{Parênteses}\\{\scriptsize inserção acessória, à margem}\\[4pt] ``Ana (minha vizinha) chegou.''};
+\end{tikzpicture}
+```
+
+Três recursos de inserção de um comentário intercalado, do mais integrado ao mais
+separado: vírgulas (leve), travessões (enfático) e parênteses (acessório).
+:::
+
+## Os parênteses
+
+Os **parênteses ( )** intercalam uma informação **acessória** — comentário, explicação,
+data, referência — que fica "à margem" da frase principal, sem integrar-se plenamente a
+ela:
+
+- comentário/observação: "O resultado (surpreendente) alegrou a todos";
+- explicação ou dado: "Machado de Assis (1839–1908) é o maior escritor brasileiro";
+- referências: "Como se sabe (cf. cap. 3), a língua muda".
+
+O que está entre parênteses pode ser retirado sem prejuízo da estrutura da frase — é a
+informação mais "descartável" das três formas de inserção.
+
+## As reticências
+
+As **reticências (...)**, já introduzidas no @sec-cap-56, marcam:
+
+- **suspensão/interrupção** do pensamento — "Se eu tivesse estudado...";
+- **hesitação**, dúvida, fala entrecortada — "Eu... bem... não sei";
+- **supressão** em citação — "O texto afirma que [...] a mudança é natural";
+- **prolongamento** de uma enumeração (equivale a "e assim por diante") — "Havia frutas,
+  legumes, verduras...";
+- **suspense** ou sentido implícito, deixado ao leitor.
+
+## Combinando os sinais no discurso direto
+
+Na representação da fala (diálogo), combinam-se **dois-pontos**, **travessão** e **aspas**:
+
+::: {.exemplo}
+Com travessão (mais comum na narrativa literária):
+
+> — Você vem? — perguntou ela.
+> — Não sei — respondeu ele, hesitante.
+
+Com aspas (mais comum no jornalismo):
+
+> "Não vou desistir", afirmou o candidato.
+
+Os dois-pontos anunciam a fala; o travessão (ou as aspas) a delimitam; e o comentário do
+narrador ("perguntou ela") pode vir entre travessões ou após vírgula.
+:::
+
+## 📋 Quadro-resumo
+
+| Sinal | Função | Exemplo |
+|---|---|---|
+| **Aspas (" ")** | citação, destaque, ironia, termo em análise | Leu "Dom Casmurro" |
+| **Travessão (—)** | fala (diálogo); inserção enfática | "— Vou! — gritou" |
+| **Parênteses ( )** | informação acessória, à margem | "Ele (o réu) confessou" |
+| **Reticências (...)** | suspensão, hesitação, supressão, etc. | "Eu queria..." |
+
+Em uma linha: as **aspas** citam e destacam; o **travessão** dá voz (diálogo) e insere com
+ênfase; os **parênteses** intercalam informação acessória; as **reticências** suspendem —
+e, no discurso direto, combinam-se dois-pontos + travessão/aspas.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Confundir travessão com hífen.** O travessão (—) é longo e pontua; o hífen (-) é curto
+  e une palavras (@sec-cap-19).
+- **Escolher mal entre vírgula, travessão e parênteses.** São graus de separação: vírgula
+  (leve) → travessão (enfático) → parênteses (à margem).
+- **Esquecer o segundo travessão/parêntese.** A inserção intercalada precisa **abrir e
+  fechar**: "A ideia — genial — venceu" (dois travessões).
+- **Usar aspas para ênfase indevida.** As aspas de "ironia/sentido especial" não servem
+  para simples destaque enfático em texto formal (evite "produto de 'qualidade'" se não
+  for irônico).
+- **Reticências em excesso.** Em texto formal, use-as com parcimônia; o abuso soa
+  amador.
+
+## ✍️ Exercícios
+
+**1.** Indique a função das aspas: (a) 'Segundo o autor, "a língua muda sempre".'; (b) 'Ele
+é muito "esperto".'
+
+::: {.callout-tip collapse="true"}
+## Solução
+(a) **citação literal** — as aspas reproduzem as palavras exatas do autor. (b) **sentido
+irônico** — as aspas indicam que "esperto" não deve ser entendido ao pé da letra
+(provavelmente ironia: ele não é tão esperto, ou é "esperto" no mau sentido). As aspas têm
+funções distintas conforme o contexto.
+:::
+
+**2.** (Estilo ENEM) No trecho "— Não vou desistir — afirmou o atleta", o travessão:
+
+a) une duas palavras;
+b) marca a fala do personagem no discurso direto;
+c) indica uma pausa longa;
+d) substitui a vírgula;
+e) introduz uma citação entre aspas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** O travessão **marca a fala** do personagem (discurso direto): o
+primeiro introduz a fala do atleta, e o segundo isola o comentário do narrador ("afirmou o
+atleta"). É o uso típico do travessão na representação de diálogos.
+:::
+
+**3.** Reescreva a inserção com os três recursos (vírgulas, travessões, parênteses):
+"Fernando meu melhor amigo mudou-se."
+
+::: {.callout-tip collapse="true"}
+## Solução
+- Vírgulas (leve): "Fernando, meu melhor amigo, mudou-se."
+- Travessões (enfático): "Fernando — meu melhor amigo — mudou-se."
+- Parênteses (acessório): "Fernando (meu melhor amigo) mudou-se."
+
+Os três isolam o aposto "meu melhor amigo", variando o grau de destaque: vírgulas
+integram; travessões enfatizam; parênteses põem à margem.
+:::
+
+**4.** Explique três funções possíveis das reticências, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+(1) **Suspensão** do pensamento: "Se eu soubesse..." (deixa a frase em aberto). (2)
+**Hesitação**: "Eu... não sei... talvez" (fala entrecortada). (3) **Supressão** em citação:
+"O texto diz que [...] tudo muda" (indica omissão de parte). Também podem marcar
+prolongamento de enumeração ("frutas, legumes...") ou suspense.
+:::
+
+**5.** Pontue o diálogo: "Você viu isso perguntou ela Não respondi eu."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"— Você viu isso? — perguntou ela.
+— Não — respondi eu."
+
+Cada fala começa com **travessão**; o **ponto de interrogação** encerra a pergunta; um
+segundo travessão isola o comentário do narrador ("perguntou ela"). A segunda fala segue o
+mesmo padrão.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que os parênteses estão corretamente
+empregados:
+
+a) Machado de Assis, (1839-1908), foi genial;
+b) Machado de Assis (1839-1908) foi genial;
+c) Machado (de Assis 1839-1908) foi genial;
+d) Machado de Assis 1839-1908 (foi genial);
+e) (Machado de Assis) 1839-1908 foi genial.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Machado de Assis (1839-1908) foi genial": os parênteses intercalam a
+informação acessória (as datas de nascimento e morte), sem vírgula redundante antes e sem
+quebrar a estrutura da frase. As demais posicionam mal os parênteses ou acrescentam
+vírgulas indevidas.
+:::
+
+**7.** Distinga o grau de separação entre vírgula, travessão e parênteses na inserção.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Os três isolam um termo intercalado, em **graus** crescentes de separação: a **vírgula** é
+a mais **leve** e integrada (o termo faz parte do fluxo da frase); o **travessão** é
+**enfático**, destacando fortemente a inserção; os **parênteses** são os mais
+**separados**, pondo a informação "à margem", como acessória e descartável. A escolha
+depende do grau de destaque que se quer dar.
+:::
+
+**8.** Corrija: "A ideia genial venceu (faltou fechar a inserção com travessões)."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"A ideia — genial — venceu." A inserção intercalada precisa ser **aberta e fechada** pelo
+mesmo par de sinais: se usamos travessão para destacar "genial", são necessários **dois**
+travessões (um antes e um depois). O mesmo vale para parênteses e para as vírgulas de
+isolamento: sempre em par.
+:::
+
+**9.** Reescreva a citação com aspas dentro de aspas: "Ela contou que ele gritou socorro e
+fugiu."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em discurso direto com citação interna: Ela contou: "Ele gritou 'socorro' e fugiu." As
+aspas **duplas** delimitam a fala de Ela (a citação maior); as aspas **simples** delimitam
+a citação interna ("socorro", as palavras dele dentro da fala dela). É a convenção para
+aspas dentro de aspas.
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "O travessão e o hífen são o mesmo sinal,
+usados indistintamente para unir palavras e marcar diálogos."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Travessão (—) e hífen (-) são sinais **diferentes**, com funções distintas. O
+**hífen** (curto) une palavras (compostos, prefixos: "guarda-chuva", "pré-histórico") e
+faz a translineação (@sec-cap-19). O **travessão** (longo) é sinal de **pontuação**: marca
+falas no diálogo e insere/isola termos com ênfase. Não são intercambiáveis.
+:::
+
+## 📚 Referências
+
+Os empregos das aspas, do travessão, dos parênteses e das reticências seguem Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017]. A pontuação do discurso direto e o
+manejo da citação são retomados na escrita acadêmica (Volume 12) e relacionam-se à
+intertextualidade (@sec-cap-73). A aplicação de toda a pontuação a textos reais é o tema do
+@sec-cap-60.
+
+::: {#refs}
 :::
