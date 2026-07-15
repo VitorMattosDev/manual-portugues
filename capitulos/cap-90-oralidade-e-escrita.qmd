@@ -4,22 +4,987 @@ title: "Oralidade e escrita"
 
 # Oralidade e escrita {#sec-cap-90}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 14 — Variação Linguística e Sociolinguística.
+> "Não existe o falado e o escrito. Existe um contínuo, e nós vivemos dentro dele."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O @sec-cap-89 mediu a distância entre dois continentes e terminou com uma provocação: a
+distância entre o PB **falado** e o PB **escrito** é, ela própria, comparável. Este capítulo
+cobra a promessa.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Compare:
+
+> — Cê tá indo pro trabalho? Ó, se der, passa lá e pega aquele negócio, tá?
+
+> Solicito a Vossa Senhoria que, em deslocamento a seu local de trabalho, proceda à retirada do
+> material anteriormente mencionado.
+
+Duas frases do mesmo idioma, do mesmo falante, possivelmente no mesmo dia. E, no entanto,
+quase nada em comum: nem o léxico, nem a sintaxe, nem os pronomes. Se um marciano recebesse as
+duas sem contexto, teria boas razões para supor que são línguas diferentes.
+
+A questão deste capítulo é o que fazer com esse fato. A tradição fez a pior escolha possível:
+tratou a fala como uma **versão degradada** da escrita — desorganizada, pobre, errada — e
+organizou o ensino inteiro em torno de corrigi-la. Este capítulo desmonta isso, e mostra que a
+alternativa não é inverter o juízo (dizer que a fala é a língua "de verdade"), mas abandonar a
+**dicotomia**.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Criticar** a visão dicotômica de fala e escrita e seus pressupostos;
+- **Descrever** o contínuo dos gêneros textuais de Marcuschi e situar textos nele;
+- **Identificar** as características típicas — não essenciais — de cada modalidade;
+- **Explicar** por que a fala tem organização própria, e qual é;
+- **Analisar** a escrita digital como fenômeno híbrido;
+- **Aplicar** a noção de retextualização nas transformações entre modalidades.
+
+## A visão dicotômica e por que ela falha
+
+A tradição opôs fala e escrita como polos **excludentes**, e a lista é conhecida:
+
+| Fala | Escrita |
+|---|---|
+| contextualizada | descontextualizada |
+| implícita | explícita |
+| redundante | condensada |
+| não planejada | planejada |
+| fragmentária | completa |
+| informal | formal |
+| dependente | autônoma |
+| **"errada"** | **"correta"** |
+
+Cada linha dessa tabela é, isoladamente, uma observação com algum fundamento. O problema é o
+que a tabela **faz** com elas: transforma tendências em **essências**.
+
+::: {.callout-important}
+## Três falhas da dicotomia
+**1. Os contraexemplos derrubam cada linha.** Não são casos raros; são gêneros inteiros:
+
+- **Fala planejada, formal, explícita, autônoma**: uma conferência acadêmica, um sermão, um
+  noticiário de TV, uma sustentação oral no tribunal. Tudo o que a coluna "escrita" promete —
+  na fala;
+- **Escrita não planejada, contextualizada, fragmentária, implícita**: um bilhete na geladeira,
+  uma mensagem de WhatsApp, um recado num post-it. Tudo o que a coluna "fala" promete — na
+  escrita.
+
+Se há gêneros falados que exibem **todas** as propriedades da escrita, e gêneros escritos que
+exibem **todas** as da fala, então as propriedades **não pertencem** às modalidades. Elas
+pertencem a **outra coisa** — e essa outra coisa é o **gênero**.
+
+**2. Ela confunde o meio com o registro.** É o erro de fundo. A dicotomia embaralha duas
+variáveis independentes:
+
+- o **meio** (ou canal): sonoro × gráfico. É uma questão **física**;
+- a **concepção** (ou registro): informal × formal, não planejado × planejado (@sec-cap-88).
+
+Essas duas variáveis **variam livremente uma em relação à outra**. Um texto pode ser de meio
+**sonoro** e concepção **escrita** (a conferência), ou de meio **gráfico** e concepção **falada**
+(o WhatsApp). Quatro combinações, todas povoadas. A dicotomia só enxerga duas.
+
+**3. Ela é avaliativa disfarçada de descritiva.** A última linha da tabela — "errada × correta"
+— não é uma observação: é um **juízo**, e ele contamina retroativamente todas as outras. Uma vez
+que se aceite que a fala é a modalidade "errada", "fragmentária" deixa de ser descrição e vira
+acusação. É o mecanismo do preconceito linguístico operando dentro da gramática (@sec-cap-91).
+:::
+
+## O contínuo
+
+A alternativa, formulada por Marcuschi [@marcuschi2008], é abandonar as caixas e adotar um
+**contínuo** — no qual os **gêneros** (@sec-cap-72), e não as modalidades, ocupam posições.
+
+::: {#fig-continuo-fala-escrita}
+
+```{.tikz}
+%%| filename: continuo-fala-escrita
+%%| alt: Esquema do contínuo entre fala e escrita segundo Marcuschi, representado como um plano com dois eixos independentes. O eixo horizontal é a concepção, que vai de falada, à esquerda, a escrita, à direita. O eixo vertical é o meio, que vai de sonoro, embaixo, a gráfico, em cima. O plano tem quatro quadrantes, todos povoados. No quadrante de meio sonoro e concepção falada estão a conversa espontânea e o bate-papo. No quadrante de meio sonoro e concepção escrita estão a conferência acadêmica, o noticiário de televisão e o sermão, ou seja, fala planejada. No quadrante de meio gráfico e concepção falada estão a mensagem de WhatsApp, o bilhete na geladeira e o chat, ou seja, escrita não planejada. No quadrante de meio gráfico e concepção escrita estão o artigo acadêmico, a lei e o ofício. Uma nota abaixo indica que os quatro quadrantes existem, e que por isso as propriedades atribuídas à fala e à escrita pertencem ao gênero, e não à modalidade.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  q/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, font=\scriptsize, text width=40mm},
+]
+  % eixos
+  \draw[-{Stealth[length=5pt]}, line width=1.2pt, draw=manualgray] (-5.4,0) -- (5.6,0);
+  \draw[-{Stealth[length=5pt]}, line width=1.2pt, draw=manualgray] (0,-3.4) -- (0,3.5);
+
+  \node[font=\scriptsize\bfseries, text=manualgray, anchor=west] at (5.65,0) {CONCEPÇÃO};
+  \node[font=\scriptsize\bfseries, text=manualgray, anchor=south] at (0,3.55) {MEIO};
+
+  \node[font=\scriptsize, text=manualgreen, anchor=north] at (-4.6,-0.1) {falada};
+  \node[font=\scriptsize, text=manualred, anchor=north] at (4.7,-0.1) {escrita};
+  \node[font=\scriptsize, text=manualblue, anchor=east, rotate=90] at (-0.12,2.9) {gráfico};
+  \node[font=\scriptsize, text=manualblue, anchor=west, rotate=90] at (-0.12,-2.9) {sonoro};
+
+  % quadrantes
+  \node[q, draw=manualgreen, fill=manualgreen!10] at (-2.9,-2.0)
+    {\textbf{sonoro + falada}\\{\scriptsize conversa espontânea}\\{\scriptsize bate-papo}};
+  \node[q, draw=manualyellow, fill=manualyellow!14] at (2.9,-2.0)
+    {\textbf{sonoro + escrita}\\{\scriptsize conferência · sermão}\\{\scriptsize noticiário de TV}\\{\scriptsize \emph{fala planejada}}};
+  \node[q, draw=manualyellow, fill=manualyellow!14] at (-2.9,2.0)
+    {\textbf{gráfico + falada}\\{\scriptsize WhatsApp · chat}\\{\scriptsize bilhete na geladeira}\\{\scriptsize \emph{escrita não planejada}}};
+  \node[q, draw=manualred, fill=manualred!10] at (2.9,2.0)
+    {\textbf{gráfico + escrita}\\{\scriptsize artigo acadêmico}\\{\scriptsize lei · ofício}};
+
+  \node[rounded corners=2pt, draw=manualblue, fill=manualblue!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=98mm] at (0,-4.3)
+    {Os \textbf{quatro} quadrantes existem e são povoados --- inclusive os dois ``mistos''.\\
+     Logo, as propriedades atribuídas a ``fala'' e ``escrita'' pertencem ao \textbf{gênero},
+     não à modalidade.};
+\end{tikzpicture}
+```
+
+O contínuo fala–escrita como plano de dois eixos independentes: meio (sonoro × gráfico) e
+concepção (falada × escrita). Os quadrantes mistos são a refutação da dicotomia.
+
+:::
+
+O ponto essencial é que **meio** e **concepção** são **eixos independentes**. Combinando-os,
+obtêm-se quatro quadrantes — e **todos** têm ocupantes:
+
+| | **Concepção falada** | **Concepção escrita** |
+|---|---|---|
+| **Meio sonoro** | conversa espontânea, bate-papo | conferência, sermão, noticiário de TV |
+| **Meio gráfico** | WhatsApp, bilhete, chat | artigo acadêmico, lei, ofício |
+
+Os dois quadrantes "mistos" — a fala planejada e a escrita não planejada — são a refutação da
+dicotomia. Eles **não são exceções marginais**: são gêneros centrais da vida contemporânea.
+
+**A conclusão**: o que a tradição chamava de "características da fala" são, na verdade,
+características da **concepção falada** — do não planejamento, da co-presença, da interação em
+tempo real. Elas aparecem sempre que essas condições estão dadas, **inclusive por escrito**. E
+somem quando não estão, **inclusive na fala**.
+
+## A fala tem organização própria
+
+Desmontada a dicotomia, resta desfazer o juízo que a sustentava: o de que a fala é
+desorganizada. Ela não é — tem uma organização **diferente**, e é preciso descrevê-la para vê-la.
+
+### O que parece defeito e é estrutura
+
+Considere um trecho de fala espontânea transcrito:
+
+> "Então... o cara, né, o cara chegou lá e... e aí ele falou assim ó — eu não vou, eu não vou
+> fazer isso não, entendeu? Aí eu... eu fiquei meio assim, sabe?"
+
+Transcrito no papel, parece um desastre: repetições, hesitações, frases inacabadas, "né", "aí",
+"sabe". A leitura tradicional: fala pobre, falante confuso.
+
+**A leitura correta**: cada um desses elementos **faz alguma coisa**.
+
+| Elemento | O que a tradição vê | O que ele faz |
+|---|---|---|
+| "né?", "sabe?", "entendeu?" | vício, muleta | **marcadores conversacionais**: checam a atenção do ouvinte, negociam o turno, mantêm o contato |
+| "aí", "então" | pobreza de conectivos | **sequenciadores**: organizam a narrativa em tempo real, marcam progressão |
+| repetição ("o cara, o cara") | falta de vocabulário | **planejamento em curso**: ganha tempo para formular, e **enfatiza** |
+| hesitação ("eu... eu") | insegurança | sinaliza que o **turno continua** — impede que o outro tome a palavra |
+| "falou assim ó" | redundância | introduz **discurso direto**, faz o papel das aspas |
+| frase inacabada | erro | frequentemente **completada pelo interlocutor** — a construção é **conjunta** |
+
+::: {.callout-important}
+## A diferença fundamental: planejamento e execução
+Aqui está a explicação de tudo, e o que a boa resposta alcança.
+
+**Na escrita**, planejamento e execução são **separados no tempo**. Você escreve, apaga,
+reescreve, reordena, e o leitor recebe **só o produto final**. O processo é invisível — e é
+essa invisibilidade que produz a aparência de perfeição.
+
+**Na fala**, planejamento e execução são **simultâneos**. O falante formula **enquanto** fala, e
+o ouvinte assiste ao **processo**, não ao produto. As hesitações, reformulações e repetições
+**são o planejamento acontecendo à vista**.
+
+**A analogia que esclarece**: comparar fala e escrita como se comparam dois produtos é como
+comparar um **ensaio filmado** com um **filme montado**, e concluir que os atores do ensaio são
+piores. Eles não são — você está vendo uma coisa que, no filme, foi cortada.
+
+**A prova experimental**: transcreva um rascunho de escrita — com todas as versões, riscos e
+tentativas — e ele terá exatamente a aparência "caótica" da fala. Inversamente, "edite" uma
+transcrição de fala (removendo hesitações e repetições) e ela ficará indistinguível de um texto
+escrito. **O caos não estava na fala; estava na exposição do processo.**
+
+**A implicação decisiva**: a fala não é escrita malfeita. Ela é um sistema com **outras
+condições de produção** — tempo real, co-presença, irreversibilidade — e o que parece defeito é
+**adaptação** a essas condições. Um falante que não hesitasse nem repetisse seria, na verdade,
+um falante **pior**: estaria ignorando as necessidades do ouvinte.
+:::
+
+### A sintaxe da fala
+
+A fala também tem **construções próprias**, que a norma escrita rejeita mas que são
+perfeitamente regulares:
+
+- **Topicalização**: "**Esse livro**, eu já li **ele**." — o tópico vem primeiro, e é retomado
+  por um pronome. Não é erro: é uma estratégia de organização informacional, sistemática no PB;
+- **Deslocamento à esquerda**: "**O João**, a mulher **dele** trabalha comigo.";
+- **Concordância pela proximidade**: "Chegou os menino." — regra variável (@sec-cap-86);
+- **Anacoluto** (a "frase quebrada"): "**Eu**, quando chove, dá uma preguiça..." — a construção
+  muda de rumo. É estigmatizada na escrita e **universal** na fala, inclusive na de doutores.
+
+Note o caso da topicalização, que é especialmente instrutivo: ela **não** é uma simplificação
+nem um empobrecimento. É uma estrutura **a mais** — o PB falado tem um recurso de organização
+informacional que a norma escrita não tem. A fala, aqui, é **mais** rica, não menos.
+
+## A escrita digital: o híbrido
+
+A escrita digital é o melhor argumento contemporâneo contra a dicotomia — e chegou depois dela,
+o que a torna uma espécie de teste independente.
+
+Considere uma conversa de WhatsApp:
+
+> — oi
+> — tudo bem?
+> — cê viu aquilo?
+> — kkkkk
+> — mano nem me fala 😅
+> — vc vai hj?
+> — acho q sim
+
+**Meio**: gráfico — é escrita, tecnicamente.
+**Concepção**: totalmente falada — informal, não planejada, dialogal, em tempo real,
+contextualizada.
+
+E note as **soluções** que ela inventou para recuperar o que o meio gráfico perdeu:
+
+| Recurso da fala | Perdido no gráfico | Solução digital |
+|---|---|---|
+| entonação | sim | **emoji**, pontuação expressiva ("nãããão", "!!!") |
+| riso, prosódia | sim | "kkkkk", "rsrs", "hahaha" |
+| gesto, expressão | sim | emoji, GIF, sticker |
+| ênfase | sim | CAIXA ALTA, *asteriscos*, alongamento ("muuuito") |
+| turnos rápidos | sim | mensagens **curtas e múltiplas**, em vez de parágrafos |
+| co-presença | sim | "digitando...", visto por último, áudio |
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O que a escrita digital prova
+Ela é um **experimento natural** que ninguém planejou, e o resultado é inequívoco.
+
+**O que ela demonstra:**
+
+1. **A dicotomia está morta.** Um gênero de meio gráfico e concepção plenamente falada é
+   massivo, cotidiano e usado por bilhões. Não é curiosidade de laboratório — é, provavelmente,
+   o gênero escrito mais praticado da história.
+2. **As "propriedades da fala" são do gênero, não do meio.** Quando as condições de produção da
+   fala (tempo real, informalidade, interação, co-presença) são recriadas no meio gráfico, as
+   propriedades "da fala" **reaparecem** — todas. Isso é uma demonstração experimental da tese
+   de Marcuschi.
+3. **Os falantes recriam ativamente o que o meio suprime.** O emoji não é preguiça: é a
+   **reinvenção da entonação** num meio que não a comporta. Onde a escrita tradicional aceitou a
+   perda (e compensou com sintaxe explícita e vocabulário preciso), a escrita digital
+   **recuperou** o canal expressivo por outra via. É engenhosidade, não degradação.
+
+**O pânico moral** — "o WhatsApp está destruindo o português" — erra o alvo por completo, e de
+modo instrutivo:
+
+- **Ninguém escreve tese em linguagem de WhatsApp.** O mesmo jovem que digita "vc vai hj?"
+  escreve a redação do ENEM em norma-padrão — e sabe **exatamente** por que a diferença existe.
+  Isso é competência de **adequação** (@sec-cap-88), e é justamente o que a escola quer ensinar;
+- **A escrita digital não substituiu nada**: ela **ocupou um espaço que não existia**. Antes do
+  celular, não havia um gênero escrito informal e instantâneo de massa — havia o bilhete, e só.
+  Nada foi perdido, porque o espaço estava vazio;
+- **Ela produziu o efeito oposto ao alegado**: esta é a geração que **mais escreve** na história
+  humana. Um adolescente hoje escreve, por semana, mais palavras que seu avô escreveu num ano.
+
+**A pergunta honesta que resta** — e vale distingui-la do pânico: a facilidade da escrita
+informal digital reduz a **prática** da escrita formal? É uma pergunta empírica legítima, e a
+resposta não é óbvia. Mas ela nada tem a ver com "destruir a língua": trata-se de **distribuição
+de prática entre gêneros**, não de corrupção do sistema.
+:::
+
+## Retextualização
+
+Marcuschi [@marcuschi2008] chama de **retextualização** a passagem de um texto de uma
+modalidade a outra — e mostra que ela **nunca** é uma transcrição neutra.
+
+**As operações típicas** de fala → escrita:
+
+1. **Eliminação** — hesitações, repetições, marcadores ("né", "aí"), falsos começos;
+2. **Inserção** — pontuação (que a fala resolve com prosódia), conectivos explícitos;
+3. **Reordenação** — desfazer topicalizações e anacolutos;
+4. **Substituição lexical** — trocar itens informais por formais;
+5. **Reconstrução sintática** — completar frases inacabadas, ajustar concordância;
+6. **Condensação** — cortar redundâncias que serviam ao ouvinte.
+
+::: {.callout-important}
+## A retextualização não é neutra — e é aí que ela interessa
+O senso comum imagina a transcrição como um espelho: passar para o papel "o que foi dito". Não é.
+
+**O que sempre se perde:**
+
+- **prosódia** — entonação, ritmo, pausas, volume. E com ela vai a **ironia** (@sec-cap-83): a
+  mesma frase transcrita pode significar o oposto do que significou;
+- **gestos e expressão facial** — parte do sentido, simplesmente evaporada;
+- **a construção conjunta** — as sobreposições, os "uhum" do ouvinte, as frases completadas a
+  dois. A transcrição atribui a um falante o que dois construíram.
+
+**O que se acrescenta** — e note que é acréscimo, não recuperação:
+
+- **pontuação** — que é uma **interpretação** do transcritor. Onde colocar a vírgula? Onde
+  terminar a frase? A fala não tem vírgulas; quem as põe está **decidindo** um sentido;
+- **parágrafos**, e portanto uma hierarquia de tópicos que o falante não marcou.
+
+**As consequências práticas — onde isso importa de verdade:**
+
+- **Depoimento judicial.** A transcrição de um interrogatório é o documento que o juiz lê. A
+  hesitação que sugeria dúvida sumiu; a ironia virou afirmação literal; a pontuação do escrivão
+  decidiu onde a frase termina. O texto que decide a vida de alguém **não é** o que a pessoa
+  disse;
+- **Entrevista jornalística.** Publicar a fala de um entrevistado "como ele falou" — com todas
+  as hesitações — é uma técnica **conhecida** de desqualificação: expõe o processo e faz o
+  entrevistado parecer confuso. Editar é o normal; **não** editar, seletivamente, é uma escolha
+  editorial hostil;
+- **Ata de reunião.** Não registra o que foi dito; registra uma **versão** do que foi dito, já
+  interpretada.
+
+**A formulação que sintetiza**: retextualizar é **produzir um novo texto**, não copiar um texto
+existente para outro suporte. Toda transcrição é uma **interpretação**, e tratá-la como espelho é
+o erro que a torna perigosa — porque esconde a intervenção sob a aparência de registro.
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A consequência pedagógica de tudo, e ela é grande.
+
+**O erro tradicional da escola** foi ensinar a escrita **contra** a fala: corrigir a fala do
+aluno, tratá-la como versão defeituosa do texto e supor que escrever bem é falar por escrito
+sem os defeitos.
+
+**Por que falha — em três níveis:**
+
+1. **É descritivamente falso.** A fala não é escrita defeituosa: tem organização própria,
+   adaptada às suas condições de produção, e até **estruturas a mais** (a topicalização do PB
+   falado não existe na norma escrita);
+2. **É pedagogicamente ineficaz.** Não se aprende um gênero sendo corrigido em outro. Escrever
+   um artigo acadêmico não se aprende deixando de falar "né" — são competências distintas, e
+   uma não transfere para a outra;
+3. **É socialmente violento.** Corrigir a fala do aluno é corrigir a fala da **família** dele, e
+   a mensagem que chega não é sobre gramática: é que ele e os seus falam errado (@sec-cap-91).
+
+**A alternativa — a mesma do @sec-cap-88**: ensinar a escrita como **gênero novo**, com regras
+próprias, que se **acrescenta** ao repertório. Não como correção da fala.
+
+**O que muda na prática:**
+
+- em vez de "não se diz 'nós vai'" → "**neste gênero**, escreve-se 'nós vamos'";
+- em vez de "sua fala é errada" → "você já sabe falar; vamos aprender **outra** coisa";
+- em vez de tratar a marca de oralidade na redação como sintoma de ignorância → tratá-la como
+  **inadequação de registro**, que é o que ela é, e que se resolve mostrando o registro-alvo.
+
+**E note o ganho técnico**, não só ético: o aluno que entende o contínuo consegue **calibrar** o
+texto. Ele passa a perguntar "que gênero é este? Onde ele fica no plano?" — que é a pergunta
+certa — em vez de "estou falando errado?" — que é a pergunta que não tem resposta útil
+[@marcuschi2008; @faraco2008].
+:::
+
+## 📋 Quadro-resumo
+
+**A dicotomia falha por três razões**: (1) **contraexemplos** — há fala planejada (conferência) e
+escrita não planejada (WhatsApp); (2) **confunde meio com concepção** — duas variáveis
+**independentes**; (3) é **avaliativa** disfarçada de descritiva ("errada × correta").
+
+**O contínuo de Marcuschi** — dois eixos independentes, quatro quadrantes **todos povoados**:
+
+| | **Concepção falada** | **Concepção escrita** |
+|---|---|---|
+| **Meio sonoro** | conversa espontânea | conferência, sermão, telejornal |
+| **Meio gráfico** | WhatsApp, bilhete, chat | artigo, lei, ofício |
+
+As propriedades atribuídas à "fala" pertencem à **concepção falada** — e aparecem **por escrito**
+sempre que as condições se repetem.
+
+**A fala tem organização própria**: marcadores conversacionais ("né", "sabe") checam atenção e
+negociam turno · sequenciadores ("aí", "então") organizam a narrativa · repetição e hesitação
+são **planejamento em curso** · frases inacabadas são frequentemente **completadas pelo
+interlocutor**.
+
+**A explicação de tudo**: na **escrita**, planejamento e execução são **separados** (o leitor vê
+só o produto); na **fala**, são **simultâneos** (o ouvinte vê o **processo**). O "caos" da fala é
+o planejamento acontecendo à vista. Transcreva um rascunho de escrita e ele parecerá igualmente
+caótico.
+
+**Sintaxe própria da fala**: topicalização ("esse livro, eu li ele") — que é estrutura **a
+mais**, não a menos —, deslocamento à esquerda, anacoluto.
+
+**Escrita digital** = meio **gráfico** + concepção **falada**. Recria por outros meios o que o
+gráfico suprime: emoji ≈ entonação, "kkkk" ≈ riso, CAIXA ALTA ≈ ênfase. É a demonstração
+experimental do contínuo — e a geração que mais escreve na história.
+
+**Retextualização** = passagem entre modalidades. Operações: eliminação · inserção · reordenação
+· substituição · reconstrução · condensação. **Nunca é neutra**: perde prosódia (e com ela a
+ironia), gestos e a construção conjunta; **acrescenta** pontuação, que é **interpretação**.
+Consequências reais: depoimento judicial, entrevista, ata.
+
+**Pedagogia**: ensinar a escrita como **gênero novo** que se **acrescenta** — não como correção
+da fala. "Neste gênero, escreve-se X", não "não se diz X".
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que a fala é escrita defeituosa.** Tem organização **própria** — e estruturas que a
+  escrita não tem.
+- **Confundir meio com concepção.** São **eixos independentes**. Conferência = meio sonoro,
+  concepção escrita. WhatsApp = meio gráfico, concepção falada.
+- **Achar que os quadrantes mistos são exceções.** São gêneros **centrais** da vida
+  contemporânea.
+- **Achar que "né" e "aí" são vícios.** São **marcadores conversacionais** e **sequenciadores**,
+  com função descrita.
+- **Achar que hesitação é insegurança.** É **planejamento em tempo real** — e sinaliza que o
+  turno continua.
+- **Achar que a topicalização empobrece.** É estrutura **a mais**: o PB falado tem um recurso que
+  a norma escrita não tem.
+- **Achar que a escrita digital destrói a língua.** Ela **ocupou um espaço vazio**; ninguém
+  escreve tese em linguagem de WhatsApp; e esta é a geração que **mais escreve** na história.
+- **Achar que transcrição é espelho.** Toda retextualização **interpreta**. A pontuação é
+  decisão do transcritor.
+- **Esquecer que a transcrição perde a ironia.** Sem prosódia, a frase transcrita pode significar
+  o **oposto** (@sec-cap-83).
+- **Ensinar escrita corrigindo a fala.** Falso, ineficaz e violento. Ensine como **gênero novo**.
+- **Achar que a fala é sempre informal.** Sermão, conferência e telejornal são fala **formal e
+  planejada**.
+
+## ✍️ Exercícios
+
+**1.** Critique a visão dicotômica de fala e escrita.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A dicotomia opõe fala e escrita como polos excludentes (contextualizada × descontextualizada,
+não planejada × planejada, fragmentária × completa, "errada" × "correta"). Ela falha por **três
+razões**:
+
+**1. Os contraexemplos derrubam cada linha** — e não são casos raros, são gêneros inteiros:
+
+- **Fala planejada, formal, explícita e autônoma**: conferência acadêmica, sermão, noticiário de
+  TV, sustentação oral. Tudo o que a coluna "escrita" promete — na fala;
+- **Escrita não planejada, contextualizada, fragmentária**: bilhete na geladeira, WhatsApp,
+  post-it. Tudo o que a coluna "fala" promete — na escrita.
+
+**O argumento lógico**: se há gêneros **falados** com todas as propriedades da escrita e gêneros
+**escritos** com todas as propriedades da fala, então essas propriedades **não pertencem à
+modalidade**. Pertencem a outra coisa — ao **gênero**.
+
+**2. Confunde meio com concepção** — o erro de fundo. São **duas variáveis independentes**:
+
+- **meio** (canal): sonoro × gráfico — questão **física**;
+- **concepção** (registro): informal/não planejado × formal/planejado (@sec-cap-88).
+
+Elas variam **livremente** uma em relação à outra, gerando **quatro** combinações, todas
+povoadas. A dicotomia só enxerga duas — e por isso não vê a conferência nem o WhatsApp.
+
+**3. É avaliativa disfarçada de descritiva.** A linha "errada × correta" não é observação: é
+**juízo**. E ele contamina retroativamente as demais — aceita a premissa de que a fala é a
+modalidade errada, e "fragmentária" deixa de descrever e passa a acusar. É o preconceito
+linguístico operando dentro da gramática (@sec-cap-91).
+
+**A alternativa** [@marcuschi2008]: o **contínuo**, em que os **gêneros** — não as modalidades —
+ocupam posições num plano de dois eixos.
+:::
+
+**2.** Explique o contínuo de Marcuschi e situe quatro gêneros nele.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A proposta**: abandonar as caixas e adotar um **plano de dois eixos independentes**, no qual os
+**gêneros** ocupam posições:
+
+- **Meio**: sonoro × gráfico;
+- **Concepção**: falada (informal, não planejada, dialogal) × escrita (formal, planejada,
+  monologal).
+
+**Os quatro quadrantes, todos povoados:**
+
+| | **Concepção falada** | **Concepção escrita** |
+|---|---|---|
+| **Meio sonoro** | **conversa espontânea** — informal, não planejada, interativa, contextualizada | **conferência acadêmica** — falada, mas planejada, formal, explícita, autônoma |
+| **Meio gráfico** | **WhatsApp** — escrito, mas informal, não planejado, dialogal, em tempo real | **artigo acadêmico** — escrito, planejado, formal, autônomo |
+
+**A análise dos dois quadrantes decisivos** — os "mistos", que refutam a dicotomia:
+
+- **Conferência** (sonoro + escrita): tem **todas** as propriedades que a tradição atribuiu à
+  escrita — planejada, formal, explícita, autônoma, sem hesitação relevante. E é **fala**;
+- **WhatsApp** (gráfico + falada): tem **todas** as propriedades atribuídas à fala — não
+  planejado, contextualizado, fragmentário, dialogal, com turnos rápidos. E é **escrita**.
+
+**O que a distribuição demonstra**: as propriedades acompanham a **concepção**, não o **meio**.
+Ou seja, o que a tradição chamou de "características da fala" são características do **não
+planejamento e da interação em tempo real** — condições que podem se realizar em qualquer meio.
+Elas aparecem por escrito quando as condições se repetem; somem na fala quando não estão dadas.
+
+**A conclusão**: não existem "a fala" e "a escrita" como entidades com propriedades fixas.
+Existem **gêneros**, e cada um se posiciona no plano conforme suas **condições de produção**.
+:::
+
+**3.** "A fala é desorganizada." Refute, analisando um exemplo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O exemplo:**
+
+> "Então... o cara, né, o cara chegou lá e... e aí ele falou assim ó — eu não vou, eu não vou
+> fazer isso não, entendeu? Aí eu... eu fiquei meio assim, sabe?"
+
+A leitura tradicional: caos, pobreza, confusão. **A leitura correta**: cada elemento **faz
+alguma coisa**.
+
+| Elemento | Tradição vê | Função real |
+|---|---|---|
+| "né?", "sabe?", "entendeu?" | vício | **marcadores conversacionais** — checam a atenção do ouvinte, negociam o turno, mantêm o contato |
+| "aí", "então" | pobreza | **sequenciadores** — organizam a narrativa, marcam progressão temporal |
+| "o cara, o cara" | pouco vocabulário | **planejamento em curso** — ganha tempo e **enfatiza** |
+| "eu... eu" | insegurança | sinaliza que o **turno continua** — impede a tomada de palavra |
+| "falou assim ó" | redundância | introduz **discurso direto** — faz o papel das aspas |
+
+**A explicação de fundo — planejamento e execução:**
+
+- Na **escrita**, planejamento e execução são **separados no tempo**. Você escreve, apaga,
+  reescreve; o leitor recebe **só o produto final**. O processo é **invisível**, e é essa
+  invisibilidade que produz a aparência de perfeição;
+- Na **fala**, são **simultâneos**. O falante formula **enquanto** fala; o ouvinte assiste ao
+  **processo**. Hesitações e repetições **são o planejamento acontecendo à vista**.
+
+**A analogia**: comparar fala e escrita como produtos é comparar um **ensaio filmado** com um
+**filme montado** e concluir que os atores do ensaio são piores. Você está vendo o que, no
+filme, foi cortado.
+
+**A prova experimental — e é o que fecha a refutação:**
+
+- **Transcreva um rascunho de escrita**, com todas as versões, riscos e tentativas: terá
+  exatamente a aparência "caótica" da fala;
+- **Edite uma transcrição de fala**, removendo hesitações e repetições: ficará indistinguível de
+  um texto escrito.
+
+O caos **não estava na fala** — estava na **exposição do processo**.
+
+**A inversão final**: um falante que **não** hesitasse nem repetisse seria um falante **pior** —
+estaria ignorando as necessidades do ouvinte, que precisa de tempo, de checagem e de sinais de
+turno. As "falhas" são **adaptações** às condições de produção da fala.
+:::
+
+**4.** Analise a escrita digital no contínuo e explique o que ela prova.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A posição**: meio **gráfico** + concepção **falada**. É o quadrante "misto" superior esquerdo —
+escrita, tecnicamente; fala, em tudo o mais.
+
+**As propriedades de concepção falada que ela exibe**: informalidade, não planejamento,
+dialogismo, tempo real, contextualização, turnos curtos e rápidos, construção conjunta.
+
+**As soluções que ela inventou** — para recuperar o que o meio gráfico suprime:
+
+| Recurso da fala | Solução digital |
+|---|---|
+| entonação | **emoji**, pontuação expressiva ("nãããão", "!!!") |
+| riso, prosódia | "kkkkk", "rsrs" |
+| gesto, expressão facial | emoji, GIF, sticker |
+| ênfase | CAIXA ALTA, *asteriscos*, alongamento ("muuuito") |
+| turnos rápidos | mensagens **curtas e múltiplas** |
+| co-presença | "digitando...", visto por último, áudio |
+
+**O que ela prova — três coisas:**
+
+1. **A dicotomia está morta.** Um gênero de meio gráfico e concepção plenamente falada é
+   massivo e cotidiano — provavelmente o gênero escrito **mais praticado da história**. Não é
+   curiosidade marginal;
+2. **As "propriedades da fala" são do gênero, não do meio.** Recriadas as condições de produção
+   da fala (tempo real, informalidade, interação) no meio gráfico, as propriedades "da fala"
+   **reaparecem — todas**. É uma **demonstração experimental** da tese de Marcuschi, e ela
+   ocorreu **depois** da teoria: a escrita digital é um teste independente que a teoria passou;
+3. **Os falantes recriam ativamente o que o meio suprime.** O emoji não é preguiça — é a
+   **reinvenção da entonação** num meio que não a comporta. A escrita tradicional **aceitou** a
+   perda e compensou com sintaxe explícita; a digital **recuperou** o canal expressivo por outra
+   via. Isso é engenhosidade, não degradação.
+
+**Sobre o pânico moral** ("o WhatsApp destrói o português"):
+
+- **Ninguém escreve tese em linguagem de WhatsApp.** O mesmo jovem que digita "vc vai hj?"
+  escreve a redação do ENEM em norma-padrão — e sabe **exatamente** por quê. Isso é competência
+  de **adequação** (@sec-cap-88), que é o que a escola quer ensinar;
+- **Nada foi substituído**: a escrita digital **ocupou um espaço vazio**. Antes do celular não
+  havia gênero escrito informal e instantâneo de massa — havia o bilhete;
+- **O efeito é o oposto do alegado**: esta é a geração que **mais escreve** na história humana.
+
+**A pergunta legítima que resta** — e vale distingui-la do pânico: a facilidade da escrita
+informal reduz a **prática** da formal? É empírica e não trivial. Mas é sobre **distribuição de
+prática entre gêneros**, não sobre corrupção do sistema linguístico.
+:::
+
+**5.** Explique a retextualização e por que ela nunca é neutra.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Retextualização** [@marcuschi2008]: a passagem de um texto de uma modalidade a outra — de
+fala para escrita, tipicamente.
+
+**As seis operações típicas** (fala → escrita):
+
+1. **Eliminação** — hesitações, repetições, marcadores ("né", "aí"), falsos começos;
+2. **Inserção** — pontuação, conectivos explícitos;
+3. **Reordenação** — desfazer topicalizações e anacolutos;
+4. **Substituição lexical** — itens informais por formais;
+5. **Reconstrução sintática** — completar frases, ajustar concordância;
+6. **Condensação** — cortar redundâncias que serviam ao ouvinte.
+
+**Por que nunca é neutra:**
+
+**O que se perde:**
+
+- **prosódia** — entonação, ritmo, pausas, volume. E com ela vai a **ironia** (@sec-cap-83): a
+  frase transcrita pode significar o **oposto** do que significou;
+- **gestos e expressão facial** — parte do sentido, evaporada;
+- **a construção conjunta** — sobreposições, "uhum" do ouvinte, frases completadas a dois. A
+  transcrição **atribui a um** o que **dois** construíram.
+
+**O que se acrescenta** — note: acréscimo, não recuperação:
+
+- **pontuação** — que é **interpretação do transcritor**. A fala não tem vírgulas. Onde pôr a
+  vírgula? Onde terminar a frase? Quem decide isso está **decidindo um sentido**;
+- **parágrafos** — e com eles uma hierarquia de tópicos que o falante não marcou.
+
+**As consequências práticas — onde isso é grave:**
+
+- **Depoimento judicial**: a transcrição é o documento que o juiz lê. A hesitação que sugeria
+  dúvida sumiu; a ironia virou afirmação literal; a pontuação do escrivão decidiu onde a frase
+  termina. **O texto que decide a vida de alguém não é o que a pessoa disse**;
+- **Entrevista jornalística**: publicar a fala "como foi dita" — com todas as hesitações — é uma
+  técnica **conhecida de desqualificação**: expõe o processo e faz o entrevistado parecer
+  confuso. Editar é o normal; **não** editar, seletivamente, é escolha editorial **hostil**;
+- **Ata de reunião**: registra uma **versão** já interpretada.
+
+**A formulação que sintetiza**: retextualizar é **produzir um novo texto**, não copiar um texto
+para outro suporte. Toda transcrição é **interpretação** — e tratá-la como espelho é o que a
+torna perigosa, porque **esconde a intervenção sob a aparência de registro**.
+:::
+
+**6.** Analise: "Esse livro, eu já li ele." A construção empobrece o português?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não — e a análise mostra o contrário.**
+
+**Há dois fenômenos na frase**, e é preciso separá-los:
+
+**1. A topicalização**: "**Esse livro**, eu já li **ele**." O **tópico** (aquilo de que se fala)
+é deslocado para o início e retomado por um pronome.
+
+Isso **não é erro nem simplificação**. É uma estratégia de **organização informacional**:
+anuncia-se o tema e depois se comenta sobre ele. É sistemática no PB falado, regular, e obedece
+a restrições precisas — não se topicaliza qualquer coisa em qualquer lugar.
+
+**O argumento decisivo**: a topicalização é uma estrutura **a mais**, não a menos. O PB falado
+**tem um recurso** de organização informacional que a norma escrita **não tem**. Para dizer o
+mesmo por escrito na norma, é preciso recorrer a construções mais pesadas ("Quanto a esse livro,
+eu já o li") ou perder a ênfase temática. Neste ponto, a fala é **mais rica**.
+
+**2. O pronome reto como objeto**: "li **ele**" em vez de "li-**o**". É o traço do PB descrito no
+@sec-cap-89 — a perda dos clíticos de 3ª pessoa. É **diastrático e diafásico**, geral no país e
+presente na fala de todas as classes (@sec-cap-87).
+
+**A avaliação — três níveis que não devem ser confundidos:**
+
+- **Linguisticamente**: a construção é **regular, sistemática e gramatical** no PB falado. Segue
+  regras, é compreendida por todos, e comunica com precisão. Não há nada de defeituoso nela;
+- **Quanto ao registro**: pertence à **concepção falada** e é **inadequada** à escrita formal
+  (@sec-cap-88). Num artigo acadêmico, escreve-se "Já li esse livro";
+- **Quanto ao juízo de valor**: dizer que ela "empobrece o português" é **preconceito**
+  (@sec-cap-91) — confunde inadequação de registro com defeito de sistema.
+
+**A síntese**: a construção não empobrece a língua; ela pertence a **outro ponto do contínuo**. E
+o falante que a usa na conversa e a evita no artigo não está sendo incoerente — está exercendo
+exatamente a **competência** que a escola deveria ensinar: saber onde cada forma cabe.
+:::
+
+**7.** Por que ensinar escrita corrigindo a fala do aluno é um erro?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Falha em três níveis simultâneos**, e vale separá-los porque as objeções são independentes:
+
+**1. É descritivamente falso.** Pressupõe que a fala é escrita defeituosa — o que é falso. A fala
+tem organização **própria**, adaptada às suas condições de produção (tempo real, co-presença,
+irreversibilidade), e até **estruturas a mais**: a topicalização do PB falado não existe na norma
+escrita. Corrigir a fala em nome da escrita é corrigir um sistema **em nome de outro**, como
+corrigir xadrez em nome das regras da dama.
+
+**2. É pedagogicamente ineficaz.** Não se aprende um gênero sendo **corrigido em outro**.
+Escrever um artigo acadêmico não se aprende deixando de dizer "né" — são competências
+**distintas**, e uma **não transfere** para a outra. O aluno que parar de dizer "né" não
+escreverá um parágrafo melhor. O tempo gasto corrigindo a fala é tempo **não** gasto ensinando o
+gênero-alvo.
+
+**3. É socialmente violento.** Corrigir a fala do aluno é corrigir a fala da **família** dele, da
+**comunidade** dele. E a mensagem que chega não é sobre gramática: é que **ele e os seus falam
+errado** — que sua origem é um defeito a ser apagado. É o preconceito linguístico em ação
+(@sec-cap-91), com o agravante de vir do professor, que é quem ele deveria poder confiar.
+
+**A alternativa** — a mesma do @sec-cap-88: ensinar a escrita como **gênero novo**, com regras
+próprias, que se **acrescenta** ao repertório.
+
+**O que muda na prática:**
+
+| Em vez de | Diga |
+|---|---|
+| "Não se diz 'nós vai'" | "**Neste gênero**, escreve-se 'nós vamos'" |
+| "Sua fala é errada" | "Você já sabe falar; vamos aprender **outra** coisa" |
+| tratar a marca de oralidade como ignorância | tratá-la como **inadequação de registro** — e mostrar o registro-alvo |
+
+**O ganho não é só ético — é técnico.** O aluno que entende o contínuo consegue **calibrar** o
+texto: passa a perguntar "que gênero é este? onde ele fica no plano?", que é a pergunta
+**produtiva** — em vez de "estou falando errado?", que não tem resposta útil e só produz
+insegurança.
+
+**E o resultado mensurável**: o aluno que não teme a própria fala escreve **mais** — e escrever
+mais é a única coisa que comprovadamente ensina a escrever [@marcuschi2008; @faraco2008].
+:::
+
+**8.** (Estilo Cebraspe — julgue C ou E)
+
+I. A conferência acadêmica é um gênero de meio sonoro e concepção escrita.
+II. Marcadores conversacionais como "né" e "sabe" são vícios de linguagem sem função.
+III. A retextualização de fala para escrita é uma transcrição neutra do que foi dito.
+IV. A escrita digital exemplifica o quadrante de meio gráfico e concepção falada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — CERTO.** A conferência é **falada** (meio sonoro) mas **planejada, formal, explícita e
+autônoma** (concepção escrita). É um dos dois quadrantes "mistos", e é precisamente ele que
+refuta a dicotomia: exibe **todas** as propriedades que a tradição atribuiu à escrita, sendo
+fala.
+
+**II — ERRADO.** "Né", "sabe" e "entendeu" são **marcadores conversacionais**, com funções
+descritas e necessárias: **checam a atenção** do ouvinte, **negociam o turno** e **mantêm o
+contato**. Chamá-los de vício é aplicar à fala critérios da escrita — onde, de fato, não cabem,
+porque lá não há ouvinte a monitorar em tempo real. A função existe; ela é que é invisível a
+quem só conhece a escrita.
+
+**III — ERRADO.** Retextualizar **nunca** é neutro. **Perde-se**: prosódia (e com ela a ironia),
+gestos, e a construção conjunta. **Acrescenta-se**: pontuação — que é **interpretação do
+transcritor**, já que a fala não tem vírgulas — e parágrafos. Retextualizar é **produzir um novo
+texto**, não copiar um texto para outro suporte. É por isso que a transcrição de um depoimento
+judicial é um problema real, e não um detalhe.
+
+**IV — CERTO.** WhatsApp, chat e mensagens são escritos (meio **gráfico**) mas informais, não
+planejados, dialogais e em tempo real (concepção **falada**). É o outro quadrante misto — e a
+**demonstração experimental** da tese do contínuo, tanto mais forte por ter surgido **depois**
+da teoria.
+
+**Gabarito: C, E, E, C.**
+
+**O padrão**: os itens I e IV testam os **dois quadrantes mistos** — o coração da tese de
+Marcuschi. Os itens II e III testam as duas consequências que o senso comum mais resiste a
+aceitar: que a fala tem **função** onde parece ter defeito, e que a transcrição **interpreta**
+onde parece registrar. Quem entendeu que meio e concepção são eixos **independentes** acerta os
+quatro.
+:::
+
+**9.** (Estilo ENEM) Um professor pede que os alunos transcrevam uma entrevista oral e depois a
+transformem em texto escrito para publicação. Essa atividade:
+
+a) demonstra que a fala é uma versão imperfeita da escrita, a ser corrigida;
+b) evidencia as operações de retextualização e o fato de que cada modalidade tem organização
+   própria;
+c) é inútil, pois transcrever é apenas copiar o que foi dito;
+d) prova que os entrevistados não dominam a norma-padrão;
+e) mostra que a escrita é sempre superior à fala como forma de registro.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: b.**
+
+**Por que b está certa**: a atividade obriga o aluno a **executar** as operações de
+retextualização e, ao executá-las, a **percebê-las**:
+
+- **eliminar** hesitações, repetições, marcadores;
+- **inserir** pontuação e conectivos;
+- **reordenar** topicalizações e anacolutos;
+- **substituir** léxico informal;
+- **reconstruir** frases inacabadas;
+- **condensar** redundâncias.
+
+E — o mais valioso — o aluno descobre **na prática** que cada eliminação tem um **custo**: some a
+prosódia, some a ironia, some a construção conjunta. Ele aprende que as duas modalidades têm
+organização **própria**, e que a passagem entre elas é **produção de um novo texto**, não cópia.
+
+**Por que as outras erram:**
+
+**a)** Inverte a lição. A atividade mostra justamente o **contrário**: o que se elimina tinha
+**função** na fala (os marcadores checavam atenção, as hesitações sinalizavam turno). Não se
+está corrigindo defeito — está-se **trocando de sistema**.
+
+**c)** Falso, e é a crença que a atividade **destrói**. Transcrever **não** é copiar: a pontuação
+é decisão do transcritor, a prosódia se perde, a ironia pode inverter. É exatamente por isso que
+a atividade é útil — ela torna visível uma intervenção que passa despercebida.
+
+**d)** Falso, e comete o erro central do capítulo: aplicar critérios da **escrita** à **fala**.
+Ninguém fala em norma-padrão escrita — nem o entrevistador, nem o professor, nem o autor da
+questão. Isso não é falta de domínio; é a fala sendo fala.
+
+**e)** Falso. A escrita **não** é superior como registro — é **diferente**, e perde o que a fala
+tem (prosódia, gesto, simultaneidade). Uma gravação registra o que a transcrição não alcança. Não
+há hierarquia: há **adequação** ao propósito (@sec-cap-88).
+
+**O padrão** (@sec-cap-85): (a), (d) e (e) são as três faces do mesmo preconceito — a fala como
+escrita defeituosa. (c) é o senso comum sobre transcrição. A correta é a **descritiva**, que não
+hierarquiza e nomeia o processo.
+:::
+
+**10.** Compare "Cê tá indo pro trabalho?" e o parágrafo de um ofício. Elas pertencem à mesma
+língua?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Sim — e a pergunta é boa justamente porque a resposta não é óbvia.**
+
+**A magnitude da diferença é real.** Compare:
+
+> "Cê tá indo pro trabalho? Ó, se der, passa lá e pega aquele negócio, tá?"
+
+> "Solicito a Vossa Senhoria que, em deslocamento a seu local de trabalho, proceda à retirada
+> do material anteriormente mencionado."
+
+As diferenças atravessam **todos** os níveis:
+
+- **fonológico**: "cê" × "você"; "tá" × "está"; "pro" × "para o";
+- **morfológico**: paradigma verbal reduzido × pleno; *Vossa Senhoria* × *cê*;
+- **sintático**: parataxe e frases curtas × subordinação encaixada e período longo;
+- **lexical**: "negócio", "dar" (no sentido de "ser possível") × "material", "proceder à
+  retirada";
+- **pragmático**: pedido direto, mitigado por "se der" × pedido ritualizado, com fórmula de
+  tratamento.
+
+Quase nada em comum. Um observador externo teria razões para supor línguas diferentes.
+
+**Por que, ainda assim, é a mesma língua** — três argumentos:
+
+1. **É o mesmo falante.** A mesma pessoa produz as duas, possivelmente no mesmo dia, e transita
+   entre elas **sem aprender uma segunda língua**. Isso é **repertório**, não bilinguismo
+   (@sec-cap-88);
+2. **São dois pontos do contínuo**, não dois sistemas. Entre os dois extremos há uma escala
+   **densamente povoada** — o e-mail informal ao colega, a mensagem semiformal, o relatório
+   simples. Não há corte: há gradiente. Línguas distintas não se ligam por gradiente;
+3. **O critério de língua × dialeto não é linguístico** (@sec-cap-87, @sec-cap-89). Mesmo que a
+   distância fosse maior, a decisão não sairia da gramática.
+
+**O que a comparação de fato demonstra** — e é aqui que a questão fica interessante:
+
+Que a distância **intramodalidades**, dentro do mesmo país e do mesmo falante, é **comparável à
+distância PB/PE** (@sec-cap-89). Esse é um resultado importante, e ele **corta nos dois
+sentidos**:
+
+- **Contra** quem diz que PB e PE são línguas distintas por causa da distância: se essa distância
+  bastasse, o brasileiro do bar e o brasileiro do ofício também seriam línguas distintas. O
+  argumento **prova demais**;
+- **A favor** de reconhecer a magnitude do que a escola pede: o aluno que aprende o registro
+  formal escrito está aprendendo algo tão distante da sua fala quanto o PE está. Isso é **muito**
+  — e explica por que é difícil, e por que tratá-lo como "só parar de errar" é ao mesmo tempo
+  cruel e ineficaz [@marcuschi2008].
+:::
+
+**11.** Explique por que a mesma frase transcrita pode significar o oposto do que significou.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Porque a transcrição perde a prosódia — e a prosódia é o principal veículo da ironia**
+(@sec-cap-83).
+
+**O exemplo:**
+
+> "Que ideia genial."
+
+- **Dita com entonação ascendente e sorriso**: elogio sincero;
+- **Dita com entonação descendente, arrastada, e sobrancelha erguida**: ironia — significa "que
+  ideia idiota", o **oposto**.
+
+**Transcrita, a frase é a mesma.** Todos os fonemas, todas as palavras, toda a sintaxe:
+idênticos. O que distinguia os dois sentidos **não estava nas palavras** — estava na prosódia e
+no gesto, e **nada disso sobrevive** ao papel.
+
+**O que se perde na transcrição:**
+
+- **entonação** — o contorno melódico que marca a ironia;
+- **ritmo e alongamento** — "geeenial" arrastado é sinal de ironia;
+- **intensidade** e qualidade de voz;
+- **pausas** — a pausa antes de "genial" muda tudo;
+- **gesto e expressão facial** — a sobrancelha, o sorriso, o olhar.
+
+**O que se acrescenta, e piora**: a **pontuação**, que é escolha do transcritor. "Que ideia
+genial." e "Que ideia genial..." e "Que ideia... genial." sugerem coisas **diferentes** — e a
+escolha entre elas foi de quem transcreveu, não de quem falou.
+
+**As consequências reais** — e é por isso que a questão importa:
+
+- **Depoimento judicial**: um sarcasmo transcrito vira **confissão literal**. "Ah, claro, eu
+  matei ele" — dito com ironia evidente — transcreve-se exatamente igual a uma confissão. É um
+  risco documentado e grave;
+- **Entrevista**: a ironia do entrevistado, transcrita, vira afirmação séria — e o veículo pode
+  então atribuir-lhe uma posição que ele ridicularizava;
+- **Mensagem de texto**: o mesmo problema, na origem — e é **exatamente por isso** que a escrita
+  digital inventou o **emoji**. O "😅" e o "kkkk" são a **reinvenção da prosódia** num meio que
+  não a comporta. Longe de ser degradação, o emoji resolve um problema real que a escrita
+  tradicional nunca resolveu bem.
+
+**A síntese**: a fala tem um **canal a mais** — o prosódico —, e a escrita não tem onde guardá-lo.
+Por isso a transcrição é sempre **empobrecimento e interpretação** ao mesmo tempo: tira um canal
+de sentido e obriga o transcritor a **decidir**, na pontuação, o que aquele canal dizia.
+:::
+
+**12.** "O WhatsApp está destruindo o português." Analise.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A afirmação é falsa em todas as suas partes** — e vale desmontá-la por etapas, porque cada uma
+erra de um jeito diferente.
+
+**1. Confunde gênero com sistema.** "vc vai hj?" não é o português se degradando: é um **gênero**
+de meio gráfico e concepção falada, com convenções próprias e perfeitamente regulares. As
+abreviações não são aleatórias — obedecem a regras (retirada de vogais, manutenção do esqueleto
+consonantal) que qualquer usuário decodifica instantaneamente. Isso é **sistema**, não ausência
+dele.
+
+**2. Ignora a competência de adequação.** Ninguém escreve tese em linguagem de WhatsApp. O mesmo
+jovem que digita "vc vai hj?" escreve a redação do ENEM em norma-padrão — e sabe **exatamente**
+por que a diferença existe. Ele não perdeu um registro: **ganhou outro**. Isso é competência de
+adequação (@sec-cap-88), e é precisamente o que a escola quer ensinar. O pânico acusa o aluno de
+não ter o que ele demonstrou ter.
+
+**3. Supõe uma substituição que não houve.** A escrita digital **não substituiu** nada — ela
+**ocupou um espaço vazio**. Antes do celular, não existia gênero escrito informal e instantâneo
+de massa: existia o bilhete, e pouco mais. Nenhuma carta formal deixou de ser escrita **porque**
+o WhatsApp existe; as cartas já haviam sumido antes, e por outras razões.
+
+**4. Inverte o efeito.** Esta é a geração que **mais escreve** na história humana. Um adolescente
+hoje escreve, por semana, mais palavras que seu avô escreveu num ano inteiro. Se a exposição à
+escrita destruísse a escrita, teríamos um paradoxo.
+
+**5. Repete um pânico moral com séculos de idade.** A mesma acusação foi feita ao telégrafo, ao
+telefone, à taquigrafia e à imprensa. A regularidade da queixa através dos séculos, e o fato de
+que nenhuma das destruições anunciadas ocorreu, sugere que o alvo real não é a língua — é a
+**geração nova** (@sec-cap-91). A queixa é sobre quem fala, não sobre como se fala.
+
+**6. Deixa de ver o que há de engenhoso.** O emoji é a **reinvenção da entonação** num meio que
+não a comporta. A escrita tradicional simplesmente **aceitou** essa perda por séculos; a digital
+a **resolveu**. Chamar isso de degradação é notável — é degradar o que **acrescenta**.
+
+**A pergunta legítima que sobra** — e é preciso separá-la do pânico, porque ela é boa:
+
+A facilidade da escrita informal digital reduz a **prática** da escrita formal? Isso é uma
+pergunta **empírica**, respondível, e a resposta não é óbvia. Se a prática do gênero formal
+diminuir, a competência nele pode diminuir — e isso seria um problema **pedagógico** real.
+
+Mas note o que essa pergunta **não** é: não é sobre "destruir a língua". É sobre **distribuição
+de prática entre gêneros** — um problema de currículo e de tempo, não de corrupção do sistema
+linguístico. O sistema está intacto; a discussão é sobre o que se pratica, e ela merece dados,
+não indignação [@marcuschi2008].
+:::
+
+## 📚 Referências
+
+O capítulo é, em sua espinha dorsal, uma exposição de Marcuschi [@marcuschi2008]: o contínuo dos
+gêneros, a crítica à dicotomia e a noção de retextualização são dele. A análise da organização
+da fala e de sua sintaxe apoia-se em Castilho [@castilho2010] e Ilari e Basso [@ilaribasso2006];
+a articulação com gênero e textualidade retoma Koch [@koch2015texto; @koch2018coesao]. A posição
+sobre o ensino segue Faraco [@faraco2008] e Bagno [@bagno2011]. Sobre a ironia e o papel da
+prosódia, ver o @sec-cap-83; sobre registro e adequação, o @sec-cap-88.
+
+O próximo capítulo fecha o Volume 14 enfrentando diretamente o que atravessou todos os
+anteriores: a @sec-cap-91 trata do **preconceito linguístico** e da **política linguística** — as
+consequências sociais e institucionais de tudo o que aqui se descreveu.
+
+::: {#refs}
 :::
