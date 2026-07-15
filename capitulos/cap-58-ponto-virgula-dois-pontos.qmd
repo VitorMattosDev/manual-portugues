@@ -4,22 +4,266 @@ title: "Ponto e vírgula, dois-pontos e ponto final"
 
 # Ponto e vírgula, dois-pontos e ponto final {#sec-cap-58}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 9 — Pontuação e Convenções.
+> "Entre a vírgula e o ponto há um sinal intermediário — e entre anunciar e concluir, os
+> dois-pontos."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Depois da vírgula, três sinais de pausa completam o núcleo da pontuação: o **ponto e
+vírgula** (`;`), pausa **intermediária** entre a vírgula e o ponto; os **dois-pontos**
+(`:`), que **anunciam** o que vem a seguir; e o **ponto final** (`.`), a maior pausa,
+que encerra. Cada um tem empregos precisos, muitos deles cobrados em prova de redação
+oficial e de revisão de texto.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Estes sinais são especialmente úteis na organização de textos longos e complexos: o ponto
+e vírgula separa itens internamente pontuados e orações de certa extensão; os dois-pontos
+introduzem enumerações, falas e explicações. Dominá-los é sinal de maturidade na escrita —
+e distingue o texto bem articulado do texto apenas correto.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Empregar** o ponto e vírgula em enumerações e orações extensas;
+- **Distinguir** o ponto e vírgula da vírgula e do ponto;
+- **Usar** os dois-pontos para anunciar enumerações, falas e explicações;
+- **Aplicar** o ponto final e conhecer seus usos secundários;
+- **Reconhecer** o ponto e vírgula em leis, listas e períodos paralelos;
+- **Corrigir** o uso desses sinais em textos.
+
+## O ponto e vírgula
+
+O **ponto e vírgula (;)** marca uma pausa **intermediária** — maior que a da vírgula,
+menor que a do ponto. Seus usos principais, resumidos na @fig-ponto-virgula:
+
+::: {#fig-ponto-virgula}
+
+```{.tikz}
+%%| filename: ponto-virgula
+%%| alt: Diagrama com os três usos principais do ponto e vírgula. Uso 1: separar itens de uma enumeração que já contêm vírgulas internas, como em incisos de leis. Uso 2: separar orações coordenadas longas ou que já têm vírgulas internas. Uso 3: separar orações de sentido contrastante ou paralelo, como em Uns riem; outros choram.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw=manualblue, thick, fill=manualblue!8, align=left, text width=88mm, minimum height=12mm, inner sep=5pt},
+]
+  \node[cx] (a) at (0,0) {\textbf{1.} Itens de enumeração com \emph{vírgulas internas} (leis, listas)\\{\scriptsize ``Compareceram: João, o diretor; Ana, a secretária; e Léo.''}};
+  \node[cx, below=3mm of a] (b) {\textbf{2.} Orações coordenadas \emph{longas} ou já pontuadas por dentro\\{\scriptsize ``Estudou muito, com afinco; ainda assim, não passou.''}};
+  \node[cx, below=3mm of b] (c) {\textbf{3.} Orações \emph{paralelas} ou de \emph{contraste}\\{\scriptsize ``Uns riem; outros choram.''}};
+\end{tikzpicture}
+```
+
+Os três usos principais do ponto e vírgula: separar itens com vírgulas internas, orações
+longas/já pontuadas, e orações paralelas ou contrastantes.
+:::
+
+- **Separar itens de enumeração com vírgulas internas**: em listas, leis, incisos —
+  quando os próprios itens já contêm vírgulas, o ponto e vírgula os separa com clareza.
+  "São requisitos: idoneidade, comprovada; experiência, de cinco anos; e diploma."
+- **Separar orações coordenadas longas** ou que já tenham vírgulas internas — para evitar
+  ambiguidade: "Alguns preferem a cidade, com sua agitação; outros, o campo, com sua
+  calma."
+- **Separar orações de sentido paralelo ou contrastante**: "Uns constroem; outros
+  destroem".
+- **Antes de conjunções adversativas/conclusivas** deslocadas ou em períodos longos:
+  "Estudou bastante; contudo, não foi aprovado".
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Ponto e vírgula em leis e listas
+Em textos legais e em listas verticais, o ponto e vírgula separa os incisos/itens, com o
+último geralmente encerrado por ponto:
+
+> Art. 5º São direitos:
+> I – a vida;
+> II – a liberdade;
+> III – a igualdade.
+
+É o uso mais formalizado e cobrado em provas de redação oficial.
+:::
+
+## Os dois-pontos
+
+Os **dois-pontos (:)** anunciam algo que vem a seguir — introduzem, explicam, esclarecem.
+Usos principais:
+
+- **Enumeração**: "Comprei três coisas: pão, leite e ovos".
+- **Fala/citação (discurso direto)**: "Ele disse: — Vou embora"; "Como afirmou Machado:
+  '...' ".
+- **Explicação, esclarecimento ou consequência**: "Não foi à festa: estava doente"; "Só
+  há uma saída: estudar".
+- **Aposto enumerativo/explicativo**: "Trouxe o essencial: coragem e fé".
+
+::: {.callout-important}
+## Dois-pontos × ponto e vírgula
+- **Dois-pontos**: **anunciam** o que vem depois (uma lista, uma fala, uma explicação):
+  "Só quero uma coisa: paz".
+- **Ponto e vírgula**: **separam** elementos equivalentes (itens, orações), sem anunciar.
+
+Não confunda: os dois-pontos "abrem uma expectativa" (algo virá para completá-los); o
+ponto e vírgula apenas divide.
+:::
+
+## O ponto final
+
+O **ponto (.)** marca:
+
+- o **fim de frase declarativa** e a maior pausa — "Choveu ontem.";
+- **abreviaturas** — "Sr.", "etc.", "a.C." (@sec-cap-20);
+- em alguns contextos, **separação de itens** de listas (menos comum).
+
+Após o ponto final, começa nova frase com **maiúscula**. Há ainda:
+
+- **ponto parágrafo**: o ponto que fecha um parágrafo, seguido de mudança de linha.
+- **ponto de abreviação**: em siglas antigas ("O.N.U."), hoje evitado (usa-se "ONU", sem
+  pontos — @sec-cap-20).
+
+## 📋 Quadro-resumo
+
+| Sinal | Função | Exemplo |
+|---|---|---|
+| **Ponto e vírgula (;)** | pausa intermediária; separa itens com vírgulas internas, orações longas/paralelas | "Uns riem; outros choram" |
+| **Dois-pontos (:)** | anuncia enumeração, fala, explicação | "Quero isto: paz" |
+| **Ponto (.)** | fim de frase; abreviaturas | "Chegou. / etc." |
+
+Em uma linha: o **ponto e vírgula** é a pausa intermediária que separa itens com vírgulas
+internas e orações longas/paralelas; os **dois-pontos** anunciam (enumeração, fala,
+explicação); o **ponto** encerra a frase e marca abreviaturas.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Usar vírgula onde cabe ponto e vírgula.** Em enumerações com vírgulas internas, o
+  ponto e vírgula evita confusão.
+- **Confundir dois-pontos e ponto e vírgula.** Dois-pontos **anunciam** algo; ponto e
+  vírgula **separa** itens equivalentes.
+- **Maiúscula depois de dois-pontos indevida.** Após dois-pontos que introduzem
+  enumeração ou explicação, usa-se **minúscula** (salvo nome próprio ou início de fala/
+  citação): "Quero isto: paz" (minúscula).
+- **Pontos em siglas.** "ONU", não "O.N.U." — abandonou-se o ponto abreviativo nas siglas.
+- **Ponto e vírgula onde bastaria vírgula.** Em orações curtas e simples, a vírgula é
+  suficiente; o ponto e vírgula é para casos mais complexos.
+
+## ✍️ Exercícios
+
+**1.** Explique quando usar o ponto e vírgula em vez da vírgula numa enumeração.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Usa-se o **ponto e vírgula** quando os itens da enumeração já contêm **vírgulas internas**,
+para separá-los com clareza e evitar confusão. Exemplo: "Compareceram: João, o diretor;
+Ana, a secretária; e Léo, o estagiário." Se usássemos apenas vírgulas, não se distinguiria
+onde termina um item e começa outro. O ponto e vírgula organiza a hierarquia das pausas.
+:::
+
+**2.** (Estilo ENEM) Assinale a frase em que os dois-pontos estão corretamente empregados:
+
+a) Comprei: pão, leite e ovos;
+b) Comprei três itens: pão, leite e ovos;
+c) Comprei três itens, pão: leite e ovos;
+d) Comprei, três itens: pão leite e ovos;
+e) Comprei três: itens pão, leite e ovos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** "Comprei três itens: pão, leite e ovos": os dois-pontos anunciam a
+enumeração que os completa ("três itens" → quais? pão, leite e ovos). Na (a), os
+dois-pontos separam indevidamente o verbo do complemento sem um termo anunciador claro; as
+demais têm pontuação desordenada.
+:::
+
+**3.** Pontue com ponto e vírgula: "Alguns alunos estudaram muito e passaram outros nem
+abriram o livro e reprovaram."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Alguns alunos estudaram muito e passaram; outros nem abriram o livro e reprovaram." O
+**ponto e vírgula** separa as duas orações coordenadas **longas** e de sentido
+**paralelo/contrastante** (o grupo que estudou × o que não estudou), cada uma já com sua
+estrutura interna. A pausa intermediária organiza melhor que uma simples vírgula.
+:::
+
+**4.** Distinga o uso dos dois-pontos e do ponto e vírgula, com um exemplo de cada.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Os **dois-pontos** *anunciam* o que vem a seguir (enumeração, fala, explicação): "Só há
+uma solução: negociar." O **ponto e vírgula** *separa* elementos equivalentes (itens ou
+orações), sem anunciar nada: "Uns querem paz; outros, guerra." Os dois-pontos abrem uma
+expectativa (algo os completa); o ponto e vírgula apenas divide unidades paralelas.
+:::
+
+**5.** Corrija o uso da maiúscula: "Ele só quer uma coisa: Descansar."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"Ele só quer uma coisa: **descansar**." Após dois-pontos que introduzem uma **explicação/
+enumeração** (não uma fala ou citação), usa-se **minúscula** (salvo nome próprio). Como
+"descansar" não é nome próprio nem início de discurso direto, deve vir em minúscula. A
+maiúscula após dois-pontos só se justifica em falas, citações ou nomes próprios.
+:::
+
+**6.** (Estilo FCC) Assinale a alternativa em que o ponto e vírgula está corretamente
+empregado:
+
+a) Estudou muito; e passou;
+b) Comprei pão; e leite;
+c) Uns preferem o mar; outros, a montanha;
+d) Ele chegou; cansado;
+e) Quero; paz e sossego.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "Uns preferem o mar; outros, a montanha": o ponto e vírgula separa
+duas orações **paralelas/contrastantes** (com zeugma do verbo na segunda) — uso correto.
+As demais empregam o ponto e vírgula indevidamente: antes de *e* (a, b), separando verbo
+de predicativo (d) ou verbo de objeto (e).
+:::
+
+**7.** Reescreva usando dois-pontos para introduzir a fala: "O professor avisou que a
+prova seria na sexta."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Com discurso direto e dois-pontos: "O professor avisou: — A prova será na sexta." Os
+**dois-pontos** anunciam a fala (discurso direto), e o **travessão** marca seu início. A
+frase original está no discurso indireto (sem dois-pontos); a reescrita a converte em
+direto, usando os dois-pontos para introduzir a citação literal.
+:::
+
+**8.** Pontue o inciso de lei: "São deveres pontualidade assiduidade e zelo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"São deveres: pontualidade; assiduidade; e zelo." (ou, em lista vertical, com incisos
+separados por ponto e vírgula). Os **dois-pontos** anunciam a enumeração; o **ponto e
+vírgula** separa os itens (uso típico de textos legais/formais). O último item costuma
+ser encerrado por ponto final quando a enumeração termina o período.
+:::
+
+**9.** Explique por que "etc." leva ponto, mas "ONU" não.
+
+::: {.callout-tip collapse="true"}
+## Solução
+"etc." é uma **abreviatura** (de *et cetera*), e abreviaturas levam **ponto**
+abreviativo. "ONU" é uma **sigla** (formada pelas iniciais de um nome composto), e as
+siglas **não** levam pontos entre as letras na grafia moderna (abandonou-se "O.N.U.").
+Abreviatura → ponto; sigla → sem ponto (@sec-cap-20).
+:::
+
+**10.** (Estilo Cebraspe — Certo/Errado) Julgue: "Os dois-pontos podem ser usados para
+separar o sujeito do predicado, marcando uma pausa enfática."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Os dois-pontos **não** separam sujeito de predicado — como qualquer sinal, não
+podem cortar a ligação entre termos essenciais da oração. Os dois-pontos servem para
+**anunciar** algo (enumeração, fala, explicação), não para separar sujeito e verbo. Assim
+como a vírgula, seu uso é sintático, e a separação sujeito–predicado é sempre proibida.
+:::
+
+## 📚 Referências
+
+Os empregos do ponto e vírgula, dos dois-pontos e do ponto final seguem Bechara
+[@bechara2009] e Cunha & Cintra [@cunhacintra2017], com atenção aos usos em textos formais
+e legais. A função desses sinais na organização de textos longos é abordada por Koch &
+Elias [@koch2015texto]. Os sinais de isolamento e discurso — aspas, travessão, parênteses,
+reticências — vêm no @sec-cap-59.
+
+::: {#refs}
 :::
