@@ -4,22 +4,670 @@ title: "Escrita acadêmica: resumo, resenha e artigo"
 
 # Escrita acadêmica: resumo, resenha e artigo {#sec-cap-79}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 12 — Redação e Escrita.
+> "Resumir é provar que se entendeu. Resenhar é provar que se pensou. Escrever um artigo é
+> provar que se tem algo a acrescentar."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Este capítulo trata dos gêneros do **domínio acadêmico** — resumo, resenha, artigo — e da
+lógica que os une.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+Essa lógica merece ser enunciada de saída, porque explica a sequência do capítulo: os três
+gêneros formam uma **escala de autonomia**. No **resumo**, você não pode dizer nada de seu:
+apenas condensa o que o outro disse. Na **resenha**, você condensa **e avalia**. No
+**artigo**, você produz conhecimento novo, usando os outros como base.
+
+Não é acidente que a universidade os ensine nessa ordem. Cada um pressupõe o anterior: quem
+não sabe resumir não pode resenhar (porque avaliaria algo que não compreendeu), e quem não
+sabe resenhar não pode escrever artigo (porque não saberia situar sua contribuição no que já
+existe).
+
+A operação que atravessa os três é a **paráfrase** (@sec-cap-73) — e o que separa o texto
+acadêmico competente do plágio é, em larga medida, dominá-la.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** resumo, resenha e artigo pela função e pelo grau de autoria;
+- **Produzir** resumos que preservem a hierarquia das ideias do original;
+- **Redigir** resenhas que combinem síntese e avaliação fundamentada;
+- **Estruturar** um artigo científico segundo o padrão IMRAD;
+- **Empregar** citação e paráfrase segundo as convenções da ABNT;
+- **Reconhecer** a lógica das convenções acadêmicas, e não apenas obedecê-las.
+
+## O resumo
+
+**Resumo** é a condensação de um texto, preservando suas **ideias principais** e a
+**hierarquia** entre elas. Sem avaliação, sem acréscimo, sem comentário.
+
+### O que o resumo exige
+
+- **Fidelidade** — dizer o que o autor disse, não o que você acha que ele deveria ter dito.
+- **Hierarquia** — o que é central no original deve ser central no resumo. Este é o ponto
+  que mais se erra.
+- **Autonomia** — o resumo deve ser compreensível sem o original.
+- **Concisão** — tipicamente 10% a 30% do original.
+- **Impessoalidade** — 3ª pessoa; nada de "eu achei interessante".
+
+::: {.callout-important}
+## Resumir não é cortar
+O erro mais comum: fazer o resumo **eliminando frases** do original e colando as restantes.
+Isso produz um texto mutilado, não um resumo — e frequentemente **inverte a hierarquia**,
+porque as frases que sobreviveram foram escolhidas por acaso, não por importância.
+
+**Resumir é reconstruir**: identificar a tese, os argumentos principais e sua articulação, e
+**reescrever** essa estrutura com suas palavras.
+
+O método é o da paráfrase (@sec-cap-73):
+
+1. **Leia** o texto inteiro, sem anotar. Entenda-o.
+2. **Identifique a tese** e os argumentos que a sustentam.
+3. **Feche o texto.**
+4. **Escreva** a estrutura que você reteve.
+5. **Confira** com o original: a hierarquia está preservada? Falta algo central? Entrou algo
+   que não estava lá?
+
+O passo 3 é o mesmo segredo de sempre: com o original à vista, você copia a sintaxe e
+reproduz a ordem, em vez de reconstruir a lógica.
+:::
+
+### Os tipos
+
+| Tipo | Função | Extensão |
+|---|---|---|
+| **Indicativo** | apenas indica o assunto | muito curto |
+| **Informativo** | apresenta ideias, método, conclusões | 100–250 palavras (padrão de artigo) |
+| **Crítico** (= resenha) | resume **e avalia** | variável |
+
+O **resumo de artigo** (aquele que abre publicações científicas) é **informativo** e segue
+uma estrutura quase fixa: **contexto → objetivo → método → resultados → conclusão**. Em 150
+palavras. É um dos textos mais difíceis de escrever bem, justamente pela compressão.
+
+## A resenha
+
+**Resenha** é resumo **mais** avaliação fundamentada. Os dois movimentos são obrigatórios:
+resenha sem síntese não permite ao leitor saber do que se trata; resenha sem avaliação é
+apenas um resumo com nome pomposo.
+
+### A estrutura
+
+1. **Referência completa** da obra (ABNT).
+2. **Credenciais do autor** — quem é, o que legitima sua fala. Breve.
+3. **Síntese** — do que trata, qual a tese, como se organiza.
+4. **Avaliação** — os pontos fortes e fracos, **com razões**.
+5. **Recomendação** — a quem serve, e por quê.
+
+### A avaliação é a parte difícil
+
+::: {.callout-warning}
+## Opinião não é avaliação
+Compare:
+
+> "O livro é chato e difícil de ler." ✗
+
+> "O livro é de leitura árdua para quem não domina a terminologia da linguística textual —
+> o autor pressupõe, já no primeiro capítulo, a distinção entre coesão e coerência, sem
+> defini-la. A escolha é coerente com o público visado (pós-graduandos), mas limita o
+> alcance da obra, que a introdução anunciava como destinada 'a professores da educação
+> básica'." ✓
+
+A diferença:
+
+1. A primeira é **impressão**; a segunda é **juízo fundamentado**.
+2. A segunda **identifica o critério** (adequação ao público que o próprio livro declarou) —
+   e critica a obra por seus **próprios** termos, não por não ser o livro que o resenhista
+   queria.
+3. A segunda é **falsificável**: alguém pode conferir se o autor define ou não o conceito.
+
+**A regra**: toda avaliação precisa de **critério explícito** e **evidência**. Sem isso, é
+gosto — e o gosto de quem resenha não interessa a ninguém.
+:::
+
+Um critério útil: avalie a obra pelo que ela **se propôs** a fazer. Criticar um manual
+introdutório por não ser exaustivo é criticar um martelo por não cortar.
+
+## O artigo científico
+
+O gênero em que se **produz** conhecimento. A estrutura dominante nas ciências é o **IMRAD**
+(*Introduction, Methods, Results, and Discussion*), com variações nas humanidades.
+
+::: {#fig-imrad}
+
+```{.tikz}
+%%| filename: imrad
+%%| alt: Esquema em duas partes. À esquerda, a escala de autonomia dos três gêneros acadêmicos: resumo, em que a autoria é zero pois apenas se condensa o que o outro disse; resenha, em que há autoria parcial pois se condensa e se avalia; e artigo, em que há autoria plena pois se produz conhecimento novo usando os outros como base. Cada um pressupõe o anterior. À direita, a estrutura IMRAD do artigo científico, em cinco blocos: resumo com contexto, objetivo, método, resultados e conclusão em cerca de 150 palavras; introdução, que situa o problema, revisa a literatura e enuncia a lacuna e o objetivo; método, que descreve como se fez, devendo permitir replicação; resultados, que apresenta o que se achou, sem interpretar; e discussão, que interpreta, confronta com a literatura, admite limitações e conclui. Abaixo, a observação de que a estrutura reflete a lógica da ciência: mostrar o que se fez de modo que outro possa conferir.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=4pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  %% escala de autonomia
+  \node[font=\bfseries\small, text=manualblue] at (-4.4,3.3) {ESCALA DE AUTONOMIA};
+
+  \node[cx, draw=manualblue, fill=manualblue!6, text width=38mm] (r1) at (-4.4,2.3)
+    {\textbf{RESUMO} — autoria \textbf{zero}\\ {\scriptsize condensa o que o outro disse}};
+  \node[cx, draw=manualblue, fill=manualblue!12, text width=38mm] (r2) at (-4.4,1.1)
+    {\textbf{RESENHA} — autoria \textbf{parcial}\\ {\scriptsize condensa \emph{e} avalia}};
+  \node[cx, draw=manualblue, fill=manualblue!20, text width=38mm] (r3) at (-4.4,-0.1)
+    {\textbf{ARTIGO} — autoria \textbf{plena}\\ {\scriptsize produz conhecimento novo}};
+
+  \draw[s] (r1) -- (r2); \draw[s] (r2) -- (r3);
+  \node[font=\scriptsize\itshape, text=manualgray, text width=38mm, align=center] at (-4.4,-1.2)
+    {cada um \textbf{pressupõe} o anterior};
+
+  %% IMRAD
+  \node[font=\bfseries\small, text=manualred] at (2.6,3.3) {ESTRUTURA IMRAD};
+
+  \node[cx, draw=manualgray, fill=manualgray!10, text width=52mm] (i0) at (2.6,2.5)
+    {\textbf{RESUMO} {\scriptsize(\emph{abstract})}\\ {\scriptsize contexto $\rightarrow$ objetivo
+     $\rightarrow$ método $\rightarrow$ resultados $\rightarrow$ conclusão · $\sim$150 palavras}};
+  \node[cx, draw=manualred, fill=manualred!8, text width=52mm] (i1) at (2.6,1.4)
+    {\textbf{I — Introdução}\\ {\scriptsize situa o problema · revisa a literatura ·
+     enuncia a \textbf{lacuna} e o objetivo}};
+  \node[cx, draw=manualyellow, fill=manualyellow!10, text width=52mm] (i2) at (2.6,0.3)
+    {\textbf{M — Método}\\ {\scriptsize como se fez · deve permitir \textbf{replicação}}};
+  \node[cx, draw=manualgreen, fill=manualgreen!10, text width=52mm] (i3) at (2.6,-0.8)
+    {\textbf{R — Resultados}\\ {\scriptsize o que se achou · \textbf{sem} interpretar}};
+  \node[cx, draw=manualblue, fill=manualblue!10, text width=52mm] (i4) at (2.6,-1.9)
+    {\textbf{D — Discussão}\\ {\scriptsize interpreta · confronta com a literatura ·
+     admite \textbf{limitações} · conclui}};
+
+  \draw[s] (i0)--(i1); \draw[s] (i1)--(i2); \draw[s] (i2)--(i3); \draw[s] (i3)--(i4);
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=72mm] at (0.4,-3.2)
+    {A estrutura reflete a \textbf{lógica da ciência}: mostrar o que se fez\\
+     de modo que \textbf{outro possa conferir}.};
+\end{tikzpicture}
+```
+
+À esquerda, a escala de autonomia que organiza os três gêneros; à direita, a estrutura
+IMRAD. Note que a separação entre **Resultados** e **Discussão** não é burocracia: ela
+distingue o que se **observou** do que se **concluiu**.
+:::
+
+### Por que a estrutura é essa
+
+Vale entender a lógica, e não apenas decorar as siglas:
+
+- **Introdução** — situa o problema, revisa o que já se sabe e identifica a **lacuna**. Ela
+  responde: *por que este trabalho precisava existir?*
+- **Método** — descreve o procedimento com detalhe suficiente para **replicação**. Responde:
+  *como você chegou a isso, e como eu poderia conferir?*
+- **Resultados** — apresenta o que se encontrou, **sem interpretar**.
+- **Discussão** — interpreta, confronta com a literatura, **admite limitações** e conclui.
+
+A separação entre **Resultados** e **Discussão** é o coração da coisa: ela permite que o
+leitor **discorde da interpretação sem discordar dos dados**. Se os dois viessem
+misturados, seria impossível separar o que foi observado do que foi inferido — e a ciência
+depende dessa separação.
+
+Do mesmo modo, **admitir limitações** não é modéstia ritual: é informação necessária para
+que outro pesquisador saiba até onde o resultado vale.
+
+## Citação e paráfrase na ABNT
+
+As convenções brasileiras seguem a ABNT (NBR 10520 para citações; NBR 6023 para
+referências).
+
+**Citação direta curta** (até 3 linhas) — entre aspas, no corpo:
+
+> Segundo Marcuschi (2008, p. 155), os gêneros são "artefatos culturais construídos
+> historicamente pelo ser humano".
+
+**Citação direta longa** (mais de 3 linhas) — recuo de 4 cm, corpo menor, **sem aspas**.
+
+**Citação indireta** (paráfrase) — sem aspas, **com** indicação de autoria:
+
+> Para Marcuschi (2008), os gêneros não são categorias naturais: foram criados pelas
+> sociedades ao longo do tempo.
+
+**Sistema autor-data** — o mais usado: (SOBRENOME, ano, p. x).
+
+::: {.callout-tip}
+## Parafraseie por padrão, cite por exceção
+Regra prática que vale para todo trabalho acadêmico:
+
+| Use **citação direta** quando | Use **paráfrase** quando |
+|---|---|
+| a **formulação exata** importa (definição técnica, lei, verso) | o **conteúdo** importa, não as palavras |
+| você vai **analisar** as palavras do autor | você precisa **integrar** a ideia ao seu raciocínio |
+| o trecho é curto e insubstituível | o original é longo ou prolixo |
+
+Um texto cheio de citações diretas sugere que o autor **não digeriu** as fontes — apenas as
+empilhou. A paráfrase demonstra compreensão; a citação, no máximo, demonstra que se
+localizou o trecho.
+
+E lembre: **trocar sinônimos mantendo a sintaxe é plágio**, mesmo citando a fonte
+(@sec-cap-73). Feche o texto antes de escrever.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Duas observações honestas sobre as convenções deste capítulo.
+
+**1. Elas são históricas, não naturais.** As normas de citação e atribuição consolidaram-se
+no século XX e são **específicas do domínio acadêmico** (@sec-cap-73). Na cultura oral, no
+cordel e no meme, recombinar sem citar é a regra e não é falta. Isso não relativiza a
+exigência acadêmica — ali ela é **funcional**: permite verificar, rastrear e discutir, sem o
+que o conhecimento não se acumula. Mas explica por que tantos estudantes plagiam **sem
+intenção de fraudar**: vêm de práticas de linguagem em que recombinar é normal. O
+tratamento adequado é **ensinar a convenção e sua razão**, não presumir má-fé.
+
+**2. A impessoalidade acadêmica é convenção em disputa.** A tradição manda escrever
+"observou-se que" em vez de "eu observei que", como se o conhecimento não tivesse autor. A
+justificativa é a objetividade. A crítica — cada vez mais aceita, inclusive em revistas
+internacionais de primeira linha — é que a impessoalidade **esconde** as escolhas do
+pesquisador (quem decidiu o recorte? quem escolheu o método?) e produz uma falsa aura de
+inevitabilidade. Hoje muitas revistas **aceitam ou preferem** a primeira pessoa,
+especialmente na descrição do método.
+
+**A consequência prática**: siga a norma do seu campo e do seu periódico, mas saiba que se
+trata de **convenção de gênero**, não de garantia de objetividade. Escrever "observou-se"
+não torna a observação mais neutra — apenas apaga quem observou [@marcuschi2008;
+@faraco2008].
+:::
+
+## 📋 Quadro-resumo
+
+**A escala de autonomia:**
+
+| Gênero | Função | Autoria |
+|---|---|---|
+| **Resumo** | condensa o original | **zero** — nada de seu |
+| **Resenha** | condensa **e avalia** | **parcial** — a avaliação é sua |
+| **Artigo** | produz conhecimento novo | **plena** |
+
+**Resumo**: fidelidade · **hierarquia** · autonomia · concisão (10–30%) · impessoalidade.
+Método: leia → identifique a tese → **feche o texto** → escreva → confira.
+
+**Resenha**: referência · credenciais · **síntese** · **avaliação fundamentada** ·
+recomendação. Toda avaliação precisa de **critério explícito** e **evidência**.
+
+**Artigo (IMRAD)**: **I**ntrodução (a lacuna) · **M**étodo (permite replicação) ·
+**R**esultados (sem interpretar) · **D**iscussão (interpreta e admite limitações).
+
+**ABNT**: citação curta (até 3 linhas) entre aspas no corpo · citação longa com recuo de 4
+cm, **sem** aspas · paráfrase sem aspas **com** autoria · sistema autor-data.
+
+Em uma linha: **resumir prova que se entendeu; resenhar prova que se pensou; o artigo prova
+que se tem o que acrescentar** — e a paráfrase é a operação que sustenta os três.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Resumir cortando frases.** Produz texto mutilado e **inverte a hierarquia**. Resumir é
+  **reconstruir**.
+- **Opinar no resumo.** "O texto é interessante" não pertence a um resumo. Isso é resenha.
+- **Resenha sem avaliação.** É resumo com nome pomposo.
+- **Avaliação sem critério.** "Achei chato" é impressão. Avaliação exige critério explícito
+  e evidência.
+- **Criticar a obra por não ser outra.** Avalie-a pelo que **ela se propôs** a fazer.
+- **Misturar Resultados e Discussão.** Impede o leitor de discordar da interpretação sem
+  discordar dos dados.
+- **Achar que "limitações" é modéstia.** É **informação** sobre até onde o resultado vale.
+- **Empilhar citações diretas.** Sugere que você não digeriu as fontes. **Parafraseie por
+  padrão.**
+- **Trocar sinônimos e chamar de paráfrase.** É plágio, mesmo citando (@sec-cap-73).
+- **Achar que "observou-se" garante objetividade.** É **convenção**; ela apaga quem
+  observou, não o viés.
+
+## ✍️ Exercícios
+
+**1.** Distinga resumo, resenha e artigo pela função e pelo grau de autoria.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Os três formam uma **escala de autonomia**:
+
+**Resumo** — **autoria zero**. Você apenas **condensa** o que o outro disse, preservando as
+ideias principais e sua hierarquia. Nada de seu entra: nem avaliação, nem acréscimo, nem
+comentário. Função: permitir que alguém saiba do que trata o original sem lê-lo.
+
+**Resenha** — **autoria parcial**. Você condensa **e avalia**. A síntese é do outro; o
+**juízo** é seu — mas precisa ser fundamentado em critério explícito e evidência. Função:
+orientar a decisão de ler ou não, e situar a obra criticamente.
+
+**Artigo** — **autoria plena**. Você **produz conhecimento novo**, usando os outros como
+base e situando sua contribuição no que já existe. Função: acrescentar algo ao campo.
+
+**A relação entre eles — o ponto do exercício**: cada um **pressupõe** o anterior.
+
+- Quem não sabe **resumir** não pode resenhar: avaliaria algo que não compreendeu.
+- Quem não sabe **resenhar** não pode escrever artigo: não saberia identificar a **lacuna**
+  na literatura que seu trabalho vem preencher.
+
+Não é acidente que a universidade os ensine nessa ordem. E a operação que atravessa os três
+é a **paráfrase** (@sec-cap-73).
+:::
+
+**2.** Explique por que "resumir não é cortar frases".
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque cortar produz um texto **mutilado**, não um resumo — e, pior, **falseia a
+hierarquia**.
+
+**O mecanismo do erro**: quem resume cortando escolhe frases por critérios acidentais (as
+que parecem importantes isoladamente, as mais curtas, as que estão no início dos
+parágrafos). O resultado é que **uma observação lateral bem formulada** pode sobreviver
+enquanto **a tese central**, diluída em três parágrafos, desaparece. O resumo passa a
+representar mal o original.
+
+**Outros danos**: o texto colado perde a **articulação** (os conectivos ligam frases que
+agora não se seguem), perde a **autonomia** (só faz sentido para quem leu o original) e
+frequentemente configura **plágio**, por reproduzir a sintaxe do autor.
+
+**Resumir é reconstruir**: identificar a tese, os argumentos principais e sua articulação, e
+**reescrever essa estrutura** com suas palavras.
+
+**O método** (o mesmo da paráfrase — @sec-cap-73):
+
+1. Leia o texto inteiro, sem anotar. **Entenda-o.**
+2. Identifique a **tese** e os argumentos que a sustentam.
+3. **Feche o texto.**
+4. Escreva a estrutura que você reteve.
+5. Confira: a hierarquia está preservada? Falta algo central? Entrou algo que não estava lá?
+
+O passo 3 é decisivo: com o original à vista, você inevitavelmente segue sua ordem e sua
+sintaxe — que é exatamente o que produz o resumo-colagem.
+:::
+
+**3.** Avalie: "O livro é chato e difícil de ler." Transforme numa avaliação de resenha.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Diagnóstico**: é **impressão**, não avaliação. Falha em três aspectos:
+
+1. **Sem critério** — chato para quem? Difícil segundo que parâmetro?
+2. **Sem evidência** — nada no texto sustenta o juízo.
+3. **Não falsificável** — ninguém pode conferir, discordar ou verificar.
+
+Além disso, "chato" diz mais sobre o resenhista do que sobre o livro — e o gosto de quem
+resenha não interessa a ninguém.
+
+**Transformação:**
+
+> "A obra é de leitura árdua para quem não domina a terminologia da linguística textual: já
+> no primeiro capítulo, o autor pressupõe a distinção entre coesão e coerência sem defini-la,
+> e o mesmo ocorre com 'metarregras' e 'progressão referencial'. A escolha seria coerente
+> se o público fossem pós-graduandos — mas a própria introdução declara destinar-se 'a
+> professores da educação básica', o que torna a densidade terminológica um obstáculo ao
+> objetivo que a obra se propôs."
+
+**O que a versão nova tem:**
+
+1. **Critério explícito**: adequação ao público que **o próprio livro declarou** visar.
+2. **Evidência**: os conceitos específicos usados sem definição, e a citação da introdução.
+3. **Falsificabilidade**: qualquer leitor pode abrir o livro e conferir.
+4. **Justiça**: avalia a obra por **seus próprios termos**, não por não ser o livro que o
+   resenhista queria.
+
+**O princípio geral**: avalie a obra pelo que ela **se propôs** a fazer. Criticar um manual
+introdutório por não ser exaustivo é criticar um martelo por não cortar.
+:::
+
+**4.** (Estilo Cebraspe — Certo/Errado) Julgue: "O resumo deve conter a avaliação crítica do
+resenhista."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** O **resumo** não avalia: ele **condensa**, com autoria zero. Fidelidade,
+hierarquia, autonomia, concisão e **impessoalidade** — nada de "o texto é interessante", "o
+autor acerta ao dizer".
+
+Quem avalia é a **resenha** (também chamada de **resumo crítico**), que soma dois
+movimentos: **síntese** + **avaliação fundamentada**.
+
+**O erro do enunciado** é duplo: (i) atribui ao resumo uma função que é da resenha; (ii) fala
+em "resenhista" a propósito de um resumo, o que mistura os papéis.
+
+**A ressalva terminológica** que a questão explora: alguns autores classificam o resumo em
+**indicativo**, **informativo** e **crítico** — e chamam o último de resenha. Nessa
+nomenclatura, existiria um "resumo crítico" que avalia. Mas isso **não** valida o
+enunciado: ele afirma que o resumo **deve** conter avaliação, e o resumo por excelência
+(o informativo, que abre artigos científicos) **não deve** — ele apresenta contexto,
+objetivo, método, resultados e conclusão, sem juízo.
+:::
+
+**5.** Explique a estrutura IMRAD e a lógica de cada parte.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**IMRAD** = **I**ntrodução, **M**étodo, **R**esultados **a**nd **D**iscussão.
+
+**I — Introdução.** Situa o problema, revisa o que já se sabe e identifica a **lacuna**.
+> *Responde*: por que este trabalho precisava existir?
+
+Sem a lacuna, o artigo não se justifica — daí a revisão de literatura não ser ritual: ela
+**demonstra** que o que se vai fazer ainda não foi feito.
+
+**M — Método.** Descreve o procedimento com detalhe suficiente para **replicação**.
+> *Responde*: como você chegou a isso, e como eu poderia conferir?
+
+A replicabilidade é o que separa ciência de opinião fundamentada. Um método que não permite
+conferência não permite crítica.
+
+**R — Resultados.** Apresenta o que se encontrou, **sem interpretar**.
+> *Responde*: o que apareceu?
+
+**D — Discussão.** Interpreta, confronta com a literatura, **admite limitações** e conclui.
+> *Responde*: o que isso significa, e até onde vale?
+
+**A lógica de fundo** — e é o que o exercício pede:
+
+1. **A separação R/D é o coração da estrutura.** Ela permite ao leitor **discordar da
+   interpretação sem discordar dos dados**. Se viessem misturados, seria impossível separar
+   o observado do inferido — e toda a discussão científica depende dessa distinção.
+2. **Admitir limitações não é modéstia ritual**: é informação **necessária** para que outro
+   pesquisador saiba até onde o resultado se estende. Omiti-las não fortalece o artigo;
+   engana o leitor.
+3. **A estrutura inteira reflete a lógica da ciência**: mostrar o que se fez de modo que
+   **outro possa conferir**. Cada seção existe para tornar o trabalho **auditável**.
+
+**Nota**: o IMRAD domina nas ciências naturais e sociais empíricas. Nas humanidades, a
+estrutura é mais livre — mas as funções (situar, fundamentar, mostrar, interpretar)
+permanecem.
+:::
+
+**6.** Distinga citação direta de citação indireta, com exemplos em ABNT.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Citação direta** — reprodução **literal** das palavras do autor.
+
+*Curta* (até 3 linhas): entre **aspas**, no corpo do texto:
+
+> Segundo Marcuschi (2008, p. 155), os gêneros são "artefatos culturais construídos
+> historicamente pelo ser humano".
+
+*Longa* (mais de 3 linhas): **recuo de 4 cm**, corpo menor (10), espaçamento simples, **sem
+aspas**:
+
+> Os gêneros textuais são fenômenos históricos, profundamente vinculados à vida cultural e
+> social. Fruto de trabalho coletivo, os gêneros contribuem para ordenar e estabilizar as
+> atividades comunicativas do dia a dia. (MARCUSCHI, 2008, p. 155)
+
+**Citação indireta** (paráfrase) — reprodução da **ideia** com **suas** palavras, **sem
+aspas**, mas **com** indicação de autoria:
+
+> Para Marcuschi (2008), os gêneros não são categorias naturais nem universais: foram
+> criados pelas sociedades ao longo do tempo, em resposta a necessidades concretas de
+> comunicação.
+
+**Os dois erros fatais** (@sec-cap-73):
+
+1. **Citação direta sem aspas** → **plágio**, mesmo com a fonte indicada. Se as palavras são
+   do autor, precisam de aspas.
+2. **Paráfrase sem indicação de autoria** → **plágio de ideia**. As palavras são suas, o
+   pensamento não.
+
+**A regra prática**: para as **palavras**, use aspas; para a **ideia**, use atribuição; e
+faça as duas coisas sempre que qualquer uma das duas não for sua.
+:::
+
+**7.** Explique por que "parafraseie por padrão, cite por exceção".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Porque a paráfrase demonstra compreensão e a citação, no máximo, demonstra localização.**
+
+**O argumento:**
+
+1. **A paráfrase prova que você entendeu.** Só consegue reconstruir uma ideia com estrutura
+   própria quem a compreendeu — quem não entendeu só pode repetir as palavras do autor
+   (@sec-cap-73). A paráfrase é, por isso, um **teste de compreensão**, e o leitor
+   experiente percebe isso.
+2. **A citação empilhada sugere indigestão.** Um texto costurado com citações diretas
+   sinaliza que o autor **coletou** trechos sem processá-los. O trabalho intelectual —
+   selecionar, relacionar, integrar — não foi feito; foi terceirizado ao leitor.
+3. **A paráfrase integra; a citação interrompe.** A voz do outro, literal, quebra o fluxo do
+   seu raciocínio. A paráfrase permite que a ideia alheia **entre no seu texto** e trabalhe
+   a favor do seu argumento.
+
+**As exceções legítimas** — quando citar diretamente:
+
+| Situação | Razão |
+|---|---|
+| a **formulação exata** importa | definição técnica, dispositivo legal, verso |
+| você vai **analisar as palavras** | se o objeto é o texto, ele precisa estar ali |
+| o trecho é curto e **insubstituível** | há formulações que não se melhoram |
+| a **autoridade da voz** reforça | citar literalmente quem tem peso no campo |
+
+**A proporção saudável** num trabalho acadêmico: a esmagadora maioria das referências em
+paráfrase, com citações diretas reservadas aos momentos em que a letra importa.
+
+**O cuidado que permanece**: parafrasear **não** dispensa a atribuição, e trocar sinônimos
+mantendo a sintaxe **é plágio**, mesmo citando a fonte. Feche o texto antes de escrever.
+:::
+
+**8.** (Estilo FCC) Assinale a alternativa **correta** sobre a resenha:
+
+a) deve limitar-se a resumir a obra;
+b) deve expressar a opinião pessoal do resenhista, sem necessidade de justificativa;
+c) combina síntese da obra e avaliação fundamentada em critérios explícitos;
+d) dispensa a referência bibliográfica completa;
+e) é sinônimo de resumo informativo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** A resenha exige **dois** movimentos, ambos obrigatórios: **síntese**
+(do que trata, qual a tese, como se organiza) e **avaliação fundamentada** (com critério
+explícito e evidência).
+
+As demais:
+
+- **(a)** ✗ — resenha que só resume é **resumo com nome pomposo**. Falta o juízo.
+- **(b)** ✗ — inverte o problema: opinião **sem justificativa** é impressão, não avaliação.
+  "Achei chato" não é resenha. Toda avaliação precisa de critério e evidência.
+- **(d)** ✗ — a **referência completa** da obra (ABNT) é a primeira parte da resenha. Sem
+  ela, o leitor não sabe do que se fala.
+- **(e)** ✗ — o **resumo informativo** apresenta ideias, método e conclusões **sem avaliar**;
+  a resenha avalia. (Alguns autores chamam a resenha de "resumo **crítico**" — mas nunca de
+  informativo.)
+
+**A estrutura completa da resenha**: referência · credenciais do autor · síntese ·
+**avaliação fundamentada** · recomendação.
+:::
+
+**9.** (Estilo FUVEST) Discuta a impessoalidade acadêmica: "observou-se que" garante
+objetividade?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Não. E confundir as duas coisas é um erro conceitual com consequências reais.**
+
+**A justificativa tradicional**: escrever "observou-se que" em vez de "eu observei que"
+deslocaria o foco do pesquisador para o fenômeno, sinalizando que os resultados independem
+de quem os produziu. O conhecimento seria da ciência, não do cientista.
+
+**Por que a justificativa não se sustenta:**
+
+1. **A voz passiva não elimina o agente — ela o esconde.** "Observou-se que X" e "eu observei
+   que X" descrevem **exatamente o mesmo evento**, com o mesmo grau de subjetividade. A
+   única diferença é que a primeira **apaga** quem observou. Isso não é objetividade: é
+   ocultação de informação.
+2. **As escolhas continuam lá, invisíveis.** Alguém decidiu o recorte, escolheu o método,
+   selecionou a amostra, definiu o que contava como resultado. A impessoalidade não anula
+   nenhuma dessas decisões — apenas as torna **não rastreáveis**, o que é o oposto do que a
+   ciência precisa.
+3. **Produz falsa aura de inevitabilidade.** "Os dados mostram" sugere que os dados falam
+   sozinhos. Não falam: alguém os interpretou (@sec-cap-76). A construção impessoal empresta
+   à interpretação a autoridade do fato.
+4. **A objetividade real vem de outro lugar**: de método explícito, dados disponíveis,
+   replicabilidade e revisão por pares. Nenhum desses depende da pessoa gramatical.
+
+**O que há de legítimo na convenção**: ela sinaliza o **gênero** e mantém o foco no objeto —
+um artigo cheio de "eu senti", "me pareceu" seria mau texto acadêmico. E há trechos em que a
+impessoalidade é natural, porque o agente é de fato irrelevante.
+
+**A tendência atual**: muitas revistas internacionais de primeira linha **aceitam ou
+preferem** a primeira pessoa, especialmente na descrição do método ("**escolhemos** a
+amostra por conveniência") — justamente porque isso **explicita as decisões** em vez de
+naturalizá-las. A Nature e a Science admitem "we" há décadas.
+
+**A conclusão**: siga a norma do seu campo e do seu periódico, mas saiba que se trata de
+**convenção de gênero** (@sec-cap-72), não de garantia epistemológica. Escrever "observou-se"
+não torna a observação mais neutra — apenas apaga quem observou. E o leitor crítico sabe que
+há sempre alguém ali.
+:::
+
+**10.** Produza o resumo informativo (150 palavras) de um artigo hipotético sobre evasão
+escolar.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível:
+
+> **Resumo** — A evasão escolar no ensino médio brasileiro é frequentemente atribuída ao
+> desinteresse dos estudantes. Este artigo investiga em que medida essa explicação se
+> sustenta, analisando os motivos declarados de abandono por 1.200 jovens de 15 a 19 anos em
+> três capitais do Nordeste, entre 2023 e 2025. Aplicaram-se questionários estruturados e
+> realizaram-se 60 entrevistas em profundidade, complementados pelo cruzamento com dados de
+> renda familiar do CadÚnico. Os resultados indicam que 41% dos participantes apontaram a
+> necessidade de trabalhar como motivo principal, contra 12% que mencionaram desinteresse;
+> entre os jovens do quintil de menor renda, a proporção do motivo econômico chegou a 58%.
+> Conclui-se que a evasão responde predominantemente a determinantes econômicos, e não
+> motivacionais, o que sugere que políticas centradas em engajamento pedagógico tendem a ter
+> efeito limitado sem transferência de renda associada. Limita o estudo sua restrição a
+> capitais nordestinas.
+>
+> **Palavras-chave**: evasão escolar; ensino médio; desigualdade; políticas educacionais.
+
+**Verificação da estrutura** (contexto → objetivo → método → resultados → conclusão):
+
+| Elemento | Trecho |
+|---|---|
+| **Contexto** | "frequentemente atribuída ao desinteresse" — situa e já aponta a lacuna |
+| **Objetivo** | "investiga em que medida essa explicação se sustenta" |
+| **Método** | 1.200 jovens, 3 capitais, questionários + 60 entrevistas + CadÚnico |
+| **Resultados** | 41% × 12%; 58% no quintil inferior — **números**, sem interpretar |
+| **Conclusão** | determinantes econômicos, não motivacionais + implicação política |
+| **Limitação** | restrição a capitais nordestinas |
+
+**Observações:**
+
+- **~155 palavras** — dentro do padrão (100–250).
+- **Impessoal**: "aplicaram-se", "conclui-se" — convenção do gênero (com a ressalva do
+  exercício 9).
+- **Resultados com números**: um resumo que dissesse "os resultados foram significativos"
+  não informaria nada. O resumo informativo **entrega os achados**.
+- **A limitação está lá**: não é modéstia — informa até onde o resultado vale.
+- **Autonomia**: compreende-se sem ler o artigo.
+:::
+
+## 📚 Referências
+
+As convenções de citação e referenciação seguem as normas da ABNT — NBR 10520 (citações) e
+NBR 6023 (referências) —, que devem ser consultadas na versão vigente, bem como as normas
+específicas de cada instituição e periódico, que frequentemente as adaptam. A concepção dos
+gêneros acadêmicos como práticas sócio-históricas, e não como formatos naturais, segue
+Marcuschi [@marcuschi2008] e o @sec-cap-72; a discussão da paráfrase, do plágio e do caráter
+histórico das convenções de atribuição foi desenvolvida no @sec-cap-73. Para a estrutura
+argumentativa que sustenta o artigo, veja o @sec-cap-75; para os tipos de argumento e o uso
+de evidência, o @sec-cap-76; para a redação técnica e a defesa da linguagem clara, o
+@sec-cap-78, com Faraco [@faraco2008] e Garcia [@garcia2010]. O próximo capítulo — último do
+Volume 12 — trata da **revisão e reescrita**, a etapa que todos os gêneros deste volume
+pressupõem e que quase ninguém pratica.
+
+::: {#refs}
 :::
