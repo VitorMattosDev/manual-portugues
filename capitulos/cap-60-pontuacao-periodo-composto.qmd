@@ -4,22 +4,495 @@ title: "Pontuação no período composto e em textos reais"
 
 # Pontuação no período composto e em textos reais {#sec-cap-60}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 9 — Pontuação e Convenções.
+> "A vírgula é o sinal que mais se ensina por decoreba e menos se entende por análise."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Os três capítulos anteriores apresentaram os sinais um a um: os fundamentos
+(@sec-cap-56), a vírgula (@sec-cap-57), o ponto e vírgula e os dois-pontos
+(@sec-cap-58), as aspas e o travessão (@sec-cap-59). Falta agora o movimento que
+realmente decide a nota na prova e a clareza no texto: **pontuar o período composto**,
+isto é, saber onde entra — e onde *não* entra — a vírgula quando há mais de uma oração.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A tese deste capítulo é simples e vale a pena enunciá-la desde já: **não existe regra de
+pontuação sem análise sintática**. Quem tenta pontuar "de ouvido", pela pausa da fala,
+erra sistematicamente os casos que as bancas cobram — porque justamente nesses casos a
+pausa e a sintaxe divergem. Quem sabe reconhecer uma oração subordinada substantiva
+objetiva direta, ao contrário, resolve a questão em segundos, sem hesitar. Este é o
+capítulo em que o Volume 7 (@sec-cap-43 a @sec-cap-48) e o Volume 9 se encontram.
+
+Fechamos o volume aplicando tudo isso a **textos reais**, onde a pontuação deixa de ser
+exercício e passa a ser o que sempre foi: um instrumento de sentido.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Pontuar** o período composto por coordenação, incluindo os casos do *e*;
+- **Aplicar** a regra que proíbe a vírgula antes das orações substantivas;
+- **Distinguir** a adjetiva restritiva da explicativa e pontuar cada uma;
+- **Decidir** a vírgula nas adverbiais conforme a posição da oração;
+- **Analisar** a pontuação de textos autênticos e o efeito de sentido de cada escolha;
+- **Diagnosticar** os erros de pontuação mais recorrentes em redação.
+
+## O princípio que organiza tudo
+
+Antes das regras específicas, retome a **regra de ouro** do @sec-cap-56: *não se separam
+com vírgula os termos que se ligam sintaticamente*. Sujeito não se separa do predicado;
+verbo não se separa do seu complemento; nome não se separa do seu complemento.
+
+O período composto apenas transporta essa regra para outro nível. Se uma **oração**
+funciona como sujeito ou como objeto de outra, ela é um **termo essencial** dessa outra —
+e, portanto, **não se separa por vírgula**. Se a oração é apenas um **acessório**
+(explicação, circunstância), ela pode — ou deve — ser isolada.
+
+Toda a matéria cabe nessa frase. O resto é reconhecer, caso a caso, se a oração é
+essencial ou acessória. A @fig-decisao-pontuacao apresenta o percurso de decisão.
+
+::: {#fig-decisao-pontuacao}
+
+```{.tikz}
+%%| filename: decisao-pontuacao
+%%| alt: Fluxograma de decisão para pontuar o período composto. A partir do período composto, dois caminhos. Caminho da coordenação, a vírgula separa as orações, com exceção do e ligando sujeitos iguais, que não leva vírgula. Caminho da subordinação, três ramos. Substantiva, nunca leva vírgula, porque é sujeito ou objeto. Adjetiva, depende, restritiva sem vírgula e explicativa com vírgula. Adverbial, depende da posição, anteposta ou intercalada leva vírgula, posposta é facultativa.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  topo/.style={rounded corners=3pt, draw=manualgray, fill=manualgray!10, align=center, inner sep=5pt, text width=32mm},
+  ramo/.style={rounded corners=3pt, draw, align=center, inner sep=5pt, text width=30mm},
+  folha/.style={rounded corners=2pt, draw, align=center, inner sep=4pt, text width=34mm, font=\scriptsize},
+  seta/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[topo] (p) at (0,0) {\textbf{PERÍODO COMPOSTO}\\{\scriptsize duas ou mais orações}};
+
+  \node[ramo, draw=manualblue, fill=manualblue!8] (co) at (-3.6,-1.7) {\textbf{Coordenação}\\{\scriptsize orações independentes}};
+  \node[ramo, draw=manualred, fill=manualred!8] (su) at (3.0,-1.7) {\textbf{Subordinação}\\{\scriptsize uma depende da outra}};
+
+  \draw[seta] (p) -- (co);
+  \draw[seta] (p) -- (su);
+
+  \node[folha, draw=manualblue, fill=manualblue!5] (co1) at (-3.6,-3.5) {\textbf{vírgula separa}\\ ``Cheguei\textbf{,} vi\textbf{,} venci.''\\[2pt] \emph{exceção}: \textbf{e} com sujeitos\\ iguais $\rightarrow$ sem vírgula};
+  \draw[seta] (co) -- (co1);
+
+  \node[folha, draw=manualred, fill=manualred!5] (s1) at (-0.2,-3.9) {\textbf{Substantiva}\\ \textbf{NUNCA} vírgula\\ {\scriptsize é sujeito ou objeto}};
+  \node[folha, draw=manualred, fill=manualred!5] (s2) at (3.0,-3.9) {\textbf{Adjetiva}\\ restritiva: \textbf{sem}\\ explicativa: \textbf{com}};
+  \node[folha, draw=manualred, fill=manualred!5] (s3) at (6.2,-3.9) {\textbf{Adverbial}\\ anteposta: \textbf{com}\\ posposta: facultativa};
+
+  \draw[seta] (su) -- (s1);
+  \draw[seta] (su) -- (s2);
+  \draw[seta] (su) -- (s3);
+\end{tikzpicture}
+```
+
+Percurso de decisão para pontuar o período composto. A pergunta decisiva não é "houve
+pausa?", mas "que **função sintática** esta oração exerce?".
+:::
+
+## Pontuação na coordenação
+
+Orações coordenadas são sintaticamente **independentes**: nenhuma exerce função na outra.
+Por isso, a regra geral é generosa — **separam-se por vírgula**.
+
+### Assindéticas: vírgula obrigatória
+
+Coordenadas **assindéticas** (sem conjunção) separam-se por vírgula:
+
+- "Cheguei**,** vi**,** venci."
+- "O vento uivava**,** a chuva batia nas telhas**,** ninguém dormia."
+
+### Sindéticas: vírgula conforme a conjunção
+
+Diante de conjunção, o quadro se refina:
+
+- **Adversativas** (*mas, porém, contudo, todavia, entretanto, no entanto*) — vírgula
+  **antes**: "Estudou muito**,** mas não passou." Quando deslocadas para o interior da
+  oração, vêm **entre vírgulas**: "Estudou muito; não passou**,** porém**,** por falta de
+  sorte."
+- **Conclusivas** (*logo, portanto, pois* posposto, *por isso*) — vírgula antes:
+  "Chovia**,** portanto ficamos em casa." Intercaladas, entre vírgulas: "Ficamos**,**
+  portanto**,** em casa."
+- **Explicativas** (*pois* anteposto, *que, porque*) — vírgula antes: "Entre**,** que
+  está frio."
+- **Alternativas** (*ou... ou, ora... ora, quer... quer*) — vírgula antes do segundo
+  elemento quando repetidas: "**Ora** ria**, ora** chorava."
+
+### O caso do *e*: a exceção que as bancas amam
+
+A conjunção **aditiva *e*** é a única que, em regra, **dispensa** a vírgula:
+
+- "Estudou **e** passou." (sem vírgula)
+
+Mas há **três situações** em que a vírgula antes do *e* é correta — e é exatamente aí que
+mora a questão de prova:
+
+::: {.callout-important}
+## Quando a vírgula antes do *e* é legítima
+1. **Sujeitos diferentes**: quando o *e* liga orações com sujeitos distintos, a vírgula é
+   recomendada para evitar leitura errada — "O pai saiu**,** e o filho ficou."
+2. **Valor adversativo**: quando o *e* equivale a *mas* — "Estudou muito**,** e não
+   passou." (= mas não passou)
+3. ***E* repetido (polissíndeto)**: recurso enfático — "E ria**,** e chorava**,** e
+   gritava."
+
+Nos três casos, note que a vírgula **não separa termos ligados**: as orações continuam
+independentes. A vírgula apenas marca fronteira ou ênfase.
+:::
+
+## Pontuação na subordinação
+
+Aqui a análise sintática deixa de ser luxo e vira necessidade. Cada tipo de subordinada
+tem um comportamento próprio — e o comportamento decorre, sem exceção, da **função** que
+a oração exerce.
+
+### Substantivas: a proibição
+
+As orações subordinadas **substantivas** (@sec-cap-44) exercem funções de substantivo:
+sujeito, objeto direto, objeto indireto, complemento nominal, predicativo, aposto. Ou
+seja: são **termos essenciais** da oração principal.
+
+Pela regra de ouro, **não se separam por vírgula**:
+
+- "É necessário **que todos colaborem**." (subjetiva — a oração *é o sujeito* de *é
+  necessário*)
+- "Espero **que você venha**." (objetiva direta — *é o objeto* de *espero*)
+- "Ninguém sabia **quem havia chegado**." (objetiva direta)
+- "Tenho certeza **de que ele virá**." (completiva nominal)
+
+Escrever "Espero**,** que você venha" é o mesmo erro que escrever "Espero**,** a sua
+visita": separar o verbo do seu objeto.
+
+::: {.callout-warning}
+## A única exceção: a apositiva
+A substantiva **apositiva** admite dois-pontos ou vírgula, porque o aposto é termo
+acessório: "Só desejo uma coisa**:** que você seja feliz." / "Só desejo uma coisa**,**
+que você seja feliz."
+:::
+
+### Adjetivas: a distinção que muda o sentido
+
+As subordinadas **adjetivas** (@sec-cap-45) dividem-se em duas, e a pontuação é o que as
+separa. Esta é, provavelmente, a distinção mais cobrada de todo o Volume 9.
+
+- **Restritiva** (**sem** vírgula): restringe, delimita, seleciona um subconjunto. É
+  essencial ao sentido.
+- **Explicativa** (**entre** vírgulas): acrescenta informação sobre a totalidade do
+  antecedente. É acessória — pode sair sem alterar a referência.
+
+Compare o par clássico:
+
+> "Os alunos **que estudaram** passaram."
+> (restritiva: **só alguns** estudaram; só esses passaram)
+
+> "Os alunos**, que estudaram,** passaram."
+> (explicativa: **todos** estudaram; **todos** passaram)
+
+A vírgula, aqui, não é enfeite nem pausa: é o que informa ao leitor **quantos alunos
+existem**. Duas vírgulas mudam um fato do mundo.
+
+::: {.callout-tip}
+## Teste prático
+Se a oração puder ser retirada sem que a referência mude, é **explicativa** → vírgulas.
+Se ao retirá-la a frase passar a falar de um conjunto maior do que se pretendia, é
+**restritiva** → sem vírgulas.
+
+Corolário útil: antecedente **único e definido** (nome próprio, "meu único irmão") só
+admite **explicativa** — "Machado de Assis**, que escreveu *Dom Casmurro*,** morreu em
+1908." Não há como restringir Machado de Assis a um subconjunto de Machados.
+:::
+
+### Adverbiais: a posição decide
+
+As subordinadas **adverbiais** (@sec-cap-46) exprimem circunstância — são adjuntos, logo
+acessórias. A regra segue a do adjunto adverbial deslocado (@sec-cap-57):
+
+- **Anteposta** (antes da principal) — vírgula **obrigatória**: "**Quando cheguei,** todos
+  já haviam saído."
+- **Intercalada** — **entre vírgulas**: "Todos**, quando cheguei,** já haviam saído."
+- **Posposta** (depois da principal) — vírgula **facultativa**, em geral dispensada:
+  "Todos já haviam saído **quando cheguei**."
+
+A assimetria tem lógica: a oração anteposta rompe a ordem direta e a vírgula sinaliza ao
+leitor onde a principal começa. Na ordem natural, nada precisa ser sinalizado.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## A posposta com vírgula: quando faz diferença
+Ainda que facultativa, a vírgula na posposta é útil quando a adverbial é longa ou quando
+sua ausência gera ambiguidade — sobretudo com **finais** e **causais**: "Ele não foi
+demitido**,** porque roubou" (não foi demitido; o motivo da não-demissão é outro / ou: a
+causa da demissão não foi o roubo) × "Ele não foi demitido porque roubou" (foi demitido,
+mas por outra razão). A vírgula muda o escopo da negação.
+:::
+
+### Reduzidas: a mesma lógica, sem conectivo
+
+As **reduzidas** (@sec-cap-47) seguem a lógica da classe correspondente, com uma tendência
+maior à vírgula quando antepostas: "**Terminada a prova,** saímos." / "**Ao chegar em
+casa,** liguei a televisão." A ausência de conjunção torna a fronteira menos visível — e a
+vírgula compensa isso.
+
+## Pontuação em textos reais
+
+Fora da prova, a pontuação faz trabalho de sentido. Vale observar três terrenos.
+
+### O texto jornalístico
+
+O lide de notícia acumula informação em período curto, e a pontuação organiza camadas:
+
+> "O ministro**,** que assumiu em janeiro**,** anunciou ontem**,** em Brasília**,** a
+> nova política."
+
+Aqui há uma explicativa entre vírgulas (*que assumiu em janeiro*) e um adjunto adverbial
+intercalado (*em Brasília*), também entre vírgulas. Retire os dois pares e sobra o
+esqueleto: "O ministro anunciou ontem a nova política." Essa é a prova dos nove da
+pontuação — **o que está entre vírgulas deve poder sair**.
+
+### O texto jurídico e a vírgula que custa caro
+
+A ambiguidade que a pontuação resolve não é acadêmica. Considere uma cláusula:
+
+> "Serão demitidos os funcionários**,** que faltarem."
+> (explicativa: **todos** serão demitidos)
+
+> "Serão demitidos os funcionários **que faltarem**."
+> (restritiva: **só os faltosos**)
+
+Uma vírgula separa uma demissão coletiva de uma punição individual. É o mesmo mecanismo
+do par "os alunos que estudaram" — mas com consequências contratuais. Contratos, leis e
+editais vivem disso.
+
+### A redação de vestibular
+
+Em redação, dois padrões de erro concentram a maior parte dos descontos: a **vírgula entre
+sujeito e verbo** — especialmente quando o sujeito é longo ("Todos os alunos que se
+inscreveram no curso preparatório**,** foram aprovados") — e a **vírgula antes de
+substantiva** ("Acredito**,** que a solução é educacional"). Ambos são o mesmo erro
+conceitual: separar o que se liga. O sujeito longo *parece* pedir uma pausa; a sintaxe
+proíbe a vírgula.
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A pontuação é, entre todos os assuntos deste manual, um dos menos sujeitos à variação: é
+uma convenção **da escrita**, não um fato da fala. Não existe "pontuação do português
+brasileiro falado" — o que existe é entoação, que a pontuação apenas às vezes reflete.
+Por isso, aqui, a distância entre norma-padrão e uso não se manifesta como variedade
+linguística legítima (@sec-cap-03), mas como **domínio maior ou menor de uma técnica de
+escrita**. Isso não torna quem pontua mal um falante deficiente; torna-o alguém que ainda
+não automatizou uma convenção — e convenções se aprendem.
+:::
+
+## 📋 Quadro-resumo
+
+| Estrutura | Vírgula? | Exemplo |
+|---|---|---|
+| Coordenada assindética | **sim** | "Cheguei**,** vi**,** venci" |
+| Coordenada com *e* (mesmo sujeito) | **não** | "Estudou **e** passou" |
+| Coordenada com *e* (sujeitos ≠ / = *mas* / repetido) | **sim** | "O pai saiu**,** e o filho ficou" |
+| Coordenada adversativa/conclusiva | **sim** | "Estudou**,** mas não passou" |
+| Subordinada **substantiva** | **nunca** | "Espero **que você venha**" |
+| Substantiva **apositiva** | sim (ou dois-pontos) | "Quero isto**:** que venha" |
+| Adjetiva **restritiva** | **não** | "Os alunos **que estudaram** passaram" |
+| Adjetiva **explicativa** | **sim** (duas) | "Os alunos**, que estudaram,** passaram" |
+| Adverbial **anteposta/intercalada** | **sim** | "**Quando cheguei,** saíram" |
+| Adverbial **posposta** | facultativa | "Saíram **quando cheguei**" |
+
+Em uma linha: **oração essencial (sujeito/objeto) não leva vírgula; oração acessória
+(explicação/circunstância) leva** — e a adjetiva é o caso em que a vírgula, sozinha,
+decide o sentido.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Vírgula antes de oração substantiva.** "Espero**,** que venha" ✗ → "Espero **que
+  venha**" ✓. A oração é o objeto direto; não se separa do verbo.
+- **Vírgula depois de sujeito longo.** "Os alunos que se inscreveram no curso**,** foram
+  aprovados" ✗. O sujeito, por mais extenso que seja, não se separa do predicado.
+- **Adjetiva explicativa com uma vírgula só.** "Machado de Assis**,** que escreveu *Dom
+  Casmurro* morreu em 1908" ✗. Isolar exige **par** de vírgulas — abre e fecha.
+- **Tratar restritiva como explicativa.** Mudar a pontuação muda o fato afirmado, não o
+  estilo. Verifique se o antecedente admite restrição.
+- **"Nunca se usa vírgula antes do *e*".** Falso. São três os casos legítimos (sujeitos
+  diferentes, valor adversativo, polissíndeto).
+- **Pontuar pela pausa da fala.** A pausa e a sintaxe divergem justamente nos casos
+  cobrados. Analise a função, não o fôlego.
+- **Vírgula antes de adverbial posposta tratada como erro.** É **facultativa** — e às
+  vezes necessária para desfazer ambiguidade de escopo.
+
+## ✍️ Exercícios
+
+**1.** Justifique a ausência de vírgula em: "Todos esperavam que o resultado saísse hoje."
+
+::: {.callout-tip collapse="true"}
+## Solução
+A oração "**que o resultado saísse hoje**" é **subordinada substantiva objetiva direta**:
+exerce a função de **objeto direto** do verbo *esperavam* (quem espera, espera *alguma
+coisa*). Como é um **termo essencial** ligado ao verbo, não pode ser dele separada por
+vírgula — pela regra de ouro, não se separam termos que se ligam sintaticamente. Escrever
+"esperavam, que o resultado saísse" seria o mesmo erro que "esperavam, o resultado".
+:::
+
+**2.** Explique a diferença de sentido entre as frases:
+
+a) "Os candidatos que chegaram atrasados foram desclassificados."
+b) "Os candidatos, que chegaram atrasados, foram desclassificados."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Em **(a)**, a adjetiva é **restritiva** (sem vírgulas): ela **delimita** o conjunto —
+**apenas alguns** candidatos chegaram atrasados, e só esses foram desclassificados. Os
+demais, pontuais, seguiram no processo.
+
+Em **(b)**, a adjetiva é **explicativa** (entre vírgulas): ela informa algo sobre a
+**totalidade** — **todos** os candidatos chegaram atrasados e, por isso, **todos** foram
+desclassificados.
+
+O par de vírgulas é o único elemento que distingue as duas leituras. Não se trata de
+estilo: (a) e (b) afirmam fatos diferentes sobre o mundo.
+:::
+
+**3.** (Estilo FCC) Assinale a alternativa corretamente pontuada:
+
+a) Acredito, que a solução virá.
+b) Os alunos que estudaram, passaram.
+c) Quando cheguei, todos já haviam saído.
+d) Estudou muito e, não passou.
+e) Espero, sinceramente que venha.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (c).** "**Quando cheguei,** todos já haviam saído": adverbial temporal
+**anteposta** → vírgula obrigatória. Correta.
+
+As demais: **(a)** vírgula separando o verbo *acredito* de sua objetiva direta ✗;
+**(b)** vírgula única separando o sujeito ("os alunos que estudaram") do predicado
+("passaram") ✗ — a adjetiva é restritiva e não se pontua; **(d)** o *e* aditivo com mesmo
+sujeito não leva vírgula, e a que aparece está ainda deslocada ✗; **(e)** o advérbio
+*sinceramente* está intercalado e exigiria **par** de vírgulas ("Espero, sinceramente,
+que venha"), além de não se poder separar o verbo da objetiva ✗.
+:::
+
+**4.** Pontue e classifique: "Ele não foi promovido porque é competente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Há **duas leituras**, distinguidas pela vírgula:
+
+**Sem vírgula** — "Ele não foi promovido porque é competente": a negação incide **sobre a
+causa**. Ele *foi* promovido, mas não por competência (por apadrinhamento, digamos).
+
+**Com vírgula** — "Ele não foi promovido**,** porque é competente": a negação incide
+**sobre o verbo**, e a causal explica a não-promoção. Ele *não* foi promovido, e a causa
+disso é, ironicamente, sua competência.
+
+A oração é **subordinada adverbial causal posposta**, com vírgula **facultativa** — mas,
+como o exemplo mostra, a facultatividade é só formal: a vírgula altera o **escopo da
+negação** e, com ele, o sentido.
+:::
+
+**5.** Justifique a vírgula antes do *e*: "O juiz encerrou a sessão, e os advogados se
+retiraram."
+
+::: {.callout-tip collapse="true"}
+## Solução
+A vírgula é legítima porque as duas orações coordenadas têm **sujeitos diferentes**: *o
+juiz* na primeira, *os advogados* na segunda. Nesse caso, a vírgula antes do *e* aditivo
+é recomendada para marcar a fronteira entre as orações e evitar que o leitor tente ler "o
+juiz encerrou a sessão e os advogados" como uma enumeração de objetos ("encerrou a sessão
+e [encerrou] os advogados").
+
+É um dos **três casos** que autorizam a vírgula antes do *e* — ao lado do *e* com valor
+adversativo ("Estudou, e não passou") e do polissíndeto ("E ria, e chorava").
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Em 'Meu único irmão, que mora em
+Lisboa, virá me visitar', as vírgulas poderiam ser suprimidas sem prejuízo do sentido."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** O antecedente "**meu único irmão**" é **único e definido** — por definição,
+não há um conjunto de irmãos do qual selecionar um subconjunto. Logo, a adjetiva só pode
+ser **explicativa**, e as vírgulas são **obrigatórias**.
+
+Suprimi-las transformaria a oração em **restritiva**, gerando a leitura absurda de que
+existiriam vários irmãos únicos e se estaria especificando o que mora em Lisboa. A
+supressão altera — e, no caso, contradiz — o sentido.
+:::
+
+**7.** Reescreva com a adverbial anteposta e ajuste a pontuação: "Todos aplaudiram assim
+que ele terminou o discurso."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"**Assim que ele terminou o discurso,** todos aplaudiram."
+
+Na ordem original, a adverbial temporal está **posposta** e a vírgula é **facultativa**
+(em geral dispensada). Ao antepô-la, a vírgula torna-se **obrigatória**: a oração
+deslocada rompe a ordem direta, e a vírgula sinaliza ao leitor onde termina a
+circunstância e onde começa a oração principal.
+:::
+
+**8.** Corrija e justifique: "É importante, que os cidadãos, que pagam impostos fiscalizem
+o governo."
+
+::: {.callout-tip collapse="true"}
+## Solução
+"É importante **que os cidadãos que pagam impostos fiscalizem** o governo."
+
+Dois erros:
+
+1. **"É importante, que..."** ✗ → a oração "que os cidadãos... fiscalizem o governo" é
+   **substantiva subjetiva** (é o **sujeito** de *é importante*). Sujeito não se separa do
+   predicado. Retire a vírgula.
+2. **"os cidadãos, que pagam impostos fiscalizem"** ✗ → a adjetiva está com **uma vírgula
+   só**, o que separa o sujeito ("os cidadãos") do verbo ("fiscalizem"). Como a intenção
+   é restringir (apenas os cidadãos que pagam impostos), a adjetiva é **restritiva** e não
+   leva vírgula alguma. Se a intenção fosse explicativa, seria preciso **fechar** o par:
+   "os cidadãos, que pagam impostos, fiscalizem".
+:::
+
+**9.** (Estilo FUVEST) Considere: "Serão indenizados os moradores, que perderam suas
+casas." Um advogado da construtora contesta a pontuação. Explique o que está em jogo.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Com a vírgula, a adjetiva é **explicativa**: entende-se que **todos** os moradores
+perderam suas casas e, portanto, **todos** serão indenizados. A cláusula obriga a
+construtora a indenizar a totalidade.
+
+Sem a vírgula — "Serão indenizados os moradores **que perderam suas casas**" — a adjetiva
+seria **restritiva**: apenas o **subconjunto** dos que efetivamente perderam suas casas
+teria direito à indenização.
+
+O advogado contesta porque a vírgula amplia o universo de beneficiários: ela transforma
+uma indenização seletiva em coletiva. É o caso clássico da pontuação como fato jurídico —
+um único sinal define o alcance de uma obrigação contratual.
+:::
+
+**10.** Analise a pontuação do período e explique o papel de cada sinal: "O relatório, que
+levou meses para ficar pronto, foi entregue ontem; a comissão, porém, não o leu."
+
+::: {.callout-tip collapse="true"}
+## Solução
+- **"O relatório, que levou meses para ficar pronto, foi entregue ontem"** — o **par de
+  vírgulas** isola uma adjetiva **explicativa** (o antecedente é definido e único; a
+  oração acrescenta informação, não restringe). Retirada a oração, resta o esqueleto: "O
+  relatório foi entregue ontem".
+- **";"** — o **ponto e vírgula** (@sec-cap-58) separa duas orações coordenadas
+  **assindéticas** que já contêm vírgulas internas. Marca uma pausa mais forte que a
+  vírgula, hierarquizando os níveis de separação e evitando o acúmulo confuso de vírgulas.
+- **"a comissão, porém, não o leu"** — o **par de vírgulas** isola a conjunção
+  **adversativa deslocada** (*porém*), que migrou do início da oração para o interior.
+  Deslocada, exige isolamento por vírgulas.
+
+Note a hierarquia: vírgulas para os isolamentos internos, ponto e vírgula para a fronteira
+maior entre as orações.
+:::
+
+## 📚 Referências
+
+As regras de pontuação do período composto seguem Bechara [@bechara2009] e Cunha & Cintra
+[@cunhacintra2017]; a análise das orações subordinadas que fundamenta cada decisão de
+pontuação foi desenvolvida no Volume 7 (@sec-cap-43 a @sec-cap-48), com base também em
+Perini [@perini2010] e Castilho [@castilho2010]. A discussão da pontuação como recurso de
+**sentido** no texto — e não como mero espelho da pausa — apoia-se em Koch
+[@koch2018coesao] e Marcuschi [@marcuschi2008], que tratam da escrita como modalidade com
+convenções próprias, e não como transcrição da fala. Com este capítulo encerra-se o
+Volume 9; o Volume 10 trata do significado, da semântica e das figuras de linguagem.
+
+::: {#refs}
 :::
