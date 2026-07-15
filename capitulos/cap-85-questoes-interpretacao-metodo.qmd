@@ -4,22 +4,664 @@ title: "Questões de interpretação: método de resolução"
 
 # Questões de interpretação: método de resolução {#sec-cap-85}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 13 — Interpretação de Textos.
+> "A alternativa errada de uma boa questão não é absurda. É verdadeira — só que sobre outra
+> coisa."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Fechamos o Volume 13 convertendo tudo o que ele apresentou num **método**: como resolver
+questões de interpretação de texto.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+E convém enfrentar de saída a objeção óbvia. Ensinar "método de prova" parece treinar
+macaquinho: decorar truques em vez de compreender. Seria assim, se os truques fossem
+arbitrários — mas não são. As questões de interpretação bem construídas testam exatamente as
+competências deste volume: distinguir o que o texto **diz** do que o leitor **supôs**
+(@sec-cap-82), reconhecer implícitos (@sec-cap-64), perceber ironia (@sec-cap-83), articular
+modos (@sec-cap-84).
+
+O método, portanto, não substitui a competência — ele a **operacionaliza** sob restrição de
+tempo. E tem um efeito colateral valioso: quem entende **por que** as alternativas erradas
+são erradas entende melhor como se lê.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Aplicar** um método de resolução em etapas, do comando à alternativa;
+- **Interpretar** o comando corretamente, distinguindo o que cada verbo pede;
+- **Reconhecer** os padrões de alternativa errada;
+- **Justificar** a resposta com **evidência textual**, e não com impressão;
+- **Distinguir** o que o texto autoriza do que você acrescentou;
+- **Evitar** as armadilhas mais frequentes, sobretudo a extrapolação plausível.
+
+## O método
+
+::: {#fig-metodo}
+
+```{.tikz}
+%%| filename: metodo-questoes
+%%| alt: Fluxograma do método de resolução de questões de interpretação em seis etapas. Etapa 1: leia o comando primeiro, pois ele define o que procurar no texto. Etapa 2: identifique o que o comando pede, observando o verbo, que pode ser inferir, depreender, afirmar segundo o texto, ou identificar a função. Etapa 3: leia o texto com o comando em mente, procurando ativamente. Etapa 4: formule sua resposta antes de olhar as alternativas, para não ser contaminado por elas. Etapa 5: confronte as alternativas, eliminando por evidência e não por impressão. Etapa 6: valide a escolhida, exigindo apontar o trecho que a sustenta. À direita, a regra de ouro: se você não consegue apontar o trecho com o dedo, a alternativa está errada, ainda que pareça razoável.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=left, inner sep=5pt, font=\scriptsize, text width=56mm},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray, very thick},
+]
+  \node[cx, draw=manualblue, fill=manualblue!12] (e1) at (-2.4,2.8)
+    {\textbf{1. Leia o COMANDO primeiro}\\
+     {\scriptsize ele define \emph{o que procurar} — ler o texto antes é ler sem objetivo}};
+  \node[cx, draw=manualblue, fill=manualblue!8] (e2) at (-2.4,1.7)
+    {\textbf{2. Identifique o que ele pede}\\
+     {\scriptsize o \textbf{verbo} decide: \emph{inferir} · \emph{segundo o texto} ·
+      \emph{função} · \emph{tese}}};
+  \node[cx, draw=manualgreen, fill=manualgreen!10] (e3) at (-2.4,0.6)
+    {\textbf{3. Leia o TEXTO com o comando em mente}\\
+     {\scriptsize leitura \textbf{ativa}: procure, não passeie}};
+  \node[cx, draw=manualyellow, fill=manualyellow!12] (e4) at (-2.4,-0.5)
+    {\textbf{4. Formule SUA resposta}\\
+     {\scriptsize \emph{antes} de olhar as alternativas — senão elas te contaminam}};
+  \node[cx, draw=manualred, fill=manualred!10] (e5) at (-2.4,-1.6)
+    {\textbf{5. Confronte as alternativas}\\
+     {\scriptsize elimine por \textbf{evidência}, não por impressão}};
+  \node[cx, draw=manualgray, fill=manualgray!12] (e6) at (-2.4,-2.7)
+    {\textbf{6. Valide a escolhida}\\
+     {\scriptsize \textbf{aponte o trecho} que a sustenta}};
+
+  \draw[s] (e1)--(e2); \draw[s] (e2)--(e3); \draw[s] (e3)--(e4);
+  \draw[s] (e4)--(e5); \draw[s] (e5)--(e6);
+
+  \node[rounded corners=3pt, draw=manualred, fill=manualred!8, align=left,
+        font=\scriptsize, inner sep=5pt, text width=42mm] at (4.8,0.0)
+    {\textbf{A REGRA DE OURO}\\[5pt]
+     Se você \textbf{não consegue apontar o trecho com o dedo},\\
+     a alternativa está \textbf{errada} —\\
+     ainda que pareça \emph{razoável}.\\[5pt]
+     {\scriptsize A alternativa errada de uma boa questão \textbf{não é absurda}:
+      é \textbf{plausível}.}};
+\end{tikzpicture}
+```
+
+O método em seis etapas. A ordem não é arbitrária: ler o comando antes do texto transforma
+leitura passiva em **busca**, e formular a resposta antes de ver as alternativas impede que
+elas contaminem seu raciocínio.
+:::
+
+### 1. Leia o comando primeiro
+
+Contraintuitivo e decisivo. O comando define **o que procurar** — sem ele, você lê sem
+objetivo (@sec-cap-81: "se você não sabe o que procura, não sabe quando achou").
+
+### 2. Identifique o que o comando pede
+
+O **verbo** do comando muda tudo:
+
+| Comando | O que pede | Cuidado |
+|---|---|---|
+| "**Segundo o texto**..." | o que está **explícito** | não infira — localize |
+| "**Infere-se** / **depreende-se**" | inferência **autorizada** | precisa de pista, mas não está literal |
+| "O texto **sugere**" | subentendido | cancelável (@sec-cap-82) |
+| "A **função** de X é" | papel no texto | não é o significado — é o **para quê** |
+| "O autor **defende**" | a tese | não confunda com o que ele **cita** |
+| "**Assinale a incorreta**" | a **falsa** | leia duas vezes: a negação derruba muita gente |
+
+### 3. Leia o texto com o comando em mente
+
+Leitura **ativa** — você está procurando, não passeando.
+
+### 4. Formule sua resposta **antes** das alternativas
+
+Este é o passo que quase todo mundo pula, e o mais valioso.
+
+::: {.callout-important}
+## Por que formular antes
+Alternativas são **projetadas** para parecerem plausíveis. Se você as lê antes de ter uma
+resposta própria, você não **avalia** — você **escolhe entre** as que te ofereceram, e a mais
+bem-escrita ganha.
+
+Com uma resposta formulada, você **compara**: procura a alternativa que corresponde ao que
+você já concluiu. As demais perdem o poder de sugestão.
+
+É a diferença entre **reconhecer** e **ser convencido**.
+:::
+
+### 5. Confronte as alternativas — eliminando por evidência
+
+Para cada uma, pergunte: **onde está isso no texto?**
+
+### 6. Valide: aponte o trecho
+
+::: {.callout-tip}
+## A regra de ouro
+**Se você não consegue apontar o trecho com o dedo, a alternativa está errada** — por mais
+razoável que pareça.
+
+"Mas é óbvio que..." é o som da **extrapolação** (@sec-cap-82). A alternativa correta sempre
+tem **endereço** no texto.
+:::
+
+## Os padrões de alternativa errada
+
+Conhecer os padrões acelera a eliminação. São seis, e o primeiro é o mais perigoso.
+
+::: {.callout-warning}
+## Os seis padrões
+**1. Extrapolação plausível** — *a mais perigosa*. Vai além do texto, mas parece decorrer.
+> Texto: "O deputado votou contra o projeto de saneamento."
+> Alternativa: "O deputado é contra o saneamento." ✗
+> — Pode ter votado contra **aquele** projeto por custo, redação ou oportunidade.
+
+**2. Verdadeira no mundo, ausente no texto** — a afirmação é **correta**, e não é isso que se
+pergunta.
+> Alternativa: "A desigualdade brasileira é histórica." — Verdade. Mas o texto disse isso?
+
+**3. Inversão sutil** — troca um termo e inverte o sentido.
+> Texto: "a maioria dos evadidos trabalha"
+> Alternativa: "a maioria dos trabalhadores evade" ✗ — não é a mesma proposição.
+
+**4. Generalização indevida** — troca "alguns" por "todos", "pode" por "deve", "tende a" por
+"sempre".
+
+**5. Parte pelo todo** — pega um trecho isolado e o apresenta como a tese do texto.
+Frequentemente é **algo que o autor cita para refutar**.
+
+**6. Troca de responsabilidade** — atribui ao autor o que ele apenas **relata**.
+> "Segundo alguns críticos, X." → Alternativa: "O autor defende X." ✗
+:::
+
+## Um exemplo trabalhado
+
+**Texto:**
+
+> "Atribui-se comumente a evasão escolar ao desinteresse dos jovens. Os dados, porém,
+> contam outra história: 41% dos que abandonam o ensino médio apontam a necessidade de
+> trabalhar como motivo principal, contra 12% que mencionam desinteresse. Entre os jovens
+> do quintil de menor renda, o motivo econômico chega a 58%. Políticas centradas em
+> engajamento pedagógico tendem, portanto, a ter efeito limitado sem transferência de renda
+> associada."
+
+**Comando**: "Infere-se do texto que:"
+
+**Passo 4 — minha resposta antes de ver as alternativas**: *o texto contesta a explicação do
+desinteresse e sustenta que a evasão é econômica; logo, sugere que políticas pedagógicas
+sozinhas não bastam.*
+
+**Alternativas:**
+
+a) O desinteresse dos jovens é a principal causa da evasão escolar.
+b) A evasão escolar decorre predominantemente de fatores econômicos, o que limita a eficácia
+de políticas exclusivamente pedagógicas.
+c) A educação brasileira é de má qualidade.
+d) Todos os jovens de baixa renda abandonam a escola.
+e) O autor defende que se acabe com as políticas de engajamento pedagógico.
+
+**Passo 5 — eliminação por evidência:**
+
+| | Diagnóstico | Padrão |
+|---|---|---|
+| **(a)** | **inversão** — o texto diz o contrário (12% × 41%) | padrão 3 |
+| **(b)** | ✓ **correta** — "41%... 58%... efeito limitado sem transferência de renda" | tem endereço |
+| **(c)** | verdadeira no mundo, **ausente** no texto — que não fala de qualidade | padrão 2 |
+| **(d)** | **generalização indevida** — 58% ≠ "todos" | padrão 4 |
+| **(e)** | **troca de responsabilidade / extrapolação** — o texto diz "efeito limitado **sem** transferência", não "acabe com" | padrões 1 e 6 |
+
+**Passo 6 — validação**: aponto o trecho — "*tendem a ter efeito limitado sem transferência
+de renda associada*". A alternativa (b) tem **endereço**.
+
+Note que **(c) é verdadeira**. É exatamente por isso que ela é perigosa: o candidato
+concorda com ela e marca. A pergunta não era "o que é verdade?", era "o que se infere **do
+texto**?".
+
+## As armadilhas do candidato
+
+::: {.callout-warning}
+## Cinco erros de quem responde
+1. **Responder pelo que sabe, não pelo que o texto diz.** Repertório atrapalha aqui: quem
+   conhece o assunto tende a marcar a alternativa **verdadeira** em vez da **textual**.
+2. **Ler as alternativas antes de formular a resposta.** Você passa a escolher entre elas em
+   vez de avaliá-las.
+3. **Marcar a que "parece mais completa".** Alternativas longas e bem-escritas atraem — e
+   são frequentemente extrapolações elaboradas.
+4. **Ignorar o "incorreta".** Comandos negativos derrubam muita gente por desatenção. Circule
+   a palavra.
+5. **Aceitar "é óbvio que...".** É o som da extrapolação. Exija o trecho.
+:::
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Norma-padrão × uso real
+Vale ser honesto sobre o estatuto deste capítulo, e sobre uma tensão real.
+
+**A favor do método**: as boas questões de interpretação testam competências **genuínas** —
+distinguir o dito do inferido, exigir evidência, resistir à extrapolação. Essas são as
+competências do leitor crítico (@sec-cap-82), e não apenas do candidato. Quem as domina lê
+melhor contratos, manchetes e propagandas. O método não é truque: é a operacionalização de
+uma competência real sob restrição de tempo.
+
+**A tensão**: a questão de múltipla escolha pressupõe **uma** resposta certa — e a leitura,
+como este volume argumentou, admite **várias** leituras legítimas (@sec-cap-81). A prova
+resolve isso restringindo-se ao que é **textualmente demonstrável**, o que é razoável, mas
+tem custo: ela premia a leitura **conservadora** e penaliza a **arriscada**, ainda que
+defensável. O leitor que enxerga uma camada a mais pode errar a questão.
+
+**A degradação possível**: quando o método é ensinado **sem** os conceitos, vira ritual —
+"elimine a alternativa com 'todos'", "desconfie da mais longa". Funciona um pouco, e não
+ensina nada. A diferença está em saber **por que**: "todos" costuma estar errado porque é
+**generalização indevida**, e reconhecer isso é reconhecer um raciocínio inválido
+(@sec-cap-76) — competência que serve em qualquer lugar.
+
+**A posição defensável**: aprenda o método, e aprenda **por que** ele funciona. O primeiro
+serve para a prova; o segundo, para a vida — e é o segundo que faz o primeiro funcionar de
+verdade [@koch2015texto; @marcuschi2008].
+:::
+
+## 📋 Quadro-resumo
+
+**O método (6 etapas)**: comando primeiro → identifique o verbo → leia o texto procurando →
+**formule sua resposta** → confronte por evidência → **aponte o trecho**.
+
+**Os verbos do comando:**
+
+| Comando | Pede |
+|---|---|
+| "segundo o texto" | o **explícito** — localize |
+| "infere-se / depreende-se" | inferência **autorizada** (com pista) |
+| "sugere" | subentendido |
+| "a função de X" | o **para quê**, não o significado |
+| "o autor defende" | a **tese** (não o que ele cita) |
+| "assinale a **incorreta**" | a **falsa** — atenção |
+
+**Os seis padrões de alternativa errada**: **extrapolação plausível** (a pior) · verdadeira
+no mundo mas ausente no texto · inversão sutil · generalização indevida · parte pelo todo ·
+troca de responsabilidade.
+
+**A regra de ouro**: **se você não consegue apontar o trecho com o dedo, está errada** — por
+mais razoável que pareça.
+
+Em uma linha: a alternativa errada de uma boa questão **não é absurda — é plausível**; e o
+antídoto é sempre o mesmo: **exigir o endereço** no texto.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Ler o texto antes do comando.** Você lê sem saber o que procurar.
+- **Não formular a resposta antes.** Você passa a **escolher entre** as alternativas em vez
+  de avaliá-las.
+- **Marcar a alternativa verdadeira.** A pergunta é "o que se infere **do texto**?", não "o
+  que é verdade?".
+- **Aceitar "é óbvio que...".** É o som da extrapolação. Exija o trecho.
+- **Marcar a mais longa e completa.** Costuma ser extrapolação elaborada.
+- **Ignorar o "incorreta".** Circule a palavra.
+- **Confundir o que o autor **cita** com o que ele **defende**.** "Segundo alguns críticos"
+  ≠ tese do autor.
+- **Confundir "todos" com "a maioria".** 58% não é "todos".
+- **Achar que o método dispensa a competência.** Sem entender **por que** a alternativa erra,
+  o método vira ritual.
+
+## ✍️ Exercícios
+
+**1.** Explique por que se deve ler o comando antes do texto.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque o comando **define o que procurar** — e, sem ele, a leitura não tem objetivo.
+
+**O princípio** (@sec-cap-81): não existe "ler bem" em abstrato; existe ler **para** alguma
+coisa, e o objetivo determina a estratégia. Ler o texto sem saber o que a questão pede é ler
+sem objetivo — e "se você não sabe o que procura, não sabe quando achou".
+
+**A diferença prática:**
+
+- **Sem o comando**: leitura passiva. Você absorve o que chama atenção — que raramente é o
+  que a questão cobra. Depois, ao ler o comando, precisa **voltar** ao texto e reler.
+- **Com o comando**: leitura **ativa**. Você **procura**. Se o comando pergunta pela função
+  de um conectivo, seus olhos vão para os conectivos; se pergunta pela tese, você caça o
+  tópico frase.
+
+**O ganho de tempo**: numa prova, isso elimina uma releitura inteira — e a releitura é o que
+mais consome tempo.
+
+**A ressalva**: em textos **longos** (mais de uma página) com **várias** questões, a
+estratégia se ajusta: faça um **skimming** primeiro (para saber a estrutura), depois leia os
+comandos, depois volte ao texto de modo direcionado. O princípio permanece — **saber o que se
+procura antes de procurar**.
+:::
+
+**2.** Distinga o que pedem: "Segundo o texto..." × "Infere-se do texto..."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**"Segundo o texto..."** — pede o que está **explícito**. A resposta está **literalmente**
+lá, ainda que com outras palavras (paráfrase). A operação é **localizar**.
+
+> Texto: "41% apontam a necessidade de trabalhar."
+> "Segundo o texto, a necessidade de trabalhar é apontada por 41% dos evadidos." ✓ — está lá.
+
+*Cuidado*: aqui, **não infira**. Uma alternativa que exija raciocínio adicional, por mais
+correta que seja, não responde a "segundo o texto".
+
+**"Infere-se do texto..."** — pede uma **inferência autorizada** (@sec-cap-82): conclusão
+que **não está literal**, mas que o texto **sustenta** com pista identificável.
+
+> Texto: "41% trabalham × 12% desinteresse... políticas pedagógicas tendem a ter efeito
+> limitado."
+> "Infere-se que a explicação pelo desinteresse é insuficiente." ✓ — não está literal, mas
+> decorre.
+
+**A fronteira crítica**: a inferência precisa ter **pista**. Uma conclusão sem endereço no
+texto não é inferência — é **extrapolação**, e será a alternativa errada.
+
+**Resumindo:**
+
+| | "segundo o texto" | "infere-se" |
+|---|---|---|
+| **Está literal?** | sim | **não** |
+| **Operação** | localizar | concluir **com pista** |
+| **Erro típico** | marcar uma inferência | marcar uma extrapolação |
+:::
+
+**3.** Identifique o padrão de erro: texto — "O deputado votou contra o projeto de
+saneamento"; alternativa — "O deputado é contra o saneamento básico".
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Padrão 1: extrapolação plausível** — o mais perigoso de todos.
+
+**O salto ilegítimo**: votar contra **um projeto específico** não equivale a ser contra **o
+tema**. O deputado pode ter votado contra por considerar:
+
+- o **custo** excessivo;
+- a **redação** falha;
+- o **momento** inadequado;
+- ou por preferir um **projeto alternativo** de saneamento.
+
+Nada no texto exclui essas possibilidades.
+
+**Por que é perigosa**: ela **parece** decorrer. A inferência é natural — tanto que muita
+gente a faria na vida real, e o próprio adversário político do deputado a fará em campanha.
+Justamente por parecer razoável, ela é escolhida.
+
+**A regra de ouro aplicada**: aponte o trecho que diz que ele é contra saneamento. Não há.
+Só há o registro de **um voto**.
+
+**O que seria autorizado:**
+
+- "O deputado não apoiou **aquele** projeto." ✓ — inferência autorizada.
+- "Houve votação do projeto." ✓ — pressuposto (gatilho: *votar contra*).
+
+**O teste que separa**: pergunte "**onde está a pista?**" e tente **apontá-la com o dedo**.
+Se você só consegue dizer "mas é óbvio que quem vota contra é contra", você extrapolou — "é
+óbvio que" é o som da extrapolação (@sec-cap-82).
+:::
+
+**4.** (Estilo ENEM) Por que uma alternativa **verdadeira** pode estar errada?
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque a pergunta não é "**o que é verdade?**" — é "**o que o texto diz (ou autoriza
+inferir)?**".
+
+**Exemplo:**
+
+> Texto sobre evasão escolar, com dados de motivos de abandono.
+> Alternativa: "A educação brasileira é de má qualidade."
+
+A afirmação é **provavelmente verdadeira** no mundo. E está **errada** como resposta, porque
+o texto **não trata** de qualidade — trata de **motivos de evasão**. Não há endereço.
+
+**Por que essa armadilha funciona tão bem** — e aqui está o ponto contraintuitivo: ela
+explora o **repertório** do candidato **contra** ele. Quem sabe do assunto **concorda** com a
+alternativa, sente a concordância como reconhecimento, e marca. Quanto mais informado o
+candidato, mais suscetível.
+
+É o inverso do que se espera: aqui, saber **atrapalha** — a menos que se saiba **separar** o
+que se sabe do que o texto diz.
+
+**A defesa**: a **regra de ouro**. Antes de marcar, aponte o trecho. Se você não consegue,
+não importa que a alternativa seja verdadeira, justa, sábia ou inteligente — ela não é a
+resposta.
+
+**A lição mais ampla** (@sec-cap-82): distinguir "o texto disse" de "eu sei" é a competência
+central da leitura crítica. Boa parte do que "o texto disse" foi você quem pôs lá.
+:::
+
+**5.** Explique por que formular a resposta antes de ler as alternativas.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Porque as alternativas são **projetadas** para parecerem plausíveis — e, se você as lê antes
+de ter uma resposta própria, elas **contaminam** seu raciocínio.
+
+**O que acontece sem a formulação prévia**: você não **avalia** as alternativas — você
+**escolhe entre** elas. E, num conjunto de cinco opções bem-construídas, a mais bem-escrita,
+mais completa ou mais eloquente tende a ganhar. Você está sendo **convencido**, não
+**verificando**.
+
+**O que acontece com a formulação prévia**: você já tem uma conclusão própria, derivada do
+texto. Agora você **compara**: procura a alternativa que **corresponde** ao que você
+concluiu. As demais perdem o poder de sugestão — você as reconhece como desvios do que você
+já sabe.
+
+**A diferença em uma frase**: é a diferença entre **reconhecer** e **ser convencido**.
+
+**O paralelo revelador**: é o mesmo mecanismo do **pressuposto** (@sec-cap-82) — o que entra
+sem passar pelo crivo é aceito. Uma alternativa lida antes de você ter posição entra como
+hipótese e se instala; lida depois, é submetida a exame.
+
+**Na prática**: leia o comando → leia o texto procurando → **feche os olhos e responda em voz
+baixa** → só então olhe as alternativas. O passo do meio custa cinco segundos e é o que mais
+protege contra as extrapolações plausíveis.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Numa questão de interpretação, a alternativa
+mais completa e detalhada tende a ser a correta."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Não há relação entre **extensão** e **correção** — e a crença no contrário é
+explorada deliberadamente pelas bancas.
+
+**Por que a heurística falha**: alternativas longas e detalhadas são frequentemente
+**extrapolações elaboradas** — construções que partem de algo que o texto diz e acrescentam
+camadas plausíveis. Quanto mais detalhe, mais oportunidade de inserir o que não está lá.
+
+**Exemplo:**
+
+> Texto: "41% dos evadidos apontam a necessidade de trabalhar."
+> Alternativa longa: "A evasão escolar decorre da necessidade de trabalhar, o que revela a
+> falência do modelo educacional brasileiro e exige a reformulação integral do ensino médio,
+> conforme apontam especialistas." ✗
+
+A primeira oração tem endereço; o resto é **extrapolação** (falência do modelo, reformulação
+integral, "conforme apontam especialistas" — nada disso está no texto). A alternativa é
+**longa, eloquente e errada**.
+
+**A heurística correta** substitui extensão por **endereço**: a alternativa certa é a que
+você consegue **apontar no texto**, seja ela de três palavras ou de três linhas.
+
+**Por que a crença persiste**: porque "parece mais trabalhada", e trabalho sugere correção. É
+uma inferência sobre o **elaborador**, não sobre o texto — e as bancas sabem disso. Muitas
+constroem propositalmente a alternativa errada como a mais longa.
+:::
+
+**7.** Aplique o método completo à questão do texto sobre evasão escolar.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Texto**: "Atribui-se comumente a evasão escolar ao desinteresse dos jovens. Os dados,
+porém, contam outra história: 41% dos que abandonam o ensino médio apontam a necessidade de
+trabalhar como motivo principal, contra 12% que mencionam desinteresse. Entre os jovens do
+quintil de menor renda, o motivo econômico chega a 58%. Políticas centradas em engajamento
+pedagógico tendem, portanto, a ter efeito limitado sem transferência de renda associada."
+
+**Comando**: "Infere-se do texto que:"
+
+**Passo 1–2**: o verbo é "**infere-se**" → pede conclusão **não literal**, mas **com pista**.
+Não é localizar; é concluir.
+
+**Passo 3**: leitura ativa. Pistas fortes: o "**porém**" (opõe a explicação corrente aos
+dados); o contraste **41% × 12%**; o "**portanto**" (marca a conclusão do autor).
+
+**Passo 4 — minha resposta antes das alternativas**: *o texto contesta a explicação pelo
+desinteresse e sustenta que a evasão é econômica; logo, políticas só pedagógicas não
+bastam.*
+
+**Passo 5 — confronto:**
+
+| Alternativa | Diagnóstico | Padrão |
+|---|---|---|
+| (a) "O desinteresse é a principal causa." | **inversão** — o texto diz o oposto (12% × 41%) | 3 |
+| (b) "A evasão decorre predominantemente de fatores econômicos, o que limita a eficácia de políticas exclusivamente pedagógicas." | ✓ **corresponde** à minha resposta | — |
+| (c) "A educação brasileira é de má qualidade." | **verdadeira no mundo, ausente no texto** | 2 |
+| (d) "Todos os jovens de baixa renda abandonam a escola." | **generalização indevida** — 58% ≠ todos | 4 |
+| (e) "O autor defende o fim das políticas de engajamento." | **troca de responsabilidade** — o texto diz "efeito limitado **sem** transferência", não "acabe com" | 6 |
+
+**Passo 6 — validação**: aponto o trecho — "*tendem a ter efeito limitado sem transferência
+de renda associada*" + os percentuais. **(b) tem endereço.** ✓
+
+**A observação decisiva**: **(c) é verdadeira**. É por isso que é perigosa — o candidato
+informado concorda e marca. A pergunta não era "o que é verdade?", mas "o que se infere **do
+texto**?".
+:::
+
+**8.** Explique a "regra de ouro" e por que ela funciona.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A regra**: **se você não consegue apontar o trecho com o dedo, a alternativa está errada** —
+por mais razoável que pareça.
+
+**Por que funciona:**
+
+1. **Toda resposta correta tem endereço.** Mesmo nas questões de inferência, a conclusão
+   precisa de **pista** identificável — uma palavra, um conectivo, um dado. Se não há pista,
+   não é inferência autorizada: é **extrapolação** (@sec-cap-82).
+2. **Ela neutraliza a plausibilidade.** As alternativas erradas de uma boa questão **não são
+   absurdas** — são plausíveis, e é isso que as torna eficazes. A plausibilidade é uma
+   sensação; o endereço é um **fato verificável**. A regra troca a sensação pelo fato.
+3. **Ela é operacionalizável sob pressão.** "Aponte o trecho" é uma ação concreta, executável
+   em segundos. "Reflita sobre se isso decorre" não é.
+
+**O sintoma que ela detecta**: quando você se pega pensando "**mas é óbvio que...**", você
+**extrapolou**. Não há trecho — há seu conhecimento de mundo preenchendo a lacuna. O "é óbvio
+que" é o som exato da extrapolação.
+
+**O limite honesto da regra**: em questões de inferência, o "trecho" pode ser uma **pista**,
+não uma afirmação literal — um "porém" que marca oposição, um dado que contrasta com outro. A
+regra não exige que a resposta esteja escrita; exige que ela tenha **ancoragem**
+demonstrável.
+
+**Por que serve além da prova**: é a mesma competência que protege o leitor de manchetes,
+contratos e propaganda — exigir que quem afirma **mostre onde**. A prova apenas a testa sob
+cronômetro.
+:::
+
+**9.** (Estilo FUVEST) Discuta: a questão de múltipla escolha pressupõe uma resposta certa,
+mas a leitura admite várias. Como conciliar?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A tensão é real e não se dissolve — mas se administra.**
+
+**O problema**: este volume argumentou que o sentido é **construído** e que leitores
+diferentes constroem leituras diferentes, todas legítimas (@sec-cap-81). A múltipla escolha
+pressupõe **uma** resposta. As duas coisas parecem incompatíveis.
+
+**Como a prova resolve**: restringindo-se ao que é **textualmente demonstrável**. A pergunta
+não é "qual sua leitura?", mas "o que o texto **autoriza**?". E, embora haja várias leituras
+legítimas, **não** há infinitas: o texto **restringe** (@sec-cap-81). "Maria comprou um
+carro" não pode significar "choveu em Lisboa". Entre as leituras possíveis e as impossíveis,
+há uma fronteira — e a boa questão se posiciona **longe** dela, escolhendo alternativas
+erradas que são **claramente** extrapolações, inversões ou generalizações.
+
+**Por que isso é razoável**: a alternativa seria não avaliar leitura, ou avaliá-la
+subjetivamente — o que, em prova de milhões de candidatos, produziria arbitrariedade. A
+restrição ao demonstrável é uma **garantia de isonomia**: ela torna a correção auditável, e o
+candidato pode **recorrer** apontando o trecho.
+
+**O custo, e ele é real:**
+
+1. **Premia a leitura conservadora.** O candidato que enxerga uma camada a mais — uma ironia
+   sutil, uma ambiguidade produtiva — pode errar a questão. A prova recompensa quem lê o
+   **mínimo demonstrável**, não quem lê melhor.
+2. **Achata o texto literário.** Um poema admite leituras que a múltipla escolha não comporta.
+   Reduzir Drummond a cinco alternativas é violentar o objeto.
+3. **Cria a figura do "gabarito discutível"** — e ela existe: há questões anuladas todo ano
+   justamente porque duas alternativas tinham endereço.
+
+**A conciliação defensável**: reconhecer que a prova **não mede leitura** — mede uma **fatia**
+dela: a capacidade de distinguir o demonstrável do suposto. É uma fatia **valiosa**
+(@sec-cap-82: é o que protege contra manipulação) e **parcial**.
+
+O erro não está na prova; está em confundir a fatia com o todo — e em concluir, porque a
+prova só mede isso, que só isso importa. O leitor que sabe as duas coisas — cumprir a
+restrição na prova **e** ler amplamente fora dela — não tem conflito algum
+[@koch2015texto; @marcuschi2008].
+:::
+
+**10.** Construa uma questão de interpretação com uma alternativa correta e quatro erradas,
+uma de cada padrão, e justifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+Resposta possível:
+
+**Texto:**
+
+> "Diz-se que o brasileiro não gosta de ler. A pesquisa Retratos da Leitura, porém, mostra
+> que 52% da população leu ao menos um livro nos últimos três meses. O obstáculo declarado
+> não é o desgosto: 32% apontam a falta de tempo e 27%, o preço dos livros. Campanhas de
+> incentivo à leitura que apelam ao prazer de ler ignoram, portanto, as barreiras materiais
+> que a pesquisa identifica."
+
+**Comando**: "Infere-se do texto que:"
+
+**Alternativas:**
+
+**a)** O brasileiro não gosta de ler, como se costuma afirmar.
+→ **Padrão 3 — inversão sutil.** O texto **contesta** essa afirmação ("porém", 52%). Diz o
+oposto.
+
+**b)** As barreiras à leitura no Brasil são predominantemente materiais, o que limita a
+eficácia de campanhas centradas no prazer de ler. ✓
+→ **CORRETA.** Endereço: "32% falta de tempo e 27% preço" + "ignoram as barreiras
+materiais". Não está literal (é inferência), mas tem pista clara.
+
+**c)** O Brasil tem um dos piores índices educacionais da América Latina.
+→ **Padrão 2 — verdadeira no mundo, ausente no texto.** Pode ser verdade; o texto não trata
+de índices educacionais. **A mais perigosa para quem sabe do assunto.**
+
+**d)** Todos os brasileiros que não leem alegam falta de tempo.
+→ **Padrão 4 — generalização indevida.** São **32%**, não "todos"; e "não leem" ≠ os
+pesquisados.
+
+**e)** O autor defende o fim das campanhas de incentivo à leitura.
+→ **Padrão 6 — troca de responsabilidade / extrapolação.** O texto diz que elas **ignoram**
+barreiras materiais — crítica ao **foco**, não proposta de extinção.
+
+**Comentários sobre a construção:**
+
+- A **(c)** é a armadilha principal: explora o repertório contra o candidato. Quem conhece
+  educação brasileira **concorda** e marca.
+- A **(e)** é a segunda mais perigosa: parte de algo real (a crítica às campanhas) e
+  **radicaliza**. Criticar o foco ≠ propor o fim.
+- A **(b)** é deliberadamente **menos eloquente** que a (e) — para testar se o candidato
+  resiste à heurística falsa de "marcar a mais completa".
+
+**Validação pela regra de ouro**: só a (b) permite apontar o dedo — nos percentuais e no
+"ignoram as barreiras materiais".
+:::
+
+## 📚 Referências
+
+O método deste capítulo operacionaliza os conceitos desenvolvidos ao longo do Volume 13: a
+leitura como construção e a leitura estratégica em Koch [@koch2015texto] e no @sec-cap-81; a
+distinção entre inferência autorizada e extrapolação — que fundamenta a regra de ouro e os
+padrões de alternativa errada — no @sec-cap-82, com Ilari [@ilari2001] e Ilari & Basso
+[@ilaribasso2006]; os implícitos e a pressuposição no @sec-cap-64; a ironia no @sec-cap-83; a
+articulação entre modos no @sec-cap-84, com Marcuschi [@marcuschi2008]. Para as falácias que
+alguns padrões de alternativa reproduzem — sobretudo a generalização indevida —, veja o
+@sec-cap-76. As provas citadas seguem os modelos do ENEM (INEP) e das principais bancas, cujos
+editais e cadernos anteriores devem ser consultados diretamente; sobre as competências
+avaliadas na redação, veja o @sec-cap-77. A discussão sobre os limites da avaliação por
+múltipla escolha dialoga com Faraco [@faraco2008]. Com este capítulo encerra-se o Volume 13;
+o Volume 14 trata da **variação linguística** — sociolinguística, falares do Brasil,
+oralidade e preconceito.
+
+::: {#refs}
 :::
