@@ -4,22 +4,615 @@ title: "Coesão referencial e sequencial"
 
 # Coesão referencial e sequencial {#sec-cap-69}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 11 — Linguística Textual.
+> "Os fios que amarram um texto são poucos, e quase sempre os mesmos. O difícil é
+> puxá-los na hora certa."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O capítulo anterior apresentou os sete critérios de textualidade. Este desenvolve o
+primeiro dos dois critérios centrados no texto: a **coesão** — a articulação da
+**superfície**, os elementos linguísticos visíveis que amarram as partes umas às outras.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+A coesão é a mais **concreta** das propriedades textuais, e por isso a mais fácil de
+ensinar e de cobrar. Ela está no papel: você pode apontá-la com o dedo. São os pronomes
+que retomam, os conectivos que relacionam, as elipses que economizam, os sinônimos e
+hiperônimos que substituem.
+
+Mas há uma advertência que precisa vir logo, porque a escola frequentemente a omite: **a
+coesão não garante a coerência**. Um texto pode estar cheio de conectivos e pronomes bem
+empregados e, ainda assim, não fazer sentido algum. E um texto pode ter pouquíssima coesão
+explícita e ser perfeitamente coerente. São propriedades **independentes** — e o
+@sec-cap-70 mostrará por quê.
+
+Aqui, o objetivo é dominar os **mecanismos**: quais são, como funcionam e quando cada um
+serve.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Distinguir** coesão referencial de coesão sequencial;
+- **Identificar** anáfora e catáfora, e os elementos que as realizam;
+- **Empregar** substituição, elipse e repetição para retomar referentes;
+- **Selecionar** o conectivo adequado à relação lógica pretendida;
+- **Diagnosticar** falhas de coesão: referente ambíguo, conectivo inadequado, repetição
+  excessiva;
+- **Reconhecer** que coesão e coerência são independentes.
+
+## Dois trabalhos, dois tipos de coesão
+
+Um texto precisa fazer duas coisas ao mesmo tempo:
+
+1. **Manter os referentes** — falar das mesmas coisas ao longo do texto, sem que o leitor
+   se perca sobre quem é quem. Isso é a **coesão referencial**.
+2. **Encadear os enunciados** — relacionar as partes logicamente, sinalizando se o que vem
+   agora é causa, consequência, oposição ou acréscimo do que veio antes. Isso é a **coesão
+   sequencial**.
+
+A distinção é a espinha dorsal do capítulo. Uma cuida das **coisas** de que se fala; a
+outra, das **relações** entre o que se diz.
+
+::: {#fig-coesao}
+
+```{.tikz}
+%%| filename: coesao
+%%| alt: Esquema dos dois tipos de coesão. À esquerda, coesão referencial, que mantém os referentes e responde à pergunta de quem se fala, realizada por quatro mecanismos: substituição por pronome, substituição lexical por sinônimo ou hiperônimo, elipse e repetição. Abaixo, a distinção entre anáfora, que retoma um referente já mencionado, e catáfora, que antecipa um referente que ainda virá. À direita, coesão sequencial, que encadeia enunciados e responde à pergunta de qual a relação lógica, realizada por conectivos agrupados em adição, oposição, causa, consequência, condição, conclusão e tempo. Abaixo, a advertência de que coesão não garante coerência.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  cx/.style={rounded corners=3pt, draw, align=center, inner sep=4pt, font=\scriptsize},
+  s/.style={-{Stealth[length=4pt]}, draw=manualgray},
+]
+  \node[cx, draw=manualgray, fill=manualgray!12, text width=24mm, font=\small] (c) at (0,2.6)
+    {\textbf{COESÃO}};
+
+  %% referencial
+  \node[cx, draw=manualblue, fill=manualblue!12, text width=34mm] (ref) at (-3.8,1.4)
+    {\textbf{REFERENCIAL}\\ mantém os \emph{referentes}\\ ``de \textbf{quem} se fala?''};
+  \node[cx, draw=manualblue, fill=manualblue!5, text width=36mm] (r1) at (-3.8,0.1)
+    {\textbf{substituição pronominal}\\ ``Maria... \textbf{ela}''};
+  \node[cx, draw=manualblue, fill=manualblue!5, text width=36mm] (r2) at (-3.8,-0.9)
+    {\textbf{substituição lexical}\\ ``pit bull... o \textbf{animal}''};
+  \node[cx, draw=manualblue, fill=manualblue!5, text width=36mm] (r3) at (-3.8,-1.9)
+    {\textbf{elipse}\\ ``chegou e \O\ sentou''};
+  \node[cx, draw=manualblue, fill=manualblue!5, text width=36mm] (r4) at (-3.8,-2.9)
+    {\textbf{repetição}\\ {\scriptsize (ênfase ou clareza técnica)}};
+  \draw[s] (c) -- (ref); \draw[s] (ref) -- (r1);
+
+  \node[cx, draw=manualblue, fill=manualblue!3, text width=36mm] at (-3.8,-4.1)
+    {\textbf{anáfora}: retoma o que \emph{já} veio\\ \textbf{catáfora}: antecipa o que \emph{virá}};
+
+  %% sequencial
+  \node[cx, draw=manualred, fill=manualred!12, text width=34mm] (seq) at (3.8,1.4)
+    {\textbf{SEQUENCIAL}\\ encadeia \emph{enunciados}\\ ``qual a \textbf{relação}?''};
+  \node[cx, draw=manualred, fill=manualred!5, text width=36mm] (s1) at (3.8,0.1)
+    {\textbf{adição} — e, além disso\\ \textbf{oposição} — mas, contudo};
+  \node[cx, draw=manualred, fill=manualred!5, text width=36mm] (s2) at (3.8,-0.9)
+    {\textbf{causa} — porque, já que\\ \textbf{consequência} — logo, tanto que};
+  \node[cx, draw=manualred, fill=manualred!5, text width=36mm] (s3) at (3.8,-1.9)
+    {\textbf{condição} — se, caso\\ \textbf{conclusão} — portanto};
+  \node[cx, draw=manualred, fill=manualred!5, text width=36mm] (s4) at (3.8,-2.9)
+    {\textbf{tempo} — quando, então};
+  \draw[s] (c) -- (seq); \draw[s] (seq) -- (s1);
+
+  \node[rounded corners=2pt, draw=manualyellow, fill=manualyellow!10, align=center,
+        font=\scriptsize, inner sep=4pt, text width=44mm] at (3.8,-4.1)
+    {\textbf{Atenção}: coesão \textbf{não} garante coerência};
+\end{tikzpicture}
+```
+
+Os dois tipos de coesão e seus mecanismos. A **referencial** cuida das coisas de que se
+fala; a **sequencial**, das relações entre o que se diz.
+:::
+
+## Coesão referencial
+
+É o trabalho de **manter os referentes** ao longo do texto. Quatro mecanismos o realizam.
+
+### Anáfora e catáfora
+
+Antes dos mecanismos, uma distinção de **direção**:
+
+- **Anáfora** — o elemento **retoma** algo **já** mencionado. É o caso normal, o mais
+  frequente: "**Maria** chegou. **Ela** estava cansada."
+- **Catáfora** — o elemento **antecipa** algo que **ainda virá**: "Só peço **isto**: que me
+  escutem." / "Quando **ele** chegou, **João** parecia abatido."
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Cuidado com o nome "anáfora"
+Você já encontrou esse termo no @sec-cap-66, como **figura de linguagem** (repetição no
+início de versos: "Se a alma... Se o mundo..."). Aqui, em linguística textual, *anáfora*
+significa outra coisa: **retomada de referente**.
+
+Mesmo nome, dois conceitos, duas tradições. Numa questão, o contexto decide: se o assunto
+é estilística, é a figura; se é coesão, é a retomada.
+:::
+
+### 1. Substituição pronominal
+
+O mecanismo mais óbvio: um pronome ocupa o lugar do referente.
+
+- "**Maria** chegou. **Ela** estava cansada." (pessoal)
+- "Comprei **o livro** que **me** recomendaram." (relativo)
+- "**Essa decisão** foi injusta. **Isso** revolta." (demonstrativo)
+- "Perdi **as chaves**. Preciso encontrá-**las**." (oblíquo)
+
+### 2. Substituição lexical
+
+Retomada por outro item do léxico — e aqui o Volume 10 (@sec-cap-62) volta com força:
+
+- **Por hiperônimo** (o mais produtivo): "Um **pit bull** atacou. O **cão** foi apreendido.
+  O **animal** será avaliado."
+- **Por sinônimo**: "O **médico** examinou o paciente. O **clínico** pediu exames."
+- **Por nome genérico**: "Discutiram por horas. A **questão** não se resolveu."
+- **Por nominalização**: "O prefeito **renunciou**. A **renúncia** surpreendeu."
+- **Por expressão definida avaliativa**: "Machado publicou *Dom Casmurro*. O **Bruxo do
+  Cosme Velho** já era consagrado." (aqui a retomada **acrescenta** informação e avaliação)
+
+::: {.callout-important}
+## A retomada não é neutra
+Um detalhe que a escola raramente ensina, e que é decisivo para leitura crítica: a escolha
+do termo de retomada **carrega avaliação**.
+
+Compare, retomando o mesmo referente:
+
+> "O manifestante foi detido. **O jovem** aguarda julgamento."
+> "O manifestante foi detido. **O baderneiro** aguarda julgamento."
+> "O manifestante foi detido. **O militante** aguarda julgamento."
+
+O referente é idêntico; a leitura, não. A retomada **classifica** o referente e, ao
+fazê-lo, orienta o leitor — sem afirmar nada, exatamente como o pressuposto
+(@sec-cap-64). É um dos recursos mais eficazes do jornalismo opinativo, e um dos mais
+invisíveis.
+:::
+
+### 3. Elipse
+
+Omite-se o termo, recuperável pelo contexto (@sec-cap-66). Em português, é o mecanismo
+**mais natural** de todos — e o mais subestimado:
+
+- "**Maria** chegou, ∅ tirou o casaco e ∅ sentou-se."
+
+Três orações, um sujeito, duas elipses. Repetir "Maria" três vezes seria pesado; usar
+"ela" duas vezes seria desnecessário. O português é língua de **sujeito nulo**, e a elipse
+faz o trabalho de graça.
+
+### 4. Repetição
+
+Repetir o mesmo termo. A escola costuma condená-la em bloco, e erra:
+
+- **Viciosa**: "O menino chegou. O menino sentou. O menino comeu." (pobreza, monotonia)
+- **Legítima por clareza técnica**: num contrato ou numa lei, repete-se "o contratante"
+  dezenas de vezes **de propósito** — substituir por "ele" abriria brecha para ambiguidade,
+  e ambiguidade em contrato custa dinheiro (@sec-cap-64).
+- **Legítima por ênfase**: "Ninguém veio. Ninguém ligou. Ninguém se importou."
+
+Ou seja: a repetição é problema de **estilo em certos gêneros**, não uma proibição
+universal.
+
+## Coesão sequencial
+
+É o trabalho de **encadear os enunciados**, sinalizando a relação lógica entre eles. O
+instrumento principal é o **conectivo** — e escolher o conectivo errado é escolher a
+relação errada.
+
+### O repertório essencial
+
+| Relação | Conectivos | Exemplo |
+|---|---|---|
+| **Adição** | e, também, além disso, ademais | "Estudou; **além disso**, treinou." |
+| **Oposição** | mas, porém, contudo, todavia, entretanto, no entanto | "Estudou, **mas** não passou." |
+| **Causa** | porque, já que, visto que, pois, uma vez que | "Faltou **porque** adoeceu." |
+| **Consequência** | logo, portanto, então, tanto que, de modo que | "Adoeceu, **portanto** faltou." |
+| **Condição** | se, caso, contanto que, desde que | "**Se** estudar, passa." |
+| **Conclusão** | portanto, logo, assim, por conseguinte | "**Logo**, a tese se sustenta." |
+| **Finalidade** | para que, a fim de que | "Estudou **para que** passasse." |
+| **Tempo** | quando, enquanto, depois que, assim que | "**Quando** chegou, saímos." |
+| **Comparação** | como, assim como, tal qual | "Agiu **como** o pai agiria." |
+| **Explicação** | isto é, ou seja, a saber | "É procrastinador, **ou seja**, adia tudo." |
+
+### Causa × consequência: a inversão que engana
+
+O erro mais frequente da redação escolar não é usar conectivo demais — é usar o conectivo
+**invertido**:
+
+> "Adoeceu, **porque** faltou." ✗
+> (diz que a falta causou a doença)
+
+> "Adoeceu, **portanto** faltou." ✓
+> (a doença causou a falta)
+
+O conectivo **declara** a direção da relação. Se ele apontar para o lado errado, o texto
+afirma o contrário do pretendido — e o leitor, se estiver atento, percebe uma tese absurda.
+
+::: {.callout-tip}
+## Como escolher o conectivo certo
+Não escolha pelo som nem pelo hábito. Faça **duas perguntas**:
+
+1. **Qual é a relação real** entre as duas ideias? (causa? oposição? acréscimo?)
+2. **Em que direção** ela corre? (A causa B, ou B causa A?)
+
+Depois consulte a tabela. Um conectivo é uma **afirmação sobre a lógica** do seu texto —
+tão sujeito a erro quanto qualquer outra afirmação.
+
+Teste rápido para causa/consequência: substitua por "por causa disso" (consequência) ou
+"pela razão de que" (causa) e veja qual faz sentido.
+:::
+
+## A coesão não garante a coerência
+
+Chegamos ao ponto que o capítulo prometeu, e que é a tese teórica mais importante daqui.
+
+Leia:
+
+> "Maria comprou um carro. **Portanto**, o Brasil é o maior país da América do Sul.
+> **Contudo**, amanhã choverá em Lisboa. **Além disso**, ela estava cansada."
+
+Compare com o exemplo do @sec-cap-68. Acrescentamos coesão: há conectivos de conclusão,
+oposição e adição; há um pronome ("ela") retomando Maria. A **superfície** está amarrada.
+
+E o texto continua não fazendo sentido nenhum. Pior: agora ele é **absurdo**, porque os
+conectivos **prometem** relações lógicas que não existem. "Portanto" anuncia uma conclusão
+que não se segue; "contudo" anuncia uma oposição que não há.
+
+::: {.callout-important}
+## A conclusão
+**Coesão é condição nem necessária nem suficiente para coerência.**
+
+- **Não suficiente**: o exemplo acima tem coesão e não tem coerência.
+- **Não necessária**: "Cheguei. Vi. Venci." não tem conectivo algum — nenhuma marca
+  explícita de relação — e é perfeitamente coerente. O leitor infere a sequência temporal e
+  causal sozinho.
+
+Por quê? Porque a **coesão está na superfície** e a **coerência está no sentido**. Amarrar
+palavras não é o mesmo que construir um mundo compatível. Conectivo é **sinalização**, e
+sinalizar uma relação inexistente não a cria — só denuncia a falha.
+
+**Implicação para a redação**: encher o texto de "outrossim", "destarte" e "por conseguinte"
+não o torna melhor. Torna-o apenas **sinalizado** — e, se as relações não existirem, o
+sinal aponta para o vazio. O corretor experiente percebe isso imediatamente.
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+Um contraste que vale registrar. A escrita formal tende a **explicitar** a coesão
+sequencial com conectivos ("portanto", "no entanto", "em razão disso"). A fala, não: ela
+usa um repertório enxuto — **"aí", "então", "daí", "mas", "e"** — e deixa o resto por conta
+da inferência, da entonação e do contexto compartilhado.
+
+Isso **não** significa que a fala seja menos articulada. Significa que a **situação** é
+outra: na conversa, os interlocutores partilham o contexto e podem negociar em tempo real
+("como assim?"). Na escrita, o leitor está sozinho, e o autor precisa antecipar suas
+dúvidas — por isso explicita mais (@sec-cap-90).
+
+A consequência prática para quem escreve: transportar a coesão da fala para o texto formal
+("aí eu acho que... aí então...") produz um texto que parece pobre, mas o problema não é
+cognitivo — é de **transferência de registro**. Não se trata de "não saber articular"; é
+não ter automatizado que a escrita exige sinalização explícita. E isso se aprende
+(@sec-cap-80).
+:::
+
+## 📋 Quadro-resumo
+
+**Coesão referencial** (mantém os referentes):
+
+| Mecanismo | Como | Exemplo |
+|---|---|---|
+| **Substituição pronominal** | pronome ocupa o lugar | "Maria... **ela**" |
+| **Substituição lexical** | outro item do léxico | "pit bull... o **animal**" |
+| **Elipse** | omite o recuperável | "chegou e ∅ sentou" |
+| **Repetição** | repete o termo | "o contratante... o contratante" |
+
+**Direção**: **anáfora** = retoma o que já veio; **catáfora** = antecipa o que virá.
+
+**Coesão sequencial** (encadeia enunciados): adição, oposição, causa, consequência,
+condição, conclusão, finalidade, tempo, comparação, explicação.
+
+Em uma linha: a **coesão referencial** cuida de *quem*; a **sequencial**, de *como se
+relaciona* — e **nenhuma das duas garante coerência**, porque amarrar a superfície não é
+construir sentido.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que coesão = coerência.** São independentes. Texto coeso pode ser incoerente;
+  texto sem conectivos pode ser coerente ("Cheguei, vi, venci").
+- **Conectivo invertido.** "Adoeceu, **porque** faltou" ✗ × "Adoeceu, **portanto** faltou"
+  ✓. Verifique a **direção** da relação.
+- **Pronome com referente ambíguo.** "João disse a Pedro que **ele** errou." Quem?
+  (@sec-cap-64).
+- **Condenar toda repetição.** Em contrato e lei, repetir é **correto** — a substituição
+  criaria ambiguidade.
+- **Substituir por sinônimo sem testar.** "O médico... o galeno" soa artificial. Prefira
+  **hiperônimo** ou **elipse** (@sec-cap-62).
+- **Encher de conectivos.** "Outrossim, destarte, por conseguinte" não melhora o texto —
+  só o sinaliza. Se a relação não existe, o sinal denuncia.
+- **Confundir as duas "anáforas".** Figura de linguagem (repetição inicial) × coesão
+  (retomada de referente). O contexto decide.
+- **Esquecer a elipse.** É o mecanismo mais natural do português. Nem tudo precisa de
+  pronome.
+
+## ✍️ Exercícios
+
+**1.** Identifique os mecanismos de coesão referencial: "Um pit bull atacou o carteiro. O
+cão foi apreendido. O animal passará por avaliação. Ele estava sem coleira."
+
+::: {.callout-tip collapse="true"}
+## Solução
+Quatro retomadas do mesmo referente, por **dois mecanismos**:
+
+1. **"O cão"** — **substituição lexical por hiperônimo**: *cão* inclui *pit bull*
+   (@sec-cap-62).
+2. **"O animal"** — **substituição lexical por hiperônimo**, um degrau acima: *animal*
+   inclui *cão*.
+3. **"Ele"** — **substituição pronominal**: pronome pessoal retomando o referente.
+
+Todas são **anáforas** (retomam algo já mencionado).
+
+**Observação sobre a progressão**: as retomadas **sobem** a hierarquia de hiponímia (pit
+bull → cão → animal). Esse movimento é o mecanismo de coesão mais produtivo da escrita
+brasileira — mais frequente e mais natural que a substituição por sinônimos, que
+frequentemente soa artificial.
+
+Note também que há um limite: subir demais ("o ser vivo passará por avaliação") soaria
+absurdo. A escala tem teto prático.
+:::
+
+**2.** Explique a diferença entre anáfora e catáfora, com exemplos.
+
+::: {.callout-tip collapse="true"}
+## Solução
+A diferença é de **direção da retomada**.
+
+**Anáfora** — o elemento coesivo **retoma** algo **já mencionado**. É o caso normal e
+majoritário:
+
+- "**Maria** chegou. **Ela** estava cansada." (*ela* aponta para trás)
+- "Comprei **o livro**. **Ele** é ótimo."
+
+**Catáfora** — o elemento **antecipa** algo que **ainda virá**:
+
+- "Só peço **isto**: que me escutem." (*isto* aponta para a frente)
+- "Quando **ele** chegou, **João** parecia abatido." (*ele* antecipa *João*)
+- "As causas são **as seguintes**: desemprego, inflação e desigualdade."
+
+**Efeito da catáfora**: cria **expectativa** e **suspense** — o leitor precisa aguardar
+para saber a que o elemento se refere. Por isso é frequente em introduções, títulos e
+manchetes, onde se quer prender a atenção.
+
+**Nota de cuidado**: a catáfora pronominal ("quando **ele** chegou, **João**...") exige
+proximidade. Se o referente demorar a aparecer, o leitor se perde — e o recurso vira falha.
+:::
+
+**3.** Corrija o conectivo e justifique: "Ele estudou muito, porque foi aprovado."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Correção**: "Ele estudou muito, **portanto** foi aprovado." (ou: "Ele foi aprovado
+**porque** estudou muito.")
+
+**Justificativa**: o conectivo declara a **direção** da relação lógica, e *porque* introduz
+a **causa**. Na frase original, ele afirma que a aprovação é a **causa** do estudo — como se
+ele tivesse estudado *em razão de* já ter sido aprovado, o que inverte a lógica dos fatos.
+
+A relação real: estudar é a **causa**; a aprovação é a **consequência**. Duas formas de
+declará-la corretamente:
+
+- Marcando a **consequência**: "Estudou muito, **portanto** (**logo**, **por isso**) foi
+  aprovado."
+- Marcando a **causa**, com a ordem invertida: "Foi aprovado **porque** estudou muito."
+
+**Teste prático**: substitua por "pela razão de que" (causa) ou "por causa disso"
+(consequência) e veja qual faz sentido. "Estudou muito, pela razão de que foi aprovado" →
+absurdo. "Estudou muito, por causa disso foi aprovado" → correto.
+:::
+
+**4.** (Estilo ENEM) No texto "Maria comprou um carro. Portanto, o Brasil é o maior país da
+América do Sul", o problema é que:
+
+a) falta coesão entre os períodos;
+b) há coesão, mas o conectivo sinaliza uma relação lógica inexistente;
+c) há erro de concordância verbal;
+d) o pronome está ambíguo;
+e) a repetição é excessiva.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Alternativa (b).** Há coesão — o conectivo *portanto* está lá, amarrando formalmente os
+períodos. O problema é que ele **promete** uma relação de **conclusão** que não existe: a
+extensão territorial do Brasil não se conclui, de modo algum, da compra de um carro.
+
+A alternativa (a) está errada por confundir a natureza da falha: a coesão **existe** (é
+justamente o conectivo). O que falta é **coerência** — a possibilidade de construir um todo
+de sentido compatível.
+
+**A lição teórica**, que é a tese central do capítulo: **coesão não garante coerência**.
+Amarrar a superfície não constrói sentido. Pior: aqui o conectivo **agrava** o problema, ao
+sinalizar uma lógica ausente — o texto sem *portanto* seria apenas desconexo; com ele,
+torna-se **absurdo**, porque afirma uma inferência impossível.
+
+Conectivo é **sinalização**, não criação de relação. Sinalizar o que não existe só denuncia
+a falha.
+:::
+
+**5.** Justifique a repetição de "o contratante" num contrato, em vez da substituição por
+"ele".
+
+::: {.callout-tip collapse="true"}
+## Solução
+A repetição é **deliberada e correta**, e a substituição seria um **defeito** de redação.
+
+**Razão**: o pronome *ele* teria referente potencialmente **ambíguo**, sobretudo num
+documento em que circulam vários participantes (contratante, contratado, fiador,
+interveniente, terceiros). "Ele deverá pagar" abriria brecha para disputa sobre **quem**
+deve pagar — e ambiguidade em contrato produz litígio (@sec-cap-64).
+
+**O princípio geral**: o gênero determina o critério. Em textos **jurídicos, técnicos e
+normativos**, a prioridade absoluta é a **univocidade**; a elegância estilística é
+secundária. Repete-se "o contratante" cinquenta vezes de propósito, e a repetição não é
+pobreza — é **precisão**.
+
+**A lição mais ampla**: a condenação escolar da repetição ("nunca repita palavras") é uma
+regra de **estilo em certos gêneros**, não uma lei da língua. Em redação dissertativa, a
+repetição desnecessária empobrece; em contrato, salva. E há ainda a repetição **enfática**
+("Ninguém veio. Ninguém ligou. Ninguém se importou."), que é recurso expressivo
+(@sec-cap-66).
+
+Regra melhor: repita quando a clareza ou a ênfase pedirem; substitua quando não pedirem.
+:::
+
+**6.** (Estilo Cebraspe — Certo/Errado) Julgue: "Um texto sem conectivos explícitos é
+necessariamente incoerente."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Errado.** Coesão e coerência são **independentes**, e a ausência de conectivos não impede
+a coerência.
+
+**Contraexemplo decisivo**: "Cheguei. Vi. Venci." Não há um único conectivo — nenhuma marca
+explícita de relação. E o texto é perfeitamente coerente: o leitor infere sozinho a
+sequência **temporal** (uma coisa após a outra) e **causal** (chegar possibilitou ver, ver
+possibilitou vencer).
+
+**Por que funciona**: a coerência se constrói na **interação** entre texto e leitor
+(@sec-cap-68). O leitor mobiliza conhecimento de mundo e o princípio de cooperação, e
+constrói as relações que o texto não explicitou. O **assíndeto** (@sec-cap-66) aqui é até
+mais eficaz que os conectivos: sugere rapidez e inevitabilidade.
+
+**A recíproca também é falsa**, e completa o quadro: um texto **cheio** de conectivos pode
+ser incoerente ("Maria comprou um carro. Portanto, o Brasil é grande."). Se coesão
+garantisse coerência, esse texto faria sentido — e não faz.
+
+**Conclusão**: a coesão é **nem necessária nem suficiente** para a coerência.
+:::
+
+**7.** Analise o efeito das diferentes retomadas: "O manifestante foi detido. O jovem / O
+baderneiro / O militante aguarda julgamento."
+
+::: {.callout-tip collapse="true"}
+## Solução
+As três retomam **exatamente o mesmo referente** e produzem **três leituras distintas** —
+porque a substituição lexical **classifica** aquilo que retoma.
+
+- **"O jovem"** — retomada por traço **etário**, aparentemente neutra. Mas mobiliza
+  associações de **inexperiência** e **impulsividade**, sugerindo atenuação: um jovem
+  errando, não um criminoso agindo.
+- **"O baderneiro"** — retomada **avaliativa negativa**. Pressupõe desordem gratuita e
+  **deslegitima** o ato: não havia causa, havia bagunça.
+- **"O militante"** — retomada **politicamente legitimadora**. Pressupõe causa, convicção e
+  organização: há um projeto por trás do ato.
+
+**O mecanismo**: a retomada não é neutra. Ela **não afirma** que o manifestante é baderneiro
+— apenas o **nomeia** assim, e o leitor aceita a classificação sem submetê-la ao crivo
+crítico. É a mesma estrutura do **pressuposto** (@sec-cap-64): a informação entra pela porta
+dos fundos.
+
+**Por que isso importa**: este é um dos recursos mais eficazes e mais **invisíveis** do
+jornalismo opinativo. Duas matérias podem relatar os mesmos fatos, com os mesmos verbos, e
+construir realidades opostas apenas pela escolha das expressões de retomada. Detectar isso é
+leitura crítica (@sec-cap-82).
+:::
+
+**8.** Reescreva melhorando a coesão: "O menino chegou. O menino tirou o casaco. O menino
+sentou-se. O menino pediu água."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Reescrita recomendada**: "O menino chegou, tirou o casaco, sentou-se e pediu água."
+
+**Mecanismo empregado**: **elipse** do sujeito (três vezes). O português é língua de
+**sujeito nulo** — a desinência verbal já informa a pessoa, e o pronome é dispensável. A
+coordenação das quatro ações num período só resolve tudo de uma vez.
+
+**Alternativas inferiores, e por quê**:
+
+- "O menino chegou. **Ele** tirou o casaco. **Ele** sentou-se..." — substitui a repetição
+  lexical por repetição pronominal. Melhora pouco: o problema (a monotonia da estrutura)
+  permanece.
+- "O menino chegou. **A criança** tirou o casaco. **O garoto** sentou-se..." — substituição
+  lexical forçada. **Piora**: soa artificial e, pior, pode sugerir que são pessoas
+  diferentes. É exatamente o vício que a escola induz ao ensinar "troque por sinônimos".
+
+**A lição**: em português, o mecanismo de coesão referencial mais natural e mais econômico
+é a **elipse**, não a substituição. Antes de procurar um sinônimo, pergunte se o termo
+precisa reaparecer.
+:::
+
+**9.** (Estilo FUVEST) Discuta a afirmação: "Encher o texto de conectivos melhora a
+coesão e, portanto, a nota."
+
+::: {.callout-tip collapse="true"}
+## Solução
+A afirmação é **falsa em duas etapas** — e a segunda contém uma ironia instrutiva.
+
+**Primeira falha: conectivo não é coesão automática.** A coesão sequencial não se mede pela
+**quantidade** de conectivos, mas pela **adequação** de cada um à relação real entre as
+ideias. Um conectivo é uma **afirmação sobre a lógica do texto**: "portanto" afirma que há
+conclusão; "contudo", que há oposição. Se a relação não existe, o conectivo **mente** — e o
+texto fica pior do que ficaria sem ele. "Maria comprou um carro. **Portanto**, o Brasil é
+grande" é mais absurdo que a mesma sequência sem o conectivo.
+
+**Segunda falha: coesão não produz coerência.** Ainda que todos os conectivos estivessem
+corretos, isso amarraria a **superfície** — não construiria o **sentido**. Um texto pode ser
+impecavelmente coeso e não dizer nada (@sec-cap-68).
+
+**O fenômeno concreto**: a estratégia de "salpicar" *outrossim*, *destarte*, *por
+conseguinte* e *nesse ínterim* produz o que os corretores reconhecem de imediato — um texto
+**sinalizado**, cujos sinais apontam para o vazio. O efeito é o oposto do pretendido:
+denuncia que o candidato decorou uma lista em vez de articular um raciocínio. Nas matrizes
+do ENEM, isso afeta negativamente a competência de coesão, que avalia o **uso adequado** dos
+mecanismos, não sua abundância (@sec-cap-77).
+
+**A ironia**: a própria afirmação do enunciado usa "**portanto**" para ligar "melhora a
+coesão" a "melhora a nota" — uma relação de consequência que ela **não demonstra**. Ela
+comete o erro que descreve.
+
+**A formulação correta**: use o conectivo **quando** houver relação, e use **aquele** que
+nomeia a relação existente. Menos e certo vence mais e errado.
+:::
+
+**10.** Identifique todas as falhas de coesão e reescreva: "Os alunos entregaram os
+trabalhos aos professores. Eles estavam atrasados. Portanto, eles não os aceitaram, porque
+a nota foi zero."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Falhas identificadas:**
+
+1. **"Eles estavam atrasados"** — referente **ambíguo**: os alunos? os professores? os
+   trabalhos? As três leituras são possíveis e mudam completamente o sentido.
+2. **"eles não os aceitaram"** — **duplo** problema: *eles* (professores, presumivelmente,
+   mas o pronome anterior já apontava para outro referente) e *os* (os trabalhos). A cadeia
+   pronominal ficou embaralhada.
+3. **"porque a nota foi zero"** — conectivo **invertido**: a recusa é a **causa** da nota
+   zero, não o contrário. Como está, o texto afirma que os professores recusaram os
+   trabalhos *em razão de* a nota já ser zero.
+
+**Reescrita:**
+
+> "Os alunos entregaram os trabalhos aos professores **com atraso**. **Por isso**, os
+> **docentes** não **os** aceitaram, e a nota foi zero."
+
+**Ajustes feitos**: (i) eliminou-se o pronome ambíguo, transformando a informação em
+adjunto ("com atraso"), o que fixa o referente; (ii) retomou-se "professores" por
+hiperônimo/sinônimo ("os docentes"), desfazendo a colisão pronominal e deixando *os* com
+referente único (os trabalhos); (iii) corrigiu-se a direção causal — "por isso" marca a
+consequência do atraso, e a nota zero é apresentada como resultado, não como causa.
+
+**Comentário**: note que a correção da falha 3 exigiu entender a **lógica** dos fatos, não
+apenas a gramática. É a demonstração de que a coesão sequencial não é ornamento: ela
+**declara** o raciocínio, e um conectivo errado afirma um raciocínio errado.
+:::
+
+## 📚 Referências
+
+A distinção entre coesão referencial e sequencial, o inventário dos mecanismos e a tese da
+independência entre coesão e coerência seguem Koch [@koch2018coesao], obra de referência do
+tema no Brasil, e Koch [@koch2015texto]; o tratamento das expressões de retomada como
+recurso avaliativo e argumentativo apoia-se também em Marcuschi [@marcuschi2008]. Para a
+hiperonímia que sustenta a substituição lexical, veja o @sec-cap-62; para a ambiguidade de
+referente e o funcionamento do pressuposto invocado a propósito das retomadas avaliativas,
+o @sec-cap-64; para a elipse como figura, o @sec-cap-66; para o contraste entre a coesão da
+fala e a da escrita, Castilho [@castilho2010] e o @sec-cap-90. A coerência — o outro
+critério centrado no texto, e o que este capítulo repetidamente advertiu não ser garantido
+pela coesão — é o tema do @sec-cap-70, a seguir.
+
+::: {#refs}
 :::
