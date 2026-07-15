@@ -4,22 +4,1095 @@ title: "Versificação: métrica, rima e ritmo"
 
 # Versificação: métrica, rima e ritmo {#sec-cap-97}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 15 — História da Língua e Estilística.
+> "Alma minha gentil, que te partiste"
+>
+> — Camões: dez sílabas, e nenhuma por acaso.
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+O @sec-cap-96 definiu a função poética como a projeção do eixo da seleção sobre o da combinação —
+elementos que deveriam apenas se combinar passam a **se espelhar**. Este capítulo trata do lugar
+onde esse espelhamento se torna **mensurável**: o verso.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+E é preciso dizer, de saída, por que vale a pena. A versificação tem má fama: parece contagem
+mecânica, decoreba de nomes gregos, tecnicismo sem alma. Parte dessa fama é merecida — o ensino
+frequentemente reduz o assunto a contar sílabas e classificar rimas, o que é tão útil quanto
+saber o nome dos parafusos sem entender a máquina.
+
+Mas há uma razão para estudar isto, e ela é forte: **o metro e a rima produzem sentido**. Não são
+enfeite aplicado sobre o poema pronto — são parte do que ele diz. Um decassílabo que quebra no
+lugar errado **significa** a quebra; uma rima que aproxima duas palavras distantes **cria** uma
+relação entre elas que não existia. Este capítulo tenta mostrar isso, e não apenas ensinar a
+contar.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Escandir** versos, distinguindo sílaba poética de sílaba gramatical;
+- **Classificar** os versos quanto ao número de sílabas e reconhecer os tipos principais;
+- **Identificar** os tipos de rima quanto à tonicidade, à qualidade e à disposição;
+- **Distinguir** verso livre de verso branco — e não confundi-los;
+- **Analisar** o ritmo e o efeito do cavalgamento;
+- **Relacionar** a forma métrica ao sentido do poema.
+
+## A escansão
+
+**Escandir** é contar as **sílabas poéticas** de um verso. E a primeira coisa a saber é que elas
+**não** são as sílabas gramaticais.
+
+::: {.callout-important}
+## As três regras da escansão
+**Regra 1 — Conta-se até a última sílaba TÔNICA.** O que vem depois dela **não conta**.
+
+Esta é a regra que mais se erra, e a mais importante.
+
+> "Alma minha gentil, que te partiste"
+>
+> Al-ma-mi-nha-gen-til-que-te-par-**TIS**-te
+>
+> 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - **10** - ∅
+
+A sílaba *-te* final **não conta**: vem **depois** da tônica. O verso é **decassílabo**, embora
+tenha **onze** sílabas gramaticais.
+
+**Por quê?** Porque o que organiza o ritmo é o **acento**, não a sílaba. Depois do último acento,
+a voz **cai** — e o que cai não pesa. A regra não é convenção arbitrária: é uma descrição de como
+o verso **soa**.
+
+**Regra 2 — Vogais que se encontram FUNDEM-SE** (elisão, sinalefa, crase):
+
+> "Meu **coração não sei por que** bate feliz"
+>
+> A vogal final de uma palavra e a inicial da seguinte tendem a formar **uma só** sílaba
+> poética: *que\_A*, *do\_ou*, *minha\_alma* → *mi-nha\_al-ma* (3 sílabas, não 4).
+
+**Regra 3 — Ditongos e hiatos podem ser manipulados.** O poeta pode:
+
+- **desfazer** um ditongo em duas sílabas (**diérese**): *sau-da-de* → *sa-u-da-de*;
+- **fundir** um hiato numa sílaba (**sinérese**): *sa-í-da* → *saí-da*.
+
+**A consequência prática — e é o que a torna difícil:**
+
+A escansão **não é automática**. Depende de **como o verso é lido** — e a leitura é, em parte,
+uma **decisão**. Diante de uma sequência ambígua, o critério é: **conte de modo que o verso caiba
+no metro do poema**.
+
+**Isso parece circular, e não é.** É como afinar um instrumento pelo tom da orquestra: o poema
+estabelece um padrão (todos os versos têm dez), e esse padrão **informa** como ler os casos
+duvidosos. Se um verso "dá 11" pela contagem ingênua e todos os outros dão 10, a hipótese correta
+não é "o poeta errou" — é "eu li mal", e a elisão está ali.
+
+**A moral**: escandir é um **diálogo** com o poema, não a aplicação cega de um algoritmo. Quem
+conta sem ouvir erra.
+:::
+
+::: {#fig-escansao}
+
+```{.tikz}
+%%| filename: escansao
+%%| alt: Esquema da escansão de um decassílabo heroico de Camões, o verso Alma minha gentil que te partiste. O verso é dividido em sílabas poéticas numeradas de um a dez: Al, ma, mi, nha, gen, til, que, te, par, tis. A sílaba final te aparece em cinza e fora da contagem, com a indicação de que não conta por vir depois da última tônica. As sílabas seis, til, e dez, tis, aparecem destacadas em vermelho como sílabas tônicas. Abaixo, a indicação de que os acentos na sexta e na décima sílabas caracterizam o decassílabo heroico. Uma caixa lateral registra que o verso tem onze sílabas gramaticais e dez sílabas poéticas, porque se conta apenas até a última tônica. Outra caixa contrasta o decassílabo heroico, com acentos na sexta e na décima, e o decassílabo sáfico, com acentos na quarta, na oitava e na décima. Uma nota final observa que o que organiza o ritmo é o acento e não a sílaba, e que depois do último acento a voz cai, de modo que o que cai não pesa.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  sil/.style={rounded corners=2pt, draw=manualgray, fill=manualgray!8, align=center, inner sep=3pt, font=\scriptsize, minimum width=8mm, minimum height=6mm},
+  ton/.style={sil, draw=manualred, fill=manualred!18, line width=1pt},
+  fora/.style={sil, draw=manualgray, fill=white, text=manualgray, densely dashed},
+]
+  % as sílabas
+  \node[sil] (s1) at (-4.5,0) {Al};
+  \node[sil] (s2) at (-3.5,0) {ma};
+  \node[sil] (s3) at (-2.5,0) {mi};
+  \node[sil] (s4) at (-1.5,0) {nha};
+  \node[sil] (s5) at (-0.5,0) {gen};
+  \node[ton] (s6) at (0.5,0) {\textbf{til}};
+  \node[sil] (s7) at (1.5,0) {que};
+  \node[sil] (s8) at (2.5,0) {te};
+  \node[sil] (s9) at (3.5,0) {par};
+  \node[ton] (s10) at (4.5,0) {\textbf{tis}};
+  \node[fora] (s11) at (5.6,0) {te};
+
+  % numeração
+  \foreach \i/\x in {1/-4.5,2/-3.5,3/-2.5,4/-1.5,5/-0.5,6/0.5,7/1.5,8/2.5,9/3.5,10/4.5}{
+    \node[font=\scriptsize\bfseries, text=manualblue] at (\x,-0.62) {\i};}
+  \node[font=\scriptsize, text=manualgray] at (5.6,-0.62) {$\emptyset$};
+
+  \node[font=\scriptsize, text=manualgray, anchor=north, align=center] at (5.7,-1.0)
+    {\textbf{não conta}\\{\scriptsize vem \emph{depois}}\\{\scriptsize da última tônica}};
+
+  % marcas de tônica
+  \node[font=\scriptsize, text=manualred, anchor=south] at (0.5,0.45) {\textbf{tônica}};
+  \node[font=\scriptsize, text=manualred, anchor=south] at (4.5,0.45) {\textbf{tônica}};
+
+  % caixas
+  \node[rounded corners=2pt, draw=manualblue, fill=manualblue!10, align=left,
+        font=\scriptsize, inner sep=4pt, text width=52mm] at (-2.6,1.9)
+    {\emph{``Alma minha gentil, que te partiste''} --- Camões\\[2pt]
+     \textbf{11} sílabas \textbf{gramaticais}\\
+     \textbf{10} sílabas \textbf{poéticas} $\rightarrow$ \textbf{DECASSÍLABO}};
+
+  \node[rounded corners=2pt, draw=manualred, fill=manualred!10, align=left,
+        font=\scriptsize, inner sep=4pt, text width=46mm] at (3.4,2.2)
+    {Acentos em \textbf{6} e \textbf{10}\\
+     $\rightarrow$ decassílabo \textbf{HERÓICO}\\[2pt]
+     {\scriptsize (Acentos em \textbf{4}, \textbf{8} e \textbf{10}\\
+     $\rightarrow$ decassílabo \textbf{SÁFICO})}};
+
+  \node[rounded corners=2pt, draw=manualgreen, fill=manualgreen!8, align=center,
+        font=\scriptsize, inner sep=4pt, text width=100mm] at (0.3,-2.3)
+    {O que organiza o ritmo é o \textbf{acento}, não a sílaba.\\
+     Depois do último acento a voz \textbf{cai} --- e o que cai \textbf{não pesa}.};
+\end{tikzpicture}
+```
+
+A escansão de um decassílabo heroico. A regra fundamental: conta-se até a **última tônica**.
+
+:::
+
+## Os tipos de verso
+
+| Sílabas | Nome | Observação |
+|---:|---|---|
+| 1 | monossílabo | raro |
+| 2 | dissílabo | |
+| 3 | trissílabo | |
+| 4 | tetrassílabo | |
+| **5** | **redondilha menor** | popular, cantiga |
+| 6 | hexassílabo | |
+| **7** | **redondilha maior** | **o verso popular por excelência** — cordel, trova, quadrinha |
+| 8 | octossílabo | |
+| 9 | eneassílabo | |
+| **10** | **decassílabo** | **o verso clássico** — soneto, epopeia |
+| 11 | hendecassílabo | |
+| **12** | **alexandrino** | com cesura na 6ª — parnasiano |
 
 ::: {.callout-note}
-Capítulo em preparação.
+## Os dois versos que mais importam
+**A redondilha maior (7 sílabas)** é o verso da **tradição oral** brasileira: o **cordel**, a
+**trova**, a **quadrinha**, a **embolada**, o **repente**.
+
+Não é acaso. Sete sílabas correspondem, aproximadamente, ao que se diz **num só fôlego** e se
+retém **de uma só vez** — é uma medida ajustada à memória e à respiração. Por isso é o verso do
+que se **canta** e do que se **decora**.
+
+> "Minha terra tem palmeiras" (Gonçalves Dias)
+>
+> Mi-nha-ter-ra-tem-pal-**mei**-ras → **7**
+
+**O decassílabo (10 sílabas)** é o verso **culto** — do soneto, da epopeia, da tradição
+italiana e camoniana. Tem **duas** formas principais, definidas pelos **acentos**:
+
+| Tipo | Acentos | Efeito |
+|---|---|---|
+| **Heroico** | **6ª** e 10ª | solene, marcial, equilibrado |
+| **Sáfico** | **4ª**, **8ª** e 10ª | mais leve, melodioso |
+
+> **Heroico**: "Alma minha gen-**TIL**, que te par-**TIS**-te" (6 e 10)
+>
+> **Sáfico**: "As **ar**-mas e os ba-**rões** as-si-na-**la**-dos" — acentos em 2, 6, 10 (variante
+> heroica)
+
+**Por que a distinção importa**: o **lugar** do acento muda o **andamento**. O heroico, com a
+pausa natural após a 6ª, tem uma marcha em dois tempos — pesada, grave. O sáfico, com três
+apoios, corre mais leve. **Não é ornamento**: é o que faz *Os Lusíadas* soar como epopeia e não
+como canção.
+:::
+
+### Verso livre e verso branco — a distinção que cai em prova
+
+::: {.callout-important}
+## Livre ≠ branco
+Esta é **a** pegadinha do capítulo, e ela é fácil de resolver — desde que se entenda que são
+**dois critérios independentes**.
+
+| | **Verso BRANCO** | **Verso LIVRE** |
+|---|---|---|
+| **O que não tem** | **rima** | **metro** fixo |
+| **O que tem** | **metro** regular | pode ter ou não rima |
+| **Critério** | rima | métrica |
+
+**Verso BRANCO** (ou *solto*): tem **metro** — todos os versos têm o mesmo número de sílabas —,
+mas **não tem rima**. É a forma de Shakespeare (o *blank verse*, decassílabo sem rima) e de boa
+parte do teatro clássico.
+
+**Verso LIVRE**: **não tem metro fixo** — os versos têm comprimentos variados. É a conquista do
+**Modernismo** (1922 em diante).
+
+**As quatro combinações — e todas existem:**
+
+| | Com rima | Sem rima |
+|---|---|---|
+| **Com metro** | verso tradicional (soneto de Camões) | **verso branco** |
+| **Sem metro** | verso livre **rimado** (raro, mas existe) | **verso livre** típico |
+
+**O erro comum**: achar que verso livre é "verso sem rima". **Não**: é verso **sem metro**. Um
+verso pode ser livre **e rimado** — e um verso branco tem metro rigorosíssimo.
+
+**O truque para não errar**:
+
+- **BRANCO** → pense em **rima** ("faltou a cor da rima");
+- **LIVRE** → pense em **medida** ("livre da régua").
+
+**E a advertência que a boa resposta faz**: verso livre **não** é verso sem forma. Ele troca o
+metro por **outros** princípios de organização — o ritmo da fala, o paralelismo, o corte da
+linha, a distribuição na página. **Escrever verso livre bem é mais difícil**, não menos: quem
+escreve em decassílabos tem uma régua a que se agarrar; quem escreve livre precisa inventar a
+régua a cada poema. Drummond é a prova de que a liberdade não é facilidade.
+:::
+
+## A rima
+
+**Rima** é a identidade sonora a partir da **última vogal tônica**.
+
+### Quanto à tonicidade
+
+| Tipo | Rima em | Exemplo |
+|---|---|---|
+| **Aguda** (masculina) | **oxítona** | *amor* / *dor*; *café* / *pé* |
+| **Grave** (feminina) | **paroxítona** | *casa* / *asa*; *canto* / *espanto* |
+| **Esdrúxula** (dactílica) | **proparoxítona** | *lâmpada* / *pálpebra* |
+
+### Quanto à qualidade
+
+| Tipo | Definição | Exemplo |
+|---|---|---|
+| **Consoante** | identidade **total** a partir da tônica | *amor* / *dor* |
+| **Toante** | só as **vogais** coincidem | *casa* / *cara*; *ronda* / *sombra* |
+| **Rica** | palavras de **classes diferentes** | *amor* (subst.) / *maior* (adj.) |
+| **Pobre** | palavras da **mesma classe** | *amor* / *dor* (dois substantivos); *cantava* / *amava* (dois verbos) |
+| **Rara/preciosa** | poucas palavras rimam | *nuvem* / *lume* |
+
+::: {.callout-note}
+## Rima rica × pobre: cuidado com a hierarquia
+Os nomes enganam, e vale desarmá-los.
+
+**A definição**: rima **rica** é entre palavras de **classes gramaticais diferentes**; **pobre**,
+da **mesma** classe.
+
+**A lógica original**: rimar dois verbos no infinitivo (*amar* / *cantar*) é **fácil** — a língua
+oferece milhares. Rimar um substantivo com um adjetivo exige **procurar**. A "riqueza" mede,
+portanto, a **dificuldade** e a **imprevisibilidade**.
+
+**A armadilha**: rica **não** significa **melhor**, e pobre **não** significa **ruim**.
+
+**Por quê**: uma rima "pobre" pode ser **exatamente** o que o poema pede. Um poema popular, uma
+cantiga, um cordel **vivem** de rimas previsíveis — a previsibilidade **é** o efeito: ela produz
+familiaridade, embalo, memória. É por isso que se decora um cordel e não se decora um poema
+parnasiano.
+
+E o inverso: a rima rica **em excesso** pode soar como exibicionismo — o defeito clássico do
+Parnasianismo, que Bandeira ridicularizou.
+
+**O critério correto**: a rima **funciona** no poema? Ela **aproxima** palavras de modo produtivo?
+
+**Porque a função real da rima é essa** — e é o ponto que a classificação escolar perde: **a rima
+cria uma relação de sentido entre as palavras que aproxima**. Ao rimar *amor* com *dor*, o poema
+**afirma** que há uma relação entre as duas coisas — sem dizê-lo. É a **função poética** do
+@sec-cap-96 em ação: a equivalência **sonora** sugere equivalência **semântica**.
+
+**A pergunta que importa**, portanto, não é "essa rima é rica ou pobre?" — é: **que duas palavras
+o poema resolveu aproximar, e o que essa aproximação afirma?**
+:::
+
+### Quanto à disposição
+
+| Esquema | Nome | Exemplo |
+|---|---|---|
+| **AABB** | emparelhada (paralela) | comum na quadrinha popular |
+| **ABAB** | alternada (cruzada) | |
+| **ABBA** | interpolada (oposta) | quartetos do soneto italiano |
+| **ABCB** | mista/imperfeita | a quadra popular típica — só o 2º e o 4º rimam |
+| — | **rima interna** | dentro do próprio verso |
+| — | **versos soltos/brancos** | sem rima |
+
+## O ritmo e o cavalgamento
+
+::: {.callout-important}
+## O cavalgamento (*enjambement*) — onde a forma vira sentido
+**A definição**: quando a **frase** não termina no fim do **verso** e **transborda** para o
+seguinte.
+
+**Por que importa**: porque cria uma **tensão** entre duas estruturas que normalmente coincidem —
+a **sintática** (a frase) e a **métrica** (o verso). O leitor é puxado por duas forças opostas: a
+pausa do verso manda parar; a sintaxe manda continuar.
+
+**E é nessa tensão que o sentido se produz.**
+
+**O exemplo:**
+
+> "E assim, quando mais tarde me procure
+> quem sabe a morte, angústia de quem vive"
+>
+> — Vinicius de Moraes, *Soneto de Fidelidade*
+
+O verso 1 termina em *procure* — e a frase **não terminou**: falta o sujeito, que só vem no verso
+seguinte (*quem sabe a morte*). O leitor fica **suspenso** no fim do verso, e a suspensão **é** o
+efeito: ele **espera**, e a espera encena a própria expectativa da morte.
+
+**O que o cavalgamento faz:**
+
+1. **Destaca** a palavra no fim do verso — ela ganha uma saliência que não teria no meio da frase;
+2. **Suspende** — cria expectativa, retarda a resolução;
+3. **Surpreende** — a continuação pode ressignificar o que já se leu;
+4. **Aproxima o verso da fala** — quebra a monotonia do verso que sempre coincide com a frase.
+
+**A conexão com o @sec-cap-96**: o cavalgamento é **estranhamento** puro. Ele **retarda a
+percepção** — e retardar é a condição de perceber. Um poema em que todo verso fosse uma frase
+completa **escorregaria**; o cavalgamento força o leitor a **prestar atenção onde ele pararia**.
+
+**A regra de análise**: quando encontrar um cavalgamento, pergunte **que palavra ficou pendurada
+no fim do verso** — e por quê. Nunca é acaso. É a posição mais forte do verso, e o poeta a
+escolheu.
+:::
+
+### O ritmo
+
+O ritmo do verso português é dado pela **distribuição dos acentos** — não pela quantidade
+silábica (como no latim e no grego), mas pela **intensidade**.
+
+Os pés clássicos (jambo, troqueu, dátilo, anapesto) são herança da métrica **grega**, que era
+**quantitativa** (sílabas longas e breves). O português não tem sílabas longas e breves — tem
+**tônicas e átonas**. Por isso a terminologia dos pés se aplica ao português **com adaptação e
+com folga**, e o essencial é mais simples: **onde caem os acentos?**
+
+## Formas fixas
+
+**O soneto** — a forma fixa mais importante:
+
+| | **Italiano** (petrarquiano/camoniano) | **Inglês** (shakespeariano) |
+|---|---|---|
+| Estrutura | 2 **quartetos** + 2 **tercetos** | 3 quartetos + 1 **dístico** |
+| Verso | decassílabo | pentâmetro jâmbico |
+| Rima típica | ABBA ABBA + CDC DCD | ABAB CDCD EFEF **GG** |
+| Lógica | exposição nos quartetos → **volta**/conclusão nos tercetos | desenvolvimento → **fecho** no dístico |
+
+::: {.callout-note}
+## Por que a forma do soneto é uma forma de pensar
+O soneto não é uma caixa arbitrária em que se despeja um poema. **A estrutura é um argumento.**
+
+**No soneto italiano**: os dois quartetos **expõem** (apresentam uma situação, um problema, uma
+imagem); entre o segundo quarteto e o primeiro terceto há a **volta** (*volta*) — uma virada de
+perspectiva; os tercetos **resolvem** ou **complicam**.
+
+É a estrutura de um **raciocínio**: premissa, premissa, virada, conclusão. Quem escreve um soneto
+está sendo **obrigado** a pensar em quatro tempos.
+
+**No soneto inglês**: três quartetos desenvolvem, e o **dístico final** fecha — frequentemente com
+uma **reviravolta** ou um aforismo. A concentração no fim é maior: dois versos precisam segurar
+tudo.
+
+**O que isso demonstra** — e é a tese do capítulo:
+
+**A forma não é recipiente — é método.** Um soneto de Camões não é "um poema que por acaso tem 14
+versos": é um poema **cuja estrutura de sentido foi produzida pela estrutura formal**. Tire o
+soneto e o argumento se desfaz.
+
+É por isso que a versificação **não** é tecnicismo: contar os versos é reconstruir o **modo de
+pensar** do poema.
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A versificação obriga a uma revisão do que se disse sobre a norma — e numa direção específica.
+
+**O fato**: a **língua da poesia** viola a norma sistematicamente. E não por descuido:
+
+- **inversões** que a prosa não admite: "Cessem do sábio grego e do troiano / as navegações
+  grandes que fizeram";
+- **elisões** e **contrações** que a escrita formal rejeita: *n'alma*, *d'água*, *co'a*;
+- **arcaísmos** conservados por conveniência métrica;
+- **acentuação deslocada** para caber no metro.
+
+**Por que isso é aceito** — e a resposta **não** é "porque é poesia":
+
+1. **O gênero autoriza** (@sec-cap-96). A expectativa do gênero poético **inclui** a licença. O
+   leitor de poesia vai lá **sabendo** que a sintaxe será forçada — faz parte do contrato
+   (@sec-cap-72);
+2. **A restrição formal produz a licença.** E este é o ponto: a licença poética **não é
+   arbitrária** — ela é **motivada pelo metro**. O poeta não inverte porque quer: inverte porque
+   **precisa** caber em dez sílabas com acento na sexta. **A forma cria a necessidade, e a
+   necessidade justifica a licença.**
+
+**A consequência que interessa:**
+
+A **restrição** é produtiva. É o inverso do que o senso comum supõe — supõe-se que a forma
+**limita** a expressão, e o que acontece é o contrário: **a forma força a invenção**.
+
+Obrigado a caber em dez sílabas e a rimar, o poeta é empurrado para soluções que **não teria
+encontrado** em liberdade. A rima o obriga a procurar uma palavra que ele não pensaria — e essa
+palavra traz um sentido que ele não planejara. **A forma pensa junto.**
+
+É o argumento clássico a favor das formas fixas, e ele sobrevive ao Modernismo: **a dificuldade
+gera o achado**.
+
+**E a ressalva** (@sec-cap-96): isso **não** autoriza o aluno a inverter a sintaxe na redação. Lá o
+gênero é outro, **não há metro** que motive a licença, e portanto **não há necessidade** que a
+justifique. A inversão camoniana sem o decassílabo camoniano é só sintaxe ruim.
+
+**A licença poética exige a poesia** — e a poesia, aqui, é a **restrição** [@goldstein2006;
+@candido1996].
+:::
+
+## 📋 Quadro-resumo
+
+**ESCANSÃO** — três regras:
+
+1. **Conta-se até a última TÔNICA.** O que vem depois **não conta**. "Al-ma-mi-nha-gen-til-que-te-
+   par-**TIS**-(te)" = **10**, com **11** sílabas gramaticais;
+2. **Vogais que se encontram fundem-se** (elisão/sinalefa): *mi-nha\_al-ma* = 3;
+3. **Ditongos e hiatos são manipuláveis**: **diérese** (desfaz: *sa-u-da-de*) · **sinérese** (funde:
+   *saí-da*).
+
+**A escansão não é automática**: diante da dúvida, **conte de modo que o verso caiba no metro do
+poema**. Não é circular — é afinar pelo tom da orquestra. Se um verso "dá 11" e todos dão 10, **você
+leu mal**.
+
+**Os tipos de verso:**
+
+| | Nome | Onde |
+|---:|---|---|
+| **5** | **redondilha menor** | cantiga |
+| **7** | **redondilha maior** | **cordel, trova, repente** — um fôlego, uma memória |
+| **10** | **decassílabo** | **soneto, epopeia** |
+| **12** | **alexandrino** | parnasiano, cesura na 6ª |
+
+**Decassílabo**: **heroico** (acentos em **6** e **10** — solene) × **sáfico** (**4**, **8**, **10**
+— leve).
+
+**LIVRE ≠ BRANCO** — a pegadinha central:
+
+| | **BRANCO** | **LIVRE** |
+|---|---|---|
+| Não tem | **rima** | **metro** |
+| Tem | **metro regular** | rima ou não |
+
+**Truque**: **BRANCO** → pense em **rima** ("faltou a cor"). **LIVRE** → pense em **medida**
+("livre da régua"). **Verso livre não é "sem rima" — é sem metro**, e **não é sem forma**: troca o
+metro pelo ritmo da fala, pelo paralelismo, pelo corte. **É mais difícil**, não menos.
+
+**RIMA** — identidade sonora a partir da última vogal **tônica**:
+
+| Critério | Tipos |
+|---|---|
+| **Tonicidade** | **aguda** (oxítona) · **grave** (paroxítona) · **esdrúxula** (proparoxítona) |
+| **Qualidade** | **consoante** (identidade total) · **toante** (só vogais) · **rica** (classes **diferentes**) · **pobre** (**mesma** classe) |
+| **Disposição** | **AABB** emparelhada · **ABAB** alternada · **ABBA** interpolada · **ABCB** mista (a quadra popular) |
+
+**Rica ≠ melhor.** A rima pobre pode ser **exatamente** o que o poema pede: o cordel **vive** da
+previsibilidade — ela produz embalo e **memória**. **A função real da rima**: ela **cria relação de
+sentido** entre as palavras que aproxima. Rimar *amor* com *dor* **afirma** um vínculo sem dizê-lo
+— é a **função poética** (@sec-cap-96). **A pergunta certa**: que palavras o poema resolveu
+aproximar?
+
+**CAVALGAMENTO** (*enjambement*): a **frase** transborda o **verso**. Cria **tensão** entre
+sintaxe e métrica. Faz quatro coisas: **destaca** a palavra final · **suspende** · **surpreende**
+· **aproxima da fala**. É **estranhamento** puro: **retarda a percepção**. **Regra de análise**:
+pergunte **que palavra ficou pendurada** — nunca é acaso.
+
+**RITMO**: dado pela **distribuição dos acentos** — o português é **intensivo**, não quantitativo
+(como o grego/latim). Os "pés" clássicos aplicam-se **com folga**. A pergunta essencial: **onde
+caem os acentos?**
+
+**SONETO:**
+
+| | **Italiano** | **Inglês** |
+|---|---|---|
+| Estrutura | 2 quartetos + 2 **tercetos** | 3 quartetos + **dístico** |
+| Lógica | exposição → **volta** → conclusão | desenvolvimento → **fecho** |
+
+**A forma é MÉTODO, não recipiente**: a estrutura do soneto **é um argumento** (premissa, premissa,
+virada, conclusão). Contar os versos é reconstruir o **modo de pensar** do poema.
+
+**A licença poética**: aceita porque (1) **o gênero autoriza** e (2) **a restrição a motiva** — o
+poeta inverte porque **precisa** caber. **A restrição é PRODUTIVA**: a forma **força a invenção**;
+a rima obriga a achar a palavra que não se pensaria. **A dificuldade gera o achado.** Mas **a
+licença exige a poesia**: inversão sem metro é só sintaxe ruim.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Contar todas as sílabas gramaticais.** Conta-se **até a última tônica**. "…partis-**te**" → o
+  *-te* **não conta**.
+- **Esquecer a elisão.** *minha alma* = **3** sílabas poéticas, não 4.
+- **Confundir verso livre e branco.** **BRANCO** = sem **rima** (mas **com** metro). **LIVRE** =
+  sem **metro**.
+- **Achar que verso livre é "sem rima".** É **sem metro**. Pode ser livre **e** rimado.
+- **Achar que verso livre é sem forma ou mais fácil.** Troca o metro por **outros** princípios. É
+  **mais** difícil.
+- **Achar que rima rica é melhor.** Mede **dificuldade**, não qualidade. O cordel **vive** da rima
+  pobre — a previsibilidade **é** o efeito.
+- **Classificar a rima e parar aí.** A pergunta real: **que palavras o poema aproximou, e o que
+  isso afirma?**
+- **Achar que rima é só som.** Ela **cria relação de sentido** — é a função poética.
+- **Inverter heroico e sáfico.** **Heroico** = **6** e 10. **Sáfico** = **4**, **8** e 10.
+- **Ignorar o cavalgamento.** A palavra pendurada no fim do verso **nunca** é acaso.
+- **Achar que a forma limita.** A **restrição é produtiva**: força a invenção.
+- **Achar que "licença poética" autoriza tudo.** Ela é **motivada pelo metro**. Sem metro, não há
+  necessidade — e sem necessidade, não há licença.
+
+## ✍️ Exercícios
+
+**1.** Escanda: "Alma minha gentil, que te partiste" (Camões). Classifique.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A escansão:**
+
+> Al-ma-mi-nha-gen-**til**-que-te-par-**tis**-(te)
+>
+> 1 - 2 - 3 - 4 - 5 - **6** - 7 - 8 - 9 - **10** - ∅
+
+**Resultado: 10 sílabas poéticas → DECASSÍLABO.**
+
+**Os pontos de atenção:**
+
+**1. A sílaba final *-te* NÃO conta.** Ela vem **depois** da última tônica (*par-**TIS**-te*). O
+verso tem **11** sílabas **gramaticais** e **10** sílabas **poéticas**.
+
+**Por quê**: o que organiza o ritmo é o **acento**, não a sílaba. Depois do último acento, a voz
+**cai** — e o que cai **não pesa**. A regra descreve como o verso **soa**; não é convenção
+arbitrária.
+
+**2. Não há elisão a fazer aqui** — não há encontro de vogais entre palavras que exija fusão.
+(Compare com "minha alma", que daria *mi-nha\_al-ma* = 3.)
+
+**A classificação completa:**
+
+- **Quanto ao número de sílabas**: **decassílabo**;
+- **Quanto aos acentos**: as tônicas caem na **6ª** (*til*) e na **10ª** (*tis*) → **decassílabo
+  HERÓICO**;
+- **Quanto à terminação**: a última palavra (*partiste*) é **paroxítona** → o verso é **grave**, e
+  rimará em rima **grave (feminina)**.
+
+**O efeito do heroico** — e é o que a boa resposta acrescenta:
+
+Com a pausa natural após a **6ª** sílaba, o heroico tem uma marcha **em dois tempos** — pesada,
+grave, equilibrada. É o verso da **epopeia** e do **soneto** camoniano.
+
+Compare com o **sáfico** (acentos em **4**, **8** e **10**), que tem **três** apoios e corre mais
+**leve**. Não é ornamento: é o que faz *Os Lusíadas* soar como epopeia e não como canção.
+
+E note a adequação: este é o primeiro verso de um soneto **fúnebre** — Camões lamenta uma morte. O
+andamento grave e pausado do heroico **é** o luto. A forma não acompanha o tema: ela **o produz**.
+:::
+
+**2.** Distinga verso livre de verso branco.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**São dois critérios INDEPENDENTES** — e é a confusão entre eles que produz o erro.
+
+| | **Verso BRANCO** (ou solto) | **Verso LIVRE** |
+|---|---|---|
+| **O que NÃO tem** | **rima** | **metro** fixo |
+| **O que TEM** | **metro regular** | pode ter ou não rima |
+| **Critério** | **rima** | **métrica** |
+
+**Verso BRANCO**: tem **metro** — todos os versos com o mesmo número de sílabas —, mas **não tem
+rima**. É a forma de **Shakespeare** (o *blank verse*, decassílabo sem rima) e de boa parte do
+teatro clássico.
+
+**Verso LIVRE**: **não tem metro fixo** — os versos têm comprimentos variados. É a conquista do
+**Modernismo** (1922 em diante).
+
+**As quatro combinações — e TODAS existem:**
+
+| | **Com rima** | **Sem rima** |
+|---|---|---|
+| **Com metro** | verso tradicional (soneto de Camões) | **VERSO BRANCO** |
+| **Sem metro** | verso livre **rimado** (raro, mas existe) | **VERSO LIVRE** típico |
+
+**O erro comum**: achar que verso livre é "verso sem rima". **Não é**: é verso **sem metro**. Um
+verso pode ser **livre e rimado** — e um verso **branco** tem metro **rigorosíssimo**.
+
+**O truque para não errar:**
+
+- **BRANCO** → pense em **rima** ("faltou a **cor** da rima");
+- **LIVRE** → pense em **medida** ("**livre** da régua").
+
+**A advertência que a boa resposta faz:**
+
+**Verso livre NÃO é verso sem forma.** Ele **troca** o metro por **outros** princípios de
+organização:
+
+- o **ritmo da fala**;
+- o **paralelismo** sintático;
+- o **corte** da linha (onde quebrar é uma decisão carregada de sentido);
+- a **distribuição** na página.
+
+**E escrever verso livre bem é MAIS difícil**, não menos: quem escreve em decassílabos tem uma
+**régua** a que se agarrar; quem escreve livre precisa **inventar a régua a cada poema**. Drummond
+é a prova de que liberdade não é facilidade.
+:::
+
+**3.** Explique as três regras da escansão.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Regra 1 — Conta-se até a última sílaba TÔNICA.** O que vem depois **não conta**.
+
+> Al-ma-mi-nha-gen-til-que-te-par-**TIS**-te → **10** (não 11)
+
+**Por quê**: o que organiza o ritmo é o **acento**, não a sílaba. Depois do último acento, a voz
+**cai** — e o que cai **não pesa**. A regra **descreve** como o verso soa; não é convenção
+arbitrária.
+
+**Regra 2 — Vogais que se encontram FUNDEM-SE** (elisão, sinalefa, crase). A vogal final de uma
+palavra e a inicial da seguinte tendem a formar **uma só** sílaba poética:
+
+> *minha alma* → *mi-nha\_al-ma* = **3** sílabas (não 4)
+
+**Regra 3 — Ditongos e hiatos podem ser manipulados:**
+
+- **Diérese** — **desfaz** um ditongo em duas sílabas: *sau-da-de* → *sa-u-da-de* (3 → 4);
+- **Sinérese** — **funde** um hiato numa sílaba: *sa-í-da* → *saí-da* (3 → 2).
+
+**A consequência prática — e é o que torna a escansão difícil:**
+
+**A escansão NÃO é automática.** Depende de **como o verso é lido**, e a leitura é, em parte, uma
+**decisão**. Diante de uma sequência ambígua, o critério é: **conte de modo que o verso caiba no
+metro do poema**.
+
+**Isso parece circular — e não é.** É como **afinar um instrumento pelo tom da orquestra**: o poema
+estabelece um padrão (todos os versos têm dez), e esse padrão **informa** como ler os casos
+duvidosos.
+
+**A aplicação**: se um verso "dá 11" pela contagem ingênua e **todos os outros dão 10**, a
+hipótese correta **não** é "o poeta errou" — é "**eu li mal**", e há uma elisão que você não fez.
+
+**A moral**: escandir é um **diálogo** com o poema, não a aplicação cega de um algoritmo. **Quem
+conta sem ouvir erra.**
+:::
+
+**4.** Por que a redondilha maior é o verso da tradição oral?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A redondilha maior tem 7 sílabas poéticas:**
+
+> Mi-nha-ter-ra-tem-pal-**mei**-ras → **7** (Gonçalves Dias)
+
+**Onde aparece**: o **cordel**, a **trova**, a **quadrinha**, a **embolada**, o **repente**, a
+**cantiga** popular, o **samba**. É o verso popular por excelência da língua portuguesa.
+
+**Por que — a explicação:**
+
+**1. Um fôlego.** Sete sílabas correspondem, aproximadamente, ao que se diz **numa só emissão de
+voz**, sem precisar respirar no meio. Para quem **canta** ou **declama**, isso é decisivo: o verso
+cabe na respiração.
+
+**2. Uma unidade de memória.** Sete sílabas é também, aproximadamente, o que se retém **de uma só
+vez**. Para uma tradição **oral** — em que o texto não está no papel, mas na cabeça —, essa medida
+é **funcional**: ela é o tamanho do que se decora sem esforço.
+
+**3. A rima reforça.** Na quadra popular (**ABCB** — só o 2º e o 4º rimam), a rima **prevê** o
+final: quem ouve o segundo verso já **espera** o som do quarto. Isso ajuda a memorizar **e** a
+improvisar — o repentista precisa achar uma palavra que rime, e o esquema lhe diz **quando**.
+
+**A conclusão que a questão cobra:**
+
+A redondilha maior não é o verso popular por acaso nem por tradição arbitrária. Ela é **ajustada
+às condições materiais da transmissão oral**: a **respiração** e a **memória**.
+
+**Onde não há papel, a forma faz o trabalho do papel.** O metro e a rima **são** o suporte — eles
+guardam o texto. É por isso que se decora um cordel inteiro e não se decora um poema em verso
+livre: o cordel foi **construído** para ser guardado na cabeça.
+
+**O contraste que ilumina** — o **decassílabo**:
+
+É o verso **culto**, do soneto e da epopeia. Mais longo, exige **fôlego treinado** e — sobretudo —
+pressupõe o **papel**: é feito para ser **lido**, releitura possível, sintaxe complexa,
+cavalgamentos.
+
+**A oposição não é de qualidade — é de tecnologia.** Sete sílabas é a medida da **voz**; dez, a da
+**página**.
+:::
+
+**5.** Explique a rima rica × pobre e por que a hierarquia engana.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**As definições:**
+
+- **Rima RICA**: entre palavras de **classes gramaticais diferentes** — *amor* (substantivo) /
+  *maior* (adjetivo);
+- **Rima POBRE**: entre palavras da **mesma** classe — *amor* / *dor* (dois substantivos);
+  *cantava* / *amava* (dois verbos).
+
+**A lógica original**: rimar dois verbos no infinitivo (*amar* / *cantar*) é **fácil** — a língua
+oferece **milhares**. Rimar um substantivo com um adjetivo exige **procurar**. A "riqueza" mede,
+portanto, a **dificuldade** e a **imprevisibilidade** — não a qualidade.
+
+**Por que a hierarquia engana:**
+
+**1. Rica ≠ melhor.** Uma rima "pobre" pode ser **exatamente** o que o poema pede. O poema
+popular, a cantiga, o **cordel vivem** de rimas previsíveis — e **a previsibilidade é o efeito**:
+ela produz familiaridade, embalo, **memória**. É por isso que se decora um cordel e não se decora
+um poema parnasiano.
+
+**2. Rica em excesso vira defeito.** É o vício clássico do **Parnasianismo**: a rima rara e
+exibicionista, buscada por si mesma, que faz o leitor admirar a proeza e esquecer o poema.
+Bandeira ridicularizou isso — a rima que se exibe **chama atenção para o poeta**, não para o
+poema.
+
+**3. O critério é a FUNÇÃO, não a etiqueta.** A pergunta correta é: a rima **funciona** neste
+poema? Ela **aproxima** palavras de modo produtivo?
+
+**A função real da rima — e é o que a classificação escolar perde:**
+
+**A rima cria uma relação de sentido entre as palavras que aproxima.**
+
+Ao rimar *amor* com *dor*, o poema **afirma** que há uma relação entre as duas coisas — **sem
+dizê-lo**. A equivalência **sonora** sugere equivalência **semântica**. É a **função poética** do
+@sec-cap-96 em ação: projetar o eixo da seleção sobre o da combinação.
+
+**A consequência para a análise**: a pergunta que importa **não** é "essa rima é rica ou pobre?" —
+é:
+
+> **Que duas palavras o poema resolveu aproximar, e o que essa aproximação afirma?**
+
+Classificar a rima e parar aí é como identificar o parafuso e não perguntar o que ele segura.
+:::
+
+**6.** Explique o cavalgamento e analise seu efeito.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A definição**: quando a **frase** não termina no fim do **verso** e **transborda** para o
+seguinte (*enjambement*).
+
+**Por que importa**: cria uma **tensão** entre duas estruturas que normalmente **coincidem**:
+
+- a **sintática** (a frase) — que manda **continuar**;
+- a **métrica** (o verso) — que manda **parar**.
+
+O leitor é puxado por **duas forças opostas** — e é nessa tensão que o sentido se produz.
+
+**O exemplo:**
+
+> "E assim, quando mais tarde me **procure**
+> **quem sabe a morte**, angústia de quem vive"
+>
+> — Vinicius, *Soneto de Fidelidade*
+
+O verso 1 termina em *procure* — e a frase **não terminou**: falta o **sujeito**, que só vem no
+verso seguinte (*quem sabe a morte*). O leitor fica **suspenso** — e a suspensão **é** o efeito:
+ele **espera**, e a espera **encena a própria expectativa da morte** de que o poema fala.
+
+**O que o cavalgamento faz — quatro coisas:**
+
+1. **DESTACA** a palavra no fim do verso — ela ganha uma saliência que não teria no meio da
+   frase. É a posição mais forte do verso;
+2. **SUSPENDE** — cria expectativa, retarda a resolução;
+3. **SURPREENDE** — a continuação pode **ressignificar** o que já se leu;
+4. **APROXIMA DA FALA** — quebra a monotonia do verso que sempre coincide com a frase.
+
+**A conexão com o @sec-cap-96 — e é o que a boa resposta traz:**
+
+O cavalgamento é **estranhamento puro**. Ele **retarda a percepção** — e retardar é a **condição
+de perceber**. Um poema em que **todo** verso fosse uma frase completa **escorregaria**: o leitor
+deslizaria por ele sem parar em lugar nenhum. O cavalgamento **força a atenção onde ele
+pararia**.
+
+**A regra de análise**: quando encontrar um cavalgamento, pergunte:
+
+> **Que palavra ficou pendurada no fim do verso — e por quê?**
+
+**Nunca é acaso.** É a posição mais forte do verso, e o poeta a escolheu. Em Vinicius, ficou
+*procure* — um subjuntivo suspenso, sem sujeito, esperando quem o cumpra. E quem vem é a morte.
+:::
+
+**7.** Por que a estrutura do soneto é "uma forma de pensar"?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**As duas estruturas:**
+
+| | **Italiano** (petrarquiano/camoniano) | **Inglês** (shakespeariano) |
+|---|---|---|
+| Estrutura | 2 **quartetos** + 2 **tercetos** | 3 quartetos + 1 **dístico** |
+| Verso | decassílabo | pentâmetro jâmbico |
+| Rima típica | ABBA ABBA + CDC DCD | ABAB CDCD EFEF **GG** |
+
+**No soneto ITALIANO — a lógica:**
+
+- os **dois quartetos expõem**: apresentam uma situação, um problema, uma imagem;
+- entre o 2º quarteto e o 1º terceto há a **VOLTA** (*volta*): uma **virada** de perspectiva;
+- os **tercetos resolvem** ou complicam.
+
+**É a estrutura de um RACIOCÍNIO**: premissa, premissa, **virada**, conclusão. Quem escreve um
+soneto está sendo **obrigado** a pensar em **quatro tempos** — e a virada tem **hora marcada**.
+
+**No soneto INGLÊS**: três quartetos **desenvolvem**, e o **dístico final fecha** — frequentemente
+com uma reviravolta ou um aforismo. A concentração no fim é **maior**: **dois versos** precisam
+segurar tudo o que veio antes.
+
+**Por que isso é "uma forma de pensar" — a tese:**
+
+**A forma não é recipiente — é MÉTODO.**
+
+Um soneto de Camões **não é** "um poema que por acaso tem 14 versos". É um poema **cuja estrutura
+de sentido foi produzida pela estrutura formal**. A forma **não** acomodou um pensamento
+preexistente: ela **o gerou**.
+
+**Tire o soneto e o argumento se desfaz** — porque o argumento **é** a forma. A virada acontece no
+nono verso **porque** o soneto tem uma dobra ali; se o poema tivesse outra forma, teria outro
+pensamento.
+
+**A demonstração**: o poeta que se senta para escrever um soneto **sabe**, antes de começar, que
+terá de virar no nono verso. Isso **molda** o que ele vai pensar — obriga-o a formular um problema
+que **caiba** em oito versos e uma resposta que caiba em seis. **A forma pensa junto.**
+
+**A consequência que fecha o capítulo:**
+
+**A versificação não é tecnicismo.** Contar os versos, localizar a volta, achar o cavalgamento —
+isso é **reconstruir o modo de pensar do poema**. Não é medir o poema por fora: é **entrar** nele.
+
+É o mesmo argumento da **restrição produtiva**: obrigado a caber, o poeta é empurrado para
+soluções que **não teria encontrado** em liberdade. **A dificuldade gera o achado.**
+:::
+
+**8.** (Estilo Cebraspe — julgue C ou E)
+
+I. Na escansão, contam-se todas as sílabas gramaticais do verso.
+II. O verso branco não tem rima, mas tem metro regular.
+III. O decassílabo heroico apresenta acentos na 6ª e na 10ª sílabas.
+IV. A rima rica é sempre superior à rima pobre.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — ERRADO.** Conta-se **até a última sílaba TÔNICA**; o que vem depois **não conta**.
+
+> Al-ma-mi-nha-gen-til-que-te-par-**TIS**-te → **10** sílabas poéticas, **11** gramaticais
+
+Além disso, a escansão faz **elisões** (*minha alma* = 3 sílabas), **diérese** e **sinérese** — ou
+seja, a sílaba **poética** é uma unidade **rítmica**, não ortográfica. O item confunde as duas.
+
+**II — CERTO.** É a definição exata. O verso **branco** (ou solto) **não tem rima**, mas **tem
+metro regular** — todos os versos com o mesmo número de sílabas. É a forma do *blank verse* de
+Shakespeare (decassílabo sem rima).
+
+**Não confundir com o verso LIVRE**, que é o que **não tem metro** (e pode ter ou não rima). São
+**critérios independentes**: branco → **rima**; livre → **metro**.
+
+**III — CERTO.** O decassílabo **heroico** tem acentos na **6ª** e na **10ª** — "Alma minha
+gen-**TIL**, que te par-**TIS**-te". Com a pausa após a 6ª, tem marcha **em dois tempos**: pesada,
+grave, solene. É o verso da epopeia.
+
+O **sáfico** tem acentos na **4ª**, **8ª** e **10ª** — três apoios, andamento mais **leve**.
+
+**IV — ERRADO.** "Rica" mede **dificuldade e imprevisibilidade** (classes gramaticais diferentes),
+**não qualidade**.
+
+Uma rima **pobre** pode ser **exatamente** o que o poema pede: o **cordel** e a quadra popular
+**vivem** de rimas previsíveis — a **previsibilidade é o efeito**, porque produz embalo e
+**memória**. E a rima rica **em excesso** vira exibicionismo (o vício parnasiano).
+
+**O critério correto**: a rima **funciona**? Que palavras ela **aproxima**, e o que essa
+aproximação **afirma**?
+
+**Gabarito: E, C, C, E.**
+:::
+
+**9.** (Estilo ENEM) Um poema apresenta versos de diferentes comprimentos, sem rima. Trata-se de:
+
+a) verso branco;
+b) verso livre;
+c) verso heroico;
+d) redondilha maior;
+e) verso alexandrino.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: b.**
+
+**Por que b está certa**: **verso livre** é o que **não tem metro fixo** — versos de comprimentos
+variados. O enunciado descreve exatamente isso ("versos de diferentes comprimentos"). A ausência
+de rima é compatível com o verso livre (que **pode** ter ou não rima), mas **não é** o que o
+define.
+
+**Por que as outras erram:**
+
+**a)** Falso, e é a **pegadinha central**. O verso **branco** não tem **rima**, mas **tem metro
+regular** — todos os versos com o **mesmo** número de sílabas. O enunciado diz "diferentes
+comprimentos", o que **exclui** o verso branco.
+
+O erro se produz porque o enunciado menciona "sem rima", e o candidato desavisado associa branco =
+sem rima e para aí. Mas os **dois** critérios precisam ser checados: sem rima **e** com metro =
+branco; **sem metro** = livre.
+
+**c)** Falso. **Heroico** é um tipo de **decassílabo** — logo, tem **metro fixo** (10 sílabas), com
+acentos na 6ª e na 10ª. Incompatível com "diferentes comprimentos".
+
+**d)** Falso. **Redondilha maior** é o verso de **7** sílabas — metro fixo. Incompatível.
+
+**e)** Falso. **Alexandrino** é o verso de **12** sílabas, com cesura na 6ª — metro fixo.
+Incompatível.
+
+**A chave da questão**: (c), (d) e (e) são todos **metros fixos** — e o enunciado diz que os versos
+têm comprimentos **diferentes**. Isso elimina os três de uma vez, restando (a) e (b). Entre os
+dois, decide o **metro**: branco **tem**, livre **não tem**.
+
+**O truque para nunca errar**:
+
+- **BRANCO** → pense em **rima** ("faltou a **cor** da rima" — mas a régua está lá);
+- **LIVRE** → pense em **medida** ("**livre** da régua").
+:::
+
+**10.** Por que se diz que a restrição formal é produtiva?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A tese**: a forma fixa — metro, rima, número de versos — **não limita** a expressão. Ela **força
+a invenção**.
+
+**É o inverso do senso comum.** Supõe-se que a forma **aprisiona** o poeta, que teria dito melhor
+em liberdade. O que acontece é o **contrário**.
+
+**O mecanismo:**
+
+Obrigado a caber em **dez sílabas**, com acento na **sexta**, e a **rimar** com um verso anterior,
+o poeta é **empurrado** para soluções que **não teria encontrado** sozinho:
+
+- **A rima o obriga a procurar** uma palavra que ele **não pensaria** — e essa palavra **traz um
+  sentido** que ele não planejara. O poema vai para onde a rima o leva;
+- **O metro o obriga a cortar** — e o corte revela o que era supérfluo;
+- **A estrutura o obriga a virar** no nono verso — e a virada **produz** um pensamento que ele não
+  teria tido.
+
+**A formulação**: **a forma pensa junto**. Ela não é um molde em que se despeja um pensamento
+pronto — é um **interlocutor** que faz objeções e sugere caminhos.
+
+**O argumento clássico**: **a dificuldade gera o achado**. É a defesa tradicional das formas
+fixas, e ela **sobrevive ao Modernismo**: mesmo os poetas que abandonaram o metro reconhecem que a
+restrição produz.
+
+**A prova pelo verso livre** — e é o que fecha o argumento:
+
+O verso livre **não é ausência de forma**. Ele **troca** o metro por **outros** princípios: o ritmo
+da fala, o paralelismo, o corte da linha, a página.
+
+E é **mais difícil** justamente por isso: quem escreve em decassílabos tem uma **régua a que se
+agarrar**; quem escreve livre precisa **inventar a régua a cada poema**. **A liberdade não é
+facilidade** — é a obrigação de criar a própria restrição.
+
+**A conexão com o @sec-cap-96**: é o **estranhamento** por outro caminho. A restrição **retarda** e
+**desvia** — impede o poeta de tomar o caminho automático, que é o caminho do já-dito. **A forma
+protege o poema do lugar-comum**, obrigando-o a dar a volta.
+
+**A ressalva**: nada disso significa que forma fixa seja **melhor** que verso livre. Significa que
+**ambos** operam por restrição — só que uma é herdada e a outra, inventada. Não há poema sem
+alguma.
+:::
+
+**11.** Analise a rima em "amor/dor". O que a aproximação afirma?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A classificação técnica:**
+
+- **Quanto à tonicidade**: **aguda** (masculina) — as duas palavras são **oxítonas**;
+- **Quanto à qualidade**: **consoante** (identidade total a partir da tônica: */oɾ/*) e **pobre**
+  (dois **substantivos** — mesma classe);
+- **Quanto à frequência**: é uma das rimas **mais gastas** da língua portuguesa.
+
+**E é aqui que a análise escolar para — e é onde a boa análise começa.**
+
+**O que a aproximação AFIRMA:**
+
+**A rima cria uma relação de sentido entre as palavras que aproxima.** Ao rimar *amor* com *dor*,
+o poema **afirma** — **sem dizê-lo** — que há um vínculo entre as duas coisas: que amar **dói**,
+que a dor é o preço ou a substância do amor.
+
+**A afirmação não passa pela sintaxe.** Nenhuma frase do poema precisa dizer "o amor causa dor" —
+a **forma** já disse. É a **função poética** (@sec-cap-96): a equivalência **sonora** sugere
+equivalência **semântica**. O leitor recebe a tese **pelo ouvido**, antes de recebê-la pelo
+argumento — e por isso a aceita sem examiná-la.
+
+**Por que a rima é "gasta" — e o que fazer com isso:**
+
+*Amor/dor* é previsível. E a previsibilidade tem **dois** valores opostos, dependendo do poema:
+
+- **Contra**: num poema que se pretende original, ela denuncia **preguiça** — o poeta foi para
+  onde a língua o empurrou, e a tese ("amar dói") vem junto, de graça, já pronta. É o
+  lugar-comum funcionando;
+- **A favor**: num poema **popular**, numa canção, num cordel, a previsibilidade **é o efeito**.
+  Ela produz familiaridade, embalo, memória. E mais: a rima gasta **carrega a tradição inteira** —
+  quem rima *amor* com *dor* está invocando séculos de poemas que fizeram o mesmo. Isso pode ser
+  usado **deliberadamente**.
+
+**O critério de análise**: não pergunte se a rima é rica ou pobre. Pergunte:
+
+> **Que palavras o poema resolveu aproximar — e o que essa aproximação afirma?**
+
+**E depois**: **essa afirmação é o que o poema quer dizer?** Se sim, a rima trabalhou. Se a rima
+afirma "amar dói" e o poema fala de outra coisa, a rima está **contradizendo** o poema — e aí ela
+é um defeito, por mais rica que fosse.
+
+**A moral**: a rima **nunca** é neutra. Ela **sempre** afirma alguma coisa — e o poeta é
+responsável pelo que ela afirma, tenha ele planejado ou não.
+:::
+
+**12.** Como a versificação se relaciona com a função poética do @sec-cap-96?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A relação é de instância para princípio**: a versificação é o **lugar onde a função poética se
+torna mensurável**.
+
+**A definição de Jakobson** (@sec-cap-96): a função poética consiste em **projetar o eixo da
+seleção sobre o eixo da combinação** — fazer que elementos que deveriam apenas **se combinar**
+passem a **se espelhar**, por **equivalência**.
+
+**Cada recurso da versificação É uma equivalência:**
+
+| Recurso | Que equivalência projeta |
+|---|---|
+| **Metro** | equivalência **rítmica** entre versos — todos com o mesmo número de sílabas |
+| **Rima** | equivalência **sonora** entre palavras em posições diferentes |
+| **Aliteração** | equivalência **fônica** ao longo da cadeia |
+| **Paralelismo** | equivalência **sintática** entre estruturas |
+| **Estrofe** | equivalência **estrutural** entre blocos |
+
+**Em todos, o mesmo mecanismo**: a **combinação** (a sequência) passa a ser organizada por
+relações de **equivalência** — que são relações do eixo **paradigmático**.
+
+**Por que o verso é o caso exemplar:**
+
+Num texto em prosa, a função poética é **difusa** — está lá, mas dispersa. **No verso, ela é
+sistemática e mensurável**:
+
+- pode-se **contar** as sílabas e verificar a equivalência métrica;
+- pode-se **mapear** o esquema de rimas (ABBA, ABAB);
+- pode-se **localizar** os acentos e descrever o ritmo.
+
+**A versificação é a função poética virada procedimento** — e é por isso que ela é ensinável e
+verificável, enquanto "sensibilidade poética" não é.
+
+**As duas consequências que fecham o capítulo:**
+
+**1. Contar não é o fim — é o começo.** A escansão **não é** o objetivo. Ela é o que permite
+**ver** onde a equivalência está — e então perguntar **o que ela faz**. Contar dez sílabas é
+inútil; perceber que o verso é **heroico** e que sua marcha grave **é** o luto do soneto, isso é
+análise.
+
+**2. A rima significa.** É a consequência mais importante. Se a rima projeta equivalência sonora
+sobre a cadeia, então **ela afirma que as palavras rimadas têm algo a ver uma com a outra** —
+**sem dizê-lo**. *Amor/dor* **afirma** que amar dói. Nenhuma frase precisou dizê-lo.
+
+**A síntese**: a versificação é o **avesso técnico** da função poética. Jakobson deu o
+**princípio**; a métrica dá o **procedimento**. Quem sabe contar e não sabe por que conta tem a
+técnica sem o princípio; quem fala em "musicalidade" sem escandir tem a impressão sem a
+verificação. **A análise pede as duas** [@goldstein2006; @candido1996].
+:::
+
+## 📚 Referências
+
+A exposição da métrica portuguesa segue Goldstein [@goldstein2006], referência didática
+consagrada; a articulação entre forma e sentido apoia-se em Candido [@candido1996], cujo *Estudo
+Analítico do Poema* é o modelo de análise aqui pressuposto. Para a estilística que enquadra o
+capítulo, ver Martins [@martins2008] e o @sec-cap-96; a função poética foi apresentada no
+@sec-cap-05. As questões de sílaba, tonicidade e acento remetem aos @sec-cap-10 e @sec-cap-17.
+
+O capítulo final do manual põe tudo em movimento: a @sec-cap-98 trata da **análise literária e do
+estilo** — como ler um texto literário inteiro, usando o que quinze volumes construíram.
+
+::: {#refs}
 :::
