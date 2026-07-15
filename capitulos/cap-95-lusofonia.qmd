@@ -4,22 +4,1108 @@ title: "A lusofonia: o português no mundo"
 
 # A lusofonia: o português no mundo {#sec-cap-95}
 
-<!--
-ANATOMIA OBRIGATÓRIA (ver CLAUDE.md). Capítulo STUB — a preencher.
-Volume 15 — História da Língua e Estilística.
+> "Uma língua com nove países, dois centros de norma e uma palavra problemática para se
+> descrever."
 
-1. Abertura: epígrafe curta opcional (com fonte) + 1–2 parágrafos de contextualização.
-2. 🎯 Objetivos de aprendizagem (3–6 itens iniciados por verbo).
-3. Desenvolvimento: seções ## e ###, exemplos autênticos do PB, contraste norma × uso.
-4. Figuras TikZ (mínimo 1 quando o tema for visualizável).
-5. 📋 Quadro-resumo.
-6. ⚠️ Pegadinhas e erros comuns.
-7. ✍️ Exercícios (8–12) com soluções colapsáveis (callout-tip collapse="true").
-8. 📚 Referências via @chave (referencias.bib, ABNT).
+Os capítulos anteriores seguiram o português de Roma à Península, da Península a Portugal, e de
+Portugal ao Brasil. Falta o resto do mundo — e o resto do mundo é grande.
 
-Extensão-alvo: 2.500–4.500 palavras + exercícios.
--->
+O português é hoje a **língua oficial de nove países** em **quatro continentes**, e a língua
+materna de cerca de **260 milhões** de pessoas. É a **quinta ou sexta** língua mais falada do
+planeta, dependendo do critério. E — o dado que mais surpreende o brasileiro — **projeta-se que
+a maioria dos falantes de português seja africana** antes do fim deste século.
+
+Este capítulo trata desse conjunto. Mas trata também da palavra que o nomeia, porque ela é
+problemática, e a crítica a ela ensina mais que a celebração.
+
+## 🎯 Objetivos de aprendizagem
+
+Ao final deste capítulo, você será capaz de:
+
+- **Situar** os países de língua portuguesa e seus perfis sociolinguísticos;
+- **Distinguir** o português como língua materna, segunda língua e língua oficial;
+- **Caracterizar** os crioulos de base portuguesa e distingui-los das variedades do português;
+- **Analisar** criticamente o conceito de "lusofonia" e a CPLP;
+- **Projetar** o futuro demográfico da língua e suas consequências normativas;
+- **Avaliar** a questão da pluricentricidade e da norma.
+
+## O mapa
+
+::: {#fig-lusofonia}
+
+```{.tikz}
+%%| filename: lusofonia
+%%| alt: Esquema dos nove países de língua oficial portuguesa, organizados por perfil sociolinguístico e não por geografia. Primeiro grupo, países em que o português é língua materna da quase totalidade: Brasil, com cerca de duzentos e treze milhões de habitantes, e Portugal, com cerca de dez milhões. Segundo grupo, países africanos em que o português é oficial mas convive com línguas nacionais e é segunda língua da maioria: Angola, com cerca de trinta e seis milhões, onde o português avança rapidamente como língua materna urbana; Moçambique, com cerca de trinta e três milhões, onde é língua materna de uma minoria; Guiné-Bissau, com cerca de dois milhões, onde o crioulo é a língua franca real; Cabo Verde, com cerca de meio milhão, onde o crioulo é a língua materna de todos; e São Tomé e Príncipe, com cerca de duzentos mil. Terceiro grupo, casos particulares: Timor-Leste, na Ásia, com cerca de um milhão e meio, onde o português é cooficial com o tétum e foi readotado por razões de identidade após a ocupação indonésia; e Guiné Equatorial, que adotou o português como oficial em dois mil e onze, embora quase ninguém o fale ali. Uma caixa de destaque registra a projeção demográfica: a maioria dos falantes de português será africana antes do fim do século, e o Brasil concentra hoje cerca de oitenta por cento dos falantes nativos.
+
+\begin{tikzpicture}[
+  font=\footnotesize,
+  pais/.style={rounded corners=2pt, draw, align=left, inner sep=3pt, font=\scriptsize, text width=48mm},
+  g/.style={font=\scriptsize\bfseries},
+]
+  \node[g, text=manualgreen] at (-4.0,3.5) {L1 DA QUASE TOTALIDADE};
+  \node[pais, draw=manualgreen, fill=manualgreen!12] at (-4.0,2.7)
+    {\textbf{BRASIL} --- $\approx$213 mi\\{\scriptsize $\approx$\textbf{80\%} dos falantes nativos}};
+  \node[pais, draw=manualgreen, fill=manualgreen!12] at (-4.0,1.6)
+    {\textbf{PORTUGAL} --- $\approx$10 mi\\{\scriptsize a norma europeia}};
+
+  \node[g, text=manualblue] at (3.4,3.5) {ÁFRICA --- oficial, \emph{convive} com línguas nacionais};
+  \node[pais, draw=manualblue, fill=manualblue!12] at (3.4,2.7)
+    {\textbf{ANGOLA} --- $\approx$36 mi\\{\scriptsize L2 da maioria; \textbf{avança} como L1 urbana}};
+  \node[pais, draw=manualblue, fill=manualblue!12] at (3.4,1.6)
+    {\textbf{MOÇAMBIQUE} --- $\approx$33 mi\\{\scriptsize L1 de uma \textbf{minoria}}};
+  \node[pais, draw=manualblue, fill=manualblue!12] at (3.4,0.5)
+    {\textbf{GUINÉ-BISSAU} --- $\approx$2 mi\\{\scriptsize o \textbf{crioulo} é a língua franca real}};
+  \node[pais, draw=manualblue, fill=manualblue!12] at (3.4,-0.6)
+    {\textbf{CABO VERDE} --- $\approx$0,5 mi\\{\scriptsize o \textbf{crioulo} é L1 de \textbf{todos}}};
+  \node[pais, draw=manualblue, fill=manualblue!12] at (3.4,-1.7)
+    {\textbf{SÃO TOMÉ E PRÍNCIPE} --- $\approx$0,2 mi};
+
+  \node[g, text=manualyellow] at (-4.0,0.4) {CASOS PARTICULARES};
+  \node[pais, draw=manualyellow, fill=manualyellow!14] at (-4.0,-0.4)
+    {\textbf{TIMOR-LESTE} (Ásia) --- $\approx$1,5 mi\\{\scriptsize cooficial com o \textbf{tétum}}\\{\scriptsize readotado por \textbf{identidade}}};
+  \node[pais, draw=manualyellow, fill=manualyellow!14] at (-4.0,-1.7)
+    {\textbf{GUINÉ EQUATORIAL} --- 2011\\{\scriptsize oficial --- mas quase \textbf{ninguém fala}}};
+
+  \node[rounded corners=3pt, draw=manualred, fill=manualred!12, align=center,
+        font=\scriptsize, inner sep=5pt, text width=100mm] at (0,-3.2)
+    {\textbf{A PROJEÇÃO}: a \textbf{maioria} dos falantes de português será \textbf{africana} antes do
+     fim do século.\\
+     Hoje o Brasil concentra $\approx$\textbf{80\%} dos falantes nativos --- e a África é onde a
+     população \textbf{cresce}.};
+\end{tikzpicture}
+```
+
+Os nove países de língua oficial portuguesa, organizados por **perfil sociolinguístico** — que é
+o que importa — e não por geografia.
+
+:::
+
+| País | População | O português é… |
+|---|---|---|
+| **Brasil** | ~213 mi | **L1** da quase totalidade — ~80% dos falantes nativos do mundo |
+| **Portugal** | ~10 mi | **L1** da quase totalidade — a norma europeia |
+| **Angola** | ~36 mi | oficial; **L2** da maioria, mas **avança rapidamente** como L1 urbana |
+| **Moçambique** | ~33 mi | oficial; **L1 de uma minoria** (~17%), L2 de muitos |
+| **Guiné-Bissau** | ~2 mi | oficial; o **crioulo** é a língua franca real |
+| **Cabo Verde** | ~0,5 mi | oficial; o **crioulo** é L1 de **todos** |
+| **São Tomé e Príncipe** | ~0,2 mi | oficial; L1 majoritária, com crioulos |
+| **Timor-Leste** | ~1,5 mi | **cooficial** com o tétum; L1 de pouquíssimos |
+| **Guiné Equatorial** | ~1,5 mi | oficial desde **2011** — mas quase ninguém o fala |
+
+::: {.callout-important}
+## Oficial não significa falado
+Esta é a distinção que organiza o capítulo, e a que mais se erra.
+
+**Três estatutos diferentes**, que a expressão "país de língua portuguesa" embaralha:
+
+| Estatuto | O que significa | Exemplo |
+|---|---|---|
+| **Língua materna (L1)** | adquirida na infância, em casa | Brasil, Portugal |
+| **Segunda língua (L2)** | aprendida depois, na escola ou na rua | a maioria em Moçambique e Angola |
+| **Língua oficial** | **decisão do Estado** — nada diz sobre quem fala | **Guiné Equatorial** |
+
+**O caso extremo: a Guiné Equatorial.** Adotou o português como língua oficial em **2011** — e
+**quase ninguém o fala** no país (a língua franca é o espanhol e o francês). A adoção foi um
+**gesto diplomático**: a condição para ingressar na CPLP, num país cujo governo buscava
+legitimação internacional.
+
+**O que o caso ensina**: "língua oficial" é um **estatuto jurídico**, não um fato demográfico. É
+política linguística no estado mais puro (@sec-cap-91) — e mostra que a categoria "países de
+língua portuguesa" mistura realidades incomparáveis.
+
+**A comparação que fecha**: somar Brasil (213 milhões de falantes nativos) e Guiné Equatorial
+(quase nenhum) numa mesma lista de "países lusófonos" produz um número impressionante e uma
+descrição ruim. Os números da lusofonia costumam ser inflados exatamente assim.
+:::
+
+## A África: onde a língua vai
+
+Aqui está a parte que o brasileiro menos conhece — e a mais importante para o futuro.
+
+### Angola
+
+O caso mais dinâmico. O português foi imposto pelo colonialismo, mas a história pós-independência
+produziu algo que os colonizadores não planejaram: ele **está se tornando língua materna**,
+sobretudo em **Luanda**.
+
+**As causas**: guerra civil (1975–2002), êxodo rural maciço, urbanização acelerada. Em Luanda —
+uma cidade que reuniu pessoas de todas as etnias e línguas do país —, o português tornou-se a
+língua **franca** e, na geração seguinte, a língua **materna** das crianças nascidas ali.
+
+**A ironia**: a língua do colonizador venceu **depois** da independência, e por razões internas —
+não pela imposição colonial, mas pela **urbanização**. As línguas nacionais (umbundo, quimbundo,
+quicongo) recuam nas cidades.
+
+**O português angolano** tem traços próprios: fonologia influenciada pelas línguas banto, léxico
+específico (*candongueiro*, *musseque*, *kizomba*, *bué* — que já entrou no PE juvenil), e
+construções sintáticas que a norma portuguesa não reconhece.
+
+### Moçambique
+
+O português é **L1 de uma minoria** (~17%) e L2 de muitos. Convive com dezenas de línguas banto
+(emakhuwa, xichangana, cisena).
+
+**A escolha pós-independência**, que é instrutiva: a FRELIMO adotou o **português** como língua
+oficial — a língua do colonizador — deliberadamente. **Por quê?**
+
+- era a única língua **neutra** entre as etnias: escolher uma língua nacional seria privilegiar um
+  grupo;
+- era a língua da **unidade nacional** e da administração;
+- era a língua da **luta** — a que os militantes de diferentes etnias usavam entre si.
+
+**O paradoxo**: a língua do colonizador tornou-se instrumento de **descolonização** — porque era
+a única que não pertencia a nenhum dos grupos internos. É um dos casos mais citados de política
+linguística (@sec-cap-91), e mostra que a relação entre língua e poder não é mecânica.
+
+### Cabo Verde e Guiné-Bissau: os crioulos
+
+Aqui a situação é diferente, e exige o conceito de **crioulo**.
+
+## Os crioulos de base portuguesa
+
+::: {.callout-important}
+## O que é um crioulo — e o que não é
+**A definição técnica**, em duas etapas:
+
+1. **Pidgin** — uma língua **de contato**, simplificada, que ninguém tem como língua materna.
+   Nasce quando falantes sem língua comum precisam se comunicar (comércio, plantação). É
+   funcional e limitado;
+2. **Crioulo** — o que acontece quando uma geração de crianças adquire o pidgin como **língua
+   materna**. Elas o **expandem e regularizam** — criam gramática onde havia improviso — e o
+   resultado é uma língua **plena**.
+
+**O ponto que não pode ser perdido**: crioulos são **línguas completas**. Têm gramática, sintaxe
+complexa, literatura, capacidade expressiva plena. Um crioulo **não** é "português mal falado" —
+é **outra língua**, com sistema próprio.
+
+**Os crioulos de base portuguesa:**
+
+| Crioulo | Onde | Situação |
+|---|---|---|
+| **Cabo-verdiano** (*kriolu*) | Cabo Verde | L1 de **toda** a população; forte movimento de oficialização |
+| **Guineense** (*kriol*) | Guiné-Bissau | língua franca **real** do país |
+| **Forro / Angolar** | São Tomé e Príncipe | em recuo |
+| **Papiá kristang** | Malaca (Malásia) | **ameaçado** — poucos falantes |
+| **Papiamento** (base ibérica) | Aruba, Curaçao | vigoroso, **oficial** |
+
+**A distinção decisiva — crioulo × variedade do português:**
+
+| | **Variedade do português** | **Crioulo** |
+|---|---|---|
+| O que é | o **mesmo** sistema, com diferenças | **outra** língua |
+| Exemplos | PB, PE, português angolano | cabo-verdiano, guineense |
+| Inteligível para um brasileiro? | **sim** | **não** |
+
+**O teste prático**: um brasileiro **entende** um angolano — porque o português angolano é uma
+**variedade do português**. Um brasileiro **não entende** o crioulo cabo-verdiano — porque é
+**outra língua**.
+
+**Por que a distinção importa politicamente**: em Cabo Verde, **todos** falam crioulo em casa e
+português na escola. Chamar o crioulo de "português mal falado" — o que já se fez — é
+desqualificar a língua materna de **um país inteiro** em nome de uma língua que quase ninguém usa
+no cotidiano. É o preconceito linguístico (@sec-cap-91) em escala nacional.
+
+**E a conexão com o @sec-cap-94**: é aqui que se vê por que o PB **não** é crioulo. Compare o PB
+com o cabo-verdiano e a diferença é **imediata**: no cabo-verdiano, o brasileiro **não se vira**;
+no PB, ele está em casa. A tese de Lucchesi fala em **transmissão irregular**, não em crioulização
+— e a comparação torna a distinção palpável.
+:::
+
+## Timor-Leste: a língua como escolha
+
+Um caso que merece atenção, porque contraria toda a lógica colonial.
+
+Timor-Leste foi colônia portuguesa até 1975. Foi então **invadido e ocupado pela Indonésia**, que
+**proibiu** o português e impôs o indonésio. Durante 24 anos de ocupação, o português tornou-se a
+língua da **resistência** — usada clandestinamente pela guerrilha, pela Igreja, pela diplomacia
+do exílio.
+
+Ao conquistar a independência, em **2002**, Timor-Leste **readotou** o português como língua
+cooficial (com o tétum) — embora, nessa altura, quase ninguém o falasse: uma geração inteira
+crescera sob proibição.
 
 ::: {.callout-note}
-Capítulo em preparação.
+## O que Timor ensina
+**A decisão foi de identidade, não de utilidade.** Sob qualquer critério prático, era má escolha:
+o tétum era a língua franca real; o indonésio, a que os jovens sabiam; o inglês, a mais útil
+regionalmente.
+
+**Escolheu-se o português porque ele era o que a ocupação tinha proibido.** Ele significava,
+concretamente, **não ser Indonésia** — era a marca da diferença que justificava a existência do
+país.
+
+**A inversão notável**: em Angola e Moçambique, o português é a língua do **colonizador**, mantida
+por conveniência. Em Timor, é a língua da **resistência ao ocupante** — porque houve um segundo
+colonizador, e o primeiro virou, por contraste, símbolo de identidade.
+
+**A lição** (@sec-cap-91): o valor político de uma língua **não é intrínseco**. Depende
+inteiramente da configuração histórica. A **mesma** língua pode ser opressora num lugar e
+libertadora em outro — e o que decide não é nada que esteja na língua.
+
+**A situação atual, honestamente**: o português avança lentamente em Timor, com apoio de Brasil e
+Portugal, mas o tétum domina o cotidiano e o inglês e o indonésio competem fortemente. É uma
+aposta de Estado, ainda em curso, cujo resultado não está decidido.
+:::
+
+## A crítica ao conceito de "lusofonia"
+
+Chegamos à palavra do título — e ela merece exame.
+
+::: {.callout-important}
+## Por que "lusofonia" é problemática
+O termo é usado o tempo todo, inclusive neste manual, e é criticado por razões sérias.
+
+**As quatro críticas:**
+
+**1. Ela centra a identidade em Portugal.** *Luso* = **lusitano** = português. A palavra define
+oito países **pela relação com o nono** — e o nono é o **menor** em população e o antigo
+colonizador. Um angolano é definido como "lusófono", isto é, **por sua relação com Portugal** — e
+não pelo que ele é.
+
+**2. Ela sugere uma comunidade que não existe.** "Lusofonia" evoca fraternidade e destino comum.
+Mas o que há de fato entre Brasil, Angola e Timor? Pouco: pouco comércio, pouca circulação de
+pessoas, pouco conhecimento mútuo. **O brasileiro médio não sabe nomear os países de língua
+portuguesa** — e não lê um livro angolano na vida. A comunidade é mais **retórica** que real.
+
+**3. Ela apaga o colonialismo.** A "comunidade" existe porque houve **invasão, escravidão e
+exploração**. Celebrar a língua comum sem nomear como ela chegou lá é fazer da violência um
+patrimônio. O português está em Angola porque Portugal o levou — não porque os angolanos o
+escolheram.
+
+**4. Ela invisibiliza as outras línguas.** Chamar Moçambique de "país lusófono" apaga o fato de
+que a **maioria** dos moçambicanos tem como L1 uma língua **banto**. Chamar Cabo Verde de
+"lusófono" apaga que **todos** falam crioulo em casa. O rótulo descreve o Estado e ignora as
+pessoas.
+
+**As respostas possíveis — e é justo apresentá-las:**
+
+- **A língua comum existe**, e é um fato com consequências práticas: um moçambicano estuda no
+  Brasil sem barreira de idioma; livros circulam; há tradução e cooperação real;
+- **Não escolhemos a origem, mas podemos escolher o uso.** A língua é hoje **deles também** — os
+  angolanos não a devolveram, e a literatura angolana em português (Pepetela, Ondjaki, Agualusa)
+  não é literatura portuguesa: é angolana;
+- **O instrumento pode servir a quem o recebeu.** O caso moçambicano mostra a língua do
+  colonizador virando ferramenta de **unidade nacional** e de **descolonização**.
+
+**A posição defensável — e é a do manual:**
+
+Usar o termo com **consciência do que ele esconde**. "Lusofonia" descreve um **fato linguístico**
+(há uma língua comum) e sugere uma **ideologia** (há uma comunidade fraterna, de raiz portuguesa)
+— e a segunda parte é falsa, ou pelo menos muito exagerada.
+
+O que existe de concreto é uma **língua compartilhada** por povos com histórias muito diferentes,
+que a receberam **por violência** e que hoje a usam para fins **próprios**. Isso é
+suficientemente interessante sem a retórica da fraternidade — e a retórica, além de falsa, tem
+função: ela **conforta o antigo colonizador**.
+:::
+
+### A CPLP
+
+A **Comunidade dos Países de Língua Portuguesa**, criada em **1996**, reúne os nove países.
+
+**O que faz**: cooperação técnica, promoção da língua, coordenação diplomática, o Acordo
+Ortográfico (@sec-cap-16), o IILP (Instituto Internacional da Língua Portuguesa).
+
+**A avaliação honesta**: seus resultados são **modestos**. O comércio entre os membros é pequeno,
+a circulação de pessoas é limitada (a livre circulação é discutida há décadas), e a organização
+tem sido criticada por acolher regimes autoritários — o caso da **Guiné Equatorial**, admitida em
+2014 sob compromisso de abolir a pena de morte, que não foi cumprido.
+
+**O que ela é, realisticamente**: um fórum diplomático com valor **simbólico** real e efeitos
+práticos limitados. Não é o embrião de nenhuma comunidade — é uma organização internacional como
+tantas.
+
+## O futuro: a língua vai para a África
+
+::: {.callout-important}
+## A projeção demográfica e o que ela implica
+**Os números**: hoje, o **Brasil** concentra ~80% dos falantes nativos de português. Mas a
+população brasileira está **estabilizando** (taxa de fecundidade abaixo da reposição), enquanto
+**Angola e Moçambique crescem rapidamente**.
+
+**A projeção**: por volta de **2100**, os falantes de português na África podem **superar** os do
+Brasil. Antes disso, já superarão os de Portugal por larga margem — como já superam.
+
+**As implicações, que são grandes:**
+
+**1. A norma deixará de ser bipolar.** Hoje há **dois** centros normativos: Brasil e Portugal. A
+tendência é o surgimento de um **terceiro** — o africano —, com norma própria. Angola já discute
+uma norma angolana, e a discussão é séria: por que um angolano deve escrever como um português?
+
+**2. O português é uma língua PLURICÊNTRICA** — e vai ser mais. Como o inglês (britânico,
+americano, australiano, indiano…) e o espanhol. Não há razão para supor que Lisboa deva arbitrar
+uma língua cuja **imensa maioria** dos falantes está fora de Portugal.
+
+**3. O Brasil não está preparado para isso.** E aqui a autocrítica é necessária: o brasileiro
+médio **não conhece** o português africano, não lê autores africanos, não sabe nomear os países.
+Se a maioria dos falantes será africana, essa ignorância vai custar caro — inclusive em termos de
+influência.
+
+**4. O peso demográfico do Brasil não se traduz em peso normativo — ainda.** Somos ~80% dos
+falantes nativos e ainda tratamos a norma portuguesa como referência em vários pontos
+(@sec-cap-94). É uma anomalia histórica que dificilmente sobreviverá ao século.
+
+**A pergunta em aberto — e ela não é retórica**: o português seguirá **uma** língua com várias
+normas (como o espanhol) ou **divergirá** em línguas distintas (como o latim)?
+
+**Os fatores que pesam a favor da unidade**: a escrita comum, a ortografia unificada, a mídia, a
+internet, a tradução, o contato constante — nada disso existia quando o latim se fragmentou. Roma
+não tinha Netflix.
+
+**Os fatores que pesam a favor da divergência**: a distância **já** é grande e **crescente**
+(@sec-cap-89), o contato real entre os países é **baixo**, e a norma comum é uma ficção que só
+existe na escrita formal.
+
+**A resposta honesta**: **não sabemos** — e a decisão não será linguística (@sec-cap-87,
+@sec-cap-89). Será política, e será tomada por gente que ainda não nasceu.
+:::
+
+::: {.callout-note}
+## Norma-padrão × uso real
+A lusofonia põe a questão da norma em sua escala máxima.
+
+**A pergunta**: qual é a norma do português?
+
+**A resposta**: **não há uma**. Há, no mínimo, **duas** — a brasileira e a europeia —, ambas
+plenamente legítimas, e uma **terceira** se formando na África. O português é **pluricêntrico**.
+
+**O que isso significa na prática:**
+
+- **Não existe** um português "internacional" ou "neutro" — assim como não existe sotaque neutro
+  (@sec-cap-87). O que se chamaria de neutro seria o de alguém;
+- **Cada país** tem sua norma culta, e ela é **soberana**. Um brasileiro não escreve errado por
+  escrever "estou fazendo"; um angolano não escreve errado por usar construções angolanas;
+- **O Acordo Ortográfico** unificou **só a grafia** (@sec-cap-16, @sec-cap-89) — e note o que isso
+  significa aqui: ele **não** criou nem podia criar uma norma comum. A ortografia é a camada mais
+  superficial.
+
+**O erro a evitar — em duas direções:**
+
+- **O colonialismo normativo**: tratar a norma **portuguesa** como "a" norma, e as outras como
+  desvios. É insustentável: ~80% dos falantes nativos são brasileiros, e Portugal tem 4% deles. A
+  norma de 4% não pode arbitrar a língua dos outros 96%;
+- **O imperialismo normativo brasileiro**: e este é o risco **nosso**, que o manual precisa
+  nomear. Achar que, por sermos 80%, a norma brasileira deve valer para Angola. É o mesmo erro
+  com outro sujeito — e a tentação existe.
+
+**A posição correta**: **pluricentrismo**. Cada centro com sua norma; a ortografia comum onde for
+possível; e o **respeito** entre as normas. É o que o espanhol faz razoavelmente bem — a Real
+Academia trabalha hoje **em conjunto** com as academias americanas — e o que o inglês faz sem
+nem discutir: ninguém acha que o americano deva escrever como o britânico.
+
+**E a consequência pedagógica**, que fecha o volume: o aluno brasileiro deve dominar a
+**norma-padrão brasileira** — a dele. Não a portuguesa, e não uma abstração internacional que não
+existe. E deve saber que **existem outras**, igualmente legítimas — porque saber disso é a única
+vacina contra achar que a sua é a natural [@faraco2008].
+:::
+
+## 📋 Quadro-resumo
+
+**Nove países**, quatro continentes, ~**260 milhões** de falantes. **5ª–6ª** língua mais falada.
+
+| País | Pop. | O português é… |
+|---|---|---|
+| **Brasil** | ~213 mi | **L1** — ~**80%** dos falantes nativos do mundo |
+| **Portugal** | ~10 mi | **L1** — a norma europeia |
+| **Angola** | ~36 mi | **L2** da maioria; **avança como L1 urbana** (Luanda) |
+| **Moçambique** | ~33 mi | **L1 de ~17%** |
+| **Guiné-Bissau** | ~2 mi | oficial; o **crioulo** é a franca real |
+| **Cabo Verde** | ~0,5 mi | oficial; o **crioulo** é L1 de **todos** |
+| **S. Tomé e Príncipe** | ~0,2 mi | oficial |
+| **Timor-Leste** | ~1,5 mi | cooficial com o **tétum** |
+| **Guiné Equatorial** | ~1,5 mi | oficial desde **2011** — quase **ninguém fala** |
+
+**Oficial ≠ falado.** Três estatutos: **L1** (casa) · **L2** (escola/rua) · **oficial** (decisão do
+Estado). A **Guiné Equatorial** é o caso extremo: adotou o português em 2011 para entrar na CPLP.
+
+**Angola**: o português **venceu depois da independência**, por **urbanização** (guerra civil,
+êxodo rural, Luanda multiétnica) — não pela imposição colonial.
+
+**Moçambique — o paradoxo**: a FRELIMO adotou a língua **do colonizador** deliberadamente, porque
+era a única **neutra** entre as etnias e a da **unidade nacional**. A língua do colonizador virou
+instrumento de **descolonização**.
+
+**CRIOULOS** — pidgin (**ninguém** o tem como L1) → crianças o adquirem como L1 → **crioulo**
+(língua **plena**, expandida e regularizada).
+
+**Crioulo ≠ variedade do português:**
+
+| | **Variedade** | **Crioulo** |
+|---|---|---|
+| O que é | o **mesmo** sistema | **outra** língua |
+| Exemplos | PB, PE, port. angolano | cabo-verdiano, guineense, forro, papiá kristang |
+| Brasileiro entende? | **sim** | **não** |
+
+**O teste**: o brasileiro entende o angolano; **não** entende o cabo-verdiano. É assim que se vê
+que o **PB não é crioulo** (@sec-cap-94).
+
+**Timor-Leste**: ocupado pela Indonésia (1975–1999), que **proibiu** o português → ele virou a
+língua da **resistência** → **readotado** em 2002 por **identidade**, não por utilidade. **A mesma
+língua pode ser opressora num lugar e libertadora em outro** — o valor político não é intrínseco.
+
+**A crítica a "LUSOFONIA"** — quatro pontos: (1) centra a identidade em **Portugal** (*luso* =
+lusitano) — define 8 países pela relação com o 9º, que é o **menor** e o **colonizador**; (2)
+sugere uma **comunidade que não existe** (pouco comércio, pouco contato, pouco conhecimento
+mútuo); (3) **apaga o colonialismo** — a "comunidade" existe porque houve invasão e escravidão;
+(4) **invisibiliza as outras línguas** — a maioria em Moçambique tem L1 **banto**; em Cabo Verde
+**todos** falam crioulo.
+
+**As respostas**: a língua comum **existe** e tem efeitos práticos · ela é hoje **deles também**
+(Pepetela, Ondjaki, Agualusa **não** são literatura portuguesa) · o instrumento pode servir a quem
+o recebeu (Moçambique).
+
+**CPLP** (1996): fórum diplomático de valor **simbólico**, resultados **modestos**. Criticada por
+acolher regimes autoritários (Guiné Equatorial, 2014).
+
+**O FUTURO**: a **maioria** dos falantes será **africana** antes do fim do século (o Brasil
+estabiliza; Angola e Moçambique crescem). Implicações: a norma deixará de ser **bipolar** —
+surgirá um **terceiro centro**, africano. O português é **PLURICÊNTRICO**, como o inglês e o
+espanhol.
+
+**A pergunta em aberto**: **uma** língua com várias normas (espanhol) ou **divergência** em
+línguas distintas (latim)? **Pela unidade**: escrita comum, ortografia, mídia, internet — **Roma
+não tinha Netflix**. **Pela divergência**: distância já grande e crescente, contato real baixo.
+**Não sabemos** — e a decisão será **política** (@sec-cap-89).
+
+**Os dois erros normativos**: o **colonialismo normativo** (a norma de Portugal — **4%** dos
+falantes — arbitrar a dos outros 96%) e o **imperialismo normativo brasileiro** (achar que, por
+sermos 80%, nossa norma vale para Angola). A posição correta: **pluricentrismo**.
+
+## ⚠️ Pegadinhas e erros comuns
+
+- **Achar que "língua oficial" significa "língua falada".** **Guiné Equatorial**: oficial desde
+  2011, quase ninguém fala.
+- **Somar populações para contar falantes.** Moçambique tem 33 mi de habitantes e o português é
+  L1 de **~17%**. Os números da lusofonia são inflados assim.
+- **Achar que crioulo é "português mal falado".** É **outra língua**, plena. O brasileiro **não
+  entende** o cabo-verdiano.
+- **Confundir pidgin e crioulo.** **Pidgin**: ninguém o tem como L1. **Crioulo**: as crianças o
+  adquirem como L1 e o **expandem**.
+- **Achar que o PB é crioulo.** Compare com o cabo-verdiano: lá o brasileiro **não se vira**
+  (@sec-cap-94).
+- **Achar que o português foi imposto na África só pelo colonialismo.** Em **Angola**, ele venceu
+  **depois** da independência, por **urbanização**.
+- **Achar que adotar a língua do colonizador é sempre submissão.** **Moçambique**: era a única
+  **neutra** entre etnias — virou ferramenta de **unidade**.
+- **Achar que o valor político de uma língua é intrínseco.** **Timor**: o português foi a língua da
+  **resistência**, porque a Indonésia o proibiu.
+- **Usar "lusofonia" sem consciência.** Centra tudo em Portugal, apaga o colonialismo e
+  invisibiliza as línguas africanas.
+- **Achar que existe um português "neutro" ou "internacional".** Não existe — como não existe
+  sotaque neutro (@sec-cap-87).
+- **Achar que Portugal arbitra a norma.** Portugal tem **~4%** dos falantes nativos.
+- **Achar que o Brasil deve arbitrar a norma.** É o **mesmo erro** com outro sujeito. A resposta é
+  **pluricentrismo**.
+
+## ✍️ Exercícios
+
+**1.** Distinga língua materna, segunda língua e língua oficial, com exemplos da lusofonia.
+
+::: {.callout-tip collapse="true"}
+## Solução
+| Estatuto | O que significa | Exemplo |
+|---|---|---|
+| **Língua materna (L1)** | adquirida na **infância**, em casa, naturalmente | português no **Brasil** e em **Portugal**; **crioulo** em Cabo Verde |
+| **Segunda língua (L2)** | aprendida **depois**, na escola ou na rua | português para a maioria em **Moçambique** e **Angola** |
+| **Língua oficial** | **decisão do Estado** — estatuto **jurídico** | português na **Guiné Equatorial** |
+
+**O ponto central**: os três **não coincidem**, e a expressão "país de língua portuguesa" os
+embaralha.
+
+**Os casos que demonstram:**
+
+- **Moçambique**: o português é **oficial**, mas é **L1 de apenas ~17%**. A maioria tem como L1
+  uma língua **banto** (emakhuwa, xichangana, cisena);
+- **Cabo Verde**: o português é **oficial**, mas o **crioulo** é **L1 de toda a população**.
+  Ninguém fala português em casa;
+- **Guiné Equatorial** — o caso extremo: adotou o português como oficial em **2011** e **quase
+  ninguém o fala** (a franca é o espanhol e o francês). Foi um **gesto diplomático**: a condição
+  para entrar na CPLP, num país cujo governo buscava legitimação internacional.
+
+**O que a Guiné Equatorial ensina**: "língua oficial" é **estatuto jurídico**, não fato
+demográfico. É política linguística no estado mais puro (@sec-cap-91).
+
+**A consequência prática — e é o que a questão cobra:**
+
+Somar as **populações** dos países "lusófonos" para contar falantes de português **infla**
+grosseiramente o número. Moçambique tem 33 milhões de habitantes, mas ~5,6 milhões de falantes
+nativos. A Guiné Equatorial contribui com ~1,5 milhão de habitantes e praticamente **zero**
+falantes.
+
+Somar Brasil (213 milhões de nativos) e Guiné Equatorial (nenhum) numa mesma lista produz um
+**número impressionante** e uma **descrição ruim**. Os números da lusofonia costumam ser inflados
+exatamente assim — e o inflacionamento não é inocente: ele serve à retórica da comunidade.
+:::
+
+**2.** O que é um crioulo? Distinga-o de uma variedade do português.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A definição, em duas etapas:**
+
+1. **Pidgin** — língua **de contato**, simplificada, que **ninguém tem como língua materna**. Nasce
+   quando falantes sem língua comum precisam se comunicar (comércio, plantação). É funcional e
+   **limitado**;
+2. **Crioulo** — o que acontece quando uma geração de **crianças adquire o pidgin como L1**. Elas o
+   **expandem e regularizam** — criam gramática onde havia improviso — e o resultado é uma língua
+   **plena**.
+
+**O ponto que não se pode perder**: crioulos são **línguas completas**. Têm gramática, sintaxe
+complexa, literatura, capacidade expressiva plena. Um crioulo **não** é "português mal falado" — é
+**outra língua**, com sistema próprio.
+
+**A distinção decisiva:**
+
+| | **Variedade do português** | **Crioulo** |
+|---|---|---|
+| O que é | o **mesmo** sistema, com diferenças | **outra** língua |
+| Origem | transmissão **contínua** do português | **pidgin** nativizado |
+| Exemplos | PB, PE, português angolano, moçambicano | cabo-verdiano, guineense, forro, papiá kristang |
+| Brasileiro entende? | **sim** | **não** |
+
+**O teste prático, que resolve na hora**: um brasileiro **entende** um angolano — porque o
+português angolano é uma **variedade do português**, com fonologia e léxico próprios, mas o mesmo
+sistema. Um brasileiro **não entende** o crioulo cabo-verdiano — porque é **outra língua**.
+
+**Os crioulos de base portuguesa:**
+
+| Crioulo | Onde | Situação |
+|---|---|---|
+| **Cabo-verdiano** (*kriolu*) | Cabo Verde | L1 de **toda** a população |
+| **Guineense** (*kriol*) | Guiné-Bissau | língua franca **real** |
+| **Forro / Angolar** | São Tomé | em recuo |
+| **Papiá kristang** | Malaca | **ameaçado** |
+
+**Por que a distinção importa politicamente**: em Cabo Verde, **todos** falam crioulo em casa e
+português na escola. Chamar o crioulo de "português mal falado" — o que já se fez — é
+desqualificar a **língua materna de um país inteiro** em nome de uma língua que quase ninguém usa
+no cotidiano. É o preconceito linguístico (@sec-cap-91) em **escala nacional**.
+
+**E a conexão com o @sec-cap-94**: é aqui que se vê por que o **PB não é crioulo**. Compare o PB
+com o cabo-verdiano e a diferença é **imediata**: no cabo-verdiano o brasileiro não se vira; no
+PB, está em casa. A tese de Lucchesi fala em **transmissão irregular** — não em crioulização — e a
+comparação torna a distinção palpável.
+:::
+
+**3.** Explique o paradoxo moçambicano.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O paradoxo**: ao conquistar a independência (1975), a FRELIMO adotou como língua oficial o
+**português** — a língua **do colonizador** — deliberadamente, em vez de uma língua nacional.
+
+**Por quê — três razões:**
+
+1. **Era a única língua NEUTRA entre as etnias.** Moçambique tem dezenas de línguas banto
+   (emakhuwa, xichangana, cisena, entre outras). **Escolher uma delas seria privilegiar um grupo**
+   — e, num país recém-independente e etnicamente diverso, isso poderia significar conflito. O
+   português não pertencia a **nenhum** grupo interno, e por isso não favorecia ninguém;
+2. **Era a língua da unidade nacional e da administração** — do Estado que se estava construindo;
+3. **Era a língua da luta.** Os militantes de diferentes etnias comunicavam-se **entre si** em
+   português. A língua da resistência, na prática, era a do colonizador — porque era a única
+   comum aos que resistiam.
+
+**O paradoxo formulado**: **a língua do colonizador tornou-se instrumento de descolonização** —
+porque era a única que não pertencia a nenhum dos grupos internos.
+
+**O que o caso ensina — e é o que a questão cobra:**
+
+**A relação entre língua e poder não é mecânica.** O senso comum diz: língua do colonizador =
+opressão; língua nativa = libertação. O caso moçambicano mostra que a equação **pode se inverter**,
+e que a inversão pode ser uma decisão **racional e progressista**, tomada por quem lutou contra o
+colonizador.
+
+**O custo, que a resposta honesta reconhece**: a escolha teve preço. As línguas nacionais
+moçambicanas ficaram **fora** da escola e da administração por décadas, e a maioria da população
+foi governada numa língua que **não falava** — o que é, ele próprio, um problema democrático.
+Moçambique vem revendo isso, com programas de educação bilíngue.
+
+**A comparação que ilumina** (@sec-cap-91): compare com o **Diretório dos Índios** (1757), em que
+o português também foi imposto — mas **por** um colonizador, **contra** a população. Mesma língua,
+mesmo ato (tornar oficial), **sentidos políticos opostos**.
+
+**A lição geral**: o valor político de uma língua **não é intrínseco** — depende inteiramente da
+configuração histórica. É o mesmo que o caso de **Timor-Leste** ensina pelo outro lado: lá, o
+português foi a língua da **resistência** porque a Indonésia o **proibiu**. A mesma língua pode
+ser opressora num lugar e libertadora em outro, e o que decide não é nada que esteja **na
+língua**.
+:::
+
+**4.** Por que o conceito de "lusofonia" é criticado?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**As quatro críticas:**
+
+**1. Centra a identidade em Portugal.** *Luso* = **lusitano** = português. A palavra define oito
+países **pela relação com o nono** — e o nono é o **menor** em população (10 milhões, ~4% dos
+falantes) e o **antigo colonizador**. Um angolano é definido como "lusófono", isto é, **por sua
+relação com Portugal**, e não pelo que ele é.
+
+**2. Sugere uma comunidade que não existe.** "Lusofonia" evoca fraternidade e destino comum. Mas o
+que há **de fato** entre Brasil, Angola e Timor? Pouco comércio, pouca circulação de pessoas,
+pouco conhecimento mútuo. **O brasileiro médio não sabe nomear os países de língua portuguesa** e
+não lê um livro angolano na vida. A comunidade é mais **retórica** que real.
+
+**3. Apaga o colonialismo.** A "comunidade" existe porque houve **invasão, escravidão e
+exploração**. Celebrar a língua comum **sem nomear como ela chegou lá** é transformar violência em
+patrimônio. O português está em Angola porque Portugal o levou — não porque os angolanos o
+escolheram.
+
+**4. Invisibiliza as outras línguas.** Chamar Moçambique de "país lusófono" apaga que a
+**maioria** tem L1 **banto**. Chamar Cabo Verde de "lusófono" apaga que **todos** falam crioulo em
+casa. O rótulo descreve o **Estado** e ignora as **pessoas**.
+
+**As respostas possíveis — e é justo apresentá-las:**
+
+- **A língua comum existe** e tem consequências práticas: um moçambicano estuda no Brasil sem
+  barreira de idioma; livros circulam; há cooperação real;
+- **Não escolhemos a origem, mas escolhemos o uso.** A língua é hoje **deles também** — os
+  angolanos não a devolveram. **Pepetela, Ondjaki e Agualusa não são literatura portuguesa: são
+  angolana**, e usam o português para dizer o que Portugal não diria;
+- **O instrumento pode servir a quem o recebeu** — o caso moçambicano.
+
+**A posição defensável — a do manual:**
+
+Usar o termo **com consciência do que ele esconde**. "Lusofonia" descreve um **fato linguístico**
+(há uma língua comum) **e** sugere uma **ideologia** (há uma comunidade fraterna, de raiz
+portuguesa). A primeira parte é verdadeira; a segunda é falsa, ou muito exagerada.
+
+O que existe de concreto é uma **língua compartilhada** por povos de histórias muito diferentes,
+que a receberam **por violência** e hoje a usam para fins **próprios**. Isso é suficientemente
+interessante **sem** a retórica da fraternidade.
+
+**E a observação final, que é a mais aguda**: a retórica não é inocente — ela **conforta o antigo
+colonizador**. Transformar o império numa "comunidade" permite lembrar a língua e esquecer os
+navios.
+:::
+
+**5.** Explique o caso de Timor-Leste e o que ele ensina.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A história:**
+
+- Timor-Leste foi **colônia portuguesa** até 1975;
+- Foi então **invadido e ocupado pela Indonésia**, que **proibiu** o português e impôs o
+  indonésio;
+- Durante **24 anos** de ocupação, o português tornou-se a língua da **resistência** — usada
+  clandestinamente pela guerrilha, pela Igreja e pela diplomacia do exílio;
+- Ao conquistar a independência, em **2002**, Timor **readotou** o português como cooficial (com o
+  **tétum**) — embora, a essa altura, quase ninguém o falasse: uma geração inteira crescera sob
+  proibição.
+
+**Por que a decisão é notável:**
+
+**Sob qualquer critério prático, era má escolha.** O **tétum** era a língua franca real; o
+**indonésio**, a que os jovens sabiam; o **inglês**, a mais útil regionalmente. O português era
+falado por uma minoria envelhecida.
+
+**Escolheu-se o português porque ele era o que a ocupação tinha PROIBIDO.** Ele significava,
+concretamente, **não ser Indonésia** — era a marca da diferença que justificava a existência do
+país. A decisão foi de **identidade**, não de utilidade.
+
+**A inversão notável** — e é o que a questão cobra:
+
+- Em **Angola** e **Moçambique**, o português é a língua do **colonizador**, mantida por
+  conveniência (neutralidade entre etnias, unidade nacional);
+- Em **Timor**, é a língua da **resistência ao ocupante** — porque houve um **segundo**
+  colonizador, e o primeiro virou, por contraste, símbolo de identidade.
+
+**A lição geral** (@sec-cap-91): **o valor político de uma língua não é intrínseco.** Depende
+inteiramente da configuração histórica. **A mesma língua pode ser opressora num lugar e
+libertadora em outro** — e o que decide não é nada que esteja **na língua**: é quem a proibiu, quem
+a impôs, e contra quem.
+
+O português em Timor é o **mesmo** português que Pombal impôs aos índios do Brasil (@sec-cap-91).
+Um foi apagamento; o outro, resistência. A língua é idêntica; a política, oposta.
+
+**A situação atual, honestamente**: o português **avança lentamente** em Timor, com apoio de
+Brasil e Portugal, mas o **tétum domina o cotidiano** e o inglês e o indonésio competem
+fortemente. É uma **aposta de Estado**, ainda em curso, cujo resultado **não está decidido** — e
+que ilustra os limites da política linguística: proclamar uma língua oficial não faz ninguém
+falá-la.
+:::
+
+**6.** Explique a projeção demográfica do português e suas implicações.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Os números atuais**: o **Brasil** concentra ~**80%** dos falantes nativos de português;
+**Portugal**, ~**4%**.
+
+**A tendência**: a população brasileira está **estabilizando** (fecundidade abaixo da reposição),
+enquanto **Angola e Moçambique crescem rapidamente**.
+
+**A projeção**: por volta de **2100**, os falantes de português na **África** podem **superar** os
+do Brasil. Os de Portugal já foram superados há muito.
+
+**As quatro implicações:**
+
+**1. A norma deixará de ser bipolar.** Hoje há **dois** centros normativos: Brasil e Portugal. A
+tendência é o surgimento de um **terceiro** — o **africano** —, com norma própria. Angola já
+discute uma norma angolana, e a discussão é séria: **por que um angolano deve escrever como um
+português?**
+
+**2. O português é PLURICÊNTRICO — e será mais.** Como o **inglês** (britânico, americano,
+australiano, indiano) e o **espanhol**. Não há razão para supor que **Lisboa** deva arbitrar uma
+língua cuja imensa maioria dos falantes está **fora** de Portugal.
+
+**3. O Brasil não está preparado.** E aqui a autocrítica é necessária: o brasileiro médio **não
+conhece** o português africano, **não lê** autores africanos, **não sabe nomear** os países. Se a
+maioria dos falantes será africana, essa ignorância vai **custar caro** — inclusive em influência.
+
+**4. Nosso peso demográfico não se traduz em peso normativo — ainda.** Somos ~80% dos falantes
+nativos e ainda tratamos a norma portuguesa como referência em vários pontos (@sec-cap-94). É uma
+**anomalia histórica** que dificilmente sobreviverá ao século.
+
+**A pergunta em aberto — e não é retórica**: o português seguirá **uma** língua com várias normas
+(como o espanhol) ou **divergirá** em línguas distintas (como o latim)?
+
+| Pela **unidade** | Pela **divergência** |
+|---|---|
+| escrita comum e ortografia unificada | a distância **já** é grande e **crescente** (@sec-cap-89) |
+| mídia, internet, tradução, contato constante | o contato **real** entre os países é **baixo** |
+| — | a norma comum é ficção que só existe na escrita formal |
+
+**O argumento mais forte pela unidade**: nada disso existia quando o latim se fragmentou. **Roma
+não tinha Netflix** — nem imprensa, nem escola de massa, nem ortografia decretada. As forças de
+padronização hoje são incomparavelmente maiores.
+
+**A resposta honesta**: **não sabemos** — e a decisão **não será linguística** (@sec-cap-87,
+@sec-cap-89). Será **política**, e será tomada por gente que ainda não nasceu.
+:::
+
+**7.** Por que o português está se tornando língua materna em Angola?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**O fato**: o português, imposto pelo colonialismo, **está se tornando língua materna** em Angola
+— sobretudo em **Luanda**. As línguas nacionais (umbundo, quimbundo, quicongo) **recuam** nas
+cidades.
+
+**As causas — todas pós-independência:**
+
+1. **A guerra civil (1975–2002)** — deslocou milhões de pessoas, desorganizando as comunidades
+   linguísticas tradicionais;
+2. **O êxodo rural maciço** — a guerra empurrou a população do campo para as cidades;
+3. **A urbanização acelerada** — **Luanda** reuniu pessoas de **todas** as etnias e línguas do
+   país.
+
+**O mecanismo**: numa cidade multiétnica, onde vizinhos falam línguas diferentes, é preciso uma
+língua **franca**. O português já estava lá — era a língua da escola, da administração, da mídia —
+e assumiu esse papel.
+
+**E então o passo decisivo**: as crianças **nascidas em Luanda**, de pais de etnias diferentes que
+se comunicavam **em português**, adquiriram o português como **língua materna**. Em uma geração, a
+franca virou **L1**.
+
+**A ironia central — e é o que a questão cobra:**
+
+**A língua do colonizador venceu DEPOIS da independência**, e por razões **internas**. Não foi a
+imposição colonial que a fez vencer — o colonialismo, aliás, restringia o acesso dos africanos ao
+português, que era marca de status (*assimilado*).
+
+Foi a **urbanização**, num país livre, que fez o trabalho que séculos de colonialismo não haviam
+feito. É um resultado que ninguém planejou e que ninguém queria — nem os colonizadores, nem os
+libertadores.
+
+**A conexão com o @sec-cap-94**: note o **paralelo** com o Brasil. Também aqui a língua se impôs
+por processos demográficos — mistura de populações, necessidade de franca, transmissão às
+crianças de pais de origens diversas. **Luanda hoje é São Paulo no século XVII** — com a diferença
+de que lá o processo está acontecendo à vista, documentado, em tempo real.
+
+**O português angolano** que resulta disso **não é o português europeu**: tem fonologia
+influenciada pelas línguas banto, léxico próprio (*candongueiro*, *musseque*, *kizomba*, *bué* —
+que já entrou no PE juvenil) e construções que a norma portuguesa não reconhece.
+
+**A consequência que fecha**: se o português angolano é hoje L1 de milhões de pessoas nascidas em
+Luanda, então ele é uma **variedade nativa** — e variedades nativas têm direito a **norma
+própria** (@sec-cap-91). É exatamente o argumento que o Brasil fez no século XIX contra Portugal,
+agora feito por Angola. E é difícil, para um brasileiro, achar razão contra ele.
+:::
+
+**8.** (Estilo Cebraspe — julgue C ou E)
+
+I. O crioulo cabo-verdiano é uma variedade do português, mutuamente inteligível com o PB.
+II. Em Moçambique, o português é língua materna da maioria da população.
+III. A Guiné Equatorial adotou o português como língua oficial em 2011.
+IV. Projeta-se que a maioria dos falantes de português seja africana antes do fim do século XXI.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**I — ERRADO**, e o item é falso **duas vezes**:
+
+- O cabo-verdiano **não** é variedade do português: é um **crioulo**, isto é, **outra língua**,
+  nascida da nativização de um pidgin. Tem sistema próprio, gramática própria, literatura própria;
+- **Não** é mutuamente inteligível com o PB: um brasileiro **não entende** o crioulo
+  cabo-verdiano.
+
+**O teste que separa**: o brasileiro **entende** o angolano (variedade do português) e **não
+entende** o cabo-verdiano (crioulo). É exatamente essa comparação que mostra por que o **PB não é
+crioulo** (@sec-cap-94).
+
+**II — ERRADO.** Em Moçambique, o português é L1 de **cerca de 17%** — uma **minoria**. A maioria
+tem como L1 uma língua **banto** (emakhuwa, xichangana, cisena). O português é **oficial** e L2 de
+muitos.
+
+O item explora a confusão central do capítulo: **oficial ≠ falado**. Somar os 33 milhões de
+habitantes de Moçambique aos "falantes de português" é o modo padrão de inflar os números da
+lusofonia.
+
+**III — CERTO.** A Guiné Equatorial adotou o português como língua oficial em **2011** — e **quase
+ninguém o fala** ali (a franca é o espanhol e o francês). Foi **gesto diplomático**: a condição
+para ingressar na **CPLP**, num país cujo governo buscava legitimação internacional. É o caso
+extremo de "língua oficial" como **estatuto jurídico** sem lastro demográfico — política
+linguística pura (@sec-cap-91).
+
+**IV — CERTO.** O Brasil concentra hoje ~80% dos falantes nativos, mas sua população **estabiliza**
+(fecundidade abaixo da reposição), enquanto **Angola e Moçambique crescem rapidamente**. A
+projeção é que, por volta de **2100**, os falantes africanos **superem** os brasileiros.
+
+A implicação: a norma deixará de ser **bipolar** (Brasil/Portugal) e surgirá um **terceiro
+centro**, africano. O português é **pluricêntrico** e será mais.
+
+**Gabarito: E, E, C, C.**
+:::
+
+**9.** (Estilo ENEM) Sobre a norma do português no mundo, é correto afirmar:
+
+a) a norma de Portugal deve prevalecer, por ser o país de origem da língua;
+b) a norma do Brasil deve prevalecer, por concentrar cerca de 80% dos falantes nativos;
+c) o português é uma língua pluricêntrica, com normas legítimas em diferentes países;
+d) existe um português internacional neutro, que deve ser adotado por todos;
+e) o Acordo Ortográfico de 1990 estabeleceu uma norma única para a língua.
+
+::: {.callout-tip collapse="true"}
+## Solução
+**Gabarito: c.**
+
+**Por que c está certa**: o português é **pluricêntrico** — como o **inglês** (britânico,
+americano, australiano, indiano) e o **espanhol**. Há hoje, no mínimo, **duas** normas plenamente
+legítimas (a brasileira e a europeia) e uma **terceira** se formando na África. Cada centro tem
+sua norma culta, e ela é **soberana**.
+
+**Por que as outras erram:**
+
+**a)** Falso, e é o **colonialismo normativo**. Ser país de origem não confere autoridade
+normativa — e o argumento se desfaz nos números: Portugal tem **~4%** dos falantes nativos. **A
+norma de 4% não pode arbitrar a língua dos outros 96%.** Além disso, o @sec-cap-93 mostrou que
+Portugal **não** conservou o português original: inovou tanto quanto o Brasil, em pontos
+diferentes. Não há sequer o argumento da fidelidade.
+
+**b)** Falso — e é o erro **simétrico**, que o manual precisa nomear porque é **o nosso**: o
+**imperialismo normativo brasileiro**. Achar que, por sermos 80%, nossa norma deve valer para
+Angola é o **mesmo erro** de (a), com outro sujeito. Peso demográfico não gera direito normativo;
+se gerasse, (a) estaria certa quando Portugal era maioria.
+
+**d)** Falso. **Não existe** português "internacional" ou "neutro" — assim como **não existe
+sotaque neutro** (@sec-cap-87). O que se chamasse de neutro seria, concretamente, **o de alguém** —
+e adotá-lo seria (a) ou (b) com outro nome. A neutralidade é sempre a régua de quem a propõe.
+
+**e)** Falso, e é a confusão mais comum sobre o Acordo. Ele unificou **apenas a ortografia**
+(@sec-cap-16, @sec-cap-89) — e, ironicamente, a camada em que as variedades **menos** divergiam.
+**Não** tocou pronúncia, léxico, sintaxe, nem as normas. Continuam existindo duas (e em breve
+três).
+
+**O padrão** (@sec-cap-85): (a) e (b) são os dois **imperialismos simétricos**; (d) é a falsa
+neutralidade; (e) é o erro factual sobre o Acordo. A correta é a **descritiva e plural** — a que
+não elege ninguém para arbitrar.
+
+**A consequência pedagógica**: o aluno brasileiro deve dominar a **norma-padrão brasileira** — a
+dele. Não a portuguesa, nem uma abstração internacional que não existe. E deve **saber que
+existem outras**, igualmente legítimas — porque saber disso é a única vacina contra achar que a
+sua é a **natural** [@faraco2008].
+:::
+
+**10.** O português seguirá uma língua ou se fragmentará como o latim?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A resposta honesta**: **não sabemos** — e a pergunta, como o @sec-cap-87 e o @sec-cap-89
+mostraram, **não é linguística**. Não existe critério que separe "uma língua com várias normas" de
+"línguas distintas". A decisão será **política**.
+
+Mas é possível pesar os fatores.
+
+**Os fatores PELA UNIDADE:**
+
+1. **A escrita comum e a ortografia unificada** (Acordo de 1990) — uma âncora simbólica e
+   prática;
+2. **A mídia e a internet** — brasileiros e portugueses se ouvem diariamente, o que não acontecia
+   antes;
+3. **A tradução, a cooperação, a circulação de livros**;
+4. **A escola de massa** — cada geração aprende a norma por ensino explícito, o que retarda a
+   deriva na escrita (@sec-cap-93).
+
+**O argumento mais forte**: **nada disso existia quando o latim se fragmentou**. Roma não tinha
+imprensa, nem escola de massa, nem ortografia decretada, nem rádio — e, sobretudo, as províncias
+**perderam contato** entre si quando o Império caiu. **Roma não tinha Netflix.** As forças de
+padronização hoje são **incomparavelmente maiores**.
+
+**Os fatores PELA DIVERGÊNCIA:**
+
+1. **A distância já é grande e crescente** (@sec-cap-89) — sobretudo na fala e na sintaxe;
+2. **O contato real entre os países é baixo** — o brasileiro médio não lê um livro angolano e não
+   assiste a cinema português. A "comunidade" é mais retórica que efetiva;
+3. **A norma comum é uma ficção** que só existe na **escrita formal**. Na fala, já não há norma
+   comum nenhuma;
+4. **Os centros vão se multiplicar** — a África terá o seu, e terá razões para tê-lo.
+
+**A analogia mais útil — o espanhol:**
+
+O espanhol tem **20 países** e distâncias comparáveis, e **não** se fragmentou. Por quê? Porque
+manteve escrita comum, contato cultural intenso (novelas, música, literatura circulando) e
+instituições que **cooperam**: a Real Academia trabalha hoje **em conjunto** com as academias
+americanas, em vez de arbitrar sobre elas.
+
+**A lição que o espanhol oferece**: a unidade não é natural — é **construída** e **mantida**. E é
+mantida por **contato**, não por autoridade. Onde houve cooperação, houve unidade; onde houvesse
+imposição, haveria ruptura.
+
+**A consequência para o português** — e é a resposta que a questão cobra:
+
+Se o português quiser seguir **uma** língua, o caminho é o **contato** e o **pluricentrismo**, não
+a autoridade normativa. Ou seja: **ler os angolanos**, traduzir, circular, e aceitar que a norma
+de Luanda é tão legítima quanto a de Lisboa e a do Rio.
+
+O maior risco à unidade **não** é a divergência gramatical — é a **indiferença**. Línguas não se
+separam por mudarem: separam-se quando seus falantes **deixam de se interessar** uns pelos
+outros. E, nesse quesito, o Brasil vem fazendo pouco.
+:::
+
+**11.** Analise: "Somos 260 milhões de lusófonos, uma grande comunidade fraterna."
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A frase é falsa em quase tudo o que afirma.** Três problemas.
+
+**Problema 1 — o número está inflado.**
+
+Os **260 milhões** somam **populações de países**, não **falantes**. Mas:
+
+- **Moçambique**: 33 milhões de habitantes, português é L1 de **~17%** (~5,6 milhões);
+- **Guiné-Bissau**: o **crioulo** é a franca real; o português é falado por uma minoria;
+- **Cabo Verde**: **todos** falam **crioulo** em casa;
+- **Timor-Leste**: o português é L1 de **pouquíssimos**;
+- **Guiné Equatorial**: oficial desde 2011 — **quase ninguém fala**.
+
+Somar Brasil (213 milhões de nativos) e Guiné Equatorial (praticamente zero) numa mesma conta
+produz um **número impressionante** e uma **descrição ruim**. O erro é confundir **língua oficial**
+(estatuto jurídico) com **língua falada** (fato demográfico).
+
+**Problema 2 — "lusófonos" centra tudo em Portugal.**
+
+*Luso* = **lusitano** = português. O termo define oito países **pela relação com o nono** — que é
+o **menor** (~4% dos falantes) e o **antigo colonizador**. Um angolano é nomeado por sua relação
+com Portugal, e não pelo que é.
+
+**Problema 3 — "comunidade fraterna" é retórica, e a retórica tem função.**
+
+**O que há de fato** entre Brasil, Angola e Timor?
+
+- pouco **comércio**;
+- pouca **circulação de pessoas** (a livre circulação é discutida na CPLP há décadas, sem
+  resultado);
+- pouco **conhecimento mútuo** — o brasileiro médio não sabe nomear os países de língua
+  portuguesa e não lê um livro angolano na vida;
+- a **CPLP** tem resultados modestos e já acolheu regimes autoritários (Guiné Equatorial, 2014,
+  sob compromisso de abolir a pena de morte — não cumprido).
+
+**E "fraterna" apaga o essencial**: a "comunidade" existe porque houve **invasão, escravidão e
+exploração**. O português está em Angola porque Portugal o **levou**. Chamar isso de fraternidade
+é transformar violência em patrimônio — e **conforta o antigo colonizador**, permitindo lembrar a
+língua e esquecer os navios.
+
+**O que se pode dizer com honestidade** — e é o que a resposta madura oferece:
+
+> Existe uma **língua compartilhada** por povos de histórias muito diferentes, que a receberam
+> **por violência** e que hoje a usam para fins **próprios**.
+
+Isso é **suficientemente interessante** sem a retórica. E permite reconhecer o que há de real:
+
+- a língua comum **tem** efeitos práticos: um moçambicano estuda no Brasil sem barreira de idioma;
+- a língua é hoje **deles também** — **Pepetela, Ondjaki e Agualusa não são literatura portuguesa:
+  são angolana**;
+- o instrumento **pode servir** a quem o recebeu (o caso moçambicano).
+
+**A conclusão**: não somos 260 milhões, não somos "lusófonos" sem problematizar o termo, e não
+somos uma comunidade fraterna. **Compartilhamos uma língua** — e isso, já é bastante, e é
+verdade.
+:::
+
+**12.** Como o pluricentrismo se relaciona com tudo o que o manual sustentou sobre norma?
+
+::: {.callout-tip collapse="true"}
+## Solução
+**A relação é direta**: o pluricentrismo é a tese do manual sobre norma, **aplicada em escala
+internacional**.
+
+**O paralelo, ponto a ponto:**
+
+| Dentro do Brasil (@sec-cap-87, @sec-cap-91) | Entre os países (@sec-cap-95) |
+|---|---|
+| Não existe **sotaque neutro** — o "neutro" é o falar culto Rio–SP | Não existe **português internacional** — o "neutro" seria o de alguém |
+| Nenhuma variedade é superior; o prestígio é fato **social** | Nenhuma **norma nacional** é superior; a hierarquia é **política** |
+| O aluno tem direito à norma-padrão **brasileira** | Cada país tem direito à **sua** norma |
+| Quem só descreve **abandona**; quem só prescreve **humilha** | Quem impõe a própria norma **coloniza**; quem nega a norma **desarma** |
+
+**A lógica é a mesma**: a autoridade normativa acompanha o **poder**, não a **língua**. Dentro do
+Brasil, a norma reflete a fala dos grupos de prestígio (@sec-cap-88). Entre países, refletiu por
+séculos a posição de Portugal — que hoje tem **4%** dos falantes.
+
+**Os dois erros simétricos, e é aqui que a resposta precisa ser honesta:**
+
+- **O colonialismo normativo**: tratar a norma **portuguesa** como "a" norma e as outras como
+  desvios. É o mito 2 do @sec-cap-91 ("quem sabe português é Portugal") em escala institucional —
+  e é insustentável, inclusive historicamente: o @sec-cap-93 mostrou que **Portugal também
+  inovou**;
+- **O imperialismo normativo brasileiro**: achar que, por sermos 80% dos falantes, nossa norma
+  deve valer para Angola. **É o mesmo erro com outro sujeito.** E é o risco **nosso** — o que o
+  manual precisa nomear, porque é fácil criticar o imperialismo dos outros.
+
+**Por que os dois são o mesmo erro**: ambos supõem que **alguém** deve arbitrar. A tese
+pluricêntrica é que **ninguém** deve — que cada centro tem norma própria e legítima, e que a
+relação entre elas é de **respeito**, não de hierarquia.
+
+**Os modelos que funcionam:**
+
+- **O espanhol**: a Real Academia trabalha hoje **em conjunto** com as academias americanas, em vez
+  de arbitrar sobre elas. Resultado: unidade **construída por cooperação**;
+- **O inglês**: nem discute. **Ninguém** acha que o americano deva escrever como o britânico — e a
+  língua não se fragmentou por isso.
+
+**A consequência pedagógica, que fecha o volume e o manual:**
+
+O aluno brasileiro deve:
+
+1. **Dominar a norma-padrão brasileira** — a **dele**. Não a portuguesa, não uma abstração
+   internacional inexistente. Com competência, porque ela vale socialmente **agora**;
+2. **Saber que existem outras**, igualmente legítimas.
+
+**Por que o item 2 importa tanto**: porque saber que existem outras normas é **a única vacina
+contra achar que a sua é a natural**. O aluno que sabe que o angolano escreve diferente **e não
+erra** entende, por analogia imediata, que o vizinho dele que fala diferente **também não erra**.
+
+**A síntese**: o pluricentrismo internacional e o combate ao preconceito linguístico interno são
+**o mesmo argumento**, em escalas diferentes. Quem entende por que Luanda não deve escrever como
+Lisboa entende por que o sertão não deve falar como a Faria Lima. E quem não entende uma das duas
+coisas provavelmente não entendeu nenhuma [@faraco2008].
+:::
+
+## 📚 Referências
+
+Para o quadro histórico da expansão e das variedades, ver Teyssier [@teyssier2007]. A discussão
+sobre norma, pluricentrismo e o estatuto da norma brasileira segue Faraco [@faraco2008]; sobre a
+formação das variedades em situação de contato, Lucchesi, Baxter e Ribeiro [@lucchesi2009] e
+Mattos e Silva [@mattosesilva2004]. A descrição do PB, que serve de contraponto às variedades
+africanas, apoia-se em Castilho [@castilho2010]. Sobre política linguística e a crítica ao
+conceito de lusofonia, retomam-se as posições de Bagno [@bagno2007] e o @sec-cap-91; o Acordo
+Ortográfico é tratado no @sec-cap-16.
+
+O próximo capítulo muda de assunto e fecha o manual por outro caminho: a @sec-cap-96 abre a
+**estilística** — o estudo da expressividade —, seguida da **versificação** (@sec-cap-97) e da
+**análise literária** (@sec-cap-98).
+
+::: {#refs}
 :::
